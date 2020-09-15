@@ -5,6 +5,7 @@
 layout: home
 
 ---
+# EEGLAB Wiki
 [right|400px](/Image:Eeglab_small.jpg "wikilink")
 
 ## Links and Documentation
