@@ -86,7 +86,8 @@ Other type of documentation are listed below.
 
 ## EEGLAB Workshops
 
-![300px|thumb|right|upright=3|Mugs from the 17th EEGLAB workshop](/assets/images/EEGLAB-mug-shot.png)
+[300px|thumb|right|upright=3|Mugs from the 17th EEGLAB
+workshop](/assets/images/EEGLAB-mug-shot.png)
 
   -
     [<b>The Online EEGLAB

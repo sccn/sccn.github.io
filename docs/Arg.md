@@ -155,17 +155,13 @@ structure is as follows:
   - reptype is either 'rich' or 'lean', where in lean mode, the
     aternatives field remains empty.
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-09-24
 
-</center>
 
 [Category:V.Plugin Authority.A.Argument
 Declaration](/Category:V.Plugin_Authority.A.Argument_Declaration "wikilink")

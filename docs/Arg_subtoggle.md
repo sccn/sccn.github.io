@@ -134,17 +134,13 @@ struct field 'arg_selection' is introduced at this point.
 for MATLAB versions older than 2008a, type and shape checking is not
 necessarily enforced.
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-09-24
 
-</center>
 
 [Category:V.Plugin Authority.A.Argument
 Declaration](/Category:V.Plugin_Authority.A.Argument_Declaration "wikilink")

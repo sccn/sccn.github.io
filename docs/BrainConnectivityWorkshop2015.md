@@ -5,11 +5,9 @@ permalink: /docs/BrainConnectivityWorkshop2015
 parent: Docs
 ---
 
-<center>
 
 ![600pix](/assets/images/BCW2015web.png)
 
-</center>
 
 <span
 style='font-size:12.0pt;line-height:115%;font-family:Calibri;mso-fareast-font-family:

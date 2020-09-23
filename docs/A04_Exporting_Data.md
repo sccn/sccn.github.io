@@ -55,13 +55,11 @@ the time values are saved for each column (5th checkbox). Time units can
 be specified in the edit box closest to the time values checkbox.
 Finally, check the third checkbox to transpose the matrix before saving.
 
-<center>
 
 
 ![Image:pop_export.gif](/assets/images/pop_export.gif)
 
 
-</center>
 
 The file written to disk may look like this:
 
@@ -103,11 +101,9 @@ Use menu item <font color=brown>File \> Export\> Weight matrix to text
 file</font> to export the ICA unmixing matrix (weights\*sphere). Simply
 enter a file name in the pop-up window and press *Save*.
 
-<center>
 
 ![325px](/assets/images/pop_expica.gif)
 
-</center>
 
 The text file on disk then contains the weight matrix. It may be
 re-imported into another EEGLAB dataset using menu item
@@ -117,11 +113,9 @@ empty, or empty it if it is not empty. See the [ICA decomposition
 tutorial](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink") for more
 details on sphere and weight matrices.
 
-<center>
 
 ![600px](/assets/images/pop_editset.gif)
 
-</center>
 
 [Category:IV. Appendix](/Category:IV._Appendix "wikilink") {
 {Backward_Forward|A03:_Importing_Channel_Locations|A03: Importing

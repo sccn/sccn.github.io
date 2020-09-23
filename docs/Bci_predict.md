@@ -201,17 +201,13 @@ Target : original target variable, as determined by the target function
 [predictions,loss,stats] = bci_predict(model,data,'metric','mse')
 ```
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-05-24
 
-</center>
 
 [Category:IV.Scripting.A.Offline
 Analysis](/Category:IV.Scripting.A.Offline_Analysis "wikilink")

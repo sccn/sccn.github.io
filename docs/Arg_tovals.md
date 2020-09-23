@@ -33,17 +33,13 @@ a 'vals' argument report, as obtained via
 arg_report('vals',some_function) this data structure can be used as a
 valid argument to some_function.
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-10-18
 
-</center>
 
 [Category:V.Plugin Authority.A.Argument
 Declaration](/Category:V.Plugin_Authority.A.Argument_Declaration "wikilink")

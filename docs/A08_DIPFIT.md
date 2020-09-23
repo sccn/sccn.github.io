@@ -149,11 +149,9 @@ obtain the plot below. Note that the channel location file for this
 subject has been scanned using the Polhemus system, so the electrode
 locations are not exactly symmetrical.
 
-<center>
 
 ![425px](/assets/images/A21component_maps.gif)
 
-</center>
 
 
 There are three steps required to create equivalent dipole models for
@@ -182,11 +180,9 @@ EEGLAB menu item <font color=brown> Tools \> Locate dipoles using DIPFIT
 pop up the window below:
 
 
-<center>
 
 ![750px](/assets/images/pop_dipfit_settings.png)
 
-</center>
 
 
 The top edit box, *Model (click to select)*, specifies the type of head
@@ -242,22 +238,18 @@ press *OK* to close that window). Then go to the channel editing window
 The resulting channel editor window is shown below:
 
 
-<center>
 
 ![600px|border](/assets/images/Dipfit_pop_chanedit2.png)
 
-</center>
 
 
 Press the *Look up locs* to look up your channel locations (by matching
 the channel labels) in the template channel location file.
 
 
-<center>
 
 ![Image:pop_chanedit_lookup.gif](/assets/images/pop_chanedit_lookup.gif)
 
-</center>
 
 
 If you had wanted to use the template channel locations for the
@@ -287,11 +279,9 @@ To try this, click on *Manual coreg.* in the DIPFIT settings window. The
 following instruction window will first appear:
 
 
-<center>
 
 ![Image:coregister_warning.gif](/assets/images/coregister_warning.gif)
 
-</center>
 
 
 If you have selected the spherical head model and pressed *OK*, the
@@ -304,21 +294,17 @@ centers) drawn as bigger and darker spheres (more visible in the second
 image below).
 
 
-<center>
 
 ![Image:coregister.gif](/assets/images/coregister.gif)
 
-</center>
 
 
 If you have selected the BEM model, the following window will appear:
 
 
-<center>
 
 ![Image:coregister2.gif](/assets/images/coregister2.gif)
 
-</center>
 
 
 Use the *Warp* button to align and scale your electrode locations file
@@ -329,11 +315,9 @@ If you have no channels with labels that are common to the labels in the
 template montage, a channel correspondence window will pop up:
 
 
-<center>
 
 ![Image:pop_chancoresp.gif](/assets/images/pop_chancoresp.gif)
 
-</center>
 
 
 The channel labels from your dataset electrode structure are shown in
@@ -363,11 +347,9 @@ edit the values in the edit boxes. Here:
 The resulting co-registration window should look something like this:
 
 
-<center>
 
 ![Image:coregister3.gif](/assets/images/coregister3.gif)
 
-</center>
 
 
 <u>Note about fiducials:</u> Your channel structure may contain standard
@@ -412,11 +394,9 @@ Coarse fit (grid scan)</font>. If you use the sample dataset, the window
 below will pop up:
 
 
-<center>
 
 ![400px|border](/assets/images/pop_dipfit_batch2.png)
 
-</center>
 
 
 The first edit box *Component(s)* allows you to select a subset of
@@ -447,21 +427,17 @@ select menu item <font color=brown>Tools \> Locate dipoles using DIPFIT
 \> Plot component dipoles</font> to call the window below:
 
 
-<center>
 
 ![Image:pop_dipplot2.gif](/assets/images/pop_dipplot2.gif)
 
-</center>
 
 
 Simply press *OK*, to produce the figure below:
 
 
-<center>
 
 ![Image:dipplot_gridsearch.gif](/assets/images/dipplot_gridsearch.gif)
 
-</center>
 
 
 Here, all the dipoles plotted had a residual variance (vis a vis their
@@ -482,22 +458,18 @@ following windows pop up. Enter a component index (here, 3) in the
 *Component to fit* edit box.
 
 
-<center>
 
 ![600px|border](/assets/images/pop_dipfit_nonlinear.gif)
 
-</center>
 
 
 Prior to fitting the component, press the *Plot map* button to show the
 component scalp map. The following window pops up.
 
 
-<center>
 
 ![600px|border](/assets/images/A24comp4.png)
 
-</center>
 
 
 This component, showing a clear left-right symmetric activity, cannot be
@@ -514,11 +486,9 @@ button. The following plot pops up (see the['dipplot()' visualization
 tutorial](/#Visualizing_dipole_models "wikilink") below).
 
 
-<center>
 
 ![Image:diplot_image2.gif](/assets/images/diplot_image2.gif)
 
-</center>
 
 
 Note that the polarity of components is not fixed (but their orientation
@@ -559,11 +529,9 @@ check the *Plot resulting dipoles* checkbox to plot component dipoles at
 the end of fitting. Then, press *OK*.
 
 
-<center>
 
 ![Image:pop_multifit.gif](/assets/images/pop_multifit.gif)
 
-</center>
 
 
 The function starts by scanning a 3-D grid to determine acceptable
@@ -572,11 +540,9 @@ optimization algorithm to find the exact dipole position for each
 component. At the end of the procedure, the following window pops up.
 
 
-<center>
 
 ![Image:dipplot_multifit2.gif](/assets/images/dipplot_multifit2.gif)
 
-</center>
 
 
 The residual variance *RV: 2.75%* is shown below the component number
@@ -600,21 +566,17 @@ dipplot() options* text box to set the initial 3-D view; the function
 will print the component indices.
 
 
-<center>
 
 ![Image:pop_dipplot.gif](/assets/images/pop_dipplot.gif)
 
-</center>
 
 
 A plot pops-up. After 3D rotation it may look like the following plot.
 
 
-<center>
 
 ![Image:A25_dipole_image.gif](/assets/images/A25_dipole_image.gif)
 
-</center>
 
 
 Press the *Plot one* button. You may scroll through the components by
@@ -629,11 +591,9 @@ viewing angles (sagittal, coronal, top) using the lower left control
 buttons.
 
 
-<center>
 
 ![Image:dipole_tight.gif](/assets/images/dipole_tight.gif)
 
-</center>
 
 
 Note that it is not yet possible to toggle the dipole "stems" or
@@ -648,11 +608,9 @@ using DIPFIT \> Plot component dipoles</font>. Select *Summary mode* and
 press *OK*.
 
 
-<center>
 
 ![Image:dipole_summary.gif](/assets/images/dipole_summary.gif)
 
-</center>
 
 
 For comparison, using the spherical model, the location of the dipoles
@@ -666,11 +624,9 @@ MNI brain of a single subject (which was used to generate the model
 leadfield matrix).
 
 
-<center>
 
 ![Image:dipole_summary2.gif](/assets/images/dipole_summary2.gif)
 
-</center>
 
 
 The entry *Background image* contains the name of the MRI in which to
@@ -700,11 +656,9 @@ MNI brain in the { {File|dipplot.m} } window by pressing the *Mesh on*
 button in the BEM model below (here in 'tight view').
 
 
-<center>
 
 ![Image:dipole_mesh.gif](/assets/images/dipole_mesh.gif)
 
-</center>
 
 
 Or, for the spherical model below (in summary mode). Note that the
@@ -712,11 +666,9 @@ sphere model is stretched in the visualization to the ellipsoid that
 best matches the shape of the headsurface of the average MRI.
 
 
-<center>
 
 ![Image:dipole_mesh3.gif](/assets/images/dipole_mesh3.gif)
 
-</center>
 
 
 
@@ -734,20 +686,16 @@ fitting options in the last edit box; press the *Help* button for
 details.
 
 
-<center>
 
 ![Image:pop_topoplot_gui.gif](/assets/images/pop_topoplot_gui.gif)
 
-</center>
 
 The following plot will pop up.
 
 
-<center>
 
 ![Image:A26topoplot_dipole.gif](/assets/images/A26topoplot_dipole.gif)
 
-</center>
 
 
 
@@ -787,11 +735,9 @@ DIPFIT model and preferences as follows:
 
 
 
-<center>
 
 ![800px](/assets/images/dipole_settings_meg.gif)
 
-</center>
 
 
 
@@ -805,11 +751,9 @@ fitting, use menu item <font color=brown>Tools \> Locate dipoles using
 DIPFIT \> Fine fit (iterative)</font> to optimize dipole positions
 nonlinearly.
 
-<center>
 
 ![Image:dipole_grid_meg.gif](/assets/images/dipole_grid_meg.gif)
 
-</center>
 
 
 
@@ -820,11 +764,9 @@ on the right. Because of co-registration issues, it is not possible to
 plot the dipole positions on the scalp map as in EEG). It is strongly
 advisable to normalize dipole lengths.
 
-<center>
 
 ![850px](/assets/images/dipole_plot_meg.gif)
 
-</center>
 
 
 
@@ -957,11 +899,9 @@ components with single dipoles using BESA (see the BESAFIT plug-in
 Appendix) and DIPFIT. We then compared only those dipoles whose residual
 variance was less than 15% (see plot below).
 
-<center>
 
 ![Image:comparedipfitbesa.gif](/assets/images/comparedipfitbesa.gif)
 
-</center>
 
 
 
@@ -1033,11 +973,9 @@ below. eLoreta like other Dipfit function rely on Fieldtrip functions.
 Refer to function ft_sourceanalysis for more information on eLoreta
 source localization.
 
-<center>
 
 ![750px](/assets/images/dipfiteloreta.png)
 
-</center>
 
 
 
@@ -1174,11 +1112,9 @@ figure; ft_sourceplot(cfg, sourceProj);
 
 
 
-<center>
 
 ![border|500px](/assets/images/dipfiteloreta3.png)
 
-</center>
 
 
 Once latencies of interest have been chosen, they may be projected into
@@ -1205,11 +1141,9 @@ figure; ft_sourceplot(cfg, sourceInt);
 
 
 
-<center>
 
 ![border|500px](/assets/images/dipfiteloreta4.png)
 
-</center>
 
 
 
@@ -1266,11 +1200,9 @@ ft_sourceplot(cfg, source);
 
 
 
-<center>
 
 ![border|500px](/assets/images/fieldtrip_surface_solution2.png)
 
-</center>
 
 
 
@@ -1286,11 +1218,9 @@ hold on; ft_plot_mesh(vol.vol.bnd(1), 'facecolor', 'red', 'facealpha', 0.05, 'ed
 
 
 
-<center>
 
 ![border|500px](/assets/images/fieldtrip_surface_solution_with_bem2.png)
 
-</center>
 
 
 

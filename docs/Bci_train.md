@@ -782,17 +782,13 @@ emotion imagination."
   -
     Frontiers in Human Neuroscience, 2009.
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-04-24
 
-</center>
 
 [Category:IV.Scripting.A.Offline
 Analysis](/Category:IV.Scripting.A.Offline_Analysis "wikilink")

@@ -87,11 +87,9 @@ file/array click on option Matlab variable from the list and set the
 name to eegdata. Set the sampling frequency to 256 Hz, press *OK*. Other
 dataset parameters will be automatically adjusted.
 
-<center>
 
 ![700px](/assets/images/II11pop_editset.jpg)
 
-</center>
 
 
 Note on importing data from other file formats: To import continuous
@@ -119,11 +117,9 @@ also save the new dataset (with all its accompanying information fields)
 to disk, enter a filename in the lower edit field. Press *OK* to
 accept.
 
-<center>
 
 ![Image:II11pop_newset.jpg](/assets/images/II11pop_newset.jpg)
 
-</center>
 
 
 Then use menu item <font color=brown>Plot \> Channel data
@@ -162,11 +158,9 @@ standard "EDF" (European Data Format) to their 24-bit data format, BDF
 data \> From Biosemi .BDF file</font> (calling function {
 {File|pop_readbdf.m} }). A window will pop up to ask for a file name.
 
-<center>
 
 ![275px](/assets/images/pop_readbdf.gif)
 
-</center>
 
 
 Press *OPEN* to import a file.
@@ -174,21 +168,17 @@ Press *OPEN* to import a file.
 Then a second window pops up, press *Ok*.
 
 
-<center>
 
 ![Image:II12pop_readbdf.jpg](/assets/images/II12pop_readbdf.jpg)
 
-</center>
 
 
 The third window to pop up ask for a new dataset name.
 
 
-<center>
 
 ![Image:pop_readbdf2.gif](/assets/images/pop_readbdf2.gif)
 
-</center>
 
 
 Press *OK*, then select menu item <font color=brown>Plot \> Channel data
@@ -227,11 +217,9 @@ in EDF files so the "Netstation binary simple" format is to be
 preferred. Once the EEGLAB menu is selected, the following window will
 appear
 
-<center>
 
 ![290px](/assets/images/pop_readegi.gif)
 
-</center>
 
 
 The function { {File|pop_readegi.m} } should be able to read EGI
@@ -284,11 +272,9 @@ Start by selecting the menu item <font color=brown>File \> Import data
 function. The following window will appear:
 
 
-<center>
 
 ![Image:pop_loadcnt2.gif](/assets/images/pop_loadcnt2.gif)
 
-</center>
 
 
 Select the file to input (after changing the filter to the correct
@@ -296,11 +282,9 @@ directory if necessary), and press *OPEN*. The following window will pop
 up:
 
 
-<center>
 
 ![Image:pop_loadcnt.gif](/assets/images/pop_loadcnt.gif)
 
-</center>
 
 
 The first input field concerns the structure of the .CNT file. If the
@@ -311,11 +295,9 @@ the new data set.
 
 
 
-<center>
 
 ![Image:II15pop_newset.jpg](/assets/images/II15pop_newset.jpg)
 
-</center>
 
 
 Next, use menu item <font color=brown>Plot \> Channel data
@@ -333,11 +315,9 @@ data (i.e., you must separate it into data epochs). To epoch the data,
 select <font color=brown>Tools \> Extract epochs</font>
 
 
-<center>
 
 ![Image:pop_epochcnt.gif](/assets/images/pop_epochcnt.gif)
 
-</center>
 
 
 Simply press *OK* to epoch the data based on the events contained in the
@@ -345,12 +325,10 @@ Simply press *OK* to epoch the data based on the events contained in the
 after events). The following window will appear:
 
 
-<center>
 
 ![Image:II15pop_newset2.jpg](/assets/images/II15pop_newset2.jpg)
 
 
-</center>
 
 Use this window to enter description and save the new dataset. For
 computers with limited memory (RAM), try overwriting the parent dataset
@@ -360,12 +338,10 @@ disk. Press *OK* when done. The following baseline removal window will
 pop up:
 
 
-<center>
 
 ![Image:II15pop_rmbase.jpg](/assets/images/II15pop_rmbase.jpg)
 
 
-</center>
 
 Simply press *OK* and continue.
 
@@ -382,11 +358,9 @@ also the section below about importing DAT file containing epoch
 information.
 
 
-<center>
 
 ![Image:pop_loadeeg.gif](/assets/images/pop_loadeeg.gif)
 
-</center>
 
 
 Then select menu item <font color=brown>Plot \> EEG data (scroll)</font>
@@ -402,11 +376,9 @@ Snapmaster .SMA file</font> (calling function { {File|pop_snapread.m}
 will pop up to ask for relative gain, leave it on 400 and press *Ok*.
 
 
-<center>
 
 ![Image:II16pop_snapread.jpg](/assets/images/II16pop_snapread.jpg)
 
-</center>
 
 
 A window will pop up to ask for a file name. Then select menu item
@@ -515,11 +487,9 @@ First start EEGLAB:
 Select menu item <font color=brown>File \> Importing data \> From
 ascii/float file or Matlab array</font>
 
-<center>
 
 ![Importing data averages](/assets/images/pop_importdata2.gif)
 
-</center>
 
 
 Enter the information as indicated above. The following window pops up
@@ -527,11 +497,9 @@ and allows you to add comments and/or save the new dataset immediately.
 Press *OK* to create a new dataset.
 
 
-<center>
 
 ![Image:pop_newset.jpg](/assets/images/pop_newset.jpg)
 
-</center>
 
 
 Select <font color=brown>Plot \> Channel ERPs\> in rect. array</font>
@@ -539,11 +507,9 @@ and set the last option, 'Plot single trials', to *YES* to visualize the
 three condition ERPs.
 
 
-<center>
 
 ![Image:II43pop_plotdata.jpg](/assets/images/II43pop_plotdata.jpg)
 
-</center>
 
 
 It is possible to process the three average-ERP epochs as if they were

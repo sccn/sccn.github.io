@@ -5,11 +5,9 @@ permalink: /docs/Channel_Location_Files
 parent: Docs
 ---
 
-<center>
 
 ![Image:channel location.jpg](/assets/images/channel_location.jpg)
 
-</center>
 
 ### Links and Information
 

@@ -7,7 +7,7 @@ title: Docs
 has_children: true
 
 ---
-![right|400px](/assets/images/Eeglab_small.jpg)
+![right|400px](../assets/images/Eeglab_small.jpg)
 
 ## Links and Documentation
 
@@ -89,7 +89,7 @@ Other type of documentation are listed below.
 ## EEGLAB Workshops
 
 [300px|thumb|right|upright=3|Mugs from the 17th EEGLAB
-workshop](/assets/images/EEGLAB-mug-shot.png)
+workshop](../assets/images/EEGLAB-mug-shot.png)
 
   -
     [<b>The Online EEGLAB

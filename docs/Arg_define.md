@@ -112,17 +112,13 @@ values and reporting functionality are skipped. This is essentially a
 fast path to call a function when all the defaults have previously been
 obtained from it via arg_report.
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-09-24
 
-</center>
 
 [Category:V.Plugin Authority.A.Argument
 Declaration](/Category:V.Plugin_Authority.A.Argument_Declaration "wikilink")

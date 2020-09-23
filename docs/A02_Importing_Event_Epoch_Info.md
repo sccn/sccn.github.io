@@ -79,11 +79,9 @@ menu item <font color=brown>File \> Import event info \> from data
 channel</font> to call function { {File|pop_chanevent.m} } .
 
 
-<center>
 
 ![Image:II21pop_chanevent.jpg](/assets/images/II21pop_chanevent.jpg)
 
-</center>
 
 
 Enter *33* as the event channel and set the edge-extract type to *up
@@ -156,11 +154,9 @@ Select menu item <font color=brown>File \> Import event info \> Import
 Matlab array or ASCII file</font>
 
 
-<center>
 
 ![Image:pop_importevent.jpg](/assets/images/pop_importevent.jpg)
 
-</center>
 
 
 Browse for the tutorial text file, set the number of header lines to 1
@@ -223,20 +219,16 @@ from Presentation LOG. file</font> to import events from the
 Presentation log file as shown below</font>
 
 
-<center>
 
 ![Image:pop_importpres.jpg](/assets/images/pop_importpres.jpg)
 
-</center>
 
 
 Then the following window pops-up</font>
 
-<center>
 
 ![Image:pop_importpres2.jpg](/assets/images/pop_importpres2.jpg)
 
-</center>
 
 
 Scroll file fields to select which field (i.e., file column) contain the
@@ -308,11 +300,9 @@ Select the file to import in the resulting window. A second window will
 then appear:
 
 
-<center>
 
 ![Image:pop_loaddat.gif](/assets/images/pop_loaddat.gif)
 
-</center>
 
 
 In .DAT files, there must be a reaction time (in milliseconds) for each
@@ -338,11 +328,9 @@ Select menu item <font color=brown>File \> Import data \> From
 ascii/float data file or Matlab array</font>.
 
 
-<center>
 
 ![784px|Importing data averages](/assets/images/pop_importdata3.gif)
 
-</center>
 
 
 Press *OK* in this window (Note: If you select a data importing format
@@ -350,11 +338,9 @@ different from *Matlab variable*, be sure to click on it to actually
 select the option.) Then, a second window will pop up.
 
 
-<center>
 
 ![Image:pop_importdatanewset.jpg](/assets/images/pop_importdatanewset.jpg)
 
-</center>
 
 
 Press *OK* in this window (see [how to
@@ -390,11 +376,9 @@ menu item <font color=brown>File \> Import epoch info \> from Matlab
 array or ascii file</font>, bringing up the following window:
 
 
-<center>
 
 ![Image:II33pop_inportepoch.jpg](/assets/images/II33pop_inportepoch.jpg)
 
-</center>
 
 
 Above, browse for the *tutorial_epoch.txt* file, set the input fields
@@ -409,13 +393,11 @@ last entry, *Remove old epoch ...*, allows the user to import other
 information later if it is unset. Press *OK* when done. Now select
 <font color=brown>Edit \> Event fields</font>.
 
-<center>
 
 
 
 ![Image:II33pop_editeventfield.jpg](/assets/images/II33pop_editeventfield.jpg)
 
-</center>
 
 
 It is a good idea to click each of the *Field description* buttons above
@@ -438,11 +420,9 @@ happened to the reaction time information (use the arrow to move to the
 second event):
 
 
-<center>
 
 ![Image:II33pop_editeventvals.jpg](/assets/images/II33pop_editeventvals.jpg)
 
-</center>
 
 
 

@@ -94,17 +94,13 @@ eeg = bci_annotate(lastmodel,eeg,'srate',60)
 eeg = bci_annotate(lastmodel,eeg,'interpolation','resample')
 ```
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-03-28
 
-</center>
 
 [Category:IV.Scripting.A.Offline
 Analysis](/Category:IV.Scripting.A.Offline_Analysis "wikilink")

@@ -23,33 +23,27 @@ uncompress, add path in Matlab. Start spm by typing *\>\> spm* on the
 Matlab command line.
 
 
-<center>
 
 ![425px](/assets/images/spm_entryscreen.gif)
 
-</center>
 
 
 Next, click on the *fMRI time series* button. The following menu will
 appear (along with other screens).
 
 
-<center>
 
 ![425px](/assets/images/spm_menu.gif)
 
-</center>
 
 
 Click on the display button and select your anatomical MR image file by
 clicking on it. Then press, *Done* as shown below.
 
 
-<center>
 
 ![325px](/assets/images/spm_selectdisplay.gif)
 
-</center>
 
 A display screen as shown below will appear. Your MR image must be
 oriented as the one shown below. If it is otherwise oriented, use the
@@ -58,11 +52,9 @@ matches the template below. Then press the *Reorient image* button on
 the bottom.
 
 
-<center>
 
 ![525px](/assets/images/spm_displayscreen.gif)
 
-</center>
 
 
 The next step is to normalize your MRI to the standard MNI brain image.
@@ -71,11 +63,9 @@ tab will appear below the main menu. Select *Determine Parameters &
 Write Normalized*.
 
 
-<center>
 
 ![375px](/assets/images/spm_normalize.gif)
 
-</center>
 
 The following file selection window will appear. Select *T1.mnc*, the
 most common MRI format. (See the SPM manual for other formats). Then
@@ -83,22 +73,18 @@ press *Done*.
 
 
 
-<center>
 
 ![375px](/assets/images/spm_selecttemplate.gif)
 
-</center>
 
 
 Then reselect MRI data file (the same one you selected originally).
 Press *Done*.
 
 
-<center>
 
 ![425px](/assets/images/spm_selectsource.gif)
 
-</center>
 
 Another file selection window will appear asking for the name of the
 file to write. Reselect once more the same MRI data file as the output
@@ -112,11 +98,9 @@ this file in the DIPFIT interface as the background image. An example is
 shown below:
 
 
-<center>
 
 ![425px](/assets/images/dipplot_spm.gif)
 
-</center>
 
 Note that the resolution of this MR image is relatively low and appears
 noisy because of the renormalization process used in SPM2. If you use

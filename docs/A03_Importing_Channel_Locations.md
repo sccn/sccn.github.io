@@ -61,11 +61,9 @@ test this section by typing on the Matlab command line:
 
 
 
-<center>
 
 ![Image:editchannelinfo.jpg](/assets/images/editchannelinfo.jpg)
 
-</center>
 
 
 If you imported a binary data file in Neuroscan or Biosemi formats,
@@ -82,11 +80,9 @@ select the sample channel locations file *eeglab_chan32.locs* (this
 file is located in the *sample_data* sub-directory of the EEGLAB
 distribution).
 
-<center>
 
 ![Image:loadchannellocation.jpg](/assets/images/loadchannellocation.jpg)
 
-</center>
 
 
 In the next pop-up window, simply press *OK*. If you do not specify the
@@ -96,11 +92,9 @@ the main channel graphic interface window to view the supported formats.
 
 
 
-<center>
 
 ![Image:chaneditfileformat.jpg](/assets/images/chaneditfileformat.jpg)
 
-</center>
 
 
 Now the loaded channel labels and polar coordinates are displayed in the
@@ -123,11 +117,9 @@ and *\>\>*.
 
 
 
-<center>
 
 ![Image:21pop_chanedit.jpg](/assets/images/21pop_chanedit.jpg)
 
-</center>
 
 
 
@@ -327,11 +319,9 @@ more details, see the { {File|readlocs.m} } help message.
 > name</font>. Either command pops up a window like that below. Note: In
 > this plot, click on any channel label to see its channel number.
 
-<center>
 
 ![500px](/assets/images/channellocationname.gif)
 
-</center>
 
 > All channels of this montage are visible in the 2-D view above, since
 > none of these channels are located below the head center and equator
@@ -348,11 +338,9 @@ more details, see the { {File|readlocs.m} } help message.
 > window below will appear. The plotting box can be rotated in 3-D using
 > the mouse:
 
-<center>
 
 ![Image:3dlpotxyz.gif](/assets/images/3dlpotxyz.gif)
 
-</center>
 
 > You may change channel locations manually using the edit box provided
 > for each channel's coordinates. However, after each change, you must
@@ -389,33 +377,27 @@ type:
 
 The following window will pop-up:
 
-<center>
 
 ![Image:pop_chaneditmsg.jpg](/assets/images/pop_chaneditmsg.jpg)
 
-</center>
 
 
 Press *Yes*. The function will automatically look up channel locations
 for these known channel labels. The following channel editing window
 will then pop up.
 
-<center>
 
 ![Image:pop_chaneditlookup.gif](/assets/images/pop_chaneditlookup.gif)
 
-</center>
 
 
 Press *Plot 2-D* to plot the channel locations. Close the channel
 editing window (using *Cancel* to discard the entered locations), then
 proceed to the next section.
 
-<center>
 
 ![Image:topoplotlookup.gif](/assets/images/topoplotlookup.gif)
 
-</center>
 
 
 
@@ -433,12 +415,10 @@ the following command on the Matlab command line
 
 An empty channel editing window will appear:
 
-<center>
 
 
 ![Image:editchannelinfo.jpg](/assets/images/editchannelinfo.jpg)
 
-</center>
 
 
 Press the *Read locations* button and select the file *scanned72.dat*
@@ -448,12 +428,10 @@ software (kindly supplied by Zoltan Mari). Use autodetect (\[ \]) for
 the file format. When the file has been imported, press the *Plot 2-D*
 button. The following plot will pop up.
 
-<center>
 
 
 ![Image:scanlocs1.gif](/assets/images/scanlocs1.gif)
 
-</center>
 
 
 As you can see, the measured 3-D channel coordinates may not be
@@ -463,12 +441,10 @@ problem, you must first find the head sphere center that best fits the
 imported 3-D electrode locations. To do so, press the *Opt. head center*
 (optimize head center). The following window will pop up:
 
-<center>
 
 
 ![Image:pop_chancenter.gif](/assets/images/pop_chancenter.gif)
 
-</center>
 
 
 Possibly, some of the channels should not be included in the head center
@@ -480,12 +456,10 @@ window, the channel indices will be copied, as shown in the window
 above. Then press *Ok*. After the optimization has finished, press the
 *Plot 2-D* button once more.
 
-<center>
 
 
 ![Image:scanlocs2.gif](/assets/images/scanlocs2.gif)
 
-</center>
 
 
 In the view above, some channel locations are still incorrect. For
@@ -493,23 +467,19 @@ instance, you may expect channel "Cz" to be at the vertex (plot center).
 To adjust this, press the *Rotate axis* button. The following window
 will pop up:
 
-<center>
 
 
 ![Image:forcelocs.gif](/assets/images/forcelocs.gif)
 
-</center>
 
 
 Simply press *OK* to align channel 'Cz' to the vertex (by default). Then
 press the *Plot 2-D* button once more to again plot the scalp map.
 
-<center>
 
 
 ![Image:scanlocs3.gif](/assets/images/scanlocs3.gif)
 
-</center>
 
 
 You may now close the channel editing window.

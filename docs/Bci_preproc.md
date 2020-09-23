@@ -98,17 +98,13 @@ eeg = bci_preproc(eeg,myapproach)
 eeg = bci_preproc(eeg,@para_csp,'events',{'S  1','S  2'},'epoch',[0 3])
 ```
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-04-29
 
-</center>
 
 [Category:IV.Scripting.A.Offline
 Analysis](/Category:IV.Scripting.A.Offline_Analysis "wikilink")

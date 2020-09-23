@@ -11,16 +11,12 @@ tracking.parallel
 
 Dependencies: par_schedule(), hlp_wrapresults()
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-04-03
 
-</center>
 
 [Category:VI.Environment.F.Misc](/Category:VI.Environment.F.Misc "wikilink")

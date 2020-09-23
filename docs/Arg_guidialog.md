@@ -51,17 +51,13 @@ optional name-value pairs; possible names are:
 
 a struct that is a valid input to the Function.
 
-<center>
 
 Christian Kothe, Swartz Center for Computational Neuroscience, UCSD
 
-</center>
 
-<center>
 
 2010-10-24
 
-</center>
 
 [Category:V.Plugin Authority.A.Argument
 Declaration](/Category:V.Plugin_Authority.A.Argument_Declaration "wikilink")

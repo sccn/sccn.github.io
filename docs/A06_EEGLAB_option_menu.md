@@ -17,11 +17,9 @@ Maximize memory</font>. If you cannot modify the file *eeg_options.m*
 in the toolbox distribution, the window below will pop up.
 
 
-<center>
 
 ![Image:option1.gif ](/assets/images/option1.gif)
 
-</center>
 
 
 Simply press *Yes*. A copy of *eeg_options.m* will be stored in the
@@ -42,12 +40,10 @@ advised to have only one such option file to avoid confusion. Now the
 following window will pop up.
 
 
-<center>
 
 [Image: Memory option gui2.png
 ](/assets/images/_Memory_option_gui2.png)
 
-</center>
 
 #### Group processing options
 
