@@ -289,7 +289,7 @@ for trialIdx = 1:110
 end
 ```
 
-[800px](/File:asrRamFix.png "wikilink")
+![800px](/assets/images/asrRamFix.png)
 
 As shown, fixing the RAM size fixed the length of the output data.
 Currently, this is the only way to ensure result replicatability. I

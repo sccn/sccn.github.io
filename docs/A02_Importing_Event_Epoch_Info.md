@@ -81,7 +81,7 @@ channel</font> to call function { {File|pop_chanevent.m} } .
 
 <center>
 
-[Image:II21pop_chanevent.jpg](/Image:II21pop_chanevent.jpg "wikilink")
+![Image:II21pop_chanevent.jpg](/assets/images/II21pop_chanevent.jpg)
 
 </center>
 
@@ -158,7 +158,7 @@ Matlab array or ASCII file</font>
 
 <center>
 
-[Image:pop_importevent.jpg](/Image:pop_importevent.jpg "wikilink")
+![Image:pop_importevent.jpg](/assets/images/pop_importevent.jpg)
 
 </center>
 
@@ -225,7 +225,7 @@ Presentation log file as shown below</font>
 
 <center>
 
-[Image:pop_importpres.jpg](/Image:pop_importpres.jpg "wikilink")
+![Image:pop_importpres.jpg](/assets/images/pop_importpres.jpg)
 
 </center>
 
@@ -234,7 +234,7 @@ Then the following window pops-up</font>
 
 <center>
 
-[Image:pop_importpres2.jpg](/Image:pop_importpres2.jpg "wikilink")
+![Image:pop_importpres2.jpg](/assets/images/pop_importpres2.jpg)
 
 </center>
 
@@ -310,7 +310,7 @@ then appear:
 
 <center>
 
-[Image:pop_loaddat.gif](/Image:pop_loaddat.gif "wikilink")
+![Image:pop_loaddat.gif](/assets/images/pop_loaddat.gif)
 
 </center>
 
@@ -340,7 +340,7 @@ ascii/float data file or Matlab array</font>.
 
 <center>
 
-[784px|Importing data averages](/Image:pop_importdata3.gif "wikilink")
+![784px|Importing data averages](/assets/images/pop_importdata3.gif)
 
 </center>
 
@@ -352,7 +352,7 @@ select the option.) Then, a second window will pop up.
 
 <center>
 
-[Image:pop_importdatanewset.jpg](/Image:pop_importdatanewset.jpg "wikilink")
+![Image:pop_importdatanewset.jpg](/assets/images/pop_importdatanewset.jpg)
 
 </center>
 
@@ -392,7 +392,7 @@ array or ascii file</font>, bringing up the following window:
 
 <center>
 
-[Image:II33pop_inportepoch.jpg](/Image:II33pop_inportepoch.jpg "wikilink")
+![Image:II33pop_inportepoch.jpg](/assets/images/II33pop_inportepoch.jpg)
 
 </center>
 
@@ -413,7 +413,7 @@ information later if it is unset. Press *OK* when done. Now select
 
 
 
-[Image:II33pop_editeventfield.jpg](/Image:II33pop_editeventfield.jpg "wikilink")
+![Image:II33pop_editeventfield.jpg](/assets/images/II33pop_editeventfield.jpg)
 
 </center>
 
@@ -440,7 +440,7 @@ second event):
 
 <center>
 
-[Image:II33pop_editeventvals.jpg](/Image:II33pop_editeventvals.jpg "wikilink")
+![Image:II33pop_editeventvals.jpg](/assets/images/II33pop_editeventvals.jpg)
 
 </center>
 

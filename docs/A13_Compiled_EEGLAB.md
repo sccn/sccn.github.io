@@ -11,7 +11,7 @@ page](https://sccn.ucsd.edu/eeglab/download.php).
 
 ## Video
 
-[400px|center|link=<https://www.youtube.com/watch?v=_F-5spN1FL4>](/File:eeglab_compile.png "wikilink")
+![400px|center|link=<https://www.youtube.com/watch?v=_F-5spN1FL4>](/assets/images/eeglab_compile.png)
 
 ## Installation
 

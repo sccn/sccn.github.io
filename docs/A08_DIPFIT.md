@@ -151,7 +151,7 @@ locations are not exactly symmetrical.
 
 <center>
 
-[425px](/Image:A21component_maps.gif "wikilink")
+![425px](/assets/images/A21component_maps.gif)
 
 </center>
 
@@ -184,7 +184,7 @@ pop up the window below:
 
 <center>
 
-[750px](/Image:pop_dipfit_settings.png "wikilink")
+![750px](/assets/images/pop_dipfit_settings.png)
 
 </center>
 
@@ -244,7 +244,7 @@ The resulting channel editor window is shown below:
 
 <center>
 
-[600px|border](/Image:Dipfit_pop_chanedit2.png "wikilink")
+![600px|border](/assets/images/Dipfit_pop_chanedit2.png)
 
 </center>
 
@@ -255,7 +255,7 @@ the channel labels) in the template channel location file.
 
 <center>
 
-[Image:pop_chanedit_lookup.gif](/Image:pop_chanedit_lookup.gif "wikilink")
+![Image:pop_chanedit_lookup.gif](/assets/images/pop_chanedit_lookup.gif)
 
 </center>
 
@@ -289,7 +289,7 @@ following instruction window will first appear:
 
 <center>
 
-[Image:coregister_warning.gif](/Image:coregister_warning.gif "wikilink")
+![Image:coregister_warning.gif](/assets/images/coregister_warning.gif)
 
 </center>
 
@@ -306,7 +306,7 @@ image below).
 
 <center>
 
-[Image:coregister.gif](/Image:coregister.gif "wikilink")
+![Image:coregister.gif](/assets/images/coregister.gif)
 
 </center>
 
@@ -316,7 +316,7 @@ If you have selected the BEM model, the following window will appear:
 
 <center>
 
-[Image:coregister2.gif](/Image:coregister2.gif "wikilink")
+![Image:coregister2.gif](/assets/images/coregister2.gif)
 
 </center>
 
@@ -331,7 +331,7 @@ template montage, a channel correspondence window will pop up:
 
 <center>
 
-[Image:pop_chancoresp.gif](/Image:pop_chancoresp.gif "wikilink")
+![Image:pop_chancoresp.gif](/assets/images/pop_chancoresp.gif)
 
 </center>
 
@@ -365,7 +365,7 @@ The resulting co-registration window should look something like this:
 
 <center>
 
-[Image:coregister3.gif](/Image:coregister3.gif "wikilink")
+![Image:coregister3.gif](/assets/images/coregister3.gif)
 
 </center>
 
@@ -414,7 +414,7 @@ below will pop up:
 
 <center>
 
-[400px|border](/Image:pop_dipfit_batch2.png "wikilink")
+![400px|border](/assets/images/pop_dipfit_batch2.png)
 
 </center>
 
@@ -449,7 +449,7 @@ select menu item <font color=brown>Tools \> Locate dipoles using DIPFIT
 
 <center>
 
-[Image:pop_dipplot2.gif](/Image:pop_dipplot2.gif "wikilink")
+![Image:pop_dipplot2.gif](/assets/images/pop_dipplot2.gif)
 
 </center>
 
@@ -459,7 +459,7 @@ Simply press *OK*, to produce the figure below:
 
 <center>
 
-[Image:dipplot_gridsearch.gif](/Image:dipplot_gridsearch.gif "wikilink")
+![Image:dipplot_gridsearch.gif](/assets/images/dipplot_gridsearch.gif)
 
 </center>
 
@@ -484,7 +484,7 @@ following windows pop up. Enter a component index (here, 3) in the
 
 <center>
 
-[600px|border](/Image:pop_dipfit_nonlinear.gif "wikilink")
+![600px|border](/assets/images/pop_dipfit_nonlinear.gif)
 
 </center>
 
@@ -495,7 +495,7 @@ component scalp map. The following window pops up.
 
 <center>
 
-[600px|border](/Image:A24comp4.png "wikilink")
+![600px|border](/assets/images/A24comp4.png)
 
 </center>
 
@@ -516,7 +516,7 @@ tutorial](/#Visualizing_dipole_models "wikilink") below).
 
 <center>
 
-[Image:diplot_image2.gif](/Image:diplot_image2.gif "wikilink")
+![Image:diplot_image2.gif](/assets/images/diplot_image2.gif)
 
 </center>
 
@@ -561,7 +561,7 @@ the end of fitting. Then, press *OK*.
 
 <center>
 
-[Image:pop_multifit.gif](/Image:pop_multifit.gif "wikilink")
+![Image:pop_multifit.gif](/assets/images/pop_multifit.gif)
 
 </center>
 
@@ -574,7 +574,7 @@ component. At the end of the procedure, the following window pops up.
 
 <center>
 
-[Image:dipplot_multifit2.gif](/Image:dipplot_multifit2.gif "wikilink")
+![Image:dipplot_multifit2.gif](/assets/images/dipplot_multifit2.gif)
 
 </center>
 
@@ -602,7 +602,7 @@ will print the component indices.
 
 <center>
 
-[Image:pop_dipplot.gif](/Image:pop_dipplot.gif "wikilink")
+![Image:pop_dipplot.gif](/assets/images/pop_dipplot.gif)
 
 </center>
 
@@ -612,7 +612,7 @@ A plot pops-up. After 3D rotation it may look like the following plot.
 
 <center>
 
-[Image:A25_dipole_image.gif](/Image:A25_dipole_image.gif "wikilink")
+![Image:A25_dipole_image.gif](/assets/images/A25_dipole_image.gif)
 
 </center>
 
@@ -631,7 +631,7 @@ buttons.
 
 <center>
 
-[Image:dipole_tight.gif](/Image:dipole_tight.gif "wikilink")
+![Image:dipole_tight.gif](/assets/images/dipole_tight.gif)
 
 </center>
 
@@ -650,7 +650,7 @@ press *OK*.
 
 <center>
 
-[Image:dipole_summary.gif](/Image:dipole_summary.gif "wikilink")
+![Image:dipole_summary.gif](/assets/images/dipole_summary.gif)
 
 </center>
 
@@ -668,7 +668,7 @@ leadfield matrix).
 
 <center>
 
-[Image:dipole_summary2.gif](/Image:dipole_summary2.gif "wikilink")
+![Image:dipole_summary2.gif](/assets/images/dipole_summary2.gif)
 
 </center>
 
@@ -702,7 +702,7 @@ button in the BEM model below (here in 'tight view').
 
 <center>
 
-[Image:dipole_mesh.gif](/Image:dipole_mesh.gif "wikilink")
+![Image:dipole_mesh.gif](/assets/images/dipole_mesh.gif)
 
 </center>
 
@@ -714,7 +714,7 @@ best matches the shape of the headsurface of the average MRI.
 
 <center>
 
-[Image:dipole_mesh3.gif](/Image:dipole_mesh3.gif "wikilink")
+![Image:dipole_mesh3.gif](/assets/images/dipole_mesh3.gif)
 
 </center>
 
@@ -736,7 +736,7 @@ details.
 
 <center>
 
-[Image:pop_topoplot_gui.gif](/Image:pop_topoplot_gui.gif "wikilink")
+![Image:pop_topoplot_gui.gif](/assets/images/pop_topoplot_gui.gif)
 
 </center>
 
@@ -745,7 +745,7 @@ The following plot will pop up.
 
 <center>
 
-[Image:A26topoplot_dipole.gif](/Image:A26topoplot_dipole.gif "wikilink")
+![Image:A26topoplot_dipole.gif](/assets/images/A26topoplot_dipole.gif)
 
 </center>
 
@@ -789,7 +789,7 @@ DIPFIT model and preferences as follows:
 
 <center>
 
-[800px](/Image:dipole_settings_meg.gif "wikilink")
+![800px](/assets/images/dipole_settings_meg.gif)
 
 </center>
 
@@ -807,7 +807,7 @@ nonlinearly.
 
 <center>
 
-[Image:dipole_grid_meg.gif](/Image:dipole_grid_meg.gif "wikilink")
+![Image:dipole_grid_meg.gif](/assets/images/dipole_grid_meg.gif)
 
 </center>
 
@@ -822,7 +822,7 @@ advisable to normalize dipole lengths.
 
 <center>
 
-[850px](/Image:dipole_plot_meg.gif "wikilink")
+![850px](/assets/images/dipole_plot_meg.gif)
 
 </center>
 
@@ -959,7 +959,7 @@ variance was less than 15% (see plot below).
 
 <center>
 
-[Image:comparedipfitbesa.gif](/Image:comparedipfitbesa.gif "wikilink")
+![Image:comparedipfitbesa.gif](/assets/images/comparedipfitbesa.gif)
 
 </center>
 
@@ -1035,7 +1035,7 @@ source localization.
 
 <center>
 
-[750px](/Image:dipfiteloreta.png "wikilink")
+![750px](/assets/images/dipfiteloreta.png)
 
 </center>
 
@@ -1176,7 +1176,7 @@ figure; ft_sourceplot(cfg, sourceProj);
 
 <center>
 
-[border|500px](/Image:dipfiteloreta3.png "wikilink")
+![border|500px](/assets/images/dipfiteloreta3.png)
 
 </center>
 
@@ -1207,7 +1207,7 @@ figure; ft_sourceplot(cfg, sourceInt);
 
 <center>
 
-[border|500px](/Image:dipfiteloreta4.png "wikilink")
+![border|500px](/assets/images/dipfiteloreta4.png)
 
 </center>
 
@@ -1268,7 +1268,7 @@ ft_sourceplot(cfg, source);
 
 <center>
 
-[border|500px](/File:fieldtrip_surface_solution2.png "wikilink")
+![border|500px](/assets/images/fieldtrip_surface_solution2.png)
 
 </center>
 
@@ -1288,7 +1288,7 @@ hold on; ft_plot_mesh(vol.vol.bnd(1), 'facecolor', 'red', 'facealpha', 0.05, 'ed
 
 <center>
 
-[border|500px](/File:fieldtrip_surface_solution_with_bem2.png "wikilink")
+![border|500px](/assets/images/fieldtrip_surface_solution_with_bem2.png)
 
 </center>
 

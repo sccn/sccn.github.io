@@ -506,7 +506,7 @@ An example is shown below:
 
 This creates the following graphic interface
 
-[center](/Image:Supergui1.jpg "wikilink")
+![center](/assets/images/Supergui1.jpg)
 
 The command line call above contains two main arguments: 'geometry' and
 'uilist'. 'geometry' defines the geometry in this case 3 lines { 1 1 1}
@@ -540,14 +540,14 @@ may be defined using this scheme. For instance
          { 'style', 'pushbutton' , 'string', 'OK' 'callback' 'close(gcbf);' } } );
 ```
 
-[center](/Image:Supergui2.jpg "wikilink")
+![center](/assets/images/Supergui2.jpg)
 
 The first line now has geometry \[1 1\] which means that two UI will
 share this line and have the same horizontal extent. Changing \[1 1\] to
 \[1 0.5\] as shown below forces the second UI on the line to have only
 half the horizontal extent of the first one.
 
-[center](/Image:Supergui3.jpg "wikilink")
+![center](/assets/images/Supergui3.jpg)
 
 In some case, it is convinient to have a UI spam more than one line of
 text. This is often the case for listbox for instance. Below we define a
@@ -565,7 +565,7 @@ the listbox).
          { 'style', 'pushbutton' , 'string', 'OK' 'callback' 'close(gcbf);' } } );
 ```
 
-[center](/Image:Supergui4.jpg "wikilink")
+![center](/assets/images/Supergui4.jpg)
 
 ## Using the inputgui function
 
@@ -583,7 +583,7 @@ creating these buttons and also by processing outputs. For instance:
          { 'style', 'listbox', 'string', 'Choice 1|Choice 2|Choice 3' } } );
 ```
 
-[center](/Image:Supergui5.jpg "wikilink")
+![center](/assets/images/Supergui5.jpg)
 
 The "res" output contains the results in this case a cell array
 containing a single value from 1 to 3 indicating which choice the user
@@ -677,7 +677,7 @@ elements. Also note the "Help" button which executes the command
 Upon pressing **'OK**', the fields of the the "structout" structure
 contain all the user entry in the GUI.
 
-[center](/Image:Supergui6.jpg "wikilink")
+![center](/assets/images/Supergui6.jpg)
 
 ## Advanced GUI design
 
@@ -693,7 +693,7 @@ that problem.
                        { 'style' 'text' 'string' 'cell 4' } });
 ```
 
-[center](/Image:Supergui7.jpg "wikilink")
+![center](/assets/images/Supergui7.jpg)
 
 This type of interface is not possible using standard calls. The 'geom'
 input is detailed in the help section of the supergui function.

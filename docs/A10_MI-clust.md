@@ -21,7 +21,7 @@ below shows the scalp maps 30 ICs returned for a sample dataset.
 
 <center>
 
-[750px](/Image:_exp44_30_comps.png "wikilink")
+![750px](/assets/images/_exp44_30_comps.png)
 
 </center>
 
@@ -49,7 +49,7 @@ giving
 
 <center>
 
-[750px](/Image:_exp44_mutual_info.png "wikilink")
+![750px](/assets/images/_exp44_mutual_info.png)
 
 </center>
 
@@ -62,7 +62,7 @@ movements, specifically eye blinks.
 
 <center>
 
-[Image: exp44_comps1_4.png](/Image:_exp44_comps1_4.png "wikilink")
+![Image: exp44_comps1_4.png](/assets/images/_exp44_comps1_4.png)
 
 </center>
 
@@ -76,7 +76,7 @@ Then select <font color=brown>Plot \> Cluster dataset ICs</font>
 
 <center>
 
-[Image: miclust_menu.png](/Image:_miclust_menu.png "wikilink")
+![Image: miclust_menu.png](/assets/images/_miclust_menu.png)
 
 </center>
 
@@ -85,7 +85,7 @@ A pop-up dialog window will appear:
 
 <center>
 
-[Image: miclust_dialog.png](/Image:_miclust_dialog.png "wikilink")
+![Image: miclust_dialog.png](/assets/images/_miclust_dialog.png)
 
 </center>
 
@@ -120,12 +120,12 @@ are plotted :
     a cluster of vertical eye movement components:
 
     <center>
-    [625px](/Image:_eye_comp_cluster.png "wikilink")
+    ![625px](/assets/images/_eye_comp_cluster.png)
     </center>
 
     Another cluster, plotted below, consists of likely brain sources:
     <center>
-    [625px](/Image:_brain1_comp_cluster.png "wikilink")
+    ![625px](/assets/images/_brain1_comp_cluster.png)
     </center>
 
     The brightness of the background in these plots indicates the
@@ -139,7 +139,7 @@ are plotted :
     smooth background transition between components.
 
     <center>
-    [675px](/Image:_background_example_comp_cluster.png "wikilink")
+    ![675px](/assets/images/_background_example_comp_cluster.png)
     </center>
 
 
@@ -155,12 +155,12 @@ are plotted :
     additional groups for ICs with low silhouette.
 
     <center>
-    [425px](/Image:_miclust_silh.png "wikilink")
+    ![425px](/assets/images/_miclust_silh.png)
     </center>
 
 3.  The 3-D Plot:
     <center>
-    [750px](/Image:_3d_comp_cluster.png "wikilink")
+    ![750px](/assets/images/_3d_comp_cluster.png)
     </center>
 
     This plot shows a 3-D representation in which closer ICs have higher
@@ -173,7 +173,7 @@ are plotted :
 
     <center>
     [Image:
-    miclust_dendogram.png](/Image:_miclust_dendogram.png "wikilink")
+    miclust_dendogram.png](/assets/images/_miclust_dendogram.png)
     </center>
 
     In this plot, IC are hierarchically joined together (in a binary

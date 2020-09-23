@@ -7,7 +7,7 @@ parent: Docs
 
 <center>
 
-[Image:channel location.jpg](/Image:channel_location.jpg "wikilink")
+![Image:channel location.jpg](/assets/images/channel_location.jpg)
 
 </center>
 

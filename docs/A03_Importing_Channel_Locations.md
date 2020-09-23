@@ -63,7 +63,7 @@ test this section by typing on the Matlab command line:
 
 <center>
 
-[Image:editchannelinfo.jpg](/Image:editchannelinfo.jpg "wikilink")
+![Image:editchannelinfo.jpg](/assets/images/editchannelinfo.jpg)
 
 </center>
 
@@ -84,7 +84,7 @@ distribution).
 
 <center>
 
-[Image:loadchannellocation.jpg](/Image:loadchannellocation.jpg "wikilink")
+![Image:loadchannellocation.jpg](/assets/images/loadchannellocation.jpg)
 
 </center>
 
@@ -98,7 +98,7 @@ the main channel graphic interface window to view the supported formats.
 
 <center>
 
-[Image:chaneditfileformat.jpg](/Image:chaneditfileformat.jpg "wikilink")
+![Image:chaneditfileformat.jpg](/assets/images/chaneditfileformat.jpg)
 
 </center>
 
@@ -125,7 +125,7 @@ and *\>\>*.
 
 <center>
 
-[Image:21pop_chanedit.jpg](/Image:21pop_chanedit.jpg "wikilink")
+![Image:21pop_chanedit.jpg](/assets/images/21pop_chanedit.jpg)
 
 </center>
 
@@ -329,7 +329,7 @@ more details, see the { {File|readlocs.m} } help message.
 
 <center>
 
-[500px](/Image:channellocationname.gif "wikilink")
+![500px](/assets/images/channellocationname.gif)
 
 </center>
 
@@ -350,7 +350,7 @@ more details, see the { {File|readlocs.m} } help message.
 
 <center>
 
-[Image:3dlpotxyz.gif](/Image:3dlpotxyz.gif "wikilink")
+![Image:3dlpotxyz.gif](/assets/images/3dlpotxyz.gif)
 
 </center>
 
@@ -391,7 +391,7 @@ The following window will pop-up:
 
 <center>
 
-[Image:pop_chaneditmsg.jpg](/Image:pop_chaneditmsg.jpg "wikilink")
+![Image:pop_chaneditmsg.jpg](/assets/images/pop_chaneditmsg.jpg)
 
 </center>
 
@@ -402,7 +402,7 @@ will then pop up.
 
 <center>
 
-[Image:pop_chaneditlookup.gif](/Image:pop_chaneditlookup.gif "wikilink")
+![Image:pop_chaneditlookup.gif](/assets/images/pop_chaneditlookup.gif)
 
 </center>
 
@@ -413,7 +413,7 @@ proceed to the next section.
 
 <center>
 
-[Image:topoplotlookup.gif](/Image:topoplotlookup.gif "wikilink")
+![Image:topoplotlookup.gif](/assets/images/topoplotlookup.gif)
 
 </center>
 
@@ -436,7 +436,7 @@ An empty channel editing window will appear:
 <center>
 
 
-[Image:editchannelinfo.jpg](/Image:editchannelinfo.jpg "wikilink")
+![Image:editchannelinfo.jpg](/assets/images/editchannelinfo.jpg)
 
 </center>
 
@@ -451,7 +451,7 @@ button. The following plot will pop up.
 <center>
 
 
-[Image:scanlocs1.gif](/Image:scanlocs1.gif "wikilink")
+![Image:scanlocs1.gif](/assets/images/scanlocs1.gif)
 
 </center>
 
@@ -466,7 +466,7 @@ imported 3-D electrode locations. To do so, press the *Opt. head center*
 <center>
 
 
-[Image:pop_chancenter.gif](/Image:pop_chancenter.gif "wikilink")
+![Image:pop_chancenter.gif](/assets/images/pop_chancenter.gif)
 
 </center>
 
@@ -483,7 +483,7 @@ above. Then press *Ok*. After the optimization has finished, press the
 <center>
 
 
-[Image:scanlocs2.gif](/Image:scanlocs2.gif "wikilink")
+![Image:scanlocs2.gif](/assets/images/scanlocs2.gif)
 
 </center>
 
@@ -496,7 +496,7 @@ will pop up:
 <center>
 
 
-[Image:forcelocs.gif](/Image:forcelocs.gif "wikilink")
+![Image:forcelocs.gif](/assets/images/forcelocs.gif)
 
 </center>
 
@@ -507,7 +507,7 @@ press the *Plot 2-D* button once more to again plot the scalp map.
 <center>
 
 
-[Image:scanlocs3.gif](/Image:scanlocs3.gif "wikilink")
+![Image:scanlocs3.gif](/assets/images/scanlocs3.gif)
 
 </center>
 

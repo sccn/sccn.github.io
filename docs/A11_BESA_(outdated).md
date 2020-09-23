@@ -21,7 +21,7 @@ experimenters as representing a left-occipital alpha rhythm generator.
 
 <center>
 
-[Image:besaexample2.jpg](/Image:besaexample2.jpg "wikilink")
+![Image:besaexample2.jpg](/assets/images/besaexample2.jpg)
 
 </center>
 
@@ -41,7 +41,7 @@ by two symmetrically placed equivalent dipoles).
 
 <center>
 
-[Image:besaexample1.jpg](/Image:besaexample1.jpg "wikilink")
+![Image:besaexample1.jpg](/assets/images/besaexample1.jpg)
 
 </center>
 
@@ -110,7 +110,7 @@ The following window will appear:
 
 <center>
 
-[Image:besaexport.gif](/Image:besaexport.gif "wikilink")
+![Image:besaexport.gif](/assets/images/besaexport.gif)
 
 </center>
 
@@ -155,7 +155,7 @@ The following interactive window will pop up.
 
 <center>
 
-[Image:besaimport.gif](/Image:besaimport.gif "wikilink")
+![Image:besaimport.gif](/assets/images/besaimport.gif)
 
 </center>
 
@@ -193,7 +193,7 @@ dipoles on BESA head</font>.
 
 <center>
 
-[Image:besaplot1.gif](/Image:besaplot1.gif "wikilink")
+![Image:besaplot1.gif](/assets/images/besaplot1.gif)
 
 </center>
 
@@ -217,7 +217,7 @@ dipoles using BESA \> Plot dipoles on BESA head.</font>
 
 <center>
 
-[Image:besaplot2.gif](/Image:besaplot2.gif "wikilink")
+![Image:besaplot2.gif](/assets/images/besaplot2.gif)
 
 </center>
 

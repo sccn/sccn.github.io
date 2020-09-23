@@ -58,7 +58,7 @@ Finally, check the third checkbox to transpose the matrix before saving.
 <center>
 
 
-[Image:pop_export.gif](/Image:pop_export.gif "wikilink")
+![Image:pop_export.gif](/assets/images/pop_export.gif)
 
 
 </center>
@@ -105,7 +105,7 @@ enter a file name in the pop-up window and press *Save*.
 
 <center>
 
-[325px](/Image:pop_expica.gif "wikilink")
+![325px](/assets/images/pop_expica.gif)
 
 </center>
 
@@ -119,7 +119,7 @@ details on sphere and weight matrices.
 
 <center>
 
-[600px](/Image:pop_editset.gif "wikilink")
+![600px](/assets/images/pop_editset.gif)
 
 </center>
 

@@ -77,7 +77,7 @@ In Matlab:
 
 <center>
 
-[900px](/Image:ica24.png "wikilink")
+![900px](/assets/images/ica24.png)
 
 </center>
 
@@ -163,7 +163,7 @@ detail.)
 
 <center>
 
-[1000px](/Image:pca_p1.png "wikilink")
+![1000px](/assets/images/pca_p1.png)
 
 </center>
 
@@ -174,7 +174,7 @@ Similarly for <m>\\mathcal{GG}(s;0,1,10)</m> sources,
 
 <center>
 
-[1000px](/Image:pca_p10.png "wikilink")
+![1000px](/assets/images/pca_p10.png)
 
 </center>
 
@@ -199,7 +199,7 @@ statistics to the observed data.
 
 <center>
 
-[1000px](/Image:pca_p2.png "wikilink")
+![1000px](/assets/images/pca_p2.png)
 
 </center>
 
@@ -229,7 +229,7 @@ algorithm. The output is shown below:
 
 <center>
 
-[800px](/Image:ica1.png "wikilink")
+![800px](/assets/images/ica1.png)
 
 </center>
 
@@ -241,7 +241,7 @@ ggrandmix0.m:
 
 <center>
 
-[800px](/Image:ica2.png "wikilink")
+![800px](/assets/images/ica2.png)
 
 </center>
 
@@ -266,7 +266,7 @@ and density parameters associated with model <m>h</m>.
 
 <center>
 
-[500px](/Image:gg_clb.png "wikilink")
+![500px](/assets/images/gg_clb.png)
 
 </center>
 
@@ -281,7 +281,7 @@ We use the program amica_ex.m to illustate:
 
 <center>
 
-[500px](/Image:ica_mix_dat.png "wikilink")
+![500px](/assets/images/ica_mix_dat.png)
 
 </center>
 
@@ -289,7 +289,7 @@ The output is shown below:
 
 <center>
 
-[1000px](/Image:ica_mix.png "wikilink")
+![1000px](/assets/images/ica_mix.png)
 
 </center>
 
@@ -311,7 +311,7 @@ A plot of the posterior log likelihood given each model is shown below.
 
 <center>
 
-[1000px](/Image:LLggmix.png "wikilink")
+![1000px](/assets/images/LLggmix.png)
 
 </center>
 

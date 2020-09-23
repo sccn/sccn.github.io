@@ -5,7 +5,7 @@ permalink: /docs/Audiomaze
 parent: Docs
 ---
 
-[400px|](/File:wire18.jpg "wikilink")
+![400px|](/assets/images/wire18.jpg)
 
 ## What is Audiomaze?
 
@@ -29,13 +29,13 @@ transformed into "perceptual atoms" which we can study with EEG.
 [Access to the pdf
 file.](https://crcns2017.worldeventsforum.net/wp-content/uploads/2017/07/CRCNS-2017-Abstracts-Book-Jun-12.pdf)
 
-[300px|](/File:crcns2017_01.jpg "wikilink")
-[300px|](/File:crcns2017_02.jpg "wikilink")
-[300px|](/File:crcns2017_03.jpg "wikilink")
+![300px|](/assets/images/crcns2017_01.jpg)
+![300px|](/assets/images/crcns2017_02.jpg)
+![300px|](/assets/images/crcns2017_03.jpg)
 
 ## Download Links for Demo Data and Proof-of-concept EEGLAB Plugin (05/16/2020 updated)
 
-[300px|](/File:gui.png "wikilink")
+![300px|](/assets/images/gui.png)
 
 Download EEGLAB .set and .fdt files that contains 128-ch EEG plug 32-ch
 motion tracker data from one session of one participant. [from here

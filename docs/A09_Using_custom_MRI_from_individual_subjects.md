@@ -25,7 +25,7 @@ Matlab command line.
 
 <center>
 
-[425px](/Image:spm_entryscreen.gif "wikilink")
+![425px](/assets/images/spm_entryscreen.gif)
 
 </center>
 
@@ -36,7 +36,7 @@ appear (along with other screens).
 
 <center>
 
-[425px](/Image:spm_menu.gif "wikilink")
+![425px](/assets/images/spm_menu.gif)
 
 </center>
 
@@ -47,7 +47,7 @@ clicking on it. Then press, *Done* as shown below.
 
 <center>
 
-[325px](/Image:spm_selectdisplay.gif "wikilink")
+![325px](/assets/images/spm_selectdisplay.gif)
 
 </center>
 
@@ -60,7 +60,7 @@ the bottom.
 
 <center>
 
-[525px](/Image:spm_displayscreen.gif "wikilink")
+![525px](/assets/images/spm_displayscreen.gif)
 
 </center>
 
@@ -73,7 +73,7 @@ Write Normalized*.
 
 <center>
 
-[375px](/Image:spm_normalize.gif "wikilink")
+![375px](/assets/images/spm_normalize.gif)
 
 </center>
 
@@ -85,7 +85,7 @@ press *Done*.
 
 <center>
 
-[375px](/Image:spm_selecttemplate.gif "wikilink")
+![375px](/assets/images/spm_selecttemplate.gif)
 
 </center>
 
@@ -96,7 +96,7 @@ Press *Done*.
 
 <center>
 
-[425px](/Image:spm_selectsource.gif "wikilink")
+![425px](/assets/images/spm_selectsource.gif)
 
 </center>
 
@@ -114,7 +114,7 @@ shown below:
 
 <center>
 
-[425px](/Image:dipplot_spm.gif "wikilink")
+![425px](/assets/images/dipplot_spm.gif)
 
 </center>
 

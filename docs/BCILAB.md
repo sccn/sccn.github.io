@@ -7,7 +7,7 @@ parent: Docs
 
 Open Source Matlab Toolbox for Brain-Computer Interface research.
 
-[Image:Bcilab-small.png](/Image:Bcilab-small.png "wikilink")
+![Image:Bcilab-small.png](/assets/images/Bcilab-small.png)
 
 # Quick Start Guide
 

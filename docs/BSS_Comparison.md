@@ -6,7 +6,7 @@ parent: Docs
 ---
 
 [Figure 4B from Delorme et al., Independent EEG sources are
-dipolar](/Image:Delorme_Fig4B.jpg "wikilink")
+dipolar](/assets/images/Delorme_Fig4B.jpg)
 
 This web page is associated with the paper
 

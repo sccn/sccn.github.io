@@ -19,7 +19,7 @@ in the toolbox distribution, the window below will pop up.
 
 <center>
 
-[Image:option1.gif ](/Image:option1.gif "wikilink")
+![Image:option1.gif ](/assets/images/option1.gif)
 
 </center>
 
@@ -45,7 +45,7 @@ following window will pop up.
 <center>
 
 [Image: Memory option gui2.png
-](/Image:_Memory_option_gui2.png "wikilink")
+](/assets/images/_Memory_option_gui2.png)
 
 </center>
 

@@ -5,7 +5,7 @@ permalink: /docs/Analyzing_EEG_data_in_EEGLAB_The_Wakeman-Henson_dataset
 parent: Docs
 ---
 
-[right|830px](/Image:RMC_SfN_poster_2018_2print.jpg "wikilink")
+![right|830px](/assets/images/RMC_SfN_poster_2018_2print.jpg)
 
 ## Analyzing EEG data with EEGLAB: The Wakeman-Henson dataset
 
@@ -66,7 +66,7 @@ house’ images experiment affected EEG and concurrent MEG responses, and
 how responses to well-known, unknown, and scrambled faces in the same
 sequence differed. See details of the paradigm in the figure below.
 
-[`center|400px`](/Image:Wakeman_henson_eegset.jpg "wikilink")
+![`center|400px`](/assets/images/Wakeman_henson_eegset.jpg)
 
 ## Data processing
 
@@ -315,7 +315,7 @@ consisting of one or of two (bilateral) cortical patches, respectively
 (range of residual IC scalp map variances unaccounted for by the
 indicated equivalent dipole models, 0.9% - 4.6%).
 
-[center|600px](/Image:Subject_11_ALL_Figures_Figure_1.jpg "wikilink")
+![center|600px](/assets/images/Subject_11_ALL_Figures_Figure_1.jpg)
 
 ``` matlab
 pop_topoplot(EEG,0, [1:35] ,' ',[5 7] ,1,'electrodes','on', 'style','both','dipnormmax','on');1);
@@ -328,7 +328,7 @@ consecutive event-related trial epochs time locked to successive face
 stimulus presentations (each trace normed to equal variance). (EEGLAB
 function, eegplot())
 
-[center|600px](/Image:Subject_11_ALL_Figures_Figure_2.jpg "wikilink")
+![center|600px](/assets/images/Subject_11_ALL_Figures_Figure_2.jpg)
 
 ``` matlab
  EEG.icaact = eeg_getdatact(EEG);
@@ -352,7 +352,7 @@ IC10 in accounting for the ‘N170’ negative-going activation (near 0.18
 s) and the dominance of IC8 and IC19 for the positive-going activation
 (near 130ms).
 
-[center|700px](/Image:Subject_11_ALL_Figures_Figure_4.jpg "wikilink")
+![center|700px](/assets/images/Subject_11_ALL_Figures_Figure_4.jpg)
 
 ### Plotting dipoles in head model
 
@@ -370,7 +370,7 @@ individual differences in head shape, cortical surface physiognomy, and
 skull conductivity, we cannot expect mm-scale accuracy in dipole
 localization to a Talairach atlas.
 
-[center|400px](/Image:Subject_11_ALL_Figures_Figure_5.jpg "wikilink")
+![center|400px](/assets/images/Subject_11_ALL_Figures_Figure_5.jpg)
 
 ### ERP Image plots
 
@@ -417,7 +417,7 @@ be produced from the pop_erpimage() gui, but required a command line
 call to enter the separately computed N170 peak latencies as the
 trial-sorting value).
 
-[center|600px](/Image:Subject_11_ALL_Figures_Figure_6.jpg "wikilink")
+![center|600px](/assets/images/Subject_11_ALL_Figures_Figure_6.jpg)
 
 ## Multiple subjects analysis: STUDY
 
@@ -639,7 +639,7 @@ can be cluster 5 in the next run). This should not be a point of
 conflict in analyzing the results as is a natural result of the method
 used.
 
-[center|500px](/Image:WH_STUDY_figures_scalpmaps.jpeg "wikilink")
+![center|500px](/assets/images/WH_STUDY_figures_scalpmaps.jpeg)
 
 ``` matlab
 STUDY = std_topoplot(STUDY,ALLEEG,'clusters',2:17, 'design', 1);
@@ -651,7 +651,7 @@ the cluster centroids. This may lead to further analysis, by elaborating
 results based on the anatomical location and the dynamics of the brain
 response itself.
 
-[center|500px](/Image:WH_STUDY_figures_dipoles.jpeg "wikilink")
+![center|500px](/assets/images/WH_STUDY_figures_dipoles.jpeg)
 
 ``` matlab
 STUDY = std_dipplot(STUDY,ALLEEG,'clusters',2:17, 'design', 1);
@@ -672,7 +672,7 @@ STUDY = pop_erpparams(STUDY, 'filter',15,'timerange',[-100 500], 'ylim', opt.yli
 STUDY = std_erpplot(STUDY,ALLEEG,'clusters',2:17, 'design', 1);
 ```
 
-[center|500px](/Image:WH_STUDY_figures_erps.jpeg "wikilink")
+![center|500px](/assets/images/WH_STUDY_figures_erps.jpeg)
 
 With these results in hand, one might continue the analysis by
 assessing, for example, the dynamics in cluster 8 (as shown in the
@@ -688,7 +688,7 @@ between the responses to scrambled faces since this is a deviant
 stimulus. However, we can not explicitly put forwards these conclusions
 without a proper statistical analysis of our results.
 
-[center|600px](/Image:WH_STUDY_figures_cls8.jpeg "wikilink")
+![center|600px](/assets/images/WH_STUDY_figures_cls8.jpeg)
 
 Indeed, EEGLAB provides a great framework for the statistical analysis
 of electrophysiological data. EEGLAB allows users to use either

@@ -69,7 +69,7 @@ data since it provides two powerful filters
     final clustering results are identified as non-EEG sources.
 
 [500px|Figure 6. Cluster-level filtering using
-spectra.](/File:Std_backproj_example.jpg "wikilink")
+spectra.](/assets/images/Std_backproj_example.jpg)
 
 To address this issue, one may use std_backproj in the following way:
 
@@ -88,13 +88,13 @@ EMG, so EMG ICs should be better removed beforehand), and so on.
 ## Screenshots
 
 [500px|Figure 1. std_backproj:Compute
-backprojection](/File:Std_backproj01.png "wikilink")
+backprojection](/assets/images/Std_backproj01.png)
 
 [800px|Figure 2. std_backproj:Plot ERP
-results](/File:Std_backproj02.png "wikilink")
+results](/assets/images/Std_backproj02.png)
 
 [800px|Figure 3. std_backproj:Plot PVAF(percent variance accounted
-for)](/File:Std_backproj03.png "wikilink")
+for)](/assets/images/Std_backproj03.png)
 
 ## Validation
 
@@ -113,7 +113,7 @@ figuring out the labyrinth of STUDY.
 
 [800px|Figure 4. std_backproj: The result compared with grand-average
 of the backprojected acorss all the
-subjects](/File:Validation1.png "wikilink")
+subjects](/assets/images/Validation1.png)
 
 **Results**
 
@@ -128,7 +128,7 @@ subjects](/File:Validation1.png "wikilink")
     1; AC difference in the order of 0.0000001)
 
 [800px|Figure 5. std_backproj: validation
-results](/File:Validation2.png "wikilink")
+results](/assets/images/Validation2.png)
 
 **Conclusion** The method fulfills the precision in practice. I don't
 know exactly where the numerical difference in both DC and AC come from.

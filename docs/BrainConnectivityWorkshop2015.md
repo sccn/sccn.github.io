@@ -7,7 +7,7 @@ parent: Docs
 
 <center>
 
-[600pix](/Image:BCW2015web.png "wikilink")
+![600pix](/assets/images/BCW2015web.png)
 
 </center>
 

@@ -57,13 +57,13 @@ for this\!)
 ## Screenshots
 
 [300px|Figure 1. interpolateSpike:
-GUI](/File:Screenshot3_interpolateSpike.png "wikilink")
+GUI](/assets/images/Screenshot3_interpolateSpike.png)
 
 [600px|Figure 2. interpolateSpike: Before
-correction](/File:Screenshot2_interpolateSpike.png "wikilink")
+correction](/assets/images/Screenshot2_interpolateSpike.png)
 
 [600px|Figure 3. interpolateSpike: After
-correction](/File:Screenshot1_interpolateSpike.png "wikilink")
+correction](/assets/images/Screenshot1_interpolateSpike.png)
 
 Data by courtesy of Michael Borich
 
@@ -77,8 +77,8 @@ activation for 33ch with ARfitStudio applied on channels (left), 2) the
 same but ARfitStudio applied on ICs (right). The noise was originally
 present within -/+10 ms relative to latency zero.
 
-[600px](/File:onChannels.png "wikilink")
-[600px](/File:onICs.png "wikilink")
+![600px](/assets/images/onChannels.png)
+![600px](/assets/images/onICs.png)
 
 Performing ARfit-interpolation for ICA properly is complicated.
 

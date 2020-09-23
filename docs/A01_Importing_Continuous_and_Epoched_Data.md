@@ -89,7 +89,7 @@ dataset parameters will be automatically adjusted.
 
 <center>
 
-[700px](/Image:II11pop_editset.jpg "wikilink")
+![700px](/assets/images/II11pop_editset.jpg)
 
 </center>
 
@@ -121,7 +121,7 @@ accept.
 
 <center>
 
-[Image:II11pop_newset.jpg](/Image:II11pop_newset.jpg "wikilink")
+![Image:II11pop_newset.jpg](/assets/images/II11pop_newset.jpg)
 
 </center>
 
@@ -164,7 +164,7 @@ data \> From Biosemi .BDF file</font> (calling function {
 
 <center>
 
-[275px](/Image:pop_readbdf.gif "wikilink")
+![275px](/assets/images/pop_readbdf.gif)
 
 </center>
 
@@ -176,7 +176,7 @@ Then a second window pops up, press *Ok*.
 
 <center>
 
-[Image:II12pop_readbdf.jpg](/Image:II12pop_readbdf.jpg "wikilink")
+![Image:II12pop_readbdf.jpg](/assets/images/II12pop_readbdf.jpg)
 
 </center>
 
@@ -186,7 +186,7 @@ The third window to pop up ask for a new dataset name.
 
 <center>
 
-[Image:pop_readbdf2.gif](/Image:pop_readbdf2.gif "wikilink")
+![Image:pop_readbdf2.gif](/assets/images/pop_readbdf2.gif)
 
 </center>
 
@@ -229,7 +229,7 @@ appear
 
 <center>
 
-[290px](/Image:pop_readegi.gif "wikilink")
+![290px](/assets/images/pop_readegi.gif)
 
 </center>
 
@@ -286,7 +286,7 @@ function. The following window will appear:
 
 <center>
 
-[Image:pop_loadcnt2.gif](/Image:pop_loadcnt2.gif "wikilink")
+![Image:pop_loadcnt2.gif](/assets/images/pop_loadcnt2.gif)
 
 </center>
 
@@ -298,7 +298,7 @@ up:
 
 <center>
 
-[Image:pop_loadcnt.gif](/Image:pop_loadcnt.gif "wikilink")
+![Image:pop_loadcnt.gif](/assets/images/pop_loadcnt.gif)
 
 </center>
 
@@ -313,7 +313,7 @@ the new data set.
 
 <center>
 
-[Image:II15pop_newset.jpg](/Image:II15pop_newset.jpg "wikilink")
+![Image:II15pop_newset.jpg](/assets/images/II15pop_newset.jpg)
 
 </center>
 
@@ -335,7 +335,7 @@ select <font color=brown>Tools \> Extract epochs</font>
 
 <center>
 
-[Image:pop_epochcnt.gif](/Image:pop_epochcnt.gif "wikilink")
+![Image:pop_epochcnt.gif](/assets/images/pop_epochcnt.gif)
 
 </center>
 
@@ -347,7 +347,7 @@ after events). The following window will appear:
 
 <center>
 
-[Image:II15pop_newset2.jpg](/Image:II15pop_newset2.jpg "wikilink")
+![Image:II15pop_newset2.jpg](/assets/images/II15pop_newset2.jpg)
 
 
 </center>
@@ -362,7 +362,7 @@ pop up:
 
 <center>
 
-[Image:II15pop_rmbase.jpg](/Image:II15pop_rmbase.jpg "wikilink")
+![Image:II15pop_rmbase.jpg](/assets/images/II15pop_rmbase.jpg)
 
 
 </center>
@@ -384,7 +384,7 @@ information.
 
 <center>
 
-[Image:pop_loadeeg.gif](/Image:pop_loadeeg.gif "wikilink")
+![Image:pop_loadeeg.gif](/assets/images/pop_loadeeg.gif)
 
 </center>
 
@@ -404,7 +404,7 @@ will pop up to ask for relative gain, leave it on 400 and press *Ok*.
 
 <center>
 
-[Image:II16pop_snapread.jpg](/Image:II16pop_snapread.jpg "wikilink")
+![Image:II16pop_snapread.jpg](/assets/images/II16pop_snapread.jpg)
 
 </center>
 
@@ -517,7 +517,7 @@ ascii/float file or Matlab array</font>
 
 <center>
 
-[Importing data averages](/Image:pop_importdata2.gif "wikilink")
+![Importing data averages](/assets/images/pop_importdata2.gif)
 
 </center>
 
@@ -529,7 +529,7 @@ Press *OK* to create a new dataset.
 
 <center>
 
-[Image:pop_newset.jpg](/Image:pop_newset.jpg "wikilink")
+![Image:pop_newset.jpg](/assets/images/pop_newset.jpg)
 
 </center>
 
@@ -541,7 +541,7 @@ three condition ERPs.
 
 <center>
 
-[Image:II43pop_plotdata.jpg](/Image:II43pop_plotdata.jpg "wikilink")
+![Image:II43pop_plotdata.jpg](/assets/images/II43pop_plotdata.jpg)
 
 </center>
 
