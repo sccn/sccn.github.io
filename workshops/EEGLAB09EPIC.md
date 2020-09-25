@@ -26,7 +26,7 @@ Apr 20–22, 2009</font>
 Mb)](ftp://sccn.ucsd.edu/pub/eeglab6.1b.zip)
 
 [Tutorial scripts](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_scripts.zip)
-[Tutorial data sets (15 Mb)](https://sccn.ucsd.edu/githubwiki/pdfs/data.zip)
+[Tutorial Data sets (15 Mb)](https://sccn.ucsd.edu/githubwiki/pdfs/Data.zip)
 [Group Research Questions (15
 Mb)](/Media:ProjectQuestions.doc "wikilink")
 
@@ -96,27 +96,27 @@ Below are some seminal and important papers describing EEGLAB processing:
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
 
 Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/TICSreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
 
 Onton, J., Makeig, S. [Information-based modeling of event-related brain
-dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_PBR_published.pdf). Prog Brain Res.2006; 159: 99-120.
+dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_pbr_published.pdf). Prog Brain Res.2006; 159: 99-120.
 
 Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
 Sejnowski, TJ. [Analysis and visualizaion of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
+potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
 from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
 Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S. [Comparing
 results of algorithms implementing blind source separation of EEG
-data](https://sccn.ucsd.edu/githubwiki/pdfs/delorme_unpub.pdf). unpublished manuscript.
+data](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_unpub.pdf). unpublished manuscript.
 Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
+working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
@@ -136,16 +136,16 @@ Workshop Program (with corresponding PDFs)
 
 
 8:30 – 9:30 am -- Mining event-related brain dynamics I (Scott Makeig)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_intro.pdf‎))
+([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_intro.pdf‎))
 9:30 – 10:00 am -- EEGLAB overview (Arnaud Delorme)
 ([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_eeglaboverview.pdf‎))
 
 <font color = green>-- Break--</font>
 
 10:20 – 11:05 am -- ICA theory (Arnaud Delorme)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/ICA_indiana.pdf‎))
+([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Ica_indiana.pdf‎))
 11:05 – 12:00 pm -- ICA Applications (Julie Onton)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/ICA_Application.pdf‎))
+([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Ica_application.pdf‎))
 </font>
 
 
@@ -161,7 +161,7 @@ Workshop Program (with corresponding PDFs)
 1:00 – 1:40 pm -- Time-Frequency decomopositions (Arnaud Delorme)
 ([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_timefreq.pdf))
 1:40 – 2:20 pm – EEG, ERP and phase-locking (Scott Makeig)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Indiana_PhaseLocking.pdf))
+([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Indiana_phaselocking.pdf))
 2:20 – 2:40 pm -- Questions and general discussion (All)</font>
 
 
@@ -170,9 +170,9 @@ Workshop Program (with corresponding PDFs)
 <font color = purple>3:00 – 3:50 pm -- Bootstrap statistics (Arnaud
 Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_statistics.pdf))
 3:50 – 4:30 pm -- ICA clustering (Scott Makeig)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_Indiana_Clustering.pdf))
+([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_indiana_clustering.pdf))
 4:30 – 5:00 pm -- ICA Clustering examples (Julie Onton)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/ClusteringExamples.pdf‎)) </font>
+([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Clusteringexamples.pdf‎)) </font>
 <u><font color=blue>Tuesday, April 21</font></u>
 
 
@@ -185,12 +185,12 @@ Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_statistics.pdf))
 8:30 – 9:20 am -- Data import and channel analysis (Julie Onton)
 [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_1_data_import.pdf)
 9:20 – 10:10 pm -- Artifact rejection and running ICA (Julie Onton)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_2_preprocess_ICA.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_2_preprocess_ica.pdf)
 
 <font color=green>-- Break –</font>
 
 10:30– 11:20 am -- Evaluating ICA components (Julie Onton)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_3_EvaluateICs.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_3_evaluateics.pdf)
 11:20 – 12:10 am -- Basic scripting using EEGLAB “history”
 (A.Delorme)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_scripting.pdf)
 
@@ -202,15 +202,15 @@ Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_statistics.pdf))
 <font color = orange>1:10 – 2:00 pm – Time/frequency analysis (Arnaud
 Delorme)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_timefreq.pdf) [(ZIPfor PPT)](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_timefreq.zip)
 <font color = purple>2:00 – 2:50 pm – Forward and inverse models (Scott
-Makeig)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/DIPFIT_Theory_Indiana.pdf)
+Makeig)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Dipfit_theory_indiana.pdf)
 
 <font color = green>-- Break -- </font>
 
 <font color = orange>3:10 – 4:00 pm -- Dipole modeling with the DIPFIT
 plugin (Julie Onton)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_6_DIPFITcoreg.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_6_dipfitcoreg.pdf)
 4:00 – 4:50 pm -- Building plugins (Arnaud Delorme)</font>
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_plugins.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_plugins.pdf)
 <u><font color=blue>Wednesday, April 22</font></u>
 
 
@@ -221,16 +221,16 @@ plugin (Julie Onton)
 
 
 8:30 – 9:20 am -- Introduction to the STUDY gui (Julie Onton)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_8_STUDYgui.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_8_studygui.pdf)
 9:20 – 10:10 pm – Plot and edit clusters (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_STUDYplotedit.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_studyplotedit.pdf)
 
 <font color=green>-- Break -- </font>
 
 10:30– 11:20 am – Building a STUDY script (Julie Onton)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_10_STUDYscripting.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_10_studyscripting.pdf)
 11:20 – 12:10 am -- STUDY analysis (Julie Onton)</font>
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_11_STUDYanalysis.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_11_studyanalysis.pdf)
 
 <font color=green>-- 12:10-1:10 Lunch --</font>
 

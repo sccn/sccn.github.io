@@ -110,14 +110,14 @@ Important papers describing EEGLAB processing:
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21. \<-- The basic EEGLAB citation.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21. \<-- The basic EEGLAB citation.
 
 Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/TICSreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
 
 Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
 Sejnowski, TJ. [Analysis and visualization of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
+potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
 
 Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
 [<font color=blue>Independent components of EEG data are
@@ -126,10 +126,10 @@ PLoS ONE. 2012. i7(2):e30135.
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
 from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
 Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
+working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Loo, S., Lenartowicz, A., Makeig, S. [<font color=blue>Use of EEG
 biomarkers in child psychiatry research – current state and future
@@ -150,15 +150,15 @@ Preliminary Workshop Program (with corresponding PDFs)
 
 <font color = purple>8:30AM – 9:45AM -- Mining event-related brain
 dynamics I (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_Mining1_Pittsburgh2018.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_mining1_pittsburgh2018.pdf‎)
 <font color = purple>9:45AM – 10:15AM -- EEGLAB overview (Arnaud
 Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_EEGLAB_overview_Pittsburgh2018.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_eeglab_overview_pittsburgh2018.pdf‎)
 
 <font color = green>-- Coffee Break--</font>
 
 <font color = purple>10:30AM – 12:30AM -- ICA theory (Scott
-Makeig)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_ICA_Pittsburgh2018.pdf‎)
+Makeig)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_ica_pittsburgh2018.pdf‎)
 <!-- -->
 
 
@@ -172,16 +172,16 @@ Makeig)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_ICA_Pittsburgh
 
 <font color = orange>2:00PM – 3:00PM -- Data import, Artifact rejection
 (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_EEGLAB_preprocesssing_Pittsburgh2018.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_eeglab_preprocesssing_pittsburgh2018.pdf‎)
 <font color = orange>3:00PM – 4:00PM -- ICA decomposition practicum
 (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_EEGLAB_ICApracticum_Pittsburgh2018.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_eeglab_icapracticum_pittsburgh2018.pdf‎)
 
 <font color = green>--Coffee Break--</font>
 
 <font color = purple>4:15PM – 5:15PM -- Time-frequency decompositions:
 Theory and practice (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_EEGLAB_timefreq_Pittsburgh2018.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_eeglab_timefreq_pittsburgh2018.pdf‎)
 <u><font color=blue>Wednesday, September 5th 2018</font></u>
 
 
@@ -190,10 +190,10 @@ Theory and practice (Scott Makeig)</font>
 
 <font color = purple>8:30AM – 9:15AM -- Forward and inverse modeling
 (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_Pittsburgh18_ForwardInverse.pdf)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_pittsburgh18_forwardinverse.pdf)
 <font color = orange>9:15AM – 10:00AM -- Dipole localization in EEGLAB
 (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_EEGLAB_Dipfit2_Pittsburgh2018.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_eeglab_dipfit2_pittsburgh2018.pdf‎)
 <!-- -->
 
 
@@ -206,10 +206,10 @@ Theory and practice (Scott Makeig)</font>
 
 <font color=purple>10:15PM – 11:15PM -- Source information flow and
 Granger-Causal modeling tools (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_EEGLAB_causal_model_Pittsburgh2018.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_eeglab_causal_model_pittsburgh2018.pdf‎)
 <font color = purple>11:15AM - 12:30AM -- Why cluster ICA components?
 (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_Pittsburgh18_Clustering.pdf)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_pittsburgh18_clustering.pdf)
 <!-- -->
 
 
@@ -223,14 +223,14 @@ Granger-Causal modeling tools (Arnaud Delorme)</font>
 
 <font color = orange>2:00PM - 2:30PM -- Creating a STUDY, STUDY design,
 basic plotting (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_Pittsburgh18_study.pdf)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_pittsburgh18_study.pdf)
 <font color = orange>2:30PM - 3:00PM -- Group analysis using EEGLAB
 studies: Methods to cluster ICA components (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_Pittsburgh18_Clustering.pdf)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_pittsburgh18_clustering.pdf)
 <font color = orange>3:00PM - 3:30PM -- General linear modeling (Arnaud
-Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_Pittsburgh18_GLM.pdf)
+Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_pittsburgh18_glm.pdf)
 <font color = orange>3:30PM – 4:00PM -- Scripting in EEGLAB (Arnaud
-Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_Pittsburgh18_script.pdf)
+Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_pittsburgh18_script.pdf)
 <!-- -->
 
 
@@ -243,4 +243,4 @@ Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_Pittsburgh18
 
 <font color = purple>4:30PM – 5:15PM -- Mining event-related brain
 dynamics II (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_Pittsburgh18_Mining_II.pdf_‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_pittsburgh18_mining_ii.pdf_‎)

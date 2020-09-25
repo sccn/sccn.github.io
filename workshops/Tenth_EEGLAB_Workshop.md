@@ -27,7 +27,7 @@ Pre-Workshop ICA conference
 
 More independent linear EEG decompositions include more near-dipolar
 components (Arnaud Delorme)
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Presentation_ICA_Delorme.pdf)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Presentation_ica_delorme.pdf)
 Workshop Program
 ----------------
 
@@ -52,16 +52,16 @@ Delorme)
 
 <font color="#FF7700">11:00 – 11:45 am -- Data import and channel
 analysis (Julie Onton)
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/1_DataImport-ChanAnalysis.pdf)</font>
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/1_dataimport-chananalysis.pdf)</font>
 <font color="purple">11:45 am – 12:30 pm -- ICA theory (Jason Palmer)
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/ICA_Theory_Finland.pdf)</font>
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Ica_theory_finland.pdf)</font>
 
 
 <font color="green">**-- 12:30-1:30 Lunch --**</font>
 
 <font color="#FF7700">1:30 – 2:15 pm -- Performing artifact rejection
 and ICA decomposition (Julie Onton)
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/2_ArtRej_RunningICA.pdf)</font>
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/2_artrej_runningica.pdf)</font>
 <font color="purple">2:15 – 3:00 pm -- Using time-frequency
 decomposition (Arnaud Delorme)
 [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_timefreq_finland2010.pdf)</font>
@@ -70,7 +70,7 @@ decomposition (Arnaud Delorme)
 <font color="green">**-- Break (3:00-3:30) --**</font>
 
 <font color="#FF7700">3:30– 4:15 pm -- Evaluating ICA components (Julie
-Onton) [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/3_EvaluateICs.pdf)</font>
+Onton) [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/3_evaluateics.pdf)</font>
 <font color= "blue">**Tuesday, June 15**</font>
 
 
@@ -81,7 +81,7 @@ Onton) [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/3_EvaluateICs.pdf)</font>
 
 <font color="#FF7700">9:00 – 9:45 am -- Basic scripting using EEGLAB
 “history” and EEG structure (Julie
-Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/4_Basic_Scripting.pdf)</font>
+Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/4_basic_scripting.pdf)</font>
 <font color="purple">9:45 – 10:30 am – Forward and inverse source models
 (Scott Makeig)</font>
 
@@ -97,9 +97,9 @@ Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/4_Basic_Scripting.pdf)</font>
 
 <font color="#FF7700">11:00 – 11:45 am -- Dipole modeling with the
 DIPFIT plugin (Julie
-Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/5_DipoleModeling.pdf)</font>
+Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/5_dipolemodeling.pdf)</font>
 <font color="#FF7700">11:45 – 12:30 pm -- Using the NFT head modeling
-toolbox (Julie Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/5.5_NFT_intro.pdf)</font>
+toolbox (Julie Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/5.5_nft_intro.pdf)</font>
 <!-- -->
 
 
@@ -108,10 +108,10 @@ toolbox (Julie Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/5.5_NFT_intro.p
 
 
 <font color="#FF7700">1:30 – 2:15 pm -- Advanced IC analysis (Julie
-Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/6_AdvancedICanalysis.pdf)</font>
+Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/6_advancedicanalysis.pdf)</font>
 <font color="#FF7700">2:15 – 3:00 am -- Building a STUDY and STUDY
 basics (Julie
-Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/7_STUDYintro_Build.pdf)</font>
+Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/7_studyintro_build.pdf)</font>
 <!-- -->
 
 
@@ -124,7 +124,7 @@ Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/7_STUDYintro_Build.pdf)</font>
 
 <font color="#FF7700">3:30 -– 4:15 am –- Plotting and editing STUDY IC
 clusters (Arnaud Delorme)
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/STUDYgui_finland2010.pdf) </font>
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Studygui_finland2010.pdf) </font>
 <font color="#FF7700">4:15 – 5:00 pm –- Advanced study menu function
 (Arnaud Delorme)</font>
 
@@ -134,16 +134,16 @@ clusters (Arnaud Delorme)
 
 <font color="#FF7700">9:00 am – 9:45 am –- Advanced STUDY (cluster)
 analysis (Julie
-Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/8_STUDYanalysisI.pdf)</font>
+Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/8_studyanalysisi.pdf)</font>
 <font color="purple"> 9:45 am – 10:30 am -– FAQs about EEGLAB and EEGLAB
 plugins (Arnaud Delorme)
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_plugin_finland2010.pdf)</font>
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_plugin_finland2010.pdf)</font>
 
 
 <font color="green">'''-- Break (10:30-11:00) -- '''</font>
 
 <font color="#FF7700">11:00 am – 12:00 pm –- STUDY (cluster) analysis
-(Julie Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/9_STUDYanalysisII.pdf)</font>
+(Julie Onton)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/9_studyanalysisii.pdf)</font>
 <!-- -->
 
 
@@ -157,7 +157,7 @@ traditions including smoke sauna.**
 
 <font color="purple">9:00 – 9:45 pm -- Modeling effective connectivity
 by measuring EEG information flow (Tim
-Mullen)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Jyvaskyla_Talk.pdf)</font>
+Mullen)[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Jyvaskyla_talk.pdf)</font>
 <font color="#FF7700">9:45 – 10:30 pm -- Using the Information Flow
 Analysis Toolbox (Tim Mullen) (see download material for toolbox)</font>
 
@@ -255,49 +255,49 @@ Relevant publications using ICA/EEGLAB
 
 -   Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis
     of single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_published.pdf). J Neurosci    Methods. 2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_published.pdf). J Neurosci    Methods. 2004; Mar 15; 134(1):9-21.
 
 <!-- -->
 
 -   Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining
     event-related brain
-dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/TICSreview_published.pdf). Trends Cogn    Sci. 2004; May; 8(5):204-10.
+dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Ticsreview_published.pdf). Trends Cogn    Sci. 2004; May; 8(5):204-10.
 
 <!-- -->
 
 -   Onton, J., Makeig, S. [Information-based modeling of event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_PBR_published.pdf). Prog    Brain Res. 2006; 159: 99-120.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_pbr_published.pdf). Prog    Brain Res. 2006; 159: 99-120.
 
 <!-- -->
 
 -   Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
     Sejnowski, TJ. [Analysis and visualizaion of single-trial
-event-related potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_HBM01.pdf). Human    Brain Mapping. 2001; 14(3), 166-185.
+event-related potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_hbm01.pdf). Human    Brain Mapping. 2001; 14(3), 166-185.
 
 <!-- -->
 
 -   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of
     artifacts from EEG data using high-order statistics and independent
     component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/neuroimage2007_reformated.pdf).    Neuroimage. 2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Neuroimage2007_reformated.pdf).    Neuroimage. 2007; 34, 1443-1449.
 
 <!-- -->
 
 -   Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
     [Comparing results of algorithms implementing blind source
-separation of EEG data](https://sccn.ucsd.edu/githubwiki/pdfs/delorme_unpub.pdf).    unpublished manuscript.
+separation of EEG data](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_unpub.pdf).    unpublished manuscript.
 
 <!-- -->
 
 -   Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics
     during working
-memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_FMtheta_published.pdf). NeuroImage.    2005;27, 341-356
+memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_fmtheta_published.pdf). NeuroImage.    2005;27, 341-356
 
 <!-- -->
 
 -   Onton, J, Makeig, S. [High-frequency Broadband Modulations of
     Electroencephalographic
-Spectra](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_EmotionGamma2009.pdf). Front Hum    Neurosci. 2009 Dec 23;3:61.
+Spectra](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_emotiongamma2009.pdf). Front Hum    Neurosci. 2009 Dec 23;3:61.
 
 Material to Download
 --------------------
@@ -309,7 +309,7 @@ Latest EEGLAB version here: <http://sccn.ucsd.edu/eeglab/install.html>
 
 [Tutorial scripts](https://sccn.ucsd.edu/githubwiki/pdfs/Scripts.zip) Download scripts forcertain tutorial sessions with scripting components.
 
-[Tutorial slides](https://sccn.ucsd.edu/githubwiki/pdfs/TutorialPDFs.zip) Download the PDFsof the tutorial lectures here.
+[Tutorial slides](https://sccn.ucsd.edu/githubwiki/pdfs/Tutorialpdfs.zip) download the PDFsof the tutorial lectures here.
 
 [EEGLAB STUDY with 13 subjects (2.3
 GB)](ftp://sccn.ucsd.edu/pub/julie/EEGLAB_Workshop/STUDY.zip) This is a
@@ -328,14 +328,14 @@ sure you have a fast and reliable internet connection before attempting
 this download.
 
 [Julie Onton's conference
-talk](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_InterBrainTalk.pdf) In case anyone isinterested, this is Julie Onton's talk from the Interbrain conference.
+talk](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_interbraintalk.pdf) In case anyone isinterested, this is Julie Onton's talk from the Interbrain conference.
 
 Tim Mullen's connectivity toolbox and sample data. <font color=red>New
 Material</font>. We have temporarily removed the link so Tim can fix
 some issues but it will be back soon.
 
 [Tim Mullen's lecture about connectivity
-toolbox](https://sccn.ucsd.edu/githubwiki/pdfs/Jyvaskyla_Talk.pdf) Download Tim Mullen'slecture on connectivity toolbox.
+toolbox](https://sccn.ucsd.edu/githubwiki/pdfs/Jyvaskyla_talk.pdf) Download Tim Mullen'slecture on connectivity toolbox.
 
 You will also be able to download all presented material from this site
 during and after the workshop, so don't panic if you can't download it
