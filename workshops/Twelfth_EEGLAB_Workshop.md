@@ -15,8 +15,6 @@ University of California San Diego (UCSD), La Jolla, California, Nov.
 17–22, 2010</font> (following the Society for Neuroscience meeting in
 San Diego).
 
-<font color="black">
-
 Using the Online EEGLAB Workshop
 --------------------------------
 
