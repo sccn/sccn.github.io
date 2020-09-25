@@ -15,8 +15,6 @@ plus more recently recorded talks and Youtube tutorials. Note that the
 wiki page for each EEGLAB workshop also contain the slides of the
 presentations.
 
-<font color="black">
-
 <font color=darkred>Tutorial Videos on <em>Youtube.com</em></font>
 ------------------------------------------------------------------
 
