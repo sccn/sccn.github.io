@@ -235,10 +235,10 @@ Papers describing EEGLAB processing
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component
-analysis]({{ site.baseurl }}/assets/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
 
 Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics]({{ site.baseurl }}/assets/pdfs/TICSreview_published.pdf). Trends inCognitive Science 2004; May; 8(5):204-10.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/TICSreview_published.pdf). Trends inCognitive Science 2004; May; 8(5):204-10.
 
 Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
 [Independent components of EEG data are
@@ -247,14 +247,14 @@ PLoS ONE. 2012. i7(2):e30135.
 
 Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
 Sejnowski, TJ. [Analysis and visualization of single-trial event-related
-potentials]({{ site.baseurl }}/assets/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
+potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
 from EEG data using high-order statistics and independent component
-analysis]({{ site.baseurl }}/assets/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
 Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory]({{ site.baseurl }}/assets/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
+working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Workshop Preliminary Program
 ----------------------------
@@ -274,10 +274,10 @@ Edge</font>
 
 <font color = purple>9:00 – 10:15 Mining event-related brain dynamics I
 (Scott Makeig)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_makeig_lecture_I.pdf‎)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_makeig_lecture_I.pdf‎)
 <font color = purple>10:15 – 10:45 EEGLAB overview (Arnaud
 Delorme)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_AD_EEGLAB_overview2.pdf‎)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_AD_EEGLAB_overview2.pdf‎)
 <!-- -->
 
 
@@ -289,9 +289,9 @@ Bar in The Edge</font>
 
 
 <font color = purple>11:00 – 11:45 ICA theory (Arnaud Delorme)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_AD_EEGLAB_lecture_ICA2.pdf‎)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_AD_EEGLAB_lecture_ICA2.pdf‎)
 <font color = orange>11:45 – 12:30 ICA evaluation (John Iversen)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_Sheffield_JRI_EvaluateICs_lores.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_Sheffield_JRI_EvaluateICs_lores.pdf)
 <!-- -->
 
 
@@ -304,7 +304,7 @@ Edge</font>
 
 <font color = orange>14:00 – 15:30 Importing data, rejecting data, and
 performing ICA decomposition (John Iversen)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_Sheffield_JRI_preproc.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_Sheffield_JRI_preproc.pdf)
 <!-- -->
 
 
@@ -317,7 +317,7 @@ in The Edge</font>
 
 <font color = orange>15:45 – 17:00 Evaluating ICA components practicum
 (John Iversen)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_Sheffield_JRi_EvaluateICs_Practicum.pdf),[<font color=blue>Dataset Info]({{ site.baseurl }}/assets/pdfs/JRI_README.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_Sheffield_JRi_EvaluateICs_Practicum.pdf),[<font color=blue>Dataset Info](https://sccn.ucsd.edu/githubwiki/pdfs/JRI_README.pdf)
 <!-- -->
 
 
@@ -336,10 +336,10 @@ Edge</font>
 
 <font color = purple>9:00 – 9:45 Why cluster ICA components? (Scott
 Makeig)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/Makeig_EEGLAB_Clustering_Sheffield15.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_EEGLAB_Clustering_Sheffield15.pdf)
 <font color = orange>9:45 –10:45 Creating a STUDY, STUDY design,
 plotting and statistics (Arnaud Delorme)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_AD_studydesign.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_AD_studydesign.pdf)
 <!-- -->
 
 
@@ -352,9 +352,9 @@ in The Edge</font>
 
 <font color = orange>11:00 - 11:45 EEGLAB STUDY clustering (Arnaud
 Delorme)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_AD_clustering2.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_AD_clustering2.pdf)
 <font color = purple>11:45 - 12:30 Statistics (Cyril Pernet)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/MultipleComparisonCorrection.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/MultipleComparisonCorrection.pdf)
 <!-- -->
 
 
@@ -367,7 +367,7 @@ Edge</font>
 
 <font color = purple>14:00 – 15:30 LIMO EEG and hierarchical modeling
 (Cyril Pernet)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/Hierarchical_Linear_Modelling_for_MEEG.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Hierarchical_Linear_Modelling_for_MEEG.pdf)
 <font color = orange>15:30 – 15:45 LIMO EEGLAB integration (Arnaud
 Delorme)</font> (No PDF)
 
@@ -395,7 +395,7 @@ Edge</font>
 
 <font color = purple>9:00 – 10:45 Time-frequency decomposition: Theory
 and practice (John Iversen)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_Sheffield_JRI_TimeFrequencyTheoryPractice_lores.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_Sheffield_JRI_TimeFrequencyTheoryPractice_lores.pdf)
 <!-- -->
 
 
@@ -408,10 +408,10 @@ in The Edge</font>
 
 <font color = purple>11:00 – 11:45 Forward and inverse source imaging -
 Dipfit, NFT, and NIST (Scott Makeig)</font>
-[<font color=blue>PDF1]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_makeig_dipfit.pdf)[<font color=blue>PDF2]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_makeig_nft.pdf)
+[<font color=blue>PDF1](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_makeig_dipfit.pdf)[<font color=blue>PDF2](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_makeig_nft.pdf)
 <font color = orange>11:45 – 12:30 DIPFIT practicum (Arnaud
 Delorme)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_AD_dipole_modeling.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_AD_dipole_modeling.pdf)
 <!-- -->
 
 
@@ -424,7 +424,7 @@ Edge</font>
 
 <font color = orange>14:00 – 15:45 EEGLAB basic and custom scripting
 (John Iversen)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_Sheffield_JRI_BasicScripting.pdf),[Code](/https://drive.google.com/file/d/0B2myolm32zgoN1poeFNDUzN4RjA/view?usp=sharing "wikilink")
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_Sheffield_JRI_BasicScripting.pdf),[Code](/https://drive.google.com/file/d/0B2myolm32zgoN1poeFNDUzN4RjA/view?usp=sharing "wikilink")
 
 <!-- -->
 
@@ -438,7 +438,7 @@ in The Edge</font>
 
 <font color = orange>16:00 – 17:00 EEGLAB scripting for STUDY data
 (Arnaud Delorme)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_Sheffield_AD_STUDYscripting.pdf)[<font color=blue>script.zip]({{ site.baseurl }}/assets/pdfs/script.zip)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_Sheffield_AD_STUDYscripting.pdf)[<font color=blue>script.zip](https://sccn.ucsd.edu/githubwiki/pdfs/script.zip)
 ### <font color=dodgerblue>Day 4 - Saturday, 5th September, 2015</font>
 
 
@@ -454,10 +454,10 @@ Edge</font>
 
 <font color = purple>10:00 – 10:30 EEGLAB Extensions (Arnaud
 Delorme)</font>
-[<font color=blue>PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_plugins.pdf)
+[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_plugins.pdf)
 <font color = orange>10:30 – 10:45 EEGLAB Challenge Practicum
 (all)</font>
-[<font color=blue>Exercices]({{ site.baseurl }}/assets/pdfs/EEGLAB2015_Sheffield_questions.pdf)
+[<font color=blue>Exercices](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2015_Sheffield_questions.pdf)
 <!-- -->
 
 

@@ -119,13 +119,13 @@ Food
 
 Except for day 2 where we have an excursion, participants are asked to
 cover their own food expenses. We have compiled a [list of
-restaurants]({{ site.baseurl }}/assets/pdfs/listofrestaurants.pdf) in the area.
+restaurants](https://sccn.ucsd.edu/githubwiki/pdfs/listofrestaurants.pdf) in the area.
 Location of the workshop
 ------------------------
 
 The address of the vennue is "10100 Hopkins Drive, San Diego, California
 92121." Click [here](/media:map.png "wikilink") to download the map for
-the workshop. [Here]({{ site.baseurl }}/assets/pdfs/taxis.pdf) is a list of taxis.
+the workshop. [Here](https://sccn.ucsd.edu/githubwiki/pdfs/taxis.pdf) is a list of taxis.
 ![100px\|thumb\|right\|upright=3]({{ site.baseurl }}/assets/images/Map.png)
 ![100px\|thumb\|right\|upright=3]({{ site.baseurl }}/assets/images/Map2.png)
 
@@ -196,13 +196,13 @@ Papers describing data processing using EEGLAB
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component
-analysis]({{ site.baseurl }}/assets/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
 
 Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics]({{ site.baseurl }}/assets/pdfs/TICSreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/TICSreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
 
 Onton J. S Makeig. [Information-based modeling of event-related brain
-dynamics]({{ site.baseurl }}/assets/pdfs/PBR06lo.pdf), Progress in Brain ResearchVol. 159, Ed.Neuper & Klimesch, 2006
+dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/PBR06lo.pdf), Progress in Brain ResearchVol. 159, Ed.Neuper & Klimesch, 2006
 
 Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
 [Independent components of EEG data are
@@ -211,14 +211,14 @@ PLoS ONE. 2012. i7(2):e30135.
 
 Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
 Sejnowski, TJ. [Analysis and visualization of single-trial event-related
-potentials]({{ site.baseurl }}/assets/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
+potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
 from EEG data using high-order statistics and independent component
-analysis]({{ site.baseurl }}/assets/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
 Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory]({{ site.baseurl }}/assets/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
+working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Multi-track program
 -------------------
@@ -251,19 +251,19 @@ Light snacks will be served.</font>
 
 <font color=mediumblue> 8:30 - 9:30 AM -- Mining event-related brain
 dynamics I (Scott Makeig) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/PlenaryDay1_EEGLAB_UCSD16_Makeig_I.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/PlenaryDay1_EEGLAB_UCSD16_Makeig_I.pdf)\]</font>
 <font color=mediumblue> 9:30 - 10:15 AM -- EEGLAB overview (Arnaud
 Delorme) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/PlenaryDay1_EEGLAB2016_overview_ADelorme.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/PlenaryDay1_EEGLAB2016_overview_ADelorme.pdf)\]</font>
 
 <font color=saddlebrown>10:15 - 10:30 AM -- Coffee break</font>
 
 <font color=mediumblue>10:30 - 11:30 AM -- ICA decomposition theory &
 evaluation (Scott Makeig) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2016_UCSD_PlenaryDay1_ICA.pdf)\] </font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2016_UCSD_PlenaryDay1_ICA.pdf)\] </font>
 <font color=mediumblue>11:30 - 12:00 PM -- Time-frequency measures (John
 Iversen) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2016_UCSD_JRI_TimeFrequencyMeasures_download.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2016_UCSD_JRI_TimeFrequencyMeasures_download.pdf)\]</font>
 <font color=saddlebrown>12:00 - 1:25 PM -- Get-together Group Lunch @
 SDSC </font>
 
@@ -272,7 +272,7 @@ testing a simple BCI model (Christian Kothe) </font>
 
 <font color=mediumblue> 1:40 - 1:55 PM -- SIFT intro: Modeling and
 Visualizing Source Connectivity (Tim Mullen) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/SIFT_Intro_Blitz.pdf)\] </font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/SIFT_Intro_Blitz.pdf)\] </font>
 <font color=darkred> 1:55 - 2:00 PM -- Schedule overview: Workshop track
 system (Arnaud Delorme)
 
@@ -291,15 +291,15 @@ system (Arnaud Delorme)
 
 <font color=mediumblue> 2:00 - 3:00 -- D1.A1: Data import/preprocessing
 and basic plotting (Julie Onton) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/1_EEGLAB2016_JO_preproc_New.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/1_EEGLAB2016_JO_preproc_New.pdf)\]
 <font color=saddlebrown>3:00 - 3:15 PM -- Coffee break</font>
 
 3:15 - 4:15 -- D1.A2: Performing ICA and IC visualization (Julie Onton)
 [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/2_EEGLAB2016_JO_artifact_and_ICA.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/2_EEGLAB2016_JO_artifact_and_ICA.pdf)\]
 4:15 - 5:00 -- D1.A3: Evaluating independent components (Luca
 Pion-Tonachini) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/3_EEGLAB2015_LPT_evaluation_ICA.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/3_EEGLAB2015_LPT_evaluation_ICA.pdf)\]</font>
 <!-- -->
 
 
@@ -332,14 +332,14 @@ source-resolved information flow I (Tim Mullen)
 
 <font color=mediumblue> 2:00 - 3:00 -- D1.A1: Functional and effective
 connectivity, linear dynamical systems [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/SIFT_I.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/SIFT_I.pdf)\]
 <font color=saddlebrown>3:00 - 3:15 PM -- Coffee break</font>
 
 3:15 - 4:00 -- D1.A2: Granger causality, scalp channel vs. source
 analysis, adapting to non-stationarity (see previous lecture PDF)
 
 4:00 - 5:00 -- D1.A3: Practicum: hands-on walkthrough of SIFT
-[\[Download PDF]({{ site.baseurl }}/assets/pdfs/SIFT_I_Practicum.pdf)\] </font>
+[\[Download PDF](https://sccn.ucsd.edu/githubwiki/pdfs/SIFT_I_Practicum.pdf)\] </font>
 
 ::<font color=saddlebrown> 6:30 PM -- Optional birds-of-a-feather group
 dinners (sign-up sheets at the registration table) </font>
@@ -351,10 +351,10 @@ dinners (sign-up sheets at the registration table) </font>
 
 <font color=mediumblue> 8:30 - 9:15 AM -- Source localization: The EEG
 forward and inverse problem (Zeynep Akalin Acar) </font> [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/PlenaryDay2_EEGLAB16_forward_inverse_EEG.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/PlenaryDay2_EEGLAB16_forward_inverse_EEG.pdf)\]
 <font color=mediumblue>9:15 - 10:15 AM -- Introduction hierarchical GLM
 statistics and bootstrap (Cyril Pernet) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Pernet_statistics.pdf)\] </font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Pernet_statistics.pdf)\] </font>
 <!-- -->
 
 
@@ -362,20 +362,20 @@ PDF]({{ site.baseurl }}/assets/pdfs/Pernet_statistics.pdf)\] </font>
 
 <font color=mediumblue>10:30 - 11:15 PM -- Introduction to the EEGLAB
 STUDY and STUDY design and practicum (Arnaud Delorme) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Delorme_EEGLAB_STUDY2.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_EEGLAB_STUDY2.pdf)\]</font>
 <font color=mediumblue>11:15 - 12:00 PM -- STUDY extensions and
 scripting [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Delorme_basic_scripting1.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_basic_scripting1.pdf)\]</font>
 <font color=saddlebrown>12:00 - 1:25 PM -- Lunch on your own on the UCSD
 campus (some reservations available)</font>
 
 <font color=mediumblue> 1:25 - 1:40 PM -- EEGLAB and Linear Modeling
 (LIMO) introduction: modeling EEG measures across subjects, sessions
 (Cyril Pernet) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/LIMO_Intro.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/LIMO_Intro.pdf)\]</font>
 <font color=mediumblue> 1:40 - 1:55 PM -- High-resolution EEG imaging
 introduction (Zeynep Akalin Acar) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/NFT2_Intro.pdf)\] </font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/NFT2_Intro.pdf)\] </font>
 
 
 
@@ -394,21 +394,21 @@ across subjects, sessions, groups, and conditions (Cyril Pernet)
 
 <font color=mediumblue> 2:00 - 2:30 -- D2.A1: New EEGLAB STUDY design
 interface (Arnaud Delorme) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Delorme_NEW_STUDY.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_NEW_STUDY.pdf)\]
 <font color=mediumblue> 2:30 - 3:30 -- D2.A2: EEGLAB and LIMO theory and
 practicum (Cyril Pernet) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Pernet_LIMO_EEGLAB.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Pernet_LIMO_EEGLAB.pdf)\]
 <font color=saddlebrown>3:30 - 3:45 PM -- Coffee break</font>
 
 3:45 - 5:00 -- D2.A3: LIMO advanved tool theory and practicum (Cyril
-Pernet) [\[Download PDF]({{ site.baseurl }}/assets/pdfs/Pernet_LIMO_2.pdf)\]</font>
+Pernet) [\[Download PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Pernet_LIMO_2.pdf)\]</font>
 <!-- -->
 
 
 
 <font color=darkred>Track B (Vizlab) - High-resolution forward head
 modeling and source localization (Zeynep Akalin Acar) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/NFT_presentation16.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/NFT_presentation16.pdf)\]</font>
 
 
 <font color=mediumblue> 2:00 - 2:35 -- D2.B1: Building head models using
@@ -433,7 +433,7 @@ flow II (Tim Mullen)</font>
 
 <font color=mediumblue> 2:00 - 2:45 -- D2.C1: Information flow model
 validation, multivariate vs. bivariate, imposing constraints [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/SIFT_II.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/SIFT_II.pdf)\]
 2:45 - 3:30 -- D2.C2: Single-trial estimation, state-space models,
 statistical testing (see previous lecture PDF)
 
@@ -457,7 +457,7 @@ components of EEG data across subjects: Why? and How? (Scott Makeig)
 
 <font color=mediumblue> 9:15 - 10:15 AM -- Performing independent
 component cluster analysis in EEGLAB (Arnaud Delorme) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Delorme2016_clustering2.pdf)\] </font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme2016_clustering2.pdf)\] </font>
 <!-- -->
 
 
@@ -474,7 +474,7 @@ Pines State Reserve](http://torreypine.org/) with picnic lunch </font>
 
 <font color=mediumblue> 2:00 - 2:15 PM -- New EEG tools and measures
 introduction (John Iversen) </font> [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2016_NewToolsIntro.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2016_NewToolsIntro.pdf)\]
 <font color=mediumblue> 2:15 - 2:30 PM -- Mobile Brain/Body Imaging
 (MoBI) introduction (Scott Makeig) </font>
 
@@ -494,12 +494,12 @@ and scripting (Arnaud Delorme)
 
 <font color=mediumblue> 2:30 - 4:00 -- D3.A1: EEGLAB structures and
 basic scripting [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Delorme_STUDY_basic_scripting2.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_STUDY_basic_scripting2.pdf)\]
 <font color=saddlebrown>4:00 - 4:15 PM -- Coffee break</font>
 
 4:15 - 5:00 -- D3.A2: Advanced scripting using EEGLAB STUDY structures
 </font> [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Delorme_STUDY_study_scripting.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_STUDY_study_scripting.pdf)\]
 <!-- -->
 
 
@@ -513,15 +513,15 @@ Iversen)</font>
 
 <font color=mediumblue>2:30 - 3:00 -- D3.B1: Group-level Connectivity
 (Makoto Miyakoshi) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Group-Level_Connectivity.pdf)\] [\[Download therelated SfN2016 poster PDF]({{ site.baseurl }}/assets/pdfs/MakotoSfN2016.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Group-Level_Connectivity.pdf)\] [\[Download therelated SfN2016 poster PDF](https://sccn.ucsd.edu/githubwiki/pdfs/MakotoSfN2016.pdf)\]</font>
 
 <font color=mediumblue>3:00 - 3:30 -- D3.B2: Automated source
 classification and real time ICA (Luca Pion-Tonachini & Sean Hsu)</font>
 [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB_Workshop_2016-_Automated_source_classification_and_real_time_ICA.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_Workshop_2016-_Automated_source_classification_and_real_time_ICA.pdf)\]</font>
 <font color=mediumblue>3:30 - 4:00 -- D3.B3: Phase/amplitude coupling
 (PAC) with PACT (Ramon Martinez-Cancino & Joseph Heng) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2016_PhaseAmplitudeCoupling.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2016_PhaseAmplitudeCoupling.pdf)\]</font>
 <font color=saddlebrown>4:00 - 4:15 PM -- Coffee break</font>
 
 <font color=mediumblue>4:15 - 5:00 -- D3.B4: New technologies and
@@ -530,7 +530,7 @@ Bigdely-Shamlo) </font>
 
 <font color=mediumblue>5:00 - 5:30 -- D3.B5: MEG and simultaneous
 EEG/MEG analysis (John Iversen)</font> [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2016_UCSD_JRI_MEEG_handout.pdf)\]</font>
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2016_UCSD_JRI_MEEG_handout.pdf)\]</font>
 <!-- -->
 
 
@@ -546,15 +546,15 @@ motivation, theory, and practice (Scott Makeig et al.)
 
 3:30 - 4:00 -- D3.C2: Tools for multimodal data collection and analysis:
 Lab Streaming Layer (David Medine) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2016_LSL.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2016_LSL.pdf)\]
 <font color=saddlebrown>4:00 - 4:15 PM -- Coffee break</font>
 
 4:15 - 4:30 -- D3.C3: Tools for multimodal data collection and analysis:
 MoBILAB (Hiroyuki Kambara) [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/Eeglab2016_MoBILAB.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2016_MoBILAB.pdf)\]
 4:30 - 5:30 -- D3.C4: Real-World Neuroimaging and Brain-computer
 Interfaces (Tzyy-Ping Jung et al.) </font> [\[Download
-PDF]({{ site.baseurl }}/assets/pdfs/jungpres.pdf)\]
+PDF](https://sccn.ucsd.edu/githubwiki/pdfs/jungpres.pdf)\]
 <!-- -->
 
 
@@ -574,7 +574,7 @@ dynamics II (Scott Makeig) </font>
 
 9:30 - 11:30 AM -- Practicum: small group collaborations on small
 demonstration projects [\[possible
-projects]({{ site.baseurl }}/assets/pdfs/EEGLABUCSD2016_possible_project.pdf)\]
+projects](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLABUCSD2016_possible_project.pdf)\]
 11:30 - 11:45 AM -- Participant presentations
 
 11:45 - 12:00 PM -- General discussion and close

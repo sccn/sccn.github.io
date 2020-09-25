@@ -120,14 +120,14 @@ Important papers describing EEGLAB processing:
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component
-analysis]({{ site.baseurl }}/assets/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
 
 Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics]({{ site.baseurl }}/assets/pdfs/TICSreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/TICSreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
 
 Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
 Sejnowski, TJ. [Analysis and visualizaion of single-trial event-related
-potentials]({{ site.baseurl }}/assets/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
+potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
 
 Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
 [<font color=blue>Independent components of EEG data are
@@ -136,10 +136,10 @@ PLoS ONE. 2012. i7(2):e30135.
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
 from EEG data using high-order statistics and independent component
-analysis]({{ site.baseurl }}/assets/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
 Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory]({{ site.baseurl }}/assets/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
+working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
@@ -155,18 +155,18 @@ Workshop Program (with corresponding PDFs)
 
 <font color = purple>8:30 – 9:45 -- Mining event-related brain dynamics
 I (Scott Makeig)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/Makeig_EEGLAB_Israel_I.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_EEGLAB_Israel_I.pdf‎)
 <font color = purple>9:45 – 10:15 -- EEGLAB overview (Arnaud
 Delorme)</font>
-[PDF‎]({{ site.baseurl }}/assets/pdfs/EEGLAB2017_AD_EEGLAB_overview_israel.pdf)
+[PDF‎](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2017_AD_EEGLAB_overview_israel.pdf)
 
 <font color = green>-- Break--</font>
 
 <font color = purple>10:30 – 11:30 -- ICA theory (Scott Makeig)</font>
-[PDF‎]({{ site.baseurl }}/assets/pdfs/EEGLAB_Israel_ICA.pdf)
+[PDF‎](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_Israel_ICA.pdf)
 <font color = orange>11:30 – 12:30 -- Data import, Artifact rejection
 (John Iversen)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2017_JRI_preprocessing.pdf)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2017_JRI_preprocessing.pdf)
 <!-- -->
 
 
@@ -187,13 +187,13 @@ rejection...continued (John Iversen)</font>
 
 <font color = orange>14:30 – 16:00 -- ICA decomposition practicum (John
 Iversen)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2017_JRI_ICA_practicum.pdf)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2017_JRI_ICA_practicum.pdf)
 
 <font color = green>-- Break--</font>
 
 <font color = purple>16:15 – 17:15 -- Time-frequency decompositions:
 Theory and practice (John Iversen)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2017_JRI_time_frequency.pdf)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2017_JRI_time_frequency.pdf)
 
 <font color = green>-- Break--</font>
 
@@ -212,23 +212,23 @@ Theory and practice (John Iversen)</font>
 
 <font color = purple>8:45 - 9:15 -- Why cluster ICA components? (Scott
 Makeig)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/Makeig_EEGLAB_Israel17_Clustering.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_EEGLAB_Israel17_Clustering.pdf‎)
 <font color = purple>9:15 - 10:15-- Robust statistics and correction for
 multiple comparisons (Arnaud Delorme)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2017_statistics_israel2.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2017_statistics_israel2.pdf‎)
 
 <font color = green>-- Break--</font>
 
 <font color = purple>10:45 - 11:30 -- Creating a STUDY, STUDY design,
 and basic plotting (Arnaud Delorme)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2017_AD_STUDY_design_israel2.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2017_AD_STUDY_design_israel2.pdf‎)
 <!-- -->
 
 
 
 <font color = purple>11:30 - 12:45 -- Group analysis using EEGLAB
 studies: Methods to cluster ICA components (Arnaud Delorme)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2017_AD_STUDY_clustering_israel2.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2017_AD_STUDY_clustering_israel2.pdf‎)
 <!-- -->
 
 
@@ -252,9 +252,9 @@ studies: Methods to cluster ICA components (Arnaud Delorme)</font>
 
 <font color = purple>8:45 – 9:30 -- Forward and inverse modeling (Scott
 Makeig)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB_Israel17_ForwardInverseMods.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_Israel17_ForwardInverseMods.pdf‎)
 <font color = purple>9:30 – 10:00 -- DIPFIT practicum (Arnaud
-Delorme)</font> [PDF]({{ site.baseurl }}/assets/pdfs/Dipfit_practicum_israel.pdf‎)
+Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Dipfit_practicum_israel.pdf‎)
 <!-- -->
 
 
@@ -269,9 +269,9 @@ Delorme)</font> [PDF]({{ site.baseurl }}/assets/pdfs/Dipfit_practicum_israel.pdf
 
 <font color = orange>10:15 – 12:00 -- Theory and practice of applying
 general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud
-Delorme)</font> [PDF]({{ site.baseurl }}/assets/pdfs/LIMO_Israel_2017.pdf‎)
+Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/LIMO_Israel_2017.pdf‎)
 <font color = orange>12:00 – 12:30 -- Scripting in EEGLAB (Arnaud
-Delorme)</font> [PDF]({{ site.baseurl }}/assets/pdfs/Israel_scripting.pdf‎)([oddball_file.bdf]({{ site.baseurl }}/assets/pdfs/oddball_file.zip‎))
+Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Israel_scripting.pdf‎)([oddball_file.bdf](https://sccn.ucsd.edu/githubwiki/pdfs/oddball_file.zip‎))
 <!-- -->
 
 
@@ -295,9 +295,9 @@ Delorme) continued ...</font>
 
 
 <font color=purple>15:15 – 15:45 -- Miscellaneous Topics (Scott
-Makeig)</font> [PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB_ISRAEL_MISC.pdf‎)
+Makeig)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_ISRAEL_MISC.pdf‎)
 <font color=purple>15:45 – 16:00 -- MEEG (John Iversen)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB_JRI_MEEG.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_JRI_MEEG.pdf‎)
 <!-- -->
 
 
@@ -306,7 +306,7 @@ Makeig)</font> [PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB_ISRAEL_MISC.pdf‎)
 
 <font color=purple>16:00 – 18:00 -- Source information flow and
 Granger-Causal modeling tools (John Iversen)</font>
-[PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2017_Israel_JRI_Connectivity2.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2017_Israel_JRI_Connectivity2.pdf‎)
 <!-- -->
 
 
@@ -318,9 +318,9 @@ Granger-Causal modeling tools (John Iversen)</font>
 
 
 <font color=purple>8:45 – 9:30 -- Mining event-related brain dynamics II
-(Scott Makeig)</font> [PDF]({{ site.baseurl }}/assets/pdfs/EEGLAB2013_SM_israel.pdf‎)
+(Scott Makeig)</font> [PDF](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB2013_SM_israel.pdf‎)
 <font color=orange>9:30 – 10:00 -- Practicum, small group projects
-[possible exercices]({{ site.baseurl }}/assets/pdfs/EEGLAB_problems.pdf‎)</font>
+[possible exercices](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_problems.pdf‎)</font>
 <!-- -->
 
 

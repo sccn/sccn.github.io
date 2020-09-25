@@ -133,24 +133,24 @@ Some papers describing EEGLAB processing
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component
-analysis]({{ site.baseurl }}/assets/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
 
 Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics]({{ site.baseurl }}/assets/pdfs/TICSreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/TICSreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
 
 Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
 Sejnowski, TJ. [Analysis and visualizaion of single-trial event-related
-potentials]({{ site.baseurl }}/assets/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
+potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_HBM01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
 from EEG data using high-order statistics and independent component
-analysis]({{ site.baseurl }}/assets/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/pdfs/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
 Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S. [Comparing
 results of algorithms implementing blind source separation of EEG
-data]({{ site.baseurl }}/assets/pdfs/delorme_unpub.pdf). unpublished manuscript.
+data](https://sccn.ucsd.edu/githubwiki/pdfs/delorme_unpub.pdf). unpublished manuscript.
 Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory]({{ site.baseurl }}/assets/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
+working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_FMtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Workshop Agendas
 ----------------
@@ -200,13 +200,13 @@ below).
 
 <font color = purple>08:30 -- 09:15am -- Mining event-related brain
 dynamics (Scott
-Makeig)[(PDF)]({{ site.baseurl }}/assets/pdfs/Makeig_EEGLAB_Mallorca_I.pdf)</font>
+Makeig)[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_EEGLAB_Mallorca_I.pdf)</font>
 <!-- -->
 
 
 <font color = red>09:15 -- 10:15am -- Introduction and getting started
 with EEGLAB (Julie Onton)
-[(PDF)]({{ site.baseurl }}/assets/pdfs/1_GettingStarted_EEGLAB.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/1_GettingStarted_EEGLAB.pdf)</font>
 
 
 <font color = darkblue>Data import - Preprocessing tools and pipeline -
@@ -221,7 +221,7 @@ Running ICA decomposition </font>
 
 
 <font color = red>10:30 -- 11:15 -- Evaluating ICA components (ICs)
-[(PDF)]({{ site.baseurl }}/assets/pdfs/2_EvaluatingICs.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/2_EvaluatingICs.pdf)</font>
 
 
 <font color = darkblue>Apply ICA weights - IC scalp map interpretation -
@@ -231,7 +231,7 @@ Basic IC evaluation - Identify artifact ICs</font>
 
 
 <font color = red>11:15 -- 12:15 -- IC analysis tools
-[(PDF)]({{ site.baseurl }}/assets/pdfs/3_IC_Analysis_Tools.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/3_IC_Analysis_Tools.pdf)</font>
 
 
 <font color = darkblue>Removing ICs and back-projection - IC ERP
@@ -247,7 +247,7 @@ spectral perturbations (ERSPs) - IC Cross coherence</font>
 
 
 <font color = red>13:30 -- 14:30 -- EEGLAB 'EEG' structure and basic
-Matlab scripting [(PDF)]({{ site.baseurl }}/assets/pdfs/4_Basic_Scripting.pdf)</font>
+Matlab scripting [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/4_Basic_Scripting.pdf)</font>
 
 
 <font color = darkblue>‘EEG’ structure overview - ‘EEG’ structure
@@ -258,7 +258,7 @@ from ‘pop’ functions to output functions</font>
 
 
 <font color = red>14:30 -- 15:15 – Equivalent dipole modeling
-[(PDF)]({{ site.baseurl }}/assets/pdfs/5_DipoleModeling.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/5_DipoleModeling.pdf)</font>
 
 
 <font color = darkblue>Co-registration of electrodes with head model -
@@ -274,7 +274,7 @@ Dipole fitting using Fieldtrip's dipfit function - Co-registration for
 
 
 <font color = red>15:30 -- 16:30 -- Introduction to EEGLAB STUDY
-structure [(PDF)]({{ site.baseurl }}/assets/pdfs/6_STUDY_Intro.pdf)</font>
+structure [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/6_STUDY_Intro.pdf)</font>
 
 
 <font color = darkblue>Build a STUDY - Precompute, precluster, and
@@ -284,7 +284,7 @@ cluster ICs across subjects - Plot and edit STUDY clusters</font>
 
 
 <font color = red>15:30 -- 17:30 -- Advanced STUDY scripting
-[(PDF)]({{ site.baseurl }}/assets/pdfs/7_STUDY_Scripting.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/7_STUDY_Scripting.pdf)</font>
 
 
 <font color = darkblue>Build a STUDY from the command line - STUDY
@@ -376,7 +376,7 @@ interpreting the results of Amica decomposition will be demonstrated.
 
 <font color = purple>09:00 -- 09:45 ICA methods overview, with
 motivation for and derivation of Amica
-[(PDF)]({{ site.baseurl }}/assets/pdfs/ICA_Mallorca.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/ICA_Mallorca.pdf)</font>
 <font color = darkblue>09:45 -- 10:45 Amica toolbox practicum</font>
 
 
@@ -428,7 +428,7 @@ practicum](ftp://sccn.ucsd.edu/pub/julie/extra.zip)
 
 
 <font color = purple>11:00 -- 12:00 -- Forward head modeling
-overview[(PDF)]({{ site.baseurl }}/assets/pdfs/Akalin_Acar_Forward_Problem_of_EEG.pdf)</font>
+overview[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Akalin_Acar_Forward_Problem_of_EEG.pdf)</font>
 <!-- -->
 
 
@@ -440,7 +440,7 @@ overview[(PDF)]({{ site.baseurl }}/assets/pdfs/Akalin_Acar_Forward_Problem_of_EE
 
 
 <font color = darkblue>13:30 -- 14:30 -- NFT head modeling toolbox
-practicum[(PDF)]({{ site.baseurl }}/assets/pdfs/Akalin_Acar_NFT_practicum.pdf)</font>
+practicum[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Akalin_Acar_NFT_practicum.pdf)</font>
 <!-- -->
 
 
@@ -462,7 +462,7 @@ activities across subjects, groups, and/or conditions.
 
 
 <font color = purple>14:30 – 15:30 – Measure projection analysis theory
-[(PDF)]({{ site.baseurl }}/assets/pdfs/Measure_Projection_EEGLAB_11_Mallorca.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Measure_Projection_EEGLAB_11_Mallorca.pdf)</font>
 <!-- -->
 
 
@@ -475,7 +475,7 @@ activities across subjects, groups, and/or conditions.
 
 <font color = darkblue>15:45 -- 17:30 -- Measure projection analysis
 practicum
-[(PDF)]({{ site.baseurl }}/assets/pdfs/Practicum_of_Measure_Projection_EEGLAB_11_Mallorca.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_of_Measure_Projection_EEGLAB_11_Mallorca.pdf)</font>
 <font color = blue><b>Preliminary Program -- Saturday, Sept.
 24</b></font>
 
@@ -505,7 +505,7 @@ the Source Information Flow Toolbox (SIFT)
 
 <font color = purple>8:30 -- 10:00 am -- Analyzing Oscillatory Dynamics
 and Effective Connectivity
-[(PDF)]({{ site.baseurl }}/assets/pdfs/EEGLAB_ICON_Mullen_SIFT.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/EEGLAB_ICON_Mullen_SIFT.pdf)
 
 
 Phase-amplitude coupling
@@ -620,7 +620,7 @@ and/or task conditions).</font>
 <font color = darkblue>15:30 -- 17:30 -- Using BCILAB to design and run
 BCI, cognitive monitoring, and neurofeedback experiments / applications
 [(Download the PDF slide
-instructions)]({{ site.baseurl }}/assets/pdfs/Workshop_2011_-_Practicum.pdf‎)
+instructions)](https://sccn.ucsd.edu/githubwiki/pdfs/Workshop_2011_-_Practicum.pdf‎)
 
 
 Getting started with BCILAB
