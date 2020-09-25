@@ -18,7 +18,7 @@ San Diego).
 Using the Online EEGLAB Workshop
 --------------------------------
 
-<font color="black">*Videos of the workshop talks are now available for
+*Videos of the workshop talks are now available for
 streaming through the links below! The video web pages also contain
 relevant questions and links to further information. The talk slides are
 also available for download in PDF format through links below.
@@ -457,7 +457,7 @@ tutorial](http://sccn.ucsd.edu/wiki/MoBI_Lab)</b>
 Matlab and matrix introductory reading material
 -----------------------------------------------
 
-<font color=black>The EEGLAB graphic interface is built on top of the
+The EEGLAB graphic interface is built on top of the
 powerful Matlab scripting language. Enjoying the full capabilities of
 EEGLAB for building macro commands and performing custom and automated
 processing requires the ability to manipulate EEGLAB data structures in
