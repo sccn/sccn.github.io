@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EEGLAB09EPIC
+title: Seventh EEGLAB Workshop
 permalink: /workshops/EEGLAB09EPIC.html
 parent: Workshops
 ---
