@@ -8,317 +8,240 @@ parent: Workshops
 [thumb\|right\|upright=2.5\|Torrey Pines rock formations (a few blocks
 from San Diego Supercomputer Center)]({{ site.baseurl }}/assets/images/Torreypines.jpg)
 
-<font size =4><font color=red>The Online EEGLAB Workshop</font></font>
-<font color=blue>comprises materials for and videos from the 12th EEGLAB
+<span size =4><span color=red>The Online EEGLAB Workshop</span></span>
+<span color=blue>comprises materials for and videos from the 12th EEGLAB
 Workshop held at the San Diego Supercomputer Center on the campus of the
 University of California San Diego (UCSD), La Jolla, California, Nov.
-17–22, 2010</font> (following the Society for Neuroscience meeting in
+17–22, 2010</span> (following the Society for Neuroscience meeting in
 San Diego).
 
 Using the Online EEGLAB Workshop
 --------------------------------
 
-*Videos of the workshop talks are now available for
+Videos of the workshop talks are now available for
 streaming through the links below! The video web pages also contain
 relevant questions and links to further information. The talk slides are
 also available for download in PDF format through links below.
 Individual users or classes may use the videos, slides, and further
 links to learn or teach how to use EEGLAB, to review the workshop,
-and/or to prepare for a future workshop.*
+and/or to prepare for a future workshop.
 
 Workshop Content
 ----------------
 
-<font color="darkred"><b>**EEGLAB Overview: Concepts and
-Architecture**</b></font>
+<span style="color:darkred"><b>EEGLAB Overview: Concepts and
+Architecture</b></span>  
 
+<span style="color:purple">[Mining cognitive brain dynamics I (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> \- <span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> \- <span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_sm_mining_brain_dynamics_i.pdf‎)</b></span>
 
+<span style="color:purple">[EEGLAB and workshop overview (Arnaud
+Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html)</span>
+<span style="color:darkred"> \- [Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html) \- <span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov18_eeglab_overview.pdf‎)</b>
 
-<font color="purple">**[Mining cognitive brain dynamics I (Scott
-Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)**</font>
+<b>[Browse the EEGLAB wikitutorial](http://sccn.ucsd.edu/wiki/eeglab)</b><br>
 
+<span style="color:darkred"><b>EEGLAB Methods for EEG-based functional brainimaging</b></span>
 
+<span style="color:purple">[Independent Component Analysis (ICA) theory I (Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Ica_concepts.pdf‎‎)</b>
+<!-- -->
 
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)**
-
-
-
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_sm_mining_brain_dynamics_i.pdf‎)</b>
+<span style="color:purple">[Independent Component Analysis (ICA) theory II(Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Ica_methods.pdf)</b>
 <!-- -->
 
 
 
-<font color="purple">**[EEGLAB and workshop overview (Arnaud
-Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html)**</font>
+<span style="color:purple">[Time-frequency decomposition (Arnaud
+Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_timefreqdecomp.html)</span>
 
 
 
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html)**
+<span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_timefreqdecomp.html)
 
 
 
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov18_eeglab_overview.pdf‎)</b>
-<b>[Browse the EEGLAB wiki
-tutorial](http://sccn.ucsd.edu/wiki/eeglab)</b>
-
-<font color="darkred"><b>**EEGLAB Methods for EEG-based functional brain
-imaging**</b></font>
-
-
-
-<font color="purple">**[Independent Component Analysis (ICA) theory I
-(Jason
-Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)**</font>
-
-
-
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)**
-
-
-
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Ica_concepts.pdf‎‎)</b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov18_time_frequency_decompositions.pdf‎)</b>
 <!-- -->
 
 
 
-<font color="purple">**[Independent Component Analysis (ICA) theory II
-(Jason
-Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)**</font>
-
-
-
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)**
-
-
-
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Ica_methods.pdf)</b>
-<!-- -->
-
-
-
-<font color="purple">**[Time-frequency decomposition (Arnaud
-Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_timefreqdecomp.html)**</font>
-
-
-
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_timefreqdecomp.html)**
-
-
-
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov18_time_frequency_decompositions.pdf‎)</b>
-<!-- -->
-
-
-
-<font color="purple">**[Forward and inverse source modeling (Zeynep
+<span style="color:purple">[Forward and inverse source modeling (Zeynep
 Akalin
-Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inverse_source_modeling.html)**</font>
+Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inverse_source_modeling.html)</span>
 
 
 
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inverse_source_modeling.html)**
+<span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inverse_source_modeling.html)
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Forward_inverse_eeglab2010-zeynep.pdf)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Forward_inverse_eeglab2010-zeynep.pdf)</b>
 <!-- -->
 
 
 
-<font color="purple">**[Using bootstrap statistics (David
-Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)**</font>
+<span style="color:purple">[Using bootstrap statistics (David
+Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)</span>
 
 
 
-<font color="#jj0000"><b>**[View this talk
-here](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)**</b></font>
+<span style="color:#jj0000"><b>[Talk](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)</b></span>
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_dg_nov19_resampling_and_multcomp.pdf)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_dg_nov19_resampling_and_multcomp.pdf)</b>
 
-<font color="darkred"><b>**Getting started using EEGLAB**</b></font>
-
-
-
-<font color="purple">**[Data import and channel analysis (Klaus
-Gramann)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_data_import.html)**</font>
+<span style="color:darkred"><b>Getting started using EEGLAB</b></span>
 
 
 
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_kg_nov18_dataimport.pdf‎‎)</b>
+<span style="color:purple">[Data import and channel analysis (Klaus
+Gramann)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_data_import.html)</span>
+
+
+
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_kg_nov18_dataimport.pdf‎‎)</b>
 <!-- -->
 
 
 
-<font color="purple">**[Evaluating ICA components (Julie
-Onton)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eval_ICA_components.html)**</font>
+<span style="color:purple">[Evaluating ICA components (Julie
+Onton)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eval_ICA_components.html)</span>
 
 
 
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_jo_nov18_evaluateics.pdf‎‎)</b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_jo_nov18_evaluateics.pdf‎‎)</b>
 <!-- -->
 
 
 
-<font color="purple">**[Basic scripting using EEGLAB “history” and the
+<span style="color:purple">[Basic scripting using EEGLAB “history” and the
 EEG structure (Julie
-Onton)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_basic_scripting.html)**</font>
+Onton)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_basic_scripting.html)</span>
 
 
 
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_jo_nov18_basicscripting.pdf‎‎)</b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_jo_nov18_basicscripting.pdf‎‎)</b>
 <!-- -->
 
 
 
-<font color="purple">**[Using the DIPFIT toolbox (Julie
-Onton)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_dipfit.html)**</font>
+<span style="color:purple">[Using the DIPFIT toolbox (Julie
+Onton)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_dipfit.html)</span>
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_jo_nov19_dipolemodeling.pdf) </b>
-<font color="darkred"><b>**Computing across subjects and
-conditions**</b></font>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_jo_nov19_dipolemodeling.pdf) </b>
+<span style="color:darkred"><b>Computing across subjects and
+conditions</b></span>
 
 
 
-<font color="purple">**[STUDY component clustering (Arnaud
-Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)**</font>
+<span style="color:purple">[STUDY component clustering (Arnaud
+Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)</span>
 
 
 
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)**
+<span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eglab2010_ad_nov19_study_clustering.pdf‎)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eglab2010_ad_nov19_study_clustering.pdf‎)</b>
 <!-- -->
 
 
 
-<font color="purple">**[The new 'STUDY.design' facility and
+<span style="color:purple">[The new 'STUDY.design' facility and
 multi-subject plotting (Arnaud
-Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_design.html)**</font>
+Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_design.html)</span>
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov19_study_design_and_plot.pdf)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov19_study_design_and_plot.pdf)</b>
 
 <!-- -->
 
 
 
-<font color="purple">**[STUDY component clustering (Arnaud
-Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)**</font>
+<span style="color:purple">[STUDY component clustering (Arnaud
+Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)</span>
 
 
 
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)**
+<span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eglab2010_ad_nov19_study_clustering.pdf‎)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eglab2010_ad_nov19_study_clustering.pdf‎)</b>
 <!-- -->
 
 
 
-<font color="purple">**[Advanced uses of 'STUDY.design' statistics
+<span style="color:purple">[Advanced uses of 'STUDY.design' statistics
 (Arnaud
-Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_advanced_study_design.html)**</font>
+Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_advanced_study_design.html)</span>
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eglab2010_ad_nov19_study_advanced_and_scripts.pdf‎)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eglab2010_ad_nov19_study_advanced_and_scripts.pdf‎)</b>
 <b>[Download the STUDY script](https://sccn.ucsd.edu/githubwiki/pdfs/Build_stern.m.zip)</b>
-<font color="darkred"><b>**Extending EEGLAB**</b></font>
+<span style="color:darkred"><b>Extending EEGLAB</b></span>
 
 
 
-<font color="purple0">**[Building EEGLAB plug-ins (Arnaud
-Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eeglab_plugins.html)**</font>
+<span style="color:purple0">[Building EEGLAB plug-ins (Arnaud
+Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eeglab_plugins.html)</span>
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov20_eeglab_plugins.ppt.pdf)</b></font>
-<font color="darkred"><b>**New tools and directions:
-Overview**</b></font>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov20_eeglab_plugins.ppt.pdf)</b></span>
+<span style="color:darkred"><b>New tools and directions:
+Overview</b></span>
 
 
 
-<font color="purple">**[Mining cognitive brain dynamics II (Scott
-Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_II.html)**</font>
+<span style="color:purple">[Mining cognitive brain dynamics II (Scott
+Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_II.html)</span>
 
 
 
-<font color="#jj0000"><b>**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_II.html)**</b></font>
+<span style="color:#jj0000"><b>[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_II.html)</b></span>
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_ucsd10_ii.pdf‎)</b></font>
-<font color="darkred"><b>**New tools and directions**</b></font>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_ucsd10_ii.pdf‎)</b></span>
+<span style="color:darkred"><b>New tools and directions</b></span>
 
 
 
-<font color="purple">**[The SIFT source information-flow toolbox (Tim
-Mullen)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_info_flow.html)**</font>
+<span style="color:purple">[The SIFT source information-flow toolbox (Tim
+Mullen)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_info_flow.html)</span>
 
 
 
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_info_flow.html)**
+<span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_info_flow.html)
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_12th_workshop_talk_2010_mullen.pdf)</b>
-<font color="purple">Practicum (Tim Mullen)</font>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_12th_workshop_talk_2010_mullen.pdf)</b>
+<span style="color:purple">Practicum (Tim Mullen)</span>
 
-<font color="blue"><b>[Download the SIFT Toolbox
+<span style="color:blue"><b>[Download the SIFT Toolbox
 (alpha)](ftp://sccn.ucsd.edu/pub/SIFT_01_alpha.zip)</b>
 
 <!-- -->
 
 
 
-<font color="purple">**[The NFT head modeling toolbox (Zeynep Akalin
-Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_nft.html)**</font>
+<span style="color:purple">[The NFT head modeling toolbox (Zeynep Akalin
+Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_nft.html)</span>
 
 
 
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_nft.html)**
+<span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_nft.html)
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Nft_intro.pdf‎) </b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Nft_intro.pdf‎) </b>
 <!-- -->
 
 
@@ -332,14 +255,13 @@ Files](http://sccn.ucsd.edu/nft/Downloads/NFT_demo.zip)</b>
 
 
 
-<font color="purple">**[The BCILAB toolbox for EEG classification
+<span style="color:purple">[The BCILAB toolbox for EEG classification
 (Christian
-Kothe)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_bci.html)**</font>
+Kothe)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_bci.html)</span>
 
 
 
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_bci.html)**
+<span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_bci.html)
 
 
 
@@ -352,10 +274,9 @@ tutorial](http://sccn.ucsd.edu/wiki/BCILAB)</b>
 
 
 
-<font color="purple"> Practicum (Christian Kothe)</font>
+<span style="color:purple"> Practicum (Christian Kothe)</span>
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_workshop_2010_bcilab_practicum.pdf)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_workshop_2010_bcilab_practicum.pdf)</b>
 <b>[Browse the BCILAB wiki
 tutorial](http://sccn.ucsd.edu/wiki/BCILAB)</b>
 
@@ -366,62 +287,57 @@ toolbox](ftp://sccn.ucsd.edu/pub/bcilab/bcilab-0.9-stable.zip)</b>
 
 
 
-<font color="purple">**[The measure projection toolbox (MPT) (Nima
+<span style="color:purple">[The measure projection toolbox (MPT) (Nima
 Bigdely
-Shamlo)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_mpt.html)**</font>
+Shamlo)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_mpt.html)</span>
 
 
 
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov20_measure_projection.pdf) </b>
-<font color="blue"><b>[Affinity and Measure Projection
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_ad_nov20_measure_projection.pdf) </b>
+<span style="color:blue"><b>[Affinity and Measure Projection
 plugins](ftp://sccn.ucsd.edu/pub/affinity_measure_projection.zip)</b>
 
-<font color="blue"><b>[MP
+<span style="color:blue"><b>[MP
 Dataset](ftp://sccn.ucsd.edu/pub/5subjects.zip)</b>
 
 <!-- -->
 
 
 
-<font color="purple">**[HeadIT: A resource for human
+<span style="color:purple">[HeadIT: A resource for human
 electrophysiological data and tools (Jeff
-Grethe)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_headIT.html)**</font>
+Grethe)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_headIT.html)</span>
 
 
 
-<font color="darkred">**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_headIT.html)**
+<span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_headIT.html)
 
-<font color="darkred"><b>Mobile brain/body imaging (MoBI)</b></font>
-
+<span style="color:darkred"><b>Mobile brain/body imaging (MoBI)</b></span>
 
 
-<font color="purple">**[Imaging human agency with Mobile brain/body
+
+<span style="color:purple">[Imaging human agency with Mobile brain/body
 imaging (MoBI) (Scott
-Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)**</font>
+Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)</span>
 
 
 
-<font color="#jj0000"><b>**[View this talk
-here](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)**</b></font>
+<span style="color:#jj0000"><b>[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)</b></span>
 
 
 
-<font color="blue"><b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_mobi_ucsd10.pdf‎)</b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_mobi_ucsd10.pdf‎)</b>
 <!-- -->
 
 
 
-<font color="purple">**[The ERICA software environment for experimental
+<span style="color:purple">[The ERICA software environment for experimental
 recording, interactive control and analysis (Andrey
-Vankov)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_erica.html)**</font>
+Vankov)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_erica.html)</span>
 
 
 
-<font color="#jj0000"><b>**[View this talk
-here](http://sccn.ucsd.edu/eeglab/EEGLAB12_erica.html)**</b></font>
+<span style="color:#jj0000"><b>[Talk](http://sccn.ucsd.edu/eeglab/EEGLAB12_erica.html)</b></span>
 
 
 
@@ -438,19 +354,17 @@ tutorial](http://sccn.ucsd.edu/wiki/Enactor)</b>
 
 
 
-<font color="purple">**[Mobile brain monitoring by wearable/wireless EEG
+<span style="color:purple">[Mobile brain monitoring by wearable/wireless EEG
 (Tzyy Ping
-Jung)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_wirelessEEG.html)**</font>
+Jung)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_wirelessEEG.html)</span>
 
 
 
-<font color="#jj0000"><b>**[View this talk
-here](http://sccn.ucsd.edu/eeglab/EEGLAB12_wirelessEEG.html)**</b></font>
+<span style="color:#jj0000"><b>[Talk](http://sccn.ucsd.edu/eeglab/EEGLAB12_wirelessEEG.html)</b></span>
 
 
 
-<b>[Download the slides in PDF format
-here](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_tpj_advances_in_eeg.pdf)</b>
+<b>[Download the slides in PDF format](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2010_tpj_advances_in_eeg.pdf)</b>
 <b>[Browse the SCCN MoBI lab wiki
 tutorial](http://sccn.ucsd.edu/wiki/MoBI_Lab)</b>
 
@@ -506,8 +420,8 @@ Getting Started - Programming - Scripts and Functions
 
 Each section or demo (if read thoroughly) should take you about 10
 minutes, for a total here of about 2 hours. We encourage you to watch
-these demos and read these sections over several days. **IMPORTANT
-NOTE:** The practical portions of the workshop are largely dedicated to
+these demos and read these sections over several days. IMPORTANT
+NOTE: The practical portions of the workshop are largely dedicated to
 writing EEGLAB Matlab scripts, so if you are not yet able to understand
 Matlab syntax, you will not be able to make good use of these sections.
 
@@ -559,9 +473,7 @@ memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_fmtheta_published.pdf). Neur
 <!-- -->
 
 -   Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R.,
-    Makeig, S. [Matlab Tools for BCI
-Research?](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors
-    : Tan, D. and Nijholt, A. 2010. Springer Publishing.
+    Makeig, S. [Matlab Tools for BCI Research?](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_bcitools10.pdf) In "human-computer interaction and brain-computer interfaces". Editors: Tan, D. and Nijholt, A. 2010. Springer Publishing.
 
 <!-- -->
 
@@ -573,8 +485,8 @@ processing](https://sccn.ucsd.edu/githubwiki/pdfs/Computationintelligencedelorme
 Material to Download
 --------------------
 
-<font color = green>**To access the talk slides and videos, use the
-links in the Program listing above!**</font>
+<span color = green>To access the talk slides and videos, use the
+links in the Program listing above!</span>
 
 You may also download and uncompress the anonymized data used in the
 workshop below.
@@ -599,11 +511,14 @@ are encountering memory issues with the full dataset.
 [EEGLAB STUDY with 13 subjects (2.3
 GB)](ftp://sccn.ucsd.edu/pub/STUDYstern.zip) This is a VERY large file
 and may fail the first few times you try. Make sure you have a fast and
-reliable Internet connection before attempting this download. [--The
-STUDY matlab script--](https://sccn.ucsd.edu/githubwiki/pdfs/Build_stern.m.zip)
-[EEGLAB STUDY with 5 subjects (1.8
-GB)](ftp://sccn.ucsd.edu/pub/STUDY5subjects.zip) Optional download for
-more STUDY exploration. [NFT Sample Data (260
+reliable Internet connection before attempting this download. [The
+
+STUDY matlab script](https://sccn.ucsd.edu/githubwiki/pdfs/Build_stern.m.zip)
+
+[EEGLAB STUDY with 5 subjects (1.8 GB)](ftp://sccn.ucsd.edu/pub/STUDY5subjects.zip) Optional download for
+more STUDY exploration.
+
+[NFT Sample Data (260
 MB)](http://sccn.ucsd.edu/nft/Downloads/NFT_Sample_Data.zip) MR volume
 and EEG data for NFT tutorial.
 
