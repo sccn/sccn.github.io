@@ -12,9 +12,8 @@ Fourteenth EEGLAB Workshop
 
 
 
-<font color=blue>[Mallorca](http://en.wikipedia.org/Mallorca), Spain,
-Sept. 22-25, 2011 preceding
-[ICON](http://www.icon11mallorca.org/)</font>
+[Mallorca](http://en.wikipedia.org/Mallorca), Spain, Sept. 22-25, 2011 preceding
+[ICON](http://www.icon11mallorca.org/)
 
 Overview
 --------
