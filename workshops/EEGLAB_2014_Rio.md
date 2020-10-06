@@ -214,13 +214,13 @@ Papers describing EEGLAB processing
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/files/Eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
 
 Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/files/Ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
 
 Onton J. S Makeig. [Information-based modeling of event-related brain
-dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Pbr06lo.pdf), Progress in Brain ResearchVol. 159, Ed.Neuper & Klimesch, 2006
+dynamics](https://sccn.ucsd.edu/githubwiki/files/Pbr06lo.pdf), Progress in Brain ResearchVol. 159, Ed.Neuper & Klimesch, 2006
 
 Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
 [Independent components of EEG data are
@@ -228,18 +228,18 @@ dipolar](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030
 PLoS ONE. 2012. i7(2):e30135.
 
 S Makeig, Onton J. [ERP features and EEG dynamics: An ICA
-perspective](https://sccn.ucsd.edu/githubwiki/pdfs/Makeigonton_erp09.pdf). Oxford Handbookof Event-Related Potential Components, Ed. Luck S & Kappenman E, 2011.
+perspective](https://sccn.ucsd.edu/githubwiki/files/Makeigonton_erp09.pdf). Oxford Handbookof Event-Related Potential Components, Ed. Luck S & Kappenman E, 2011.
 
 Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
 Sejnowski, TJ. [Analysis and visualization of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
+potentials](https://sccn.ucsd.edu/githubwiki/files/Jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
 from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/files/Neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
 Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
+working memory](https://sccn.ucsd.edu/githubwiki/files/Onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Workshop Preliminary Program
 ----------------------------
@@ -253,16 +253,16 @@ Workshop Preliminary Program
 
 <font color = purple>9:00 – 10:00 -- Mining event-related brain dynamics
 I (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2014_sm_eeglab_miningi.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/files/Eeglab2014_sm_eeglab_miningi.pdf‎)
 <font color = purple>10:00 – 10:30 -- EEGLAB overview (Arnaud
 Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2014_ad_eeglab_overview.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/files/Eeglab2014_ad_eeglab_overview.pdf‎)
 
 <font color = green>-- Break--</font>
 
 <font color = purple>10:45 – 12:45 -- ICA theory and applications
 (Arnaud Delorme)</font>
-[PDF‎](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2014_ad_lecture_ica.pdf)
+[PDF‎](https://sccn.ucsd.edu/githubwiki/files/Eeglab2014_ad_lecture_ica.pdf)
 <!-- -->
 
 
@@ -274,25 +274,25 @@ Delorme)</font>
 
 <font color = orange>14:00 – 15:30 -- Importing data, rejecting data,
 and performing ICA decomposition practicum (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2014_ad_preprocessing.pdf)
+[PDF](https://sccn.ucsd.edu/githubwiki/files/Eeglab2014_ad_preprocessing.pdf)
 <font color = orange>15:30 – 17:00 -- Evaluating ICA components
 practicum (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2014_ad_evaluation_ica.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/files/Eeglab2014_ad_evaluation_ica.pdf‎)
 ### <font color=dodgerblue>Day 2 - Monday 8th of September, 2014</font>
 
 
 
 <font color = purple>9:00 – 10:00 -- Why cluster ICA components? (Scott
-Makeig)</font>[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Makeig_eeglab_rio_clustering.pdf‎)
+Makeig)</font>[PDF](https://sccn.ucsd.edu/githubwiki/files/Makeig_eeglab_rio_clustering.pdf‎)
 <font color = purple>10:00 – 10:30 -- Creating a STUDY, STUDY design,
 and plotting (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2014_ad_study_design.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/files/Eeglab2014_ad_study_design.pdf‎)
 
 <font color = green>-- Break--</font>
 
 <font color = purple>11:00 – 11:30 -- Group analysis using EEGLAB
 studies: Methods to cluster ICA components (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2014_ad_study_clustering.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/files/Eeglab2014_ad_study_clustering.pdf‎)
 <!-- -->
 
 
@@ -304,10 +304,10 @@ studies: Methods to cluster ICA components (Arnaud Delorme)</font>
 
 <font color = purple>14:00 – 15:00 -- Robust statistics: inference
 theory and practice (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2014_ad_statistics.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/files/Eeglab2014_ad_statistics.pdf‎)
 <font color = orange>15:00 – 15:30 -- Basic scripting in EEGLAB (Arnaud
 Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2014_ad_basic_scripts.pdf‎)
+[PDF](https://sccn.ucsd.edu/githubwiki/files/Eeglab2014_ad_basic_scripts.pdf‎)
 <font color = green>15:30-18:00-- Group excursion to Surgar Loaf</font>
 
 ### <font color=dodgerblue>Day 3 - Tuesday 9th of September, 2014</font>

@@ -22,7 +22,7 @@ Please download the following programs
 
 > [Latest EEGLAB development version (34
 > Mb)](ftp://sccn.ucsd.edu/pub/eeglab6.1b.zip)
-> [CORRMAP plugin (\< 1Mb)](https://sccn.ucsd.edu/githubwiki/pdfs/Corrmap1.01.zip)> To install EEGLAB, follow [these
+> [CORRMAP plugin (\< 1Mb)](https://sccn.ucsd.edu/githubwiki/files/Corrmap1.01.zip)> To install EEGLAB, follow [these
 > instructions](/EEGLAB/I.Analyzing_Data_in_EEGLAB#Installing_EEGLAB_and_tutorial_files "wikilink").
 
 Also download the following data and place all the in a dedicated folder
@@ -31,12 +31,12 @@ Also download the following data and place all the in a dedicated folder
 > Mb)](ftp://sccn.ucsd.edu/pub/animal_study.zip)
 > [STUDY tutorial files spatial attention task (650
 > Mb)](ftp://sccn.ucsd.edu/pub/STUDY.zip)
-> [Other tutorial Data sets (15 Mb)](https://sccn.ucsd.edu/githubwiki/pdfs/Data.zip)
+> [Other tutorial Data sets (15 Mb)](https://sccn.ucsd.edu/githubwiki/files/Data.zip)
 Tutorial scripts and questions
 
 > [Tutorial scripts
 > faces2.m](http://sccn.ucsd.edu/eeglab/workshop09/faces2.m)
-> [Project questions](https://sccn.ucsd.edu/githubwiki/pdfs/Projectquestions.pdf)
+> [Project questions](https://sccn.ucsd.edu/githubwiki/files/Projectquestions.pdf)
 Soon... Group Research Questions
 
 Relevant reading material:
@@ -106,24 +106,24 @@ Below are some seminal and important papers describing EEGLAB processing:
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/files/Eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
 
 Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/files/Ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
 
 Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
 Sejnowski, TJ. [Analysis and visualizaion of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
+potentials](https://sccn.ucsd.edu/githubwiki/files/Jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
 from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/files/Neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
 Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S. [Comparing
 results of algorithms implementing blind source separation of EEG
-data](https://sccn.ucsd.edu/githubwiki/pdfs/Delorme_unpub.pdf). unpublished manuscript.
+data](https://sccn.ucsd.edu/githubwiki/files/Delorme_unpub.pdf). unpublished manuscript.
 Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
+working memory](https://sccn.ucsd.edu/githubwiki/files/Onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
@@ -158,9 +158,9 @@ Workshop Program (with corresponding PDFs)
 
 
 8:00 – 9:00 -- EEGLAB overview (Arnaud Delorme)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_eeglaboverview2.pdf‎))
+([PDF](https://sccn.ucsd.edu/githubwiki/files/Lecture_eeglaboverview2.pdf‎))
 9:00 – 10:00 -- ICA theory (Arnaud Delorme)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_ica.pdf))
+([PDF](https://sccn.ucsd.edu/githubwiki/files/Lecture_ica.pdf))
 </font>
 
 
@@ -169,7 +169,7 @@ Workshop Program (with corresponding PDFs)
 
 
 <font color = purple>10:20 – 11:00 -- Time-Frequency decomopositions
-(Arnaud Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Lecture_timefreq.pdf))</font>
+(Arnaud Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/files/Lecture_timefreq.pdf))</font>
 <font color = orange>11:00 – 12:00 -- Time-Frequency practicum (Arnaud
 Delorme) </font>
 
@@ -196,14 +196,14 @@ Makeig)</font>
 
 14:30 – 15:30 -- Data import, Artifact rejection and running ICA (Filipa
 Campo Viola)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_1_data_import_artifreject.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Practicum_1_data_import_artifreject.pdf)
 
 <font color=green>-- Break –</font>
 
 15:50 – 16:50 -- Evaluation of ICA components (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_3_evaluateics2.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Practicum_3_evaluateics2.pdf)
 16:50 – 17:20 -- ICA automatic artifact detection plugin (Filipa Campo
-Viola) [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Automatic_detec_artifac_comps.pdf)
+Viola) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/Automatic_detec_artifac_comps.pdf)
 17:20 – 19:00 -- Data and workstation available
 
 </font>
@@ -223,19 +223,19 @@ Viola) [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Automatic_detec_artifac_com
 
 
 <font color = purple>8:00 – 9:00 -- Robust statistics (Robert
-Oostenveld) ([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Robust_statistics_aspet2009.pdf))
+Oostenveld) ([PDF](https://sccn.ucsd.edu/githubwiki/files/Robust_statistics_aspet2009.pdf))
 <font color=purple>9:00 – 10:00 -- Independent Component Clustering and
 Study (Scott Makeig)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_aspet_clustering09.pdf))
+([PDF](https://sccn.ucsd.edu/githubwiki/files/Eeglab_aspet_clustering09.pdf))
 
 <font color = green>-- Break--</font>
 
 <font color = purple>10:20 – 11:20 -- Forward and inverse models (Robert
 Oostenveld)
-([PDF](https://sccn.ucsd.edu/githubwiki/pdfs/Forward_and_inverse_models_aspet2009.pdf))</font>
+([PDF](https://sccn.ucsd.edu/githubwiki/files/Forward_and_inverse_models_aspet2009.pdf))</font>
 <font color = orange>11:20 – 12:00 -- Basic scripting using EEGLAB
 “history” (A.Delorme)</font>
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_4_basic_scripting.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Practicum_4_basic_scripting.pdf)
 <!-- -->
 
 
@@ -249,7 +249,7 @@ Oostenveld)
 
 <font color = orange>13:00 – 14:00 – Plotting and component clusterint
 with studies (Arnaud
-Delorme)</font>[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Practicum_9_studyplotedit2.pdf)
+Delorme)</font>[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Practicum_9_studyplotedit2.pdf)
 <font color = orange>15:00 – 15:30 – Scripting with studies (Arnaud
 Delorme) (included in previous PDF)</font>
 
@@ -276,7 +276,7 @@ Delorme) (included in previous PDF)</font>
 (Scott Makeig)</font>
 
 <font color=orange>9:00 – 9:20 -- EEGLAB plugins</font>
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_plugins2.pdf)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Eeglab_plugins2.pdf)
 <!-- -->
 
 

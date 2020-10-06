@@ -175,7 +175,7 @@ Important papers describing EEGLAB processing:
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/files/Eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
 
 Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
 [Independent EEG sources are
@@ -183,7 +183,7 @@ dipolar](http://sccn.ucsd.edu/%7Escott/pdf/Delorme_EEG_ICs_are_dipolar_lo.pdf).
 PLoS One, in press.
 
 Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/pdfs/Ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/files/Ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
 
 Makeig, S., Onton, J. [ERP features and EEG dynamics: An ICA
 Perspective](http://sccn.ucsd.edu/%7Escott/pdf/Makeig_Onton_LuckERP11.pdf),
@@ -191,14 +191,14 @@ Oxford Handbook of ERP Components, Ed. Luck & Kappenman, 2011
 
 Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
 Sejnowski, TJ. [Analysis and visualizaion of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/pdfs/Jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
+potentials](https://sccn.ucsd.edu/githubwiki/files/Jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
 from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/pdfs/Neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/files/Neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
 Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/pdfs/Onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
+working memory](https://sccn.ucsd.edu/githubwiki/files/Onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Material for download
 ---------------------
@@ -225,9 +225,9 @@ Preliminary Workshop Program
 
 
 <font color = purple>8:30 – 9:30 -- [Mining event-related brain dynamics
-I](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_beijing_i.pdf) (Scott Makeig)</font>
+I](https://sccn.ucsd.edu/githubwiki/files/Eeglab_beijing_i.pdf) (Scott Makeig)</font>
 <font color = purple>9:30 – 10:00 -- EEGLAB overview (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2012_ad_eeglab_overview.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Eeglab2012_ad_eeglab_overview.pdf)</font>
 
 <font color = green>-- Break--</font>
 
@@ -235,7 +235,7 @@ I](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab_beijing_i.pdf) (Scott Makeig)</f
 
 <font color = orange>11:15 – 12:00 -- Data import, artifact rejection
 and ICA decomposition (Julie Onton)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/1_gettingstarted_eeglab.pdf)[(Task)](https://sccn.ucsd.edu/githubwiki/pdfs/Sternbergtaskexplanation.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/1_gettingstarted_eeglab.pdf)[(Task)](https://sccn.ucsd.edu/githubwiki/files/Sternbergtaskexplanation.pdf)</font>
 <!-- -->
 
 
@@ -248,10 +248,10 @@ and ICA decomposition (Julie Onton)
 
 
 <font color = orange>13:00 – 14:00 -- Evaluating ICA components (Julie
-Onton) [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/2_evaluatingics.pdf)</font>
+Onton) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/2_evaluatingics.pdf)</font>
 <font color = purple>14:00 – 15:00 -- Time-Frequency decompositions and
 practicum (Tim Mullen)</font>
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Timefrequency_analysis.pdf‎)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Timefrequency_analysis.pdf‎)
 <!-- -->
 
 
@@ -264,9 +264,9 @@ practicum (Tim Mullen)</font>
 
 <font color=purple>15:30 – 16:30 -- SIFT toolbox: Source information
 flow and granger causality tools (Tim Mullen) </font>
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Sift_lecture.pdf‎) [SIFTmanual](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2011_tm_sift.pdf‎)
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Sift_lecture.pdf‎) [SIFTmanual](https://sccn.ucsd.edu/githubwiki/files/Eeglab2011_tm_sift.pdf‎)
 <font color=orange>16:30 – 17:30 -- Using the SIFT toolbox (Tim
-Mullen)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Sift_practicum.pdf‎)
+Mullen)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/Sift_practicum.pdf‎)
 <!-- -->
 
 
@@ -290,14 +290,14 @@ Mullen)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Sift_practicum.pdf�
 
 
 <font color = purple>8:30 – 9:15 -- [Forward and inverse EEG source
-modeling](https://sccn.ucsd.edu/githubwiki/pdfs/Forwardinverse_beijing12.pdf) - (ScottMakeig)</font>
+modeling](https://sccn.ucsd.edu/githubwiki/files/Forwardinverse_beijing12.pdf) - (ScottMakeig)</font>
 
 (see also [this note on the importance of knowing skull
 conductivity](http://sccn.ucsd.edu/wiki/NFT_Appendix_C))
 
 <font color = orange>9:15 – 10:00 -- Using the NFT and Dipfit plug-ins
 (Julie
-Onton)[(Dipfit)](https://sccn.ucsd.edu/githubwiki/pdfs/3_dipfit.pdf)[(nft)](/media:nft_presentation12.pdf)</font>
+Onton)[(Dipfit)](https://sccn.ucsd.edu/githubwiki/files/3_dipfit.pdf)[(nft)](/media:nft_presentation12.pdf)</font>
 <!-- -->
 
 
@@ -312,10 +312,10 @@ Onton)[(Dipfit)](https://sccn.ucsd.edu/githubwiki/pdfs/3_dipfit.pdf)[(nft)](/med
 
 <font color = orange>10:30 – 11:00 -- Creating EEGLAB studies and study
 designs (Arnaud
-Delorme)[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2012_ad_study_design.pdf)</font>
+Delorme)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Eeglab2012_ad_study_design.pdf)</font>
 <font color= orange>11:00 – 12:00 -- Independent Component Clustering
 (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2012_ad_study_clustering.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Eeglab2012_ad_study_clustering.pdf)</font>
 <!-- -->
 
 
@@ -329,10 +329,10 @@ Delorme)[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2012_ad_study_design
 
 <font color = orange>13:00 – 14:00 -- Plotting measures and computing
 statistics for EEGLAB studies (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2012_ad_study_plot_stats.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Eeglab2012_ad_study_plot_stats.pdf)</font>
 <font color = orange>14:00 – 15:00 -- STUDY structure and scripting for
 EEGLAB studies (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2012_ad_study_advanced_and_scripts.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Eeglab2012_ad_study_advanced_and_scripts.pdf)</font>
 <!-- -->
 
 
@@ -345,7 +345,7 @@ EEGLAB studies (Arnaud Delorme)
 
 <font color = orange>15:15 – 16:00 -- Trial-by-trial data visualization
 and accessing raw data (Julie
-Onton)[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/4_singletrialscripting.pdf)</font>
+Onton)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/4_singletrialscripting.pdf)</font>
 <!-- -->
 
 
@@ -375,7 +375,7 @@ mobile brain/body imaging (Tzyy Ping Jung)</font>
 
 <font color=orange>9:30 – 10:00 -- Building and publishing EEGLAB
 plug-ins (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/pdfs/Eeglab2012_ad_eeglab_plugins.pdf)</font>
+[(PDF)](https://sccn.ucsd.edu/githubwiki/files/Eeglab2012_ad_eeglab_plugins.pdf)</font>
 <!-- -->
 
 
