@@ -263,32 +263,32 @@ will not be able to make good use of these sections.
 
 -   Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis
     of single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/Eeglab_published.pdf). J Neurosci    Methods 134:9-21, 2004. **This is the EEGLAB reference article.**
+analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci    Methods 134:9-21, 2004. **This is the EEGLAB reference article.**
 
 <!-- -->
 
 -   Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining
     event-related brain
-dynamics](https://sccn.ucsd.edu/githubwiki/files/Ticsreview_published.pdf). Trends Cogn    Sci 8:204-10, 2004.
+dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). Trends Cogn    Sci 8:204-10, 2004.
 
 <!-- -->
 
 -   Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
     Sejnowski, TJ. [Analysis and visualization of single-trial
-event-related potentials](https://sccn.ucsd.edu/githubwiki/files/Jung_hbm01.pdf). Human    Brain Mapping. 14:166-185, 2001.
+event-related potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human    Brain Mapping. 14:166-185, 2001.
 
 <!-- -->
 
 -   Onton J., Delorme, A., Makeig, S. [Frontal midline EEG dynamics
     during working
-memory](https://sccn.ucsd.edu/githubwiki/files/Onton_fmtheta_published.pdf). NeuroImage    27:341-356, 2005.
+memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). NeuroImage    27:341-356, 2005.
 
 <!-- -->
 
 -   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of
     artifacts from EEG data using high-order statistics and independent
     component
-analysis](https://sccn.ucsd.edu/githubwiki/files/Neuroimage2007_reformated.pdf).    Neuroimage 34:1443-1449, 2007.
+analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).    Neuroimage 34:1443-1449, 2007.
 
 <!-- -->
 
@@ -300,7 +300,7 @@ analysis](https://sccn.ucsd.edu/githubwiki/files/Neuroimage2007_reformated.pdf).
 
 -   Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R.,
     Makeig, S. [Matlab Tools for BCI
-Research?](https://sccn.ucsd.edu/githubwiki/files/Delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors
+Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors
     : Tan, D. and Nijholt, A.. Springer Publishing, 2010.
 
 <!-- -->
@@ -386,7 +386,7 @@ used in the workshop below. These files are valid for both the 2010 and
 GB)](ftp://sccn.ucsd.edu/pub/STUDYstern.zip) This is a large file. Make
 sure you have a fast and reliable Internet connection before attempting
 this download. [--The STUDY matlab
-script--](https://sccn.ucsd.edu/githubwiki/files/Build_stern.m.zip)
+script--](https://sccn.ucsd.edu/githubwiki/files/build_stern.m.zip)
 [EEGLAB STUDY with 5 subjects (1.8
 GB)](ftp://sccn.ucsd.edu/pub/STUDY5subjects.zip) Optional download for
 more STUDY exploration. [NFT Sample Data (260

@@ -32,20 +32,20 @@ Workshop Content
 <span style="color:darkred"><b>EEGLAB Overview: Concepts and
 Architecture</b></span>  
 
-<span style="color:purple">[Mining cognitive brain dynamics I (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> \- <span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> \- <span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_sm_mining_brain_dynamics_i.pdf‎)</b></span>
+<span style="color:purple">[Mining cognitive brain dynamics I (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> \- <span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> \- <span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_sm_mining_brain_dynamics_i.pdf‎)</b></span>
 
 <span style="color:purple">[EEGLAB and workshop overview (Arnaud
 Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html)</span>
-<span style="color:darkred"> \- [Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html) \- <span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_ad_nov18_eeglab_overview.pdf‎)</b>
+<span style="color:darkred"> \- [Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html) \- <span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_ad_nov18_eeglab_overview.pdf‎)</b>
 
 <b>[Browse the EEGLAB wikitutorial](http://sccn.ucsd.edu/wiki/eeglab)</b><br>
 
 <span style="color:darkred"><b>EEGLAB Methods for EEG-based functional brainimaging</b></span>
 
-<span style="color:purple">[Independent Component Analysis (ICA) theory I (Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Ica_concepts.pdf‎‎)</b>
+<span style="color:purple">[Independent Component Analysis (ICA) theory I (Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/ica_concepts.pdf‎‎)</b>
 <!-- -->
 
-<span style="color:purple">[Independent Component Analysis (ICA) theory II(Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Ica_methods.pdf)</b>
+<span style="color:purple">[Independent Component Analysis (ICA) theory II(Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/ica_methods.pdf)</b>
 <!-- -->
 
 
@@ -59,7 +59,7 @@ Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_timefreqde
 
 
 
-<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_ad_nov18_time_frequency_decompositions.pdf‎)</b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_ad_nov18_time_frequency_decompositions.pdf‎)</b>
 <!-- -->
 
 
@@ -74,7 +74,7 @@ Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inver
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Forward_inverse_eeglab2010-zeynep.pdf)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/forward_inverse_eeglab2010-zeynep.pdf)</b>
 <!-- -->
 
 
@@ -88,7 +88,7 @@ Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)</span>
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_dg_nov19_resampling_and_multcomp.pdf)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_dg_nov19_resampling_and_multcomp.pdf)</b>
 
 <span style="color:darkred"><b>Getting started using EEGLAB</b></span>
 
@@ -99,7 +99,7 @@ Gramann)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_data_impor
 
 
 
-<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_kg_nov18_dataimport.pdf‎‎)</b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_kg_nov18_dataimport.pdf‎‎)</b>
 <!-- -->
 
 
@@ -109,7 +109,7 @@ Onton)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eval_ICA_com
 
 
 
-<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_jo_nov18_evaluateics.pdf‎‎)</b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_jo_nov18_evaluateics.pdf‎‎)</b>
 <!-- -->
 
 
@@ -120,7 +120,7 @@ Onton)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_basic_script
 
 
 
-<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_jo_nov18_basicscripting.pdf‎‎)</b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_jo_nov18_basicscripting.pdf‎‎)</b>
 <!-- -->
 
 
@@ -130,7 +130,7 @@ Onton)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_dipfit.html)
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_jo_nov19_dipolemodeling.pdf) </b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_jo_nov19_dipolemodeling.pdf) </b>
 <span style="color:darkred"><b>Computing across subjects and
 conditions</b></span>
 
@@ -145,7 +145,7 @@ Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_comp
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eglab2010_ad_nov19_study_clustering.pdf‎)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eglab2010_ad_nov19_study_clustering.pdf‎)</b>
 <!-- -->
 
 
@@ -156,7 +156,7 @@ Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_desi
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_ad_nov19_study_design_and_plot.pdf)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_ad_nov19_study_design_and_plot.pdf)</b>
 
 <!-- -->
 
@@ -171,7 +171,7 @@ Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_comp
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eglab2010_ad_nov19_study_clustering.pdf‎)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eglab2010_ad_nov19_study_clustering.pdf‎)</b>
 <!-- -->
 
 
@@ -182,8 +182,8 @@ Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_advanced_s
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eglab2010_ad_nov19_study_advanced_and_scripts.pdf‎)</b>
-<b>[Download the STUDY script](https://sccn.ucsd.edu/githubwiki/files/Build_stern.m.zip)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eglab2010_ad_nov19_study_advanced_and_scripts.pdf‎)</b>
+<b>[Download the STUDY script](https://sccn.ucsd.edu/githubwiki/files/build_stern.m.zip)</b>
 <span style="color:darkred"><b>Extending EEGLAB</b></span>
 
 
@@ -193,7 +193,7 @@ Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eeglab_plu
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_ad_nov20_eeglab_plugins.ppt.pdf)</b></span>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_ad_nov20_eeglab_plugins.ppt.pdf)</b></span>
 <span style="color:darkred"><b>New tools and directions:
 Overview</b></span>
 
@@ -208,7 +208,7 @@ Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_II.h
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab_ucsd10_ii.pdf‎)</b></span>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab_ucsd10_ii.pdf‎)</b></span>
 <span style="color:darkred"><b>New tools and directions</b></span>
 
 
@@ -222,7 +222,7 @@ Mullen)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_info_flow.h
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab_12th_workshop_talk_2010_mullen.pdf)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab_12th_workshop_talk_2010_mullen.pdf)</b>
 <span style="color:purple">Practicum (Tim Mullen)</span>
 
 <span style="color:blue"><b>[Download the SIFT Toolbox
@@ -241,7 +241,7 @@ Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_nft.html)</sp
 
 
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Nft_intro.pdf‎) </b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/nft_intro.pdf‎) </b>
 <!-- -->
 
 
@@ -266,7 +266,7 @@ Kothe)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_bci.html)</s
 
 
 <b>[Download the PDF
-slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab_workshop_2010_bcilab_theory.pdf)</b>
+slides](https://sccn.ucsd.edu/githubwiki/files/eeglab_workshop_2010_bcilab_theory.pdf)</b>
 <b>[Browse the BCILAB wiki
 tutorial](http://sccn.ucsd.edu/wiki/BCILAB)</b>
 
@@ -276,7 +276,7 @@ tutorial](http://sccn.ucsd.edu/wiki/BCILAB)</b>
 
 <span style="color:purple"> Practicum (Christian Kothe)</span>
 
-<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab_workshop_2010_bcilab_practicum.pdf)</b>
+<b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab_workshop_2010_bcilab_practicum.pdf)</b>
 <b>[Browse the BCILAB wiki
 tutorial](http://sccn.ucsd.edu/wiki/BCILAB)</b>
 
@@ -293,7 +293,7 @@ Shamlo)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_mpt.html)</
 
 
 
-<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_ad_nov20_measure_projection.pdf) </b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_ad_nov20_measure_projection.pdf) </b>
 <span style="color:blue"><b>[Affinity and Measure Projection
 plugins](ftp://sccn.ucsd.edu/pub/affinity_measure_projection.zip)</b>
 
@@ -326,7 +326,7 @@ Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)<
 
 
 
-<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/Makeig_mobi_ucsd10.pdf‎)</b>
+<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/makeig_mobi_ucsd10.pdf‎)</b>
 <!-- -->
 
 
@@ -364,7 +364,7 @@ Jung)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_wirelessEEG.h
 
 
 
-<b>[Download the slides in PDF format](https://sccn.ucsd.edu/githubwiki/files/Eeglab2010_tpj_advances_in_eeg.pdf)</b>
+<b>[Download the slides in PDF format](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_tpj_advances_in_eeg.pdf)</b>
 <b>[Browse the SCCN MoBI lab wiki
 tutorial](http://sccn.ucsd.edu/wiki/MoBI_Lab)</b>
 
@@ -430,38 +430,38 @@ Relevant publications using ICA/EEGLAB
 
 -   Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis
     of single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/Eeglab_published.pdf). J Neurosci    Methods. 2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci    Methods. 2004; Mar 15; 134(1):9-21.
 
 <!-- -->
 
 -   Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining
     event-related brain
-dynamics](https://sccn.ucsd.edu/githubwiki/files/Ticsreview_published.pdf). Trends Cogn    Sci. 2004; May; 8(5):204-10.
+dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). Trends Cogn    Sci. 2004; May; 8(5):204-10.
 
 <!-- -->
 
 -   Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
     Sejnowski, TJ. [Analysis and visualizaion of single-trial
-event-related potentials](https://sccn.ucsd.edu/githubwiki/files/Jung_hbm01.pdf). Human    Brain Mapping. 2001; 14(3), 166-185.
+event-related potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human    Brain Mapping. 2001; 14(3), 166-185.
 
 <!-- -->
 
 -   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of
     artifacts from EEG data using high-order statistics and independent
     component
-analysis](https://sccn.ucsd.edu/githubwiki/files/Neuroimage2007_reformated.pdf).    Neuroimage. 2007; 34, 1443-1449.
+analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).    Neuroimage. 2007; 34, 1443-1449.
 
 <!-- -->
 
 -   Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
     [Comparing results of algorithms implementing blind source
-separation of EEG data](https://sccn.ucsd.edu/githubwiki/files/Delorme_unpub.pdf).    unpublished manuscript.
+separation of EEG data](https://sccn.ucsd.edu/githubwiki/files/delorme_unpub.pdf).    unpublished manuscript.
 
 <!-- -->
 
 -   Onton J., Delorme, A., Makeig, S. [Frontal midline EEG dynamics
     during working
-memory](https://sccn.ucsd.edu/githubwiki/files/Onton_fmtheta_published.pdf). NeuroImage.    2005; 27, 341-356
+memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). NeuroImage.    2005; 27, 341-356
 
 <!-- -->
 
@@ -473,14 +473,14 @@ memory](https://sccn.ucsd.edu/githubwiki/files/Onton_fmtheta_published.pdf). Neu
 <!-- -->
 
 -   Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R.,
-    Makeig, S. [Matlab Tools for BCI Research?](https://sccn.ucsd.edu/githubwiki/files/Delorme_bcitools10.pdf) In "human-computer interaction and brain-computer interfaces". Editors: Tan, D. and Nijholt, A. 2010. Springer Publishing.
+    Makeig, S. [Matlab Tools for BCI Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In "human-computer interaction and brain-computer interfaces". Editors: Tan, D. and Nijholt, A. 2010. Springer Publishing.
 
 <!-- -->
 
 -   Delorme, A., Mullen, T., Kothe, C., Bigdely-Shamlo, N., Akalin, Z.,
     Vankov, A., Makeig, S. [EEGLAB, MPT, NetSIFT, NFT, BCILAB, and
     ERICA: New tools for advanced EEG/MEG
-processing](https://sccn.ucsd.edu/githubwiki/files/Computationintelligencedelorme.pdf).    Computational Neuroscience, submitted.
+processing](https://sccn.ucsd.edu/githubwiki/files/computationintelligencedelorme.pdf).    Computational Neuroscience, submitted.
 
 Material to Download
 --------------------
@@ -513,7 +513,7 @@ GB)](ftp://sccn.ucsd.edu/pub/STUDYstern.zip) This is a VERY large file
 and may fail the first few times you try. Make sure you have a fast and
 reliable Internet connection before attempting this download. [The
 
-STUDY matlab script](https://sccn.ucsd.edu/githubwiki/files/Build_stern.m.zip)
+STUDY matlab script](https://sccn.ucsd.edu/githubwiki/files/build_stern.m.zip)
 
 [EEGLAB STUDY with 5 subjects (1.8 GB)](ftp://sccn.ucsd.edu/pub/STUDY5subjects.zip) Optional download for
 more STUDY exploration.
