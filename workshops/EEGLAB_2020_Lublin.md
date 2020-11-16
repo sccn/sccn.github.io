@@ -239,13 +239,7 @@ Delorme)</font>
 <font color = orange>11:45 – 13:00 -- Data import, Artifact rejection
 (TBD)</font>
 
-<!-- -->
-
-
 <font color = green>13:00-14:15 -- Lunch</font>
-
-<!-- -->
-
 
 **ICA and time-frequency**
 
