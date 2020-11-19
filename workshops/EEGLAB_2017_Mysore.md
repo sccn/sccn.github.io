@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2017_Mysore.html
 parent: Workshops
 ---
 
-[700px\|thumb\|center\|upright=2.5\|[Mysuru Palace, Karnataka,
+![700px\|thumb\|center\|upright=2.5\|[Mysuru Palace, Karnataka,
 India](https://en.wikipedia.org/wiki/Mysore_Palace)]({{ site.baseurl }}/assets/images/Mysore.jpg)
 
 23rd EEGLAB Workshop

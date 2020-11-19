@@ -5,12 +5,14 @@ permalink: /workshops/EEGLAB_2018_at_UCSD.html
 parent: Workshops
 ---
 
+![400px]({{ site.baseurl }}/assets/images/EEGLAB_28th_2018_2.jpg)
+
+
+
 [<b>Click HERE to access the official site and to see/download the
-Workshop
-photo.</b>](https://sites.google.com/ucsd.edu/eeglab-2018/eeglab-home)
+Workshop photo.</b>](https://sites.google.com/ucsd.edu/eeglab-2018/eeglab-home)
 
 
-![400px]({{ site.baseurl }}/assets/images/Eeglab_28th_2018_2.jpg)
 [<b>Click here for the high-resolution version of the Workshop
 photo.</b>](https://sites.google.com/ucsd.edu/eeglab-2018/eeglab-home)
 

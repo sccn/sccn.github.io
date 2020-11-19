@@ -5,8 +5,8 @@ permalink: /workshops/Online_EEGLAB_Workshop.html
 parent: Workshops
 ---
 
-[thumb\|right\|upright=1.5\|EEGLAB menu (upper left) and data
-windows]({{ site.baseurl }}/assets/images/Eeglab_small.jpg)
+![thumb\|right\|upright=1.5\|EEGLAB menu (upper left) and data
+windows]({{ site.baseurl }}/assets/images/EEGLAB_small.jpg)
 
 This page comprises materials for and videos from different EEGLAB
 Workshops held at the San Diego Supercomputer Center on the campus of

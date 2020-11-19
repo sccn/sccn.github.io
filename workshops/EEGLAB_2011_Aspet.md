@@ -5,8 +5,8 @@ permalink: /workshops/EEGLAB_2011_Aspet.html
 parent: Workshops
 ---
 
-[250px\|thumb\|right\|upright=2.5\|Cows breeding in the Pyrenees moutain
-range]({{ site.baseurl }}/assets/images/Cow-breeds.jpg)
+![250px\|thumb\|right\|upright=2.5\|Cows breeding in the Pyrenees moutain range]({{ site.baseurl }}/assets/images/Cow-breeds.jpg)
+
 
 Thirteenth EEGLAB Workshop
 ==========================

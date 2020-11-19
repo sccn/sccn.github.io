@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2015_Aspet.html
 parent: Workshops
 ---
 
-[250px\|thumb\|right\|upright=2.5\|Cows enjoying the scenery of the
+![250px\|thumb\|right\|upright=2.5\|Cows enjoying the scenery of the
 Pyrenees mountains]({{ site.baseurl }}/assets/images/Cow-breeds.jpg)
 
 Nineteenth EEGLAB Workshop

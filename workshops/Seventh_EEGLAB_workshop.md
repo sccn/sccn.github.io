@@ -8,10 +8,11 @@ parent: Workshops
 Seventh EEGLAB Workshop
 =======================
 
-![center]({{ site.baseurl }}/assets/images/Img_0093.jpg)
+![center]({{ site.baseurl }}/assets/images/IMG_0093.jpg)
 
-![left]({{ site.baseurl }}/assets/images/Epic.gif) <font color=red>7th EEGLAB
-Workshop</font>
+![left]({{ site.baseurl }}/assets/images/Epic.gif) 
+
+<font color=red>7th EEGLAB Workshop</font>
 <font color=blue>Bloomington, IN
 Apr 20–22, 2009</font>
 (Preceeding the EPIC conference)

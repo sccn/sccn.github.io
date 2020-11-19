@@ -7,7 +7,7 @@ parent: Workshops
 
 ![700px\|thumb\|center]({{ site.baseurl }}/assets/images/Group.jpg)
 
-[250px\|thumb\|right\|upright=2.5\|Santa Margherita
+![250px\|thumb\|right\|upright=2.5\|Santa Margherita
 Ligure]({{ site.baseurl }}/assets/images/Ligure.jpg)
 
 <font color=red>Participant ressource: </font>[List of restaurant and

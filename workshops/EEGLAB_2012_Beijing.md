@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2012_Beijing
 parent: Workshops
 ---
 
-[250px\|thumb\|right\|upright=2.5\|Beijing landmark
+![250px\|thumb\|right\|upright=2.5\|Beijing landmark
 bridge]({{ site.baseurl }}/assets/images/Beijing.png)
 
 Fifteenth EEGLAB Workshop

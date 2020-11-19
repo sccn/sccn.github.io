@@ -5,8 +5,8 @@ permalink: /workshops/Twelfth_EEGLAB_Workshop.html
 parent: Workshops
 ---
 
-[thumb\|right\|upright=2.5\|Torrey Pines rock formations (a few blocks
-from San Diego Supercomputer Center)]({{ site.baseurl }}/assets/images/Torreypines.jpg)
+![thumb\|right\|upright=2.5\|Torrey Pines rock formations (a few blocks
+from San Diego Supercomputer Center)]({{ site.baseurl }}/assets/images/TorreyPines.jpg)
 
 <span size =4><span color=red>The Online EEGLAB Workshop</span></span>
 <span color=blue>comprises materials for and videos from the 12th EEGLAB

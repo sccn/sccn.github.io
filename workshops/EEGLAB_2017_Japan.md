@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2017_Japan.html
 parent: Workshops
 ---
 
-[350px\|thumb\|right\|upright=2.5\|13th century Buddhist temple near
+![350px\|thumb\|right\|upright=2.5\|13th century Buddhist temple near
 Tokyo]({{ site.baseurl }}/assets/images/Japan.png)
 
 Twenty-fifth EEGLAB Workshop

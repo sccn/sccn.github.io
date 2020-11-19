@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2017_Israel.html
 parent: Workshops
 ---
 
-[350px\|thumb\|right\|upright=2.5\|The outer gate, well, and tamarisk
+![350px\|thumb\|right\|upright=2.5\|The outer gate, well, and tamarisk
 tree at Tel Beersheba]({{ site.baseurl }}/assets/images/Xxx.png)
 
 Twenty-sixth EEGLAB Workshop

@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2018_Pittsburgh.html
 parent: Workshops
 ---
 
-[350px\|thumb\|right\|upright=2.5\|Pittsburgh, Pennsylvania: the
+![350px\|thumb\|right\|upright=2.5\|Pittsburgh, Pennsylvania: the
 confluence of the Allegheny, Monongahela, and Ohio
 rivers]({{ site.baseurl }}/assets/images/Pittsburg.png)
 

@@ -5,7 +5,9 @@ permalink: /workshops/EEGLAB_2013_UCSD.html
 parent: Workshops
 ---
 
-![697px\|thumb\|center\|upright=3]({{ site.baseurl }}/assets/images/Groupeeglab2013.png)
+![697px\|thumb\|center\|upright=3]({{ site.baseurl }}/assets/images/GroupEEGLAB2013.png)
+
+
 
 The 17th EEGLAB Workshop drew 104 attendees from as far away as New
 Zealand, Korea, and England. The two-track format was successful;

@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2019_Aspet.html
 parent: Workshops
 ---
 
-[250px\|thumb\|right\|upright=2.5\|Scenery of the Pyrenees
+![250px\|thumb\|right\|upright=2.5\|Scenery of the Pyrenees
 mountains]({{ site.baseurl }}/assets/images/Pyrennees.png)
 
 Twenty-ninth EEGLAB Workshop
