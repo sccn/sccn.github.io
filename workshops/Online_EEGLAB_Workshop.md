@@ -295,11 +295,7 @@ memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). Neu
     forward head modeling toolbox](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_nft_practicum.pdf), J Neuroscience Methods,
     190(2):258-70, 2010.
     
-- Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R.,
-    Makeig, S. [Matlab Tools for BCI Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors
-    : Tan, D. and Nijholt, A., Springer Publishing, 2010.
-
-
+- Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R., Makeig, S. [Matlab Tools for BCI Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors: Tan, D. and Nijholt, A., Springer Publishing, 2010.
 
 -   Delorme, A., Mullen, T., Kothe, C., Bigdely-Shamlo, N., Akalin, Z.,
     Vankov, A., Makeig, S. [EEGLAB, MPT, NetSIFT, NFT, BCILAB, and
