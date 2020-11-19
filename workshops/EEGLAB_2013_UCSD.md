@@ -89,13 +89,13 @@ We made arrangements with La Jolla hotels for rooms during the workshop.
     [here](https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1308261404&key=C2B81)
     to make a reservation.
 
-<!-- -->
+
 
 -   [Estancia La Jolla](http://www.estancialajolla.com/) (closest
     hotel - 10 minutes by foot from the workshop). Ask for the special
     UCSD rate at $179 per night (plus $8 resort fee).
 
-<!-- -->
+
 
 -   [La Jolla Shores Hotel](http://www.ljshoreshotel.com/), beach front
     hotel 3 miles from workshop venue. Daily free shuttle to and from
@@ -142,34 +142,35 @@ the following demos. Note that while the demo is running, you can retype
 the text (or copy it) to the main Matlab window:
 
 
+- Mathematics - Basic Matrix Operations
 
-Mathematics - Basic Matrix Operations
+- Mathematics - Matrix manipulations
 
-Mathematics - Matrix manipulations
+- Graphics - 2-D Plots
 
-Graphics - 2-D Plots
+- Programming - Manipulating Multidimentional arrays
 
-Programming - Manipulating Multidimentional arrays
+- Programming - Structures
 
-Programming - Structures
 
 In the Help Content, read and practice at least the following sections:
 
 
 
-Getting Started - Matrices and Arrays - Matrices and Magic squares
+- Getting Started - Matrices and Arrays - Matrices and Magic squares
 
-Getting Started - Matrices and Arrays - Expressions
+- Getting Started - Matrices and Arrays - Expressions
 
-Getting Started - Matrices and Arrays - Working with Matrices
+- Getting Started - Matrices and Arrays - Working with Matrices
 
-Getting Started - Graphics - Basic plotting functions
+- Getting Started - Graphics - Basic plotting functions
 
-Getting Started - Programming - Flow Control
+- Getting Started - Programming - Flow Control
 
-Getting Started - Programming - Other data structures
+- Getting Started - Programming - Other data structures
 
-Getting Started - Programming - Scripts and Functions
+- Getting Started - Programming - Scripts and Functions
+
 
 Each section or demo (if read thoroughly) should take you about 10
 minutes, for a total here of about 2 hours. We encourage you to watch

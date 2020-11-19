@@ -4,6 +4,7 @@ title: Twelfth EEGLAB Workshop
 permalink: /workshops/Twelfth_EEGLAB_Workshop.html
 parent: Workshops
 ---
+[//]: # (TODO: check formatting line breaks)
 
 ![thumb\|right\|upright=2.5\|Torrey Pines rock formations (a few blocks
 from San Diego Supercomputer Center)]({{ site.baseurl }}/assets/images/TorreyPines.jpg)

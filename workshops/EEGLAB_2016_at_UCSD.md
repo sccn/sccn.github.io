@@ -382,7 +382,7 @@ PDF](https://sccn.ucsd.edu/githubwiki/files/nft2_intro.pdf)\] </font>
 2:00 - 5:00 PM -- Concurrent basic & advanced sessions (D2) with
 <font color=saddlebrown>3:30 coffee break</font>
 
-<!-- -->
+
 
 
 
@@ -402,7 +402,7 @@ PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_limo_eeglab.pdf)\]
 
 3:45 - 5:00 -- D2.A3: LIMO advanved tool theory and practicum (Cyril
 Pernet) [\[Download PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_limo_2.pdf)\]</font>
-<!-- -->
+
 
 
 
@@ -422,7 +422,7 @@ visualization using the Neuroelectromagnetic Inverse Solution Toolbox
 
 3:45 - 5:00 -- D2.B3: Practicum: hands-on NFT/NIST </font>
 
-<!-- -->
+
 
 
 
@@ -463,13 +463,13 @@ PDF](https://sccn.ucsd.edu/githubwiki/files/delorme2016_clustering2.pdf)\] </fon
 
 <font color=saddlebrown>10:15 - 10:30 AM -- Coffee break</font>
 
-<!-- -->
+
 
 
 <font color=saddlebrown>10:30 - 2:00 PM -- Excursion to the [Torrey
 Pines State Reserve](http://torreypine.org/) with picnic lunch </font>
 
-<!-- -->
+
 
 
 <font color=mediumblue> 2:00 - 2:15 PM -- New EEG tools and measures
@@ -478,7 +478,7 @@ PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_newtoolsintro.pdf)\]
 <font color=mediumblue> 2:15 - 2:30 PM -- Mobile Brain/Body Imaging
 (MoBI) introduction (Scott Makeig) </font>
 
-<!-- -->
+
 
 
 <font color=black>2:30 - 5:30 PM -- Concurrent basic & advanced sessions
@@ -500,14 +500,14 @@ PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_study_basic_scripting2.pdf)\
 4:15 - 5:00 -- D3.A2: Advanced scripting using EEGLAB STUDY structures
 </font> [\[Download
 PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_study_study_scripting.pdf)\]
-<!-- -->
+
 
 
 
 <font color=darkred>Track B (Vizlab) - New EEG tools and measures (John
 Iversen)</font>
 
-<!-- -->
+
 
 
 
@@ -531,7 +531,7 @@ Bigdely-Shamlo) </font>
 <font color=mediumblue>5:00 - 5:30 -- D3.B5: MEG and simultaneous
 EEG/MEG analysis (John Iversen)</font> [\[Download
 PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ucsd_jri_meeg_handout.pdf)\]</font>
-<!-- -->
+
 
 
 
@@ -555,7 +555,7 @@ PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_mobilab.pdf)\]
 4:30 - 5:30 -- D3.C4: Real-World Neuroimaging and Brain-computer
 Interfaces (Tzyy-Ping Jung et al.) </font> [\[Download
 PDF](https://sccn.ucsd.edu/githubwiki/files/jungpres.pdf)\]
-<!-- -->
+
 
 
 

@@ -240,7 +240,7 @@ building macro commands and performing custom and automated processing
 requires the ability to manipulate EEGLAB data structures in Matlab.
 Because of time constraints, we will NOT provide an introduction to the
 Matlab language. Instead users need to familiarize themselves with
-Matlab prior to the workshop. Users of Matlab 7: We recommend running
+Matlab prior to the workshop. New users of Matlab: We recommend running
 the following demos and reading the following help sections.
 
 In the Matlab help, you should perform the first 3 tutorials (Matlab

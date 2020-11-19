@@ -7,7 +7,7 @@ parent: Workshops
 
 ![400px]({{ site.baseurl }}/assets/images/EEGLAB_28th_2018_2.jpg)
 
-
+[//]: # (TODO: check formatting/ line breaks)
 
 [<b>Click HERE to access the official site and to see/download the
 Workshop photo.</b>](https://sites.google.com/ucsd.edu/eeglab-2018/eeglab-home)

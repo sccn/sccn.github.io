@@ -137,23 +137,49 @@ Relevant reading material:
 --------------------------
 
 EEGLAB graphic interface is built on top of the powerful Matlab
-scripting language. Enjoying the full capabilities of EEGLAB for b
+scripting language. Enjoying the full capabilities of EEGLAB for
+building macro commands and performing custom and automated processing
+requires the ability to manipulate EEGLAB data structures in Matlab.
+Because of time constrains, we will NOT provide an introduction to the
+Matlab language. Instead users need to familiarize themselves with
+Matlab prior to the workshop. Users of Matlab 7: we recommend running
+the following demos and reading the following help sections.
+
+After opening the Matlab desktop, select menu item "Help Demos" and run
+the following demos. Note that while the demo is running, you can retype
+the text (or copy it) to the main Matlab window:
 
 
 
-Getting Started - Matrices and Arrays - Matrices and Magic squares
+- Mathematics - Basic Matrix Operations
 
-Getting Started - Matrices and Arrays - Expressions
+- Mathematics - Matrix manipulations
 
-Getting Started - Matrices and Arrays - Working with Matrices
+- Graphics - 2-D Plots
 
-Getting Started - Graphics - Basic plotting functions
+- Programming - Manipulating Multidimentional arrays
 
-Getting Started - Programming - Flow Control
+- Programming - Structures
 
-Getting Started - Programming - Other data structures
 
-Getting Started - Programming - Scripts and Functions
+In the Help Content, read and practice at least the following sections:
+
+
+
+- Getting Started - Matrices and Arrays - Matrices and Magic squares
+
+- Getting Started - Matrices and Arrays - Expressions
+
+- Getting Started - Matrices and Arrays - Working with Matrices
+
+- Getting Started - Graphics - Basic plotting functions
+
+- Getting Started - Programming - Flow Control
+
+- Getting Started - Programming - Other data structures
+
+- Getting Started - Programming - Scripts and Functions
+
 
 Each section or demo (if read thoroughly) should take you about 10
 minutes, for a total here of about 2 hours. We encourage you to watch

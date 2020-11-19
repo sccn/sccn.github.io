@@ -31,7 +31,7 @@ Workshop</b> for those interested in learning the basics of using EEGLAB
 and independent component analysis (ICA) to analyze their EEG (or
 related) data.
 
-<!-- -->
+
 
 
 2\. Friday, Sept. 23 through noon on Sunday, Sept. 25, the first
@@ -39,7 +39,7 @@ related) data.
 EEGLAB-linked tools for performing advanced analyses of EEG and related
 data, with detailed method expositions and practical exercises.
 
-<!-- -->
+
 
 
 3\. Sunday afternoon, Sept. 25, there was a (free) <b>Open Discussion
@@ -85,33 +85,35 @@ window:
 
 
 
-Mathematics - Basic Matrix Operations
+- Mathematics - Basic Matrix Operations
 
-Mathematics - Matrix manipulations
+- Mathematics - Matrix manipulations
 
-Graphics - 2-D Plots
+- Graphics - 2-D Plots
 
-Programming - Manipulating Multidimentional arrays
+- Programming - Manipulating Multidimentional arrays
 
-Programming - Structures
+- Programming - Structures
+
 
 In the Help Content, read and practice at least the following sections:
 
 
 
-Getting Started - Matrices and Arrays - Matrices and Magic squares
+- Getting Started - Matrices and Arrays - Matrices and Magic squares
 
-Getting Started - Matrices and Arrays - Expressions
+- Getting Started - Matrices and Arrays - Expressions
 
-Getting Started - Matrices and Arrays - Working with Matrices
+- Getting Started - Matrices and Arrays - Working with Matrices
 
-Getting Started - Graphics - Basic plotting functions
+- Getting Started - Graphics - Basic plotting functions
 
-Getting Started - Programming - Flow Control
+- Getting Started - Programming - Flow Control
 
-Getting Started - Programming - Other data structures
+- Getting Started - Programming - Other data structures
 
-Getting Started - Programming - Scripts and Functions
+- Getting Started - Programming - Scripts and Functions
+
 
 Each section or demo (if read thoroughly) should take about 10 minutes.
 We encourage you to watch these demos and read these sections over

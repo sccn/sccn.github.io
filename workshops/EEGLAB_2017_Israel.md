@@ -63,35 +63,37 @@ After opening the Matlab desktop, select menu item "Help Demos" and run
 the following demos. Note that while a demo is running, you can retype
 the text (or copy it) to the main Matlab window:
 
+- Mathematics - Basic Matrix Operations
 
+- Mathematics - Matrix manipulations
 
-Mathematics - Basic Matrix Operations
+- Graphics - 2-D Plots
 
-Mathematics - Matrix manipulations
+- Programming - Manipulating Multidimentional arrays
 
-Graphics - 2-D Plots
+- Programming - Structures
 
-Programming - Manipulating Multidimentional arrays
-
-Programming - Structures
 
 In the Help Content, read and practice at least the following sections:
 
 
 
-Getting Started - Matrices and Arrays - Matrices and Magic squares
+- Getting Started - Matrices and Arrays - Matrices and Magic squares
 
-Getting Started - Matrices and Arrays - Expressions
+- Getting Started - Matrices and Arrays - Expressions
 
-Getting Started - Matrices and Arrays - Working with Matrices
+- Getting Started - Matrices and Arrays - Working with Matrices
 
-Getting Started - Graphics - Basic plotting functions
+- Getting Started - Graphics - Basic plotting functions
 
-Getting Started - Programming - Flow Control
+- Getting Started - Programming - Flow Control
 
-Getting Started - Programming - Other data structures
+- Getting Started - Programming - Other data structures
 
-Getting Started - Programming - Scripts and Functions
+- Getting Started - Programming - Scripts and Functions
+
+
+
 
 Each section or demo (if read thoroughly) should take you about 10
 minutes, for a total here of about 2 hours. If you do not use Matlab

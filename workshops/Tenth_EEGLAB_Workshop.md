@@ -85,13 +85,13 @@ Onton)[PDF](https://sccn.ucsd.edu/githubwiki/files/4_basic_scripting.pdf)</font>
 <font color="purple">9:45 – 10:30 am – Forward and inverse source models
 (Scott Makeig)</font>
 
-<!-- -->
+
 
 
 
 <font color="green">**-- Break (10:30-11:00) --**</font>
 
-<!-- -->
+
 
 
 
@@ -100,7 +100,7 @@ DIPFIT plugin (Julie
 Onton)[PDF](https://sccn.ucsd.edu/githubwiki/files/5_dipolemodeling.pdf)</font>
 <font color="#FF7700">11:45 – 12:30 pm -- Using the NFT head modeling
 toolbox (Julie Onton)[PDF](https://sccn.ucsd.edu/githubwiki/files/5.5_nft_intro.pdf)</font>
-<!-- -->
+
 
 
 
@@ -112,13 +112,13 @@ Onton)[PDF](https://sccn.ucsd.edu/githubwiki/files/6_advancedicanalysis.pdf)</fo
 <font color="#FF7700">2:15 – 3:00 am -- Building a STUDY and STUDY
 basics (Julie
 Onton)[PDF](https://sccn.ucsd.edu/githubwiki/files/7_studyintro_build.pdf)</font>
-<!-- -->
+
 
 
 
 <font color="green">**-- Break (3:00-3:30) --** </font>
 
-<!-- -->
+
 
 
 
@@ -144,7 +144,7 @@ plugins (Arnaud Delorme)
 
 <font color="#FF7700">11:00 am – 12:00 pm –- STUDY (cluster) analysis
 (Julie Onton)[PDF](https://sccn.ucsd.edu/githubwiki/files/9_studyanalysisii.pdf)</font>
-<!-- -->
+
 
 
 
@@ -167,13 +167,13 @@ Analysis Toolbox (Tim Mullen) (see download material for toolbox)</font>
 
 **11:00 am - 12:30 pm –- Small group research projects**
 
-<!-- -->
+
 
 
 
 <font color="green">**-- 12:30 - 1:30 pm Lunch --**</font>
 
-<!-- -->
+
 
 
 
@@ -189,7 +189,7 @@ electrophysiology research and applications (Scott Makeig)</font>
 
 '''4:30 - 4:45 pm -- General discussion
 
-<!-- -->
+
 
 
 
@@ -212,35 +212,35 @@ the following demos. Note that while the demo is running, you can retype
 the text (or copy it) to the main Matlab window:
 
 
+- Mathematics - Basic Matrix Operations
 
-Mathematics - Basic Matrix Operations
+- Mathematics - Matrix manipulations
 
-Mathematics - Matrix manipulations
+- Graphics - 2-D Plots
 
-Graphics - 2-D Plots
+- Programming - Manipulating Multidimentional arrays
 
-Programming - Manipulating Multidimentional arrays
-
-Programming - Structures
+- Programming - Structures
 
 
 In the Help Content, read and practice at least the following sections:
 
 
 
-Getting Started - Matrices and Arrays - Matrices and Magic squares
+- Getting Started - Matrices and Arrays - Matrices and Magic squares
 
-Getting Started - Matrices and Arrays - Expressions
+- Getting Started - Matrices and Arrays - Expressions
 
-Getting Started - Matrices and Arrays - Working with Matrices
+- Getting Started - Matrices and Arrays - Working with Matrices
 
-Getting Started - Graphics - Basic plotting functions
+- Getting Started - Graphics - Basic plotting functions
 
-Getting Started - Programming - Flow Control
+- Getting Started - Programming - Flow Control
 
-Getting Started - Programming - Other data structures
+- Getting Started - Programming - Other data structures
 
-Getting Started - Programming - Scripts and Functions
+- Getting Started - Programming - Scripts and Functions
+
 
 Each section or demo (if read thoroughly) should take you about 10
 minutes, for a total here of about 2 hours. We encourage you to watch
@@ -257,43 +257,43 @@ Relevant publications using ICA/EEGLAB
     of single-trial EEG dynamics including independent component
 analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci    Methods. 2004; Mar 15; 134(1):9-21.
 
-<!-- -->
+
 
 -   Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining
     event-related brain
 dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). Trends Cogn    Sci. 2004; May; 8(5):204-10.
 
-<!-- -->
+
 
 -   Onton, J., Makeig, S. [Information-based modeling of event-related
 brain dynamics](https://sccn.ucsd.edu/githubwiki/files/onton_pbr_published.pdf). Prog    Brain Res. 2006; 159: 99-120.
 
-<!-- -->
+
 
 -   Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
     Sejnowski, TJ. [Analysis and visualizaion of single-trial
 event-related potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human    Brain Mapping. 2001; 14(3), 166-185.
 
-<!-- -->
+
 
 -   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of
     artifacts from EEG data using high-order statistics and independent
     component
 analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).    Neuroimage. 2007; 34, 1443-1449.
 
-<!-- -->
+
 
 -   Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
     [Comparing results of algorithms implementing blind source
 separation of EEG data](https://sccn.ucsd.edu/githubwiki/files/delorme_unpub.pdf).    unpublished manuscript.
 
-<!-- -->
+
 
 -   Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics
     during working
 memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). NeuroImage.    2005;27, 341-356
 
-<!-- -->
+
 
 -   Onton, J, Makeig, S. [High-frequency Broadband Modulations of
     Electroencephalographic
