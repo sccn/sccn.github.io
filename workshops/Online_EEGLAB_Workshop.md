@@ -4,6 +4,7 @@ title: Online EEGLAB Workshop
 permalink: /workshops/Online_EEGLAB_Workshop.html
 parent: Workshops
 ---
+[//]: # (TODO: check formatting, linebreak, urls with ???)
 
 ![thumb\|right\|upright=1.5\|EEGLAB menu (upper left) and data
 windows]({{ site.baseurl }}/assets/images/EEGLAB_small.jpg)
@@ -18,8 +19,8 @@ presentations.
 <font color=darkred>Tutorial Videos on <em>Youtube.com</em></font>
 ------------------------------------------------------------------
 
-[thumb\|right\|upright=1.4\|EEGLAB
-Workshops]({{ site.baseurl }}/assets/images/Eeglabworkshops11.jpg)
+![thumb\|right\|upright=1.4\|EEGLAB 
+Workshops]({{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg)
 
 #### EEGLAB introduction (2019, Delorme)
 
@@ -35,7 +36,7 @@ Workshops]({{ site.baseurl }}/assets/images/Eeglabworkshops11.jpg)
 -   [Part 6: Multi subject analysis and
     scripting](https://www.youtube.com/watch?v=kofJh7biGsE)
 
-![thumb\|right\|upright=0.6\|Brain IC]({{ site.baseurl }}/assets/images/Brainic.jpg)
+![thumb\|right\|upright=0.6\|Brain IC]({{ site.baseurl }}/assets/images/BrainIC.jpg)
 
 #### Preprocessing data in EEGLAB (2018, Delorme)
 
@@ -243,8 +244,7 @@ Matlab language. Instead users need to familiarize themselves with
 Matlab prior to the workshop. New users of Matlab: We recommend running
 the following demos and reading the following help sections.
 
-In the Matlab help, you should perform the first 3 tutorials (Matlab
-2018)
+In the Matlab help, you should perform the first 3 tutorials (Matlab 2018)
 
 -   Getting Started with MATLAB
 -   Language Fundamentals
@@ -265,45 +265,45 @@ will not be able to make good use of these sections.
     of single-trial EEG dynamics including independent component
 analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci    Methods 134:9-21, 2004. **This is the EEGLAB reference article.**
 
-<!-- -->
+
 
 -   Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining
     event-related brain
 dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). Trends Cogn    Sci 8:204-10, 2004.
 
-<!-- -->
+
 
 -   Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
     Sejnowski, TJ. [Analysis and visualization of single-trial
 event-related potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human    Brain Mapping. 14:166-185, 2001.
 
-<!-- -->
+
 
 -   Onton J., Delorme, A., Makeig, S. [Frontal midline EEG dynamics
     during working
 memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). NeuroImage    27:341-356, 2005.
 
-<!-- -->
+
 
 -   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of
     artifacts from EEG data using high-order statistics and independent
     component
 analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).    Neuroimage 34:1443-1449, 2007.
 
-<!-- -->
+
 
 -   Akalin Acar, Z., Makeig S, \[<http://>???? Neuroelectromagnetic
     forward head modeling toolbox\], J Neuroscience Methods,
     190(2):258-70, 2010.
 
-<!-- -->
+
 
 -   Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R.,
     Makeig, S. [Matlab Tools for BCI
 Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors
     : Tan, D. and Nijholt, A.. Springer Publishing, 2010.
 
-<!-- -->
+
 
 -   Delorme, A., Mullen, T., Kothe, C., Bigdely-Shamlo, N., Akalin, Z.,
     Vankov, A., Makeig, S. [EEGLAB, MPT, NetSIFT, NFT, BCILAB, and
@@ -311,13 +311,13 @@ Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In    
     processing](http://sccn.ucsd.edu/~scott/pdf/Delorme_EEGTools11.pdf).
     Computational Neuroscience, 2011.
 
-<!-- -->
+
 
 -   Delorme A, Palmer J, Onton J, Oostenveld R, S Makeig,
     \[<http://>????? Independent EEG sources are dipolar.\] PLoS One
     i7(2):e30135, 2012.
 
-<!-- -->
+
 
 -   Makeig, S., Kothe, C., Mullen, T., Bigdely-Shamlo, N., Zhang, Z.,
     Kreutz-Delgado, K. \[<http://>???? Evolving signal processing for
