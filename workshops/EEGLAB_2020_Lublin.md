@@ -24,7 +24,7 @@ two weeks. If you do not receive your payment by that time, please let
 us know.
 
 We sincerely wish you the best health and hope to meet all of you in
-Lublin.</b>.
+Lublin.</b>
 
 The 31st EEGLAB Workshop will take place at [the John Paul II Catholic
 University of Lublin](https://www.kul.pl/kul,21.html) in
@@ -90,8 +90,8 @@ Accommodation and travel
 
 Participants may fly directly to [Lublin
 Airport](https://www.airport.lublin.pl/en/) or may fly to [Warsaw Chopin
-Airport](https://www.lotnisko-chopina.pl/en/index.html) and take the
-[train](https://www.pkp.pl/en/)/[bus](https://global.flixbus.com/) from
+Airport](https://www.lotnisko-chopina.pl/en/index.html) and take the [train](https://www.pkp.pl/en/)
+or [bus](https://global.flixbus.com/) from
 Warsaw to Lublin ([travel
 information](http://eeglab2020lublin.com/venue/)).
 
@@ -121,33 +121,33 @@ the text (or copy it) to the main Matlab window:
 
 
 
-Mathematics - Basic Matrix Operations
+- Mathematics - Basic Matrix Operations
 
-Mathematics - Matrix manipulations
+- Mathematics - Matrix manipulations
 
-Graphics - 2-D Plots
+- Graphics - 2-D Plots
 
-Programming - Manipulating Multidimentional arrays
+- Programming - Manipulating Multidimentional arrays
 
-Programming - Structures
+- Programming - Structures
 
 In the Help Content, read and practice at least the following sections:
 
 
 
-Getting Started - Matrices and Arrays - Matrices and Magic squares
+- Getting Started - Matrices and Arrays - Matrices and Magic squares
 
-Getting Started - Matrices and Arrays - Expressions
+- Getting Started - Matrices and Arrays - Expressions
 
-Getting Started - Matrices and Arrays - Working with Matrices
+- Getting Started - Matrices and Arrays - Working with Matrices
 
-Getting Started - Graphics - Basic plotting functions
+- Getting Started - Graphics - Basic plotting functions
 
-Getting Started - Programming - Flow Control
+- Getting Started - Programming - Flow Control
 
-Getting Started - Programming - Other data structures
+- Getting Started - Programming - Other data structures
 
-Getting Started - Programming - Scripts and Functions
+- Getting Started - Programming - Scripts and Functions
 
 Each section or demo (if read thoroughly) should take you about 10
 minutes, for a total here of about 2 hours. If you do not use Matlab
