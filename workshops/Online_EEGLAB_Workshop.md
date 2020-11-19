@@ -192,7 +192,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 
 #### Computing across subjects and conditions
 
-![thumb\|right\|upright=0.7\|MoBI Lab]({{ site.baseurl }}/assets/images/Mobiposter.jpg)
+![thumb\|right\|upright=0.7\|MoBI Lab]({{ site.baseurl }}/assets/images/MoBIPoster.jpg)
 
 -   [Resampling-based statistics and correcting for multiple comparisons
     (David
@@ -287,47 +287,42 @@ memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). Neu
 
 -   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of
     artifacts from EEG data using high-order statistics and independent
-    component
-analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).    Neuroimage 34:1443-1449, 2007.
+    component analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).    Neuroimage 34:1443-1449, 2007.
 
 
 
--   Akalin Acar, Z., Makeig S, \[<http://>???? Neuroelectromagnetic
-    forward head modeling toolbox\], J Neuroscience Methods,
+-   Akalin Acar, Z., Makeig S, [Neuroelectromagnetic
+    forward head modeling toolbox](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_nft_practicum.pdf), J Neuroscience Methods,
     190(2):258-70, 2010.
-
-
-
--   Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R.,
-    Makeig, S. [Matlab Tools for BCI
-Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors
-    : Tan, D. and Nijholt, A.. Springer Publishing, 2010.
+    
+- Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R.,
+    Makeig, S. [Matlab Tools for BCI Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors
+    : Tan, D. and Nijholt, A., Springer Publishing, 2010.
 
 
 
 -   Delorme, A., Mullen, T., Kothe, C., Bigdely-Shamlo, N., Akalin, Z.,
     Vankov, A., Makeig, S. [EEGLAB, MPT, NetSIFT, NFT, BCILAB, and
-    ERICA: New tools for advanced EEG/MEG
-    processing](http://sccn.ucsd.edu/~scott/pdf/Delorme_EEGTools11.pdf).
+    ERICA: New tools for advanced EEG/MEG processing](http://sccn.ucsd.edu/~scott/pdf/Delorme_EEGTools11.pdf).
     Computational Neuroscience, 2011.
 
 
 
 -   Delorme A, Palmer J, Onton J, Oostenveld R, S Makeig,
-    \[<http://>????? Independent EEG sources are dipolar.\] PLoS One
-    i7(2):e30135, 2012.
+    [Independent EEG sources are dipolar](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030135) 
+    PLoS One i7(2):e30135, 2012.
 
 
 
 -   Makeig, S., Kothe, C., Mullen, T., Bigdely-Shamlo, N., Zhang, Z.,
-    Kreutz-Delgado, K. \[<http://>???? Evolving signal processing for
-    brain-computer interfaces\], Proceedings IEEE 100:1567-1584, 2012.
+    Kreutz-Delgado, K. [Evolving signal processing for
+    brain-computer interfaces]( https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6169943), Proceedings IEEE 100:1567-1584, 2012.
 
-<!-- -->
+
 
 -   Bigdely-Shamlo, N., Mullen, T., Kreutz-Delgado, K., Makeig, S.,
-    \[<http://>??????? Measure projection analysis: A probabilistic
-    approach to EEG source comparison and multi-subject inference.\]
+    [Measure projection analysis: A probabilistic approach to EEG source 
+    comparison and multi-subject inference.]()
     NeuroImage 15:287-303, 2013.
 
 <!-- -->
