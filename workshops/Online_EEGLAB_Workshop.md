@@ -241,8 +241,8 @@ building macro commands and performing custom and automated processing
 requires the ability to manipulate EEGLAB data structures in Matlab.
 Because of time constraints, we will NOT provide an introduction to the
 Matlab language. Instead users need to familiarize themselves with
-Matlab prior to the workshop. New users of Matlab: We recommend running
-the following demos and reading the following help sections.
+Matlab prior to the workshop. New users of Matlab: we recommend running
+the following demos and reading the following help sections:
 
 In the Matlab help, you should perform the first 3 tutorials (Matlab 2018)
 
@@ -253,7 +253,23 @@ In the Matlab help, you should perform the first 3 tutorials (Matlab 2018)
 
 Each section or demo (if read thoroughly) should take you about 40
 minutes, for a total here of about 2 hours. We encourage you to read
-these sections over several days. **IMPORTANT NOTE:** The practical
+these sections over several days.
+
+Alternatively, Matlab also proposes self-paced online courses and we advise that
+ you complete the "Matlab Onramp", a 1-2hour interactive introduction to the
+  basics of Matlab programming. 
+  
+  Acessing Matlab Onramp:
+  
+- from within Matlab by selecting the "Learn Matlab" menu 
+   
+- or follow [this link](https://matlabacademy.mathworks.com/)
+
+Note that you will be asked to log in into your MathWorks account, which can
+ be created for free [here](https://www.mathworks.com/mwaccount/register).
+ 
+
+**IMPORTANT NOTE:** The practical
 portions of the workshop are largely dedicated to writing EEGLAB Matlab
 scripts, so if you are not yet able to understand Matlab syntax, you
 will not be able to make good use of these sections.
@@ -318,51 +334,37 @@ memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). Neu
 
 -   Bigdely-Shamlo, N., Mullen, T., Kreutz-Delgado, K., Makeig, S.,
     [Measure projection analysis: A probabilistic approach to EEG source 
-    comparison and multi-subject inference.]()
-    NeuroImage 15:287-303, 2013.
+    comparison and multi-subject inference.](https://www.sciencedirect.com/science/article/pii/S1053811913000876?casa_token=OxewuNoFDooAAAAA:BwhjZBGoXX6mj-wslRhP81Hlj7dz4buLRwuyMpMrSVgcXHDTtK33C66YER8HsoP_xEc1bAKY),
+     NeuroImage 15:287-303, 2013.
 
-<!-- -->
 
--   Makeig, S., Gramann, K., Jung, T-P., Sejnowski, T.J., and
-    Poizner, H. \[<http://>???? Linking brain, mind and behavior\]. Int
-    J Psychophysiology 73:985-100, 2009.
 
-<!-- -->
 
--   Kothe, C. A., Makeig, S., \[<http://>???? BCILAB: A platform for
-    brain-computer interface development.\] J Neural Engineering
+-   Kothe, C. A., Makeig, S., [BCILAB: A platform for
+    brain-computer interface development](https://iopscience.iop.org/article/10.1088/1741-2560/10/5/056014/pdf?casa_token=1BlHq9OFZQoAAAAA:1Iek5SGPVnBXj4sbo9R4_bft8mWHur8qIOLA2fRK5f4ko_kYpeoLiJpB6DEVCFx4DQRXHj1M) J Neural Engineering
     10(5):056014, 2013.
 
-<!-- -->
 
--   Ojeda, A., Bigdely-Shamlo, N., Makeig, S. \[<http://>???? MoBILAB:
-    An open source toolbox for analysis and visualization of mobile
-    brain/body imaging data.\] Frontiers Hum Neurosci 5;8:121 2014.
 
-<!-- -->
+-   Ojeda, A., Bigdely-Shamlo, N., Makeig, S. [MoBILAB: An open source toolbox for analysis and visualization of mobile
+    brain/body imaging data.](https://www.frontiersin.org/articles/10.3389/fnhum.2014.00121/full) Frontiers Hum Neurosci 5;8:121 2014.
+
+
 
 -   Artoni, F., Menicucci, D., Delorme, A., Makeig, S., Micera, S.
-    \[<http://>????? RELICA: A method for estimating the reliability of
-    independent components.\] NeuroImage 103:391-400, 2014.
+    [ RELICA: A method for estimating the reliability of
+    independent components.](https://www.sciencedirect.com/science/article/abs/pii/S1053811914007526) NeuroImage 103:391-400, 2014.
 
-<!-- -->
 
--   Artoni F, Delorme A, Makeig S. \[<http://>???? Applying dimension
-    reduction to EEG data by principal component analysis reduces the
-    quality of its subsequent independent component decomposition.\]
-    NeuroImage 175:176-187. PMID: 29526744, 2018.
+-   Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. [ICLabel: An automated
+ electroencephalographic independent component
+    classifier, dataset, and website.](https://pubmed.ncbi.nlm.nih.gov/31103785/) NeuroImage 198:181-197, 2019.
 
-<!-- -->
 
--   Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. \[<http://>????
-    ICLabel: An automated electroencephalographic independent component
-    classifier, dataset, and website.\] NeuroImage 198:181-197, 2019.
-
-<!-- -->
 
 -   Martinez-Cancino, R., Heng, J., Delorme, A., Kreutz-Delgado, K.,
-    Sotero, R.C. Makeig, S. \[<http://>???? Measuring transient
-    phase-amplitude coupling using local mutual information.\]
+    Sotero, R.C. Makeig, S. [Measuring transient
+    phase-amplitude coupling using local mutual information.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342492/)
     NeuroImage, 2019.
 
 <font color="darkred">Material to download</font>
@@ -379,9 +381,9 @@ sure you have a fast and reliable Internet connection before attempting
 this download. [--The STUDY matlab
 script--](https://sccn.ucsd.edu/githubwiki/files/build_stern.m.zip)
 [EEGLAB STUDY with 5 subjects (1.8
-GB)](ftp://sccn.ucsd.edu/pub/STUDY5subjects.zip) Optional download for
+GB)](ftp://sccn.ucsd.edu/pub/STUDY5subjects.zip) Optional download fo:wr
 more STUDY exploration. [NFT Sample Data (260
 MB)](http://sccn.ucsd.edu/nft/Downloads/NFT_Sample_Data.zip) MR volume
 and EEG data for NFT tutorial.
 
-[Category:Workshops](/Category:Workshops "wikilink")
+
