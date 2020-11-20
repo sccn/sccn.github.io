@@ -16,11 +16,13 @@ plus more recently recorded talks and Youtube tutorials. Note that the
 wiki page for each EEGLAB workshop also contain the slides of the
 presentations.
 
-<font color=darkred>Tutorial Videos on <em>Youtube.com</em></font>
-------------------------------------------------------------------
+## <font color=darkred> List of Youtube Tutorial Videos </font>
 
-![thumb\|right\|upright=1.4\|EEGLAB 
-Workshops]({{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg)
+
+<img style="float:right" width="300" height="300" src="{{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg">
+&nbsp;
+&nbsp;
+&nbsp;
 
 #### EEGLAB introduction (2019, Delorme)
 
@@ -36,7 +38,12 @@ Workshops]({{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg)
 -   [Part 6: Multi subject analysis and
     scripting](https://www.youtube.com/watch?v=kofJh7biGsE)
 
-![thumb\|right\|upright=0.6\|Brain IC]({{ site.baseurl }}/assets/images/BrainIC.jpg)
+
+<img align="right" width="250" height="300" src="{{ site.baseurl }}/assets/images/BrainIC.jpg">
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 #### Preprocessing data in EEGLAB (2018, Delorme)
 
@@ -54,7 +61,14 @@ Workshops]({{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg)
 -   [Part 7: Removing bad data
     segments](https://www.youtube.com/watch?v=ZvbRiX84mgc)
 
-![thumb\|right\|upright=0.6\|Dipplot]({{ site.baseurl }}/assets/images/Dipfit.jpg)
+
+
+<img align="right" width="200" height="300" src="{{ site.baseurl }}/assets/images/Dipfit.jpg">
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 
 #### Independent component analysis (2020, Delorme)
 
@@ -98,8 +112,7 @@ Workshops]({{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg)
     eLoreta](/A08:_DIPFIT#DIPFIT_eLoreta "wikilink") through its DIPFIT
     plug-in.
 
-<font color=darkred>EEGLAB 2016 workshop at UCSD</font>
--------------------------------------------------------
+## <font color=darkred>EEGLAB 2016 workshop at UCSD</font>
 
 Videos of the workshop talks are available for streaming through the
 links below. The talk videos are more recent than those from the 2010
@@ -133,8 +146,7 @@ worthwhile to compare the 2010 and 2016 versions.
 -   [SIFT Intro: Building and Visualizing Source Connectivity by Tim
     Mullen](https://www.youtube.com/watch?v=6_WW6EMHmWo)
 
-<font color=darkred>EEGLAB 2010 workshop at UCSD</font>
--------------------------------------------------------
+## <font color=darkred>EEGLAB 2010 workshop at UCSD</font>
 
 Videos of the workshop talks are available for streaming through the
 links below. The video web pages will also contain relevant questions
@@ -185,20 +197,21 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 -   [Forward and inverse source modeling (Zeynep Akalin
     Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inverse_source_modeling.html)
 
-<!-- -->
+
 
 -   [Using the DIPFIT toolbox (Julie Onton) - no
     video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_dipfit.html)
 
+
+
+
 #### Computing across subjects and conditions
 
-![thumb\|right\|upright=0.7\|MoBI Lab]({{ site.baseurl }}/assets/images/MoBIPoster.jpg)
 
--   [Resampling-based statistics and correcting for multiple comparisons
-    (David
-    Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)
 
-<!-- -->
+- [Resampling-based statistics and correcting for multiple comparisons
+    (David Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)
+
 
 -   [STUDY component clustering (Arnaud
     Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)
@@ -207,6 +220,8 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
     video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_design.html)
 -   [Advanced uses of 'STUDY.design' statistics (Arnaud Delorme) - no
     video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_advanced_study_design.html)
+
+<img inline="right" width="200" height="300" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg">
 
 #### Extending EEGLAB with Plug-ins
 
@@ -232,8 +247,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
     Mobilab toolbox (Scott
     Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)
 
-<font color=darkred>Matlab and matrix operations tutorials</font>
------------------------------------------------------------------
+## <font color=darkred>Matlab and matrix operations tutorials</font>
 
 The EEGLAB graphic interface is built on top of the powerful Matlab
 scripting language. Enjoying the full capabilities of EEGLAB for
@@ -274,8 +288,7 @@ portions of the workshop are largely dedicated to writing EEGLAB Matlab
 scripts, so if you are not yet able to understand Matlab syntax, you
 will not be able to make good use of these sections.
 
-<font color=darkred>Relevant publications demonstrating EEGLAB capabilities</font>
-----------------------------------------------------------------------------------
+## <font color=darkred>Relevant publications demonstrating EEGLAB capabilities</font>
 
 -   Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis
     of single-trial EEG dynamics including independent component
@@ -284,8 +297,8 @@ analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neuros
 
 
 -   Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining
-    event-related brain
-dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). Trends Cogn    Sci 8:204-10, 2004.
+    event-related brain dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). Trends Cogn Sci 8
+    :204-10, 2004.
 
 
 
@@ -296,52 +309,48 @@ event-related potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf)
 
 
 -   Onton J., Delorme, A., Makeig, S. [Frontal midline EEG dynamics
-    during working
-memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). NeuroImage    27:341-356, 2005.
+    during working memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). NeuroImage    27:341
+    -356, 2005.
 
 
 
--   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of
-    artifacts from EEG data using high-order statistics and independent
-    component analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).    Neuroimage 34:1443-1449, 2007.
+-   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts from EEG data using high-order statistics
+ and independent component analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf
+ ).    Neuroimage 34:1443-1449, 2007.
 
 
 
--   Akalin Acar, Z., Makeig S, [Neuroelectromagnetic
-    forward head modeling toolbox](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_nft_practicum.pdf), J Neuroscience Methods,
+-   Akalin Acar, Z., Makeig S, [Neuroelectromagnetic forward head modeling toolbox](https://sccn.ucsd.edu/githubwiki
+/files/akalin_acar_nft_practicum.pdf), J Neuroscience Methods,
     190(2):258-70, 2010.
     
 - Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R., Makeig, S. [Matlab Tools for BCI Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors: Tan, D. and Nijholt, A., Springer Publishing, 2010.
 
--   Delorme, A., Mullen, T., Kothe, C., Bigdely-Shamlo, N., Akalin, Z.,
-    Vankov, A., Makeig, S. [EEGLAB, MPT, NetSIFT, NFT, BCILAB, and
+-   Delorme, A., Mullen, T., Kothe, C., Bigdely-Shamlo, N., Akalin, Z.,Vankov, A., Makeig, S. [EEGLAB, MPT, NetSIFT, NFT, BCILAB, and
     ERICA: New tools for advanced EEG/MEG processing](http://sccn.ucsd.edu/~scott/pdf/Delorme_EEGTools11.pdf).
     Computational Neuroscience, 2011.
 
 
 
--   Delorme A, Palmer J, Onton J, Oostenveld R, S Makeig,
-    [Independent EEG sources are dipolar](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030135) 
+-   Delorme A, Palmer J, Onton J, Oostenveld R, S Makeig,[Independent EEG sources are dipolar](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030135) 
     PLoS One i7(2):e30135, 2012.
 
 
 
--   Makeig, S., Kothe, C., Mullen, T., Bigdely-Shamlo, N., Zhang, Z.,
-    Kreutz-Delgado, K. [Evolving signal processing for
+-   Makeig, S., Kothe, C., Mullen, T., Bigdely-Shamlo, N., Zhang, Z., Kreutz-Delgado, K. [Evolving signal processing for
     brain-computer interfaces]( https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6169943), Proceedings IEEE 100:1567-1584, 2012.
 
 
 
--   Bigdely-Shamlo, N., Mullen, T., Kreutz-Delgado, K., Makeig, S.,
-    [Measure projection analysis: A probabilistic approach to EEG source 
-    comparison and multi-subject inference.](https://www.sciencedirect.com/science/article/pii/S1053811913000876?casa_token=OxewuNoFDooAAAAA:BwhjZBGoXX6mj-wslRhP81Hlj7dz4buLRwuyMpMrSVgcXHDTtK33C66YER8HsoP_xEc1bAKY),
+-   Bigdely-Shamlo, N., Mullen, T., Kreutz-Delgado, K., Makeig, S., [Measure projection analysis: A probabilistic
+ approach to EEG source comparison and multi-subject inference.](https://www.sciencedirect.com/science/article/pii/S1053811913000876?casa_token=OxewuNoFDooAAAAA:BwhjZBGoXX6mj-wslRhP81Hlj7dz4buLRwuyMpMrSVgcXHDTtK33C66YER8HsoP_xEc1bAKY),
      NeuroImage 15:287-303, 2013.
 
 
 
 
--   Kothe, C. A., Makeig, S., [BCILAB: A platform for
-    brain-computer interface development](https://iopscience.iop.org/article/10.1088/1741-2560/10/5/056014/pdf?casa_token=1BlHq9OFZQoAAAAA:1Iek5SGPVnBXj4sbo9R4_bft8mWHur8qIOLA2fRK5f4ko_kYpeoLiJpB6DEVCFx4DQRXHj1M) J Neural Engineering
+-   Kothe, C. A., Makeig, S., [BCILAB: A platform for brain-computer interface development](https://iopscience.iop
+.org/article/10.1088/1741-2560/10/5/056014/pdf?casa_token=1BlHq9OFZQoAAAAA:1Iek5SGPVnBXj4sbo9R4_bft8mWHur8qIOLA2fRK5f4ko_kYpeoLiJpB6DEVCFx4DQRXHj1M) J Neural Engineering
     10(5):056014, 2013.
 
 
@@ -352,23 +361,20 @@ memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). Neu
 
 
 -   Artoni, F., Menicucci, D., Delorme, A., Makeig, S., Micera, S.
-    [ RELICA: A method for estimating the reliability of
-    independent components.](https://www.sciencedirect.com/science/article/abs/pii/S1053811914007526) NeuroImage 103:391-400, 2014.
+    [ RELICA: A method for estimating the reliability of independent components.](https://www.sciencedirect.com
+    /science/article/abs/pii/S1053811914007526) NeuroImage 103:391-400, 2014.
 
 
--   Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. [ICLabel: An automated
- electroencephalographic independent component
-    classifier, dataset, and website.](https://pubmed.ncbi.nlm.nih.gov/31103785/) NeuroImage 198:181-197, 2019.
+-   Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. [ICLabel: An automated electroencephalographic independent
+ component classifier, dataset, and website.](https://pubmed.ncbi.nlm.nih.gov/31103785/) NeuroImage 198:181-197, 2019.
 
 
 
 -   Martinez-Cancino, R., Heng, J., Delorme, A., Kreutz-Delgado, K.,
-    Sotero, R.C. Makeig, S. [Measuring transient
-    phase-amplitude coupling using local mutual information.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342492/)
+    Sotero, R.C. Makeig, S. [Measuring transient phase-amplitude coupling using local mutual information.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342492/)
     NeuroImage, 2019.
 
-<font color="darkred">Material to download</font>
--------------------------------------------------
+## <font color="darkred">Material to download</font>
 
 To access the talk slides and videos, use the links in the Program
 listing above. You may also download and uncompress the anonymized data
