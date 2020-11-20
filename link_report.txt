@@ -1,6 +1,5 @@
-LIST OF BROKEN LINKS FOR EACH PAGE (Format: <link text>: partial url)
+BROKEN LINKS
 404.html
-images.html
 Broken page: images.html
 index.html
 	-right|400px: /Image:Eeglab_small.jpg
@@ -172,9 +171,7 @@ tutorials/single-subject.html
 	-Chapter 11: Time/Frequency decomposition: /Chapter_11:_Time/Frequency_decomposition
 	-Chapter 12: Multiple Datasets: /Chapter_12:_Multiple_Datasets
 	-Category:EEGLAB: /Category:EEGLAB
-workshops/EEGLAB09ASPET.html
 Broken page: workshops/EEGLAB09ASPET.html
-workshops/EEGLAB09EPIC.html
 Broken page: workshops/EEGLAB09EPIC.html
 workshops/EEGLAB_2009_Aspet.html
 	-these instructions: /EEGLAB/I.Analyzing_Data_in_EEGLAB#Installing_EEGLAB_and_tutorial_files
@@ -229,7 +226,6 @@ workshops/EEGLAB_2015_Sheffield.html
 workshops/EEGLAB_2016_SML.html
 	-EEGLAB tutorial wiki: /EEGLAB
 	-Category:Workshops: /Category:Workshops
-workshops/EEGLAB_2016_Santa_Margherita_Ligure.html
 Broken page: workshops/EEGLAB_2016_Santa_Margherita_Ligure.html
 workshops/EEGLAB_2016_at_UCSD.html
 	-the hotel list below: /EEGLAB_2013_UCSD#Accommodation
@@ -255,13 +251,10 @@ workshops/EEGLAB_2020_Lublin.html
 	-EEGLAB tutorial wiki: /EEGLAB
 workshops/Future_workshops.html
 	-at the Catholic University Lublin in Lublin: /EEGLAB_2020_Lublin
-workshops/Ninth_EEGLAB_Workshop.html
 Broken page: workshops/Ninth_EEGLAB_Workshop.html
 workshops/Online_EEGLAB_Workshop.html
 	-native support for eLoreta: /A08:_DIPFIT#DIPFIT_eLoreta
-workshops/Tenth_EEGLAB_Workshop.html
 Broken page: workshops/Tenth_EEGLAB_Workshop.html
-workshops/Twelfth_EEGLAB_Workshop.html
 Broken page: workshops/Twelfth_EEGLAB_Workshop.html
 workshops/index.html
 	-Twenty-first EEGLAB Workshop: /workshops/EEGLAB_2016_Santa_Margherita_Ligure
