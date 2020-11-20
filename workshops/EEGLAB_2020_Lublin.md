@@ -98,59 +98,49 @@ information](http://eeglab2020lublin.com/venue/)).
 We do not provide accommodation booking services for participants, but
 we do offer a discount code for the [Hotel Mercure Lublin
 Centrum](https://pl.tripadvisor.com/Hotel_Review-g274818-d279966-Reviews-Hotel_Mercure_Lublin_Centrum-Lublin_Lublin_Province_Eastern_Poland.html)
-<font color=red>([discount
-information](https://1drv.ms/b/s!AgyB0jRXUmrg7GrkUXA_1VfR4igm))</font>.
+
+**Discount information**: [here](https://1drv.ms/b/s!AgyB0jRXUmrg7GrkUXA_1VfR4igm)
+
 
 Relevant reading material
 -------------------------
 
-The EEGLAB graphic interface is built using the powerful Matlab
+The EEGLAB graphic interface is built on top of the powerful Matlab
 scripting language. Enjoying the full capabilities of EEGLAB for
 building macro commands and performing custom and automated processing
-requires basic knowledge of how to manipulate EEGLAB data structures in
-Matlab. Because of time constraints, we will NOT provide an introduction
-to Matlab scripting. Instead, attendees must familiarize themselves with
-Matlab <b>before</b> coming to the workshop.
+requires the ability to manipulate EEGLAB data structures in Matlab.
+Because of time constraints, we will NOT provide an introduction to the
+Matlab language. Instead users need to familiarize themselves with
+Matlab prior to the workshop. 
+New users of Matlab: we recommend running
+the following demos and reading the following help sections:
 
-New users of Matlab: We recommend running the following demos and
-reading these help sections:
+In the Matlab help, you should perform the first 3 tutorials (Matlab 2018)
 
-After opening the Matlab desktop, select menu item "Help Demos" and run
-the following demos. Note that while a demo is running, you can retype
-the text (or copy it) to the main Matlab window:
+-   Getting Started with MATLAB
+-   Language Fundamentals
+-   Mathematics
+-   Graphics (first section 2-D plot only)
 
+Each section or demo (if read thoroughly) should take you about 40
+minutes, for a total here of about 2 hours. We encourage you to read
+these sections over several days.
 
+Alternatively, Matlab also proposes self-paced online courses and we advise that
+ you complete the "Matlab Onramp", a 1-2hour interactive introduction to the
+  basics of Matlab programming. 
+  
+  Accessing Matlab Onramp:
+  
+- from within Matlab by selecting the "Learn Matlab" menu 
+   
+- or follow [this link](https://matlabacademy.mathworks.com/)
 
-- Mathematics - Basic Matrix Operations
+Note that you will be asked to log in into your MathWorks account, which can
+ be created for free [here](https://www.mathworks.com/mwaccount/register).
+ 
 
-- Mathematics - Matrix manipulations
-
-- Graphics - 2-D Plots
-
-- Programming - Manipulating Multidimentional arrays
-
-- Programming - Structures
-
-In the Help Content, read and practice at least the following sections:
-
-
-
-- Getting Started - Matrices and Arrays - Matrices and Magic squares
-
-- Getting Started - Matrices and Arrays - Expressions
-
-- Getting Started - Matrices and Arrays - Working with Matrices
-
-- Getting Started - Graphics - Basic plotting functions
-
-- Getting Started - Programming - Flow Control
-
-- Getting Started - Programming - Other data structures
-
-- Getting Started - Programming - Scripts and Functions
-
-Each section or demo (if read thoroughly) should take you about 10
-minutes, for a total here of about 2 hours. If you do not use Matlab
+If you do not use Matlab
 regularly, we encourage you to watch these demos, read these sections,
 and practice using the skills they introduce over several days.
 
@@ -225,38 +215,38 @@ Workshop Program (with corresponding PDFs)
 **Overview and ICA Theory/Practice**
 
 
-<font color = purple>9:00 – 10:15 -- Mining event-related brain dynamics
+- <font color = purple>9:00 – 10:15 -- Mining event-related brain dynamics
 I (Scott Makeig)</font>
 
-<font color = purple>10:15 – 10:45 -- EEGLAB overview (Arnaud
+
+- <font color = purple>10:15 – 10:45 -- EEGLAB overview (Arnaud
 Delorme)</font>
 
 
-<font color = green>-- Break--</font>
+- <font color = green> Break </font>
 
-<font color = purple>11:00 – 11:45 -- ICA theory (Scott Makeig)</font>
+- <font color = purple>11:00 – 11:45 -- ICA theory (Scott Makeig)</font>
 
-<font color = orange>11:45 – 13:00 -- Data import, Artifact rejection
+- <font color = orange>11:45 – 13:00 -- Data import, Artifact rejection
 (TBD)</font>
 
-<font color = green>13:00-14:15 -- Lunch</font>
+- <font color = green>13:00-14:15 -- Lunch</font>
 
 **ICA and time-frequency**
 
-
-<font color = orange>14:15 – 15:15 -- ICA decomposition practicum
+- <font color = orange>14:15 – 15:15 -- ICA decomposition practicum
 (TBD)</font>
 
-<font color = orange>15:15 – 15:45 -- Bootstrapping ICA and using PCA
+- <font color = orange>15:15 – 15:45 -- Bootstrapping ICA and using PCA
 before ICA (TBD)</font>
 
 
-<font color = green>-- Break--</font>
+- <font color = green> Break </font>
 
-<font color = purple>16:00 – 17:00 -- Time-frequency decompositions:
+- <font color = purple>16:00 – 17:00 -- Time-frequency decompositions:
 Theory and practice (TBD)</font>
 
-<font color = purple>17:00 – 17:30 -- Phase amplitude coupling
+- <font color = purple>17:00 – 17:30 -- Phase amplitude coupling
 (TBD)</font>
 
 <u><font color=blue>Wednesday, June 17th</font></u>
@@ -265,54 +255,50 @@ Theory and practice (TBD)</font>
 **Group analysis and ICA clustering in EEGLAB**
 
 
-<font color = purple>9:00 - 9:45 -- Why cluster ICA components? (Scott
+- <font color = purple>9:00 - 9:45 -- Why cluster ICA components? (Scott
 Makeig)</font>
 
-<font color = purple>9:45 - 10:45 -- Bootstrap and correction for
+- <font color = purple>9:45 - 10:45 -- Bootstrap and correction for
 multiple comparisons (TBD)</font>
 
 
-<font color = green>-- Break--</font>
+- <font color = green> Break </font>
 
-<font color = purple>11:00 - 11:45 -- Creating a STUDY and STUDY
+- <font color = purple>11:00 - 11:45 -- Creating a STUDY and STUDY
 design - plotting and computing statistics in channels (Arnaud
 Delorme)</font>
 
-<font color = purple>11:45 - 13:00 -- ICA component clustering and
+- <font color = purple>11:45 - 13:00 -- ICA component clustering and
 plotting (Arnaud Delorme)</font>
 
-<!-- -->
 
 
-<font color = green>13:00-14:15 -- Lunch</font>
+- <font color = green>13:00-14:15 -- Lunch</font>
 
-<!-- -->
 
 
 **Source information flow**
 
 
-<font color=purple>14:15 – 15:45 -- Source information flow and
+- <font color=purple>14:15 – 15:45 -- Source information flow and
 Granger-Causal modeling tools (TBD)</font>
 
 
-<font color = green>-- Break--</font>
+- <font color = green>Break</font>
 
-<font color=orange>16:00 – 17:30 -- SIFT toolbox: practicum (TBD)</font>
+- <font color=orange>16:00 – 17:30 -- SIFT toolbox: practicum (TBD)</font>
 
-<!-- -->
 
 
 **Participant poster session**
 
 
-<font color=black>17:30 – 19:30 -- Participants bring their poster to
+- <font color=black>17:30 – 19:30 -- Participants bring their poster to
 discuss
 
-<!-- -->
 
 
-<font color = green>19:45 -- banquet in Hotel Mercure Lublin Centrum
+- <font color = green>19:45 -- banquet in Hotel Mercure Lublin Centrum
 (included in registration)</font>
 
 <u><font color=blue>Thursday, June 18th</font></u>
@@ -321,61 +307,45 @@ discuss
 **Source Localization**
 
 
-<font color = purple>9:00 – 10:00 -- Forward and inverse models - the
+- <font color = purple>9:00 – 10:00 -- Forward and inverse models - the
 Dipfit tools (Scott Makeig)</font>
 
-<font color = purple>10:00 – 10:45 -- Using the Dipfit plugin of EEGLAB
+- <font color = purple>10:00 – 10:45 -- Using the Dipfit plugin of EEGLAB
 (Arnaud Delorme)</font>
 
-<!-- -->
+
+- <font color = green> Break </font>
 
 
 
-<font color = green>-- Break--</font>
-
-<!-- -->
 
 
-
-<font color = green>11:00 - 15:30 -- group excursion with lunch in [The
+- <font color = green>11:00 - 15:30 -- group excursion with lunch in [The
 Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</font>
 
-<!-- -->
+
 
 
 **General Linear Modeling**
 
 
-<font color = orange>15:30 – 17:30 -- Theory and practice of applying
+- <font color = orange>15:30 – 17:30 -- Theory and practice of applying
 general linear models to EEG data using the LIMO EEGLAB plug-in
 (TBD)</font>
 
 <u><font color=blue>Friday, June 19th</font></u>
 
 
-
-<font color=purple>9:00 – 10:45 -- Mining event-related brain dynamics
+- <font color=purple>9:00 – 10:45 -- Mining event-related brain dynamics
 II (Scott Makeig)</font>
 
-<!-- -->
+- <font color = green> Break </font>
 
-
-
-<font color = green>-- Break--</font>
-
-<!-- -->
-
-
-
-<font color=orange>11:00 – 12:30 -- Practicum, small group
+- <font color=orange>11:00 – 12:30 -- Practicum, small group
 projects</font>
 
-<font color=orange>12:30 – 13:00 -- Participant project presentations
+- <font color=orange>12:30 – 13:00 -- Participant project presentations
 and general discussion</font>
 
-<!-- -->
+- <font color=green>13:00 - 14:15 -- Lunch</font>
 
-
-<font color=green>13:00 - 14:15 -- Lunch</font>
-
-[Category:Workshops](/Category:Workshops "wikilink")
