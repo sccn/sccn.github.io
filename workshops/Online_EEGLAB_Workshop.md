@@ -273,7 +273,7 @@ Alternatively, Matlab also proposes self-paced online courses and we advise that
  you complete the "Matlab Onramp", a 1-2hour interactive introduction to the
   basics of Matlab programming. 
   
-  Acessing Matlab Onramp:
+  Accessing Matlab Onramp:
   
 - from within Matlab by selecting the "Learn Matlab" menu 
    
