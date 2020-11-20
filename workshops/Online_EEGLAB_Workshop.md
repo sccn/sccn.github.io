@@ -6,6 +6,8 @@ parent: Workshops
 ---
 [//]: # (TODO: check formatting, linebreak, urls with ???)
 
+
+
 ![thumb\|right\|upright=1.5\|EEGLAB menu (upper left) and data
 windows]({{ site.baseurl }}/assets/images/EEGLAB_small.jpg)
 
@@ -221,7 +223,8 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 -   [Advanced uses of 'STUDY.design' statistics (Arnaud Delorme) - no
     video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_advanced_study_design.html)
 
-<img inline="right" width="200" height="300" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg">
+
+<img style="float:right" width="200" height="300" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg">
 
 #### Extending EEGLAB with Plug-ins
 
@@ -231,17 +234,14 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
     Mullen)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_info_flow.html)
 -   [The NFT head modeling toolbox (Zeynep Akalin
     Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_nft.html)
-
-<!-- -->
-
 -   [The BCILAB toolbox for machine learning and EEG classification
     (Christian
     Kothe)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_bci.html).
+    
     See also [Ten lecture course on contemporary BCI
     design](http://sccn.ucsd.edu/wiki/Introduction_To_Modern_Brain-Computer_Interface_Design)
     by Christian Kothe.
 
-<!-- -->
 
 -   [Imaging human agency with Mobile brain/body imaging (MoBI) and the
     Mobilab toolbox (Scott

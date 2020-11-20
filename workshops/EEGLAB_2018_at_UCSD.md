@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EEGLAB 2018 at UCSD
+title: EEGLAB 2018 UCSD
 permalink: /workshops/EEGLAB_2018_at_UCSD.html
 parent: Workshops
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Ninth EEGLAB Workshop
-permalink: /workshops/Ninth_EEGLAB_Workshop.html
+title: EEGLAB 2009 Australia
+permalink: /workshops/EEGLAB_2009_Australia.html
 parent: Workshops
 ---
 

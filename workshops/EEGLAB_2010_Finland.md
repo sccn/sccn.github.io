@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Tenth EEGLAB Workshop
-permalink: /workshops/Tenth_EEGLAB_Workshop.html
+title: EEGLAB 2010 Finland
+permalink: /workshops/EEGLAB_2010_Finland.html
 parent: Workshops
 ---
 

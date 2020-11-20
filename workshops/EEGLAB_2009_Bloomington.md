@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Seventh EEGLAB Workshop
-permalink: /workshops/EEGLAB09EPIC.html
+title: EEGLAB 2009 Bloomington
+permalink: /workshops/EEGLAB_2009_Bloomington.html
 parent: Workshops
 ---
 

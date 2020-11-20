@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Twelfth EEGLAB Workshop
-permalink: /workshops/Twelfth_EEGLAB_Workshop.html
+title: EEGLAB 2010 San Diego
+permalink: /workshops/EEGLAB_2010_SanDiego.html
 parent: Workshops
 ---
 [//]: # (TODO: check formatting line breaks)

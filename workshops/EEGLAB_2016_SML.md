@@ -1,7 +1,7 @@
 ---
 layout: default
-title: EEGLAB 2016 Santa Margherita Ligure
-permalink: /workshops/EEGLAB_2016_Santa_Margherita_Ligure.html
+title: EEGLAB 2016 SML
+permalink: /workshops/EEGLAB_2016_SML.html
 parent: Workshops
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Eighth EEGLAB Workshop
-permalink: /workshops/EEGLAB09ASPET.html
+title: EEGLAB 2009 Aspet 
+permalink: /workshops/EEGLAB_2009_Aspet.html
 parent: Workshops
 ---
 
