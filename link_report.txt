@@ -171,73 +171,34 @@ tutorials/single-subject.html
 	-Chapter 11: Time/Frequency decomposition: /Chapter_11:_Time/Frequency_decomposition
 	-Chapter 12: Multiple Datasets: /Chapter_12:_Multiple_Datasets
 	-Category:EEGLAB: /Category:EEGLAB
-Broken page: workshops/EEGLAB09ASPET.html
-Broken page: workshops/EEGLAB09EPIC.html
+	
+	
+
+
 workshops/EEGLAB_2009_Aspet.html
-	-these instructions: /EEGLAB/I.Analyzing_Data_in_EEGLAB#Installing_EEGLAB_and_tutorial_files
 	-EEGLAB wiki: /EEGLAB
-workshops/EEGLAB_2009_Australia.html
-	-EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis: /Media:_EEGLAB_published.pdf
-	-Mining event-related brain dynamics: /Media:_TICSreview_published.pdf
-	-Information-based modeling of event-related brain dynamics: /Media:_Onton_PBR_published.pdf
-	-Analysis and visualizaion of single-trial event-related potentials: /Media:_Jung_HBM01.pdf
-	-Improved rejection of artifacts from EEG data using high-order statistics and independent component analysis: /Media:_neuroimage2007_reformated.pdf
-	-Comparing results of algorithms implementing blind source separation of EEG data: /Media:_delorme_unpub.pdf
-	-Frontal midline EEG dynamics during working memory: /Media:_Onton_FMtheta_published.pdf
-	-Tutorial scripts: /Media:Scripts.zip
-	-Tutorial slides: /Media:TutorialPDFs.zip
-	-ICA theory: /Media:EEGLAB_Workshop_ICA.pdf
-	-Time-frequency transforms: /Media:lecture_timefreq.pdf
-	-Bootstrap statistics: /Media:lecture_statistics.pdf
-	-Single-subject tutorial data sets (157 Mb): /Media:Data.zip
-workshops/EEGLAB_2009_Bloomington.html
-	-Group Research Questions (15 Mb): /Media:ProjectQuestions.doc
-	-Category:Workshops: /Category:Workshops
-workshops/EEGLAB_2010_Finland.html
-workshops/EEGLAB_2010_SanDiego.html
-	-Category:Workshops: /Category:Workshops
+
 workshops/EEGLAB_2011_Aspet.html
 	-EEGLAB wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
-workshops/EEGLAB_2011_Mallorca.html
-	-EEGLAB wiki: /EEGLAB
-	-Linear_Representations_and_Basis_Vectors: /Linear_Representations_and_Basis_Vectors
-	-Random_Variables_and_Probability_Density_Functions: /Random_Variables_and_Probability_Density_Functions
-	-Amica: /Amica
-	-Amica_Download: /Amica_Download
-	-Category:Workshops: /Category:Workshops
 workshops/EEGLAB_2012_Beijing.html
 	-EEGLAB wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
 workshops/EEGLAB_2013_Aspet.html
 	-EEGLAB tutorial wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
 workshops/EEGLAB_2013_UCSD.html
-	-below: /EEGLAB_2013_UCSD#Accommodation
 	-EEGLAB tutorial wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
 workshops/EEGLAB_2014_Rio.html
 	-EEGLAB tutorial wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
 workshops/EEGLAB_2015_Aspet.html
 workshops/EEGLAB_2015_Sheffield.html
 	-EEGLAB tutorial wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
 workshops/EEGLAB_2016_SML.html
 	-EEGLAB tutorial wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
-Broken page: workshops/EEGLAB_2016_Santa_Margherita_Ligure.html
-workshops/EEGLAB_2016_at_UCSD.html
-	-the hotel list below: /EEGLAB_2013_UCSD#Accommodation
-	-here: /media:map.png
 workshops/EEGLAB_2017_Aspet.html
 	-EEGLAB tutorial wiki: /EEGLAB
 workshops/EEGLAB_2017_Israel.html
 	-EEGLAB tutorial wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
 workshops/EEGLAB_2017_Japan.html
 	-EEGLAB tutorial wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
 workshops/EEGLAB_2017_Mysore.html
 	-EEGLAB tutorial wiki: /EEGLAB
 workshops/EEGLAB_2018_Pittsburgh.html
@@ -246,21 +207,29 @@ workshops/EEGLAB_2018_at_UCSD.html
 	-CSP: /media:CSP.png
 workshops/EEGLAB_2019_Aspet.html
 	-EEGLAB tutorial wiki: /EEGLAB
-	-Category:Workshops: /Category:Workshops
 workshops/EEGLAB_2020_Lublin.html
 	-EEGLAB tutorial wiki: /EEGLAB
-workshops/Future_workshops.html
-	-at the Catholic University Lublin in Lublin: /EEGLAB_2020_Lublin
-Broken page: workshops/Ninth_EEGLAB_Workshop.html
+
+Missing material
+------------------
 workshops/Online_EEGLAB_Workshop.html
 	-native support for eLoreta: /A08:_DIPFIT#DIPFIT_eLoreta
-Broken page: workshops/Tenth_EEGLAB_Workshop.html
-Broken page: workshops/Twelfth_EEGLAB_Workshop.html
 workshops/index.html
-	-Twenty-first EEGLAB Workshop: /workshops/EEGLAB_2016_Santa_Margherita_Ligure
-	-Twelfth EEGLAB Workshop: /workshops/Twelfth_EEGLAB_Workshop
 	-Eleventh EEGLAB Workshop: /workshops/Eleventh_EEGLAB_Workshop_Taiwan
-	-Tenth EEGLAB Workshop: /workshops/Tenth_EEGLAB_Workshop
-	-Ninth EEGLAB Workshop: /workshops/EEGLAB09AUS
-	-Eighth EEGLAB Workshop: /workshops/EEGLAB09ASPET
-	-Seventh EEGLAB Workshop: /workshops/EEGLAB09EPIC
+	
+To add once we have the location of tutorials:
+-----------------------------------------------
+
+workshops/EEGLAB_2011_Mallorca.html
+	-EEGLAB wiki: /EEGLAB
+	-Linear_Representations_and_Basis_Vectors: /Linear_Representations_and_Basis_Vectors
+	-Random_Variables_and_Probability_Density_Functions: /Random_Variables_and_Probability_Density_Functions
+	-Amica: /Amica
+	-Amica_Download: /Amica_Download
+
+
+workshops/EEGLAB_2009_Bloomington.html
+	-Group Research Questions (15 Mb): /Media:ProjectQuestions.doc
+
+workshops/EEGLAB_2009_Aspet.html
+	-these instructions: /EEGLAB/I.Analyzing_Data_in_EEGLAB#Installing_EEGLAB_and_tutorial_files	
