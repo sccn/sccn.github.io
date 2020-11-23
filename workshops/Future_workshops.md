@@ -35,5 +35,5 @@ Powerpoint material and names of possible nearby tutors.
 <hr>
 
 An [Online EEGLAB
-Workshop](http://sccn.ucsd.edu/wiki/Online_EEGLAB_Workshop) is also
+Workshop](/workshops/Online_EEGLAB_Workshop) is also
 currently available and will be enhanced.
