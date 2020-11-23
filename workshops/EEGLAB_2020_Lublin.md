@@ -12,19 +12,19 @@ Thirty-first EEGLAB Workshop
 
 <font color=blue>Lublin, Poland - HAS BEEN POSTPONED DUE TO COVID-19
 </font>
-<b>We have carefully considered all possible solutions and decided to
+<b> We have carefully considered all possible solutions and decided to
 postpone the workshop until 2021. Exact dates for the workshop are being
 identified and we will update information as soon as possible. We are
-sincerely sorry about the current situation. Thank you for your interest
-in our initiative and your patience at the registration stage. All
+sincerely sorry about the current situation.  
+Thank you for your interest in our initiative and your patience at the registration stage. All
 registered participants have a guaranteed spot at the workshop in 2021.
-We also give you a chance to update or completely re-do your submission.
+We also give you a chance to update or completely re-do your submission.  
 All received registration fees will be returned to your account within
 two weeks. If you do not receive your payment by that time, please let
-us know.
+us know. </b> 
 
-We sincerely wish you the best health and hope to meet all of you in
-Lublin.</b>
+<b>We sincerely wish you the best health and hope to meet all of you in
+Lublin. </b>
 
 The 31st EEGLAB Workshop will take place at [the John Paul II Catholic
 University of Lublin](https://www.kul.pl/kul,21.html) in
