@@ -437,4 +437,3 @@ Delorme and all)</font>
 
 <font color = green>18:30 workshop ends</font>
 
-[Category:Workshops](/Category:Workshops "wikilink")

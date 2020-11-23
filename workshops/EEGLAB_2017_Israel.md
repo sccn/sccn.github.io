@@ -344,5 +344,3 @@ and general discussion</font>
 
 
 <font color = green>-- Workshop ends--</font>
-
-[Category:Workshops](/Category:Workshops "wikilink")

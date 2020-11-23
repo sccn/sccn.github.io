@@ -70,8 +70,7 @@ This included
 -   Note that this is a non-profit event and none of the faculty are
     compensated
 
-Accommodation are to be paid separately. See the list of hotel
-[below](/EEGLAB_2013_UCSD#Accommodation "wikilink").
+Accommodation are to be paid separately. 
 
 <b> [Click HERE to register for the
 Workshop](http://www.eventbrite.com/event/6654940105).</b>
@@ -736,4 +735,3 @@ dynamics II (Scott Makeig) </font>
 
 
 
-[Category:Workshops](/Category:Workshops "wikilink")

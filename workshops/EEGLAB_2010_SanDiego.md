@@ -523,4 +523,3 @@ more STUDY exploration.
 MB)](http://sccn.ucsd.edu/nft/Downloads/NFT_Sample_Data.zip) MR volume
 and EEG data for NFT tutorial.
 
-[Category:Workshops](/Category:Workshops "wikilink")

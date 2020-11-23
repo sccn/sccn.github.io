@@ -29,9 +29,10 @@ Mb)](ftp://sccn.ucsd.edu/pub/eeglab6.1b.zip)
 [Tutorial scripts](https://sccn.ucsd.edu/githubwiki/files/practicum_scripts.zip)
 [Tutorial Data sets (15 Mb)](https://sccn.ucsd.edu/githubwiki/files/data.zip)
 [Group Research Questions (15
-Mb)](/Media:ProjectQuestions.doc "wikilink")
+Mb)](https://sccn.ucsd.edu/githubwiki/files/MISSING)
 
-[Tutorial slides](https://sccn.ucsd.edu/githubwiki/files/slides.zip) Download these filesbefore the workshop and have them available during each tutorial
+[Tutorial slides](https://sccn.ucsd.edu/githubwiki/files/slides.zip) Download these files before the workshop and
+ have them available during each tutorial
 session.
 
 Relevant reading material:
@@ -252,4 +253,3 @@ II (Scott Makeig)</font>
 Psychological and Brain Sciences Program in Cognitive Science Indiana
 University, Bloomington
 
-[Category:Workshops](/Category:Workshops "wikilink")

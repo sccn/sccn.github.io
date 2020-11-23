@@ -373,4 +373,3 @@ II (Scott Makeig)</font>
 <font color=orange>12:00 – 12:45 -- Participants' presentation, general
 questions - closing remarks</font>
 
-[Category:Workshops](/Category:Workshops "wikilink")

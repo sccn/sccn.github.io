@@ -442,5 +442,3 @@ projects</font>
 and general discussion [possible
 problems](https://sccn.ucsd.edu/githubwiki/files/eeglab_problems.pdf‎) </font>
 <font color=orange>17:45 – 18:00 -- Workshop closes</font>
-
-[Category:Workshops](/Category:Workshops "wikilink")

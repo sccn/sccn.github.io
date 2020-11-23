@@ -111,7 +111,7 @@ presentations.
 #### Others
 
 -   Note: EEGLAB now has [native support for
-    eLoreta](/A08:_DIPFIT#DIPFIT_eLoreta "wikilink") through its DIPFIT
+    eLoreta](https://sccn.ucsd.edu/githubwiki/files/MISSING) through its DIPFIT
     plug-in.
 
 ## <font color=darkred>EEGLAB 2016 workshop at UCSD</font>

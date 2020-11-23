@@ -739,4 +739,3 @@ Survey
 Please help us by answering [workshop survey
 questions](http://www.surveymonkey.com/s/5CMLJFH)
 
-[Category:Workshops](/Category:Workshops "wikilink")

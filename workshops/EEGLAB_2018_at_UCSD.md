@@ -75,4 +75,4 @@ Onton)](https://sccn.ucsd.edu/githubwiki/files/performing_ica_decomposition_visu
 Onton)](https://sccn.ucsd.edu/githubwiki/files/working_with_ics_onton.pdf)
 [Analyzing multimodal data: MoBILAB, etc. (Alejandro
 Ojeda)](https://sccn.ucsd.edu/githubwiki/files/analysis_of_multimodal_data_mobilab_ojeda.pdf)
-[test data oddball](https://sccn.ucsd.edu/githubwiki/files/simpleoddball.zip) and[CSP](/media:CSP.png "wikilink")
+[test data oddball](https://sccn.ucsd.edu/githubwiki/files/simpleoddball.zip) and [CSP](/media:CSP.png "wikilink")

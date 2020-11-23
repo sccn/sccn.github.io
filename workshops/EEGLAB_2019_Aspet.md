@@ -444,5 +444,3 @@ Airport</font>
 
 <font color=black>Between 14:30 and 15:15 -- Toulouse Matabiau train
 station</font>
-
-[Category:Workshops](/Category:Workshops "wikilink")

@@ -437,4 +437,3 @@ and general discussion</font>
 
 <font color=green>13:00 -- Lunch</font>
 
-[Category:Workshops](/Category:Workshops "wikilink")

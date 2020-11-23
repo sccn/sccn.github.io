@@ -78,8 +78,7 @@ This includes
 -   A part-day excursion by bus to the nearby [Torrey Pines State
     Natural Reserve](http://torreypine.org/).
 
-Accommodations are not included. See [the hotel list
-below](/EEGLAB_2013_UCSD#Accommodation "wikilink").
+Accommodations are not included.
 
 <b><font color=red>The workshop is completely full </font></b>
 
@@ -123,9 +122,8 @@ restaurants](https://sccn.ucsd.edu/githubwiki/files/listofrestaurants.pdf) in th
 Location of the workshop
 ------------------------
 
-The address of the vennue is "10100 Hopkins Drive, San Diego, California
+The address of the venue is "10100 Hopkins Drive, San Diego, California
 92121." Click [here](/media:map.png "wikilink") to download the map for
-the workshop. [Here](https://sccn.ucsd.edu/githubwiki/files/taxis.pdf) is a list of Taxis.
 ![100px\|thumb\|right\|upright=3]({{ site.baseurl }}/assets/images/Map.png)
 ![100px\|thumb\|right\|upright=3]({{ site.baseurl }}/assets/images/Map2.png)
 

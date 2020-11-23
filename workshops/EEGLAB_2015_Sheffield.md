@@ -486,4 +486,3 @@ Edge.</font>
 
 <font color = green>13:30 - Close</font>
 
-[Category:Workshops](/Category:Workshops "wikilink")

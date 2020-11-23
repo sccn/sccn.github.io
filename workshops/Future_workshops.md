@@ -20,7 +20,7 @@ In 2020:
 <!-- -->
 
 -   There will be an EEGLAB Workshop in Europe [at the Catholic
-    University Lublin in Lublin](/EEGLAB_2020_Lublin "wikilink"), Poland
+    University Lublin in Lublin](/workshops/EEGLAB_2020_Lublin), Poland
     (15-19 June). <b>Workshop reported to 2021 because of COVID-19.</b>
 
 Do not forget to subscribe to the EEGLAB News list to be notified of new

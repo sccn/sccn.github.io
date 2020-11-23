@@ -493,4 +493,3 @@ general discussion</font>
 
 <font color=green>13:30 -- Airport/train station shuttle leaves</font>
 
-[Category:Workshops](/Category:Workshops "wikilink")

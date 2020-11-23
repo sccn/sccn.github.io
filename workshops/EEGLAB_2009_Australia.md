@@ -221,50 +221,49 @@ Relevant publications using ICA/EEGLAB
 
 -   Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis
     of single-trial EEG dynamics including independent component
-    analysis](/Media:_EEGLAB_published.pdf "wikilink"). J Neurosci
-    Methods. 2004; Mar 15; 134(1):9-21.
+analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci    Methods. 2004; Mar 15; 134(1):9-21.
 
-<!-- -->
+
 
 -   Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining
     event-related brain
-    dynamics](/Media:_TICSreview_published.pdf "wikilink"). Trends Cogn
-    Sci. 2004; May; 8(5):204-10.
+dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). Trends Cogn    Sci. 2004; May; 8(5):204-10.
 
-<!-- -->
+
 
 -   Onton, J., Makeig, S. [Information-based modeling of event-related
-    brain dynamics](/Media:_Onton_PBR_published.pdf "wikilink"). Prog
-    Brain Res. 2006; 159: 99-120.
+brain dynamics](https://sccn.ucsd.edu/githubwiki/files/onton_pbr_published.pdf). Prog    Brain Res. 2006; 159: 99-120.
 
-<!-- -->
+
 
 -   Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
     Sejnowski, TJ. [Analysis and visualizaion of single-trial
-    event-related potentials](/Media:_Jung_HBM01.pdf "wikilink"). Human
-    Brain Mapping. 2001; 14(3), 166-185.
+event-related potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human    Brain Mapping. 2001; 14(3), 166-185.
 
-<!-- -->
+
 
 -   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of
     artifacts from EEG data using high-order statistics and independent
-    component
-    analysis](/Media:_neuroimage2007_reformated.pdf "wikilink").
-    Neuroimage. 2007; 34, 1443-1449.
+    component analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).    Neuroimage. 2007
+    ; 34, 1443-1449.
 
-<!-- -->
+
 
 -   Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
     [Comparing results of algorithms implementing blind source
-    separation of EEG data](/Media:_delorme_unpub.pdf "wikilink").
-    unpublished manuscript.
+separation of EEG data](https://sccn.ucsd.edu/githubwiki/files/delorme_unpub.pdf).    unpublished manuscript.
 
-<!-- -->
+
 
 -   Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics
     during working
-    memory](/Media:_Onton_FMtheta_published.pdf "wikilink"). NeuroImage.
-    2005;27, 341-356
+memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). NeuroImage.    2005;27, 341-356
+
+
+
+-   Onton, J, Makeig, S. [High-frequency Broadband Modulations of
+    Electroencephalographic
+Spectra](https://sccn.ucsd.edu/githubwiki/files/onton_emotiongamma2009.pdf). Front Hum    Neurosci. 2009 Dec 23;3:61.
 
 Material to Download
 --------------------
@@ -274,22 +273,22 @@ EEGLAB:
 
 Latest EEGLAB version here: <http://sccn.ucsd.edu/eeglab/install.html>
 
-[Tutorial scripts](/Media:Scripts.zip "wikilink") Download scripts for
+[Tutorial scripts](ftp://sccn.ucsd.edu/pub/STUDY.zip) Download scripts for
 certain tutorial sessions with scripting components.
 
-[Tutorial slides](/Media:TutorialPDFs.zip "wikilink") Download the PDFs
+[Tutorial slides](https://sccn.ucsd.edu/githubwiki/files/slides.zip) Download the PDFs
 of the tutorial lectures here.
 
-[ICA theory](/Media:EEGLAB_Workshop_ICA.pdf "wikilink") Tzyy-Ping's
+[ICA theory](https://sccn.ucsd.edu/githubwiki/files/eeglab_workshop_ica.pdf) Tzyy-Ping's
 FIRST lecture on ICA theory.
 
-[Time-frequency transforms](/Media:lecture_timefreq.pdf "wikilink")
+[Time-frequency transforms](https://sccn.ucsd.edu/githubwiki/files/lecture_timefreq.pdf)
 Tzyy-Ping's SECOND lecture on time-frequency analysis.
 
-[Bootstrap statistics](/Media:lecture_statistics.pdf "wikilink")
+[Bootstrap statistics](https://sccn.ucsd.edu/githubwiki/files/lecture_statistics.pdf)
 Tzyy-Ping's THIRD lecture on bootstrap statistics.
 
-[Single-subject tutorial data sets (157 Mb)](/Media:Data.zip "wikilink")
+[Single-subject tutorial data sets (157 Mb)](https://sccn.ucsd.edu/githubwiki/files/data.zip)
 This dataset will be used for the first few Tutorial sessions.
 
 [EEGLAB STUDY with 13 subjects (2.3
@@ -302,4 +301,4 @@ You will also be able to download all presented material from this site
 during and after the workshop, so don't panic if you can't download it
 before the workshop starts.
 
-\<!--[STUDY tutorial files (Mb)](ftp://sccn.ucsd.edu/pub/.zip)\>
+[STUDY tutorial files (Mb)](ftp://sccn.ucsd.edu/pub/.zip)
