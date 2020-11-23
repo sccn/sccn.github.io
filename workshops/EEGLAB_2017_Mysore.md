@@ -11,7 +11,7 @@ India](https://en.wikipedia.org/wiki/Mysore_Palace)]({{ site.baseurl }}/assets/i
 23rd EEGLAB Workshop
 ====================
 
-<font color=blue>Mysuru - January 16-20, 2017</font>
+<span style="color: blue">Mysuru - January 16-20, 2017</span>
 The 23rd EEGLAB Workshop will take place from Monday January 16th
 through Friday January 20th in
 [Mysuru](https://en.wikipedia.org/wiki/Mysore) (formerly Mysore) in the
@@ -131,9 +131,8 @@ communicated to interested delegates.
 Downloads
 ---------
 
-<font color = green>**To access most recent previous versions the talk
-slides and videos, use the links in the Program listing below! Slides
-will be made available during the workshop.**</font>
+<font color = green>**To access most recent previous versions the talk slides and videos, use the links in the Program listing below! Slides will be made available during the
+workshop.**</font>
 
 [Download EEGLAB](ftp://sccn.ucsd.edu/pub/daily/eeglab_current.zip).
 Download the latest version of EEGLAB
@@ -225,7 +224,7 @@ If you do not have access to the Matlab demos,
 [here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short
 online introduction to Matlab (recommended pages, 1 to 12)
 
-<font color="dark blue">*IMPORTANT NOTE:*</font> A portion of the
+<span style="color: blue">*IMPORTANT NOTE:*</span> A portion of the
 workshop will be dedicated to writing EEGLAB scripts -- Not being able
 to understand Matlab syntax will mean you will miss out on a large
 portion of the workshop.
@@ -264,30 +263,29 @@ Material for download
 
 Please download the following programs
 
-> `    `<font color=orange>`To be posted here at a later date.`</font>
+> `<span style="color: orange">`To be posted here at a later date.`</span>
 
 Preliminary Workshop Program (PDFs will be updated)
 ---------------------------------------------------
 
-<font color=purple>Purple lettering = lecture</font>
-<font color=orange>Orange lettering = tutorial</font>
+<span style="color: purple">Purple lettering = lecture</span>
+<span style="color: orange">Orange lettering = tutorial</span>
 
-<u><font color=blue>Sunday, January 15th</font></u> Participants arrive
-by train or by car.
-
-
-<font color = green>Dinner on your own</font>
-
-<u><font color=blue>Monday, January 16</font></u>
+<u><span style="color: blue">Sunday, January 15th</span></u> Participants arrive by train or by car.
 
 
-<font color = green>7:30 - 9:00 Breakfast</font>
+<span style="color: green">Dinner on your own</span>
 
-<font color = green>10:00 - 11:00 Inauguration</font>
+<u><span style="color: blue">Monday, January 16</span></u>
+
+
+<span style="color: green">7:30 - 9:00 Breakfast</span>
+
+<span style="color: green">10:00 - 11:00 Inauguration</span>
 
 
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
@@ -295,31 +293,26 @@ by train or by car.
 **Overview and ICA Theory/Practice**
 
 
-<font color = purple>11:30 – 12:45 -- Mining event-related brain
-dynamics I (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_2017_eeglab_mining_i.pdf‎)
-<font color = purple>12:45 – 13:15 -- EEGLAB overview (Arnaud
-Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_overview.pdf‎)
+<span style="color: purple">11:30 – 12:45 -- Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_2017_eeglab_mining_i.pdf‎)
+
+<span style="color: purple">12:45 – 13:15 -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_overview.pdf‎)
 <!-- -->
 
 
-<font color = green>13:15-14:30 Lunch --</font>
+<span style="color: green">13:15-14:30 Lunch --</span>
 
-<!-- -->
-
-
-
-<font color = purple>14:30 – 15.15 -- ICA theory (Scott Makeig)</font>
-[PDF‎](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lecture_ica.pdf)
-<font color = orange>15:15 – 16:15 -- EEG data import, Artifact
-rejection (Luca Pion-Tonachini)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_preproc_new.pdf)
 <!-- -->
 
 
 
-<font color = green>-- Break--</font>
+<span style="color: purple">14:30 – 15.15 -- ICA theory (Scott Makeig)</span>[PDF‎](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lecture_ica.pdf)
+
+<span style="color: orange">15:15 – 16:15 -- EEG data import, Artifact rejection (Luca Pion-Tonachini)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_preproc_new.pdf)
+<!-- -->
+
+
+
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
@@ -327,24 +320,20 @@ rejection (Luca Pion-Tonachini)</font>
 **ICA and time-frequency**
 
 
-<font color = orange>16:30 – 17:15 -- ICA decomposition of EEG data
-practicum (Makoto Miyakoshi)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/icadecompositionofeegdata4.pdf)
-<font color = orange>17:15 – 18:00 -- Evaluating ICA components
-practicum (Luca Pion-Tonachini)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_evaluation_ica.pdf)
-<font color = purple>18:00 – 19:00 -- Time-frequency decompositions of
-EEG data: Theory and practice (John Iversen)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_timefrequencytheorypractice.pdf)
+<span style="color: orange">16:30 – 17:15 -- ICA decomposition of EEG data practicum (Makoto Miyakoshi)</span># [PDF](https://sccn.ucsd.edu/githubwiki/files/icadecompositionofeegdata4.pdf)
+
+<span style="color: orange">17:15 – 18:00 -- Evaluating ICA components practicum (Luca Pion-Tonachini)</span>#[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_evaluation_ica.pdf)
+
+<span style="color: purple">18:00 – 19:00 -- Time-frequency decompositions of EEG data: Theory and practice (John Iversen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_timefrequencytheorypractice.pdf)
 <!-- -->
 
 
-<font color = green>Dinner on your own</font>
+<span style="color: green">Dinner on your own</span>
 
-<u><font color=blue>Tuesday, January 17</font></u>
+<u><span style="color: blue">Tuesday, January 17</span></u>
 
 
-<font color = green>7:30 - 9:00 Breakfast</font>
+<span style="color: green">7:30 - 9:00 Breakfast</span>
 
 <!-- -->
 
@@ -352,41 +341,34 @@ EEG data: Theory and practice (John Iversen)</font>
 **Group analysis and ICA clustering in EEGLAB**
 
 
-<font color = purple>9:00 - 9:45 -- Why cluster ICA components of EEG
-data? (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_clustering_2017.pdf‎)
-<font color = purple>9:45 - 10:45 -- Robust statistics, experimental
-design and correction for multiple comparisons of EEG data (John
-Iversen)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_statistics_short.pdf)
+<span style="color: purple">9:00 - 9:45 -- Why cluster ICA components of EEG data? (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_clustering_2017.pdf)
 
-<font color = green>-- Break--</font>
+<span style="color: purple">9:45 - 10:45 -- Robust statistics, experimental design and correction for multiple comparisons of EEG data (John Iversen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_statistics_short.pdf)
 
-<font color = purple>11:15 - 12:15 -- Creating an EEGLAB STUDY, STUDY
-design, and plotting STUDY results (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_study_design2.pdf‎)
-<font color = purple>12:15 - 13:00 -- Clustering components within
-EEGLAB (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_study_clustering.pdf‎)
+<span style="color: green">-- Break--</span>
+
+<span style="color: purple">11:15 - 12:15 -- Creating an EEGLAB STUDY, STUDY design, and plotting STUDY results (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_study_design2.pdf)
+
+<span style="color: purple">12:15 - 13:00 -- Clustering components within EEGLAB (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_study_clustering.pdf)
 <!-- -->
 
 
-<font color = green>13:00-14:30 Lunch --</font>
+<span style="color: green">13:00-14:30 Lunch --</span>
 
 <!-- -->
 
 
-<font color = green>14:30-18:00-- Excursion</font>
+<span style="color: green">14:30-18:00-- Excursion</span>
 
 <!-- -->
 
 
-<font color = green>Dinner hosted by organizers</font>
+<span style="color: green">Dinner hosted by organizers</span>
 
-<u><font color=blue>Wednesday, January 18</font></u>
+<u><span style="color: blue">Wednesday, January 18</span></u>
 
 
-<font color = green>7:30 - 9:00 Breakfast</font>
+<span style="color: green">7:30 - 9:00 Breakfast</span>
 
 <!-- -->
 
@@ -394,16 +376,14 @@ EEGLAB (Arnaud Delorme)</font>
 **Source Localization**
 
 
-<font color = purple>9:00 – 10:15 -- Forward and inverse models - the
-Dipfit/NFT tools (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_sm_sourcelocalization.pdf‎)
-<font color = purple>10:15 – 10:45 -- DIPFIT practicum (Arnaud
-Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_dipfit.pdf‎)
+<span style="color: purple">9:00 – 10:15 -- Forward and inverse models - the Dipfit/NFT tools (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_sm_sourcelocalization.pdf)
+
+<span style="color: purple">10:15 – 10:45 -- DIPFIT practicum (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_dipfit.pdf)
 <!-- -->
 
 
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
@@ -411,16 +391,13 @@ Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_dipfi
 **General Linear Modeling**
 
 
-<font color = orange>11:15 – 12:00 -- Theory and practice of applying
-general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud
-Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_limo_2017.pdf‎)
-<font color=purple>12:00 – 13:00 -- Source information flow and
-Granger-Causal modeling tools (John Iversen )</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_connectivity.pdf)
+<span style="color: orange">11:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_limo_2017.pdf)
+
+<span style="color: purple">12:00 – 13:00 -- Source information flow and Granger-Causal modeling tools (John Iversen )</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_connectivity.pdf)
 <!-- -->
 
 
-<font color=green>13:00-14:30 Lunch --</font>
+<span style="color: green">13:00-14:30 Lunch --</span>
 
 <!-- -->
 
@@ -428,59 +405,48 @@ Granger-Causal modeling tools (John Iversen )</font>
 **Source information flow and scripting**
 
 
-<font color=orange>14:30 – 15:00 -- STUDY plugin for group level
-connectivity analysis (Makoto Miyakoshi)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/studypluginforgrouplevelconnectivityanalysis.pdf‎)[AVI file (zipped)](https://sccn.ucsd.edu/githubwiki/files/controlnetworksagittal.zip‎) [HowTo reject ICs at group level](https://sccn.ucsd.edu/githubwiki/files/groupicselection.pdf‎)
-<font color=orange>15:00 – 16:00 -- Basic scripting using EEGLAB (Arnaud
-Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_script.pdf‎)
+<span style="color: orange">14:30 – 15:00 -- STUDY plugin for group level connectivity analysis (Makoto Miyakoshi)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/studypluginforgrouplevelconnectivityanalysis.pdf)[AVI file (zipped)](https://sccn.ucsd.edu/githubwiki/files/controlnetworksagittal.zip‎) [HowTo reject ICs at group level](https://sccn.ucsd.edu/githubwiki/files/groupicselection.pdf‎)
 
-<font color = green>-- Break--</font>
+<span style="color: orange">15:00 – 16:00 -- Basic scripting using EEGLAB (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_script.pdf)
 
-<font color=orange>16:30 – 18:00 -- Scripting using STUDY within EEGLAB
-(Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_studyscript.pdf‎)
+<span style="color: green">-- Break--</span>
+
+<span style="color: orange">16:30 – 18:00 -- Scripting using STUDY within EEGLAB (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_studyscript.pdf)
 <!-- -->
 
 
-<font color=green>Dinner on your own</font>
+<span style="color: green">Dinner on your own</span>
 
-<u><font color=blue>Thursday, January 19</font></u>
+<u><span style="color: blue">Thursday, January 19</span></u>
 
 
-<font color=green>7:30-9:00 -- Breakfast</font>
+<span style="color: green">7:30-9:00 -- Breakfast</span>
 
 <!-- -->
 
 
 
-<font color=purple>9:00 – 10:15 -- Mining event-related brain dynamics
-II (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_sm_miningii.pdf‎)
-<font color=orange>10:15 – 10:45 -- Practicum, small group projects
+<span style="color: purple">9:00 – 10:15 -- Mining event-related brain dynamics II (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_sm_miningii.pdf‎)
+
+<span style="color: orange">10:15 – 10:45 -- Practicum, small group projects</span>
 
 <!-- -->
 
 
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
 
 
-<font color=orange>11:15 – 12:30 -- Practicum, small group projects
-</font>
+<span style="color: orange">11:15 – 12:30 -- Practicum, small group projects</span>
 
-<font color=orange>12:30 – 13:00 -- Participant project presentations
-and general discussion</font>
+<span style="color: orange">12:30 – 13:00 -- Participant project presentations and general discussion</span>
 
 <!-- -->
 
 
-<font color=green>13:00 -- Lunch</font>
+<span style="color: green">13:00 -- Lunch</span>
 
-<font color=green>13:00 onwards- Panel discussion and interaction on
-Indo-Us collaboration in neurophysiology</font>
-
-[Category:Workshops](/Category:Workshops "wikilink")
+<span style="color: green">13:00 onwards- Panel discussion and interaction on Indo-Us collaboration in neurophysiology</span>

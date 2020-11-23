@@ -11,7 +11,7 @@ mountains]({{ site.baseurl }}/assets/images/Pyrennees.png)
 Twenty-ninth EEGLAB Workshop
 ============================
 
-<font color=blue>Aspet, France - June 17-21, 2019</font>
+<span style="color: blue">Aspet, France - June 17-21, 2019</span>
 The 29th EEGLAB Workshop TOOK place from Monday, June 17 through Friday,
 June 21 in the village of Aspet in the Pyrenees foothills in southwest
 France near Toulouse. Participants WERE expected to bring laptops with
@@ -132,7 +132,7 @@ If you do not have access to the Matlab demos,
 [here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short
 online introduction to Matlab (recommended pages, 1 to 12)
 
-<font color="dark blue">*IMPORTANT NOTE:*</font> A portion of the
+<span style="color: "dark blue"">*IMPORTANT NOTE:*</span> A portion of the
 workshop will be dedicated to writing EEGLAB scripts -- Not being able
 to understand Matlab syntax will mean you will miss out on a large
 portion of the workshop.
@@ -188,12 +188,9 @@ MathWorks for bringing this support from MathWorks to the workshop.
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
-<font color=purple>Purple lettering = lecture</font>
-<font color=orange>Orange lettering = tutorial</font>
-
-<u><font color=blue>Monday, June 17th</font></u>
-
-<hr>
+<span style="color: purple">Purple lettering = lecture</span>
+<span style="color: orange">Orange lettering = tutorial</span>
+<u><span style="color: blue">Monday, June 17th</span></u>
 
 <B>Optional pre-workshop symposium on BIDS - Brain Imaging Data
 Structure - for MRI, fMRI and EEG</b>
@@ -203,43 +200,21 @@ Toulouse ([directions available
 here](http://www.cerco.ups-tlse.fr/-Acces-?lang=en))
 <i>Registration:</i> This event is free for all
 <i>Symposium moderator:</i> Scott Makeig
-
-
-
 13:00-13:10 - Introduction to the Symposium - Scott Makeig
 
-<!-- -->
-
-
-
 13:10-14:40 - What is BIDS? - Cyril Pernet
-
-<!-- -->
-
 
 
 13:40-14:10 - BIDS EEG - Robert Oostenveld
 
-<!-- -->
-
-
 
 14:10-14:30 - EEGLAB and BIDS - Arnaud Delorme
-
-<!-- -->
-
-
 
 14:30-14:50 - BIDS for MRI and fMRI - how to use BIDS in laboratory
 settings to organize data - Leila Reidy
 
-<!-- -->
-
-
-
 14:50-15:00 - General BIDS discussion with all panel members
 
-<hr>
 
 
 16:30 -- Toulouse train station shuttle bus pick up
@@ -253,65 +228,47 @@ settings to organize data - Leila Reidy
 
 20:45 – 21:30 -- Optional beginner Matlab course by Ramon Martinez
 
-<u><font color=blue>Tuesday, June 18th</font></u>
+<u><span style="color: blue">Tuesday, June 18th</span></u>
 
 
-<font color = green>7:00 - 8:30 Breakfast</font>
-
-<!-- -->
+<span style="color: green">7:00 - 8:30 Breakfast</span>
 
 
 **Overview and ICA Theory/Practice**
 
+<span style="color:purple"> 8:30 – 9:45 -- Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_i.pdf)
 
-<font color = purple>8:30 – 9:45 -- Mining event-related brain dynamics
-I (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_i.pdf‎)
-<font color = purple>9:45 – 10:15 -- EEGLAB overview (Arnaud
-Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_eeglab_overview.pdf‎)
+<span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_eeglab_overview.pdf)
 
-<font color = green>-- Break--</font>
-
-<font color = purple>10:30 – 11:30 -- ICA theory (Scott Makeig)</font>
-[PDF‎](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)
-<font color = orange>11:30 – 12:30 -- Data import, Artifact rejection
-(Tracy Brandmeyer)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)
-<!-- -->
+<span style="color: green">-- Break--</span>
 
 
-<font color = green>12:30-13:45 Lunch --</font>
+<span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)
 
-<!-- -->
 
+<span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Tracy Brandmeyer)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)
+
+<span style="color: green">12:30-13:45 Lunch --</span>
 
 **ICA and time-frequency**
 
-
-<font color = orange>13:45 – 15:15 -- ICA decomposition practicum
-(Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)
-<font color = orange>15:15 – 15:45 -- Bootstrapping ICA and using PCA
-before ICA (Fiorenzo Artoni)</font>
+<span style="color: orange">13:45 – 15:15 -- ICA decomposition practicum (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)
+<span style="color: orange">15:15 – 15:45 -- Bootstrapping ICA and using PCA before ICA (Fiorenzo Artoni)</span>
 
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
-<font color = purple>16:00 – 17:00 -- Time-frequency decompositions:
-Theory and practice (Tim Mullen)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_time_frequency_analysis2019.pdf‎)
-<font color = purple>17:00 – 17:30 -- Phase amplitude coupling (Ramon
-Martinez)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/rmc_pac_aspet_2019.pdf)
+<span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (Tim Mullen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_time_frequency_analysis2019.pdf)
+<span style="color: purple">17:00 – 17:30 -- Phase amplitude coupling (Ramon Martinez)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/rmc_pac_aspet_2019.pdf)
 <!-- -->
 
 
-<font color = green>19:45 -- Dinner</font>
+<span style="color: green">19:45 -- Dinner</span>
 
-<u><font color=blue>Wednesday, June 19th</font></u>
+<u><span style="color: blue">Wednesday, June 19th</span></u>
 
 
-<font color = green>7:30 - 8:30 Breakfast</font>
+<span style="color: green">7:30 - 8:30 Breakfast</span>
 
 <!-- -->
 
@@ -319,39 +276,32 @@ Martinez)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/rmc_pac_aspet_2019
 **Group analysis and ICA clustering in EEGLAB**
 
 
-<font color = purple>8:30 - 9:00 -- Why cluster ICA components? (Scott
-Makeig)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_clustering.pdf‎)
-<font color = purple>9:00 - 9:45 -- Bootstrap and correction for
-multiple comparisons (Cyril Pernet)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf‎)
+<span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_clustering.pdf)
+<span style="color: purple">9:00 - 9:45 -- Bootstrap and correction for multiple comparisons (Cyril Pernet)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
-<font color = purple>10:45 - 11:45 -- Creating a STUDY and STUDY
-design - plotting and computing statistics in channels (Arnaud
-Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf‎)
-<font color = purple>11:45 - 12:45 -- ICA component clustering and
-plotting (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf‎)
+<span style="color: purple">10:45 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)
+<span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf‎)
 <!-- -->
 
 
-<font color = green>12:45-13:45 Lunch --</font>
+<span style="color: green">12:45-13:45 Lunch --</span>
 
 <!-- -->
 
 
-<font color = green>13:45-18:00-- Hiking excursion</font>
+<span style="color: green">13:45-18:00-- Hiking excursion</span>
 
 <!-- -->
 
 
-<font color = green>19:45 -- Dinner</font>
+<span style="color: green">19:45 -- Dinner</span>
 
-<u><font color=blue>Thursday, June 20th</font></u>
+<u><span style="color: blue">Thursday, June 20th</span></u>
 
 
-<font color = green>7:30 - 8:30 Breakfast</font>
+<span style="color: green">7:30 - 8:30 Breakfast</span>
 
 <!-- -->
 
@@ -359,16 +309,13 @@ plotting (Arnaud Delorme)</font>
 **Source Localization**
 
 
-<font color = purple>8:30 – 9:30 -- Forward and inverse models - the
-Dipfit tools (Robert Oostenveld)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf‎)
-<font color = purple>9:30 – 10:00 -- Using the Dipfit plugin of EEGLAB
-(Arnaud Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme2019_dipfit.pdf‎)
+<span style="color: purple">8:30 – 9:30 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)
+<span style="color: purple">9:30 – 10:00 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme2019_dipfit.pdf)
 <!-- -->
 
 
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
@@ -376,13 +323,11 @@ Dipfit tools (Robert Oostenveld)</font>
 **General Linear Modeling**
 
 
-<font color = orange>10:15 – 12:30 -- Theory and practice of applying
-general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril
-Pernet)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf‎)
+<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)
 <!-- -->
 
 
-<font color=green>12:30-13:45 Lunch --</font>
+<span style="color: green">12:30-13:45 Lunch --</span>
 
 <!-- -->
 
@@ -390,57 +335,38 @@ Pernet)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.p
 **Source information flow**
 
 
-<font color=purple>13:45 – 15:30 -- Source information flow and
-Granger-Causal modeling tools (Tim Mullen)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf‎)
-<font color=orange>15:45 – 17:30 -- SIFT toolbox: practicum (Tim
-Mullen)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf‎)
-<!-- -->
+<span style="color: purple">13:45 – 15:30 -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)
+<span style="color: orange">15:45 – 17:30 -- SIFT toolbox: practicum (Tim Mullen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf‎)
 
 
-<font color=green>19:45 -- Dinner </font>
+<span style="color: green">19:45 -- Dinner </span>
 
-<u><font color=blue>Friday, June 21st</font></u>
+<u><span style="color: blue">Friday, June 21st</span></u>
 
-
-<font color=green>7:30-8:30 -- Breakfast</font>
-
-<!-- -->
+<span style="color: green">7:30-8:30 -- Breakfast</span>
 
 
+<span style="color: purple">8:30 – 10:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf‎)
 
-<font color=purple>8:30 – 10:00 -- Mining event-related brain dynamics
-II (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf‎)
-<!-- -->
+<span style="color: green">-- Break--</span>
 
 
 
-<font color = green>-- Break--</font>
 
-<!-- -->
+<span style="color: orange">10:15 – 11:30 -- Practicum, small group projects</span>
 
-
-
-<font color=orange>10:15 – 11:30 -- Practicum, small group
-projects</font>
-
-<font color=orange>11:30 – 12:00 -- Participant project presentations
-and general discussion</font> [List of
+<span style="color: orange">11:30 – 12:00 -- Participant project presentations and general discussion</span> [List of
 projects](https://sccn.ucsd.edu/githubwiki/files/project_list_aspet.pdf)
 <!-- -->
 
 
-<font color=green>12:15 -- Lunch</font>
+<span style="color: green">12:15 -- Lunch</span>
 
 <!-- -->
 
 
-<font color=black>13:00 -- Airport/train station shuttle bus leaves Bois
-Perche</font>
+<span style="color: black">13:00 -- Airport/train station shuttle bus leaves Bois Perche</span>
 
-<font color=black>Between 14:15 and 14:45 -- Toulouse/Blagnac
-Airport</font>
+<span style="color: black">Between 14:15 and 14:45 -- Toulouse/Blagnac Airport</span>
 
-<font color=black>Between 14:30 and 15:15 -- Toulouse Matabiau train
-station</font>
+<span style="color: black">Between 14:30 and 15:15 -- Toulouse Matabiau train station</span>

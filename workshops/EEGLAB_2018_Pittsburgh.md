@@ -139,30 +139,27 @@ Journal of Child Psychology & Psychiatry 57:1, 4-17, 2016.
 Preliminary Workshop Program (with corresponding PDFs)
 ------------------------------------------------------
 
-<font color=purple>Purple lettering = lecture</font>
-<font color=orange>Orange lettering = tutorial</font>
+<span style="color: purple">Purple lettering = lecture</span>
 
-<u><font color=blue>Tuesday, September 4th 2018</font></u>
+<span style="color: orange">Orange lettering = tutorial</span>
+
+<u><span style="color: blue">Tuesday, September 4th 2018</span></u>
 
 
 **Overview and ICA Theory/Practice**
 
 
-<font color = purple>8:30AM – 9:45AM -- Mining event-related brain
-dynamics I (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_mining1_pittsburgh2018.pdf‎)
-<font color = purple>9:45AM – 10:15AM -- EEGLAB overview (Arnaud
-Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_overview_pittsburgh2018.pdf‎)
+<span style="color: purple">8:30AM – 9:45AM -- Mining event-related brain dynamics I (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_mining1_pittsburgh2018.pdf)
 
-<font color = green>-- Coffee Break--</font>
+<span style="color: purple">9:45AM – 10:15AM -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_overview_pittsburgh2018.pdf)
 
-<font color = purple>10:30AM – 12:30AM -- ICA theory (Scott
-Makeig)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_ica_pittsburgh2018.pdf‎)
+<span style="color: green">-- Coffee Break--</span>
+
+<span style="color: purple">10:30AM – 12:30AM -- ICA theory (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_ica_pittsburgh2018.pdf)
 <!-- -->
 
 
-<font color = green>12:30-2:00PM - Lunch -- On your own</font>
+<span style="color: green">12:30-2:00PM - Lunch -- On your own</span>
 
 <!-- -->
 
@@ -170,77 +167,61 @@ Makeig)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_ica_pittsburg
 **ICA and time-frequency**
 
 
-<font color = orange>2:00PM – 3:00PM -- Data import, Artifact rejection
-(Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_preprocesssing_pittsburgh2018.pdf‎)
-<font color = orange>3:00PM – 4:00PM -- ICA decomposition practicum
-(Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_icapracticum_pittsburgh2018.pdf‎)
+<span style="color: orange">2:00PM – 3:00PM -- Data import, Artifact rejection (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_preprocesssing_pittsburgh2018.pdf)
 
-<font color = green>--Coffee Break--</font>
+<span style="color: orange">3:00PM – 4:00PM -- ICA decomposition practicum (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_icapracticum_pittsburgh2018.pdf)
 
-<font color = purple>4:15PM – 5:15PM -- Time-frequency decompositions:
-Theory and practice (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_timefreq_pittsburgh2018.pdf‎)
-<u><font color=blue>Wednesday, September 5th 2018</font></u>
+<span style="color: green">--Coffee Break--</span>
+
+<span style="color: purple">4:15PM – 5:15PM -- Time-frequency decompositions:Theory and practice (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_timefreq_pittsburgh2018.pdf)
+
+<u><span style="color: blue">Wednesday, September 5th 2018</span></u>
 
 
 **Source Localization**
 
 
-<font color = purple>8:30AM – 9:15AM -- Forward and inverse modeling
-(Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_forwardinverse.pdf)
-<font color = orange>9:15AM – 10:00AM -- Dipole localization in EEGLAB
-(Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_dipfit2_pittsburgh2018.pdf‎)
+<span style="color: purple">8:30AM – 9:15AM -- Forward and inverse modeling (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_forwardinverse.pdf)
+
+<span style="color: orange">9:15AM – 10:00AM -- Dipole localization in EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_dipfit2_pittsburgh2018.pdf)
 <!-- -->
 
 
 
-<font color = green>-- Coffee Break--</font>
+<span style="color: green">-- Coffee Break--</span>
 
 <!-- -->
 
 
 
-<font color=purple>10:15PM – 11:15PM -- Source information flow and
-Granger-Causal modeling tools (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_causal_model_pittsburgh2018.pdf‎)
-<font color = purple>11:15AM - 12:30AM -- Why cluster ICA components?
-(Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_clustering.pdf)
+<span style="color: purple">10:15PM – 11:15PM -- Source information flow and Granger-Causal modeling tools (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_causal_model_pittsburgh2018.pdf)
+
+<span style="color: purple">11:15AM - 12:30AM -- Why cluster ICA components? (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_clustering.pdf)
 <!-- -->
 
 
-<font color = green>12:30AM-2:00PM Lunch -- On your own</font>
-
+<span style="color: green">12:30AM-2:00PM Lunch -- On your own</span>
 <!-- -->
 
 
 **Group analysis and ICA clustering in EEGLAB**
 
 
-<font color = orange>2:00PM - 2:30PM -- Creating a STUDY, STUDY design,
-basic plotting (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_study.pdf)
-<font color = orange>2:30PM - 3:00PM -- Group analysis using EEGLAB
-studies: Methods to cluster ICA components (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_clustering.pdf)
-<font color = orange>3:00PM - 3:30PM -- General linear modeling (Arnaud
-Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_glm.pdf)
-<font color = orange>3:30PM – 4:00PM -- Scripting in EEGLAB (Arnaud
-Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_script.pdf)
+<span style="color: orange">2:00PM - 2:30PM -- Creating a STUDY, STUDY design,basic plotting (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_study.pdf)
+
+<span style="color: orange">2:30PM - 3:00PM -- Group analysis using EEGLAB studies: Methods to cluster ICA components (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_clustering.pdf)
+
+<span style="color: orange">3:00PM - 3:30PM -- General linear modeling (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_glm.pdf)
+
+<span style="color: orange">3:30PM – 4:00PM -- Scripting in EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_script.pdf)
 <!-- -->
 
 
 
-<font color = green>-- Coffee Break--</font>
+<span style="color: green">-- Coffee Break--</span>
 
 <!-- -->
 
 
 
-<font color = purple>4:30PM – 5:15PM -- Mining event-related brain
-dynamics II (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_mining_ii.pdf_‎)
+<span style="color: purple">4:30PM – 5:15PM -- Mining event-related brain dynamics II (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_mining_ii.pdf)
