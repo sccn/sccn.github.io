@@ -177,7 +177,7 @@ If you do not have access to the Matlab demos,
 [here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short
 online introduction to Matlab (recommended pages, 1 to 12)
 
-<font color="dark blue">*IMPORTANT NOTE:*</font> A portion of the
+<span style="color: "dark blue"">*IMPORTANT NOTE:*</span> A portion of the
 workshop will be dedicated to writing EEGLAB scripts -- Not being able
 to understand Matlab syntax will mean you will miss out on a large
 portion of the workshop.
@@ -219,18 +219,18 @@ working memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.p
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
-<font color=purple>Purple lettering = lecture</font>
-<font color=orange>Orange lettering = tutorial</font>
+<span style="color: purple">Purple lettering = lecture</span>
+<span style="color: orange">Orange lettering = tutorial</span>
 
-<u><font color=blue>Monday, September 25th</font></u>
-
-
-<font color = green> 17:00 – 19:00 -- On-site registration</font>
-
-<u><font color=blue>Tuesday, September 26th</font></u>
+<u><span style="color: blue">Monday, September 25th</span></u>
 
 
-<font color = green> 9:20 – 10:00 -- On-site registration</font>
+<span style="color: green"> 17:00 – 19:00 -- On-site registration</span>
+
+<u><span style="color: blue">Tuesday, September 26th</span></u>
+
+
+<span style="color: green"> 9:20 – 10:00 -- On-site registration</span>
 
 <!-- -->
 
@@ -239,206 +239,117 @@ Workshop Program (with corresponding PDFs)
 
 
 <font color = purple>10:00 – 11:00 -- Mining event-related brain
-dynamics I (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_japan_i.pdf‎)
-<font color = purple>11:00 – 11:30 -- EEGLAB overview (Arnaud
-Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_overview_japan.pdf‎)
+dynamics I (Scott Makeig)</font>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_japan_i.pdf)
 
-<font color = green>-- Break--</font>
+<span style="color: purple">11:00 – 11:30 -- EEGLAB overview (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_overview_japan.pdf)
 
-<font color = purple>11:45 – 12:45 -- ICA theory (Jason Palmer)</font>
-[PDF‎](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_jp_lecture_ica.pdf)
-<!-- -->
+<span style="color: green">-- Break--</span>
 
+<span style="color: purple">11:45 – 12:45 -- ICA theory (Jason Palmer)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_jp_lecture_ica.pdf)
 
-<font color = green>12:45-14:00 Lunch</font>
-
-<!-- -->
-
+<span style="color: green">12:45-14:00 Lunch</span>
 
 **ICA and time-frequency**
 
+<span style="color: orange">14:00 – 15:00 -- EEG Preprocessing for ICA (Makoto Miyakoshi)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/preicaprocessing.pdf)
 
-<font color = orange>14:00 – 15:00 -- EEG Preprocessing for ICA (Makoto
-Miyakoshi)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/preicaprocessing.pdf)
-<font color = orange>15:00 – 15:45 -- ICA decomposition practicum and
-practical Q&A (Makoto Miyakoshi)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/icadecompositionpracticum.pdf)
+<span style="color: orange">15:00 – 15:45 -- ICA decomposition practicum and practical Q&A (Makoto Miyakoshi)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/icadecompositionpracticum.pdf)
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
-<font color = orange>16:00 – 17:00 -- Evaluating ICA components
-practicum (John Iversen)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_tokyo_jri_evaluateics.pdf)
-<font color = purple>17:00 – 18:00 -- Time-frequency decompositions:
-Theory and practice (John Iversen)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_tokyo_jri_timefrequencytheorypractice.pdf)
-<u><font color=blue>Wednesday, September 27th</font></u>
+<span style="color: orange">16:00 – 17:00 -- Evaluating ICA components practicum (John Iversen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_tokyo_jri_evaluateics.pdf)
+
+<span style="color: purple">17:00 – 18:00 -- Time-frequency decompositions:Theory and practice (John Iversen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_tokyo_jri_timefrequencytheorypractice.pdf)
+
+<u><span style="color: blue">Wednesday, September 27th</span></u>
 
 
 **Group analysis and ICA clustering in EEGLAB**
 
 
-<font color = purple>10:00 - 11:00 -- Why cluster ICA components? (Scott
-Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_clustering_tokyo17.pdf‎)
-<font color = green>11:00 - 15:30 -- Excursion (Open-air Experiment and
-Hiking at Shinjuku-gyoen).
+<span style="color: purple">10:00 - 11:00 -- Why cluster ICA components? (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_clustering_tokyo17.pdf)
 
-<!-- -->
-
+<span style="color: green">11:00 - 15:30 -- Excursion (Open-air Experiment and Hiking at Shinjuku-gyoen). </span>
 
 
 [Wikipedia(En)](https://en.wikipedia.org/wiki/Shinjuku_Gyoen)
 
 [Wikipedia(Jp)](https://ja.wikipedia.org/wiki/%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91)
 
-<!-- -->
 
 
+Wearable EEG measurement system demonstration and discussion (Noriaki Kanayama, Hiroshima University, Shusuke Yoshimoto, Osaka University ; supported by the
+ COI Next Generation Researchers Collaborative Research Fund (H29W03) from Japan Science and Technology Agency, JST). 
 
-Wearable EEG measurement system demonstration and discussion (Noriaki
-Kanayama, Hiroshima University, Shusuke Yoshimoto, Osaka University ;
-supported by the COI Next Generation Researchers Collaborative Research
-Fund (H29W03) from Japan Science and Technology Agency, JST). Picnic
-lunch and hiking.</font>
+<span style="color: green">Picnic lunch and hiking.</span>
 
 <!-- -->
 
 
 
-<font color = purple>16:00 - 16:45 -- Creating a STUDY and STUDY design
-(Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_study_design_japan2.pdf‎)
+<span style="color: purple">16:00 - 16:45 -- Creating a STUDY and STUDY design (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_study_design_japan2.pdf)
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
-<font color = purple>17:00 - 18:30 -- Group analysis using EEGLAB
-studies: Methods to cluster ICA components (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_study_clustering_japan2.pdf‎)
-<u><font color=blue>Thursday, September 28th</font></u>
+<span style="color: purple">17:00 - 18:30 -- Group analysis using EEGLABstudies: Methods to cluster ICA components (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_study_clustering_japan2.pdf)
 
+
+<u><span style="color: blue">Thursday, September 28th</span></u>
 
 **Source Localization**
 
+<span style="color: purple">10:00 – 11:30 -- The Neuroelectromagnetic Forward Head Modeling (NFT) and NIST (Inverse Source Imaging) toolkits (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_forwardinverse_compressed.pdf)
 
-<font color = purple>10:00 – 11:30 -- The Neuroelectromagnetic Forward
-Head Modeling (NFT) and NIST (Inverse Source Imaging) toolkits (Scott
-Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_forwardinverse_compressed.pdf‎)
-<font color = purple>11:30 – 12:00 -- Forward and inverse models - the
-Dipfit tools (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_dipfit_japan.pdf‎)
+<span style="color: purple">11:30 – 12:00 -- Forward and inverse models - the Dipfit tools (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_dipfit_japan.pdf)
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
 **General Linear Modeling and statistics**
 
+<span style="color: purple">12:15 - 13:00 -- Robust statistics and correction for multiple comparisons (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_statistics_japan2.pdf)
 
-<font color = purple>12:15 - 13:00 -- Robust statistics and correction
-for multiple comparisons (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_statistics_japan2.pdf‎)
-<!-- -->
-
-
-<font color = green>13:00-14:15 Lunch --</font>
-
-<!-- -->
-
+<span style="color: green">13:00-14:15 Lunch --</span>
 
 **General Linear Modeling and statistics continued**
 
+<span style="color: orange">14:15 – 14:45 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/limo_japan_2017.pdf)
 
-<font color = orange>14:15 – 14:45 -- Theory and practice of applying
-general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud
-Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/limo_japan_2017.pdf‎)
-<font color = orange>14:45 – 15:15 -- LIMO and EEGLAB practicum (Arnaud
-Delorme)</font>
+<span style="color: orange">14:45 – 15:15 -- LIMO and EEGLAB practicum (Arnaud Delorme)</span>
 
-<!-- -->
-
-
-
-<font color = green>-- Break--</font>
-
-<!-- -->
-
+<span style="color: green">-- Break--</span>
 
 **Source information flow**
 
+<span style="color: purple">15:30 – 17:00 -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_2017_japan_sift_lecture.pdf)
 
-<font color=purple>15:30 – 17:00 -- Source information flow and
-Granger-Causal modeling tools (Tim Mullen)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_2017_japan_sift_lecture.pdf‎)
-<font color=orange>17:00 – 18:00 -- SIFT toolbox: overview and practicum
-(Tim Mullen)</font> [PDF (SIFT
-Overview)](https://sccn.ucsd.edu/githubwiki/files/eeglab_2017_japan_sift_intro_blitz.pdf)/[PDF
-(Practicum)](https://sccn.ucsd.edu/githubwiki/files/eeglab_2017_japan_sift_practicum.pdf‎)
-<u><font color=blue>Friday, September 29th</font></u>
+<span style="color: orange">17:00 – 18:00 -- SIFT toolbox: overview and practicum(Tim Mullen)</span> [PDF (SIFT Overview)](https://sccn.ucsd.edu/githubwiki/files/eeglab_2017_japan_sift_intro_blitz.pdf)
+[PDF (Practicum)](https://sccn.ucsd.edu/githubwiki/files/eeglab_2017_japan_sift_practicum.pdf)
 
+<u><span style="color: blue">Friday, September 29th</span></u>
 
+<span style="color: purple">10:00 – 11:30 -- Mining event-related brain dynamics II (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_ii_tokyo17_compressed.pdf)
 
-<font color=purple>10:00 – 11:30 -- Mining event-related brain dynamics
-II (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_ii_tokyo17_compressed.pdf‎)
-<!-- -->
+<span style="color: green">-- Break--</span>
 
+<span style="color: orange">11:45 – 12:15 -- Using and building EEGLAB extensions/plug-ins (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_plugin_japan.pdf)
 
-
-<font color = green>-- Break--</font>
-
-<!-- -->
-
-
-
-<font color=orange>11:45 – 12:15 -- Using and building EEGLAB
-extensions/plug-ins (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_plugin_japan.pdf‎)
-<!-- -->
-
-
-<font color = green>12:15-13:30 Lunch --</font>
-
-<!-- -->
+<span style="color: green">12:15-13:30 Lunch --</span>
 
 
 **Advanced scripting**
 
+<span style="color: orange">13:30 – 14:45 -- Scripting using EEGLAB (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_scripting_japan3.pdf)
 
-<font color=orange>13:30 – 14:45 -- Scripting using EEGLAB (Arnaud
-Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_scripting_japan3.pdf‎)
-<!-- -->
+<span style="color: green">-- Break--</span>
 
+<span style="color: purple">15:00 – 15:30 -- Preprocessing pipelines and utility tools (Makoto Miyakoshi) </span>[PDF](https://sccn.ucsd.edu/githubwiki/files/preprocessingpipelineandutilitytools.pdf)
 
+<span style="color: purple">15:30 – 16:00 -- groupSIFT: Solution for post-SIFT group-level statistics (Makoto Miyakoshi) </span> [PDF](https://sccn.ucsd.edu/githubwiki/files/groupsift.pdf) [Supplementarymovie1](https://sccn.ucsd.edu/githubwiki/files/groupsift_sagital.zip)
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
-<!-- -->
+<span style="color: orange">16:15 – 17:15 -- Practicum, small group projects</span>
 
+<span style="color: orange">17:15 – 17:45 -- Participant project presentations and general discussion [possible problems](https://sccn.ucsd.edu/githubwiki/files/eeglab_problems.pdf) </span>
 
-
-<font color=purple>15:00 – 15:30 -- Preprocessing pipelines and utility
-tools (Makoto Miyakoshi) </font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/preprocessingpipelineandutilitytools.pdf‎)
-<font color=purple>15:30 – 16:00 -- groupSIFT: Solution for post-SIFT
-group-level statistics (Makoto Miyakoshi) </font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/groupsift.pdf‎) [Supplementarymovie1](https://sccn.ucsd.edu/githubwiki/files/groupsift_sagital.zip‎)
-<!-- -->
-
-
-
-<font color = green>-- Break--</font>
-
-<!-- -->
-
-
-
-<font color=orange>16:15 – 17:15 -- Practicum, small group
-projects</font>
-
-<font color=orange>17:15 – 17:45 -- Participant project presentations
-and general discussion [possible
-problems](https://sccn.ucsd.edu/githubwiki/files/eeglab_problems.pdf‎) </font>
-<font color=orange>17:45 – 18:00 -- Workshop closes</font>
+<span style="color: orange">17:45 – 18:00 -- Workshop closes</span>
