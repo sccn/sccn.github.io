@@ -138,7 +138,7 @@ workshop will be dedicated to writing EEGLAB scripts -- Not being able
 to understand Matlab syntax will mean you will miss out on a large
 portion of the workshop.
 
-*EEGLAB WIKI:* Refer to the [EEGLAB tutorial wiki](/EEGLAB "wikilink")
+*EEGLAB WIKI:* Refer to the [EEGLAB tutorial wiki](/https://sccn.github.io/)
 for additional help.
 
 <b>Material for the working (including EEGLAB) will be made available on
