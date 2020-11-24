@@ -96,10 +96,8 @@ Warsaw to Lublin ([travel
 information](http://eeglab2020lublin.com/venue/)).
 
 We do not provide accommodation booking services for participants, but
-we do offer a discount code for the [Hotel Mercure Lublin
+will offer a discount code for the [Hotel Mercure Lublin
 Centrum](https://pl.tripadvisor.com/Hotel_Review-g274818-d279966-Reviews-Hotel_Mercure_Lublin_Centrum-Lublin_Lublin_Province_Eastern_Poland.html)
-
-**Discount information**: [here](https://1drv.ms/b/s!AgyB0jRXUmrg7GrkUXA_1VfR4igm)
 
 
 Relevant reading material
@@ -130,23 +128,10 @@ Alternatively, Matlab also proposes self-paced online courses and we advise that
  you complete the "Matlab Onramp", a 1-2hour interactive introduction to the
   basics of Matlab programming. 
   
-  Accessing Matlab Onramp:
-  
-- from within Matlab by selecting the "Learn Matlab" menu 
-   
-- or follow [this link](https://matlabacademy.mathworks.com/)
+Accessing Matlab Onramp: from within Matlab by selecting the "Learn Matlab" menu or follow [this link](https://matlabacademy.mathworks.com/). Note that you will be asked to log in into your MathWorks account, which can be created for free [here](https://www.mathworks.com/mwaccount/register). If you do not use Matlab
+regularly, we encourage you to watch these demos, read these sections, and practice using the skills they introduce over several days.
 
-Note that you will be asked to log in into your MathWorks account, which can
- be created for free [here](https://www.mathworks.com/mwaccount/register).
- 
-
-If you do not use Matlab
-regularly, we encourage you to watch these demos, read these sections,
-and practice using the skills they introduce over several days.
-
-If you do not have access to the Matlab demos,
-[here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short
-online introduction to Matlab (recommended pages, 1 to 12)
+If you do not have access to the Matlab demos, [here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short online introduction to Matlab (recommended pages, 1 to 12)
 
 <font color="dark blue">*IMPORTANT NOTE:*</font> A portion of the
 workshop will be dedicated to writing EEGLAB scripts -- Not being able
