@@ -271,16 +271,7 @@ these sections over several days.
 
 Alternatively, Matlab also proposes self-paced online courses and we advise that
  you complete the "Matlab Onramp", a 1-2hour interactive introduction to the
-  basics of Matlab programming. 
-  
-  Accessing Matlab Onramp:
-  
-- from within Matlab by selecting the "Learn Matlab" menu 
-   
-- or follow [this link](https://matlabacademy.mathworks.com/)
-
-Note that you will be asked to log in into your MathWorks account, which can
- be created for free [here](https://www.mathworks.com/mwaccount/register).
+  basics of Matlab programming.  Accessing Matlab Onramp: from within Matlab by selecting the "Learn Matlab" menu or follow [this link](https://matlabacademy.mathworks.com/). Note that you will be asked to log in into your MathWorks account, which can be created for free [here](https://www.mathworks.com/mwaccount/register).
  
 
 **IMPORTANT NOTE:** The practical
