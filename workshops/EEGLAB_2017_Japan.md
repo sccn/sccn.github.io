@@ -24,18 +24,6 @@ EEGLAB-linked tools for performing advanced analysis of EEG and related
 data, with detailed method expositions and practical exercises.
 
 
-Poster sessions
----------------
-
-We will have poster presentations by several participants during break
-times. Poster boards are set in coffee break room. Please come to the
-room and have discussion with the presenters.
-
-<b>To poster presenters:</b> We greatly appreciate your contribution to
-the workshop by presenting your posters. Please place your poster to the
-boards in coffee break room. There are no specific format for the
-posters. Please design your poster as free as you like.
-
 Sponsors
 --------
 
