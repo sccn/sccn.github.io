@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2009 Australia
 permalink: /workshops/EEGLAB_2009_Australia.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 <font size =4><span style="color: red">9th EEGLAB Workshop</span>

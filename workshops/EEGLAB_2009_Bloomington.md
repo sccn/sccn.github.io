@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2009 Bloomington
 permalink: /workshops/EEGLAB_2009_Bloomington.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 Seventh EEGLAB Workshop
