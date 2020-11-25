@@ -11,7 +11,7 @@ bridge]({{ site.baseurl }}/assets/images/Beijing.png)
 Fifteenth EEGLAB Workshop
 =========================
 
-<font color=blue>Beijing, China - June 16-18, 2012</font>
+<span style="color: blue">Beijing, China - June 16-18, 2012</span>
 The 15th EEGLAB Workshops will take place from Saturday June 16th
 through Monday June 18th at Tsinghua University in Beijing, China.
 Participants will be expected to bring laptops with Matlab installed so
@@ -25,13 +25,13 @@ expositions and practical exercises.
 Preliminary Workshop Program
 ----------------------------
 
-<font color=purple>Purple lettering = lecture</font>
-<font color=orange>Orange lettering = tutorial</font>
+<span style="color: purple">Purple lettering = lecture</span>
+<span style="color: orange">Orange lettering = tutorial</span>
 
-<u><font color=blue>Saturday, June 16</font></u>
+<u><span style="color: blue">Saturday, June 16</span></u>
 
 
-<font color = green>7:30 - 8:30 Breakfast</font>
+<span style="color: green">7:30 - 8:30 Breakfast</span>
 
 <!-- -->
 
@@ -39,22 +39,19 @@ Preliminary Workshop Program
 **Overview and ICA Theory/Practice**
 
 
-<font color = purple>8:30 – 9:30 -- [Mining event-related brain dynamics
-I](https://sccn.ucsd.edu/githubwiki/files/eeglab_beijing_i.pdf) (Scott Makeig)</font>
-<font color = purple>9:30 – 10:00 -- EEGLAB overview (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_eeglab_overview.pdf)</font>
+<span style="color: purple">8:30 – 9:30 -- [Mining event-related brain dynamics I](https://sccn.ucsd.edu/githubwiki/files/eeglab_beijing_i.pdf) (Scott Makeig)</span>
 
-<font color = green>-- Break--</font>
+<span style="color: purple">9:30 – 10:00 -- EEGLAB overview (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_eeglab_overview.pdf)</span>
 
-<font color = purple>10:30 – 11:15 -- ICA theory (Tzyy-Ping Jung)</font>
+<span style="color: green">-- Break--</span>
 
-<font color = orange>11:15 – 12:00 -- Data import, artifact rejection
-and ICA decomposition (Julie Onton)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/1_gettingstarted_eeglab.pdf)[(Task)](https://sccn.ucsd.edu/githubwiki/files/sternbergtaskexplanation.pdf)</font>
+<span style="color: purple">10:30 – 11:15 -- ICA theory (Tzyy-Ping Jung)</span>
+
+<span style="color: orange">11:15 – 12:00 -- Data import, artifact rejection and ICA decomposition (Julie Onton) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/1_gettingstarted_eeglab.pdf)[(Task)](https://sccn.ucsd.edu/githubwiki/files/sternbergtaskexplanation.pdf)</span>
 <!-- -->
 
 
-<font color = green>12:00-13:00 Lunch --</font>
+<span style="color: green">12:00-13:00 Lunch --</span>
 
 <!-- -->
 
@@ -62,41 +59,37 @@ and ICA decomposition (Julie Onton)
 **ICA, time-frequency and information flow**
 
 
-<font color = orange>13:00 – 14:00 -- Evaluating ICA components (Julie
-Onton) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/2_evaluatingics.pdf)</font>
-<font color = purple>14:00 – 15:00 -- Time-Frequency decompositions and
-practicum (Tim Mullen)</font>
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/timefrequency_analysis.pdf‎)
+<span style="color: orange">13:00 – 14:00 -- Evaluating ICA components (Julie Onton) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/2_evaluatingics.pdf)</span>
+
+<span style="color: purple">14:00 – 15:00 -- Time-Frequency decompositions and practicum (Tim Mullen)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/timefrequency_analysis.pdf)
 <!-- -->
 
 
 
-<font color=green> --Break -- </font>
+<span style="color: green"> --Break -- </span>
 
 <!-- -->
 
 
 
-<font color=purple>15:30 – 16:30 -- SIFT toolbox: Source information
-flow and granger causality tools (Tim Mullen) </font>
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/sift_lecture.pdf‎) [SIFTmanual](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_sift.pdf‎)
-<font color=orange>16:30 – 17:30 -- Using the SIFT toolbox (Tim
-Mullen)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/sift_practicum.pdf‎)
+<span style="color: purple">15:30 – 16:30 -- SIFT toolbox: Source information flow and granger causality tools (Tim Mullen) </span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/sift_lecture.pdf) [SIFTmanual](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_sift.pdf)
+
+<span style="color: orange">16:30 – 17:30 -- Using the SIFT toolbox (Tim Mullen)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/sift_practicum.pdf)
 <!-- -->
 
 
 
-<font color=orange>17:30 – 19:00 -- Data and helpers available</font>
+<span style="color: orange">17:30 – 19:00 -- Data and helpers available</span>
 
 <!-- -->
 
 
-<font color = green>19:00 -- Dinner</font>
+<span style="color: green">19:00 -- Dinner</span>
 
-<u><font color=blue>Sunday, June 17th</font></u>
+<u><span style="color: blue">Sunday, June 17th</span></u>
 
 
-<font color = green>7:30 - 8:30 Breakfast</font>
+<span style="color: green">7:30 - 8:30 Breakfast</span>
 
 <!-- -->
 
@@ -104,20 +97,17 @@ Mullen)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/sift_practicum.pdf
 **Source Localization**
 
 
-<font color = purple>8:30 – 9:15 -- [Forward and inverse EEG source
-modeling](https://sccn.ucsd.edu/githubwiki/files/forwardinverse_beijing12.pdf) - (ScottMakeig)</font>
+<span style="color: purple">8:30 – 9:15 -- [Forward and inverse EEG source modeling](https://sccn.ucsd.edu/githubwiki/files/forwardinverse_beijing12.pdf) - (ScottMakeig)</span>
 
-(see also [this note on the importance of knowing skull
-conductivity](http://sccn.ucsd.edu/wiki/NFT_Appendix_C))
+(see also [this note on the importance of knowing skull conductivity](http://sccn.ucsd.edu/wiki/NFT_Appendix_C))
 
 <font color = orange>9:15 – 10:00 -- Using the NFT and Dipfit plug-ins
-(Julie
-Onton)[(Dipfit)](https://sccn.ucsd.edu/githubwiki/files/3_dipfit.pdf)[(nft)](/media:nft_presentation12.pdf)</font>
+(Julie Onton)[Dipfit](https://sccn.ucsd.edu/githubwiki/files/3_dipfit.pdf)[nf)](/media:nft_presentation12.pdf)</font>
 <!-- -->
 
 
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
@@ -125,16 +115,13 @@ Onton)[(Dipfit)](https://sccn.ucsd.edu/githubwiki/files/3_dipfit.pdf)[(nft)](/me
 **Component Clustering**
 
 
-<font color = orange>10:30 – 11:00 -- Creating EEGLAB studies and study
-designs (Arnaud
-Delorme)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_design.pdf)</font>
-<font color= orange>11:00 – 12:00 -- Independent Component Clustering
-(Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_clustering.pdf)</font>
+<span style="color: orange">10:30 – 11:00 -- Creating EEGLAB studies and study designs (Arnaud Delorme)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_design.pdf)</span>
+
+<span style="color:  orange">11:00 – 12:00 -- Independent Component Clustering (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_clustering.pdf)</span>
 <!-- -->
 
 
-<font color=green>12:00-13:00 Lunch --</font>
+<span style="color: green">12:00-13:00 Lunch --</span>
 
 <!-- -->
 
@@ -142,87 +129,74 @@ Delorme)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_desig
 **Processing multiple subjects using STUDY tools**
 
 
-<font color = orange>13:00 – 14:00 -- Plotting measures and computing
-statistics for EEGLAB studies (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_plot_stats.pdf)</font>
-<font color = orange>14:00 – 15:00 -- STUDY structure and scripting for
-EEGLAB studies (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_advanced_and_scripts.pdf)</font>
+<span style="color: orange">13:00 – 14:00 -- Plotting measures and computing statistics for EEGLAB studies (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_plot_stats.pdf)</span>
+
+<span style="color: orange">14:00 – 15:00 -- STUDY structure and scripting for EEGLAB studies (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_advanced_and_scripts.pdf)</span>
 <!-- -->
 
 
 
-<font color = green>-- Break--</font>
-
-<!-- -->
-
-
-
-<font color = orange>15:15 – 16:00 -- Trial-by-trial data visualization
-and accessing raw data (Julie
-Onton)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/4_singletrialscripting.pdf)</font>
-<!-- -->
-
-
-
-<font color = orange>16:00 – 19:00-- Practicum on datasets and results
-presentation</font>
-
-<!-- -->
-
-
-<font color=green>19:00 -- Dinner </font>
-
-<u><font color=blue>Monday, June 18th</font></u>
-
-
-<font color=green>7:30-8:30 -- Breakfast</font>
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
 
 
-<font color=purple>8:30 – 9:00 -- Mining event-related brain dynamics II
-(Scott Makeig)</font>
-
-<font color=purple>9:00 – 9:30 -- The near future of wireless EEG and
-mobile brain/body imaging (Tzyy Ping Jung)</font>
-
-<font color=orange>9:30 – 10:00 -- Building and publishing EEGLAB
-plug-ins (Arnaud Delorme)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_eeglab_plugins.pdf)</font>
+<span style="color: orange">15:15 – 16:00 -- Trial-by-trial data visualization and accessing raw data (Julie Onton)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/4_singletrialscripting.pdf)</span>
 <!-- -->
 
 
 
-<font color = green>-- Break--</font>
+<span style="color: orange">16:00 – 19:00-- Practicum on datasets and results presentation</span>
+
+<!-- -->
+
+
+<span style="color: green">19:00 -- Dinner </span>
+
+<u><span style="color: blue">Monday, June 18th</span></u>
+
+
+<span style="color: green">7:30-8:30 -- Breakfast</span>
 
 <!-- -->
 
 
 
-<font color=purple>10:30 – 11:30 -- Brain-computer interface (BCI)
-design: Theory and practice (Christian Kothe)</font>
+<span style="color: purple">8:30 – 9:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>
 
-<font color=orange>11:30 – 12:30 -- Using BCILAB (Christian
-Kothe)</font>
+<span style="color: purple">9:00 – 9:30 -- The near future of wireless EEG and mobile brain/body imaging (Tzyy Ping Jung)</span>
+
+<span style="color: orange">9:30 – 10:00 -- Building and publishing EEGLAB plug-ins (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_eeglab_plugins.pdf)</span>
+<!-- -->
+
+
+
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
 
-<font color=green>12:30 - 13:30 Lunch</font>
+
+<span style="color: purple">10:30 – 11:30 -- Brain-computer interface (BCI) design: Theory and practice (Christian Kothe)</span>
+
+<span style="color: orange">11:30 – 12:30 -- Using BCILAB (Christian Kothe)</span>
 
 <!-- -->
 
 
-<font color=green>14:00 – 17:30 -- Excursion</font>
-
-
-<font color=orange>17:30 – 18:30 -- Final discussion (Makeig, Jung,
-Delorme and all)</font>
+<span style="color: green">12:30 - 13:30 Lunch</span>
 
 <!-- -->
 
 
-<font color = green>18:30 workshop ends</font>
+<span style="color: green">14:00 – 17:30 -- Excursion</span>
+
+
+<span style="color: orange">17:30 – 18:30 -- Final discussion (Makeig, Jung, Delorme and all)</span>
+
+<!-- -->
+
+
+<span style="color: green">18:30 workshop ends</span>
 

@@ -51,9 +51,9 @@ were welcome to attend or participate in this discussion.
 Workshop Agendas
 ----------------
 
-Key: <font color = purple>Lecture</font>,
-<font color = darkblue>Practicum</font>,
-<font color = green>Break</font>
+Key: <span style="color: purple">Lecture</span>,
+<span style="color: darkblue">Practicum</span>,
+<span style="color: green">Break</span>
 
 I. Novice EEGLAB Workshop -- Thursday, Sept. 22
 -----------------------------------------------
@@ -68,9 +68,7 @@ UCSD, and originator of EEGLAB methods will give an introductory talk on
 evolving methods for analyzing EEG dynamics.
 
 Novice workshop topics will include:
-::• Data import and preprocessing options
-
-
+• Data import and preprocessing options
 
 • Basic independent component analysis (ICA) theory and application
 
@@ -82,110 +80,86 @@ Novice workshop topics will include:
 
 Note: Because of time limitations, the Novice workshop will NOT
 include:
-::• New, more advanced toolboxes (NFT, SIFT, BCILAB, MPT)
-
-
+• New, more advanced toolboxes (NFT, SIFT, BCILAB, MPT)
 
 • Mathematical derivations of the algorithms discussed
 
 These topics will be covered in the Advanced EEGLAB workshop (described
 below).
 
-<font color=blue><b>Program</b></font>
+<span style="color: blue><b>Program</b"></span>
 
-
-<font color = purple>08:30 -- 09:15am -- Mining event-related brain
-dynamics (Scott
-Makeig)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_mallorca_i.pdf)</font>
+<span style="color: purple">08:30 -- 09:15am -- Mining event-related brain dynamics (Scott Makeig)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_mallorca_i.pdf)</span>
 <!-- -->
 
 
-<font color = red>09:15 -- 10:15am -- Introduction and getting started
-with EEGLAB (Julie Onton)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/1_gettingstarted_eeglab.pdf)</font>
+<span style="color: red">09:15 -- 10:15am -- Introduction and getting started with EEGLAB (Julie Onton) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/1_gettingstarted_eeglab.pdf)</span>
 
 
-<font color = darkblue>Data import - Preprocessing tools and pipeline -
-Running ICA decomposition </font>
+<span style="color: darkblue">Data import - Preprocessing tools and pipeline - Running ICA decomposition </span>
 
 <!-- -->
 
 
-<font color = green>10:15 -- 10:30 BREAK</font>
+<span style="color: green">10:15 -- 10:30 BREAK</span>
 
 <!-- -->
 
 
-<font color = red>10:30 -- 11:15 -- Evaluating ICA components (ICs)
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/2_evaluatingics.pdf)</font>
+<span style="color: red">10:30 -- 11:15 -- Evaluating ICA components (ICs) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/2_evaluatingics.pdf)</span>
 
 
-<font color = darkblue>Apply ICA weights - IC scalp map interpretation -
-Basic IC evaluation - Identify artifact ICs</font>
+<span style="color: darkblue">Apply ICA weights - IC scalp map interpretation - Basic IC evaluation - Identify artifact ICs</span>
 
 <!-- -->
 
 
-<font color = red>11:15 -- 12:15 -- IC analysis tools
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/3_ic_analysis_tools.pdf)</font>
+<span style="color: red">11:15 -- 12:15 -- IC analysis tools [(PDF)](https://sccn.ucsd.edu/githubwiki/files/3_ic_analysis_tools.pdf)</span>
 
 
-<font color = darkblue>Removing ICs and back-projection - IC ERP
-envelope - IC ERP images - Time-frequency analysis - IC Event-related
-spectral perturbations (ERSPs) - IC Cross coherence</font>
+<span style="color: darkblue">Removing ICs and back-projection - IC ERP envelope - IC ERP images - Time-frequency analysis - IC Event-related spectral perturbations (ERSPs) - IC Cross coherence</span>
 
 <!-- -->
 
 
-<font color = green>12:15 -- 13:30 LUNCH</font>
+<span style="color: green">12:15 -- 13:30 LUNCH</span>
 
 <!-- -->
 
 
-<font color = red>13:30 -- 14:30 -- EEGLAB 'EEG' structure and basic
-Matlab scripting [(PDF)](https://sccn.ucsd.edu/githubwiki/files/4_basic_scripting.pdf)</font>
+<span style="color: red">13:30 -- 14:30 -- EEGLAB 'EEG' structure and basic Matlab scripting [(PDF)](https://sccn.ucsd.edu/githubwiki/files/4_basic_scripting.pdf)</span>
 
 
-<font color = darkblue>‘EEG’ structure overview - ‘EEG’ structure
-overview - Search EEG.event structure - Matlab functions - Converting
-from ‘pop’ functions to output functions</font>
+<span style="color: darkblue">‘EEG’ structure overview - ‘EEG’ structure overview - Search EEG.event structure - Matlab functions - Converting from ‘pop’ functions to output functions</span>
 
 <!-- -->
 
 
-<font color = red>14:30 -- 15:15 – Equivalent dipole modeling
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/5_dipolemodeling.pdf)</font>
+<span style="color: red">14:30 -- 15:15 – Equivalent dipole modeling [(PDF)](https://sccn.ucsd.edu/githubwiki/files/5_dipolemodeling.pdf)</span>
 
 
-<font color = darkblue>Co-registration of electrodes with head model -
-Dipole fitting using Fieldtrip's dipfit function - Co-registration for
-3D headplots</font>
+<span style="color: darkblue">Co-registration of electrodes with head model - Dipole fitting using Fieldtrip's dipfit function - Co-registration for 3D headplots</span>
 
 <!-- -->
 
 
-<font color = green>15:15 -- 15:30 BREAK</font>
+<span style="color: green">15:15 -- 15:30 BREAK</span>
 
 <!-- -->
 
 
-<font color = red>15:30 -- 16:30 -- Introduction to EEGLAB STUDY
-structure [(PDF)](https://sccn.ucsd.edu/githubwiki/files/6_study_intro.pdf)</font>
+<span style="color: red">15:30 -- 16:30 -- Introduction to EEGLAB STUDY structure [(PDF)](https://sccn.ucsd.edu/githubwiki/files/6_study_intro.pdf)</span>
 
 
-<font color = darkblue>Build a STUDY - Precompute, precluster, and
-cluster ICs across subjects - Plot and edit STUDY clusters</font>
+<span style="color: darkblue">Build a STUDY - Precompute, precluster, and cluster ICs across subjects - Plot and edit STUDY clusters</span>
 
 <!-- -->
 
 
-<font color = red>15:30 -- 17:30 -- Advanced STUDY scripting
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/7_study_scripting.pdf)</font>
+<span style="color: red">15:30 -- 17:30 -- Advanced STUDY scripting [(PDF)](https://sccn.ucsd.edu/githubwiki/files/7_study_scripting.pdf)</span>
 
 
-<font color = darkblue>Build a STUDY from the command line - STUDY
-structure overview - Cluster ERP image - Accessing raw STUDY data
-measures</font>
+<span style="color: darkblue">Build a STUDY from the command line - STUDY structure overview - Cluster ERP image - Accessing raw STUDY data measures</span>
 
 <hr>
 
@@ -203,9 +177,7 @@ theory.
 
 In addition, participants should be comfortable with using Matlab
 including performing the following operations using EEGLAB:
-::• Performing ICA decompositions and evaluating ICA component
-
-
+• Performing ICA decompositions and evaluating ICA component
 
 • Obtaining equivalent dipole models of independent components using
 DIPFIT
@@ -214,19 +186,9 @@ DIPFIT
 
 • Building an EEGLAB data STUDY
 
-Interested participants who do not have the above background are
-strongly encouraged to study the relevant parts of the extensive
-<b>Online EEGLAB Tutorial</b>(http://sccn.ucsd.edu/wiki/EEGLAB), to go
-through the relevant video/slide lectures and practica in the <b>Online
-EEGLAB Workshop</b> (http://sccn.ucsd.edu/wiki/Online_EEGLAB_Workshop),
-and to consider attending the <b>Novice EEGLAB Workshop</b> (described
-above).
-
 Advanced workshop topics will include:
-::• Applying adaptive-mixture ICA (Amica) to non-stationary EEG source
+• Applying adaptive-mixture ICA (Amica) to non-stationary EEG source
 dynamics
-
-
 
 • Using Measure Projection analysis of multi-subject ICA-resolved EEG
 dynamics
@@ -243,17 +205,15 @@ Participants are expected to bring a laptop with Matlab and EEGLAB
 installed to work on (detailed instructions will be sent out before the
 workshop). Pairs of participants may also choose to share a laptop.
 
-<font color = blue><b>Preliminary Program -- Friday, Sept. 23</b></font>
+<span style="color: blue><b>Preliminary Program -- Friday, Sept. 23</b"></span>
 
 
-<font color = purple>08:30 – 09:00 -- Welcome, introductions and brief
-overview (Scott Makeig)</font>
+<span style="color: purple">08:30 – 09:00 -- Welcome, introductions and brief overview (Scott Makeig)</span>
 
 <!-- -->
 
 
-<b>Session A – Adaptive mixture independent component analysis (AMICA)
-decomposition (Jason Palmer)</b>
+<b>Session A – Adaptive mixture independent component analysis (AMICA) decomposition (Jason Palmer)</b>
 
 <!-- -->
 
@@ -270,30 +230,21 @@ interpreting the results of Amica decomposition will be demonstrated.
 
 
 
-<font color = purple>09:00 -- 09:45 ICA methods overview, with
-motivation for and derivation of Amica
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/ica_mallorca.pdf)</font>
-<font color = darkblue>09:45 -- 10:45 Amica toolbox practicum</font>
+<span style="color: purple">09:00 -- 09:45 ICA methods overview, with motivation for and derivation of Amica [(PDF)](https://sccn.ucsd.edu/githubwiki/files/ica_mallorca.pdf)</span>
+
+<span style="color: darkblue">09:45 -- 10:45 Amica toolbox practicum</span>
 
 
-<font color = green>10:45 -- 11:00 BREAK</font>
-
-<!-- -->
-
-
-<b>Session B -- Improving EEG source estimation using the
-Neuroelectromagnetic Forward Head Modeling Toolbox (NFT) (Zeynep Akalin
-Acar)</b>
+<span style="color: green">10:45 -- 11:00 BREAK</span>
 
 <!-- -->
 
 
+<b>Session B -- Improving EEG source estimation using the Neuroelectromagnetic Forward Head Modeling Toolbox (NFT) (Zeynep Akalin Acar)</b>
 
-This session will give an overview of the forward head modeling problem
-and its approaches, followed by a demonstration of using NFT tools
-(http://sccn.ucsd.edu/wiki/NFT) to derive forward head models from
-subject MR images and/or recorded electrode positions, and using such
-models to estimate source locations.
+<!-- -->
+
+
 
 <!-- -->
 
@@ -309,212 +260,102 @@ practicum](ftp://sccn.ucsd.edu/pub/julie/extra.zip)
 
 
 
-<font color = purple>11:00 -- 12:00 -- Forward head modeling
-overview[(PDF)](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_forward_problem_of_eeg.pdf)</font>
+<span style="color: purple">11:00 -- 12:00 -- Forward head modeling overview[(PDF)](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_forward_problem_of_eeg.pdf)</span>
 <!-- -->
 
 
 
-<font color = green>12:00 -- 13:30 LUNCH</font>
-
-<!-- -->
-
-
-
-<font color = darkblue>13:30 -- 14:30 -- NFT head modeling toolbox
-practicum[(PDF)](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_nft_practicum.pdf)</font>
-<!-- -->
-
-
-<b>Session C -- Comparing EEG dynamics across subjects using the Measure
-Projection Analysis (MPA) toolbox (Nima Bigdely Shamlo)</b>
+<span style="color: green">12:00 -- 13:30 LUNCH</span>
 
 <!-- -->
 
 
 
-This session will address multi-subject EEG source analysis and will
-introduce a novel probabilistic method, Measure Projection Analysis
-(MPA, [wiki is located here](http://sccn.ucsd.edu/wiki/MPT)), to study
-and visualize the consistency of independent component localization and
-activities across subjects, groups, and/or conditions.
+<span style="color: darkblue">13:30 -- 14:30 -- NFT head modeling toolbox practicum[(PDF)](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_nft_practicum.pdf)</span>
+<!-- -->
+
+
+<b>Session C -- Comparing EEG dynamics across subjects using the Measure Projection Analysis (MPA) toolbox (Nima Bigdely Shamlo)</b>
+
+<!-- -->
+
 
 <!-- -->
 
 
 
-<font color = purple>14:30 – 15:30 – Measure projection analysis theory
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/measure_projection_eeglab_11_mallorca.pdf)</font>
+<span style="color: purple">14:30 – 15:30 – Measure projection analysis theory [(PDF)](https://sccn.ucsd.edu/githubwiki/files/measure_projection_eeglab_11_mallorca.pdf)</span>
 <!-- -->
 
 
 
-<font color = green>15:30 -- 15:45 BREAK</font>
-
-<!-- -->
-
-
-
-<font color = darkblue>15:45 -- 17:30 -- Measure projection analysis
-practicum
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_of_measure_projection_eeglab_11_mallorca.pdf)</font>
-<font color = blue><b>Preliminary Program -- Saturday, Sept.
-24</b></font>
-
-
-<b>Session D -- Analyzing oscillatory EEG/ECoG source dynamics and
-interactions using the Source Information Flow Toolbox (SIFT) (Tim
-Mullen)</b>
+<span style="color: green">15:30 -- 15:45 BREAK</span>
 
 <!-- -->
 
 
 
-This session will survey contemporary computational approaches for
-analyzing oscillatory dynamics and synchronization/information flow in
-electrophysiological data. Topics will include the basic theory and
-practical issues surrounding estimation of Granger causality, Partial
-Directed Coherence and related information flow measures, phase-locking
-value, and phase-amplitude coupling. Participants will gain hands-on
-expertise in modeling and visualizing effective connectivity and
-synchronization between quasi-independent sources of EEG activity using
-the Source Information Flow Toolbox (SIFT)
-(http://sccn.ucsd.edu/wiki/SIFT).
+<span style="color: darkblue">15:45 -- 17:30 -- Measure projection analysis practicum [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_of_measure_projection_eeglab_11_mallorca.pdf)</span>
+
+<span style="color: blue><b>Preliminary Program -- Saturday, Sept.24</b"></span>
+
+
+<b>Session D -- Analyzing oscillatory EEG/ECoG source dynamics and interactions using the Source Information Flow Toolbox (SIFT) (Tim Mullen)</b>
+
+
+<span style="color: purple">8:30 -- 10:00 am -- Analyzing Oscillatory Dynamics and Effective Connectivity </span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab_icon_mullen_sift.pdf)
+
+
+
+<span style="color: green">10:00 -- 10:30 BREAK</span>
 
 <!-- -->
 
 
 
-<font color = purple>8:30 -- 10:00 am -- Analyzing Oscillatory Dynamics
-and Effective Connectivity
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab_icon_mullen_sift.pdf)
+<span style="color: darkblue">10:30 --12:00 -- Using the Source Information Flow Toolbox: practicum</span> [(PDF)](http://sccn.ucsd.edu/mediawiki/images/d/d2/SIFT_manual_0.1a.pdf)
 
 
-Phase-amplitude coupling
 
-Phase-locking value
 
-Adaptive vector autoregressive models
 
-Granger-causality, Partial Directed Coherence
 
-Directed Transfer Functions, and related effective connectivity
-measures</font>
+<span style="color: green">12:00 -- 13:30 LUNCH</span>
+
+<!-- -->
+
+
+<b>Session E -- Statistical Learning Theory and Brain-Machine Interface Design (Christian Kothe)</b>
 
 <!-- -->
 
 
 
-<font color = green>10:00 -- 10:30 BREAK</font>
+<!-- -->
+
+
+
+[Slides from Christian's lecture.](ftp://sccn.ucsd.edu/pub/bcilab/mallorca/Workshop2011-Theory.pdf)
 
 <!-- -->
 
 
 
-<font color = darkblue>10:30 --12:00 -- Using the Source Information
-Flow Toolbox: practicum [\|
-(PDF)](http://sccn.ucsd.edu/mediawiki/images/d/d2/SIFT_manual_0.1a.pdf)
+<span style="color: purple">13:30 -- 15:00 -- Statistical machine learning and Brain-Computer Interface design </span>
 
 
 
-Getting started with SIFT
-
-Vector Autoregressive Model Fitting and Validation
-
-Connectivity Analysis (Granger Causality, Partial Coherence, Directed
-Transfer)
-
-Computing reliability of network activity
-
-Visualizing source connectivity across time, frequency and space
-
-Group analysis using causal projection and other techniques</font>
+<span style="color: green">115:00 -- 15:30 BREAK</span>
 
 <!-- -->
 
 
 
-<font color = green>12:00 -- 13:30 LUNCH</font>
-
-<!-- -->
-
-
-<b>Session E -- Statistical Learning Theory and Brain-Machine Interface
-Design (Christian Kothe)</b>
-
-<!-- -->
+<span style="color: darkblue">15:30 -- 17:30 -- Using BCILAB to design and run BCI, cognitive monitoring, and neurofeedback experiments / applications </span> [PDF](https://sccn.ucsd.edu/githubwiki/files/workshop_2011_-_practicum.pdf)
 
 
 
-This session will introduce the research areas of Brain-Computer
-Interface (or brain-machine interface) design and cognitive monitoring.
-Central concepts and challenges will be reviewed, and a selection of
-existing and emerging computational approaches will be examined. The
-presentation will focus on the use of oscillatory processes, with less
-focus on ERP-like phenomena. An introduction to creating BCILAB scripts
-and extensions will be included. In the practicum, participants will
-gain hands-on experience in designing, constructing, evaluating,
-visualizing and running BCI models using the open-source BCILAB software
-(http://sccn.ucsd.edu/wiki/BCILAB).
-
-<!-- -->
-
-
-
-[Slides from Christian's
-lecture.](ftp://sccn.ucsd.edu/pub/bcilab/mallorca/Workshop2011-Theory.pdf)
-
-<!-- -->
-
-
-
-<font color = purple>13:30 -- 15:00 -- Statistical machine learning and
-Brain-Computer Interface design
-
-
-
-Construction, learning and testing of predictive models (signal
-processing, machine learning, cross-validation)
-
-Spatial filters for spectral BCI measures (CSP, ICA, DAL)
-
-Capturing spectral structure (DFT, time-frequency representations)
-
-Complexity control and regularization (sparsity norms, priors, nested
-cross-val)
-
-Imposing prior knowledge in space, time and frequency (Talairach,
-DIPFIT, etc.)
-
-Scaling to large / heterogenous data sources (across sessions, subjects,
-and/or task conditions).</font>
-
-<!-- -->
-
-
-
-<font color = green>115:00 -- 15:30 BREAK</font>
-
-<!-- -->
-
-
-
-<font color = darkblue>15:30 -- 17:30 -- Using BCILAB to design and run
-BCI, cognitive monitoring, and neurofeedback experiments / applications
-[(Download the PDF slide
-instructions)](https://sccn.ucsd.edu/githubwiki/files/workshop_2011_-_practicum.pdf‎)
-
-
-Getting started with BCILAB
-
-Learning, evaluating and visualizing spectral models: from simple to
-advanced
-
-Offline and online data processing
-
-BCILAB scripting, customization, and plug-in authoring</font>
-
-<font color = blue><b>Preliminary Program -- Sunday, Sept. 25</b></font>
+<span style="color: blue><b>Preliminary Program -- Sunday, Sept. 25</b></span>
 
 
 <b>Session F - Workshop Review, Results, and Discussion</b>
@@ -523,93 +364,42 @@ BCILAB scripting, customization, and plug-in authoring</font>
 
 
 
-<font color = purple>09:00 -- 10:00 -- EEG Research: Current and Future
-Directions (Scott Makeig)</font>
+<span style="color: purple">09:00 -- 10:00 -- EEG Research: Current and Future Directions (Scott Makeig)</span>
 
 <!-- -->
 
 
 
-<font color = darkblue>10:00 -- 10:30 -- Group practica results
-preparation</font>
+<span style="color: darkblue">10:00 -- 10:30 -- Group practica results preparation</span>
 
 <!-- -->
 
 
 
-<font color = green>10:30 -- 10:45 BREAK</font>
+<span style="color: green">10:30 -- 10:45 BREAK</span>
 
 <!-- -->
 
 
 
-<font color = darkblue>10:45 -- 12:00 -- Group practica results
-presentations and general discussion</font>
-
-<hr>
+<span style="color: darkblue">10:45 -- 12:00 -- Group practica results presentations and general discussion</span>
 
 III. EEGLAB Workshop Open Discussion Session -- Sunday, Sept. 25, 13:30 - 16:30
 -------------------------------------------------------------------------------
 
-This will be a topic-focused discussion bringing together EEGLAB tool
-developers, advanced users, and computationally-inclined members of the
-cognitive neuroscience community as well as others interested to discuss
-the current state and future development of open-source EEG/ECoG
-analysis software within or connecting to the EEGLAB framework. This
-discussion will be open to all ICON participants -- any and all are
-welcome to attend and participate.
 
-<font color = red> This discussion will take place at the Hotel Palas
-Atenea (second floor hall, by the pool) </font>
-
-
-<font color = purple>13:30-16:30 -- Evolving Methods and Tools for
-EEG/ECoG Research (preliminary agenda)</font>
-
-<font color = purple>
+<span style="color: purple">13:30-16:30 -- Evolving Methods and Tools for EEG/ECoG Research (preliminary agenda)</span>
 
 
 
-<font color=darkblue>1. Introduction -- Framing remarks and EEGLAB
-overview (Scott Makeig)</font>
+
+<span style="color: darkblue">1. Introduction -- Framing remarks and EEGLAB overview (Scott Makeig)</span>
 
 
 
-Designed EEGLAB uses and architecture
-
-Use of the Matlab platform
-
-Extending the EEGLAB plug-in mechanism
-
-Building an online user community and collaborative network
-
-Bridging to other open source tools and data collection systems
-
-Multimodal data collection software -- ERICA and other efforts
-
-Data and tools archive development -- HeadIT and other efforts
-
-<!-- -->
 
 
 
-<font color=darkblue>2. Advanced EEGLAB-compatible tools and directions
-(Panel)</font>
-
-
-
-Spatial source decomposition tools (Jason Palmer & TBN)
-
-Forward and inverse head modeling tools (TBN)
-
-Subject group analysis tools (Nima Bigdeley Shamlo)
-
-Oscillatory dynamics analysis tools (Tim Mullen & TBN)
-
-Information flow, synchronization, and causal network tools (Tim Mullen)
-
-Brain-computer interface tools and directions (Christian Kothe)
-
-</font>
+<span style="color: darkblue">2. Advanced EEGLAB-compatible tools and directions (Panel)</span>
 
 

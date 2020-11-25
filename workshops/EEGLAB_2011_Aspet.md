@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2011 Aspet
 permalink: /workshops/EEGLAB_2011_Aspet.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Cows breeding in the Pyrenees moutain range]({{ site.baseurl }}/assets/images/Cow-breeds.jpg)
@@ -11,7 +11,7 @@ nav_exclude:true
 Thirteenth EEGLAB Workshop
 ==========================
 
-<font color=blue>Aspet, France - June 20-23, 2011</font>
+<span style="color: blue">Aspet, France - June 20-23, 2011</span>
 The 13th EEGLAB Workshops will take place from Monday June 20th through
 Thursday June 23rd in the village of Aspet in the Pyrenees mountains in
 France. Participants will be expected to bring laptops with Matlab
@@ -29,130 +29,14 @@ expositions and practical exercises.
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
-<font color=purple>Purple lettering = lecture</font>
-<font color=orange>Orange lettering = tutorial</font>
+<span style="color: purple">Purple lettering = lecture</span>
+<span style="color: orange">Orange lettering = tutorial</span>
 
-<u><font color=blue>Sunday, June 19</font></u>
 
+<u><span style="color: blue">Tuesday, June 21st</span></u>
 
-16:30 -- train station shuttle pick up
 
-17:00 -- shuttle aiport pick up
-
-<font color = green>
-
-
-19:00 -- diner (included in registration)</font>
-
-<u><font color=blue>Monday, June 20st</font></u> <b>- Symposium on EEG
-advanced signal processing</b>
-
-
-<font color = green>7:00 - 8:45 Breakfast</font>
-
-
-8:45 – 9:00 -- Arnaud Delorme, opening remarks.
-
-<!-- -->
-
-
-<b>Independent component analysis</b> (moderator Guillaume Rousselet)
-
-<font color = purple>
-
-
-
-9:00 – 9:30 -- Arnaud Delorme, Toulouse, France & San Diego, USA. More
-independent ICA decompositions are more biologically plausible.
-
-9:30 – 10:00 -- Scott Makeig, San Diego, USA. Mobile brain imaging: ICA
-based analysis methods and directions.
-
-10:00 – 10:30 -- Marco Congedo, Grenoble, France. Recent Advances on
-Joint EEG Decomposition and Sparse Spatially Filtered Classification.
-
-</font>
-
-
-
-<font color = green>-- Break--</font>
-
-<!-- -->
-
-
-<b>EEG spatio-temporal analysis methods</b> (moderator Tim Mullen)
-
-<font color = purple>
-
-
-
-11:00 – 11:30 -- Boris Burle, Marseille, France. Improving spatial (and
-temporal...) resolution of EEG: different methods, different
-assumptions...
-
-11:30 - 12:00 -- Christian Benar, Marseille, France. Investigation of
-networks involved in interictal epileptiform discharges by MEG and
-intracerebral EEG
-
-</font>
-
-
-
-<font color = green>-- Lunch Break (included in registration)--</font>
-
-<!-- -->
-
-
-<b>EEG statistical analysis</b> (moderator Scott Makeig)
-
-<font color = purple>
-
-
-
-1:30 – 2:00 -- Robert Oostenveld, Nijmegen, The Nederlands.
-Randomization tests as a general workhorse for statistical inference on
-EEG data.
-
-2:00 – 2:30 -- Cyril Pernet, Edinburg, UK. Hierarchical Linear Modeling
-for MEEG data: current approaches and future directions
-[PDF](https://sccn.ucsd.edu/githubwiki/files/11_aspet_eeglab_symposium_pernet.pdf‎)
-2:30 – 3:00 -- Guillaume Rousselet, Glasgow, UK. Robust statistics for
-EEG data analyses: central tendency, dispersion, and inferences.
-[PDF](https://sccn.ucsd.edu/githubwiki/files/11_aspet_eeglab_symposium_rousselet.pdf‎)
-</font>
-
-
-
-<font color = green>-- Break--</font>
-
-<!-- -->
-
-
-<b>EEG causal network analysis</b> (moderator Christian Benar)
-
-<font color = purple>
-
-
-
-3:30 – 4:00 -- Tim Mullen, San Diego, USA. Modeling multivariate EEG
-source information flow using adaptive vector autoregressive models.
-
-4:00 – 4:30 -- Olivier David, Grenoble, France. Dynamic causal modeling.
-
-4:30 – 5:00 -- General discussion.
-
-5:00 -- Symposium ends.
-
-</font>
-
-
-<font color = orange>5:30 – 6:30 -- Matlab refresher course
-(optional).</font>
-
-<u><font color=blue>Tuesday, June 21st</font></u>
-
-
-<font color = green>7:30 - 8:30 Breakfast</font>
+<span style="color: green">7:30 - 8:30 Breakfast</span>
 
 <!-- -->
 
@@ -160,24 +44,21 @@ source information flow using adaptive vector autoregressive models.
 **Overview and ICA Theory/Practice**
 
 
-<font color = purple>8:30 – 9:30 -- Mining event-related brain dynamics
-I (Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_sm_mining_brain_dynamics.pdf‎)
-<font color = purple>9:30 – 10:00 -- EEGLAB overview (Arnaud
-Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_eeglab_overview.pdf‎)
+<span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_sm_mining_brain_dynamics.pdf)
 
-<font color = green>-- Break--</font>
+<span style="color: purple">9:30 – 10:00 -- EEGLAB overview (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_eeglab_overview.pdf)
 
-<font color = purple>10:30 – 11:15 -- ICA theory (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_lecture_ica.pdf‎)
-<font color = orange>11:15 – 12:00 -- Data import, Artifact rejection
-and running ICA (Claire Braboszcz)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_cb_evaluate_ic.pdf‎)
+<span style="color: green">-- Break--</span>
+
+<span style="color: purple">10:30 – 11:15 -- ICA theory (Arnaud Delorme)</span>
+[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_lecture_ica.pdf)
+
+<span style="color: orange">11:15 – 12:00 -- Data import, Artifact rejection and running ICA (Claire Braboszcz)</span>
+[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_cb_evaluate_ic.pdf)
 <!-- -->
 
 
-<font color = green>12:00-13:00 Lunch --</font>
+<span style="color: green">12:00-13:00 Lunch --</span>
 
 <!-- -->
 
@@ -185,9 +66,9 @@ and running ICA (Claire Braboszcz)</font>
 **ICA, time-frequency and information flow**
 
 
-<font color = purple>13:00 – 14:00 -- Evaluating ICA components (Claire
-Braboszcz)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_cb_evaluate_ic.pdf‎)
+<span style="color: purple">13:00 – 14:00 -- Evaluating ICA components (Claire Braboszcz)</span>
+[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_cb_evaluate_ic.pdf)
+
 <font color = purple>14:00 – 15:00 -- Time-Frequency decompositions and
 practicum (Tim Mullen)</font>
 [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_time_frequency.pdf)
@@ -195,34 +76,32 @@ practicum (Tim Mullen)</font>
 
 
 
-<font color=green>-- Break –</font>
+<span style="color: green">-- Break –</span>
 
 <!-- -->
 
 
 
-<font color=purple>15:30 – 16:30 -- SIFT toolbox: Information flow and
-granger causality tools (Tim Mullen)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_sift.pdf‎), [SIFTmanual](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_sift.pdf‎)
-<font color=orange>16:30 – 17:30 -- SIFT toolbox: practicum (Tim
-Mullen)</font>
+<span style="color: purple">15:30 – 16:30 -- SIFT toolbox: Information flow and granger causality tools (Tim Mullen)</span>
+[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_sift.pdf), [SIFTmanual](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_sift.pdf)
+
+<span style="color: orange">16:30 – 17:30 -- SIFT toolbox: practicum (Tim Mullen)</span>
 
 <!-- -->
 
 
 
-<font color=orange>17:30 – 19:00 -- Data and workstation
-available</font>
+<span style="color: orange">17:30 – 19:00 -- Data and workstation available</span>
 
 <!-- -->
 
 
-<font color = green>19:00 -- Dinner</font>
+<span style="color: green">19:00 -- Dinner</span>
 
-<u><font color=blue>Wednesday, June 22nd</font></u>
+<u><span style="color: blue">Wednesday, June 22nd</span></u>
 
 
-<font color = green>7:30 - 8:30 Breakfast</font>
+<span style="color: green">7:30 - 8:30 Breakfast</span>
 
 <!-- -->
 
@@ -230,17 +109,16 @@ available</font>
 **Source Localization**
 
 
-<font color = purple>8:30 – 9:30 -- Forward and inverse models - the
-Dipfit plugin (Robert Oostenveld)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ro_source_modeling.pdf‎)
-<font color = purple>9:30 – 10:00 -- Why cluster independent components
-(Scott Makeig)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_sm_why_cluster.pdf‎)
+<span style="color: purple">8:30 – 9:30 -- Forward and inverse models - the Dipfit plugin (Robert Oostenveld)</span>
+[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ro_source_modeling.pdf)
+
+<span style="color: purple">9:30 – 10:00 -- Why cluster independent components (Scott Makeig)</span>
+[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_sm_why_cluster.pdf)
 <!-- -->
 
 
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
@@ -248,15 +126,13 @@ Dipfit plugin (Robert Oostenveld)</font>
 **Component Clustering**
 
 
-<font color = orange>10:30 – 11:00 -- creating STUDY designs (Arnaud
-Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_study_design.pdf‎)
-<font color= orange>11:00 – 12:00 -- Independent Component Clustering
-(Romain Grandchamp)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_rm_study_clustering.pdf‎)
+<span style="color: orange">10:30 – 11:00 -- creating STUDY designs (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_study_design.pdf)
+
+<span style="color:  orange">11:00 – 12:00 -- Independent Component Clustering (Romain Grandchamp)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_rm_study_clustering.pdf)
 <!-- -->
 
 
-<font color=green>12:00-13:00 Lunch --</font>
+<span style="color: green">12:00-13:00 Lunch --</span>
 
 <!-- -->
 
@@ -264,63 +140,59 @@ Delorme)</font> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_study
 **Processing multiple subjects using STUDY tools**
 
 
-<font color = purple>13:00 – 13:30 -- Statistical tools implemented
-within EEGLAB and future directions (Guillaume Rousselet)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/11_aspet_eeglab_statistics.pdf‎)
-<font color = orange>13:30 – 14:30 -- Plotting measures and computing
-statistics in with studies (Arnaud Delorme)</font>
-[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_study_plot_stats‎.pdf)
-<font color = orange>14:30 – 15:30 -- Scripting with studies (Arnaud
-Delorme)</font>
+<span style="color: purple">13:00 – 13:30 -- Statistical tools implemented within EEGLAB and future directions (Guillaume Rousselet)</span>
+[PDF](https://sccn.ucsd.edu/githubwiki/files/11_aspet_eeglab_statistics.pdf)
+
+<span style="color: orange">13:30 – 14:30 -- Plotting measures and computing statistics in with studies (Arnaud Delorme)</span>
+[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_study_plot_stats.pdf)
+
+<span style="color: orange">14:30 – 15:30 -- Scripting with studies (Arnaud Delorme)</span>
 [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_study_advanced_and_scripts.pdf)
 <!-- -->
 
 
-<font color = green>15:30-18:00-- Excursion to
-[Saint-Bertrand-de-Comminges](http://en.wikipedia.org/wiki/Saint-Bertrand-de-Comminges)</font>
+<span style="color: green">15:30-18:00-- Excursion to [Saint-Bertrand-de-Comminges](http://en.wikipedia.org/wiki/Saint-Bertrand-de-Comminges)</span>
 
 <!-- -->
 
 
-<font color=green>19:00 -- Dinner </font>
+<span style="color: green">19:00 -- Dinner </span>
 
-<u><font color=blue>Thursday, June 23rd</font></u>
+<u><span style="color: blue">Thursday, June 23rd</span></u>
 
 
-<font color=green>7:30-8:30 -- Breakfast</font>
+<span style="color: green">7:30-8:30 -- Breakfast</span>
 
 <!-- -->
 
 
 
-<font color=purple>8:30 – 9:30 -- Mining event-related brain dynamics II
-(Scott Makeig)</font>
+<span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics II (Scott Makeig)</span>
 [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_sm_mining_brain_dynamics2.pdf)
-<font color=orange>9:30 – 10:00 -- EEGLAB plugins (Arnaud
-Delorme)</font>
+
+<span style="color: orange">9:30 – 10:00 -- EEGLAB plugins (Arnaud Delorme)</span>
 [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_eeglab_plugins.pdf)
 <!-- -->
 
 
 
-<font color = green>-- Break--</font>
+<span style="color: green">-- Break--</span>
 
 <!-- -->
 
 
 
-<font color=orange>10:30 – 11:30 -- Practicum, project available</font>
+<span style="color: orange">10:30 – 11:30 -- Practicum, project available</span>
 
-<font color=orange>11:30 – 12:00 -- Participant project presentation and
-general discussion</font>
-
-<!-- -->
-
-
-<font color=green>12:00 -- Lunch</font>
+<span style="color: orange">11:30 – 12:00 -- Participant project presentation and general discussion</span>
 
 <!-- -->
 
 
-<font color=green>13:30 -- Airport/train station shuttle leaves</font>
+<span style="color: green">12:00 -- Lunch</span>
+
+<!-- -->
+
+
+<span style="color: green">13:30 -- Airport/train station shuttle leaves</span>
 

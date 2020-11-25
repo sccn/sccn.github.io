@@ -10,7 +10,7 @@ nav_exclude:true
 Twentieth EEGLAB Workshop
 =========================
 
-<font color=blue>Sheffield, UK - September 2-5, 2015</font>
+<span style="color: blue">Sheffield, UK - September 2-5, 2015</span>
 ![center\|750px\|upright=3]({{ site.baseurl }}/assets/images/Sheffield_group_pict.jpg)
 
 EEGLAB is an open-source software environment for electrophysiological
@@ -56,229 +56,180 @@ this conference is provided
 Workshop Preliminary Program
 ----------------------------
 
-<font color=purple>Purple lettering = lecture</font>
-<font color=orange>Orange lettering = tutorial</font>
+<span style="color: purple">Purple lettering = lecture</span>
+<span style="color: orange">Orange lettering = tutorial</span>
 
-### <font color=dodgerblue>Day 1 - Wednesday, 2nd of September, 2015</font>
-
-
-<font color = green>8:30 – 9:00 Morning refreshments at the Bar in The
-Edge</font>
-
-<!-- -->
+### <span style="color: dodgerblue">Day 1 - Wednesday, 2nd of September, 2015</span>
 
 
-
-<font color = purple>9:00 – 10:15 Mining event-related brain dynamics I
-(Scott Makeig)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_lecture_i.pdf‎)
-<font color = purple>10:15 – 10:45 EEGLAB overview (Arnaud
-Delorme)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_eeglab_overview2.pdf‎)
-<!-- -->
-
-
-<font color = green>10:45 – 11:00 Break. Tea and Coffee Served in the
-Bar in The Edge</font>
+<span style="color: green">8:30 – 9:00 Morning refreshments at the Bar in The Edge</span>
 
 <!-- -->
 
 
 
-<font color = purple>11:00 – 11:45 ICA theory (Arnaud Delorme)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_eeglab_lecture_ica2.pdf‎)
-<font color = orange>11:45 – 12:30 ICA evaluation (John Iversen)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_evaluateics_lores.pdf)
+<span style="color: purple">9:00 – 10:15 Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_lecture_i.pdf)
+
+<span style="color: purple">10:15 – 10:45 EEGLAB overview (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_eeglab_overview2.pdf)
 <!-- -->
 
 
-<font color = green>12:30 – 14:00 Lunch Served in The Bar in The
-Edge</font>
-
-<!-- -->
-
-
-
-<font color = orange>14:00 – 15:30 Importing data, rejecting data, and
-performing ICA decomposition (John Iversen)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_preproc.pdf)
-<!-- -->
-
-
-<font color = green>15:30 – 15:45 Break—Tea and Coffee Served in the Bar
-in The Edge</font>
+<span style="color: green">10:45 – 11:00 Break. Tea and Coffee Served in the Bar in The Edge</span>
 
 <!-- -->
 
 
 
-<font color = orange>15:45 – 17:00 Evaluating ICA components practicum
-(John Iversen)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_evaluateics_practicum.pdf),[<font color=blue>Dataset Info](https://sccn.ucsd.edu/githubwiki/files/jri_readme.pdf)
+<span style="color: purple">11:00 – 11:45 ICA theory (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_eeglab_lecture_ica2.pdf)
+
+<span style="color: orange">11:45 – 12:30 ICA evaluation (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_evaluateics_lores.pdf)
 <!-- -->
 
 
-<font color = green>17:00 - 19:00 Poster Session and Social, held in The
-Bar</font>
-
-### <font color=dodgerblue>Day 2 - Thursday, 3rd September, 2015</font>
-
-
-<font color = green>8:30 – 9:00 Morning refreshments at the Bar in The
-Edge</font>
+<span style="color: green">12:30 – 14:00 Lunch Served in The Bar in The Edge</span>
 
 <!-- -->
 
 
 
-<font color = purple>9:00 – 9:45 Why cluster ICA components? (Scott
-Makeig)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_clustering_sheffield15.pdf)
-<font color = orange>9:45 –10:45 Creating a STUDY, STUDY design,
-plotting and statistics (Arnaud Delorme)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_studydesign.pdf)
+<span style="color: orange">14:00 – 15:30 Importing data, rejecting data, and performing ICA decomposition (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_preproc.pdf)
 <!-- -->
 
 
-<font color = green>10:45 -11:00 Break. Tea and Coffee Served in the Bar
-in The Edge</font>
+<span style="color: green">15:30 – 15:45 Break—Tea and Coffee Served in the Bar in The Edge</span>
 
 <!-- -->
 
 
 
-<font color = orange>11:00 - 11:45 EEGLAB STUDY clustering (Arnaud
-Delorme)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_clustering2.pdf)
-<font color = purple>11:45 - 12:30 Statistics (Cyril Pernet)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/multiplecomparisoncorrection.pdf)
+<span style="color: orange">15:45 – 17:00 Evaluating ICA components practicum (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_evaluateics_practicum.pdf),[Dataset Info](https://sccn.ucsd.edu/githubwiki/files/jri_readme.pdf)
 <!-- -->
 
 
-<font color = green>12:30 – 14:00 Lunch Served in The Bar in The
-Edge</font>
+<span style="color: green">17:00 - 19:00 Poster Session and Social, held in The Bar</span>
 
-<!-- -->
-
+### <span style="color: dodgerblue">Day 2 - Thursday, 3rd September, 2015</span>
 
 
-<font color = purple>14:00 – 15:30 LIMO EEG and hierarchical modeling
-(Cyril Pernet)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/hierarchical_linear_modelling_for_meeg.pdf)
-<font color = orange>15:30 – 15:45 LIMO EEGLAB integration (Arnaud
-Delorme)</font> (No PDF)
-
-<!-- -->
-
-
-<font color = green>15:45 – 16:00 Break—Tea and Coffee Served in the Bar
-in The Edge</font>
-
-<!-- -->
-
-
-<font color = green>16:00 - 21:00 Group excursion to Yorkshire Sculpture
-Park. Coaches leave at 16:00</font>
-
-### <font color=dodgerblue>Day 3 - Friday, 4th September, 2015</font>
-
-
-<font color = green>8:30 – 9:00 Morning refreshments at The Bar in The
-Edge</font>
+<span style="color: green">8:30 – 9:00 Morning refreshments at the Bar in The Edge</span>
 
 <!-- -->
 
 
 
-<font color = purple>9:00 – 10:45 Time-frequency decomposition: Theory
-and practice (John Iversen)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_timefrequencytheorypractice_lores.pdf)
+<span style="color: purple">9:00 – 9:45 Why cluster ICA components? (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_clustering_sheffield15.pdf)
+
+<span style="color: orange">9:45 –10:45 Creating a STUDY, STUDY design, plotting and statistics (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_studydesign.pdf)
 <!-- -->
 
 
-<font color = green>10:45 – 11:00 Break—Tea and Coffee Served in the Bar
-in The Edge</font>
+<span style="color: green">10:45 -11:00 Break. Tea and Coffee Served in the Bar in The Edge</span>
 
+<!-- -->
+<span style="color: orange">11:00 - 11:45 EEGLAB STUDY clustering (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_clustering2.pdf)
+
+<span style="color: purple">11:45 - 12:30 Statistics (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/multiplecomparisoncorrection.pdf)
 <!-- -->
 
 
-
-<font color = purple>11:00 – 11:45 Forward and inverse source imaging -
-Dipfit, NFT, and NIST (Scott Makeig)</font>
-[<font color=blue>PDF1](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_dipfit.pdf)[<font color=blue>PDF2](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_nft.pdf)
-<font color = orange>11:45 – 12:30 DIPFIT practicum (Arnaud
-Delorme)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_dipole_modeling.pdf)
-<!-- -->
-
-
-<font color = green>12:30 - 14:00 Lunch Served in The Bar in The
-Edge</font>
+<span style="color: green">12:30 – 14:00 Lunch Served in The Bar in The Edge</span>
 
 <!-- -->
 
 
 
-<font color = orange>14:00 – 15:45 EEGLAB basic and custom scripting
-(John Iversen)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_basicscripting.pdf),[Code](/https://drive.google.com/file/d/0B2myolm32zgoN1poeFNDUzN4RjA/view?usp=sharing "wikilink")
+<span style="color: purple">14:00 – 15:30 LIMO EEG and hierarchical modeling (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/hierarchical_linear_modelling_for_meeg.pdf)
+
+<span style="color: orange">15:30 – 15:45 LIMO EEGLAB integration (Arnaud Delorme)</span> (No PDF)
 
 <!-- -->
 
 
-<font color = green>15:45 – 16:00 Break.Tea and Coffee Served in the Bar
-in The Edge</font>
+<span style="color: green">15:45 – 16:00 Break—Tea and Coffee Served in the Bar in The Edge</span>
 
 <!-- -->
 
 
+<span style="color: green">16:00 - 21:00 Group excursion to Yorkshire Sculpture Park. Coaches leave at 16:00</span>
 
-<font color = orange>16:00 – 17:00 EEGLAB scripting for STUDY data
-(Arnaud Delorme)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_ad_studyscripting.pdf)[<font color=blue>Script.zip](https://sccn.ucsd.edu/githubwiki/files/script.zip)
-### <font color=dodgerblue>Day 4 - Saturday, 5th September, 2015</font>
+### <span style="color: dodgerblue">Day 3 - Friday, 4th September, 2015</span>
 
 
-<font color = green>8:30 – 9:00 Morning refreshments at The Bar in The
-Edge</font>
+<span style="color: green">8:30 – 9:00 Morning refreshments at The Bar in The Edge</span>
 
 <!-- -->
 
 
 
-<font color = purple>9:00 – 10:00 Mining event-related brain dynamics II
-(Scott Makeig)</font>
-
-<font color = purple>10:00 – 10:30 EEGLAB Extensions (Arnaud
-Delorme)</font>
-[<font color=blue>PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_plugins.pdf)
-<font color = orange>10:30 – 10:45 EEGLAB Challenge Practicum
-(all)</font>
-[<font color=blue>Exercices](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_questions.pdf)
+<span style="color: purple">9:00 – 10:45 Time-frequency decomposition: Theory and practice (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_timefrequencytheorypractice_lores.pdf)
 <!-- -->
 
 
-<font color = green>10:45 - 11:00 Break—Tea and Coffee Served in the Bar
-in The Edge</font>
+<span style="color: green">10:45 – 11:00 Break—Tea and Coffee Served in the Bar in The Edge</span>
 
 <!-- -->
 
 
 
-<font color = orange>11:00 – 11:30 EEGLAB Challenge Practicum
-(all)</font>
+<span style="color: purple">11:00 – 11:45 Forward and inverse source imaging - Dipfit, NFT, and NIST (Scott Makeig)</span> [PDF1](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_dipfit.pdf)[PDF2](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_nft.pdf)
 
-<font color = orange>11:30 – 12:30 Participant Challenge presentations,
-Q & A, and closing remarks (all)</font>
+<span style="color: orange">11:45 – 12:30 DIPFIT practicum (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_dipole_modeling.pdf)
+<!-- -->
+
+
+<span style="color: green">12:30 - 14:00 Lunch Served in The Bar in The Edge</span>
 
 <!-- -->
 
 
-<font color = green>12:30 – 13:30 Lunch Served in The Bar in The
-Edge.</font>
+
+<span style="color: orange">14:00 – 15:45 EEGLAB basic and custom scripting (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_basicscripting.pdf),[Code](/https://drive.google.com/file/d/0B2myolm32zgoN1poeFNDUzN4RjA/view?usp=sharing "wikilink")
 
 <!-- -->
 
 
-<font color = green>13:30 - Close</font>
+<span style="color: green">15:45 – 16:00 Break.Tea and Coffee Served in the Bar in The Edge</span>
+
+<!-- -->
+
+
+
+<span style="color: orange">16:00 – 17:00 EEGLAB scripting for STUDY data (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_ad_studyscripting.pdf)[Script.zip](https://sccn.ucsd.edu/githubwiki/files/script.zip)
+
+
+### <span style="color: dodgerblue">Day 4 - Saturday, 5th September, 2015</span>
+
+
+<span style="color: green">8:30 – 9:00 Morning refreshments at The Bar in The Edge</span>
+
+<!-- -->
+
+
+
+<span style="color: purple">9:00 – 10:00 Mining event-related brain dynamics II (Scott Makeig)</span>
+
+<span style="color: purple">10:00 – 10:30 EEGLAB Extensions (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_plugins.pdf)
+
+<span style="color: orange">10:30 – 10:45 EEGLAB Challenge Practicum (all)</span>[Exercices](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_questions.pdf)
+<!-- -->
+
+
+<span style="color: green">10:45 - 11:00 Break—Tea and Coffee Served in the Bar in The Edge</span>
+
+<!-- -->
+
+
+
+<span style="color: orange">11:00 – 11:30 EEGLAB Challenge Practicum (all)</span>
+
+<span style="color: orange">11:30 – 12:30 Participant Challenge presentations, Q & A, and closing remarks (all)</span>
+
+<!-- -->
+
+
+<span style="color: green">12:30 – 13:30 Lunch Served in The Bar in The Edge.</span>
+
+
+
+<span style="color: green">13:30 - Close</span>
 

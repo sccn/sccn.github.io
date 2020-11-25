@@ -12,7 +12,7 @@ Seventh EEGLAB Workshop
 
 ![left]({{ site.baseurl }}/assets/images/Epic.gif) 
 
-<font color=red>7th EEGLAB Workshop</font>
+<span style="color: red">7th EEGLAB Workshop</span>
 <font color=blue>Bloomington, IN
 Apr 20–22, 2009</font>
 (Preceeding the EPIC conference)
@@ -21,32 +21,26 @@ Apr 20–22, 2009</font>
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
-<font color=purple>Purple lettering = lecture</font>
-<font color=orange>Orange lettering = tutorial</font>
+<span style="color: purple">Purple lettering = lecture</span>
+<span style="color: orange">Orange lettering = tutorial</span>
 
-<u><font color=blue>Monday, April 20</font></u>
+<u><span style="color: blue">Monday, April 20</span></u>
 
 
 7:30 - 8:30 am Check-in open and continental breakfast served
 
 **Overview and ICA Theory/Practice**
 
-<font color = purple>
+<span style="color: purple"> 8:30 – 9:30 am -- Mining event-related brain dynamics I (Scott Makeig)</span>([PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_intro.pdf))
 
-
-
-8:30 – 9:30 am -- Mining event-related brain dynamics I (Scott Makeig)
-([PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_intro.pdf‎))
-9:30 – 10:00 am -- EEGLAB overview (Arnaud Delorme)
-([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_eeglaboverview.pdf‎))
+<span style="color: purple"> 9:30 – 10:00 am -- EEGLAB overview (Arnaud Delorme) </span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_eeglaboverview.pdf))
 
 <font color = green>-- Break--</font>
 
-10:20 – 11:05 am -- ICA theory (Arnaud Delorme)
-([PDF](https://sccn.ucsd.edu/githubwiki/files/ica_indiana.pdf‎))
-11:05 – 12:00 pm -- ICA Applications (Julie Onton)
-([PDF](https://sccn.ucsd.edu/githubwiki/files/ica_application.pdf‎))
-</font>
+<span style="color: purple"> 10:20 – 11:05 am -- ICA theory (Arnaud Delorme)</span>([PDF](https://sccn.ucsd.edu/githubwiki/files/ica_indiana.pdf))
+
+<span style="color: purple"> 11:05 – 12:00 pm -- ICA Applications (Julie Onton) </span>
+([PDF](https://sccn.ucsd.edu/githubwiki/files/ica_application.pdf))
 
 
 
@@ -54,85 +48,90 @@ Workshop Program (with corresponding PDFs)
 
 **IC Analysis**
 
-<font color=purple>
 
-
-
-1:00 – 1:40 pm -- Time-Frequency decomopositions (Arnaud Delorme)
+<span style="color: purple">1:00 – 1:40 pm -- Time-Frequency decomopositions (Arnaud Delorme) </span>
 ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_timefreq.pdf))
-1:40 – 2:20 pm – EEG, ERP and phase-locking (Scott Makeig)
+
+<span style="color: purple">1:40 – 2:20 pm – EEG, ERP and phase-locking (Scott Makeig)</span>
 ([PDF](https://sccn.ucsd.edu/githubwiki/files/indiana_phaselocking.pdf))
-2:20 – 2:40 pm -- Questions and general discussion (All)</font>
+
+<span style="color: purple">2:20 – 2:40 pm -- Questions and general discussion (All)</span>
 
 
 <font color = green>-- Break--</font>
 
-<font color = purple>3:00 – 3:50 pm -- Bootstrap statistics (Arnaud
-Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_statistics.pdf))
-3:50 – 4:30 pm -- ICA clustering (Scott Makeig)
-([PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_indiana_clustering.pdf))
-4:30 – 5:00 pm -- ICA Clustering examples (Julie Onton)
-([PDF](https://sccn.ucsd.edu/githubwiki/files/clusteringexamples.pdf‎)) </font>
-<u><font color=blue>Tuesday, April 21</font></u>
+<span style="color: purple">3:00 – 3:50 pm -- Bootstrap statistics (Arnaud
+Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_statistics.pdf)) </span>
 
+<span style="color: purple">3:50 – 4:30 pm -- ICA clustering (Scott Makeig)</span>
+([PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_indiana_clustering.pdf))
+
+<span style="color: purple">4:30 – 5:00 pm -- ICA Clustering examples (Julie Onton)</span>([PDF](https://sccn.ucsd.edu/githubwiki/files/clusteringexamples.pdf))
+
+<u><span style="color: blue">Tuesday, April 21</span></u>
 
 **EEGLAB methods I – Data Preprocessing**
 
-<font color=orange>
 
 
 
-8:30 – 9:20 am -- Data import and channel analysis (Julie Onton)
+<span style="color: orange">8:30 – 9:20 am -- Data import and channel analysis (Julie Onton)</span>
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_1_data_import.pdf)
-9:20 – 10:10 pm -- Artifact rejection and running ICA (Julie Onton)
+
+<span style="color: orange">9:20 – 10:10 pm -- Artifact rejection and running ICA (Julie Onton)</span>
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_2_preprocess_ica.pdf)
 
-<font color=green>-- Break –</font>
+<span style="color: green">-- Break –</span>
 
-10:30– 11:20 am -- Evaluating ICA components (Julie Onton)
+<span style="color: orange">10:30– 11:20 am -- Evaluating ICA components (Julie Onton)</span>
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_3_evaluateics.pdf)
-11:20 – 12:10 am -- Basic scripting using EEGLAB “history”
-(A.Delorme)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_scripting.pdf)
 
-<font color=green>-- 12:10-1:10 Lunch --</font>
+<span style="color: orange">11:20 – 12:10 am -- Basic scripting using EEGLAB “history”
+(A.Delorme)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_scripting.pdf)
+
+<span style="color: green">-- 12:10-1:10 Lunch --</span>
 
 **EEGLAB methods II – Inverse Models and Evaluating ICs**
 
 
 <font color = orange>1:10 – 2:00 pm – Time/frequency analysis (Arnaud
 Delorme)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_timefreq.pdf) [(ZIPfor PPT)](https://sccn.ucsd.edu/githubwiki/files/lecture_timefreq.zip)
+
 <font color = purple>2:00 – 2:50 pm – Forward and inverse models (Scott
 Makeig)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/dipfit_theory_indiana.pdf)
 
 <font color = green>-- Break -- </font>
 
 <font color = orange>3:10 – 4:00 pm -- Dipole modeling with the DIPFIT
-plugin (Julie Onton)
+plugin (Julie Onton)</font>
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_6_dipfitcoreg.pdf)
-4:00 – 4:50 pm -- Building plugins (Arnaud Delorme)</font>
+
+<font color = orange>4:00 – 4:50 pm -- Building plugins (Arnaud Delorme)</font>
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab_plugins.pdf)
-<u><font color=blue>Wednesday, April 22</font></u>
+
+<u><span style="color: blue">Wednesday, April 22</span></u>
 
 
 **EEGLAB methods III – STUDY Structure and Clustering**
 
-<font color=orange>
 
 
 
-8:30 – 9:20 am -- Introduction to the STUDY gui (Julie Onton)
+<span style="color: orange"> 8:30 – 9:20 am -- Introduction to the STUDY gui (Julie Onton)</span>
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_8_studygui.pdf)
-9:20 – 10:10 pm – Plot and edit clusters (Arnaud Delorme)
+
+<span style="color: orange">9:20 – 10:10 pm – Plot and edit clusters (Arnaud Delorme)</span>
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_studyplotedit.pdf)
 
-<font color=green>-- Break -- </font>
+<span style="color: green">-- Break -- </span>
 
-10:30– 11:20 am – Building a STUDY script (Julie Onton)
+<span style="color: orange">10:30– 11:20 am – Building a STUDY script (Julie Onton)</span>
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_10_studyscripting.pdf)
-11:20 – 12:10 am -- STUDY analysis (Julie Onton)</font>
+
+<span style="color: orange">11:20 – 12:10 am -- STUDY analysis (Julie Onton)</span>
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_11_studyanalysis.pdf)
 
-<font color=green>-- 12:10-1:10 Lunch --</font>
+<span style="color: green">-- 12:10-1:10 Lunch --</span>
 
 <font color=purple>1:10 – 2:00 pm -- Mining event-related brain dynamics
 II (Scott Makeig)</font>
@@ -143,7 +142,7 @@ II (Scott Makeig)</font>
 
 
 
-<font color=green>-- Workshop close --</font>
+<span style="color: green">-- Workshop close --</span>
 
 6:30 – 8:30 pm – Opening Reception & Poster Session 1 of EPIC meeting
 
