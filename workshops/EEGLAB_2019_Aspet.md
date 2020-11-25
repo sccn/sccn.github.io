@@ -44,20 +44,21 @@ Toulouse ([directions available
 here](http://www.cerco.ups-tlse.fr/-Acces-?lang=en))
 <i>Registration:</i> This event is free for all
 <i>Symposium moderator:</i> Scott Makeig
-13:00-13:10 - Introduction to the Symposium - Scott Makeig
 
-13:10-14:40 - What is BIDS? - Cyril Pernet
+<span style="color: purple">13:00-13:10 - Introduction to the Symposium - Scott Makeig </span>
 
-
-13:40-14:10 - BIDS EEG - Robert Oostenveld
+<span style="color: purple">13:10-14:40 - What is BIDS? - Cyril Pernet </span>
 
 
-14:10-14:30 - EEGLAB and BIDS - Arnaud Delorme
+<span style="color: purple">13:40-14:10 - BIDS EEG - Robert Oostenveld</span>
 
-14:30-14:50 - BIDS for MRI and fMRI - how to use BIDS in laboratory
-settings to organize data - Leila Reidy
 
-14:50-15:00 - General BIDS discussion with all panel members
+<span style="color: purple">14:10-14:30 - EEGLAB and BIDS - Arnaud Delorme</span>
+
+<span style="color: purple">14:30-14:50 - BIDS for MRI and fMRI - how to use BIDS in laboratory
+settings to organize data - Leila Reidy</span>
+
+<span style="color: purple">14:50-15:00 - General BIDS discussion with all panel members</span>
 
 
 
