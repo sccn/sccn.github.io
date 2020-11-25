@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2017 Mysore
 permalink: /workshops/EEGLAB_2017_Mysore.html
-parent: Workshops
+nav_exclude:true
 ---
 
 ![700px\|thumb\|center\|upright=2.5\|[Mysuru Palace, Karnataka,
@@ -73,50 +73,6 @@ inverse source analysis, information flow, etc.. Some other parts of the
 workshop will require basic Matlab scripting capabilities. Some basic
 web resources for learning Matlab are discussed below.
 
-<b>Registration:</b>
-
-Space at the workshop is limited to 50 delegates. Registration cost is
-INR 4000 for Ph.D. students and INR 6000 for postdoctoral fellows and
-others from India. For foreign Ph.D. students and others, registration
-cost is USD 200 and USD 300 respectively. Registration cost will include
-
--   Workshop space for 4.5 days
--   Breakfast, lunch and coffee breaks at workshop
--   Workshop banquet on one night
--   Workshop kit
--   A part day bus excursion to nearby tourist places
--   Transportation from official accommodation places to workshop venue
-
-The registration process is detailed below.
-
-1.  . Pre-register on this
-    [page](https://docs.google.com/forms/d/e/1FAIpQLSfLRahPTH4D3hJJn88SqzahxwwXxNdoUe7U-XHwTyLF5EmE-A/viewform).
-2.  . You will be short listed based on your research area and statement
-    of purpose. The decision of selection will be intimated via email
-    within 6 days from the receipt of application.
-3.  . Registration and payment of the registration fees are due within 3
-    days from the receipt of selection email. <font color=red>The
-    participants forfeit their selection if they do not register within
-    three days of receipt of the selection email and the next waitlisted
-    participant will get the slot</font>
-4.  . Registration closes after 50 selected participants have
-    registered.
-5.  . If you have any question, contact the Indian organiser, Dr. Ajith
-    Kumar, at <23eeglabmysuru@gmail.com>.
-
-<b>Accommodation:</b>
-
-Registration cost DOES NOT include accommodation. Delegates have to make
-their own arrangements for stay. List of other hotels within 4-5 km from
-the venue is
-[here](https://www.tripadvisor.in/Hotels-g304553-Mysuru_Mysore_Karnataka-Hotels.html).
-Free shuttle services will be available from accommodation place to the
-venue for delegates staying in [Hotel Grand
-Maurya](http://www.grandmauryaresorts.com/Restaurant.aspx),
-[Ruchi](http://www.ruchitheprince.com/Default.aspx) and [Treebo spectrum
-Suites](https://www.treebohotels.com/hotels-in-mysore/treebo-spectrum-suites-jayalakshmipuram-pKL2nDLb/).
-Please book the accommodation well in advance as Mysuru is a popular
-tourist destination and busy in January.
 
 Poster session
 --------------
@@ -165,105 +121,7 @@ Mb). We also highly recommend that you download the [SIFT
 Handbook/Manual](http://sccn.ucsd.edu/mediawiki/images/d/d2/SIFT_manual_0.1a.pdf)
 as we will use this for exercises.
 
-Relevant reading material
--------------------------
 
-The EEGLAB graphic interface is built using the powerful Matlab
-scripting language. Enjoying the full capabilities of EEGLAB for
-building, testing, and running scripts and functions and performing
-custom and automated processing requires basic knowledge of how to
-manipulate EEGLAB data structures in Matlab. Because of time
-constraints, we will NOT provide an introduction to Matlab scripting.
-Instead, attendees must familiarize themselves with Matlab <b>before</b>
-coming to the workshop.
-
-New users of Matlab: We recommend running the following demos and
-reading these help sections:
-
-After opening the Matlab desktop, select menu item "Help Demos" and run
-the following demos. Note that while a demo is running, you can retype
-the text (or copy it) to the main Matlab window:
-
-
-- Mathematics - Basic Matrix Operations
-
-- Mathematics - Matrix manipulations
-
-- Graphics - 2-D Plots
-
-- Programming - Manipulating Multidimentional arrays
-
-- Programming - Structures
-
-
-In the Help Content, read and practice at least the following sections:
-
-
-
-- Getting Started - Matrices and Arrays - Matrices and Magic squares
-
-- Getting Started - Matrices and Arrays - Expressions
-
-- Getting Started - Matrices and Arrays - Working with Matrices
-
-- Getting Started - Graphics - Basic plotting functions
-
-- Getting Started - Programming - Flow Control
-
-- Getting Started - Programming - Other data structures
-
-- Getting Started - Programming - Scripts and Functions
-
-
-Each section or demo (if read thoroughly) should take you about 10
-minutes, for a total here of about 2 hours. If you do not use Matlab
-regularly, we encourage you to watch these demos, read these sections,
-and practice using the skills they introduce over several days.
-
-If you do not have access to the Matlab demos,
-[here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short
-online introduction to Matlab (recommended pages, 1 to 12)
-
-<span style="color: blue">*IMPORTANT NOTE:*</span> A portion of the
-workshop will be dedicated to writing EEGLAB scripts -- Not being able
-to understand Matlab syntax will mean you will miss out on a large
-portion of the workshop.
-
-*EEGLAB WIKI:* Refer to the [EEGLAB tutorial wiki](/EEGLAB "wikilink")
-for additional help.
-
-Important papers describing EEGLAB processing:
-----------------------------------------------
-
-Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
-single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
-
-Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
-
-Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
-Sejnowski, TJ. [Analysis and visualizaion of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
-
-Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
-[<font color=blue>Independent components of EEG data are
-dipolar</font>](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030135).
-PLoS ONE. 2012. i7(2):e30135.
-
-Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
-from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
-
-Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
-
-Material for download
----------------------
-
-Please download the following programs
-
-> `<span style="color: orange">`To be posted here at a later date.`</span>
 
 Preliminary Workshop Program (PDFs will be updated)
 ---------------------------------------------------

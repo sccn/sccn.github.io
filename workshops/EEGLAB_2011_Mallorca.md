@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2011 Mallorca
 permalink: /workshops/EEGLAB_2011_Mallorca.html
-parent: Workshops
+nav_exclude:true
 ---
 
 ![300px\|thumb\|left\|upright=2]({{ site.baseurl }}/assets/images/Mallorca2.jpg)
@@ -47,111 +47,6 @@ Session</b> of evolving directions in EEG/ECoG research and free / open
 source data analysis, collection, and archival software. All interested
 were welcome to attend or participate in this discussion.
 
-Costs and Registration
-----------------------
-
-To reimburse travel expenses of Workshop faculty and facilities rental,
-costs for the workshop were as follows:
-
-
-
-Part 1 - Novice EEGLAB Workshop (Sept. 22) 120€
-
-Part 2 - Advanced EEGLAB Workshop (Sept. 23-25) 240€
-
-Parts 1 & 2 - Novice & Advanced workshops (Sept. 22-25) 300€
-
-Part 3 -- Open Discussion Session: Current directions in EEG research
-and open source software (no charge)
-
-<font color=red>Registration is currently <b>closed</b></font>.
-
-Relevant preparation in Matlab
-------------------------------
-
-The EEGLAB graphic interface is built on and provides easy ways to use
-the powerful Matlab scripting language. Exploiting the capabilities of
-EEGLAB for building macro commands and performing custom and automated
-processing requires the ability to manipulate EEGLAB data structures in
-Matlab. Because of time constrains, we will NOT provide an introduction
-to the Matlab language. Instead, users need to familiarize themselves
-with Matlab prior to the workshop.
-
-Users of Matlab 7: we recommend running the following demos and reading
-the following help sections. After opening the Matlab desktop, select
-menu item "Help Demos" and run the following demos. Note that while the
-demo is running, you can retype the text (or copy it) to the main Matlab
-window:
-
-
-
-- Mathematics - Basic Matrix Operations
-
-- Mathematics - Matrix manipulations
-
-- Graphics - 2-D Plots
-
-- Programming - Manipulating Multidimentional arrays
-
-- Programming - Structures
-
-
-In the Help Content, read and practice at least the following sections:
-
-
-
-- Getting Started - Matrices and Arrays - Matrices and Magic squares
-
-- Getting Started - Matrices and Arrays - Expressions
-
-- Getting Started - Matrices and Arrays - Working with Matrices
-
-- Getting Started - Graphics - Basic plotting functions
-
-- Getting Started - Programming - Flow Control
-
-- Getting Started - Programming - Other data structures
-
-- Getting Started - Programming - Scripts and Functions
-
-
-Each section or demo (if read thoroughly) should take about 10 minutes.
-We encourage you to watch these demos and read these sections over
-several days. If you do not have access to the Matlab demos,
-[here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short
-online introduction to Matlab (recommended pages, 1 to 12)
-
-*IMPORTANT NOTE:* Advanced tools and methods require script writing to
-perform analysis customized to your data and analysis goals. Script
-writing in Matlab is simple; the workshops will assume that you know at
-least the basics.
-
-*EEGLAB WIKI:* refer to the [EEGLAB wiki](/EEGLAB "wikilink") for
-additional help.
-
-Some papers describing EEGLAB processing
-----------------------------------------
-
-Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
-single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
-
-Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
-
-Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
-Sejnowski, TJ. [Analysis and visualizaion of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
-
-Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
-from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
-
-Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S. [Comparing
-results of algorithms implementing blind source separation of EEG
-data](https://sccn.ucsd.edu/githubwiki/files/delorme_unpub.pdf). unpublished manuscript.
-Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 Workshop Agendas
 ----------------
@@ -379,20 +274,6 @@ interpreting the results of Amica decomposition will be demonstrated.
 motivation for and derivation of Amica
 [(PDF)](https://sccn.ucsd.edu/githubwiki/files/ica_mallorca.pdf)</font>
 <font color = darkblue>09:45 -- 10:45 Amica toolbox practicum</font>
-
-
-Please see wiki pages:
-
-[Linear_Representations_and_Basis_Vectors](/Linear_Representations_and_Basis_Vectors "wikilink")
-
-[Random_Variables_and_Probability_Density_Functions](/Random_Variables_and_Probability_Density_Functions "wikilink")
-
-[Amica](/Amica "wikilink")
-
-[Amica_Download](/Amica_Download "wikilink")
-
-<!-- -->
-
 
 
 <font color = green>10:45 -- 11:00 BREAK</font>
@@ -731,11 +612,4 @@ Brain-computer interface tools and directions (Christian Kothe)
 
 </font>
 
-<hr>
-
-Survey
-------
-
-Please help us by answering [workshop survey
-questions](http://www.surveymonkey.com/s/5CMLJFH)
 

@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2018 Pittsburgh
 permalink: /workshops/EEGLAB_2018_Pittsburgh.html
-parent: Workshops
+nav_exclude:true
 ---
 
 ![350px\|thumb\|right\|upright=2.5\|Pittsburgh, Pennsylvania: the
@@ -24,117 +24,6 @@ software environment and EEGLAB-linked tools for performing advanced
 analysis of EEG and related data, with detailed method expositions and
 practical exercises.
 
-Registration and cost
----------------------
-
-Registration will be handled by the Electroencephalography and Clinical
-Neuroscience Society (ECNS) as a pre-conference workshop to
-[<font color=blue>the 2018 Annual ECNS/ISNIP
-Meeting</font>](https://ecnsconference.com). Workshop costs will be $200
-for students and $300 for others. Registration is available on the
-conference page (select Registration). You may register just for the
-workshop (not the conference) if you wish to.
-**Note**: Prospective attendees should note that [<font color=blue>a
-longer, more comprehensive EEGLAB
-workshop</font>](https://sccn.ucsd.edu/wiki/EEGLAB_2018_at_UCSD) will be
-offered two months later, Nov. 8-12 at UCSD, La Jolla, CA following the
-Society for Neuroscience meeting in San Diego.
-
-Relevant reading material
--------------------------
-
-The EEGLAB graphic interface is built using the powerful, multi-platform
-Matlab scripting language. Enjoying the full capabilities of EEGLAB for
-building macro commands and performing custom and automated processing
-requires basic knowledge of how to manipulate EEGLAB data structures in
-Matlab. Because of time constraints, we will NOT provide an introduction
-to Matlab scripting. Instead, attendees must familiarize themselves with
-Matlab <b>before</b> coming to the workshop.
-
-New users of Matlab: We recommend running the following demos and
-reading these help sections:
-
-After opening the Matlab desktop, select menu item "Help Demos" and run
-the following demos. Note that while a demo is running, you can retype
-the text (or copy it) to the main Matlab window:
-
-
-- Mathematics - Basic Matrix Operations
-
-- Mathematics - Matrix manipulations
-
-- Graphics - 2-D Plots
-
-- Programming - Manipulating Multidimentional arrays
-
-- Programming - Structures
-
-
-In the Help Content, read and practice at least the following sections:
-
-
-
-- Getting Started - Matrices and Arrays - Matrices and Magic squares
-
-- Getting Started - Matrices and Arrays - Expressions
-
-- Getting Started - Matrices and Arrays - Working with Matrices
-
-- Getting Started - Graphics - Basic plotting functions
-
-- Getting Started - Programming - Flow Control
-
-- Getting Started - Programming - Other data structures
-
-- Getting Started - Programming - Scripts and Functions
-
-Each section or demo (if read thoroughly) should take you about 10
-minutes, for a total here of about 2 hours. If you do not use Matlab
-regularly, we encourage you to watch these demos, read these sections,
-and practice using the skills they introduce over several days.
-
-If you do not have access to the Matlab demos,
-[here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short
-online introduction to Matlab (recommended pages, 1 to 12)
-
-*EEGLAB WIKI:* Refer to the [EEGLAB tutorial wiki](/EEGLAB "wikilink")
-for additional help.
-
-<b>Material for the working (including EEGLAB) will be made available on
-USB keys during the workshop.</b> Presentation slides will be made
-available during the workshop. You only need to bring to the workshop a
-laptop with Matlab installed.
-
-Important papers describing EEGLAB processing:
-----------------------------------------------
-
-Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
-single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21. \<-- The basic EEGLAB citation.
-
-Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
-
-Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
-Sejnowski, TJ. [Analysis and visualization of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
-
-Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
-[<font color=blue>Independent components of EEG data are
-dipolar</font>](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030135).
-PLoS ONE. 2012. i7(2):e30135.
-
-Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
-from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
-
-Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
-
-Loo, S., Lenartowicz, A., Makeig, S. [<font color=blue>Use of EEG
-biomarkers in child psychiatry research – current state and future
-directions</font>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4689673),
-Journal of Child Psychology & Psychiatry 57:1, 4-17, 2016.
 
 Preliminary Workshop Program (with corresponding PDFs)
 ------------------------------------------------------

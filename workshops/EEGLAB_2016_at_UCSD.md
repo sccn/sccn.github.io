@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2016 UCSD
 permalink: /workshops/EEGLAB_2016_at_UCSD.html
-parent: Workshops
+nav_exclude:true
 ---
 
 ![center\|800px\|upright=0.5]({{ site.baseurl }}/assets/images/Eeglab2016participants.png)
@@ -30,27 +30,6 @@ following the Society for Neuroscience meeting in downtown San Diego, 25
 minutes away. The workshop will end at 12:00 pm noon on Monday, Nov.
 21st.
 
-For any questions, please contact <eeglab@sccn.ucsd.edu>.
-
-NEW: Collaboration Survey
--------------------------
-
-We at SCCN are planning to apply for a P-41 grant from NIH to create an
-<b>NIBIB Biomedical Technology Resource Center for advanced EEG data
-analysis</b> and are seeking research partners with clinical interests.
-Please fill out the following survey if you are interested in
-participating.
-
-Potential benefits to research partners include: intensive technical
-support, custom-made MoBI systems, algorithm development, and
-collaboration; with the possibility of applying for grant supplements
-for your work).
-
-<i>Note: Many birds-of-a-feather group dinners will be devoted to
-discussing this opportunity further--please sign up if interested after
-you've filled out the survey. Thank you.</i>
-
-[(Complete Survey)](https://goo.gl/forms/8IgTnRug42pWypet1)
 
 San Diego and UCSD
 ------------------
@@ -61,167 +40,10 @@ UC campuses, is now an American research powerhouse. Located by the
 beaches and spectacular cliffs of La Jolla, UCSD enjoys near year-round
 temperate weather.
 
-Registration and cost
----------------------
-
-To reimburse travel expenses of Workshop faculty and costs for the
-workshop, costs to participants are as follows: Registration is <b>$350
-for students and post-docs</b> and <b>$500 for faculty and others</b>.
-This includes
-
--   Conference space rental for 4 days
--   Registration packet and perks
--   Continental breakfast and coffee breaks
--   Covering travel/accommodation expenses for some of the speakers
--   Note that this is a non-profit event; none of the faculty are
-    compensated
--   A part-day excursion by bus to the nearby [Torrey Pines State
-    Natural Reserve](http://torreypine.org/).
-
-Accommodations are not included.
-
-<b><span style="color: red">The workshop is completely full </span></b>
-
-Accommodation
--------------
-
-We made arrangements with La Jolla hotels for rooms during the workshop.
-We will open a mailing list closer to the workshop for people who might
-be interested in sharing a room to reduce cost.
-
--   Preferred: There is a room block we have blocked at a negotiated
-    EEGLAB WORKSHOP discounted rate for the first 30 registrants at a
-    rate of $159 (yes it is a discounted rate from the regular $202
-    rate). You may receive the discounted rate 2 days before and after
-    the event. Click on this
-    [link](http://embassysuites.hilton.com/en/es/groups/personalized/S/SANLJES-XEE-20161117/index.jhtml?WT.mc_id=POGhttp://embassysuites.hilton.com/en/es/groups/personalized/S/SANLJES-XEE-20161117/index.jhtml?WT.mc_id=POGhttp://embassysuites.hilton.com/en/es/groups/personalized/S/SANLJES-XEE-20161117/index.jhtml?WT.mc_id=POG)
-    to access the reservation page. Free breakfast, and free shuttle to
-    the workshop. If you are interested in sharing a room, we will set
-    up a mailing list to pair participants.
-
-<!-- -->
-
--   Estancia La Jolla offers UCSD rate of $189, discounted daily
-    Hospitality Services Fee of $10 (regularly $22) and discounted
-    parking for UCSD events (simply mention UCSD). (Rate based on
-    availability). Reservations: 858-764-6045. Hyatt Regency La Jolla
-    offers UCSD rate of $169. Reservations: 858-552-1234. Simply mention
-    that you are attending a UCSD event and that you were told you can
-    claim the UCSD rate.
-
-To share a room, join the [EEGLAB 2016 workshop google mailing list
-group](https://groups.google.com/forum/#!forum/eeglab-workshop-2016)
-(this is only for finding roommates).
-
-Food
-----
-
-Except for day 2 where we have an excursion, participants are asked to
-cover their own food expenses. We have compiled a [list of
-restaurants](https://sccn.ucsd.edu/githubwiki/files/listofrestaurants.pdf) in the area.
-Location of the workshop
-------------------------
-
-The address of the venue is "10100 Hopkins Drive, San Diego, California
-92121." Click [here](/media:map.png "wikilink") to download the map for
-![100px\|thumb\|right\|upright=3]({{ site.baseurl }}/assets/images/Map.png)
-![100px\|thumb\|right\|upright=3]({{ site.baseurl }}/assets/images/Map2.png)
-
-Poster session
---------------
-
-The poster space is available on a first come first serve basis.
-Presenters may have their posters displayed between 4:30pm-5:45pm on
-Nov. 17. Be warned that all posters left after the reception may not be
-returned to the presenter, and we will not be able to mail the poster
-after the workshop. We will have 20 posters in synthesis and 10 posters
-in the INC open area (directions will be provided on site).
-
-Laptop for the workshop
------------------------
-
-Please bring a laptop with Matlab installed (no extra toolboxes required
-although the signal processing, statistics and optimization toolboxes
-are recommanded). Laptop must have at the very least 4Gb of RAM. The
-version of Matlab should be later than 7.x. We will share USB flash
-drive at the workshop to distribute material for practicum. There is no
-need to install EEGLAB prior to the workshop.
-
-Matlab Tutorial (for novice users only)
----------------------------------------
-
-EEGLAB graphic interface is built on top of the powerful Matlab
-scripting language. Enjoying the full capabilities of EEGLAB for
-building macro commands and performing custom and automated processing
-requires the ability to manipulate EEGLAB data structures in Matlab.
-Because of time constrains, we will NOT provide an introduction to the
-Matlab language. Instead users need to familiarize themselves with
-Matlab prior to the workshop. Users of Matlab 7: we recommend running
-the following demos and reading the following help sections.
-
-After opening the Matlab desktop, select menu item "Help" and run the
-"Getting Started with MATLAB" tutorial. Each of the 10 sections hould
-take you about 2 to 5 minutes, for a total here of about 1 hour.
-IMPORTANT NOTE: A portion of the workshop will be dedicated to writing
-EEGLAB scripts, so not being able to understand Matlab syntax will
-result in you missing out on a portion of the workshop.
-
-More reading (recommended)
---------------------------
-
-To familiarize yourself with EEGLAB, first read The EEGLAB Tutorial (see
-link below) and the main EEGLAB Methods paper (also available from the
-EEGLAB site). You might also want to peruse recent EEG papers using
-EEGLAB to understand more about the motivation for some of the core
-capabilities (ICA, time/frequency analysis, trial-by-trial
-visualization) that are already built into EEGLAB. The EEGLAB wiki is
-available at
-
-<http://sccn.ucsd.edu/wiki/EEGLAB>
-
-In our experience, the more you already know before attending the
-workshop, the more you benefit from it.
-
-Material for download
----------------------
-
-Material for download will be provided on USB flash drives during the
-workshop. All presentations will be uploaded on this page (see links
-below in the program).
-
-Papers describing data processing using EEGLAB
-----------------------------------------------
-
-Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
-single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
-
-Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
-
-Onton J. S Makeig. [Information-based modeling of event-related brain
-dynamics](https://sccn.ucsd.edu/githubwiki/files/pbr06lo.pdf), Progress in Brain ResearchVol. 159, Ed.Neuper & Klimesch, 2006
-
-Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
-[Independent components of EEG data are
-dipolar](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030135).
-PLoS ONE. 2012. i7(2):e30135.
-
-Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
-Sejnowski, TJ. [Analysis and visualization of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
-
-Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
-from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
-
-Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
-
 Multi-track program
 -------------------
 
-This workshop featured a three-track design. Each afternoon, lectures to
+This workshop features a three-track design. Each afternoon, lectures to
 the whole group will be alternated with smaller sessions in three
 tracks. Attendees new to EEGLAB may choose the basic EEGLAB instruction
 track to gain practical experience in using it. Attendees familiar with
