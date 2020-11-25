@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reading Material
+title: Reading material
 permalink: /workshops/reading_material.html
 parent: Workshops
 
