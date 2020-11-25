@@ -3,6 +3,7 @@ layout: default
 title: EEGLAB 2020 Lublin
 permalink: /workshops/EEGLAB_2020_Lublin.html
 parent: Workshops
+nav_order: 3
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Lublin]({{ site.baseurl }}/assets/images/Lublin.jpg)

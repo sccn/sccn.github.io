@@ -2,7 +2,7 @@
 layout: default
 title: Workshops
 has_children: true
-has_toc: false
+has_toc: true
 ---
 # EEGLAB Workshops
 
