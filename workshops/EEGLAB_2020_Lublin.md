@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB 2020 Lublin
 permalink: /workshops/EEGLAB_2020_Lublin.html
 parent: Workshops
-nav_order: 3
+nav_order: 1
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Lublin]({{ site.baseurl }}/assets/images/Lublin.jpg)
@@ -101,77 +101,17 @@ will offer a discount code for the [Hotel Mercure Lublin
 Centrum](https://pl.tripadvisor.com/Hotel_Review-g274818-d279966-Reviews-Hotel_Mercure_Lublin_Centrum-Lublin_Lublin_Province_Eastern_Poland.html)
 
 
-Relevant reading material
--------------------------
+MATLAB tutorial
+----------------
 
-The EEGLAB graphic interface is built on top of the powerful Matlab
-scripting language. Enjoying the full capabilities of EEGLAB for
-building macro commands and performing custom and automated processing
-requires the ability to manipulate EEGLAB data structures in Matlab.
-Because of time constraints, we will NOT provide an introduction to the
-Matlab language. Instead users need to familiarize themselves with
-Matlab prior to the workshop. 
-New users of Matlab: we recommend running
-the following demos and reading the following help sections:
-
-In the Matlab help, you should perform the first 3 tutorials (Matlab 2018)
-
--   Getting Started with MATLAB
--   Language Fundamentals
--   Mathematics
--   Graphics (first section 2-D plot only)
-
-Each section or demo (if read thoroughly) should take you about 40
-minutes, for a total here of about 2 hours. We encourage you to read
-these sections over several days.
-
-Alternatively, Matlab also proposes self-paced online courses and we advise that
- you complete the "Matlab Onramp", a 1-2hour interactive introduction to the
-  basics of Matlab programming. 
-  
-Accessing Matlab Onramp: from within Matlab by selecting the "Learn Matlab" menu or follow [this link](https://matlabacademy.mathworks.com/). Note that you will be asked to log in into your MathWorks account, which can be created for free [here](https://www.mathworks.com/mwaccount/register). If you do not use Matlab
-regularly, we encourage you to watch these demos, read these sections, and practice using the skills they introduce over several days.
-
-If you do not have access to the Matlab demos, [here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short online introduction to Matlab (recommended pages, 1 to 12)
-
-<font color="dark blue">*IMPORTANT NOTE:*</font> A portion of the
-workshop will be dedicated to writing EEGLAB scripts -- Not being able
+*IMPORTANT NOTE:* A portion of the workshop will be dedicated to writing EEGLAB scripts -- Not being able
 to understand Matlab syntax will mean you will miss out on a large
 portion of the workshop.
 
-*EEGLAB WIKI:* Refer to the [EEGLAB tutorial wiki](/https://sccn.github.io/)
-for additional help.
+If you are new to Matlab or need a refresher please consult the material on the [Getting started with Matlab page](/workshops/tutorial_matlab)
 
-<b>Material for the working (including EEGLAB) will be made available on
-USB keys during the workshop.</b> Presentation slides will be made
-available during the workshop. You only need to bring to the workshop a
-laptop with Matlab installed.
 
-Important papers describing EEGLAB processing:
-----------------------------------------------
 
-Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
-single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci Methods.2004; Mar 15; 134(1):9-21.
-
-Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining event-related
-brain dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). TrendsCogn Sci. 2004; May; 8(5):204-10.
-
-Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
-Sejnowski, TJ. [Analysis and visualizaion of single-trial event-related
-potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human Brain Mapping.2001; 14(3), 166-185.
-
-Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S.
-[<font color=blue>Independent components of EEG data are
-dipolar</font>](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030135).
-PLoS ONE. 2012. i7(2):e30135.
-
-Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts
-from EEG data using high-order statistics and independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
-
-Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during
-working memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
 MATLAB support
 --------------
@@ -182,156 +122,139 @@ for the duration of the workshop and is intended to be used only for
 course work and not for government, research, commercial, or other
 organization use. The EEGLAB team thanks Vijay Iyer, Neuroscience
 Community Liaison at MathWorks for bringing this support from MathWorks
-to the workshop. <font color=red>License information coming soon.</font>
+to the workshop.
+ <span style="color: red">License information coming soon.</span>
+
+
 
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
-<font color=purple>Purple lettering = lecture</font>
-<font color=orange>Orange lettering = tutorial</font>
+<b>Material for the working (including EEGLAB) will be made available on
+USB keys during the workshop.</b> Presentation slides will be made
+available during the workshop. You only need to bring to the workshop a
+laptop with Matlab installed.
 
-<u><font color=blue>Monday, June 15th</font></u>
+
+<span style="color: purple">Purple lettering = lecture</span>
+<span style="color: orange">Orange lettering = tutorial</span>
+
+<u><span style="color: blue">Monday, June 15th</span></u>
 
 
 18:00 – 20:00 -- On site registration
 
-<u><font color=blue>Tuesday, June 16th</font></u>
+<u><span style="color: blue">Tuesday, June 16th</span></u>
 
 
 **Overview and ICA Theory/Practice**
 
 
-- <font color = purple>9:00 – 10:15 -- Mining event-related brain dynamics
-I (Scott Makeig)</font>
+- <span style="color: purple">9:00 – 10:15 -- Mining event-related brain dynamics I (Scott Makeig)</span>
 
 
-- <font color = purple>10:15 – 10:45 -- EEGLAB overview (Arnaud
-Delorme)</font>
+- <span style="color: purple">10:15 – 10:45 -- EEGLAB overview (Arnaud Delorme)</span>
 
 
-- <font color = green> Break </font>
+- <span style="color: green"> Break </span>
 
-- <font color = purple>11:00 – 11:45 -- ICA theory (Scott Makeig)</font>
+- <span style="color: purple">11:00 – 11:45 -- ICA theory (Scott Makeig)</span>
 
-- <font color = orange>11:45 – 13:00 -- Data import, Artifact rejection
-(TBD)</font>
+- <span style="color: orange">11:45 – 13:00 -- Data import, Artifact rejection (TBD)</span>
 
-- <font color = green>13:00-14:15 -- Lunch</font>
+- <span style="color: green">13:00-14:15 -- Lunch</span>
 
 **ICA and time-frequency**
 
-- <font color = orange>14:15 – 15:15 -- ICA decomposition practicum
-(TBD)</font>
+- <span style="color: orange">14:15 – 15:15 -- ICA decomposition practicum (TBD)</span>
 
-- <font color = orange>15:15 – 15:45 -- Bootstrapping ICA and using PCA
-before ICA (TBD)</font>
+- <span style="color: orange">15:15 – 15:45 -- Bootstrapping ICA and using PCA before ICA (TBD)</span>
 
 
-- <font color = green> Break </font>
+- <span style="color: green"> Break </span>
 
-- <font color = purple>16:00 – 17:00 -- Time-frequency decompositions:
-Theory and practice (TBD)</font>
+- <span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (TBD)</span>
 
-- <font color = purple>17:00 – 17:30 -- Phase amplitude coupling
-(TBD)</font>
+- <span style="color: purple">17:00 – 17:30 -- Phase amplitude coupling (TBD)</span>
 
-<u><font color=blue>Wednesday, June 17th</font></u>
+<u><span style="color: blue">Wednesday, June 17th</span></u>
 
 
 **Group analysis and ICA clustering in EEGLAB**
 
 
-- <font color = purple>9:00 - 9:45 -- Why cluster ICA components? (Scott
-Makeig)</font>
+- <span style="color: purple">9:00 - 9:45 -- Why cluster ICA components? (Scott Makeig)</span>
 
-- <font color = purple>9:45 - 10:45 -- Bootstrap and correction for
-multiple comparisons (TBD)</font>
+- <span style="color: purple">9:45 - 10:45 -- Bootstrap and correction for multiple comparisons (TBD)</span>
 
 
-- <font color = green> Break </font>
+- <span style="color: green"> Break </span>
 
-- <font color = purple>11:00 - 11:45 -- Creating a STUDY and STUDY
-design - plotting and computing statistics in channels (Arnaud
-Delorme)</font>
+- <span style="color: purple">11:00 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span>
 
-- <font color = purple>11:45 - 13:00 -- ICA component clustering and
-plotting (Arnaud Delorme)</font>
+- <span style="color: purple">11:45 - 13:00 -- ICA component clustering and plotting (Arnaud Delorme)</span>
 
 
 
-- <font color = green>13:00-14:15 -- Lunch</font>
+- <span style="color: green">13:00-14:15 -- Lunch</span>
 
 
 
 **Source information flow**
 
 
-- <font color=purple>14:15 – 15:45 -- Source information flow and
-Granger-Causal modeling tools (TBD)</font>
+- <span style="color: purple">14:15 – 15:45 -- Source information flow and Granger-Causal modeling tools (TBD)</span>
 
 
-- <font color = green>Break</font>
+- <span style="color: green">Break</span>
 
-- <font color=orange>16:00 – 17:30 -- SIFT toolbox: practicum (TBD)</font>
+- <span style="color: orange">16:00 – 17:30 -- SIFT toolbox: practicum (TBD)</span>
 
 
 
 **Participant poster session**
 
 
-- <font color=black>17:30 – 19:30 -- Participants bring their poster to
-discuss
+- <span style="color: black">17:30 – 19:30 -- Participants bring their poster to discuss </span>
 
 
 
-- <font color = green>19:45 -- banquet in Hotel Mercure Lublin Centrum
-(included in registration)</font>
+- <span style="color: green">19:45 -- banquet in Hotel Mercure Lublin Centrum (included in registration)</span>
 
-<u><font color=blue>Thursday, June 18th</font></u>
+<u><span style="color: blue">Thursday, June 18th</span></u>
 
 
 **Source Localization**
 
 
-- <font color = purple>9:00 – 10:00 -- Forward and inverse models - the
-Dipfit tools (Scott Makeig)</font>
+- <span style="color: purple">9:00 – 10:00 -- Forward and inverse models - the Dipfit tools (Scott Makeig)</span>
 
-- <font color = purple>10:00 – 10:45 -- Using the Dipfit plugin of EEGLAB
-(Arnaud Delorme)</font>
+- <span style="color: purple">10:00 – 10:45 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span>
 
 
-- <font color = green> Break </font>
+- <span style="color: green"> Break </span>
 
 
-
-
-
-- <font color = green>11:00 - 15:30 -- group excursion with lunch in [The
-Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</font>
-
-
+- <span style="color: green">11:00 - 15:30 -- group excursion with lunch in [The Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</span>
 
 
 **General Linear Modeling**
 
+- <span style="color: orange">15:30 – 17:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (TBD)</span>
 
-- <font color = orange>15:30 – 17:30 -- Theory and practice of applying
-general linear models to EEG data using the LIMO EEGLAB plug-in
-(TBD)</font>
-
-<u><font color=blue>Friday, June 19th</font></u>
+<u><span style="color: blue">Friday, June 19th</span></u>
 
 
-- <font color=purple>9:00 – 10:45 -- Mining event-related brain dynamics
-II (Scott Makeig)</font>
+- <span style="color: purple">9:00 – 10:45 -- Mining event-related brain dynamics II (Scott Makeig)</span>
 
-- <font color = green> Break </font>
+- <span style="color: green"> Break </span>
 
-- <font color=orange>11:00 – 12:30 -- Practicum, small group
-projects</font>
+- <span style="color: orange">11:00 – 12:30 -- Practicum, small group projects</span>
 
-- <font color=orange>12:30 – 13:00 -- Participant project presentations
-and general discussion</font>
+- <span style="color: orange">12:30 – 13:00 -- Participant project presentations and general discussion</span>
 
-- <font color=green>13:00 - 14:15 -- Lunch</font>
+- <span style="color: green">13:00 - 14:15 -- Lunch</span>
 
+Further reading
+----------------
+You can consult a list of relevant EEGlab papers [here](/workshops/reading_material) 

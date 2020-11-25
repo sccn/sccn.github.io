@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Matlab tutorials
+title: Matlab tutorial
 permalink: /workshops/tutorial_matlab.html
 parent: Workshops
 ---

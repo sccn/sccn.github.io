@@ -1,14 +1,15 @@
 ---
 layout: default
 title: Reading Material
-permalink: /workshops/Reading Material.html
+permalink: /workshops/reading_material.html
 parent: Workshops
 
 ---
 
 
-Important papers describing EEGLAB processing:
+Relevant papers describing EEGLAB processing:
 ----------------------------------------------
+
 
 Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis of
 single-trial EEG dynamics including independent component

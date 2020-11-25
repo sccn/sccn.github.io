@@ -2,7 +2,7 @@
 layout: default
 title: Workshops
 has_children: true
-has_toc: true
+has_toc: false
 ---
 # EEGLAB Workshops
 
@@ -35,7 +35,7 @@ has_toc: true
 [Eleventh EEGLAB Workshop](/workshops/Eleventh_EEGLAB_Workshop_Taiwan) - Hsinchu, Taiwan (2010)  
 [Tenth EEGLAB Workshop](/workshops/EEGLAB_2010_Finland) - Jyväskylä, Finland (2010)  
 [Ninth EEGLAB Workshop](/workshops/EEGLAB_2009_Australia) - Sydney, Australia (2009)  
-[Eighth EEGLAB Workshop](/workshops/EEGLAB_2009_ASPET) - Aspet, France (2009)  
+[Eighth EEGLAB Workshop](/workshops/EEGLAB_2009_Aspet) - Aspet, France (2009)  
 [Seventh EEGLAB Workshop](/workshops/EEGLAB_2009_Bloomington) - Bloomington, Indiana (2009)  
 [Sixth EEGLAB Workshop](http://sccn.ucsd.edu/eeglab/workshops07/workshop_chile2007) - Santiago, Chile (2007)  
 [Fifth EEGLAB Workshop](http://sccn.ucsd.edu/eeglab/workshops07/workshop_ucsd07) - San Diego, CA, USA (2007)  
