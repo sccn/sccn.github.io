@@ -23,12 +23,10 @@ presentations.
 
 
 <img class="float-right"  width="300" height="300" src="{{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg">
-&nbsp;
-&nbsp;
-&nbsp;
+
+
 
 #### EEGLAB introduction (2019, Delorme)
-
 -   [Part 1: Why EEGLAB](https://www.youtube.com/watch?v=R_nf1HRScx4)
 -   [Part 2: The origin of the EEG
     signal](https://www.youtube.com/watch?v=KhEKRHw0qFg)
@@ -43,13 +41,7 @@ presentations.
 
 
 <img class="float-right"  width="250" height="300" src="{{ site.baseurl }}/assets/images/BrainIC.jpg">
-
-&nbsp;
-&nbsp;
-&nbsp;
-
 #### Preprocessing data in EEGLAB (2018, Delorme)
-
 -   [Part 1: How to import raw
     data](https://www.youtube.com/watch?v=gEk33jWB0MY)
 -   [Part 2: How to import events and channel
@@ -67,14 +59,7 @@ presentations.
 
 
 <img class="float-right" width="200" height="300" src="{{ site.baseurl }}/assets/images/Dipfit.jpg">
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-
 #### Independent component analysis (2020, Delorme)
-
 -   [Part 1: What is ICA?](https://youtu.be/kWAjhXr7pT4)
 -   [Part 2: How does Infomax ICA work?](https://youtu.be/l7io0u1kFhA)
 -   [Part 3: ICA applied to EEG data](https://youtu.be/lCfYbwT0AA4)
@@ -202,14 +187,14 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 -   [Using the DIPFIT toolbox (Julie Onton) - no
     video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_dipfit.html)
 
+<img width="180" height="250" class="float-right" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg">
 #### Computing across subjects and conditions
-<img width="200" height="300" class="float-right" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg">
 - [Resampling-based statistics and correcting for multiple comparisons (David Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)
 - [STUDY component clustering (Arnaud Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)
 - [The new 'STUDY.design' facility and multi-subject plotting (Arnaud Delorme) - no video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_design.html)
 - [Advanced uses of 'STUDY.design' statistics (Arnaud Delorme) - no video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_advanced_study_design.html)
-#### Extending EEGLAB with Plug-ins
 
+#### Extending EEGLAB with Plug-ins
 -   [Building EEGLAB plug-ins (Arnaud
     Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eeglab_plugins.html)
 -   [The SIFT source information-flow toolbox (Tim
@@ -222,9 +207,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
     See also [Ten lecture course on contemporary BCI
     design](http://sccn.ucsd.edu/wiki/Introduction_To_Modern_Brain-Computer_Interface_Design)
     by Christian Kothe.
--   [Imaging human agency with Mobile brain/body imaging (MoBI) and the
-    Mobilab toolbox (Scott
-    Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)
+-   [Imaging human agency with Mobile brain/body imaging (MoBI) and the Mobilab toolbox (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)
 
 ## <font color=darkred>Matlab and matrix operations tutorials</font>
 
