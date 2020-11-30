@@ -22,7 +22,7 @@ presentations.
 ## <font color=darkred> List of Youtube Tutorial Videos </font>
 
 
-<img style="float:right" width="300" height="300" src="{{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg">
+<img class="float-right"  width="300" height="300" src="{{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg">
 &nbsp;
 &nbsp;
 &nbsp;
@@ -42,7 +42,7 @@ presentations.
     scripting](https://www.youtube.com/watch?v=kofJh7biGsE)
 
 
-<img align="right" width="250" height="300" src="{{ site.baseurl }}/assets/images/BrainIC.jpg">
+<img class="float-right"  width="250" height="300" src="{{ site.baseurl }}/assets/images/BrainIC.jpg">
 
 &nbsp;
 &nbsp;
@@ -66,7 +66,7 @@ presentations.
 
 
 
-<img align="right" width="200" height="300" src="{{ site.baseurl }}/assets/images/Dipfit.jpg">
+<img class="float-right" width="200" height="300" src="{{ site.baseurl }}/assets/images/Dipfit.jpg">
 
 &nbsp;
 &nbsp;
