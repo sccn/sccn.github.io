@@ -10,7 +10,7 @@ nav_order: 3
 
 
 ![thumb\|right\|upright=1.5\|EEGLAB menu (upper left) and data
-windows]({{ site.baseurl }}/assets/images/EEGLAB_small.jpg)
+windows]({{ site.baseurl }}/assets/images/EEGLAB_small.jpg) 
 
 This page comprises materials for and videos from different EEGLAB
 Workshops held at the San Diego Supercomputer Center on the campus of
@@ -356,6 +356,7 @@ GB)](ftp://sccn.ucsd.edu/pub/STUDYstern.zip) This is a large file. Make
 sure you have a fast and reliable Internet connection before attempting
 this download. [--The STUDY matlab
 script--](https://sccn.ucsd.edu/githubwiki/files/build_stern.m.zip)
+
 [EEGLAB STUDY with 5 subjects (1.8
 GB)](ftp://sccn.ucsd.edu/pub/STUDY5subjects.zip) Optional download fo:wr
 more STUDY exploration. [NFT Sample Data (260
