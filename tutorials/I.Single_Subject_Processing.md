@@ -21,7 +21,7 @@ processing and EEGLAB. Click on the image below to access the
 playlist.
 
 
-![300px\|link=<https://www.youtube.com/playlist?list=PLXc9qfVbMMN2NksmDeqizCI1z5DJBlqC6>]({{ site.baseurl }}/assets/images/Icaintro2.png)
+<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN2NksmDeqizCI1z5DJBlqC6"><img src="/assets/images/Icaintro2.png"></a>
 
 
 
@@ -29,7 +29,7 @@ There are also 7 short presentations for preprocessing EEG data. Click
 on the image below to access the playlist.
 
 
-![300px\|link=<https://www.youtube.com/playlist?list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae>]({{ site.baseurl }}/assets/images/Icapreproc.png)
+<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae"><img src="/assets/images/Icapreproc.png"></a>
 
 
 
