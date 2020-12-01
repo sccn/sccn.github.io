@@ -3,7 +3,7 @@ layout: default
 title: Online EEGLAB Workshop
 permalink: /workshops/Online_EEGLAB_Workshop.html
 parent: Workshops
-nav_order: 3
+nav_order: 1
 ---
 [//]: # (TODO: check formatting, linebreak, urls with ???)
 
