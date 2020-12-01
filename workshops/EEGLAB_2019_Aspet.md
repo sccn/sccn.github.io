@@ -187,7 +187,7 @@ settings to organize data - Leila Reidy</span>
 
 <span style="color: purple">13:45 – 15:30 -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)
 
-<span style="color: orange">15:45 – 17:30 -- SIFT toolbox: practicum (Tim Mullen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf‎)
+<span style="color: orange">15:45 – 17:30 -- SIFT toolbox: practicum (Tim Mullen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)
 
 
 <span style="color: green">19:45 -- Dinner </span>
