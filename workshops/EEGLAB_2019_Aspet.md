@@ -197,7 +197,7 @@ settings to organize data - Leila Reidy</span>
 <span style="color: green">7:30-8:30 -- Breakfast</span>
 
 
-<span style="color: purple">8:30 – 10:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf‎)
+<span style="color: purple">8:30 – 10:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)
 
 <span style="color: green">-- Break--</span>
 
