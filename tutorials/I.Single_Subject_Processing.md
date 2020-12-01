@@ -4,6 +4,7 @@ title: I.Single subject data processing tutorial
 permalink: /tutorials/single-subject
 parent: Tutorials
 has_children: true
+has_toc: false
 ---
 
 The EEGLAB Tutorial is split into three parts. The first part is the
@@ -33,28 +34,28 @@ on the image below to access the playlist.
 
 
 
--   [Chapter 01: Loading Data in
+-   [I.1: Loading Data in
     EEGLAB](/tutorials/single-subject/loading-data-in-EEGLAB)
--   [Chapter 02: Channel
+-   [I.2: Channel
     Locations](/tutorials/single-subject/channel-locations)
--   [Chapter 03: Plotting Channel Spectra and
+-   [I.3: Plotting Channel Spectra and
     Maps](/tutorials/single-subject/plotting-channel-spectra-and-maps)
--   [Chapter 04: Preprocessing
+-   [I.4: Preprocessing
     Tools](/tutorials/single-subject/preprocessing-tools)
--   [Chapter 05: Extracting Data
+-   [I.5: Extracting Data
     Epochs](/tutorials/single-subject/extracting-data-epochs)
--   [Chapter 06: Data Averaging](/tutorials/single-subject/data-averaging)
--   [Chapter 07: Selecting Data Epochs and
+-   [I.6: Data Averaging](/tutorials/single-subject/data-averaging)
+-   [I.7: Selecting Data Epochs and
     Comparing](/tutorials/single-subject/selecting-data-epochs-and-comparing)
--   [Chapter 08: Plotting ERP
+-   [I.8: Plotting ERP
     images](/tutorials/single-subject/plotting-erp-images)
--   [Chapter 09: Decomposing Data Using
+-   [I.9: Decomposing Data Using
     ICA](/tutorials/single-subject/decomposing-data-using-ICA)
--   [Chapter 10: Working with ICA
+-   [I.10: Working with ICA
     components](tutorials/single-subject/working-with-ICA-components)
--   [Chapter 11: Time/Frequency
+-   [I.11: Time/Frequency
     decomposition](/tutorials/single-subject/time-frequency-decomposition)
--   [Chapter 12: Multiple
+-   [I.12: Multiple
     Datasets](/tutorials/single-subject/multiple-datasets)
 
 [Category:EEGLAB](/Category:EEGLAB "wikilink")
