@@ -34,28 +34,28 @@ on the image below to access the playlist.
 
 
 -   [Chapter 01: Loading Data in
-    EEGLAB](/Chapter_01:_Loading_Data_in_EEGLAB "wikilink")
+    EEGLAB](/tutorials/single-subject/loading-data-in-EEGLAB)
 -   [Chapter 02: Channel
-    Locations](/Chapter_02:_Channel_Locations "wikilink")
+    Locations](/tutorials/single-subject/channel-locations)
 -   [Chapter 03: Plotting Channel Spectra and
-    Maps](/Chapter_03:_Plotting_Channel_Spectra_and_Maps "wikilink")
+    Maps](/tutorials/single-subject/plotting-channel-spectra-and-maps)
 -   [Chapter 04: Preprocessing
-    Tools](/Chapter_04:_Preprocessing_Tools "wikilink")
+    Tools](/tutorials/single-subject/preprocessing-tools)
 -   [Chapter 05: Extracting Data
-    Epochs](/Chapter_05:_Extracting_Data_Epochs "wikilink")
--   [Chapter 06: Data Averaging](/Chapter_06:_Data_Averaging "wikilink")
+    Epochs](/tutorials/single-subject/extracting-data-epochs)
+-   [Chapter 06: Data Averaging](/tutorials/single-subject/data-averaging)
 -   [Chapter 07: Selecting Data Epochs and
-    Comparing](/Chapter_07:_Selecting_Data_Epochs_and_Comparing "wikilink")
+    Comparing](/tutorials/single-subject/selecting-data-epochs-and-comparing)
 -   [Chapter 08: Plotting ERP
-    images](/Chapter_08:_Plotting_ERP_images "wikilink")
+    images](/tutorials/single-subject/plotting-erp-images)
 -   [Chapter 09: Decomposing Data Using
-    ICA](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink")
+    ICA](/tutorials/single-subject/decomposing-data-using-ICA)
 -   [Chapter 10: Working with ICA
-    components](/Chapter_10:_Working_with_ICA_components "wikilink")
+    components](tutorials/single-subject/working-with-ICA-components)
 -   [Chapter 11: Time/Frequency
-    decomposition](/Chapter_11:_Time/Frequency_decomposition "wikilink")
+    decomposition](/tutorials/single-subject/time-frequency-decomposition)
 -   [Chapter 12: Multiple
-    Datasets](/Chapter_12:_Multiple_Datasets "wikilink")
+    Datasets](/tutorials/single-subject/multiple-datasets)
 
 [Category:EEGLAB](/Category:EEGLAB "wikilink")
 

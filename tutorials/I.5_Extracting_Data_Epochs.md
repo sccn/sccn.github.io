@@ -1,7 +1,7 @@
 ---
 layout: default
 title: I.5 Extracting Data Epochs
-permalink: /tutorials/single-subject/I.5_Extracting_Data_Epochs
+permalink: /tutorials/single-subject/extracting-data-epochs
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 ---

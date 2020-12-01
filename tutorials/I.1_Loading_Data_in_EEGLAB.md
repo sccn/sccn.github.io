@@ -1,7 +1,7 @@
 ---
 layout: default
 title: I.1 Loading Data in EEGLAB
-permalink: /tutorials/single-subject/I.1_Loading_Data_in_EEGLAB
+permalink: /tutorials/single-subject/loading-data-in-EEGLAB
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 ---

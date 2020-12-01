@@ -1,7 +1,7 @@
 ---
 layout: default
 title: I.12 Multiple Datasets
-permalink: /tutorials/single-subject/I.12_Multiple_Datasets
+permalink: /tutorials/single-subject/multiple-datasets
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 ---

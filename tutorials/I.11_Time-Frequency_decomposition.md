@@ -1,7 +1,7 @@
 ---
 layout: default
 title: I.11 Time-Frequency decomposition
-permalink: /tutorials/single-subject/I.11_Time-Frequency_decomposition
+permalink: /tutorials/single-subject/time-frequency-decomposition
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: I.2 Channel Locations
-permalink: /tutorials/single-subject/I.2_Channel_Locations
+permalink: /tutorials/single-subject/channel-locations
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 ---

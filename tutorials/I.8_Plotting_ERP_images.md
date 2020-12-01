@@ -1,7 +1,7 @@
 ---
 layout: default
 title: I.8 Plotting ERP images
-permalink: /tutorials/single-subject/I.8_Plotting_ERP_images
+permalink: /tutorials/single-subject/plotting-erp-images
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 ---

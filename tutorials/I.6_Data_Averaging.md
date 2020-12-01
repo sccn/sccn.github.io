@@ -1,7 +1,7 @@
 ---
 layout: default
 title: I.6 Data Averaging
-permalink: /tutorials/single-subject/I.6_Data_Averaging
+permalink: /tutorials/single-subject/data-averaging
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 ---
