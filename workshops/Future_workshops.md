@@ -3,6 +3,7 @@ layout: default
 title: Future workshops
 permalink: /workshops/Future_workshops.html
 parent: Workshops
+nav_order: 4
 ---
 
 Below are EEGLAB workshops currently planned
