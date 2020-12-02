@@ -51,10 +51,9 @@ Workshop Program (with corresponding PDFs)
 
 
 <font color = green>-- Break--</font>
+<br>
 
-
-<font color = purple>10:20 – 11:00 -- Time-Frequency decompositions </font>
-(Arnaud Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_timefreq.pdf))
+<font color = purple>10:20 – 11:00 -- Time-Frequency decompositions (Arnaud Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_timefreq.pdf))</font>
 
 <font color = orange>11:00 – 12:00 -- Time-Frequency practicum (Arnaud Delorme) </font>
 
@@ -107,17 +106,13 @@ Workshop Program (with corresponding PDFs)
 
 <font color = green>-- Break--</font>
 
-<font color = purple>10:20 – 11:20 -- Forward and inverse models (Robert Oostenveld) </font>
-([PDF](https://sccn.ucsd.edu/githubwiki/files/forward_and_inverse_models_aspet2009.pdf))
+<font color = purple>10:20 – 11:20 -- Forward and inverse models (Robert Oostenveld) </font> ([PDF](https://sccn.ucsd.edu/githubwiki/files/forward_and_inverse_models_aspet2009.pdf))
 
-<font color = orange>11:20 – 12:00 -- Basic scripting using EEGLAB “history” (A.Delorme)</font>
-[(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_4_basic_scripting.pdf)
-<!-- -->
-
+<font color = orange>11:20 – 12:00 -- Basic scripting using EEGLAB “history” (A.Delorme)</font> ([PDF](https://sccn.ucsd.edu/githubwiki/files/practicum_4_basic_scripting.pdf))
+<br>
 
 <span style="color: green">12:00-1:00 Lunch --</span>
 
-<!-- -->
 
 
 **EEGLAB methods II – Evaluating ICs**
