@@ -102,7 +102,7 @@ Workshop Preliminary Program
 
 
 
-<span style="color: orange">15:45 – 17:00 Evaluating ICA components practicum (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_evaluateics_practicum.pdf),[Dataset Info](https://sccn.ucsd.edu/githubwiki/files/jri_readme.pdf)
+<span style="color: orange">15:45 – 17:00 Evaluating ICA components practicum (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_evaluateics_practicum.pdf), [Dataset Info](https://sccn.ucsd.edu/githubwiki/files/jri_readme.pdf)
 <!-- -->
 
 
@@ -171,7 +171,7 @@ Workshop Preliminary Program
 
 
 
-<span style="color: purple">11:00 – 11:45 Forward and inverse source imaging - Dipfit, NFT, and NIST (Scott Makeig)</span> [PDF1](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_dipfit.pdf)[PDF2](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_nft.pdf)
+<span style="color: purple">11:00 – 11:45 Forward and inverse source imaging - Dipfit, NFT, and NIST (Scott Makeig)</span> [PDF1](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_dipfit.pdf), [PDF2](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_makeig_nft.pdf)
 
 <span style="color: orange">11:45 – 12:30 DIPFIT practicum (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_ad_dipole_modeling.pdf)
 <!-- -->
@@ -183,7 +183,7 @@ Workshop Preliminary Program
 
 
 
-<span style="color: orange">14:00 – 15:45 EEGLAB basic and custom scripting (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_basicscripting.pdf),[Code](/https://drive.google.com/file/d/0B2myolm32zgoN1poeFNDUzN4RjA/view?usp=sharing "wikilink")
+<span style="color: orange">14:00 – 15:45 EEGLAB basic and custom scripting (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_basicscripting.pdf), [Code](/https://drive.google.com/file/d/0B2myolm32zgoN1poeFNDUzN4RjA/view?usp=sharing "wikilink")
 
 <!-- -->
 
@@ -194,7 +194,7 @@ Workshop Preliminary Program
 
 
 
-<span style="color: orange">16:00 – 17:00 EEGLAB scripting for STUDY data (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_ad_studyscripting.pdf)[Script.zip](https://sccn.ucsd.edu/githubwiki/files/script.zip)
+<span style="color: orange">16:00 – 17:00 EEGLAB scripting for STUDY data (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_ad_studyscripting.pdf), [Script.zip](https://sccn.ucsd.edu/githubwiki/files/script.zip)
 
 
 ### <span style="color: dodgerblue">Day 4 - Saturday, 5th September, 2015</span>
@@ -210,7 +210,7 @@ Workshop Preliminary Program
 
 <span style="color: purple">10:00 – 10:30 EEGLAB Extensions (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_plugins.pdf)
 
-<span style="color: orange">10:30 – 10:45 EEGLAB Challenge Practicum (all)</span>[Exercices](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_questions.pdf)
+<span style="color: orange">10:30 – 10:45 EEGLAB Challenge Practicum (all)</span> [Exercices](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_questions.pdf)
 <!-- -->
 
 
