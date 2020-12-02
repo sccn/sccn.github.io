@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-
+nav_exclude: true
 ---
 # Welcome to EEGLAB Wiki
 [right|400px](/Image:Eeglab_small.jpg "wikilink")
