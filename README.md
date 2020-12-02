@@ -10,3 +10,10 @@ Web: https://sccn.github.io
 * It usually takes few minutes for a pushed commit to go live. It takes some setting-up effort to load the site locally for quick preview of changes:
   * Clone the repository and follow the instructions in https://pmarsceill.github.io/just-the-docs/#getting-started to install Jekyll and update the _config.yml file accordingly. 
   * Ignore _config.yml files when you create new commit. DO NOT push your edited local _config.yml file!
+
+### To run the site locally on your laptop
+* Install Jekyll following the instruction: https://jekyllrb.com/docs/installation/. (See [here](https://jekyllrb.com/docs/installation/macos/) for mac)
+* Clone the repository: ``git clone https://github.com/sccn/sccn.github.io.git; cd sccn.github.io``
+* Run ``bundle install`` to download theme and its dependencies
+* Open *_config.yml* and change the line ``remote_theme: pmarsceill/just-the-docs`` to ``theme: "just-the-docs"``. **Don't commit this change to remote!**
+* Run ``bundle exec jekyll serve`` and the site should be live at http://localhost:4000/
