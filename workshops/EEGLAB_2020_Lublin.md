@@ -59,7 +59,7 @@ conference space rental, all coffee breaks, and a short excursion.
 <b>Registration:</b> <font color="red"> Registration are now closed and
 will be reopened in 2021. </font>
 
-<b>Call for papers:</b> During the EEGlab Workshop in Lublin a poster
+<b>Call for papers:</b> During the EEGLAB Workshop in Lublin a poster
 session will be held. We offer the possibility of publishing abstracts
 of presentations in [Advances in Cognitive
 Psychology](http://www.ac-psych.org/en/home) – a scientific journal (IF
