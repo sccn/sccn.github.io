@@ -111,8 +111,6 @@ portion of the workshop.
 If you are new to Matlab or need a refresher please consult the material on the [Getting started with Matlab page](/workshops/tutorial_matlab)
 
 
-
-
 MATLAB support
 --------------
 
