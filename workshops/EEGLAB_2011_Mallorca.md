@@ -89,7 +89,7 @@ below).
 
 <span style="color: blue><b>Program</b"></span>
 
-<span style="color: purple">08:30 -- 09:15am -- Mining event-related brain dynamics (Scott Makeig)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_mallorca_i.pdf)</span>
+<span style="color: purple">08:30 -- 09:15am -- Mining event-related brain dynamics (Scott Makeig) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_mallorca_i.pdf)</span>
 <!-- -->
 
 
@@ -260,7 +260,7 @@ practicum](ftp://sccn.ucsd.edu/pub/julie/extra.zip)
 
 
 
-<span style="color: purple">11:00 -- 12:00 -- Forward head modeling overview[(PDF)](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_forward_problem_of_eeg.pdf)</span>
+<span style="color: purple">11:00 -- 12:00 -- Forward head modeling overview [(PDF)](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_forward_problem_of_eeg.pdf)</span>
 <!-- -->
 
 
@@ -271,7 +271,7 @@ practicum](ftp://sccn.ucsd.edu/pub/julie/extra.zip)
 
 
 
-<span style="color: darkblue">13:30 -- 14:30 -- NFT head modeling toolbox practicum[(PDF)](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_nft_practicum.pdf)</span>
+<span style="color: darkblue">13:30 -- 14:30 -- NFT head modeling toolbox practicum [(PDF)](https://sccn.ucsd.edu/githubwiki/files/akalin_acar_nft_practicum.pdf)</span>
 <!-- -->
 
 
@@ -351,7 +351,7 @@ practicum](ftp://sccn.ucsd.edu/pub/julie/extra.zip)
 
 
 
-<span style="color: darkblue">15:30 -- 17:30 -- Using BCILAB to design and run BCI, cognitive monitoring, and neurofeedback experiments / applications </span> [PDF](https://sccn.ucsd.edu/githubwiki/files/workshop_2011_-_practicum.pdf)
+<span style="color: darkblue">15:30 -- 17:30 -- Using BCILAB to design and run BCI, cognitive monitoring, and neurofeedback experiments / applications </span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/workshop_2011_-_practicum.pdf)
 
 
 
