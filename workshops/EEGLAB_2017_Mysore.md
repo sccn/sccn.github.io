@@ -66,7 +66,7 @@ Preliminary Workshop Program (PDFs will be updated)
 
 
 
-<span style="color: purple">14:30 – 15.15 -- ICA theory (Scott Makeig)</span> [PDF‎](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lecture_ica.pdf)
+<span style="color: purple">14:30 – 15.15 -- ICA theory (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lecture_ica.pdf)
 
 <span style="color: orange">15:15 – 16:15 -- EEG data import, Artifact rejection (Luca Pion-Tonachini)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_preproc_new.pdf)
 <!-- -->
@@ -81,9 +81,9 @@ Preliminary Workshop Program (PDFs will be updated)
 **ICA and time-frequency**
 
 
-<span style="color: orange">16:30 – 17:15 -- ICA decomposition of EEG data practicum (Makoto Miyakoshi)</span># [PDF](https://sccn.ucsd.edu/githubwiki/files/icadecompositionofeegdata4.pdf)
+<span style="color: orange">16:30 – 17:15 -- ICA decomposition of EEG data practicum (Makoto Miyakoshi)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/icadecompositionofeegdata4.pdf)
 
-<span style="color: orange">17:15 – 18:00 -- Evaluating ICA components practicum (Luca Pion-Tonachini)</span>#[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_evaluation_ica.pdf)
+<span style="color: orange">17:15 – 18:00 -- Evaluating ICA components practicum (Luca Pion-Tonachini)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_evaluation_ica.pdf)
 
 <span style="color: purple">18:00 – 19:00 -- Time-frequency decompositions of EEG data: Theory and practice (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_timefrequencytheorypractice.pdf)
 <!-- -->
