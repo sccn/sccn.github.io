@@ -20,5 +20,5 @@ Delorme, A., Palmer, J. Oostenveld, R., Onton, J., Makeig, S. [Independent compo
 
 Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts from EEG data using high-order statistics and independent component analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf). Neuroimage.2007; 34, 1443-1449.
 
-Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during working memory (https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
+Onton J, Delorme, A., Makeig, S. [Frontal midline EEG dynamics during working memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).NeuroImage. 2005;27, 341-356
 
