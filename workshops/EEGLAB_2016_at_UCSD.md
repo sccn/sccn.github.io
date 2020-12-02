@@ -69,13 +69,13 @@ Workshop Program
 
 <span style="color: mediumblue"> 8:30 - 9:30 AM -- Mining event-related brain dynamics I (Scott Makeig) [DownloadPDF](https://sccn.ucsd.edu/githubwiki/files/plenaryday1_eeglab_ucsd16_makeig_i.pdf)</span>
 
-<span style="color: mediumblue"> 9:30 - 10:15 AM -- EEGLAB overview (Arnaud Delorme)[Download PDF](https://sccn.ucsd.edu/githubwiki/files/plenaryday1_eeglab2016_overview_adelorme.pdf)</span>
+<span style="color: mediumblue"> 9:30 - 10:15 AM -- EEGLAB overview (Arnaud Delorme) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/plenaryday1_eeglab2016_overview_adelorme.pdf)</span>
 
 <span style="color: saddlebrown">10:15 - 10:30 AM -- Coffee break</span>
 
-<span style="color: mediumblue">10:30 - 11:30 AM -- ICA decomposition theory & evaluation (Scott Makeig)[Download PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ucsd_plenaryday1_ica.pdf) </span>
+<span style="color: mediumblue">10:30 - 11:30 AM -- ICA decomposition theory & evaluation (Scott Makeig) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ucsd_plenaryday1_ica.pdf) </span>
 
-<span style="color: mediumblue">11:30 - 12:00 PM -- Time-frequency measures (John Iversen)[Download PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ucsd_jri_timefrequencymeasures_download.pdf)</span>
+<span style="color: mediumblue">11:30 - 12:00 PM -- Time-frequency measures (John Iversen) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ucsd_jri_timefrequencymeasures_download.pdf)</span>
 
 <span style="color: saddlebrown">12:00 - 1:25 PM -- Get-together Group Lunch @SDSC </span>
 
@@ -100,11 +100,11 @@ with <span style="color: saddlebrown">3:30 coffee break</span>
 
 
 
-<span style="color: mediumblue"> 2:00 - 3:00 -- D1.A1: Data import/preprocessing and basic plotting (Julie Onton) </span>[Download PDF](https://sccn.ucsd.edu/githubwiki/files/1_eeglab2016_jo_preproc_new.pdf)
+<span style="color: mediumblue"> 2:00 - 3:00 -- D1.A1: Data import/preprocessing and basic plotting (Julie Onton)</span> [Download PDF](https://sccn.ucsd.edu/githubwiki/files/1_eeglab2016_jo_preproc_new.pdf)
 
 <span style="color: saddlebrown">3:00 - 3:15 PM -- Coffee break</span>
 
-3:15 - 4:15 -- D1.A2: Performing ICA and IC visualization (Julie Onton)[Download PDF](https://sccn.ucsd.edu/githubwiki/files/2_eeglab2016_jo_artifact_and_ica.pdf)
+3:15 - 4:15 -- D1.A2: Performing ICA and IC visualization (Julie Onton) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/2_eeglab2016_jo_artifact_and_ica.pdf)
 
 4:15 - 5:00 -- D1.A3: Evaluating independent components (Luca Pion-Tonachini) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/3_eeglab2015_lpt_evaluation_ica.pdf)
 
@@ -174,7 +174,7 @@ across subjects, sessions, groups, and conditions (Cyril Pernet)
 
 <span style="color: saddlebrown">3:30 - 3:45 PM -- Coffee break</span>
 
-3:45 - 5:00 -- D2.A3: LIMO advanved tool theory and practicum (Cyril Pernet) [\[Download PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_limo_2.pdf)\]
+3:45 - 5:00 -- D2.A3: LIMO advanved tool theory and practicum (Cyril Pernet) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_limo_2.pdf)
 
 
 <span style="color: darkred">Track B (Vizlab) - High-resolution forward head modeling and source localization (Zeynep Akalin Acar) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/nft_presentation16.pdf)</span>
@@ -275,7 +275,7 @@ previous lecture PDF) </span>
 
 4:15 - 4:30 -- D3.C3: Tools for multimodal data collection and analysis: MoBILAB (Hiroyuki Kambara) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_mobilab.pdf)
 
-4:30 - 5:30 -- D3.C4: Real-World Neuroimaging and Brain-computer Interfaces (Tzyy-Ping Jung et al.) </font> [Download PDF](https://sccn.ucsd.edu/githubwiki/files/jungpres.pdf)
+4:30 - 5:30 -- D3.C4: Real-World Neuroimaging and Brain-computer Interfaces (Tzyy-Ping Jung et al.) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/jungpres.pdf)
 
 <span style="color: saddlebrown"> 6:30 PM -- Optional birds-of-a-feather group dinners II (sign-up sheets at the registration table) </span>
 
