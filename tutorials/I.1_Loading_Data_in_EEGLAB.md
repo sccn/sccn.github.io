@@ -6,33 +6,7 @@ parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 ---
 
-{ {Backward_Forward\|Getting_Started\|Introduction to
-EEGLAB\|I.2:_Channel_Locations\|(MT) I.2: Channel Locations} }
 
-Learning Matlab
----------------
-
-The EEGLAB graphic interface is built on top of the powerful Matlab
-scripting language. Enjoying the full capabilities of EEGLAB for
-building macro commands and performing custom and automated processing
-requires the ability to manipulate EEGLAB data structures in Matlab.
-Because of time constraints, this wiki NOT provide an introduction to
-the Matlab scripting language. Instead users need to familiarize
-themselves with Matlab prior to the workshop. Users of Matlab 7: We
-recommend running the following demos and reading the following help
-sections.
-
-In the Matlab help, you should perform the first 3 tutorials (Matlab
-2018)
-
--   Getting Started with MATLAB
--   Language Fundamentals
--   Mathematics
--   Graphics (first section 2-D plot only)
-
-Each section or demo (if read thoroughly) should take you about 40
-minutes, for a total here of about 2 hours. We encourage you to read
-these sections over several days.
 
 Installing EEGLAB and tutorial files
 ------------------------------------
@@ -42,10 +16,13 @@ which contains the tutorial dataset (also available [here
 (4MB)](/Media:eeglab_data.set "wikilink") - *press the right mouse
 button and select 'Save link as' if strange characters appear*).
 When you uncompress EEGLAB you will obtain a folder named "eeglabxxxx"
-(note: current version number 'xxxx' will vary). Under Windows, Matlab
+(note: current version number 'xxxx' will vary). 
+
+Under Windows, Matlab
 usually recommends (although does not require) that you place toolboxes
 in the *Application/MatlabRxxxx/toolbox/* folder (note: this name should
-vary with the Matlab version 'xxxx'). In Linux, the Matlab toolbox
+vary with the Matlab version 'xxxx'). 
+In Linux, the Matlab toolbox
 folder is typically located at */usr/local/pkgs/Matlab-rxxxx/toolbox/*
 and in Mac in "/Application/MATLAB_Rxxxx". You may also place the folder
 anywhere else on your path.
@@ -53,46 +30,42 @@ anywhere else on your path.
 Starting Matlab and EEGLAB
 --------------------------
 
-Here we will start Matlab and EEGLAB. Note that paragraphs that begin
-with <font color=green>KEY STEP</font> are necessary to what follows in
-the tutorial. Paragraphs that begin with <font color=green>Exploratory
-Step</font> are written to help you explore various EEGLAB features.
+Here we will start Matlab and EEGLAB. .
 
-<font color=green>KEY STEP 1: </font>Start Matlab.
+**Start Matlab**
 
-> WINDOWS: Go to Start, find Matlab and run it.
-> Mac Option 1: Start from the Matlab icon in the dock or in the
-> application folder.
-> Linux: Open a terminal window and type "matlab" and hit enter.
+    - Windows: Go to Start, find Matlab and run it.
+    - MacOS: Start from the Matlab icon in the dock or in the
+    application folder.
+    - Linux: Open a terminal window and type "matlab" and hit enter.
 
-<font color=green>KEY STEP 2:</font> Switch to the EEGLAB directory
-(folder).
+**Switch to the EEGLAB directory (folder)**
 
-> You may browse for the directory by clicking on the button marked
-> *"…"* in the upper right of the screen.
+You may browse for the directory by clicking on the button marked *"…"* in the upper right of the screen.
 
 
 ![800px]({{ site.baseurl }}/assets/images/Matlab_main_screen.png)
 
 
-> This opens the window below. Double-click on a directory to enter it.
-> Double-clicking on ".." in the folder list takes you up one level. Hit
-> *OK* once you find the folder or directory you wish to be in.
-> Alternatively, from the command line use "cd" (change directory) to
-> get to the desired directory.
-
-<font color=green>KEY STEP 3:</font> Start EEGLAB.
-
-> Type "eeglab" at the Matlab command line and hit enter. EEGLAB will
-> automatically add itself to the Matlab path.
+ This opens the window below. Double-click on a directory to enter it.
+ Double-clicking on ".." in the folder list takes you up one level. Hit
+ *OK* once you find the folder or directory you wish to be in.
+ Alternatively, from the command line use "cd" (change directory) to
+ get to the desired directory.
 
 
-![800px]({{ site.baseurl }}/assets/images/Matlab_command_line.png)
+**Start EEGLAB**
+
+Type "eeglab" at the Matlab command line and hit enter. EEGLAB will
+automatically add itself to the Matlab path.
 
 
-> The blue main EEGLAB window below should pop up, with its seven menu
-> headings: <font color=brown>File, Edit, Tools, Plot, Study, Datasets,
-> Help</font> arranged in typical (left-to-right) order of use.
+![800px]({{ site.baseurl }}/assets/images/Matlab_Command_Line.png)
+
+
+ The blue main EEGLAB window below should pop up,  with its seven menu
+ headings: <font color=brown>File, Edit, Tools, Plot, Study, Datasets,
+ Help</font> arranged in typical (left-to-right) order of use.
 
 
 ![350px]({{ site.baseurl }}/assets/images/Eeglab20191.png)
