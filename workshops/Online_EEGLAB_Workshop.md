@@ -151,16 +151,6 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 -   [EEGLAB and workshop overview (Arnaud
     Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html)
 
-#### Getting started using EEGLAB
-
--   [Data import and channel analysis (Klaus Gramann) - no
-    video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_data_import.html)
--   [Evaluating ICA components (Julie Onton) - no
-    video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eval_ICA_components.html)
--   [Basic scripting using EEGLAB “history” and the EEG structure (Julie
-    Onton) - no
-    video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_basic_scripting.html)
-
 #### EEGLAB Methods for EEG-based functional brain imaging
 
 -   [Independent Component Analysis (ICA) theory I (Jason
@@ -178,8 +168,6 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
     6](https://www.youtube.com/watch?v=tuJRJsOJl-I)).
 -   [Forward and inverse source modeling (Zeynep Akalin
     Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inverse_source_modeling.html)
--   [Using the DIPFIT toolbox (Julie Onton) - no
-    video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_dipfit.html)
 
 <img width="180" height="250" class="float-right" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg">
 #### Computing across subjects and conditions
