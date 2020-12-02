@@ -110,7 +110,7 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: purple">10:30 – 11:00 -- Group analysis using EEGLAB studies: Methods to cluster ICA components (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_study_clustering.pdf)
 
-<span style="color: orange">11:00 – 12:00 -- Scripting to manipulate EEGLAB studies for group analysis (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_study_advanced_and_scripts.pdf)[Pipeline example script](https://sccn.ucsd.edu/githubwiki/files/eeglab_pipeline.zip)
+<span style="color: orange">11:00 – 12:00 -- Scripting to manipulate EEGLAB studies for group analysis (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_study_advanced_and_scripts.pdf), [Pipeline example script](https://sccn.ucsd.edu/githubwiki/files/eeglab_pipeline.zip)
 <!-- -->
 
 
