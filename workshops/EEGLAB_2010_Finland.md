@@ -58,8 +58,7 @@ Workshop Program
 
 <span style="color: purple">8:30 – 9:00 am -- Using bootstrap statistics (Arnaud Delorme) [PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_statistics_finland2010.pdf)</span>
 
-<span style="color: orange">9:00 – 9:45 am -- Basic scripting using EEGLAB “history” and EEG structure (Julie Onton) [PDF](https://sccn.ucsd.edu/githubwiki/files/4_basic_scripting
-.pdf)</span>
+<span style="color: orange">9:00 – 9:45 am -- Basic scripting using EEGLAB “history” and EEG structure (Julie Onton) [PDF](https://sccn.ucsd.edu/githubwiki/files/4_basic_scripting.pdf)</span>
 
 <span style="color: purple">9:45 – 10:30 am – Forward and inverse source models (Scott Makeig)</span>
 
