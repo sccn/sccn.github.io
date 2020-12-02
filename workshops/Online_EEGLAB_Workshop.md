@@ -22,7 +22,7 @@ presentations.
 ## <font color=darkred> List of Youtube Tutorial Videos </font>
 
 
-<img class="float-right"  width="300" height="300" src="{{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg">
+<img align="center" width="200" height="200" src="{{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg">
 
 
 
