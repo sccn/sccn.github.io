@@ -80,7 +80,7 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: orange"> 15:50 – 16:50 -- Evaluation of ICA components (Arnaud Delorme) </span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_3_evaluateics2.pdf)
 
-<span style="color: orange">16:50 – 17:20 -- ICA automatic artifact detection plugin (Filipa Campo Viola) </span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files
+<span style="color: orange">16:50 – 17:20 -- ICA automatic artifact detection plugin (Filipa Campo Viola)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files
 /automatic_detec_artifac_comps.pdf)
 
 17:20 – 19:00 -- Data and workstation available
