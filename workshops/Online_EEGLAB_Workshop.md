@@ -185,8 +185,6 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 #### Computing across subjects and conditions
 - [Resampling-based statistics and correcting for multiple comparisons (David Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)
 - [STUDY component clustering (Arnaud Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)
-- [The new 'STUDY.design' facility and multi-subject plotting (Arnaud Delorme) - no video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_design.html)
-- [Advanced uses of 'STUDY.design' statistics (Arnaud Delorme) - no video](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_advanced_study_design.html)
 
 #### Extending EEGLAB with Plug-ins
 -   [Building EEGLAB plug-ins (Arnaud
