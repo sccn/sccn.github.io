@@ -169,10 +169,10 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 -   [Forward and inverse source modeling (Zeynep Akalin
     Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inverse_source_modeling.html)
 
-<img width="180" height="250" class="float-right" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg">
+<img width="180" height="250" align="right" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg" >
 #### Computing across subjects and conditions
 - [Resampling-based statistics and correcting for multiple comparisons (David Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)
-- [STUDY component clustering (Arnaud Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)
+- [STUDY ICA component clustering (Arnaud Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)
 
 #### Extending EEGLAB with Plug-ins
 -   [Building EEGLAB plug-ins (Arnaud
