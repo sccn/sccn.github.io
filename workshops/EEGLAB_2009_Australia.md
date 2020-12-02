@@ -96,7 +96,7 @@ Workshop Program
 
 
 
-<span style="color: green">'''-- Break (10:00-10:30) -- '''</span>
+<span style="color: green">-- Break (10:00-10:30) -- </span>
 
 **10:30 - 12:00 pm - Group research (Datasets provided)**
 
@@ -104,7 +104,7 @@ Workshop Program
 
 <span style="color: green">**-- 12:00-1:00 Lunch --**</span>
 
-'''1:00 - 3:00 pm -Group research, cont'd '''
+1:00 - 3:00 pm -Group research, cont'd 
 
 **3:00 - 4:00 pm - Group research reports and discussion**
 
