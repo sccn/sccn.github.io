@@ -22,21 +22,21 @@ Workshop Content
 <span style="color:darkred"><b>EEGLAB Overview: Concepts and
 Architecture</b></span>  
 
-<span style="color:purple">[Mining cognitive brain dynamics I (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> \- <span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> \- <span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_sm_mining_brain_dynamics_i.pdf)</b></span>
+<span style="color:purple">[Mining cognitive brain dynamics I (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> \- <span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_Mining_I.html)</span> <span style="color:blue">[Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_sm_mining_brain_dynamics_i.pdf)</span>
 
 <span style="color:purple">[EEGLAB and workshop overview (Arnaud
 Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html)</span>
-<span style="color:darkred"> \- [Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html) \- <span style="color:blue"><b>[Slides](https://sccn.ucsd.edu
-/githubwiki/files/eeglab2010_ad_nov18_eeglab_overview.pdf)</b>
+<span style="color:darkred"> \- [Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html) <span style="color:blue">[Slides](https://sccn.ucsd.edu
+/githubwiki/files/eeglab2010_ad_nov18_eeglab_overview.pdf)
 
-<b>[Browse the EEGLAB wikitutorial](http://sccn.ucsd.edu/wiki/eeglab)</b><br>
+[Browse the EEGLAB wikitutorial](http://sccn.ucsd.edu/wiki/eeglab)<br>
 
 <span style="color:darkred"><b>EEGLAB Methods for EEG-based functional brainimaging</b></span>
 
-<span style="color:purple">[Independent Component Analysis (ICA) theory I (Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/ica_concepts.pdf)</b>
+<span style="color:purple">[Independent Component Analysis (ICA) theory I (Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html) <span style="color:blue">[Slides](https://sccn.ucsd.edu/githubwiki/files/ica_concepts.pdf)
 <!-- -->
 
-<span style="color:purple">[Independent Component Analysis (ICA) theory II(Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)<span style="color:blue"><b>[Slides](https://sccn.ucsd.edu/githubwiki/files/ica_methods.pdf)</b>
+<span style="color:purple">[Independent Component Analysis (ICA) theory II(Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica2.html) <span style="color:blue">[Slides](https://sccn.ucsd.edu/githubwiki/files/ica_methods.pdf)
 <!-- -->
 
 
@@ -155,7 +155,7 @@ Mullen)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_info_flow.h
 [Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab_12th_workshop_talk_2010_mullen.pdf)
 
 <span style="color:purple">Practicum (Tim Mullen)</span>
-[Download the SIFT Toolbox (alpha)](ftp://sccn.ucsd.edu/pub/SIFT_01_alpha.zip)</b>
+[Download the SIFT Toolbox (alpha)](ftp://sccn.ucsd.edu/pub/SIFT_01_alpha.zip)
 
 <!-- -->
 
@@ -226,11 +226,11 @@ recording, interactive control and analysis (Andrey
 Vankov)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_erica.html)</span>
 [Talk](http://sccn.ucsd.edu/eeglab/EEGLAB12_erica.html)
 [Browse the ERICA DataSuite wiki
-tutorial](http://sccn.ucsd.edu/wiki/DataSuite)</b>
+tutorial](http://sccn.ucsd.edu/wiki/DataSuite),
 [Browse the ERICA MatRiver wiki
-tutorial](http://sccn.ucsd.edu/wiki/MatRiver)</b>
+tutorial](http://sccn.ucsd.edu/wiki/MatRiver),
 [Browse the ERICA Enactor wiki
-tutorial](http://sccn.ucsd.edu/wiki/Enactor)</b>
+tutorial](http://sccn.ucsd.edu/wiki/Enactor)
 
 <!-- -->
 
