@@ -60,7 +60,7 @@ Workshop Preliminary Program
 
 
 
-<span style="color: purple">9:00 – 10:00 -- Why cluster ICA components? (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_rio_clustering.pdf)
+<span style="color: purple">9:00 – 10:00 -- Why cluster ICA components? (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_rio_clustering.pdf)
 
 <span style="color: purple">10:00 – 10:30 -- Creating a STUDY, STUDY design, and plotting (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2014_ad_study_design.pdf)
 

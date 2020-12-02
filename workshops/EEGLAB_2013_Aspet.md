@@ -73,7 +73,7 @@ Workshop Program (with corresponding PDFs)
 **ICA and time-frequency**
 
 
-<span style="color: orange">13:00 – 14:00 -- Importing data, rejecting data, and performing ICA decomposition practicum (Claire Braboszcz)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_cb_evaluation_ica.pdf)
+<span style="color: orange">13:00 – 14:00 -- Importing data, rejecting data, and performing ICA decomposition practicum (Claire Braboszcz)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_cb_evaluation_ica.pdf)
 
 <span style="color: orange">14:00 – 15:00 -- Evaluating ICA components practicum (Claire Braboszcz)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_cb_evaluation_ica.pdf)
 
@@ -108,7 +108,7 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">10:30 – 11:00 -- Group analysis using EEGLAB studies: Methods to cluster ICA components (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_study_clustering.pdf)
+<span style="color: purple">10:30 – 11:00 -- Group analysis using EEGLAB studies: Methods to cluster ICA components (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_study_clustering.pdf)
 
 <span style="color: orange">11:00 – 12:00 -- Scripting to manipulate EEGLAB studies for group analysis (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_study_advanced_and_scripts.pdf)[Pipeline example script](https://sccn.ucsd.edu/githubwiki/files/eeglab_pipeline.zip)
 <!-- -->
@@ -202,7 +202,7 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics II (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sm_miningii.pdf)
 
-<span style="color: orange">9:30 – 10:00 -- Using and building EEGLAB plug-ins (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_eeglab_plugins.pdf)
+<span style="color: orange">9:30 – 10:00 -- Using and building EEGLAB plug-ins (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_eeglab_plugins.pdf)
 <!-- -->
 
 

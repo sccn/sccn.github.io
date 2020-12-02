@@ -46,7 +46,7 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_sm_mining_brain_dynamics.pdf)
 
-<span style="color: purple">9:30 – 10:00 -- EEGLAB overview (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_eeglab_overview.pdf)
+<span style="color: purple">9:30 – 10:00 -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_ad_eeglab_overview.pdf)
 
 <span style="color: green">-- Break--</span>
 

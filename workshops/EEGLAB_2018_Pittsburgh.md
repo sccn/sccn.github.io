@@ -38,7 +38,7 @@ Preliminary Workshop Program (with corresponding PDFs)
 **Overview and ICA Theory/Practice**
 
 
-<span style="color: purple">8:30AM – 9:45AM -- Mining event-related brain dynamics I (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_mining1_pittsburgh2018.pdf)
+<span style="color: purple">8:30AM – 9:45AM -- Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_mining1_pittsburgh2018.pdf)
 
 <span style="color: purple">9:45AM – 10:15AM -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_overview_pittsburgh2018.pdf)
 
@@ -58,11 +58,11 @@ Preliminary Workshop Program (with corresponding PDFs)
 
 <span style="color: orange">2:00PM – 3:00PM -- Data import, Artifact rejection (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_preprocesssing_pittsburgh2018.pdf)
 
-<span style="color: orange">3:00PM – 4:00PM -- ICA decomposition practicum (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_icapracticum_pittsburgh2018.pdf)
+<span style="color: orange">3:00PM – 4:00PM -- ICA decomposition practicum (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_icapracticum_pittsburgh2018.pdf)
 
 <span style="color: green">--Coffee Break--</span>
 
-<span style="color: purple">4:15PM – 5:15PM -- Time-frequency decompositions:Theory and practice (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_timefreq_pittsburgh2018.pdf)
+<span style="color: purple">4:15PM – 5:15PM -- Time-frequency decompositions:Theory and practice (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_timefreq_pittsburgh2018.pdf)
 
 <u><span style="color: blue">Wednesday, September 5th 2018</span></u>
 
@@ -83,9 +83,9 @@ Preliminary Workshop Program (with corresponding PDFs)
 
 
 
-<span style="color: purple">10:15PM – 11:15PM -- Source information flow and Granger-Causal modeling tools (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_causal_model_pittsburgh2018.pdf)
+<span style="color: purple">10:15PM – 11:15PM -- Source information flow and Granger-Causal modeling tools (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_eeglab_causal_model_pittsburgh2018.pdf)
 
-<span style="color: purple">11:15AM - 12:30AM -- Why cluster ICA components? (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_clustering.pdf)
+<span style="color: purple">11:15AM - 12:30AM -- Why cluster ICA components? (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_clustering.pdf)
 <!-- -->
 
 
@@ -96,7 +96,7 @@ Preliminary Workshop Program (with corresponding PDFs)
 **Group analysis and ICA clustering in EEGLAB**
 
 
-<span style="color: orange">2:00PM - 2:30PM -- Creating a STUDY, STUDY design,basic plotting (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_study.pdf)
+<span style="color: orange">2:00PM - 2:30PM -- Creating a STUDY, STUDY design,basic plotting (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_study.pdf)
 
 <span style="color: orange">2:30PM - 3:00PM -- Group analysis using EEGLAB studies: Methods to cluster ICA components (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_pittsburgh18_clustering.pdf)
 
@@ -113,4 +113,4 @@ Preliminary Workshop Program (with corresponding PDFs)
 
 
 
-<span style="color: purple">4:30PM – 5:15PM -- Mining event-related brain dynamics II (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_mining_ii.pdf)
+<span style="color: purple">4:30PM – 5:15PM -- Mining event-related brain dynamics II (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_pittsburgh18_mining_ii.pdf)

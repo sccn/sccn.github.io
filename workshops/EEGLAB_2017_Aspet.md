@@ -59,13 +59,13 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: purple">8:30 – 9:45 -- Mining event-related brain dynamics I (Scott Makeig)</span>
 
-<span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_overview2.pdf)
+<span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_overview2.pdf)
 
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span>
 
-<span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_aspet_artifact_and_ica.pdf)
+<span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_aspet_artifact_and_ica.pdf)
 <!-- -->
 
 
@@ -77,9 +77,9 @@ Workshop Program (with corresponding PDFs)
 **ICA and time-frequency**
 
 
-<span style="color: orange">13:45 – 14:30 -- ICA decomposition practicum (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/tuesday_run_ica_and_plot.pdf)
+<span style="color: orange">13:45 – 14:30 -- ICA decomposition practicum (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/tuesday_run_ica_and_plot.pdf)
 
-<span style="color: orange">14:30 – 15:15 -- Evaluating ICA components practicum (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/tuesday_ica_evaluation.pdf‎)
+<span style="color: orange">14:30 – 15:15 -- Evaluating ICA components practicum (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/tuesday_ica_evaluation.pdf‎)
 
 <span style="color: orange">15:15 – 15:45 -- Bootstraping ICA (Fiorenzo Artoni)</span>
 
@@ -101,7 +101,7 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: purple">9:00 - 9:30 -- Robust statistics and correction for multiple comparisons (Cyril Pernet)</span>
 
-<span style="color: purple">9:30 - 10:30 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_study_design.pdf)
+<span style="color: purple">9:30 - 10:30 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_study_design.pdf)
 
 <span style="color: green">-- Break--</span>
 

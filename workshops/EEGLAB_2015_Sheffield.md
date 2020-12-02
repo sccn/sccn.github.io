@@ -208,7 +208,7 @@ Workshop Preliminary Program
 
 <span style="color: purple">9:00 – 10:00 Mining event-related brain dynamics II (Scott Makeig)</span>
 
-<span style="color: purple">10:00 – 10:30 EEGLAB Extensions (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_plugins.pdf)
+<span style="color: purple">10:00 – 10:30 EEGLAB Extensions (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_plugins.pdf)
 
 <span style="color: orange">10:30 – 10:45 EEGLAB Challenge Practicum (all)</span>[Exercices](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_questions.pdf)
 <!-- -->

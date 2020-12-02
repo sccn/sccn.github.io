@@ -60,9 +60,9 @@ orientation</font>
 **Overview and ICA Theory/Practice**
 
 
-<span style="color: purple">9:00 – 10:15 -- Mining event-related brain dynamics I (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_mining_i.pdf)
+<span style="color: purple">9:00 – 10:15 -- Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_mining_i.pdf)
 
-<span style="color: purple">10:15 – 10:45 -- EEGLAB overview (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_eeglab_overview.pdf)
+<span style="color: purple">10:15 – 10:45 -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_eeglab_overview.pdf)
 
 <span style="color: green">-- Break--</span>
 

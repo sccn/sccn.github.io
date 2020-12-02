@@ -118,7 +118,7 @@ Wearable EEG measurement system demonstration and discussion (Noriaki Kanayama, 
 
 **Source Localization**
 
-<span style="color: purple">10:00 – 11:30 -- The Neuroelectromagnetic Forward Head Modeling (NFT) and NIST (Inverse Source Imaging) toolkits (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_forwardinverse_compressed.pdf)
+<span style="color: purple">10:00 – 11:30 -- The Neuroelectromagnetic Forward Head Modeling (NFT) and NIST (Inverse Source Imaging) toolkits (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_forwardinverse_compressed.pdf)
 
 <span style="color: purple">11:30 – 12:00 -- Forward and inverse models - the Dipfit tools (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_dipfit_japan.pdf)
 

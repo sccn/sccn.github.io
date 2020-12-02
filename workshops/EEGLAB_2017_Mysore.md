@@ -66,9 +66,9 @@ Preliminary Workshop Program (PDFs will be updated)
 
 
 
-<span style="color: purple">14:30 – 15.15 -- ICA theory (Scott Makeig)</span>[PDF‎](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lecture_ica.pdf)
+<span style="color: purple">14:30 – 15.15 -- ICA theory (Scott Makeig)</span> [PDF‎](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lecture_ica.pdf)
 
-<span style="color: orange">15:15 – 16:15 -- EEG data import, Artifact rejection (Luca Pion-Tonachini)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_preproc_new.pdf)
+<span style="color: orange">15:15 – 16:15 -- EEG data import, Artifact rejection (Luca Pion-Tonachini)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_preproc_new.pdf)
 <!-- -->
 
 
@@ -85,7 +85,7 @@ Preliminary Workshop Program (PDFs will be updated)
 
 <span style="color: orange">17:15 – 18:00 -- Evaluating ICA components practicum (Luca Pion-Tonachini)</span>#[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_lpt_evaluation_ica.pdf)
 
-<span style="color: purple">18:00 – 19:00 -- Time-frequency decompositions of EEG data: Theory and practice (John Iversen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_timefrequencytheorypractice.pdf)
+<span style="color: purple">18:00 – 19:00 -- Time-frequency decompositions of EEG data: Theory and practice (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_timefrequencytheorypractice.pdf)
 <!-- -->
 
 
@@ -102,15 +102,15 @@ Preliminary Workshop Program (PDFs will be updated)
 **Group analysis and ICA clustering in EEGLAB**
 
 
-<span style="color: purple">9:00 - 9:45 -- Why cluster ICA components of EEG data? (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_clustering_2017.pdf)
+<span style="color: purple">9:00 - 9:45 -- Why cluster ICA components of EEG data? (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_clustering_2017.pdf)
 
-<span style="color: purple">9:45 - 10:45 -- Robust statistics, experimental design and correction for multiple comparisons of EEG data (John Iversen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_statistics_short.pdf)
+<span style="color: purple">9:45 - 10:45 -- Robust statistics, experimental design and correction for multiple comparisons of EEG data (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_statistics_short.pdf)
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">11:15 - 12:15 -- Creating an EEGLAB STUDY, STUDY design, and plotting STUDY results (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_study_design2.pdf)
+<span style="color: purple">11:15 - 12:15 -- Creating an EEGLAB STUDY, STUDY design, and plotting STUDY results (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_study_design2.pdf)
 
-<span style="color: purple">12:15 - 13:00 -- Clustering components within EEGLAB (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_study_clustering.pdf)
+<span style="color: purple">12:15 - 13:00 -- Clustering components within EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_study_clustering.pdf)
 <!-- -->
 
 
@@ -137,7 +137,7 @@ Preliminary Workshop Program (PDFs will be updated)
 **Source Localization**
 
 
-<span style="color: purple">9:00 – 10:15 -- Forward and inverse models - the Dipfit/NFT tools (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_sm_sourcelocalization.pdf)
+<span style="color: purple">9:00 – 10:15 -- Forward and inverse models - the Dipfit/NFT tools (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_sm_sourcelocalization.pdf)
 
 <span style="color: purple">10:15 – 10:45 -- DIPFIT practicum (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_dipfit.pdf)
 <!-- -->
@@ -154,7 +154,7 @@ Preliminary Workshop Program (PDFs will be updated)
 
 <span style="color: orange">11:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_limo_2017.pdf)
 
-<span style="color: purple">12:00 – 13:00 -- Source information flow and Granger-Causal modeling tools (John Iversen )</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_connectivity.pdf)
+<span style="color: purple">12:00 – 13:00 -- Source information flow and Granger-Causal modeling tools (John Iversen )</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_connectivity.pdf)
 <!-- -->
 
 
@@ -166,13 +166,13 @@ Preliminary Workshop Program (PDFs will be updated)
 **Source information flow and scripting**
 
 
-<span style="color: orange">14:30 – 15:00 -- STUDY plugin for group level connectivity analysis (Makoto Miyakoshi)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/studypluginforgrouplevelconnectivityanalysis.pdf)[AVI file (zipped)](https://sccn.ucsd.edu/githubwiki/files/controlnetworksagittal.zip‎) [HowTo reject ICs at group level](https://sccn.ucsd.edu/githubwiki/files/groupicselection.pdf‎)
+<span style="color: orange">14:30 – 15:00 -- STUDY plugin for group level connectivity analysis (Makoto Miyakoshi)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/studypluginforgrouplevelconnectivityanalysis.pdf)[AVI file (zipped)](https://sccn.ucsd.edu/githubwiki/files/controlnetworksagittal.zip‎) [HowTo reject ICs at group level](https://sccn.ucsd.edu/githubwiki/files/groupicselection.pdf‎)
 
-<span style="color: orange">15:00 – 16:00 -- Basic scripting using EEGLAB (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_script.pdf)
+<span style="color: orange">15:00 – 16:00 -- Basic scripting using EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_script.pdf)
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: orange">16:30 – 18:00 -- Scripting using STUDY within EEGLAB (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_studyscript.pdf)
+<span style="color: orange">16:30 – 18:00 -- Scripting using STUDY within EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_studyscript.pdf)
 <!-- -->
 
 
@@ -187,7 +187,7 @@ Preliminary Workshop Program (PDFs will be updated)
 
 
 
-<span style="color: purple">9:00 – 10:15 -- Mining event-related brain dynamics II (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_sm_miningii.pdf‎)
+<span style="color: purple">9:00 – 10:15 -- Mining event-related brain dynamics II (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_sm_miningii.pdf‎)
 
 <span style="color: orange">10:15 – 10:45 -- Practicum, small group projects</span>
 
