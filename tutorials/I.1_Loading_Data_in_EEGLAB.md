@@ -11,10 +11,8 @@ grand_parent: Tutorials
 Installing EEGLAB and tutorial files
 ------------------------------------
 
-First download [EEGLAB (30MB)](http://sccn.ucsd.edu/eeglab/install.html)
-which contains the tutorial dataset (also available [here
-(4MB)](/Media:eeglab_data.set "wikilink") - *press the right mouse
-button and select 'Save link as' if strange characters appear*).
+First download [EEGLAB](http://sccn.ucsd.edu/eeglab/install.html)
+which contains the tutorial dataset contained in the _sample_data_ folder.
 When you uncompress EEGLAB you will obtain a folder named "eeglabxxxx"
 (note: current version number 'xxxx' will vary). 
 
