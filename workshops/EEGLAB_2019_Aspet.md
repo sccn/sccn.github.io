@@ -83,12 +83,12 @@ settings to organize data - Leila Reidy</span>
 
 <span style="color:purple"> 8:30 – 9:45 -- Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_i.pdf)
 
-<span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_eeglab_overview.pdf)
+<span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_eeglab_overview.pdf)
 
 <span style="color: green">-- Break--</span>
 
 
-<span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)
+<span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)
 
 
 <span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Tracy Brandmeyer)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)
@@ -97,14 +97,14 @@ settings to organize data - Leila Reidy</span>
 
 **ICA and time-frequency**
 
-<span style="color: orange">13:45 – 15:15 -- ICA decomposition practicum (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)
+<span style="color: orange">13:45 – 15:15 -- ICA decomposition practicum (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)
 
 <span style="color: orange">15:15 – 15:45 -- Bootstrapping ICA and using PCA before ICA (Fiorenzo Artoni)</span>
 
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (Tim Mullen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_time_frequency_analysis2019.pdf)
+<span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (Tim Mullen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_time_frequency_analysis2019.pdf)
 
 <span style="color: purple">17:00 – 17:30 -- Phase amplitude coupling (Ramon Martinez)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/rmc_pac_aspet_2019.pdf)
 <!-- -->
@@ -125,13 +125,13 @@ settings to organize data - Leila Reidy</span>
 
 <span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_clustering.pdf)
 
-<span style="color: purple">9:00 - 9:45 -- Bootstrap and correction for multiple comparisons (Cyril Pernet)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)
+<span style="color: purple">9:00 - 9:45 -- Bootstrap and correction for multiple comparisons (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)
 
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">10:45 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)
 
-<span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf‎)
+<span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf‎)
 <!-- -->
 
 
@@ -158,7 +158,7 @@ settings to organize data - Leila Reidy</span>
 **Source Localization**
 
 
-<span style="color: purple">8:30 – 9:30 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)
+<span style="color: purple">8:30 – 9:30 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)
 
 <span style="color: purple">9:30 – 10:00 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme2019_dipfit.pdf)
 <!-- -->
@@ -185,7 +185,7 @@ settings to organize data - Leila Reidy</span>
 **Source information flow**
 
 
-<span style="color: purple">13:45 – 15:30 -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)
+<span style="color: purple">13:45 – 15:30 -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)
 
 <span style="color: orange">15:45 – 17:30 -- SIFT toolbox: practicum (Tim Mullen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)
 
@@ -197,7 +197,7 @@ settings to organize data - Leila Reidy</span>
 <span style="color: green">7:30-8:30 -- Breakfast</span>
 
 
-<span style="color: purple">8:30 – 10:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>[PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)
+<span style="color: purple">8:30 – 10:00 -- Mining event-related brain dynamics II (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)
 
 <span style="color: green">-- Break--</span>
 
