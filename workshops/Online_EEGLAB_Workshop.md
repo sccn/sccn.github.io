@@ -191,30 +191,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 
 ## <font color=darkred>Matlab and matrix operations tutorials</font>
 
-The EEGLAB graphic interface is built on top of the powerful Matlab
-scripting language. Enjoying the full capabilities of EEGLAB for
-building macro commands and performing custom and automated processing
-requires the ability to manipulate EEGLAB data structures in Matlab.
-Because of time constraints, we will NOT provide an introduction to the
-Matlab language. Instead users need to familiarize themselves with
-Matlab prior to the workshop. New users of Matlab: we recommend running
-the following demos and reading the following help sections:
-
-In the Matlab help, you should perform the first 3 tutorials (Matlab 2018)
-
--   Getting Started with MATLAB
--   Language Fundamentals
--   Mathematics
--   Graphics (first section 2-D plot only)
-
-Each section or demo (if read thoroughly) should take you about 40
-minutes, for a total here of about 2 hours. We encourage you to read
-these sections over several days.
-
-Alternatively, Matlab also proposes self-paced online courses and we advise that
- you complete the "Matlab Onramp", a 1-2hour interactive introduction to the
-  basics of Matlab programming.  Accessing Matlab Onramp: from within Matlab by selecting the "Learn Matlab" menu or follow [this link](https://matlabacademy.mathworks.com/). Note that you will be asked to log in into your MathWorks account, which can be created for free [here](https://www.mathworks.com/mwaccount/register).
- 
+If you are new to Matlab or need a refresher please consult the material on the [Getting started with Matlab page](/workshops/tutorial_matlab)
 
 **IMPORTANT NOTE:** The practical
 portions of the workshop are largely dedicated to writing EEGLAB Matlab
@@ -223,89 +200,7 @@ will not be able to make good use of these sections.
 
 ## <font color=darkred>Relevant publications demonstrating EEGLAB capabilities</font>
 
--   Delorme, A., Makeig, S. [EEGLAB: an open source toolbox for analysis
-    of single-trial EEG dynamics including independent component
-analysis](https://sccn.ucsd.edu/githubwiki/files/eeglab_published.pdf). J Neurosci    Methods 134:9-21, 2004. **This is the EEGLAB reference article.**
-
-
-
--   Makeig, S., Debener, S., Onton, J., Delorme, A. [Mining
-    event-related brain dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). Trends Cogn Sci 8
-    :204-10, 2004.
-
-
-
--   Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
-    Sejnowski, TJ. [Analysis and visualization of single-trial
-event-related potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human    Brain Mapping. 14:166-185, 2001.
-
-
-
--   Onton J., Delorme, A., Makeig, S. [Frontal midline EEG dynamics
-    during working memory](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf). NeuroImage    27:341
-    -356, 2005.
-
-
-
--   Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of artifacts from EEG data using high-order statistics
- and independent component analysis](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf
- ).    Neuroimage 34:1443-1449, 2007.
-
-
-
--   Akalin Acar, Z., Makeig S, [Neuroelectromagnetic forward head modeling toolbox](https://sccn.ucsd.edu/githubwiki
-/files/akalin_acar_nft_practicum.pdf), J Neuroscience Methods,
-    190(2):258-70, 2010.
-    
-- Delorme, A., Kothe, C., Bigdely, N., Vankov, A., Oostenveld, R., Makeig, S. [Matlab Tools for BCI Research?](https://sccn.ucsd.edu/githubwiki/files/delorme_bcitools10.pdf) In    "human-computer interaction and brain-computer interfaces". Editors: Tan, D. and Nijholt, A., Springer Publishing, 2010.
-
--   Delorme, A., Mullen, T., Kothe, C., Bigdely-Shamlo, N., Akalin, Z.,Vankov, A., Makeig, S. [EEGLAB, MPT, NetSIFT, NFT, BCILAB, and
-    ERICA: New tools for advanced EEG/MEG processing](http://sccn.ucsd.edu/~scott/pdf/Delorme_EEGTools11.pdf).
-    Computational Neuroscience, 2011.
-
-
-
--   Delorme A, Palmer J, Onton J, Oostenveld R, S Makeig,[Independent EEG sources are dipolar](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0030135) 
-    PLoS One i7(2):e30135, 2012.
-
-
-
--   Makeig, S., Kothe, C., Mullen, T., Bigdely-Shamlo, N., Zhang, Z., Kreutz-Delgado, K. [Evolving signal processing for
-    brain-computer interfaces]( https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6169943), Proceedings IEEE 100:1567-1584, 2012.
-
-
-
--   Bigdely-Shamlo, N., Mullen, T., Kreutz-Delgado, K., Makeig, S., [Measure projection analysis: A probabilistic
- approach to EEG source comparison and multi-subject inference.](https://www.sciencedirect.com/science/article/pii/S1053811913000876?casa_token=OxewuNoFDooAAAAA:BwhjZBGoXX6mj-wslRhP81Hlj7dz4buLRwuyMpMrSVgcXHDTtK33C66YER8HsoP_xEc1bAKY),
-     NeuroImage 15:287-303, 2013.
-
-
-
-
--   Kothe, C. A., Makeig, S., [BCILAB: A platform for brain-computer interface development](https://iopscience.iop
-.org/article/10.1088/1741-2560/10/5/056014/pdf?casa_token=1BlHq9OFZQoAAAAA:1Iek5SGPVnBXj4sbo9R4_bft8mWHur8qIOLA2fRK5f4ko_kYpeoLiJpB6DEVCFx4DQRXHj1M) J Neural Engineering
-    10(5):056014, 2013.
-
-
-
--   Ojeda, A., Bigdely-Shamlo, N., Makeig, S. [MoBILAB: An open source toolbox for analysis and visualization of mobile
-    brain/body imaging data.](https://www.frontiersin.org/articles/10.3389/fnhum.2014.00121/full) Frontiers Hum Neurosci 5;8:121 2014.
-
-
-
--   Artoni, F., Menicucci, D., Delorme, A., Makeig, S., Micera, S.
-    [ RELICA: A method for estimating the reliability of independent components.](https://www.sciencedirect.com
-    /science/article/abs/pii/S1053811914007526) NeuroImage 103:391-400, 2014.
-
-
--   Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. [ICLabel: An automated electroencephalographic independent
- component classifier, dataset, and website.](https://pubmed.ncbi.nlm.nih.gov/31103785/) NeuroImage 198:181-197, 2019.
-
-
-
--   Martinez-Cancino, R., Heng, J., Delorme, A., Kreutz-Delgado, K.,
-    Sotero, R.C. Makeig, S. [Measuring transient phase-amplitude coupling using local mutual information.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342492/)
-    NeuroImage, 2019.
+You can consult a list of relevant EEGLAB papers [here](/workshops/reading_material) 
 
 ## <font color="darkred">Material to download</font>
 
