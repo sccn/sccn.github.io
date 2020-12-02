@@ -113,8 +113,8 @@ worthwhile to compare the 2010 and 2016 versions.
     Scott Makeig](https://www.youtube.com/watch?v=NIPq16s1G4A)
 -   [Performing ICA and ICA Visualization by Julie
     Onton](https://www.youtube.com/watch?v=H3dK0j6moII)
--   [Evaluating Independent Components By Luca
-    Pion-Tonachini](https://www.youtube.com/watch?v=e_Ccx_MCOUM)
+-   [Evaluating Independent Components by Luca
+    Pion-Tonachini (ICLabel)](https://www.youtube.com/watch?v=e_Ccx_MCOUM)
 -   [Time-Frequency Measures by John
     Iversen](https://www.youtube.com/watch?v=Jj2Ke_e6DR0)
 -   [Introduction to hierarchical GLM Statistics and Bootstrap by Cyril
