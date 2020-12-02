@@ -7,31 +7,17 @@ has_children: true
 has_toc: false
 ---
 
-The EEGLAB Tutorial is split into three parts. The first part is the
-Main Tutorial. In the Main Tutorial, a user is led through how to set up
-EEGLAB on their computer and is introduced to basic EEGLAB functions.
-The user is instructed through a series of Key and Exploratory Steps to
-manipulate a sample data set (provided). This basic tutorial should
-enable to user to develop a good understanding of how to use EEGLAB for
-their own experiments. As of { {REVISIONMONTH} }/{ {REVISIONDAY} }/{
-{REVISIONYEAR} }, there are twelve topics in the Main Tutorial.
+Single subject data processing
+================================
+This part of the tutorial is an introduction to basic EEGLAB functions and processing at the single-subject level. 
 
-Below are 6 short presentations for an introduction to EEG signal
-processing and EEGLAB. Click on the image below to access the
-playlist.
+In addition to the tutorial sections below, you may want to watch these series of short videos:
+- [a general introduction to EEG signal processing and EEGLAB](https://www.youtube.com/playlist?list=PLXc9qfVbMMN2NksmDeqizCI1z5DJBlqC6)
+   
+- [an introduction to preprocessing EEG data](https://www.youtube.com/playlist?list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae)
 
-
-<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN2NksmDeqizCI1z5DJBlqC6"><img src="/assets/images/Icaintro2.png"></a>
-
-
-
-There are also 7 short presentations for preprocessing EEG data. Click
-on the image below to access the playlist.
-
-
-<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae"><img src="/assets/images/Icapreproc.png"></a>
-
-
+Content
+-------
 
 
 -   [I.1: Loading Data in
@@ -58,8 +44,3 @@ on the image below to access the playlist.
 -   [I.12: Multiple
     Datasets](/tutorials/single-subject/multiple-datasets)
 
-[Category:EEGLAB](/Category:EEGLAB "wikilink")
-
-{
-{Backward_Forward\|Getting_Started\|Introduction\|Chapter_01:_Loading_Data_in_EEGLAB\|Chapter
-01: Loading Data in EEGLAB} }
