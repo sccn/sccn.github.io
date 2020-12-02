@@ -94,12 +94,6 @@ presentations.
     files](https://youtu.be/fB6TJjhO674)
 -   [Part 4: Statistical analysis](https://youtu.be/y8jK-bW1U3A)
 
-#### Others
-
--   Note: EEGLAB now has [native support for
-    eLoreta](https://sccn.ucsd.edu/githubwiki/files/MISSING) through its DIPFIT
-    plug-in.
-
 ## <font color=darkred>EEGLAB 2016 workshop at UCSD</font>
 
 Videos of the workshop talks are available for streaming through the
