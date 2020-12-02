@@ -257,4 +257,4 @@ laptop with Matlab installed.
 
 Further reading
 ----------------
-You can consult a list of relevant EEGlab papers [here](/workshops/reading_material) 
+You can consult a list of relevant EEGLAB papers [here](/workshops/reading_material) 
