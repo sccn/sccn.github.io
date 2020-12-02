@@ -32,7 +32,7 @@ has_toc: false
 [Fourteenth EEGLAB Workshop](/workshops/EEGLAB_2011_Mallorca) - La Palma, Mallorca (2011)  
 [Thirteenth EEGLAB Workshop](/workshops/EEGLAB_2011_Aspet) - Aspet, France (2011)  
 [Twelfth EEGLAB Workshop](/workshops/EEGLAB_2010_SanDiego) - San Diego, CA, USA (2010)  
-[Eleventh EEGLAB Workshop](/workshops/Eleventh_EEGLAB_Workshop_Taiwan) - Hsinchu, Taiwan (2010)  
+[Eleventh EEGLAB Workshop](/workshops/EEGLAB_2010_Taiwan) - Hsinchu, Taiwan (2010)  
 [Tenth EEGLAB Workshop](/workshops/EEGLAB_2010_Finland) - Jyväskylä, Finland (2010)  
 [Ninth EEGLAB Workshop](/workshops/EEGLAB_2009_Australia) - Sydney, Australia (2009)  
 [Eighth EEGLAB Workshop](/workshops/EEGLAB_2009_Aspet) - Aspet, France (2009)  
