@@ -39,7 +39,7 @@ Preliminary Workshop Program
 **Overview and ICA Theory/Practice**
 
 
-<span style="color: purple">8:30 – 9:30 -- [Mining event-related brain dynamics I](https://sccn.ucsd.edu/githubwiki/files/eeglab_beijing_i.pdf) (Scott Makeig)</span>
+<span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics I (Scott Makeig)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab_beijing_i.pdf)
 
 <span style="color: purple">9:30 – 10:00 -- EEGLAB overview (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_eeglab_overview.pdf)</span>
 
@@ -72,7 +72,7 @@ Preliminary Workshop Program
 
 
 
-<span style="color: purple">15:30 – 16:30 -- SIFT toolbox: Source information flow and granger causality tools (Tim Mullen) </span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/sift_lecture.pdf) [SIFTmanual](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_sift.pdf)
+<span style="color: purple">15:30 – 16:30 -- SIFT toolbox: Source information flow and granger causality tools (Tim Mullen) </span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/sift_lecture.pdf), [SIFTmanual](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_sift.pdf)
 
 <span style="color: orange">16:30 – 17:30 -- Using the SIFT toolbox (Tim Mullen)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/sift_practicum.pdf)
 <!-- -->
@@ -97,7 +97,7 @@ Preliminary Workshop Program
 **Source Localization**
 
 
-<span style="color: purple">8:30 – 9:15 -- [Forward and inverse EEG source modeling](https://sccn.ucsd.edu/githubwiki/files/forwardinverse_beijing12.pdf) - (ScottMakeig)</span>
+<span style="color: purple">8:30 – 9:15 -- Forward and inverse EEG source modeling - (ScottMakeig)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/forwardinverse_beijing12.pdf)
 
 (see also [this note on the importance of knowing skull conductivity](http://sccn.ucsd.edu/wiki/NFT_Appendix_C))
 
@@ -115,7 +115,7 @@ Preliminary Workshop Program
 **Component Clustering**
 
 
-<span style="color: orange">10:30 – 11:00 -- Creating EEGLAB studies and study designs (Arnaud Delorme)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_design.pdf)</span>
+<span style="color: orange">10:30 – 11:00 -- Creating EEGLAB studies and study designs (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_design.pdf)</span>
 
 <span style="color:  orange">11:00 – 12:00 -- Independent Component Clustering (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_study_clustering.pdf)</span>
 <!-- -->
@@ -142,7 +142,7 @@ Preliminary Workshop Program
 
 
 
-<span style="color: orange">15:15 – 16:00 -- Trial-by-trial data visualization and accessing raw data (Julie Onton)[(PDF)](https://sccn.ucsd.edu/githubwiki/files/4_singletrialscripting.pdf)</span>
+<span style="color: orange">15:15 – 16:00 -- Trial-by-trial data visualization and accessing raw data (Julie Onton) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/4_singletrialscripting.pdf)</span>
 <!-- -->
 
 
