@@ -4,6 +4,7 @@ title: I.9 Decomposing Data Using ICA
 permalink: /tutorials/single-subject/decomposing-data-using-ICA
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
+nav_order: 9
 ---
 
 { {Backward_Forward\|Chapter_08:_Plotting_ERP_images\|(MT) Chapter 08:

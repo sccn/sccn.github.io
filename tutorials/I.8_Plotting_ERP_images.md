@@ -4,6 +4,7 @@ title: I.8 Plotting ERP images
 permalink: /tutorials/single-subject/plotting-erp-images
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
+nav_order: 8
 ---
 
 {

@@ -165,8 +165,9 @@ window where we can read and edit these values:
 
 
 
-Scroll through the events by pressing the **\>**, **\>\>**, **\<**, and
-**\<\<** arrow keys above.
+Scroll through each event by pressing the *\<* and *\>* buttons, or in steps of 10 using *\<\<*
+and *\>\>*.
+
 
 We will now briefly describe the experiment that produced the sample
 dataset to motivate the analysis steps we demonstrate in the rest of the

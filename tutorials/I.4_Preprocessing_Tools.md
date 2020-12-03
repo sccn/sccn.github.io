@@ -4,6 +4,7 @@ title: I.4 Preprocessing Tools
 permalink: /tutorials/single-subject/preprocessing-tools
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
+nav_order: 4
 ---
 
 { {Backward_Forward\|I.3:_Plotting_Channel_Spectra_and_Maps\|(MT) I.3:

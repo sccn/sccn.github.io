@@ -4,6 +4,7 @@ title: I.6 Data Averaging
 permalink: /tutorials/single-subject/data-averaging
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
+nav_order: 6
 ---
 
 { {Backward_Forward\|I.5:_Extracting_Data_Epochs\|(MT) I.5: Extracting
