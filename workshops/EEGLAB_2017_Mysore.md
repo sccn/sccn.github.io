@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2017 Mysore
 permalink: /workshops/EEGLAB_2017_Mysore.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![700px\|thumb\|center\|upright=2.5\|[Mysuru Palace, Karnataka,

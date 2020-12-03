@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2016 UCSD
 permalink: /workshops/EEGLAB_2016_at_UCSD.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![center\|800px\|upright=0.5]({{ site.baseurl }}/assets/images/Eeglab2016participants.png)

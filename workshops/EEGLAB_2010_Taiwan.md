@@ -2,7 +2,7 @@
 layout: default
 title: Eleventh EEGLAB Workshop Taiwan
 permalink: workshops/EEGLAB_2010_Taiwan.html
-parent: Workshops
+nav_exclude: true
 ---
 
 <font size =4><font color=red>11th EEGLAB Workshop</font>

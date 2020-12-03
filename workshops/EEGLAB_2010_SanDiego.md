@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2010 San Diego
 permalink: /workshops/EEGLAB_2010_SanDiego.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![thumb\|right\|upright=2.5\|Torrey Pines rock formations (a few blocks

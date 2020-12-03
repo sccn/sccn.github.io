@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2013 Aspet
 permalink: /workshops/EEGLAB_2013_Aspet.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![700px\|thumb\|center]({{ site.baseurl }}/assets/images/Group_picture_aspet2013.png)

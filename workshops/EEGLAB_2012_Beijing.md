@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2012 Beijing
 permalink: /workshops/EEGLAB_2012_Beijing
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Beijing landmark

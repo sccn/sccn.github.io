@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2018 Pittsburgh
 permalink: /workshops/EEGLAB_2018_Pittsburgh.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![350px\|thumb\|right\|upright=2.5\|Pittsburgh, Pennsylvania: the

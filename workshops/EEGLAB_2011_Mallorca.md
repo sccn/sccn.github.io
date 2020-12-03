@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2011 Mallorca
 permalink: /workshops/EEGLAB_2011_Mallorca.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![300px\|thumb\|left\|upright=2]({{ site.baseurl }}/assets/images/Mallorca2.jpg)

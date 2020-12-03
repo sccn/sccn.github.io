@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2015 Aspet
 permalink: /workshops/EEGLAB_2015_Aspet.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Cows enjoying the scenery of the

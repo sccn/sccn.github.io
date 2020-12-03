@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2015 Sheffield
 permalink: /workshops/EEGLAB_2015_Sheffield.html
-nav_exclude:true
+nav_exclude: true
 ---
 
 ![center\|upright=3]({{ site.baseurl }}/assets/images/Scheffield.png)
