@@ -10,7 +10,7 @@ nav_order: 1
 
 
 Installing EEGLAB and tutorial files
-------------------------------------
+=======================================
 
 First download [EEGLAB](http://sccn.ucsd.edu/eeglab/install.html)
 which contains the tutorial dataset in the _sample_data_ subfolder of the EEGLAB distribution.

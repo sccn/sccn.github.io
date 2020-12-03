@@ -9,7 +9,7 @@ nav_order: 2
 
 
 Importing channel location for the tutorial dataset
----------------------------------------------------
+====================================================
 
 To plot EEG scalp maps in either 2-D or 3-D format, or to estimate
 source locations of data components, an EEGLAB dataset must contain
