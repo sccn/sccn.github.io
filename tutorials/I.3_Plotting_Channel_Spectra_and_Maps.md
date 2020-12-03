@@ -8,8 +8,7 @@ nav_order: 3
 ---
 
 Plotting channel spectra and maps
----------------------------------
-
+====================================
 To begin processing the data, we recommend first scrolling the data as
 shown before rejecting clearly 'bad' data stretches or data epochs, then
 studying their power spectra to be sure that the loaded data are
