@@ -4,7 +4,7 @@ title: I.5 Extracting Data Epochs
 permalink: /tutorials/single-subject/extracting-data-epochs
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
-nav_order: 5nav_order: 5nav_order: 5nav_order: 5nav_order: 5nav_order: 5nav_order: 5nav_order: 5nav_order: 5
+nav_order: 5
 ---
 
 { {Backward_Forward\|I.4:_Preprocessing_Tools\|(MT) I.4: Preprocessing

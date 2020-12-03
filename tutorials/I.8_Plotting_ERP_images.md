@@ -13,6 +13,17 @@ Chapter 07: Selecting Data
 Epochs\|Chapter_09:_Decomposing_Data_Using_ICA\|(MT)Chapter09:
 Decomposing Data Using ICA} }
 
+<!--
+IMPORTED FROM I.6
+In ERP-image plots, EEG data epochs (trials) are first sorted along some
+relevant dimension (for example, subject reaction times, within-trial
+theta power levels, mean voltage in a given latency window, alpha phase
+at stimulus onset, or etc.), then (optionally) smoothed across
+neighboring trials, and finally color-coded and visualized as a 2-D
+rectangular color (or monochrome) image. (Construction of ERP images
+will be detailed in section I.8).
+
+-->
 Plotting ERP images
 -------------------
 
