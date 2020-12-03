@@ -102,16 +102,21 @@ and *\>\>*.
 
 
 
-<span style="color: green">Exploratory Step</span>: Viewing Channel Locations.
+**Viewing Channel Locations**
 
 Reopen <span style="color: brown>Edit \"> Channel locations</span> if you
-closed it. To visualize the 2-D locations of the channels, press *Plot
-2-D* above the *Read Locations* button. Else, at any time during an
-EEGLAB session you may refer to a plot showing the channel locations
-by selecting <font color=brown>Plot → Channel location \> By
-name</font>. Either command pops up a window like that below. Note: In
+closed it. 
+
+To visualize the 2-D locations of the channels, press *Plot
+2-D* above the *Read Locations* button. Else, at any time during an EEGLAB session you may refer to a plot showing the channel locations
+by selecting <font color=brown>Plot → Channel location → By
+name</font>. 
+Either command pops up a window like that below. 
+
+*Note*: In
 this plot, click on any channel label to see its channel number.
-<span style="color: red">NOTE</span>: Equating 'channel locations' with
+
+<span style="color: red">WARNING</span>: Equating 'channel locations' with
 (single) *electrode* locations only makes sense when all channels use
 the same 'reference channel.' An EEG channel signal is always the
 ''difference' between voltages at two (or more) electrodes --
@@ -125,15 +130,7 @@ must be equally sensitive to potentials flowing to *either* of its two
 ![Image:Channellocationname.png]({{ site.baseurl }}/assets/images/Channellocationname.png)
 
 
-The appendix [importing channel
-locations](/A03:_Importing_Channel_Locations "wikilink") contains
+The appendix [importing channel locations](/A03:_Importing_Channel_Locations "wikilink") contains
 additional information.
 
 
-
-[Category:I.Single subject data processing
-tutorial](/Category:I.Single_subject_data_processing_tutorial "wikilink")
-
-{ {Backward_Forward\|I.1:_Loading_Data_in_EEGLAB\|(MT) I.1: Loading
-Data in EEGLAB\|I.3:_Plotting_Channel_Spectra_and_Maps\|(MT) I.3:
-Plotting Channel Spectra} }
