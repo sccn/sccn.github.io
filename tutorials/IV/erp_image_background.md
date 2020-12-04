@@ -11,8 +11,11 @@ Some background information on ERP images
 
 Here are some useful background information on ERP images. 
 
-To learn how to construct ERP images please refer to the 
+To learn how to display ERP images please refer to the 
 [tutorial](/tutorials/single-subject/plotting-erp-images).
+
+ERPs and ERP images
+--------------------
 
 The field of electrophysiological data analysis has been dominated by
 analysis of 1-dimensional event-related potential (ERP) averages.
@@ -40,10 +43,31 @@ to the user to decide which ERP-image plots to study. By default, trials
 are sorted in the order of appearance in the experiment.
 
 It is also easy to misinterpret or over-interpret an ERP-image plot. For
-example, using phase-sorting at one frequency (demonstrated below) may
+example, using phase-sorting at one frequency may
 blind the user to the presence of other oscillatory phenomena at
 different frequencies in the same data. Again, it is the responsibility
 of the user to correctly weight and interpret the evidence that a 2-D
 ERP-image plot presents, in light of to the hypothesis of interest --
 just as it is the user's responsibility to correctly interpret 1-D ERP
 time series.
+
+Constructing ERP-images
+------------------------
+
+The figure below (not an ERP image) explains the process of constructing ERP-image
+plots. Instead of plotting activity in single trials such as
+left-to-right traces in which potential is encoded by the height of
+the trace, we color-code their values in left-to-right straight lines,
+the changing color value indicating the potential value at each time
+point in the trial. For example, in the following image, three
+different single-trial epochs (blue traces) would be coded as three
+different colored lines (below).
+
+
+![225px]({{ site.baseurl }}/assets/images/Erpimagedemo.jpg)
+
+By stacking above each other the color-sequence lines for all trials
+in a dataset, we produce an ERP image:
+
+![400px]({{ site.baseurl }}/assets/images/1ERPimagesmooth.gif)
+
