@@ -224,6 +224,7 @@ necessary to show the illustrated spatial distribution to best effect.
 
 ![400px]({{ site.baseurl }}/assets/images/642headplot_view.jpg)
 
+**Co-registration with actual channel locations**
 
 We will now briefly describe the channels-to-head model
 co-registration process. If your dataset contains specific channel
@@ -274,5 +275,3 @@ Note that it is possible, and relatively easy, to generate custom {
 {File\|headplot.m} } head meshes. Let us know by email if you are
 interested in learning how to do this.
 
-The next tutorial section will demonstrate how to use EEGLAB functions
-to compare the ERP trial averages of two datasets. 
