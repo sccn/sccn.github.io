@@ -8,8 +8,8 @@ nav_order: 7
 ---
 
 
-Selecting data epochs and comparing data averages 
-==================================================
+Selecting data epochs
+=====================
 
 To compare event-related EEG dynamics for a subject in two or more
 conditions from the same experiment, it is first necessary to [create
