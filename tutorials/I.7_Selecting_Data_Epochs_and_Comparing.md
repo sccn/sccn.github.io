@@ -16,7 +16,7 @@ conditions from the same experiment, it is first necessary to [create
 datasets containing epochs for each condition](/tutorials/single-subject/extracting-data-epochs). In the experiment of our
 sample dataset, half the targets appeared at position 1 and the other
 half at position 2 (see [sample experiment
-description](/I.1:_Loading_Data_in_EEGLAB#Sample_experiment_description "wikilink")
+description](/tutorials/single-subject/loading-data-in-EEGLAB.html#sample-experiment-description)
 ).
 
 **Selecting events and epochs for two conditions**
