@@ -178,16 +178,21 @@ Sample experiment description
 
 In this experiment, there were two types of events "square" and "rt";
 "square" events correspond to the appearance of a filled disk in a green
-colored square in the display and "rt" to subject's button press. The
-disk could be presented in any of the five squares on the screen, one
+colored square in the display and "rt" to subject's button press. 
+
+The disk could be presented in any of the five squares on the screen, one
 with green outline and the others blue, distributed along the horizontal
 axis. Here we only considered presentation on the left, i.e. position 1
 and 2 as indicated by the *position* field (at about 5.5 degree and 2.7
-degree of horizontal visual angle respectively). In this experiment, the
+degree of horizontal visual angle respectively). 
+
+In this experiment, the
 subject covertly attended to a selected location on the computer screen
 (the green square) and responded with a quick thumb button press only
 when the disk was presented at this location. They were to ignore
-circles presented at the unattended locations (the blue squares). To
+circles presented at the unattended locations (the blue squares). 
+
+To
 reduce the amount of data required to download and process, this dataset
 contains only targets (i.e., "square") stimuli presented at the two
 left-visual-field attended locations for a single subject. For more
