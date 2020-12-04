@@ -7,9 +7,6 @@ grand_parent: Tutorials
 nav_order: 9
 ---
 
-{ {Backward_Forward\|Chapter_08:_Plotting_ERP_images\|(MT) Chapter 08:
-Plotting ERP images\|Chapter_10:_Working_with_ICA_components\|(MT)
-Chapter 10: Working with ICA components} }
 
 Watch ICA presentations
 -----------------------
@@ -70,36 +67,36 @@ from the recorded channel mixtures.
 
 
 
-> **[View full-size version of this data
-> image.](/Media:ICAexample_big.jpg "wikilink")** *Fifteen seconds of
-> EEG data at 9 (of 100) scalp channels (top panel) with activities of 9
-> (of 100) independent components (ICs, bottom panel). While nearby
-> electrodes (upper panel) record highly similar mixtures of brain and
-> non-brain activities, ICA component activities (lower panel) are
-> temporally distinct (i.e. maximally independent over time), even when
-> their scalp maps are overlapping. Compare, for example, IC1 and IC3,
-> accounting for different phases of eye blink artifacts produced by
-> this subject after each visual letter presentation (grey background)
-> and ensuing auditory performance feedback signal (colored lines).
-> Compare, also, IC4 and IC7, which account for overlapping frontal (4-8
-> Hz) theta band activities appearing during a stretch of correct
-> performance (seconds 7 through 15). Typical ECG and EMG artifact ICs
-> are also shown, as well as overlapping posterior (8-12 Hz) alpha band
-> bursts that appear when the subject waits for the next letter
-> presentation (white background) For comparison, the repeated average
-> visual evoked response of a bilateral occipital IC process (IC5) is
-> shown (in red) on the same (relative) scale. Clearly the unaveraged
-> activity dynamics of this IC process are not well summarized by its
-> averaged response, a dramatic illustration of the independence of
-> phase-locked and phase-incoherent activity.*
+**[View full-size version of this data
+image.](/Media:ICAexample_big.jpg "wikilink")** *Fifteen seconds of
+EEG data at 9 (of 100) scalp channels (top panel) with activities of 9
+(of 100) independent components (ICs, bottom panel). While nearby
+electrodes (upper panel) record highly similar mixtures of brain and
+non-brain activities, ICA component activities (lower panel) are
+temporally distinct (i.e. maximally independent over time), even when
+their scalp maps are overlapping. Compare, for example, IC1 and IC3,
+accounting for different phases of eye blink artifacts produced by
+this subject after each visual letter presentation (grey background)
+and ensuing auditory performance feedback signal (colored lines).
+Compare, also, IC4 and IC7, which account for overlapping frontal (4-8
+Hz) theta band activities appearing during a stretch of correct
+performance (seconds 7 through 15). Typical ECG and EMG artifact ICs
+are also shown, as well as overlapping posterior (8-12 Hz) alpha band
+bursts that appear when the subject waits for the next letter
+presentation (white background) For comparison, the repeated average
+visual evoked response of a bilateral occipital IC process (IC5) is
+shown (in red) on the same (relative) scale. Clearly the unaveraged
+activity dynamics of this IC process are not well summarized by its
+averaged response, a dramatic illustration of the independence of
+phase-locked and phase-incoherent activity.*
 
 ### Running ICA decompositions
 
-<font color=green>KEY STEP 9:</font> Calculate ICA Components
+<span style="color: green">KEY STEP 9:</span> Calculate ICA Components
 
 
 To compute ICA components of a dataset of EEG epochs (or of a continuous
-EEGLAB dataset), select <font color=brown>Tools \> Run ICA</font>. This
+EEGLAB dataset), select <span style="color: brown>Tools \"> Run ICA</span>. This
 calls the function { {File\|pop_runica.m} }. To test this function,
 simply press *OK*.
 
@@ -342,7 +339,7 @@ time course, next the component activity power spectrum and, finally
 (given a dataset of event-related data epochs), the { {File\|erpimage.m}
 }. For example an expert eye would spot component 3 (above) as an eye
 artifact component (see also component activity by calling menu
-<font color=brown>Plot \> Component activations (scroll)</font>). In the
+<span style="color: brown>Plot \"> Component activations (scroll)</span>). In the
 window above, click on scalp map number 3 to pop up a window showing it
 alone (as mentioned earlier, your decomposition and component ordering
 might be slightly different).
@@ -451,7 +448,7 @@ movements) look like component 3 or perhaps (if accounting for eye
 blinks) like that of component 10 (above). Component property figures
 can also be accessed directly by selecting <font color=brown> Plot \>
 Component properties</font>. (There is an equivalent menu item for
-channels, <font color=brown> Plot \> Channel properties</font>).
+channels, <span style="color: brown> Plot \"> Channel properties</span>).
 Artifactual components are also relatively easy to identify by visual
 inspection of component time course (menu <font color=brown>Plot \>
 Component activations (scroll)</font> --- not shown here).
@@ -463,8 +460,8 @@ Component activations (scroll)</font> --- not shown here).
 
 Since this component accounts for eye activity, we may wish to subtract
 it from the data before further analysis and plotting. If so, click on
-the bottom green <font color=green>*Accept* </font> button (above) to
-toggle it into a red <font color=red> *Reject*</font> button (note: at
+the bottom green <span style="color: green">*Accept* </span> button (above) to
+toggle it into a red <span style="color: red"> *Reject*</span> button (note: at
 this point, components are only marked for rejection; to subtract marked
 components, see next section ['Subtracting ICA components from
 data'](/#Subtracting_ICA_xomponents_from_data "wikilink")). Now press
@@ -581,12 +578,12 @@ Typically we (at SCCN) don't actually subtract whole independent
 component processes from our datasets because typically we study
 individual component (rather than summed scalp channel) activities.
 However, if and when we want to remove components, we use menu
-<font color=brown>Tools \> Remove components</font>, which calls the {
+<span style="color: brown>Tools \"> Remove components</span>, which calls the {
 {File\|pop_subcomp.m} } function. The component numbers present by
 default in the resulting window (below) are those marked for rejection
 in the previous <font color=brown>Tools \> Reject using ICA \> Reject
 components by map</font> component rejection window (using the
-*<font color=green>Accept</font>/<font color=red>Reject</font>*
+*<span style="color: green>Accept</font>/<font color=red">Reject</span>*
 buttons). Enter the component numbers you wish to reject and press
 *OK*.
 
@@ -611,15 +608,15 @@ the new data set. Give it a name and again press *OK*.
 
 Note that storing the new dataset in Matlab memory does not
 automatically store it permanently on disk. To do this, select
-<font color=brown>File \> Save current dataset</font>. Note that we will
+<span style="color: brown>File \"> Save current dataset</span>. Note that we will
 pursue with all components, so you can appreciate the contribution of
 artifactual components to the ERP. You may recover the previous dataset
-using the <font color=brown>Dataset</font> top menu.
+using the <span style="color: brown">Dataset</span> top menu.
 
 Note: If you try to run ICA on this new dataset, the number of
 dimensions of the data will have been reduced by the number of
 components subtracted. To run ICA on the reduced dataset, use the *pca*
-option under the <font color=brown>Tools \> Run ICA</font> pop-up
+option under the <span style="color: brown>Tools \"> Run ICA</span> pop-up
 window, type '' 'pca', '10' '' in the Commandline options box to reduce
 the data dimensions to the number of remaining components (here 10),
 before running ICA (see { {File\|runica.m} }. If the amount of data has
@@ -656,7 +653,7 @@ information about writing Matlab scripts for EEGLAB.
 ### Scrolling through component activations
 
 To scroll through component activations (time courses), select
-<font color=brown>Plot \> Component activations (scroll)</font>.
+<span style="color: brown>Plot \"> Component activations (scroll)</span>.
 Scrolling through the ICA activations, one may easily spot components
 accounting for characteristic artifacts. For example, in the scrolling {
 {File\|eegplot.m} } below, component 3 appears to account primarily for
@@ -716,9 +713,3 @@ shown above) and you will not be usable for your analysis. The activity
 of other components does not seem much affected in our experience,
 though as the figure above shows the component affected may also take on
 noise.
-
-[Category:I.Single subject data processing
-tutorial](/Category:I.Single_subject_data_processing_tutorial "wikilink")
-{ {Backward_Forward\|Chapter_08:_Plotting_ERP_images\|(MT) Chapter 08:
-Plotting ERP images\|Chapter_10:_Working_with_ICA_components\|(MT)
-Chapter 10: Working with ICA components} }
