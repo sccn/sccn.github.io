@@ -11,6 +11,8 @@ nav_order: 7
 Selecting data epochs
 =====================
 
+#### Selecting events and epochs for two conditions
+
 To compare event-related EEG dynamics for a subject in two or more
 conditions from the same experiment, it is first necessary to [create
 datasets containing epochs for each condition](/tutorials/single-subject/extracting-data-epochs). In the experiment of our
@@ -22,51 +24,153 @@ description](/tutorials/single-subject/loading-data-in-EEGLAB.html#sample-experi
 **Selecting events and epochs for two conditions**
 
 Select <span style="color: brown">Edit → Select epochs or events</span>.
- The { {File\|pop_selectevent.m} } window (below) will appear. 
- 
- Enter "1" in the textbox next to *position*, which will select all epochs in which
-the target appeared in position 1.
+The { {File\|pop_selectevent.m} } window (below) will appear. 
+
+Enter "1" in the textbox next to *position*, which will select all epochs in which the target appeared in position 1.
+
+![px](/assets/images/Pop_selectevent1.jpg)
 
 
-![750px]({{ site.baseurl }}/assets/images/Pop_selectevent1_I7.jpg)
+Press *Yes* in the resulting query window (below):
 
 
-Now a { {File\|pop_newset.m} } window for saving the new dataset pops
-up. We name this new dataset "Square, Position 1" and press *OK*.
+![300px](/assets/images/Query.gif)
 
 
-![575px]({{ site.baseurl }}/assets/images/Pop_newset_I7.jpg)
+Now a { {File\|pop_newset.m} } window for saving the new dataset pops up. We name this new dataset "Square, Position 1" and press *OK*.
 
 
-Now, repeat the process to create a second dataset consisting of
-epochs in which the target appeared at position 2. 
+![575px](/assets/images/Pop_newset2.gif)
 
 
-First, go back to the previous dataset by selecting menu item <font color=brown> Datasets → Continuous EEG Data</font>. Make sure you work on the
-original continuous dataset or you will be able to extract data epochs
-at position 2. Next select <font color=brown> Edit → Select epoch/events</font>. 
+Now, repeat the process to create a second dataset consisting of epochs in which the target appeared at position 2. 
 
-In the resulting { {File\|pop_selectevent.m} }
-window, enter "2" in the text box to the right of the *position*
-field. Press *OK*, then name the new dataset "Square, Position 2".
+First, go back to the previous dataset by selecting menu item <font color=brown> Datasets \> Continuous EEG Data</font>. Make sure you work on the original continuous dataset or you will be able to extract data epochs at position 2. Next select <font color=brown> Edit \> Select epoch/events</font>. 
+
+In the resulting { {File\|pop_selectevent.m} } window, enter "2" in the text box to the right of the *position* field. Press *OK*, then name the new dataset "Square, Position 2".
 
 
-![750px]({{ site.baseurl }}/assets/images/Pop_selectevent2_I7.jpg)
+![5px](/assets/images/Pop_selectevent2.jpg)
 
 
 See the event tutorial, ["selecting
-events",](/I.03:_Event_Processing#Selecting_events "wikilink") for
+events",](/tutorials/advanced-topics/event-processing#Selecting_events) for
 more details on this topic.
 
 **Select a subset of data epochs**
 
-Another function that can be useful for selecting a dataset subset is
-the function { {File\|pop_select.m} } called by selecting
-<span style="color: brown>Edit \"> Select data</span>. The example below would
-select data sub-epochs with the epoch time range from -500 ms to 1000
-ms. It would, further, remove dataset epochs 2, 3 and 4 and remove
-channel 31 completely.
+Another function that can be useful for selecting a dataset subset is the function { {File\|pop_select.m} } called by selecting <font color=brown>Edit \> Select data</font>. The example below would select data sub-epochs with the epoch time range from -500 ms to 1000 ms. It would, further, remove dataset epochs 2, 3 and 4 and remove channel 31 completely.
 
 
-![525px]({{ site.baseurl }}/assets/images/Pop_select_I7.jpg)
+![525px](/assets/images/Pop_select.gif)
 
+
+#### Computing Grand Mean ERPs
+
+Normally, ERP researchers report results on grand mean ERPs averaged
+across subjects. As an example, we will use EEGLAB functions to compute
+the ERP grand average of the two condition ERPs above.
+
+<font color=green>Exploratory Step:</font> Computing Grand Mean ERPs.
+
+Select <font color=brown>Plot \> Sum/Compare ERPs</font>. In the top text-entry boxes of the resulting { {File\|pop_comperp.m} } window (below), enter the indices of datasets ‘3’ and ‘4’. On the first row, click the *avg.* box to display grand average, the *std.* box to display standard deviation, and the *all ERPs* box to display ERP averages for each dataset. Finally *0.05* for the t-test significance probability (p) threshold. Then press *OK*.
+
+![575px](/assets/images/I72pop_comperp().gif)
+
+
+The plot below appears.
+
+
+![450px](/assets/images/Pop_comperp3.gif)
+
+
+Now, click on the traces at electrode position *FPz*, calling up the image below. You may remove the legend by deselecting it under the <font color=brown>Insert \> Legend</font> menu.
+
+
+![450px](/assets/images/Pop_comperp4.gif)
+
+
+Note: If you prefer to use positive up view for the y-axis scale, type
+*ydir', 1* in the *Plottopo options* field. This can be set as a global
+or project default in *icadefs.m*. See the [Options
+tutorial](/A3:_Maximizing_Memory "wikilink").
+
+The ERPs for datasets 3 and 4 are shown in blue and red. The grand
+average ERP for the two conditions is shown in bold black, and the
+standard deviation of the two ERPs in dotted black. Regions
+significantly different from 0 are highlighted based on a two-tailed
+t-test at each time point. This test compares the current ERP value
+distribution with a distribution having the same variance and a 0 mean.
+Note that this t-test has not been corrected for multiple comparisons.
+The p values at each time point can be obtained from a command line call
+to the function { {File\|pop_comperp.m} }.
+
+#### Finding ERP peak latencies
+
+Although EEGLAB currently does not have tools for automatically finding
+ERP peak amplitudes and latencies, one can use the convenient Matlab
+zoom facility to visually determine the exact amplitude and latency of a
+peak in any Matlab figure.
+
+<font color=green>Exploratory Step:</font> Finding ERP Peak Latencies.
+
+For example, in the figure above select the magnifying-glass icon having the **+** sign. Then, zoom in on the main peak of the red curve as shown below (click on the left mouse button to zoom in and on the right button to zoom out). Read the peak latency and amplitude to any desired precision from the axis scale.
+
+
+![475px](/assets/images/Pop_comperp5.gif)
+
+
+
+Note: It may be desirable to first use the low pass filtering edit box
+of the { {File\|pop_comperp.m} } interface to smooth average data peaks
+before measuring latency peaks.
+
+#### Comparing ERPs in two conditions
+
+
+<font color=green>Exploratory Step:</font> Comparing ERPs in Two
+Conditions.
+
+To compare ERP averages for the two conditions (targets presented in positions 1 and 2), select <font color=brown>Plot \> Sum/Compare ERPs</font>. In the top text-entry box of the resulting { {File\|pop_comperp.m} } window (below), enter the indices of the datasets to compare. Click all boxes in the *avg.* column. Enter *30* for the low pass frequency and '' 'title', 'Position 1-2' '' in the { {File\|topoplot.m} } option edit box. Then press *OK*.
+
+
+![500px](/assets/images/Pop_comperp6.gif)
+
+
+The { {File\|plottopo.m} } figure (below) appears.
+
+
+![475px](/assets/images/Pop_comperp7.gif)
+
+
+Again, individual electrode traces can be plotted in separate windows by clicking on electrode locations of interest in the figure (above). Note that here, since the two conditions are similar (only the position of the stimulus on the screen changes), the ERP difference is close to 0.
+
+
+![475px](/assets/images/Pop_comperp8.gif)
+
+
+This function can also be used to compute and plot grand-mean ERP differences between conditions across several subjects, and can assess significant differences between two conditions using a paired t-test (two-tailed). To do so, load the datasets for the two conditions for each subject into EEGLAB and enter the appropriate indices in the { {File\|pop_comperp.m} } window.
+
+
+In EEGLAB 5.0b, a new concept and data structure, the STUDY, has been
+introduced to aggregate and process datasets from multiple subjects,
+sessions, and/or conditions. See the [Component
+clustering](//tutorials/multi-subject/component-clustering-tools "wikilink") and
+[STUDY structure](/tutorials/multi-subject/EEGLAB-STUDY-data-structures)
+tutorials for details. The new STUDY-based functions include a command
+line function, { {File\|std_envtopo.m} } that visualizes the largest or
+selected independent component cluster contributions to a grand-average
+ERP in two conditions, and to their difference.
+
+In the following sections, we will be working from the second dataset
+only, and will not use datasets 3 and 4. Return to the second dataset
+using the <font color=brown>Datasets</font> top menu, and optionally
+delete datasets numbers 3 and 4 using <font color=brown>File \> Clear
+dataset(s)</font>.
+
+Data averaging collapses the dynamic information in the data, ignoring
+inter-trial differences which are large and may be crucial for
+understanding how the brain operates *in real time*. In the next
+section, we show how to use EEGLAB to make 2-D ERP-image plots of
+collections of single trials, sorted by any of many possibly relevant
+variables. 
