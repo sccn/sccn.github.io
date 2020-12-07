@@ -18,7 +18,7 @@ at stimulus onset, or etc.), then (optionally) smoothed across
 neighboring trials, and finally color-coded and visualized as a 2-D
 rectangular color (or monochrome) image.
 
-For more backrgound information on ERP images, please refer to the [Appendix](/tutorials/IV.Appendix/erp_image_background.html). 
+For more background information on ERP images, please refer to the [Appendix](/tutorials/IV.Appendix/erp_image_background.html). 
 
 
 
