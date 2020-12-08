@@ -246,7 +246,7 @@ continuous EEG channel data.
 
 To scroll through the channel data of the current dataset, select
 <span style="color: brown">Plot → Channel data (scroll)</span>. This pops up
-the [eegplot()](http://sccn.ucsd.edu/eeglab/allfunctions/eegplot.m)
+the [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
 the scrolling data display window below.
 
 Note that this sample data file contains as-if-continuous EEG data. To
@@ -279,7 +279,7 @@ window.
  **Adjusting the width of the scrolling time window**
 
 To adjust the time range displayed (i.e., the horizontal scale),
-select the [eegplot()](http://sccn.ucsd.edu/eeglab/allfunctions/eegplot.m) menu
+select the [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
 item <span style="color: brown">Settings → Time range to display</span>, and
 set the desired window length to "10" seconds as shown below,
 
@@ -299,7 +299,7 @@ Then press *OK* to make the indicated change take effect.
  **Number of Channels to Display**
 
 To adjust the number of channels displayed, select
-[eegplot()](http://sccn.ucsd.edu/eeglab/allfunctions/eegplot.m) menu
+[eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
 item <font color=brown>Settings → Number of channels to
 display</font> and enter the desired number of channels to display in
 the screen (for instance "16").
@@ -309,7 +309,7 @@ the screen (for instance "16").
 
 
 Reducing the number of channels shown will return a scrolling
-[eegplot()](http://sccn.ucsd.edu/eeglab/allfunctions/eegplot.m) window
+[eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) window
 with a vertical channel-set slider to the left of the plot. Use it to
 scroll the display (vertically) through all the channels.
 
@@ -321,7 +321,7 @@ scroll the display (vertically) through all the channels.
 **Zoom**
 
 To zoom in on a particular area of a data window, select
-[eegplot()](http://sccn.ucsd.edu/eeglab/allfunctions/eegplot.m) menu
+[eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
 item <span style="color: brown>Settings → Zoom off/on \"> Zoom on</span>. Now
 using your mouse, drag a rectangle around an area of the data to zoom
 in on it. The scrolling window may now look similar to the one below.
@@ -345,10 +345,10 @@ process to turn off either set of grid lines.
 ![800px]({{ site.baseurl }}/assets/images/I16grid_scroll.png)
 
 
-The [eegplot()](http://sccn.ucsd.edu/eeglab/allfunctions/eegplot.m)
+The [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
 window also allows you to reject (erase) arbitrary portions of the
 continuous data. The function
-[eegplot()](http://sccn.ucsd.edu/eeglab/allfunctions/eegplot.m) can be
+[eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) can be
 called from both menu items <font color=brown>Plot → Scroll
 data</font> and <font color=brown>Tools → Reject continuous
 data</font> using the *REJECT* button on the bottom right corner.
@@ -356,7 +356,7 @@ data</font> using the *REJECT* button on the bottom right corner.
 **Rejecting Data**
 
 Close the current
-[eegplot()](http://sccn.ucsd.edu/eeglab/allfunctions/eegplot.m) window
+[eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) window
 and select item <font color=brown>Tools → Reject Continuous Data by
 eye</font> in the main EEGLAB window. A warning message appears; click
 on continue. To erase a selected portion of the data, first drag the

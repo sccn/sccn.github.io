@@ -16,7 +16,7 @@ to call three data preprocessing routines:
 
 The most common use for <font color=brown>Tools → Change sampling
 rate</font> is to reduce the sampling rate to save memory and disk
-storage. A [pop_resample.m]() window pops up, asking for the new
+storage. A [pop_resample.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_resample.m) window pops up, asking for the new
 sampling rate. The function uses Matlab *resample()* (in the Signal
 Processing toolbox-- if you do not have this toolbox, it will use the
 slow Matlab function *griddata*).
@@ -62,7 +62,7 @@ call, the high-pass filter (or vice versa).
  
  
 Another common use for bandpass filtering is to remove 50-Hz or 60-Hz
-line noise. The filtering option in EEGLAB, [eegfilt.m](),
+line noise. The filtering option in EEGLAB, [eegfilt.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegfilt.m),
 uses linear finite impulse response (FIR) filtering. 
 
 If the Matlab
@@ -107,7 +107,7 @@ and to (optionally) re-reference the data
 **Re-reference the Data**
 
 Select <span style="color: brown">Tools → Re-reference the data</span> to
-convert the dataset to average reference by calling the [pop_reref.m]() function. When you call this menu item for the
+convert the dataset to average reference by calling the [pop_reref.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_reref.m) function. When you call this menu item for the
 first time for a given dataset, the following window pops up.
 
 

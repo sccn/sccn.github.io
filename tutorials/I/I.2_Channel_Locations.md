@@ -70,7 +70,7 @@ the supported formats.
 
 
 Now the loaded channel labels and polar coordinates are displayed in
-the [pop_chanedit.m]() window.
+the [pop_chanedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanedit.m) window.
 
 We recommend using the default settings.
  
