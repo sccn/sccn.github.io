@@ -17,7 +17,7 @@ Rejecting data epochs by inspection using ICA
 
 To reject data by visual inspection of its ICA component activations,
 select <font color=brown>Tools \> Reject data using ICA \> Reject by
-inspection</font> (calling { {File\|pop_eegplot.m} }. Note that marked
+inspection</font> (calling [pop_eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegplot.m). Note that marked
 epochs can be kept in memory before being actually rejected (if the
 option *Reject marked trials (checked=yes)* below is not set). Thus it
 is possible to mark trials for rejection and then to come back and
@@ -94,7 +94,7 @@ default in *Components to consider*. Press *OK*.
 
 
 
-The { {File\|spectopo.m} } window (below) appears.
+The [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) window (below) appears.
 
 
 
@@ -124,7 +124,7 @@ will be shown) and we will set the maximum frequency to be plotted at
 
 
 
-The { {File\|spectopo.m} } figure appears (as below).
+The [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) figure appears (as below).
 
 
 ![425px]({{ site.baseurl }}/assets/images/I102spectopo.jpg)
@@ -167,7 +167,7 @@ After seeing which components contribute to frequency bands of interest,
 it is interesting to look at which components contribute the most to the
 ERP. A first step is to view the component ERPs. To Plot component ERPs,
 select <font color=brown>Plot \> Component ERPs \> In rectangular
-array</font>, which calls function { {File\|pop_plotdata.m} }. Then
+array</font>, which calls function [pop_plotdata.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_plotdata.m). Then
 press *OK*.
 
 
@@ -175,7 +175,7 @@ press *OK*.
 
 
 
-The { {File\|plotdata.m} } window below pops up, showing the average ERP
+The [plotdata.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=plotdata.m) window below pops up, showing the average ERP
 for all 31 components.
 
 
@@ -200,7 +200,7 @@ Plotting component ERP contributions
 
 To plot the contribution of component ERPs to the data ERP, select
 <font color=brown>Plot \> Component ERPs \> with component maps</font>,
-which calls { {File\|pop_envtopo.m} }. Simply press *OK* to plot the 7
+which calls [pop_envtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_envtopo.m). Simply press *OK* to plot the 7
 components that contribute the most to the average ERP of the dataset.
 Note artifactual components can be subtracted from the data prior to
 plot the ERP using the *Indices of component to subtract ...* edit
@@ -212,7 +212,7 @@ box.
 
 
 
-In the { {File\|envtopo.m} } plot (below), the black thick line
+In the [envtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=envtopo.m) plot (below), the black thick line
 indicates the data envelope (i.e. minimum and maximum of all channel at
 every time point) and the colored show the component ERPs.
 
@@ -269,7 +269,7 @@ information).
 
 
 
-For component 6 (below) we observe in the { {File\|erpimage.m} } figure
+For component 6 (below) we observe in the [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) figure
 that phase at the analysis frequency (9Hz to 11Hz) is evenly distributed
 in the time window -300 to 0 ms (as indicated by the bottom trace
 showing the inter-trial coherence (ITC) or phase-locking factor). This

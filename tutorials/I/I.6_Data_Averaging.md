@@ -36,14 +36,14 @@ We use here the tutorial dataset as it was after the last [tutorial section](/tu
 
 To plot the average ERP of all dataset epochs, plus ERP scalp maps at
 selected latencies, select <span style="color: brown>Plot → Channel ERPs\">With scalp maps.</span> As a simple illustration using the sample
-dataset, we retain the default settings in the resulting { {File\|pop_timtopo.m} } window, entering only a plot title and
+dataset, we retain the default settings in the resulting [pop_timtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timtopo.m) window, entering only a plot title and
 pressing *OK*.
 
 
 ![Image:Pop_timtopo.png]({{ site.baseurl }}/assets/images/Pop_timtopo.png)
 
 
-A { {File\|timtopo.m} } figure (below) appears. Each trace plots the
+A [timtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timtopo.m) figure (below) appears. Each trace plots the
 averaged ERP at one channel. The scalp map shows the topographic
 distribution of average potential at 430 ms (the latency of maximum
 ERP data variance). Alternatively, one or more exact scalp map
@@ -53,12 +53,12 @@ latencies may be specified in the pop-window above.
 ![Image:Erpplot1.png]({{ site.baseurl }}/assets/images/Erpplot1.png)
 
 
-Function { {File\|timtopo.m} } plots the relative time courses of the
+Function [timtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timtopo.m) plots the relative time courses of the
 averaged ERP at all channels, plus ‘snapshots’ of the scalp potential
 distribution at various moments during the average ERP time course.
 Note that to visualize the ERP scalp map at *all* latencies -- as an
 ERP movie (i.e., to view the play of the ERP on the scalp), call
-function { {File\|eegmovie.m} } from the command line.
+function [eegmovie.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegmovie.m) from the command line.
 
 
 **Plotting ERPs in a Topographic Map**
@@ -66,19 +66,19 @@ function { {File\|eegmovie.m} } from the command line.
 Here we will plot the ERPs of an epoched dataset as single-channel
 traces in their 2-D topographic arrangement. 
 Select <span style="color: brown>Plot → Channel ERPs \"> In scalp array/rect. array</span>. Using the default settings and pressing *OK* in the
-resulting { {File\|pop_topoplot.m} } window (below)
+resulting [pop_topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m) window (below)
 
 
 ![Image:Pop_plottopo.png]({{ site.baseurl }}/assets/images/Pop_plottopo.png)
 
 
-produces the following { {File\|plottopo.m} } figure.
+produces the following [plottopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=plottopo.m) figure.
 
 
 ![Image:Erpplot2.png]({{ site.baseurl }}/assets/images/Erpplot2.png)
 
 
-Note that if called from the command line, the { {File\|plottopo.m} }
+Note that if called from the command line, the [plottopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=plottopo.m)
 function *geom* option can also be used to plot channel waveforms in a
 rectangular grid. You may visualize a specific channel time course by
 clicking on its trace (above), producing a pop-up sub-axis view. For
@@ -92,7 +92,7 @@ full-sized view of this trace (as below).
 Many EEGLAB plotting routines use the toolbox function {
 {File\|axcopy.m} } to pop up a sub-axis plotting window whenever the
 users clicks on the main plot window. Sub-axis windows, in turn, do
-not have { {File\|axcopy.m} } enabled, allowing the user to use the
+not have [axcopy.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=axcopy.m) enabled, allowing the user to use the
 standard Matlab mouse 'Zoom In/Out' feature.
 
 
@@ -101,14 +101,14 @@ standard Matlab mouse 'Zoom In/Out' feature.
 
 To plot (one or more) average ERP data traces in two column array,
 select menu item <span style="color: brown> Plot → Channel ERPs \"> In scalp/rect. array</span>. To use the default settings in the resulting
-{ {File\|pop_topoplot.m} } window, check the "Plot in rect. array"
+[pop_topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m) window, check the "Plot in rect. array"
 checkbox and press *OK*.
 
 
 ![Image:Pop_topoplotrectarray.png]({{ site.baseurl }}/assets/images/Pop_topoplotrectarray.png)
 
 
-The resulting { {File\|pop_topoplot.m} } figure (below) appears.
+The resulting [pop_topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m) figure (below) appears.
 
 
 ![Image:Erpplot3.png]({{ site.baseurl }}/assets/images/Erpplot3.png)
@@ -124,7 +124,7 @@ potential distributions at a selected series of trial latencies.
 
 
 Select <span style="color: brown"> Plot → ERP map series → In 2-D</span>. In
-the top text box of the resulting { {File\|pop_topoplot.m} } window
+the top text box of the resulting [pop_topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m) window
 (below), type the epoch latencies of the desired ERP scalp maps.
 
 Note that in this or any other numeric text entry box, you may enter
@@ -138,7 +138,7 @@ example *-6000+3\*(0:20:120)*, are interpreted correctly.
 ![Image:641pop_topoplot.png]({{ site.baseurl }}/assets/images/641pop_topoplot.png)
 
 
-The { {File\|topoplot.m} } window (below) then appears, containing ERP
+The [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) window (below) then appears, containing ERP
 scalp maps at the specified latencies. Here, the plot grid has 3
 columns and 2 rows; other plot geometries can be specified in the gui
 window above via the '' Plot geometry'' text box.
@@ -189,7 +189,7 @@ and 500 ms) and press *OK*.
 ![575px]({{ site.baseurl }}/assets/images/Pop_headplot3.png)
 
 
-Now, the 3-D plotting function { {File\|pop_headplot.m} }, will create
+Now, the 3-D plotting function [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m), will create
 the 3-D channel locations spline file. A progress bar will pop up to
 indicate when this process will be finished. When the 3-D spline file
 has been generated, select <font color=brown>Plot → ERP map series \>
@@ -205,19 +205,19 @@ box type the desired latencies, and press *OK*. The {
 As usual, clicking on a head plot will make it pop up in a sub-axis
 window in which it can be rotated using the mouse. Note that to select
 (for other purposes) a head plot or other object in a figure that has
-the { {File\|axcopy.m} } pop-up feature activated, click on it then
+the [axcopy.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=axcopy.m) pop-up feature activated, click on it then
 delete the resulting pop-up window.
 
 To plot the heads at a specified angle, select the <span style="color: brown"> Plot → ERP map series → In 3-D</span> menu item. Note that now by
 default the function uses the 3-D spline file you have generated
-above. Enter latencies to be displayed and the { {File\|headplot.m} }
+above. Enter latencies to be displayed and the [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m)
 'view' option (as in the example below), and press *OK*.
 
 
 ![575px]({{ site.baseurl }}/assets/images/Pop_headplot2.png)
 
 
-The { {File\|headplot.m} } window (below) will then appear. You may
+The [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m) window (below) will then appear. You may
 also rotate the individual heads using the mouse. This is often
 necessary to show the illustrated spatial distribution to best effect.
 
@@ -230,13 +230,13 @@ We will now briefly describe the channels-to-head model
 co-registration process. If your dataset contains specific channel
 locations, for example locations that you may have measured on the
 subject head using a Polhemus system, and you want to use these
-electrode locations for 3-D plotting, { {File\|headplot.m} } must
+electrode locations for 3-D plotting, [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m) must
 first determine the positions of your electrode locations relative to
 a template head surface. A generic transformation cannot be performed
 because the origin (\[0 0 0\]) in your electrode location system does
 not necessarily correspond to the center of the template head (.e.g.,
 the intersection of the fiducial points: nasion and pre-auricular
-points) used by { {File\|headplot.m} }. Even if this were the case,
+points) used by [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m). Even if this were the case,
 heads have different shapes, so your scanned electrode locations might
 need to be scaled or warped in 3-D to match the template head mesh.
 

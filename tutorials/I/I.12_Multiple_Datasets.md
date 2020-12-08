@@ -107,7 +107,7 @@ conditions collected in the same session may involve replicating some
 portions of the data. For example, the pre-stimulus baseline portion of
 an epoch time locked to a target stimulus may contain some portion of an
 epoch time locked to a preceding nontarget stimulus event. Infomax ICA
-performed by { {File\|pop_headplot.m} } and { {File\|pop_headplot.m} }
+performed by [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) and [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m)
 does not consider the time order of the data points, but selects time
 points in random order during training. Thus, replicated data points in
 concatenated datasets will only tend to be used more often during
@@ -117,9 +117,9 @@ components in other than unusual circumstances.
 
 Some other blind source decomposition algorithms such as {
 {File\|pop_headplot.m} } do consider the time order of points in brief
-data windows. The version of the { {File\|pop_headplot.m} } function
+data windows. The version of the [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) function
 used in EEGLAB has been customized to avoid selecting data time windows
-that straddle an epoch boundary. To apply { {File\|pop_headplot.m} } to
+that straddle an epoch boundary. To apply [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) to
 concatenated datasets, however, the epoch lengths of the datasets are
 assumed to be equal.
 If you wish (and have enough computer RAM), you may also ask {

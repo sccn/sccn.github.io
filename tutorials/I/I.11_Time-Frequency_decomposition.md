@@ -32,7 +32,7 @@ Makeig, 2004)](http://sccn.ucsd.edu/eeglab/download/eeglab_jnm03.pdf).
 > (event-related shifts in the power spectrum) and inter-trial coherence
 > (ITC) (event-related phase-locking) events in epoched EEGLAB datasets,
 > select <font color=brown>Plot \> Time frequency transforms \> Channel
-> time-frequency</font> (calling { {File\|pop_timef.m} }. Below, we
+> time-frequency</font> (calling [pop_timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timef.m). Below, we
 > enter *14* (Cz) for the *Channel number*, *.01* for the *Bootstrap
 > significance level*, and set the optional parameter *padratio* to *16*
 > as below (a <em>very high</em> over-sampling factor for frequencies,
@@ -64,7 +64,7 @@ Makeig, 2004)](http://sccn.ucsd.edu/eeglab/download/eeglab_jnm03.pdf).
 ![px]({{ site.baseurl }}/assets/images/Pop_newtimef()_gui.jpg)
 
 
-> The { {File\|timef.m} } window below appears. The ''top image '' shows
+> The [timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timef.m) window below appears. The ''top image '' shows
 > mean event-related changes in spectral power (from pre-stimulus
 > baseline) at each time during the epoch and at each frequency (\< 50
 > Hz). To inspect these changes more closely, click on the color image.
@@ -110,7 +110,7 @@ different parts of the brain.
 
 To plot a component time-frequency transform, we select
 <font color=brown>Plot \> Time/frequency transforms \> Component
-time-frequency</font> (calling { {File\|pop_timef.m} }. Enter *10* for
+time-frequency</font> (calling [pop_timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timef.m). Enter *10* for
 the *Component number* to plot, *\[-500 1000\]* for the "Epoch time
 range", (FFT) for *Wavelet cycles*, and *.01* for the *Bootstrap
 significance level*. Note that Morlet wavelets are used by default
@@ -119,7 +119,7 @@ although it is also possible to use sinusoidal wavelets. We change
 to visualize only frequencies up to 30 Hz. Again, we press *OK*.
 
 
-Note: { {File\|pop_timef.m} } decompositions using FFTs allow
+Note: [pop_timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timef.m) decompositions using FFTs allow
 computation of lower frequencies than wavelets, since they compute as
 low as one cycle per window, whereas the wavelet method uses a fixed
 number of cycles (default 3) for each frequency.
@@ -129,7 +129,7 @@ number of cycles (default 3) for each frequency.
 
 
 
-The following { {File\|timef.m} } window appears. The ITC image (*lower
+The following [timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timef.m) window appears. The ITC image (*lower
 panel*) shows strong synchronization between the component activity and
 stimulus appearance, first near 15 Hz then near 4 Hz. The ERSP image
 (*upper panel*) shows that the 15-Hz phase-locking is followed by a
@@ -162,7 +162,7 @@ components in your decomposition), *Bootstrap significance level* to
 
 
 
-In the { {File\|crossf.m} } window below, the two components become
+In the [crossf.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=crossf.m) window below, the two components become
 synchronized (*top panel*) around 11.5 Hz (click on the image to zoom
 in). The *upper panel* shows the coherence magnitude (between 0 and 1, 1
 representing two perfectly synchronized signals). The *lower panel*
@@ -171,7 +171,7 @@ points where cross-coherence magnitude (in the *top panel*) is
 significant. In this example, the two components are synchronized with a
 phase offset of about -120 degrees (this phase difference can also be
 plotted as latency delay in ms, using the minimum-phase assumption. See
-{ {File\|crossf.m} } help for more details about the function parameters
+[crossf.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=crossf.m) help for more details about the function parameters
 and the plotted variables).
 
 
@@ -192,17 +192,17 @@ particular cortical domains.
 
 Recall that spectral perturbations at a single-analysis frequency and
 channel or component in the single epochs (sorted by some relevant
-value) can be imaged using { {File\|erpimage.m} } or by selecting
+value) can be imaged using [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) or by selecting
 <font color=brown>Plot \> Component\|Channel ERP image</font>.
 
 Called from the command line (see [EEGLAB script
 writing](/Chapter_02:_Writing_EEGLAB_Scripts "wikilink")), the {
-{File\|timef.m} } and { {File\|crossf.m} } routines can return the data
+{File\|timef.m) and [crossf.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=crossf.m) routines can return the data
 for each part of their figures as a Matlab variable. Accumulating the
 ERSP and ITC images (plus the ERSP baseline and significance-level
 information) for all channels (e.g., via an [EEGLAB
 script](/Chapter_02:_Writing_EEGLAB_Scripts "wikilink")) allows use of
-another toolbox routine, { {File\|tftopo.m} } (currently not available
+another toolbox routine, [tftopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=tftopo.m) (currently not available
 from the EEGLAB menu).
 
 In the next tutorial, we show more about how to import data and events

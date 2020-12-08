@@ -24,7 +24,7 @@ description](/tutorials/single-subject/loading-data-in-EEGLAB.html#sample-experi
 **Selecting events and epochs for two conditions**
 
 Select <span style="color: brown">Edit → Select epochs or events</span>.
-The { {File\|pop_selectevent.m} } window (below) will appear. 
+The [pop_selectevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_selectevent.m) window (below) will appear. 
 
 Enter "1" in the textbox next to *position*, which will select all epochs in which the target appeared in position 1.
 
@@ -37,7 +37,7 @@ Press *Yes* in the resulting query window (below):
 ![300px](/assets/images/Query.gif)
 
 
-Now a { {File\|pop_newset.m} } window for saving the new dataset pops up. We name this new dataset "Square, Position 1" and press *OK*.
+Now a [pop_newset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newset.m) window for saving the new dataset pops up. We name this new dataset "Square, Position 1" and press *OK*.
 
 
 ![575px](/assets/images/Pop_newset2.gif)
@@ -47,7 +47,7 @@ Now, repeat the process to create a second dataset consisting of epochs in which
 
 First, go back to the previous dataset by selecting menu item <span style="color: brown> Datasets \> Continuous EEG Data</font>. Make sure you work on the original continuous dataset or you will be able to extract data epochs at position 2. Next select <font color=brown> Edit \"> Select epoch/events</span>. 
 
-In the resulting { {File\|pop_selectevent.m} } window, enter "2" in the text box to the right of the *position* field. Press *OK*, then name the new dataset "Square, Position 2".
+In the resulting [pop_selectevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_selectevent.m) window, enter "2" in the text box to the right of the *position* field. Press *OK*, then name the new dataset "Square, Position 2".
 
 
 ![5px](/assets/images/Pop_selectevent2.jpg)
@@ -59,7 +59,7 @@ more details on this topic.
 
 **Select a subset of data epochs**
 
-Another function that can be useful for selecting a dataset subset is the function { {File\|pop_select.m} } called by selecting <span style="color: brown>Edit \"> Select data</span>. The example below would select data sub-epochs with the epoch time range from -500 ms to 1000 ms. It would, further, remove dataset epochs 2, 3 and 4 and remove channel 31 completely.
+Another function that can be useful for selecting a dataset subset is the function [pop_select.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_select.m) called by selecting <span style="color: brown>Edit \"> Select data</span>. The example below would select data sub-epochs with the epoch time range from -500 ms to 1000 ms. It would, further, remove dataset epochs 2, 3 and 4 and remove channel 31 completely.
 
 
 ![525px](/assets/images/Pop_select.gif)
@@ -73,7 +73,7 @@ across subjects. As an example, we will use EEGLAB functions to compute
 the ERP grand average of the two condition ERPs above.
 
 
-Select <span style="color: brown>Plot → Sum/Compare ERPs</span>. In the top text-entry boxes of the resulting { {File\|pop_comperp.m} } window (below), enter the indices of datasets ‘3’ and ‘4’. On the first row, click the *avg.* box to display grand average, the *std.* box to display standard deviation, and the *all ERPs* box to display ERP averages for each dataset. Finally *0.05* for the t-test significance probability (p) threshold. Then press *OK*.
+Select <span style="color: brown>Plot → Sum/Compare ERPs</span>. In the top text-entry boxes of the resulting [pop_comperp.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_comperp.m) window (below), enter the indices of datasets ‘3’ and ‘4’. On the first row, click the *avg.* box to display grand average, the *std.* box to display standard deviation, and the *all ERPs* box to display ERP averages for each dataset. Finally *0.05* for the t-test significance probability (p) threshold. Then press *OK*.
 
 ![575px](/assets/images/I72pop_comperp().gif)
 
@@ -108,7 +108,7 @@ distribution with a distribution having the same variance and a 0 mean.
 
 Note that this t-test has not been corrected for multiple comparisons.
 The p values at each time point can be obtained from a command line call
-to the function { {File\|pop_comperp.m} }.
+to the function [pop_comperp.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_comperp.m).
 
 Finding ERP peak latencies
 --------------------------------
@@ -126,7 +126,7 @@ For example, in the figure above select the magnifying-glass icon having the **+
 
 
 *Note*: It may be desirable to first use the low pass filtering edit box
-of the { {File\|pop_comperp.m} } interface to smooth average data peaks
+of the [pop_comperp.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_comperp.m) interface to smooth average data peaks
 before measuring latency peaks.
 
 Comparing ERPs in two conditions
@@ -134,17 +134,17 @@ Comparing ERPs in two conditions
 
 To compare ERP averages for the two conditions (targets presented in positions 1 and 2):
  - select <span style="color: brown">Plot → Sum/Compare ERPs</span> 
- - in the top text-entry box of the resulting { {File\|pop_comperp.m} } window (below), enter the indices of the
+ - in the top text-entry box of the resulting [pop_comperp.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_comperp.m) window (below), enter the indices of the
   datasets to compare. 
  - click all boxes in the *avg.* column. 
- - enter *30* for the low pass frequency and '' 'title', 'Position 1-2' '' in the { {File\|topoplot.m} } option edit box. 
+ - enter *30* for the low pass frequency and '' 'title', 'Position 1-2' '' in the [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) option edit box. 
  - then press *OK*.
 
 
 ![500px](/assets/images/Pop_comperp6.gif)
 
 
-The { {File\|plottopo.m} } figure (below) appears.
+The [plottopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=plottopo.m) figure (below) appears.
 
 
 ![475px](/assets/images/Pop_comperp7.gif)

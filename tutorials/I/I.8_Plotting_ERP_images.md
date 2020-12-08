@@ -31,7 +31,7 @@ trials of our dataset, we must first choose a channel to plot.
 Let us,
 for example, choose a channel with high alpha band power (near 10 Hz).
 [Previously](/tutorials/single-subject/plotting-channel-spectra-and-maps)
-in the tutorial we obtained the { {File\|spectopo.m} } plot reproduced
+in the tutorial we obtained the [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) plot reproduced
 below.
 
 
@@ -60,7 +60,7 @@ at which alpha power is largest. Click on the *POz* channel label
 
 *Note*: It is also possible to plot electrode locations in the spectral
 graph by entering '' 'electrodes', 'on' '' in the lowest text box
-(*Scalp map options*) of the interactive { {File\|pop_spectopo.m} }
+(*Scalp map options*) of the interactive [pop_spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_spectopo.m)
 window.
 
 Plotting ERP images using pop_erpimage()
@@ -73,7 +73,7 @@ ERP-image plot.
 **Viewing a Channel ERP**
 
 Select <span style="color: brown"> Plot → Channel ERP image</span> . This
-brings up the { {File\|pop_erpimage.m} } window (below). 
+brings up the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window (below). 
 
 Enter the channel number (27), a trial-smoothing value of *1*, and press *OK*.
 
@@ -89,7 +89,7 @@ for more details on how ERP images are constructed.
 By stacking above each other the color-sequence lines for all trials
 in a dataset, we produce an ERP image. 
 
-In the standard { {File\|erpimage.m} } output figure (below), the trace below the ERP
+In the standard [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) output figure (below), the trace below the ERP
 image shows the average of the single-trial activity, i.e. the ERP
 average of the imaged data epochs. 
 
@@ -98,7 +98,7 @@ a red dot indicates the position of the selected channel in the
 montage.
 
 *Note*: Both of these plotting features (as well as several others) can
-be turned off in the { {File\|pop_erpimage.m} } pop-up window (above).
+be turned off in the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) pop-up window (above).
 See check-boxes *plot ERP* and *plot scalp map*.
 
 
@@ -111,7 +111,7 @@ using a rectangular (boxcar) moving average.
 
 **Plotting a Smoothed ERP**
 
-Again call up the { {File\|pop_erpimage.m} } interactive window and
+Again call up the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) interactive window and
 set the smoothing width to *10* instead of *1*. Now (see below) it is
 easier to see the dominant alpha-band oscillations in single trials.
 
@@ -132,7 +132,7 @@ each (smoothed) trial as a horizontal line. (The screen and/or printer
 resolution may be insufficient to display them all). To reduce the
 imaging delay (and to decrease the saved plot file size), one can
 decimate some of the (smoothed) ERP-image lines. Entering *4* in the
-*Downsampling* box of the { {File\|pop_erpimage.m} } window would
+*Downsampling* box of the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window would
 decimate (reduce) the number of lines in the ERP image by a factor of
 *4*. If the *Smoothing* width is (in this case) greater than *2\*4 =
 8*, no information will be lost from the smoothed image.
@@ -175,14 +175,14 @@ Below, we demonstrate sorting the same trials in order of response time event la
 Sorting trials by reaction time
 --------------------------------
 
-In the { {File\|pop_erpimage.m} } window again:
+In the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window again:
 - first press the button *Epoch-sorting field*, and select *Latency*. 
 - next, press the button *Event type*, and select *rt*. 
 
 In the resulting ERP image, trials will
 be sorted by the *latency* of *rt* events (our sample data has one
 *rt* event per epoch. 
-If this were not the case,{ {File\|erpimage.m} }
+If this were not the case,[erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m)
 would only have plotted epochs with rt events).
  
  Enter *Event time
@@ -197,7 +197,7 @@ stimulus onsets.
 mouse cursor over the label above a text-entry box for a few seconds
 pops up an explanatory comment.
 
-Now, the { {File\|erpimage.m} } figure below appears. 
+Now, the [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) figure below appears. 
 
 The curved black line corresponds to the latency time of the event (rt) we are sorting
 by.
@@ -208,7 +208,7 @@ by.
 
 In general, the user can sort on any event field value.
 
-For example, call back the { {File\|pop_erpimage.m} } window, press
+For example, call back the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window, press
 the *Epoch-sorting Field* button, and select *position* instead of
 *latency*. Remove *rt* from the *Event type* box. Finally enter *yes*
 under the *Rescale* box. Press *OK*. 
@@ -222,7 +222,7 @@ oblique line connecting the low (1) and high (2) sorting variable
 regions.
 
 *Note*: One can also enter a Matlab expression to normalize the sorting
-variable explicitly (see { {File\|erpimage.m} } help).
+variable explicitly (see [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) help).
 
 
 ![425px]({{ site.baseurl }}/assets/images/1ERPimageposition.gif)
@@ -274,7 +274,7 @@ a specified time/frequency window. Though *rt* values can be shown in
 phase-sorted ERP-image figures, we will omit them for simplicity.
 
 
-To do this, return to the { {File\|pop_erpimage.m} } window from the
+To do this, return to the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window from the
 menu:
 - clear the contents of the ''Epoch-sorting field', *Event type*
 and *Align* inputs
@@ -361,7 +361,7 @@ Plotting ERP images Inter-Trial Coherence
 ------------------------------------------
 
 To plot the ITC in our ERP-image figure, we choose to enter the
-following parameters in the { {File\|pop_erpimage.m} } window:
+following parameters in the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window:
 - omit the *Percent low-amp. of Trials to ignore* value (or enter 0). 
 - under <span style="color: brown">Sort trials by phase → Frequency</span> enter *9 11*
 -  also enter *9 11* in the <span style="color: brown">Inter-TrialCoherence → Frequency</span> box
@@ -372,7 +372,7 @@ and press *OK*.
 Note that these two entries must be equal (the window actually
 prevents the user from entering different values). Entering a
 frequency range instead of one frequency (e.g., *10* as before) tells
-{ {File\|erpimage.m} } to find the data frequency with maximum power
+[erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) to find the data frequency with maximum power
 in the input data (here between 9 and 11 Hz).
 
 
@@ -415,10 +415,10 @@ For a further discussion on how to interpret the results of phase sorting in ERP
 
 ### Plotting spectral amplitude in single trials and additional options
 
-There are several other { {File\|erpimage.m} } options that we will
+There are several other [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) options that we will
 briefly illustrate in the following example: 
 
-- the *Image amps* entry on the { {File\|pop_erpimage.m} } window allows us to image amplitude of
+- the *Image amps* entry on the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window allows us to image amplitude of
 the signal (at the frequency of interest) in the single trials, instead
 of the raw signals themselves. Check this box. 
 - the *Plot spectrum
@@ -438,7 +438,7 @@ window
 ![575px]({{ site.baseurl }}/assets/images/I85pop_erpimage.jpg)
 
 
-The { {File\|erpimage.m} } figure below appears.
+The [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) figure below appears.
 
 
 

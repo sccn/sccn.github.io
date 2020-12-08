@@ -28,7 +28,7 @@ Running ICA decompositions in EEGLAB
 To compute ICA components of a dataset of EEG epochs (or of a continuous
 EEGLAB dataset), select <span style="color: brown">Tools →  Run ICA</span>. 
 This
-calls the function { {File\|pop_runica.m} }. To test this function,
+calls the function [pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m). To test this function,
 simply press *OK*.
 
 
@@ -56,7 +56,7 @@ all three algorithms return near-equivalent components. We are satisfied
 that Infomax ICA (runica/binica) gives stable decompositions with up to
 hundreds of channels (assuming enough training data are given, see
 below), and therefore we can recommend its use, particularly in its
-faster binary form ({ {File\|binica.m} } - note that you will also need
+faster binary form ([binica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=binica.m) - note that you will also need
 to download the binary file at [this page](/Binica "wikilink") and edit
 the EEGLAB file icadefs.m so that it points to the right binary). Note
 about *jader*: this algorithm uses 4th-order moments (whereas Infomax
@@ -94,16 +94,16 @@ When insufficient data are available, then using the 'pca' option to {
 option.
 
 <u>Supported Systems for binica:</u> To use the optional (and much
-faster) *binica*, which calls { {File\|binica.m} } , the faster C
-translation of { {File\|runica.m} }, you must make the location of the
+faster) *binica*, which calls [binica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=binica.m) , the faster C
+translation of [runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=runica.m), you must make the location of the
 executable ICA file known to Matlab and executable on your system. Note:
-Edit the EEGLAB { {File\|icadefs.m} } Matlab script file to specify the
-location of the { {File\|binica.m} } executable. The EEGLAB toolbox
+Edit the EEGLAB [icadefs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=icadefs.m) Matlab script file to specify the
+location of the [binica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=binica.m) executable. The EEGLAB toolbox
 includes three versions of the binary executable Informax ica routine,
 for Linux (compiled under Redhat 2.4), *freebsd* (3.0) and *freebsd*
 (4.0) (these are named, respectively *ica_linux2.4* , '' ica_bsd3.0''
 and *ica_bsd4.0*). The executable file must also be accessible through
-the Unix user path variable otherwise { {File\|binica.m} } won't work.
+the Unix user path variable otherwise [binica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=binica.m) won't work.
 Windows and sun version (older version of binary ICA executable) are
 available [here](http://www.sccn.ucsd.edu/eeglab/binica/) (copy them to
 the EEGLAB directory). Please [contact us](mailto:eeglab@sccn.ucsd.edu)
@@ -226,7 +226,7 @@ different subjects.
 
 To plot 2-D scalp component maps, select <font color=brown> Plot \>
 Component maps \> In 2-D</font>. The interactive window (below) is then
-produced by function { {File\|pop_topoplot.m} } . It is similar to the
+produced by function [pop_topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m) . It is similar to the
 window we used for plotting ERP scalp maps. Simply press *OK* to plot
 all components.
 
@@ -242,7 +242,7 @@ and choosing to set 'electrodes', 'off'.
 
 
 
-The following { {File\|topoplot.m} } window appears, showing the scalp
+The following [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) window appears, showing the scalp
 map projection of the selected components. Note that the scale in the
 following plot uses arbitrary units. The scale of the component's
 activity time course also uses arbitrary units. However, the component's
@@ -282,13 +282,13 @@ might be slightly different).
 
 
 Note: From EEGLAB v4.32 on, if the electrode montage extends below the
-horizontal plane of the head center, { {File\|topoplot.m} } plots them
+horizontal plane of the head center, [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) plots them
 as a 'skirt' (or halo) around the cartoon head that marks the
 (arc_length = 0.5) head-center plane. (Note: Usually, the best-fitting
 sphere is a cm or more above the plane of the nasion and ear canals). By
 default, all channels with location arc_lengths \<= 1.0 (head bottom)
 are used for interpolation and are shown in the plot. From the
-commandline, { {File\|topoplot.m} } allows the user to specify the
+commandline, [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) allows the user to specify the
 interpolation and plotting radii (*intrad* and *plotrad*) as well as the
 radius of the cartoon head (*headrad*). The *headrad* value should
 normally be kept at its physiologically correct value (0.5). In 'skirt'
@@ -296,7 +296,7 @@ mode (see below), the cartoon head is plotted at its normal location
 relative to the electrodes, the lower electrodes appearing in a 'skirt'
 outside the head cartoon. If you have computed an equivalent dipole
 model for the component map (using the [DIPFIT](/A5:_DIPFIT "wikilink")
-plug-in) { {File\|topoplot.m} } can indicate the location of the
+plug-in) [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) can indicate the location of the
 component equivalent current dipole(s). Note that the 'balls' of the
 dipole(s) are located as if looking down from above on the transparent
 head. The distance of the electrode positions from the vertex, however,
@@ -318,9 +318,9 @@ the viewer to estimate the actual 3-D locations of plot features.
 
 
 
-The EEGLAB v4.32 { {File\|topoplot.m} } above shows an independent
+The EEGLAB v4.32 [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) above shows an independent
 component whose bilateral equivalent dipole model had only 2% residual
-variance across all 252 electrode locations. This { {File\|binica.m} }
+variance across all 252 electrode locations. This [binica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=binica.m)
 decomposition used PCA to reduce the over 700,000 data points to 160
 principal dimensions (a ratio of 28 time points per ICA weight).
 
@@ -328,7 +328,7 @@ principal dimensions (a ratio of 28 time points per ICA weight).
 
 Using EEGLAB, you may also plot a 3-D head plot of a component
 topography by selecting <font color=brown>Plot \> Component maps \> In
-3-D</font>. This calls { {File\|pop_headplot.m} }. The function should
+3-D</font>. This calls [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m). The function should
 automatically use the spline file you have generated when plotting ERP
 3-D scalp maps. Select one ore more components (below) and press *OK*.
 For more information on this interface and how to perform
@@ -340,7 +340,7 @@ and the [DIPFIT](/A5:_DIPFIT "wikilink").
 ![575px]({{ site.baseurl }}/assets/images/3dcomponentedit.gif)
 
 
-The { {File\|pop_headplot.m} } window below appears. You may use the
+The [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) window below appears. You may use the
 Matlab rotate 3-D option to rotate these headplots with the mouse. Else,
 enter a different *view* angle in the window above.
 
@@ -550,7 +550,7 @@ components subtracted. To run ICA on the reduced dataset, use the *pca*
 option under the <span style="color: brown>Tools \"> Run ICA</span> pop-up
 window, type '' 'pca', '10' '' in the Commandline options box to reduce
 the data dimensions to the number of remaining components (here 10),
-before running ICA (see { {File\|runica.m} }. If the amount of data has
+before running ICA (see [runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=runica.m). If the amount of data has
 not changed, ICA will typically return the same (remaining) independent
 components -- which were, after all, already found to be maximally
 independent for these data. After running ICA (**not before**), we
