@@ -1,10 +1,10 @@
 ---
 layout: default
-title: I.12 Multiple Datasets
+title: I.13 Multiple Datasets
 permalink: /tutorials/single-subject/multiple-datasets
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
-nav_order: 12
+nav_order: 13
 ---
 
 { {Backward_Forward\|Chapter_11:_Timefrequency_decomposition\|(MT)

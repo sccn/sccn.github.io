@@ -1,10 +1,10 @@
 ---
 layout: default
-title: I.11 Time-Frequency decomposition
+title: I.12 Time-Frequency decomposition
 permalink: /tutorials/single-subject/time-frequency-decomposition
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
-nav_order: 11
+nav_order: 12
 ---
 
 { {Backward_Forward\|Chapter_10:_Working_with_ICA_components\|(MT)

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: I.10 Working with ICA components
+title: I.11 Working with ICA components
 permalink: /tutorials/single-subject/working-with-ICA-components
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
-nav_order: 10
+nav_order: 11
 ---
 
 { {Backward_Forward\|Chapter_09:_Decomposing_Data_Using_ICA\|(MT)
