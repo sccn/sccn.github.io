@@ -463,6 +463,7 @@ When computing average reference on n-channel data, the rank of the data
 is reduced to n-1. Why? Because the sum of the potential is 0 at all
 time points, the last channel activity is equal to minus the sum of the
 others. ICA does not behave well in this (**rank-deficient**) condition.
+
 Below, we show an ICA solution computed on data which was average
 referenced and in which two of the returned components are almost
 identical with opposite polarities (data collected with EGI amplifier,
@@ -472,7 +473,9 @@ courtesy of the Institute of Noetic Sciences).
 ![px]({{ site.baseurl }}/assets/images/Comp_identical1.gif)
 
 
-There are 30 channels shown above; the time width is 5 sec. When the
+There are 30 channels shown above; the time width is 5 sec. 
+
+When the
 same <em>runica()</em> or <em>binica()</em> (or from the gui,
 <em>pop_runica()</em>) decomposition is run using the option "'pca',
 29", then a single similar (but not quite identical) component is
@@ -488,12 +491,16 @@ to create two components compensating for each others activity.
 
 
 If the rank of the data is lower than the number of channels, the EEGLAB
-<em>pop_runica()</em> function should detect it. However, rank
+<em>pop_runica()</em> function should detect it. 
+
+However, rank
 calculation in Matlab is imprecise, especially since raw EEG data is
 stored at single precision. There are thus some cases in which the rank
 reduction arising from use of average reference is not detected. In this
 case, the user should reduce manually the number of components
-decomposed. For example, when using 64 channels enter, in the option
+decomposed. 
+
+For example, when using 64 channels enter, in the option
 edit box, "'pca', 63". If you do not do this, the activity of one of the
 components that contributes the most to the data might be duplicated (as
 shown above) and you will not be usable for your analysis. The activity
