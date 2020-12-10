@@ -99,7 +99,7 @@ writing Matlab functions that will process information in more general
 potentially applying several types of statistical comparison (ANOVA,
 permutation-based, etc.) to many types of data measures.
 
-#### Matlab toolboxes required for component clustering:
+### Matlab toolboxes required for component clustering:
 
 At the moment, two clustering methods are available: 'kmeans' and 'neural
 network' clustering. 'Kmeans' clustering requires the Matlab Statistical
