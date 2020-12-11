@@ -89,17 +89,17 @@ enter a different *view* angle in the window above.
 
 
 <details>
-  <summary>Note on ICA component projections and electrode montage plot </summary>
+  <summary>NOTE ON ICA COMPONENT PROJECTIONS AND ELECTRODE MONTAGE PLOT</summary>
   
 
 Note: From EEGLAB v4.32 on, if the electrode montage extends below the
-horizontal plane of the head center, [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) plots them
+horizontal plane of the head center, <href src="http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m">topoplot.m</href> plots them
 as a 'skirt' (or halo) around the cartoon head that marks the
 (arc_length = 0.5) head-center plane. (Note: Usually, the best-fitting
 sphere is a cm or more above the plane of the nasion and ear canals). By
 default, all channels with location arc_lengths \<= 1.0 (head bottom)
 are used for interpolation and are shown in the plot. From the
-commandline, [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) allows the user to specify the
+commandline, <href src="http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m">topoplot.m</href> allows the user to specify the
 interpolation and plotting radii (*intrad* and *plotrad*) as well as the
 radius of the cartoon head (*headrad*). The *headrad* value should
 normally be kept at its physiologically correct value (0.5). In 'skirt'
@@ -107,7 +107,7 @@ mode (see below), the cartoon head is plotted at its normal location
 relative to the electrodes, the lower electrodes appearing in a 'skirt'
 outside the head cartoon. If you have computed an equivalent dipole
 model for the component map (using the [DIPFIT](/A5:_DIPFIT "wikilink")
-plug-in) [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) can indicate the location of the
+plug-in) <href src="http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m">topoplot.m</href> can indicate the location of the
 component equivalent current dipole(s). Note that the 'balls' of the
 dipole(s) are located as if looking down from above on the transparent
 head. The distance of the electrode positions from the vertex, however,
@@ -126,13 +126,13 @@ the viewer to estimate the actual 3-D locations of plot features.
 
 
 
-![275px]({{ site.baseurl }}/assets/images/Comp252.jpg)
+<img src="https://sccn.github.io/assets/images/Comp252.jpg">
 
 
 
-The EEGLAB v4.32 [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) above shows an independent
+The EEGLAB v4.32 <href src="http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m">topoplot.m</href> above shows an independent
 component whose bilateral equivalent dipole model had only 2% residual
-variance across all 252 electrode locations. This [binica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=binica.m)
+variance across all 252 electrode locations. This <href src="http://sccn.ucsd.edu/eeglab/locatefile.php?file=binica.m">binica.m</href>
 decomposition used PCA to reduce the over 700,000 data points to 160
 principal dimensions (a ratio of 28 time points per ICA weight).
 
