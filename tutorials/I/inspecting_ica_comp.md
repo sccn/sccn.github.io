@@ -1,6 +1,6 @@
 ---
 layout: default
-title: I.10 Inspecting ICA components
+title: I.10 Inspecting and removing ICA components
 permalink: /tutorials/single-subject/inspecting-ica-comp.html
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
