@@ -4,12 +4,46 @@ title: II.Multiple subject processing tutorial
 permalink: /tutorials/multi-subject.html
 parent: Tutorials
 has_children: true
+has_toc: false
 ---
 
-This part of the EEGLAB tutorial addresses Multiple Subject processing. 
-
+Multiple Subject processing
+===============================
 In this tutorial, the user is introduced to more advanced elements of EEGLAB focused around the STUDY
 framework used for processing multiple subjects as once. These topics
 are recommended for the user to successfully analyse large scale
 experiments which go beyond single subject. 
+
+Here we outline the most common steps you might take for group analysis of channel data and of ICA component.
+You can also watch this [YouTube video](https://www.youtube.com/watch?v=kofJh7biGsE) describing each of these steps.
+
+### Start by getting all your datasets within a STUDY data structure:
+
+- [Create a STUDY](/tutorials/multi-subject/study-creation.html)
+- [Specify your STUDY data analysis design](/tutorials/multi-subject/working-with-STUDY-designs.html)
+
+### Then if you want to work on channel data:
+
+- [Pre-compute channel data measures](/tutorials/multi-subject/STUDY-data-visualization-tools.html#precomputing-channel-measures)
+
+### And if you want to work on the ICA component level:
+
+- [Identify the components in each dataset to
+    cluster](/tutorials/multi-subject/component-clustering-tools.html#Clustering_Methods "wikilink").
+- [Specify and compute ("pre-clustering") measures to use in
+    clustering](/tutorials/multi-subject/component-clustering-tools.html#Clustering_Methods "wikilink").
+- [Perform component clustering using these
+    measures](/tutorials/multi-subject/component-clustering-tools.html#Clustering_Methods "wikilink").
+    
+### Visualizing measures for either channel or component data:
+
+- [View the scalp maps, dipole models, and activity measures of the
+    component
+    clusters](/tutorials/multi-subject/component-clustering-tools.html#Editing_clusters "wikilink").
+
+### Finally perform statistical estimation on either channel data or components:
+- [Perform signal processing and statistical estimation on the
+    clusters](/tutorials/multi-subject/study-statistics-and-visualization-options.html).
+
+
 
