@@ -1,42 +1,19 @@
 ---
 layout: default
-title: II.5 Component Clustering Tools
+title: II.5 STUDY Component Clustering Tools
 permalink: /tutorials/multi-subject/component-clustering-tools.html
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---
 
-{ {Backward_Forward\|Chapter 04: STUDY Data Visualization Tools\|Chapter
-04: STUDY Data Visualization Tools\|Chapter 06: Study Statistics and
-Visualization Options\|Chapter 06: Study Statistics} }
+Clustering ICA components
+===========================
 
-### Clustering outline
-
-There are several steps in the independent component clustering process,
-some of which we have already addressed in the previous section:
-
-1.  [Identify a set of epoched EEG datasets containing ICA weights to
-    form the STUDY to be
-    clustered](/Chapter_02:_STUDY_Creation#Creating_a_new_STUDY_structure_and_studyset "wikilink").
-2.  [Specify the subject code and group, task condition, and session for
-    each
-    dataset](/Chapter_02:_STUDY_Creation#Creating_a_new_STUDY_structure_and_studyset "wikilink").
-3.  [Identify the components in each dataset to
-    cluster](/Chapter_05:_Component_Clustering_Tools#Clustering_Methods "wikilink").
-4.  [Specify and compute ("pre-clustering") measures to use in
-    clustering](/Chapter_05:_Component_Clustering_Tools#Clustering_Methods "wikilink").
-5.  [Perform component clustering using these
-    measures](/Chapter_05:_Component_Clustering_Tools#Clustering_Methods "wikilink").
-6.  [View the scalp maps, dipole models, and activity measures of the
-    component
-    clusters](/Chapter_05:_Component_Clustering_Tools#Editing_clusters "wikilink").
-7.  [Perform signal processing and statistical estimation on the
-    clusters](/Chapter_04:_STUDY_Data_Visualization_Tools "wikilink").
 
 This part of the tutorial will demonstrate how to use EEGLAB to
 interactively preprocess, cluster, and then visualize the dynamics of
 ICA (or other linear) signal components across one or many subjects by
-operating on the tutorial study.
+operating on the [tutorial study](ftp://sccn.ucsd.edu/pub/5subjects_full.zip).
 
 Note that with only a few subjects and a few clusters (a necessary
 limitation, to be able to easily distribute the example), it may not be
@@ -65,9 +42,13 @@ inherit the same ICA decomposition.
 An example of ICA clustering is also available
 [here](/Independent_Component_Clustering_Example "wikilink").
 
-### Why cluster?
+<details>
+  <summary><b>Why cluster ICA components?</b></summary>
 
-<u>Is my Cz your Cz?</u> To compare electrophysiological results across
+
+<u>Is my Cz your Cz?</u> 
+
+To compare electrophysiological results across
 subjects, the usual practice of most researchers has been to identify
 scalp channels (for instance, considering recorded channel "Cz" in every
 subject's data to be spatially equivalent). Actually, this is an
@@ -87,7 +68,12 @@ cortical EEG sources, no matter how accurately the equivalent electrode
 locations were measured on the scalp. This fact is commonly ignored in
 EEG research.
 
-<u>Is my IC your IC?</u> Following ICA (or other linear) decomposition,
+<br>
+<br>
+
+<u>Is my IC your IC?</u> 
+
+Following ICA (or other linear) decomposition,
 however, there is no natural and easy way to identify a component from
 one subject with one (or more) component(s) from another subject. A pair
 of independent components (ICs) from two subjects might resemble and/or
@@ -96,7 +82,8 @@ differences in their scalp maps, power spectra, ERPs, ERSPs, ITCs, or
 etc. Thus, there are many possible (distance) measures of similarity,
 and many different ways of combining activity measures into a global
 distance measure to estimate component pair similarity.
-
+<br>
+<br>
 Thus, the problem of identifying equivalent components across subjects
 is non-trivial. An attempt at doing this for 31-channel data was
 published in [2002](http://sccn.ucsd.edu/science2002.html) and
@@ -114,47 +101,58 @@ analysis across more than one condition from a large number of subjects.
 This should make more routine use of linear decomposition and ICA
 possible to apply to a wide variety of hypothesis testing on datasets
 from several to many subjects.
-
+<br> <br>
 The number of EEGLAB clustering and cluster-based functions will
 doubtless continue to grow in number and power in the future versions,
 since they allow the realistic use of ICA decomposition in
 hypothesis-driven research on large or small subject populations.
-
-NOTE: Independent component clustering (like much other data clustering)
+<br> <br>
+<b>NOTE:</b> Independent component clustering (like much other data clustering)
 has no single 'correct' solution. Interpreting results of component
 clustering, therefore, warrants caution. Claims to discovery of
 physiological facts from component clustering should be accompanied by
 thoughtful caveat and, preferably, by results of statistical testing
 against suitable null hypotheses.
 
-### Clustering Methods
+</details>
 
-There are two types of clustering methods available. One is the original
-(PCA) method and the other one is the new Measure Product (MP) method.
-Both methods produce reasonable clusters, but the new MP method requires
-less parameter tuning (it has only one parameter) and is therefore
-recommended. The PCA method is older and its implementation is more
-stable though. The MP method has been removed from version 9.0.3.3b for
+
+Clustering Methods
+-------------------
+
+EEGLAB implements the following clustering methods:
+
+- [PCA method (original method)](/tutorials/multi-subject/component-clustering-tools.html#preparing-to-cluster-pre-clustering-with-pca-original-method)
+- [Affinity Product Method](/tutorials/multi-subject/component-clustering-tools.html#preparing-to-cluster-pre-clustering-with-affinity-product-method)
+- [Using the Corrmap plugin](/tutorials/multi-subject/component-clustering-tools.html#finding-clusters-with-the-corrmap-plugin)
+- Measure Product (MP) method 
+*The MP method has been removed from version 9.0.3.3b for
 lack of stability but you may contact the author at nima@sccn.ucsd.edu
-to obtain a copy.
+to obtain a copy.*
 
-### Preparing to cluster (Pre-clustering) with PCA (original) method
+Preparing to cluster (Pre-clustering) with PCA (original) method
+-----------------------------------------------------------------
 
 The next step before clustering is to prepare the *STUDY* for
-clustering. This requires, first, identifying the components from each
+clustering. This requires:
+ - first, identifying the components from each
 dataset to be entered into the clustering (as explained briefly above),
-then computing component activity measures for each study dataset
-(described below). For this purpose, for each dataset component the
+- second, computing component activity measures for each study dataset
+(described below). 
+
+For this purpose, for each dataset component the
 pre-clustering function { {File\|pop_preclust.m} } first computes
 desired condition-mean measures used to determine the cluster 'distance'
-of components from each other. The condition means used to construct
+of components from each other. 
+
+The condition means used to construct
 this overall cluster 'distance' measure may be selected from a palette
 of standard EEGLAB measures: ERP, power spectrum, ERSP, and/or ITC, as
 well as the component scalp maps (interpolated to a standard scalp grid)
 and their equivalent dipole model locations (if any).
 
 
-Note: Dipole locations are the one type of pre-clustering information
+*Note*: Dipole locations are the one type of pre-clustering information
 *not* computed by { {File\|pop_preclust.m} }. As explained previously,
 to use dipole locations in clustering and/or in reviewing cluster
 results, dipole model information must be computed separately and saved
@@ -169,60 +167,62 @@ activity measures are from one another in the space of the joint,
 PCA-reduced measures selected. This will become clearer as we detail the
 use of the graphic interface below.
 
-<font color=green>KEY STEP 3:</font> Computing component measures.
-
-> Invoke the pre-clustering graphic interface by using menu item
-> <font color=brown>Study \> Build pre-clustering array</font>.
->
->
->
-> ![\![image not found](/assets/images/Pop_preclust.gif)\]
->
->
->
-> The top section of the { {File\|pop_preclust.m} } gui above allows
-> selecting clusters from which to produce a refined clustering. There
-> is not yet any choice here -- we must select the parent datasets that
-> contain all selected components from all datasets (e.g., the
-> components selected at the end of the previous section).
->
->
-> The checkboxes on the left in the second section of the {
-> {File\|pop_preclust.m} } interface above allow selection of the
-> component activity measures to include in the *cluster location
-> measure* constructed to perform clustering. The goal of the
-> pre-clustering function is to compute an N-dimensional cluster
-> position vector for each component. These 'cluster position' vectors
-> will be used to measure the 'distance' of components from each other
-> in the N-dimensional cluster space. The value of N is arbitrary but,
-> for numeric reasons pertaining to the clustering algorithms, should be
-> kept relatively low (e.g., \<10). In the cluster position vectors, for
-> example, the three first values might represent the 3-D (x,y,z)
-> spatial locations of the equivalent dipole for each component. The
-> next, say, 10 values might represent the largest 10 principal
-> components of the first condition ERP, the next 10, for the second
-> condition ERP, and so on.
->
->
-> If you are computing (time/frequency) spectral perturbation images,
-> you cannot use all their (near-3000) time-frequency values, which are
-> redundant, in any case. Here also, you should use the *Dim.* column
-> inputs to reduce the number of dimensions (for instance, to 10).
->
->
-> Note: { {File\|pop_preclust.m} } reduces the dimension of the cluster
-> position measures (incorporating information from ERP, ERSP, or other
-> measures) by restricting the cluster position vectors to an
-> N-dimensional principal subspace by principal component analysis
-> (PCA).
+### Computing component measures
+Invoke the pre-clustering graphic interface by using menu item
+<span style="color: brown">Study → Build pre-clustering array</span>.
 
 
+![image not found](/assets/images/Pop_preclust.gif)
+
+The top section of the { {File\|pop_preclust.m} } gui above allows
+selecting clusters from which to produce a refined clustering. There
+is not yet any choice here -- we must select the parent datasets that
+contain all selected components from all datasets (e.g., the
+components selected at the end of the previous section).
+
+The checkboxes on the left in the second section of the 
+{ {File\|pop_preclust.m} } interface above allow selection of the
+component activity measures to include in the *cluster location
+measure* constructed to perform clustering. 
+
+The goal of the
+pre-clustering function is to compute an N-dimensional cluster
+position vector for each component. These 'cluster position' vectors
+will be used to measure the 'distance' of components from each other
+in the N-dimensional cluster space. The value of N is arbitrary but,
+for numeric reasons pertaining to the clustering algorithms, should be
+kept relatively low (e.g., \<10). 
+
+In the cluster position vectors, for
+example, the three first values might represent the 3-D (x,y,z)
+spatial locations of the equivalent dipole for each component. The
+next, say, 10 values might represent the largest 10 principal
+components of the first condition ERP, the next 10, for the second
+condition ERP, and so on.
+
+If you are computing (time/frequency) spectral perturbation images,
+you cannot use all their (near-3000) time-frequency values, which are
+redundant, in any case. Here also, you should use the *Dim.* column
+inputs to reduce the number of dimensions (for instance, to 10).
+
+*Note*: { {File\|pop_preclust.m} } reduces the dimension of the cluster
+position measures (incorporating information from ERP, ERSP, or other
+measures) by restricting the cluster position vectors to an
+N-dimensional principal subspace by principal component analysis
+(PCA).
+
+#### Dimension normalization
+ 
 You may wish to "normalize" these principal dimensions for the location
 and activity measures you select so their metrics are equivariant across
-measures. Do this by checking the checkbox under the *norm* column. This
+measures. Do this by checking the checkbox under the *norm* column. 
+
+This
 'normalization' process involves dividing the measure data of all
 principal components by the standard deviation of the first PCA
-component for this measure. You may also specify a relative weight
+component for this measure. 
+
+You may also specify a relative weight
 (versus other measures). For instance if you use two measures (A and B)
 and you want A to have twice the "weight" of B, you would normalize both
 measures and enter a weight of 2 for A and 1 for B. If you estimate that
@@ -230,11 +230,12 @@ measure A has more relevant information than measure B, you could also
 enter a greater number of PCA dimension for A than for B. Below, for
 illustration we elect to cluster on all six allowed activity measures.
 
+#### Component measures
 
-<u>TIP:</u> All the measures described below, once computed, can be used
+All the measures described below, once computed, can be used
 for clustering and/or for cluster visualization (see the following
-section of the tutorial, ['Visualize Component Cluster
-Information'](/#Viewing_component_clusters "wikilink")). If you do not
+section of the tutorial, ['Visualize Component Cluster Information'](/tutorials/multi-subject/component-clustering-tools.html#viewing-component-clusters)). 
+If you do not
 wish to use some of the measures in clustering but still want to be able
 to visualize it, select it and enter 0 for the PCA dimension. This
 measure will then be available for cluster visualization although it
@@ -243,12 +244,14 @@ easy way of performing exploratory clustering on different measure
 subsets.
 
 
--   Spectra: The first checkbox in the middle right of the
+-   **Spectra:** The first checkbox in the middle right of the
     pre-clustering window (above) allows you to include the log mean
     power spectrum for each condition in the pre-clustering measures.
     Clicking on the checkbox allow you to enter power spectral
     parameters. In this case, a frequency range \[lo hi\] (in Hz) is
-    required. Note that for clustering purposes (but not for display),
+    required. 
+    
+    Note that for clustering purposes (but not for display),
     for each subject individually, the mean spectral value (averaged
     across all selected frequencies) is subtracted from all selected
     components, and the mean spectral value at each frequency (averaged
@@ -258,42 +261,56 @@ subsets.
     components from only one subject, or from one type of subject (e.g.,
     women, who often have thinner skulls and therefore larger EEG than
     men).
--   ERPs: The second checkbox computes mean ERPs for each condition.
+    
+-   **ERPs:** The second checkbox computes mean ERPs for each condition.
     Here, an ERP latency window \[lo hi\] (in ms) is required.
--   Dipole locations: The third checkbox allows you to include component
+    
+-   **Dipole locations:** The third checkbox allows you to include component
     equivalent dipole locations in the pre-clustering process. Dipole
     locations (shown as \[x y z\]) automatically have three dimensions
-    (Note: It is not yet possible to cluster on dipole orientations). As
-    mentioned above, the equivalent dipole model for each component and
+    
+    *Note:* It is not yet possible to cluster on dipole orientations. 
+    
+    As mentioned above, the equivalent dipole model for each component and
     dataset must already have been pre-computed. If one component is
     modeled using two symmetrical dipoles, { {File\|pop_preclust.m} }
     will use the average location of the two dipoles for clustering
     purposes (Note: this choice is not optimum).
--   Scalp maps: The fourth checkbox allows you to include scalp map
+    
+-   **Scalp maps:** The fourth checkbox allows you to include scalp map
     information in the component 'cluster location'. You may choose to
     use raw component map values, their laplacians, or their spatial
-    gradients. (Note: We have obtained fair results for main components
+    gradients. 
+    
+    *Note*: We have obtained fair results for main components
     using laplacian scalp maps, though there are still better reasons to
-    use equivalent dipole locations instead of scalp maps. You may also
+    use equivalent dipole locations instead of scalp maps. 
+    
+    You may also
     select whether or not to use only the absolute map values, their
     advantage being that they do not depend on (arbitrary) component map
     polarity. As explained in the { {File\|ICA_decomposition.m} }, ICA
     component scalp maps themselves have no absolute scalp map polarity.
--   ERSPs and/or ITCs: The last two checkboxes allow including
+    
+-   **ERSPs and/or ITCs:** The last two checkboxes allow including
     event-related spectral perturbation information in the form of
     event-related spectral power changes (ERSPs), and event-related
-    phase consistencies (ITCs) for each condition. To compute the ERSP
+    phase consistencies (ITCs) for each condition. 
+    To compute the ERSP
     and/or ITC measures, several time/frequency parameters are required.
     To choose these values, you may enter the relevant {
     {File\|timefreq.m} } keywords and arguments in the text box. You may
     for instance enter '' 'alpha', 0.01'' for significance masking. See
     the { {File\|timefreq.m} } help message for information about
     time/frequency parameters to select.
--   Final number of dimensions: An additional checkbox at the bottom
+    
+-   **Final number of dimensions:** An additional checkbox at the bottom
     allows further reduction of the number of dimensions in the
     component distance measure used for clustering. Clustering
     algorithms may not work well with measures having more than 10 to 20
-    dimensions. For example, if you selected all the options above and
+    dimensions. 
+    
+    For example, if you selected all the options above and
     retained all their dimensions, the accumulated distance measures
     would have a total of 53 dimensions. This number may be reduced
     (e.g., to a default 10) using the PCA decomposition invoked by this
@@ -308,7 +325,7 @@ subsets.
     to 10).
 
 
-Finally, the { {File\|pop_preclust.m} } gui allows you to choose to save
+- Finally, the { {File\|pop_preclust.m} } gui allows you to choose to save
 the updated *STUDY* to disk.
 
 
@@ -321,12 +338,15 @@ clustering limits (time, frequency, etc.) for these measured are
 reduced.
 
 
-<u>Re-using component measures computed during pre-clustering:</u>
+### Re-using component measures computed during pre-clustering
+
 Computing the spectral, ERP, ERSP, and ITC measures for clustering may,
 in particular, be time consuming -- requiring up to a few days if there
 are many components, conditions, and datasets! The time required will
 naturally depend on the number and size of the datasets and on the speed
-of the processor. Future EEGLAB releases will implement parallel
+of the processor. 
+
+Future EEGLAB releases will implement parallel
 computing of these measures for cases in which multiple processors are
 available. Measures previously computed for a given dataset and stored
 by { {File\|std_preclust.m} } will not be recomputed, even if you narrow
@@ -358,7 +378,7 @@ Matlab commands. The variable names they contain should be
 self-explanatory.
 
 
-Note: For ERSP-based clustering, if a parameter setting you have
+*Note:* For ERSP-based clustering, if a parameter setting you have
 selected is different than the value of the same parameter used to
 compute and store the same measure previously, a query window will pop
 up asking you to choose between recomputing the same values using the
@@ -366,62 +386,79 @@ new parameters or keeping the existing measure values. Again, narrowing
 the ERSP latency and frequency ranges considered in clustering will not
 lead to recomputing the ERSP across all datasets.
 
-### Finding clusters with PCA (original) method
+Finding clusters with PCA (original) method
+--------------------------------------------
 
-<font color=green>KEY STEP 4:</font> Computing and visualizing clusters.
+### Computing and visualizing clusters.
 
-> Calling the cluster function { {File\|pop_clust.m} }, then selecting
-> menu item <font color=brown>Study \> Cluster components</font> will
-> open the following window.
->
->
->
-> ![\![image not found](/assets/images/Pop_clust.gif)\]
->
->
->
-> Currently, two clustering algorithms are available: 'kmeans' and
-> 'neural network' clustering. As explained earlier, 'kmeans' requires
-> the Matlab Statistics Toolbox, while 'neural network' clustering uses
-> a function from the Matlab Neural Network Toolbox. Note that the
-> default number of clusters (10 in this case) is set so on average
-> there will be one computer per subject per cluster. For example, if
-> about 20 component per subjects are selected based on the residual
-> variance thereshold and the STUDY contains 10 subjects, the average
-> number of cluster will be set to 20 - so each cluster will contains on
-> average 10 components.
->
->
-> Both algorithms require entering a desired number of clusters (first
-> edit box). An option for the *kmeans()* algorithm can relegate
-> 'outlier' components to a separate cluster. Outlier components are
-> defined as components further than a specified number of standard
-> deviations (3, by default) from any of the cluster centroids. To turn
-> on this option, click the upper checkbox on the left. Identified
-> outlier components will be put into a designated *Outliers* cluster
-> (Cluster 2). Click on the lower left checkbox to save the clustered
-> studyset to disk. If you do not provide a new filename in the adjacent
-> text box, the existing studyset will be overwritten.
->
->
-> In the { {File\|pop_clust.m} } gui, enter *10* for the number of
-> clusters and check the *Separate outliers ...* checkbox to detect and
-> separate outliers. Then press *OK* to compute clusters (clustering is
-> usually quick). The cluster editing interface detailed in the next
-> section will automatically pop up. Alternatively, for the sample data,
-> load the provided studyset *N400clustedit.study* in which
-> pre-clustering information has already been stored.
+Calling the cluster function { {File\|pop_clust.m} }, then selecting
+menu item <span style="color: brown">Study → Cluster components</span> will
+open the following window.
 
-### Preparing to cluster (Pre-clustering) with Affinity Product Method
 
+![set clustering algo](/assets/images/Pop_clust.gif)
+
+
+
+Currently, two clustering algorithms are available: 'kmeans' and
+'neural network' clustering. 
+
+As explained earlier, 'kmeans' requires
+the Matlab Statistics Toolbox, while 'neural network' clustering uses
+a function from the Matlab Neural Network Toolbox. 
+
+Note that the
+default number of clusters (10 in this case) is set so on average
+there will be one computed per subject per cluster. For example, if
+about 20 components per subjects are selected based on the residual
+variance thereshold and the STUDY contains 10 subjects, the average
+number of cluster will be set to 20 - so each cluster will contains on
+average 10 components.
+
+
+Both algorithms require entering a desired number of clusters (first
+edit box).
+ 
+ An option for the *kmeans()* algorithm can relegate
+'outlier' components to a separate cluster. Outlier components are
+defined as components further than a specified number of standard
+deviations (3, by default) from any of the cluster centroids. To turn
+on this option, click the upper checkbox on the left. Identified
+outlier components will be put into a designated *Outliers* cluster
+(Cluster 2). 
+
+Click on the lower left checkbox to save the clustered
+studyset to disk. If you do not provide a new filename in the adjacent
+text box, the existing studyset will be overwritten.
+
+
+In the { {File\|pop_clust.m} } gui:
+ - enter *10* for the number of
+clusters 
+- check the *Separate outliers ...* checkbox to detect and
+separate outliers. 
+- Then press *OK* to compute clusters (clustering is
+usually quick). 
+
+The cluster editing interface detailed in the next
+section will automatically pop up. 
+
+Alternatively, for the sample data,
+load the provided studyset *N400clustedit.study* in which
+pre-clustering information has already been stored.
+
+Preparing to cluster (Pre-clustering) with Affinity Product Method
+--------------------------------------------------------------------
 In Affinity Product clustering, IC measures, except equiv. dipoles,
 (ERP, ERSP...) are compared for each IC pair and their dissimilarity is
 multiplied together to form a combined pairwise dissimilarity matrix.
 This matrix is then normalized, weighted and added to the normalized and
-weighted IC equiv. dipole distance matrix. The final dissimilarity
+weighted IC equiv. dipole distance matrix. 
+The final dissimilarity
 matrix is then clustered using affinity clustering method (Fig. below).
+
 As you can see this method does not perform any dimensionality reduction
-on EEG measures (i.e PCA) a it only calculates pairwise
+on EEG measures (i.e PCA) as it only calculates pairwise
 (dis)similarities.These similarity matrices (correlations) has to be
 calculated in the pre-clustering step.
 
@@ -429,20 +466,19 @@ calculated in the pre-clustering step.
 ![900px\|center](/assets/images/Hybrid-measure-product-clustering-flowchart.png)
 
 
-<font color=green>KEY STEP 3</font>: Computing pairwise measures for AP
-clustering.
+### Computing pairwise measures for AP clustering.
 
-> Invoke the pre-clustering graphic interface by using menu item
-> <font color=brown>Study \> Affinity Product clustering -\> Build
-> pre-clustering array</font>.
->
->
-> [Image:Mpreclust
-> snapshot.png](/assets/images/Mpreclust_snapshot.png)
->
+Invoke the pre-clustering graphic interface by using menu item
+<span style="color: brown">Study → Affinity Product clustering → Build pre-clustering array</span>.
+
+
+![Image:Mpreclust snapshot.png](/assets/images/Mpreclust_snapshot.png)
+
 
 In the GUI you can select EEG measures for which pre-clustering matrices
-should be calculated. Use 'Re-Calculate All' option to remove all these
+should be calculated. 
+
+Use 'Re-Calculate All' option to remove all these
 matrices before calculating new ones. This might be useful if you have
 changed the subset of STUDY components to be clustered.
 
@@ -451,19 +487,14 @@ changed the subset of STUDY components to be clustered.
 After the pre-clustering step (above) is finished, you can cluster STUDY
 components based on any combination of measures included in
 pre-clustering. The final clustering is performed on the combined
-pairwise distance matrix using [Affinity
-Propagation](http://www.psi.toronto.edu/affinitypropagation/) algorithm.
+pairwise distance matrix using [Affinity Propagation](http://www.psi.toronto.edu/affinitypropagation/) algorithm.
 
-<font color=green>KEY STEP 4:</font> Computing clusters.
+#### Computing clusters.
 
-> Invoke the MP clustering graphic interface by using menu item
-> <font color=brown>Study \> Affinity Product clustering \> Cluster
-> Components</font> will open the following window.
->
->
->
-> ![Image:Popmpcluster.png](/assets/images/Popmpcluster.png)
->
+Invoke the MP clustering graphic interface by using menu item
+<span style="color: brown">Study → Affinity Product clustering → Cluster Components</span> will open the following window.
+
+![Image:Popmpcluster.png](/assets/images/Popmpcluster.png)
 
 Here you can specify the number of clusters and control the effect of
 equiv. dipole distances in the clustering by setting the 'Relative
@@ -482,18 +513,20 @@ default) from any of the cluster centroids. To turn on this option,
 click the lower checkbox on the left. Identified outlier components will
 be put into a designated Outliers cluster (Cluster 2).
 
-### Finding clusters with the Corrmap plugin
-
+Finding clusters with the Corrmap plugin
+------------------------------------------
 Corrmap is a plugin that is included in EEGLAB and that clusters
 components based on the correlation of their scalp topographies. The
 documentation for this plugin is available on Stefan Debener web page at
 [<http://www.debener.de/corrmap/corrmapplugin1.html>](http://www.debener.de/corrmap/corrmapplugin1.html).
 
-### Viewing component clusters
-
+Viewing component clusters
+----------------------------
 Calling the cluster editing function { {File\|pop_clustedit.m} } using
-menu item <font color=brown>Study \> Edit \> plot clusters</font> will
-open the following window. Note: The previous menu will also call
+menu item <span style="color: brown">Study → Edit → plot clusters</span> will
+open the following window. 
+
+Note: The previous menu will also call
 automatically this window after clustering has finished.
 
 
@@ -509,14 +542,22 @@ clustered on the basis of their dipole locations, power spectra, ERPs,
 and ERSP measures into 10 component clusters.
 
 
-<u>Visualizing clusters:</u> Selecting one of the clusters from the list
+### Visualizing clusters
+
+Selecting one of the clusters from the list
 shown in the upper left box displays a list of the cluster components in
-the text box on the upper right. Here, *SO2 IC33* means "independent
-component 33 for subject SO2," etc. The *All 10 cluster centroids*
+the text box on the upper right. 
+
+Here, *SO2 IC33* means "independent
+component 33 for subject SO2," etc. 
+
+The *All 10 cluster centroids*
 option in the (left) text box list will cause the function to display
 results for all but the *ParentCluster* and *Outlier* clusters.
 Selecting one of the plotting options below (left) will then show all 10
-cluster centroids in a single figure. For example, pressing the *Plot
+cluster centroids in a single figure. 
+
+For example, pressing the *Plot
 scalp maps* option will produce the figure below:
 
 
@@ -550,7 +591,7 @@ interest (for instance Cluster 8), and press the *Plot scalp maps*
 option in the *right* { {File\|pop_clustedit.m} } column.
 
 
-Note: Channels missing from any of the datasets do not affect clustering
+*Note:* Channels missing from any of the datasets do not affect clustering
 or visualization of cluster scalp maps. Component scalp maps are
 interpolated by the { {File\|toporeplot.m} } function, avoiding the need
 to restrict *STUDY* datasets to a common 'always clean' channel subset
@@ -583,7 +624,9 @@ individual component equivalent dipoles (blue) for this cluster.
 
 
 To quickly recognize the nature of component clusters by their activity
-features requires experience. Here Cluster 8 accounts for some right
+features requires experience. 
+
+Here Cluster 8 accounts for some right
 occipital alpha activity -- note the strong 10-Hz peak in the activity
 spectra. The cluster ERPs show a very slow (1-Hz) pattern peaking at the
 appearance of *first* words of the word pairs (near time -1 s). The
@@ -612,7 +655,9 @@ presented in the left center side bar (see the image below).
 
 As for the scalp maps, the { {File\|pop_clustedit.m} } gui will
 separately plot the cluster ERPs, spectra, ERSPs or ITCs. Let us review
-once more the different plotting options for the data spectrum. Pressing
+once more the different plotting options for the data spectrum. 
+
+Pressing
 the *Plot spectra* button in the left column will open a figure showing
 the two mean condition spectra below.
 
@@ -633,7 +678,9 @@ mean.
 
 Finally, to plot the condition spectra for individual cluster
 components, select one component from the *Select component(s) to plot*
-list on the right and press *Plot spectra* in the right column. For
+list on the right and press *Plot spectra* in the right column. 
+
+For
 example, selecting component 37 from subject S02 (*SO2 IC37*) will pop
 up the figure below. Here, the single component spectra are shown in
 light blue as well as the mean cluster spectrum (in black).
@@ -643,12 +690,11 @@ light blue as well as the mean cluster spectrum (in black).
 ![650px](/assets/images/Cls_plotclustspec3.gif)
 
 
-### Editing clusters
-
+Editing clusters
+-----------------
 The results of clustering (by either the 'k-means' or 'Neural network'
 methods) can also be updated manually in the preview cluster viewing and
-editing window (called from menu item <font color=brown>Study \>
-Edit/plot clusters</font>). These editing options allow flexibility for
+editing window (called from menu item <span style="color: brown">Study → Edit/plot clusters</span>). These editing options allow flexibility for
 adjusting the clustering. Components can be reassigned to different
 clusters, clusters can be merged, new clusters can be created, and
 'outlier' components can be rejected from a cluster. Note that if you
@@ -658,28 +704,38 @@ cancel these changes, pressing the *Cancel* button will cause the
 
 
 
-![\![image not found](/assets/images/Pop_clusedit.gif)\]
+![image not found](/assets/images/Pop_clusedit.gif)
 
 
 
-<u>Renaming a cluster:</u> The *Rename selected cluster* option allows
+### Renaming a cluster
+ 
+The *Rename selected cluster* option allows
 you to rename any cluster using a (mnemonic) name of your choice.
 Pressing this option button opens a pop-up window asking for the new
 name of the selected cluster. For instance, if you think a cluster
 contains components accounting for eye blinks you may rename it
 "Blinks".
 
-<u>Automatically rejecting outlier components:</u> Another editing
+### Automatically rejecting outlier components:
+
+Another editing
 option is to reject 'outlier' components from a cluster *after*
-clustering. An 'outlier' can be defined as a component whose cluster
+clustering. 
+
+An 'outlier' can be defined as a component whose cluster
 location is more than a given number of standard deviations from the
-location of the cluster centroid. Note that standard deviation and
+location of the cluster centroid. 
+
+Note that standard deviation and
 cluster mean values are defined from the N-dimensional clustering space
 data created during the pre-clustering process.
 
 For example, if the size of the pre-clustering cluster location matrix
 is 10 by 200 (for 200 components), then N = 10. The default threshold
-for outlier rejection is 3 standard deviations. To reject 'outlier'
+for outlier rejection is 3 standard deviations. 
+
+To reject 'outlier'
 components from a cluster, first select the cluster of interest from the
 list on the left and then press the *Auto-reject outlier components*
 option button. A window will open, asking you to set the outlier
@@ -689,7 +745,8 @@ components* option or the *Remove selected outlier component(s)* option
 'Outlier \[Name\]'.
 
 
-<u>Removing selected outlier components manually:</u> Another way to
+### Removing selected outlier components manually
+ Another way to
 remove 'outlier' components from a cluster is to do so manually. This
 option allows you to de-select seeming 'outlier' components irrespective
 of their distance from the cluster mean. To manually reject components,
@@ -699,7 +756,9 @@ right, then press the *Remove selected outlier comps.* button. A
 confirmation window will pop up.
 
 
-<u>Creating a new cluster:</u> To create a new empty cluster, press the
+### Creating a new cluster
+
+To create a new empty cluster, press the
 *Create new cluster* option, this opens a pop-up window asking for a
 name for the new cluster. If no name is given, the default name is 'Cls
 \#', where '\#' is the next available cluster number. For changes to
@@ -708,20 +767,24 @@ cluster will appear as one of the clusters in the list on the left of
 the editing/viewing cluster window.
 
 
-<u>Reassigning components to clusters:</u> To move components between
+### Reassigning components to clusters
+
+To move components between
 any two clusters, first select the origin cluster from the list on the
 left, then select the components of interest from the component list on
 the right, and press the *Reassign selected component(s)* option button.
 Select the target cluster from the list of available clusters.
 
 
-<u> Saving changes:</u> As with other pop_ functions, you can save the
+### Saving changes
+
+As with other pop_ functions, you can save the
 updated *STUDY* set to disk, either overwriting the current version - by
 leaving the default file name in the text box - or by entering a new
 file name.
 
-###  Hierarchic sub-clustering (PCA method only)
-
+Hierarchic sub-clustering (PCA method only)
+--------------------------------------------
 The clustering tools also allow you to perform hierarchic
 sub-clustering. For example, imagine clustering all the components from
 all the datasets in the current *STUDY* (i.e., the Parent Cluster) into
@@ -731,7 +794,7 @@ other contains non-artifactual EEG components (thus renamed
 'Non-artifact').
 
 
-NOTE: *This is only a quite schematic example for tutorial purposes: It
+*NOTE:* *This is only a quite schematic example for tutorial purposes: It
 may normally <u>not</u> be possible to separate all non-brain artifact
 components from cortical non-artifact components by clustering all
 components into only two clusters -- there are too many kinds of scalp
@@ -759,7 +822,7 @@ inspection, we decide to rename 'Alpha', 'Mu' and 'Other'.
 
 To refine a clustering in this way, simply follow the same sequence of
 event as described above. Call the pre-clustering tools using menu item
-<font color=brown>Study \> Build preclustering array</font>. You may now
+<span style="color: brown>Study \"> Build preclustering array</span>. You may now
 select a cluster to refine. In the example above, we notice that there
 seem to be components with different spectra in Cluster 8, so let us try
 to refine the clustering based on differences among the Cluster-8
@@ -770,11 +833,11 @@ component spectra.
 
 
 
-Select the <font color=brown>Study \> Cluster components</font> menu
+Select the <span style="color: brown>Study \"> Cluster components</span> menu
 item. Leave all the defaults (e.g., 2 clusters) and press *OK*.
 
 
-![\![image not found](/assets/images/Pop_clust2.gif)\]
+![image not found](/assets/images/Pop_clust2.gif)
 
 
 
@@ -782,7 +845,7 @@ The visualization window will then pop up with two new clusters under
 Cluster 8.
 
 
-![600px](/assets/images/Pop_clustedit2.gif)\]
+![600px](/assets/images/Pop_clustedit2.gif)
 
 
 
@@ -790,7 +853,7 @@ Below the component spectra for Cluster 13 are plotted. Note that
 Cluster-13 components have relatively uniform spectra.
 
 
-![875px](/assets/images/Cls_plotclustspec4.gif)\]
+![875px](/assets/images/Cls_plotclustspec4.gif)
 
 
 
@@ -799,13 +862,16 @@ components account for occipital activity and have similarly located
 equivalent dipole sources.
 
 
-![\![image not found](/assets/images/Cls_plotclustmap4.gif)\]
+![image not found](/assets/images/Cls_plotclustmap4.gif)
 
 
-### Clustering and study design
+Clustering and study design
+----------------------------
 
 When pre-clustering ICA components, the current STUDY.design is taken
-into account. For example, if you have two conditions per subject and
+into account. 
+
+For example, if you have two conditions per subject and
 both conditions share the same set of ICA components, then during
 preclustering, when computing the component distance measure used for
 clustering, data measures from both conditions are concatenated. For
@@ -814,11 +880,15 @@ instead of having say 50 spectral values (one per frequency) for each
 component, during preclustering 100 values (two sets of 50 frequencies,
 one for each condition) will be placed one after the other. EEGLAB will
 not allow you to cluster components using a STUDY design that does not
-include all STUDY data sets and all ICA components. Once your components
+include all STUDY data sets and all ICA components. 
+
+Once your components
 are clustered, it is possible to reduce the size of your STUDY design
 (see below). However, if the design you are using when preclustering
 your data does not include all datasets, it would not be possible to
-include them in another design later on. To precluster, therefore we
+include them in another design later on. 
+
+To precluster, therefore we
 advise using the simplest STUDY design possible. Often, this is the one
 that is most natural for the experiment. An exception would be a case
 when, for example, your experiment uses a 2x2 design, but you decide to
@@ -828,15 +898,17 @@ analysis, a 2x2 STUDY design (involving only 4 or the 5 conditions) can
 be created, along with, perhaps, another 2x1 design to compare the fifth
 condition (not included in the 2x2) versus one of the others.
 
-Note: If you are using anatomical component information only (scalp
+*Note*: If you are using anatomical component information only (scalp
 topographies and/or equivalent dipoles) and no other measures to cluster
 components, then the STUDY design does not impact the clustering
 solution.
 
 After clustering, since all ICA components are included in the
 clustering, ICA clusters are constant for all conditions and STUDY
-designs. Once ICA components are clustered, it is possible to compute
-differences between conditions using any STUDY design. Whenever you
+designs. 
+
+Once ICA components are clustered, it is possible to *compute
+differences between conditions* using any STUDY design. Whenever you
 select a different design, ICA components are assigned to the conditions
 in the design according to your design as per the clustering solution.
 For example, if you have only one ICA decomposition per subject and a
@@ -848,7 +920,9 @@ comparing activities in different electrode channels. Comparing the
 activities of a cluster of components between conditions could be seen
 as similar to comparing the activity of an individually assigned
 electrode channel for each subject (for instance, a channel to which
-some measure projects most strongly). Remember that ICA components and
+some measure projects most strongly). 
+
+Remember that ICA components and
 electrode channels are both <em>spatial filters.</em> Each electrode
 channel gives the arithmetic difference between the potential reaching
 some scalp electrode and the potential reaching a reference electrode
