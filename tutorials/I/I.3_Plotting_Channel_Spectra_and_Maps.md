@@ -17,7 +17,7 @@ suitable for further analysis.
 Note that the Matlab Signal Processing
 Toolbox needs to be in your Matlab path to use these functions.
 
-**Plot Channel Spectra and Maps**
+### Plot Channel Spectra and Maps
 
 To plot the channel spectra and associated topographical maps, select
 <span style="color: brown">Plot → Channel spectra and maps</span>. 

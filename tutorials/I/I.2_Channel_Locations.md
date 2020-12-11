@@ -15,7 +15,7 @@ To plot EEG scalp maps in either 2-D or 3-D format, or to estimate
 source locations of data components, an EEGLAB dataset must contain
 information about the scalp locations of the recording electrodes.
 
-**Load channel location information**
+### Load channel location information
 
 To load or edit channel location information contained in a dataset,
 select <span style="color: brown>Edit \"> Channel locations</span>.
@@ -102,7 +102,7 @@ and *\>\>*.
 
 
 
-**Viewing Channel Locations**
+### Viewing Channel Locations
 
 Reopen <span style="color: brown>Edit \"> Channel locations</span> if you
 closed it. 

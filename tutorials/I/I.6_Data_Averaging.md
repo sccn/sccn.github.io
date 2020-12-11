@@ -32,7 +32,7 @@ Plotting the ERP data on a single axis with scalp maps
 
 We use here the tutorial dataset as it was after the last [tutorial section](/tutorials/single-subject/extracting-data-epochs).
 
-**Plotting all-channel ERPs**
+### Plotting all-channel ERPs
 
 To plot the average ERP of all dataset epochs, plus ERP scalp maps at
 selected latencies, select <span style="color: brown>Plot → Channel ERPs\">With scalp maps.</span> As a simple illustration using the sample
@@ -61,7 +61,7 @@ ERP movie (i.e., to view the play of the ERP on the scalp), call
 function [eegmovie.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegmovie.m) from the command line.
 
 
-**Plotting ERPs in a Topographic Map**
+### Plotting ERPs in a Topographic Map
 
 Here we will plot the ERPs of an epoched dataset as single-channel
 traces in their 2-D topographic arrangement. 
@@ -96,7 +96,7 @@ not have [axcopy.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=axcopy.m) en
 standard Matlab mouse 'Zoom In/Out' feature.
 
 
-**Plotting ERPs in a Column Array**
+### Plotting ERPs in a Column Array
 
 
 To plot (one or more) average ERP data traces in two column array,
@@ -224,7 +224,7 @@ necessary to show the illustrated spatial distribution to best effect.
 
 ![400px]({{ site.baseurl }}/assets/images/642headplot_view.jpg)
 
-**Co-registration with actual channel locations**
+### Co-registration with actual channel locations
 
 We will now briefly describe the channels-to-head model
 co-registration process. If your dataset contains specific channel

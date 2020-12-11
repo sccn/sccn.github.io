@@ -35,14 +35,14 @@ Starting Matlab and EEGLAB
 
 Here we will start Matlab and EEGLAB. .
 
-**Start Matlab**
+### Start Matlab
 
    - Windows: Go to Start, find Matlab and run it.
    - MacOS: Start from the Matlab icon in the dock or in the
     application folder.
    - Linux: Open a terminal window and type "matlab" and hit enter.
 
-**Switch to the EEGLAB directory (folder)**
+#### Switch to the EEGLAB directory (folder)
 
 You may browse for the directory by clicking on the button marked *"…"* in the upper right of the screen.
 
@@ -57,7 +57,7 @@ You may browse for the directory by clicking on the button marked *"…"* in the
  get to the desired directory.
 
 
-**Start EEGLAB**
+### Start EEGLAB
 
 Type "eeglab" at the Matlab command line and hit enter. EEGLAB will
 automatically add itself to the Matlab path.
@@ -77,7 +77,7 @@ automatically add itself to the Matlab path.
 ![350px]({{ site.baseurl }}/assets/images/Eeglab20191.png)
 
 
-*Adding EEGLAB to the Matlab path*
+#### Adding EEGLAB to the Matlab path
 
 You may want to add the EEGLAB folder to the Matlab search path so the
 next time you start Matlab, you will be able able to open EEGLAB
@@ -109,7 +109,7 @@ the path it needs.
 Opening an existing dataset
 ---------------------------
 
-**Load the sample EEGLAB dataset**
+### Load the sample EEGLAB dataset
 
 Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>.
@@ -155,7 +155,7 @@ In the tutorial dataset, the EEG.event structure fields *type*,
 *position*, and *latency* are specified for each of the 154 events
 marked in the dataset.
 
-**Editing Event Values**
+### Editing Event Values
 
 Select menu <span style="color: brown">Edit → Event Values</span> to call up a
 window where we can read and edit these values:
@@ -265,7 +265,7 @@ bar. In this case, that value is 80 (microvolts). The same value is
 also shown in the lower right-hand edit box, where we can change it as
 explained below.
 
- **Voltage Scale**
+### Voltage Scale
 
 Change the "Scale" edit-text box value to about 50, either by
 repeatedly clicking on the *"-"* button or by editing the text value
@@ -276,7 +276,7 @@ window.
 ![Image:Scrollchannelactivities2.png]({{ site.baseurl }}/assets/images/Scrollchannelactivities2.png)
 
 
- **Adjusting the width of the scrolling time window**
+### Adjusting the width of the scrolling time window
 
 To adjust the time range displayed (i.e., the horizontal scale),
 select the [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
@@ -296,7 +296,7 @@ Then press *OK* to make the indicated change take effect.
 
 
 
- **Number of Channels to Display**
+### Number of Channels to Display
 
 To adjust the number of channels displayed, select
 [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
@@ -318,7 +318,7 @@ scroll the display (vertically) through all the channels.
 
 
 
-**Zoom**
+### Zoom on data
 
 To zoom in on a particular area of a data window, select
 [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
@@ -334,7 +334,7 @@ off the zoom option.
 
 
 
-**Grid Lines**
+### Grid Lines
 
 To display horizontal (x) and vertical (y) grid lines on the data,
 select <span style="color: brown>Display → Grid \"> X grid on</span> or
@@ -353,7 +353,7 @@ called from both menu items <font color=brown>Plot → Scroll
 data</font> and <font color=brown>Tools → Reject continuous
 data</font> using the *REJECT* button on the bottom right corner.
 
-**Rejecting Data**
+### Rejecting Data
 
 Close the current
 [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) window
@@ -402,7 +402,8 @@ Since we only performed this rejection for illustrative purposes,
 switch back to the original dataset by selecting main window menu item
 <span style="color: brown">Datasets → Dataset 1: Continous EEG data</span>.
 
-**Deleting a Dataset from Memory**
+Deleting a Dataset from Memory
+-------------------------------
 
 To delete the newly created second dataset, select
 <span style="color: brown">File → Clear dataset(s)</span> or

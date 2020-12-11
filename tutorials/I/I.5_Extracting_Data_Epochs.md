@@ -16,7 +16,7 @@ stimuli) by selecting <span style="color: brown>Tools \"> Extract Epochs</span>
 from the EEGLAB main user interface.
 
 
-**Extracting data epochs**
+### Extracting data epochs
 
 ![Image:I51pop_epoch.png]({{ site.baseurl }}/assets/images/I51pop_epoch.png)
 
@@ -57,7 +57,8 @@ often better to extract long data epochs, as here, to make
 time-frequency decomposition possible at lower (\<\< 10 Hz)
 frequencies.
 
-**Removing baseline values**
+### Removing baseline values
+
 
 Removing a mean baseline value from each epoch is useful when baseline
 differences between data epochs (e.g., those arising from low frequency
@@ -89,7 +90,7 @@ available types/channels for selection.
 Press *OK* to subtract the baseline (or *Cancel* to not remove the
 baseline).
 
-**Save new dataset**
+### Save new dataset
 
 This is a good time to save the epoched and baseline-removed dataset
 under a new name, as explained above, since we will be working

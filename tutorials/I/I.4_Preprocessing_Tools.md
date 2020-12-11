@@ -12,8 +12,8 @@ Preprocessing tools
 The upper portion of the <span style="color: brown">Tools</span> menu may be used
 to call three data preprocessing routines:
 
-## Changing the data sampling rate
-
+Changing the data sampling rate
+---------------------------------
 The most common use for <font color=brown>Tools → Change sampling
 rate</font> is to reduce the sampling rate to save memory and disk
 storage. A [pop_resample.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_resample.m) window pops up, asking for the new
@@ -24,12 +24,12 @@ slow Matlab function *griddata*).
 Do not change the sampling rate here, since
 the tutorial EEG dataset is already at an acceptable sampling rate.
 
-## Filtering the data
-
+Filtering the data
+-------------------
 To remove linear trends, it is often desirable to high-pass filter the
 data.
 
-**Removing linear trends**
+### Removing linear trends
 
 We recommend filtering continuous EEG data, before epoching or
 artifact removal, although epoched data can also be filtered with this
@@ -97,14 +97,14 @@ artifacts.
 *Note:* There is much more to be learned about filtering,
 and more filtering options available in Matlab itself.
 
-## Re-referencing the data
-
+Re-referencing the data
+-------------------------
 For detailed background theory on re-referencing EEG data please refer to the [Appendix](/tutorials/IV.Appendix/rereferencing_background.html)
 
 We describe below how to specify the reference electrode(s) in EEGLAB
 and to (optionally) re-reference the data
 
-**Re-reference the Data**
+### Re-reference the Data
 
 Select <span style="color: brown">Tools → Re-reference the data</span> to
 convert the dataset to average reference by calling the [pop_reref.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_reref.m) function. When you call this menu item for the
@@ -220,7 +220,7 @@ channels.
 The next tutorial section deals with extracting data epochs from
 continuous or epoched datasets.
 
-**Re-reference to multiple channels**
+### Re-referencing to multiple channels
 
 Say you collected data with reference M1 (mastoid) and want to process
 your data using linked mastoid (M1 and M2) as reference. The process is

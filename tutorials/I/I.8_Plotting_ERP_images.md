@@ -41,7 +41,7 @@ below.
 The plot above shows that alpha band power (e.g., at 10 Hz) is
 concentrated over the central occipital scalp.
 
-**Locating Electrodes**
+### Locating Electrodes
 
 We will use the dataset as it was after [extracting epochs](/tutorials/single-subject/extracting-data-epochs).
 
@@ -70,7 +70,7 @@ Now that we know the number of the channel whose activity we want to
 study, we can view its activity in single trials in the form of an
 ERP-image plot.
 
-**Viewing a Channel ERP**
+### Viewing a Channel ERP
 
 Select <span style="color: brown"> Plot → Channel ERP image</span> . This
 brings up the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window (below). 
@@ -109,7 +109,7 @@ Since activity in single trials contains many variations, it may be
 useful to smooth the activity (vertically) across neighboring trials
 using a rectangular (boxcar) moving average.
 
-**Plotting a Smoothed ERP**
+### Plotting a Smoothed ERP
 
 Again call up the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) interactive window and
 set the smoothing width to *10* instead of *1*. Now (see below) it is
@@ -125,7 +125,7 @@ command line to clear the history.
 
 ![475px]({{ site.baseurl }}/assets/images/1ERPimage27.gif)
 
-**ERP image with large number of trials**
+### ERP image with large number of trials
 
 When plotting a large number of trials, it is not necessary to plot
 each (smoothed) trial as a horizontal line. (The screen and/or printer
@@ -227,7 +227,7 @@ variable explicitly (see [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php
 
 ![425px]({{ site.baseurl }}/assets/images/1ERPimageposition.gif)
 
-**Using the *Align* paramater**
+### Using the *Align* paramater
 
 Now, reselect the *latency* of the *rt* events as the trial-sorting
 variable (press the *Epoch-sorting field* button to select *latency*
@@ -413,8 +413,8 @@ For a further discussion on how to interpret the results of phase sorting in ERP
 
 
 
-### Plotting spectral amplitude in single trials and additional options
-
+Plotting spectral amplitude in single trials and additional options
+--------------------------------------------------------------------
 There are several other [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) options that we will
 briefly illustrate in the following example: 
 

@@ -40,7 +40,7 @@ simply press *OK*.
 
 We detail each entry of this GUI in detail below.
 
-**ICA Algorithms**
+### ICA Algorithms
 
 EEGLAB allows users to try
 different ICA decomposition algorithms. Only *runica*, which calls [runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=runica.m)
@@ -74,7 +74,7 @@ Refer to [this Appendix section](/tutorials/IV.Appendix/ICA_background.html#how-
 
 
 
-**Channel types** 
+### Channel types 
 
 It is possible to select specific channel types
 (or even a list of channel numbers) to use for ICA decomposition. For

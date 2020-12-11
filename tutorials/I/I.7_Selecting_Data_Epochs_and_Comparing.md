@@ -21,7 +21,6 @@ half at position 2 (see [sample experiment
 description](/tutorials/single-subject/loading-data-in-EEGLAB.html#sample-experiment-description)
 ).
 
-**Selecting events and epochs for two conditions**
 
 Select <span style="color: brown">Edit → Select epochs or events</span>.
 The [pop_selectevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_selectevent.m) window (below) will appear. 
