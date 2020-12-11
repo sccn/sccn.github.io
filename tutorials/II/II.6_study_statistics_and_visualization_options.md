@@ -10,10 +10,7 @@ grand_parent: Tutorials
 Component Clustering Tools\|Chapter 07:EEGLAB Study Data
 Structures\|Chapter 07:EEGLAB Study Data Structures} }
 
-<font color=red>Note: Use [this page
-instead](/Chapter_06:_Study_Statistics_and_Visualization_Options_old "wikilink")
-for Study Statistics and Visualization Options in EEGLAB versions
-11.0.3.1 or earlier .</font>
+
 
 Computing statistics is essential to observation of group, session,
 and/or condition measure differences. EEGLAB allows users to use either
@@ -150,7 +147,7 @@ measures</font>. In the middle of the two list of channels, click on the
 
 
 
-![\![image not found](/assets/images/Pop_statparams1.png)\]
+![image not found](/assets/images/Pop_statparams1.png)
 
 
 
@@ -164,7 +161,7 @@ appears. The last panel shows the actual p-values.
 
 
 
-![\![image not found](/assets/images/Erp4.gif)\]
+![image not found](/assets/images/ERP4.gif)
 
 
 
@@ -174,7 +171,7 @@ entry in the *Statistical threshold* edit box to <i>0.01</i>.
 
 
 
-![\![image not found](/assets/images/Pop_statparams2.png)\]
+![image not found](/assets/images/Pop_statparams2.png)
 
 
 
@@ -186,7 +183,7 @@ variable on the panel* as shown below.
 
 
 
-![\![image not found](/assets/images/Pop_erpparamsnew1.png)\]
+![image not found](/assets/images/Pop_erpparamsnew1.png)
 
 
 
@@ -194,7 +191,7 @@ Press *OK*. Now click again *Plot ERPs*: the following figure pops up.
 
 
 
-![\![image not found](/assets/images/Erp5.gif)\]
+![image not found](/assets/images/Erp5.gif)
 
 
 
@@ -208,7 +205,7 @@ comparison using False Discovery rate.
 
 
 
-![\![image not found](/assets/images/Pop_statparams3.png)\]
+![image not found](/assets/images/Pop_statparams3.png)
 
 
 
@@ -220,7 +217,7 @@ indicate the regions of significance.
 
 
 
-![\![image not found](/assets/images/Erp6.gif)\]
+![image not found](/assets/images/ERP6.gif)
 
 
 
@@ -231,7 +228,7 @@ latencies. Using the ERP parameter graphic interface once again, enter
 
 
 
-![\![image not found](/assets/images/Pop_erpparamsnew2.png)\]
+![image not found](/assets/images/Pop_erpparamsnew2.png)
 
 
 
@@ -241,7 +238,7 @@ button. The following figure appears.
 
 
 
-![\![image not found](/assets/images/Erp7.gif)\]
+![image not found](/assets/images/ERP7.gif)
 
 
 
@@ -361,6 +358,6 @@ the figure below.
 
 
 
-![\![image not found](/assets/images/Erp_condstat.gif)\]
+![image not found](/assets/images/ERP_condstat.gif)
 
 
