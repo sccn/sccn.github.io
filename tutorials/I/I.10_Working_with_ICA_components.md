@@ -6,12 +6,13 @@ parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 nav_order: 11
 ---
+Working with ICA components
+================================
 
 Rejecting data epochs by inspection using ICA
----------------------------------------------
-
+---------------------------------------------------
 To reject data by visual inspection of its ICA component activations,
-select <span style="color: brown>Tools → Reject data using ICA \"> Reject by inspection</span> (calling [pop_eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegplot.m
+select <span style="color: brown">Tools → Reject data using ICA → Reject by inspection</span> (calling [pop_eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegplot.m
 ). 
 
 Note that marked
