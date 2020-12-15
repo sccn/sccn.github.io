@@ -14,8 +14,13 @@ framework used for processing multiple subjects as once. These topics
 are recommended for the user to successfully analyse large scale
 experiments which go beyond single subject. 
 
-Here we outline the most common steps you might take for group analysis of channel data and of ICA component.
-You can also watch this [YouTube video](https://www.youtube.com/watch?v=kofJh7biGsE) describing each of these steps.
+In addition to the tutorial sections below, you may want to watch this short video on multiple subjects processing
+ in EEGLAB (hosted on Youtube):
+
+<a href="https://www.youtube.com/watch?v=kofJh7biGsE"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/yt_multiple_subjects.png"></a>
+
+
+The most common steps you might take for group analysis of channel data and of ICA component are outlined here:
 
 ### Start by getting all your datasets within a STUDY data structure:
 
