@@ -6,18 +6,20 @@ parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---
 
-{ {Backward_Forward\|Chapter 05: Component Clustering Tools\|Chapter 05:
-Component Clustering Tools\|Chapter 07:EEGLAB Study Data
-Structures\|Chapter 07:EEGLAB Study Data Structures} }
 
-
+Study Statistics and Visualization Options
+============================================
 
 Computing statistics is essential to observation of group, session,
-and/or condition measure differences. EEGLAB allows users to use either
+and/or condition measure differences. 
+
+EEGLAB allows users to use either
 parametric or non-parametric statistics to compute and estimate the
 reliability of these differences across conditions and/or groups. The
 same methods for statistical comparison apply both to component clusters
-and to groups of data channels (see following). Here, we will briefly
+and to groups of data channels. 
+
+Here, we will briefly
 review, for each mean measure (ERP, power spectrum, ERPS, ITC), how to
 compute differences accross the two conditions in a STUDY. At the end,
 we will show examples of more complex analyses involving 3 groups of
@@ -26,13 +28,18 @@ characteristics of the function that performs the statistical
 computations, and discuss how to retrieve the p-values for further
 processing or publication.
 
-__TOC__
+For a complete introduction to robust statistics in EEG research watch this serie of short-videos:
+
+<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN3M_CGqAOEIIOKhjTPS9T2n"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/yt_stats.png"></a>
+
+
+
 
 ### Parametric and non-parametric statistics
 
 EEGLAB allows performing classical parametric tests (paired t-test,
-unpaired t-test, ANOVA) on ERPs, power spectra, ERSPs, and ITCs. *Below,
-we will use channel ERPs as an example, though in general we recommend
+unpaired t-test, ANOVA) on ERPs, power spectra, ERSPs, and ITCs. 
+*Below, we will use channel ERPs as an example, though in general we recommend
 that independent component ERPs and other measures be used instead. This
 is because no data features of interest are actually generated in the
 scalp, but rather in the brain itself, and under favorable circumstances
@@ -42,8 +49,9 @@ scalp electrodes.*
 
 For example, given 15 subjects' ERPs for two task or stimulus
 conditions, EEGLAB functions can perform a simple two-tailed paired
-t-test at each trial latency on the average ERPs from each subject. If
-there are different numbers of subjects in each condition, EEGLAB will
+t-test at each trial latency on the average ERPs from each subject. 
+
+If there are different numbers of subjects in each condition, EEGLAB will
 use an unpaired t-test. If there are more than two STUDY conditions,
 EEGLAB will use ANOVA instead of a t-test. For mean power spectra, the
 p-values are computed at every frequency; for ERSP and ITC
@@ -58,53 +66,48 @@ lie within the average difference between 'surrogate' grand mean
 condition ERPs, averages of ERPs from the two conditions whose condition
 assignments have been shuffled randomly. An example follows:
 
-> Given 15 subjects and two conditions, let us use
-> <font color=red>a1</font>, <font color=red>a2</font>,
-> <font color=red>a3</font>, ... <font color=red>a15</font> the scalp
-> channel ERP values (in microvolts) at 300 ms for all 15 subjects in
-> the first condition, and <font color="green">b1</font>,
-> <font color="green">b2</font>, <font color="green">b3</font>, ...
-> <font color="green">b15</font> the ERP values for the second
-> condition. The grand average ERP condition difference is
+Given 15 subjects and two conditions, let us use
+<span style="color: red"> a1, a2, a3 ... a15 </span>, the scalp
+channel ERP values (in microvolts) at 300 ms for all 15 subjects in
+the first condition, and <span style="color: green">b1, b2, b3, ... b15</span>,
+ the ERP values for the second condition. 
+
+ The grand average ERP condition difference is
+
+
 >
+<span style="color: blue">d</span> = mean(
+(<span style= "color: red">a1</span>-<span style="color: green">b1</span>) +
+(<span style= "color: red">a2</span>-<span style="color: green">b2</span>) + ... +
+(<span style= "color: red">a15</span>-<span style="color: green">b15</span>) ).
+
+Now, if we repeatedly shuffle these values between the two condition
+(under the null hypothesis that there are no significant differences
+between them), and then average the shuffled values,
 >
+<span style="color: blue">d1</span> = mean(
+(<span style="color: green">b1</span>-<span style = "color: red">a1</span>) +
+(<span style = "color: red">a2</span>-<span style="color: green">b2</span>) + ... +
+(<span style="color: green">b15</span>-<span style = "color: red">a15</span>) ).
 >
-> <font color=blue>d</font> = mean(
-> (<font color = red>a1</font>-<font color=green>b1</font>) +
-> (<font color = red>a2</font>-<font color="green">b2</font>) + ... +
-> (<font color = red>a15</font>-<font color=green>b15</font>) ).
+<span style="color: blue">d2</span> = mean(
+(<span style="color: red">a1</span>-<span style="color: green">b1</span>) +
+(<span style="color: green">b2</span>-<span style="color: red">a2</span>) + ... +
+(<span style="color: red">a15</span>-<span style="color: green">b15</span>) ).
 >
->
->
-> Now, if we repeatedly shuffle these values between the two condition
-> (under the null hypothesis that there are no significant differences
-> between them), and then average the shuffled values,
->
->
->
-> <font color=blue>d1</font> = mean(
-> (<font color="green">b1</font>-<font color = red>a1</font>) +
-> (<font color = red>a2</font>-<font color="green">b2</font>) + ... +
-> (<font color="green">b15</font>-<font color = red>a15</font>) ).
-> <font color=blue>d2</font> = mean(
-> (<font color = red>a1</font>-<font color="green">b1</font>) +
-> (<font color="green">b2</font>-<font color = red>a2</font>) + ... +
-> (<font color = red>a15</font>-<font color="green">b15</font>) ).
-> <font color=blue>d3</font> = mean(
-> (<font color="green">b1</font>-<font color = red>a1</font>) +
-> (<font color="green">b2</font>-<font color = red>a2</font>) + ... +
-> (<font color = red>a15</font>-<font color="green">b15</font>) ).
-> ...
->
->
->
-> we then obtain a distribution of surrogate condition-mean ERP values
-> <i>dx</i> constructed using the null hypothesis (see their smoothed
-> histogram below). If we observe that the initial value <i>d</i> lies
-> in the very tail of this surrogate value distribution, then the
-> supposed null hypothesis (no difference between conditions) may be
-> rejected as highly unlikely, and the observed condition difference may
-> be said to be statistically valid or significant.
+<span style="color: blue">d3</span> = mean(
+(<span style="color: green">b1</span>-<span style="color: red">a1</span>) +
+(<span style="color: green">b2</span>-<span style="color: red">a2</span>) + ... +
+(<span style="color: red">a15</span>-<span style="color: green">b15</span>) ).
+...
+
+We then obtain a distribution of surrogate condition-mean ERP values
+<i>dx</i> constructed using the null hypothesis (see their smoothed
+histogram below). If we observe that the initial value <i>d</i> lies
+in the very tail of this surrogate value distribution, then the
+supposed null hypothesis (no difference between conditions) may be
+rejected as highly unlikely, and the observed condition difference may
+be said to be statistically valid or significant.
 
 
 
@@ -130,10 +133,11 @@ testing.
 
 We suggest conculting a relevant statistics book for more details: An
 introduction to statistics written by one of us (AD) is available
-[here](http://sccn.ucsd.edu/~arno/mypapers/statistics.pdf). A good
+[here](http://sccn.ucsd.edu/~arno/mypapers/statistics.pdf). 
+
+A good
 textbook on non-parametric statistics is the text book by Rand Wilcox,
-"Introduction to robust estimation and hypothesis testing", Elsevier,
-2005.
+["Introduction to robust estimation and hypothesis testing"](https://www.sciencedirect.com/book/9780123869838/introduction-to-robust-estimation-and-hypothesis-testing).
 
 Below we illustrate the use of these options on scalp channel ERPs,
 though they apply to all measures and are valid for both scalp channels
@@ -141,27 +145,24 @@ and independent component (or other) source activity clusters.
 
 ### Options for computing statistics on and plotting results for scalp channel ERPs
 
-Call again menu item <font color=brown>Study \> Plot channel
-measures</font>. In the middle of the two list of channels, click on the
+Call again menu item <span style="color: brown">Study → Plot channel measures</span>. In the middle of the two list of channels, click on the
 *STAT* pushbutton. The following graphic interface pops up:
 
 
 
-![image not found](/assets/images/Pop_statparams1.png)
-
-
+![pop_stats param](/assets/images/Pop_statparams1.png)
 
 
 Click on the *Compute 1st independent variable statistics* checkbox.
-Note that, since there is no second independent variable selected in
-this study design, the *Compute 1st independent variable statistics* is
+Note that, since if there were no second independent variable selected in
+this study design, the *Compute 2nd independent variable statistics* would not
 not available. Press *OK* then select channel "Fz" in the left columns
 and press the *Plot ERPs* button in the same column. The following plot
 appears. The last panel shows the actual p-values.
 
 
 
-![image not found](/assets/images/ERP4.gif)
+![image not found](/assets/images/Erp4.gif)
 
 
 
