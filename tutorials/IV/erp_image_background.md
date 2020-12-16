@@ -1,9 +1,9 @@
 ---
 layout: default
 title: ERP images 
-permalink: /tutorials/IV.Appendix/erp_image_background.html
-parent: IV.Appendix
+parent: IV. Appendix
 grand_parent: Tutorials
+nav_order: 14
 ---
 
 Some background information on ERP images

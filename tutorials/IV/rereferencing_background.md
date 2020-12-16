@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Re-referencing
-permalink: /tutorials/IV.Appendix/rereferencing_background.html
-parent: IV.Appendix
+parent: IV. Appendix
 grand_parent: Tutorials
+nav_order: 16
 ---
 
 What is re-referencing and why re-reference

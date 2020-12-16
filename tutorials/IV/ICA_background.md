@@ -1,9 +1,9 @@
 ---
 layout: default
 title: ICA background 
-permalink: /tutorials/IV.Appendix/ICA_background.html
-parent: IV.Appendix
+parent: IV. Appendix
 grand_parent: Tutorials
+nav_order: 15
 ---
 
 Some background information on EEG Independent Component Analysis
