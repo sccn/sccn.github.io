@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ICA background 
+title: ICA background
 permalink: /tutorials/IV.Appendix/ICA_background.html
 parent: IV.Appendix
 grand_parent: Tutorials
