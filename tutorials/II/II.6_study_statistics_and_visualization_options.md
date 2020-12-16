@@ -34,8 +34,8 @@ For a complete introduction to robust statistics in EEG research watch this seri
 
 
 
-### Parametric and non-parametric statistics
-
+Parametric and non-parametric statistics
+-----------------------------------------
 EEGLAB allows performing classical parametric tests (paired t-test,
 unpaired t-test, ANOVA) on ERPs, power spectra, ERSPs, and ITCs. 
 *Below, we will use channel ERPs as an example, though in general we recommend
@@ -142,8 +142,8 @@ Below we illustrate the use of these options on scalp channel ERPs,
 though they apply to all measures and are valid for both scalp channels
 and independent component (or other) source activity clusters.
 
-### Options for computing statistics on and plotting results for scalp channel ERPs
-
+Options for computing statistics on and plotting results for scalp channel ERPs
+--------------------------------------------------------------------------------
 Call again menu item <span style="color: brown">Study → Plot channel measures</span>. In the middle of the two list of channels, click on the
 *STAT* pushbutton. The following graphic interface pops up:
 
@@ -155,7 +155,9 @@ Call again menu item <span style="color: brown">Study → Plot channel measures<
 Click on the *Compute 1st independent variable statistics* checkbox.
 Note that, since if there were no second independent variable selected in
 this study design, the *Compute 2nd independent variable statistics* would not
-not available. Press *OK* then select channel "Fz" in the left columns
+not available. 
+
+Press *OK* then select channel "Fz" in the left columns
 and press the *Plot ERPs* button in the same column. The following plot
 appears. The last panel shows the actual p-values.
 
@@ -217,7 +219,7 @@ indicate the regions of significance.
 
 
 
-![image not found](/assets/images/ERP6.gif)
+![image not found](/assets/images/Erp6.gif)
 
 
 
@@ -238,34 +240,46 @@ button. The following figure appears.
 
 
 
-![image not found](/assets/images/ERP7.gif)
+![image not found](/assets/images/Erp7.gif)
 
 
 
 
 There are more options in Plotting Options gui we have not discussed --
-they should be self-explantory. The *Time range to plot* edit box allows
-plotting a shorter time range than the full epoch. The *Plot limits*
+they should be self-explantory:
+ - the *Time range to plot* edit box allows
+plotting a shorter time range than the full epoch. 
+
+- the *Plot limits*
 edit box allows setting fixed lower and upper limits to the plotted
-potentials. Finally the *Display filter* edit box allows entering a
+potentials. 
+
+- the *Display filter* edit box allows entering a
 frequency (for instance 20 Hz) below which to filter the ERP. This is
 only applied for the ERP display and does not affect computation of the
 statistics. This option is useful when plotting noisy ERPs for single
 subjects.
+
+
 Note that a command line function, { {File\|std_envtopo.m} }, can also
 visualize cluster contributions to the grand mean ERP in one or two
-conditions, and to their difference. For more details refer [this wiki
-description](/Chapter_08:_Command_line_STUDY_functions#Modeling_condition_ERP_differences_using_std_envtopo() "wikilink").
+conditions, and to their difference. 
 
-### Options for computing statistics on and plotting results for spectrum, ITC and ERSP
+For more details refer [this wiki description](/Chapter_08:_Command_line_STUDY_functions#Modeling_condition_ERP_differences_using_std_envtopo() "wikilink").
+
+Options for computing statistics on and plotting results for spectrum, ITC and ERSP
+------------------------------------------------------------------------------------
 
 The graphic interfaces for both power spectral and ERSP/ITC measures are
 similar to that used for ERPs and need not be described in detail. You
-may refer to the relevant function help messages for more detail. The
+may refer to the relevant function help messages for more detail. 
+
+The
 same graphic interface is used by all measures to select options for
 computing statistics.
 
-### Correcting for multiple comparisons and Fieldtrip statistics
+Correcting for multiple comparisons and Fieldtrip statistics
+-------------------------------------------------------------
 
 When performing a large number of statistical inferences, it is
 necessary to correct for multiple comparisons. For example, with a
@@ -342,13 +356,17 @@ than independent component clustering.
 
 ### Computing statistics for studies with multiple groups and conditions
 
-This functionality is still under development. Although we believe it is
+This functionality is still under development. 
+
+Although we believe it is
 working properly, we are planning to update its graphic interface to
 make it more understandable. The current interface shows the ANOVA
 interaction term for groups and conditions along with marginal
 statistics. In a near-future release we are planning to have users
 select showing either the marginal statistics or the statistical main
-effects and interactions. Here we show a plot obtained from a clinical
+effects and interactions. 
+
+Here we show a plot obtained from a clinical
 study on three patient groups of 16 subjects each in two experimental
 conditions (KAN, representing responses to the appearance of Kaniza
 triangles, and NONKAN, representing responses to the appearance of
@@ -358,6 +376,6 @@ the figure below.
 
 
 
-![image not found](/assets/images/ERP_condstat.gif)
+![image not found](/assets/images/Erp_condstat.gif)
 
 
