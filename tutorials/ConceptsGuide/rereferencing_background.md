@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Re-referencing
-parent: IV. Appendix
+parent:  zz. Concepts guide
 grand_parent: Tutorials
-nav_order: 16
+categories: concepts
+
 ---
 
 What is re-referencing and why re-reference

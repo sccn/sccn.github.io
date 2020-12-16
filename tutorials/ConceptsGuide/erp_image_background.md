@@ -1,9 +1,10 @@
 ---
 layout: default
 title: ERP images 
-parent: IV. Appendix
+parent:  zz. Concepts guide
 grand_parent: Tutorials
-nav_order: 14
+categories: concepts
+
 ---
 
 Some background information on ERP images
