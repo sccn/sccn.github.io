@@ -1,7 +1,6 @@
 ---
 layout: default
 title: II.3 Working with STUDY designs
-permalink: /tutorials/multi-subject/working-with-STUDY-designs.html
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---

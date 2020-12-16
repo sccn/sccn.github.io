@@ -1,7 +1,6 @@
 ---
 layout: default
 title: II.2 STUDY Creation
-permalink: /tutorials/multi-subject/study-creation.html
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---

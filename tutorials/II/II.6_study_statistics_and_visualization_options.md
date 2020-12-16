@@ -1,7 +1,6 @@
 ---
 layout: default
 title: II.6 Study Statistics and Visualization Options
-permalink: /tutorials/multi-subject/study-statistics-and-visualization-options.html
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: II.8 Command line STUDY functions
-permalink: /tutorials/multi-subject/command-line-STUDY-functions.html
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---

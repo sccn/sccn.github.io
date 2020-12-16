@@ -1,7 +1,6 @@
 ---
 layout: default
 title: II.4 STUDY Channel Data Visualization Tools
-permalink: /tutorials/multi-subject/STUDY-data-visualization-tools.html
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: II.5 STUDY Component Clustering Tools
-permalink: /tutorials/multi-subject/component-clustering-tools.html
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---
