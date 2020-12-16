@@ -3,14 +3,12 @@ layout: default
 title: II.7 EEGLAB STUDY Data Structures
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
+has_toc: true
 ---
 
-{ {Backward_Forward\|Chapter 06: Study Statistics and Visualization
-Options\|Chapter 06: Study Statistics\|Chapter 08: Command line STUDY
-functions\|Chapter 08: Command line STUDY functions} }
 
-### The STUDY structure
-
+The STUDY structure
+=====================
 This section gives details of EEGLAB structures necessary for writing
 custom Matlab scripts, functions, and plug-ins that operate on EEGLAB
 STUDY structures and studysets.
@@ -70,16 +68,15 @@ when the *STUDY* is created and updated after clustering is performed
 The *STUDY.history* field is equivalent to the *history* field of the
 *EEG* structure. It stores all the command line calls to the functions
 from the gui. For basic script writing using command history
-information, see the [EEGLAB script writing
-tutorial](/Chapter_02:_Writing_EEGLAB_Scripts "wikilink").
+information, see the [EEGLAB script writing tutorial](/tutorials//III/III.2_Writing_EEGLAB_Scripts).
 
 The *STUDY.etc* field contains internal information that helps manage
 the use of the *STUDY* structure by the clustering functions. In
 particular, pre-clustering data are stored there before clustering is
 performed.
 
-### The STUDY.datasetinfo sub-structure
-
+The STUDY.datasetinfo sub-structure
+------------------------------------
 The *STUDY.datasetinfo* field is used for holding information on the
 datasets that are part of the study. Below is an example *datasetinfo*
 structure, one that holds information about the first dataset in the
@@ -156,13 +153,15 @@ field "type" contains the type of stimulus. The fields "duration"
 indicates the duration of presentation of the stimulus in samples. Other
 fields ("chan", "description", "points") contain information specific to
 a given dataset. In general, a different dataset will contain different
-fields. See
+fields. 
+
+See
 [Definition_of_STUDY_design_independent_variables](/Chapter_07:_EEGLAB_Study_Data_Structures#Definition_of_STUDY_design_independent_variables "wikilink")
 for additional information on how this structure is created and how to
 create custom field.
 
-### The STUDY.cluster sub-structure
-
+The STUDY.cluster sub-structure
+---------------------------------
 The *STUDY.cluster* sub-structure stores information about the
 clustering methods applied to the *STUDY* and the results of clustering.
 Components identified for clustering in each *STUDY* dataset are each
@@ -208,14 +207,18 @@ Typing *STUDY.cluster* at the Matlab command line returns
 
 All this information (including the clustering results) may be accessed
 from the Matlab command line, or by using the interactive function {
-{File\|pop_clustedit.m} }. Use of this function is explained at [Editing
+{File\|pop_clustedit.m} }.
+ 
+ Use of this function is explained at [Editing
 clusters](/Chapter_05:_Component_Clustering_Tools#Editing_clusters "wikilink").
+
 EEGLAB version 14 use to contain more information pertaining to each
 cluster (such as the ERP, Spectrum and time-frequency data for a given
 cluster) and this information would be made available in this structure
 when a given cluster was plotted. These arrays were accessible to users
 but were mostly cached values used for plotting purposes (so EEGLAB
 would not have to reload them every time they were being plotted).
+
 EEGLAB 2019 and later version have adopted a simpler cache approach
 where all the plotted data is stored in the STUDY.cache structure. To
 access this information, it is now recommended to use the return values
@@ -262,10 +265,12 @@ clustering the pre-clustering data.
 The *cluster.parent* and *cluster.child* sub-fields are used in
 hierarchical clustering (see [Hierarchic
 Clustering](/Chapter_05:_Component_Clustering_Tools#Hierarchic_sub-clustering_.28PCA_method_only.29 "wikilink")).
+
 The *cluster.child* sub-field contains indices of any clusters that were
 created by clustering on components from this cluster (possibly,
 together with additional cluster components). The *cluster.parent* field
 contains the index of the parent cluster.
+
 The *cluster.topo* field contains the average topography of a component
 cluster. Its size is 67x67 and the coordinate of the pixels are given by
 *cluster.topox* and *cluster.topoy* (both of them of size \[1x67\]).
@@ -366,8 +371,8 @@ The *preclust.preclustcomps* field is a cell array of size (nsubjects x
 nsessions) in which each cell holds the components clustered (i.e., all
 the components of the parent cluster).
 
-### The STUDY.changrp sub-structure
-
+The STUDY.changrp sub-structure
+--------------------------------
 The *STUDY.changrp* sub-structure is the equivalent of the the
 *STUDY.cluster* structure for data channels. There is usually as many
 element in *STUDY.changrp* as there are data channels. Each element of
@@ -393,8 +398,8 @@ instance for computing measures like ERP across a group of channels, or
 for instance for computing the RMS across all data channels; note that
 these features are not yet completely supported in the GUI).
 
-### The STUDY.design sub-structure
-
+The STUDY.design sub-structure
+-------------------------------
 For the purpose of performing inference testing, any (m x n) design is
 possible (including choosing independent variables from among
 conditions, groups, sessions, particular stimulus-related trials, or
@@ -452,7 +457,6 @@ Exploding the contents of each of these sub-structures, we obtain
     for the variable 'condition' and it points to datasets containing
     either the 'memorize' or the 'probe' stimuli.
 
-<!-- -->
 
 -   The "cases" field contains the descriptions of the single 'cases' (a
     term adopted in statistics from clinical studies). Using the current
@@ -462,7 +466,6 @@ Exploding the contents of each of these sub-structures, we obtain
     to 'trials'). In future versions, it will be possible to use an
     arbitrary variable for case.
 
-<!-- -->
 
 -   The "filepath" field is the path where the data files are being
     stored.
@@ -475,8 +478,8 @@ Exploding the contents of each of these sub-structures, we obtain
     statistics, all trials) that do not have this independent variable
     value.
 
-### Definition of STUDY design independent variables
-
+Definition of STUDY design independent variables
+--------------------------------------------------
 Most independent variables are defined in the main STUDY interface when
 creating a STUDY. "condition", "group" and "session" are independent
 variables defined in the first STUDY editing GUI. In addition to these
@@ -579,8 +582,8 @@ To select specific values for 'presentation'
   STUDY = std_makedesign(STUDY, ALLEEG, 1, 'variable1', 'presentation', 'values1', { 'spontaneous1' 'spontaneous2' } );
 ```
 
-### Understanding the .sets, .comps substructures for STUDY clusters
-
+Understanding the .sets, .comps substructures for STUDY clusters
+-----------------------------------------------------------------
 In this part, *clust* will indicate the current cluster of interest.
 STUDY.cluster(clust).sets and STUDY.cluster(clust).comps fields contain
 the list of component included in a given cluster.

@@ -5,9 +5,6 @@ parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---
 
-{ {Backward_Forward\|Chapter 07:EEGLAB Study Data Structures\|Chapter
-07:EEGLAB Study Data Structures\|III.Advanced Topics\|III. Advanced
-Topics} }
 
 Building a *STUDY* from The graphic interface (as described in previous
 sections) calls eponymous Matlab functions that may also be called
@@ -18,22 +15,24 @@ perform signal processing and/or plotting directly on cluster
 activities.
 
 <b>Important note:</b> If you want to modify the STUDY structures, you
-need to be careful as the STUDY checking function ({
-{File\|std_checkset.m} }) performs all kinds of checks to keep the STUDY
+need to be careful as the STUDY checking function ({ {File\|std_checkset.m} }) performs all kinds of checks to keep the STUDY
 structures compatible with the datasets it represents. So this function
 might undo your changes (a warning will be issued on the command line).
 It is often possible to modify the datasets themselves to achieve the
 same goal and changes will be automatically reported in the STUDY
 structures.
 
-### Creating a STUDY
+Creating a STUDY
+-----------------
 
 If a *STUDY* contains many datasets, you might prefer to write a small
 script to build the *STUDY* instead of using the { {File\|pop_study.m} }
 gui. This is also helpful when you need to build many studysets or to
-repeatedly add files to an existing studyset. Below is a Matlab script
-calling the GUI-equivalent command line function { {File\|std_editset.m}
-} from the "5subjects" folder (tutorial data with measures precomputed
+repeatedly add files to an existing studyset.
+
+Below is a Matlab script
+calling the GUI-equivalent command line function { {File\|std_editset.m}} 
+from the "5subjects" folder (tutorial data with measures precomputed
 with EEGLAB 14 can be downloaded from this
 [location](ftp://sccn.ucsd.edu/pub/5subjects_eeglab2019.zip), while the
 data with measures precomputed with EEGLAB2019 can be found
@@ -57,16 +56,23 @@ data with measures precomputed with EEGLAB2019 can be found
     { 'dipselect' 0.15 } });
 ```
 
-Above, each line of the command loads a dataset. The last line
+Above, each line of the command loads a dataset. 
+
+The last line
 preselects components whose equivalent dipole models have less than 15%
 residual variance from the component scalp map. See *\>\> help
-std_editset* for more information. Notice that the path to the datasets
+std_editset* for more information. 
+
+Notice that the path to the datasets
 in the code above is a relative path, then in order to run the same code
 snippet, your current directory in MATLAB should be the folder
 containing the datasets.
+
 Once you have created a new studyset (or loaded it from disk), both the
 *STUDY* structure and its corresponding *ALLEEG* array of resident *EEG*
-structures will be variables in the Matlab workspace. Typing *\>\>
+structures will be variables in the Matlab workspace. 
+
+Typing *\>\>
 STUDY* on the Matlab command line will list field values:
 
 ``` matlab
@@ -95,8 +101,8 @@ STUDY* on the Matlab command line will list field values:
           saved: 'yes'
 ```
 
-### Computing and plotting channel measures
-
+Computing and plotting channel measures
+----------------------------------------
 You may use the function { {File\|pop_precomp.m} } (which calls function
 { {File\|std_precomp.m} } to precompute channel measures). For instance,
 the following code calls the graphic user interface for computing
@@ -134,23 +140,25 @@ std_plotcurve(erptimes, erpdata, 'plotconditions', 'together', 'plotstderr', 'on
 
 As shown above, the { {File\|std_plotcurve.m} } function has additional
 parameters to plot the standard error which are not available from the
-EEGLAB graphic interface. The output of the function {
-{File\|std_erpplot.m} } can also be controlled by the addition of
+EEGLAB graphic interface. 
+The output of the function { {File\|std_erpplot.m} } can also be controlled by the addition of
 parameters native to { {File\|std_erpplot.m} } and {
-{File\|pop_erpparams.m} }. For example, notice the addition of the
+{File\|pop_erpparams.m} }. 
+
+For example, notice the addition of the
 option **timerange** above to constrain the latency range to be between
 -200 to 1000ms.
 
 
-![ <File:Erp_chann_oz.png> ](/assets/images/Erp_chann_oz.png)
+![File:Erp_chann_oz](/assets/images/Erp_chann_Oz.png)
 
 
 Try some other commands from the channel plotting graphic interface and
 look at what is returned in the history (via the { {File\|eegh.m} }
 function) to plot ERP in different formats.
 
-### Plotting measures and retrieving results
-
+Plotting measures and retrieving results
+-----------------------------------------
 All STUDY plotting functions are able to return plotted results. After
 plotting STUDY results, look into the EEGLAB history (<i>eegh</i> from
 the Matlab command line) to see which STUDY function was called, then
@@ -201,16 +209,17 @@ figure; X = pop_newtimef( TMPEEG, 1, 1, [TMPEEG.xmin TMPEEG.xmax]*1000, [0] , 't
 STUDY = std_erspplot(STUDY,ALLEEG,'channels',{TMPEEG.chanlocs(1).labels}, 'subject', 'S01', 'design', 1 );
 ```
 
-This is the result of the script below (after adjusting color scale). It
-is not surprising that the result is the same since the same functions
+This is the result of the script below (after adjusting color scale). 
+
+It is not surprising that the result is the same since the same functions
 are being used in both cases.
 
 
 ![border\|700px](/assets/images/Compare_newtimef.png)
 
 
-### Computing component measures
-
+Computing component measures
+-----------------------------
 The function pop_precomp.m can be also used to compute measures when
 working with components. Similarly to when working with channels, this
 function calls the function std_precomp.m to precompute component
@@ -259,8 +268,8 @@ file:
 Remember that you do not need to generate the measures now, the file
 downloaded already contains these files.
 
-### Component clustering and pre-clustering
-
+Component clustering and pre-clustering
+----------------------------------------
 To select components of a specified cluster for sub-clustering from the
 command line, the call to { {File\|pop_preclust.m} } should have the
 following format (do not attemp to run this code):
@@ -278,7 +287,9 @@ will see the meaning of the rest of the options.
 
 For the STUDY created above, we will first compute (or in this case
 load, since the measures have been precomputed in the file downloaded)
-all available activity measures. Note that changing the pre-existing
+all available activity measures. 
+
+Note that changing the pre-existing
 measure parameters might require EEGLAB to recompute or adapt some of
 these measures (spectral frequency range \[3 25\] Hz; ERSP /ITC
 frequency range \[3 25\] Hz, cycles \[3 0.5\], time window \[-1600
@@ -313,23 +324,27 @@ or to pop up the graphic interface:
 >> [STUDY] = pop_clust(STUDY, ALLEEG);
 ```
 
-### Visualizing component clusters
-
-The main function for visualizing component clusters is {
-{File\|pop_clustedit.m} }. To pop up this interface, simply type:
+Visualizing component clusters
+-------------------------------
+The main function for visualizing component clusters is { {File\|pop_clustedit.m} }. 
+To pop up this interface, simply type:
 
 ``` matlab
 >> [STUDY] = pop_clustedit(STUDY, ALLEEG);
 ```
 
-This function calls a variety of plotting functions for plotting scalp
-maps ({ {File\|std_topoplot.m} }), power spectra ({
-{File\|std_specplot.m} }), equivalent dipoles ({ {File\|std_dipplot.m}
-}), ERPs ({ {File\|std_erpplot.m} }), ERSPs ({ {File\|std_erspplot.m}
-}), and/or ITCs ({ {File\|std_itcplot.m} }). All of these functions
-follow the same calling format (though { {File\|std_dipplot.m} } is
-slightly different; refer to its help message). Using function {
-{File\|std_topoplot.m} } as an example, the following code will plot the
+This function calls a variety of plotting functions for plotting:
+ - scalp maps ({ {File\|std_topoplot.m} }), 
+ - power spectra ({ {File\|std_specplot.m} }), 
+ - equivalent dipoles ({ {File\|std_dipplot.m} }), 
+ - ERPs ({ {File\|std_erpplot.m} }), 
+ - ERSPs ({ {File\|std_erspplot.m} }), 
+ - ITCs ({ {File\|std_itcplot.m} }). 
+ 
+ All of these functions follow the same calling format (though { {File\|std_dipplot.m} } is
+slightly different; refer to its help message). 
+
+Using function { {File\|std_topoplot.m} } as an example, the following code will plot the
 average scalp map for Cluster 3 :
 
 ``` matlab
@@ -352,16 +367,18 @@ The following code will plot component 3 of Cluster 6:
 To read any information about the cluster (scalp map, power spectrum,
 ERSP, ITC, etc...) for further processing under Matlab you should refer
 to the STUDY and cluster structure.
+
 The EEGLAB developers plan to develop more functions allowing users to
 directly access clustering data. Some plotting functions, like the one
 described below, are currently available only from the command line.
 
-### Plotting statistics and retrieving statistical results
-
+Plotting statistics and retrieving statistical results
+--------------------------------------------------------
 All plotting function able to compute statistics will return the
 statistical array in their output. You must first enable statistics
-either from the graphic interface or using a command line call. For
-instance to compute condition statistics for ERP (bot channel and
+either from the graphic interface or using a command line call. 
+
+For instance to compute condition statistics for ERP (bot channel and
 component clusters), type:
 
 ``` matlab
@@ -391,6 +408,7 @@ Now, typing
 ```
 
 The statistical array contains 820 p-values, one for each time point.
+
 Note that the type of statistics returned depends on the parameter you
 selected in the ERP parameter graphic interface (for instance, if you
 selected 'permutation' for statistics, the p-value based on surrogate
@@ -398,27 +416,34 @@ data will be returned).
 
 The 'pgroup' and 'pinter' arrays contain statistics across groups and
 the ANOVA interaction terms, respectively, if both groups and conditions
-are present. Note that for more control, you may also use directly call
+are present. 
+
+Note that for more control, you may also use directly call
 the { {File\|statcond.m} } function, giving the 'erpdata' cell array as
 input (the 'erpdata' cell array is the same as the one stored in the
 *STUDY.cluster.erpdata* or the *STUDY.changrp.erpdata* structures for
-the cluster or channel of interest). See the help message of the {
-{File\|statcond.m} } function for more help on this subject.
+the cluster or channel of interest). 
 
-Other functions like { {File\|std_specplot.m} }, {
-{File\|std_erspplot.m} } , and { {File\|std_itcplot.m} } behave in a
+See the help message of the { {File\|statcond.m} } function for more help on this subject.
+
+Other functions like { {File\|std_specplot.m} }, { {File\|std_erspplot.m} } , and { {File\|std_itcplot.m} } behave in a
 similar way. See the function help messages for more details.
 
-### Multiple components from the same subjects in ICA clusters
+Multiple components from the same subjects in ICA clusters
+------------------------------------------------------------
 
 When plotting ICA clusters, EEGLAB allows by default several components
-from the same subject to be included in a given cluster. This can
-sometimes cause problems when using statistics. When you include more
-than one component from the same subject, you are not making inference
+from the same subject to be included in a given cluster. 
+
+This can sometimes cause problems when using statistics. 
+
+When you include more than one component from the same subject, you are not making inference
 about the general population of subjects any more but instead about
 components of the specific subjects you are studying. It is all a matter
 of how many components you have per subject compared to the number of
-subject. For example, if you have on average 1 component per subject
+subject. 
+
+For example, if you have on average 1 component per subject
 (some subjects having 0, some other 2 component in the cluster), and you
 have 200 subjects, then the original null hypothesis (which allows to
 make inference about the general population of subject) is mostly
@@ -426,14 +451,20 @@ preserved. If you have 10 subjects and 10 components per subject, it is
 not.
 
 In general, when multiple components from the same subjects in ICA
-clusters becomes a problem, we prefer either (1) to use at most 1
+clusters becomes a problem, we prefer either 
+
+- (1) to use at most 1
 component per subject per cluster because this avoids having to
 compromise with the statistics (this is possible when using the CORRMAP
 plugin for clustering data; there also exist a version of kmean that
-forces to use one component per cluster) or (2) remove components
-manually in clusters.
+forces to use one component per cluster) 
 
-### Computing and plotting custom measures
+or 
+
+- (2) remove components manually in clusters.
+
+Computing and plotting custom measures
+-----------------------------------------
 
 <span style="color:#ff0000"> Important note: Functionality deprecated in
 EEGLAB 2019 </span>
@@ -445,12 +476,16 @@ scarcely used. Let us know if this is something you need.
 It is possible to compute custom measures on STUDY in the std_precomp
 function. It is now possible to execute a specific function on each
 EEGLAB dataset of the selected STUDY design. The fist argument to the
-function is an EEGLAB dataset. For example using the anonymous function
+function is an EEGLAB dataset. 
+
+For example using the anonymous function
 @(EEG)mean(EEG.data,3) will compute the ERP for the STUDY design. EEG is
 the EEGLAB dataset corresponding to each cell design. They correspond to
 datasets computed dynamically based on the design selection - although
 they use data from datasets contain in the STUDY, they do not
-necessarily correspond to these datasets. Before calling the custom
+necessarily correspond to these datasets. 
+
+Before calling the custom
 function, the std_precomp function will apply dataset modifiers such as
 'rmclust', 'rmicacomps' or 'interp' to remove components or interpolate
 channels. You may use the option 'customparam' to pass additional

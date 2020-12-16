@@ -151,7 +151,6 @@ EEGLAB functions are grouped in three layers:
     typically call these functions by selecting menu items from the main
     EEGLAB window menu.
 
-<!-- -->
 
 1.  Pop_functions: Matlab functions with their own graphic interfaces.
     Called with no (or few) arguments (as from the EEGLAB user
@@ -161,7 +160,6 @@ EEGLAB functions are grouped in three layers:
     pop_functions can also be called from the Matlab command line or
     from Matlab scripts.
 
-<!-- -->
 
 1.  Signal processing functions: The experienced Matlab user can call
     the ICA toolbox functions directly from the Matlab command line or
@@ -171,7 +169,8 @@ EEGLAB functions are grouped in three layers:
 
 We will first see how pop_function work.
 
-### EEGLAB pop_ functions
+EEGLAB pop_ functions
+----------------------
 
 Functions with the prefix *pop_* or *eeg_* are functions that take the
 EEG structure as their first input argument. Functions with the prefix
