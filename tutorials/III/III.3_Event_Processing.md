@@ -1,7 +1,6 @@
 ---
 layout: default
 title: III.3 Event Processing
-permalink: /tutorials/advanced-topics/event-processing.html
 parent: III.Advanced topics
 grand_parent: Tutorials
 ---

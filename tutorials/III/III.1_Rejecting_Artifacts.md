@@ -1,7 +1,6 @@
 ---
 layout: default
 title: III.1 Rejecting Artifacts
-permalink: /tutorials/advanced-topics/rejecting-artifacts.html
 parent: III.Advanced topics
 grand_parent: Tutorials
 ---

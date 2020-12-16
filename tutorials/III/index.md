@@ -1,7 +1,6 @@
 ---
 layout: default
 title: III.Advanced topics
-permalink: /tutorials/advanced-topics.html
 parent: Tutorials
 has_children: true
 ---

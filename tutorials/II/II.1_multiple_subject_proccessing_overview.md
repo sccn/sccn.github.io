@@ -1,7 +1,6 @@
 ---
 layout: default
 title: II.1 Multiple Subject Proccessing Overview
-permalink: /tutorials/multi-subject/overview.html
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---

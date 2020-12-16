@@ -1,7 +1,6 @@
 ---
 layout: default
 title: II.7 EEGLAB STUDY Data Structures
-permalink: /tutorials/multi-subject/EEGLAB-STUDY-data-structure.html
 parent: II.Multiple subject processing tutorial
 grand_parent: Tutorials 
 ---

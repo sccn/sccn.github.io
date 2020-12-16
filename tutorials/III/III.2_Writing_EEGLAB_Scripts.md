@@ -1,7 +1,6 @@
 ---
 layout: default
 title: III.2 Writing EEGLAB Scripts
-permalink: /tutorials/advanced-topics/writing-EEGLAB-scripts.html
 parent: III.Advanced topics
 grand_parent: Tutorials
 ---

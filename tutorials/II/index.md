@@ -1,7 +1,6 @@
 ---
 layout: default
 title: II.Multiple subject processing tutorial
-permalink: /tutorials/multi-subject.html
 parent: Tutorials
 has_children: true
 has_toc: false
