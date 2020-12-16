@@ -1,7 +1,6 @@
 ---
 layout: default
 title: I.11 Working with ICA components
-permalink: /tutorials/single-subject/working-with-ICA-components
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 nav_order: 11

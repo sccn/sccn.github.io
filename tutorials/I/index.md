@@ -1,7 +1,6 @@
 ---
 layout: default
 title: I.Single subject data processing tutorial
-permalink: /tutorials/single-subject
 parent: Tutorials
 has_children: true
 has_toc: false

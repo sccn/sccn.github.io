@@ -1,7 +1,6 @@
 ---
 layout: default
 title: I.6 Plotting averaged data
-permalink: /tutorials/single-subject/data-averaging
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 nav_order: 6

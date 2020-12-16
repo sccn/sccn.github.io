@@ -1,7 +1,6 @@
 ---
 layout: default
 title: I.4 Preprocessing Tools
-permalink: /tutorials/single-subject/preprocessing-tools.html
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 nav_order: 4

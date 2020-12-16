@@ -1,7 +1,6 @@
 ---
 layout: default
 title: I.9 Decomposing Data Using ICA
-permalink: /tutorials/single-subject/decomposing-data-using-ICA
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 nav_order: 9

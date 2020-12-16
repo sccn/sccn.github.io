@@ -1,7 +1,6 @@
 ---
 layout: default
 title: I.3 Plotting Channel Spectra and Maps
-permalink: /tutorials/single-subject/plotting-channel-spectra-and-maps
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 nav_order: 3

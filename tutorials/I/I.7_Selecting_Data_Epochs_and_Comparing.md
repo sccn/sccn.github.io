@@ -1,7 +1,6 @@
 ---
 layout: default
 title: I.7 Selecting Data Epochs and Comparing
-permalink: /tutorials/single-subject/selecting-data-epochs-and-comparing
 parent: I.Single subject data processing tutorial
 grand_parent: Tutorials
 nav_order: 7
