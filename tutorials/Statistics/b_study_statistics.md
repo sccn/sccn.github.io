@@ -76,7 +76,7 @@ variable on the panel* as shown below.
 
 
 
-![image not found](/assets/images/Pop_erpparamsnew1.png)
+![image not found](/assets/images/Pop_erpparamsnew1_1.png)
 
 
 
@@ -117,11 +117,12 @@ indicate the regions of significance.
 Finally, for data channels (but not for component clusters) an
 additional option is available to plot ERP scalp maps at specific
 latencies. Using the ERP parameter graphic interface once again, enter
-"200" as the epoch latency (in ms) to plot.
+"200" as the time range (in ms) and under the drop down menu of *Multiple channels selection*  select
+*Plot averaged topography over time range*:
 
 
 
-![image not found](/assets/images/Pop_erpparamsnew2.png)
+![image not found](/assets/images/Pop_erpparams_new2_2.png)
 
 
 
