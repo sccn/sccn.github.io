@@ -30,7 +30,7 @@ To do so, use menu item <span style="color: brown">Dataset → Select multiple d
 As in the screen view above, select a few datasets. 
 
 Note that the behavior of EEGLAB will differ depending on your optional settings under
-<span style="color: brown">File→ Save memory</span>. 
+<span style="color: brown">File → Save memory</span>. 
 
 If you allow only one
 dataset to be present in memory at a time (see [Memory

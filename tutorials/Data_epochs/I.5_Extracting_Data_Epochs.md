@@ -7,14 +7,21 @@ grand_parent: Tutorials
 Data Epochs
 ========================
 
+### Load the sample EEGLAB dataset
+
+Select menu item <span style="color: brown">File</span> and press sub-menu item
+<span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data.set" which is distributed with
+the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
+
+![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
+
+### Extracting data epochs
+
 To study the event-related EEG dynamics of continuously recorded data,
 we must extract data epochs time locked to events of interest (for
 example, data epochs time locked to onsets of one class of experimental
-stimuli) by selecting <span style="color: brown>Tools \"> Extract Epochs</span>
+stimuli) by selecting <span style="color: brown"> Tools → Extract Epochs</span>
 from the EEGLAB main user interface.
-
-
-### Extracting data epochs
 
 ![Image:I51pop_epoch.png]({{ site.baseurl }}/assets/images/I51pop_epoch.png)
 
@@ -81,33 +88,12 @@ is to define transformations that occur in the data following the
 time-locking events.
 By default baseline removal will be performed on all channels data.
 However, you can also choose specific channels by type (can be
-specified while [editing channel
-info](https://sccn.ucsd.edu/wiki/I.2:_Channel_Locations)), or manually
+specified while editing channel
+information), or manually
 select them. Click on the '...' push buttons to see the list of
 available types/channels for selection.
 Press *OK* to subtract the baseline (or *Cancel* to not remove the
 baseline).
 
-### Save new dataset
-
-This is a good time to save the epoched and baseline-removed dataset
-under a new name, as explained above, since we will be working
-extensively with these data epochs. You should also preserve the
-continuous dataset on the disk separately to allow later arbitrary
-re-epoching for various analyses. To save the current dataset, select
-<span style="color: brown> File \"> Save current dataset</span> or
-<span style="color: brown> File \"> Save current dataset as</span> from the
-EEGLAB menu. (In this case, these two menu items are equivalent, since
-we have not yet saved this dataset).
-
-The file-browser window below appears. Entering a name for the dataset
-(which should end with the filename extension *.set*), and pressing
-*SAVE* (below) and then *OK* (above) will save the dataset including
-all its ancillary information re events, channel locations, processing
-history, etc., plus any unique structure fields you may have added
-yourself - see the [script writing tutorial]().
-
-
-![Image:Saveepoch.png]({{ site.baseurl }}/assets/images/Saveepoch.png)
-
-
+A new window will pop up to change the dataset name and/or save the dataset to a
+disk file. Accept the defaults and enter *OK*.

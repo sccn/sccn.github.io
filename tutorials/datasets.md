@@ -3,9 +3,13 @@ layout: default
 title: 3. Dataset management
 parent: Tutorials
 ---
+Managing datasets in EEGLAB
+=========================
+
 This section deals with the basic of manipulating EEGLAB datasets. To illustrate the process, we will be loading the tutorial dataset and modifying it.
 
-### Load the sample EEGLAB dataset
+Load the sample EEGLAB dataset
+------
 
 Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data.set" which is distributed with
@@ -13,7 +17,8 @@ the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
 ![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
 
-### Modify and store the dataset
+Modify and store the dataset
+------
 
 We need to modify the dataset for illustrative purposes, so we will simply filter it. Select <span style="color: brown">Tools → Filter the data → Basic FIR filter (new, default)</span>, enter *1* as the *Lower edge* frequency in Hz (the first edit box), and press *OK*.
 
@@ -25,13 +30,24 @@ Upon storing a new dataset (not overwriting it), you may use the EEGLAB menu ite
 
 ![Image:eeglab_dataset_menu.png]({{ site.baseurl }}/assets/images/eeglab_dataset_menu.png)
 
-### Saving a dataset
+Saving a dataset
+------
 
 Note that storing the new dataset in Matlab memory does not
 automatically store it permanently on disk.  To do this, select
 <span style="color: brown">File → Save current dataset(s)</span> to resave a modified dataset and overwrite the original file or <span style="color: brown">File → Save current dataset as</span> to save a new data file.
 
-### Deleting a dataset
+When saving a new data file, a file-browser window appears. Entering a name for the dataset
+(which should end with the filename extension *.set*), and pressing
+*SAVE* (below) will save the dataset including
+all its ancillary information re events, channel locations, processing
+history, etc., plus any unique structure fields you may have added
+yourself.
+
+![Image:Saveepoch.png]({{ site.baseurl }}/assets/images/Saveepoch.png)
+
+Deleting a dataset
+------
 
 To delete from the Matlab memory the newly created second dataset, select
 <span style="color: brown">File → Clear dataset(s)</span> or
@@ -48,7 +64,8 @@ separated by spaces.) If the dataset has not been saved on disk, it will be lost
 
 To delete a dataset file, simply delete the file(s) from disk outside of Matlab.
 
-### Dataset and file preferences
+Dataset and file preferences
+------
 
 Call menu item <span style="color: brown">File → Preferences</span>. Dataset and file preferencesa are the first three items shown below.
 

@@ -3,10 +3,9 @@ layout: default
 title: 1. Installing EEGLAB
 categories: tutorial
 parent: Tutorials
-nav_order: 1
 ---
-Installing EEGLAB and tutorial files
-=======================================
+Installing and starting EEGLAB
+================
 
 First download [EEGLAB](http://sccn.ucsd.edu/eeglab/install.html)
 which contains the tutorial dataset in the _sample_data_ subfolder of the EEGLAB distribution.
@@ -16,29 +15,21 @@ When you uncompress EEGLAB you will obtain a folder named "eeglabxxxx"
 Under Windows, Matlab
 usually recommends (although does not require) that you place toolboxes
 in the *Application/MatlabRxxxx/toolbox/* folder (note: this name should
-vary with the Matlab version 'xxxx'). 
+vary with the Matlab version 'xxxx'). In Linux, the Matlab toolbox
+folder is typically located at */usr/local/pkgs/Matlab-rxxxx/toolbox/*. In MacOS it is in "/Application/MATLAB_Rxxxx". You may also place the folder anywhere else on your path.
 
-In Linux, the Matlab toolbox
-folder is typically located at */usr/local/pkgs/Matlab-rxxxx/toolbox/*
+Now, we will start Matlab and EEGLAB.
 
-In MacOS it is in "/Application/MATLAB_Rxxxx". 
-
-You may also place the folder
-anywhere else on your path.
-
-Starting Matlab and EEGLAB
---------------------------
-
-Here we will start Matlab and EEGLAB. .
-
-### Start Matlab
+Start Matlab
+------
 
    - Windows: Go to Start, find Matlab and run it.
    - MacOS: Start from the Matlab icon in the dock or in the
     application folder.
    - Linux: Open a terminal window and type "matlab" and hit enter.
 
-### Switch to the EEGLAB directory (folder)
+Switch to the EEGLAB directory (folder)
+------
 
 You may browse for the directory by clicking on the button marked *"…"* in the upper right of the screen.
 
@@ -53,7 +44,8 @@ You may browse for the directory by clicking on the button marked *"…"* in the
  get to the desired directory.
 
 
-### Start EEGLAB
+Start EEGLAB
+------
 
 Type "eeglab" at the Matlab command line and hit enter. EEGLAB will
 automatically add itself to the Matlab path.
@@ -65,15 +57,11 @@ automatically add itself to the Matlab path.
  The blue main EEGLAB window below should pop up,  with its seven menu
  headings: <span style= "color:brown">File, Edit, Tools, Plot, Study, Datasets, Help </span> arranged in typical (left-to-right) order of use.
 
-
-
-
-
-
 ![350px]({{ site.baseurl }}/assets/images/Eeglab20191.png)
 
 
-### Adding EEGLAB to the Matlab path
+Adding EEGLAB to the Matlab path
+------
 
 You may want to add the EEGLAB folder to the Matlab search path so the
 next time you start Matlab, you will be able able to open EEGLAB
@@ -97,7 +85,7 @@ Hit *save* in the pathtool window. This will make the EEGLAB call-up
 function "eeglab" available in future Matlab sessions. Note that if
 you are installing a more recent version of EEGLAB, it is best to
 remove the old version from the Matlab path (select, then hit
-*Remove*) to avoid the possibility of calling up outdated routines. It
-is preferable NOT to add the "eeglab" path with its subfolder and let
+*Remove*) to avoid the possibility of calling up outdated routines. <b>It
+is preferable NOT to add the "eeglab" path with its subfolder</b> and let
 eeglab manage paths (when you start "eeglab", it automatically adds
-the path it needs.
+the path it needs).
