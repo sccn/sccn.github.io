@@ -5,8 +5,12 @@ parent: IV. Appendix
 grand_parent: Tutorials
 nav_order: 4
 ---
+
+Exporting Data
+================
+
 Supported Data Formats
-----------------------
+-----------------------
 
 | Data Type             | Export Type                   | File Extension     | EEGLAB                                  | BIOSIG | Support                                 |
 |-----------------------|-------------------------------|--------------------|-----------------------------------------|--------|-----------------------------------------|
@@ -46,8 +50,8 @@ Exporting data and ICA matrices
 #### Exporting data to an ASCII text file
 
 EEGLAB datasets can be exported as ASCII files using menu item
-<font color=brown>File \> Exports\> Data and ICA activity to text
-file</font>. Enter a file name (*mydata.txt*, for instance). Check the
+<span style="color: brown>File \> Exports\"> Data and ICA activity to text file</span>. 
+Enter a file name (*mydata.txt*, for instance). Check the
 second checkbox to export the average ERP instead of the data epochs. By
 default, the electrode labels are saved for each row (4th check box) and
 the time values are saved for each column (5th checkbox). Time units can
@@ -96,8 +100,7 @@ electrode. This file might, for example, be imported into SPSS or BMDP.
 
 #### Exporting ICA weights and inverse weight matrices
 
-Use menu item <font color=brown>File \> Export\> Weight matrix to text
-file</font> to export the ICA unmixing matrix (weights\*sphere). Simply
+Use menu item <span style="color: brown">File → Export→ Weight matrix to text file</span> to export the ICA unmixing matrix (weights\*sphere). Simply
 enter a file name in the pop-up window and press *Save*.
 
 
@@ -106,7 +109,7 @@ enter a file name in the pop-up window and press *Save*.
 
 The text file on disk then contains the weight matrix. It may be
 re-imported into another EEGLAB dataset using menu item
-<font color=brown>Edit \> Dataset info</font>. As shown below, enter the
+<span style="color: brown">Edit → Dataset info</span>. As shown below, enter the
 filename in the *ICA weight array* edit box. Leave the sphere edit box
 empty, or empty it if it is not empty. See the [ICA decomposition
 tutorial](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink") for more
@@ -115,7 +118,3 @@ details on sphere and weight matrices.
 
 ![600px](/assets/images/Pop_editset.gif)
 
-
-[Category:IV. Appendix](/Category:IV._Appendix "wikilink") {
-{Backward_Forward\|A03:_Importing_Channel_Locations\|A03: Importing
-Channel Locations\|A05:_Data_Structures\|A05: Data Structures} }

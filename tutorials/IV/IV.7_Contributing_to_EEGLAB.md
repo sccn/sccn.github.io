@@ -6,8 +6,6 @@ grand_parent: Tutorials
 nav_order: 7
 ---
 
-{ {Backward_Forward\|A06:_Maximizing_Memory\|A06: Maximizing
-Memory\|A08:_DIPFIT\|A08: DIPFIT} }
 
 EEGLAB Development
 ==================
@@ -296,7 +294,7 @@ Adding an extension menu item or sub-menu
 To create a new menu item for your extension under a top-level EEGLAB
 menu, simply add a command like this to your eegplugin_ function:
 
-> `>> uimenu( fig, 'label', '[My function]', 'callback', ... [ 'EEG = pop_[myfunc](EEG, ...); [ALLEEG EEG CURRENTSET] ... = eeg_store(ALLEEG, EEG, CURRENTSET);' ]); `
+> `>>uimenu(fig,'label','[Myfunction]','callback',...['EEG=pop_[myfunc](EEG,...); [ALLEEG EEG CURRENTSET] ... = eeg_store(ALLEEG, EEG, CURRENTSET);' ]); `
 
 
 The statement *\[ALLEEG EEG CURRENTSET\] = eeg_store(ALLEEG, EEG,
@@ -417,23 +415,23 @@ uimenu( submenu, 'label', 'Run PCA', 'callback', finalcmd);
 
 Note: You may use eegplugin_ functions to append new extension_related
 menu items under different EEGLAB menu headings. Above, we add an item
-(labeled 'Run PCA') to the <font color=brown>Tools</font> menu by
+(labeled 'Run PCA') to the <span style="color: brown">Tools</span> menu by
 specifying '' 'tag','tools' '' in the *findobj()* call. If the specified
 tag were *import data*, EEGLAB would add the eegplugin_ specified menu
-item to the <font color=brown>File \> Import data</font> sub-menu. Using
+item to the <span style="color: brown>File \"> Import data</span> sub-menu. Using
 the tag *import epoch* would add the eegplugin_ specified menu item to
-the <font color=brown>File \> Import epoch info</font> sub-menu. The tag
+the <span style="color: brown>File \"> Import epoch info</span> sub-menu. The tag
 *import event* would add the eegplugin_ specified menu item to the
-<font color=brown>File \> Import event info</font> menu. The tag
+<span style="color: brown>File \"> Import event info</span> menu. The tag
 *export* would add the eegplugin_ specified menu item to the
-<font color=brown>File \> Export data</font> menu. Finally, the tag
+<span style="color: brown>File \"> Export data</span> menu. Finally, the tag
 *plot* would add the eegplugin_ specified menu item to the
-<font color=brown>Plot</font> menu. (Note that the tag call should be in
+<span style="color: brown">Plot</span> menu. (Note that the tag call should be in
 lower case).
 
 
 After installing the eegplugin_ function above, a new EEGLAB menu item
-<font color=brown>Tools \> Run PCA</font> will be created. Use this menu
+<span style="color: brown">Tools → Run PCA</span> will be created. Use this menu
 item to learn the PCA transform for the current EEG dataset. The
 resulting PCA decomposition will be stored in place of the ICA
 decomposition. (Note: This is possible (if not typically advisable)
@@ -721,6 +719,3 @@ that problem.
 This type of interface is not possible using standard calls. The 'geom'
 input is detailed in the help section of the supergui function.
 
-[Category:IV. Appendix](/Category:IV._Appendix "wikilink") {
-{Backward_Forward\|A06:_Maximizing_Memory\|A06: Maximizing
-Memory\|A08:_DIPFIT\|A08: DIPFIT} }

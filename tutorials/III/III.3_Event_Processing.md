@@ -405,9 +405,9 @@ returns the first 5 event latencies,
 
 > ans =
 >
-> `   `
+> ``
 >
-> `    [129] [218.00] [267.5394] [424] [513]`
+> `[129][218.00][267.5394][424][513]`
 
 Note that for an epoched dataset this information has no direct meaning.
 Instead, select menu item <font color=brown>Edit \> Event values</font>

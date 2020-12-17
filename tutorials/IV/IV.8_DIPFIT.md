@@ -6,12 +6,9 @@ grand_parent: Tutorials
 nav_order: 8
 ---
 
-{ {Backward_Forward\|A07:_Contributing_to_EEGLAB\|A07: Contributing to
-EEGLAB\|A09:_Using custom MRI from individual subjects\|A09: Using
-custom MRI from individual subjects} }
 
 DIPFIT plug-in: Equivalent dipole source localization of independent components
--------------------------------------------------------------------------------
+================================================================================
 
 A major obstacle to using EEG data to visualize macroscopic brain
 dynamics is the underdetermined nature of the inverse problem: Given an
@@ -133,19 +130,19 @@ data](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink")).
 
 To follow the dipole fitting example used in this tutorial, download a
 69-channel sample dataset for DIPFIT and BESA dipole localization here:
-[eeglab_dipole.set](ftp://sccn.ucsd.edu/pub/eeglab_dipole.set) (\>1 MB).
+[eeglab_dipole.set](ftp://sccn.ucsd.edu/pub/eeglab_dipole.set) (→1 MB).
 This sample dataset contains a channel location file and pre-computed
 ICA weights. Note: to save space, this dataset has been reduced to only
 a single trial, after performing ICA on about 800 similar trials; You
 should <u>not</u> try to apply ICA to this dataset, but should instead
 use the pre-processed ICA weight matrix to test dipole localization.
-Load the dataset into EEGLAB using menu item <font color=brown>File \>
+Load the dataset into EEGLAB using menu item <font color=brown>File →
 Load Existing Dataset</font>.
 
 Next, you must select which component to fit. Independent component (IC)
 5 of the sample dataset decomposition is a typical lateral posterior
 alpha rhythm process. To plot component scalp map, use menu item
-<font color=brown>Plot \> Component maps \> In 2-D</font>, enter *5* for
+<span style="color: brown>Plot → Component maps \"> In 2-D</span>, enter *5* for
 the component number and option '' 'electrodes', 'pointlabels' '' to
 obtain the plot below. Note that the channel location file for this
 subject has been scanned using the Polhemus system, so the electrode
@@ -177,8 +174,8 @@ chapter.
 #### Setting up DIPFIT model and preferences
 
 Before running DIPFIT, we must select some input parameters. Select the
-EEGLAB menu item <font color=brown> Tools \> Locate dipoles using DIPFIT
-\> Head model and settings</font> to modify DIPFIT settings. This will
+EEGLAB menu item <font color=brown> Tools → Locate dipoles using DIPFIT
+→ Head model and settings</font> to modify DIPFIT settings. This will
 pop up the window below:
 
 
@@ -236,7 +233,7 @@ you may use the standard channel coordinates associated with the head
 model. In this case, no co-registration is required. To do this, press
 the *No coreg* checkbox and close the DIPFIT settings window above (then
 press *OK* to close that window). Then go to the channel editing window
-(select menu item <font color=brown>Edit \> Channel location</font>).
+(select menu item <span style="color: brownn">Edit → Channel location</span>).
 The resulting channel editor window is shown below:
 
 
@@ -391,7 +388,7 @@ finding the final best-fitting solution. (The next section, A4.4,
 explains the fine tuning using the non-linear optimization). The
 tutorial instructions below are valid for both the spherical head model
 and the boundary element model. To scan dipoles on a coarse grid, select
-menu item <font color = brown>Tools \> Locate dipoles using DIPFIT \>
+menu item <font color = brown>Tools → Locate dipoles using DIPFIT →
 Coarse fit (grid scan)</font>. If you use the sample dataset, the window
 below will pop up:
 
@@ -425,8 +422,7 @@ locations that are outside the head. It then computes the forward model
 (dipole-to-electrode projections) at each remaining grid location and
 compares it with all component topographies. The progress of this
 process is shown in the text window. When the process is completed,
-select menu item <font color=brown>Tools \> Locate dipoles using DIPFIT
-\> Plot component dipoles</font> to call the window below:
+select menu item <span style="color: brown">Tools →Locate dipoles using DIPFIT → Plot component dipoles</span> to call the window below:
 
 
 
@@ -454,8 +450,7 @@ details).
 
 #### Interactive fine-grained fitting
 
-To scan dipoles interactively, call menu item <font color=brown>Tools \>
-Locate dipoles using DIPFIT \> Fine fit (iterative)</font>. The
+To scan dipoles interactively, call menu item <span style="color: brown">Tools → Locate dipoles using DIPFIT →Fine fit (iterative)</span>. The
 following windows pop up. Enter a component index (here, 3) in the
 *Component to fit* edit box.
 
@@ -511,7 +506,7 @@ interactive interface for dipole fitting. Do not press *Cancel* or close
 the window -- if you do, all the dipole locations that you have computed
 using this interface will be lost! Also, this DIPFIT menu is the only
 one that does not generate EEGLAB history. The first menu item,
-<font color=brown>Tools \> Locate dipoles using DIPFIT \> Autofit
+<font color=brown>Tools → Locate dipoles using DIPFIT → Autofit
 component</font>, uses the same method for dipole fitting but also
 generates an EEGLAB history command that can be re-used in batch
 scripts.
@@ -522,8 +517,8 @@ Automated dipole fitting performs the grid search and the non-linear
 fitting on several component without human intervention. You still need
 to select the model in the DIPFIT settings interactive window though. To
 find a best-fitting equivalent dipole for the component above, select
-the EEGLAB menu item <font color=brown>Tools \> Locate dipoles using
-DIPFIT \> Autofit (coarse fit, fine fit, plot)</font> to automatically
+the EEGLAB menu item <font color=brown>Tools → Locate dipoles using
+DIPFIT → Autofit (coarse fit, fine fit, plot)</font> to automatically
 fit selected ICA components. Set the *Component indices* to *5*, enter
 *100* in the *rejection threshold* edit box so the iterative solution is
 computed regardless of the residual variance for the coarse fit, and
@@ -549,8 +544,7 @@ component. At the end of the procedure, the following window pops up.
 
 The residual variance *RV: 2.75%* is shown below the component number
 *Comp: 5* on the right top corner indicates that the component being
-plotted is component 5 and that the residual variance is 2.75%. The {
-{File\|dipplot.m} } function above allows you to rotate the head model
+plotted is component 5 and that the residual variance is 2.75%. The { {File\|dipplot.m} } function above allows you to rotate the head model
 in 3-D with the mouse, plot MRI slices closest to the equivalent dipole,
 etc... (See the ['dipplot()' visualization
 tutorial](/#Visualizing_dipole_models "wikilink") below for more
@@ -559,8 +553,7 @@ details.)
 
 #### Visualizing dipole models
 
-Use menu item <font color=brown>Tools \> Locate dipoles using DIPFIT \>
-Plot component dipoles</font> and select component number 3 and 5 to
+Use menu item <span style="color: brown">Tools → Locate dipoles using DIPFIT → Plot component dipoles</span> and select component number 3 and 5 to
 produce the plot shown below (assuming you performed the fit for both
 components 3 and 5 as described above). Select all options except the
 *Summary mode* and enter '' 'view', \[51 18\]'' in the *Additional
@@ -605,8 +598,7 @@ Also, it is not yet possible to use the subject's own anatomical MRI as
 background (it will be possible in the future upon completion of a
 EEG/MRI co-registration function as described below).
 
-Finally, again call menu item <font color=brown>Tools \> Locate dipoles
-using DIPFIT \> Plot component dipoles</font>. Select *Summary mode* and
+Finally, again call menu item <span style="color: brown">Tools → Locate dipoles using DIPFIT → Plot component dipoles</span>. Select *Summary mode* and
 press *OK*.
 
 
@@ -676,12 +668,10 @@ best matches the shape of the headsurface of the average MRI.
 
 ##### Plotting dipole locations on scalp maps
 
-Select menu item <font color=brown>Plot \> Component maps \> In
-2-D</font>, enter *1:20* in the component index edit box. Note: The
+Select menu item <span style="color: brown">Plot → Component maps → In 2-D</span>, enter *1:20* in the component index edit box. Note: The
 sample dataset structure contains pre-computed component dipoles. If you
 are processing another dataset, first select menu item
-<font color=brown>Tools \> Locate dipoles using DIPFIT \> Autofit
-components</font> to fit ICA components from 1 to 20 automatically as
+<span style="color: brown">Tools → Locate dipoles using DIPFIT → Autofit components</span> to fit ICA components from 1 to 20 automatically as
 described in section A1.1. above. Check the *Plot dipole* checkbox (see
 below) and press *OK*. Note: You may also enter additional dipole
 fitting options in the last edit box; press the *Help* button for
@@ -720,8 +710,7 @@ and the orientation of the subject's head during the recording, which is
 never exactly the same across recordings. Consequently, a head model
 needs to be created for each recording using the CTF MRIViewer and
 localSphere programs (see the CTF documentation). Then, in EEGLAB, call
-menu item <font color=brown>Tools \> Locate dipoles using DIPFIT \> Head
-model and settings</font>, and select the tab *CTF* in the upper
+menu item <span style="color: brown">Tools → Locate dipoles using DIPFIT → Head model and settings</span>, and select the tab *CTF* in the upper
 pop-window (note that the GUI below is an older version compared to the
 one available in DIPFIT but the field remain fairly similar). Set up the
 DIPFIT model and preferences as follows:
@@ -745,12 +734,12 @@ DIPFIT model and preferences as follows:
 
 As for EEG data, you first need to scan a relavely coarse grid, to find
 an appropriate starting position for each dipole, by calling menu item
-<font color=brown>Tools \> Locate dipoles using DIPFIT \> Coarse fit
-(grid scan)</font>. Note that CTF head models are in cm. Consequently,
+<span style="color: brown">Tools → Locate dipoles using DIPFIT → Coarse fit (grid scan)</span>. 
+
+Note that CTF head models are in cm. Consequently,
 the grid used for gridsearch needs to be specified in cm (this is done
 automatically by pop_dipfit_gridsearch). Then as in EEG dipole fitting,
-use menu item <font color=brown>Tools \> Locate dipoles using DIPFIT \>
-Fine fit (iterative)</font> to optimize dipole positions nonlinearly.
+use menu item <span style="color: brown">Tools → Locate dipoles using DIPFIT → Fine fit (iterative)</span> to optimize dipole positions nonlinearly.
 
 
 ![Image:Dipole_grid_meg.gif](/assets/images/Dipole_grid_meg.gif)
@@ -759,7 +748,7 @@ Fine fit (iterative)</font> to optimize dipole positions nonlinearly.
 
 
 Finally, you may plot dipoles on the subject MRI using menu item
-<font color=brown>Tools \> Locate dipoles using DIPFIT \> Plot component
+<font color=brown>Tools → Locate dipoles using DIPFIT → Plot component
 dipoles</font> as shown below. The corresponding scalp map is also shown
 on the right. Because of co-registration issues, it is not possible to
 plot the dipole positions on the scalp map as in EEG). It is strongly
@@ -845,7 +834,7 @@ dataset structure. This structure has several fields:
 > | EEG.dipfit.mrifile         | Contains the MRI file used for plotting dipole locations.                                                                                                                                                                                                                                               |
 > | EEG.dipfit.chanfile        | Contains the template channel location file associated with the current head model. This is used for electrode co-registration.                                                                                                                                                                         |
 > | EEG.dipfit.coordformat     | Contains the coordinate format in the model structure. This is "spherical" for the spherical model or "MNI" for the BEM model.                                                                                                                                                                          |
-> | EEG.dipfit.coord_transform | Contains the talairach transformation matrix to align the user dataset channel location structure (*EEG.chanlocs*) with the selected head model. This is a length-9 vector *\[shiftx shifty shiftz pitch roll yaw scalex scaley scalez\]*. Type *\>\> help traditional* in Matlab for more information. |
+> | EEG.dipfit.coord_transform | Contains the talairach transformation matrix to align the user dataset channel location structure (*EEG.chanlocs*) with the selected head model. This is a length-9 vector *\[shiftx shifty shiftz pitch roll yaw scalex scaley scalez\]*. Type *→→ help traditional* in Matlab for more information. |
 > | EEG.dipfit.model           | A structure array containing dipole information.                                                                                                                                                                                                                                                        |
 > | EEG.dipfit.model.posxyz    | Contains the 3-D position of the dipole(s). If a two-dipole model is used for a given component, each row of this array contains the location of one dipole.                                                                                                                                            |
 > | EEG.dipfit.model.momxyz    | Contains 3-D moment of the dipole(s). If a two-dipole model is used for a given component, each row of this array contains the moment of one dipole.                                                                                                                                                    |
@@ -964,7 +953,7 @@ Dipfit 3.0 also allows computing eLoreta solutions for ICA components
 plugin manager). Model settings and coregistration with head model are
 the same for eLoreta as for dipole source localization. eLoreta source
 localization may be performed using menu item <font color=brown>File
-\>Locate component using eLoreta</font>. Result for a component is shown
+→Locate component using eLoreta</font>. Result for a component is shown
 below. eLoreta like other Dipfit function rely on Fieldtrip functions.
 Refer to function ft_sourceanalysis for more information on eLoreta
 source localization.
@@ -990,8 +979,8 @@ perform source modeling using Fieldtrip applied to data in an EEGLAB
 dataset.
 
 To localize sources of EEG data, first use DIPFIT to align the electrode
-locations with a head model of choice (menu item **Tools \> Locate
-dipoles using DIPFIT \> Head model and settings**). The resulting DIPFIT
+locations with a head model of choice (menu item **Tools → Locate
+dipoles using DIPFIT → Head model and settings**). The resulting DIPFIT
 information may then be used to perform source localization in
 Fieldtrip.
 

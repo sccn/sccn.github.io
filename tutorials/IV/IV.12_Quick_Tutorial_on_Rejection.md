@@ -22,7 +22,7 @@ rejection:
 
 ##### 1) Start Matlab and EEGLAB, then import your data
 
-Type \>\>  eeglab to start EEGLAB under Matlab. Select menu item
+Type \>\> eeglab to start EEGLAB under Matlab. Select menu item
 <font color = brown>File \> Import data</font> to import your data file
 in any of a variety of file formats including EGI and Neuroscan binary.
 See the [Import

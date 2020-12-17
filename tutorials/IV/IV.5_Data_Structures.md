@@ -6,24 +6,20 @@ grand_parent: Tutorials
 nav_order: 5
 ---
 
-{ {Backward_Forward\|A4:_Exporting_Data\|A4: Exporting
-Data\|A6:_Maximizing_Memory\|A6: Maximizing Memory} }
 
 EEGLAB Data Structures
-----------------------
+=======================
 
 This section is intended for users who wish to [use EEGLAB and its
-functions in Matlab
-scripts](/Chapter_02:_Writing_EEGLAB_Scripts "wikilink"). We have tried
+functions in Matlab scripts](tutorials/III.2 Writing EEGLAB Scripts). We have tried
 to make EEG structures as simple and as transparent as possible so that
 advanced users can use them to efficiently process their data.
 
-#### EEG and ALLEEG
-
+EEG and ALLEEG
+---------------
 EEGLAB variable *EEG* is a Matlab structure that contains all the
 information about the current EEGLAB dataset. For instance, following
-the [single subject tutorial
-documentation](/I.Single_subject_data_processing_tutorial "wikilink")
+the [single subject tutorial documentation](/I.Single_subject_data_processing_tutorial "wikilink")
 until data epochs have been extracted and the ICA decomposition
 computed, and then typing *\>\>EEG* will produce the following command
 line output:
@@ -113,15 +109,14 @@ ALLEEG =
 
 Typing *\>\> ALLEEG(1)* returns the structure of the first dataset in
 ALLEEG, and typing *\>\> ALLEEG(2)* returns the structure of the second
-dataset. See the [Script
-Tutorial](/Chapter_02:_Writing_EEGLAB_Scripts "wikilink") for more
+dataset. See the [Script Tutorial](/Chapter_02:_Writing_EEGLAB_Scripts "wikilink") for more
 information on manipulating these structures.
 Most fields of the *EEG* structure contain single values (as detailed in
 [eeg_checkset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkset.m)). However some important fields of the *EEG*
 structure contain sub-structures. We will describe briefly three of
 those below: *EEG.chanlocs*, *EEG.event*, and *EEG.epoch*.
 
-#### EEG.chanlocs
+### EEG.chanlocs
 
 This EEG-structure field stores information about the EEG channel
 locations and channel names. For example, loading the tutorial dataset
@@ -145,7 +140,9 @@ and typing *\>\> EEG.chanlocs* returns
 ```
 
 Here,*EEG.chanlocs* is a structure array of length 32 (one record for
-each of the 32 channels in this dataset). Typing *\>\>EEG.chanlocs*
+each of the 32 channels in this dataset). 
+
+Typing *\>\>EEG.chanlocs*
 returns:
 
 ``` matlab
@@ -165,7 +162,7 @@ returns:
 
 These values store the channel location coordinates and label of the
 first channel ('FPz'). You may use the [pop_chanedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanedit.m)
-funciton or menu item <font color=brown>Edit \> Channel locations</font>
+function or menu item <span style="color: brown">Edit → Channel locations</span>
 to edit or recompute the channel location information. The value of any
 EEG structure field may also be modified manually from the Matlab
 command line. See also the [EEGLAB channel location file database
@@ -173,7 +170,7 @@ page](http://sccn.ucsd.edu/eeglab/channellocation.html) and the main
 tutorial section regarding ['Using channel
 locations'](/Chapter_02:_Channel_Locations "wikilink").
 
-#### EEG.event
+### EEG.event
 
 The EEG structure field contains records of the experimental events that
 occurred while the data was being recorded, plus possible additional
@@ -191,18 +188,27 @@ user-defined events. Loading the tutorial dataset and typing
 ```
 
 In general, fields *type*, *latency*, and *urevent* are always present
-in the event structure. *type* contains the event type. *latency*
-contains the event latency in data point unit. *urevent* contains the
+in the event structure:
+
+- *type* contains the event type
+- *latency* contains the event latency in data point unit
+- *urevent* contains the
 index of the event in the original (= "ur") urevent table (see below).
+
 Other fields like *position* are user defined and are specific to the
-experiment. The user may also define a field called *duration*
+experiment. 
+
+The user may also define a field called *duration*
 (recognized by EEGLAB) for defining the duration of the event (if
 portions of the data have been deleted, the field *duration* is added
 automatically to store the duration of the break (i.e. boundary) event).
+
 If epochs have been extracted from the dataset, another field, *epoch*,
 is added to store the index of the data epoch(s) the event belongs to.
+
 To learn more about the EEGLAB event structure, see the [event
 processing tutorial](/Chapter_03:_Event_Processing "wikilink").
+
 There is also a separate "ur" (German for "original") event structure,
 *EEG.urevent* (in EEGLAB v4.2 and above), which holds all the event
 information that was originally loaded into the dataset plus events that
@@ -229,7 +235,9 @@ the original third event, and so will be linked to the third
         3
 ```
 
-<u>**WARNING:** </u>Datasets created under EEGLAB 4.1 and loaded into
+<u>**WARNING:** </u>
+
+Datasets created under EEGLAB 4.1 and loaded into
 4.2 had an *EEG.urevent* structure created automatically. If some data
 containing events had been rejected BEFORE this time, then the urevent
 structure information IS INCOMPLETE (i.e. to some degree wrong!). Most
@@ -237,11 +245,10 @@ new datasets created under 4.2 had the urevent structure saved correctly
 when the event information was first added. Be cautious about using
 urevent information from legacy 4.1 datasets.
 
-You may refer to the [Event Processing
-Tutorial](/Chapter_03:_Event_Processing "wikilink") for more details on
+You may refer to the [Event Processing Tutorial](/Chapter_03:_Event_Processing "wikilink") for more details on
 the event and urevent stuctures.
 
-#### EEG.epoch
+### EEG.epoch
 
 In an epoched dataset, this structure is similar to the *EEG.event*
 structure, except that there is only one record for each epoch. Note
@@ -280,20 +287,18 @@ Note that this dataset contains 80 epochs (or trials). Now type
 
 
 The first field *EEG.epoch.event* is an array containing the indices of
-all dataset events that occurred during this epoch. The fields
+all dataset events that occurred during this epoch. 
+
+The fields
 *EEG.epoch.eventtype*, *EEG.epoch.eventposition* and
 *EEG.epoch.eventlatency* are cell arrays containing values for each of
 the events (*EEG.epoch.event*) that occurred during the epoch. Note that
 the latencies in *EEG.epoch.eventlatency* have been recomputed in units
-of milliseconds with respect to the epoch time-locking event. When there
+of milliseconds with respect to the epoch time-locking event. 
+
+When there
 is only one event in an epoch, the epoch table is more readable.
 
-You may refer to the [Event Processing
-Tutorial](/Chapter_03:_Event_Processing "wikilink") for more details.
+You may refer to the [Event Processing Tutorial](/Chapter_03:_Event_Processing "wikilink") for more details.
 
-The next section will cover the supervening data structure, new as of
-EEGLAB v5.0b, the *STUDY* or *studyset*.
 
-[Category:IV. Appendix](/Category:IV._Appendix "wikilink") {
-{Backward_Forward\|A4:_Exporting_Data\|A4: Exporting
-Data\|A6:_Maximizing_Memory\|A6: Maximizing Memory} }
