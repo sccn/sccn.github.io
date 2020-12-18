@@ -4,29 +4,49 @@ title: Contributing to EEGLAB
 parent: Miscellaneous
 grand_parent: Tutorials
 nav_order: 7
+
 ---
+
+Contributing to EEGLAB
+========================
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 
 
 EEGLAB Development
-==================
+-------------------
 
-The chief EEGLAB developers are Arnaud Delorme and Scott Makeig. The
-predecessor to EEGLAB, the ICA/EEG Toolbox (1997-2001), comprised
+The chief EEGLAB developers are Arnaud Delorme and Scott Makeig. 
+
+The predecessor to EEGLAB, the ICA/EEG Toolbox (1997-2001), comprised
 functions written by Makeig with Tony Bell, Colin Humphries, Sigurd
 Enghoff, Tzyy-Ping Jung, Te-Won Lee, and others, was first released on
 the Web in 1997 by Scott Makeig at the Computational Neurobiology
-Laboratory of Terrence J. Sejnowski at The Salk Institute, La Jolla. The
-first version of the integrated EEGLAB toolbox was written there by
+Laboratory of Terrence J. Sejnowski at The Salk Institute, La Jolla. 
+
+The first version of the integrated EEGLAB toolbox was written there by
 Delorme and Makeig with subsequent contributions by many including
 Marissa Westerfield, Jörn Anemüller, Luca Finelli, Robert Oostenveld,
 Hilit Serby, Toby Fernsler, Nima Shamlo Bigdeley, Jason Palmer and many
 others. Dedicated beta testers include Andreas Romeyke and his team, who
 developed a test suite for EEGLAB, and other advanced users including
-Stefan Debener and Andreus Widmar. EEGLAB development is now centered at
-the Swartz Center for Computational Neuroscience (SCCN) of the Institute
+Stefan Debener and Andreus Widmar. 
+
+EEGLAB development is now centered at the Swartz Center for Computational Neuroscience (SCCN) of the Institute
 for Neural Computation at the University of California San Diego (UCSD).
+
 Core EEGLAB maintenance and development is supported by the US National
-Institute of Neurological Disorders and Stroke (NINDS). Recent additions
+Institute of Neurological Disorders and Stroke (NINDS). 
+
+Recent additions
 to EEGLAB from SCCN include several plug-in toolboxes (described here)
 including NFT (head modeling tools), SIFT (effective connectivity
 tools), MPT (source comparison tools), BCILAB (BCI modeling tools), and
@@ -51,7 +71,7 @@ suggestions are welcome and we encourage and plan to interconnect EEGLAB
 with other Matlab-compatible toolboxes.
 
 Open source policy
-==================
+-------------------
 
 1.  EEGLAB is distributed under the [BSD
     license](https://opensource.org/licenses/BSD-2-Clause). Any
@@ -72,14 +92,14 @@ incorporate new functions into the EEGLAB menu of every user who has
 downloaded the extension.
 
 Code of conduct
-===============
+-----------------
 
 We strive to follow the Open Source code of conduct of community,
 collaboration, respect, and responsibility first outlined by the [Ubuntu
 community](https://ubuntu.com/community/code-of-conduct).
 
 Using GIT to contribute code
-============================
+------------------------------
 
 To contribute code to the EEGLAB core code, fork the code and create a
 pull request as indicated on this
@@ -88,7 +108,7 @@ to perform these operations, but do not require any special permission
 from us.
 
 Developing under Matlab
-=======================
+------------------------
 
 EEGLAB operates in the very rich Matlab environment. The structure of
 EEGLAB functions makes it easy to combine them in new ways in original
@@ -112,16 +132,11 @@ consider the desirability of making your function into an EEGLAB
 extension (formerly termed plug-in), as described later in this page.
 
 How to help with EEGLAB
-=======================
-
-We need help to fix important issues for EEGLAB users.
-
-EEGLAB possible projects
 ------------------------
 
-Below some projects posted by the EEGLAB developpers.
+We need help to fix important issues for EEGLAB users. Below some projects posted by the EEGLAB developpers.
 
-##### Plugins
+### Plugins
 
 A large collection of plugins are not maintained any more by their
 author. Yet, they are still widely use. For example, the
@@ -131,7 +146,7 @@ maintaining this plugin, there are several issues listed on Gitbub. You
 would maintain this plugin on Github. Email us for a list of unsuported
 plugins.
 
-##### Bug reports and improvements
+### Bug reports and improvements
 
 The [Github EEGLAB repository](https://github.com/sccn/eeglab/issues/)
 contain a list of issues. Any contribution to the discussion (or code
@@ -146,7 +161,7 @@ This site contain a list of improvements that we do not have the
 resources to implement but are nevertheless interested in seeing happen.
 As above, fork the EEGLAB repository and issue a pull request.
 
-##### Interactive Epoch Interpolation and Artifact Rejection
+### Interactive Epoch Interpolation and Artifact Rejection
 
 This project was initially proposed in this
 [email](http://sccn.ucsd.edu/pipermail/eeglablist/2009/003048.html). Per
@@ -157,7 +172,7 @@ project:
 <http://sccn.ucsd.edu/wiki/Interactive_Epoching_Project>
 
 How to write EEGLAB functions
-=============================
+--------------------------------
 
 Adding new functionality to EEGLAB requires a pair of functions, a
 signal processing function (Ex:
@@ -168,8 +183,7 @@ pop_function pops up a text input window allowing the user to specify
 arguments to the signal processing function. The Matlab help messages
 for each function should state clearly what input arguments the
 functions require and what they output, using the help message format
-explained below. You should read the beginning of the [script
-section](/Chapter_02:_Writing_EEGLAB_Scripts "wikilink") to understand
+explained below. You should read the beginning of the [script section]( ) to understand
 the different levels of functions in EEGLAB.
 
 Signal processing functions
@@ -195,8 +209,7 @@ license disclaimer to include in the function header.
 > with this program; if not, write to the Free Software Foundation,
 > Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA*
 
-Associated pop_ functions
---------------------------
+### Associated pop_ functions
 
 A pop_function associated with a signal processing function creates a
 graphic user interface to it. The pop_ function (whole name should
@@ -228,8 +241,7 @@ function and
     [pop_sample.m](http://sccn.ucsd.edu/eeglab/download/pop_sample.m)
     function source.
 
-How to debug EEGLAB functions
------------------------------
+### How to debug EEGLAB functions
 
 When called from the EEGLAB GUI, EEGLAB intercepts errors which can make
 it difficult to debug functions. The solution for this is to call the
@@ -237,7 +249,7 @@ function from the command line (preceded for example by "dbstop if
 error") and in this case EEGLAB will not intercept the error.
 
 How to write an EEGLAB extension
-================================
+---------------------------------
 
 EEGLAB also has an <b>extension</b> (formerly *plug-in*) facility that
 automatically searches for functions loaded into a specified *plug-in*
@@ -268,8 +280,7 @@ beginning *eegplugin_* in the main EEGLAB directory). You may also
 place the "eegplugin_" function in a sub-directory of the EEGLAB plugin
 function directory.
 
-Creating an eegplugin_ function
---------------------------------
+### Creating an eegplugin_ function
 
 To create a new EEGLAB extension, simply create a Matlab function file
 whose name begins with **<b>eegplugin_</b>** and place it in the
@@ -277,7 +288,7 @@ whose name begins with **<b>eegplugin_</b>** and place it in the
 function must take three arguments, as in the 'test' extension
 eegplugin_ function shown below:
 
-> \>\> eegplugin_test (fig, try_strings, catch_strings);
+> →→ eegplugin_test (fig, try_strings, catch_strings);
 
 The three arguments above are provided to the eegplugin_ function by
 *eeglab()*. The first argument ('fig') is the handle of the main EEGLAB
@@ -288,8 +299,7 @@ use EEGLAB history and error message handling, you can ignore the latter
 two parameters (although the eegplugin_ function <em>definition</em>
 still must list all three arguments).
 
-Adding an extension menu item or sub-menu
------------------------------------------
+### Adding an extension menu item or sub-menu
 
 To create a new menu item for your extension under a top-level EEGLAB
 menu, simply add a command like this to your eegplugin_ function:
@@ -303,8 +313,7 @@ stored in the EEGLAB *ALLEEG* structure. \[myfunc\] should be replaced
 with the name of your extension, and \[My function\] with brief
 menu-item text (typically the name of your extension).
 
-Extensions and EEGLAB history
------------------------------
+### Extensions and EEGLAB history
 
 If you want your extension to interact with the EEGLAB history
 mechanism, you should take advantage of the second ('try_strings') and
@@ -357,8 +366,7 @@ Possible fields for 'catch_strings' are:
     not empty) to the EEGLAB history **and** pop up a window for a new
     dataset.
 
-eeglugin_ function examples
-----------------------------
+#### eegplugin_ function examples
 
 A simplest type of eegplugin_ function might only call a plotting
 function. For instance, to write a simple extension to plot the ERP
@@ -380,7 +388,7 @@ function sub-directory of EEGLAB (or the EEGLAB directory in which the
 function eeglab.m_ is located) and restart EEGLAB (click
 [here](http://sccn.ucsd.edu/eeglab/allfunctions/eegplugin_erp.m) to
 download this .m file). Then, given an epoched dataset, select the menu
-item <font color = brown>Plot \> PLot ERP</font> to plot the ERP average
+item <span style="color: brown">Plot → Plot ERP</span> to plot the ERP average
 of all the dataset epochs.
 
 Another, more complete example: To create an extension named 'PCA' that
@@ -418,13 +426,13 @@ menu items under different EEGLAB menu headings. Above, we add an item
 (labeled 'Run PCA') to the <span style="color: brown">Tools</span> menu by
 specifying '' 'tag','tools' '' in the *findobj()* call. If the specified
 tag were *import data*, EEGLAB would add the eegplugin_ specified menu
-item to the <span style="color: brown>File \"> Import data</span> sub-menu. Using
+item to the <span style="color: brown">File → Import data</span> sub-menu. Using
 the tag *import epoch* would add the eegplugin_ specified menu item to
-the <span style="color: brown>File \"> Import epoch info</span> sub-menu. The tag
+the <span style="color: brown">File → Import epoch info</span> sub-menu. The tag
 *import event* would add the eegplugin_ specified menu item to the
-<span style="color: brown>File \"> Import event info</span> menu. The tag
+<span style="color: brown">File → Import event info</span> menu. The tag
 *export* would add the eegplugin_ specified menu item to the
-<span style="color: brown>File \"> Export data</span> menu. Finally, the tag
+<span style="color: brown">File → Export data</span> menu. Finally, the tag
 *plot* would add the eegplugin_ specified menu item to the
 <span style="color: brown">Plot</span> menu. (Note that the tag call should be in
 lower case).
@@ -450,8 +458,7 @@ the term 'plug-in' has been replaced by the more general term
 EEGLAB Extension Manager now helps users download extensions and alerts
 current users when extension authors have made a new version available.
 
-EEGLAB menu integration
------------------------
+### EEGLAB menu integration
 
 As of EEGLAB11, it is possible for the user to control menu behavior
 within EEGLAB. EEGLAB can automatically enable or disable (e.g., gray
@@ -494,8 +501,7 @@ epoched datasets that have channel locations present:
 Omitting the **userdata** parameter results in the extension menu item
 adopting the default behaviors defined in the table above.
 
-Submitting your plugin
-----------------------
+### Submitting your plugin
 
 Once you are done with your plugin/extension, you may submit it to this
 web [page](http://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php).
@@ -503,14 +509,12 @@ We will make it appear in the EEGLAB plugin manager for other users to
 try.
 
 Using EEGLAB GUI design functions
-=================================
-
+-----------------------------------
 The function **supergui()** is the main function used for creating
 graphic interfaces in EEGLAB. We will be describing below some basic and
 more advanced uses for it:
 
-Using the supergui function
----------------------------
+### Using the supergui function
 
 Supergui was designed to alleviate the burden of manually creating
 graphic interface for each function. Instead a series of controls are
@@ -568,7 +572,7 @@ half the horizontal extent of the first one.
 
 ![center](/assets/images/Supergui3.jpg)
 
-In some case, it is convinient to have a UI spam more than one line of
+In some case, it is convenient to have a UI spam more than one line of
 text. This is often the case for listbox for instance. Below we define a
 listbox with multiple choice and use the additional command 'geomvert'
 to specify the vertical geometry. It is set to \[3 1 1\] which means
@@ -586,8 +590,7 @@ the listbox).
 
 ![center](/assets/images/Supergui4.jpg)
 
-Using the inputgui function
----------------------------
+### Using the inputgui function
 
 Although supergui can be useful, it only creates the GUI and all the
 control flow of events needs to be handled by the UIs; i.e., creating a
@@ -699,8 +702,7 @@ contain all the user entry in the GUI.
 
 ![center](/assets/images/Supergui6.jpg)
 
-Advanced GUI design
--------------------
+### Advanced GUI design
 
 One limitation of the supergui calling format is that it is not possible
 to define random geometries. Any given line needs to span the same
