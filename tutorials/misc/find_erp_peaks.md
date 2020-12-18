@@ -16,4 +16,10 @@ For example, in the figure above select the magnifying-glass icon having the **+
 
 ![475px](/assets/images/Pop_comperp5.gif)
 
-The [bioelectromagnetism](http://eeg.sourceforge.net/bioelectromagnetism.html) EEGLAB plugin allow performing more advanced ERP peak detection.
+EEGLAB extensions
+---------------
+The following EEGLAB extensions allow performing more advanced ERP peak detection:
+
+- [bioelectromag](sccn.ucsd.edu/eeglab/plugins/eeg_toolbox1.01.zip) 
+
+- [ERPLAB](https://github.com/lucklab/erplab/releases)
