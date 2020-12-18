@@ -24,14 +24,6 @@ Here are the most common steps you might want to take when processing EEG data a
 -->
 
 
-{% assign category = page.title|downcase %}
-
-{% for post in site.posts %}
-{% if post.categories contains {{import}}  %}
-<li>{{ post.title }}</li>
-{% endif %}
-{% endfor %}
-
 ### Importing your data and associated events and channel location information:
 - [Load data in EEGLAB](/tutorials/single-subject/loading-data-in-EEGLAB)
 - [Import or check events data]()
