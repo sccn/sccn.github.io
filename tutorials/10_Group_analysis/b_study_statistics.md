@@ -1,6 +1,6 @@
 ---
 layout: default
-title: b.Study Statistics
+title: Study Statistics
 parent: 10. Group analysis
 grand_parent: Tutorials 
 has_toc: true
@@ -270,4 +270,5 @@ the figure below.
 
 ![image not found](/assets/images/Erp_condstat.gif)
 
-
+Add something on LIMO here?
+----------------------------
