@@ -11,7 +11,7 @@ Installing and starting EEGLAB
 First download [EEGLAB](http://sccn.ucsd.edu/eeglab/install.html)
 which contains the tutorial dataset in the _sample_data_ subfolder of the EEGLAB distribution.
 When you uncompress EEGLAB you will obtain a folder named "eeglabxxxx"
-(note: current version number 'xxxx' will vary). 
+(note: current version number 'xxxx' will vary).
 
 Under Windows, Matlab
 usually recommends (although does not require) that you place toolboxes
@@ -24,10 +24,10 @@ Now, we will start Matlab and EEGLAB.
 Start Matlab
 ------
 
-   - Windows: Go to Start, find Matlab and run it.
-   - MacOS: Start from the Matlab icon in the dock or in the
+- Windows: Go to Start, find Matlab and run it.
+- MacOS: Start from the Matlab icon in the dock or in the
     application folder.
-   - Linux: Open a terminal window and type "matlab" and hit enter.
+- Linux: Open a terminal window and type "matlab" and hit enter.
 
 Switch to the EEGLAB directory (folder)
 ------
