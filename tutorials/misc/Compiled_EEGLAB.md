@@ -6,14 +6,18 @@ grand_parent: Tutorials
 nav_order: 13
 ---
 
-EEGLAB now exist as a compiled binary for Mac, Windows and Ubuntu and
+EEGLAB compiled version
+=========================
+
+EEGLAB exists as a compiled binary for Mac, Windows and Ubuntu and
 may be downloaded on the [EEGLAB download
 page](https://sccn.ucsd.edu/eeglab/download.php).
 
-Video
------
+Video tutorial
+----------------
+<a href="https://www.youtube.com/watch?v=_F-5spN1FL4"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/yt_eeglab_compile.png"></a>
 
-![400px\|center\|link=<https://www.youtube.com/watch?v=_F-5spN1FL4>](/assets/images/Eeglab_compile.png)
+
 
 Installation
 ------------
@@ -82,8 +86,9 @@ Can I compile EEGLAB myself?
 Compiling EEGLAB usually consist in opening the "eeglab.prj" file (in
 the root EEGLAB folder) using the Matlab Compiler Graphical App, then
 pressing the package button. However, there might be some path issue
-that require fixing on your system. This
-[page](/Compiling_EEGLAB:_Technical_note_for_developers "wikilink")
+that require fixing on your system. 
+
+This [page](/Compiling_EEGLAB:_Technical_note_for_developers "wikilink")
 contains notes we use to compile EEGLAB in our lab (it is relatively
 complex because we have automated nightly build for 3 operating
 systems). More notes on compiling are available on this
@@ -140,7 +145,3 @@ Frequently asked questions
     [EEGLAB Gihub issue tracker](https://github.com/sccn/eeglab/issues)
     if you encounter a problem running a compiled version of EEGLAB.
 
-{ {Backward_Forward\|A12:_Quick_Tutorial_on_Rejection\|A12: Quick
-Tutorial on Rejection\|EEGLAB\| Return to the EEGLAB Wiki Home} }
-[Category:IV. Appendix](/Category:IV._Appendix "wikilink")
-[Category:EEGLAB](/Category:EEGLAB "wikilink")
