@@ -119,6 +119,8 @@ Note that only measures that are well-behaved (e.g., are not strongly
 non-linearly related) should be processed by this kind of non-parametric
 testing.
 
+Additional resources
+---------------------
 We suggest consulting a relevant statistics book for more details: An
 introduction to statistics written by one of us (AD) is available
 [here](http://sccn.ucsd.edu/~arno/mypapers/statistics.pdf). 
