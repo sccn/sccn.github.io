@@ -5,19 +5,20 @@ parent: Miscellaneous
 grand_parent: Tutorials
 ---
 Legacy methods for rejecting artifacts in continuous and epoched data
----------------------------------------------------------------------
+======================================================================
 
-This other [section](http://localhost:4000/tutorials/RejectArtifacts/) of the tutorial contain methods that are currently recommended for rejecting artifacts.
+This other [section](/tutorials/RejectArtifacts/) of the tutorial contain methods that are currently recommended for rejecting artifacts.
 
-<font color=red>The current section refers to obsolete methods that are no longer recommended for artifact rejections, given new more efficient methods are now available. In EEGLAB 2019.1 and later version, make sure to select the option <i>Show all menus from previous versions of EEGLAB</i> in EEGLAB menu item <font color=brown>File > Preference</font> to be able to use the tools on this page.</font>
+<span style="color: red>The current section refers to obsolete methods that are no longer recommended for artifact rejections, given new more efficient methods are now available. In EEGLAB 2019.1 and later version, make sure to select the option <i>Show all menus from previous versions of EEGLAB</i> in EEGLAB menu item <font color=brown>File > Preference</font"> to be able to use the tools on this page.</span>
 
 Strategy: The approach used in EEGLAB for artifact rejection is to use
 'statistical' thresholding to 'suggest' epochs to reject from analysis.
 Current computers are fast enough to allow easy confirmation and
-adjustment of suggested rejections by visual inspection, which our {
-{File\|eegplot.m} } tool makes convenient. We therefore favor
+adjustment of suggested rejections by visual inspection, which our { {File\|eegplot.m} } tool makes convenient. We therefore favor
 *semi-automated rejection* coupled with visual inspection, as detailed
-below. In practice, we favor applying EEGLAB rejection methods to
+below. 
+
+In practice, we favor applying EEGLAB rejection methods to
 *independent components* of the data, using a seven-stage method
 outlined
 [below](/#Rejection_based_on_independent_data_components "wikilink").
@@ -34,14 +35,13 @@ use them here to illustrate how the EEGLAB data rejection functions
 work. We encourage users to make their own determinations as to which
 data to reject and to analyze using the set of EEGLAB rejection tools.
 
-### Rejecting artifacts in continuous data
-
-##### Rejecting data channels based on channel statistics
+Rejecting artifacts in continuous data
+----------------------------------------
+### Rejecting data channels based on channel statistics
 
 Channel statistics may help determine whether to remove a channel or
 not. To compute and plot one channel statistical characteristics, use
-menu <font color=brown>Plot > Data statistics > channel
-statistics</font>. In the pop-up window below enter the channel number.
+menu <span style="color: brown">Plot → Data statistics → channel statistics</span>. In the pop-up window below enter the channel number.
 The parameter "Trim percentage" (default is 5%) is used for computing
 the trimmed statistics (recomputing statistics after removing tails of
 the distribution). If P is this percentage, then data values below the P
@@ -100,8 +100,11 @@ considered a 'bad' channel since ICA can extract the eye movement
 artifacts from it, making the remained data from this channel usable for
 futher analysis of neural EEG sources that project to the face). The
 function plotting data statistics may provide an objective measure for
-removing a data channel. Select menu item <font color=brown>Edit >
-Select data</font> to remove one or more data channels. It is also
+removing a data channel. 
+
+Select menu item <span style="color: brown">Edit → Select data</span> to remove one or more data channels. 
+
+It is also
 possible to plot event statistics from the EEGLAB menu -- see the
 [EEGLAB event tutorial](/Chapter_03:_Event_Processing "wikilink") for
 details.
@@ -115,8 +118,8 @@ details.
 Note that the function above may also be used to detect bad channels in
 non-continuous (epoched) data.
 
-### Rejecting artifacts in epoched data
-
+Rejecting artifacts in epoched data
+------------------------------------
 In contrast to continuous EEG data, we have developed several functions
 to find and mark for rejection those data epochs that appear to contain
 artifacts using their statistical distributions. Since we want to work
@@ -139,13 +142,10 @@ eeglab redraw % redraw eeglab to show the new epoched dataset
 
 
 After having an epoched dataset, call the main window for epoched data
-rejection, select <font color=brown>Tools > Reject data epochs >
-Reject data (all methods)</font>. The window below will pop up. We will
+rejection, select <span style="color: brown">Tools → Reject data epochs → Reject data (all methods)</span>. The window below will pop up. We will
 describe the fields of this window in top-to-bottom order. First, change
-the bottom multiple choice button reading <font color=brown>Show all
-trials marked for rejection by the measure selected above or checked
-below</font> to the first option: <font color=brown>Show only the new
-trials marked for rejection by the measure selected above</font>. We
+the bottom multiple choice button reading <span style="color: brown">Show all trials marked for rejection by the measure selected above or checked below</span> to the first option: 
+<span style="color: brown">Show only the new trials marked for rejection by the measure selected above</span>. We
 will come back to the default option at the end.
 
 
@@ -154,12 +154,12 @@ will come back to the default option at the end.
 
 
 
-##### Rejecting epochs by visual inspection
+### Rejecting epochs by visual inspection
 
 As with continuous data it is possible to use EEGLAB to reject epoched
 data simply by visual inspection. To do so, press the *Scroll data*
 button on the top of the interactive window. A scrolling window will pop
-up. Chage the scale to '79'. Epochs are shown delimited by blue dashed
+up. Change the scale to '79'. Epochs are shown delimited by blue dashed
 lines and can be selected/deselected for rejection simply by clinking on
 them. Rejecting parts of an epoch is not possible.
 
@@ -167,7 +167,7 @@ them. Rejecting parts of an epoch is not possible.
 ![575px](/assets/images/Iii21eegplot.jpg)
 
 
-##### Rejecting extreme values
+### Rejecting extreme values
 
 During 'threshold rejection', the user sets up bounding values the data
 should not exceed. If the data (at the selected electrodes) exceeds the
@@ -214,7 +214,7 @@ marked for rejection.
 ![575px](/assets/images/Rawyellowmultiple.gif)
 
 
-##### Rejecting abnormal trends
+### Rejecting abnormal trends
 
 Artifactual currents may cause linear drift to occur at some electrodes.
 To detect such drifts, we designed a function that fits the data to a
@@ -250,7 +250,7 @@ the command line, or by selecting <font color=brown>Tools > Reject data
 epochs > Reject flat line data</font>, allows specifying additional
 parameters.
 
-##### Rejecting improbable data
+### Rejecting improbable data
 
 By determining the probability distribution of values across the data
 epochs, one can compute the probability of occurrence of each trial.
@@ -315,7 +315,7 @@ MARKS*.
 ![625px](/assets/images/Iii24eegplot.jpg)
 
 
-##### Rejecting abnormally distributed data
+### Rejecting abnormally distributed data
 
 Artifactual data epochs sometimes have very 'peaky' activity value
 distributions. For instance, if a discontinuity occurs in the activity
@@ -354,7 +354,7 @@ window below, and pressing *Scroll data* in the main rejection window
 (above) brings up the standard data scrolling window display which may
 be used to manually adjust the list of epochs marked for rejection.
 
-##### Rejecting abnormal spectra
+### Rejecting abnormal spectra
 
 According to our analysis (Delorme, A., Makeig, S., Jung, T.P.,
 Sejnowski, T.J. (2001), "[Automatic rejection of event-related potential
@@ -406,7 +406,7 @@ window (useful for detecting muscle activity).
 
 
 
-##### Inspecting current versus previously proposed rejections
+### Inspecting current versus previously proposed rejections
 
 To compare the effects of two different rejection thresholds, the user
 can plot the currently and previously marked data epochs in different
@@ -437,7 +437,7 @@ Note: Pressing *UPDATE MARKS* only updates the currently rejected trials
 and optional visual adjustments. Previously rejected trials are ignored
 and can not be removed manually in the plot window.
 
-##### Inspecting results of all rejection measures
+### Inspecting results of all rejection measures
 
 To visually inspect data epochs marked for rejection by different
 rejection measures, select <font color=brown>Show all trials marked for
@@ -458,7 +458,8 @@ window above, all the *current rejection measure* are affected and are
 reflected in the main rejection window after you press the *UPDATE
 MARKS* button.
 
-##### Notes and strategy
+Notes and strategy
+-------------------
 
 -   The approach we take to artifact rejection is to use statistical
     thresholding to suggest epochs to reject from analysis. Current
@@ -466,7 +467,7 @@ MARKS* button.
     of suggested rejections by visual inspection. We therefore favor
     *semi-automated rejection* coupled with visual inspection.
 -   All the functions presented here can also be called individually
-    through <font color=brown>Plot > Reject data epochs</font> or from
+    through <span style="color: brown>Plot "> Reject data epochs</span> or from
     the Matlab command line.
 -   After labeling trials for rejection, it is advisable to *save* the
     dataset before actually rejecting the marked trials (marks will be
@@ -574,4 +575,5 @@ that the analysis be done iteratively in the following seven steps:
 8.  Inspect and reject the components. Note that components should NOT
     be rejected before the second ICA, but after.
 
-(\*) After closing the main ICA rejection window, select <font color=brown>Tools > Reject data using ICA > Export marks to data rejection</font> and then <font color=brown>Tools > Reject data epochs > Reject by inspection</font> to visualize data epochs marked for rejection using ICA component activities.
+(\*) After closing the main ICA rejection window, select <span style="color: brown">Tools → Reject data using ICA → Export marks to data rejection</span> and then 
+ <span style="color: brown">Tools → Reject data epochs → Reject by inspection</span> to visualize data epochs marked for rejection using ICA component activities.
