@@ -1,8 +1,7 @@
 ---
 layout: default
 title: ICA background
-permalink: /tutorials/IV.Appendix/ICA_background.html
-parent:  zz. Concepts guide
+parent:  Concepts guide
 grand_parent: Tutorials
 categories: concepts
 
