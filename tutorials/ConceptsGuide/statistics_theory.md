@@ -122,10 +122,9 @@ testing.
 Additional resources
 ---------------------
 We suggest consulting a relevant statistics book for more details: An
-introduction to statistics written by one of us (AD) is available
+introduction to statistics written by Arnaud Delorme is available
 [here](http://sccn.ucsd.edu/~arno/mypapers/statistics.pdf). 
 
-A good
-textbook on non-parametric statistics is the text book by Rand Wilcox,
+A good textbook on non-parametric statistics is the text book by Rand Wilcox,
 ["Introduction to robust estimation and hypothesis testing"](https://www.sciencedirect.com/book/9780123869838/introduction-to-robust-estimation-and-hypothesis-testing).
 
