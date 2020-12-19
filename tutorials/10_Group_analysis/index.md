@@ -19,7 +19,6 @@ In addition to the tutorial sections below, you may want to watch this short vid
 
 <a href="https://www.youtube.com/watch?v=kofJh7biGsE"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/yt_multiple_subjects.png"></a>
 
-
 The most common steps you might take for group analysis of channel data and of ICA component are outlined here:
 
 ### Start by getting all your datasets within a STUDY data structure:

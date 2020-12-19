@@ -12,36 +12,33 @@ Time/frequency analysis characterizes changes or perturbations in the
 spectral content of the data considered as a sum of windowed sinusoidal
 functions (i.e. sinusoidal wavelets). There is a long history and much
 recent development of methods for time/frequency decomposition. 
-
 The methods used in the basic EEGLAB functions are straightforward. Their
 mathematical details are given in a reference paper [(Delorme and
 Makeig, 2004)](http://sccn.ucsd.edu/eeglab/download/eeglab_jnm03.pdf).
+You may also want to watch the short series of videos on computing time-frequency decompositions in EEGLAB (hosted on Youtube) below.
 
-Decomposing channel data
--------------------------
+<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN2TAoLHVW5NvNmJtwiHurzw"><img align="center" width="400" src= "{{ site.baseurl }}/assets/images/yt_spectopo2.png"></a>
 
-### ERSP and ITC
+ERSP and ITC time-frequency analysis
+------------------------------
+
+### Time-frequency images
+We use here the tutorial dataset as it was after extracting data epochs. Select menu item <span style="color: brown">File → load existing dataset</span> and select the tutorial file "eeglab_data_epochs_ica.set" located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
 To detect transient *event-related spectral perturbation,* or ERSP,
 [(Makeig, 1993)](http://sccn.ucsd.edu/~scott/ersp93.html)
 (event-related shifts in the power spectrum) and inter-trial coherence
 (ITC) (event-related phase-locking) events in epoched EEGLAB datasets,
-select <span style="color: brown">Plot → Time frequency transforms → Channel time-frequency</span> (calling [pop_timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timef.m). Below, we
-enter *14* (Cz) for the *Channel number*, *.01* for the *Bootstrap
-significance level*, and set the optional parameter *padratio* to *16*
-as below (a <em>very high</em> over-sampling factor for frequencies,
-giving a smooth looking plot at quite some unnecessary computational
-cost). We let the other defaults remain.
+select <span style="color: brown">Plot → Channel time-frequency</span> calling the [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) function. Below, we
+enter *14* (Cz) for the *Channel number*. We let the other defaults remain. We press *OK*.
 
-Note the default "Wavelet cycles" entry of <b>3 0.5</b>. 
-As explained in the help message for the <em>newtimef()</em> function, this means
+Note the default "Wavelet cycles" entry is *3 0.8*.
+As explained in the help message for the *newtimef()* function, this means
 that the wavelet used to measure the amount and phase of the data in
 each successive, overlapping time window will begin with a 3-cycle
-wavelet (with a Hanning-tapered window applied). 
-
-The '0.5' here means
+wavelet (with a Hanning-tapered window applied). The '0.8' here means
 that the number of cycles in the wavelets used for higher frequencies
-will continue to expand slowly, reaching half (0.5) the number of
+will continue to expand slowly, reaching 20% (1 minus 0.8) the number of
 cycles in the equivalent FFT window at its highest frequency. This
 controls the shapes of the individual time/frequency windows measured
 by the function, and their shapes in the resulting time/frequency
@@ -51,183 +48,96 @@ panes.
 analyzed. By current default, the lowest frequency window is about 0.5
 seconds long. Three cycles in 0.5 sec sets the lowest frequency
 analyzed to about 6 Hz. To make this lowest frequency near 3 Hz, we
-would need to add the Optional newtimef() argument <b>'winlen',
-xxx</b> where xxx is the sampling rate of the data (EEG.srate, also
+would need to add the Optional newtimef() argument " 'winlen',
+xxx " where xxx is the sampling rate of the data (also
 shown on the blue EEGLAB menu window). This would specify that the
 window length ('winlen') at the lowest frequency should be xxx samples
-long (i.e., 1 sec long), meaning the lowest analysis frequency would
-be 3 cycles n 1 sec, i.e. 1 Hz. We press *OK*.
+long (i.e., 1 sec long). If we were using 1 cycles, the lowest frequency
+would be 1 Hz. With 3 cycles, the lowest frequency is 3 Hz.
 
+![px]({{ site.baseurl }}/assets/images/newtimef1.png)
 
-![px]({{ site.baseurl }}/assets/images/Pop_newtimef()_gui.jpg)
-
-
-The [timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timef.m) window below appears:
+The window below appears:
  
- ![375px]({{ site.baseurl }}/assets/images/Timef.gif)
+ ![375px]({{ site.baseurl }}/assets/images/newtimefplot1.png)
 
- 
  - The **top image** shows
 mean event-related changes in spectral power (from pre-stimulus
 baseline) at each time during the epoch and at each frequency (\< 50
 Hz). To inspect these changes more closely, click on the color image.
 A new window will pop up. Enabling Matlab zoom allows zooming in to
-any desired time/frequency window. The ERSP image shows a brief but
-significant decrease in power at about 370 ms at 8 Hz (click on the
+any desired time/frequency window. The ERSP image shows a brief decrease in power at about 370 ms at 8 Hz (click on the
 image to zoom in and determine the exact frequency), a power increase
 centered at 13.5 Hz and starting at 300 ms. More spectral changes
-occur at 20-28 Hz. Note that the method used to asses significance is
-based on random data shuffling, so the exact significance limits of
-these features may appear slightly different.
-
-- The **upper left panel** shows the baseline mean power spectrum, and the
-lower part of the upper panel, the ERSP envelope (low and high mean dB
+occur at 20-28 Hz. The left panel adjacent to the top image shows the baseline mean power spectrum, and the
+lower part of the top image, the ERSP envelope (low and high mean dB
 values, relative to baseline, at each time in the epoch).
 
 - The **lower image** shows  the Inter-Trial coherence (ITC) at all
 frequencies. We previously encountered the ITC when we explained the 
-[ERP_image_plotting.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=ERP_image_plotting.m)
- function. A significant ITC indicates
+[ERP image plotting](tutorials/08_Plot_data/Plotting_ERP_images.html). A significant ITC indicates
 that the EEG activity at a given time and frequency in single trials
 becomes phase-locked (not phase-random with respect to the
-time-locking experimental event). Here, a significant ITC appears
-briefly at about 10 Hz (at about the same time as the power increase
-in the *upper panel*), but this effect might well become insignificant
-using a more rigorous significance threshold. 
+time-locking experimental event). Here, ITC
+briefly increases at about 10 Hz (at about the same time as the power increase
+in the *upper panel*). 
 
-Note that the
-time/frequency points showing significant ITC and ERSP are not
-necessarily identical. In this plot, ITC hardly reaches significance
-and cannot be interpreted. The help message for the 
-[timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timef.m)
- function contains information about all its parameters, the images
+The help message for the 
+[newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=newtimef.m)
+ function contains information about its parameters, the images
 and curve plotted, and their meanings.
 
+*Note*: You may change the optional parameter *padratio* to increase frequency resolution. For example, setting the *padratio* to *16* would give a smooth looking plot at quite some unnecessary computational cost. 
 
+### Masking for significance
 
+Select <span style="color: brown">Plot → Channel time-frequency</span> and 
+enter *14* (Cz) for the *Channel number*. Use *.05* for the *Bootstrap
+significance level*, and check the *FDR correct* checkbox to correct for multiple
+comparisons using the False Discovery Rate method (see statistics [Appendix](/tutorials/ConceptsGuide/statistics_theory.html) for more information). Press *Ok*.
 
-Computing ICA component time/frequency transforms
------------------------------------------------
+![px]({{ site.baseurl }}/assets/images/newtimef2.png)
 
-It is more interesting to look at time-frequency decompositions of
-component activations than of separate channel activities, since
-independent components may directly index the activity of one brain EEG
-source, whereas channel activities sum potentials volume-conducted from
-different parts of the brain.
+The window below appears:
+ 
+ ![375px]({{ site.baseurl }}/assets/images/newtimefplot2.png)
 
-To plot a component time-frequency transformwe select <span style="color: brown">Plot → Time/frequency transforms → Component time-frequency</span> 
-(calling [pop_timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timef.m) then:
- - enter *10* for
-the *Component number* to plot, 
- - *\[-500 1000\]* for the "Epoch time
-range" (FFT) for *Wavelet cycles*, 
-- and *.01* for the *Bootstrap
-significance level*. 
-Note that Morlet wavelets are used by default
-although it is also possible to use sinusoidal wavelets. 
-- we change
-*padratio* to *16* and add the optional argument '' 'maxfreq', '30' ''
-to visualize only frequencies up to 30 Hz. 
-- Again, we press *OK*.
+ Note that the
+time/frequency points showing significant ITC and ERSP are not
+necessarily identical. ERSP reaches significance over the regions described in the previous section. However, ITC does not reach significance. Note also that the method used to asses significance is
+based on random data shuffling, so the exact significance limits of
+these features may appear slightly different.
 
+### Time-frequency curves
 
-Note: [pop_timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timef.m) decompositions using FFTs allow
-computation of lower frequencies than wavelets, since they compute as
-low as one cycle per window, whereas the wavelet method uses a fixed
-number of cycles (default 3) for each frequency.
+In addition to plotting time-frequency images, it is also possible to plot
+time-frequency curves at given frequencies. Select <span style="color: brown">Plot → Channel time-frequency</span> and 
+enter 
+- *1* (FPz) for the *Channel number*
+- Enter *5 10 20* in the *Frequency limit* edit box and select *Use actual freq.* in the adjacent dropdown list
+- Check the checkbox *Plot curve at each frequency*
 
+Press *Ok*.
 
-![px]({{ site.baseurl }}/assets/images/Component_TF_transform_gui.jpg)
+![px]({{ site.baseurl }}/assets/images/newtimef3.png)
 
+The window below appears:
+ 
+ ![375px]({{ site.baseurl }}/assets/images/newtimefplot3.png)
 
+ The plot above shows fluctuations in spectral power and ITC through time at the chosen frequencies. This plotting format does not allow masking for significance.
 
-The following [timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timef.m) window appears. 
-
-
-
-
-![425px]({{ site.baseurl }}/assets/images/Componenttimefreq.gif)
-
-
-The ITC image (*lower
-panel*) shows strong synchronization between the component activity and
-stimulus appearance, first near 15 Hz then near 4 Hz. The ERSP image
-(*upper panel*) shows that the 15-Hz phase-locking is followed by a
-15-Hz power increase, and that the 4-Hz phase-locking event is
-accompanied by, but outlasts, a 4-Hz power increase. 
-
-Note that the
-appearance of oscillatory activity in the ERP (*trace under bottom ITC
-image*) before and after the stimulus is not significant according to
-ITC.
-
-
-### Computing component cross-coherences
-
-To determine the degree of synchronization between the activations of
-two components, we may plot their event-related cross-coherence (a
-concept first demonstrated for EEG analysis by Rappelsberger). Even
-though independent components are (maximally) independent over the whole
-time range of the training data, they may become transiently (partially)
-synchronized in specific frequency bands. To plot component
-cross-coherence, select <span style="color: brown">Plot → Time-frequency transforms → Component cross-coherence</span>, 
-which calls [pop_crossf.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_crossf.m).
-Below, we enter:
- - components *4* and *9* (Use any
-components in your decomposition), 
-- *Bootstrap significance level* to
-*0.01*, 
-- set *padratio* to *16*. 
-
-We again press *OK*.
-
-
-![px]({{ site.baseurl }}/assets/images/Component_cross-coherence_gui.jpg)
-
-
-
-In the [crossf.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=crossf.m) window below, the two components become
-synchronized (*top panel*) around 11.5 Hz (click on the image to zoom
-in). The *upper panel* shows the coherence magnitude (between 0 and 1, 1
-representing two perfectly synchronized signals). The *lower panel*
-indicates the phase difference between the two signals at time/frequency
-points where cross-coherence magnitude (in the *top panel*) is
-significant. In this example, the two components are synchronized with a
-phase offset of about -120 degrees (this phase difference can also be
-plotted as latency delay in ms, using the minimum-phase assumption. See
-[crossf.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=crossf.m) help for more details about the function parameters
-and the plotted variables).
-
-
-![425px]({{ site.baseurl }}/assets/images/Crossf.gif)
-
-
-
-One can also use <span style="color: brown">Plot → Time-frequency transforms → Channel cross-coherence</span> 
-to plot event-related cross-coherence
-between a pair of scalp channels, but here relatively distant electrode
-channels may appear synchronized only because a large EEG source
-projects to both of them. Other source confounds may also affect channel
-coherences in unintuitive ways. 
-
-Computing cross-coherences on
-independent data components may index transient synchronization between
-particular cortical domains.
-
-Plotting ERSP time course and topography
------------------------------------------
+Advanced ERSP/ITC plotting
+---------------------
 Recall that spectral perturbations at a single-analysis frequency and
-channel or component in the single epochs (sorted by some relevant
-value) can be imaged using [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) or by selecting
-<span style="color: brown">Plot → Component\|Channel ERP image</span>.
+channel in the single epochs (sorted by some relevant
+value) can be imaged using [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) or by selecting menu item <span style="color: brown">Plot → Component → Channel ERP image</span>.
 
-Called from the command line (see [EEGLAB script writing](/tutorials/advanced-topics/writing-EEGLAB-scripts.html)), 
-the [timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timef.m) and [crossf.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=crossf.m) routines can return the data
-for each part of their figures as a Matlab variable. Accumulating the
+Called from the command line, 
+the [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) and [newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=newtimef.m) routines can return the data for each part of their figures as a Matlab variable. Accumulating the
 ERSP and ITC images (plus the ERSP baseline and significance-level
-information) for all channels (e.g., via an [EEGLAB script](/tutorials/advanced-topics/writing-EEGLAB-scripts.html)) allows use of
-another toolbox routine, [tftopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=tftopo.m) (currently not available
-from the EEGLAB menu).
+information) for all channels allows use of
+another toolbox routine, [tftopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=tftopo.m) (currently not available from the EEGLAB menu). See the [EEGLAB script writing](/tutorials/11_Scripting/) tutorial for more information.
 
 
 

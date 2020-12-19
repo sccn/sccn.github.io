@@ -4,12 +4,21 @@ title: e. ICA components
 parent: 8. Plot data
 grand_parent: Tutorials
 ---
-Working with ICA components
+Plotting ICA components
 ================================
+We use ICA to remove/subtract [artifacts](/tutorials/06_RejectArtifacts/RunICA.html). ICA may also be used to find brain sources. In this section of the tutorial, we will assess which components contribute the most to the data.
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 
-
-Plotting component spectra and maps
+Component spectra contribution
 -----------------------------------
 
 It is of interest to see which components contribute most strongly to
@@ -19,16 +28,10 @@ This calls [pop_spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_
 Its first input is the epoch time range to
 consider, the fourth is the percentage of the data to sample at random
 (smaller percentages speeding the computation, larger percentages being
-more definitive). 
-
-Since our EEG dataset is fairly small, we choose to
-change this value to *100* (= all of the data). 
-
-We will then visualize
+more definitive). Since our EEG dataset is fairly small, we choose to
+change this value to *100* (= all of the data). We will then visualize
 which components contribute the most at 10 Hz, entering *10* in the
-*Scalp map frequency* text box. 
-
-We simply scan all components, the
+*Scalp map frequency* text box. We simply scan all components, the
 default in *Components to consider*. Press *OK*.
 
 
@@ -38,8 +41,6 @@ default in *Components to consider*. Press *OK*.
 
 
 The [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) window (below) appears.
-
-
 
 
 ![425px]({{ site.baseurl }}/assets/images/Spectopocomps.gif)
@@ -57,16 +58,16 @@ projection of each component at each channel which is computationally
 intensive. 
 
 To do so, go back to the previous interactive window:
- - choose explicitly to plot component's contribution at channel *27* (POz) where
+ - Choose explicitly to plot component's contribution at channel *27* (POz) where
 power appears to be maximum at *10* Hz using the *Electrode number to
 analyze ...:* field, 
-- uncheck the checkbox *\[checked\] compute component
+- Uncheck the checkbox *\[checked\] compute component
 spectra...*. 
-- set percent to *100* as before.
-- display *6*
+- Set percent to *100* as before.
+- Display *6*
 component maps instead of 5 (default) (note that all component spectra
 will be shown) 
-- set the maximum frequency to be plotted at
+- Set the maximum frequency to be plotted at
 *30* Hz using the *Plotting frequency range* option in the bottom panel
 (below). 
 - Press *OK* when done.
@@ -102,26 +103,20 @@ The following text is displayed
 
 *"Percent variance acounted for"* (pvaf) compares the variance of the data
 MINUS the (back-projected) component to the variance of the whole data.
-
 Thus, if one component accounts for all the data, the data minus the
 component back-projection will be 0, and pvaf will be 100%.
- 
- If the
-component has zero variance, it accounts for none of the data and pvaf =
+If the component has zero variance, it accounts for none of the data and pvaf =
 0%. 
-
 If a component somehow accounts for the NEGATIVE of the data,
 however, pvaf will be larger than 100% (meaning: "If you remove this
 component, the data actually get larger, not smaller!"). 
-
 According to
 the variance accounted for output above, component 10 accounts for more
 than 50% of power at 10 Hz for channel POz. Note: A channel number has
 to be entered otherwise component contributions are not computed.
 
-Plotting component ERPs
------------------------
-
+Component ERP contributions
+------------------------------------
 After seeing which components contribute to frequency bands of interest,
 it is interesting to look at which components contribute the most to the
 ERP.
@@ -131,18 +126,12 @@ select <span style="color: brown">Plot → Component ERPs → In rectangular arr
 =pop_plotdata.m). Then
 press *OK*.
 
-
 ![325px]({{ site.baseurl }}/assets/images/Rectarrayedit.gif)
-
-
 
 The [plotdata.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=plotdata.m) window below pops up, showing the average ERP
 for all 31 components.
 
-
 ![425px]({{ site.baseurl }}/assets/images/I103pop_plotdata.jpg)
-
-
 
 Click on the component-1 trace (above) to plot this trace in new window
 (as below).
@@ -150,24 +139,14 @@ Click on the component-1 trace (above) to plot this trace in new window
 
 ![425px]({{ site.baseurl }}/assets/images/I103single_plotdata.jpg)
 
-
-
-As for electrodes, use menu <span style="color: brown">Plot → Sum/Compare comp. ERPs</span> to plot component ERP differences accross multiple
-datasets.
-
-Plotting component ERP contributions
-------------------------------------
-
 To plot the contribution of component ERPs to the data ERP, select
 <span style="color: brown">Plot → Component ERPs → with component maps</span>,
 which calls [pop_envtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_envtopo.m). 
-
 Simply press *OK* to plot the 7
 components that contribute the most to the average ERP of the dataset.
-
 Note that artifactual components can be subtracted from the data prior to
 plot the ERP using the *Indices of component to subtract ...* edit
-box.
+box. Press *Ok*.
 
 
 ![475]({{ site.baseurl }}/assets/images/Pop_envtopo.gif)
@@ -212,7 +191,7 @@ accounted for by each component:
 
 
 
-Component ERP-image plotting
+Component ERP-image
 ----------------------------
 
 To plot ERP-image figures for component activations, select
@@ -238,11 +217,9 @@ For component 6 (below) we observe in the [erpimage.m](http://sccn.ucsd.edu/eegl
 that phase at the analysis frequency (9Hz to 11Hz) is evenly distributed
 in the time window -300 to 0 ms (as indicated by the bottom trace
 showing the inter-trial coherence (ITC) or phase-locking factor). 
-
 This
 component accounts for much of the EEG power at 10 Hz, but for little if
 any of the average ERP.
- 
  Overall, mean power at the analysis frequency
 does not change across the epoch (middle blue trace) and phase at the
 analysis frequency is not reset by the stimulus (bottom blue trace).
@@ -251,7 +228,6 @@ this number of trials).
 
 
 ![375px]({{ site.baseurl }}/assets/images/I105erpimage.jpg)
-
 
 
 *Note*: As scale and polarity information is distributed in the ICA
@@ -276,21 +252,77 @@ unit for power has changed.
 ![375px]({{ site.baseurl }}/assets/images/I105erpimage2.jpg)
 
 
-In the next tutorial, we show how to use EEGLAB to perform and visualize
-time/frequency decompositions of channel activities or independent
+In the next section, we show how to use EEGLAB to perform and visualize
+time/frequency decompositions of independent
 component activations.
 
-### Plotting channels and component headplots
+Component time/frequency transforms
+-----------------------------------------------
+
+It is more interesting to look at time-frequency decompositions of
+component activations than of separate channel activities, since
+independent components may directly index the activity of one brain EEG
+source, whereas channel activities sum potentials volume-conducted from
+different parts of the brain.
+
+To plot a component time-frequency transformwe select <span style="color: brown">Plot → Component time-frequency</span> 
+(calling [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m)) then:
+ - Enter *10* for
+the *Component number* to plot, 
+ - *\[-500 1000\]* for the "Epoch time
+range" (FFT) for *Wavelet cycles*, 
+- And *.01* for the *Bootstrap
+significance level*. 
+Note that Morlet wavelets are used by default
+although it is also possible to use sinusoidal wavelets. 
+- We change
+*padratio* to *16* and add the optional argument '' 'maxfreq', '30' ''
+to visualize only frequencies up to 30 Hz. 
+- Again, we press *OK*.
+
+
+Note: [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) decompositions using FFTs allow
+computation of lower frequencies than wavelets, since they compute as
+low as one cycle per window, whereas the wavelet method uses a fixed
+number of cycles (default 3) for each frequency.
+
+
+![px]({{ site.baseurl }}/assets/images/Component_TF_transform_gui.jpg)
+
+
+
+The following [timef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timef.m) window appears. 
+
+
+
+
+![425px]({{ site.baseurl }}/assets/images/Componenttimefreq.gif)
+
+
+The ITC image (*lower
+panel*) shows strong synchronization between the component activity and
+stimulus appearance, first near 15 Hz then near 4 Hz. The ERSP image
+(*upper panel*) shows that the 15-Hz phase-locking is followed by a
+15-Hz power increase, and that the 4-Hz phase-locking event is
+accompanied by, but outlasts, a 4-Hz power increase. 
+
+Note that the
+appearance of oscillatory activity in the ERP (*trace under bottom ITC
+image*) before and after the stimulus is not significant according to
+ITC.
+
+
+
+
+Component head plots
+---------------
+We have plotted 2-D component scalp maps using menu item <font color=brown>Plot → Component maps → In 2-D</font> when using ICA to remove/subtract [artifacts](/tutorials/06_RejectArtifacts/RunICA.html)
 
 Using EEGLAB, you may also plot a 3-D head plot of a component
-topography by selecting <font color=brown>Plot \> Component maps \> In
+topography by selecting <font color=brown>Plot → Component maps → In
 3-D</font>. This calls [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m). The function should
 automatically use the spline file you have generated when plotting ERP
-3-D scalp maps. Select one ore more components (below) and press *OK*.
-For more information on this interface and how to perform
-coregistration, see the [Plotting ERP Data in
-3-D](/Chapter_06:_Data_Averaging#Plotting_ERP_data_as_a_series_of_3-D_maps "wikilink")
-and the [DIPFIT](/A5:_DIPFIT "wikilink").
+3-D scalp maps. Select components *1, 2, 3, 4, 5* (below), set the *heaplot options* to " 'view', [0 90] " and press *OK*.
 
 
 ![575px]({{ site.baseurl }}/assets/images/3Dcomponentedit.gif)
@@ -303,4 +335,6 @@ enter a different *view* angle in the window above.
 
 ![375px]({{ site.baseurl }}/assets/images/93ICA_3D.jpg)
 
-
+For more information on this interface and how to perform
+coregistration, see the [Plotting ERP Data in
+3-D](http://localhost:4000/tutorials/08_Plot_data/Data_Averaging.html).
