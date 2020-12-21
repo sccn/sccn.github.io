@@ -4,6 +4,8 @@ title: How to download EEGLAB
 parent: Other documents
 ---
 
+# How to download EEGLAB
+
 This page describe how to download the development version of EEGLAB.
 This version contains the latest development. It is recommended for EEG
 advanced users.
@@ -60,4 +62,3 @@ revision message have been preserved in the migration process. It is
 however not possible to access the RCS, CVS, and SVN repositories since
 they refer to obsolete versions of EEGLAB.
 
-[Category:EEGLAB](/Category:EEGLAB "wikilink")

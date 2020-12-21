@@ -4,121 +4,137 @@ title: EEGLAB Menu Functions
 parent: Other documents
 ---
 
+
+
+# EEGLAB Menu Functions
+
+
 In EEGLAB, all menu items call stand-alone functions. The correspondence
 is indicated below. *Note that this part of the documentation is not
 totally up to date. Some recently added menus might be missing.*
 
-#### File
+
+## File
 
 
-**Import data**
+### Import data
 
+#### Using EEGLAB functions and plugins
 
-From ASCII/float file or Matlab array --
+- From ASCII/float file or Matlab array --
 [pop_importdata()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_importdata.m)
 
-From continuous or seg. EGI .RAW file --
-[pop_readegi()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_readegi.m)
+- From Biosemi .BDF file  (BIOSIG Toolbox)--
+[pop_biosig()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_biosig.m)
 
-From Multiple seg. EGI .RAW files --
-[pop_readsegegi()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_readsegegi.m)
+- From other EDF/EDF+/ GDF formats using BIOSIG --
+[pop_biosig()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_biosig.m)
 
-From BCI2000 ASCII file -- pop_loadbci()
+ - From Brain Vis. Rec. .VHDR file -- pop_loadbv()
+   
+- From Brain Vis. Anal. Matlab file -- pop_loadbva()
 
-From Snapmaster .SMA file --
-[pop_snapread()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_snapread.m)
+- From Muse monitor app .csv file -- pop_musemonitor()
 
-From Neuroscan .CNT file --
+- Import Phillips .mff file -- pop_mffimport()
+
+-  From Neuroscan .CNT file --
 [pop_loadcnt()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadcnt.m)
 
-From Neuroscan .EEG file --
+- From Neuroscan .EEG file --
 [pop_loadeeg()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadeeg.m)
 
-From Biosemi .BDF file --
+- Using the FileIO interface -- [pop_fileio()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_fileio.m)
+
+- Using the BIOSIG interface -- pop_biosig()
+
+Additional functions:
+
+- From continuous or seg. EGI .RAW file --
+[pop_readegi()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_readegi.m)
+
+- From Multiple seg. EGI .RAW files --
+[pop_readsegegi()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_readsegegi.m)
+
+- From BCI2000 ASCII file -- pop_loadbci()
+
+- From Snapmaster .SMA file --
+[pop_snapread()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_snapread.m)
+
+- From .EDF file --
 [pop_biosig()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_biosig.m)
 
-From .EDF file --
-[pop_biosig()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_biosig.m)
+- From ANT EEProbe .CNT file -- pop_loadeep()
 
-From ANT EEProbe .CNT file -- pop_loadeep()
+- From ANT EEProbe .AVR file -- pop_loadeep_avg()
 
-From ANT EEProbe .AVR file -- pop_loadeep_avg()
+- From .BDF file (backup function) -- pop_readbdf()
 
-From .BDF file (backup function) -- pop_readbdf()
+- From CTF Folder (MEG) -- 'ctf_folder'
 
-From Brain Vis. Rec. .VHDR file -- pop_loadbv.m
+- From ERPSS .RAW or .RDF file -- pop_read_erpss()
 
-From Brain Vis. Anal. Matlab file -- pop_loadbva()
+- From INStep .ASC file -- pop_loadascinstep()
 
-From CTF Folder (MEG) -- 'ctf_folder'
+- From 4D .M4D pdf file -- pop_read4d()
 
-From ERPSS .RAW or .RDF file -- pop_read_erpss()
-
-From INStep .ASC file -- pop_loadascinstep()
-
-From 4D .M4D pdf file -- pop_read4d()
-
-From other formats using FILEIO --
-[pop_fileio()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_fileio.m)
-
-From other formats using BIOSIG --
-[pop_biosig()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_biosig.m)
-
-From Matlab array or ASCII file --
+- From Matlab array or ASCII file for epoched data --
 [pop_importepoch()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_importepoch.m)
 
-From Neuroscan .DAT file --
+- From Neuroscan .DAT file --
 [pop_loaddat()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loaddat.m)
 
-<!-- -->
+### Import event info
 
-
-**Import event info**
-
-
-From Matlab array or ASCII file --
+- From Matlab array or ASCII file --
 [pop_importevent()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_importevent.m)
 
-From data channel --
+- From data channel --
 [pop_chanevent()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanevent.m)
 
-From Presentation .LOG file --
+- From Presentation .LOG file --
 [pop_importpres()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_importpres.m)
 
-From Neuroscan .EV2 file --
+- From Neuroscan .EV2 file --
 [pop_importev2()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_importev2.m)
 
-'''Export '''
+- From ERPLab textfile -- pop_importerplab()
 
+### Export
 
-Data and ICA to text file --
+- Data and ICA to text file --
 [pop_export()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_export.m)
 
-Weight matrix to text file --
+- Weight matrix to text file --
 [pop_expica()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_expica.m)
 
-Inverse weight matrix to text file --
+- Inverse weight matrix to text file --
 [pop_expica()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_expica.m)
 
-Data to EDF/BDF/GDF file --
+- Events to text file -- pop_expevents()
+
+- Data to EDF/BDF/GDF file --
 [pop_writeeeg()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_writeeeg.m)
 
-Write Brain Vis. exchange format file -- --
+- Write Brain Vis. exchange format file -- pop_writebva()
 
-Load existing dataset --
+- Copy and Rename Brain Vis. exchange format file -- pop_copybv()
+
+### Dataset load and save
+
+- Load existing dataset --
 [pop_loadset()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m)
 
-Save current dataset --
+- Save current dataset --
 [pop_saveset()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_saveset.m)
 
-Save datasets --
+- Save datasets --
 [pop_saveset()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_saveset.m)
 
-Clear dataset(s) --
+- Clear dataset(s) --
 [pop_delset()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_delset.m)
 
-'''Create Study '''
-
+### Create Study
 
 Using all loaded datasets --
 [pop_study()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_study.m)
@@ -141,355 +157,351 @@ Clear study --
 Maximize memory --
 [pop_editoption()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_editoptions.m)
 
-**History Scripts**
-
-
-Save dataset history script --
+### History Scripts
+ 
+- Save dataset history script --
 [pop_saveh()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_saveh.m)
 
-Save session history script --
+- Save session history script --
 [pop_saveh()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_saveh.m)
 
-Run Script -- -- --
+- Run Script -- pop_runscript()
 
-Quit
+- Quit
 
-#### Edit
+## Edit
 
-
-Dataset info --
+- Dataset info --
 [pop_editset()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_editset.m)
 
-Event fields --
+- Event fields --
 [pop_editeventfield()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_editeventfield.m)
 
-Event values --
+- Event values --
 [pop_editeventvals()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_editeventvals.m)
 
-About this dataset --
+- About this dataset --
 [pop_comments()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_comments.m)
 
-Channel locations --
+- Channel locations --
 [pop_chanedit()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanedit.m)
 
-Select data --
+- Select data --
 [pop_select()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_select.m)
 
-Select data using events --
+- Select data using events --
 [pop_rmdat()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rmdat.m)
 
-Select epochs or events --
+- Select epochs or events --
 [pop_selectevent()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_selectevent.m)
 
-Copy current dataset --
+- Copy current dataset --
 [pop_copyset()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_copyset.m)
 
-Append datasets --
+- Append datasets --
 [pop_mergeset()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_mergeset.m)
 
-Delete dataset(s) --
+- Delete dataset(s) --
 [pop_delset()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_delset.m)
 
-#### Tools
+## Tools
 
 
-Change sampling rate --
+- Change sampling rate --
 [pop_resample()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_resample.m)
 
-*' Filter the data*'
+### Filter the data
 
+- Basic FIR filter (new default) --
+[pop_eegfilt()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegfiltnew.m)
 
-Basic FIR filter --
-[pop_eegfilt()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegfilt.m)
+- Windowed sinc FIR filter -- pop_firws()
 
-Short IIR filter --
+- Parks-McClellan FIR filter (equiripple) -- pop_firpm()
+
+- Moving average FIR filter -- pop_firma()
+
+- Short IIR filter --
 [pop_iirfilt()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_iirfilt.m)
 
-Re-referencing --
+- Basic FIR filter (Legacy) --
+[pop_eegfilt()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegfilt.m)
+
+- Re-referencing --
 [pop_reref()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_reref.m)
 
-Interpolate electrodes -- --
+- Interpolate electrodes -- pop_interp()
 
-Reject continuous data by eye --
+- Reject continuous data by eye --
 [pop_eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegplot.m)
 
-Extract epochs --
+- Extract epochs --
 [pop_epoch()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_epoch.m)
 
-Remove baseline --
+- Remove baseline --
 [pop_rmbase()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rmbase.m)
 
-Run ICA --
+- Run ICA --
 [pop_runica()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m)
 
-Remove components --
+- Remove components --
 [pop_subcomp()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_subcomp.m)
 
-Automatic channel rejection --
+- Automatic channel rejection --
 [pop_rejchan()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejchan.m)
 
-Automatic epoch rejection --
+- Automatic epoch rejection --
 [pop_autorej()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_autorej.m)
 
-*' Reject data epochs*'
 
+### Reject data epochs
 
-Reject data (all methods) --
+- Reject data (all methods) --
 [pop_rejmenu()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejmenu.m)
 
-Reject by inspection --
+- Reject by inspection --
 [pop_eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegplot.m)
 
-Reject extreme values --
+- Reject extreme values --
 [pop_eegthresh()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegthresh.m)
 
-Reject by linear trend/variance --
+- Reject by linear trend/variance --
 [pop_rejtrend()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejtrend.m)
 
-Reject by probability --
+- Reject by probability --
 [pop_jointprob()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_jointprob.m)
 
-Reject by kurtosis --
+- Reject by kurtosis --
 [pop_rejkurt()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejkurt.m)
 
-Reject by spectra --
+- Reject by spectra --
 [pop_rejspec()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejspec.m)
 
-Reject marked epochs --
+- Reject marked epochs --
 [pop_rejepoch()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejepoch.m)
 
-*' Reject using ICA*'
+### Reject using ICA
 
-
-Reject components by map --
+- Reject components by map --
 [pop_selectcomps()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_selectcomps.m)
 
-Reject data (all methods) --
+- Reject data (all methods) --
 [pop_rejmenu()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejmenu.m)
 
-Reject by inspection --
+- Reject by inspection --
 [pop_eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegplot.m)
 
-Reject extreme values --
+- Reject extreme values --
 [pop_eegthresh()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegthresh.m)
 
-Reject by linear trend/variance --
+- Reject by linear trend/variance --
 [pop_rejtrend()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejtrend.m)
 
-Reject by probability --
+- Reject by probability --
 [pop_jointprob()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_jointprob.m)
 
-Reject by kurtosis --
+- Reject by kurtosis --
 [pop_rejkurt()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejkurt.m)
 
-Reject by spectra --
+- Reject by spectra --
 [pop_rejspec()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejspec.m)
 
-Reject marked epochs --
+- Reject marked epochs --
 [pop_rejepoch()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejepoch.m)
 
-Run ICA
+- Run ICA
 
-*' Locate dipoles using DIPFIT 2.x*'
+### Locate dipoles using DIPFIT
 
-
-Head model and settings --
+- Head model and settings --
 [pop_dipfit_settings()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_settings.m)
 
-Coarse fit (grid scan) -- -- --
+- Coarse fit (grid scan) -- -- --
 
-Fine fit (iterative) --
+- Fine fit (iterative) --
 [pop_dipfit_nonlinear()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_nonlinear.m)
 
-Autofit (coarse fit, fine fit & plot) -- -- --
+- Autofit (coarse fit, fine fit & plot) -- -- --
 
-Plot component dipoles -- -- --
+- Plot component dipoles -- -- --
 
-#### Plot
-
-
-*' Channel locations*'
+## Plot
 
 
-By name --
+### Channel locations
+
+
+- By name --
 [topoplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m)
 
-By number --
+- By number --
 [topoplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m)
 
-Channel data (scroll) --
+- Channel data (scroll) --
 [pop_eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegplot.m)
 
-Channel spectra and maps --
+- Channel spectra and maps --
 [pop_spectopo()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_spectopo.m)
 
-Channel properties --
+- Channel properties --
 [pop_prop()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_prop.m)
 
-Channel ERP image --
+- Channel ERP image --
 [pop_erpimage()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m)
 
-*' Channel ERPs*'
 
+### Channel ERPs
 
-With scalp maps --
+- With scalp maps --
 [pop_timtopo()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timtopo.m)
 
-In scalp array --
+- In scalp array --
 [pop_plottopo()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_plottopo.m)
 
-In rect. array --
+- In rect. array --
 [pop_plotdata()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_plotdata.m)
 
-*' ERP maps*'
+### ERP maps
 
-
-As 2-D scalp maps --
+- As 2-D scalp maps --
 [pop_topoplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m)
 
-As 3-D head plots --
+- As 3-D head plots --
 [pop_headplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m)
 
-Sum/Compare ERPs --
+- Sum/Compare ERPs --
 [pop_comperp()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_comperp.m)
 
-Component activations (scroll) --
+- Component activations (scroll) --
 [pop_eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegplot.m)
 
-Component spectra and maps --
+- Component spectra and maps --
 [pop_spectopo()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_spectopo.m)
 
-*' Component maps*'
+### Component maps
 
-
-As 2-D scalp maps --
+- As 2-D scalp maps --
 [pop_topoplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m)
 
-As 3-D head plots --
+- As 3-D head plots --
 [pop_headplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m)
 
-Component properties --
+- Component properties --
 [pop_prop()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_prop.m)
 
-Component ERP image --
+- Component ERP image --
 [pop_erpimage()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m)
 
-*' Component ERPs*'
+### Component ERPs
 
-
-With component maps --
+- With component maps --
 [pop_envtopo()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_envtopo.m)
 
-With comp. maps (compare) --
+- With comp. maps (compare) --
 [pop_envtopo()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_envtopo.m)
 
-In rectangular array --
+- In rectangular array --
 [pop_plotdata()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_plotdata.m)
 
-Sum/Compare comp. ERPs --
+- Sum/Compare comp. ERPs --
 [pop_comperp()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_comperp.m)
 
-*' Data statistics*'
+### Data statistics
 
-
-Channel statistics --
+- Channel statistics --
 [pop_signalstat()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_signalstat.m)
 
-Component statistics --
+- Component statistics --
 [pop_signalstat()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_signalstat.m)
 
-Event statistics --
+- Event statistics --
 [pop_eventstat()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eventstat.m)
 
-*' Time-frequency transforms*'
+### Time-frequency transforms
 
-
-Channel time-frequency --
+- Channel time-frequency --
 [pop_timef()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timef.m)
 
-Channel cross-coherence --
+- Channel cross-coherence --
 [pop_crossf()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_crossf.m)
 
-Component time-frequency --
+- Component time-frequency --
 [pop_timef()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timef.m)
 
-Component cross-coherence --
+- Component cross-coherence --
 [pop_crossf()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_crossf.m)
 
-#### Study
+## Study
 
-
-Edit study info --
+- Edit study info --
 [pop_study()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_study.m)
 
-Precompute channel measures --
+- Precompute channel measures --
 [pop_precomp()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_precomp.m)
 
-Plot channel measures --
+- Plot channel measures --
 [pop_chanplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanplot.m)
 
-Precompute component measures --
+- Precompute component measures --
 [pop_precomp()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_precomp.m)
 
-Build preclustering array --
+- Build preclustering array --
 [pop_preclust()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m)
 
-Cluster components --
+- Cluster components --
 [pop_clust()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clust.m)
 
-Edit/plot clusters --
+- Edit/plot clusters --
 [pop_clustedit()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m)
 
-#### Datasets
+## Datasets
 
 
-Current/Active Datasets (listed as selectable items) -- -- --
+- Current/Active Datasets (listed as selectable items) -- -- --
 
-Select multiple datasets -- -- --
+- Select multiple datasets -- -- --
 
-Select the study set -- -- --
+- Select the study set -- -- --
 
-#### Help
+## Help
 
 
-About EEGLAB --
+- About EEGLAB --
 [eeglab()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab.m)
 
-About EEGLAB Help --
+- About EEGLAB Help --
 [eeg_helphelp()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_helphelp.m)
 
-EEGLAB menus --
+- EEGLAB menus --
 [eeg_helpmenu()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_helpmenu.m)
 
-*' EEGLAB functions*'
+### EEGLAB functions
 
 
-Toolbox functions -- -- --
+- Toolbox functions -- -- --
 
-Signal processing functions --
+- Signal processing functions --
 [eeg_helpsigproc()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_helpsigproc.m)
 
-Interactive pop_functions --
+- Interactive pop_functions --
 [eeg_helppop()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_helppop.m)
 
-*' EEGLAB advanced*'
+- Group data STUDY functions
 
+- Time-Frequency functions
+- Statistical functions
+- Graphic interface builder functions
+- Misc. command line functions 
 
-Dataset structure --
+### EEGLAB advanced
+
+- Dataset structure --
 [eeg_checkset()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkset.m)
 
-Admin functions --
+- Admin functions --
 [eeg_helpadmin()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_helpadmin.m)
 
-Web tutorial -- -- --
+- Web tutorial -- -- --
 
-Email EEGLAB -- -- --
+- Email EEGLAB -- -- --
 
-<div align=right>
-
-Return to [EEGLAB Wiki](/EEGLAB "wikilink")
-Return to [SCCN Wiki Home](/Main_Page "wikilink")
-
-</div>
-
-[Category:EEGLAB](/Category:EEGLAB "wikilink")

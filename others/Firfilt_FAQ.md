@@ -2,9 +2,22 @@
 layout: default
 title: Firfilt FAQ
 parent: Other documents
+
 ---
 
-[Category:EEGLAB](/Category:EEGLAB "wikilink")
+# EEGLAB Filtering FAQ
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+
+
 
 ### Q. What are passband, stopband, transition band width, cutoff frequency, passband ripple/ringing, and stopband ripple/attenuation?
 
@@ -135,13 +148,13 @@ A. There are a few important things to confirm.
     apparently taking 16 (with LPF) is the right decision here from AIC,
     FPE and HQ results.
 
-![800px](/assets/images/Modelordercomparison.png)
+![800px](/assets/images/ModelOrderComparison.png)
 
 Here is another comparison: with and without notch filter at 30Hz
 (cutoff freq 28 and 32Hz, TBW 0.5Hz). Note the suggested order became
 10-12 to 11-15 with the notch filter on.
 
-![800px](/assets/images/Notchfilterdemo.png)
+![800px](/assets/images/NotchFilterDemo.png)
 
 -   The second problem, which comes from the same reason mentioned
     above, is that empirical estimates of VAR parameters yields unstable
@@ -177,73 +190,73 @@ In this example, you are downsampling your data to 200Hz, with cutoff
 frequency being 160Hz (i.e. 200Hz\*0.8) and the transient bandwidth 80Hz
 (i.e. 200Hz\*0.4).
 
-### References and recommended readings
+## References and recommended readings
 
 -   Duncan-Johnson, C. C., & Donchin, E. (1979). The time constant in
     P300 recording. Psychophysiology, 16, 53–56.
 
-<!-- -->
+
 
 -   Barnett, L., & Seth, A. K. (2011). Behaviour of Granger causality
     under filtering: theoretical invariance and practical application.J
     Neurosci Methods. 201, 404-419.
 
-<!-- -->
+
 
 -   Van Rullen, R. (2011). Four common conceptual fallacies in mapping
     the time course of recognition. Frontiers in Psychology, 2, 365.
     doi: 10.3389/fpsyg.2011.00365
 
-<!-- -->
+
 
 -   Acunzo, D. J., MacKenzie, G., & van Rossum, M. C. W. (2012).
     Systematic biases in early ERP and ERF components as a result of
     high-pass filtering. Journal of Neuroscience Methods, 209, 212–218.
     doi: 10.1016/j.jneumeth.2012.06.011
 
-<!-- -->
+
 
 -   Rousselet GA (2012) Does filtering preclude us from studying ERP
     time-courses? Front. Psychology 3:131. doi: 10.3389/fpsyg.2012.00131
 
-<!-- -->
+
 
 -   Widmann, A., & Schröger, E. (2012). Filter effects and filter
     artifacts in the analysis of electrophysiological data. Frontiers in
     Psychology, 3, 233. doi: 10.3389/fpsyg.2012.00233
 
-<!-- -->
+
 
 -   Zoefel, B., & Heil P. (2013). Detection of near-threshold sounds is
     independent of EEG phase in common frequency bands. Front Psychol,
     4, 262.
 
-<!-- -->
+
 
 -   Luck, S. J. (2014). An introduction to the event-related potential
     technique (2nd ed.). Cambridge, MA: MIT Press.
 
-<!-- -->
+
 
 -   Widmann, A., Schröger, E., & Maess, B. (2015). Digital filter design
     for electrophysiological data--a practical approach. J Neurosci
     Methods, 250, 34-46. doi: 10.1016/j.jneumeth.2014.08.002
     [link](http://home.uni-leipzig.de/~biocog/eprints/widmann_a2015jneuroscimeth250_34.pdf)
 
-<!-- -->
+
 
 -   Tanner, D., Morgan-Short, K., & Luck, S. J. (2015). How
     inappropriate high-pass filters can produce artifactual effects and
     incorrect conclusions in ERP studies of language and cognition.
     Psychophysiology, 52(8), 997-1009. doi: 10.1111/psyp.12437
 
-<!-- -->
+
 
 -   Seth, A. K., Barrett, A. B., & Barnett, L. (2015). Granger causality
     analysis in neuroscience and neuroimaging. J Neurosci. 35,
     3293-3297.
 
-<!-- -->
+
 
 -   Maess B, Schröger E, Widmann A. (2016). High-pass filters and
     baseline correction in M/EEG analysis. Commentary on: "How
@@ -251,20 +264,20 @@ frequency being 160Hz (i.e. 200Hz\*0.8) and the transient bandwidth 80Hz
     conclusions in ERP studies of language and cognition". J Neurosci
     Methods. \[Epub ahead of print\]
 
-<!-- -->
+
 
 -   Tanner D, Norton JJ, Morgan-Short K, Luck SJ. (2016). On high-pass
     filter artifacts (they're real) and baseline correction (it's a good
     idea) in ERP/ERMF analysis. J Neurosci Methods. \[Epub ahead of
     print\]
 
-<!-- -->
+
 
 -   Maess B, Schröger E, Widmann A. (2016). High-pass filters and
     baseline correction in M/EEG analysis-continued discussion. J
     Neurosci Methods. \[Epub ahead of print\]
 
-<!-- -->
+
 
 -   Liljander S, Holm A, Keski-Säntti P, Partanen JV. (2016). Optimal
     digital filters for analyzing the mid-latency auditory P50

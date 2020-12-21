@@ -4,18 +4,23 @@ title: Get chanlocs
 parent: Other documents
 ---
 
-{ {lowercase} } ===\[\[/Media:get_chanlocs_userguide.pdf\|
+# How to compute 3D electrode positions from a 3D head image
 
-<h3>
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
-<b>*get_chanlocs*: Compute 3-D electrode positions from a 3-D head image
-==\> <u>Download the *get_chanlocs* User Guide</u></b>
+Download the [get_chanlocs user guide ](https://sccn.ucsd.edu/mediawiki/images/5/5f/Get_chanlocs_userguide.pdf)
 
-</h3>
 
-\]\] ![400px](/assets/images/Get_chanlocs.jpg)
+![400px](/assets/images/Get_chanlocs.jpg)
 
-### What is *get_chanlocs*?
+## What is *get_chanlocs*?
 
 The *get_chanlocs* EEGLAB plug-in is built on functions in
 [FieldTrip](http://www.fieldtriptoolbox.org/) to locate 3-D electrode
@@ -94,7 +99,7 @@ form](/Media:Get_chanlocs_sampleConsent.pdf "wikilink")</B>, allowing
 participants to consent to different degrees of use of their 3D head
 image, that we use at SCCN.
 
-### Why *get_chanlocs*?
+## Why *get_chanlocs*?
 
 To achieve <b>high-resolution EEG (effective) source imaging</b>
 requires (a) <b>an accurate 3-D electrical head model</b>, and (b)
@@ -135,8 +140,7 @@ by using a montage template. In future, we anticipate an automated
 template-matching app will reduce time required to simply checking the
 results of an automated procedure.
 
-Required Resources
-------------------
+## Required Resources
 
 The *get_chanlocs* plug-in has been tested under Matlab 9.1 (R2016b) on
 Windows 10 as well as OS X 10.10.5. Please provide feedback concerning
@@ -174,8 +178,8 @@ cost](https://itseez3d.com/pricing.html). Please contact
 [itSeez3D](mailto:support@itseez3d.com) regarding discounts for
 educational institutions and other non-commercial purposes.
 
-Common Issues
--------------
+## Common Issues
+
 
 <b>Incorrect units in resulting electrode locations:</b> 3-D .obj model
 units are estimated by relating the range of the recorded vertex
@@ -211,26 +215,26 @@ have show a reasonable resolution in other 3-D modeling software (e.g.
 Paint 3D). Increase the polygon count of the model to circumvent this
 issue (we recommend 400,000 uniform polygons for itSeez3D).
 
-Download
---------
+## Download
+
 
 To download *get_chanlocs*, use the extension manager within EEGLAB.
 Alternatively, plug-ins are available for manual download from the
 [EEGLAB plug-in
 list](https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php).
 
-Revision History
-----------------
+## Revision History
+
 
 Please check the [commit
 history](https://github.com/cll008/get_chanlocs/commits/master) of the
 plug-in's GitHub repository.
 
-*get_chanlocs* User Guide
--------------------------
+## get_chanlocs User Guide
+-
 
 View/download the [*get_chanlocs* User
-Guide](/Media:get_chanlocs_userguide.pdf "wikilink")
+Guide](https://sccn.ucsd.edu/mediawiki/images/5/5f/Get_chanlocs_userguide.pdf)
 
 <div align=left>
 
@@ -242,4 +246,3 @@ Creation and documentation by:
 
 </div>
 
-{ {ReturnTo\|Main_Page\|SCCN Wiki Home} }

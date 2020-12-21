@@ -4,10 +4,13 @@ title: The first decade of EEGLAB
 parent: Other documents
 ---
 
+
+# History of EEGLAB
+
 EEGLAB (v0.9) was first released on April 23, 2001 - thus, EEGLAB is now
 10 years old!
 
-![right](/assets/images/Eeglab10year.png)
+![right](/assets/images/EEGLAB10year.png)
 
 A bit of history
 ----------------
@@ -97,8 +100,7 @@ have been submitted to the EEGLAB Bugzilla database.
 EEGLAB v10 still backward compatible with EEGLAB v0.9
 -----------------------------------------------------
 
-[300px\|thumb\|right\|upright=2.5\|EEGLAB v0.9 graphic
-interface](/assets/images/Eeglab0_9.png)
+![EEGLAB v0.9 graphic interface](/assets/images/EEGLAB_9.png)
 
 You may download below the original files for first version of EEGLAB
 released on April 23, 2001 (full instructions are also available on the

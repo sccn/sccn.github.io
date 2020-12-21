@@ -4,6 +4,9 @@ title: EEGLAB vs. Commercial EEG Software
 parent: Other documents
 ---
 
+# EEGLAB vs Commercial EEG softwares
+
+
 "Can we trust the results of a new paper if they depend on calculations
 carried out by proprietary software with non-public source code?" <i>M.
 Buchanan, Digital science,
@@ -28,4 +31,3 @@ features in what is currently best in the industry.
 | User support                           | { {table\|status=EEGLAB Bugzilla database helps track EEGLAB bugs. In the best case scenario, bugs may be fixed within 24 hours and a new release issued automatically overnight. However, the EEGLAB team does not have dedicated personnel for supporting users, and the help provided may depend on availability and advancement on other research projects.\|color=\#FFAAAA} }                                                                                                                                                  | { {table\|status=Support personnel are usually more readily available to help users, and they can have high level of expertise. Note that this is not true of all commercial software.\|color=lightgreen} }                                                                                                                                                                                                                                       |
 | Price                                  | { {table\|status=A minimal Matlab installation may be within most research budgets or be already available for other purposes in research and university settings. The compiled version of EEGLAB does not require Matlab although scripting capabilities are more limited.\|color=lightgreen} }                                                                                                                                                                                                                                    | { {table\|status=Prices range from $5000 to $30000\|color=\#FFAAAA} }                                                                                                                                                                                                                                                                                                                                                                             |
 
-[Category:EEGLAB](/Category:EEGLAB "wikilink")

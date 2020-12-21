@@ -4,19 +4,21 @@ title: TIPS and FAQ
 parent: Other documents
 ---
 
+# EEGLAB TIPS and FAQ
+
+
 This FAQ page contains questions we receive and answers we give users,
 as well as general tips we think it is important for users to know! Many
 other tips are available on the eeglablist archive. To search the list
 archive simply use Google, enter relevant keyword and add the
 "eeglablist" keyword.
 
-Basic Topics
-============
+## Basic Topics
 
-Running EEGLAB
+### Running EEGLAB
 --------------
 
-### About EEGLAB
+#### About EEGLAB
 
 
 **Question:** Is EEGLAB of any interest for expert Matlab users?
@@ -53,7 +55,7 @@ this software but we will be glad to help out if someone encountered any
 problem and to correct bugs when reported to us: Write to
 eeglab@sccn.ucsd.edu.
 
-### What type of Matlab license should I buy to run EEGLAB?
+#### What type of Matlab license should I buy to run EEGLAB?
 
 
 **Question:** When I ask the Mathworks salesman to sell me "only" a
@@ -65,7 +67,7 @@ cheaper. For some spectral decompositions, you may also need the Data
 Processing toolbox which has to be purchased separately. We are
 gradually attempting remove this dependency.
 
-### Overloaded functions
+#### Overloaded functions
 
 
 **Question:** under Unix, I often get the following message
@@ -83,7 +85,7 @@ has defined a variable of the same name as any variable in your Matlab
 workspace or .m file in the Matlab path. To solve the problem, clear the
 variable or rename the function.
 
-### Memory issue
+#### Memory issue
 
 
 **Question:** Matlab/EEGLAB return an out of memory error
@@ -100,7 +102,7 @@ variable or rename the function.
     Matlab or the [memory management
     scheme](http://www.mathworks.com/support/tech-notes/1100/1106.shtml).
 
-### 64-bit platforms
+#### 64-bit platforms
 
 
 **Question:** does Matlab/EEGLAB work on 64-bit platforms?
@@ -121,7 +123,7 @@ Signal Processing Toolbox in Matlab (required for EEGLAB). Please refer
 to { {bug\|768} } for more information! \[--[Dev
 Sarma](/User:Dev "wikilink") 21:48, 28 October 2009 (UTC)\]
 
-### Multi-core use
+#### Multi-core use
 
 
 **Question:** does it benefit to have a multi-core machine?

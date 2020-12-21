@@ -4,7 +4,10 @@ title: EEGLAB mailing lists
 parent: Other documents
 ---
 
-### The EEGLAB Discussion List
+
+# EEGLAB mainling lists
+
+## The EEGLAB Discussion List
 
 This moderated mailing list is about the EEGLAB signal processing
 environment for Matlab in particular and signal processing of EEG data
@@ -58,7 +61,7 @@ The moderator will withhold from the list posts that:
 
 -   Contain personal attacks.
 
-### The EEGLAB News List
+## The EEGLAB News List
 
 The news list is reserved only for infrequent news releases from the
 EEGLAB development team. Do not send messages to this list; they will
@@ -71,7 +74,7 @@ not reach us.
 -   For any mailing-list problems or requests, email
     <eeglabnews-owner@sccn.ucsd.edu>
 
-### Feedback
+## Feedback
 
 Please send detailed questions you cannot find an answer ("How can I ...
 ?," "Why does ... ?", etc.) to the EEGLAB discussion list (see above) to
@@ -80,6 +83,8 @@ answers by reading the EEGLAB tutorial and/or studying the relevant
 function help messages first!
 
 To send (detailed) bug reports, use the [EEGLAB
-Github](https://github.com/sccn/eeglab/issues) interface. To report
+Github](https://github.com/sccn/eeglab/issues) interface. 
+
+To report
 other feedback to the EEGLAB developers directly, email
 <eeglab@sccn.ucsd.edu>.
