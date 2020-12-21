@@ -4,16 +4,20 @@ title: EEGLAB and Fieldtrip
 parent: Other documents
 ---
 
-### EEGLAB and Fieldtrip
+ EEGLAB and Fieldtrip
+=========================
 
-#### History
+History
+--------
 
 First a little bit of history. EEGLAB was created in 2000 at The Salk
 Institute (La Jolla CA) by Arnaud Delorme and Scott Makeig based on ICA
 Toolbox for Electrphysiological Data Analysis functions released by
 Makeig and colleagues 1997-2000. EEGLAB was fully released in 2002 at
 the Swartz Center for Computational Neuroscience, UCSD (La Jolla,
-California, USA). In 2003-04, the EEGLAB software architect Arnaud
+California, USA). 
+
+In 2003-04, the EEGLAB software architect Arnaud
 Delorme worked with Fieldtrip senior author Robert Oostenveld to provide
 basic source localization to EEGLAB via the EEGLAB DIPFIT plug-in using
 Matlab code Robert had developed for dipole fitting. Together with many
@@ -23,7 +27,8 @@ Robert Oostenveld to DIPFIT served as a basis for Fieldtrip which was
 first released by the Donders Institute in 2005. Both packages run on
 MATLAB (The Mathworks, Inc.).
 
-#### Interdependencies
+Interdependencies
+-------------------
 
 EEGLAB and Fieldtrip are in part interdependent. For basic source
 localization, EEGLAB uses the DIPFIT plug-in which incorporates a
@@ -31,14 +36,19 @@ Fieldtrip source localization routine. EEGLAB also offers users the
 choice of using some Fieldtrip statistical routines as well as its own.
 The Fieldtrip code also includes some EEGLAB functions such as
 topoplot() and runica() for performing independent component analysis
-decomposition. EEGLAB and Fieldtrip developers meet every year or every
+decomposition.
+
+ EEGLAB and Fieldtrip developers meet every year or every
 other year to discuss progress in the field and possible collaborations
-or new bridges between the two software. In the spirit of open source
+or new bridges between the two software. 
+
+In the spirit of open source
 programming, we believe that more collaboration is better. Working from
 experience with a multiplicity of approaches allows us to identify and
 deal with problematic signal processing issues.
 
-#### Development philosophies
+Development philosophies
+--------------------------
 
 In practice, the philosophies of EEGLAB and Fieldtrip are somewhat
 different:
@@ -49,16 +59,12 @@ different:
     writing custom analysis scripts using the EEGLAB functions caleld by
     the EEGLAB gui.
 
-<!-- -->
-
 -   Fieldtrip provides limited tools for handling group data. Managing
     group data is intentionally left to the user's choice with a
     rationale that users should not be forced to use any predefined
     scheme for modeling the experimental design. EEGLAB by contrast
     provides tools to apply a variety of statistical models and
     sub-models to group experimental data.
-
-<!-- -->
 
 -   Fieldtrip allows variable length data epochs. Though EEGLAB supports
     some processing of multiple continuous data segments, it is not as
@@ -68,8 +74,6 @@ different:
     analysis, whereas EEGLAB development has always focused on analysis
     of human data.
 
-<!-- -->
-
 -   Fieldtrip functions provide packaged solutions in which low-level
     processing is hidden, and subject to change. Thus, a large number of
     Fieldtrip functions that change frequently are hidden in private
@@ -77,7 +81,6 @@ different:
     have direct access to low-level processing functions, and these are
     fully documented.
 
-<!-- -->
 
 -   Any new contribution to Fieldtrip adds to the general Fieldtrip
     package supported by the Donders Center. In practice, this makes it
@@ -89,7 +92,6 @@ different:
     ERPLAB, SIFT, LIMO, NFT, MPT, BCILAB, MoBILAB, etc.. Third party
     developers maintain full control over their extensions.
 
-<!-- -->
 
 -   When you download Fieldtrip, you download the 'code of the day' (the
     head of the development code) which could contain recently added
@@ -100,7 +102,8 @@ different:
     provides a free medium for new tool development and publication by
     many groups and individuals.
 
-#### Which environment should you choose to use?
+Which environment should you choose to use?
+---------------------------------------------
 
 The choice between either (or both) environments is yours. Some
 considerations:
@@ -110,14 +113,10 @@ considerations:
     documentation will also guide you through learning how to write
     scripts, even writing scripts for you based on your menu choices.
 
-<!-- -->
-
 -   If you are an advanced programmer, Fieldtrip's nested data
     structures might also appeal to you. EEGLAB data structures have
     been kept simple on purpose so beginners do not feel overwhelmed and
     have easy script access to information about their data.
-
-<!-- -->
 
 -   If you want maximum control over your processing pipeline, you might
     also want to choose EEGLAB, since it gives you ready access to
@@ -126,7 +125,6 @@ considerations:
     to work in future revision of the software, again EEGLAB might be
     the best option.
 
-<!-- -->
 
 -   If you want to publish Matlab code for new functions or toolboxes,
     EEGLAB extensions provide a sure way to make your code known and
@@ -135,7 +133,6 @@ considerations:
     Extension Manager will also allow you to help users maintain current
     versions of your extensions.
 
-<!-- -->
 
 -   Both EEGLAB and Fieldtrip can be added to the Matlab path and run
     together. Some functions are available to convert between data
@@ -149,7 +146,8 @@ considerations:
     topoplot.m function is present in both toolboxes, although if you
     start EEGLAB it should resolve conflicts.
 
-#### Converting between EEGLAB and Fieldtrip data structures
+Converting between EEGLAB and Fieldtrip data structures
+--------------------------------------------------------
 
 In practice, it is easy to use both EEGLAB and Fieldtrip at the same
 time and to convert back and forth between data structures.
@@ -185,13 +183,14 @@ used internally in EEGLAB to convert EEGLAB datasets to Fieldtrip for
 source localization purposes (DIPFIT). It is not recommended to use that
 function although it might still work for your application.
 
-#### Performing advanced source localization using DIPFIT/Fieldtrip
+Performing advanced source localization using DIPFIT/Fieldtrip
+---------------------------------------------------------------
 
-See this
-[section](/A08:_DIPFIT#Advanced_source_reconstruction_using_DIPFIT.2FFieldtrip "wikilink")
+See this [section](/tutorials/09_source/EEG_sources)
 of the tutorial.
 
-#### Wrap up your Fieldtrip scripts into EEGLAB plugin menu items
+Wrap up your Fieldtrip scripts into EEGLAB plugin menu items
+----------------------------------------------------------------
 
 As of mid 2019, we have strengthened the link between the two toolboxes
 by reprogramming the functions eeglab2fieldtrip and fieldtrip2eeglab.
@@ -201,12 +200,12 @@ EEGLAB channels locations may be conveniently aligned with Fieldtrip
 head models from the EEGLAB graphic interface, allowing to leverage the
 full capabilities of Fieldtrip source reconstruction methods on EEGLAB
 datasets as outlined in the previous
-[section](/A08:_DIPFIT#Advanced_source_reconstruction_using_DIPFIT.2FFieldtrip "wikilink").
+[section](/tutorials/09_source/EEG_sources.html#advanced-source-reconstruction-using-dipfitfieldtrip).
 
 We have created a simple template that takes an EEGLAB data, perform the
 coregistration with a standard Fieldtrip BEM model, and apply eLoreta
 for ERP analysis (based also on the previous
-[section](/A08:_DIPFIT#Advanced_source_reconstruction_using_DIPFIT.2FFieldtrip "wikilink")).
+[section](/tutorials/09_source/EEG_sources.html#advanced-source-reconstruction-using-dipfitfieldtrip)).
 We believe this template could be modified by some of you to create
 other plugins.
 
@@ -216,8 +215,9 @@ The long term sustainability of EEGLAB and Fieldtrip relies on the
 contribution of new methods by the community for advanced MEEG
 processing. Making your Fieldtrip code available as an EEGLAB plugin
 (there are more than 100 plugins to date) will make it visible to the
-EEGLAB community. You can submit a plugin on this [web
-page](https://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php) and
+EEGLAB community. 
+
+You can submit a plugin on this [web page](https://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php) and
 once approved, it becomes instantaneously visible by all EEGLAB users
 and available directly in the EEGLAB graphic interface (according to our
 statistics on Mixpanel in 2019, 150,000 to 200,000 EEGLAB sessions are

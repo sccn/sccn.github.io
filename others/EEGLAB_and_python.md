@@ -4,6 +4,9 @@ title: EEGLAB and python
 parent: Other documents
 ---
 
+EEGLAB and Python
+===================
+
 EEGLAB of course does not work natively in python because EEGLAB runs on
 Matlab (and, to a considerable extent, on the open source Octave
 platform). Nevertheless, there are possible links with Python which we
@@ -16,7 +19,9 @@ One of the most important when using a software is usage and community.
 If the community is large and the software is popular, it is a safer
 choice as you can be certain a lot of problems people encounter have
 been solved - it also means that the code is probably more stable and
-has less bugs. As of late 2019/early 2020, 56% of the citations of the
+has less bugs. 
+
+As of late 2019/early 2020, 56% of the citations of the
 papers below go to EEGLAB, then 25% go to Fieldtrip and 19% got to
 Brainstorm, and various versions of MNE. Note that EEGLAB and Fieldtrip
 are intertwined where Fieldtrip users can write [EEGLAB
@@ -32,7 +37,7 @@ included (and it is reasonable to assume that a portion of papers cited
 both articles thus artificially inflating MNE numbers).
 
 Below is an analysis of papers referencing EEGLAB, FieldTrip, MNE,
-MNE-Python, and Brainstorm since 2004. Data was obtained Web of Science.
+MNE-Python, and Brainstorm since 2004. Data was obtained from Web of Science.
 The citation per year correspond to the following 5 papers:
 
 -   **EEGLAB**: Delorme, A. and Makeig, S., 2004. EEGLAB: an open source
@@ -57,7 +62,7 @@ The citation per year correspond to the following 5 papers:
     p.8.
 
 
-![600px](/assets/images/Eeglab_usage.jpg)
+![600px](/assets/images/EEGLAB_usage.jpg)
 
 
 Major differences between Matlab and Python

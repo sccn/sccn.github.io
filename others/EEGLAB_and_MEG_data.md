@@ -4,6 +4,9 @@ title: EEGLAB and MEG data
 parent: Other documents
 ---
 
+EEGLAB and MEG data
+====================
+
 EEGLAB supports reading most MEG data formats through the File-IO
 module. Therefore all the major manufacturers may be imported (CTF,
 Neuromag, Neuroimaging 4-D, BTi). There is also a native EEGLAB plugin
