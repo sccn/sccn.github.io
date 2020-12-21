@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Study Statistics
+title: e. Study statistics
 parent: 10. Group analysis
 grand_parent: Tutorials 
 has_toc: true

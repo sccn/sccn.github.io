@@ -1,6 +1,6 @@
 ---
 layout: default
-title: II.5 STUDY Component Clustering Tools
+title: f. Component clustering
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---

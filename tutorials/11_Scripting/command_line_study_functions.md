@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Command line STUDY functions
-parent: 11. Scripting
+title: d. Group level
+parent: 11. Write scripts
 grand_parent: Tutorials 
 ---
-
-
-Building a *STUDY* from The graphic interface (as described in previous
+Building a *STUDY* from the graphic interface (as described in previous
 sections) calls eponymous Matlab functions that may also be called
 directly by users. Below we briefly describe these functions. See their
 Matlab help messages for more information. Functions whose names begin
@@ -14,13 +12,14 @@ with *std_* take *STUDY* and/or *EEG* structures as arguments and
 perform signal processing and/or plotting directly on cluster
 activities.
 
-<b>Important note:</b> If you want to modify the STUDY structures, you
-need to be careful as the STUDY checking function ({ {File\|std_checkset.m} }) performs all kinds of checks to keep the STUDY
-structures compatible with the datasets it represents. So this function
-might undo your changes (a warning will be issued on the command line).
-It is often possible to modify the datasets themselves to achieve the
-same goal and changes will be automatically reported in the STUDY
-structures.
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 Creating a STUDY
 -----------------
@@ -29,6 +28,14 @@ If a *STUDY* contains many datasets, you might prefer to write a small
 script to build the *STUDY* instead of using the { {File\|pop_study.m} }
 gui. This is also helpful when you need to build many studysets or to
 repeatedly add files to an existing studyset.
+
+<b>Important note:</b> If you want to modify the STUDY structures, you
+need to be careful as the STUDY checking function ({ {File\|std_checkset.m} }) performs all kinds of checks to keep the STUDY
+structures compatible with the datasets it represents. So this function
+might undo your changes (a warning will be issued on the command line).
+It is often possible to modify the datasets themselves to achieve the
+same goal and changes will be automatically reported in the STUDY
+structures.
 
 Below is a Matlab script
 calling the GUI-equivalent command line function { {File\|std_editset.m}} 

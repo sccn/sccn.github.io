@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ASR background
+title: Artifact sub. reconst.
 parent: Concepts guide
 grand_parent: Tutorials
 ---

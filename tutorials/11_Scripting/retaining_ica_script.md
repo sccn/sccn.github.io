@@ -1,7 +1,7 @@
 ---
 layout: default
-title: retaining ICA weight script
-parent: 11. Scripting
+title: d. Retaining ICA weights
+parent: 11. Write scripts
 grand_parent: Tutorials
 ---
 

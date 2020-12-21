@@ -6,33 +6,46 @@ grand_parent: Tutorials
 nav_order: 8
 ---
 Equivalent dipole source localization of EEG data
-====================================================================
+========================================
 
-Using DIPFIT to fit EEG or ERP scalp maps
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+Using DIPFIT to fit one dipole to EEG or ERP scalp maps
 --------
 
 Though the implementation of the DIPFIT plug-in has not been expressly
 designed to fit dipoles to raw ERP or EEG scalp maps, EEGLAB provides a
-command line function allowing DIPFIT to do so. Fitting can only be
+command-line function allowing DIPFIT to do so. Fitting may only be
 performed at selected time points, not throughout a time window. First,
-you must specify the DIPFIT settings on the selected dataset (see
-section A4.2. Setting up DIPFIT model and preferences). Then, to fit a
+you must specify the DIPFIT settings on the selected dataset. Then, to fit a
 time point at 100 ms in an average ERP waveform (for example) from the
-main tutorial data set
-([eeglab_data_epochs_ica.set](ftp://sccn.ucsd.edu/pub/eeglab_data_epochs_ica.set)),
-use the following Matlab commands.
+main tutorial data set, use the following Matlab commands.
 
 ``` matlab
+eeglab; close; % add path
+eeglabp = fileparts(which('eeglab.m'));
+EEG = pop_loadset(fullfile(eeglabp, 'sample_data', 'eeglab_data_epochs_ica.set'));
+
 % Find the 100-ms latency data frame
 latency = 0.100;
 pt100 = round((latency-EEG.xmin)*EEG.srate);
 
 % Find the best-fitting dipole for the ERP scalp map at this timepoint
 erp = mean(EEG.data(:,:,:), 3);
-EEG = pop_dipfit_settings(EEG); % Follow GUI instructions to perform co-registration
-[ dipole model TMPEEG] = dipfit_erpeeg(erp(:,pt100), EEG.chanlocs, 'settings', EEG.dipfit, 'threshold', 100);
+dipfitdefs;
 
-% Show dipole information (spherical or MNI coordinate based on the model selected) dipole
+% Use MNI BEM model
+EEG = pop_dipfit_settings( EEG, 'hdmfile',template_models(2).hdmfile,'coordformat',template_models(2).coordformat,...
+    'mrifile',template_models(2).mrifile,'chanfile',template_models(2).chanfile,...
+    'coord_transform',[0.83215 -15.6287 2.4114 0.081214 0.00093739 -1.5732 1.1742 1.0601 1.1485] ,'chansel',[1:32] );
+[ dipole, model, TMPEEG] = dipfit_erpeeg(erp(:,pt100), EEG.chanlocs, 'settings', EEG.dipfit, 'threshold', 100);
 
 % plot the dipole in 3-D
 pop_dipplot(TMPEEG, 1, 'normlen', 'on');
@@ -41,11 +54,14 @@ pop_dipplot(TMPEEG, 1, 'normlen', 'on');
 figure; pop_topoplot(TMPEEG,0,1, [ 'ERP 100ms, fit with a single dipole (RV ' num2str(dipole(1).rv*100,2) '%)'], 0, 1);
 ```
 
-Click [here](http://sccn.ucsd.edu/eeglab/dipfittut/dipfit_erpeegtest.m)
-to download the script above. When running the script, after selecting the BEM model in the DIPFIT settings, the two plots are created.
+Click [here](http://sccn.ucsd.edu/eeglab/locatefile.php?file=dipfit_erpeegtest.m) to download the script above. When running the script, the two plots below are created.
 
 ![Image:scalp_topo_dipole.png](/assets/images/scalp_topo_dipole.png)
 
+It is also possible to locate EEG/ERP sources using eLoreta.
+We have written a simple [plugin](https://github.com/sccn/erpsource) for that purpose.
+This plugin was designed in a minimalist fashion so it could be used as template for other similar plugins.
+Its graphical output are the same as the script shown in the next section.
 
 Advanced source reconstruction using DIPFIT/Fieldtrip
 --------
@@ -62,18 +78,18 @@ perform source modeling using Fieldtrip applied to data in an EEGLAB
 dataset.
 
 To localize sources of EEG data, first use DIPFIT to align the electrode
-locations with a head model of choice (menu item **Tools → Locate
-dipoles using DIPFIT → Head model and settings**). The resulting DIPFIT
+locations with a head model of choice (menu item <span style="color: brown">Tools → Locate
+dipoles using DIPFIT → Head model and settings</span>). The resulting DIPFIT
 information may then be used to perform source localization in
 Fieldtrip.
 
-#### Performing source reconstruction in a volume
+### Performing source reconstruction in a volume
 
 The first snippet of code below creates the leadfield matrix for a 3-D
-grid (for use with eLoreta, for example).
+grid (for example, for use with eLoreta).
 
 ``` matlab
-% First load a dataset in EEGLAB.
+%% First load a dataset in EEGLAB.
 % Then use EEGLAB menu item <em>Tools > Locate dipoles using DIPFIT > Head model and settings</em>
 % to align electrode locations to a head model of choice
 % The eeglab/fieldtrip code is shown below:
@@ -90,10 +106,11 @@ EEG = pop_dipfit_settings( EEG, 'hdmfile',fullfile(bemPath, 'standard_vol.mat'),
 ```
 
 Then calculate a volumetric leadfield matrix using Fieldtrip function
-**ft_prepare_leadfield**. Note that the head model is also used to
+*ft_prepare_leadfield*. Note that the head model is also used to
 assess whether a given voxel is within or outside the brain.
 
 ``` matlab
+%% Leadfield Matrix calculation
 dataPre = eeglab2fieldtrip(EEG, 'preprocessing', 'dipfit');   % convert the EEG data structure to fieldtrip
 
 cfg = [];
@@ -117,12 +134,12 @@ Then use the now generated leadfield matrix to perform source
 reconstruction. Below, we provide a simple example, to model putative
 sources of ERP features using eLoreta. Here, eLoreta may be replaced by
 other approaches, such as Dynamical Imaging of Coherent Sources 'dics'
-(see the [tutorial
+(see the Fieldtrip [tutorial
 page](http://www.fieldtriptoolbox.org/tutorial/beamformer) from which
 this section is inspired for more information).
 
 ``` matlab
-% Compute an ERP in Fieldtrip. Note that the covariance matrix needs to be calculated here for use in source estimation.
+%% Compute an ERP in Fieldtrip. Note that the covariance matrix needs to be calculated here for use in source estimation.
 cfg                  = [];
 cfg.covariance       = 'yes';
 cfg.covariancewindow = [EEG.xmin 0]; % calculate the average of the covariance matrices
@@ -145,12 +162,12 @@ computational resources, while offline, it would require too much memory
 (one head volume at every latency. Unlike fMRI data, EEG data have high
 temporal resolution, so the low-resolution head volume x latencies
 matrix is already quite large - transforming it into a high-resolution
-volume matrix is impractical). Note that you could then click on
+volume matrix is impractical). Note that you will need click on
 different voxels and latencies to obtain a figure that looks like the
 one below.
 
 Note also that you can see discontinuities in the plotted volume. This
-is because of sudden inversion of polarity of the dipole orientation in
+is because of sudden inversion of the polarity of the dipole orientation in
 the nearest voxels. This is normal. The product of voxel polarity by
 temporal activity remains continuous in space and time, but because of
 the projection method for the 3-D dipole orientation at the voxel level,
@@ -159,9 +176,10 @@ course, oppositely-signed time courses as well). An ideal solution has
 not been found yet to avoid inversions in both space and time - having
 all dipoles point outwards with respect to the head center - and
 inverting associated source time courses accordingly - would be a
-solution worth trying.
+solution worth trying. Or we could plot the different axes of dipole orientation.
 
 ``` matlab
+%% Plot Loreta solution
 cfg = [];
 cfg.projectmom = 'yes';
 cfg.flipori = 'yes';
@@ -178,19 +196,14 @@ cfg.funparameter = 'mom';
 figure; ft_sourceplot(cfg, sourceProj);
 ```
 
-
-
-
 ![border\|500px](/assets/images/Dipfiteloreta3.png)
-
-
 
 Once latencies of interest have been chosen, they may be projected into
 a high-resolution MRI. head image. Below, we show global power on MRI
 slices of a template brain.
 
 ``` matlab
-% project sources on MRI and plot solution
+%% project sources on MRI and plot solution
 mri = load('-mat', EEG.dipfit.mrifile);
 mri = ft_volumereslice([], mri.mri);
 
@@ -204,30 +217,25 @@ sourceInt  = ft_sourceinterpolate(cfg, source , mri);
 cfg              = [];
 cfg.method       = 'slice';
 cfg.funparameter = 'pow';
-figure; ft_sourceplot(cfg, sourceInt);
+ft_sourceplot(cfg, sourceInt);
 ```
-
-
-
 
 ![border\|500px](/assets/images/Dipfiteloreta4.png)
 
-
-
-
-#### Performing source reconstruction on a surface
+### Performing source reconstruction on a surface
 
 Alternatively, the code below generates a leadfield matrix for a
 realistic 3-D mesh in MNI space. Note that this requires that you choose
 the MNI BEM head model when selecting the head model in the DIPFIT
 settings menu. Different mesh versions are available using different
 resolutions. Refer to
-[<http://www.fieldtriptoolbox.org/template/sourcemodel/> this Fieldtrip
+[this Fieldtrip
 tutorial](http://www.fieldtriptoolbox.org/template/sourcemodel/) for
-more information . Note that the code below assumes that you have run
+more information. Note that the code below assumes that you have run
 the code above.
 
 ``` matlab
+%% Prepare leadfield surface
 [ftVer, ftPath] = ft_version;
 sourcemodel = ft_read_headshape(fullfile(ftPath, 'template', 'sourcemodel', 'cortex_8196.surf.gii'));
 
@@ -243,6 +251,7 @@ reconstruction at each latency (assuming you are using an EEG time
 series as input).
 
 ``` matlab
+%% Surface source analysis
 cfg               = [];
 cfg.method        = 'mne';
 cfg.grid          = leadfield;
@@ -258,6 +267,7 @@ described on [this
 page](http://www.fieldtriptoolbox.org/tutorial/minimumnormestimate/).
 
 ``` matlab
+%% Surface source plot
 cfg = [];
 cfg.funparameter = 'pow';
 cfg.maskparameter = 'pow';
@@ -267,13 +277,7 @@ cfg.opacitylim = [0 200];
 ft_sourceplot(cfg, source);
 ```
 
-
-
-
 ![border\|500px](/assets/images/Fieldtrip_surface_solution2.png)
-
-
-
 
 You may also visually check the alignment of the source model mesh with
 the BEM head model mesh by overlaying the BEM mesh on the image above,
@@ -285,36 +289,22 @@ hold on; ft_plot_mesh(vol.vol.bnd(2), 'facecolor', 'red', 'facealpha', 0.05, 'ed
 hold on; ft_plot_mesh(vol.vol.bnd(1), 'facecolor', 'red', 'facealpha', 0.05, 'edgecolor', 'none');
 ```
 
-
-
-
 ![border\|500px](/assets/images/Fieldtrip_surface_solution_with_bem2.png)
 
+Click [here](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab_fieldtrip_script.m) to download the script above.
 
-
-
-
-#### The most relevant Fieldtrip tutorials
-
+Relevant Fieldtrip tutorials
+--------
 -   [How to build a source
     model](http://www.fieldtriptoolbox.org/tutorial/sourcemodel/) and
     [available template source
     models](http://www.fieldtriptoolbox.org/template/sourcemodel/) (one
     of them is used above)
-
-<!-- -->
-
 -   [How to define the volume conduction
     model](http://www.fieldtriptoolbox.org/workshop/baci2017/forwardproblem/)
-
-<!-- -->
-
 -   [Beamformer
     methods](http://www.fieldtriptoolbox.org/tutorial/beamformer/) -
     note that you may replace 'dics' by 'eloreta' in this tutorial
-
-<!-- -->
-
 -   [Minimum norm
     estimates](http://www.fieldtriptoolbox.org/tutorial/minimumnormestimate/)
     for MEG, but can be adapted for EEG

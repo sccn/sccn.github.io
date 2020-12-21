@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ERP images 
+title: ERP image
 parent:  Concepts guide
 grand_parent: Tutorials
 categories: concepts

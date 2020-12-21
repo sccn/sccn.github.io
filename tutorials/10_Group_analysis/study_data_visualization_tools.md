@@ -1,6 +1,6 @@
 ---
 layout: default
-title: d.Visualizing channel data
+title: d. Data visualisation
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---
@@ -25,7 +25,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 
 These data were acquired by Arnaud Delorme and colleagues from fourteen
 subjects. Subjects were presented with pictures that either contained or
-did not contain animal image. Subjects respond with a button press
+did not contain animal images. Subjects respond with a button press
 whenever the picture presented contained an animal. These data are
 available for download [here](ftp://sccn.ucsd.edu/pub/animal_study.zip)
 (380 Mb). A complete description of the task, the raw data (4Gb), and

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: II.2 STUDY Creation
+title: b. STUDY Creation
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---

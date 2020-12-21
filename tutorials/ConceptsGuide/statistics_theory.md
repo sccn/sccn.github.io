@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Statistics Theory
+title: Statistics theory
 parent: Concepts guide
 grand_parent: Tutorials
 ---

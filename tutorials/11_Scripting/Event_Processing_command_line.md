@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Event Processing from the command line
-parent: 11. Scripting
+title: d. Event Processing
+parent: 11. Write scripts
 grand_parent: Tutorials
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: II.3 Working with STUDY designs
+title: c. STUDY designs
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---

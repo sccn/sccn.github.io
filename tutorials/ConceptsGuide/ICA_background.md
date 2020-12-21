@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ICA background
+title: Indep. Comp. Analysis
 parent:  Concepts guide
 grand_parent: Tutorials
 categories: concepts
