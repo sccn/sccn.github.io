@@ -4,6 +4,10 @@ title: EEGLAB hardware and software recommendations
 parent: Other documents
 ---
 
+
+# EEGLAB hardware and software recommendations
+
+
 Open source spirit
 ------------------
 
@@ -70,37 +74,41 @@ Notes
 -   Although EEGLAB is free, the Matlab software environment that it
     runs on is a commercial product of The Mathworks.
 
-<!-- -->
+
 
 -   For Windows users: Avoid Windows XP which does not work well with
     Matlab because of memory issues.
 
-<!-- -->
+
 
 -   For advanced Mac OSX users: Matlab cannot access what OSX calls
     'inactive memory'. To free it for use by Matlab, on a terminal
     window command line type
 
-`       `*`%`` ``du`` ``-su`` ``/`*
-
+```matlab
+       * % du -su /*
+```
 -   For advanced Windows users: It is possible on some platforms to
     start up Matlab with an alternate memory manager using the "–memmgr"
     option. Look
     [here](http://matlab.izmiran.ru/help/techdoc/ref/matlabwindows.html)
     for more information.
 
-<!-- -->
+
 
 -   For Ubuntu linux users: There are often graphics problems when
     Matlab uses OpenGL graphics under Ubuntu. To avoid them, at the
     beginning of each Matlab session enter
 
-`       `*`>>`` ``set(0,'DefaultFigureRenderer','painter');`*` `
+``` matlab
+       *>> set(0,'DefaultFigureRenderer','painter'); *
+```
 
 or
 
-`       `*`>>`` ``set(0,'DefaultFigureRenderer','z-buffer')`*
-
+``` matlab
+       * >> set(0,'DefaultFigureRenderer','z-buffer')*
+``` 
 -   For GPU users: EEGLAB functions do not use yet the capabilities of
     GPU (Graphic Processing Unit) boards, which currently have the
     highest performance/cost ratio. However, we have made first attempts
@@ -116,8 +124,11 @@ publication, we advise the following procedure:
 -   Export the figure (*myfigure*) from Matlab as a postscript image
     (the *.epsc* format) by typing on the Matlab command line
 
-`       `*`>>`` ``print`` ``-depsc`` ``myfigure.eps`*
-`       `*`>>`` ``print`` ``-dpdf`` ``-r300`` ``myfigure.pdf`*
+``` matlab
+       * >> print -depsc myfigure.eps*
+       * >> print -dpdf -r300 myfigure.pdf`*
+
+``` 
 
 -   Edit the resulting postscript or PDF image file using an editor such
     as Adobe Illustrator.
@@ -126,7 +137,11 @@ publication, we advise the following procedure:
     saving the figure by typing on the Matlab commandline, before saving
     the figure,
 
-`       `*`>>`` ``set(gcf,`` ``'renderer',`` ``'painter')`*
+
+``` matlab
+        * >> set(gcf, 'renderer', 'painter') *
+
+``` 
 
 -   If you have images with transparent regions, export them using the
     Matlab
@@ -135,12 +150,17 @@ publication, we advise the following procedure:
 -   To ensure that the image you are seeing is the image that is being
     saved and printed, on the Matlab command line type
 
-`       `*`>>`` ``set(gcf,`` ``'paperpositionmode',`` ``'auto');`*
 
+``` matlab
+       *>>set(gcf, 'paperpositionmode', 'auto');*
+
+``` 
 -   To change the font of all elements in a figure, try
 
-`       `*`>>`` ``setfont(gcf,`` ``'fontsize',`` ``16);`*
+```matlab 
+       * >> setfont(gcf,'fontsize',16);*
 
+``` 
 Unfortunately in some recent versions of Matlab, saving vectorized
 version of figures has become difficult (artefacts in STUDY scalp
 topographies). Let us know if you find better solutions.

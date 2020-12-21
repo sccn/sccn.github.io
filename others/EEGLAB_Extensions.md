@@ -4,6 +4,8 @@ title: EEGLAB Extensions
 parent: Other documents
 ---
 
+# EEGLAB extensions
+
 EEGLAB extensions or plug-ins allow users to build and publish new data
 processing and/or visualization functions using EEGLAB data structures
 and conventions. Plug-in functions can be easily used and tested by
@@ -58,8 +60,10 @@ sub-directory/sub-folder. Remove the old version of the plug-in if it is
 present in either directory. Then restart EEGLAB. During start-up,
 EEGLAB should print the following on the Matlab command line:
 
+``` matlab
 > eeglab: adding plug-in "eegplugin_myplugin" % (see \>\> help
 > eegplugin_myplugin)
+```
 
 The plug-in will typically have added one or more new items to the
 EEGLAB menu (often under the Tools heading).
