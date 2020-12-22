@@ -24,9 +24,9 @@ information on ICA you can also refer to the [Appendix](/tutorials/IV.Appendix/I
 Watch ICA presentations
 -----------------------
 
-You may watch below eleven short presentations on EEG independent component analysis (part of the EEGLAB online tutorial).
+You may watch below eleven short presentations on EEG independent component analysis (part of the EEGLAB online tutorial). If you click on the icon on the top right corner you can see the list of all the videos in the playlist.
 
-<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN2uDadxZ_OEsHjzcRtlLNxc"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/ICApresentation2.png"></a>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2uDadxZ_OEsHjzcRtlLNxc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
 Running ICA decompositions
 ---------------------------

@@ -270,5 +270,12 @@ the figure below.
 
 ![image not found](/assets/images/Erp_condstat.gif)
 
-Add something on LIMO here?
-----------------------------
+
+## General Linear Modelling
+
+The [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/) allows you to use general linear modelling approaches on your data within EEGLAB.
+
+If you click on the icon on the top right corner you can see the list of all the videos in the playlist - select the second one for a practical introduction to using LIMO with EEGLAB:
+
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
