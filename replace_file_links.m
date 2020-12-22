@@ -27,7 +27,7 @@ end
 fclose(fid);    
 
 % write new file
-fid = fopen('test.md', 'w');
+fid = fopen(fileName, 'w');
 for iRow = 1:length(allStrs)
     fprintf(fid, '%s\n', allStrs{iRow});
 end

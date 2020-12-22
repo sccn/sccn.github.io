@@ -139,8 +139,8 @@ dataset to be entered into the clustering (as explained briefly above),
 - second, computing component activity measures for each study dataset
 (described below). 
 
-For this purpose, for each dataset component the
-pre-clustering function { {File\|pop_preclust.m} } first computes
+For this purpose, for each dataset component thepre-clustering function [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) first computes
+
 desired condition-mean measures used to determine the cluster 'distance'
 of components from each other. 
 
@@ -151,11 +151,11 @@ well as the component scalp maps (interpolated to a standard scalp grid)
 and their equivalent dipole model locations (if any).
 
 
-*Note*: Dipole locations are the one type of pre-clustering information
-*not* computed by { {File\|pop_preclust.m} }. As explained previously,
+*Note*: Dipole locations are the one type of pre-clustering information*not* computed by [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m). As explained previously,
+
 to use dipole locations in clustering and/or in reviewing cluster
-results, dipole model information must be computed separately and saved
-in each dataset using the { {File\|dipfit.m} } EEGLAB plug-in.
+results, dipole model information must be computed separately and savedin each dataset using the [dipfit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=dipfit.m) EEGLAB plug-in.
+
 
 
 The aim of the pre-clustering interface is to build a global distance
@@ -172,15 +172,15 @@ Invoke the pre-clustering graphic interface by using menu item
 
 
 ![image not found](/assets/images/Pop_preclust.gif)
+The top section of the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) gui above allows
 
-The top section of the { {File\|pop_preclust.m} } gui above allows
 selecting clusters from which to produce a refined clustering. There
 is not yet any choice here -- we must select the parent datasets that
 contain all selected components from all datasets (e.g., the
 components selected at the end of the previous section).
 
-The checkboxes on the left in the second section of the 
-{ {File\|pop_preclust.m} } interface above allow selection of the
+The checkboxes on the left in the second section of the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) interface above allow selection of the
+
 component activity measures to include in the *cluster location
 measure* constructed to perform clustering. 
 
@@ -203,8 +203,8 @@ If you are computing (time/frequency) spectral perturbation images,
 you cannot use all their (near-3000) time-frequency values, which are
 redundant, in any case. Here also, you should use the *Dim.* column
 inputs to reduce the number of dimensions (for instance, to 10).
+*Note*: [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) reduces the dimension of the cluster
 
-*Note*: { {File\|pop_preclust.m} } reduces the dimension of the cluster
 position measures (incorporating information from ERP, ERSP, or other
 measures) by restricting the cluster position vectors to an
 N-dimensional principal subspace by principal component analysis
@@ -271,8 +271,8 @@ subsets.
     *Note:* It is not yet possible to cluster on dipole orientations. 
     
     As mentioned above, the equivalent dipole model for each component and
-    dataset must already have been pre-computed. If one component is
-    modeled using two symmetrical dipoles, { {File\|pop_preclust.m} }
+    dataset must already have been pre-computed. If one component is    modeled using two symmetrical dipoles, [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m)
+
     will use the average location of the two dipoles for clustering
     purposes (Note: this choice is not optimum).
     
@@ -287,8 +287,8 @@ subsets.
     
     You may also
     select whether or not to use only the absolute map values, their
-    advantage being that they do not depend on (arbitrary) component map
-    polarity. As explained in the { {File\|ICA_decomposition.m} }, ICA
+    advantage being that they do not depend on (arbitrary) component map    polarity. As explained in the [ICA_decomposition.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=ICA_decomposition.m), ICA
+
     component scalp maps themselves have no absolute scalp map polarity.
     
 -   **ERSPs and/or ITCs:** The last two checkboxes allow including
@@ -299,8 +299,8 @@ subsets.
     and/or ITC measures, several time/frequency parameters are required.
     To choose these values, you may enter the relevant {
     {File\|timefreq.m} } keywords and arguments in the text box. You may
-    for instance enter '' 'alpha', 0.01'' for significance masking. See
-    the { {File\|timefreq.m} } help message for information about
+    for instance enter '' 'alpha', 0.01'' for significance masking. See    the [timefreq.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timefreq.m) help message for information about
+
     time/frequency parameters to select.
     
 -   **Final number of dimensions:** An additional checkbox at the bottom
@@ -323,12 +323,12 @@ subsets.
     instead of 10), in place of the final dimension reduction option (13
     to 10).
 
+- Finally, the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) gui allows you to choose to save
 
-- Finally, the { {File\|pop_preclust.m} } gui allows you to choose to save
 the updated *STUDY* to disk.
 
+In the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) select all methods and leave all
 
-In the { {File\|pop_preclust.m} } select all methods and leave all
 default parameters (including the dipole residual variance filter at the
 top of the window), then press *OK*. As explained below, for this
 tutorial STUDY, measure values are already stored on disk with each
@@ -347,11 +347,11 @@ of the processor.
 
 Future EEGLAB releases will implement parallel
 computing of these measures for cases in which multiple processors are
-available. Measures previously computed for a given dataset and stored
-by { {File\|std_preclust.m} } will not be recomputed, even if you narrow
+available. Measures previously computed for a given dataset and storedby [std_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_preclust.m) will not be recomputed, even if you narrow
+
 the time and/or frequency ranges considered. Instead, the computed
-measure information will be loaded from the respective Matlab files in
-which it was saved by previous calls to { {File\|pop_preclust.m} }.
+measure information will be loaded from the respective Matlab files inwhich it was saved by previous calls to [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m).
+
 
 Measure data files are saved in the same directory/folder as the
 dataset, and have the same dataset name -- but different filename
@@ -389,8 +389,8 @@ Finding clusters with PCA (original) method
 --------------------------------------------
 
 ### Computing and visualizing clusters.
+Calling the cluster function [pop_clust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clust.m), then selecting
 
-Calling the cluster function { {File\|pop_clust.m} }, then selecting
 menu item <span style="color: brown">Study → Cluster components</span> will
 open the following window.
 
@@ -430,8 +430,8 @@ Click on the lower left checkbox to save the clustered
 studyset to disk. If you do not provide a new filename in the adjacent
 text box, the existing studyset will be overwritten.
 
+In the [pop_clust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clust.m) gui:
 
-In the { {File\|pop_clust.m} } gui:
  - enter *10* for the number of
 clusters 
 - check the *Separate outliers ...* checkbox to detect and
@@ -520,8 +520,8 @@ documentation for this plugin is available on Stefan Debener web page at
 [<http://www.debener.de/corrmap/corrmapplugin1.html>](http://www.debener.de/corrmap/corrmapplugin1.html).
 
 Viewing component clusters
-----------------------------
-Calling the cluster editing function { {File\|pop_clustedit.m} } using
+----------------------------Calling the cluster editing function [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) using
+
 menu item <span style="color: brown">Study → Edit → plot clusters</span> will
 open the following window. 
 
@@ -586,13 +586,13 @@ sample STUDY).
 
 To see the relationship between one of the cluster centroid maps and the
 maps of individual components in the cluster, select the cluster of
-interest (for instance Cluster 8), and press the *Plot scalp maps*
-option in the *right* { {File\|pop_clustedit.m} } column.
+interest (for instance Cluster 8), and press the *Plot scalp maps*option in the *right* [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) column.
+
 
 
 *Note:* Channels missing from any of the datasets do not affect clustering
-or visualization of cluster scalp maps. Component scalp maps are
-interpolated by the { {File\|toporeplot.m} } function, avoiding the need
+or visualization of cluster scalp maps. Component scalp maps areinterpolated by the [toporeplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=toporeplot.m) function, avoiding the need
+
 to restrict *STUDY* datasets to a common 'always clean' channel subset
 or to perform 'missing channel' interpolation on individual datasets.
 
@@ -651,8 +651,8 @@ presented in the left center side bar (see the image below).
 ![525px](/assets/images/Cls_plotclustdip.gif)
 
 
+As for the scalp maps, the [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) gui will
 
-As for the scalp maps, the { {File\|pop_clustedit.m} } gui will
 separately plot the cluster ERPs, spectra, ERSPs or ITCs. Let us review
 once more the different plotting options for the data spectrum. 
 
@@ -696,8 +696,8 @@ methods) can also be updated manually in the preview cluster viewing and
 editing window (called from menu item <span style="color: brown">Study → Edit/plot clusters</span>). These editing options allow flexibility for
 adjusting the clustering. Components can be reassigned to different
 clusters, clusters can be merged, new clusters can be created, and
-'outlier' components can be rejected from a cluster. Note that if you
-make changes via the { {File\|pop_clustedit.m} } gui, then wish to
+'outlier' components can be rejected from a cluster. Note that if youmake changes via the [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) gui, then wish to
+
 cancel these changes, pressing the *Cancel* button will cause the
 *STUDY* changes to be forgotten.
 

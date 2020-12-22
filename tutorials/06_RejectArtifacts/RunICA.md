@@ -8,6 +8,7 @@ has_toc: false
 ---
 Independent Component Analysis for artifact removal
 =====
+{: .no_toc }
 Independent Component Analysis (ICA) may be used to remove/subtract artifacts embeded in the data (muscle, eye blinks or eye movements) <i>without</i> removing the affected data portions. ICA may also be used to find brain sources and we will come back to this topic in subsequent sections of the tutorial. For more theory and background 
 information on ICA you can also refer to the [Appendix](/tutorials/IV.Appendix/ICA_background.html). This is a long section, so we have included a table of contents below.
 

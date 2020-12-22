@@ -7,9 +7,10 @@ nav_order: 5
 ---
 EEGLAB Data Structures
 =======================
+{: .no_toc }
 
 This section is intended for users who wish to [use EEGLAB and its
-functions in Matlab scripts](tutorials/III.2 Writing EEGLAB Scripts). We have tried
+functions in Matlab scripts](/tutorials/ConceptsGuide/EEGLAB_functions.html). We have tried
 to make EEG structures as simple and as transparent as possible so that
 advanced users can use them to efficiently process their data.
 
@@ -22,60 +23,94 @@ advanced users can use them to efficiently process their data.
 {:toc}
 </details>
 
+Introduction
+------------
+
+Writing EEGLAB Matlab scripts requires some understanding of the
+EEGLAB data structure (EEG) and its substructures (principally
+*EEG.data*, *EEG.event*, *EEG.urevent*, *EEG.epoch*, *EEG.chanlocs* and
+*EEG.history*). We will introduce EEGLAB data structures below.
+
+- EEG: the current EEG dataset
+- ALLEEG: array of all loaded EEG datasets
+- CURRENTSET: the index of the current dataset
+- LASTCOM: the last command issued from the EEGLAB menu
+- ALLCOM: all the commands issued from the EEGLAB menu
+- STUDY: the EEGLAB group analysis structure
+- CURRENTSTUDY: 1 if EEGLAB performing group analysis, 0 otherwise
+
+Note that EEGLAB does not use global variables (the variables above are
+accessible from the command line but they are not used as global
+variables within EEGLAB). The above variables are ordinary variables in
+the global Matlab workspace. All EEGLAB functions except the maininteractive window function [eeglab.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab.m) (and a few other
+display functions) process one or more of these variables explicitly as
+input parameters and do not access or modify any global variable. This
+insures that they have a minimum chance of producing unwanted 'side
+effects'.
+
 EEG and ALLEEG
 ---------------
 EEGLAB variable *EEG* is a Matlab structure that contains all the
-information about the current EEGLAB dataset. For instance, following
-the [single subject tutorial documentation](/I.Single_subject_data_processing_tutorial "wikilink")
-until data epochs have been extracted and the ICA decomposition
-computed, and then typing *\>\>EEG* will produce the following command
+information about the current EEGLAB dataset. For instance, select menu item <span style="color: brown">File</span> and press sub-menu item
+<span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data_epochs_ica.set" located in the "sample_data" folder of EEGLAB. Then press *Open*. Then typing *\>\>EEG* will produce the following command
 line output:
 
 ``` matlab
 >> EEG
 
     EEG =
-        setname:        'Epoched from "ee114 continuous"'
-        filename:       'ee114squaresepochs.set'
-        filepath:       '/home/arno/ee114/'
-        pnts:           384
-        nbchan:             32
-        trials:         80
-        srate:          128
-        xmin:           -1
-        xmax:           1.9922
-        data:           [32x384x80 double]
-        icawinv:        [32x32 double]
-        icasphere:      [32x32 double]
-        icaweights:     [32x32 double]
-        icaact:         []
-        event:          [1x157 struct]
-        epoch:          [1x80 struct]
-        chanlocs:       [1x32 struct]
-        comments:       [8x150 char]
-        averef:         'no'
-        rt:         []
-        eventdescription:   {1x5 cell}
-        epochdescription:   {}
-        specdata:       []
-        specicaact:     []
-        reject:         [1x1 struct]
-        stats:          [1x1 struct]
-        splinefile:     []
-        ref:            'common'
-        history:        [7x138 char]
-        urevent:        [1x154 struct]
-        times:          [1x384 double]
+             setname: 'EEG Data epochs'
+            filename: 'eeglab_data_epochs_ica.set'
+            filepath: '/data/matlab/eeglab/sample_data/'
+             subject: ''
+               group: ''
+           condition: ''
+             session: []
+            comments: [9×769 char]
+              nbchan: 32
+              trials: 80
+                pnts: 384
+               srate: 128
+                xmin: -1
+                xmax: 1.9922
+               times: [1×384 double]
+                data: [32×384×80 single]
+              icaact: [32×384×80 single]
+             icawinv: [32×32 double]
+           icasphere: [32×32 double]
+          icaweights: [32×32 double]
+         icachansind: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]
+            chanlocs: [1×32 struct]
+          urchanlocs: [1×32 struct]
+            chaninfo: [1×1 struct]
+                 ref: 'common'
+               event: [1×157 struct]
+             urevent: [1×154 struct]
+    eventdescription: {[2×29 char]  [2×63 char]  [2×36 char]  ''  ''}
+               epoch: [1×80 struct]
+    epochdescription: {}
+              reject: [1×1 struct]
+               stats: [1×1 struct]
+            specdata: []
+          specicaact: []
+          splinefile: []
+       icasplinefile: ''
+              dipfit: []
+             history: ''
+               saved: 'yes'
+                 etc: [1×1 struct]
+             datfile: 'eeglab_data_epochs_ica.fdt'
+                 run: []
 ```
 
-Above, we have italized several important fields. See the help message
+See the help message
 of the [eeg_checkset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkset.m) function (which checks the consistency
 of EEGLAB datasets) for the meaning of all the fields.
 
 EEGLAB variable *ALLEEG* is a Matlab array that holds all the datasets
 in the current EEGLAB/Matlab workspace. In fact *ALLEEG* is a structure
 array of *EEG* datasets (described above). If, in the current EEGLAB
-session you have two datasets loaded, typing *\>\> ALLEEG* on the Matlab
+session you have one datasets loaded, *ALLEEG* will be equal to *EEG*. If you have two datasets loaded, typing *\>\> ALLEEG* on the Matlab
 command line returns:
 
 ``` matlab
@@ -116,7 +151,7 @@ ALLEEG =
 
 Typing *\>\> ALLEEG(1)* returns the structure of the first dataset in
 ALLEEG, and typing *\>\> ALLEEG(2)* returns the structure of the second
-dataset. See the [Script Tutorial](/Chapter_02:_Writing_EEGLAB_Scripts "wikilink") for more
+dataset. See the [using EEGLAB history](/tutorials/11_Scripting/Using_EEGLAB_history.html) section of the tutorial for more
 information on manipulating these structures.
 Most fields of the *EEG* structure contain single values (as detailed in
 [eeg_checkset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkset.m)). However some important fields of the *EEG*
@@ -146,10 +181,10 @@ and typing *\>\> EEG.chanlocs* returns
         Z
 ```
 
-Here,*EEG.chanlocs* is a structure array of length 32 (one record for
+Here, *EEG.chanlocs* is a structure array of length 32 (one record for
 each of the 32 channels in this dataset). 
 
-Typing *\>\>EEG.chanlocs*
+Typing *\>\>EEG.chanlocs(1)*
 returns:
 
 ``` matlab
@@ -172,10 +207,7 @@ first channel ('FPz'). You may use the [pop_chanedit.m](http://sccn.ucsd.edu/eeg
 function or menu item <span style="color: brown">Edit → Channel locations</span>
 to edit or recompute the channel location information. The value of any
 EEG structure field may also be modified manually from the Matlab
-command line. See also the [EEGLAB channel location file database
-page](http://sccn.ucsd.edu/eeglab/channellocation.html) and the main
-tutorial section regarding ['Using channel
-locations'](/Chapter_02:_Channel_Locations "wikilink").
+command line. See also the tutorial section on importing [channel locations](/tutorials/04_Import/Channel_Locations.html).
 
 ### EEG.event
 
@@ -192,6 +224,7 @@ user-defined events. Loading the tutorial dataset and typing
             position
             latency
             urevent
+            epoch
 ```
 
 In general, fields *type*, *latency*, and *urevent* are always present
@@ -214,10 +247,10 @@ If epochs have been extracted from the dataset, another field, *epoch*,
 is added to store the index of the data epoch(s) the event belongs to.
 
 To learn more about the EEGLAB event structure, see the [event
-processing tutorial](/Chapter_03:_Event_Processing "wikilink").
+scripting tutorial](/tutorials/11_Scripting/Event_Processing_command_line.html).
 
 There is also a separate "ur" (German for "original") event structure,
-*EEG.urevent* (in EEGLAB v4.2 and above), which holds all the event
+*EEG.urevent*, which holds all the event
 information that was originally loaded into the dataset plus events that
 were manually added by the user. When continuous data is first loaded,
 the content of this structure is identical to contents of the
@@ -242,18 +275,368 @@ the original third event, and so will be linked to the third
         3
 ```
 
-<u>**WARNING:** </u>
+#### Event types
 
-Datasets created under EEGLAB 4.1 and loaded into
-4.2 had an *EEG.urevent* structure created automatically. If some data
-containing events had been rejected BEFORE this time, then the urevent
-structure information IS INCOMPLETE (i.e. to some degree wrong!). Most
-new datasets created under 4.2 had the urevent structure saved correctly
-when the event information was first added. Be cautious about using
-urevent information from legacy 4.1 datasets.
+Event fields of the current data structure can be displayed by typing
+''\>\> EEG.event '' on the Matlab command line. For instance, using the
+unprocessed tutorial dataset,
 
-You may refer to the [Event Processing Tutorial](/Chapter_03:_Event_Processing "wikilink") for more details on
-the event and urevent stuctures.
+``` matlab
+EEG.event
+```
+
+returns,
+
+``` matlab
+ans =
+
+    1x157 struct array with fields:
+        type
+        position
+        latency
+        urevent
+```
+
+To display the field values for the first event, type:
+
+``` matlab
+EEG.event(1)
+```
+
+This will return,
+
+``` matlab
+ans =
+    type: 'square'
+    position: 2
+    latency: 129.087
+    urevent: 1
+```
+
+Remember that custom event fields can be added to the event structure
+and will thereafter be imported with the event information whenever the
+dataset is loaded. Therefore, the names of some event fields may differ
+in different datasets. Note that event field information can be easily
+retrieved using commands such as *\>\> {EEG.event.fieldname}*. For
+example,
+
+``` matlab
+{EEG.event(1:5).type}
+```
+
+returns the contents of the *type* field for the first 5 events:
+
+``` matlab
+ans =
+    'square' 'square' 'rt' 'square' 'rt'
+```
+
+Use the following commands to list the different event types in the
+unprocessed tutorial dataset:
+
+``` matlab
+>> unique({EEG.event.type});
+
+ans=
+    'rt' 'square'
+```
+
+The command above assumes that event types are recorded as strings. Use
+*\>\> unique(cell2mat({EEG.event.type}));* for event types stored as
+numbers.
+
+You may then use the recovered event type names to extract epochs. Below
+is the command-line equivalent of the epoch extraction procedure
+presented above in section [extracting data
+epochs](/tutorials/07_Extract_epochs/Extracting_Data_Epochs.html).
+
+``` matlab
+EEG = pop_epoch( EEG, { 'square' }, \[-1 2\], 'epochinfo', 'yes');
+```
+
+#### Event latencies
+
+We may use the same command as in the section above to display the
+contents of the event latency field. Event latencies are stored in units
+of data sample points relative to (0) the beginning of the continuous
+data matrix (EEG.data). For the tutorial dataset (before any
+processing), typing:
+
+``` matlab
+[EEG.event(1:5).latency]
+
+ans =
+     129.0087 218.0087 267.5481 603.0087 659.9726
+```
+
+To see these latencies in seconds (instead of sample points above), you
+need first to convert this cell array to an ordinary numeric array(using EEGLAB [cell2mat.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=cell2mat.m) function), then subtract 1 (because
+
+the first sample point corresponds to time 0) and divide by the sampling
+rate. Therefore,
+
+``` matlab
+([EEG.event(1:5).latency]-1)/EEG.srate
+
+ans =
+    1.0001 1.6954 2.0824 4.7032 5.1482
+```
+
+For consistency, for epoched datasets, the event latencies are also
+encoded in sample points with respect to the beginning of the data (as
+if the data were continuous). Thus, after extracting epoch from the
+tutorial dataset as detailed in ["Data
+Epochs"](/tutorials/07_Extract_epochs/Extracting_Data_Epochs.html), look at the first 5 event latencies:
+
+``` matlab
+{EEG.event(1:5).latency}
+
+ans =
+     129 218.00 267.5394 424 513 
+``` 
+
+Note that for an epoched dataset this information has no direct meaning.
+Instead, select menu item <font color=brown>Edit → Event values</font>(calling function [pop_editeventvals.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_editeventvals.m)) to display the
+latency of this event in seconds relative to the epoch time-locking
+event. From the command-line, you may use the function [eeg_point2lat.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_point2lat.m) to convert the given latencies from data
+points relative to the beginning of the data to latencies in seconds
+relative to the epoch time-locking event. For example:
+
+``` matlab
+eeg_point2lat(cell2mat({EEG.event(1:5).latency}), cell2mat({EEG.event(1:5).epoch}), EEG.srate, [EEG.xmin EEG.xmax])
+
+ans =
+    0 0.6953 1.0823 -0.6953 0
+```
+
+The reverse conversion can be accomplished using function [eeg_lat2point.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_lat2point.m).
+
+The most useful function for obtaining event information from thecommand-line is EEGLAB function [eeg_getepochevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_getepochevent.m). This
+function may be used for both continuous and epoch data to retrieve any
+event field for any event type. For example, using the tutorial data
+(after epoch extraction), type in
+
+``` matlab
+[rt_lat all_rt_lat] = eeg_getepochevent(EEG, 'rt', [], 'latency');
+```
+
+to obtain the latency of events of type *rt*. The first output is an
+array containing one value per data epoch (the *first* event of the
+specified type in each data epoch). The second output is a cell array
+containing the field values for *all* the relevant events in each data
+epoch. Latency information is returned in milliseconds. (Note: The third
+input allows searching for events in a specific time window within each
+epoch. An empty value indicates that the whole epoch time range should
+be used).
+
+Similarly, to obtain the value of the event 'position' field for 'square'
+events in each epoch, type:
+
+``` matlab
+[rt_lat all_rt_lat] = eeg_getepochevent(EEG, 'square', [], 'position');
+```
+
+Continuous data behave as a single data epoch, so type:
+
+``` matlab
+[tmp all_sq_lat] = eeg_getepochevent(EEG, 'square');
+```
+
+to obtain the latencies of all 'square' events in the continuous data
+(via the second output).
+
+#### Ur-events
+
+A separate "ur" (German for "original") event
+structure, *EEG.urevent*, holds all the event information originally
+loaded into the dataset. If some events or data regions containing
+events are removed from the data, this should not affect the
+*EEG.urevent* structure. If some new events are inserted into the
+dataset, the urevent structure is automatically updated. This is useful
+to obtain information on the *context* of events in the original
+experiment. Even after extracting data epochs, the prior *context* of
+each event in a continuous or epoched dataset is still available.
+Currently, the *EEG.urevent* structure can only be examined from the
+command line.
+
+The *EEG.urevent* structure has the same format as the *'EEG.event*
+structure. The *urevent* field in the event structure (e.g.,
+*EEG.event(n).urevent*) contains the index of the corresponding event in
+the urevent structure array -- thereby 'pointing' from the event to its
+corresponding urevent, e.g., its "original event" number in the
+continuous data event stream. For example, if a portion of data
+containing the second event is removed from a continuous dataset during
+artifact rejection, the second event will not remain in the *EEG.event*
+structure. It *will* remain, however, in the *EEG.urevent* structure.
+e.g., the second *EEG.event* might now point to the third *EEG.urevent*:
+
+``` matlab
+>> EEG.event(2).urevent
+
+ans =
+    3
+```
+
+Note that 'urevent' indices in the *EEG.event* structure do not have to
+increase linearly. For example, after epochs were extracted from the
+tutorial dataset,
+
+``` matlab
+>> {EEG.event(1:5).urevent}
+
+ans =
+    [1] [2] [3] [1] [2]
+```
+
+This means that events 1 and 2 (in the first data epoch) and events 4
+and 5 (in the second data epoch) are actually the same original
+events.
+
+At present (v4.4), a few EEGLAB command-line functions use the ureventstructure: [eeg_time2prev.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_time2prev.m), [eeg_urlatency.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_urlatency.m) and
+[eeg_context.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_context.m). The next
+section provides more insight into the relation between the *EEG.event*
+and *EEG.urevent* structures.
+
+
+#### Event boundaries
+
+Events of reserved type 'boundary' are created automatically by EEGLAB
+when portions of the data are rejected from continuous data or when
+continuous datasets are concatenated. These events indicate the
+latencies and (when possible) the durations of the discontinuities these
+operations introduce in the data. In the image below, a portion of data
+that included event \#2 was rejected, and a type 'boundary' event was
+added to the event structure. Its index became 2, since events are
+sorted by their latencies. The urevent structure continues to hold the
+original event information, with no added 'boundary' event.
+
+
+![Image:Eventcontinuous.gif](/assets/images/Eventcontinuous.gif)
+
+
+
+Boundary events are standard event structures with *event.type* =
+'boundary'. They also have an *event.duration* field that holds the
+duration of the rejected data portion (in data samples). (Note: Since
+all events in a dataset must have the same set of fields, in datasets
+containing boundary events, every event will have a 'duration' field --
+set by default to 0 except for true boundary type events. Boundary
+events are used by several signal processing functions that process
+continuous data. For example, calculating the data spectrum in the [pop_spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_spectopo.m) function operates only on continuous portions
+of the data (between boundary events). Also, data epoching functions
+will (rightly!) not extract epochs that contain a boundary event.
+
+*Epoched* datasets do not have boundary events between data epochs.
+Instead of being stored in a 2-D array of size (channels, sample_points)
+like continuous data, epoched data is stored in a 3-D array of size
+(channels, sample_points, trials). Events in data epochs are stored as
+if the data were continuous, in effect treating the data as a 2-D array
+of size (channels, (sample_points\*trials)). This format makes handling
+events from the command-line more convenient.
+
+The purpose of the *EEG.urevent* structure is to retain the full record
+of experimental events from the original continuous data, as shown inthe image below. Function [eeg_context.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_context.m) uses 'urevent'
+information to find events defined by their neighboring event 'context'
+in the experiment (and original data).
+
+![Image:Eventepoch.gif](/assets/images/Eventepoch.gif)
+
+**'Hard' boundaries between datasets**. When continuous datasets are concatenated, a 'harder' type of boundary
+event must be inserted, this time into both the *EEG.event* and
+*EEG.urevent* structures. In particular, if the first urevent in the
+pair was the last event in one dataset, and the next urevent was the
+first event in the next concatenated dataset (which need not have been
+recorded at the same time), the latencies of the neighboring pair of
+urevents cannot be compared directly. Such so-called "hard" boundary
+events marking the joint between concatenated datasets have the usual
+type "boundary" but a special "duration" value, *NaN* (Matlab numeric
+value "not-a-number"). They are the only "boundary" events present in
+*EEG.urevent* and are the only type "boundary" events in *EEG.event*
+with a "duration" of "NaN" and an *EEG.event.urevent* pointer to an
+urevent. Hard "boundary" events are important for functions such as [eeg_context.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_context.m) that are concerned with temporal relationships
+among events in the original experiment (i.e., among urevents).
+
+### The 'epoch' structure
+
+The *EEG.epoch* structure is empty in continuous datasets but is
+automatically filled during epoch extraction. It is computed from the *EEG.event* structure by the function [eeg_checkset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkset.m) (with
+flag 'eventconsistency') as a convenience for users who may want to use
+it in writing EEGLAB scripts. One of the few EEGLAB functions that use
+the *EEG.epoch* structure (all 'eeg_' command-line functions) is [eeg_context.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_context.m). Each *EEG.epoch* entry lists the type and
+*epoch* latency (in msec) of every event that occurred during the epoch.
+The following example was run on the tutorial set after it was converted
+to data epochs.
+
+``` matlab
+>> EEG.epoch
+
+ans =
+    1x80 struct array with fields:
+        event
+        eventlatency
+        eventposition
+        eventtype
+        eventurevent
+```
+
+Note that this dataset contains 80 epochs (or trials). Now type
+
+``` matlab
+>> EEG.epoch(1)
+
+ans =
+    event: [1 2 3]
+    eventlatency: {[0] [695.3125] [1.0823e+03]}
+    eventposition: {[2] [2] [2]}
+    eventtype: {'square' 'square' 'rt'}
+    eventurevent: {[1] [2] [3]}
+```
+
+The first field *EEG.epoch(1).event* contains the indices of all events
+that occurred during this epoch. The fields *EEG.epoch(1).eventtype*,
+*EEG.epoch(1).eventposition*, and *EEG.epoch(1).eventlatency* are cell
+arrays containing the event field values of each of the events in that
+epoch. Note that the latencies in *EEG.epoch(1).eventlatency* are in
+milliseconds with respect to the epoch time-locking event.
+
+When extracting epochs, it is possible to remove all but a selected set
+of events from the data. For example, if there is only one event in an
+epoch, the epoch table may look more readable. Using the tutorial
+dataset after extracting data epochs, select item <font color=brown>Edit → Select epoch/event</font> in the menu, and then enter (in the pop-up
+window below) "rt" in the *Event type* field, then select *Keep only
+selected events and remove all other events* instead of *Remove epochs
+not referenced by any event*. Press *OK* to create a new data set. Note:
+This daughter (and its future child datasets, if any) contains no trace
+(except in *EEG.urevent*) of all the events that actually occurred
+during the experiment but were erased by this process. <u>Therefore, we
+strongly recommend against using this option!</u>
+
+
+![Image:Pop_selectevent.jpg](/assets/images/Pop_selectevent.jpg)
+
+then typing
+
+``` matlab
+>> EEG.epoch(1)
+```
+
+returns
+
+``` matlab
+
+ans =
+    event: 1
+    eventlatency: 1.0823e+03
+    eventposition: 2
+    eventtype: 'rt'
+    eventurevent: 3
+```
+
+This means that epoch number "1" contains a single event of type "rt" at
+latency 1082.3 ms. It also indicates that this is the first event in the
+dataset (i.e., *event: 1*), but note that it was the third event in the
+original dataset, since its corresponding urevent (stored in
+*EEG.event.urevent*) is "3".
 
 ### EEG.epoch
 
@@ -269,7 +652,6 @@ after extracting data epochs the epoch structure looks like this:
 >> EEG.epoch
 
     ans =
-
     1x80 struct array with fields:
         event
         eventlatency
@@ -284,11 +666,10 @@ Note that this dataset contains 80 epochs (or trials). Now type
 >> EEG.epoch(1)
 
     ans =
-
-        event:      [1 2 3]
-            eventlatency:   {[0] [695.2650] [1.0823e+03]}
+        event:          [1 2 3]
+        eventlatency:   {[0] [695.2650] [1.0823e+03]}
         eventposition:  {[2] [2] [2]}
-        eventtype:  {'square' 'square' 'rt'}
+        eventtype:      {'square' 'square' 'rt'}
         eventurevent:   {[1] [2] [3]}
 ```
 
@@ -305,8 +686,6 @@ of milliseconds with respect to the epoch time-locking event.
 
 When there
 is only one event in an epoch, the epoch table is more readable.
-
-You may refer to the [Event Processing Tutorial](/Chapter_03:_Event_Processing "wikilink") for more details.
 
 The STUDY structure
 ---------
@@ -325,15 +704,13 @@ Cluster 1 that contains all components identified for clustering). The
 Below is a prototypical *STUDY* structure. In this tutorial, the
 examples shown were collected from analysis of a small sample studyset
 comprising ten datasets, two conditions from each of five subjects.
-After loading a studyset (see previous sections, or as described below)
-using the function { {File\|pop_loadstudy.m} }, typing *STUDY* on Matlab
+After loading a studyset (see previous sections, or as described below)using the function [pop_loadstudy.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadstudy.m), typing *STUDY* on Matlab
 command line will produce results like this:
 
 ``` matlab
 >> STUDY
 
 STUDY =
-
     name:       'N400STUDY'
     filename:   'OctN400ClustEditHier.study'
     filepath:   '/eeglab/data/N400/'
@@ -369,7 +746,7 @@ when the *STUDY* is created and updated after clustering is performed
 The *STUDY.history* field is equivalent to the *history* field of the
 *EEG* structure. It stores all the command line calls to the functions
 from the gui. For basic script writing using command history
-information, see the [EEGLAB script writing tutorial](/tutorials//III/III.2_Writing_EEGLAB_Scripts).
+information, see the [using EEGLAB history](/tutorials/11_Scripting/Using_EEGLAB_history.html) section of the tutorial.
 
 The *STUDY.etc* field contains internal information that helps manage
 the use of the *STUDY* structure by the clustering functions. In
@@ -386,7 +763,6 @@ structure, one that holds information about the first dataset in the
 >> STUDY.datasetinfo(1)
 
     ans =
-
         filepath:   '/eeglab/data/N400/S01/'
         filename:   'syn01-S253-clean.set'
         subject:    'S01'
@@ -437,7 +813,6 @@ contrast between trials within a given dataset and is described below.
 STUDY.datasetinfo(1).trialinfo(1)
 
 ans =
-
   struct with fields:
 
            chan: 0
@@ -455,11 +830,6 @@ fields ("chan", "description", "points") contain information specific to
 a given dataset. In general, a different dataset will contain different
 fields. 
 
-See
-[Definition_of_STUDY_design_independent_variables](/Chapter_07:_EEGLAB_Study_Data_Structures#Definition_of_STUDY_design_independent_variables "wikilink")
-for additional information on how this structure is created and how to
-create custom field.
-
 ### The STUDY.design sub-structure
 For the purpose of performing inference testing, any (m x n) design is
 possible (including choosing independent variables from among
@@ -472,7 +842,6 @@ This is the current (v2019) STUDY.design sub-structure:
   STUDY.design(1)
 
   ans =
-
              name: 'Design 1 - compare letter types'
          variable: [1x2 struct]
             cases: [1x1 struct]
@@ -518,7 +887,6 @@ Exploding the contents of each of these sub-structures, we obtain
     for the variable 'condition' and it points to datasets containing
     either the 'memorize' or the 'probe' stimuli.
 
-
 -   The "cases" field contains the descriptions of the single 'cases' (a
     term adopted in statistics from clinical studies). Using the current
     interface, it is not possible to define "cases" other than subjects
@@ -527,11 +895,8 @@ Exploding the contents of each of these sub-structures, we obtain
     to 'trials'). In future versions, it will be possible to use an
     arbitrary variable for case.
 
-
 -   The "filepath" field is the path where the data files are being
     stored.
-
-<!-- -->
 
 -   The "include" field is a list of independent variables and values to
     include in the design - for instance, to include "memorize" stimuli
@@ -546,7 +911,7 @@ creating a STUDY. "condition", "group" and "session" are independent
 variables defined in the first STUDY editing GUI. In addition to these
 variables, EEGLAB extracts independent variables for each subset of data
 epochs based on epoch field information for the time-locking event in
-each dataset. The function <i>std_maketrialinfo</i> creates the
+each dataset. The function [std_maketrialinfo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_maketrialinfo.m) creates the
 "trialinfo" substructure in STUDY.datasetinfo. For instance, the first
 dataset in the STUDY may have the properties:
 
@@ -595,17 +960,13 @@ at the *STUDY* level.
 ``` matlab
 % Scan all datasets in the study
 for iDat = 1:length(ALLEEG)
-
      for iEvent = 1:length(ALLEEG(iDat).event)-1
-
            curEvent = ALLEEG(iDat).event(iEvent)
            nextEvent = ALLEEG(iDat).event(iEvent+1)
 
            % only find reaction time event following time-locking events (TLE) within the same epoch
            if strcmpi( curEvent.type, 'TLE') && strcmpi( nextEvent.type, 'RT') && nextEvent.epoch == curEvent.epoch
-
                    ALLEEG(iDat).event(iEvent).rt = (nextEvent.latency - curEvent.latency)/ALLEEG(iDat).srate * 1000; % latency of reaction time in ms
-
            end
 
            % resave dataset
@@ -617,10 +978,10 @@ end
 STUDY = std_maketrialinfo(STUDY, ALLEEG); % update STUDY structure with the new information
 ```
 
-The function <i>std_makedesign</i> (or its GUI equivalent
-<i>pop_studydesign</i>) uses the information defined above to create
+The function [std_makedesign.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_makedesign.m) (or its GUI equivalent
+[pop_studydesign.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_studydesign.m)) uses the information defined above to create
 STUDY designs. The content for 'variable1' entry of the
-<i>std_makedesign</i> function can be either a field of 'datasetinfo' or
+[std_makedesign.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_makedesign.m) function can be either a field of 'datasetinfo' or
 a field of 'datasetinfo.trialinfo'. Fields from 'trialinfo' are used in
 a similar way to fields of STUDY.datasetinfo structure. For instance if
 the STUDY.datasetinfo is defined as above.
@@ -656,7 +1017,6 @@ channel measures, typing *STUDY.changrp(1)* may return
 >> STUDY.changrp
 
     ans =
-
     1x14 struct array with fields:
         name
         channels
@@ -689,9 +1049,8 @@ when the STUDY was created and is not a result of clustering; it is the
 *ParentCluster*. This cluster does not contain those components whose
 equivalent dipole model exhibit a high percent variance from the
 component's scalp map. These components have been excluded from
-clustering (see
-[Chapter_02:_STUDY_Creation\#Editing_STUDY_datasets](/Chapter_02:_STUDY_Creation#Editing_STUDY_datasets "wikilink")
-for more information on how to exclude components from clustering.
+clustering (see [component clustering](/tutorial/10_Group_analysis/component_clustering_tools.html)
+tutorial for more information on how to exclude components from clustering).
 Typing *STUDY.cluster* at the Matlab command line returns
 
 ``` matlab
@@ -716,11 +1075,7 @@ Typing *STUDY.cluster* at the Matlab command line returns
 ```
 
 All this information (including the clustering results) may be accessed
-from the Matlab command line, or by using the interactive function {
-{File\|pop_clustedit.m} }.
- 
- Use of this function is explained at [Editing
-clusters](/Chapter_05:_Component_Clustering_Tools#Editing_clusters "wikilink").
+from the Matlab command line, or by using the interactive function [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.phpfile=pop_clustedit.m).
 
 EEGLAB version 14 use to contain more information pertaining to each
 cluster (such as the ERP, Spectrum and time-frequency data for a given
@@ -739,8 +1094,8 @@ cache, then the cached values are automatically returned.
 The *cluster.name* sub-field of each cluster is initialized according to
 the cluster number, e.g. its index in the cluster array (for example:
 'cls 2', 'cls 3', etc.). These cluster names may be changed to any
-(e.g., more meaningful) names by the user via the command line or via
-the { {File\|pop_clustedit.m} } interface.
+(e.g., more meaningful) names by the user via the command line or viathe [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) interface.
+
 
 The *cluster.comps* and *cluster.sets* fields describe which components
 belong to the current cluster: *cluster.comps* holds the component
@@ -765,16 +1120,15 @@ The *cluster.centroid* field holds the cluster measure centroids for
 each measure used to cluster the components (e.g., the mean or centroid
 of the cluster component ERSPs, ERPs, ITCs, power spectra, etc. for each
 *STUDY* condition), plus measures not employed in clustering but
-available for plotting in the interactive cluster visualization and
-editing function, { {File\|pop_clustedit.m} }.
+available for plotting in the interactive cluster visualization andediting function, [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m).
+
 
 The *cluster.algorithm* sub-field holds the clustering algorithm chosen
 (for example *kmeans*) and the input parameters that were used in
 clustering the pre-clustering data.
 
 The *cluster.parent* and *cluster.child* sub-fields are used in
-hierarchical clustering (see [Hierarchic
-Clustering](/Chapter_05:_Component_Clustering_Tools#Hierarchic_sub-clustering_.28PCA_method_only.29 "wikilink")).
+hierarchical clustering (see [component clustering](/tutorial/10_Group_analysis/component_clustering_tools.html) section of the tutorial).
 
 The *cluster.child* sub-field contains indices of any clusters that were
 created by clustering on components from this cluster (possibly,
@@ -796,12 +1150,9 @@ into account when displaying component ERPs.
 
 Finally, the *cluster.dipole* structure contains the centroid equivalent
 dipole location of the component cluster. This structure is the same as
-for a single component dipole ([see DIPFIT2
-tutorial](/A08:_DIPFIT#DIPFIT_structure_and_functions "wikilink")).
+for a single component dipole (see the [ICA sources](/tutorials/09_source/DIPFIT.html) section of the tutorial).
 
-Continuing with the hierarchical design introduced briefly above (in
-[Hierarchic
-Clustering](/Chapter_05:_Component_Clustering_Tools#Hierarchic_sub-clustering_.28PCA_method_only.29 "wikilink")),
+Continuing with the hierarchical design introduced briefly above ([component clustering](/tutorial/10_Group_analysis/component_clustering_tools.html)),
 suppose that Cluster 2 (*artifacts*) comprises 15 components from four
 of the datasets. The *cluster* structure will have the following
 values:
@@ -810,7 +1161,6 @@ values:
 >> STUDY.cluster(2)
 
     ans =
-
         name:       'artifacts'
         parent:     {'ParentCluster 1'}
         child:      {'muscle 4' 'eye 5' 'heart 6'}
@@ -840,7 +1190,6 @@ example:
 >> STUDY.cluster(2).preclust
 
     ans =
-
         preclustdata:   [15x10 double]
         preclustparams: { {1x9 cell} }
         preclustcomps:  {1x4 cell}
@@ -853,14 +1202,12 @@ in the clustering (e.g., component spectra (*spec*), component ersps
 this example there is only one cell array, since only one measure (the
 power spectrum) was used in the clustering.
 
-
 For example:
 
 ``` matlab
 >> STUDY.cluster(1).preclust.preclustparams
 
     ans =
-
         'spec' 'npca' [10] 'norm' [1] 'weight' [1] 'freqrange' [3 25]
 ```
 
@@ -898,7 +1245,8 @@ rows for the .sets field) containing identical ICA decompositions.
 
 ``` matlab
 >> STUDY.cluster(clust)
-ans =
+
+    ans =
          name: 'Cls 3'
          sets: [2x13 double]
         comps: [23 5 13 47 38 3 50 5 12 4 11 3 5]
@@ -929,7 +1277,7 @@ saved on disk. These files have names such as
   S01.icatopo  % ICA component topographies
 ```
 
-<b>S01</b> indicate that these files are for subject 1. The name of the
+*S01* indicate that these files are for subject 1. The name of the
 file is based on the naming convention in your *STUDY*. If the first
 subject is named "xx01" then the file name will start with "xx01". This
 is also why subject should not simply be numbers (1, 2, 3, etc...) as
@@ -950,6 +1298,7 @@ The file structure is similar for all file types listed below.
 >> fileContent = load('-mat', 'S01.daterp');
 >> fileContent
 
+    ans = 
          chan1: [750×784 single]
          chan2: [750×784 single]
          chan3: [750×784 single]
@@ -971,15 +1320,15 @@ components, the prefix is <i>comp</i> instead of <i>chan</i>. Each
 channel data will contain an array for time x trials. Below a
 description of the additional fields:
 
--   <b>labels</b>: the cell array contain the channel labels { 'Cz' 'Pz'
+-   *labels*: the cell array contain the channel labels { 'Cz' 'Pz'
     ... }. This field is only present for data channels and is not
     present for ICA components.
--   <b>datatype</b>: contains the type of data saved in the file. More
+-   *datatype*: contains the type of data saved in the file. More
     details are provided below.
--   <b>parameters</b>: the list of parameters that was used to compute
+-   *parameters*: the list of parameters that was used to compute
     this file.
--   <b>datafile</b>: the list of files used to compute this file.
--   <b>trialinfo</b>: information about each data trial. This is similar
+-   *datafile*: the list of files used to compute this file.
+-   *trialinfo*: information about each data trial. This is similar
     to the list of information in the field "trialinfo" of
     *STUDY.dataset* (however it also includes information about
     condition, group and session which is stored separately in the
@@ -987,10 +1336,10 @@ description of the additional fields:
 
 The field datatype can take several values:
 
--   <b>ERP</b>: ERP data.
--   <b>SPECTRUM</b>: SPECTRUM data (legacy).
--   <b>TIMEF</b>: time-frequency data.
--   <b>ERPIMAGE</b>: ERPIMAGE data.
+-   *ERP*: ERP data
+-   *SPECTRUM*: SPECTRUM data (legacy)
+-   *TIMEF*: time-frequency data
+-   *ERPIMAGE*: ERPIMAGE data
 
 Note that for ERPIMAGE data, the <i>comp</i> and <i>chan</i> fields may
 contain a string of character. If this is the case, the string is

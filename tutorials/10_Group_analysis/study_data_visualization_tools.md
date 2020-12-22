@@ -58,8 +58,8 @@ on data channels you first interpolate missing channels.
  
 Automated interpolation in EEGLAB is based on channel names. If datasets have
 different channel locations (for instance if the locations of the
-channels were scanned), you must interpolate missing channels for each
-dataset from the command line using { {File\|eeg_interp.m} }. 
+channels were scanned), you must interpolate missing channels for eachdataset from the command line using [eeg_interp.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_interp.m). 
+
 
 - **List of measures to precompute**
 
@@ -70,23 +70,23 @@ Here is the full list of measures you can compute:
 
 - *ERPs:* computes mean event related potential for each condition and electrode. Specify the baseline you wish to use.
 
-- *Power spectrum*: performs spectral decomposition for each condition and electrode. You can enter here specific parameters
-  for the  { {File\|spectopo.m} } function.
+- *Power spectrum*: performs spectral decomposition for each condition and electrode. You can enter here specific parameters  for the  [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) function.
+
 - *ERP-image*: computes the ERP-image. 
 - *ERPs*/ *ITCs*:  
   The last two checkboxes allow computing
     event-related spectral perturbation in the form of
     event-related spectral power changes (ERSPs), and event-related
     phase consistencies (ITCs) for each condition. 
-    To compute the ERSP and/or ITC measures, several time/frequency parameters are required.
-    To choose these values, you may enter the relevant { {File\|timefreq.m} } keywords and arguments in the text box. You may
-    for instance enter '' 'alpha', 0.01'' for significance masking. See
-    the { {File\|timefreq.m} } help message for information about
+    To compute the ERSP and/or ITC measures, several time/frequency parameters are required.    To choose these values, you may enter the relevant [timefreq.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timefreq.m) keywords and arguments in the text box. You may
+
+    for instance enter '' 'alpha', 0.01'' for significance masking. See    the [timefreq.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timefreq.m) help message for information about
+
     time/frequency parameters to select.  
     
     
+Finally, the [pop_precomp.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_precomp.m) gui allows you to choose to recompute the measures even if they already exist (overwrites
 
-Finally, the { {File\|pop_precomp.m} } gui allows you to choose to recompute the measures even if they already exist (overwrites
 files on disk).
 
 
@@ -103,10 +103,10 @@ menu item <span style="color: brown">Study → Plot channel measures</span>.
 
 All the measures described below, once computed, can be used
 for channel data visualization.
-In the
-central column of the { {File\|pop_chanplot.m} } gui, press *Params* next to the measure you wish to plot. 
-Once you entered the desired parameters, press *OK* to exit the *Params* window then on the 
-{ {File\|pop_chanplot.m} } gui select the channel(s) (left handside) or subject(s) (right handside) you wish to plot
+In thecentral column of the [pop_chanplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanplot.m) gui, press *Params* next to the measure you wish to plot. 
+
+Once you entered the desired parameters, press *OK* to exit the *Params* window then on the [pop_chanplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanplot.m) gui select the channel(s) (left handside) or subject(s) (right handside) you wish to plot
+
 and press the corresponding "Plot XXX" measure.
 
 -   **ERPs:** *ERP plotting options* lets you specify the time range and scale. 
@@ -130,8 +130,8 @@ and press the corresponding "Plot XXX" measure.
 Example - Plotting channel measures
 ----------------------------
 
+Here we illustrate the behavior of [pop_chanplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanplot.m) for
 
-Here we illustrate the behavior of { {File\|pop_chanplot.m} } for
 plotting ERPs. Spectral and time/frequency (ERSP/ITC) measure data for
 scalp channels may be plotted in a similar manner.
 

@@ -551,8 +551,8 @@ component. At the end of the procedure, the following window pops up.
 
 
 The residual variance *RV: 2.75%* is shown below the component number
-*Comp: 5* on the right top corner indicates that the component being
-plotted is component 5 and that the residual variance is 2.75%. The { {File\|dipplot.m} } function above allows you to rotate the head model
+*Comp: 5* on the right top corner indicates that the component beingplotted is component 5 and that the residual variance is 2.75%. The [dipplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=dipplot.m) function above allows you to rotate the head model
+
 in 3-D with the mouse, plot MRI slices closest to the equivalent dipole,
 etc... (See the ['dipplot()' visualization
 tutorial](/#Visualizing_dipole_models "wikilink") below for more

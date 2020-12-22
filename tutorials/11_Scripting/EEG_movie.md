@@ -90,9 +90,9 @@ In the script above, change the line "headplotparams  = headplotparams1;" to "he
 
 It is also possible to create frames for movies as shown in the next section.
 
-Creating movie from frames
+Creating a movie from frames
 ------------
-Another solution here is assemble a series of images into a movie. For
+Another solution here is to assemble a series of images into a movie. For
 example, type:
 
 ``` matlab

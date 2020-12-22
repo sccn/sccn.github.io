@@ -13,8 +13,8 @@ This other [section](/tutorials/RejectArtifacts/) of the tutorial contain method
 
 Strategy: The approach used in EEGLAB for artifact rejection is to use
 'statistical' thresholding to 'suggest' epochs to reject from analysis.
-Current computers are fast enough to allow easy confirmation and
-adjustment of suggested rejections by visual inspection, which our { {File\|eegplot.m} } tool makes convenient. We therefore favor
+Current computers are fast enough to allow easy confirmation andadjustment of suggested rejections by visual inspection, which our [eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) tool makes convenient. We therefore favor
+
 *semi-automated rejection* coupled with visual inspection, as detailed
 below. 
 
@@ -172,8 +172,8 @@ them. Rejecting parts of an epoch is not possible.
 During 'threshold rejection', the user sets up bounding values the data
 should not exceed. If the data (at the selected electrodes) exceeds the
 given limits during a trial, the trial is marked for rejection. Enter
-the following values under *find abnormal values* (which calls function
-{ {File\|pop_eegthresh.m} }), and press *CALC/PLOT*. The parameters
+the following values under *find abnormal values* (which calls function[pop_eegthresh.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegthresh.m)), and press *CALC/PLOT*. The parameters
+
 entered below tell EEGLAB that EEG values should not exceed +/-*75* µV
 in any of the 32 channels (*1:32* ) at any time within the epoch
 (''-1000 ''to *2000* ms).
@@ -181,8 +181,8 @@ in any of the 32 channels (*1:32* ) at any time within the epoch
 
 ![575px](/assets/images/Iii22find_abnormal_val.jpg)
 
+Marked trials are highlighted in the [eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) window
 
-Marked trials are highlighted in the { {File\|eegplot.m} } window
 (below) that then pops up. Now epochs marked for rejection may be
 un-marked manually simply by clicking on them. Note that the activity at
 some electrodes is shown in red, indicating the electrodes in which the
@@ -224,8 +224,8 @@ epoch (50, for instance, would correspond to an epoch in which the
 straight-line fit value might be 0 µv at the beginning of the trial and
 50 µ v at the end). The minimal fit between the EEG data and a line of
 minimal slope is determined using a standard R-square measure. To test
-this, in the main rejection window enter the following data under *find
-abnormal trends* (which calls function { {File\|pop_rejtrend.m} }, and
+this, in the main rejection window enter the following data under *findabnormal trends* (which calls function [pop_rejtrend.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejtrend.m), and
+
 press *CALC/PLOT*.
 
 
@@ -244,8 +244,8 @@ button.
 ![575px](/assets/images/Iii23eegplot.jpg)
 
 
+Note: Calling function [pop_rejtrend.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejtrend.m) either directly from
 
-Note: Calling function { {File\|pop_rejtrend.m} } either directly from
 the command line, or by selecting <font color=brown>Tools > Reject data
 epochs > Reject flat line data</font>, allows specifying additional
 parameters.
@@ -260,8 +260,8 @@ occurrence of trials. Here, thresholds are expressed in terms of
 standard deviations of the mean probability distribution. Note that the
 probability measure is applied both to single electrodes and the
 collection of all electrodes. In the main rejection window, enter the
-following parameters under *find improbable data* press *Calculate*
-(which calls function { {File\|pop_jointprob.m} }), and then press
+following parameters under *find improbable data* press *Calculate*(which calls function [pop_jointprob.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_jointprob.m)), and then press
+
 *PLOT*.
 
 
@@ -328,8 +328,8 @@ first three). A high positive kurtosis value indicates an abnormally
 kurtosis value indicates abnormally flat activity distribution. Once
 more, single- and all-channel thresholds are defined in terms of
 standard deviations from mean kurtosis value. For example, enter the
-following parameters under ''find abnormal distribution '' press
-*Calculate* (which calls function { {File\|pop_rejkurt.m} }), then press
+following parameters under ''find abnormal distribution '' press*Calculate* (which calls function [pop_rejkurt.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejkurt.m)), then press
+
 *PLOT*.
 
 
@@ -365,8 +365,8 @@ method for selecting data epochs to reject for analysis. In this case,
 thresholds are expressed in terms of amplitude changes relative to
 baseline in dB. To specify that the spectrum should not deviate from
 baseline by *+/-50* dB in the '' 0-2'' Hz frequency window, enter the
-following parameters under '' find abnormal spectra'' (which calls
-function { {File\|pop_rejspec.m} }), then press *CALC/PLOT*.
+following parameters under '' find abnormal spectra'' (which callsfunction [pop_rejspec.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejspec.m)), then press *CALC/PLOT*.
+
 
 
 ![575px](/assets/images/Iii26find_abnormal_spectra.jpg)
