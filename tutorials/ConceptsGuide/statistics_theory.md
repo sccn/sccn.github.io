@@ -15,11 +15,10 @@ reliability of these differences across conditions and/or groups.
 Here we describe some essential concepts behind the statistical methods implemented
 in EEGLAB. 
 
-For a complete introduction to robust statistics in EEG research watch this serie of short-videos:
-
-<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN3M_CGqAOEIIOKhjTPS9T2n"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/yt_stats.png"></a>
+For a complete introduction to robust statistics in EEG research watch this serie of short-videos. If you click on the icon on the top right corner you can see the list of all the videos in the playlist.
 
 
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN3M_CGqAOEIIOKhjTPS9T2n" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
 
 Parametric and non-parametric statistics
@@ -118,6 +117,16 @@ or ANOVA model, which assume underlying gaussian value distributions.
 Note that only measures that are well-behaved (e.g., are not strongly
 non-linearly related) should be processed by this kind of non-parametric
 testing.
+
+
+
+## General Linear Modelling in EEGLAB 
+
+The video below introduces general linear modelling using EEGLAB and the [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/). If you click on the icon on the top right corner you can see the list of all the videos in the playlist.
+
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
 
 Additional resources
 ---------------------

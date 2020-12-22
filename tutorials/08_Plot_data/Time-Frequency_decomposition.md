@@ -15,9 +15,9 @@ recent development of methods for time/frequency decomposition.
 The methods used in the basic EEGLAB functions are straightforward. Their
 mathematical details are given in a reference paper [(Delorme and
 Makeig, 2004)](http://sccn.ucsd.edu/eeglab/download/eeglab_jnm03.pdf).
-You may also want to watch the short series of videos on computing time-frequency decompositions in EEGLAB (hosted on Youtube) below.
+You may also want to watch the short series of videos on computing time-frequency decompositions in EEGLAB (hosted on Youtube) below. If you click on the icon on the top right corner you can see the list of all the videos in the playlist.
 
-<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN2TAoLHVW5NvNmJtwiHurzw"><img align="center" width="400" src= "{{ site.baseurl }}/assets/images/yt_spectopo2.png"></a>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2TAoLHVW5NvNmJtwiHurzw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
 ERSP and ITC time-frequency analysis
 ------------------------------

@@ -83,16 +83,6 @@ designed for programmers. For example,
     copying and pasting code between file sources and the command line
     interface problematic (since a snippet of code will most likely have
     unwanted indentation when copied to the Python command line).
--   The closest alternative to the Matlab interactive interface is the
-    Jupyter notebook environment that runs in your browser. Yet the
-    graphical capabilities of Jupyter notebook are very limited (it is
-    sometimes hard to manipulate figures, impossible to zoom, etc...).
-    Also, all your code needs to be on one (very very long) page and it
-    is hard to create subscripts or make your code modular. Executing
-    blocks of code not in the order set in the notebook can be
-    confusing. Most people we know who have used Matlab and tried
-    Jupyter notebook hate Jupyter notebook - then learn to live with the
-    limitations if they absolutely need it for their work.
 -   Python is much more object-oriented than Matlab, sometimes requiring
     users to understand object-oriented concepts when calling functions.
 -   Python usually requires the user to install multiple external
@@ -126,6 +116,8 @@ designed for programmers. For example,
     Brainstorm. MEEG software on Python is MNE geared towards MEG users.
     The Matlab suite of available software is currently more mature than
     the Python one, which is a good reason to stick to Matlab for now.
+
+- If you wish to use Python, the [Spyder IDE](https://www.spyder-ide.org/) is a good equivalent of the Matlab interface and shoudl feel familiar.
 
 How to call EEGLAB functions from python
 ----------------------------------------
