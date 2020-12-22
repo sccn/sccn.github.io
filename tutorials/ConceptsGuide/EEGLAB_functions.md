@@ -7,7 +7,7 @@ grand_parent: Tutorials
 EEGLAB functions <font color=red>VERIFIED - NO NEED TO CHECK FURTHER</font>
 =======
 This section is intended for users who have learned at least the basics
-of Matlab script writing and wish to use EEGLAB and its many functions
+of Matlab scriptwriting and wish to use EEGLAB and its many functions
 to automate and/or customize data analyses.
 
 <details open markdown="block">
@@ -42,10 +42,10 @@ There are 3 types of EEGLAB functions:
 
 3.  Signal processing functions: The experienced Matlab user can call
     the EEGLAB signal processing functions directly from the Matlab command line or
-    from their own analysis scripts. For example
+    from their own analysis scripts. For example,
     [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m), [newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=newtimef.m), [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m), etc...
 
-We will first see how pop_function work.
+We will first see how *pop_* functions work.
 
 EEGLAB pop_ functions
 ----------------------
@@ -68,7 +68,7 @@ pop-up window. If you later copy this command from the dataset history
 and paste it onto the Matlab command line, the processing will be
 performed directly, without popping up an interactive query window.
 However, try removing all the input parameters to the function call
-except the first, naming the EEG structure and the pop_function will now
+except the first, naming the EEG structure, and the pop_function will now
 pop up a query window before performing any processing.
 For example, open a new Matlab session and try (you may have to type
 *\>\> eeglab* to add access paths to the functions below)
@@ -84,7 +84,7 @@ the EEGLAB menu via <font color=brown>File → Load dataset</font>.
 
 If,
 on the other hand, the user provides two string arguments to the [pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m) function, the first containing the filename and
-the second the file path, no interactive window appears and the dataset
+the second the file path, no interactive window appears, and the dataset
 is loaded directly.
 
 ``` matlab
@@ -105,7 +105,7 @@ filter the EEG dataset without involving this graphic interface, type:
 EEG = pop_eegfilt( EEG, 1, 0);
 ```
 
-This command will highpass filter the data above 1 Hz. To see which parameter this function takes as argument see [pop_eegfilt.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegfilt.m)
+This command will highpass filter the data above 1 Hz. To see which parameter this function takes as argument, see [pop_eegfilt.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_eegfilt.m)
 help. Keep in mind that all the interactive EEGLAB pop_ functions work
 this way. You may copy commands from the EEG history fields and modify
 the function input as desired. Function help messages are available
@@ -116,15 +116,15 @@ command line (type *\>\> help pop_xxx*).
 
 Note: Only *pop_xxx* functions or *eeg_xxx*
 functions process the EEG dataset structure; *eeg_xxx* functions
-take the EEG data structure as an argument, but do not pop up
+take the EEG data structure as an argument but do not pop up
 interactive windows. Thus, they are typically not available from the
-EEGLAB menu, but only from the command line.
+EEGLAB menu but only from the command line.
 
 pop_ function vs signal processing functions
 ----------------------
 
 As mentioned *pop_funcname()* function is
-a graphic-user interface (gui) function that operates on the *EEG* data
+a graphic user interface (gui) function that operates on the *EEG* data
 structure using the stand-alone processing function *funcname()*. The
 stand-alone processing function, which has no knowledge of the dataset
 structure, can process any suitable data matrix, whether it is an EEGLAB
@@ -168,8 +168,8 @@ To carry out their required data processing, most of the pop_ functions
 function (*xxxx*). You may directly call these functions to
 perform more advanced scripting. The important thing
 is that both the pop_ function and its corresponding processing
-function return the same variables (usually the pop_ function help
-messages refer the user to the processing function help message which
+function return the same variables (usually, the pop_ function help
+messages refer the user to the processing function help message, which
 describes the output variables). For example, the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) function returns the same outputs as the [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) function:
 
 ``` matlab
@@ -185,8 +185,8 @@ ones(1, EEG.trials)*EEG.xmax*1000, linspace(EEG.xmin*1000, EEG.xmax*1000, EEG.pn
 
 *Note:* If *pop_xxx* is a plotting function, then a
 new figure is created automatically only when the function is called in
-pop-up window mode. Otherwise, *pop_xxx* plotting commands
-as well as all non-pop plotting commands should be
+pop-up window mode. Otherwise, *pop_xxx* plotting commands,
+as well as all non-pop plotting commands, should be
 preceded by a Matlab *figure* command, as in the example above. Note that
 *figure* is added before the command by the EEGLAB history
 mechanism. This feature allows you to create compound figures using
@@ -197,7 +197,7 @@ Using EEGLAB data processing functions may require understanding some
 subtleties of how they work and how they are called. Users should read
 carefully the documentation provided with each function. Though for most
 functions, the function documentation is supposed to describe function
-output in all possible situations, occasionally users may need to look in
+output in all possible situations, occasionally, users may need to look in
 the function script files themselves to see exactly how data processing
 is performed. Since EEGLAB functions are open source, this is always
 possible.

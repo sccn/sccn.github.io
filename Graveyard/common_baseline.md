@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Creating scalp topography animations
+Common baseline accross ERSP condition
 =========
 
 When computing event-related spectral power (ERSP)

@@ -10,7 +10,7 @@ This example demonstrates some of the power of low-level
 scripting that goes beyond the scope of functions currently available
 through the graphical interface. Below we run this script on the tutorial epoched dataset.
 The [tftopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=tftopo.m) function is a powerful function that
-allow plotting time-frequency decompositions across all channels.
+allows plotting time-frequency decompositions across all channels.
     
 The script below can be found at [tftopo_example.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=tftopo_example.m)
 

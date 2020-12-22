@@ -10,7 +10,7 @@ Plotting measures in scalp topography
 ### Plot time-frequency decomposition
 The [metaplottopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=metaplottopo.m) function is a powerful function that
 allows plotting any measure for all channels and components. For
-example, the code below allow plotting time-frequency decompositions for
+example, the code below allows plotting time-frequency decompositions for
 all data channels.
 
 ``` matlab
@@ -27,9 +27,9 @@ figure; metaplottopo( EEG.data, 'plotfunc', 'newtimef', 'chanlocs', EEG.chanlocs
 
 Another example below allows plotting ERPimage for all data channels.
 Note that for ERPimage, the function does not show the axis for each
-plot making it convenient to plot huundreds of channels if necessary. It
+plot making it convenient to plot hundreds of channels if necessary. It
 is also possible to plot ICA components in this way by replacing
-EEG.data by EEG.icaact and removing the *'chanlocs'* argument.
+EEG.data with EEG.icaact and removing the *'chanlocs'* argument.
 
 ``` matlab
 figure; metaplottopo( EEG.data, 'plotfunc', 'erpimage', 'chanlocs', EEG.chanlocs, 'plotargs', ...

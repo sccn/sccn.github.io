@@ -152,8 +152,8 @@ only applied for the ERP display and does not affect computation of the
 statistics. This option is useful when plotting noisy ERPs for single
 subjects.
 
+Note that a command line function, [std_envtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_envtopo.m), can also
 
-Note that a command line function, { {File\|std_envtopo.m} }, can also
 visualize cluster contributions to the grand mean ERP in one or two
 conditions, and to their difference. 
 

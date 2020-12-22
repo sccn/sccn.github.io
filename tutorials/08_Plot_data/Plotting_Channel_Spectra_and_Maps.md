@@ -1,6 +1,7 @@
 ---
 layout: default
 title: c. Spectra
+longtitle:
 parent: 8. Plot data
 grand_parent: Tutorials
 ---
@@ -26,7 +27,7 @@ To plot the channel spectra and associated topographical maps, select
 <span style="color: brown">Plot → Channel spectra and maps</span>. This will pop up the [pop_spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_spectopo.m) window (below). 
 Leave the default settings and press *OK*.
 
-![500px]({{ site.baseurl }}/assets/images/spectopo1gui.png)
+![100px]({{ site.baseurl }}/assets/images/spectopo1gui.png)
 
 The function should return a [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) plot (below).
 Since we only sampled 50% of the data (via the *Percent data...* edit

@@ -149,12 +149,12 @@ creation gui looks like this:
 ![875px](/assets/images/Pop_study.gif)
 
 
-After you have finished adding datasets to the study, press *OK* in
-the { {File\|pop_study.m} } gui to import all the dataset information.
+After you have finished adding datasets to the study, press *OK* inthe [pop_study.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_study.m) gui to import all the dataset information.
+
 We strongly recommend that you also save the STUDY as a studyset by
 filling in the bottom edit box in the gui, or by selecting the EEGLAB
-menu item <span style="color: brown">File → Save study as</span> after closing
-the { {File\|pop_study.m} } window.
+menu item <span style="color: brown">File → Save study as</span> after closingthe [pop_study.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_study.m) window.
+
 
 *Important note for ICA component clustering*:
  
@@ -291,8 +291,8 @@ you to set a threshold for residual variance of the dipole model
 associated with each component.
 
 
-*Note*: Using this option requires that dipole model information is
-present in each dataset. Use EEGLAB plug-in { {File\|dipfit.m} }
+*Note*: Using this option requires that dipole model information ispresent in each dataset. Use EEGLAB plug-in [dipfit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=dipfit.m)
+
 options and save the resulting dipole models into each dataset
 *before* calling the study guis. Otherwise, options related to dipole
 localization will not be available.
