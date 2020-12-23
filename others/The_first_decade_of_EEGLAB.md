@@ -5,7 +5,7 @@ parent: Other documents
 ---
 
 
-# History of EEGLAB
+# The first decade of EEGLAB - 10th year anniversary
 
 EEGLAB (v0.9) was first released on April 23, 2001 - thus, EEGLAB is now
 10 years old!
