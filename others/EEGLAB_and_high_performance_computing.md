@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EEGLAB and high performance computing
+long
 parent: Other documents
 ---
 
