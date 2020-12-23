@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Binica
+longtitle: Long title
 parent: Other documents
 ---
 
