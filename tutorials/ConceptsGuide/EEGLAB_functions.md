@@ -4,8 +4,10 @@ title: EEGLAB functions
 parent: Concepts guide
 grand_parent: Tutorials
 ---
-EEGLAB functions <font color=red>VERIFIED - NO NEED TO CHECK FURTHER</font>
+EEGLAB functions
 =======
+{: .no_toc }
+
 This section is intended for users who have learned at least the basics
 of Matlab scriptwriting and wish to use EEGLAB and its many functions
 to automate and/or customize data analyses.

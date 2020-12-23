@@ -1,8 +1,5 @@
 ---
 layout: default
-title: d. Retaining ICA weights
-parent: 11. Write scripts
-grand_parent: Tutorials
 ---
 
 Retaining multiple ICA weights in a dataset

@@ -6,6 +6,7 @@ grand_parent: Tutorials
 ---
 Time-frequency plot on all electrodes
 =======
+
 This example demonstrates some of the power of low-level
 scripting that goes beyond the scope of functions currently available
 through the graphical interface. Below we run this script on the tutorial epoched dataset.

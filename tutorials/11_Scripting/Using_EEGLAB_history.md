@@ -4,7 +4,7 @@ title: c. Using EEGLAB history
 parent: 11. Write scripts
 grand_parent: Tutorials
 ---
-Using EEGLAB history
+Using EEGLAB history <font color=red>VERIFIED</font>
 =====
 {: .no_toc }
 

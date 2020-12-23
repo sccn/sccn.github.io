@@ -1,38 +1,32 @@
 ---
 layout: default
-title: Statistics theory
+title: EEGLAB statistics
 parent: Concepts guide
 grand_parent: Tutorials
 ---
 
-Some statistical theory
+Statistics in EEGLAB
 ==============================
-
-Computing statistics is essential to observation of group, session,
+Computing statistics is essential to the observation of group, session,
 and/or condition measure differences. EEGLAB allows users to use either
 parametric or non-parametric statistics to compute and estimate the
 reliability of these differences across conditions and/or groups.
 Here we describe some essential concepts behind the statistical methods implemented
 in EEGLAB. 
 
-For a complete introduction to robust statistics in EEG research watch this serie of short-videos. If you click on the icon on the top right corner you can see the list of all the videos in the playlist.
-
+For a complete introduction to robust statistics in EEG research, you may watch this series of short videos. Click on the icon on the top right corner to access the list of videos in the playlist.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN3M_CGqAOEIIOKhjTPS9T2n" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-
 
 Parametric and non-parametric statistics
 -----------------------------------------
 EEGLAB allows performing classical parametric tests (paired t-test,
 unpaired t-test, ANOVA) on ERPs, power spectra, ERSPs, and ITCs. 
 
-*Below, we will use channel ERPs as an example, though in general we recommend
-that independent component ERPs and other measures be used instead. This
-is because no data features of interest are actually generated in the
-scalp, but rather in the brain itself, and under favorable circumstances
-independent component filtering allows isolation of the separate brain
-source activities, rather than their correlated mixtures recorded at the
-scalp electrodes.*
+*Below, we will use channel ERPs as an example, though in general, we recommend
+source-resolved measures be used instead. This
+is because no data features of interest are generated in the
+scalp, but rather in the brain itself.*
 
 For example, given 15 subjects' ERPs for two task or stimulus
 conditions, EEGLAB functions can perform a simple two-tailed paired
@@ -43,25 +37,22 @@ use an unpaired t-test. If there are more than two STUDY conditions,
 EEGLAB will use ANOVA instead of a t-test. For mean power spectra, the
 p-values are computed at every frequency; for ERSP and ITC
 time/frequency transforms, p-values are computed at every time/frequency
-point. See the sub-section on component cluster measures below to
-understand how to perform statistical testing on component measures.
+point.
 
 EEGLAB functions can also compute non-parametric statistics. The null
-hypothesis is that there is no difference among the conditions. In this
+hypothesis is that there is no difference between the conditions. In this
 case, the average difference between the ERPs for two conditions should
 lie within the average difference between 'surrogate' grand mean
 condition ERPs, averages of ERPs from the two conditions whose condition
 assignments have been shuffled randomly. An example follows:
 
 Given 15 subjects and two conditions, let us use
-<span style="color: red"> a1, a2, a3 ... a15 </span>, the scalp
+<span style="color: red"> a1, a2, a3, ... a15</span>, the scalp
 channel ERP values (in microvolts) at 300 ms for all 15 subjects in
 the first condition, and <span style="color: green">b1, b2, b3, ... b15</span>,
  the ERP values for the second condition. 
 
  The grand average ERP condition difference is
-
-
 >
 <span style="color: blue">d</span> = mean(
 (<span style= "color: red">a1</span>-<span style="color: green">b1</span>) +
@@ -111,19 +102,13 @@ root of the number of observations less one). The result is equivalent
 to using the mean difference. The advantage is that when we have more
 conditions, we can use the comparable ANOVA measure. Computing the
 probability density distribution of the t-test or ANOVA is only a
-"trick" to be able to obtain a difference measure across all subjects
+"trick" to be able to obtain a distance measure across all subjects
 and conditions. It has nothing to do with relying on a parametric t-test
 or ANOVA model, which assume underlying gaussian value distributions.
-Note that only measures that are well-behaved (e.g., are not strongly
-non-linearly related) should be processed by this kind of non-parametric
-testing.
-
-
 
 ## General Linear Modelling in EEGLAB 
 
-The video below introduces general linear modelling using EEGLAB and the [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/). If you click on the icon on the top right corner you can see the list of all the videos in the playlist.
-
+The video below introduces general linear modeling using EEGLAB and the [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/). Click on the icon on the top right corner to access the list of videos in the playlist.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
@@ -132,8 +117,5 @@ Additional resources
 ---------------------
 We suggest consulting a relevant statistics book for more details: An
 introduction to statistics written by Arnaud Delorme is available
-[here](http://sccn.ucsd.edu/~arno/mypapers/statistics.pdf). 
-
-A good textbook on non-parametric statistics is the text book by Rand Wilcox,
-["Introduction to robust estimation and hypothesis testing"](https://www.sciencedirect.com/book/9780123869838/introduction-to-robust-estimation-and-hypothesis-testing).
+[here](http://sccn.ucsd.edu/~arno/mypapers/statistics.pdf). We also recomment Rand Wilcox's textbook on non-parametric statistics ["Introduction to robust estimation and hypothesis testing"](https://www.sciencedirect.com/book/9780123869838/introduction-to-robust-estimation-and-hypothesis-testing).
 
