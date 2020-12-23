@@ -1,5 +1,5 @@
 ---
-layout: default_with_toc
+layout: default
 title: Other documents
 has_children: true
 has_toc: true

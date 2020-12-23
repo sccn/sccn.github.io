@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Channel Location Files
+longtitle: Common channel Location Files
 parent: Other documents
 ---
 
