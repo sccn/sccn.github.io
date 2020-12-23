@@ -1,7 +1,7 @@
 ---
 layout: default
-title: EEGLAB and high performance computing
-long
+title: High performance computing
+summary: EEGLAB and high performance computing
 parent: Other documents
 ---
 

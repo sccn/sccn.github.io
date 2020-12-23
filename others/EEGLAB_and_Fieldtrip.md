@@ -1,7 +1,6 @@
 ---
 layout: default
 title: EEGLAB and Fieldtrip
-longtitle: EEGLAB and Fieldtrip
 parent: Other documents
 ---
 

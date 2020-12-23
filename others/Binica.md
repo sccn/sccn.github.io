@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Binica
-longtitle: Long title
+summary: Download BINICA binaries
 parent: Other documents
 ---
 
