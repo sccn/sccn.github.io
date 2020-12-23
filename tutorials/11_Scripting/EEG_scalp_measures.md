@@ -5,9 +5,10 @@ parent: 11. Write scripts
 grand_parent: Tutorials
 ---
 Plotting measures in scalp topography
----------
+=====
 
-### Plot time-frequency decomposition
+Plot time-frequency decomposition
+----
 The [metaplottopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=metaplottopo.m) function is a powerful function that
 allows plotting any measure for all channels and components. For
 example, the code below allows plotting time-frequency decompositions for
@@ -23,7 +24,8 @@ figure; metaplottopo( EEG.data, 'plotfunc', 'newtimef', 'chanlocs', EEG.chanlocs
 
 ![400px](/assets/images/Newtimeftopo.png)
 
-### Plot ERP image
+Plot ERP image
+----
 
 Another example below allows plotting ERPimage for all data channels.
 Note that for ERPimage, the function does not show the axis for each

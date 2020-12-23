@@ -202,8 +202,7 @@ realistic than the four concentric spheres model, and will return more
 accurate results. The spherical head model is kept for backward
 compatibility purposes and should probably not be used any more for
 publication. The spherical model returns results that are comparable
-with the BESA tool
-([below](/#DIPFIT_validation_study_using_the_spherical_head_model "wikilink")).
+with the BESA tool ([below](/#DIPFIT_validation_study_using_the_spherical_head_model "wikilink")).
 For this example, select *Boundary element model*.
 Clicking on the model name updates the fields below. The entry *Head
 model file* contains the head model parameters (surface information,
@@ -230,8 +229,11 @@ sections.
 The last edit box *Channel to omit channels from dipole fitting*. By
 pressing List, a list of channels appears that allows users to exclude
 eye channels (or other, possibly non-head channels) from the dipole
-fitting procedure. For example, non scalp channels should be removed
+fitting procedure. For example, non-scalp channels should be removed
 prior to running dipole fitting.
+
+Note: We advise to exclude peri-ocular channel values from inverse source
+models because of poor conductance model geometry at the front of the head.
 
 #### Avoiding co-registration by choosing appropriate channel locations
 
@@ -244,20 +246,12 @@ press *OK* to close that window). Then go to the channel editing window
 (select menu item <span style="color: brownn">Edit → Channel location</span>).
 The resulting channel editor window is shown below:
 
-
-
 ![600px\|border](/assets/images/Dipfit_pop_chanedit2.png)
-
-
 
 Press the *Look up locs* to look up your channel locations (by matching
 the channel labels) in the template channel location file.
 
-
-
 ![Image:Pop_chanedit_lookup.gif](/assets/images/Pop_chanedit_lookup.gif)
-
-
 
 If you had wanted to use the template channel locations for the
 spherical model, you would have selected the first option in the pop-up
