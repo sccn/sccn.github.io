@@ -1,6 +1,7 @@
 ---
 layout: default
-title: EEGLAB hardware and software recommendations
+title: Hard/software rec.
+summary: EEGLAB hardware and software recommendations
 parent: Other documents
 ---
 

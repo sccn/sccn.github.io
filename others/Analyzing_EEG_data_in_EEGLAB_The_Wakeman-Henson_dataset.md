@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Wakeman Henson
+summary: Analyzing EEG data with EEGLAB
 parent: Other documents
 ---
 

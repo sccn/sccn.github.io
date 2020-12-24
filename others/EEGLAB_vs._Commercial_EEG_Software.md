@@ -1,6 +1,7 @@
 ---
 layout: default
-title: EEGLAB vs. Commercial EEG Software
+title: Comparisons
+summary: EEGLAB vs. Commercial EEG Software
 parent: Other documents
 ---
 
