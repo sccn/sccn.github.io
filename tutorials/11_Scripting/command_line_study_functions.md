@@ -135,8 +135,9 @@ You may retrieve data by adding output variables as described in the help messag
 
 ``` matlab
 [STUDY erpdata erptimes] = std_erpplot(STUDY, ALLEEG, 'channels', {'Oz'}, 'timerange', [-200 1000]);
-std_plotcurve(erptimes, erpdata, 'plotconditions', 'together', 'plotstderr', 'on', 'figure', 'on');
+std_plotcurve(erptimes, erpdata, 'plotconditions', 'together', 'plotstderr', 'on', 'figure', 'on', 'filter', 30);
 ```
+
 As shown above, the [std_plotcurve.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_plotcurve.m) function has additional
 parameters to plot the standard error which are not available from the
 EEGLAB graphic interface. The output of the function [std_erpplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_erpplot.m) can also be controlled by the addition of
@@ -188,27 +189,21 @@ data for this script is available
 [here](https://sccn.ucsd.edu/eeglab/download/STERN_test_1file_per_subject.zip).
 
 ``` matlab
-eeglab
-
-% load study
-[STUDY, ALLEEG] = pop_loadstudy('filename', 'stern3s.study', 'filepath', '/data/data/STUDIES/STERN_test_1file_per_subject'); % change path
-
 % Compute newtimef on first dataset for channel 1
-options = {'freqscale', 'linear', 'freqs', [3 25], 'nfreqs', 100, 'plotphase', 'off', 'padratio', 1,'winsize',64,'baseline', 0};
+options = {'freqscale', 'linear', 'freqs', [3 25], 'nfreqs', 20, 'ntimesout', 60, 'padratio', 1,'winsize',64,'baseline', 0};
 TMPEEG = eeg_checkset(ALLEEG(1), 'loaddata');
-figure; X = pop_newtimef( TMPEEG, 1, 1, [TMPEEG.xmin TMPEEG.xmax]*1000, [0] , 'topovec', nchan, 'elocs', TMPEEG.chanlocs, 'chaninfo', TMPEEG.chaninfo, options{:},'title',TMPEEG.setname, 'erspmax ',6.6);
+figure; X = pop_newtimef( TMPEEG, 1, 1, [TMPEEG.xmin TMPEEG.xmax]*1000, [3 0.8] , 'topovec', 1, 'elocs', TMPEEG.chanlocs, 'chaninfo', TMPEEG.chaninfo, 'plotphase', 'off', options{:},'title',TMPEEG.setname, 'erspmax ',6.6);
 
 % Compute newtimef for all datasets and plot first channel of first dataset
-[STUDY, ALLEEG] = std_precomp(STUDY, ALLEEG, 'channels','recompute','on','ersp','on','erspparams',{'cycles' 0 'nfreqs' 100 'padratio' 1 'winsize' 64 'freqscale' 'linear', 'freqs', [3 25] 'parallel' 'on' },'itc','on');
-STUDY = std_erspplot(STUDY,ALLEEG,'channels',{TMPEEG.chanlocs(1).labels}, 'subject', 'S01', 'design', 1 );
+[STUDY, ALLEEG] = std_precomp(STUDY, ALLEEG, 'channels','recompute','on','ersp','on','erspparams',{'cycles' [3 0.8] 'parallel' 'on' options{:} },'itc','on');
+STUDY = std_erspplot(STUDY,ALLEEG,'channels',{TMPEEG.chanlocs(1).labels}, 'subject', 'S02', 'design', 1 );
 ```
 
-This is the result of the script below (after adjusting the color scale). 
+This is the result of the script below (after clicking on the plot to remove the side panels adjusting the color scale). 
 It is not surprising that the result is the same since the same functions
 are being used in both cases.
 
-
-![border\|700px](/assets/images/Compare_newtimef.png)
+![border\|700px](/assets/images/newtimef_res.png)
 
 
 Computing component measures
@@ -221,7 +216,7 @@ instance, the function pop_precomp called in the following way will
 launch the graphic user interface for computing measures on components:
 
 ``` matlab
-[STUDY ALLEEG] = pop_precomp(STUDY, ALLEEG, 'components');
+[STUDY ALLEEG] = pop_precomp(STUDY, ALLEEG, 'components'); % pop up graphical interface
 ```
 
 The same operation may be performed without the need to use the
@@ -230,7 +225,7 @@ measure that wants to be computed. For example, in the following code
 snippet, ERP will be computed for all components:
 
 ``` matlab
-[STUDY ALLEEG] = std_precomp(STUDY, ALLEEG, 'components', 'recompute', 'on', 'erp', 'on');
+[STUDY ALLEEG] = std_precomp(STUDY, ALLEEG, 'components', 'recompute', 'on', 'erp', 'on', 'filter', 30);
 ```
 
 The type of measures computed are in close relationship with the
