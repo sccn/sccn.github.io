@@ -71,7 +71,7 @@ To delete a dataset file, simply delete the file(s) from disk outside of Matlab.
 Dataset and file preferences
 ------
 
-Call menu item <span style="color: brown">File → Preferences</span>. Dataset and file preferencesa are the first three items shown below.
+Call menu item <span style="color: brown">File → Preferences</span>. Dataset and file preferences are the first three items shown below.
 
 ![Image:preferences.png]({{ site.baseurl }}/assets/images/preferences.png)
 

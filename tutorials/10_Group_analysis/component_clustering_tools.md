@@ -115,6 +115,97 @@ against suitable null hypotheses.
 
 </details>
 
+EDIT STUDY INTERFACE CLUSTERING
+====
+
+The second checkbox removes all current cluster information and will be explained when we perform ICA component clustering. When
+cluster information is present, it is not possible to add or remove
+datasets and to edit certain fields (because this would not be
+consistent with the already computed clusters). 
+
+
+Re-clustering the
+altered STUDY does not take much time, once the pre-clustering
+information for the new datasets (if any) has been computed and
+stored.
+
+- The *Components* column contains the
+components for each dataset that will be clustered. , so the same ICA decomposition was
+used for both conditions. Uniform default values will be used by
+EEGLAB for those fields. 
+
+Note that if you
+change the component selection (by pressing the relevant push button),
+all datasets with the same subject name and the same session number
+will also be updated (as these datasets are assumed to have the same
+ICA components).
+
+
+Both raw data and ICA component data may be processed in STUDY. 
+
+
+Optional: Pre-selecting components for clustering.
+
+If you wish to process ICA component data with the STUDY you need to complete the step below.
+
+Simply press the *Select by r.v.* (r.v. = residual variance) push
+button in the gui above. 
+
+The entry box below will appear. This allows
+you to set a threshold for residual variance of the dipole model
+associated with each component.
+
+
+*Note*: Using this option requires that dipole model information ispresent in each dataset. Use EEGLAB plug-in [dipfit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=dipfit.m)
+
+options and save the resulting dipole models into each dataset
+*before* calling the study guis. Otherwise, options related to dipole
+localization will not be available.
+
+
+![Pop study rv gui](/assets/images/Pop_study_rv.gif)
+
+
+This interface allows specifying that components used in clustering
+will only be those whose equivalent dipole models have residual dipole
+variance of their component map, compared to the best-fitting
+equivalent dipole model projection to the scalp electrodes, less than
+a specified threshold (0% to 100%). The default r.v. value is 15%,
+meaning that only components with dipole model residual variance of
+less than 15% will be included in clusters. This is useful because of
+the modeled association between components with near 'dipolar' (or
+sometimes dual-dipolar) scalp maps with physiologically plausible
+components, those that may represent the activation in one (or two
+coupled) brain area(s). For instance, in the interface above, the
+default residual variance threshold is set to 15%. This means that
+only component that have an equivalent dipole model with less than 15%
+residual variance will be selected for clustering. Pressing *OK* will
+cause the component column to be updated in the main study-editing
+window. Then press *OK* to save your changes.
+
+
+*Important note for ICA component clustering*:
+ 
+ Continuous data collected in one task or
+experiment session are often separated into epochs defining different
+task conditions (for example, separate sets of epochs time locked to
+targets and non-targets respectively). Datasets from different
+conditions collected in the same *session* are assumed by the clustering
+functions to have the same ICA component weights (i.e., the same ICA
+decomposition is assumed to have been applied to the data from all
+session conditions at once). If this was not the case, then datasets
+from the different conditions must be assigned to different
+*sessions*.
+
+
+
+
+
+Note that channel
+locations may be edited for all datasets at the same time (simply call
+menu item <span style="color: brown">Edit → Channel locations</span>). 
+
+
 
 Clustering Methods
 -------------------

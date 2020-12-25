@@ -4,14 +4,47 @@ title: a. Overview
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---
-
 Multiple subject processing in EEGLAB - An Overview
 =====================================================
+In EEGLAB, the term *STUDY* designates group analysis. In this tutorial, the user is introduced to more advanced elements of EEGLAB focused around the *STUDY*
+framework used for processing multiple subjects. These topics
+are recommended for the user to successfully analyse large scale
+experiments which go beyond single subject. 
 
+In addition to the tutorial sections below, you may want to watch the short video below on multiple subjects processing in EEGLAB (hosted on Youtube):
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/kofJh7biGsE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+
+Multiple subject processing
+====
+
+EEGLAB also allows limited parallel processing of datasets of a
+*STUDY* in addition to computing clustering measures during
+pre-clustering. You may, for instance, filter all datasets of a *STUDY*.
+To do so, simply select menu item <span style="color: brown">Tools → Filter data</span>. You may also perform ICA decomposition of all datasets by
+running ICA individually on each of the datasets.
+
+You may also select specific datasets using the
+<span style="color: brown">Datasets → Select multiple datasets</span> menu item
+and run ICA on all the datasets concatenated together (the ICA graphic
+interface contains a self-explanatory checkbox to perform that
+operation). 
+
+This is useful, for example, when you have two datasets for
+two conditions from a subject that were collected in the same session,
+and want to perform ICA decomposition on their combined data. Using this
+option, you do not have to concatenate the datasets yourself; EEGLAB
+will do it for you.
+
+
+EEGLAB STUDY structure
+----------------
 This tutorial describes how to use the STUDY structure to manage and process data recorded from multiple subjects,
 sessions, and/or conditions of an experimental study. 
 
-EEGLAB uses studysets for performing statistical comparisons, for automated serial
+EEGLAB uses a *STUDY* for performing statistical comparisons, for automated serial
 (and in future parallel) computation, and for clustering of independent
 signal components across subjects and sessions. It details the use of the 
 set of EEGLAB component clustering functions that allow
@@ -25,40 +58,18 @@ filtered) decompositions across subjects and conditions, and to evaluate
 the separate contributions of identified clusters of these data
 components to the recorded EEG dynamics.
 
-EEGLAB STUDY structures and studysets:
----------------------------------------
-EEGLAB v5.0 introduced a new basic concept and data structure, the
-*STUDY*. 
-
-Each *STUDY*, saved on disk as a *studyset* (*.std*) file, is a
+Each *STUDY*, saved on disk as a *xxxx.study* file, is a
 structure containing a set of epoched *EEG* datasets from one or more
 subjects, in one or more groups, recorded in one or more sessions, in
 one or more task conditions -- plus additional (e.g., component
 clustering) information. 
 
-*STUDY* structures
-and studysets are primary EEGLAB data processing objects. Operations carried out from the EEGLAB menu or the Matlab
-command line on datasets are equally applicable to studysets
-comprising any number of datasets.
-
-### Use of STUDY structures to process single-trial channel data
-
-EEGLAB studysets may be used to compute ERPs, spectrum,
-ERSP and other measures onto single-trial channel data across dozens or
-even hundreds of subjects. 
-
-Missing data channels may be replaced if
-necessary using spherical interpolation. 
-
-Parametric or bootstrap
-statistics may be used with correction for multiple comparisons to
-compare a given measure in any n x m design. The channel data may also
-be used to compute ICA component projections (see below).
-
+*STUDY* structures are primary EEGLAB data processing objects. Operations carried out from the EEGLAB menu or the Matlab
+command line on datasets are equally applicable to EEGLAB studies
+comprising any number of datasets. The *STUDY* structure is described in the part of the tutorial describing [EEGLAB data structures](/tutorials/ConceptsGuide/Data_Structures.html#the-study-structure).
 
 Use of STUDY structures to cluster ICA components
 ----------------------------------
-
 EEGLAB studysets may be used to cluster similar independent components
 from multiple sessions and to evaluate the results of clustering. 
 
@@ -74,12 +85,6 @@ released with EEGLAB v5.0b for tutorial use and available
 [here](ftp://sccn.ucsd.edu/pub/5subjects_reduced.zip), has been used to
 create the example screens in this tutorial. 
 
-We recommend that after following the
-tutorial using this small example studyset, users next explore component
-clustering by forming EEGLAB studies for one or more of their existing
-experimental studies testing the component clustering functions more
-fully on data they know well by repeating the steps outlined in the tutorial.
-
 Upgrades to several standard EEGLAB plotting functions also allow them
 to be applied simultaneously to whole studysets (either sequentially or
 in parallel) rather than to single datasets, for example allowing users
@@ -87,7 +92,13 @@ to plot grand average channel data measures (ERPs, channel spectra,
 etc.) across multiple subjects, sessions, and/or conditions from the
 EEGLAB menu.
 
-The dataset information contained in a *STUDY* structure allows
+We recommend that after following the
+tutorial using this small example studyset, users next explore component
+clustering by forming EEGLAB studies for one or more of their existing
+experimental studies testing the component clustering functions more
+fully on data they know well by repeating the steps outlined in the tutorial.
+
+The dataset information contained in a STUDY allows
 straightforward statistical comparisons of component activities and/or
 source models for a variety of experimental designs. Currently, only a
 few two-condition comparisons are directly supported. 
@@ -118,45 +129,20 @@ also (for the later part of this chapter) in the [EEGLAB script writing tutorial
 
 Multiple Subject processing
 ===============================
-In this tutorial, the user is introduced to more advanced elements of EEGLAB focused around the STUDY
-framework used for processing multiple subjects as once. These topics
-are recommended for the user to successfully analyse large scale
-experiments which go beyond single subject. 
-
-In addition to the tutorial sections below, you may want to watch this short video on multiple subjects processing
- in EEGLAB (hosted on Youtube):
-
-<a href="https://www.youtube.com/watch?v=kofJh7biGsE"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/yt_multiple_subjects.png"></a>
 
 The most common steps you might take for group analysis of channel data and of ICA component are outlined here:
 
-### Start by getting all your datasets within a STUDY data structure:
+### Use of STUDY structures to process single-trial channel data
 
-- [Create a STUDY](/tutorials/multi-subject/study-creation.html)
-- [Specify your STUDY data analysis design](/tutorials/multi-subject/working-with-STUDY-designs.html)
+EEGLAB studysets may be used to compute ERPs, spectrum,
+ERSP and other measures onto single-trial channel data across dozens or
+even hundreds of subjects. 
 
-### Then if you want to work on channel data:
+Missing data channels may be replaced if
+necessary using spherical interpolation. 
 
-- [Pre-compute channel data measures](/tutorials/multi-subject/STUDY-data-visualization-tools.html#precomputing-channel-measures)
-
-### And if you want to work on the ICA component level:
-
-- [Identify the components in each dataset to
-    cluster](/tutorials/multi-subject/component-clustering-tools.html#Clustering_Methods "wikilink").
-- [Specify and compute ("pre-clustering") measures to use in
-    clustering](/tutorials/multi-subject/component-clustering-tools.html#Clustering_Methods "wikilink").
-- [Perform component clustering using these
-    measures](/tutorials/multi-subject/component-clustering-tools.html#Clustering_Methods "wikilink").
-    
-### Visualizing measures for either channel or component data:
-
-- [View the scalp maps, dipole models, and activity measures of the
-    component
-    clusters](/tutorials/multi-subject/component-clustering-tools.html#Editing_clusters "wikilink").
-
-### Finally perform statistical estimation on either channel data or components:
-- [Perform signal processing and statistical estimation on the
-    clusters](/tutorials/multi-subject/study-statistics-and-visualization-options.html).
-
-
+Parametric or bootstrap
+statistics may be used with correction for multiple comparisons to
+compare a given measure in any n x m design. The channel data may also
+be used to compute ICA component projections (see below).
 

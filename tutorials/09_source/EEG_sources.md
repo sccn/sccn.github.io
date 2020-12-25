@@ -1,12 +1,12 @@
 ---
 layout: default
-title: EEG sources
+title: c. EEG sources
 parent: 9. Source analysis
 grand_parent: Tutorials
-nav_order: 8
 ---
 Equivalent dipole source localization of EEG data
 ========================================
+{: .no_toc }
 
 <details open markdown="block">
   <summary>
