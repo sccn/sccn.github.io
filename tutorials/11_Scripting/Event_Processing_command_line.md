@@ -1,6 +1,6 @@
 ---
 layout: default
-title: d. Event Processing
+title: b. Event Processing
 parent: 11. Write scripts
 grand_parent: Tutorials
 

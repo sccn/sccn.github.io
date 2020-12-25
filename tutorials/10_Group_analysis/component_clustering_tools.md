@@ -935,3 +935,30 @@ be different for each component).
 For STUDY designs in which component activities of two subject groups
 are to be compared, the computed measure differences will be between
 components for each group within each cluster.
+
+
+Multiple components from the same subjects in ICA clusters
+------------------------------------------------------------
+
+When plotting ICA clusters, EEGLAB allows by default several components
+from the same subject to be included in a given cluster. This can sometimes cause problems when using statistics. 
+
+When you include more than one component from the same subject, you are not making inferences
+about the general population of subjects anymore but instead about
+components of the specific subjects you are studying. It is all a matter
+of how many components you have per subject compared to the number of
+subjects. 
+
+For example, if you have on average one component per subject
+(some subjects having 0, some other two components in the cluster), and you
+have 200 subjects, then the original null hypothesis (which allows
+making inferences about the general population of subjects) is mostly
+preserved. If you have 10 subjects and 10 components per subject, it is
+not.
+
+In general, when multiple components from the same subjects in ICA
+clusters becomes a problem, we prefer to use at most one
+component per subject per cluster because this avoids having to
+compromise with the statistics (this is possible when using the EEGLAB Corrmap
+plugin for clustering data; there is also a version of *kmean* that
+forces to use one component per cluster). Alternatively, remove components manually in clusters.

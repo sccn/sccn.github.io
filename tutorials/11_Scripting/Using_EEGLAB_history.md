@@ -1,10 +1,10 @@
 ---
 layout: default
-title: c. Using EEGLAB history
+title: a. Using EEGLAB history
 parent: 11. Write scripts
 grand_parent: Tutorials
 ---
-Using EEGLAB history <font color=red>VERIFIED</font>
+Using EEGLAB history
 =====
 {: .no_toc }
 
