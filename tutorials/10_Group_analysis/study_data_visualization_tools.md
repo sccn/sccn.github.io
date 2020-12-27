@@ -1,6 +1,6 @@
 ---
 layout: default
-title: d. Data visualisation
+title: d. Data visualization
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---
@@ -8,6 +8,21 @@ grand_parent: Tutorials
 Visualizing channel data
 ========================
 
+
+### Change in EEGLAB 2019 and later versions
+
+In EEGLAB 2019 and later versions, EEGLAB directly processes single trials. By contrast with previous EEGLAB versions, there is no need to recompute measures for each design. The new *design* scheme is backward
+compatible and allows for more flexibility, in
+particular allowing the STUDY functions to dynamically extract
+specified data trials measures.
+
+### Multiple studies
+
+Using multiple *STUDIES* may also be useful for testing different signal processing
+options. For instance, one might create two identical *STUDIES*, in
+one computing the time/frequency measures using FFTs in one and using
+wavelets in the other one. Once computed, you will be able to toggle
+between design results so as to compare them.
 
 Load the sample EEGLAB STUDY set
 ---------------------------------

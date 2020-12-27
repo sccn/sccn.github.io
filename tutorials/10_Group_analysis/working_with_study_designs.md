@@ -4,301 +4,161 @@ title: c. STUDY designs
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---
-
-
 Working with STUDY design
 ===========================
+{: .no_toc }
 
-The STUDY.design structure is a concept introduced in EEGLAB v9.
-It allows performing statistical comparisons of multiple trial and dataset
+STUDY designs allow performing statistical comparisons of multiple trial and dataset
 subsets of a STUDY without creating and storing the STUDY more than
 once. All the statistical designs are contained in the STUDY structure
 as (STUDY.design) sub-structures. 
 
-For instance, a STUDY might contain
-datasets for 5 conditions comprising a 2x2 set of conditions for each
-subject plus a 'novel' condition. 
-Data from all five conditions might be
-used to find clusters of similar independent component sources across
-subjects. 
-
-However, statistical comparisons might be targeted to look at
-the main effects and interactions among the 2x2 conditions only, at
-differences between the 'novel' condition and each of the other four
-conditions, etc. 
-
-This can be handled, beginning in EEGLAB v9, by
-defining a single STUDY structure with multiple STUDY.design
-sub-structures.
-
-The main advantages of using STUDY designs are detailed below:
-
--   No need to have one dataset per condition. 
-An important restriction
-of working with STUDY structures in EEGLAB 8.0 (prior to
-STUDY.design) was that to compare multiple conditions users had to
-generate one dataset per condition. However, to analyze the
-influence of various contextual information about trials, it may be
-relatively impractical to generate many datasets with specific sets
-of trials. The new 'design' scheme in EEGLAB 9.0 is backward
-compatible with EEGLAB 8 but allows for more flexibility, in
-particular allowing the STUDY functions to dynamically extract
-specified data trials from datasets. Each dataset may contain
-several conditions or several datasets can be merged, using the
-STUDY design facility, to form to one condition.
-
--   No restriction to studying "groups" and "conditions" only. Any
-user-defined independent variable may now be used to contrast
-different subsets of trials or datasets.
-
--   The ability to create and analyze different STUDY designs within the
-same STUDY, each selecting only a subset of independent variable
-values.
-
-Simple STUDY design
--------------------
-
-**Example:** In an oddball paradigm comprising trials time
+For instance, In an oddball paradigm comprising trials time
 locked to oddball, distractor, and standard stimuli, a user might want
 to contrast oddball and distractor responses, considered together, with
 responses to standard stimuli. One might also want to look for
-differences between responses to oddball and distractor stimuli. 
+differences between responses to oddball and distractor stimuli. This can be handled by
+defining a single STUDY structure with multiple STUDY designs.
 
-If this STUDY has two subject groups, the user might want to look at the effect
-of group on any of the response types, just focus an analysis on one
-group, or look for Group by Condition interactions.
-One might also want to temporarily exclude a subject from a data analysis. 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
-All of these
-design concepts can be processed within a single **STUDY** using
-multiple **STUDY.design** structures. 
+One-way STUDY design
+-------------------
 
-Using multiple STUDY.design
-structures may also be useful for testing different signal processing
-options. For instance, one might create two identical STUDY designs, in
-one computing the time/frequency measures using FFTs in one and using
-wavelets in the other one. Once computed, you will be able to toggle
-between design results so as to compare them.
+For this tutorial we will use the [STERN STUDY](http://sccn.ucsd.edu/eeglab/download/STUDYstern.zip) (2.3Gb). Please download the data on your computer.
 
-Note that the tutorial STUDY for EEGLAB v9 is the same one that has been
-available in the tutorial since 2006. A default design, implementing
-EEGLAB processing of the whole STUDY (as per EEGLAB Version 8) is
-automatically been created when the tutorial STUDY is first loaded. In
-addition, all the precomputed measure files from v8 are preserved and
-may be used. If you are importing an EEGLAB STUDY from a version prior
-to v9 and not using the STUDY design menu, EEGLAB should behave exactly
-as it did prior to version 9. 
+### Description of STERN experiment tutorial data
 
-### Editing the STUDY design
+The classic Sternberg working memory task involves presentation of a list of seven letters to memorize, presented one at a time. These letters, colored in green, are interspaced with letters to ignore, colored in red, and followed by a memory maintenance period during which the subject must maintain the list of items in memory. The maintenance period is terminated by the onset of a *probe* letter, to which the subject must respond whether the item was in their memorized list of items or not.
 
-To edit the STUDY design, simply select
-the second STUDY menu as shown below. Note that if you change the
-default design (design(1)), your precomputed measure data files (STUDY
-ERP, spectrum, ERSP and ITC) may be lost.
+Trials contained varying numbers of ignore letters (either 1, 3 or 5), and the order of memorize and ignore letters in a given trial was randomized.
 
+Event codes are the following:
+- Memorize letters: “uppercase letter”, for example, ‘B’, ‘H’, ‘W’,’F’, etc...
+- Ignore letters: “lowercase ‘g’, uppercase letter”, for example, ‘gB’, ‘gH’, ‘gW’,’gF’, etc... (‘g’ stands for ‘green’, see above explanation)
+- Probe letters: “lowercase ‘r’, uppercase letter”, for example, ‘rB’, ‘rH’, ‘rW’,’rF’, etc... (‘r’ stands for ‘red’, see above explanation)
 
+The PDF document within the zip archive contains additional details about the task.
 
+### Looking at the STUDY information
 
-![Image:Studydesignmenu.jpg](/assets/images/Studydesignmenu.jpg)
+Use menu item <span style="color: brown">File → Load existing study</span> and select the *stern.study* file. After the *STUDY* is loaded in EEGLAB,  select menu item <span style="color: brown">Study → Edit study info</span>. The following interface will pop up.
 
+![Image:studydesign6.png](/assets/images/studydesign6.png)
 
+This interface contains information about the *STUDY*, in particular the list of datasets and condition, session and run associated with them. It is described in detail in the [STUDY creation tutorial](/tutorials/10_Group_analysis/study_creation.html). In this case, it shows that for each subject, we have three epoched datasets, one containing letters to *memorize*, one containing letters to *ignore* letters data epochs, and one containing *probe* letters.
 
-This will pop up the following interface
+### Looking at current STUDY design
 
+To edit the *STUDY* design, simply select
+the second *STUDY* menu item <span style="color: brown">Study → Select/Edit study design(s)</span>. This will pop up the following interface.
 
+![Image:Studydesign.jpg](/assets/images/studydesign7.png)
 
-
-![Image:Studydesign.jpg](/assets/images/StudyDesign.jpg)
-
-
-
-The three push buttons at the top may be used to:
+The three push buttons on the top pannel may be used to:
  - add a new design ("Add
 design"), 
 - rename a given design ("Rename design"),
 - or delete a given
 design ("Delete design"). 
 
-Note that the default design (design(1))
-cannot be deleted. Adding a design copies the current design and creates
-a new design names "Design x" (x being the index of the new design).
+Note that the first design cannot be deleted.
+The reason the design does not have a name is that it was generated automatically when importing the data. You press the *Rename* button and name the design *Comparing memorize, ignore, and probe letters*.
 
-- The "Independent variable 1" list helps define independent variables.
-Currently, up to two independent variables may be defined (the two left
-columns). The list of independent variables is automatically generated
-based on the STUDY definition information and also based on events from
-each of the datasets. 
+The four push buttons on the bottom pannel may be used to:
+- add a new independent variable to the current design. 
+- edit an independent variable
+- delete and independent variable
+- list independent variables
 
-For details on what information from dataset is
-being extracted, refer to the [STUDY design structure]( /tutorials/multi-subject/EEGLAB-STUDY-data-structure.html)
-tutorial. 
+Press the *Edit* button. The following GUI pops up. We can see that the *condition* independent variable is selected. We can also see that the two conditions are *ignore* (letters), *memorize* (letters), and  *probe* (letters).
+
+![Image:Studydesign.jpg](/assets/images/studydesign8.png)
+
+When using standard EEGLAB statistics, up to two categorical independent variables may be defined (two rows on lower pannel). When using the *LIMO* plugin to perform statistics, an arbitrary number of continuous and categorical variables may be used.
+- Categorical variables are variable that takes discrete values, such as conditions (in this case *gnore* vs *memorize* vs *probe* letters)
+- Continuous variables are variable that takes continuous values, such as reaction time.
 
 Once an independent variable is selected, it is possible to
 select only a subset of its values. All the datasets or trials not
-selected will simply not be included in the STUDY.design processing. 
+selected will simply not be included when plotting measures for that design. For instance, in this specific example, the independent variable *condition*
+may take the values *ignore* and *memorize* only to compare between the two types of letters. 
 
-For instance, in this specific example, the independent variable 'condition'
-may take the values 'non-synonyms' and 'synonyms'. These values may be
-combined by pressing the "Combine selected value" push button. In this
-case, since there are only two values of the independent variable
-"condition", this is irrelevant. 
+Press *Ok* to go back to the *STUDY* design interface. Now press the *List factor* button. These are the list of independent variable values (or beta parameters) in case you use a general linear model in the LIMO plugin hierarchical analysis. Refer to the [LIMO plugin documentation](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for more information.
 
-The detailed example at the end of this
-section shows an example of combining two values. Each independent
-variable also has a pairing status ("paired statistics" for paired data
-and "unpaired statistics" for unpaired data).
+![](/assets/images/studydesign30.png)
 
-- The "Subject" list contains the subjects to include in a specific
-design. Some subjects may be excluded or included. 
+### Creating a new STUDY design
 
-Note that it is
-better to select all subjects before pre-computing all STUDY measures,
-and then to exclude some subjects if necessary. When two groups of
-subjects are included (patients versus controls, for instance), some
-STUDY.design instances may include only one category of subjects.
+To illustrate how to manipulate *STUDY* designs, we are going to create an equivalent design using event types instead of dataset conditions. 
+Press the *New* design button. Then, press the *Rename* button and rename the new design *Same as first design but using event types*. 
 
-### Selecting/excluding specific dataset or trials from design
+Then, select the *New* button in the independent variable pannel (lower pannel). The following window pops up. Select *type* for the independent variable. 
+- Select all the letters not preceded by *g* or *r*. These are the *memorize* letters. Press the *combine* button to combine these letters.
+- Select all letters preceded by *g*. These are the *ignore* letters. Press the *combine* button to combine these letters.
+- Select all letters preceded by *r*. These are the *probe* (recall) letters. Press the *combine* button to combine these letters.
+Go down to the bottom of the letter list and select the three sets of combined event types. 
 
-Use the "Select only specific dataset/trials" push button to define a list
-of independent variables and values to include in the design. 
-Clicking
-on the push button, "Select only specific dataset/trials," pops up the
-following interface:
+![Image:Studydesign.jpg](/assets/images/studydesign9.png)
 
+This selection is equivalent to selecting the three conditions in the previous design. However, it is conceptually quite different. In the first case, we are comparing between trials contained in different datasets (i.e., EEGLAB data files). In the second case, we are only selecting event types, which may be in one dataset, or in several datasets.
 
+The list of independent variables is automatically generated
+based on the STUDY definition information and also based on events from
+each of the datasets. Every single event field (as visible in the <span style="color: brown">Edit → Event values</span>) is automatically made visible. Note that only information about the time-locking event is shown and other events within data epochs are ignored. However, EEGLAB populates empty fields within data epochs with information from other events within the same epochs. For example, events might have a field *correct* belonging to *reaction time* events (not the time-locking event) containing true or false. All events have the same fields so other events will also have a *correct* event field, which will be empty since it is not defined for these events. If this is the case, then the value (true or false) is automatically copied to all events within a given epoch, and may be selected as an independent variable in the GUI above. For details on what information from dataset is
+being extracted, refer to the [STUDY design structure](/tutorials/multi-subject/EEGLAB-STUDY-data-structure.html)
+tutorial. 
 
+See also the [event scripting tutorial](/tutorials/11_Scripting/Event_Processing_command_line.html#adding-event-information-for-group-analysis) for defining new independent variable based on event context.
 
-![Image:Studydesignselect.jpg](/assets/images/Studydesignselect.jpg)
+### Plotting ERPs for two designs
 
+We describe in detail data plotting in the group analysis data [vizualisation tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html). However, we will plot and compare the ERPs for these two designs. 
 
+First, we need to precompute measurs. Select menu item <span style="color: brown">Study → Precompute channel measures</span>, click the *ERP* checkbox and press *Ok* (interface not shown). Then select menu item <span style="color: brown">Study → Plot channel measures</span>. The following interface pops up. Select electrode *Oz*.
 
-In this interface, you may select specific independent variables with
-specific values to include in the STUDY. 
+![](/assets/images/studydesign13.png)
 
-This option is only relevant
-for complex STUDY designs in which some sets of trials and/or datasets
-are excluded.
- 
- ressing the "Add" button will add the selection to the
-edit box on the right of the "Select only specific dataset/trials" push
-button in the STUDY design interface.
+Press the *Params* button and select the central checkbox to plot the first independent variable on the same pannel as shown below. Press *Ok* to come back to the *STUDY* plotting GUI.
 
-2-way design STUDY design
+![](/assets/images/studydesign12.png)
+
+Press the *Plot ERPs* pushbutton to plot the ERP for the first channel in the list. The following plot showing the grand-average ERP for each condition will pop up.. Then in the upper part of the *STUDY* plotting GUI, switch to the other design and again press the *Plot ERPs* button. The two plots are shown below side by side.
+
+![](/assets/images/studydesign10.png)
+
+The conditions are assigned different colors but the ERPs are identical in both conditions. 
+
+Two-way STUDY design
 --------------------------
 
-Below we show a more complex STUDY design scheme including 6 designs.
- 
- In
-this experiment, there were two groups of subjects, "control" and
-"nondual" ( a type of meditation practice). There were also four types
-of stimuli ("blank", "audio", "light" and "both" (audio and light)), two
-sessions for each subject, and two presentation modes ("evoked" and
-"spontanous"). 
+Each letter is preceeded by other letters. Thus, when each letter is presented is presented, there is a memory load from 0 (no other letter to remember yet) to 7 (7 letters to remember).
 
-Here, the stimulus type "audio - light" is not a real
-stimulus type; it was obtained by selecting stimuli "audio" and "light"
-and pressing the "Combine selected values" push button - see design
-number 3 below for more details. These screen captures are courtesy of
-the [Institute of Noetic Science](http://www.noetic.org).
+Again select
+the second *STUDY* menu item <span style="color: brown">Study → Select/Edit study design(s)</span>. Create a third design called *2-way design, letter type x load*.
 
-In the first design, we contrast the two groups of subjects for the
-"audio" and "visual" stimuli. There are two independent variables for
-this design (a 3x2 design).
+![](/assets/images/studydesign21.png)
 
+For this design, use two independent variables, one is the type of letter and we select *ignore* and *memorize* (since *load* is irrelevant for *probe* letters). We also select the memory load from 0 to 7 and change the type of variable to *categorical* instead of *continous* (it would also be possible to select *continuous* but this would require using the LIMO plugin to compute statistics and plot results).
 
+![](/assets/images/studydesign22.png)
 
-![Image:Studydesign_n0.jpg](/assets/images/Studydesign_n0.jpg)
+Since we have pre-computed measure in the previous section, there is no need to do that again - prior to EEGLAB 2019, one had to recompute measures for each design, but this is no longer necessary. Select menu item <span style="color: brown">Study → Plot channel measures</span>. Select electrode *Oz* and press the *Plot ERPs* button. The following plot pops up.
 
+![](/assets/images/studydesign23.png)
 
-
-In the second design, we only consider the "nondual" group subjects and
-three types of stimuli ("audio", "light" and "blank"). There is only one
-independent variable in this design (1x3 design).
-
-
-
-![Image:Studydesign_n1.jpg](/assets/images/Studydesign_n1.jpg)
-
-
-
-
-### Excluding specific subjects
-
-In the third design, we only consider "nondual" subjects and compare two
-types of stimuli ("blank" versus "audio - light"). The "audio - light"
-condition groups together both "audio" and "light" trials - i.e. the
-stimulus may have been of either type "audio" or "light". 
-
-This design
-helps contrast brain activity following stimulation compared to when no
-stimulus was presented ("blank" condition). This is a simple 1x2
-design.
-
-
-
-![Image:Studydesign_n2.jpg](/assets/images/Studydesign_n2.jpg)
-
-
-
-
-### Design with custom-defined event
-
-In the fourth design, we were interested in analysing audio stimuli that
-had been preceded by various types of stimuli. The independent variable
-"prevevent" had to be defined using a script. 
-
-A field was added to the
-event structure using a custom script - it contained the previous
-stimulus type for each time-locking event. For more information on how
-to create and modify events in EEGLAB datasets, see [this section](/tutorials/advanced-topics/event-processing.html).
-
-Once events are modified, they will be automatically detected at the
-STUDY level - note that you have to modify events in all datasets
-included in the design. In case, you already have an existing STUDY, you
-might have to recreate a new one.
-
-Note that in the design below, the edit box on the right of the "Select
-only specific datasets/trials" GUI contains the string "'StimulusType',
-{ 'audio' }". It indicates to EEGLAB that it should only consider this
-type of stimulus in this design and ignore all trials of type "light",
-"blank" and "both". This is a 1x3 design.
-
-
-
-![Image:Studydesign_n3.jpg](/assets/images/Studydesign_n3.jpg)
-
-
-
-
-### Other examples of STUDY design
-
-In the fifth design, we compared brain responses to "light" and "audio"
-stimuli in sessions 1 and 2. This is a 2x2 design.
-
-
-
-![Image:Studydesign_n4.jpg](/assets/images/Studydesign_n4.jpg)
-
-
-
-Finally, in the sixth design, we compared brain responses to "light" and
-"audio" stimuli in "evoked" and "spontaneous" conditions. This is again
-a 2x2 design.
-
-
-
-![Image:Studydesign_n5.jpg](/assets/images/Studydesign_n5.jpg)
-
-
+Here we have one pannel per memory load. For memory load 7, there is no condition memorize (the load for the memorize letters goes from 0 to 6 which correspond to the number of letter already memorized). Note that the number of letters for the condition 6 is low (a total of 31 for the *ignore* condition) explaning the large amplitude artifacts. This comparison should be run only for load 0 to 5. To interpret this plot, we would need to select a shorter frequency range, overlay loads for both the *memorize* and *ignore* conditions.
 
 This simple example shows that the range of possibilities for STUDY
 designs is large. More details about STUDY.design structure is available
-in the [STUDY
-structure](/tutorials/multi-subject/EEGLAB-STUDY-data-structure.html)
+in the [STUDY structure](/tutorials/multi-subject/EEGLAB-STUDY-data-structure.html)
 part of the tutorial.
 
-<b>Note:</b> As of EEGLAB 12, a new row in the STUDY design graphic
-interface allows selecting a specific folder to store STUDY design
-files. This prevents encountering conflicts when several studies are
-pointing to the same datasets. This also allow users to better organize
-their data.
+For more complex designs, one must use the LIMO plugin. Refer to the [LIMO plugin documentation](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for more information. 

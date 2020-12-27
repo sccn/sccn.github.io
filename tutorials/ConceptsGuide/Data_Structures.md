@@ -610,6 +610,36 @@ dataset (i.e., *event: 1*), but note that it was the third event in the
 original dataset, since its corresponding urevent (stored in
 *EEG.event.urevent*) is 3.
 
+### Saved .set files
+
+EEGLAB datasets are saved in *.set* files. *.set* files are Matlab files. You may save an EEG structure using the command.
+
+```matlab
+save -mat myfile.set EEG
+```
+
+This would be a valid dataset file for EEGLAB. Another supported format is to save the content of the structure itself (default as of EEGLAB 2021).
+
+```matlab
+save -mat myfile.set -struct EEG
+```
+
+Yet another supported format is to save two files. One file that contains metadata (with extension .set, and is a type of Matlab file), and one file containing raw data (float32 with .fdt extension). The raw data file is organized in samples x channels (so first all the data for one channel, then all the data for a second channel, etc.). In case, there are several trials, the raw data file is organized in samples x trials x channels. This is equivalent to the following Matlab commands.
+Another format for the raw data file (with extension .dat) was to save the data transposed compared to the .fdt file. This format was discontinued more than a decade ago, but can still be read by EEGLAB.
+
+```matlab
+data = EEG.data;
+EEG.data = 'myfile.fdt';
+floatwrite(data(:,:)', 'myfile.fdt');
+save -mat myfile.set EEG
+```
+
+There are additional checks performed by the function [pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m), so it is always recommended to read EEGLAB datasets using this function.
+
+```matlab
+EEG = pop_loadset('myfile.set')
+```
+
 The *STUDY* structure
 ---------
 This section gives details of EEGLAB structures necessary for writing

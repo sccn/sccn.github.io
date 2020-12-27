@@ -37,12 +37,12 @@ between synonymous and non-synonymous word pairs (the second word
 presented 1 second after the first). 
 
 Data epochs were extracted from 2
-sec before the second word onset to 2 sec after the second word onset.
+sec before the second-word onset to 2 sec after the second-word onset.
 
 After decomposing each subject's data by ICA, two EEG datasets were
 extracted, one (Synonyms) comprising trials in which the second word was
 synonymous with the first one, and one (Non-synonyms) in which the
-second word was not a synonym of the first. 
+second-word was not a synonym of the first. 
 
 Thus the study includes 10
 datasets, two condition datasets for each of five subjects. Since both
@@ -53,7 +53,7 @@ across both conditions for each subject.
 After downloading the sample STUDY data, unzip it in a folder of your
 choice (preferably in the 'sample_data' sub-folder of the EEGLAB release
 you are currently using; under Linux use the 'unzip' command). This will
-create a sub-folder '5subjects' containing several studysets. Then open
+create a sub-folder '5subjects' containing several studies. Then open
 a Matlab session and run *\>\> eeglab*.
 
 Another *STUDY* sometimes used in EEGLAB tutorials is the [STERN STUDY](http://sccn.ucsd.edu/eeglab/download/STUDYstern.zip) (2.3Gb).
@@ -143,7 +143,8 @@ running name, the extended task name for the STUDY, and some notes.
 part of the STUDY. For each dataset, we have specified a subject code
 and condition name. 
 - For each file, you may assign a session and run number. A run is when there are blocks in an experiment and the data from each block is stored in a separate file. Sessions are used when the data is collected on different days or when there is a break that involves removing the EEG cap. We chose to leave the session and run empty since there are irrelevant for this *STUDY* (there is only one session and one run).
-- The *condition* column contains the condition associated with each file. The *group* column would indicate which group a subject belongs to. This is irrelevant for this STUDY since there
+- The *condition* column contains the condition associated with each file. Note that we have two files here per subject. However, it is also possible to have a single file per subject and to define conditions using EEGLAB event trial types. For more information on this topic, read the [STUDY design tutorial](/tutorials/10_Group_analysis/working_with_study_designs.html).
+- The *group* column would indicate which group a subject belongs to. This is irrelevant for this STUDY since there
 was only one subject group and data for both experimental conditions
 were collected in a single session
 - We will come back later to the *Select by r.v.* (select ICA component by residual variance) and the *Comp...* button when we perform ICA component clustering.
@@ -198,9 +199,32 @@ removing datasets will also remove the *STUDY* from memory since the
 study must remain consistent with datasets loaded in memory (here,
 however, EEGLAB will prompt you to save the study before it is deleted).
 
+### Reviewing the STUDY design
+
+Another [section of the tutorial](/tutorials/10_Group_analysis/working_with_study_designs.html) describes *STUDY* designs in detail, but use different tutorial data. Our design is simple here, with only two conditions.
+
+To edit the STUDY design, simply select
+the second STUDY menu item <span style="color: brown">Study → Select/Edit study design(s)</span>.
+
+![Image:Studydesignmenu.jpg](/assets/images/Studydesignmenu.jpg)
+
+This will pop up the following interface.
+
+![Image:Studydesign.jpg](/assets/images/studydesign1.png)
+
+The top pannel contains the list of designs (in this case, a single design) and the bottom pannel contains the variables used in a specific design.
+
+Let's rename the default design by pressing the *Rename* button to *Synonym vs non-synonym*. The following GUI pops up. Press *Ok*.
+
+![Image:Studydesign.jpg](/assets/images/studydesign2.png)
+
+Now, in the bottom pannel, click on the *Edit* button. The following GUI pops up. We can see that the *condition* independent variable is selected. We can also see that the two conditions are *non-synonym* and *synonym*.
+
+![Image:Studydesign.jpg](/assets/images/studydesign3.png)
+
 ### What to do after creating your STUDY
 
-We have already seen in this tutorial how to create a simple *STUDY* and plot the grand average ERP. This procedure bypass the standard *STUDY* pipeline which consist in first preprocessing the data and then plotting it, as we describe in other tutorials.
+We have already seen in this tutorial how to create a simple *STUDY* and plot the grand average ERP. This procedure bypass the standard *STUDY* pipeline which consists in first preprocessing the data and then plotting it, as we describe in the group analysis data [vizualisation tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html).
 
 If you are impatient, select menu item <span style="color: brown">Study → Precompute channel measures</span>, click the *ERP* checkbox and press *Ok*. Then select menu item <span style="color: brown">Study → Plot channel measures</span> and press the *Plot ERPs* pushbutton to plot the ERP for the first channel in the list. The following plot showing the grand-average ERP for each condition will pop up.
 
