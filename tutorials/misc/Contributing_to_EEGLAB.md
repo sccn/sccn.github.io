@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contributing to EEGLAB
-parent: Miscellaneous
+parent: Reference Topics
 grand_parent: Tutorials
 nav_order: 7
 

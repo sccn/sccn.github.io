@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Compiling EEGLAB
-parent: Miscellaneous
+parent: Reference Topics
 grand_parent: Tutorials
 nav_order: 13
 ---

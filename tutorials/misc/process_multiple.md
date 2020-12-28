@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Process multiple
-parent: Miscellaneous
+parent: Reference Topics
 grand_parent: Tutorials
 ---
 ### Processing multiple datasets

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Find ERP peaks
-parent: Miscellaneous
+parent: Reference Topics
 grand_parent: Tutorials
 ---
 Finding ERP peak latencies

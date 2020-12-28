@@ -1,7 +1,7 @@
 ---
 layout: default
 title: sample dataset description
-parent: Miscellaneous
+parent: Reference Topics
 grand_parent: Tutorials
 ---
 Sample experiment description

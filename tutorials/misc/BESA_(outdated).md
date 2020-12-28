@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BESA (outdated)
-parent: Miscellaneous
+parent: Reference Topics
 grand_parent: Tutorials
 nav_order: 11
 ---
@@ -262,7 +262,7 @@ Finally, by calling the plotting function from the command line
 many more options can be specified and one or more equivalent dipoles
 can be plotted individually for each component.
 
-Miscellaneous
+Reference Topics
 --------------
 
 **Using other dipole localization software** 

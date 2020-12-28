@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Legacy rejection
-parent: Miscellaneous
+parent: Reference Topics
 grand_parent: Tutorials
 ---
 Legacy methods for rejecting artifacts in continuous and epoched data

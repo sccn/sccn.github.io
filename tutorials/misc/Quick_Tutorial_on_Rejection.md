@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Quick Tutorial on Rejection
-parent: Miscellaneous
+parent: Reference Topics
 grand_parent: Tutorials
 nav_order: 12
 ---
