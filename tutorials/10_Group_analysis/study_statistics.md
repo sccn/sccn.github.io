@@ -1,6 +1,6 @@
 ---
 layout: default
-title: e. Study statistics
+title: e. Statistics
 parent: 10. Group analysis
 grand_parent: Tutorials 
 has_toc: true
@@ -8,63 +8,77 @@ has_toc: true
 
 Study Statistics and Visualization Options
 ============================================
+{: .no_toc }
 
+Statistics are at the core of EEG analysis. Here, we will briefly
+review how to use different types of statistics at the group level. For a complete introduction to robust statistics in EEG research, read this [the statistics theory](/tutorials/ConceptsGuide/statistics_theory.html) section of the tutorial or watch the series of short videos below. Click on the icon on the top right corner to access the list of videos in the playlist.
 
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN3M_CGqAOEIIOKhjTPS9T2n" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+Channel ERP statistics
+--------------
 EEGLAB allows users to use either
 parametric or non-parametric statistics to compute and estimate the
-reliability of these differences across conditions and/or groups. The
-same methods for statistical comparison apply both to component clusters
-and to groups of data channels.
-
-If you need some background or a refresher on statistics please read [this section](/tutorials/Statistics/a_statistics_theory).
-
-Here, we will briefly
-review, for each mean measure (ERP, power spectrum, ERPS, ITC), how to
-compute differences accross the two conditions in a STUDY. 
-
-At the end,
-we will show examples of more complex analyses involving 3 groups of
-subjects and 2 conditions. We will also briefly describe the
-characteristics of the function that performs the statistical
-computations, and discuss how to retrieve the p-values for further
-processing or publication.
-
-Below we illustrate the use of these options on scalp channel ERPs,
+reliability of these differences within *STUDY* designs. Below we illustrate the use of these options on scalp channel ERPs,
 though they apply to all measures and are valid for both scalp channels
 and independent component (or other) source activity clusters.
 
-Options for computing statistics on and plotting results for scalp channel ERPs
---------------------------------------------------------------------------------
-Call again menu item <span style="color: brown">Study → Plot channel measures</span>. In the middle of the two list of channels, click on the
-*STAT* pushbutton. The following graphic interface pops up:
+### Load tutorial data and precompute ERPs
+
+For this tutorial we will use the [STERN STUDY](http://sccn.ucsd.edu/eeglab/download/STUDYstern.zip) (1.9 Gb). Please download the data on your computer. See the [STUDY design](/tutorials/10_Group_analysis/working_with_study_designs.html) section of the tutorial for more information about this dataset.
+
+Use menu item <span style="color: brown">File → Load existing study</span> and select the *stern.study* file. After the *STUDY* is loaded in EEGLAB, precompute ERPs by selecting <span style="color: brown">Study → Precompute channel measures</span>. The following interface will pop up.
 
 
 
-![pop_stats param](/assets/images/Pop_statparams1.png)
+Select the checkbox *Remove ICA artifactual components pre-tagged in each dataset*, change the baseline to -200 to 0 as shown and press *OK*. 
 
 
-Click on the *Compute 1st independent variable statistics* checkbox.
+In this tutorial, we will use an 14-subject animal/non-animal categorization task. The data in *STUDY* format is available [here](https://sccn.ucsd.edu/eeglab/download/animal_study.zip). See the [data visualization](/tutorials/10_Group_analysis/study_data_visualization_tools.html) section of the tutorial for more information about this dataset.
+
+Select menu item <span style="color: brown">File</span> and press sub-menu item <span style="color: brown">Load existing study</span>. Select the tutorial file "animal.study" then press *Open*.
+
+After loading the data, to review the *STUDY* design, use menu item <span style="color: brown">Study → Select/Edit study design</span>. The default design is to compare images containing *animals* with images containing *distrators*. Press *Ok* to close the window. 
+
+Before plotting the channel measures, you must precompute
+them using the <span style="color: brown">Study → Precompute channel measures</span> menu item as shown below. Select the *ERPs* checkbox and press *Ok*.
+
+![px](/assets/images/studyprecomp1.png)
+
+### Plot ERP statistics
+
+Select menu item <span style="color: brown">Study → Plot channel measures</span>. 
+
+![600px](/assets/images/studyplot5.png)
+
+In the middle of the two list of channels, click on the
+large *STATS* pushbutton. The following graphic interface pops up. Click on the *Compute 1st independent variable statistics* checkbox.
 Note that, since if there were no second independent variable selected in
 this study design, the *Compute 2nd independent variable statistics* would not
-not available. 
+not available.
+
+![image not found](/assets/images/Pop_statparams2.png)
 
 Press *OK* then select channel "Fz" in the left columns
 and press the *Plot ERPs* button in the same column. The following plot
 appears. The last panel shows the actual p-values.
 
-
-
 ![image not found](/assets/images/Erp4.gif)
-
-
-
 
 To set a threshold, call back the ERP parameter interface and set the
 entry in the *Statistical threshold* edit box to <i>0.01</i>.
 
 
 
-![image not found](/assets/images/Pop_statparams2.png)
 
 
 
@@ -170,83 +184,15 @@ The
 same graphic interface is used by all measures to select options for
 computing statistics.
 
-Correcting for multiple comparisons and Fieldtrip statistics
--------------------------------------------------------------
-
-When performing a large number of statistical inferences, it is
-necessary to correct for multiple comparisons. For example, with a
-statistical threshold at p\<0.05, by definition about 5% of the inferred
-significant values will be false positives.
-
-There are several methods for correcting for multiple comparisons.
-
--   <b>Bonferoni</b>: The most conservative method, the Bonferoni
-    method, simply divides the p-value by the number of comparisons. For
-    example, when computing ERSP time-frequency images of 100
-    frequencies by 200 time points, the number of inferences is 20,000.
-    To correct for multiple comparison at p\<0.05, a statistical
-    threshold of 0.05/20000 = 0.0000025 should be applied. This method
-    is quite conservative as, essentially, it assumes (erroneously) that
-    each of the time/frequency point values is independent of the
-    others.
-
-<!-- -->
-
--   <b>Holms method</b>: The Holms method, also called Holms-Bonferoni
-    method is not as conservative. Actual uncorrected p-values are
-    sorted and, to assess whether a given p-value reaches the corrected
-    threshold for multiple comparison, the lowest uncorrected p-value is
-    compared to the Bonferoni statistical threshold of 0.05/20000. Next,
-    the second lowest is compared to statistical threshold of
-    0.05/(20000-1), etc. The highest uncorected p-value is compared to
-    the uncorected threshold 0.05/(20000-19999)=0.05.
-
-<!-- -->
-
--   <b>False Discovery Rate:</b> The False Discovery Rate (FDR) method
-    is based on Holms correction. Under FDR, a common corrected
-    threshold is applied to all p-values. This threshold is the last
-    significant threshold calculated using Holms correction. For
-    example, if the 511th strongest p-value is the smallest (and thus
-    the last one in Holms correction) that is significant, this p-value
-    is used as the corrected threshold for all uncorrected p-values.
-    Note that under Holms correction, statistical assessment is
-    performed independently for each p-value. Therefore, after sorting
-    by p-value the 54th p-value might not be significant while the 55th
-    might be. For FDR, the last <i>significant</i> p-value encountered
-    during Holms correction is used as the corrected threshold for all
-    measure dimensions (here, voxels).
-
-Two other methods are made available using statistics routines written
-for fieldtrip -- the max and cluster methods. The cluster method is now
-widely been used. As it is the least conservative of all correction for
-multiple comparison methods, it should be used with care. Note that
-EEGLAB allows users to apply the cluster method to clusters of raw data
-channels by automatically computing channel neighbor matrices -- though
-we consider this to be less accurate and informative, in most cases,
-than independent component clustering.
-
--   <b>Max method:</b> the max method is only available when using
-    non-parametric (surrogate data-based statistics). At each iteration
-    in computing a surrogate distribution of a time-frequency
-    decomposition (for example), the maximum statistics accross all
-    time-frequency points is considered. The surrogate distribution is
-    compiled of these <i>maximum</i> statistics. The original statistics
-    (for example, t-scores) at all time-frequency points are compared
-    against this unique surrogate distribution (instead of each
-    time-frequency point being compared to its corresponding surrogate
-    distribution as in the other methods).
-
-<!-- -->
-
--   <b>Cluster method:</b> The cluster method is also only available
-    when using non-parametric (surrogate) statistics. It is an original
-    method developed by [Oostenveld and
-    Maris](http://fieldtrip.fcdonders.nl/references_to_implemented_methods#statistical_inference_by_means_of_permutation)
-    and described in detail in the [Fieldtrip
-    wiki](http://fieldtrip.fcdonders.nl/tutorial/eventrelatedstatistics#permutation_test_based_on_cluster_statistics).
-
 ### Computing statistics for studies with multiple groups and conditions
+
+
+At the end,
+we will show examples of more complex analyses involving 3 groups of
+subjects and 2 conditions. We will also briefly describe the
+characteristics of the function that performs the statistical
+computations, and discuss how to retrieve the p-values for further
+processing or publication.
 
 This functionality is still under development. 
 
@@ -266,7 +212,9 @@ inverted Kaniza triangles; result courtesy of Rael Cahn). Selecting only
 condition statistics and plotting conditions on the same panel returns
 the figure below.
 
-
+Statistics on ICA component clusters
+----
+The same methods for statistical comparison apply both to component clusters and to groups of data channels. 
 
 ![image not found](/assets/images/Erp_condstat.gif)
 

@@ -7,16 +7,25 @@ grand_parent: Tutorials
 
 Statistics in EEGLAB
 ==============================
+{: .no_toc }
+
 Computing statistics is essential to the observation of group, session,
 and/or condition measure differences. EEGLAB allows users to use either
 parametric or non-parametric statistics to compute and estimate the
 reliability of these differences across conditions and/or groups.
-Here we describe some essential concepts behind the statistical methods implemented
-in EEGLAB. 
-
-For a complete introduction to robust statistics in EEG research, you may watch this series of short videos. Click on the icon on the top right corner to access the list of videos in the playlist.
+Here we describe some essential concepts behind the statistical methods implemented in EEGLAB. For a complete introduction to robust statistics in EEG research, you may watch this series of short videos. Click on the icon on the top right corner to access the list of videos in the playlist.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN3M_CGqAOEIIOKhjTPS9T2n" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 Parametric and non-parametric statistics
 -----------------------------------------
@@ -106,16 +115,66 @@ probability density distribution of the t-test or ANOVA is only a
 and conditions. It has nothing to do with relying on a parametric t-test
 or ANOVA model, which assume underlying gaussian value distributions.
 
-## General Linear Modelling in EEGLAB 
+Correcting for multiple comparisons
+----------------------------------
 
-The video below introduces general linear modeling using EEGLAB and the [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/). Click on the icon on the top right corner to access the list of videos in the playlist.
+When performing a large number of statistical inferences, it is
+necessary to correct for multiple comparisons. For example, with a
+statistical threshold at p\<0.05, by definition, about 5% of the inferred
+significant values will be false positives. We advise watching the short video on [correction for multiple comparisons on Youtube](https://youtu.be/DQQAkID0vNQ).
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+There are several methods for correcting for multiple comparisons.
 
+-   <b>Bonferroni</b>: The most conservative method, the Bonferroni
+    method, simply divides the p-value by the number of comparisons. For
+    example, when computing ERSP time-frequency images of 100
+    frequencies by 200 time points, the number of inferences is 20,000.
+    To correct for multiple comparisons at p\<0.05, a statistical
+    threshold of 0.05/20000 = 0.0000025 should be applied. This method
+    is quite conservative as, essentially, it assumes (erroneously) that
+    all time/frequency values are independent.
+
+-   <b>Holm's method</b>: Holm's method, also called Holm-Bonferroni's
+    method, is not as conservative. Actual uncorrected p-values are
+    sorted and, to assess whether a given p-value reaches the corrected
+    threshold for multiple comparisons, the lowest uncorrected p-value is
+    compared to the Bonferroni statistical threshold of 0.05/20000. Next,
+    the second-lowest is compared to a statistical threshold of
+    0.05/(20000-1), etc. The highest uncorrected p-value is compared to
+    the uncorrected threshold of 0.05/(20000-19999)=0.05.
+
+<!-- -->
+
+-   <b>False Discovery Rate:</b> The False Discovery Rate (FDR) method
+    corrects for the percentage of false positives (no more than 0.05% false positives with a 0.05 p-value threshold). This is different from Bonferroni and Holm-Bonferroni, which correct for the family-wise error rate (aiming to achieve no more false positives than when performing a single statistical test).  FDR and Holm-Bonferroni use the same procedure to assess significance, except for FDR, the gradient of p-value threshold between the Bonferroni corrected, and uncorrected p-value is linear (while it is inverse for Holm-Bonferroni).
+
+In EEGLAB, other methods are made available using statistics routines written
+for Fieldtrip and LIMO -- the max, cluster, and TFCE methods. These methods are now widely been used, but are only available when using
+    non-parametric (surrogate data-based statistics).
+
+-   <b>Max method:</b> At each iteration
+    in computing a surrogate distribution of a time-frequency
+    decomposition (for example), the maximum statistic across all
+    time-frequency points is calculated. The surrogate distribution is
+    compiled of these <i>maximum</i> statistics. The original statistics
+    (for example, t-scores) at all time-frequency points are compared
+    against this unique surrogate distribution (instead of each
+    time-frequency point being compared to its corresponding surrogate
+    distribution as in the other methods).
+
+-   <b>Cluster method:</b> The cluster method is also only available
+    when using non-parametric (surrogate) statistics. It is similar to the max method. Instead of using the raw statistics, it uses the size of significant regions (uncorrected) as the statistics.
+
+-   <b>Threshold free cluster enhancement (TFCE) method:</b> The TFCE method is only available in the EEGLAB LIMO plugin. It consists in enhancing statistical values (for example, t-statistics) if they belong to a cluster of similar values. After cluster enhancement, it then uses the max method. 
+
+General Linear Modelling in EEGLAB 
+----------------------------------
+
+The [LIMO statistics video series](https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU) introduces general linear modeling using EEGLAB and the [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/). General linear models encompass all linear statistics and offer a general framework for performing statistics on EEG data.
 
 Additional resources
 ---------------------
 We suggest consulting a relevant statistics book for more details: An
 introduction to statistics written by Arnaud Delorme is available
-[here](http://sccn.ucsd.edu/~arno/mypapers/statistics.pdf). We also recomment Rand Wilcox's textbook on non-parametric statistics ["Introduction to robust estimation and hypothesis testing"](https://www.sciencedirect.com/book/9780123869838/introduction-to-robust-estimation-and-hypothesis-testing).
+[here](http://sccn.ucsd.edu/~arno/mypapers/statistics.pdf). We also recommend Rand Wilcox's textbook on non-parametric statistics [Introduction to robust estimation and hypothesis testing](https://www.sciencedirect.com/book/9780123869838/introduction-to-robust-estimation-and-hypothesis-testing).
 

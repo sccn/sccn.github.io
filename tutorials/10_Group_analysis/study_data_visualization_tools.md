@@ -9,6 +9,8 @@ Pre-computing and visualizing channel data
 ========================
 {: .no_toc }
 
+EEGLAB allows plotting grand-average EPS, specta, ERPimage, and ERSP/ITCs. In this section of the tutorial, we we will see how to first pre-compute measures, how to plot them, and how to modify plotting parameters.
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -20,11 +22,6 @@ Pre-computing and visualizing channel data
 
 Load the sample EEGLAB STUDY set
 ---------------------------------
-
-Select menu item <span style="color: brown">File</span> and press sub-menu item <span style="color: brown">Load existing study</span>. Select the tutorial file "animal.study" then press *Open*.
-
-#### Description of the data
-
 In each tutorial, we try to illustrate EEGLAB features with different data. In this one, we will use an 14-subject animal/non-animal categorization task. The data in *STUDY* format is available [here](https://sccn.ucsd.edu/eeglab/download/animal_study.zip).
 
 Subjects were presented with pictures that either contained or
@@ -34,6 +31,8 @@ available for download [here](ftp://sccn.ucsd.edu/pub/animal_study.zip)
 (443 Mb). A complete description of the task, the raw data (4Gb), and
 some Matlab files to process it, are all available on 
 [openneuro.org](https://openneuro.org/datasets/ds002680).
+
+Select menu item <span style="color: brown">File</span> and press sub-menu item <span style="color: brown">Load existing study</span>. Select the tutorial file "animal.study" then press *Open*.
 
 After loading the data, to review the *STUDY* design, use menu item <span style="color: brown">Study → Select/Edit study design</span>. The default design is to compare images containing *animals* with images containing *distrators*. Press *Ok* to close the window. 
 
@@ -45,7 +44,7 @@ Precomputing and plotting ERPs
 ### Precomputing ERPs
 
 Before plotting the channel measures, you must precompute
-them using the <span style="color: brown">Study → Precompute measures</span> menu item as shown below.
+them using the <span style="color: brown">Study → Precompute channel measures</span> menu item as shown below.
 
 ![px](/assets/images/studyprecomp1.png)
 
@@ -60,7 +59,7 @@ channels were scanned), you must interpolate missing channels for each dataset f
 
 - Subtracting artifactual ICA components. This can either be done by removing component flagged for rejection as explained in the tutorial section on using [Independent Component Analysis for artifact removal](/tutorials/06_RejectArtifacts/RunICA.html). This requires that you flag components in each dataset. You may also use most of the single dataset processing menu items at the *STUDY* level, so you may run ICA and flag artifactual components at the *STUDY* level. Please select this option.
 
-- Subtracting ICA component clusters. Alternatively to using the option above, you may select ICA component clusters to subtract from the data using the third checkbox. Refer to the [clustering tutorial](/tutorials/10_Group_analysis/component_clustering_tools.html) for more information. This is equivalent to using the second option, except that clusters of ICA components are removed.
+- Subtracting ICA component clusters. Alternatively, to using the option above, you may select ICA component clusters to subtract from the data using the third checkbox. Refer to the [clustering tutorial](/tutorials/10_Group_analysis/component_clustering_tools.html) for more information. This is equivalent to using the second option, except that clusters of ICA components are removed.
 
 The bottom pannel contains the list of measures to precompute. Tick the box and complete the parameters for the measure(s) you are interested in. For now, select *ERP* as they do not take too long to compute. This computes mean event-related potential for each condition and electrode. You may specify the baseline you wish to use (leave as blank). Then press *Ok*.
 
