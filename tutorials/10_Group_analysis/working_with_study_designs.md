@@ -130,7 +130,7 @@ Press the *Params* button and select the central checkbox to plot the first inde
 
 ![](/assets/images/studydesign12.png)
 
-Press the *Plot ERPs* pushbutton to plot the ERP for the first channel in the list. The following plot showing the grand-average ERP for each condition will pop up.. Then in the upper part of the *STUDY* plotting GUI, switch to the other design and again press the *Plot ERPs* button. The two plots are shown below side by side.
+Press the *Plot ERPs* pushbutton to plot the ERP for the first channel in the list. The following plot showing the grand-average ERP for each condition will pop up. Then in the upper part of the *STUDY* plotting GUI, switch to the other design and again press the *Plot ERPs* button. The two plots are shown below side by side.
 
 ![](/assets/images/studydesign10.png)
 
@@ -139,14 +139,14 @@ The conditions are assigned different colors but the ERPs are identical in both 
 Two-way STUDY design
 --------------------------
 
-Each letter is preceeded by other letters. Thus, when each letter is presented is presented, there is a memory load from 0 (no other letter to remember yet) to 7 (7 letters to remember).
+Each letter is preceeded by other letters. Thus, when each letter is presented is presented, there is a memory load from 0 (no other letter to remember yet) to 7. For memory load 7, there is no condition memorize (the load for the memorize letters goes from 0 to 6 which correspond to the number of letter already memorized). Note that the number of letters for the condition 6 is low (a total of 31 for the *ignore* condition), which is why we only select memory load from 0 to 5 below.
 
 Again select
 the second *STUDY* menu item <span style="color: brown">Study → Select/Edit study design(s)</span>. Create a third design called *2-way design, letter type x load*.
 
 ![](/assets/images/studydesign21.png)
 
-For this design, use two independent variables, one is the type of letter and we select *ignore* and *memorize* (since *load* is irrelevant for *probe* letters). We also select the memory load from 0 to 7 and change the type of variable to *categorical* instead of *continous* (it would also be possible to select *continuous* but this would require using the LIMO plugin to compute statistics and plot results).
+For this design, use two independent variables, one is the type of letter and we select *ignore* and *memorize* (since *load* is irrelevant for *probe* letters). We also select the memory load from 0 to 5 and change the type of variable to *categorical* instead of *continous* (it would also be possible to select *continuous* but this would require using the LIMO plugin to compute statistics and plot results).
 
 ![](/assets/images/studydesign22.png)
 
@@ -154,7 +154,7 @@ Since we have pre-computed measure in the previous section, there is no need to 
 
 ![](/assets/images/studydesign23.png)
 
-Here we have one pannel per memory load. For memory load 7, there is no condition memorize (the load for the memorize letters goes from 0 to 6 which correspond to the number of letter already memorized). Note that the number of letters for the condition 6 is low (a total of 31 for the *ignore* condition) explaning the large amplitude artifacts. This comparison should be run only for load 0 to 5. To interpret this plot, we would need to select a shorter frequency range, overlay loads for both the *memorize* and *ignore* conditions.
+Here we have one pannel per memory load. To interpret this plot, we would need to select a shorter frequency range, overlay loads for both the *memorize* and *ignore* conditions, and compute statistics. See the [group analysis statistic tutorial](/tutorials/10_Group_analysis/study_statistics.html) for further details.
 
 This simple example shows that the range of possibilities for STUDY
 designs is large. More details about STUDY.design structure is available

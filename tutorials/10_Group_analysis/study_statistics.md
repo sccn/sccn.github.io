@@ -36,145 +36,115 @@ and independent component (or other) source activity clusters.
 
 For this tutorial we will use the [STERN STUDY](http://sccn.ucsd.edu/eeglab/download/STUDYstern.zip) (1.9 Gb). Please download the data on your computer. See the [STUDY design](/tutorials/10_Group_analysis/working_with_study_designs.html) section of the tutorial for more information about this dataset.
 
-Use menu item <span style="color: brown">File → Load existing study</span> and select the *stern.study* file. After the *STUDY* is loaded in EEGLAB, precompute ERPs by selecting <span style="color: brown">Study → Precompute channel measures</span>. The following interface will pop up.
+Use menu item <span style="color: brown">File → Load existing study</span> and select the *stern_3designs.study* file. After the *STUDY* is loaded in EEGLAB, precompute ERPs by selecting <span style="color: brown">Study → Precompute channel measures</span>. The following interface will pop up.
 
-
-
-Select the checkbox *Remove ICA artifactual components pre-tagged in each dataset*, change the baseline to -200 to 0 as shown and press *OK*. 
-
-
-In this tutorial, we will use an 14-subject animal/non-animal categorization task. The data in *STUDY* format is available [here](https://sccn.ucsd.edu/eeglab/download/animal_study.zip). See the [data visualization](/tutorials/10_Group_analysis/study_data_visualization_tools.html) section of the tutorial for more information about this dataset.
-
-Select menu item <span style="color: brown">File</span> and press sub-menu item <span style="color: brown">Load existing study</span>. Select the tutorial file "animal.study" then press *Open*.
-
-After loading the data, to review the *STUDY* design, use menu item <span style="color: brown">Study → Select/Edit study design</span>. The default design is to compare images containing *animals* with images containing *distrators*. Press *Ok* to close the window. 
+After loading the data, to review the *STUDY* design, use menu item <span style="color: brown">Study → Select/Edit study design</span>. See the [STUDY design tutorial](/tutorials/10_Group_analysis/working_with_study_designs.html) for details on how to create these designs.
 
 Before plotting the channel measures, you must precompute
-them using the <span style="color: brown">Study → Precompute channel measures</span> menu item as shown below. Select the *ERPs* checkbox and press *Ok*.
+them using the <span style="color: brown">Study → Precompute channel measures</span> menu item as shown below.
+- Select the checkbox *Remove ICA artifactual components pre-tagged in each dataset*
+- Select the *ERPs* checkbox
+- Change the baseline to -200 to 0 as shown below
+- Press *OK* 
 
-![px](/assets/images/studyprecomp1.png)
+![px](/assets/images/studystats1.png)
 
-### Plot ERP statistics
+### 1-way ANOVA on ERP plots
 
-Select menu item <span style="color: brown">Study → Plot channel measures</span>. 
+Select menu item <span style="color: brown">Study → Plot channel measures</span>. Select channel *Oz* in the left column as shown below.
 
-![600px](/assets/images/studyplot5.png)
+![image not found](/assets/images/studystats03.png)
 
-In the middle of the two list of channels, click on the
+First, select a shorter time range for plotting ERPs. Press the *Params* button and enter a time range from -200 ms to 600 ms as shown below. Select the checkbox for plotting the first indedendent variable on the first pannel. Press *Ok*.
+
+![image not found](/assets/images/studystats04.png)
+
+In the middle of the two lists of channels, click on the
 large *STATS* pushbutton. The following graphic interface pops up. Click on the *Compute 1st independent variable statistics* checkbox.
-Note that, since if there were no second independent variable selected in
-this study design, the *Compute 2nd independent variable statistics* would not
-not available.
-
-![image not found](/assets/images/Pop_statparams2.png)
-
-Press *OK* then select channel "Fz" in the left columns
-and press the *Plot ERPs* button in the same column. The following plot
-appears. The last panel shows the actual p-values.
-
-![image not found](/assets/images/Erp4.gif)
-
-To set a threshold, call back the ERP parameter interface and set the
-entry in the *Statistical threshold* edit box to <i>0.01</i>.
-
-
-
-
-
-
-
-You may also click on the middle of the two *Plot ERPs* buttons on the
-*Params* button. In this interface, check the option *Plot first
-variable on the panel* as shown below.
-
-
-
-
-![image not found](/assets/images/Pop_erpparamsnew1_1.png)
-
-
-
-Press *OK*. Now click again *Plot ERPs*: the following figure pops up.
-
-
-
-![image not found](/assets/images/Erp5.gif)
-
-
-
-
-All of the plots above report parametric statistics. While parametric
+Note that, since if there were no second independent variable selected in this study design, the *Compute 2nd independent variable statistics* would not be available. Select *Use permutation statistics* in the dropdown list for the type of statistics. *Parametric statistics* should be used for quick assessment only.  While parametric
 statistics might be adequate for exploring your data, it is better to
-use permutation-based statistics (see above) to plot final results. Call
-back the graphic interface and select *Permutation* as the type of
-statistics to use, as shown below. You may also correct for multiple
-comparison using False Discovery rate.
+use permutation-based statistics (see above) to plot final results. Select the False Discovery Rate (FDR) method in the dropdown list to correct for multiple comparisons. Enter *0.05* for the p-value threshold. Press *Ok*.
 
+![image not found](/assets/images/studystats05.png)
 
+Then press the *Plot ERPs* button on the right column. The following plot pops up showing the ERPs for the three types of letter *ignore*, *memorize*, and *probe*. We observe a significant difference from about 450 ms to about 570 ms, indicated by the black bar under the ERP plots. We also observe transient significance in the baseline at about 100 ms.
 
-![image not found](/assets/images/Pop_statparams3.png)
+![image not found](/assets/images/studystats06.png)
 
+Let's try a different method to correct for multiple comparisons. Click on the *STATS* button again, and check the checkbox *Use Fieldtrip statistics*. Select *montecarlo/permutation* as the type of statistics and the cluster correction method to correct for multiple comparisons. Refer to the Fieldtrip documentation to tune the parameters for the cluster correction (use the defaults for now). Use also *0.05* for the statistics threshold. Press *Ok*.
 
+![image not found](/assets/images/studystats07.png)
 
+Then press again the *Plot ERPs* button on the right column. The region of significance is similar to the previous method, although the transient statistical difference in the baseline has disapeared.
 
-Below, we will use non-parametric statistics for all data channels.
-Click on the *Sel. all* pushbutton in the channel selection interface,
-and then push the *Plot ERPs* button. The shaded areas behind the ERPs
-indicate the regions of significance.
+![image not found](/assets/images/studystats08.png)
 
+### 1-way ANOVA on ERP scalp topographies
 
+Now let's plot the scalp topography in this time region. To do this, press again the *Params* button, and select the 150 to 300 ms time range. Select *Plot averaged topography over time* in the bottom pannel and press *Ok*.
 
-![image not found](/assets/images/Erp6.gif)
+![image not found](/assets/images/studystats10.png)
 
+Press the *STATS* button and select permutation statistics with FDR correction for multiple comparisons as shown below.
 
+![image not found](/assets/images/studystats11.png)
 
-Finally, for data channels (but not for component clusters) an
-additional option is available to plot ERP scalp maps at specific
-latencies. Using the ERP parameter graphic interface once again, enter
-"200" as the time range (in ms) and under the drop down menu of *Multiple channels selection*  select
-*Plot averaged topography over time range*:
+Now press the *Sel all.* button in the right column to select all channels. Then press the *Plot ERPs* button. The following plot pops up. This plot shows the scalp topography from 150 ms to 300 ms as well as the p-value map (extreme right). The difference, in this case, seems driven by the probe condition. In following section, we will look at the difference between the *ignore* and *memorize* letters.
 
+![image not found](/assets/images/studystats12.png)
 
+### 2-way ANOVA
 
-![image not found](/assets/images/Pop_erpparams_new2_2.png)
+Let's select the third design in the *STUDY* plotting interface as shown below. This design compares *ignore* and *memorize* conditions under different memory load (from 0 to 5). The [STUDY design](/tutorials/10_Group_analysis/working_with_study_designs.html) section of the tutorial describes how this design was created. Let's also select channel *Oz*. 
 
+![image not found](/assets/images/studystats15.png)
 
+Now press the *Params* button and change the plotting time range to -200 ms to 600 ms as shown below. Make sure to also select the option to *Plot channels individually*. Press *Ok*.
 
+![image not found](/assets/images/studystats16.png)
 
-Select all channels (or a subset of channels) and press the *Plot ERPs*
-button. The following figure appears.
+Press *Plot ERPs* button. The plot below pops up.
 
+![image not found](/assets/images/studystats17.png)
 
+We will study significance over the scalp topographies in the 150 ms to 300 ms range as in the previous section. To do so, press the *Params* button and enter a time range from 150 ms to 300 ms as shown below. Make sure to also select the option to *Plot averaged topography over time*. Press *Ok*.
 
-![image not found](/assets/images/Erp7.gif)
+![image not found](/assets/images/studystats18.png)
 
+Press the *STATS* button and both independent variables as shown below. Select permutation statistics with no correction for multiple comparisons. Press *Ok*.
 
+![image not found](/assets/images/studystats19.png)
 
+Press the *Plot ERPs* button again. The following plot pops up and shows an array of 2 x 5 scalp topographies for the 2 x 5 design (2 conditions *ignore* and *memorize* times 5 memory load conditions). The scalp topography on the bottom shows the p-value map across conditions (*ignore* vs *memorize*). The scalp topography on the right shows the p-value map across memory loads. The scalp topography in the bottom right corner shows the p-value for the ANOVA interaction term between conditions and memory loads. In this case, there might be a trend for the memory load.
 
-There are more options in Plotting Options gui we have not discussed --
-they should be self-explantory:
- - the *Time range to plot* edit box allows
-plotting a shorter time range than the full epoch. 
+![image not found](/assets/images/studystats20.png)
 
-- the *Plot limits*
-edit box allows setting fixed lower and upper limits to the plotted
-potentials. 
+We now select again the *STATS* button and add the *FDR* correction for multiple comparisons (not shown). Press the *Plot ERPs* button again. As shown below, the p-value statistical maps are all green indicating no significance.
 
-- the *Display filter* edit box allows entering a
-frequency (for instance 20 Hz) below which to filter the ERP. This is
-only applied for the ERP display and does not affect computation of the
-statistics. This option is useful when plotting noisy ERPs for single
-subjects.
+![image not found](/assets/images/studystats22.png)
 
-Note that a command line function, [std_envtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_envtopo.m), can also
+Let's try the cluster method to correct for multiple comparisons. Press the *STATS* utton again. Check the checkbox to compute statistics only on the first variable (Fieldtrip cannot perform 2-way ANOVAs only 1-way ANOVAs) and check the checkbox *Use Fieldtrip statistics*. Select *montecarlo/permutation* as the type of statistics and the cluster correction method to correct for multiple comparisons. Press *Ok*.
 
-visualize cluster contributions to the grand mean ERP in one or two
-conditions, and to their difference. 
+![image not found](/assets/images/studystats23.png)
 
-For more details refer [this wiki description](/Chapter_08:_Command_line_STUDY_functions#Modeling_condition_ERP_differences_using_std_envtopo() "wikilink").
+Press the *Plot ERPs* button and the following plot appears, showing statisticallly significant difference between the *ignore* and *memorize* conditions.
 
-Options for computing statistics on and plotting results for spectrum, ITC and ERSP
-------------------------------------------------------------------------------------
+![image not found](/assets/images/studystats24.png)
+
+To look at the marginal statistics, select the *STATS* button and check the checkbox to compute marginal statistics (only the upper pannel of the GUI is shown below).
+
+![image not found](/assets/images/studystats25.png)
+
+Then press the *Plot ERPs* again. We see that the difference is mostly due to memory load 0, 1 and 2.
+
+![image not found](/assets/images/studystats26.png)
+
+Note that the analysis above is preliminary at best. The fact that uncorrected significance was low for the comparison between conditions, then showed up as significant with the cluster analysis, indicate weakly significant regions. Based on the scalp topography for the cluster analysis, it is unclear if significance is below 0.05. You may retrieve the p-values from the command line as explained in the [group analysis scripting tutorial](/tutorials/11_Scripting/command_line_study_functions.html).
+
+In general, we advise focusing on reporting unambigious results (significance below 0.005 after correction for multiple comparisons).
+
+Statistics on spectrum, ITC and ERSP
+-------------------------------
 
 The graphic interfaces for both power spectral and ERSP/ITC measures are
 similar to that used for ERPs and need not be described in detail. You
@@ -184,46 +154,16 @@ The
 same graphic interface is used by all measures to select options for
 computing statistics.
 
-### Computing statistics for studies with multiple groups and conditions
 
-
-At the end,
-we will show examples of more complex analyses involving 3 groups of
-subjects and 2 conditions. We will also briefly describe the
-characteristics of the function that performs the statistical
-computations, and discuss how to retrieve the p-values for further
-processing or publication.
-
-This functionality is still under development. 
-
-Although we believe it is
-working properly, we are planning to update its graphic interface to
-make it more understandable. The current interface shows the ANOVA
-interaction term for groups and conditions along with marginal
-statistics. In a near-future release we are planning to have users
-select showing either the marginal statistics or the statistical main
-effects and interactions. 
-
-Here we show a plot obtained from a clinical
-study on three patient groups of 16 subjects each in two experimental
-conditions (KAN, representing responses to the appearance of Kaniza
-triangles, and NONKAN, representing responses to the appearance of
-inverted Kaniza triangles; result courtesy of Rael Cahn). Selecting only
-condition statistics and plotting conditions on the same panel returns
-the figure below.
-
-Statistics on ICA component clusters
+ICA component cluster statistics
 ----
-The same methods for statistical comparison apply both to component clusters and to groups of data channels. 
+The same method for statistical comparison apply both to component clusters and to groups of data channels. 
 
-![image not found](/assets/images/Erp_condstat.gif)
-
-
-## General Linear Modelling
-
-The [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/) allows you to use general linear modelling approaches on your data within EEGLAB.
-
-If you click on the icon on the top right corner you can see the list of all the videos in the playlist - select the second one for a practical introduction to using LIMO with EEGLAB:
+The plotting interface is virtually identical for channels and ICA component clusters. In the channel plotting interface, the left column is used to plot grand averages, and the right column to plot individual subjects. Similarly, for clusters, the left column plots clusters and the right column plot individual components.
 
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+General Linear Modelling using LIMO
+----
+
+The [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/) allows you to use general linear modeling approaches on your data within EEGLAB. For more complex designs, one must use the LIMO plugin. Refer to the [LIMO plugin documentation](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for more information, and the [LIMO tutorial video series](https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU).

@@ -537,81 +537,23 @@ Alternatively, for the sample data,
 load the provided studyset *N400clustedit.study* in which
 pre-clustering information has already been stored.
 
-Preparing to cluster (Pre-clustering) with Affinity Product Method
+Finding clusters with the measure projection plugin
 --------------------------------------------------------------------
-In Affinity Product clustering, IC measures, except equiv. dipoles,
-(ERP, ERSP...) are compared for each IC pair and their dissimilarity is
-multiplied together to form a combined pairwise dissimilarity matrix.
-This matrix is then normalized, weighted and added to the normalized and
-weighted IC equiv. dipole distance matrix. 
+In Affinity measure projection clusters, IC measures, except equiv. dipoles, (ERP, ERSP...) are compared for each IC pair and their dissimilarity is multiplied together to form a combined pairwise dissimilarity matrix. This matrix is then normalized, weighted, and added to the normalized and weighted IC equiv. dipole distance matrix. 
+
 The final dissimilarity
-matrix is then clustered using affinity clustering method (Fig. below).
-
-As you can see this method does not perform any dimensionality reduction
-on EEG measures (i.e PCA) as it only calculates pairwise
-(dis)similarities.These similarity matrices (correlations) has to be
-calculated in the pre-clustering step.
-
-
-![900px\|center](/assets/images/Hybrid-measure-product-clustering-flowchart.png)
-
-
-### Computing pairwise measures for AP clustering.
-
-Invoke the pre-clustering graphic interface by using menu item
-<span style="color: brown">Study → Affinity Product clustering → Build pre-clustering array</span>.
-
-
-![Image:Mpreclust snapshot.png](/assets/images/Mpreclust_snapshot.png)
-
-
-In the GUI you can select EEG measures for which pre-clustering matrices
-should be calculated. 
-
-Use 'Re-Calculate All' option to remove all these
-matrices before calculating new ones. This might be useful if you have
-changed the subset of STUDY components to be clustered.
-
-### Finding clusters with Affinity Product Method
-
-After the pre-clustering step (above) is finished, you can cluster STUDY
-components based on any combination of measures included in
-pre-clustering. The final clustering is performed on the combined
-pairwise distance matrix using [Affinity Propagation](http://www.psi.toronto.edu/affinitypropagation/) algorithm.
-
-#### Computing clusters.
-
-Invoke the MP clustering graphic interface by using menu item
-<span style="color: brown">Study → Affinity Product clustering → Cluster Components</span> will open the following window.
-
-![Image:Popmpcluster.png](/assets/images/Popmpcluster.png)
-
-Here you can specify the number of clusters and control the effect of
-equiv. dipole distances in the clustering by setting the 'Relative
-dipole weight' parameter. For example, by setting this value to 0.8, the
-final dissimilarity matrix will consist of 80% distance dissimilarity
-and 20% of other measures combined together.
-
-Please note that the number of returned clusters may slightly (up to 5%)
-differ from the number requested in the GUI. Also, currently only
-clustering the parent cluster (containing all components) is supported.
-
-An option for the Affinity Clustering algorithm can relegate 'outlier'
-components to a separate cluster. Outlier components are defined as
-components further than a specified number of standard deviations (3, by
-default) from any of the cluster centroids. To turn on this option,
-click the lower checkbox on the left. Identified outlier components will
-be put into a designated Outliers cluster (Cluster 2).
+matrix is then clustered using affinity clustering method. Refer to its [GitHub repository](https://github.com/sccn/mp_clustering) for details.
 
 Finding clusters with the Corrmap plugin
 ------------------------------------------
 Corrmap is a plugin that is included in EEGLAB and that clusters
 components based on the correlation of their scalp topographies. The
-documentation for this plugin is available on Stefan Debener web page at
-[<http://www.debener.de/corrmap/corrmapplugin1.html>](http://www.debener.de/corrmap/corrmapplugin1.html).
+documentation for this plugin is available on 
+[Stefan Debener web page](http://www.debener.de/corrmap/corrmapplugin1.html) and the [GitHub repository](https://github.com/sccn/corrmap).
 
 Viewing component clusters
-----------------------------Calling the cluster editing function [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) using
+----------------------------
+Calling the cluster editing function [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) using
 
 menu item <span style="color: brown">Study → Edit → plot clusters</span> will
 open the following window. 

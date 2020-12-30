@@ -84,13 +84,25 @@ Now, let's look at the plotting parameters. In the central column of the [pop_ch
 
 ![600px](/assets/images/studyplot3.png)
 
-This GUI contains several sections and lets you specify the time range and scale. Please select the checkbox to overlay the two conditions on the same pannels as shown above.
+This GUI contains several sections and lets you specify the time range and scale. Please select the checkbox to overlay the two conditions on the same pannel as shown above.
+
+There are more options in Plotting Options GUI. They should be self-explanatory:
+ - the *Time range to plot* edit box allows
+plotting a shorter time range than the full epoch. 
+- the *Plot limits*
+edit box allows setting fixed lower and upper limits to the plotted
+potentials. 
+- the *Display filter* edit box allows entering a
+frequency (for instance 20 Hz) below, which to filter the ERP. This is
+only applied for the ERP display and does not affect computation of the
+statistics. This option is useful when plotting noisy ERPs for single
+subjects.
 
 In the bottom *Multiple channels selection* section, you have the choice of:
-- plotting individual channels. The default option.
-- plotting the average topography over a time range (specified in the top box). We will be using this option in this tutorial.
-- plotting the ERP measure averaged over a subset of channels
-- compute the root mean square (RMS) of the selected channels - this is equivalent to computing the Global Field Power (GFP)
+- Plotting individual channels. The default option.
+- Plotting the average topography over a time range (specified in the top box). We will be using this option in this tutorial.
+- Plotting the ERP measure averaged over a subset of channels
+- Compute the root mean square (RMS) of the selected channels - this is equivalent to computing the Global Field Power (GFP)
 
 Press *Ok* and press the *Plot ERPs* button again.
 
