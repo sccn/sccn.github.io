@@ -7,45 +7,26 @@ grand_parent: Tutorials
 
 Clustering ICA components
 ===========================
-
+{: .no_toc }
 
 This part of the tutorial will demonstrate how to use EEGLAB to
 interactively preprocess, cluster, and then visualize the dynamics of
 ICA (or other linear) signal components across one or many subjects by
-operating on the [tutorial study](ftp://sccn.ucsd.edu/pub/5subjects_full.zip).
+operating on one of the tutorial *STUDY*.
 
-Note that with only a few subjects and a few clusters (a necessary
-limitation, to be able to easily distribute the example), it may not be
-possible to find six consistent component clusters with uniform and
-easily identifiable natures. We have obtained much more satisfactory
-results clustering data from 15 to 30 or more subjects.
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
-After following this tutorial using the sample data, we recommend you
-create a study for a larger group of datasets, if available, whose
-properties you know well. Then try clustering components this study in
-several ways. Carefully study the consistency and properties of the
-generated component clusters to determine which method of clustering
-produces clusters adequate for your research purposes.
+Why cluster ICA components?
+-----------------
 
-Note that we recommend performing one ICA decomposition on all the data
-collected in each data collection session, even when task several
-conditions are involved. In our experience, ICA can return a more stable
-decomposition when trained on more data. Having components with common
-spatial maps also makes it easier to compare component behaviors across
-conditions. To use the same ICA decomposition for several conditions,
-simply run ICA on the continuous or epoched data *before* extracting
-separate datasets corresponding to specific task conditions of interest.
-Then extract specific condition datasets; they will automatically
-inherit the same ICA decomposition.
-
-An example of ICA clustering is also available
-[here](/Independent_Component_Clustering_Example "wikilink").
-
-<details>
-  <summary><b>Why cluster ICA components?</b></summary>
-
-
-<u>Is my Cz your Cz?</u> 
+### Is my Cz your Cz?
 
 To compare electrophysiological results across
 subjects, the usual practice of most researchers has been to identify
@@ -67,10 +48,7 @@ cortical EEG sources, no matter how accurately the equivalent electrode
 locations were measured on the scalp. This fact is commonly ignored in
 EEG research.
 
-<br>
-<br>
-
-<u>Is my IC your IC?</u> 
+### Is my IC your IC?
 
 Following ICA (or other linear) decomposition,
 however, there is no natural and easy way to identify a component from
@@ -81,8 +59,7 @@ differences in their scalp maps, power spectra, ERPs, ERSPs, ITCs, or
 etc. Thus, there are many possible (distance) measures of similarity,
 and many different ways of combining activity measures into a global
 distance measure to estimate component pair similarity.
-<br>
-<br>
+
 Thus, the problem of identifying equivalent components across subjects
 is non-trivial. An attempt at doing this for 31-channel data was
 published in [2002](http://sccn.ucsd.edu/science2002.html) and
@@ -94,84 +71,55 @@ al. reported on dynamics of a frontal midline component cluster
 identified in 71-channel data. EEGLAB now contains functions and
 supporting structures for flexibly and efficiently performing and
 evaluating component clustering across subjects and conditions. With its
-supporting data structures and stand-alone **'std_**' prefix analysis
+supporting data structures and stand-alone *std_* prefix analysis
 functions, EEGLAB makes it possible to summarize results of ICA-based
 analysis across more than one condition from a large number of subjects.
 This should make more routine use of linear decomposition and ICA
 possible to apply to a wide variety of hypothesis testing on datasets
 from several to many subjects.
-<br> <br>
-The number of EEGLAB clustering and cluster-based functions will
-doubtless continue to grow in number and power in the future versions,
-since they allow the realistic use of ICA decomposition in
-hypothesis-driven research on large or small subject populations.
-<br> <br>
-<b>NOTE:</b> Independent component clustering (like much other data clustering)
-has no single 'correct' solution. Interpreting results of component
-clustering, therefore, warrants caution. Claims to discovery of
+
+Note that independent component clustering (like much other data clustering)
+has no single 'correct' solution. Interpreting the results of component
+clustering, therefore, warrants caution. Claims to the discovery of
 physiological facts from component clustering should be accompanied by
 thoughtful caveat and, preferably, by results of statistical testing
 against suitable null hypotheses.
 
-</details>
+Prepare data for ICA component clustering
+---
 
-EDIT STUDY INTERFACE CLUSTERING
-====
+### Load and prepare data
 
-The second checkbox removes all current cluster information and will be explained when we perform ICA component clustering. When
-cluster information is present, it is not possible to add or remove
-datasets and to edit certain fields (because this would not be
-consistent with the already computed clusters). 
+In this tutorial, we will use a [5-subject STUDY](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip) (450Mb). See the [STUDY creation tutorial](/tutorials/10_Group_analysis/study_creation.html) for more information on this data.
 
+Select menu item <span style="color: brown">File</span> and press sub-menu item <span style="color: brown">Load existing study</span>. Select the tutorial file "N400.study" then press *Open*.
 
-Re-clustering the
-altered STUDY does not take much time, once the pre-clustering
-information for the new datasets (if any) has been computed and
-stored.
+The following steps are required before clustering ICA components.
+- You have created a *STUDY* with the data from all participants in your experiment. See [STUDY creation](/tutorials/10_Group_analysis/study_creation.html) tutorial.
+- You have added channel locations. Note that channel
+locations may be edited for all datasets at the same time (simply use
+menu item <span style="color: brown">Edit → Channel locations</span>). 
+- You have run ICA on each dataset. Use menu item <span style="color: brown">Tools → Decompose data by ICA</span> to run ICA on all datasets if this is not the case.
+- You have fitted each ICA component with a dipole. Use menu item <span style="color: brown">Tools → Locate dipoles using DIPFIT -> Head model and settings</span>, then <span style="color: brown">Tools → Locate dipoles using DIPFIT -> Autofit</span> if this is not the case.
 
-- The *Components* column contains the
-components for each dataset that will be clustered. , so the same ICA decomposition was
-used for both conditions. Uniform default values will be used by
-EEGLAB for those fields. 
+### Select components to cluster
 
-Note that if you
-change the component selection (by pressing the relevant push button),
-all datasets with the same subject name and the same session number
-will also be updated (as these datasets are assumed to have the same
-ICA components).
+Then select menu item <span style="color: brown">Study → Edit study info</span>. The following interface pops up.
 
+![](/assets/images/studyclust1.png)
 
-Both raw data and ICA component data may be processed in STUDY. 
-
-
-Optional: Pre-selecting components for clustering.
-
-If you wish to process ICA component data with the STUDY you need to complete the step below.
-
-Simply press the *Select by r.v.* (r.v. = residual variance) push
-button in the gui above. 
-
-The entry box below will appear. This allows
+We have already described this interface when importing data in a *STUDY* in the [STUDY creation tutorial](/tutorials/10_Group_analysis/study_creation.html). The bottom checkbox removes all current cluster information and you need to check this checkbox if you want to remove all clusters or if you have added or removed datasets (because this would not be consistent with the already computed clusters). The button *Select by r.v.* allows
 you to set a threshold for residual variance of the dipole model
-associated with each component.
+associated with each component. Press this button. The entry box below will appear. 
 
-
-*Note*: Using this option requires that dipole model information ispresent in each dataset. Use EEGLAB plug-in [dipfit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=dipfit.m)
-
-options and save the resulting dipole models into each dataset
-*before* calling the study guis. Otherwise, options related to dipole
-localization will not be available.
-
-
-![Pop study rv gui](/assets/images/Pop_study_rv.gif)
-
+![](/assets/images/studyclust2.png)
 
 This interface allows specifying that components used in clustering
 will only be those whose equivalent dipole models have residual dipole
 variance of their component map, compared to the best-fitting
 equivalent dipole model projection to the scalp electrodes, less than
 a specified threshold (0% to 100%). The default r.v. value is 15%,
-meaning that only components with dipole model residual variance of
+meaning that only components with dipole models' residual variance of
 less than 15% will be included in clusters. This is useful because of
 the modeled association between components with near 'dipolar' (or
 sometimes dual-dipolar) scalp maps with physiologically plausible
@@ -179,16 +127,22 @@ components, those that may represent the activation in one (or two
 coupled) brain area(s). For instance, in the interface above, the
 default residual variance threshold is set to 15%. This means that
 only component that have an equivalent dipole model with less than 15%
-residual variance will be selected for clustering. Pressing *OK* will
+of residual variance will be selected for clustering. Pressing *OK* will
 cause the component column to be updated in the main study-editing
 window. Then press *OK* to save your changes.
 
+The *Comp.* buttons contains the
+components for each dataset that will be clustered based on the residual variance threshold selected above. You may edit these manually. Note that if you
+change the component selection (by pressing the relevant push button),
+all datasets with the same subject name and the same session number
+will also be updated (as these datasets are assumed to have the same
+ICA components).
 
-*Important note for ICA component clustering*:
+### Multiple ICA decompositions per subject
  
- Continuous data collected in one task or
+Continuous data collected in one task or
 experiment session are often separated into epochs defining different
-task conditions (for example, separate sets of epochs time locked to
+task conditions (for example, separate sets of epochs time-locked to
 targets and non-targets respectively). Datasets from different
 conditions collected in the same *session* are assumed by the clustering
 functions to have the same ICA component weights (i.e., the same ICA
@@ -197,72 +151,51 @@ session conditions at once). If this was not the case, then datasets
 from the different conditions must be assigned to different
 *sessions*.
 
+So, we recommend performing one ICA decomposition on all the data
+collected in each data collection session, even when task several
+conditions are involved. In our experience, ICA can return a more stable
+decomposition when trained on more data. Having components with common
+spatial maps also makes it easier to compare component behaviors across
+conditions. To use the same ICA decomposition for several conditions,
+simply run ICA on the continuous or epoched data *before* extracting
+separate datasets corresponding to specific task conditions of interest.
+Then extract specific condition datasets; they will automatically
+inherit the same ICA decomposition.
 
+### Compute component activity measures
 
+The next step before clustering is to precompute component activity measures for each dataset. Precomputing measure is necessary to cluster components but it is also necessary to visualize component activities. Note that the GUI for precomputing component activity measures is very similar to the GUI for precomputing channel activity described in the [channel visualization tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html).
 
+Select menu item <span style="color: brown">Study → Precompute component measures</span>. In the interface below, select all measures. For ERSP/ITC, select 30 frequencies and 60 time points as shown below to speed up computation. Press *Ok*.
 
-Note that channel
-locations may be edited for all datasets at the same time (simply call
-menu item <span style="color: brown">Edit → Channel locations</span>). 
+![](/assets/images/studyclust3.png)
 
+It should take a couple of minutes to precompute all measures including time-frequency measures.
 
+Cluster components
+-----------------
 
-Clustering Methods
--------------------
-
-EEGLAB implements the following clustering methods:
-
-- [PCA method (original method)](/tutorials/multi-subject/component-clustering-tools.html#preparing-to-cluster-pre-clustering-with-pca-original-method)
-- [Affinity Product Method](/tutorials/multi-subject/component-clustering-tools.html#preparing-to-cluster-pre-clustering-with-affinity-product-method)
-- [Using the Corrmap plugin](/tutorials/multi-subject/component-clustering-tools.html#finding-clusters-with-the-corrmap-plugin)
-- Measure Product (MP) method 
-*The MP method has been removed from version 9.0.3.3b for
-lack of stability but you may contact the author at nima@sccn.ucsd.edu
-to obtain a copy.*
-
-Preparing to cluster (Pre-clustering) with PCA (original) method
------------------------------------------------------------------
-
-The next step before clustering is to prepare the *STUDY* for
-clustering. This requires:
- - first, identifying the components from each
-dataset to be entered into the clustering (as explained briefly above),
-- second, computing component activity measures for each study dataset
-(described below). 
-
-For this purpose, for each dataset component thepre-clustering function [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) first computes
-
-desired condition-mean measures used to determine the cluster 'distance'
-of components from each other. 
-
-The condition means used to construct
-this overall cluster 'distance' measure may be selected from a palette
-of standard EEGLAB measures: ERP, power spectrum, ERSP, and/or ITC, as
-well as the component scalp maps (interpolated to a standard scalp grid)
-and their equivalent dipole model locations (if any).
-
-
-*Note*: Dipole locations are the one type of pre-clustering information*not* computed by [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m). As explained previously,
-
-to use dipole locations in clustering and/or in reviewing cluster
-results, dipole model information must be computed separately and savedin each dataset using the [dipfit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=dipfit.m) EEGLAB plug-in.
-
-
+The main method to cluster components in EEGLAB is the PCA clustering method described below. Other methods are the Measure Projection method and the Scalp Correlation method available in EEGLAB plugins as indicated in a following section.
 
 The aim of the pre-clustering interface is to build a global distance
 matrix specifying 'distances' between components for use by the
 clustering algorithm. This component 'distance' is typically abstract,
 estimating how 'far' the components' maps, dipole models, and/or
 activity measures are from one another in the space of the joint,
-PCA-reduced measures selected. This will become clearer as we detail the
-use of the graphic interface below.
+PCA-reduced measures selected. This will become clearer as we detail the use of the graphic interface below.
 
-### Computing component measures
-Invoke the pre-clustering graphic interface by using menu item
-<span style="color: brown">Study → Build pre-clustering array</span>.
+The condition means used to construct
+this overall cluster 'distance' measure may be selected from a palette
+of standard EEGLAB measures: ERP, power spectrum, ERSP, and/or ITC, as
+well as the component scalp maps (interpolated to a standard scalp grid) and their equivalent dipole model locations (if any). Note that dipole locations are the one type of pre-clustering information *not* precomputed since it is readilly available in each dataset.
+
+Invoke the pre-clustering graphic interface ([pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) function) by using menu item
+<span style="color: brown">Study → Build pre-clustering array</span> function  and its GUI interface described below first computes
+desired condition-mean measures used to determine the cluster 'distance' of components from each other. 
 
 
-![image not found](/assets/images/Pop_preclust.gif)
+![](/assets/images/Pop_preclust.gif)
+
 The top section of the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) gui above allows
 
 selecting clusters from which to produce a refined clustering. There
@@ -537,15 +470,18 @@ Alternatively, for the sample data,
 load the provided studyset *N400clustedit.study* in which
 pre-clustering information has already been stored.
 
-Finding clusters with the measure projection plugin
---------------------------------------------------------------------
+Other clustering methods
+-----------------
+
+The main method to cluster components in EEGLAB is the PCA clustering method described in this tutorial. Other methods are the Measure Projection method and the Scalp Correlation method available in EEGLAB plugins (see below for details).
+
+### Finding clusters with the Measure Projection plugin
 In Affinity measure projection clusters, IC measures, except equiv. dipoles, (ERP, ERSP...) are compared for each IC pair and their dissimilarity is multiplied together to form a combined pairwise dissimilarity matrix. This matrix is then normalized, weighted, and added to the normalized and weighted IC equiv. dipole distance matrix. 
 
 The final dissimilarity
 matrix is then clustered using affinity clustering method. Refer to its [GitHub repository](https://github.com/sccn/mp_clustering) for details.
 
-Finding clusters with the Corrmap plugin
-------------------------------------------
+### Finding clusters with the Corrmap plugin
 Corrmap is a plugin that is included in EEGLAB and that clusters
 components based on the correlation of their scalp topographies. The
 documentation for this plugin is available on 
@@ -995,3 +931,18 @@ component per subject per cluster because this avoids having to
 compromise with the statistics (this is possible when using the EEGLAB Corrmap
 plugin for clustering data; there is also a version of *kmean* that
 forces to use one component per cluster). Alternatively, remove components manually in clusters.
+
+### To do next
+
+Note that with only a few subjects and a few clusters (a necessary
+limitation, to be able to easily distribute the example), it may not be
+possible to find six consistent component clusters with uniform and
+easily identifiable natures. We have obtained much more satisfactory
+results clustering data from 15 to 30 or more subjects.
+
+After following this tutorial using the sample data, we recommend you
+create a study for a larger group of datasets, if available, whose
+properties you know well. Then try clustering components this study in
+several ways. Carefully study the consistency and properties of the
+generated component clusters to determine which method of clustering
+produces clusters adequate for your research purposes.

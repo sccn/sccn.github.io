@@ -159,11 +159,8 @@ ICA component cluster statistics
 ----
 The same method for statistical comparison apply both to component clusters and to groups of data channels. 
 
-The plotting interface is virtually identical for channels and ICA component clusters. In the channel plotting interface, the left column is used to plot grand averages, and the right column to plot individual subjects. Similarly, for clusters, the left column plots clusters and the right column plot individual components.
-
-
+The plotting interface is virtually identical for channels and ICA component clusters. In the channel plotting interface, the left column is used to plot grand averages, and the right column to plot individual subjects. Similarly, for clusters, the left column plots ICA clusters and the right column plot individual components.
 
 General Linear Modelling using LIMO
 ----
-
 The [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/) allows you to use general linear modeling approaches on your data within EEGLAB. For more complex designs, one must use the LIMO plugin. Refer to the [LIMO plugin documentation](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for more information, and the [LIMO tutorial video series](https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU).
