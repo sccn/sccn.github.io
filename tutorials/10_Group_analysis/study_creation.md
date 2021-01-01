@@ -1,6 +1,6 @@
 ---
 layout: default
-title: b. STUDY Creation
+title: b. STUDY creation
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---
@@ -15,7 +15,11 @@ An EEGLAB STUDY (or study) contains descriptions of and links to data
 contained in many epoched or continuous datasets, for example, a set of
 datasets from a group of subjects in one or more conditions of the
 same task or performing different tasks in the same or different
-sessions. 
+sessions. A *STUDY* to manage and process data recorded from multiple subjects, sessions, and/or conditions of an experimental study. 
+
+In addition to the tutorial sections below, you may want to watch the short video below on multiple subjects processing in EEGLAB (hosted on Youtube):
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/kofJh7biGsE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 <details open markdown="block">
   <summary>
@@ -91,7 +95,7 @@ will allow Matlab to load and hold a large number of dataset structures, forming
 Quick STUDY creation
 ---------------------------------------------
 After uncompressing the [5-subject tutorial data](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip), to create a *STUDY*, select the
- <span style="color: brown">File → Create study → Simple ERP STUDY</span> menu item. The interface below pop up. Enter two for the number of conditions and five for the number of subjects, and press *Ok*.
+ <span style="color: brown">File → Create study → Simple ERP STUDY</span> menu item. The interface below pops up. Enter two for the number of conditions and five for the number of subjects, and press *Ok*.
 
 ![](/assets/images/simplestudy1.png)
 

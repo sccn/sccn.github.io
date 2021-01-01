@@ -1,6 +1,6 @@
 ---
 layout: default
-title: d. Data visualization
+title: d. STUDY visualization
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---

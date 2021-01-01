@@ -6,6 +6,7 @@ grand_parent: Tutorials
 ---
 Plotting averaged data
 ==================
+{: .no_toc}
 
 EEGLAB contains several functions for
 plotting 1-D ERP averages of dataset trials (ie. epochs). EEGLAB also
@@ -241,7 +242,8 @@ vector of 9 new channel alignment values (shift, in 3-D; rotation, in
 
 Note that it is possible, and relatively easy, to generate custom [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m) head meshes. This may be done using Freesurfer or [Fieldtrip](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/).
 
-Plotting and comparing different conditions
+Comparing different conditions and performing statistics
 ---------------------------
 
-Comparing ERPs between conditions is done using [group-level analysis](/tutorials/10_Group_analysis/) *even if* you only have one subject. This is because the group-level analysis interface has rich options to select and plot ERPs for different conditions, including calculating statistics across trials for single subjects. 
+Comparing ERPs between conditions is done using [group-level analysis](/tutorials/10_Group_analysis/) *even if* you only have one subject. This is because the group-level analysis interface has rich options to select and plot ERPs for different conditions, including [calculating statistics across trials for single subjects](/tutorials/10_Group_analysis/study_statistics.html#single-subject-statistics). 
+

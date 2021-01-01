@@ -1,6 +1,6 @@
 ---
 layout: default
-title: e. Statistics
+title: e. STUDY statistics
 parent: 10. Group analysis
 grand_parent: Tutorials 
 has_toc: true
@@ -143,17 +143,14 @@ Note that the analysis above is preliminary at best. The fact that uncorrected s
 
 In general, we advise focusing on reporting unambiguous results (significance below 0.005 after correction for multiple comparisons).
 
-Statistics on spectra, ITC and ERSP
+Statistics on spectra, ITC, and ERSP
 -------------------------------
 
 The graphic interfaces for both power spectral and ERSP/ITC measures are
-similar to those used for ERPs and need not be described in detail. You
-may refer to the relevant function help messages for more detail. 
-
-The
+similar to those used for ERPs and need not be described in detail and the
 same graphic interface is used by all measures to select options for
-computing statistics.
-
+computing statistics. You
+may refer to the relevant function help messages for more detail. 
 
 ICA component cluster statistics
 ----
@@ -164,3 +161,43 @@ The plotting interface is virtually identical for channels and ICA component clu
 General Linear Modelling using LIMO
 ----
 The [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/) allows you to use general linear modeling approaches on your data within EEGLAB. For more complex designs, one must use the LIMO plugin. For more information, refer to the [LIMO plugin documentation](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) and the [LIMO tutorial video series](https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU).
+
+Single-subject statistics
+----
+When a *STUDY* only contains data from a single subject, you may also compute single-subject statistics. Below, we illustrate the process using ERPs, but statistics may be similarly calculated on other measures, including *spectra*, *ERP-image*, *ERSP*, and *ITC*.
+
+In this tutorial, we will use the [5-subject experiment](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip) (450Mb) again, although we will only use one of the five subjects. See the [STUDY creation tutorial](/tutorials/10_Group_analysis/study_creation.html) for more information on this data. 
+
+Restart EEGLAB. After uncompressing the data archive, load the two datasets for subject two (s02) using the <span style="color: brown">File → Load existing dataset</span> menu item. When several datasets are in the same folder, they may be all selected and loaded in EEGLAB simultaneously, as shown below.
+
+![](/assets/images/multisub1.png)
+
+Then use the <span style="color: brown">File → Create study → Using all loaded datasets</span> menu item. The GUI below pops up. Press *Ok*.
+
+![](/assets/images/singlestat1.png)
+
+Select the <span style="color: brown">Study → Precompute channel measures</span> menu item. The GUI below pops up. Select the checkbox to *Remove artifactual ICA components pre-tagged in each dataset*. Select the *ERPs* checkbox and enter -200 ms to 0 ms for the baseline, as shown below. Press *Ok*.
+
+![](/assets/images/singlestat2.png)
+
+Next, select the <span style="color: brown">Study → Plot channel measures</span> menu item. The GUI below appears. Select channel *Oz* in the right column.
+
+![](/assets/images/singlestat3.png)
+
+Now, press the *Params* button next to the *Plot ERPs* button. Enter -200 ms to 1000 ms for the time range. Check the checkbox *Plot first variable on the same panel*. Press *Ok*.
+
+![](/assets/images/singlestat4.png)
+
+Press the *STATS* button. Check the checkboxes *Compute 1st independent variable statistics if any* and *Use single trials for statistics*. Select *Use FDR correction* for the correction for multiple comparisons method. Enter *0.01* for the p-value threshold, as shown below. Press *Ok*.
+
+![](/assets/images/singlestat5.png)
+
+Now, click on the *Plot ERPs* button. The ERP for both conditions is shown with regions of significance indicated by black rectangles. We observe a typical N400 effect with ERP differing between the conditions at about 400 ms after presenting the stimulus.
+
+![](/assets/images/singlestat6.png)
+
+The use of single trials is not restricted to single-subject statistics. When multiple subjects are present, trials may be pooled for all subjects. However, we do not recommend using this option for more than one subject because it alters the null hypothesis. 
+
+When performing statistics on a single subject, the null hypothesis pertains to the trials of this subject. When performing statistics on multiple subjects, the null hypothesis relates to the population of subjects. Using single-trials statistics with multiple subjects would mean that the null hypothesis pertains to the trials of the selected subjects (and not the population of subjects), which is of limited interest from a scientific perspective.
+
+The [LIMO plugin](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) also allows performing single-subject statistics in EEGLAB.
