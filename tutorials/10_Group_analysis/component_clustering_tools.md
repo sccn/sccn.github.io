@@ -40,10 +40,10 @@ different in different subjects, depending on the physical locations,
 extents, and particularly the orientations of the cortical source areas,
 both in relation to the 'active' electrode site (e.g., Cz) and/or to its
 recorded reference channel (for example, the nose, right mastoid, or
-other site).
+other sites).
 
 That is, data recorded from equivalent channel locations (Cz) in
-different subjects may sum activity of different mixtures of underlying
+different subjects may sum the activity of different mixtures of underlying
 cortical EEG sources, no matter how accurately the equivalent electrode
 locations were measured on the scalp. This fact is commonly ignored in
 EEG research.
@@ -56,7 +56,7 @@ one subject with one (or more) component(s) from another subject. A pair
 of independent components (ICs) from two subjects might resemble and/or
 differ from each other in many ways and to different degrees -- by
 differences in their scalp maps, power spectra, ERPs, ERSPs, ITCs, or
-etc. Thus, there are many possible (distance) measures of similarity,
+etc. Thus, there are many possible (distance) measures of similarity
 and many different ways of combining activity measures into a global
 distance measure to estimate component pair similarity.
 
@@ -90,9 +90,7 @@ Prepare data for ICA component clustering
 
 ### Load and prepare data
 
-In this tutorial, we will use a [5-subject STUDY](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip) (450Mb). See the [STUDY creation tutorial](/tutorials/10_Group_analysis/study_creation.html) for more information on this data.
-
-Select menu item <span style="color: brown">File</span> and press sub-menu item <span style="color: brown">Load existing study</span>. Select the tutorial file "N400.study" then press *Open*.
+In this tutorial, we will use a [5-subject STUDY](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip) (450Mb). See the [STUDY creation tutorial](/tutorials/10_Group_analysis/study_creation.html) for more information on this data. Select menu item <span style="color: brown">File</span> and press sub-menu item <span style="color: brown">Load existing study</span>. Select the tutorial file "N400.study" then press *Open*.
 
 The following steps are required before clustering ICA components.
 - You have created a *STUDY* with the data from all participants in your experiment. See [STUDY creation](/tutorials/10_Group_analysis/study_creation.html) tutorial.
@@ -100,15 +98,22 @@ The following steps are required before clustering ICA components.
 locations may be edited for all datasets at the same time (simply use
 menu item <span style="color: brown">Edit → Channel locations</span>). 
 - You have run ICA on each dataset. Use menu item <span style="color: brown">Tools → Decompose data by ICA</span> to run ICA on all datasets if this is not the case.
-- You have fitted each ICA component with a dipole. Use menu item <span style="color: brown">Tools → Locate dipoles using DIPFIT -> Head model and settings</span>, then <span style="color: brown">Tools → Locate dipoles using DIPFIT -> Autofit</span> if this is not the case.
+- You have fitted each ICA component with a dipole. If this is not the case, use menu item <span style="color: brown">Tools → Locate dipoles using DIPFIT -> Head model and settings</span>, and then <span style="color: brown">Tools → Locate dipoles using DIPFIT -> Autofit</span>.
+- Do not forget to regularly save your changes using menu item <span style="color: brown">File → Save current sutyd</span>.
+
+As with other pop_ functions, you can save the
+updated *STUDY* set to disk, either overwriting the current version - by
+leaving the default file name in the text box - or by entering a new
+file name.
+
 
 ### Select components to cluster
 
-Then select menu item <span style="color: brown">Study → Edit study info</span>. The following interface pops up.
+Then select the menu item <span style="color: brown">Study → Edit study info</span>. The following interface pops up.
 
 ![](/assets/images/studyclust1.png)
 
-We have already described this interface when importing data in a *STUDY* in the [STUDY creation tutorial](/tutorials/10_Group_analysis/study_creation.html). The bottom checkbox removes all current cluster information and you need to check this checkbox if you want to remove all clusters or if you have added or removed datasets (because this would not be consistent with the already computed clusters). The button *Select by r.v.* allows
+We have already described this interface when importing data in a *STUDY* in the [STUDY creation tutorial](/tutorials/10_Group_analysis/study_creation.html). The bottom checkbox removes all current cluster information, and you need to check this checkbox if you want to remove all clusters or if you have added or removed datasets (because this would not be consistent with the already computed clusters). The button *Select by r.v.* allows
 you to set a threshold for residual variance of the dipole model
 associated with each component. Press this button. The entry box below will appear. 
 
@@ -126,10 +131,10 @@ sometimes dual-dipolar) scalp maps with physiologically plausible
 components, those that may represent the activation in one (or two
 coupled) brain area(s). For instance, in the interface above, the
 default residual variance threshold is set to 15%. This means that
-only component that have an equivalent dipole model with less than 15%
-of residual variance will be selected for clustering. Pressing *OK* will
+only components that have an equivalent dipole models with less than 15%
+of residual variance will be selected for clustering. Pressing *Ok* will
 cause the component column to be updated in the main study-editing
-window. Then press *OK* to save your changes.
+window. Then press *Ok* to save your changes.
 
 The *Comp.* buttons contains the
 components for each dataset that will be clustered based on the residual variance threshold selected above. You may edit these manually. Note that if you
@@ -143,7 +148,7 @@ ICA components).
 Continuous data collected in one task or
 experiment session are often separated into epochs defining different
 task conditions (for example, separate sets of epochs time-locked to
-targets and non-targets respectively). Datasets from different
+targets and non-targets, respectively). Datasets from different
 conditions collected in the same *session* are assumed by the clustering
 functions to have the same ICA component weights (i.e., the same ICA
 decomposition is assumed to have been applied to the data from all
@@ -152,7 +157,7 @@ from the different conditions must be assigned to different
 *sessions*.
 
 So, we recommend performing one ICA decomposition on all the data
-collected in each data collection session, even when task several
+collected in each data collection session, even when several
 conditions are involved. In our experience, ICA can return a more stable
 decomposition when trained on more data. Having components with common
 spatial maps also makes it easier to compare component behaviors across
@@ -177,7 +182,9 @@ Cluster components
 
 The main method to cluster components in EEGLAB is the PCA clustering method described below. Other methods are the Measure Projection method and the Scalp Correlation method available in EEGLAB plugins as indicated in a following section.
 
-The aim of the pre-clustering interface is to build a global distance
+### Building a preclustering matrix
+
+The aim of the preclustering interface is to build a global distance
 matrix specifying 'distances' between components for use by the
 clustering algorithm. This component 'distance' is typically abstract,
 estimating how 'far' the components' maps, dipole models, and/or
@@ -187,48 +194,38 @@ PCA-reduced measures selected. This will become clearer as we detail the use of 
 The condition means used to construct
 this overall cluster 'distance' measure may be selected from a palette
 of standard EEGLAB measures: ERP, power spectrum, ERSP, and/or ITC, as
-well as the component scalp maps (interpolated to a standard scalp grid) and their equivalent dipole model locations (if any). Note that dipole locations are the one type of pre-clustering information *not* precomputed since it is readilly available in each dataset.
+well as the component scalp maps (interpolated to a standard scalp grid) and their equivalent dipole model locations (if any). Note that dipole locations are the one type of preclustering information *not* precomputed since it is readilly available in each dataset.
 
-Invoke the pre-clustering graphic interface ([pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) function) by using menu item
-<span style="color: brown">Study → Build pre-clustering array</span> function  and its GUI interface described below first computes
+Invoke the preclustering graphic interface ([pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) function) by using menu item
+<span style="color: brown">Study → PCA clustering (original) → Build preclustering array</span> function  and its GUI interface described below first computes
 desired condition-mean measures used to determine the cluster 'distance' of components from each other. 
 
-
-![](/assets/images/Pop_preclust.gif)
-
-The top section of the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) gui above allows
-
-selecting clusters from which to produce a refined clustering. There
-is not yet any choice here -- we must select the parent datasets that
-contain all selected components from all datasets (e.g., the
-components selected at the end of the previous section).
+![](/assets/images/studyclust4.png)
 
 The checkboxes on the left in the second section of the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) interface above allow selection of the
-
 component activity measures to include in the *cluster location
 measure* constructed to perform clustering. 
 
 The goal of the
-pre-clustering function is to compute an N-dimensional cluster
+preclustering function is to compute an N-dimensional cluster
 position vector for each component. These 'cluster position' vectors
 will be used to measure the 'distance' of components from each other
 in the N-dimensional cluster space. The value of N is arbitrary but,
 for numeric reasons pertaining to the clustering algorithms, should be
-kept relatively low (e.g., \<10). 
+kept relatively low (e.g., \<4 per measure). 
 
 In the cluster position vectors, for
 example, the three first values might represent the 3-D (x,y,z)
 spatial locations of the equivalent dipole for each component. The
-next, say, 10 values might represent the largest 10 principal
-components of the first condition ERP, the next 10, for the second
+next, say, 3 values might represent the largest 3 principal
+components of the first condition ERP, the next 3, for the second
 condition ERP, and so on.
 
 If you are computing (time/frequency) spectral perturbation images,
 you cannot use all their (near-3000) time-frequency values, which are
 redundant, in any case. Here also, you should use the *Dim.* column
-inputs to reduce the number of dimensions (for instance, to 10).
+inputs to reduce the number of dimensions (for instance, to 2 or 3).
 *Note*: [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) reduces the dimension of the cluster
-
 position measures (incorporating information from ERP, ERSP, or other
 measures) by restricting the cluster position vectors to an
 N-dimensional principal subspace by principal component analysis
@@ -239,7 +236,6 @@ N-dimensional principal subspace by principal component analysis
 You may wish to "normalize" these principal dimensions for the location
 and activity measures you select so their metrics are equivariant across
 measures. Do this by checking the checkbox under the *norm* column. 
-
 This
 'normalization' process involves dividing the measure data of all
 principal components by the standard deviation of the first PCA
@@ -256,229 +252,95 @@ illustration we elect to cluster on all six allowed activity measures.
 #### Component measures
 
 All the measures described below, once computed, can be used
-for clustering and/or for cluster visualization (see the following
-section of the tutorial, ['Visualize Component Cluster Information'](/tutorials/multi-subject/component-clustering-tools.html#viewing-component-clusters)). 
-If you do not
-wish to use some of the measures in clustering but still want to be able
-to visualize it, select it and enter 0 for the PCA dimension. This
-measure will then be available for cluster visualization although it
-will not have been used in the clustering process itself. This allows an
-easy way of performing exploratory clustering on different measure
-subsets.
+for clustering and/or for cluster visualization. First, we have the time-based measures.
 
-
--   **Spectra:** The first checkbox in the middle right of the
-    pre-clustering window (above) allows you to include the log mean
-    power spectrum for each condition in the pre-clustering measures.
+-   *Spectra:* The first checkbox allows you to include the log mean
+    power spectrum for each condition in the preclustering measures.
     Clicking on the checkbox allow you to enter power spectral
     parameters. In this case, a frequency range \[lo hi\] (in Hz) is
-    required. 
-    
-    Note that for clustering purposes (but not for display),
+    required. Note that for clustering purposes (but not for display),
     for each subject individually, the mean spectral value (averaged
     across all selected frequencies) is subtracted from all selected
     components, and the mean spectral value at each frequency (averaged
     across all selected components) is subtracted from all components.
     The reason is that some subjects have larger EEG power than others.
     If we did not subtract the (log) means, clusters might contain
-    components from only one subject, or from one type of subject (e.g.,
-    women, who often have thinner skulls and therefore larger EEG than
-    men).
+    components from only one subject, or from one type of subject (e.g., men, who often have thinner skulls and therefore larger EEG than women).
     
--   **ERPs:** The second checkbox computes mean ERPs for each condition.
+-   *ERPs:* The second checkbox computes mean ERPs for each condition.
     Here, an ERP latency window \[lo hi\] (in ms) is required.
     
--   **Dipole locations:** The third checkbox allows you to include component
-    equivalent dipole locations in the pre-clustering process. Dipole
-    locations (shown as \[x y z\]) automatically have three dimensions
-    
-    *Note:* It is not yet possible to cluster on dipole orientations. 
-    
-    As mentioned above, the equivalent dipole model for each component and
-    dataset must already have been pre-computed. If one component is    modeled using two symmetrical dipoles, [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m)
-
-    will use the average location of the two dipoles for clustering
-    purposes (Note: this choice is not optimum).
-    
--   **Scalp maps:** The fourth checkbox allows you to include scalp map
-    information in the component 'cluster location'. You may choose to
-    use raw component map values, their laplacians, or their spatial
-    gradients. 
-    
-    *Note*: We have obtained fair results for main components
-    using laplacian scalp maps, though there are still better reasons to
-    use equivalent dipole locations instead of scalp maps. 
-    
-    You may also
-    select whether or not to use only the absolute map values, their
-    advantage being that they do not depend on (arbitrary) component map    polarity. As explained in the [ICA_decomposition.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=ICA_decomposition.m), ICA
-
-    component scalp maps themselves have no absolute scalp map polarity.
-    
--   **ERSPs and/or ITCs:** The last two checkboxes allow including
+-   *ERSPs and/or ITCs:* The following two checkboxes allow including
     event-related spectral perturbation information in the form of
     event-related spectral power changes (ERSPs), and event-related
     phase consistencies (ITCs) for each condition. 
     To compute the ERSP
     and/or ITC measures, several time/frequency parameters are required.
-    To choose these values, you may enter the relevant {
-    {File\|timefreq.m} } keywords and arguments in the text box. You may
-    for instance enter '' 'alpha', 0.01'' for significance masking. See    the [timefreq.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=timefreq.m) help message for information about
-
+    To choose these values, you may enter the relevant keywords and arguments in the text box. You may
+    for instance enter '' 'alpha', 0.01'' for significance masking. See    the [newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=newtimef.m) help message for information about
     time/frequency parameters to select.
+
+Second, we have the location-based measures.
     
--   **Final number of dimensions:** An additional checkbox at the bottom
-    allows further reduction of the number of dimensions in the
-    component distance measure used for clustering. Clustering
-    algorithms may not work well with measures having more than 10 to 20
-    dimensions. 
+-   *Dipole locations:* The third checkbox allows you to include component equivalent dipole locations in the preclustering process. Dipole
+    locations (shown as \[x y z\]) automatically have three dimensions. It is also possible to cluster on dipole orientations. As mentioned above, the equivalent dipole model for each component and
+    dataset must already have been precomputed. If one component is    modeled using two symmetrical dipoles, the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m)
+    function will use the average location of the two dipoles for clustering
+    purposes (Note: this choice is not optimum).
     
-    For example, if you selected all the options above and
-    retained all their dimensions, the accumulated distance measures
-    would have a total of 53 dimensions. This number may be reduced
-    (e.g., to a default 10) using the PCA decomposition invoked by this
-    option. Note that, since this will distort the cluster location
-    space (projecting it down to its smaller dimensional 'shadow'), it
-    is preferable to use this option carefully. For instance, if you
-    decide to use reduced-dimension scalp maps and dipole locations that
-    together have 13 dimensions (13 = the requested 10 dimensions for
-    the scalp maps plus 3 for the dipole locations), you might
-    experiment with using fewer dimensions for the scalp maps (e.g., 7
-    instead of 10), in place of the final dimension reduction option (13
-    to 10).
+-   *Scalp maps:* The last checkbox allows you to include scalp map
+    information in the component 'cluster location'. You may choose to
+    use raw component map values, their laplacians, or their spatial
+    gradients. We have obtained fair results for main components
+    using laplacian scalp maps, though there are still better reasons to
+    use equivalent dipole locations instead of scalp maps. 
+    You may also
+    select whether or not to use only the absolute map values, their
+    advantage being that they do not depend on (arbitrary) component map    polarity. ICA
+    component scalp maps themselves have no absolute scalp map polarity. We do not recommend to use dipole *and* scalp map information as the information is redundant.
 
-- Finally, the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) gui allows you to choose to save
+The total number of dimension is the sum of the dimension for all selected measures (in our case, 2+2+2+2+3+3 = 14). Clustering
+    algorithms may not work well with more than 10 dimensions, especially if the number of components are limited. In our case, the number of dimensions (14) compared to the number of components (elected based on residual variable threshold (151)) might be excessive.
 
-the updated *STUDY* to disk.
+In the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) select only the dipole checkboxes and leave all
+default parameters (including the dipole residual variance filter at the top of the window), then press *Ok*.
 
-In the [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m) select all methods and leave all
+### Applying the clustering algorithm
 
-default parameters (including the dipole residual variance filter at the
-top of the window), then press *OK*. As explained below, for this
-tutorial STUDY, measure values are already stored on disk with each
-dataset, so they need not be recomputed, even if the requested
-clustering limits (time, frequency, etc.) for these measured are
-reduced.
-
-
-### Re-using component measures computed during pre-clustering
-
-Computing the spectral, ERP, ERSP, and ITC measures for clustering may,
-in particular, be time consuming -- requiring up to a few days if there
-are many components, conditions, and datasets! The time required will
-naturally depend on the number and size of the datasets and on the speed
-of the processor. 
-
-Future EEGLAB releases will implement parallel
-computing of these measures for cases in which multiple processors are
-available. Measures previously computed for a given dataset and storedby [std_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_preclust.m) will not be recomputed, even if you narrow
-
-the time and/or frequency ranges considered. Instead, the computed
-measure information will be loaded from the respective Matlab files inwhich it was saved by previous calls to [pop_preclust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_preclust.m).
-
-
-Measure data files are saved in the same directory/folder as the
-dataset, and have the same dataset name -- but different filename
-extensions. For example, component ERSP information for the dataset
-*syn02-S253-clean.set* is stored in a file named
-*syn02-S253-clean.icaersp*. As mentioned above, for convenience it is
-recommended that each subject's data be stored in a different
-directory/folder. If all the possible clustering measures have been
-computed for this dataset, the following Matlab files should be in the
-*/S02/* dataset directory:
-
--   *syn02-S253-clean.icaerp* (ERPs)
--   *syn02-S253-clean.icaspec* (power spectra)
--   *syn02-S253-clean.icatopo* (scalp maps)
--   *syn02-S253-clean.icaersp* (ERSPs)
--   *syn02-S253-clean.icaitc* (ITCs)
-
-
-The parameters used to compute each measure are also stored in the file,
-for example the frequency range of the component spectra. Measure files
-are standard Matlab files that may be read and processed using standard
-Matlab commands. The variable names they contain should be
-self-explanatory.
-
-
-*Note:* For ERSP-based clustering, if a parameter setting you have
-selected is different than the value of the same parameter used to
-compute and store the same measure previously, a query window will pop
-up asking you to choose between recomputing the same values using the
-new parameters or keeping the existing measure values. Again, narrowing
-the ERSP latency and frequency ranges considered in clustering will not
-lead to recomputing the ERSP across all datasets.
-
-Finding clusters with PCA (original) method
---------------------------------------------
-
-### Computing and visualizing clusters.
 Calling the cluster function [pop_clust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clust.m), then selecting
+menu item <span style="color: brown">Study → PCA clustering (original) → Cluster components</span> will open the following window.
 
-menu item <span style="color: brown">Study → Cluster components</span> will
-open the following window.
+![](/assets/images/studyclust5.png)
 
+Several algorithms are available: *kmeans*, *neural network*, and *affinity* clustering. 
 
-![set clustering algo](/assets/images/Pop_clust.gif)
+As explained earlier, *kmeans* requires the Matlab Statistics Toolbox, while **neural network* clustering uses a function from the Matlab Neural Network Toolbox. A version of *kmeans* that does not required the Matlab Statistics Toolbox is also available. Affinity clustering does not require any toolbox. We recommend using *affinity* clustering which does not require to specify the number of clusters, then try the *kmeans* algorithm if the results are not satisfactory. 
 
-
-
-Currently, two clustering algorithms are available: 'kmeans' and
-'neural network' clustering. 
-
-As explained earlier, 'kmeans' requires
-the Matlab Statistics Toolbox, while 'neural network' clustering uses
-a function from the Matlab Neural Network Toolbox. 
-
-Note that the
-default number of clusters (10 in this case) is set so on average
+For *kmeans*, note that the
+default number of clusters is set so on average
 there will be one computed per subject per cluster. For example, if
 about 20 components per subjects are selected based on the residual
 variance thereshold and the STUDY contains 10 subjects, the average
 number of cluster will be set to 20 - so each cluster will contains on
 average 10 components.
-
-
-Both algorithms require entering a desired number of clusters (first
-edit box).
+edit box). In this case, we have a reduced number of subjects, so enter 11 for the number of components.
  
- An option for the *kmeans()* algorithm can relegate
-'outlier' components to a separate cluster. Outlier components are
+An option for the *kmeans()* algorithm can relegate
+*outlier* components to a separate cluster. Outlier components are
 defined as components further than a specified number of standard
 deviations (3, by default) from any of the cluster centroids. To turn
 on this option, click the upper checkbox on the left. Identified
 outlier components will be put into a designated *Outliers* cluster
 (Cluster 2). 
 
-Click on the lower left checkbox to save the clustered
-studyset to disk. If you do not provide a new filename in the adjacent
-text box, the existing studyset will be overwritten.
-
-In the [pop_clust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clust.m) gui:
-
- - enter *10* for the number of
-clusters 
-- check the *Separate outliers ...* checkbox to detect and
-separate outliers. 
-- Then press *OK* to compute clusters (clustering is
-usually quick). 
-
-The cluster editing interface detailed in the next
-section will automatically pop up. 
-
-Alternatively, for the sample data,
-load the provided studyset *N400clustedit.study* in which
-pre-clustering information has already been stored.
+Press *Ok*. The cluster editing interface detailed in one of the following sections will automatically pop up.
 
 Other clustering methods
 -----------------
-
 The main method to cluster components in EEGLAB is the PCA clustering method described in this tutorial. Other methods are the Measure Projection method and the Scalp Correlation method available in EEGLAB plugins (see below for details).
 
 ### Finding clusters with the Measure Projection plugin
-In Affinity measure projection clusters, IC measures, except equiv. dipoles, (ERP, ERSP...) are compared for each IC pair and their dissimilarity is multiplied together to form a combined pairwise dissimilarity matrix. This matrix is then normalized, weighted, and added to the normalized and weighted IC equiv. dipole distance matrix. 
-
-The final dissimilarity
+In Affinity measure projection clusters, IC measures, except equiv. dipoles, (ERP, ERSP...) are compared for each IC pair and their dissimilarity is multiplied together to form a combined pairwise dissimilarity matrix. This matrix is then normalized, weighted, and added to the normalized and weighted IC equiv. dipole distance matrix. The final dissimilarity
 matrix is then clustered using affinity clustering method. Refer to its [GitHub repository](https://github.com/sccn/mp_clustering) for details.
 
 ### Finding clusters with the Corrmap plugin
@@ -487,52 +349,36 @@ components based on the correlation of their scalp topographies. The
 documentation for this plugin is available on 
 [Stefan Debener web page](http://www.debener.de/corrmap/corrmapplugin1.html) and the [GitHub repository](https://github.com/sccn/corrmap).
 
-Viewing component clusters
+Visualizing component clusters
 ----------------------------
-Calling the cluster editing function [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) using
+Call the cluster editing function [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) using
+menu item <span style="color: brown">Study → Edit → plot clusters</span>. This will open the following window. 
 
-menu item <span style="color: brown">Study → Edit → plot clusters</span> will
-open the following window. 
+Note that the previous clustering menu item <span style="color: brown">Study → PCA clustering (original) → Cluster components</span> will also call automatically this window after clustering has finished.
 
-Note: The previous menu will also call
-automatically this window after clustering has finished.
-
-
-
-![600px](/assets/images/Pop_clustedit.gif)
-
-
+![600px](/assets/images/studyclust6.png)
 
 Of the 305 components in the sample *N400STUDY* studyset, dipole model
-residual variances for 154 components were above 15%. These components
+residual variances for 151 components were above 15%. These components
 were omitted from clustering. The remaining 151 components were
-clustered on the basis of their dipole locations, power spectra, ERPs,
-and ERSP measures into 10 component clusters.
-
-
-### Visualizing clusters
+clustered on the basis of their dipole locations into 11 component clusters, and one outlier cluster.
 
 Selecting one of the clusters from the list
-shown in the upper left box displays a list of the cluster components in
-the text box on the upper right. 
-
-Here, *SO2 IC33* means "independent
-component 33 for subject SO2," etc. 
-
-The *All 10 cluster centroids*
+shown in the upper left box displays a list of the cluster components in the text box on the upper right. The *All cluster centroids*
 option in the (left) text box list will cause the function to display
 results for all but the *ParentCluster* and *Outlier* clusters.
-Selecting one of the plotting options below (left) will then show all 10
-cluster centroids in a single figure. 
+Selecting one of the plotting options below (left) will then show all 10 cluster centroids in a single figure. To review all cluster dipole locations, press the *Plot
+dipoles* button in the left column. This will open the plot viewer
+showing all the cluster component dipoles (in blue), plus the cluster
+mean dipole location (in red). Not surprisingly, components have been clustered in groups with different dipole locations.
 
-For example, pressing the *Plot
-scalp maps* option will produce the figure below:
+![600px](/assets/images/studyclust8.png)
 
+You may also review cluster scalp maps, by pressing the *Plot scalp maps* option. This will produce the figure below:
 
+![600px](/assets/images/studyclust7.png)
 
-![525px](/assets/images/Cls_plotclustmap1.gif)
-
-
+Note that your exact clusters might differ slightly since the *kmean* algorithm starts from a random assignment of components to clusters.
 
 In computing the mean cluster scalp maps (or scalp map centroids), the
 polarity of each of the cluster's component maps was first adjusted so
@@ -540,304 +386,125 @@ as to correlate positively with the cluster mean (recall that component
 maps have no absolute polarity). Then the map variances were equated.
 Finally, the normalized means were computed.
 
-
 To see individual component scalp maps for components in the cluster,
-select the cluster of interest in the left column (for example, *Cluster
-8* as in the figure above Then press the *Plot scalp maps* option in the
-left column. The following figure will appear. (Note: Your *Cluster 8*
+select the cluster of interest in the left column (for example, *Cluster 6* as in the figure above Then press the *Plot scalp maps* option in the
+left column. The following figure will appear. (Note: Your *Cluster 6*
 scalp map may differ after you have recomputed the clusters for the
-sample STUDY).
+sample STUDY). Select the cluster of
+interest (Cluster 6), and press the *Plot scalp maps* option in the *right* [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) GUI column.
 
+![600px](/assets/images/studyclust9.png)
 
-![525px](/assets/images/Cls_plotclustmap2.gif)
+Here, *SO2 IC6* means *independent component 6 for subject SO2*, etc. 
 
+Note that channels missing from any of the datasets do not affect clustering or visualization of cluster scalp maps. Component scalp maps areinterpolated by the [toporeplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=toporeplot.m) function, avoiding the need
+to restrict *STUDY* datasets to a common *always clean* channel subset
+or to perform *missing channel* interpolation on individual datasets.
 
+You may also plot scalp maps for individual components in the cluster by selecting components in the right column and then pressing *Plot scalp maps* (not shown).
 
-To see the relationship between one of the cluster centroid maps and the
-maps of individual components in the cluster, select the cluster of
-interest (for instance Cluster 8), and press the *Plot scalp maps*option in the *right* [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) column.
+You may plot the dipoles for this cluster. Press the *Plot dipoles* button in the left or right column. The following image pops up.
 
+![600px](/assets/images/studyclust11.png)
 
-
-*Note:* Channels missing from any of the datasets do not affect clustering
-or visualization of cluster scalp maps. Component scalp maps areinterpolated by the [toporeplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=toporeplot.m) function, avoiding the need
-
-to restrict *STUDY* datasets to a common 'always clean' channel subset
-or to perform 'missing channel' interpolation on individual datasets.
-
-
-![525px](/assets/images/Cls_plotclustmap3.gif)
-
-
-
-You may also plot scalp maps for individual components in the cluster by
-selecting components in the right column and then pressing *Plot scalp
-maps* (not shown).
-
-
-A good way to visualize all the average cluster measures at once is to
-first select a cluster of interest from the cluster list on the left
-(e.g., 'Cluster 8'), and then press the *Plot cluster properties* push
-button. The left figure below presents the Cluster-8 mean scalp map
-(same for both conditions), average ERP and spectrum (for these, the two
-conditions are plotted in different colors), average ERSP and ITC (grand
-means for both conditions; the individual conditions may be plotted
-using the *Plot cluster properties* push button). The 3-D plot on the
-bottom left presents the locations of the centroid dipole (red) and
-individual component equivalent dipoles (blue) for this cluster.
-
-
-![775px](/assets/images/Cls_plotclust.gif)
-
-
-
-To quickly recognize the nature of component clusters by their activity
-features requires experience. 
-
-Here Cluster 8 accounts for some right
-occipital alpha activity -- note the strong 10-Hz peak in the activity
-spectra. The cluster ERPs show a very slow (1-Hz) pattern peaking at the
-appearance of *first* words of the word pairs (near time -1 s). The
-apparent latency shift in this slow wave activity between the two
-conditions may or may not be significant. A positive (though still quite
-low, 0.06) ITC follows the appearance of the first word in each word
-pair (see Experimental Design), indicating that quite weakly
-phase-consistent theta-band EEG activity follows first word onsets.
-Finally, blocking of spectral power from 7 Hz to at least 25 Hz appears
-just after onset of the *second* words of word pairs (at time 0) in the
-grand mean ERSP plot (blue region on top right)
-
-
-To review all 'Cluster 8' component dipole locations, press the *Plot
-dipoles* button in the left column. This will open the plot viewer
-showing all the cluster component dipoles (in blue), plus the cluster
-mean dipole location (in red). You may scroll through the dipoles one by
+Scroll through the dipoles one by
 one, rotating the plot in 3-D or selecting among the three cardinal
 views (lower left buttons), etc. Information about them will be
 presented in the left center side bar (see the image below).
 
+Let's also plot the spectrum for this cluster along with the spectrum of the individual components. In the right column, click on the *Plot spectra* button.
 
-![525px](/assets/images/Cls_plotclustdip.gif)
+![600px](/assets/images/studyclust10.png)
 
+We can see a clear 10 Hz peak in all the components. Let's finally plot the ERPs for the two conditions. Click on the *Params* button in the central column adjacent to the *Plot ERPs* buttons. Change the time range to -200 ms to 1000 ms as shown below. Check the checkbox to plot the first independent variable on the same plot (not shown). Press *Ok*. 
 
-As for the scalp maps, the [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) gui will
+![600px](/assets/images/studyclust12.png)
 
-separately plot the cluster ERPs, spectra, ERSPs or ITCs. Let us review
-once more the different plotting options for the data spectrum. 
+Then click on the *Plot ERPs* button in the right column. The following window pops up.
 
-Pressing
-the *Plot spectra* button in the left column will open a figure showing
-the two mean condition spectra below.
+![600px](/assets/images/studyclust13.png)
 
+Here Cluster 6 accounts for some central
+occipital alpha activity -- note the strong 10-Hz peak in the activity
+spectra. The cluster ERPs show a very slow (1-Hz) pattern peaking at the
+appearance of *first* words of the word pairs (near time -1 s). The
+apparent latency shift in this slow wave activity between the two
+conditions may or may not be significant.
 
-![525px](/assets/images/Cls_plotclustspec1.gif)
-
-
-
-Pressing the *Plot spectra* button in the right column with *All
-components* selected in the left column will open a figure displaying
-for each condition all cluster component spectra plus (in bold) their
-mean.
-
-
-![925px](/assets/images/Cls_plotclustspec2.gif)
-
-
-
-Finally, to plot the condition spectra for individual cluster
-components, select one component from the *Select component(s) to plot*
-list on the right and press *Plot spectra* in the right column. 
-
-For
-example, selecting component 37 from subject S02 (*SO2 IC37*) will pop
-up the figure below. Here, the single component spectra are shown in
-light blue as well as the mean cluster spectrum (in black).
-
-
-
-![650px](/assets/images/Cls_plotclustspec3.gif)
-
+To quickly recognize the nature of component clusters by their activity features requires experience (see the [ICA decomposition tutorial](http://localhost:4000/tutorials/06_RejectArtifacts/RunICA.html) for more information).
 
 Editing clusters
 -----------------
-The results of clustering (by either the 'k-means' or 'Neural network'
-methods) can also be updated manually in the preview cluster viewing and
+The results of clustering can also be updated manually in the preview cluster viewing and
 editing window (called from menu item <span style="color: brown">Study → Edit/plot clusters</span>). These editing options allow flexibility for
 adjusting the clustering. Components can be reassigned to different
 clusters, clusters can be merged, new clusters can be created, and
-'outlier' components can be rejected from a cluster. Note that if youmake changes via the [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) gui, then wish to
-
+*outlier* components can be rejected from a cluster. Note that if you make changes via the [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_clustedit.m) GUI, then wish to
 cancel these changes, pressing the *Cancel* button will cause the
 *STUDY* changes to be forgotten.
 
+![600px](/assets/images/studyclust6.png)
 
+We describe below the four button to edit clusters.
 
-![image not found](/assets/images/Pop_clusedit.gif)
-
-
-
-### Renaming a cluster
- 
-The *Rename selected cluster* option allows
+- Renaming a cluster. The *Rename selected cluster* option allows
 you to rename any cluster using a (mnemonic) name of your choice.
 Pressing this option button opens a pop-up window asking for the new
 name of the selected cluster. For instance, if you think a cluster
 contains components accounting for eye blinks you may rename it
 "Blinks".
 
-### Automatically rejecting outlier components:
-
-Another editing
-option is to reject 'outlier' components from a cluster *after*
-clustering. 
-
-An 'outlier' can be defined as a component whose cluster
-location is more than a given number of standard deviations from the
-location of the cluster centroid. 
-
-Note that standard deviation and
-cluster mean values are defined from the N-dimensional clustering space
-data created during the pre-clustering process.
-
-For example, if the size of the pre-clustering cluster location matrix
-is 10 by 200 (for 200 components), then N = 10. The default threshold
-for outlier rejection is 3 standard deviations. 
-
-To reject 'outlier'
-components from a cluster, first select the cluster of interest from the
-list on the left and then press the *Auto-reject outlier components*
-option button. A window will open, asking you to set the outlier
-threshold. 'Outlier' components selected via either the *'eject outlier
-components* option or the *Remove selected outlier component(s)* option
-(below) are moved from the current cluster '\[Name\]' to a cluster named
-'Outlier \[Name\]'.
-
-
-### Removing selected outlier components manually
- Another way to
-remove 'outlier' components from a cluster is to do so manually. This
-option allows you to de-select seeming 'outlier' components irrespective
+- Removing selected outlier components manually. You may remove *outlier* components from a cluster manually. This
+option allows you to de-select seeming *outlier* components irrespective
 of their distance from the cluster mean. To manually reject components,
 first select the cluster of interest from the list on the left, then
-select the desired 'outlier' component(s) from the component list on the
+select the desired *outlier* component(s) from the component list on the
 right, then press the *Remove selected outlier comps.* button. A
 confirmation window will pop up.
 
-
-### Creating a new cluster
-
-To create a new empty cluster, press the
-*Create new cluster* option, this opens a pop-up window asking for a
+- Creating a new cluster. To create a new empty cluster, press the
+*Create new cluster* option. This opens a pop-up window asking for a
 name for the new cluster. If no name is given, the default name is 'Cls
 \#', where '\#' is the next available cluster number. For changes to
-take place, press the *OK* button in the pop-up window. The new empty
+take place, press the *Ok* button in the pop-up window. The new empty
 cluster will appear as one of the clusters in the list on the left of
 the editing/viewing cluster window.
 
-
-### Reassigning components to clusters
-
-To move components between
+- Reassigning components to clusters. To move components between
 any two clusters, first select the origin cluster from the list on the
 left, then select the components of interest from the component list on
 the right, and press the *Reassign selected component(s)* option button.
 Select the target cluster from the list of available clusters.
 
-
-### Saving changes
-
-As with other pop_ functions, you can save the
-updated *STUDY* set to disk, either overwriting the current version - by
-leaving the default file name in the text box - or by entering a new
-file name.
-
-Hierarchic sub-clustering (PCA method only)
---------------------------------------------
-The clustering tools also allow you to perform hierarchic
-sub-clustering. For example, imagine clustering all the components from
-all the datasets in the current *STUDY* (i.e., the Parent Cluster) into
-two clusters. One cluster turn out to contain only artifactual non-EEG
-components (which you thus rename the 'Artifact' cluster) while the
-other contains non-artifactual EEG components (thus renamed
-'Non-artifact').
-
-
-*NOTE:* *This is only a quite schematic example for tutorial purposes: It
-may normally <u>not</u> be possible to separate all non-brain artifact
-components from cortical non-artifact components by clustering all
-components into only two clusters -- there are too many kinds of scalp
-maps and artifact activities associated with the various classes of
-artifacts!*
-
-
-![Image:Cluster_img3.gif](/assets/images/Cluster_img3.gif)
-
-
-
-At this point, we might try further clustering only the 'Artifact'
-cluster components, e.g., attempting to separate eye movement processes
-from heart and muscle activity processes, or etc. A schematic of a
-possible (but probably again not realistic) further decomposition is
-shown schematically above.
-
-
-In this case, the parent of the identified eye movement artifact cluster
-is the 'Artifact' cluster; the child cluster of 'eye' artifacts itself
-has no child clusters. On the other hand, clustering the 'Non-artifact'
-cluster produces three child clusters which, presumably after careful
-inspection, we decide to rename 'Alpha', 'Mu' and 'Other'.
-
-
-To refine a clustering in this way, simply follow the same sequence of
-event as described above. Call the pre-clustering tools using menu item
-<span style="color: brown>Study \"> Build preclustering array</span>. You may now
-select a cluster to refine. In the example above, we notice that there
-seem to be components with different spectra in Cluster 8, so let us try
-to refine the clustering based on differences among the Cluster-8
-component spectra.
-
-
-![775px](/assets/images/Pop_preclust1.jpg)
-
-
-
-Select the <span style="color: brown>Study \"> Cluster components</span> menu
-item. Leave all the defaults (e.g., 2 clusters) and press *OK*.
-
-
-![image not found](/assets/images/Pop_clust2.gif)
-
-
-
-The visualization window will then pop up with two new clusters under
-Cluster 8.
-
-
-![600px](/assets/images/Pop_clustedit2.gif)
-
-
-
-Below the component spectra for Cluster 13 are plotted. Note that
-Cluster-13 components have relatively uniform spectra.
-
-
-![875px](/assets/images/Cls_plotclustspec4.gif)
-
-
-
-You may also plot the scalp map of Cluster 13. All the cluster
-components account for occipital activity and have similarly located
-equivalent dipole sources.
-
-
-![image not found](/assets/images/Cls_plotclustmap4.gif)
-
-
-Clustering and study design
+Further component clustering consideration
 ----------------------------
 
-When pre-clustering ICA components, the current STUDY.design is taken
-into account. 
+### Multiple components from the same subjects in ICA clusters
+When plotting ICA clusters, EEGLAB allows by default several components
+from the same subject to be included in a given cluster. This can sometimes cause problems when using statistics. 
+
+When you include more than one component from the same subject, you are not making inferences
+about the general population of subjects anymore but instead about
+components of the specific subjects you are studying. It is all a matter
+of how many components you have per subject compared to the number of
+subjects. 
+
+For example, if you have on average one component per subject
+(some subjects having 0, some other two components in the cluster), and you
+have 200 subjects, then the original null hypothesis (which allows
+making inferences about the general population of subjects) is mostly
+preserved. If you have 10 subjects and 10 components per subject, it is
+not.
+
+In general, when multiple components from the same subjects in ICA
+clusters becomes a problem, we prefer to use at most one
+component per subject per cluster because this avoids having to
+compromise with the statistics (this is possible when using the EEGLAB Corrmap
+plugin for clustering data). Alternatively, remove components manually in clusters.
+
+### Choice of STUDY design for clustering
+
+When preclustering ICA components, the current *STUDY* design is taken into account. 
 
 For example, if you have two conditions per subject and
 both conditions share the same set of ICA components, then during
@@ -848,32 +515,19 @@ instead of having say 50 spectral values (one per frequency) for each
 component, during preclustering 100 values (two sets of 50 frequencies,
 one for each condition) will be placed one after the other. EEGLAB will
 not allow you to cluster components using a STUDY design that does not
-include all STUDY data sets and all ICA components. 
-
-Once your components
-are clustered, it is possible to reduce the size of your STUDY design
-(see below). However, if the design you are using when preclustering
-your data does not include all datasets, it would not be possible to
-include them in another design later on. 
-
-To precluster, therefore we
-advise using the simplest STUDY design possible. Often, this is the one
-that is most natural for the experiment. An exception would be a case
-when, for example, your experiment uses a 2x2 design, but you decide to
-include a fifth condition for exploratory purposes. In this case an
-initial 5x1 design should be used during preclustering. For the main
-analysis, a 2x2 STUDY design (involving only 4 or the 5 conditions) can
-be created, along with, perhaps, another 2x1 design to compare the fifth
-condition (not included in the 2x2) versus one of the others.
-
-*Note*: If you are using anatomical component information only (scalp
+include all STUDY data sets and all ICA components. Note that you are using anatomical component information only (scalp
 topographies and/or equivalent dipoles) and no other measures to cluster
 components, then the STUDY design does not impact the clustering
 solution.
 
-After clustering, since all ICA components are included in the
+To precluster, therefore, we
+advise using the simplest STUDY design possible. Often, this is the one
+that is most natural for the experiment. After clustering, since all ICA components are included in the
 clustering, ICA clusters are constant for all conditions and STUDY
-designs. 
+designs. Thus, once your components
+are clustered, it is possible to reduce the size of your STUDY design (e.g., select a subset of conditions).
+
+### Comparing clusters' activity in different conditions
 
 Once ICA components are clustered, it is possible to *compute
 differences between conditions* using any STUDY design. Whenever you
@@ -905,44 +559,17 @@ For STUDY designs in which component activities of two subject groups
 are to be compared, the computed measure differences will be between
 components for each group within each cluster.
 
-
-Multiple components from the same subjects in ICA clusters
-------------------------------------------------------------
-
-When plotting ICA clusters, EEGLAB allows by default several components
-from the same subject to be included in a given cluster. This can sometimes cause problems when using statistics. 
-
-When you include more than one component from the same subject, you are not making inferences
-about the general population of subjects anymore but instead about
-components of the specific subjects you are studying. It is all a matter
-of how many components you have per subject compared to the number of
-subjects. 
-
-For example, if you have on average one component per subject
-(some subjects having 0, some other two components in the cluster), and you
-have 200 subjects, then the original null hypothesis (which allows
-making inferences about the general population of subjects) is mostly
-preserved. If you have 10 subjects and 10 components per subject, it is
-not.
-
-In general, when multiple components from the same subjects in ICA
-clusters becomes a problem, we prefer to use at most one
-component per subject per cluster because this avoids having to
-compromise with the statistics (this is possible when using the EEGLAB Corrmap
-plugin for clustering data; there is also a version of *kmean* that
-forces to use one component per cluster). Alternatively, remove components manually in clusters.
-
-### To do next
-
+Try it on your own data
+----
 Note that with only a few subjects and a few clusters (a necessary
-limitation, to be able to easily distribute the example), it may not be
+limitation to distribute the tutorial example easily), it may not be
 possible to find six consistent component clusters with uniform and
 easily identifiable natures. We have obtained much more satisfactory
-results clustering data from 15 to 30 or more subjects.
+results when clustering data from 15 to 30 or more subjects.
 
 After following this tutorial using the sample data, we recommend you
 create a study for a larger group of datasets, if available, whose
-properties you know well. Then try clustering components this study in
+properties you know well. Then try clustering components of this study in
 several ways. Carefully study the consistency and properties of the
 generated component clusters to determine which method of clustering
 produces clusters adequate for your research purposes.

@@ -5,11 +5,11 @@ parent: 10. Group analysis
 grand_parent: Tutorials 
 ---
 
-Pre-computing and visualizing channel data
+Precomputing and visualizing channel data
 ========================
 {: .no_toc }
 
-EEGLAB allows plotting grand-average EPS, specta, ERPimage, and ERSP/ITCs. In this section of the tutorial, we we will see how to first pre-compute measures, how to plot them, and how to modify plotting parameters.
+EEGLAB allows plotting grand-average EPS, spectra, ERPimage, and ERSP/ITCs. In this section of the tutorial, we will see how to first pre-compute measures, how to plot them, and how to modify plotting parameters.
 
 <details open markdown="block">
   <summary>
@@ -22,19 +22,19 @@ EEGLAB allows plotting grand-average EPS, specta, ERPimage, and ERSP/ITCs. In th
 
 Load the sample EEGLAB STUDY set
 ---------------------------------
-In each tutorial, we try to illustrate EEGLAB features with different data. In this one, we will use an 14-subject animal/non-animal categorization task. The data in *STUDY* format is available [here](https://sccn.ucsd.edu/eeglab/download/animal_study.zip).
+In each tutorial, we try to illustrate EEGLAB features with different data. In this one, we will use a 14-subject animal/non-animal categorization task. The data is available [here](https://sccn.ucsd.edu/eeglab/download/animal_study.zip).
 
 Subjects were presented with pictures that either contained or
 did not contain animal images. Subjects respond with a button press
 whenever the picture presented contained an animal (go/no-go paradigm). These data are
 available for download [here](ftp://sccn.ucsd.edu/pub/animal_study.zip)
 (443 Mb). A complete description of the task, the raw data (4Gb), and
-some Matlab files to process it, are all available on 
+some Matlab files to process it are all available on 
 [openneuro.org](https://openneuro.org/datasets/ds002680).
 
 Select menu item <span style="color: brown">File</span> and press sub-menu item <span style="color: brown">Load existing study</span>. Select the tutorial file "animal.study" then press *Open*.
 
-After loading the data, to review the *STUDY* design, use menu item <span style="color: brown">Study → Select/Edit study design</span>. The default design is to compare images containing *animals* with images containing *distrators*. Press *Ok* to close the window. 
+After loading the data, to review the *STUDY* design, use the <span style="color: brown">Study → Select/Edit study design</span> menu item. The default design is to compare images containing *animals* with images containing *distractors*. Press *Ok* to close the window. 
 
 ![px](/assets/images/studyprecomp2.png)
 
@@ -44,34 +44,32 @@ Precomputing and plotting ERPs
 ### Precomputing ERPs
 
 Before plotting the channel measures, you must precompute
-them using the <span style="color: brown">Study → Precompute channel measures</span> menu item as shown below.
+them using the <span style="color: brown">Study → Precompute channel measures</span> menu item, as shown below.
 
 ![px](/assets/images/studyprecomp1.png)
 
 This menu is in two parts, the top part, which specifies transformation to apply to data before precomputing measures, and the second part, which specifies which measure to precompute.
 
-You may specify channel transformations in the GUI top pannel.
+You may specify channel transformations in the GUI top panel.
 
 -  Channel interpolation. It is highly recommended that for visualizing and computing statistics
-on data channels you first interpolate missing channels. Automated interpolation in EEGLAB is based on channel labels. If datasets have
-different channel locations (for instance if the locations of the
+on data channels, you first interpolate missing channels. Automated interpolation in EEGLAB is based on channel labels. If datasets have
+different channel locations (for instance, if the locations of the
 channels were scanned), you must interpolate missing channels for each dataset from the command line using [eeg_interp.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_interp.m). Please select this option.
 
-- Subtracting artifactual ICA components. This can either be done by removing component flagged for rejection as explained in the tutorial section on using [Independent Component Analysis for artifact removal](/tutorials/06_RejectArtifacts/RunICA.html). This requires that you flag components in each dataset. You may also use most of the single dataset processing menu items at the *STUDY* level, so you may run ICA and flag artifactual components at the *STUDY* level. Please select this option.
+- Subtracting artifactual ICA components. This can either be done by removing components flagged for rejection as explained in the tutorial section on using [Independent Component Analysis for artifact removal](/tutorials/06_RejectArtifacts/RunICA.html). This requires that you flag components in each dataset. You may also use most of the single dataset processing menu items at the *STUDY* level so that you may run ICA and flag artifactual components at the *STUDY* level. Please select this option.
 
 - Subtracting ICA component clusters. Alternatively, to using the option above, you may select ICA component clusters to subtract from the data using the third checkbox. Refer to the [clustering tutorial](/tutorials/10_Group_analysis/component_clustering_tools.html) for more information. This is equivalent to using the second option, except that clusters of ICA components are removed.
 
-The bottom pannel contains the list of measures to precompute. Tick the box and complete the parameters for the measure(s) you are interested in. For now, select *ERP* as they do not take too long to compute. This computes mean event-related potential for each condition and electrode. You may specify the baseline you wish to use (leave as blank). Then press *Ok*.
+The bottom panel contains the list of measures to precompute. Tick the box and complete the parameters for the measure(s) you are interested in. For now, let's select *ERP* as it does not take too long to compute. This computes the mean event-related potential for each condition and electrode. You may specify the baseline you wish to use (leave as blank). Then press *Ok*.
 
 **Change in EEGLAB 2019 and later versions**: In EEGLAB 2019 and later versions, EEGLAB directly processes single trials. By contrast with previous EEGLAB versions, there is no need to recompute measures for each design. The new *design* scheme is backward
-compatible and allows for more flexibility, in
-particular allowing the STUDY functions to dynamically extract
-specified data trial measures.
+compatible and allows for more flexibility, allowing to extract specified data trial measures dynamically.
 
 ### Plotting grand-average ERPs
 
 After precomputing the channel measures, you may now plot them, using
-menu item <span style="color: brown">Study → Plot channel measures</span>.
+the <span style="color: brown">Study → Plot channel measures</span> menu item.
 
 ![600px](/assets/images/studyplot5.png)
 
@@ -84,17 +82,17 @@ Now, let's look at the plotting parameters. In the central column of the [pop_ch
 
 ![600px](/assets/images/studyplot3.png)
 
-This GUI contains several sections and lets you specify the time range and scale. Please select the checkbox to overlay the two conditions on the same pannel as shown above.
+This GUI contains several sections and lets you specify the time range and scale. Please select the checkbox to overlay the two conditions on the same panel as shown above.
 
 There are more options in Plotting Options GUI. They should be self-explanatory:
- - the *Time range to plot* edit box allows
+ - The *Time range to plot* edit box allows
 plotting a shorter time range than the full epoch. 
-- the *Plot limits*
+- The *Plot limits*
 edit box allows setting fixed lower and upper limits to the plotted
 potentials. 
-- the *Display filter* edit box allows entering a
-frequency (for instance 20 Hz) below, which to filter the ERP. This is
-only applied for the ERP display and does not affect computation of the
+- The *Display filter* edit box allows entering a
+frequency (for instance 20 Hz) to filter the ERP. This is
+only applied to the ERP display and does not affect the computation of
 statistics. This option is useful when plotting noisy ERPs for single
 subjects.
 
@@ -110,7 +108,7 @@ Press *Ok* and press the *Plot ERPs* button again.
 
 ### Plotting single subject ERPs
 
-You may plot all subjects ERPs by pressing the *Plot ERPs* pushbutton in
+You may plot all subjects' ERPs by pressing the *Plot ERPs* pushbutton in
 the right column, obtaining a figure similar to the one below.
 
 ![600px](/assets/images/studyplot6.png)
@@ -127,8 +125,8 @@ subject, press the *Plot ERPs* pushbutton on the right column for subject *gro*.
 ### Plotting all channel ERPs
 
 Finally, you may also plot all scalp channels simultaneously. To do
-this, simply click the push button *Sel. all* to select all data
-channels. Then again press the *Plot ERPs* button in the left column.
+this, click the push button *Sel. all* to select all data
+channels. Then again, press the *Plot ERPs* button in the left column.
 
 ![600px](/assets/images/studyplot10.png)
 
@@ -158,23 +156,23 @@ Plotting other measures
 
 In addition to ERPs, below is the full list of measures you can compute:
 
-- *Power spectrum*: performs spectral decomposition for each condition and electrode. You can enter here specific parameters  for the  [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) function.
+- *Power spectra*: performs spectral decomposition for each condition and electrode. You can enter here specific parameters  for the  [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) function.
 
 - *ERP-image*: pre-compute the ERP-image.
 
-- *ERPs*/ *ITCs*: The last two checkboxes allow computing event-related spectral perturbation in the form of event-related spectral power changes (ERSPs), and event-related phase consistencies (ITCs) for each condition. To compute the ERSP and/or ITC measures, several time/frequency parameters are required. To choose these values, you may enter the relevant [newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=newtimef.m) keywords and arguments in the text box. 
+- *ERPs*/ *ITCs*: The last two checkboxes allow computing event-related spectral perturbation in the form of event-related spectral power changes (ERSPs), and event-related phase consistencies (ITCs) for each condition. Several time/frequency parameters are required to compute the ERSP and/or ITC measures. To choose these values, you may enter the relevant [newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=newtimef.m) keywords and arguments in the text box. 
 
 - You may also compute custom measures when calling the [pop_precomp.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_precomp.m) function from the line.
 
-Select the <span style="color: brown">Study → Precompute measures</span> menu item. Tick the box and complete the parameters for all measures. Also for the *ERSP* parameters, change the parameters *nfreqs* to 30 and *ntimesout* to 60 to speed up calculation. Press *Ok*.
+Select the <span style="color: brown">Study → Precompute measures</span> menu item. Tick the box and complete the parameters for all measures. Also, for the *ERSP* parameters, change the parameters *nfreqs* to 30 and *ntimesout* to 60 to speed up calculation. Press *Ok*.
 
 ![px](/assets/images/studyprecomp3.png)
 
-In general, we recommend selecting all measures when possible. Computing spectra and ERP-image is fast and should only take a few seconds. Computing ERSP and ITC should take from two to five minutes. Then again, select menu item <span style="color: brown">Study → Plot channel measures</span>. The measures are not greyed any more and all of them are available for plotting.
+In general, we recommend selecting all measures when possible. Computing spectra and ERP-image is fast and should only take a few seconds. Computing ERSP and ITC should take from two to five minutes. Then again, select the <span style="color: brown">Study → Plot channel measures</span> menu item. The measures are not greyed anymore, and all of them are now available for plotting.
 
 ![600px](/assets/images/studyplot1.png) 
 
-Note that the specta, ERPimage, and ERSP/ITCs plotting options are similar to the ERP plotting options we looked at previously. For spectra, the menu is similar to the ERP's menu with the difference that the top box lets you specify the frequency range you wish to plot. For ERSPs / ITCs, you can specify and time and frequency range as well as power and ITC limits. 
+Note that the spectra, ERPimage, and ERSP/ITCs plotting options are similar to the ERP plotting options we looked at previously. For spectra, the menu is similar to the ERP's menu, with the difference that the top box lets you specify the frequency range you wish to plot. For ERSPs / ITCs, you can specify and time and frequency range as well as power and ITC limits. 
 
 ### Plotting spectra
 
@@ -199,17 +197,17 @@ ERP images are plotted with parameters set when pre-computing measures. In parti
 
 ![600px](/assets/images/studyplot34.png) 
 
-Press the *Plot ITC* button. This shows inter trial coherence for the *animal* and *distractor* conditions. It appears that the ITC values are of lower amplitude for the *distractor* condition, although we would need to run statistics to confirm that observation.
+Press the *Plot ITC* button. This shows inter-trial coherence for the *animal* and *distractor* conditions. It appears that the ITC values are of lower amplitude for the *distractor* condition, although we would need to run statistics to confirm that observation.
 
 Select channel *Oz* and press the *Plot ERSPs* button. The following plot pops up. It shows an increase in power at low frequencies (below 7 Hz) and a decrease in power at about 10 Hz.
 
 ![600px](/assets/images/studyplot33.png) 
 
-As for ERP and spectrum, it is possible to plot scalp topographies at specific time  and frequency ranges. Let's select the *Params* button adjacent to the *Plot ERSP* buttons and enter "500 800" for the time range and 4 for the the frequency range. Press *Ok*.
+As for ERP and spectrum, it is possible to plot scalp topographies at specific time  and frequency ranges. Let's select the *Params* button adjacent to the *Plot ERSP* buttons and enter "500 800" for the time range and 4 for the frequency range. Press *Ok*.
 
 ![600px](/assets/images/studyplot35.png) 
 
-In the main *STUDY* plotting interface, now press the *Plot ERSPs* button. The following scalp topographies are shown. It appears that spectral power is lower in the *distractor* than the *animal* condition although, again, we would need to un statistics to confirm this observation.
+In the main *STUDY* plotting interface, now press the *Plot ERSPs* button. The following scalp topographies are shown. It appears that spectral power is lower in the *distractor* than the *animal* condition. Again, we would need to run statistics to confirm this observation.
 
 ![600px](/assets/images/studyplot36.png) 
 
@@ -220,7 +218,7 @@ Using multiple *STUDIES* may also be useful for testing different signal process
 options. For instance, one might create two identical *STUDIES*, in
 one computing the time/frequency measures using FFTs in one and using
 wavelets in the other one. Once computed, you will be able to toggle
-between design results so as to compare them.
+between design results to compare them.
 
-There can only be one set of pre-computed data files associated with the processed data files. So, if you want to compare side by side different sets of pre-compute parameters, then you should duplicate the *STUDY* folder and all associated data files. Save a STUDY using a different file name is not sufficient.
+There can only be one set of pre-computed data files associated with the processed data files. If you want to compare side by side different sets of pre-compute parameters, you should duplicate the *STUDY* folder and all associated data files. Save a STUDY using a different file name is not sufficient.
 

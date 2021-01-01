@@ -1216,13 +1216,12 @@ components, the prefix is <i>comp</i> instead of <i>chan</i>. Each
 channel data will contain an array for time x trials. Below a
 description of the additional fields:
 
--   *labels*: the cell array contain the channel labels { 'Cz' 'Pz'
+-   *labels*: This is a cell array of channel labels { 'Cz' 'Pz'
     ... }. This field is only present for data channels and is not
     present for ICA components.
--   *datatype*: contains the type of data saved in the file. More
+-   *datatype*: This field contains the type of data saved in the file. More
     details are provided below.
--   *parameters*: the list of parameters that was used to compute
-    this file.
+-   *parameters*: The parameters used to compute each measure are also stored in the file, for example, the frequency range of the component spectra. Measure files are standard Matlab files that may be read and processed using standard Matlab commands. The variable names they contain should be self-explanatory.
 -   *datafile*: the list of files used to compute this file.
 -   *trialinfo*: information about each data trial. This is similar
     to the list of information in the field 'trialinfo' of
