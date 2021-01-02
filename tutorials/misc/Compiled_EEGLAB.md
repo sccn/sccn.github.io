@@ -101,8 +101,8 @@ Differences between the Matlab and the compiled EEGLAB version mostly
 arise because of the way external data files are handled. This is how we
 check the integrity of the compiled version (since it is not possible to
 automate this process yet). You may run the script
-**test_compiled_version.m** in the folder functions/support_files (you
-might have to change the path to the data files).
+*test_compiled_version.m* in the folder functions/support_files (you
+might have to change the path to the data files). For testing, we will use the [STERN STUDY](https://sccn.ucsd.edu/eeglab/download/STUDYstern_125hz.zip) (0.9 Gb). Please download the data on your computer.
 
 1.  Start EEGLAB
 2.  Edit options and change them; go back to option and make sure they
@@ -111,8 +111,7 @@ might have to change the path to the data files).
     ICA, run IClabel
 4.  Perform source localization of ICA components using Dipfit
 5.  Plot 3-D ERP after coregistering
-6.  Load Stern study, precompute_ERP and plot them. Try using
-    statistics.
+6.  Load Stern study, precompute ERPs and plot them. Try using statistics.
 7.  Check that the help menus are functional
 
 If all of the above checks, then the compiled EEGLAB version is

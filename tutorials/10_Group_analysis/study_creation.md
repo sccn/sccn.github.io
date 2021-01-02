@@ -15,7 +15,7 @@ An EEGLAB STUDY (or study) contains descriptions of and links to data
 contained in many epoched or continuous datasets, for example, a set of
 datasets from a group of subjects in one or more conditions of the
 same task or performing different tasks in the same or different
-sessions. A *STUDY* to manage and process data recorded from multiple subjects, sessions, and/or conditions of an experimental study. 
+sessions. We use a *STUDY* to manage and process data recorded from multiple subjects, sessions, and/or conditions of an experimental study. 
 
 In addition to the tutorial sections below, you may want to watch the short video below on multiple subjects processing in EEGLAB (hosted on Youtube):
 
@@ -56,11 +56,11 @@ across both conditions for each subject.
 
 After downloading the sample STUDY data, unzip it in a folder of your
 choice (preferably in the 'sample_data' sub-folder of the EEGLAB release
-you are currently using; under Linux, use the 'unzip' command). This will
-create a sub-folder '5subjects' containing several studies. Then open
+you are currently using). This will
+create a sub-folder *STUDY5subjects*. Then open
 a Matlab session and run *\>\> eeglab*.
 
-Another *STUDY* sometimes used in EEGLAB tutorials is the [STERN STUDY](http://sccn.ucsd.edu/eeglab/download/STUDYstern.zip) (2.3Gb).
+In other EEGLAB *STUDY* tutorials, we will also use the [STERN task data](http://sccn.ucsd.edu/eeglab/download/STUDYstern_125hz.zip) (0.9Gb) and  the [animal/non-animal categorization task data](https://sccn.ucsd.edu/eeglab/download/animal_study.zip) (0.4Gb).
 
 ### Data organization
 

@@ -34,7 +34,7 @@ and independent component (or other) source activity clusters.
 
 ### Load tutorial data and precompute ERPs
 
-For this tutorial we will use the [STERN STUDY](http://sccn.ucsd.edu/eeglab/download/STUDYstern.zip) (1.9 Gb). Please download the data on your computer. See the [STUDY design](/tutorials/10_Group_analysis/working_with_study_designs.html) section of the tutorial for more information about this dataset.
+For this tutorial we will use the [STERN STUDY](http://sccn.ucsd.edu/eeglab/download/STUDYstern_125hz.zip) (0.9 Gb). Please download the data on your computer. See the [STUDY design](/tutorials/10_Group_analysis/working_with_study_designs.html) section of the tutorial for more information about this dataset.
 
 Use menu item <span style="color: brown">File → Load existing study</span> and select the *stern_3designs.study* file. After the *STUDY* is loaded in EEGLAB, precompute ERPs by selecting <span style="color: brown">Study → Precompute channel measures</span>. The following interface will pop up.
 

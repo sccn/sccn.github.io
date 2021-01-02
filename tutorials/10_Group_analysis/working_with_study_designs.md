@@ -31,7 +31,7 @@ defining a single STUDY structure with multiple STUDY designs.
 One-way STUDY design
 -------------------
 
-For this tutorial, we will use the [STERN STUDY](http://sccn.ucsd.edu/eeglab/download/STUDYstern.zip) (1.9 Gb). Please download the data on your computer.
+For this tutorial, we will use the [STERN STUDY](http://sccn.ucsd.edu/eeglab/download/STUDYstern_125hz.zip) (0.9 Gb). Please download the data on your computer.
 
 ### Description of STERN experiment tutorial data
 

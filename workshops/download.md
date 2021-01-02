@@ -15,7 +15,7 @@ used in the [online workshop](/workshops/Online_EEGLAB_Workshop) below.
 These files are valid for both the 2010 and 2016 workshops.
 
 [EEGLAB STUDY with 13 subjects (2.3
-GB)](http://sccn.ucsd.edu/eeglab/download/STUDYstern.zip) This is a large file. Make
+GB)](http://sccn.ucsd.edu/eeglab/download/STUDYstern_125hz.zip) This is a large file. Make
 sure you have a fast and reliable Internet connection before attempting
 this download. [--The STUDY matlab
 script--](https://sccn.ucsd.edu/githubwiki/files/build_stern.m.zip)
