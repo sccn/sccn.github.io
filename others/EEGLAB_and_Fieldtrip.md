@@ -12,7 +12,7 @@ History
 
 First a little bit of history. EEGLAB was created in 2000 at The Salk
 Institute (La Jolla CA) by Arnaud Delorme and Scott Makeig based on ICA
-Toolbox for Electrphysiological Data Analysis functions released by
+Toolbox for Electrophysiological Data Analysis functions released by
 Makeig and colleagues 1997-2000. EEGLAB was fully released in 2002 at
 the Swartz Center for Computational Neuroscience, UCSD (La Jolla,
 California, USA). 
@@ -170,7 +170,7 @@ EEG = fieldtrip2eeglab(hdr, dat, events);
 
 To import EEGLAB datasets in Fieldtrip is to read EEGLAB datasets using
 the file File-IO interface either using the standard FILE-IO interface
-or using the low level EEGLAB reading function of FILE-IO as below.
+or using the low-level EEGLAB reading function of FILE-IO as below.
 
 ``` matlab
 hdr = ft_read_header( EEGLABFILE );
@@ -202,14 +202,12 @@ full capabilities of Fieldtrip source reconstruction methods on EEGLAB
 datasets as outlined in the previous
 [section](/tutorials/09_source/EEG_sources.html#advanced-source-reconstruction-using-dipfitfieldtrip).
 
-We have created a simple template that takes an EEGLAB data, perform the
+We have created the [erpsource](https://github.com/sccn/erpsource) template EEGLAB plugin that takes an EEGLAB data, performs the
 coregistration with a standard Fieldtrip BEM model, and apply eLoreta
 for ERP analysis (based also on the previous
 [section](/tutorials/09_source/EEG_sources.html#advanced-source-reconstruction-using-dipfitfieldtrip)).
 We believe this template could be modified by some of you to create
 other plugins.
-
-<https://github.com/sccn/erpsource>
 
 The long term sustainability of EEGLAB and Fieldtrip relies on the
 contribution of new methods by the community for advanced MEEG

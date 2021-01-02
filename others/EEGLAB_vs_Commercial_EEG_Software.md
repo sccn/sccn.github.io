@@ -9,8 +9,8 @@ parent: Other documents
 
 
 "Can we trust the results of a new paper if they depend on calculations
-carried out by proprietary software with non-public source code?" [*M.
-Buchanan, Digital science Nature Physics, June 2016*](http://www.nature.com/nphys/journal/v12/n7/full/nphys3815.html?WT.feed_name=subjects_physical-sciences)
+carried out by proprietary software with non-public source code?" 
+	[*M.Buchanan, Digital science Nature Physics, June 2016*](http://www.nature.com/nphys/journal/v12/n7/full/nphys3815.html?WT.feed_name=subjects_physical-sciences)
 
 This page compares the feature of EEGLAB some of the most common
 features in what is currently best in the industry.
@@ -33,7 +33,7 @@ features in what is currently best in the industry.
 <tr>
 	<td>Features</td>
 	<td style="background-color:lightgreen">EEGLAB has more features than any current commercial software. In general EEGLAB provides the user with a wider range of processing choices.</td>
-	<td style="background-color:#FFAAAA">Some leading (though frequently expensive) commercial software currently offers more methods for source localization than are available EEGLAB tools. However, see the newly available Neurolectromagnetic Forward head modeling Toolbox (NFT) that operates on EEGLAB data, and several other freely available Matlab packages for this purpose.</td>
+	<td style="background-color:#FFAAAA">Some leading (though frequently expensive) commercial software currently offers more methods for source localization than are available EEGLAB tools. However, see the newly available Neurolectromagnetic Forward head modeling Toolbox (NFT) that operates on EEGLAB data, and several other freely available MATLAB packages for this purpose.</td>
 </tr>
 <tr>
 	<td>Availability of new features</td>
@@ -57,12 +57,12 @@ features in what is currently best in the industry.
 </tr>
 <tr>
 	<td>Scripting capabilities</td>
-	<td style="background-color:lightgreen">The EEGLAB scripting language is Matlab itself. Commercial code cannot compete with Matlab for range, flexibility, and the amount of code available -- both for purchase from Matlab and freely available from the research community.</td>
-	<td style="background-color:#FFAAAA">Scripting capabilities usually rely on a proprietary language. Some commercial software allows running Matlab code within their scripts - but since its graphic output is then limited, why not run Matlab itself?</td>
+	<td style="background-color:lightgreen">The EEGLAB scripting language is MATLAB itself. Commercial code cannot compete with MATLAB for range, flexibility, and the amount of code available -- both for purchase from MATLAB and freely available from the research community.</td>
+	<td style="background-color:#FFAAAA">Scripting capabilities usually rely on a proprietary language. Some commercial software allows running Matlab code within their scripts - but since its graphic output is then limited, why not run MATLAB itself?</td>
 </tr>
 <tr>
 	<td>Preparation of figures for publication</td>
-	<td style="background-color:lightgreen">EEGLAB and Matlab allow creation of complex figures with panels. Most of EEGLAB functions are compatible with panels so users may use EEGLAB function to generate their own paneled results. Formating details of figures may be edited directly under Matlab from the command line or from the Matlab GUI. Even complex figures containing bitmaps may be saved as postscript files for further detailed editing. Matlab also allow saving figures and movies in about 10 different formats.</td>
+	<td style="background-color:lightgreen">EEGLAB and Matlab allow creation of complex figures with panels. Most of EEGLAB functions are compatible with panels so users may use EEGLAB function to generate their own paneled results. Formating details of figures may be edited directly under MATLAB from the command line or from the MATLAB GUI. Even complex figures containing bitmaps may be saved as postscript files for further detailed editing. MATLAB also allow saving figures and movies in about 10 different formats.</td>
 	<td style="background-color:#FFAAAA">Figures may only be saved using a few formats. Capabilities to build complex figures from within the software is absent.</td>
 </tr>
 <tr>
@@ -72,7 +72,7 @@ features in what is currently best in the industry.
 </tr>
 <tr>
 	<td>Price</td>
-	<td style="background-color:lightgreen">A minimal Matlab installation may be within most research budgets or be already available for other purposes in research and university settings. The compiled version of EEGLAB does not require Matlab although scripting capabilities are more limited.</td>
+	<td style="background-color:lightgreen">A minimal MATLAB installation may be within most research budgets or be already available for other purposes in research and university settings. The compiled version of EEGLAB does not require MATLAB although scripting capabilities are more limited.</td>
 	<td style="background-color:#FFAAAA">Prices range from $5000 to $30000</td>
 </tr>
 </tbody>

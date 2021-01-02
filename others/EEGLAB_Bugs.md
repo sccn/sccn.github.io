@@ -3,9 +3,8 @@ layout: default
 title: EEGLAB Bugs
 parent: Other documents
 ---
-
-# EEEGLAB BUGS
-
+EEGLAB BUGS
+===
 
 ## How do I report a Bug?
 
@@ -43,10 +42,10 @@ About 1000 test cases run daily on EEGLAB code to test its integrity
 
 
 If you encounter a bug:
--  please first read carefully the Matlab
-    commandline and any error window text, to determine whether you may
+-  Please first read carefully the Matlab
+    command-line and any error window text, to determine whether you may
     be able to avoid the problem directly
--  next, test whether the error
+-  Next, test whether the error
     occurs using current release of EEGLAB. If so, check the [Github
     EEGLAB Issues](https://github.com/sccn/eeglab/issues) to see if your
     issue has already been reported:
@@ -57,25 +56,19 @@ If you encounter a bug:
 
 ## Some known EEGLAB bugs and/or missing features:
 
-
-
--   **Epoch selection using pop_eegplot():** Epochs selected for
+-   *Epoch selection using pop_eegplot.m:* Epochs selected for
     rejection using eegplot() data scrolling are not saved in EEGLAB
-    history until the epochs are actually rejected. This means that they
+    history until the epochs are rejected. This means that they
     will not be reproduced automatically in a new EEGLAB session.
     However, the labeled epochs are identified in the field
-    EEG.reject.manualrej that is saved along wth the dastaset. Also, and
-    more importantly, when the labeled epochs are actually rejected,
+    EEG.reject.manualrej that is saved along with the dastaset. Also, and
+    more importantly, when the labeled epochs are rejected,
     this operation is saved in EEGLAB history.
 
-
-
--   **Zooming using pop_eegplot():** When zooming and selecting
+-   *Zooming using pop_eegplot.m*: When zooming and selecting
     epochs, only the data may be zoomed.
 
-
-
--   **Spectral analysis (with no Matlab Signal Processing Toolbox):**
+-   *Spectral analysis (with no Matlab Signal Processing Toolbox):*
     The spec() function emulates the function psd() but not the function
     pwelch() (psd() was replaced by pwelch(), beginning with EEGLAB 4.3,
     for [technical
@@ -86,9 +79,7 @@ If you encounter a bug:
     cannot handle frequencies that have been filtered out and may return
     inaccurately high power over these frequency regions.
 
-
-
--   **Matlab versions and OS:** Matlab versions have different bugs
+-   *Matlab versions and OS:* Matlab versions have different bugs
     under different OS and these bugs - usually graphical bugs - may
     affect EEGLAB. The latest one we know of is the fact that Matlab
     version 2018a (all OS) requires a patch for EEGLAB to work.

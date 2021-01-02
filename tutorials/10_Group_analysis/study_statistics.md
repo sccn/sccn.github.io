@@ -164,7 +164,7 @@ The [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/) allows you to 
 
 Single-subject statistics
 ----
-When a *STUDY* only contains data from a single subject, you may also compute single-subject statistics. Below, we illustrate the process using ERPs, but statistics may be similarly calculated on other measures, including *spectra*, *ERP-image*, *ERSP*, and *ITC*.
+When a *STUDY* only contains data from a single subject, you may also compute single-subject statistics. Below, we illustrate the process using ERPs, but we could use a similar procedure on other measures, including *spectra*, *ERP-image*, *ERSP*, and *ITC*.
 
 In this tutorial, we will use the [5-subject experiment](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip) (450Mb) again, although we will only use one of the five subjects. See the [STUDY creation tutorial](/tutorials/10_Group_analysis/study_creation.html) for more information on this data. 
 

@@ -4,7 +4,7 @@ title: EEGLAB Extensions
 parent: Other documents
 ---
 
-# EEGLAB extensions
+# EEGLAB extensions <font color=red>Requires work</font>
 
 EEGLAB extensions or plug-ins allow users to build and publish new data
 processing and/or visualization functions using EEGLAB data structures

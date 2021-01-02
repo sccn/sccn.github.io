@@ -1,7 +1,6 @@
 ---
 layout: default
 title: component dipole
-parent: 9. Source analysis
 grand_parent: Tutorials
 ---
 

@@ -7,12 +7,11 @@ parent: Other documents
 We have a funded project to run EEGLAB on the Neuroscience Gateway to
 run EEGLAB jobs on the San Diego supercomputer. This is a free service
 and anybody in the world can use it. See this
-[page](/EEGLAB_on_NSG "wikilink") for more information.
+[page](https://github.com/sccn/nsgportal) for more information.
 
 In the short term, Octave is the shortest way to using EEGLAB functions
 and actually obtain useful results. This
-[page](/Running_EEGLAB_on_Octave "wikilink") describes how to use EEGLAB
-on Octave.
+[page](/others/Running_EEGLAB_on_Octave.html) describes how to use EEGLAB on Octave.
 
 Deployment of EEGLAB on local supercomputers
 --------------------------------------------
@@ -41,7 +40,7 @@ specific processing task. Note that EEGLAB functions have not been
 parallelized (except a few rare exceptions). Therefore, you are required
 to open a Octave/Matlab session on each node and run custom scripts you
 write to take advantage of your parallel processing capability. Again,
-this [page](/Running_EEGLAB_on_Octave "wikilink") describes how to use
+this [page](/others/Running_EEGLAB_on_Octave.html) describes how to use
 EEGLAB on Octave.
 
 Using EEGLAB with Hadoop
@@ -56,14 +55,14 @@ all the mapping results.
 Below we provide guidelines for using Elastic Mapreduce on the Amazon
 cloud. Note that Elastic Mapreduce is tailored to processing large
 quantities of log text files and not binary data. The gain in terms of
-processing speed compared to the cost of running such solution remains
+processing speed compared to the cost of using the Amazon cloud remain
 unclear if you have a local cluster of computers. In short, you might
 spend more time programming the solution and it might cost you more in
 terms of bandwidth and storage that if you are running it locally. These
 are the steps you should follow. These are new technologies so expertise
 in computer science is highly recommended.
 
--   Installing Hadoop command line interface. First install the [Command
+-   Installing Hadoop command-line interface. First install the [Command
     Line Interface](http://aws.amazon.com/developertools/2264) to
     Elastic Mapreduce. This will allow you to configure and run jobs on
     the Amazon cloud. You will also need to create an [AWS
@@ -95,11 +94,9 @@ in computer science is highly recommended.
     configured to have a very slow reading latency and very high writing
     latency). There are tools to copy data in parallel to S3.
 
-<!-- -->
-
 -   Solution 1 (easiest to implement) using Octave. EEGLAB command line
     code is compatible with
-    [Octave](/Running_EEGLAB_on_Octave "wikilink"). Octave may be
+    [Octave](/others/Running_EEGLAB_on_Octave.html). Octave may be
     installed relatively easy on each of the nodes using the
     bootstraping method (a method to automatically install software on
     each of the nodes). The command to automatically install Octave on
@@ -113,31 +110,28 @@ Then, for your main Matlab script, you might want to add the following
 at the beginning of the main script. This will make it executable and
 will allow it to process data on STDIN.
 
-``` matlab
+```
 #!/usr/bin/octave -qf
 Q = fread(stdin); %Standard Octave / MATLAB code from here on
 ```
 
 Hadoop communicate with workers through STDIN and STDOUT pipes. You may
-write the output of your data processing using the printf or disp Matlab
-commands.
+write the output of your data processing using the *printf* or *disp* Matlab commands.
 
--   Solution 2, compiling Matlab code. Compiling Matlab code is the most
+-   Solution 2, compiling MATLAB code. Compiling Matlab code is the most
     efficient solution as Matlab compiled code is often 2 to 4 times
-    faster than Octave code and compiled code does not require a Matlab
+    faster than Octave code and compiled code does not require a MATLAB
     licence. If you compile Matlab code on your local Unix workstation,
     you will need to make sure to use an Amazon AMI (virtual machine
     image) with the same set of librairies so that your code can run on
     that machine. You will need to pick an AMI that is compatible with
-    Hadoop as well. Also, Matlab does not have a simple mechanism
+    Hadoop as well. Also, MATLAB does not have a simple mechanism
     allowing it to read from STDIN. The easiest solution is to use third
-    party compiled Mex files to do so (see for example
+    party compiled Mex files to do so (for example, 
     [popen](http://www.mathworks.com/matlabcentral/fileexchange/13851-popen-read-and-write)).
     Another solution is to have a shell command write STDIN on disk,
-    then call the Matlab executable (although this might impair
+    then call the MATLAB executable (although this might impair
     performance).
-
-<!-- -->
 
 -   Reduce step: once all the worker have computed what they had to
     compute (spectral power for example), the reduce step may write it
@@ -145,9 +139,7 @@ commands.
     necessary such as grouping back channels belonging to the same
     subject).
 
-<!-- -->
-
--   Running Hadoop: using the AWS command line interface, type something
+-   Running Hadoop: using the AWS command-line interface, type something
     like the following.
 
 ``` matlab
@@ -173,13 +165,3 @@ It is costly (mostly in terms of Amazon storage as storing 10 Terabytes
 of data will cost you about $800 per month as of 2013). It is therefore
 best suited when bootstraping data is required (lots of computation on
 little data). Send us your comments at <eeglab@sccn.ucsd.edu>.
-
-------------------------------------------------------------------------
-
-<div align=right>
-
-**Return to [EEGLAB Wiki Home](/EEGLAB "wikilink")**
-
-</div>
-
-[Category:EEGLAB](/Category:EEGLAB "wikilink")

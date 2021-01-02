@@ -358,7 +358,17 @@ This [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) fu
 </tbody>
 </table>
 
-Note using the *Save (other type)* button of the channel editing window also allow converting between channel location file formats.
+Note using the *Save (other type)* button of the channel editing window also allows converting between channel location file formats.
+
+For other template channel location files, see also the following web sites and FTP repositories (please edit this page to add more):
+
+-   [Sample files sent to us](ftp://sccn.ucsd.edu/pub/locfiles/)
+
+-   [Neuroscan company web page](http://www.neuro.com/)
+
+-   [EGI channel location files](ftp://sccn.ucsd.edu/pub/philips_neuro)
+
+-   [Easy-cap electrode locations](http://www.easycap.de)
 
 Adjusting scanned 3-D channel locations
 ------------------------------

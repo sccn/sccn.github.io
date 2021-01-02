@@ -60,13 +60,13 @@ Click [here](http://sccn.ucsd.edu/eeglab/locatefile.php?file=dipfit_erpeegtest.m
 
 It is also possible to locate EEG/ERP sources using eLoreta.
 We have written a simple [plugin](https://github.com/sccn/erpsource) for that purpose.
-This plugin was designed in a minimalist fashion so it could be used as template for other similar plugins.
-Its graphical output are the same as the script shown in the next section.
+This plugin was designed in a minimalist fashion so it could be used as a template for other similar plugins.
+Its graphical output is the same as the script shown in the next section.
 
 Advanced source reconstruction using DIPFIT/Fieldtrip
 --------
 
-DIPFIT relies on Fieldtrip, though in fact DIPFIT was also an ancestor
+DIPFIT relies on Fieldtrip, though in fact, DIPFIT was also an ancestor
 of Fieldtrip: when Robert Oostenveld, the first Fieldtrip developer,
 decided to release source imaging functions he had developed during his
 dissertation work, he first packaged them in EEGLAB as DIPFIT. A few
@@ -77,7 +77,7 @@ maintained for use in Fieldtrip. Below is a short tutorial on how to
 perform source modeling using Fieldtrip applied to data in an EEGLAB
 dataset.
 
-To localize sources of EEG data, first use DIPFIT to align the electrode
+First, use DIPFIT to align the electrode
 locations with a head model of choice (menu item <span style="color: brown">Tools → Locate
 dipoles using DIPFIT → Head model and settings</span>). The resulting DIPFIT
 information may then be used to perform source localization in
@@ -157,21 +157,20 @@ source          = ft_sourceanalysis(cfg, dataAvg);  % compute the source model
 Then plot the solution using Fieldtrip functions. Note that the
 solutions are generated in a low-resolution head volume. It is not
 technically feasible to interpolate this volume onto a high-resolution
-MRI in (near) real time -- online, it would require too many
+MRI in (near) real-time -- online, it would require too many
 computational resources, while offline, it would require too much memory
-(one head volume at every latency. Unlike fMRI data, EEG data have high
-temporal resolution, so the low-resolution head volume x latencies
+(one head volume at every latency. Unlike fMRI data, EEG data have a high temporal resolution, so the low-resolution head volume x latencies
 matrix is already quite large - transforming it into a high-resolution
-volume matrix is impractical). Note that you will need click on
+volume matrix is impractical). Note that you will need to click on
 different voxels and latencies to obtain a figure that looks like the
 one below.
 
 Note also that you can see discontinuities in the plotted volume. This
 is because of sudden inversion of the polarity of the dipole orientation in
 the nearest voxels. This is normal. The product of voxel polarity by
-temporal activity remains continuous in space and time, but because of
+temporal activity remains continuous in space and time. Still, because of
 the projection method for the 3-D dipole orientation at the voxel level,
-it is possible that neighboring voxels have opposite polarities (and, of
+neighboring voxels may have opposite polarities (and, of
 course, oppositely-signed time courses as well). An ideal solution has
 not been found yet to avoid inversions in both space and time - having
 all dipoles point outwards with respect to the head center - and

@@ -53,8 +53,15 @@ model file* contains the head model parameters (surface information,
 conductances, etc...). These are Matlab files and may be edited. See the
 FieldTrip documentation for more information on the head model files. 
 - The
-edit box *Matrix to align chan. locs with head model* is automatically updated to align the current electrode coordinates with the current head model. In our case, it is not ideal, as it is better to use electrode locations compatible with the head model (see next section).
-The automatic update of the transformation matrix is not always performed, and sometimes you may need to align electrode coordinates and the head model manually, as explained in a later section. 
+edit box *Matrix to align chan. locs with head model* is automatically updated to align the current electrode coordinates with the current head model. We co-registered the MNI average brain MRI with landmark electrode
+positions. For the average MRI image, we used a publicly available
+average brain image (average of 152 T1-weighted stereotaxic volumes made
+available by the ICBM project) from the MNI database (Montreal
+Neurological Institute (MNI), Quebec). Co-registration of the MNI brain
+and the standard EEG landmarks was accomplished automatically using
+fiducials and the Cz (vertex) electrode position, then slightly adjusted
+manually.  In our case, it is not ideal, as it is better to use electrode locations compatible with the head model (see next section).
+The automatic update of the transformation matrix is not always performed, and sometimes you may need to align electrode coordinates and the head model manually, as explained in a later section.
 - The entry *Associated MRI file for plotting* contains the name of the
 MRI image to use for plotting. You may enter a custom or individual
 subject MR image file, assuming this file has first been normalized to
@@ -97,7 +104,7 @@ the BEM DIPFIT model*.
 
 Press *Ok* on the window above and the channel editor window. Then go back to the head model settings using the <font color=brown> Tools → Locate dipoles using DIPFIT
 → Head model and settings</font> menu item. The window below will pop up. You can see that
-the matrix to align the electrode coordinate to the head model (edit box *Matrix to align chan. locs with head model*) mainly contains -pi/2 (-1.5708), which correspond to a 90 degree rotation in the axial plane (also know as
+the matrix to align the electrode coordinate to the head model (edit box *Matrix to align chan. locs with head model*) mainly contains -pi/2 (-1.5708), which correspond to a 90-degree rotation in the axial plane (also known as
 the transverse or horizontal plane). This is because EEGLAB assumes that the nose direction is
 along a specific axis, while the head model uses a different convention. The Talairach transformation matrix,
 a vector comprised of nine fields *\[shiftx shifty shiftz pitch roll yaw scalex scaley scalez\]*, is organized as follow:
@@ -125,7 +132,7 @@ electrode locations to matching template electrode locations associated
 with the head model.
 
 Again, use the <font color=brown> Tools → Locate dipoles using DIPFIT
-→ Head model and settings</font> menu item. Click on *Manual coreg.* in the DIPFIT settings window. A window appears. Change the *resize* values to 1.5 for all axes to see the electrodes (we are undoing the alignment for illustrative purpose).
+→ Head model and settings</font> menu item. Click on *Manual coreg.* in the DIPFIT settings window. A window appears. Change the *resize* values to 1.5 for all axes to see the electrodes (we are undoing the alignment for illustrative purposes).
 
 ![750px](/assets/images/coregister_new1.png)
 
@@ -145,12 +152,12 @@ The channel labels from your dataset electrode structure are shown in
 the right column, while the left column shows channel labels from the
 template channel file associated with the head model. Arrows in both
 columns indicate electrodes with the same labels in the other column. If
-your channels' label do not correspond to the International 10-20 System
+your channels' labels do not correspond to the International 10-20 System
 labels used in the template montage, press the *Pair channels* button
 and choose the nearest channel to each of your dataset channels in the
 template montage.
 
-When you press *OK*, the function will perform the optimal linear 3-D
+When you press *Ok*, the function will perform the optimal linear 3-D
 warp (translation, rotation, and scaling) to align your channel montage
 to the template montage associated with the head model. The result will be shown in the channel montage window (see
 below). You may press the *Labels on* button to toggle the display of your
@@ -163,7 +170,7 @@ the display to subsets of channels using the *Electrodes* buttons.
 ![Image:coregister_new2.png](/assets/images/coregister_new2.png)
 
 If you want to retain your modifications, press *OK* to update the DIPFIT settings
-window. This will display the resulting Talairach transformation matrix in the edit box *Matrix to align chan. locs with head model*. In this specific case, you may press the *Cancel* button in the coregistration interface since no further alignment was necessary (we performed coregistration for illustrative purposes on a dataset that did not require further alignment). Then press *OK* in the DIPFIT settings
+window. This will display the resulting Talairach transformation matrix in the edit box *Matrix to align chan. locs with head model*. In this specific case, you may press the *Cancel* button in the coregistration interface since no further alignment was necessary (we performed coregistration for illustrative purposes on a dataset that did not require further alignment). Then press *Ok* in the DIPFIT settings
 window and proceed to localization in the next section of the tutorial.
 
 <u>Note about fiducials:</u> Your channel structure may contain standard
@@ -173,7 +180,7 @@ be stored in the channel information structure, *EEG.chaninfo*. This
 will also be done automatically if your fiducials have the standard
 names, *Nz* (nasion), *LPA* (left pre-auricular point), and *RPA* (right
 pre-auricular point ). There is also considerable confusion about
-fiducials and we have created new fiducial labels in an attempt to
+fiducials, and we have created new fiducial labels in an attempt to
 disambiguate exact fiducial locations (see this
 [slide](https://sccn.ucsd.edu/eeglab/download/Fiducials.pdf)). Note that
 fiducial locations are stored outside the standard channel location
