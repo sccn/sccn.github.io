@@ -59,10 +59,11 @@
 <ul>
   {% for item in pages_list %}
     <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-
+  {% endfor %}
+</ul>
+  {%- comment -%}
     {%- assign children_list = site.pages | where: "parent", item.title -%}
     {% if children_list %}
       {% include toc_nav.html nav=children_list %}
     {% endif %}
-  {% endfor %}
-</ul>
+  {%- endcomment -%}
