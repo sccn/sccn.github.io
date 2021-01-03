@@ -1,0 +1,30 @@
+[
+    {
+        "name": "ryakad/pandoc-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ryakad/pandoc-php.git",
+            "reference": "1e8f9f21509d56819a60de726318218fb80042c9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ryakad/pandoc-php/zipball/1e8f9f21509d56819a60de726318218fb80042c9",
+            "reference": "1e8f9f21509d56819a60de726318218fb80042c9",
+            "shasum": ""
+        },
+        "time": "2017-08-22T17:14:21+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Pandoc": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ]
+    }
+]
