@@ -74,7 +74,7 @@ STUDY functions.
 
 We suggest creating one directory or folder per
 subject, then storing the EEG dataset (".set") files for that subject in
-this folder. The STUDY functions will then automatically add measure
+this folder. Even better, use the [BIDS EEGLAB plugin](https://github.com/sccn/bids-matlab-tools/wiki) to organize your data and make it BIDS compliant. The STUDY functions will then automatically add measure
 files to the same subject directories.
 
 ### EEGLAB memory settings
@@ -82,32 +82,32 @@ files to the same subject directories.
 We also advise modifying the default EEGLAB memory options. Call menu item <span style="color: brown">File → Preferences</span>. 
 The first option determines if more than one dataset may be stored in memory. We will be selecting this option when performing group analysis, as it is often not possible to hold all datasets in memory.
 
-![Image:preferences.png]({{ site.baseurl }}/assets/images/preferences.png)
+![Image:preferences.png](/assets/images/preferences.png)
 
 When in use, *STUDY* datasets are
 partially or totally loaded into EEGLAB. They thus may also be
 accessed and modified individually, when desired, through the main
-EEGLAB graphic interface or using EEGLAB command line functions or
+EEGLAB graphic interface or using EEGLAB functions within
 custom dataset processing scripts. Dataset data arrays are then read from disk whenever
 EEGLAB requires access to the data, but without cluttering memory. This
-will allow Matlab to load and hold a large number of dataset structures, forming a large STUDY. 
+will allow Matlab to load and hold a large number of dataset structures (2,300 is the all-time record), forming a large STUDY. 
 
 Quick STUDY creation
 ---------------------------------------------
-After uncompressing the [5-subject tutorial data](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip), to create a *STUDY*, select the
- <span style="color: brown">File → Create study → Simple ERP STUDY</span> menu item. The interface below pops up. Enter two for the number of conditions and five for the number of subjects, and press *Ok*.
+After uncompressing the [5-subject tutorial data](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip), select the
+ <span style="color: brown">File → Create study → Simple ERP STUDY</span> menu item to create a *STUDY*. The interface below pops up. Enter two for the number of conditions and five for the number of subjects, then press *Ok*.
 
 ![](/assets/images/simplestudy1.png)
 
-Then enter the following information in the following interface. There are two columns of data files, one for the condition *synonym* (files *synXX-s253-clean.set) and one for the condition *non-synonym* (files *synXX-s254-clean.set*) with one row per subject. You may use the browse ("...") button to select the files. Name the *STUDY* "N400" and press *Ok*.
+Then enter the following information in the interface below. There are two columns of data files, one for the condition *synonym* (files *synXX-s253-clean.set) and one for the condition *non-synonym* (files *synXX-s254-clean.set*) with one row per subject. You may use the browse ("...") button to select the files. Name the *STUDY* "N400" and press *Ok*.
 
 ![](/assets/images/simplestudy3.png)
 
-The following interfaces pop up. One is the grand average ERP across conditions for all electrodes. You may click on a trace to pop up a new figure. The other interface is the *STUDY* plotting graphic interface. This interface is described in detail in the [STUDY visualization tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html).
+The following interfaces pop up. One is the grand average ERP across conditions for all electrodes. You may click on a trace to pop up a new figure. The other interface is the *STUDY* plotting graphic GUI. This interface is described in detail in the [STUDY visualization tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html).
 
 ![](/assets/images/simplestudy2.png)
 
-This is it for creating a simple *STUDY*. In the rest of this tutorial page, we will describe an alternative method for creating a *STUDY*. This other method is more involved but allows setting additional parameters.
+This is how simple it is to create a *STUDY*. In the rest of this tutorial page, we will describe an alternative method for *STUDY* creation. This other method is more involved but allows setting additional parameters.
 
 Creating a new STUDY
 -----------------
@@ -118,9 +118,9 @@ Another option is to load into
 EEGLAB all the datasets you want to include in the study and select
 the 
 <span style="color: brown">File → Create study → Using all loaded datasets</span> menu item. 
-A blank interface similar to the one described above
+A blank interface similar to the one described below
 will appear. In this window, enter a name for the *STUDY*
-('N400STUDY'), and a short description of the study ('Auditory task:
+('N400'), and a short description of the study ('Auditory task:
 Synonyms Vs. Non-synonyms, N400'). 
 
 Here, we do not add notes about the
@@ -129,8 +129,7 @@ accumulated notes will always be loaded with the study, easing later
 analyses, and re-analyses. Note that here the fields *Subject* and *Condition* (above) have been filled
 automatically. This is because the datasets already contained this
 information. For instance, if you were to load this dataset into
-EEGLAB by selecting the <span style="color: brown">Edit → Dataset info</span> menu item, you would be able to edit the *Subject* and *Condition*
-information for this dataset. You may also edit this information within the study itself. The dataset information and study dataset information may be different to ensure maximum flexibility, although we recommend checking the checkbox *Update dataset info...* to keep the dataset and the *STUDY* information consistent.
+EEGLAB by selecting the <span style="color: brown">Edit → Dataset info</span> menu item, you would be able to edit the *subject*, *condition*, *group*, *session*, and *run* for this dataset. You may also edit this information within the study itself. The dataset information and study dataset information may be different to ensure maximum flexibility, although we recommend checking the checkbox *Update dataset info...* to keep them consistent.
 
 Click on the *Browse* button in the first blank location and select a dataset name. Do so for other datasets as well. 
 
@@ -138,18 +137,17 @@ The interface window should then look like the following:
 
 ![875px](/assets/images/studycreate.png)
 
-Below, we detail what the *STUDY* terms *subjects*, *sessions*, *run*, *conditions*, and *groups* mean.
+Below, we detail what the *STUDY* terms *subject*, *session*, *run*, *condition*, and *group* mean.
 
 - The top of the window contains information about the STUDY, namely its
 running name, the extended task name for the STUDY, and some notes.
 - The next section contains information about the 10 datasets that are
 part of the STUDY. For each dataset, we have specified a subject code
 and condition name. 
-- For each file, you may assign a session and run number. A run is when there are blocks in an experiment, and the data from each block is stored in a separate file. Sessions are used when the data is collected on different days or when there is a break that involves removing the EEG cap. We chose to leave the session and run empty since there are irrelevant for this *STUDY* (there are only one session and one run).
+- For each file, you may assign a session and run number. A run is when there are blocks in an experiment, and the data from each block is stored in a separate file. Sessions are used when the data is collected on different days or when there is a break that involves removing the EEG cap. We chose to leave the session and run empty since there are irrelevant for this *STUDY* (there is only one session and one run per subject).
 - The *condition* column contains the condition associated with each file. Note that we have two files here per subject. However, it is also possible to have a single file per subject and to define conditions using EEGLAB event trial types. For more information on this topic, read the [STUDY design tutorial](/tutorials/10_Group_analysis/working_with_study_designs.html).
-- The *group* column would indicate which group a subject belongs to. This is irrelevant for this STUDY since there
-was only one subject group, and data for both experimental conditions
-were collected in a single session.
+- The *group* column indicates the group a subject belongs to. This is irrelevant for this STUDY since there
+was only one subject group.
 - We will come back later to the *Select by r.v.* (select ICA component by residual variance) and the *Comp...* button when we perform ICA component clustering.
 - Pressing the *Clear* button clears the information on a given row.
 
@@ -166,7 +164,7 @@ Loading an existing STUDY
 
 Either use the studyset created in the previous section or load
 another studyset. To load a studyset, select the <span style="color: brown">File → Load existing study</span> menu item. Select the file
-*N400.study* in the folder *5subjects*. After loading or creating a
+*N400.study* in the folder *STUDY5subjects*. After loading or creating a
 study, the main EEGLAB interface should look like this:
 
 ![Study Window](/assets/images/guistudy.png)
@@ -193,17 +191,16 @@ To list the datasets in the STUDY, use the
 
 ### Editing STUDY datasets
 Selecting an individual dataset from the
-<span style="color: brown">Datasets</span> menu allows editing individual
+<span style="color: brown">Datasets</span> menu item allows editing individual
 datasets in a *STUDY*. 
 
 Note, however, that creating new datasets or
 removing datasets will also remove the *STUDY* from memory since the
-study must remain consistent with datasets loaded in memory (here,
-however, EEGLAB will prompt you to save the *STUDY** before it is deleted).
+study must remain consistent with datasets loaded in memory (EEGLAB will prompt you to save the *STUDY* before it is deleted).
 
 ### Reviewing the STUDY design
 
-Another [section of the tutorial](/tutorials/10_Group_analysis/working_with_study_designs.html) describes *STUDY* designs in detail but use different tutorial data. Our design is simple here, with only two conditions.
+Another [section of the tutorial](/tutorials/10_Group_analysis/working_with_study_designs.html) describes *STUDY* designs in detail, but it uses a different tutorial dataset. Our design is simple here, with only two conditions.
 
 To edit the STUDY design, select
 the second STUDY menu item <span style="color: brown">Study → Select/Edit study design(s)</span>.
@@ -220,15 +217,15 @@ Let's rename the default design by pressing the *Rename* button to *Synonym vs n
 
 ![Image:Studydesign.jpg](/assets/images/studydesign2.png)
 
-Now, in the bottom panel, click on the *Edit* button. The following GUI pops up. We can see that the *condition* independent variable is selected. We can also see that the two conditions are *non-synonym* and *synonym*.
+Now, in the bottom panel, click on the *Edit* button. The following GUI pops up. We can see that the *condition* independent variable is selected. We can also see that the two conditions are *non-synonyms* and *synonyms*.
 
 ![Image:Studydesign.jpg](/assets/images/studydesign3.png)
 
 ### What to do after creating your STUDY
 
-We have already seen in this tutorial how to create a simple *STUDY* and plot the grand average ERP. This procedure bypass the standard *STUDY* pipeline, which consists of preprocessing the data and plotting it, as we describe in the [group analysis visualization tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html).
+We have already seen in this tutorial how to create a simple *STUDY* and plot the grand average ERP using the <span style="color: brown">File → Create study → Simple ERP STUDY</span> menu item. This procedure bypass the standard *STUDY* pipeline, which consists of creating the *STUDY*, preprocessing the data, and plotting it, as we describe in the [group analysis visualization tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html).
 
-If you are impatient, select the <span style="color: brown">Study → Precompute channel measures</span> menu item, click the *ERP* checkbox, and press *Ok*. Then select the <span style="color: brown">Study → Plot channel measures</span> menu item and press the *Plot ERPs* pushbutton to plot the ERP for the first channel in the list. The following plot showing the grand-average ERP for each condition will pop up.
+If you are impatient, select the <span style="color: brown">Study → Precompute channel measures</span> menu item, click the *ERPs* checkbox, and press *Ok*. Then select the <span style="color: brown">Study → Plot channel measures</span> menu item and press the *Plot ERPs* pushbutton to plot the ERP for the first channel in the list. The following plot showing the grand-average ERP for each condition will pop up.
 
 ![875px](/assets/images/simplestudyplot.png)
 

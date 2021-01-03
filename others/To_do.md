@@ -8,14 +8,16 @@ parent: Other documents
 
 - Look at all the plugins and update documentation link (in database) pointing to old wiki pages
 
-- Link
+- Plugin list
 
 BINICA https://github.com/sccn/binica/wiki
-
 
 - Replace
 
 plugin by plug-in
 
 *OK* by *Ok*
+
+http with https
+
 

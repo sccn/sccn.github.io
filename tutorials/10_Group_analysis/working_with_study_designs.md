@@ -35,18 +35,18 @@ For this tutorial, we will use the [STERN STUDY](http://sccn.ucsd.edu/eeglab/dow
 
 ### Description of STERN experiment tutorial data
 
-The classic Sternberg working memory task involves presenting a list of seven letters to memorize, presented one at a time. These letters, colored in green, are interspaced with letters to ignore, colored in red, and followed by a memory maintenance period during which the subject must maintain the list of items in memory. The maintenance period is terminated by the onset of a *probe* letter, to which the subject must respond whether the item was in their memorized list of items or not.
+The classic Sternberg working memory task involves presenting a list of seven letters to memorize, presented one at a time. These letters, colored in green, are interspaced with letters to ignore, colored in red, and followed by a memory maintenance period during which the subject must maintain the list of letters to remember in memory. The maintenance period is terminated by the onset of a *probe* letter and the subject must respond whether the letter was in their memorized list of letters or not.
 
 Trials contained varying numbers of *ignore* letters (either 1, 3, or 5), and the order of *memorize* and *ignore* letters in a given trial was randomized.
 
 Event codes are the following:
 - Memorize letters: *uppercase letter*, for example, B, H, W, F, etc...
 - Ignore letters: *lowercase ‘g’, uppercase letter*, for example, gB, gH, gW, gF, etc... (*g* stands for *green*, see above explanation)
-- Probe letters: “lowercase ‘r’, uppercase letter”, for example, rB, rH, rW, rF, etc... (*r* stands for *red*, see above explanation)
+- Probe letters: *lowercase ‘r’, uppercase letter*, for example, rB, rH, rW, rF, etc... (*r* stands for *red*, see above explanation)
 
 The PDF document within the zip archive contains additional details about the task.
 
-### Looking at the STUDY information
+### Reviewing STUDY information
 
 Use menu item <span style="color: brown">File → Load existing study</span> and select the *stern.study* file. After the *STUDY* is loaded in EEGLAB,  select the <span style="color: brown">Study → Edit study info</span> menu item. The following interface will pop up.
 
@@ -62,22 +62,22 @@ the second *STUDY* menu item <span style="color: brown">Study → Select/Edit st
 ![Image:Studydesign.jpg](/assets/images/studydesign7.png)
 
 The three push buttons on the top panel may be used to:
- - add a new design ("Add
-design"), 
-- rename a given design ("Rename design"),
-- or delete a given
-design ("Delete design"). 
+ - Add a new design ("Add
+design")
+- Rename a given design ("Rename design")
+- Or delete a given
+design ("Delete design")
 
 Note that the first design cannot be deleted.
 The design does not have a name because it was automatically generated when importing the data. You press the *Rename* button and name the design *Comparing memorize, ignore, and probe letters*.
 
 The four push buttons on the bottom panel may be used to:
-- add a new independent variable to the current design. 
-- edit an independent variable
-- delete and independent variable
-- list independent variables
+- Add a new independent variable to the current design
+- Edit an independent variable
+- Delete and independent variable
+- List independent variables
 
-Press the *Edit* button. The following GUI pops up. We can see that the *condition* independent variable is selected. We can also see that the two conditions are *ignore* (letters), *memorize* (letters), and  *probe* (letters).
+Press the *Edit* button in the lower panel. The following GUI pops up. We can see that the *condition* independent variable is selected. We can also see that the two conditions are *ignore* (letters), *memorize* (letters), and  *probe* (letters).
 
 ![Image:Studydesign.jpg](/assets/images/studydesign8.png)
 
@@ -115,7 +115,7 @@ each of the datasets. Every single event field (as visible in the <span style="c
 being extracted from datasets, refer to the [STUDY design structure](/tutorials/multi-subject/EEGLAB-STUDY-data-structure.html)
 tutorial. 
 
-See also the [event scripting tutorial](/tutorials/11_Scripting/Event_Processing_command_line.html#adding-event-information-for-group-analysis) for defining new independent variables based on event context.
+You may also read the [event scripting tutorial](/tutorials/11_Scripting/Event_Processing_command_line.html#adding-event-information-for-group-analysis) for defining new independent variables based on event context.
 
 ### Plotting ERPs for two designs
 
@@ -133,12 +133,12 @@ Press the *Plot ERPs* pushbutton to plot the ERP for the first channel in the li
 
 ![](/assets/images/studydesign10.png)
 
-The conditions are assigned different colors, but the ERPs are identical in both conditions. 
+The conditions are assigned different colors, but the ERPs are identical in both conditions. This illustrates that the two designs are equivalent.
 
 Two-way STUDY design
 --------------------------
 
-Each letter is preceded by other letters. Thus, when each letter is presented, there is a memory load from 0 (no other letter to remember yet) to 7. For memory load 7, there is no condition memorize (the load for the memorize letters goes from 0 to 6, which correspond to the number of letters already memorized). Note that the number of letters for condition 6 is low (a total of 31 for the *ignore* condition), which is why we only select memory load from 0 to 5 below.
+Each letter is preceded by other letters. Thus, when each letter is presented, there is a memory load from 0 (no other letter to remember yet) to 7. For memory load 7, there is no condition memorize (the load for the memorize letters goes from 0 to 6, which correspond to the number of letters already memorized). Note that the number of letters for condition 6 is low (a total of 31 for the *ignore* condition), which is why we will only select memory load from 0 to 5 below.
 
 Again select
 the second *STUDY* menu item <span style="color: brown">Study → Select/Edit study design(s)</span>. Create a third design called *2-way design, letter type x load*.
@@ -160,4 +160,4 @@ designs is large. More details about STUDY.design structure is available
 in the [STUDY structure](/tutorials/multi-subject/EEGLAB-STUDY-data-structure.html)
 part of the tutorial.
 
-For more complex designs, one must use the LIMO plugin. Refer to the [LIMO plugin documentation](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for more information. 
+For more complex designs, one must use the LIMO EEGLAB plugin. Refer to the [LIMO plugin documentation](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for more information. 
