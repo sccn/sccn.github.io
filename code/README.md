@@ -1,2 +1,9 @@
 # Conversion scripts and references resources
 
+We use the theme [just-the-docs](https://pmarsceill.github.io/just-the-docs/) for our Github wiki. The most practical reference is the [navigation structure page](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/) where it details how to organize the left side menu and create page and directory specific table of contents.
+
+As *just-the-docs* is a Jekyll theme, some Jekyll documentation is relevant for the configuration of and some custom features for the wiki. 
+* For seeing how pages are grouped and urls are generated, see: https://jekyllrb.com/docs/pages/
+* Front matter variables is the way we provide metatdata of the page. So far we only need to worry about the variables that control the navigation structure of the page (see navigation structure link above). Just-the-docs will use these variables and automatically generate navigation features. For custom features, we can leverage front matter variables by programmatically accessing them through the [*page* object](https://jekyllrb.com/docs/variables/#page-variables). 
+* Coding with Jekyll page involves using Liquid, its language to programmatically and dynamically add content to static page. It's similar to PHP in the sense that you can mix Liquid with HTML in a page, but it's less powerful than PHP and work exclusively with the Jekyll ecosystem. We learn Liquid as we go through its [documentation](https://shopify.github.io/liquid/basics/introduction/) and examples provided on the web or Jekyll official documentation page.
+* Some knowledge of [directory structure](https://jekyllrb.com/docs/structure/) and [theme](https://jekyllrb.com/docs/themes/) is helpful when we write custom features for the site, as sometimes we have to override default behavior of the just-the-docs theme.
