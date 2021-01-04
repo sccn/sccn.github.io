@@ -4,8 +4,9 @@ title: Firfilt FAQ
 parent: Other documents
 
 ---
-
-# EEGLAB Filtering FAQ
+EEGLAB Filtering FAQ <font color=green> - Done</font>
+===
+{: .no_toc }
 
 <details open markdown="block">
   <summary>
@@ -16,13 +17,10 @@ parent: Other documents
 {:toc}
 </details>
 
-
-
-
-### Q. What are passband, stopband, transition band width, cutoff frequency, passband ripple/ringing, and stopband ripple/attenuation?
+### Q. What are passband, stopband, transition bandwidth, cutoff frequency, passband ripple/ringing, and stopband ripple/attenuation?
 
 A. You can find explanations in this
-[file(pdf)](https://github.com/downloads/widmann/firfilt/firfilt.pdf)
+[PDF presentation](https://github.com/downloads/widmann/Firfilt/Firfilt.pdf)
 created by Andreas Widmann.
 
 ### Q. What is the difference between the “Basic FIR filter (legacy)” and the “Basic FIR filter (new)”? Which should I use?
@@ -31,7 +29,7 @@ A. The heuristic for automatically determining the filter length in the
 legacy basic FIR filter (pop_eegfilt) was inappropriate (possibly
 causing suboptimal filtering or unexpected filter effects). The new
 basic FIR filter (pop_eegfiltnew) has a new heuristic for automatically
-determining the filter length and is based on the firfilt plugin. The
+determining the filter length and is based on the Firfilt plugin. The
 legacy function should only be used for backward compatibility purposes.
 
 ### Q. What is the difference between the “Basic FIR filter (new)” and the “Windowed sinc FIR filter”?
@@ -40,12 +38,12 @@ A. Both are based on windowed sinc filters. The basic filter applies a
 hardcoded hamming window, has an automatic default for filter length,
 and is defined by the passband edges. The windowed sinc FIR filter
 allows manual selection of window type, estimation of filter length by
-transition band width (no default), and is defined by cutoff frequencies
+transition bandwidth (no default), and is defined by cutoff frequencies
 (-6dB, half amplitude).
 
-### Q. Why does firfilt-plugin run faster than the legacy EEGLAB filter?
+### Q. Why does Firfilt-plugin run faster than the legacy EEGLAB filter?
 
-A. The firfilt plugin does not use filtfilt to achieve zero-phase but
+A. The Firfilt plugin does not use filtfilt to achieve zero-phase but
 shifts the signal by the filter’s group delay (NB: requiring ODD filter
 length/even filter order). So, the data are only filtered once with
 multi-threading (filtfilt does not seem to be multi-threading capable).
@@ -59,11 +57,11 @@ sinc FIR filters. Ripple/attenuation is defined by the window type.
 reasonable starting values. This equals a stopband attenuation of -53 to
 -60 dB which is ok.
 
-### Q. Should we prefer separate high- and lowpass filters over bandpass filters? (09/30/2020 updated)
+### Q. Should we prefer separate high- and low-pass filters over bandpass filters? (09/30/2020 updated)
 
-A. With separate high- and low-pass filters, transition band width can
-be defined independently. High-pass filter often require narrower
-transition bands than lowpass filters. Separate filtering is preferable
+A. With separate high- and low-pass filters, transition bandwidth can
+be defined independently. High-pass filters often require narrower
+transition bands than low-pass filters. Separate filtering is preferable
 in these cases.
 
 ### Q. What is the difference between filter length and filter order?
@@ -74,15 +72,15 @@ A. Filter order is defined as filter length minus 1.
 
 A. The transition band is the frequency band/range between the passband
 edge and the stopband edge. In windowed sinc FIR filters the -6dB cutoff
-is in center of the transition band.
+is in the center of the transition band.
 
 ### Q. What is the slope of windowed sinc FIR filters in dB/oct (as in IIR filters)?
 
 A. Slope CANNOT be defined in dB/oct for windowed sinc FIR filters.
-Rather use transition band width. There is no straightforward conversion
-of slope in dB/oct to transition band width due to conceptual
+Rather use transition bandwidth. There is no straightforward conversion
+of slope in dB/oct to transition bandwidth due to conceptual
 differences between FIR and IIR filters. IIR filters do not have a
-defined stop band.
+defined stopband.
 
 ### Q. What is the lower limit for cutoff frequency for high-pass filter?
 
@@ -94,13 +92,13 @@ instability (IIR). To our experience a lower limit of about 0.1 Hz is
 recommendable for FIR filters. For lower cutoff frequencies consider IIR
 filters combined with a reduced sampling frequency of the signal.
 
-### Q. What is the recommended transition band width (for a windowed sinc FIR highpass filter)?
+### Q. What is the recommended transition bandwidth (for a windowed sinc FIR high-pass filter)?
 
 A. Generally, the slope in the frequency domain should be as low/flat as
 possible, that is the transition band as wide as possible. Steeper
 slopes reduce the precision in the time domain; distortions and
 artifacts are additionally spread wider due to the longer filter length.
-A good staring value for a highpass filter: twice the cutoff frequency
+A good staring value for a high-pass filter: twice the cutoff frequency
 (-6 dB) for cutoff \<= 1 Hz, 2 Hz for cutoff frequency \< 1 and \<= 8 Hz
 and 25% of cutoff frequency for cutoff \> 8 Hz. This is also the
 heuristic implemented in the new basic FIR filter (generalized for all
@@ -110,7 +108,7 @@ go beyond twice of the cutoff frequency (i.e., transition band goes
 below DC/0 Hz). TIP: Strong attenuation (\<\< -60dB) can be important
 for DC/0 Hz (e,g,, to get rid of the DC offset for Biosemi files or to
 avoid baseline correction). By using twice of the cutoff frequency for
-transition band width, a type 1 windowed sinc filter can be tuned for
+transition bandwidth, a type 1 windowed sinc filter can be tuned for
 excellent DC attenuation.
 
 ### Q. What stopband attenuation is good?
@@ -169,8 +167,8 @@ How can we address these problems?
     EEGLAB's 'Basic FIR filter (new, default)‘ to apply high-pass filter
     with 'passband edge' below 2-Hz, the transition band is
     automatically adjusted so that it always ends at DC. (We use 1-Hz
-    highpass for the ICA purpose; empirical test is required to see
-    whether 2-Hz highpass is beneficial for GCA compared with 1-Hz). If
+    high-pass for the ICA purpose; empirical test is required to see
+    whether 2-Hz high-pass is beneficial for GCA compared with 1-Hz). If
     you want to set the high-pass filter passband edge above 2 Hz, we
     recommend you use 'Windowed sinc FIR filter' to design the filter so
     that it has the stopband at DC. (CAUTION: 'Windowed sinc FIR filter'
@@ -182,13 +180,15 @@ How can we address these problems?
 -   When downsampling data (which is useful for multivariate Granger
     causality analysis), use mild anti-aliasing filter and do not let
     the stopband below the Nyquist frequency. In practice, use the
-    following example.
-
-`   EEG = pop_resample(EEG, 200, 0.8, 0.4);`
-
-In this example, you are downsampling your data to 200Hz, with cutoff
+    following example. In this example, you are downsampling your data to 200Hz, with the cutoff
 frequency being 160Hz (i.e. 200Hz\*0.8) and the transient bandwidth 80Hz
 (i.e. 200Hz\*0.4).
+
+    ```matlab
+    EEG = pop_resample(EEG, 200, 0.8, 0.4);
+    ```
+
+This page was created by Makoto Miyakoshi and Andreas Widmann.
 
 ## References and recommended readings
 
@@ -283,5 +283,3 @@ frequency being 160Hz (i.e. 200Hz\*0.8) and the transient bandwidth 80Hz
     digital filters for analyzing the mid-latency auditory P50
     event-related potential in patients with Alzheimer's disease. J
     Neurosci Methods. 2016 Mar 22;266:50-67.
-
-(This page was created by Makoto Miyakoshi and Andreas Widmann.)
