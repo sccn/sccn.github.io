@@ -12,6 +12,8 @@ parent: Other documents
 
 BINICA https://github.com/sccn/binica/wiki
 
+- Add google tracking
+
 - Replace
 
 plugin by plug-in

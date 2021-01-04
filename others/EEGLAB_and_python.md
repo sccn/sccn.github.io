@@ -1,44 +1,44 @@
 ---
 layout: default
-title: EEGLAB and python
+title: EEGLAB and Python
 parent: Other documents
 ---
 
 EEGLAB and Python
 ===================
 
-EEGLAB of course does not work natively in python because EEGLAB runs on
+EEGLAB does not work natively in Python because EEGLAB runs on
 Matlab (and, to a considerable extent, on the open source Octave
-platform). Nevertheless, there are possible links with Python which we
+platform). Nevertheless, there are possible links with Python, which we
 are detailing here.
 
 Should I use Matlab-based tools or Python-based tools
 -----------------------------------------------------
 
-One of the most important when using a software is usage and community.
+One of the most important feature when using a software package is usage and community.
 If the community is large and the software is popular, it is a safer
-choice as you can be certain a lot of problems people encounter have
+choice as this ensures many problems people encounter have
 been solved - it also means that the code is probably more stable and
-has less bugs. 
+has fewer bugs. 
 
 As of late 2019/early 2020, 56% of the citations of the
-papers below go to EEGLAB, then 25% go to Fieldtrip and 19% got to
+papers below go to EEGLAB, then 25% go to Fieldtrip, and 19% got to
 Brainstorm, and various versions of MNE. Note that EEGLAB and Fieldtrip
 are intertwined where Fieldtrip users can write [EEGLAB
 plugins](/EEGLAB_and_Fieldtrip#Wrap_up_your_Fieldtrip_scripts_into_EEGLAB_plugin_menu_items "wikilink")
 by adding simple wrappers on their Fieldtrip code. So the pair
-EEGLAB+Fieldtrip comprises 81% of the citations and it is continuing to
+EEGLAB+Fieldtrip comprises 81% of the citations, and it is continuing to
 grow, with the Matlab-based tools (which include Brainstorm) gathering
 about 90% of all citations. This is a strong argument for using Matlab
-based tools - and in particular EEGLAB - instead of Python based tools
-at this stage (i.e. MNE). Note that MNE was given an unfair advantage in
-this analysis since 2 papers (instead of 1 for the other tools) were
+based tools - and in particular EEGLAB - instead of Python-based tools
+at this stage (i.e., MNE). Note that MNE was given an unfair advantage in
+this analysis since two papers (instead of one for the other tools) were
 included (and it is reasonable to assume that a portion of papers cited
-both articles thus artificially inflating MNE numbers).
+both articles, thus artificially inflating MNE numbers).
 
 Below is an analysis of papers referencing EEGLAB, FieldTrip, MNE,
-MNE-Python, and Brainstorm since 2004. Data was obtained from Web of Science.
-The citation per year correspond to the following 5 papers:
+MNE-Python, and Brainstorm since 2004. Data were obtained from [Web of Science](http://webofknowledge.com).
+The number of citation per year corresponds to the following five papers:
 
 -   **EEGLAB**: Delorme, A. and Makeig, S., 2004. EEGLAB: an open source
     toolbox for analysis of single-trial EEG dynamics including
@@ -76,7 +76,7 @@ Python might not be ideal because it remains a programming language
 designed for programmers. For example,
 
 -   It is hard to understand for novices why an n-size vector should be
-    indexed beginning at 0 and ending at n-1 (in Matlab and R, vectors
+    indexed, beginning at 0 and ending at n-1 (in Matlab and R, vectors
     begin at position 1 and end at n).
 -   Code indentation is a nice feature of Python. However, this style
     does not come naturally to the novice programmer. It also makes
@@ -89,7 +89,7 @@ designed for programmers. For example,
     libraries; this can be tedious and does not come naturally to
     novices. Even experienced users sometimes spend hours getting their
     library settings right. There are also other technical problems
-    related to operating system and library compatibility that can take
+    related to the operating system and library compatibility that can take
     hours or days to solve (we speak from experience).
 -   Matrix manipulation in Python is not as intuitive as Matlab. For
     example, the already non-intuitive Python code to concatenate arrays
@@ -101,38 +101,38 @@ designed for programmers. For example,
     depending on the dimension to concatenate. The Matlab code is
     readable for someone with math training.
 -   And of course, version problems: Python versions 2.7 and 3.3 are not
-    fully compatible -- and Python 2.7 although no longer supported
+    fully compatible -- and Python 2.7, although no longer supported
     since January 1, 2020, is still widely used because a large number
     of Python libraries are not available in Python 3 -- leading to all
-    kinds of unexpected problems that can terribly slow down a novice
+    kinds of unexpected problems that can slow down a novice
     programmer.
 -   Python is free. Why should I have to pay for Matlab? Good conduct in
     (open) science should transcend discussions on finances. We pay for
-    Microsoft or Adobe licenses, because of the free alternative, even
+    Microsoft or Adobe licenses because of the free alternative, even
     if it exists, does not fulfill our needs. The compiled version of
     EEGLAB does not require users to purchase Matlab and EEGLAB code
     also runs on Octave.
 -   MEEG software packages on Matlab are mainly EEGLAB, Fieldtrip, and
     Brainstorm. MEEG software on Python is MNE geared towards MEG users.
     The Matlab suite of available software is currently more mature than
-    the Python one, which is a good reason to stick to Matlab for now.
+    the Python one,, which is a good reason to stick to Matlab for now.
 
 - If you wish to use Python, the [Spyder IDE](https://www.spyder-ide.org/) is a good equivalent of the Matlab interface and shoudl feel familiar.
 
-How to call EEGLAB functions from python
+How to call EEGLAB functions from Python
 ----------------------------------------
 
-If you want or need to call EEGLAB functions from python, the best
-solution is to use the python package Oct2py (pip install Oct2py). You
+If you want or need to call EEGLAB functions from Python, the best
+solution is to use the Python package Oct2py (pip install Oct2py). You
 will need to install Octave as well. See [this
 page](/Running_EEGLAB_on_Octave "wikilink") for more information on how
 to run EEGLAB on Octave. The way this Python library works is that it
 converts Python data structures to Matlab/Octave data structures and
 vice versa. Based on our research it is the simplest and most stable way
 to run Matlab functions on Python and most EEGLAB functions may be
-called from within python using this method.
+called from within Python using this method.
 
-``` python
+``` Python
 # import dataset from EEGLAB
 from oct2py import octave
 octave.addpath('/data/matlab/eeglab/functions/guifunc');
@@ -150,14 +150,14 @@ plt.show()
 
 An MNE function can also import EEGLAB data files
 
-``` python
+``` Python
 EEG = mne.io.read_epochs_eeglab(fname)
 ```
 
-Will EEGLAB ever run natively on python?
+Will EEGLAB ever run natively on Python?
 ----------------------------------------
 
-For the foreseeable future, Matlab will remain the platform on which
+For the foreseeable future, Matlab will remain the platform on, which
 EEGLAB is developed and supported. Matlab has a breadth of useful tools
 that are not yet matched by open source environments (e.g., no complex
 system to install libraries, good graphical support for different
