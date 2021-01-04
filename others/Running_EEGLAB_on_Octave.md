@@ -3,6 +3,26 @@ layout: default
 title: Running EEGLAB on Octave
 parent: Other documents
 ---
+Running EEGLAB on Octave
+====
+
+Why Octave?
+---
+
+Matlab, although quite efficient,
+is expensive. A single Matlab license may cost $2,100
+($1,050 for academia), and with *all* its commercial toolboxes might
+come to $145,000 or more.
+
+We have attempted to tackle this problem and as of June 2018 (EEGLAB
+2019), we are currently supporting Octave (v4.4.0) for supercomputing
+applications (command line calls only, no graphic support). In our
+tests, Octave is about 50% slower than Matlab but this can easily be
+compensated by increasing the number of processors assigned to a
+specific processing task. Note that EEGLAB functions have not been
+parallelized (except a few rare exceptions). Therefore, you are required
+to open a Octave/Matlab session on each node and run custom scripts you
+write to take advantage of your parallel processing capability.
 
 # Running EEGLAB on Octave
 
