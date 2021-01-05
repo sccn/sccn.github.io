@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB Extensions
 parent: Other documents
 ---
-EEGLAB extensions and plug-ins<font color=green> - Done</font>
+EEGLAB extensions and plug-ins <font color=green> - Done</font>
 ====
 
 EEGLAB extensions or plug-ins allow users to build and publish new data
@@ -58,7 +58,7 @@ Plug-ins can just as easily be removed from the EEGLAB extension
 manager. Alternatively, you may move or remove its folder from
 the EEGLAB plug-ins folder and restart EEGLAB.
 
-To construct and publish a new plug-in
+To contribute a new plug-in
 --------------------------------------
 
 See the simple instructions under [How to contribute to

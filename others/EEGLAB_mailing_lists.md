@@ -3,15 +3,13 @@ layout: default
 title: EEGLAB mailing lists
 parent: Other documents
 ---
-
-
-# EEGLAB mainling lists
+EEGLAB mainling lists <font color=green> - Done</font>
+====
 
 ## The EEGLAB Discussion List
 
 This moderated mailing list is about the EEGLAB signal processing
-environment for Matlab in particular and signal processing of EEG data
-in general. Feel free to post messages to this list. The list moderator
+environment for Matlab and signal processing of EEG data. Feel free to post messages to this list. The list moderator
 passes on relevant posts to the whole list.
 
 -   To subscribe to the EEGLAB discussion list, send an (empty) email to
@@ -28,7 +26,7 @@ passes on relevant posts to the whole list.
     <eeglablist-owner@sccn.ucsd.edu>
 
 To send a message to the list, email
-\[[mailto:eeglablist@sccn.ucsd.edu](mailto:eeglablist@sccn.ucsd.edu).
+<eeglablist@sccn.ucsd.edu>.
 You may not send messages to the list if you are not a subscriber. All
 messages are moderated for appropriateness.
 
@@ -44,28 +42,26 @@ Posts on the eeglablist include:
     collection and analysis, particularly about EEGLAB functions and
     pipelines.
 
-<!-- -->
-
 -   Announcements of EEG-related events and EEG-related research
     positions.
 
 The moderator will withhold from the list posts that:
 
--   Are not EEG-related.
+-   Are not EEG-related,
 
-<!-- -->
+-   Contain commercial advertisements,
 
--   Contain commercial advertisements.
+-   Contain personal attacks,
 
-<!-- -->
+-   Contain attachments.
 
--   Contain personal attacks.
+
 
 ## The EEGLAB News List
 
 The news list is reserved only for infrequent news releases from the
 EEGLAB development team. Do not send messages to this list; they will
-not reach us.
+be ignored.
 
 -   To subscribe to the news list, send an (empty) email to
     <eeglabnews-subscribe@sccn.ucsd.edu>

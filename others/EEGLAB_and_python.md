@@ -4,7 +4,7 @@ title: EEGLAB and Python
 parent: Other documents
 ---
 
-EEGLAB and Python
+EEGLAB and Python <font color=green> - Done</font>
 ===================
 
 EEGLAB does not work natively in Python because EEGLAB runs on
@@ -21,9 +21,9 @@ choice as this ensures many problems people encounter have
 been solved - it also means that the code is probably more stable and
 has fewer bugs. 
 
-As of late 2019/early 2020, 56% of the citations of the
-papers below go to EEGLAB, then 25% go to Fieldtrip, and 19% got to
-Brainstorm, and various versions of MNE. Note that EEGLAB and Fieldtrip
+As of 2020, 56% of the citations of the
+papers below go to EEGLAB, then 25% go to Fieldtrip, and 19% go to
+Brainstorm and various versions of MNE. Note that EEGLAB and Fieldtrip
 are intertwined where Fieldtrip users can write [EEGLAB
 plugins](/EEGLAB_and_Fieldtrip#Wrap_up_your_Fieldtrip_scripts_into_EEGLAB_plugin_menu_items "wikilink")
 by adding simple wrappers on their Fieldtrip code. So the pair
@@ -31,10 +31,7 @@ EEGLAB+Fieldtrip comprises 81% of the citations, and it is continuing to
 grow, with the Matlab-based tools (which include Brainstorm) gathering
 about 90% of all citations. This is a strong argument for using Matlab
 based tools - and in particular EEGLAB - instead of Python-based tools
-at this stage (i.e., MNE). Note that MNE was given an unfair advantage in
-this analysis since two papers (instead of one for the other tools) were
-included (and it is reasonable to assume that a portion of papers cited
-both articles, thus artificially inflating MNE numbers).
+(i.e., MNE).
 
 Below is an analysis of papers referencing EEGLAB, FieldTrip, MNE,
 MNE-Python, and Brainstorm since 2004. Data were obtained from [Web of Science](http://webofknowledge.com).
@@ -100,7 +97,7 @@ designed for programmers. For example,
     \[1 2; 5 6\]; \[1 2\] \]</i> or <i>\[ \[1 2; 5 6\] \[1 2\]' \]</i>
     depending on the dimension to concatenate. The Matlab code is
     readable for someone with math training.
--   And of course, version problems: Python versions 2.7 and 3.3 are not
+-   And of course, version problems: Python versions 2 and 3 are not
     fully compatible -- and Python 2.7, although no longer supported
     since January 1, 2020, is still widely used because a large number
     of Python libraries are not available in Python 3 -- leading to all
@@ -108,16 +105,16 @@ designed for programmers. For example,
     programmer.
 -   Python is free. Why should I have to pay for Matlab? Good conduct in
     (open) science should transcend discussions on finances. We pay for
-    Microsoft or Adobe licenses because of the free alternative, even
+    Microsoft or Adobe licenses because the free alternative, even
     if it exists, does not fulfill our needs. The compiled version of
-    EEGLAB does not require users to purchase Matlab and EEGLAB code
+    EEGLAB does not require users to purchase Matlab, and EEGLAB code
     also runs on Octave.
 -   MEEG software packages on Matlab are mainly EEGLAB, Fieldtrip, and
-    Brainstorm. MEEG software on Python is MNE geared towards MEG users.
+    Brainstorm. MEEG software on Python is MNE which is more tailored to MEG users than EEG users.
     The Matlab suite of available software is currently more mature than
-    the Python one,, which is a good reason to stick to Matlab for now.
+    the Python one, which is a good reason to stick to Matlab.
 
-- If you wish to use Python, the [Spyder IDE](https://www.spyder-ide.org/) is a good equivalent of the Matlab interface and shoudl feel familiar.
+- If you wish to use Python, the [Spyder IDE](https://www.spyder-ide.org/) is a good equivalent of the Matlab interface and should feel familiar.
 
 How to call EEGLAB functions from Python
 ----------------------------------------
@@ -128,8 +125,8 @@ will need to install Octave as well. See [this
 page](/Running_EEGLAB_on_Octave "wikilink") for more information on how
 to run EEGLAB on Octave. The way this Python library works is that it
 converts Python data structures to Matlab/Octave data structures and
-vice versa. Based on our research it is the simplest and most stable way
-to run Matlab functions on Python and most EEGLAB functions may be
+vice versa. Based on our research, it is the simplest and most stable way
+to run Matlab functions in Python, and most EEGLAB functions may be
 called from within Python using this method.
 
 ``` Python
@@ -148,10 +145,18 @@ plt.plot(EEG.data[0][0]);
 plt.show()
 ```
 
-An MNE function can also import EEGLAB data files
+The SCIPY Python library can import EEGLAB files, when the raw data is embeded in the *.set* file.
 
 ``` Python
-EEG = mne.io.read_epochs_eeglab(fname)
+import scipy.io as sio
+EEG = sio.loadmat('eeglabfile.set')
+```
+
+If the raw data is stored in a separate *.fdt* file, the *read_epochs_eeglab* MNE function can also import EEGLAB data files.
+
+``` Python
+import mne
+EEG = mne.io.read_epochs_eeglab('eeglabfile.set')
 ```
 
 Will EEGLAB ever run natively on Python?
@@ -167,16 +172,13 @@ available Matlab toolboxes are handy, well known and well tested (e.g.,
 image processing toolbox, for correcting for multiple comparisons;
 signal processing toolbox, for spectral decompositions; optimization
 toolbox, for optimizing code; bioinformatics toolbox, useful for EEG
-classification; virtual reality toolbox, for real time 3-D rendering of
+classification; virtual reality toolbox, for the real-time 3-D rendering of
 EEG activity). Finally, the Matlab compiler allows us to create a
 compiled version of EEGLAB that does not require the user to have Matlab
 -- Matlab scripts can be run by [compiled
 EEGLAB](/A13:_Compiled_EEGLAB "wikilink"), although interactive sessions
 are not supported. Given that Matlab is accessible to nearly everyone
 working in scientific institutions, our incentive to find a Matlab
-alternative remains relatively low, except possibly for high performance
-and cloud computing applications because of license issues. However,
-EEGLAB functions are fully compatible with Octave (an open source
-version compatible with Matlab) from the command line - see also the new
-[Open EEGLAB Portal](/EEGLAB_on_NSG "wikilink") to the NSF supercomputer
-system.
+alternative remains relatively low.
+
+Rather than re-implementing EEGLAB on Python, we will be more likely to focus on increasing cross-compatibility between EEGLAB and Python, making it easier for users to go back and forth between the two.

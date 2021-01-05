@@ -3,114 +3,123 @@ layout: default
 title: EEGLAB revision history
 parent: Other documents
 ---
-
-# EEGLAB revision history
-
-Below are EEGLAB version as they are tagged in the SVN repository. You
-may check out each version by selecting the appropriate tag in the
-repository. 
-
-The current version (HEAD) should not be different from the
-latest tag version. Critical updates are indicated with bug fixes in
-<span style= "color:red">red</span>. This correspond to updates where the
-processing performed was inaccurate. Updates fixing function crashes
-under some particular calling conditions are not indicated in red.
-
-## Why is the zip file for the latest release missing?
-
-The HEAD revision of EEGLAB is usually not available as a .ZIP file. It
-is available only using the SVN revision software. About every month, a
-revision number is issued and a zip file released.
-
-## Why are you supporting different EEGLAB version?
-
-The HEAD EEGLAB revision (currently version 13) is the revision we are
-working on. It contains more bug fixes but is also at times more
-unstable (especially new features). We are thus also supporting version 12. In version 12, only important bugs are corrected. All the
-development takes place in version 13.
-
-## I do not understand the revision numbers
-
-The first number is the current revision (12 or 13). Following numbers
-indicate revision of different level of importance. 
-
-For instance,
-version 10.2.3.5 means that we are dealing with EEGLAB 10 and 2 major
-revisions were issued, 3 semi-important revisions, and 5 minor
-revisions. The second, third and fourth number vary independently. For
-instance, if a major revision is made to version 10.2.3.5, the revision
-number is going to be 10.3.3.5. 
-
-However, when we change of EEGLAB
-version (11 to 12 or 12 to 13), we reset all subsequent sub-revision
-numbers (the first version 13 will be 13.0.0.0). The Mathworks uses a
-similar scheme for Matlab (for instance 7.11.0.584).
+EEGLAB revision history <font color=green>- DONE</font>
+===
+EEGLAB download in ZIP format is available on [this page](https://sccn.ucsd.edu/eeglab/download.php). This includes the
+latest release as well as old versions of EEGLAB.
 
 Starting in 2019, we are using the year of the release as the main
 revision number. Minor revision are indicated using a second number
 2019.0 is version 2019 and first release; 2019.1 is version 2019 and
-second release.
+second release. There are usually one or two releases per year. Prior major versions of EEGLAB (e.g., 13 or 14) did not follow a particular release schedule.
 
-## EEGLAB Most Current Versions
+## EEGLAB version 2020.0
 
-[EEGLAB version 2020 revision
-history](/EEGLAB_revision_history_version_2020 "wikilink")
-(<font color=green>supported</font>)
+-   Issue date: July 31st, 2020; GIT tag: 2020.0
+-   <b>EEGLAB Plug-in manager</b>: Fixed bugs, made plug-in detection
+    case sensitive, added plug-in search capability.
+-   <b>EEGLAB auto updater</b>: Allow installation of a new version of
+    EEGLAB from within EEGLAB itself.
+-   <b>Support for BIDS</b>: Now testing the EEGLAB BIDS-EEG plug-in
+    (the beta version is available at
+    <https://github.com/sccn/bids-matlab-tools>).
+-   <b>HED</b> Hierarchical Event Descriptors (HED): Improved tools for
+    annotating dataset events at the STUDY level in the HED-2 system,
+    and for extracting HED-tagged epochs.
+-   <b>IClabel</b>: Improved support and compatibility for the IClabel
+    plug-in.
+-   <b>LIMO</b>: Improved support and compatibility for the LIMO
+    plug-in.
+-   <b>EDF/EDF+</b>: Better conversion of EDF and EDF+ file events.
+-   <b>Scrolling data viewer</b>: Fixed issue that dramatically slowed
+    down scrolling EEG viewing when the dataset includes a large number
+    of events.
+-   <b>Channel rejection</b>: EEGLAB now remembers which channels were
+    removed from a dataset.
+-   <b>Test file output</b>: Fixed a resolution issue.
+-   <b>LIMO STUDY statistics</b>: The STUDY interface now lists the
+    first- and second-level variables in the STUDY design
+-   <b>STUDY spectrum plots</b>: Fixed the ordinate (power) scale.
+-   Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2019.1..eeglab2020.0) to see all changes compared to the previous EEGLAB version.
 
-EEGLAB previous versions
-------------------------
+## EEGLAB Version 2019.1
 
-[EEGLAB version 2019 revision
-history](/EEGLAB_revision_history_version_2019 "wikilink")
-(<font color=red>no longer supported</font>)
+-   Issue date: November 18th, 2019; GIT branch: 2019.1
+-   <b>EEGLAB menus</b>. We have reorganized and simplified EEGLAB
+    menus, in particular the tool menus. There is still an option to
+    show all menus as in previous version by changing EEGLAB
+    preferences. The standard processing pipeline is now to import data,
+    filter, re-reference, apply artifact rejection (default is using the
+    clean\_rawdata plugin), run ICA, detect bad components (default is
+    using ICLabel)
+-   <b>Default plugins</b>. There are now 4 EEGLAB plugin installed with
+    EEGLAB. Dipfit and firfilt - which were already installed by default
+    in previous EEGLAB revision - and now clean\_rawdata and ICLabel.
+    Clean\_rawdata is a powerful plugin based on ASR (Artifact Subspace
+    Reconstruction) to automatically remove or correct artifacts.
+    ICLabel is an algorithm to automate ICA component labeling (as brain
+    or artifact).
+-   We have also redesigned the plotting options at the study level to
+    make them more user friendly, and now allow to plot ERPimage, and
+    time-frequency decompositions in scalp arrays (previously this was
+    only possible for ERP and spectrum).
+-   There is a <b>new plug-in manager</b> (there was a new one in 2019.0
+    but it yet a newer one) which automates plugin release for improved
+    stability. This new manager also has a rating and feedback mecanism.
+    The old plugin manager will be maintained for backward
+    compatibility.
+-   We have improved further the compatibility with the LIMO toolbox.
+-   Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2019..eeglab2019.1) to see all changes compared to the previous EEGLAB version.
 
-[EEGLAB version 14 revision
-history](/EEGLAB_revision_history_version_14 "wikilink")
-(<font color=red>no longer supported</font>)
+## EEGLAB Version 2019.0
 
-[EEGLAB version 13 revision
-history](/EEGLAB_revision_history_version_13 "wikilink")
-(<font color=red>no longer supported</font>) - minor [bug
-1971](/EEGLAB_bug1971 "wikilink") when rejecting data, use EEGLAB 14
+-   Issue date: May 17th, 2019; GIT tag: 2019.0
+-   <b>Single-trial processing in STUDY processing functions</b>. This
+    version includes a new STUDY framework compatible with LIMO (LInear
+    MOdeling) applied to EEG data. We reworked
+    STUDY-based computations (ERP, ERSP, ITC, mean spectra). You now
+    only need to precompute these measures once, no matter how many
+    statistical designs you want to run on the STUDY data. This is
+    because all the single-trial level measures are now stored at the
+    STUDY level. While all existing EEGLAB STUDY sets can be processed
+    using STUDY functions in v2019.0, to perform additional statistical
+    testing on an existing STUDY, the STUDY functions will need to
+    recompute the pre-computed measure files.
+-   New smart cache mechanism for STUDY processing.
+-   <b>Mew plug-in manager</b>
+-   <b>Full Octave compatibility</b> from the command line: The freely
+    available open source app will now run EEGLAB command
+    line scripts written in Matlab (note: the EEGLAB graphic interface
+    and menu are not available in Octave).
+-   <b>New license:</b> The open source license EEGLAB has been updated
+    to BSD instead of GNU to allow commercial re-use of EEGLAB
+    code (Note: each EEGLAB plug-in is released under its own license).
+-   The EEGLAB code repository has migrated to Github from
+    Bitbucket; code for all plug-ins handled by the plug-in manager have
+    been placed in Github submodules
+-   Support has been added for <b>data resampling and high/lowpass
+    filtering at the STUDY level</b>.
+-   Support for <b>channel selection when filtering</b> has been added -
+    filters can now be applied only to selected channel subsets or
+    types.
+-   The <b>data import menu</b> has been cleaned up, adding direct links
+    to some popular import plug-ins.
+-   When performing source localization of independent components using
+    DIPFIT, the brain area in which the equivalent dipole is located is
+    now estimated based on direct look-up in the 40-region
+    <b>Desikan-KIlliany cortical atlas</b>.
+-   Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab14..eeglab2019) to see all changes compared to the previous EEGLAB version.
 
-[EEGLAB version 12 revision
-history](/EEGLAB_revision_history_version_12 "wikilink")
-(<font color=red>no longer supported</font>)
-
-[EEGLAB version 11 revision
-history](/EEGLAB_revision_history_version_11 "wikilink")
-(<font color=red>no longer supported</font>) - STUDY implementation
-backward compatible but different from EEGLAB 9 and 10
-
-[EEGLAB version 10 revision
-history](/EEGLAB_revision_history_version_10 "wikilink")
-(<font color=red>no longer supported</font>)
-
-[EEGLAB version 9 revision
-history](/EEGLAB_revision_history_version_9 "wikilink")
-(<font color=red>no longer supported</font>) - STUDY implementation
-backward compatible but different from EEGLAB 6, 7 and 8
-
-[EEGLAB version 8 revision
-history](/EEGLAB_revision_history_version_8 "wikilink")
-(<font color=red>no longer supported</font>)
-
-[EEGLAB version 7 revision
-history](/EEGLAB_revision_history_version_7 "wikilink")
-(<font color=red>no longer supported</font>)
-
-[EEGLAB version 6 revision
-history](/EEGLAB_revision_history_version_6 "wikilink")
-(<font color=red>no longer supported</font>)
-
-[EEGLAB version 5 revision
-history](/EEGLAB_revision_history_version_5 "wikilink")
-(<font color=red>no longer supported</font>)
-
-[EEGLAB version 4 revision
-history](/EEGLAB_revision_history_version_4 "wikilink")
-(<font color=red>no longer supported</font>)
-
-[EEGLAB early versions prior to 2002 - see the first decade of
-EEGLAB](/The_first_decade_of_EEGLAB "wikilink")
-
+Older versions of EEGLAB
+---
+- [EEGLAB version 14 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_14)
+- [EEGLAB version 13 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_13)
+- [EEGLAB version 12 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_12)
+- [EEGLAB version 11 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_11)
+- [EEGLAB version 10 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_10)
+- [EEGLAB version 9 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_9)
+- [EEGLAB version 8 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_8)
+- [EEGLAB version 7 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_7)
+- [EEGLAB version 6 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_6)
+- [EEGLAB version 5 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_5)
+- [EEGLAB version 4 revision history](https://sccn.ucsd.edu/wiki/EEGLAB_revision_history_version_4)
