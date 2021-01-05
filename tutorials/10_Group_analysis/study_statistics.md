@@ -45,7 +45,7 @@ them using the <span style="color: brown">Study → Precompute channel measures<
 - Change the baseline to -200 to 0 as shown below
 - Press *Ok* 
 
-![px](/assets/images/studystats1.png)
+![](/assets/images/studystats1.png)
 
 ### 1-way ANOVA on ERP plots
 

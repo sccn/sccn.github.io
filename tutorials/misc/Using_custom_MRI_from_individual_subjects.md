@@ -29,7 +29,7 @@ Matlab command line.
 
 
 
-![425px](/assets/images/Spm_entryscreen.gif)
+![](/assets/images/Spm_entryscreen.gif)
 
 
 
@@ -40,7 +40,7 @@ appear (along with other screens).
 
 
 
-![425px](/assets/images/Spm_menu.gif)
+![](/assets/images/Spm_menu.gif)
 
 
 
@@ -49,7 +49,7 @@ clicking on it. Then press, *Done* as shown below.
 
 
 
-![325px](/assets/images/Spm_selectdisplay.gif)
+![](/assets/images/Spm_selectdisplay.gif)
 
 
 A display screen as shown below will appear. 
@@ -66,7 +66,7 @@ the bottom.
 
 
 
-![525px](/assets/images/Spm_displayscreen.gif)
+![](/assets/images/Spm_displayscreen.gif)
 
 
 
@@ -80,7 +80,7 @@ Write Normalized*.
 
 
 
-![375px](/assets/images/Spm_normalize.gif)
+![](/assets/images/Spm_normalize.gif)
 
 
 The following file selection window will appear. 
@@ -94,7 +94,7 @@ press *Done*.
 
 
 
-![375px](/assets/images/Spm_selecttemplate.gif)
+![](/assets/images/Spm_selecttemplate.gif)
 
 
 
@@ -104,7 +104,7 @@ Press *Done*.
 
 
 
-![425px](/assets/images/Spm_selectsource.gif)
+![](/assets/images/Spm_selectsource.gif)
 
 
 Another file selection window will appear asking for the name of the
@@ -132,7 +132,7 @@ shown below:
 
 
 
-![425px](/assets/images/Dipplot_spm.gif)
+![](/assets/images/Dipplot_spm.gif)
 
 
 Note that the resolution of this MR image is relatively low and appears

@@ -62,12 +62,12 @@ different single-trial epochs (blue traces) would be coded as three
 different colored lines (below).
 
 
-![225px]({{ site.baseurl }}/assets/images/Erpimagedemo.jpg)
+![](/assets/images/Erpimagedemo.jpg)
 
 By stacking above each other the color-sequence lines for all trials
 in a dataset, we produce an ERP image:
 
-![400px]({{ site.baseurl }}/assets/images/1ERPimagesmooth.gif)
+![](/assets/images/1ERPimagesmooth.gif)
 
 
 Do ERPs arise through partial phase synchronization of the EEG?
@@ -80,7 +80,7 @@ In a 'pure' case of (partial) phase synchronization:
     (complete phase locking).
     
     
- ![375px]({{ site.baseurl }}/assets/images/I84Coher_freq.jpg)
+ ![](/assets/images/I84Coher_freq.jpg)
    
 
 In our case, the figure (above) shows a significant post-stimulus
@@ -115,7 +115,7 @@ erpimage(data,zeros(1,256),1:256,'Phase-sorted Noise',1,1,...
 ```
 
 
-![475px]({{ site.baseurl }}/assets/images/Noisesort.jpg)
+![](/assets/images/Noisesort.jpg)
 
 
 Taking epochs of white noise (as above) and adding a strictly

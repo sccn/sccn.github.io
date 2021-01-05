@@ -135,7 +135,7 @@ Click on the *Browse* button in the first blank location and select a dataset na
 
 The interface window should then look like the following:
 
-![875px](/assets/images/studycreate.png)
+![](/assets/images/studycreate.png)
 
 Below, we detail what the *STUDY* terms *subject*, *session*, *run*, *condition*, and *group* mean.
 
@@ -227,7 +227,7 @@ We have already seen in this tutorial how to create a simple *STUDY* and plot th
 
 If you are impatient, select the <span style="color: brown">Study → Precompute channel measures</span> menu item, click the *ERPs* checkbox, and press *Ok*. Then select the <span style="color: brown">Study → Plot channel measures</span> menu item and press the *Plot ERPs* pushbutton to plot the ERP for the first channel in the list. The following plot showing the grand-average ERP for each condition will pop up.
 
-![875px](/assets/images/simplestudyplot.png)
+![](/assets/images/simplestudyplot.png)
 
 
 

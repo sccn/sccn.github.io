@@ -327,7 +327,7 @@ menu item <span style="color: brown">Study → Edit → plot clusters</span>. Th
 
 Note that the clustering menu item <span style="color: brown">Study → PCA clustering (original) → Cluster components</span> we used in a previous section will also call automatically this window after clustering has finished.
 
-![600px](/assets/images/studyclust6.png)
+![](/assets/images/studyclust6.png)
 
 Of the 305 components in the sample *N400* *STUDY*, dipole model
 residual variances for 151 components were below 15%. Other components
@@ -343,11 +343,11 @@ dipoles* button in the left column. This will open the plot viewer
 showing all the cluster component dipoles (in blue), plus the cluster
 mean dipole location (in red). Not surprisingly, components have been clustered in groups of dipoles with distinct locations.
 
-![600px](/assets/images/studyclust8.png)
+![](/assets/images/studyclust8.png)
 
 You may also review cluster scalp maps, by pressing the *Plot scalp maps* option. This will produce the figure below:
 
-![600px](/assets/images/studyclust7.png)
+![](/assets/images/studyclust7.png)
 
 Note that your exact clusters might differ slightly since the *kmean* algorithm starts from a random assignment of components to clusters.
 
@@ -361,7 +361,7 @@ To see individual component scalp maps for components in the cluster,
 select the cluster of interest in the left column (for example, *Cluster 6* as in the figure above). Then press the *Plot scalp maps* option in the
 right column. The following figure will appear (Note that, in your case, this cluster might be a different index).
 
-![600px](/assets/images/studyclust9.png)
+![](/assets/images/studyclust9.png)
 
 Here, *SO2 IC6* means *independent component 6 for subject SO2*, etc. 
 
@@ -373,7 +373,7 @@ You may also plot scalp maps for individual components in the cluster by selecti
 
 You may plot the dipoles for this cluster. Press the *Plot dipoles* button in the left or right column. The following image pops up.
 
-![600px](/assets/images/studyclust11.png)
+![](/assets/images/studyclust11.png)
 
 Scroll through the dipoles one by
 one, rotating the plot in 3-D or selecting among the three cardinal
@@ -382,15 +382,15 @@ presented in the left-center side bar (see the image above).
 
 Let's also plot the spectrum for this cluster along with the spectrum of the individual components. In the right column, click on the *Plot spectra* button.
 
-![600px](/assets/images/studyclust10.png)
+![](/assets/images/studyclust10.png)
 
 We can see a clear 10 Hz peak in all the components of this cluster. Let's finally plot the ERPs for the two conditions of this *STUDY*. Click on the *Params* button in the central column adjacent to the *Plot ERPs* buttons. Change the time range to -200 ms to 1000 ms as shown below. Check the checkbox to plot the first independent variable on the same plot. Press *Ok*. 
 
-![600px](/assets/images/studyclust12.png)
+![](/assets/images/studyclust12.png)
 
 Then click on the *Plot ERPs* button in the right column. The following window pops up.
 
-![600px](/assets/images/studyclust13.png)
+![](/assets/images/studyclust13.png)
 
 Here Cluster 6 accounts for some central
 occipital alpha activity -- note the strong 10-Hz peak in the activity
@@ -409,7 +409,7 @@ clusters, new clusters can be created, and
 cancel these changes, pressing the *Cancel* button will cause the
 *STUDY* changes to be forgotten.
 
-![600px](/assets/images/studyclust6.png)
+![](/assets/images/studyclust6.png)
 
 We describe below the four button to edit clusters.
 

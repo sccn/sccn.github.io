@@ -70,7 +70,7 @@ name to *eegdata*. Set the sampling frequency to 256 Hz, press *OK*. Other
 dataset parameters will be automatically adjusted.
 
 
-![700px](/assets/images/pop_importdata12.png)
+![](/assets/images/pop_importdata12.png)
 
 
 

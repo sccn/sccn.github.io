@@ -354,7 +354,7 @@ First, start EEGLAB, and load dataset *eeglab_data.set* in the
 dataset</font> menu item. Then use the <font color=brown>Plot → Channel
 data (scroll)</font> menu item to visualize the data and associated events.
 
-![575px](/assets/images/Scroll_raw_data.png)
+![](/assets/images/Scroll_raw_data.png)
 
 Events are shown as vertical lines. Different event types are shown in
 different colors. The button *Event types* will show the list of event
@@ -367,7 +367,7 @@ occurred while the data was being recorded. To view the
 information for an event, use the <font color=brown>Edit → Event
 values</font> menu item (see the window below, which shows the tutorial dataset's events imported in the previous step).
 
-![375px](/assets/images/V1pop_editeventvals.png)
+![](/assets/images/V1pop_editeventvals.png)
 
 The *type* and *latency* fields are the most important EEGLAB event
 fields (see below). Some EEGLAB functions recognize and use these two
@@ -431,7 +431,7 @@ event *type* edit box, and 500 in the event *latency* edit box.
 Note: If you click on the *cancel* button, none of the new
 information will be saved.
 
-![375px](/assets/images/V121pop_editeventvals_2.png)
+![](/assets/images/V121pop_editeventvals_2.png)
 
 After you press *OK*, the events may be resorted (events must always be
 in order of increasing latencies), and some field contents may be modified
@@ -456,7 +456,7 @@ a data file. Using this data file, we show how to rename all events with
 type "rt" to events with type "response" under Excel. The
 figure below shows the exported file (left) and the edited file (right).
 
-![600px](/assets/images/Spreadsheet_event.png)
+![](/assets/images/Spreadsheet_event.png)
 
 Then, using the <font color=brown>File → Import event info → From
 Matlab array of ASCII file</font> menu item, we select the modified file. We enter
@@ -467,7 +467,7 @@ effect). Now all the events have been renamed (note that the interface
 to select events presented in the following section also allows to rename
 event type values, so this is only presented as a didactic example).
 
-![600px](/assets/images/Event_reimport.png)
+![](/assets/images/Event_reimport.png)
 
 ### Selecting/removing/renaming events
 

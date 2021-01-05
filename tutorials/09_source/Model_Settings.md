@@ -33,7 +33,7 @@ EEGLAB menu item <font color=brown> Tools → Locate dipoles using DIPFIT
 → Head model and settings</font> to modify DIPFIT settings. This will
 pop up the window below:
 
-![750px](/assets/images/dipfit_settings_besa.png)
+![](/assets/images/dipfit_settings_besa.png)
 
 The top edit box, *Model (click to select)*, specifies the type of head
 model -- spherical model, template boundary element model (BEM), or custom model. The spherical
@@ -100,7 +100,7 @@ Press the *Look up locs* to look up your channel locations (by matching
 the channel labels) in the template channel location file. Select *Use MNI coordinate file for
 the BEM DIPFIT model*.
 
-![750px](/assets/images/chanlocs_bem.png)
+![](/assets/images/chanlocs_bem.png)
 
 Press *Ok* on the window above and the channel editor window. Then go back to the head model settings using the <font color=brown> Tools → Locate dipoles using DIPFIT
 → Head model and settings</font> menu item. The window below will pop up. You can see that
@@ -114,7 +114,7 @@ a vector comprised of nine fields *\[shiftx shifty shiftz pitch roll yaw scalex 
 
 In this case, the only alignment required is a 90-degree rotation between the electrode coordinates and the coordinate system of the head model. In case no co-registration/alignment is required, you may also select the *No coreg* checkbox.
 
-![750px](/assets/images/dipfit_settings_bem.png)
+![](/assets/images/dipfit_settings_bem.png)
 
 *Important note:* If you change your channel locations, make sure
 to go back to DIPFIT settings to update the coordinate transformation
@@ -134,7 +134,7 @@ with the head model.
 Again, use the <font color=brown> Tools → Locate dipoles using DIPFIT
 → Head model and settings</font> menu item. Click on *Manual coreg.* in the DIPFIT settings window. A window appears. Change the *resize* values to 1.5 for all axes to see the electrodes (we are undoing the alignment for illustrative purposes).
 
-![750px](/assets/images/coregister_new1.png)
+![](/assets/images/coregister_new1.png)
 
 Here, the electrode
 locations are plotted on the head model. Each small red or green sphere indicates an electrode location,

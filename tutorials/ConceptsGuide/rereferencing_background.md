@@ -32,7 +32,7 @@ re-referenced (inside or outside EEGLAB) to any other reference channel
 or channel combination.
 
 
-![400px]({{ site.baseurl }}/assets/images/Reref.jpg)
+![](/assets/images/Reref.jpg)
 
 
 Converting data, before analysis, from fixed or common reference (for
@@ -64,7 +64,7 @@ result obtained using another montage.
 
 
 
-![Image:Averef.gif]({{ site.baseurl }}/assets/images/Averef.gif)
+![Image:Averef.gif](/assets/images/Averef.gif)
 
 
 
@@ -87,7 +87,7 @@ Of note, no (valid) reference can be said to be wrong. Instead, each
 reference can be said to give another view of the data. However, the
 nature of the reference needs to be considered when evaluating (or, particularly, comparing) EEG results with those of the literature.
 
-![Image:Reref2.gif]({{ site.baseurl }}/assets/images/Reref2.gif)
+![Image:Reref2.gif](/assets/images/Reref2.gif)
 
 ## Note on re-referencing and ICA decompositions
 

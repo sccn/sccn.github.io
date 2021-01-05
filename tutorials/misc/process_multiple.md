@@ -23,7 +23,7 @@ them.
 To do so, use menu item <span style="color: brown">Dataset → Select multiple datasets</span>
 
 
-![200px]({{ site.baseurl }}/assets/images/Pop_multiple.gif)
+![](/assets/images/Pop_multiple.gif)
 
 
 
@@ -64,7 +64,7 @@ example, selecting the <span style="color: brown">Tools → Change sampling rate
 item pops up the following interface.
 
 
-![150px]({{ site.baseurl }}/assets/images/Pop_resample.gif)
+![](/assets/images/Pop_resample.gif)
 
 
 
@@ -75,7 +75,7 @@ datasets have to be resaved to disk (because at most one dataset can be
 present in memory), the following warning window appears:
 
 
-![375px]({{ site.baseurl }}/assets/images/Confirm_multiple.gif)
+![](/assets/images/Confirm_multiple.gif)
 
 
 
@@ -84,7 +84,7 @@ menu item <span style="color: brown>Tools \"> Run ICA</span>. The following
 window will appear.
 
 
-![475px]({{ site.baseurl }}/assets/images/Pop_runicamultiple.gif)
+![](/assets/images/Pop_runicamultiple.gif)
 
 
 

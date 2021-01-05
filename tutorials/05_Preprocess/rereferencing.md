@@ -15,7 +15,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data.set" which is distributed with
 the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
-![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
+![Image:Pop_loadset.png](/assets/images/Pop_loadset.png)
 
 Calculating average reference
 -------------------------
@@ -27,7 +27,7 @@ convert the dataset to average reference by calling the [pop_reref.m](http://scc
 first time for a given dataset, the following window pops up.
 
 
-![400px]({{ site.baseurl }}/assets/images/Figure43_pop_rerefgui.jpg)
+![](/assets/images/Figure43_pop_rerefgui.jpg)
 
 
 The (sample) data above were recorded using a mastoid reference. Since
@@ -78,23 +78,23 @@ press the *Look up locs* button to automatically look it up based on
 the 10-20 channel label (note that this will look up location for all
 electrodes).
 
-![Image:Pop_reref3.png]({{ site.baseurl }}/assets/images/Pop_reref3.png)
+![Image:Pop_reref3.png](/assets/images/Pop_reref3.png)
 
 Then press the *Set reference* pushbutton to set the reference to all
 channels to Cz (Cz need to be typed into the checkbox and the channel
 range needs to be entered manually as well).
 
-![Image:Pop_reref5.png]({{ site.baseurl }}/assets/images/Pop_reref5.png)
+![Image:Pop_reref5.png](/assets/images/Pop_reref5.png)
 
 Press OK to validate your new reference channel, close the channel editor windown.
 
 Now go back to the re-referencing interface using menu item <span style="color: brown">Tools → Re-reference the data</span>. Now click on the *Retain old reference* button and select the Cz electrode.
 
-![Image:Pop_reref6.png]({{ site.baseurl }}/assets/images/Pop_reref6.png)
+![Image:Pop_reref6.png](/assets/images/Pop_reref6.png)
 
 Press OK. The re-referencing interface should look like the one below.
 
-![Image:Pop_reref7.png]({{ site.baseurl }}/assets/images/Pop_reref7.png)
+![Image:Pop_reref7.png](/assets/images/Pop_reref7.png)
 
 Then press *OK* to actually re-reference your data. Your data is now average referenced and you have added back Cz (the original reference) to the data. The reason for this overly complex procedure is that the reference
 channel can have a location and that this location needs to be

@@ -36,7 +36,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item 
 
 After loading the data, to review the *STUDY* design, use the <span style="color: brown">Study → Select/Edit study design</span> menu item. The default design is to compare images containing *animals* with images containing *distractors*. Press *Ok* to close the window. 
 
-![px](/assets/images/studyprecomp2.png)
+![](/assets/images/studyprecomp2.png)
 
 Precomputing and plotting ERPs
 ------------------------------
@@ -46,7 +46,7 @@ Precomputing and plotting ERPs
 Before plotting the channel measures, you must precompute
 them using the <span style="color: brown">Study → Precompute channel measures</span> menu item, as shown below.
 
-![px](/assets/images/studyprecomp1.png)
+![](/assets/images/studyprecomp1.png)
 
 This GUI is divided into two parts, the top part, which specifies transformation to apply to the data before precomputing measures, and the second part, which specifies which measures to precompute.
 
@@ -71,16 +71,16 @@ compatible, more flexible, and allows extracting data trial measures dynamically
 After precomputing the channel measures, you may now plot them, using
 the <span style="color: brown">Study → Plot channel measures</span> menu item.
 
-![600px](/assets/images/studyplot5.png)
+![](/assets/images/studyplot5.png)
 
 All the measures described in the previous section, once computed, may be used
 for channel data visualization. Press the *Plot ERPs* button.
 
-![600px](/assets/images/studyplot2.png)
+![](/assets/images/studyplot2.png)
 
 Now, let's look at the plotting parameters. In the central column of the [pop_chanplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanplot.m) GUI, you may change plotting parameters using the *Params* button next to the measure you wish to plot. Press the *Params* button next to the *Plot ERPs* button. The following GUI pops up.
 
-![600px](/assets/images/studyplot3.png)
+![](/assets/images/studyplot3.png)
 
 This GUI contains several sections and lets you specify the time range for plotting ERPs and plot limits in microvolt. Please select the checkbox to overlay the two conditions on the same panel as shown above.
 
@@ -104,19 +104,19 @@ In the bottom *Multiple channels selection* section, you have the choice of:
 
 Press *Ok* and press the *Plot ERPs* button again. Now the ERPs for the two conditions are plotted together, making it easier to spot differences between them.
 
-![600px](/assets/images/studyplot4.png)
+![](/assets/images/studyplot4.png)
 
 ### Plotting single subject ERPs
 
 You may plot all subjects' ERPs by pressing the *Plot ERPs* pushbutton in
 the right column, obtaining a figure similar to the one below.
 
-![600px](/assets/images/studyplot6.png)
+![](/assets/images/studyplot6.png)
 
 To plot data for a single
 subject, press the *Plot ERPs* pushbutton on the right column for subject *gro*. A plot like the one below should appear. This is useful for reviewing an individual subject's ERPs.
 
-![600px](/assets/images/studyplot7.png)
+![](/assets/images/studyplot7.png)
 
 ### Plotting all channel ERPs
 
@@ -124,26 +124,26 @@ Finally, you may also plot all scalp channels simultaneously. To do
 this, click the push button *Sel. all* to select all data
 channels.
 
-![600px](/assets/images/studyplot10.png)
+![](/assets/images/studyplot10.png)
 
  Then again, press the *Plot ERPs* button in the left column.
 
-![600px](/assets/images/studyplot19.png)
+![](/assets/images/studyplot19.png)
 
 Clicking on individual ERPs will make a window plotting the selected
 channel ERP pop up. For example, click on channel *FP1*.
 
-![600px](/assets/images/studyplot20.png)
+![](/assets/images/studyplot20.png)
 
 ### Plotting ERP scalp topographies
 
 In the central column, press the *Params* button again. Enter the time range "300 400" in the *Time range* edit box. In the bottom section, select *Plot average topography over time range*. Then press *Ok*.
 
-![600px](/assets/images/studyplot11.png)
+![](/assets/images/studyplot11.png)
 
 Press the *Plot ERPs* button again to plot the scalp topographies for the average ERP between 300 and 400 ms. We can see a difference of potential between the two conditions in the parieto-central region, although we would need to run statistics to assess this difference is significant.
 
-![600px](/assets/images/studyplot12.png)
+![](/assets/images/studyplot12.png)
 
 Plotting other measures
 -----------
@@ -162,11 +162,11 @@ In addition to ERPs, below is the full list of measures you can compute:
 
 Select the <span style="color: brown">Study → Precompute measures</span> menu item. Tick the box and complete the parameters for all measures. Also, for the *ERSP* parameters, change the parameters *nfreqs* to 30 and *ntimesout* to 60 to speed up calculation, as shown below. Press *Ok*.
 
-![px](/assets/images/studyprecomp3.png)
+![](/assets/images/studyprecomp3.png)
 
 In general, we recommend selecting all measures when possible. Computing spectra and ERP-image is fast and should only take a few seconds. Computing ERSP and ITC should take from two to five minutes. Then again, select the <span style="color: brown">Study → Plot channel measures</span> menu item. All measures are now available for plotting.
 
-![600px](/assets/images/studyplot1.png) 
+![](/assets/images/studyplot1.png) 
 
 Note that the spectra, ERPimage, and ERSP/ITCs plotting options are similar to the ERP plotting options we looked at previously. For spectra, the menu is similar to the ERP's menu, with the difference that the top box lets you specify the frequency range you wish to plot. For ERSPs / ITCs, you can specify and time and frequency range as well as power and ITC limits. 
 
@@ -174,17 +174,17 @@ Note that the spectra, ERPimage, and ERSP/ITCs plotting options are similar to t
 
 Spectra are plotted in the same way as ERPs are. Let's first click on the *Params* button adjacent to the *Plot spectra* buttons and enter "1 40" for the frequency range. Press *Ok*.
 
-![600px](/assets/images/studyplot30.png) 
+![](/assets/images/studyplot30.png) 
 
 Select the first channel *FP1* and press *Plot spectra* in the left column of the [pop_chanplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanplot.m) GUI. The following plot pops up.
 
-![600px](/assets/images/studyplot31.png)
+![](/assets/images/studyplot31.png)
 
 ### Plotting ERP image
 
 Press the *Plot ERPimage* button.
 
-![600px](/assets/images/studyplot32.png) 
+![](/assets/images/studyplot32.png) 
 
 ERP images are plotted with parameters set when pre-computing measures. In particular, we set to use 10 rows. Setting a fixed number of rows allow obtaining matrices of the same size for all subjects and conditions and performing standard statistics as described in [Delorme et al. (2014)](https://pubmed.ncbi.nlm.nih.gov/25447029/).
 
@@ -192,19 +192,19 @@ ERP images are plotted with parameters set when pre-computing measures. In parti
 
 Press the *Plot ITC* button. This shows inter-trial coherence for the *animal* and *distractor* conditions. It appears that the ITC values are of lower amplitude for the *distractor* condition, although we would need to run statistics to confirm that observation.
 
-![600px](/assets/images/studyplot34.png) 
+![](/assets/images/studyplot34.png) 
 
 Select channel *Oz* and press the *Plot ERSPs* button. The following plot pops up. It shows an increase in power at low frequencies (below 7 Hz) and a decrease in power at about 10 Hz.
 
-![600px](/assets/images/studyplot33.png) 
+![](/assets/images/studyplot33.png) 
 
 As for ERPs and spectra, it is possible to plot scalp topographies in specific time  and frequency ranges. Let's select the *Params* button adjacent to the *Plot ERSP* buttons and enter "500 800" for the time range and 4 for the frequency range. Press *Ok*.
 
-![600px](/assets/images/studyplot35.png) 
+![](/assets/images/studyplot35.png) 
 
 Now press the *Plot ERSPs* button. The following scalp topographies are shown. It appears that spectral power is lower in the *distractor* than the *animal* condition. Again, we would need to run statistics to confirm this observation.
 
-![600px](/assets/images/studyplot36.png) 
+![](/assets/images/studyplot36.png) 
 
 Comparing different sets of pre-compute parameters
 ------

@@ -15,7 +15,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data.set" which is distributed with
 the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
-![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
+![Image:Pop_loadset.png](/assets/images/Pop_loadset.png)
 
 Automated artifact rejection with Clean Rawdata plugin
 -------------------
@@ -23,7 +23,7 @@ Automated artifact rejection with Clean Rawdata plugin
 <a href="https://github.com/sccn/clean_rawdata">Clean_rawdata</a> is an EEGLAB plugin installed by default with EEGLAB. It can remove both bad data channels and bad portions of data. Select menu item <span style="color: brown">Tools</span> and press sub-menu item
 <span style="color: brown">Reject data using Clean Rawdata and ASR</span>.
 
-![Image:pop_clean_rawdata_new.png]({{ site.baseurl }}/assets/images/pop_clean_rawdata_new.png)
+![Image:pop_clean_rawdata_new.png](/assets/images/pop_clean_rawdata_new.png)
 
 There are several sections to this menu indicating different sequential processes:
 - The top section is about high-pass filtering your data. By default, this option is not selected since EEGLAB assumes that you might have already filtered your data. However, if this is not the case, you may select that option. The frequency limits indicate the transition bandwidth for the high pass filter (so 0.25 to 0.75 Hz indicate a high-pass filter at 0.5 Hz).
@@ -38,7 +38,7 @@ There are several sections to this menu indicating different sequential processe
 
 The result of rejecting data on the tutorial dataset are shown below. We can see the rejected channels in red and the rejected data portion when all channels are marked in red in a given time segment. If correcting data using the ASR algorithm (not shown here), the old and new (corrected) data will be overlaid. We do not recommend using ASR correction (as opposed to rejection) on pre-recorded data because this functionality was primarily developed for real-time applications, and the consequences on EEG post-processing are not clearly understood -- although an increasing number of articles are being published on this subject.
 
-![Image:pop_clean_rawdata_new2.png]({{ site.baseurl }}/assets/images/pop_clean_rawdata_new2.png)
+![Image:pop_clean_rawdata_new2.png](/assets/images/pop_clean_rawdata_new2.png)
 
 Automated artifact rejection using other methods
 -------------------

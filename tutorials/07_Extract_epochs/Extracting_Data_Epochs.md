@@ -24,7 +24,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data.set" which is distributed with
 the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
-![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
+![Image:Pop_loadset.png](/assets/images/Pop_loadset.png)
 
 Extracting data epochs
 ---------
@@ -35,14 +35,14 @@ example, data epochs time locked to onsets of one class of experimental
 stimuli) by selecting <span style="color: brown"> Tools → Extract Epochs</span>
 from the EEGLAB main user interface.
 
-![Image:I51pop_epoch.png]({{ site.baseurl }}/assets/images/I51pop_epoch.png)
+![Image:I51pop_epoch.png](/assets/images/I51pop_epoch.png)
 
 
 Click on the upper right button, marked *"…"*, of the resulting [pop_epoch.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_epoch.m) window, which calls up a browser box listing the
 available event types.
 
 
-![Image:I51pop_epoch_event.png]({{ site.baseurl }}/assets/images/I51pop_epoch_event.png)
+![Image:I51pop_epoch_event.png](/assets/images/I51pop_epoch_event.png)
 
 
 Here, choose event type *square* (onsets of square target stimuli in
@@ -50,7 +50,7 @@ this experiment), and press *OK*. You may also type in the selected
 event type directly in the upper text box of the [pop_epoch.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_epoch.m) window.
 
 
-![Image:I51pop_epoch2.png]({{ site.baseurl }}/assets/images/I51pop_epoch2.png)
+![Image:I51pop_epoch2.png](/assets/images/I51pop_epoch2.png)
 
 
 Here, retain the default epoch limits (from 1 sec before to 2 sec
@@ -86,7 +86,7 @@ automatically. It is also possible to call it directly, by selecting
 menu item <span style="color: brown">Tools → Remove baseline</span>.
 
 
-![Image:Pop_removebase.png]({{ site.baseurl }}/assets/images/Pop_removebase.png)
+![Image:Pop_removebase.png](/assets/images/Pop_removebase.png)
 
 Here we may specify the baseline period in each epoch (in ms) -- the
 latency window in each epoch across which to compute the mean to
@@ -112,7 +112,7 @@ Extracting sub-epochs
 ---------
 Even after data epochs have been extracted, it is possible to extract sub-epochs with a reduced time range. This is done using the function [pop_select.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_select.m) called by selecting <span style="color: brown">Edit → Select data</span>. The example below would select data sub-epochs with the epoch time range from -500 ms to 1000 ms. 
 
-![Image:pop_select_reepoch.png]({{ site.baseurl }}/assets/images/pop_select_reepoch.png)
+![Image:pop_select_reepoch.png](/assets/images/pop_select_reepoch.png)
 
 Selecting data epochs
 ---------
@@ -132,7 +132,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 The simplest way to remove data epochs is by selecting epoch indices. 
 This is done using the function [pop_select.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_select.m) called by selecting <span style="color: brown">Edit → Select data</span>. The example below select epochs 1 to 10  (1:10 is Matlab notation to indicate 1, 2, 3, 4, 5, 6, 7, 8, 9, 10).
 
-![Image:pop_select_epochs.png]({{ site.baseurl }}/assets/images/pop_select_epochs.png)
+![Image:pop_select_epochs.png](/assets/images/pop_select_epochs.png)
 
 Altenatively, epochs 1 to 10 may be removed by checking the checkbox adjacent to the epoch edit box. 
 
@@ -142,7 +142,7 @@ half at position 2. In this section we will simply keep all data epochs at posit
 
 Select <span style="color: brown">Edit → Select epochs or events</span>. The [pop_selectevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_selectevent.m) window (below) will appear. Enter "1" in the textbox next to *position*, which will select all epochs in which the target appeared in position 1 (note the selected checkbox *Remove epochs not referenced by any selected event*). Press *Ok*.
 
-![Image:pop_select_epoch.png]({{ site.baseurl }}/assets/images/pop_select_epoch.png)
+![Image:pop_select_epoch.png](/assets/images/pop_select_epoch.png)
 
 Note: The option set above the *Cancel* button (above) *Remove epochs
 not referenced by any selected event*. If this checkbox were left unset
@@ -152,7 +152,7 @@ not remove epochs not containing those events.
 
 The confirmation window below appears. Press *Ok*.
 
-![Image:confirm_epoch.png]({{ site.baseurl }}/assets/images/confirm_epoch.png)
+![Image:confirm_epoch.png](/assets/images/confirm_epoch.png)
 
 Now a [pop_newset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newset.m) window for saving the new dataset pops up. We name this new dataset "Square, Position 1" and press *OK*.
 

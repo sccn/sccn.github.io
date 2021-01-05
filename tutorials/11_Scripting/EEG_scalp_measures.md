@@ -65,7 +65,7 @@ tftopo(allersp,alltimes(:,:,1),allfreqs(:,:,1),'mode','ave','limits', …
 
 The script produces the following figure.
 
-![375px](/assets/images/tftopo.png)
+![](/assets/images/tftopo.png)
 
 Note that this function may also combine ERSP outputs from different subjects and apply binary statistics.
 
@@ -87,7 +87,7 @@ figure; metaplottopo( EEG.data, 'plotfunc', 'newtimef', 'chanlocs', EEG.chanlocs
                    {EEG.pnts, [EEG.xmin EEG.xmax]*1000, EEG.srate, [0], 'plotitc', 'off', 'ntimesout', 50, 'padratio', 1});
 ```
 
-![400px](/assets/images/Newtimeftopo.png)
+![](/assets/images/Newtimeftopo.png)
 
 ### Plot ERP image
 
@@ -102,7 +102,7 @@ figure; metaplottopo( EEG.data, 'plotfunc', 'erpimage', 'chanlocs', EEG.chanlocs
          { eeg_getepochevent( EEG, {'rt'},[],'latency') linspace(EEG.xmin*1000, EEG.xmax*1000, EEG.pnts) '' 10 0 });
 ```
 
-![400px](/assets/images/Erpimagetopo.png)
+![](/assets/images/Erpimagetopo.png)
 
 Creating scalp topography animations
 ------------------

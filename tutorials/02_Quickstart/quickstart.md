@@ -25,7 +25,7 @@ existing dataset</font> under the top-level
 In Unix, the following window will pop up (the aspect ratio of this
 window may differ in Windows and MacOS):
 
-![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
+![Image:Pop_loadset.png](/assets/images/Pop_loadset.png)
 
 To learn how to create EEGLAB datasets from your data, see the
 tutorial on [Importing data and data
@@ -40,7 +40,7 @@ etc.
 
 
 
-![350px]({{ site.baseurl }}/assets/images/Eeglab_window_continuous_data.jpg)
+![](/assets/images/Eeglab_window_continuous_data.jpg)
 
 
 Exploring event values
@@ -54,7 +54,7 @@ Select menu <span style="color: brown">Edit → Event Values</span> to call up a
 window where we can read and edit these values:
 
 
-![Image:Figure pop editeventvals3.png]({{ site.baseurl }}/assets/images/Figure_pop_editeventvals3.png)
+![Image:Figure pop editeventvals3.png](/assets/images/Figure_pop_editeventvals3.png)
 
 
 
@@ -78,7 +78,7 @@ description of the current dataset. For the sample data, we entered
 the following description of the task. Press *SAVE* when done.
 
 
-![Image:I15about_this_dataset.png]({{ site.baseurl }}/assets/images/I15about_this_dataset.png)
+![Image:I15about_this_dataset.png](/assets/images/I15about_this_dataset.png)
 
 Scrolling through the data
 --------------------------
@@ -91,4 +91,4 @@ To scroll through the channel data of the current dataset, select
 the [eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
 the scrolling data display window below.
 
-![Image:Scrollchannelactivities1.png]({{ site.baseurl }}/assets/images/Scrollchannelactivities1.png)
+![Image:Scrollchannelactivities1.png](/assets/images/Scrollchannelactivities1.png)

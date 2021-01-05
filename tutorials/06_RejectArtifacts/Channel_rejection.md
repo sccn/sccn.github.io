@@ -27,7 +27,7 @@ The next section contains extensive details on the data scrolling interface. Her
 <span style="color: brown">Plot → Channel data (scroll)</span>. This pops up
 the scrolling data display window below. The window has been magnified vertically so channel indices may be visible.
 
-![Image:scroll_data_bad_chan3.png]({{ site.baseurl }}/assets/images/scroll_data_bad_chan3.png)
+![Image:scroll_data_bad_chan3.png](/assets/images/scroll_data_bad_chan3.png)
 
 Potentially bad channels are indicated above with red lines for channels 3, 73, 74, 75 (flat channels), and 45, 55, 65 (noisy channels). Channels 45 and 55 seem to have higher noise content than channel 65. The colored lines were added with Photoshop and are not supposed to be visible on the channel scrolling interface. When visually identifying bad channels, you should scroll through the whole dataset, as some channels may only be bad for short time periods. In this case, it might be preferable to remove the corrupted data segment than the channel itself. Removing a channel that is only transiently bad is also a trade-off with the number of channels available. When a large number of channels are available, one may easily remove a few channels.
 
@@ -38,11 +38,11 @@ Once you have identified bad channel indices or labels, you may use instructions
 Another way to identify bad channels is to plot the channels' spectra. To plot the channel spectra, select
 <span style="color: brown">Plot → Channel spectra and maps</span>. The interface below pops up. Simply press *Ok*.
 
-![Image:plot_spectrum_bad_chan.png]({{ site.baseurl }}/assets/images/plot_spectrum_bad_chan.png)
+![Image:plot_spectrum_bad_chan.png](/assets/images/plot_spectrum_bad_chan.png)
 
 The following window pops up.
 
-![Image:plot_spectrum_bad_chan2.png]({{ site.baseurl }}/assets/images/plot_spectrum_bad_chan2.png)
+![Image:plot_spectrum_bad_chan2.png](/assets/images/plot_spectrum_bad_chan2.png)
 
 In this window it is possible to click on individual channel traces, and the channel index is shown on the Matlab command line. In this case, we clearly see that the bottom 4 channels are outliers. Clicking on the channel traces reveals that these are channels 3, 73, 74, and 75. There are also two channels with high-frequency noise (the purple and blue trace). These are channels 45 and 55. This confirms bad channels visually identified in the previous section -- although in this case, channel 65 does not appear to be an outlier.
 
@@ -50,7 +50,7 @@ Reject channels by index or label
 --------------------------
 If you know which channels are bad, you using the function [pop_select.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_select.m) called by selecting <span style="color: brown">Edit → Select data</span>. In the example below, we remove channel 3, 45, 55, 73, 74, and 75 identified in the previous sections.
 
-![Image:pop_select_new.png]({{ site.baseurl }}/assets/images/pop_select_new.png)
+![Image:pop_select_new.png](/assets/images/pop_select_new.png)
 
 Press *Ok* to remove the channels. Now a [pop_newset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newset.m) window for saving the new dataset pops up. We name this new dataset "Dataset cleaned of bad channels" and press *OK*.
 
@@ -62,7 +62,7 @@ To find the correspondence you use the channel editor <span style="color: brown"
 <span style="color: brown">Plot → Channel locations → By name</span>,
 producing the figure below. 
 
-![425px]({{ site.baseurl }}/assets/images/Channellocationname.png)
+![](/assets/images/Channellocationname.png)
 
 Click on a channel label (for example the *POz*) to display its number (27).
 

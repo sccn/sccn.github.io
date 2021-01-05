@@ -353,13 +353,13 @@ eLoreta source
 localization may be performed using the <font color=brown>File
 →Locate component using eLoreta</font> menu item. Enter component *5* and press *Ok*.
 
-![750px](/assets/images/loreta1.png)
+![](/assets/images/loreta1.png)
 
 Result for this component is shown
 below. Like other DIPFIT functions, eLoreta relies on Fieldtrip functions.
 Refer to the Fieldtrip *ft_sourceanalysis.m* function help message for more information on eLoreta source localization.
 
-![750px](/assets/images/loreta2.png)
+![](/assets/images/loreta2.png)
 
 Using DIPFIT to fit independent MEG components
 ----
@@ -394,7 +394,7 @@ DIPFIT model and preferences as follows:
     folder. This file also contains gradiometer-specific information,
     including sensor orientation, that is not in the EEG structure.
 
-![800px](/assets/images/Dipole_settings_meg.gif)
+![](/assets/images/Dipole_settings_meg.gif)
 
 As for EEG data, you first need to scan a relatively coarse grid to find
 an appropriate starting position for each dipole, by calling the
@@ -416,7 +416,7 @@ plot the dipole positions on the scalp map as in EEG). It is strongly
 advisable to normalize dipole lengths when plotting MEG equivalent dipoles.
 
 
-![850px](/assets/images/Dipole_plot_meg.gif)
+![](/assets/images/Dipole_plot_meg.gif)
 
 
 

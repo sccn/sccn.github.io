@@ -29,7 +29,7 @@ Plotting the ERP data on a single axis with scalp maps
 We use here the tutorial dataset as it was after [extracting data epochs](/tutorials/07_Extract_epochs/Extracting_Data_Epochs.html). Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data_epochs_ica.set" located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
-![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset2.png)
+![Image:Pop_loadset.png](/assets/images/Pop_loadset2.png)
 
 ### Plotting all-channel ERPs
 
@@ -39,7 +39,7 @@ dataset, we retain the default settings in the resulting [pop_timtopo.m](http://
 pressing *OK*.
 
 
-![Image:Pop_timtopo.png]({{ site.baseurl }}/assets/images/Pop_timtopo.png)
+![Image:Pop_timtopo.png](/assets/images/Pop_timtopo.png)
 
 
 A figure (below) appears. Each trace plots the
@@ -49,7 +49,7 @@ ERP data variance). Alternatively, one or more exact scalp map
 latencies may be specified in the pop-window above.
 
 
-![Image:Erpplot1.png]({{ site.baseurl }}/assets/images/Erpplot1.png)
+![Image:Erpplot1.png](/assets/images/Erpplot1.png)
 
 
 The [pop_timtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timtopo.m) function plots the relative time courses of the
@@ -67,13 +67,13 @@ traces in their 2-D topographic arrangement.
 Select <span style="color: brown">Plot → Channel ERPs → In scalp array/rect. array</span>. Using the default settings and pressing *OK* in the window below.
 
 
-![Image:Pop_plottopo.png]({{ site.baseurl }}/assets/images/Pop_plottopo.png)
+![Image:Pop_plottopo.png](/assets/images/Pop_plottopo.png)
 
 
 This produces the following [pop_timtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timtopo.m) figure.
 
 
-![Image:Erpplot2.png]({{ site.baseurl }}/assets/images/Erpplot2.png)
+![Image:Erpplot2.png](/assets/images/Erpplot2.png)
 
 
 You may visualize a specific channel time course by
@@ -82,7 +82,7 @@ example, click on the ERP trace marked *POz* (above) to call up a
 full-sized view of this trace (as below).
 
 
-![Image:Zoom1.png]({{ site.baseurl }}/assets/images/Zoom1.png)
+![Image:Zoom1.png](/assets/images/Zoom1.png)
 
 
 Many EEGLAB plotting routines use the toolbox function [axcopy.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=axcopy.m) to pop up a sub-axis plotting window whenever the
@@ -99,13 +99,13 @@ select menu item <span style="color: brown"> Plot → Channel ERPs → In scalp/
 checkbox and press *OK*.
 
 
-![Image:Pop_topoplotrectarray.png]({{ site.baseurl }}/assets/images/Pop_topoplotrectarray.png)
+![Image:Pop_topoplotrectarray.png](/assets/images/Pop_topoplotrectarray.png)
 
 
 The resulting [pop_plottopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_plottopo.m) figure (below) appears.
 
 
-![Image:Erpplot3.png]({{ site.baseurl }}/assets/images/Erpplot3.png)
+![Image:Erpplot3.png](/assets/images/Erpplot3.png)
 
 
 As in the previous plot, clicking on a trace above pops up a full
@@ -124,14 +124,14 @@ any numeric Matlab expression. For example, instead of *0 100 200 300
 400 500*, try *0:100:500*. Even more complicated expressions, for
 example *-6000+3\*(0:20:120)*, are interpreted correctly.
 
-![Image:641pop_topoplot.png]({{ site.baseurl }}/assets/images/641pop_topoplot.png)
+![Image:641pop_topoplot.png](/assets/images/641pop_topoplot.png)
 
 The window (below) then appears, containing ERP
 scalp maps at the specified latencies. Here, the plot grid has 3
 columns and 2 rows; other plot geometries can be specified in the gui
 window above via the *Plot geometry* text box.
 
-![Image:2dscalpmap.png]({{ site.baseurl }}/assets/images/2dscalpmap.png)
+![Image:2dscalpmap.png](/assets/images/2dscalpmap.png)
 
 
 Plotting a series of 3-D ERP scalp maps
@@ -143,7 +143,7 @@ window (below) will pop up, asking you to create and save a new 3-D
 head map *3-D spline file*. This process must be done only once for
 every montage. Click *OK* to begin this process.
 
-![Image:3dscalpmessage.png]({{ site.baseurl }}/assets/images/3Dscalpmessage.png)
+![Image:3dscalpmessage.png](/assets/images/3Dscalpmessage.png)
 
 The window below will pop up. Because, we use template electrode locations, the 
 conversion with between channel location and 3-D headplot coordinate (*Talairach-model transformation matrix* entry) is automatically filled in. If this is not the case, refer to the following section on how to align the 3-D head plot to your electrode coordinate system.
@@ -152,14 +152,14 @@ Enter trial latencies to be
 plotted (*0:100:500* below indicating latencies *0, 100, 200, 300, 400,*
 and *500* ms) and press *OK*.
 
-![575px]({{ site.baseurl }}/assets/images/pop_headplot1.png)
+![](/assets/images/pop_headplot1.png)
 
 Now, the 3-D plotting function [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m), will create
 the 3-D channel locations spline file. A progress bar will pop up to
 indicate when this process will be finished. When the 3-D spline file
 has been generated, the following plot will appear.
 
-![525px]({{ site.baseurl }}/assets/images/pop_headplot_res2.png)
+![](/assets/images/pop_headplot_res2.png)
 
 As usual, clicking on a head plot will make it pop up in a sub-axis
 window in which it can be rotated using the mouse. Note that to select
@@ -172,19 +172,19 @@ default the function uses the 3-D spline file you have generated
 above. Enter latencies to be displayed and the [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m)
 'view' option (as in the example below), and press *OK*.
 
-![575px]({{ site.baseurl }}/assets/images/pop_headplot_view.png)
+![](/assets/images/pop_headplot_view.png)
 
 
 The [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m) window (below) will then appear. You may
 also rotate the individual heads using the mouse. This is often
 necessary to best show the illustrated spatial distribution.
 
-![400px]({{ site.baseurl }}/assets/images/pop_headplot_res1.png)
+![](/assets/images/pop_headplot_res1.png)
 
 You may also use a different head template. For example, use again the <span style="color: brown"> Plot → ERP map series → In 3-D</span> menu item, and select the second template model *Colin27headmesh.mat* in the *3-D mesh file* list box (you may also browse for your own 3-D mesh file using the *Browse other* button). Again select latencies to be
 plotted (0:100:500) and press *Ok*. Now the result is being plotted on a different head model.
 
-![525px]({{ site.baseurl }}/assets/images/pop_headplot_res3.png)
+![](/assets/images/pop_headplot_res3.png)
 
 
 ### Co-registration of channel locations with head model
@@ -219,13 +219,13 @@ coreg.* push button. A window appears explaining how to perform the
 co-registration.
 
 
-![550px]({{ site.baseurl }}/assets/images/Coregister.gif)
+![](/assets/images/Coregister.gif)
 
 
 Pressing *OK* will cause the co-registration window below to open.
 
 
-![475px]({{ site.baseurl }}/assets/images/Coregister2.gif)
+![](/assets/images/Coregister2.gif)
 
 
 In the window above, the red electrodes are those natively associated

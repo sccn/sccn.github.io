@@ -24,7 +24,7 @@ components in your decomposition),
 We again press *OK*.
 
 
-![px]({{ site.baseurl }}/assets/images/Component_cross-coherence_gui.jpg)
+![](/assets/images/Component_cross-coherence_gui.jpg)
 
 
 
@@ -41,7 +41,7 @@ plotted as latency delay in ms, using the minimum-phase assumption. See
 and the plotted variables).
 
 
-![425px]({{ site.baseurl }}/assets/images/Crossf.gif)
+![](/assets/images/Crossf.gif)
 
 
 
