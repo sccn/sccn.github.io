@@ -4,7 +4,7 @@ title: Comparisons
 summary: EEGLAB vs. Commercial EEG Software
 parent: Other documents
 ---
-EEGLAB vs Commercial EEG software packages  <font color=green>- DONE</font>
+EEGLAB vs Commercial EEG software packages  <span style="color: green">- DONE</span>
 ====
 
 <blockquote>

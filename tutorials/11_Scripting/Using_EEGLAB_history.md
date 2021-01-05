@@ -82,7 +82,7 @@ scrolling data display below.
 
 ![Image:Scrollchannelactivities1.png](/assets/images/Scrollchannelactivities1.png)
 
-Now use menu item <font color=brown>File → History script → Save session history script</font> to save the command history into an ascii-text Matlab
+Now use menu item <span style="color: brown">File → History script → Save session history script</span> to save the command history into an ascii-text Matlab
 script file. Save the file into the current directory or into a
 directory in the Matlab command path (i.e., in the list returned by
 *\>\> path*). Save the session command
@@ -133,8 +133,8 @@ These are functions that take as input the EEG structure. The [EEGLAB functions]
 
 For more detailed information, you
 must study the Matlab help messages for these functions via the following EEGLAB menu selections.
-For [pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m), via <font color=brown> Help → EEGLAB
-functions → Interactive pop_functions</font> or via <font color=brown> Help → EEGLAB menus</font>. For [eeg_store.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_store.m), via <font color=brown> Help → EEGLAB advanced → Admin functions</font>. You may also use the Matlab command line help, as shown below:
+For [pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m), via <span style="color: brown"> Help → EEGLAB
+functions → Interactive pop_functions</span> or via <span style="color: brown"> Help → EEGLAB menus</span>. For [eeg_store.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_store.m), via <span style="color: brown"> Help → EEGLAB advanced → Admin functions</span>. You may also use the Matlab command line help, as shown below:
 
 ``` matlab
 help pop_loadset
@@ -165,10 +165,10 @@ modified the current dataset, as well as calls to plotting functions.
 Making use of the *EEG.history* field is the easiest way to start learning
 about EEGLAB scripting. For example, import a binary dataset (for
 instance, [TEST.CNT](http://sccn.ucsd.edu/eeglab/download/TEST.CNT)), we used the following menu items:
-1. Use menu item <font color=brown>File → Import data → Using EEGLAB functions and plugins → From Neuroscan .CNT file</font> to import the file (use all  defaults)
-2. Use menu item <font color=brown>Tools → Change sampling rate</font> and change the sampling rate to 250 Hz, keep all defaults to create a new dataset
-3. Use menu item <font color=brown>Tools → Filter the data → Basic FIR filter</font> and high pass filter at 1 Hz (first edit box), keep all defaults to create a new dataset
-4. Use menu item <font color=brown>Plot → Channel data (scroll)</font> to visualise the data
+1. Use menu item <span style="color: brown">File → Import data → Using EEGLAB functions and plugins → From Neuroscan .CNT file</span> to import the file (use all  defaults)
+2. Use menu item <span style="color: brown">Tools → Change sampling rate</span> and change the sampling rate to 250 Hz, keep all defaults to create a new dataset
+3. Use menu item <span style="color: brown">Tools → Filter the data → Basic FIR filter</span> and high pass filter at 1 Hz (first edit box), keep all defaults to create a new dataset
+4. Use menu item <span style="color: brown">Plot → Channel data (scroll)</span> to visualise the data
 
 Then type *\>\> EEG.history* on the
 command line. You should obtain the following text:
@@ -187,7 +187,7 @@ ans =
 ```
 
 Alternatively, you can save the current dataset history by selecting the menu
-item <font color=brown>File → Save history → Save dataset history script</font>.
+item <span style="color: brown">File → Save history → Save dataset history script</span>.
 
 These are all the commands executed in EEGLAB after importing the raw data file.
 Note that the *session* history we saved in the previous section is the history
@@ -196,7 +196,7 @@ The *EEG.history* field only contains the modification to the current dataset.
 
 In this case, we should have three datasets in EEGLAB, and this is the history field of dataset number three. If you
 switch to dataset one (the original continuous dataset), by selecting menu
-item <font color=brown>Datasets → Dataset 1</font>, and then type *\>\>
+item <span style="color: brown">Datasets → Dataset 1</span>, and then type *\>\>
 EEG.history* on the command line (as shown below), you will retrieve the same list of
 commands as above except for the last four. Dataset one is a copy saved in memory just
 after the dataset was loaded. Dataset three
@@ -212,7 +212,7 @@ ans =
      EEG = eeg_checkset( EEG );
 ```
 
-Repeating the process after selecting <font color=brown>Datasets → Dataset 2</font>, we obtain
+Repeating the process after selecting <span style="color: brown">Datasets → Dataset 2</span>, we obtain
 
 ```matlab
 EEG.history
@@ -337,7 +337,7 @@ maintain consistency between the two main EEGLAB structures (*EEG* and
 *EEG* structure values from a script or the Matlab command line, one
 must respect some simple rules.
 
-If the EEGLAB option to store more than one dataset may in memory is selected, selected via the <font color=brown>File → Preferences</font> menu item (first checkbox), then all current EEGLAB datasets are
+If the EEGLAB option to store more than one dataset may in memory is selected, selected via the <span style="color: brown">File → Preferences</span> menu item (first checkbox), then all current EEGLAB datasets are
 stored in the structure array *ALLEEG,*. If you modify a dataset, you
 should take care to copy the modified EEG dataset into *ALLEEG*.
 
@@ -413,7 +413,7 @@ work with EEG events.
 
 The commands above are handy if the option to maintain multiple
 datasets is on. If the option to maintain multiple datasets is off
-(via the <font color=brown>File → Preferences</font> menu item),
+(via the <span style="color: brown">File → Preferences</span> menu item),
 the *ALLEEG* variable is not used, and *EEG* is the only variable that
 contains dataset information. When using this option, you can only
 process one dataset at a time (the goal here is to use less memory and
@@ -509,7 +509,7 @@ If you are simply interested in processing the current dataset, they can be safe
 compactified, without the comments and the additional data managing commands.
 
 *Important note:* As briefly mentioned previously, functions called
-from the main EEGLAB interactive window display the name of the underlying *pop_* function in the window title bar. For instance, selecting <font color=brown>File → Load an existing dataset</font> to read in an existing dataset uses EEGLAB function [pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m).
+from the main EEGLAB interactive window display the name of the underlying *pop_* function in the window title bar. For instance, selecting <span style="color: brown">File → Load an existing dataset</span> to read in an existing dataset uses EEGLAB function [pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m).
 
 ```matlab
 eeglab_path = fileparts(which('eeglab.m'));

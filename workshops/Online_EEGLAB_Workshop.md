@@ -17,7 +17,7 @@ plus more recently recorded talks and Youtube tutorials. Note that the
 wiki page for each EEGLAB workshop also contain the slides of the
 presentations.
 
-## <font color=darkred> List of Youtube Tutorial Videos </font>
+## <span style="color: darkred"> List of Youtube Tutorial Videos </span>
 
 
 <img align="center" width="200" height="200" src="/assets/images/EEGLABWorkshops11.jpg">
@@ -92,7 +92,7 @@ presentations.
     files](https://youtu.be/fB6TJjhO674)
 -   [Part 4: Statistical analysis](https://youtu.be/y8jK-bW1U3A)
 
-## <font color=darkred>EEGLAB 2016 workshop at UCSD</font>
+## <span style="color: darkred">EEGLAB 2016 workshop at UCSD</span>
 
 Videos of the workshop talks are available for streaming through the
 links below. The talk videos are more recent than those from the 2010
@@ -126,7 +126,7 @@ worthwhile to compare the 2010 and 2016 versions.
 -   [SIFT Intro: Building and Visualizing Source Connectivity by Tim
     Mullen](https://www.youtube.com/watch?v=6_WW6EMHmWo)
 
-## <font color=darkred>EEGLAB 2010 workshop at UCSD</font>
+## <span style="color: darkred">EEGLAB 2010 workshop at UCSD</span>
 
 Videos of the workshop talks are available for streaming through the
 links below. The video web pages will also contain relevant questions
@@ -187,7 +187,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
     by Christian Kothe.
 -   [Imaging human agency with Mobile brain/body imaging (MoBI) and the Mobilab toolbox (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)
 
-## <font color=darkred>Matlab and matrix operations tutorials</font>
+## <span style="color: darkred">Matlab and matrix operations tutorials</span>
 
 If you are new to Matlab or need a refresher please consult the material on the [Getting started with Matlab page](/workshops/tutorial_matlab)
 
@@ -196,11 +196,11 @@ portions of the workshop are largely dedicated to writing EEGLAB Matlab
 scripts, so if you are not yet able to understand Matlab syntax, you
 will not be able to make good use of these sections.
 
-## <font color=darkred>Relevant publications demonstrating EEGLAB capabilities</font>
+## <span style="color: darkred">Relevant publications demonstrating EEGLAB capabilities</span>
 
 You can consult a list of relevant EEGLAB papers [here](/workshops/reading_material) 
 
-## <font color="darkred">Material to download</font>
+## <span style="color: "darkred"">Material to download</span>
 
 To access the talk slides and videos, use the links in the Program
 listing above. 

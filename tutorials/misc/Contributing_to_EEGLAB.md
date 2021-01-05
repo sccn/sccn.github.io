@@ -6,7 +6,7 @@ grand_parent: Tutorials
 nav_order: 7
 
 ---
-Contributing to EEGLAB <font color=green> - Done</font>
+Contributing to EEGLAB <span style="color: green"> - Done</span>
 ========================
 {: .no_toc }
 

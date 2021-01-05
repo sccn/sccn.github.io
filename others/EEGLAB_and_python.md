@@ -4,7 +4,7 @@ title: EEGLAB and Python
 parent: Other documents
 ---
 
-EEGLAB and Python <font color=green> - Done</font>
+EEGLAB and Python <span style="color: green"> - Done</span>
 ===================
 
 EEGLAB does not work natively in Python because EEGLAB runs on

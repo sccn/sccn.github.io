@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB mailing lists
 parent: Other documents
 ---
-EEGLAB mainling lists <font color=green> - Done</font>
+EEGLAB mainling lists <span style="color: green"> - Done</span>
 ====
 
 ## The EEGLAB Discussion List

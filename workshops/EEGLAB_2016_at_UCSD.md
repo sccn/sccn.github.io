@@ -14,8 +14,8 @@ pictures.
 The 22nd EEGLAB Workshop
 ========================
 
-<font color=blue>La Jolla, California, USA - November 17-21, 2016
-following the Society for Neuroscience meeting in San Diego</font>
+<span style="color: blue">La Jolla, California, USA - November 17-21, 2016
+following the Society for Neuroscience meeting in San Diego</span>
 The 22nd EEGLAB Workshop will take place from Thursday evening, November
 17th through Monday, November 21st at San Diego Supercomputer Center of
 the University of California San Diego, La Jolla, CA, USA. Participants

@@ -18,8 +18,8 @@ last morning.
 Seventeenth EEGLAB Workshop
 ===========================
 
-<font color=blue>San Diego, USA - November 14-18, 2013 following the
-Society for Neuroscience meeting in San Diego</font>
+<span style="color: blue">San Diego, USA - November 14-18, 2013 following the
+Society for Neuroscience meeting in San Diego</span>
 The 17th EEGLAB Workshop took place from Thursday evening, November 14th
 through Monday, November 18th at San Diego Supercomputer Center of the
 University of California San Diego, La Jolla, CA, USA. Participants will

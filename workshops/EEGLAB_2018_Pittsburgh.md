@@ -14,8 +14,8 @@ Twenty-seventh EEGLAB Workshop
 
 The 27th EEGLAB Workshop will take place September 4 (Tuesday) and 5
 (Wednesday) preceding the ECNS/ISNIP meeting in
-[<font color=blue>Pittsburgh,
-Pennsylvania</font>](https://en.wikipedia.org/wiki/Pittsburgh), formerly
+[<span style="color: blue">Pittsburgh,
+Pennsylvania</span>](https://en.wikipedia.org/wiki/Pittsburgh), formerly
 known as Steel City now reinvigorated and home to important
 universities. Participants will be expected to bring laptops with Matlab
 installed so as to be able to participate in the practical sessions. The

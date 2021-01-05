@@ -42,7 +42,7 @@ Workshop Program (with corresponding PDFs)
 <font color = green>
 
 
-19:45 -- Dinner (included in registration)</font>
+19:45 -- Dinner (included in registration)</span>
 
 20:45 – 21:30 -- Optional beginner Matlab course by Ramon Martinez
 

@@ -118,13 +118,13 @@ To fit dipole models to ICA components in an EEGLAB dataset, you must at the ver
 1. Import channel locations using the <span style="color: brown">Edit → Channel locations</span> menu item.
 2. High pass filter the data using the <span style="color: brown">Tools → Filter the data → Basic FIR filter</span> menu item.
 3. Run independent component analysis using the <span style="color: brown">Tools → Decompose data by ICA</span> menu item.
-4. Select head model using the <font color=brown> Tools → Locate dipoles using DIPFIT → Head model and settings</font> menu item.
+4. Select head model using the <span style="color: brown"> Tools → Locate dipoles using DIPFIT → Head model and settings</span> menu item.
 
 Refer to the corresponding section of the tutorial for more information on these steps. To illustrate dipole fitting, we will use the tutorial dataset [eeglab_dipole.set](https://sccn.ucsd.edu/eeglab/download/eeglab_dipole.set). This sample dataset contains a channel location file,  pre-computed ICA weights, and head model.
 
 Select menu item <span style="color: brown">File → load existing dataset</span> and select the tutorial file "eeglab_dipoles.set" downloaded above. Then press *Open*.
 
-Before running DIPFIT, we must select a head model. Select the EEGLAB menu item <font color=brown> Tools → Locate dipoles using DIPFIT → Head model and settings</font>, as shown below. Press *Ok* to use all defaults. For additional information on this topic, see the [head model selection](/tutorials/09_source/Model_Settings.html) section of the tutorial.
+Before running DIPFIT, we must select a head model. Select the EEGLAB menu item <span style="color: brown"> Tools → Locate dipoles using DIPFIT → Head model and settings</span>, as shown below. Press *Ok* to use all defaults. For additional information on this topic, see the [head model selection](/tutorials/09_source/Model_Settings.html) section of the tutorial.
 
 ![400px\|border](/assets/images/dipfitnew3.png)
 
@@ -161,7 +161,7 @@ yet, but they are acceptable as starting locations for the non-linear
 optimization. Starting from these best grid locations will speed up
 finding the final best-fitting solution. To scan dipoles on a coarse grid, select
 the <font color = brown>Tools → Locate dipoles using DIPFIT →
-Coarse fit (grid scan)</font> menu item. The window
+Coarse fit (grid scan)</span> menu item. The window
 below will pop up:
 
 ![400px\|border](/assets/images/dipfitnew3bis.png)
@@ -274,8 +274,8 @@ of the interactive interface.
 Automated dipole fitting performs the grid search and the non-linear
 fitting on several components without human intervention. To
 find a best-fitting equivalent dipole for component of your choice, select
-the EEGLAB <font color=brown>Tools → Locate dipoles using
-DIPFIT → Autofit (coarse fit, fine fit, plot)</font> menu item. Set the *Component indices* to *5*, enter
+the EEGLAB <span style="color: brown">Tools → Locate dipoles using
+DIPFIT → Autofit (coarse fit, fine fit, plot)</span> menu item. Set the *Component indices* to *5*, enter
 *100* in the *rejection threshold* edit box so the iterative solution is
 computed regardless of the residual variance for the coarse fit, and
 check the *Plot resulting dipoles* checkbox to plot component dipoles at
@@ -350,8 +350,8 @@ the same for eLoreta as for dipole source localization.
 If you have not done so already, load the [eeglab_dipole.set](https://sccn.ucsd.edu/eeglab/download/eeglab_dipole.set) tutorial dataset in EEGLAB. Select menu item <span style="color: brown">File → load existing dataset</span> and select the tutorial file "eeglab_dipoles.set" downloaded above. Then press *Open*.
 
 eLoreta source
-localization may be performed using the <font color=brown>File
-→Locate component using eLoreta</font> menu item. Enter component *5* and press *Ok*.
+localization may be performed using the <span style="color: brown">File
+→Locate component using eLoreta</span> menu item. Enter component *5* and press *Ok*.
 
 ![](/assets/images/loreta1.png)
 
@@ -410,7 +410,7 @@ automatically by pop_dipfit_gridsearc.m).
 Then as in EEG dipole fitting,
 use the <span style="color: brown">Tools → Locate dipoles using DIPFIT → Fine fit (iterative)</span> menu item to optimize dipole positions nonlinearly.
 
-Finally, you may plot dipoles on the subject MRI using menu item <font color=brown>Tools → Locate dipoles using DIPFIT → Plot component dipoles</font>, as shown below. The corresponding scalp map is also shown
+Finally, you may plot dipoles on the subject MRI using menu item <span style="color: brown">Tools → Locate dipoles using DIPFIT → Plot component dipoles</span>, as shown below. The corresponding scalp map is also shown
 on the right. Because of co-registration issues, it is not possible to
 plot the dipole positions on the scalp map as in EEG). It is strongly
 advisable to normalize dipole lengths when plotting MEG equivalent dipoles.
@@ -446,7 +446,7 @@ Like other EEGLAB functions, DIPFIT functions are standalone and may
 also be called from the command line. Note that whenever you call some of the
 DIPFIT menu items from EEGLAB, a text command is stored in the EEGLAB history
 as for any other EEGLAB menu item. The two DIPFIT menu items that generate an EEGLAB history command that can be re-used in batch
-scripts are <font color=brown>Tools → Locate dipoles using DIPFIT → Autofit</font> and <font color=brown>Tools → Locate dipoles using DIPFIT → Head model and settings</font>. Type *eegh* on the Matlab command line to
+scripts are <span style="color: brown">Tools → Locate dipoles using DIPFIT → Autofit</span> and <span style="color: brown">Tools → Locate dipoles using DIPFIT → Head model and settings</span>. Type *eegh* on the Matlab command line to
 view the command history. 
 
 DIPFIT creates a *EEG.dipfit* sub-structure within the main *EEG*

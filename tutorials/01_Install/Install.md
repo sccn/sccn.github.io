@@ -67,8 +67,8 @@ You may want to add the EEGLAB folder to the Matlab search path so the
 next time you start Matlab, you will be able to directly open EEGLAB.
 
 If you started Matlab through its graphical interface, go to the
-<span style="color: brown">file</span> menu item and select <font color=brown>set
-path</font>. This will open the following window.
+<span style="color: brown">file</span> menu item and select <span style="color: brown">set
+path</span>. This will open the following window.
 
 
 ![Matlab set path gui](/assets/images/Matlab_set_path_gui.png)

@@ -18,8 +18,8 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 
 In the rest of the tutorial, we will use the convention:
 <span style="color: brown">Menu_item → Submenu_item</span> to refer to a menu
-selection (e.g., here select submenu item <font color=brown>Load
-existing dataset</font> under the top-level
+selection (e.g., here select submenu item <span style="color: brown">Load
+existing dataset</span> under the top-level
 <span style="color: brown">File</span> submenu).
 
 In Unix, the following window will pop up (the aspect ratio of this

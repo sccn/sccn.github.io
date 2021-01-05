@@ -3,7 +3,7 @@ layout: default
 title: Download EEGLAB
 parent: Other documents
 ---
-Download EEGLAB <font color=green>- DONE</font>
+Download EEGLAB <span style="color: green">- DONE</span>
 ====
 
 Go to the [EEGLAB download

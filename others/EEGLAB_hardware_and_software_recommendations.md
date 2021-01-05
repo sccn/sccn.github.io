@@ -4,7 +4,7 @@ title: Hard/software requirements
 summary: EEGLAB hardware and software recommendations
 parent: Other documents
 ---
-EEGLAB hardware and software requirements <font color=green> - Done</font>
+EEGLAB hardware and software requirements <span style="color: green"> - Done</span>
 ====
 
 Desirable hardware configurations for working with EEGLAB

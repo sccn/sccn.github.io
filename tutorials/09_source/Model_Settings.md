@@ -29,8 +29,8 @@ In this section, we use the tutorial dataset after [extracting data epochs](/tut
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data_epochs_ica.set" located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
 Before running DIPFIT, we must select some input parameters. Select the
-EEGLAB menu item <font color=brown> Tools → Locate dipoles using DIPFIT
-→ Head model and settings</font> to modify DIPFIT settings. This will
+EEGLAB menu item <span style="color: brown"> Tools → Locate dipoles using DIPFIT
+→ Head model and settings</span> to modify DIPFIT settings. This will
 pop up the window below:
 
 ![](/assets/images/dipfit_settings_besa.png)
@@ -102,8 +102,8 @@ the BEM DIPFIT model*.
 
 ![](/assets/images/chanlocs_bem.png)
 
-Press *Ok* on the window above and the channel editor window. Then go back to the head model settings using the <font color=brown> Tools → Locate dipoles using DIPFIT
-→ Head model and settings</font> menu item. The window below will pop up. You can see that
+Press *Ok* on the window above and the channel editor window. Then go back to the head model settings using the <span style="color: brown"> Tools → Locate dipoles using DIPFIT
+→ Head model and settings</span> menu item. The window below will pop up. You can see that
 the matrix to align the electrode coordinate to the head model (edit box *Matrix to align chan. locs with head model*) mainly contains -pi/2 (-1.5708), which correspond to a 90-degree rotation in the axial plane (also known as
 the transverse or horizontal plane). This is because EEGLAB assumes that the nose direction is
 along a specific axis, while the head model uses a different convention. The Talairach transformation matrix,
@@ -131,8 +131,8 @@ locations to the head model. Instead, it allows you to automatically align your
 electrode locations to matching template electrode locations associated
 with the head model.
 
-Again, use the <font color=brown> Tools → Locate dipoles using DIPFIT
-→ Head model and settings</font> menu item. Click on *Manual coreg.* in the DIPFIT settings window. A window appears. Change the *resize* values to 1.5 for all axes to see the electrodes (we are undoing the alignment for illustrative purposes).
+Again, use the <span style="color: brown"> Tools → Locate dipoles using DIPFIT
+→ Head model and settings</span> menu item. Click on *Manual coreg.* in the DIPFIT settings window. A window appears. Change the *resize* values to 1.5 for all axes to see the electrodes (we are undoing the alignment for illustrative purposes).
 
 ![](/assets/images/coregister_new1.png)
 

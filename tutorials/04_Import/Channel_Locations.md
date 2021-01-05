@@ -120,8 +120,8 @@ Reopen <span style="color: brown">Edit → Channel locations</span> if you close
 
 To visualize the 2-D locations of the channels, press *Plot
 2-D* above the *Read Locations* button. Else, during an EEGLAB session, you may refer to a plot showing the channel locations
-by selecting <font color=brown>Plot → Channel location → By
-name</font>. 
+by selecting <span style="color: brown">Plot → Channel location → By
+name</span>. 
 Either command pops up a window like that below. We recommend using the default settings.
 
 *Note*: In
@@ -372,7 +372,7 @@ Adjusting scanned 3-D channel locations
 This section does not use the tutorial dataset. It intents to provide
 guidelines for importing channel locations measured in Cartesian
 coordinates using 3-D tracking devices (such as Polhemus). Use the
-EEGLAB menu <font color=brown>Edit → Channel location</font> or type
+EEGLAB menu <span style="color: brown">Edit → Channel location</span> or type
 the following command on the Matlab command line:
 
 ```matlab

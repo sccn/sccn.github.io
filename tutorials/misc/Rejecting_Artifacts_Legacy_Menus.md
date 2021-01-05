@@ -9,7 +9,7 @@ Legacy methods for rejecting artifacts in continuous and epoched data
 
 This other [section](/tutorials/RejectArtifacts/) of the tutorial contain methods that are currently recommended for rejecting artifacts.
 
-<span style="color: red>The current section refers to obsolete methods that are no longer recommended for artifact rejections, given new more efficient methods are now available. In EEGLAB 2019.1 and later version, make sure to select the option <i>Show all menus from previous versions of EEGLAB</i> in EEGLAB menu item <font color=brown>File > Preference</font"> to be able to use the tools on this page.</span>
+<span style="color: red>The current section refers to obsolete methods that are no longer recommended for artifact rejections, given new more efficient methods are now available. In EEGLAB 2019.1 and later version, make sure to select the option <i>Show all menus from previous versions of EEGLAB</i> in EEGLAB menu item <span style="color: brown">File > Preference</font"> to be able to use the tools on this page.</span>
 
 Strategy: The approach used in EEGLAB for artifact rejection is to use
 'statistical' thresholding to 'suggest' epochs to reject from analysis.
@@ -246,8 +246,8 @@ button.
 
 Note: Calling function [pop_rejtrend.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejtrend.m) either directly from
 
-the command line, or by selecting <font color=brown>Tools > Reject data
-epochs > Reject flat line data</font>, allows specifying additional
+the command line, or by selecting <span style="color: brown">Tools > Reject data
+epochs > Reject flat line data</span>, allows specifying additional
 parameters.
 
 ### Rejecting improbable data
@@ -412,8 +412,8 @@ To compare the effects of two different rejection thresholds, the user
 can plot the currently and previously marked data epochs in different
 colors. To do this, change the option in the long rectangular tab under
 *Plotting options* (at the buttom of the figure). Select
-<font color=brown>Show previous and new trials marked for rejection by
-this measure selected above</font>. For instance, using '' abnormal
+<span style="color: brown">Show previous and new trials marked for rejection by
+this measure selected above</span>. For instance, using '' abnormal
 distribution'', enter the following parameters and press *Scroll
 data*.
 
@@ -440,8 +440,8 @@ and can not be removed manually in the plot window.
 ### Inspecting results of all rejection measures
 
 To visually inspect data epochs marked for rejection by different
-rejection measures, select <font color=brown>Show all trials marked for
-rejection measures by the measure selected above or checked below</font>
+rejection measures, select <span style="color: brown">Show all trials marked for
+rejection measures by the measure selected above or checked below</span>
 in the long rectangular tab under '' Plotting options''. Then press
 *CALC/PLOT* under *Find abnormal spectra*. Rejected windows are divided
 into several colored patches, each color corresponding to a specific
@@ -475,8 +475,8 @@ Notes and strategy
     the original dataset and recall which trials were rejected.
 -   To actually reject the marked trials either use the option *Reject
     marked trials* at the buttom of the main rejection window, or use
-    the main eeglab window options <font color=brown>Tools > Reject
-    data epochs > Reject marked epochs</font>.
+    the main eeglab window options <span style="color: brown">Tools > Reject
+    data epochs > Reject marked epochs</span>.
 -   All these rejection measures are useful, but if one does not know
     how to use them they may be inefficient. Because of this, we have
     not provided standard rejection thresholds for all the measures. In
@@ -552,8 +552,8 @@ independent components of the data. As independent components tend to
 concentrate artifacts, we have found that bad epochs can be more easily
 detected using independent component activities. The functions described
 above work exactly the same when applied to data components as when they
-are applied to the raw channel data. Select <font color=brown>Tools >
-Reject data using ICA > Reject data (all methods)</font>. We suggest
+are applied to the raw channel data. Select <span style="color: brown">Tools >
+Reject data using ICA > Reject data (all methods)</span>. We suggest
 that the analysis be done iteratively in the following seven steps:
 
 1.  Visually reject unsuitable (e.g. paroxysmal) portions of the

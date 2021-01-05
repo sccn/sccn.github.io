@@ -77,8 +77,8 @@ Number of Channels to Display
 --------------------------
 To adjust the number of channels displayed, select
 [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
-item <font color=brown>Settings → Number of channels to
-display</font> and enter the desired number of channels to display in
+item <span style="color: brown">Settings → Number of channels to
+display</span> and enter the desired number of channels to display in
 the screen (for instance "16").
 
 
@@ -113,7 +113,7 @@ The [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
 window also allows you to reject (erase) arbitrary portions of the
 continuous data. The function
 [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) can be
-called from both menu items <font color=brown>Tools → Inspect/reject data by eye</font> and <font color=brown>Plot → Channel data (scroll)</font>. Depending on which menu item you select, a warning message may appears; click on *Continue*. 
+called from both menu items <span style="color: brown">Tools → Inspect/reject data by eye</span> and <span style="color: brown">Plot → Channel data (scroll)</span>. Depending on which menu item you select, a warning message may appears; click on *Continue*. 
 
 To erase a selected portion of the data, first drag the
 mouse (holding down the left mouse button) horizontally across the

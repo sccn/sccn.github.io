@@ -63,7 +63,7 @@ resolution as shown below.
 
 Note that functions [pop_spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_spectopo) and [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) also work with epoched data.
 
-Another menu item, <font color=brown>Plot → Channel properties</font>, plots the scalp location of a selected channel, its
+Another menu item, <span style="color: brown">Plot → Channel properties</span>, plots the scalp location of a selected channel, its
 activity spectrum, and an [ERP-image
 plot](/Chapter_08:_Plotting_ERP_images "wikilink") of its activity in
 single-epochs.

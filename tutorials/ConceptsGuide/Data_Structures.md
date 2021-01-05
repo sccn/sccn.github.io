@@ -372,7 +372,7 @@ ans =
 ``` 
 
 Note that for an epoched dataset this information has no direct meaning.
-Instead, select menu item <font color=brown>Edit → Event values</font> (calling function [pop_editeventvals.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_editeventvals.m)) to display the
+Instead, select menu item <span style="color: brown">Edit → Event values</span> (calling function [pop_editeventvals.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_editeventvals.m)) to display the
 latency of this event in seconds relative to the epoch time-locking
 event. From the command-line, you may use the function [eeg_point2lat.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_point2lat.m) to convert the given latencies from data
 points relative to the beginning of the data to latencies in seconds
@@ -576,7 +576,7 @@ milliseconds with respect to the epoch time-locking event.
 When extracting epochs, it is possible to remove all but a selected set
 of events from the data. For example, if there is only one event in an
 epoch, the epoch table may look more readable. Using the tutorial
-dataset after extracting data epochs, select item <font color=brown>Edit → Select epoch/event</font> in the menu, and then enter (in the pop-up
+dataset after extracting data epochs, select item <span style="color: brown">Edit → Select epoch/event</span> in the menu, and then enter (in the pop-up
 window below) 'rt' in the *Event type* field, then select *Keep only
 selected events and remove all other events* instead of *Remove epochs
 not referenced by any event*. Press *OK* to create a new data set. Note:

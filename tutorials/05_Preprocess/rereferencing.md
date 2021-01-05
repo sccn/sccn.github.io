@@ -62,7 +62,7 @@ declare Cz as the reference in the channel editor.
 
 For this example, we will use the [TEST.CNT](http://sccn.ucsd.edu/eeglab/download/TEST.CNT) dataset. Save the file on your hard drive and import it in EEGLAB using menu item <span style="color: brown">File → Import data → Using EEGLAB functions and plugins → From Neuroscan .CNT file</span>.
  
-To declare Cz as a reference, call the channel editor window using menu item <font color=brown>Edit → Channel location</font>, go to the last
+To declare Cz as a reference, call the channel editor window using menu item <span style="color: brown">Edit → Channel location</span>, go to the last
 channel and press the *Append* button. An empty channel is created.
 Fill up the channel label (enter "Cz" in the "Channel label" edit box)
 and enter the position of the channel if you have it. For instance,

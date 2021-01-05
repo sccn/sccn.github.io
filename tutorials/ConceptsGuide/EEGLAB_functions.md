@@ -80,7 +80,7 @@ EEG = pop_loadset;
 ```
 
 An interactive window will pop up to ask for the dataset name, just as iT would do if the [pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m) command were issued from
-the EEGLAB menu via <font color=brown>File → Load dataset</font>. 
+the EEGLAB menu via <span style="color: brown">File → Load dataset</span>. 
 
 ![Image:Pop_loadset.png](/assets/images/Pop_loadset2.png)
 
@@ -111,8 +111,8 @@ This command will highpass filter the data above 1 Hz. To see which parameter th
 help. Keep in mind that all the interactive EEGLAB pop_ functions work
 this way. You may copy commands from the EEG history fields and modify
 the function input as desired. Function help messages are available
-either from the EEGLAB graphic interface <font color=brown>Help →
-EEGLAB functions → Interactive pop_ functions</font>, from the
+either from the EEGLAB graphic interface <span style="color: brown">Help →
+EEGLAB functions → Interactive pop_ functions</span>, from the
 [Internet](http://sccn.ucsd.edu/eeglab/allfunctions/), or from the
 command line (type *\>\> help pop_xxx*).
 

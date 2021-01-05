@@ -286,11 +286,11 @@ panel*) shows no significant effect. The ERSP image
 
 Component head plots
 ---------------
-When using [ICA to remove/subtract artifacts](/tutorials/06_RejectArtifacts/RunICA.html), we have plotted 2-D component scalp maps with menu item <font color=brown>Plot → Component maps → In 2-D</font>.
+When using [ICA to remove/subtract artifacts](/tutorials/06_RejectArtifacts/RunICA.html), we have plotted 2-D component scalp maps with menu item <span style="color: brown">Plot → Component maps → In 2-D</span>.
 
 Using EEGLAB, you may also plot a 3-D head plot of a component
-topography by selecting <font color=brown>Plot → Component maps → In
-3-D</font>. This calls the [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) function. The function may
+topography by selecting <span style="color: brown">Plot → Component maps → In
+3-D</span>. This calls the [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) function. The function may
 automatically use the spline file you have generated when plotting ERP
 3-D scalp maps. Select components *1, 2, 3, 4, 5* (below), set the *heaplot options* to " 'view', [0 90] " and press *OK*.
 

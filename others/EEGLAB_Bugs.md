@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB Bugs
 parent: Other documents
 ---
-EEGLAB BUGS <font color=green>- DONE</font>
+EEGLAB BUGS <span style="color: green">- DONE</span>
 ===
 
 Dealing with EEGLAB bugs and suggestions

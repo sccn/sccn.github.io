@@ -64,8 +64,8 @@ eegdata = rand(32, 256*100);
 ```
 
 
-To import these data, select the menu item <font color=brown>File →
-Import data → from ASCII/float file or Matlab array</font>. Click on option Matlab variable from the list and set the
+To import these data, select the menu item <span style="color: brown">File →
+Import data → from ASCII/float file or Matlab array</span>. Click on option Matlab variable from the list and set the
 name to *eegdata*. Set the sampling frequency to 256 Hz, press *OK*. Other
 dataset parameters will be automatically adjusted.
 
@@ -108,8 +108,8 @@ by samples). Put this data in a Matlab variable.
 myeeg = mydata.eeg; % This is an example, the name of the field "eeg" might differ for you
 ```
 
-Then select EEGLAB the <font color=brown>File → Import data →
-from ASCII/float file or Matlab array</font> menu item and enter “myeeg” in the
+Then select EEGLAB the <span style="color: brown">File → Import data →
+from ASCII/float file or Matlab array</span> menu item and enter “myeeg” in the
 first edit box (the previous section has more details on importing
 Matlab arrays).
 
@@ -162,8 +162,8 @@ this example). Then concatenate the arrays.
 ```
 
 Finally, you will need to import concatenated data averages into EEGLAB as Matlab arrays.
-Select menu item <font color=brown>File → Importing data → From
-ascii/float file or Matlab array</font> as shown in one of the previous sections.
+Select menu item <span style="color: brown">File → Importing data → From
+ascii/float file or Matlab array</span> as shown in one of the previous sections.
 
 ### Other data formats
 

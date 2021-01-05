@@ -20,8 +20,8 @@ the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
 Change the sampling rate
 ---------------------------------
 
-The most common use for <font color=brown>Tools → Change sampling
-rate</font> is to reduce the sampling rate to save memory and disk
+The most common use for <span style="color: brown">Tools → Change sampling
+rate</span> is to reduce the sampling rate to save memory and disk
 storage. A [pop_resample.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_resample.m) window pops up, asking for the new
 sampling rate. The function uses Matlab *resample()* (in the Signal
 Processing toolbox-- if you do not have this toolbox, it will use the

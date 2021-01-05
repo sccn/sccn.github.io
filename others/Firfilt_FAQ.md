@@ -4,7 +4,7 @@ title: Firfilt FAQ
 parent: Other documents
 
 ---
-EEGLAB Filtering FAQ <font color=green> - Done</font>
+EEGLAB Filtering FAQ <span style="color: green"> - Done</span>
 ===
 {: .no_toc }
 

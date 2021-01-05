@@ -45,7 +45,7 @@ train or by car.
 
 
 <font color = purple>19:00 - 19:30 -- Welcome comments and
-orientation</font>
+orientation</span>
 
 <span style="color: green">19:30 -- Dinner on your own</span>
 

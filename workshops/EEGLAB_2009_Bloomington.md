@@ -13,8 +13,8 @@ Seventh EEGLAB Workshop
 ![left](/assets/images/Epic.gif) 
 
 <span style="color: red">7th EEGLAB Workshop</span>
-<font color=blue>Bloomington, IN
-Apr 20–22, 2009</font>
+<span style="color: blue">Bloomington, IN
+Apr 20–22, 2009</span>
 (Preceeding the EPIC conference)
 
 
@@ -35,7 +35,7 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: purple"> 9:30 – 10:00 am -- EEGLAB overview (Arnaud Delorme)</span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_eeglaboverview.pdf))
 
-<font color = green>-- Break--</font>
+<font color = green>-- Break--</span>
 
 <span style="color: purple"> 10:20 – 11:05 am -- ICA theory (Arnaud Delorme)</span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/ica_indiana.pdf))
 
@@ -43,7 +43,7 @@ Workshop Program (with corresponding PDFs)
 
 
 
-<font color = green>-- 12:00-1:00 Lunch --</font>
+<font color = green>-- 12:00-1:00 Lunch --</span>
 
 **IC Analysis**
 
@@ -55,7 +55,7 @@ Workshop Program (with corresponding PDFs)
 <span style="color: purple">2:20 – 2:40 pm -- Questions and general discussion (All)</span>
 
 
-<font color = green>-- Break--</font>
+<font color = green>-- Break--</span>
 
 <span style="color: purple">3:00 – 3:50 pm -- Bootstrap statistics (Arnaud Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_statistics.pdf)) </span>
 
@@ -86,15 +86,15 @@ Workshop Program (with corresponding PDFs)
 
 
 <font color = orange>1:10 – 2:00 pm – Time/frequency analysis (Arnaud
-Delorme)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_timefreq.pdf) [(ZIPfor PPT)](https://sccn.ucsd.edu/githubwiki/files/lecture_timefreq.zip)
+Delorme)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_timefreq.pdf) [(ZIPfor PPT)](https://sccn.ucsd.edu/githubwiki/files/lecture_timefreq.zip)
 
-<font color = purple>2:00 – 2:50 pm – Forward and inverse models (Scott Makeig)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/dipfit_theory_indiana.pdf)
+<font color = purple>2:00 – 2:50 pm – Forward and inverse models (Scott Makeig)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/dipfit_theory_indiana.pdf)
 
-<font color = green>-- Break -- </font>
+<font color = green>-- Break -- </span>
 
-<font color = orange>3:10 – 4:00 pm -- Dipole modeling with the DIPFIT plugin (Julie Onton)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_6_dipfitcoreg.pdf)
+<font color = orange>3:10 – 4:00 pm -- Dipole modeling with the DIPFIT plugin (Julie Onton)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_6_dipfitcoreg.pdf)
 
-<font color = orange>4:00 – 4:50 pm -- Building plugins (Arnaud Delorme)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab_plugins.pdf)
+<font color = orange>4:00 – 4:50 pm -- Building plugins (Arnaud Delorme)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab_plugins.pdf)
 
 <u><span style="color: blue">Wednesday, April 22</span></u>
 
@@ -120,8 +120,8 @@ Delorme)</font> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_timefre
 
 <span style="color: green">-- 12:10-1:10 Lunch --</span>
 
-<font color=purple>1:10 – 2:00 pm -- Mining event-related brain dynamics
-II (Scott Makeig)</font>
+<span style="color: purple">1:10 – 2:00 pm -- Mining event-related brain dynamics
+II (Scott Makeig)</span>
 
 2:00– 5:00 pm – Group research (Datasets and study questions provided)
 

@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB and MEG data
 parent: Other documents
 ---
-EEGLAB and MEG data <font color=green> - Done</font>
+EEGLAB and MEG data <span style="color: green"> - Done</span>
 ====================
 
 EEGLAB supports reading most MEG data formats through the File-IO

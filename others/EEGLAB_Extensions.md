@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB Extensions
 parent: Other documents
 ---
-EEGLAB extensions and plug-ins <font color=green> - Done</font>
+EEGLAB extensions and plug-ins <span style="color: green"> - Done</span>
 ====
 
 EEGLAB extensions or plug-ins allow users to build and publish new data
