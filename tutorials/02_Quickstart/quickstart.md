@@ -8,7 +8,7 @@ nav_order: 2
 Quickstart guide
 ================
 
-This page let you import and vizualise an EEG dataset. It is a way to quickly get started.
+This page lets you import and visualizes an EEG dataset. It is a way  to get started quickly.
 
 Load the sample EEGLAB dataset
 ---------------------------
@@ -27,14 +27,14 @@ window may differ in Windows and MacOS):
 
 ![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
 
-To learn how to create EEGLAB datasets from your own data, see the
+To learn how to create EEGLAB datasets from your data, see the
 tutorial on [Importing data and data
-events](/A01:_Importing_Continuous_Epoched_Data "wikilink").
+events](/tutorials/04_Import/Importing_Continuous_and_Epoched_Data.html).
 
-Select the tutorial file "eeglab_data.set" which is distributed with
+Select the tutorial file "eeglab_data.set", which is distributed with
 the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
-When the dataset is loaded by EEGLAB, the main EEGLAB window shows
+After EEGLAB loads the dataset, the main EEGLAB window shows
 relevant information about it -- its number of channels, sampling rate,
 etc.
 
@@ -69,11 +69,11 @@ tutorial.
 About this dataset
 ------------------
 
-Here we describe how to edit and view the text field which describes the
-current dataset, and is stored as a part of that dataset.
+Here we describe how to edit and view the text field, which describes the
+current dataset and is stored as a part of that dataset.
 
 Select <span style="color: brown">Edit → About this dataset</span>. A
-text-editing window pops up which allows the user to edit a
+text-editing window pops up, which allows the user to edit a
 description of the current dataset. For the sample data, we entered
 the following description of the task. Press *SAVE* when done.
 
@@ -88,7 +88,7 @@ continuous EEG channel data.
 
 To scroll through the channel data of the current dataset, select
 <span style="color: brown">Plot → Channel data (scroll)</span>. This pops up
-the [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
+the [eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
 the scrolling data display window below.
 
 ![Image:Scrollchannelactivities1.png]({{ site.baseurl }}/assets/images/Scrollchannelactivities1.png)

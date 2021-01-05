@@ -6,6 +6,8 @@ grand_parent: Tutorials
 ---
 Plotting ICA components
 ================================
+{: .no_toc }
+
 We use ICA to remove/subtract [artifacts](/tutorials/06_RejectArtifacts/RunICA.html). ICA may also be used to find brain sources. In this section of the tutorial, we will assess which components contribute the most to the data.
 
 <details open markdown="block">

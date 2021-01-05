@@ -18,7 +18,11 @@ BINICA https://github.com/sccn/binica/wiki
 
 - Revisit aspect ratio of GUIs on Windows and Mac
 
+- search for wikilinks
+
 - Replace
+
+carthesian with cartesian
 
 plugin by plug-in
 

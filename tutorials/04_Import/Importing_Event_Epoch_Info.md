@@ -6,19 +6,17 @@ grand_parent: Tutorials
 ---
 Importing and managing event and epoch information
 ===========
+{: .no_toc }
 
-This tutorial describe how to import, modify,
-select, and visualize EEGLAB events within the EEGLAB graphic
-interface.
+This tutorial describes importing, modifying, selecting, and visualizing EEGLAB events within the EEGLAB graphic interface.
 
 EEGLAB counts records of the time and nature of experimental events to
-analyze the EEG data. This section details how to load in event
-information which coded in one of the data channels, stored in a Matlab
-array or separate ascii file. When event information is read in, EEGLAB copies the resulting EEG.event structure to a back-up
-(*ur*) copy, EEG.urevent and creates links from each event to the
+analyze the EEG data. This section details how to load in events' information embeded in one of the data channels, stored in a Matlab
+array, or separate ASCII file. Once event information is imported, EEGLAB copies the resulting EEG.event structure to a back-up
+(*ur*) copy, EEG.urevent, and creates links from each event to the
 corresponding urevent. This allows the user to select events based on
 the previous (or future) event *context*, even *after* data containing
-some events has been rejected from the data as described in the event scripting section of the tutorial.
+some events has been rejected from the data, as described in the event scripting section of the tutorial.
 
 <details open markdown="block">
   <summary>
@@ -32,16 +30,16 @@ some events has been rejected from the data as described in the event scripting 
 Importing events
 ------------
 
-Events can be imported into EEGLAB by selecting menu item <font color=brown>File → Import event info</font>. Different methods to import events are detailed below.
+Events can be imported into EEGLAB by selecting the <font color=brown>File → Import event info</font> menu item. Different methods to import events are detailed below.
 
 ### Importing events from a data channel
 
-Often, information about experimental events are recorded onto one of
-the rows (channels) of the EEG data matrix. Once more we create
+Information about experimental events is often recorded onto one of
+the rows (channels) of the EEG data matrix. Once more, we create
 simulated data to illustrate how to import events from a data channel.
 Assuming an EEG dataset with 33 rows (channels), out of which the first
-32 are channels and the last (33) is an event channel with values 1
-(stimulus onset), 2 (subject response), and 0 (other), Matlab code for
+32 are data channels, and the last (33) is an event channel with values 1
+(stimulus onset), 2 (subject response), and 0 (other). Matlab code for
 generating such data follows (to test, copy and paste the code to the
 Matlab command line):
 
@@ -53,16 +51,16 @@ eegdata(33,\[100:256:256\*100\]+round(rand\*128)) = 2; % simulating reaction tim
 ```
 
 After copying the code above to Matlab and importing the array *eegdata*
-into EEGLAB as a test dataset using menu item <font color=brown>File → Import data →
-from ASCII/float file or Matlab array</font>, select
-menu item <font color=brown>File → Import event info → from data
-channel</font> to call function [pop_chanevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanevent.m) .
+into EEGLAB as a test dataset using the <font color=brown>File → Import data →
+from ASCII/float file or Matlab array</font> menu item, select
+<font color=brown>File → Import event info → from data
+channel</font> menu item to call function [pop_chanevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanevent.m) .
 
 ![Image:Ii21pop_chanevent.jpg](/assets/images/Ii21pop_chanevent.jpg)
 
 Enter *33* as the event channel and set the edge-extract type to *up
 (leading)* (Note: place the mouse over the text *Transitions to extract*
-to see contextual help).
+to see contextual help messages).
 
 Press *OK*. Now, the event information will have been imported into the
 test EEGLAB dataset. At the same time, channel 33 will have been deleted
@@ -76,8 +74,7 @@ stored in an ASCII text file,
 [tutorial_eventtable.txt](http://sccn.ucsd.edu/eeglab/download/tutorial_eventtable.txt).
 This text file is composed of three columns, the first containing the
 latency of the event (in seconds), the second the type of the event, and
-the third a parameter describing the event (for example, the position of
-the stimulus). For example, the top lines of such a file might be:
+the third a parameter describing the event (for example, the stimulus position). For example, the top lines of such a file might be:
 
 <table>
 <tr>
@@ -128,36 +125,35 @@ Matlab array or ASCII file</font>
 ![Image:Pop_importevent.jpg](/assets/images/Pop_importevent.jpg)
 
 Browse for the tutorial text file [tutorial_eventtable.txt](http://sccn.ucsd.edu/eeglab/download/tutorial_eventtable.txt), set the number of header lines to 1
-(for the first line of the file, which gives the column field names) and
+(for the first line of the file, which gives the column field names), and
 set the input fields (i.e., the names associated with the columns in the
 array) to *latency type position*. If these field names are quoted or
 separated by commas, these extra characters are ignored. (NOTE: It is
-NECESSARY to use the names *latency* and *type* for two of the fields.
-These two field names are used by EEGLAB to extract, sort and display
-events. These fields must be lowercase since Matlab is case sensitive.)
-In this interactive window the input *Event indices* and checkbox
-*Append events?* can be used to insert new events or replace a subset of
-events with new events (for instance for large EEG files which may have
+necessary to use the names *latency* and *type* for two of the fields.
+EEGLAB uses these two field names to extract, sort, and display events. These fields must be lowercase since Matlab is case sensitive.)
+In this interactive window, the input *Event indices* and checkbox
+*Append events?* may be used to insert new events or replace a subset of
+events with new events (for instance, for large EEG files, which may have
 several event files).
 
 #### Important note about aligning events
 
-An essential input above is *Align event latencies to data events* which
+An essential input above is *Align event latencies to data events*, which
 aligns the first event latency to the existing event latency and checks
 latency consistency. A value of *NaN* (Matlab for not-a-number)
 indicates that this option is ignored (as in the example above).
 However, for most EEG data, the EEG is recorded with basic events stored
-in an event channel (see Import events from a data channel above) for
+in an event channel (see Import events from a data channel above), for
 instance. Detailed event information is recorded separately in a text
-file: as a consequence the events recorded in the text file have to be
+file: as a consequence, the events recorded in the text file have to be
 aligned with the events recorded in the EEG.
 
 To do so, set the input for *Align event latencies to data events* to 0
-if the first event in the text file correspond to the first event
-recorded in the EEG (i.e., if the offset between the two is 0). Setting
+if the first event in the text file corresponds to the first event
+recorded in the EEG (i.e. if the offset between the two is 0). Setting
 this value to 1 indicates that event 1 in the event text file
 corresponds to event number 2 in the EEG data. Here, negative values can
-also be used to indicate that events in text file start before those
+also be used to indicate that events in the text file start before those
 recorded in the EEG).
 
 When aligning events, as shown in the following section, the function
@@ -165,11 +161,8 @@ displays the latencies of the two event types, so the user can check
 that they are aligned based on his knowledge of the experiment (for
 instance, there may be more events in the text file than recorded in the
 EEG).
-The last checkbox allow to automatically adjust the sampling rate of the
-new events so they best align with the closest old event. This may take
-into account small differences in sampling rates that could lead to big
-differences by the end of the experiment (e.g., a 0.01% clock difference
-during would lead to a 360-ms difference after one hour if not
+The last checkbox automatically adjusts the new events' sampling rate, so they best align with the closest old events. This may correct small differences in sampling rates that could lead to significant
+differences by the end of the experiment (e.g., a 0.01% clock difference would lead to a 360-ms difference after one hour if not
 corrected).
 
 ### Importing events from a Presentation file
@@ -197,9 +190,9 @@ Then the following window pops-up</font>
 
 ![Image:Pop_importpres2.jpg](/assets/images/Pop_importpres2.jpg)
 
-Scroll file fields to select which field (i.e., file column) contain the
-event type and which column contain the event latency. The default is
-fine with this specific file, so simply press *OK*. Matlab then returns:
+Scroll file fields to select which field (i.e., file column) contains the
+event type and which column contains the event latency. The default value is
+fine for this specific file, so simply press *OK*. Matlab then returns:
 
 ```matlab
 Replacing field 'Event Type' by 'type' for EEGLAB compatibility
@@ -232,37 +225,35 @@ events from the binary EEG file), it is always possible to suppress
 events manually or to import the presentation file as a text file, as
 described in the previous section. Note that some Presentation files
 that contain comments at the end of the file may not be supported. If
-you are not able to import a Presentation file, try removing any
+importing a Presentation file fails, try removing any
 comments from the end of the file. If it still does not work, try
-importing the Presentation file as a text file as described in the
+importing the Presentation file as a text file, as described in the
 previous section.
 
-Note: the presentation file contains more events (such as reaction time)
-compared to the raw EEG data file (this is actually why we are importing
-such file). The function will automatically ignore additional events
-when events are aligned.
+Note: The presentation file contains more events (such as reaction time)
+than the raw EEG data file, which is why we are importing
+it. Once events are aligned, the function will automatically remove duplicate events.
 
 ### Importing E-Prime information files
 
 The E-prime format is highly configurable, so you may use the ASCII
-importer to import data files. Use menu item <font color=brown>File → Import event info →
-from E-Prime ASCII (text) file</font>, which is the same as calling the <font color=brown>Import data → From ASCII/float file or Matlab array</font> menu item. Configure the
-interface with the name of the E-Prime columns to import the event file. It might be necessary in
-some cases to export the E-Prime to a tab-delimited file first (for
-example in a spreadsheet application) and edit some of the columns
-information that might not be read correctly under Matlab. Send us your
-E-Prime files (at eeglab at sccn.ucsd.edu) so we may tailor the ASCII
+importer to import data files. Use the <font color=brown>File → Import event info →
+from E-Prime ASCII (text) file</font> menu item, which is the same as calling the <font color=brown>Import data → From ASCII/float file or Matlab array</font> menu item. Configure the
+interface with the name of the E-Prime columns to import the event file. In some cases, it might be necessary to export the E-Prime to a tab-delimited file first (for
+example, in a spreadsheet application) and edit some of the column
+information that might not be read correctly under Matlab. Please send us your
+E-Prime files (at eeglab at sccn.ucsd.edu), so we may tailor the ASCII
 import menu for E-Prime files.
 
 ### Importing Neuroscan .DAT information files
 
-A sample .DAT file [TEST.DAT](http://sccn.ucsd.edu/eeglab/download/TEST.DAT) associated a sample the continuous [TEST.CNT](http://sccn.ucsd.edu/eeglab/download/TEST.CNT) are available for download for testing purposes. Both the .DAT file and the .CNT files must contains the same number of events (in this case 100). After importing the CNT file into EEGLAB, to import the .DAT file linked , select
+A sample .DAT file [TEST.DAT](http://sccn.ucsd.edu/eeglab/download/TEST.DAT) associated with the sample [TEST.CNT](http://sccn.ucsd.edu/eeglab/download/TEST.CNT) continuous file are available for download for testing purposes. Both the .DAT file and the .CNT files must contain the same number of events (in this case 100). After importing the CNT file into EEGLAB, to import the .DAT file, select
 menu item <font color=brown>File → Import epoch info → From Neuroscan .DAT info file</font>. After selecting the file to import, a second window appears:
 
 ![Image:Pop_loaddat.gif](/assets/images/Pop_loaddat.gif)
 
 In .DAT files, there must be a reaction time (in milliseconds) for each
-epoch. However, depending on experiment design there may be no reaction
+epoch. However, depending the experiment design, there may be no reaction
 time in a given epoch. Then one has to use a code value for reaction
 time latencies in these epochs. For instance, you might decide that a
 value of *1000* (ms) would indicate that the subject did not respond.
@@ -272,7 +263,7 @@ not enter anything here.)
 ### Importing epoch info (Matlab array or text file) into EEGLAB
 
 Importing epoch information means that data epochs have already been
-extracted from the continuous EEG data, and that the Matlab array or
+extracted from the continuous EEG data and that the Matlab array or
 text epoch information file has one entry per epoch. To illustrate how
 to import such a file or array, we will once more create some simulated
 EEG data.
@@ -283,9 +274,9 @@ eegdata = rand(32, 256, 10); % 32 channels, 256 time points per epoc
 
 Select menu item <font color=brown>File → Import data → From ascii/float data file or Matlab array</font>. Refer to the [previous section](http://localhost:4000/tutorials/Import/Importing_Continuous_and_Epoched_Data.html) of the tutorial. 
 
-Note that the Matlab array, being 3-D, is
+The Matlab array, being 3-D, is
 automatically imported as data epochs: the first dimension is
-interpreted as data channels, the second as data points and the third as
+interpreted as data channels, the second as data points, and the third as
 data epochs or trials (e.g., our sample data matrix above contains 10
 epochs). Let us imagine that our simulated EEG data came from a simple
 stimulus/response task, with subject responses being either 'correct' or
@@ -318,20 +309,20 @@ array or ascii file</font>, bringing up the following window:
 Above, browse for the *tutorial_epoch.txt* file, set the input fields to
 *epoch response rt* (where rt is an acronym for 'reaction time'). The
 only one of these fields that contains latency information is *rt*, so
-it is entered to the as input to the *Field name(s) containing
+it is entered as input to the *Field name(s) containing
 latencies* query box. This file (see above) has 1 header line, as we
 need to specify in the *Number of file header lines to ignore* box.
-Finally the reaction times are recorded in milliseconds, which we
+Finally, the reaction times are recorded in milliseconds, which we
 indicate as *1E-3* (i.e., one-thousandth of a second). Note that the
 last entry, *Remove old epoch ...*, allows the user to import other
-information later if it is unset. Press *OK* when done.  Now select
-menu item <font color=brown>Edit → Event values</font> to inspect what
+information later if it is unset. Press *OK*, when done.  Now select
+the <font color=brown>Edit → Event values</font> menu item to inspect what
 happened to the reaction time information (use the arrow to move to the
 second event):
 
 ![Image:Ii33pop_editeventvals.jpg](/assets/images/Ii33pop_editeventvals.jpg)
 
-As shown above, when epoch information was imported, events with type
+As shown above, when epoch information was imported, events with the type
 named *rt* were created and assigned a latency. If we had had several
 columns containing latency information, the function would have created
 several types.
@@ -340,7 +331,7 @@ Note: For convenience, standard epoch information is
 available from the command line in the variable *EEG.epoch*. Also, event
 information available in *EEG.event* can be used for script or command
 line data processing. See the events script writing
-tutorials for more information.
+tutorials for more details.
 
 Managing events
 ------------------------
@@ -354,14 +345,14 @@ Functions that process continuous data ([pop_spectopo.m](http://sccn.ucsd.edu/ee
 [pop_resample.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_resample.m), [pop_mergeset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_mergeset.m)) will take
 into account 'boundary' events (data events added by EEGLAB to note
 portions of the data that have been removed or at 'hard' boundaries
-between concatenated datasets).  The event *type* field can be used to extract data epochs and events can also be used for making ERP-image plot using the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) function. Finally event information is extensively used for group level analysis.
+between concatenated datasets).  The event *type* field can be used to extract data epochs, and events can also be used for making ERP-image plots using the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) function. Finally, event information is extensively used for group-level analysis.
 
 ### Plotting events
 
-First start EEGLAB, and load dataset *eeglab_data.set* in the
-*sample_data* folder using menu item <font color=brown>File → Load
-dataset</font>. Then use menu item <font color=brown>Plot → Channel
-data (scroll)</font> to visualize the data and associated events.
+First, start EEGLAB, and load dataset *eeglab_data.set* in the
+*sample_data* folder using the <font color=brown>File → Load
+dataset</font> menu item. Then use the <font color=brown>Plot → Channel
+data (scroll)</font> menu item to visualize the data and associated events.
 
 ![575px](/assets/images/Scroll_raw_data.png)
 
@@ -372,11 +363,9 @@ types for this dataset.
 ### Recognized event fields
 
 The EEG event structure contains records of the experimental events that
-occurred while the data was being recorded, as well as structure
-handling events which are automatically inserted by EEGLAB. To view the
-information for an event, use menu <font color=brown>Edit → Event
-values</font> (see the window below, which shows events of the
-tutorial dataset imported in the previous step).
+occurred while the data was being recorded. To view the
+information for an event, use the <font color=brown>Edit → Event
+values</font> menu item (see the window below, which shows the tutorial dataset's events imported in the previous step).
 
 ![375px](/assets/images/V1pop_editeventvals.png)
 
@@ -387,18 +376,18 @@ process events lacking these fields, though this strongly limits the
 range of event processing possibilities). Other fields, including
 *epoch*, *duration*, *urevent*, are also recognized by EEGLAB (they are
 created automatically during extracting of epochs, rejecting data, or
-storing event data). User-defined fields can have any other name that is
+storing event data). User-defined fields can have any other name 
 relevant to the data (for example, *position* in the example above).
 A short description of recognized event fields is given below. Further
-information can be found in the event scripting tutorial.
+information may be found in the event scripting tutorial.
 
--   <u>type</u> - specifies the type of the event. For example, 'square'
+-   <u>type</u> - specifies the type of event. For example, 'square'
 in the example above is a stimulus type, 'rt' is a subject button-press
 (i.e., reaction-time) event, etc... In continuous datasets, EEGLAB may
 add events of type 'boundary' to specify data boundaries (breaks in the
 continuous data).
 -   <u>latency</u> - contains event latencies. The latency information
-    is displayed in seconds for continuous data, or in milliseconds
+    is displayed in seconds for continuous data or in milliseconds
     relative to the epoch's time-locking event for epoched data. As we
     will see in the event scripting section, the latency information is
     stored internally in data samples. These may be fractional samples
@@ -409,8 +398,8 @@ continuous data).
 -   <u>urevent</u> - contains indices of events in the original ('ur' in
     German) event structure. The first time events are imported, they
     are copied into a separate structure called the 'urevent' structure.
-    This field is hidden in the graphic interface (above) since they
-    should not be casually modified. This field is described in details
+    This field is hidden in the graphic interface (above) since it
+    should not be casually modified. This field is described in detail
     in the event scripting tutorial.
 -   <u>epoch</u> - indices of the data epochs (if any) the event falls
     within. This field is only present for data for which data epochs
@@ -418,9 +407,9 @@ continuous data).
     continuous).
 
 Note: all event fields may contain either numbers or strings (except for
-*latency*, *duration*, *urevent* and *epoch* which must contain
-numbers). For instance, the *type* field can contain a number (i.e. 1, 2, 
-etc.) or a string (i.e. 'square', 'rt', etc.). Note that when using
+*latency*, *duration*, *urevent*, and *epoch*, which must contain
+numbers). For instance, the *type* field can contain a number (e.g., 1, 2, 
+etc.) or a string (e.g., 'square', 'rt', etc.). Note that when using
 the [ERPLAB](https://github.com/lucklab/erplab) plugin, the event *type* field is expected to contain numerical values. EEGLAB cannot
 process a mixture of both formats (numeric and string) for one field. A
 function that checks the event structure ([eeg_checkset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkset.m)
@@ -431,21 +420,21 @@ resort events by increasing latencies.
 
 ### Adding, and modifying events
 
-To insert new events manually, select menu item <font color=brown>Edit
-→ Event values</font>. Click on the *Insert event* button to add a new
+To insert new events manually, select the <font color=brown>Edit
+→ Event values</font> menu item. Click on the *Insert event* button to add a new
 event before the current event. The *Append event* button adds an event
 *after* the current event. After a new event has been inserted or
 appended, its event-field information can immediately be changed in the
-corresponding boxes. For instance, to insert a event of type *new* 500
+corresponding boxes. For instance, to insert an event of type *new* 500
 ms after the onset of the time-locking stimulus, enter *new* in the
 event *type* edit box, and 500 in the event *latency* edit box.
-Note: If you then click on the *cancel* button, none of the new
+Note: If you click on the *cancel* button, none of the new
 information will be saved.
 
 ![375px](/assets/images/V121pop_editeventvals_2.png)
 
 After you press *OK*, the events may be resorted (events must always be
-in order of increasing latency), and some field contents may be modified
+in order of increasing latencies), and some field contents may be modified
 to ensure consistency, as indicated at the end of the previous
 section.
 
@@ -454,30 +443,29 @@ modified by simply typing the new values in the edit window for each
 field. Events may also be deleted (*Delete event* button).
 
 The [Vised EEGLAB plugin](https://github.com/jadesjardins/vised_marks)
-available from the EEGLAB plugin manager allows user to manually add
+available from the EEGLAB plugin manager allows users to manually add
 events directly on the EEG browser and is convenient for marking events
-of interest (such as blinks for example).
+of interest (such as blinks, for example).
 
 ### Modifying events in bulk
 
-Another way to modify new events is to export them, modify them under a
-spreadsheet software and then import them back into EEGLAB. You may
+Another way to modify new events is to export them, modify them under Excel, and then import them back into EEGLAB. You may
 import the tutorial data *eeglab_data.set* in the
 *sample_data* under EEGLAB, then call menu item <font color=brown>File → Export → Events to text file</font> and save
 a data file. Using this data file, we show how to rename all events with
-type "rt" to events with type "response" under a Spreadsheet software. The
+type "rt" to events with type "response" under Excel. The
 figure below shows the exported file (left) and the edited file (right).
 
 ![600px](/assets/images/Spreadsheet_event.png)
 
-Then using menu item <font color=brown>File → Import event info → From
-Matlab array of ASCII file</font> we select the modified file. We enter
+Then, using the <font color=brown>File → Import event info → From
+Matlab array of ASCII file</font> menu item, we select the modified file. We enter
 the column names, indicate that there is 1 line of header, and set the
-unit latency to NaN (which indicate that no conversion of time information is necessary). We
+unit latency to NaN (which indicates that time information conversion is necessary). We
 also uncheck the alignment option (although leaving it checked has no
 effect). Now all the events have been renamed (note that the interface
 to select events presented in the following section also allows to rename
-event type values so this is only presented as didactic example).
+event type values, so this is only presented as a didactic example).
 
 ![600px](/assets/images/Event_reimport.png)
 
@@ -485,10 +473,10 @@ event type values so this is only presented as didactic example).
 
 You may
 import the tutorial data *eeglab_data.set* in the
-*sample_data* under EEGLAB. To select specific events, use menu item <font color=brown>Edit →
-Select epochs or events</font>. This can be used to remove spurious events or rename events. 
+*sample_data* under EEGLAB. To select specific events, use the <font color=brown>Edit →
+Select epochs or events</font>menu item. This can be used to remove spurious events or rename events. 
 
-For example, to only keep events of type "square", you would enter "square" for event type as shown below.
+For example, to only keep type "square" events, you would enter "square" for event type as shown below.
 
 ![Image:pop_select_events_new2.png](/assets/images/pop_select_events_new2.png)
 
@@ -496,9 +484,9 @@ Alternatively, since they are only two event types ("square" and "rt"), you coul
 
 ![Image:pop_select_events_new3.png](/assets/images/pop_select_events_new3.png)
 
-In the example below, we simply rename events type "rt" to events with type "response" as we did in the previous section.
+In the example below, we simply rename to "response" events with the type "rt", as we did in the previous section.
 Select "rt" for the event type, enter "response" in the renaming event text box. Make sure to uncheck the 
-option *Keep only selected events and remove all other events*, otherwise all events which are not of type
+option *Keep only selected events and remove all other events*. Otherwise all events which are not of type
 "rt" will be removed.
 
 ![Image:pop_select_events_new.png](/assets/images/pop_select_events_new.png)
@@ -511,7 +499,7 @@ boxes.
 
 You may also specify more complex
 combinations of event field selections and ranges as the criterion for
-selecting trials. For instance, you could select events of type "rt" which
+selecting trials. For instance, you could select events of type "rt" that
 have latencies between 0 and 400 milliseconds and rename these as "fast_rt."
 Use the event selection interface a second time and rename the remaining
 events as "slow_rt."

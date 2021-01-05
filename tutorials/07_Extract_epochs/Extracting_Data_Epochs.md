@@ -6,6 +6,7 @@ nav_order: 7
 ---
 Extracting data Epochs
 ========================
+{: .no_toc }
 
 <details open markdown="block">
   <summary>
