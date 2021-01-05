@@ -8,9 +8,9 @@ nav_exclude: true
 Seventh EEGLAB Workshop
 =======================
 
-![center]({{ site.baseurl }}/assets/images/IMG_0093.jpg)
+![center](/assets/images/IMG_0093.jpg)
 
-![left]({{ site.baseurl }}/assets/images/Epic.gif) 
+![left](/assets/images/Epic.gif) 
 
 <span style="color: red">7th EEGLAB Workshop</span>
 <font color=blue>Bloomington, IN

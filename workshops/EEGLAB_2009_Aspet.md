@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2009_Aspet.html
 nav_exclude: true
 ---
 
-![300px\|thumb\|left]({{ site.baseurl }}/assets/images/Aspet.jpg)
+![300px\|thumb\|left](/assets/images/Aspet.jpg)
 
 Eighth EEGLAB Workshop
 ======================

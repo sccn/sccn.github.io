@@ -59,7 +59,7 @@ The number of citation per year corresponds to the following five papers:
     p.8.
 
 
-![600px](/assets/images/EEGLAB_usage.jpg)
+![](/assets/images/EEGLAB_usage.jpg)
 
 
 Major differences between Matlab and Python

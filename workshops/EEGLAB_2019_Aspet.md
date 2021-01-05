@@ -7,7 +7,7 @@ nav_order: 3
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Scenery of the Pyrenees
-mountains]({{ site.baseurl }}/assets/images/Pyrennees.png)
+mountains](/assets/images/Pyrennees.png)
 
 Twenty-ninth EEGLAB Workshop
 ============================

@@ -26,7 +26,7 @@ Maps and Directions
 [Microelectronics and Information Systems Research Center](http://www.eic.nctu.edu.tw/eindex.htm)
 
 Please see
-![800px](/assets/images/Nctu_map.jpg)
+![](/assets/images/Nctu_map.jpg)
 
 Pre-Workshop conferences
 ------------------------

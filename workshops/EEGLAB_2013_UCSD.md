@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2013_UCSD.html
 nav_exclude: true
 ---
 
-![697px\|thumb\|center\|upright=3]({{ site.baseurl }}/assets/images/GroupEEGLAB2013.png)
+![697px\|thumb\|center\|upright=3](/assets/images/GroupEEGLAB2013.png)
 
 
 

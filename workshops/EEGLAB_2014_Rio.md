@@ -4,7 +4,7 @@ title: EEGLAB 2014 Rio
 permalink: /workshops/EEGLAB_2014_Rio
 nav_exclude: true
 ---
-![1000px\|center\|upright=3]({{ site.baseurl }}/assets/images/Rio.png)
+![1000px\|center\|upright=3](/assets/images/Rio.png)
 
 Eighteenth EEGLAB Workshop
 ==========================

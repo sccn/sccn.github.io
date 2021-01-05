@@ -6,7 +6,7 @@ parent: Workshops
 nav_order: 2
 ---
 
-![250px\|thumb\|right\|upright=2.5\|Lublin]({{ site.baseurl }}/assets/images/Lublin.jpg)
+![250px\|thumb\|right\|upright=2.5\|Lublin](/assets/images/Lublin.jpg)
 
 Thirty-first EEGLAB Workshop
 ============================

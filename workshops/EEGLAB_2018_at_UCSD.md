@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2018_at_UCSD.html
 nav_exclude: true
 ---
 
-![400px]({{ site.baseurl }}/assets/images/EEGLAB_28th_2018_2.jpg)
+![](/assets/images/EEGLAB_28th_2018_2.jpg)
 
 
 [<b>Click HERE to access the official site and to see/download the

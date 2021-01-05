@@ -5,10 +5,10 @@ permalink: /workshops/EEGLAB_2017_Aspet.html
 nav_exclude: true
 ---
 
-![700px\|thumb\|center\|upright=2.5]({{ site.baseurl }}/assets/images/Group_aspet2017.jpg)
+![700px\|thumb\|center\|upright=2.5](/assets/images/Group_aspet2017.jpg)
 
 ![250px\|thumb\|right\|upright=2.5\|Scenery of the Pyrenees
-mountains]({{ site.baseurl }}/assets/images/Pyrennees.png)
+mountains](/assets/images/Pyrennees.png)
 
 Twenty-fourth EEGLAB Workshop
 =============================

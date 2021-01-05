@@ -5,10 +5,10 @@ permalink: /workshops/EEGLAB_2016_SML.html
 nav_exclude: true
 ---
 
-![700px\|thumb\|center]({{ site.baseurl }}/assets/images/Group.jpg)
+![700px\|thumb\|center](/assets/images/Group.jpg)
 
 ![250px\|thumb\|right\|upright=2.5\|Santa Margherita
-Ligure]({{ site.baseurl }}/assets/images/Ligure.jpg)
+Ligure](/assets/images/Ligure.jpg)
 
 <span style="color: red">Participant ressource: </span>[List of restaurant and
 location in Santa
@@ -35,7 +35,7 @@ recreational opportunities available.
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
-![250px\|thumb\|right\|upright=2.5\|participant subgroup before taking the bus]({{ site.baseurl }}/assets/images/Sml_workshop.jpg)
+![250px\|thumb\|right\|upright=2.5\|participant subgroup before taking the bus](/assets/images/Sml_workshop.jpg)
 
 <span style="color: purple">Purple lettering = lecture</span>
 <span style="color: orange">Orange lettering = tutorial</span>

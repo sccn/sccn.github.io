@@ -8,7 +8,7 @@ nav_order: 1
 
 
 ![thumb\|right\|upright=1.5\|EEGLAB menu (upper left) and data
-windows]({{ site.baseurl }}/assets/images/EEGLAB_small.jpg) 
+windows](/assets/images/EEGLAB_small.jpg) 
 
 This page comprises materials for and videos from different EEGLAB
 Workshops held at the San Diego Supercomputer Center on the campus of
@@ -20,7 +20,7 @@ presentations.
 ## <font color=darkred> List of Youtube Tutorial Videos </font>
 
 
-<img align="center" width="200" height="200" src="{{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg">
+<img align="center" width="200" height="200" src="/assets/images/EEGLABWorkshops11.jpg">
 
 
 
@@ -38,7 +38,7 @@ presentations.
     scripting](https://www.youtube.com/watch?v=kofJh7biGsE)
 
 
-<img class="float-right"  width="250" height="300" src="{{ site.baseurl }}/assets/images/BrainIC.jpg">
+<img class="float-right"  width="250" height="300" src="/assets/images/BrainIC.jpg">
 #### Preprocessing data in EEGLAB (2018, Delorme)
 -   [Part 1: How to import raw
     data](https://www.youtube.com/watch?v=gEk33jWB0MY)
@@ -56,7 +56,7 @@ presentations.
 
 
 
-<img class="float-right" width="200" height="300" src="{{ site.baseurl }}/assets/images/Dipfit.jpg">
+<img class="float-right" width="200" height="300" src="/assets/images/Dipfit.jpg">
 #### Independent component analysis (2020, Delorme)
 -   [Part 1: What is ICA?](https://youtu.be/kWAjhXr7pT4)
 -   [Part 2: How does Infomax ICA work?](https://youtu.be/l7io0u1kFhA)
@@ -167,7 +167,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 -   [Forward and inverse source modeling (Zeynep Akalin
     Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inverse_source_modeling.html)
 
-<img width="180" height="250" align="right" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg" >
+<img width="180" height="250" align="right" src="/assets/images/MoBIPoster.jpg" >
 #### Computing across subjects and conditions
 - [Resampling-based statistics and correcting for multiple comparisons (David Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)
 - [STUDY ICA component clustering (Arnaud Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)

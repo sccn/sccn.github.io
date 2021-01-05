@@ -18,7 +18,7 @@ parent: Other documents
 Download the [get_chanlocs user guide ](https://sccn.ucsd.edu/mediawiki/images/5/5f/Get_chanlocs_userguide.pdf)
 
 
-![400px](/assets/images/Get_chanlocs.jpg)
+![](/assets/images/Get_chanlocs.jpg)
 
 ## What is *get_chanlocs*?
 

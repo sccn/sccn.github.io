@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2011_Mallorca.html
 nav_exclude: true
 ---
 
-![300px\|thumb\|left\|upright=2]({{ site.baseurl }}/assets/images/Mallorca2.jpg)
+![300px\|thumb\|left\|upright=2](/assets/images/Mallorca2.jpg)
 
 Fourteenth EEGLAB Workshop
 ==========================
