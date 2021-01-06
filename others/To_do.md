@@ -20,9 +20,7 @@ BINICA https://github.com/sccn/binica/wiki
 
 - search for wikilinks
 
-- Correct section 5 to 8 with Grammarly
-
-- Create git-annex repository for test cases
+- Correct section 7 to 8 with Grammarly
 
 - Add readme to FIRFILT
 
@@ -39,6 +37,12 @@ http with https
 ressource with resource
 
 bootstraping with bootstrapping
+
+check-box with checkbox
+
+() to .m
+
+insure to ensure
 
 Printing and editing EEGLAB figures
 -----------------------------------
