@@ -1,43 +1,35 @@
 ---
 layout: default
-title: Wakeman Henson
-summary: Analyzing EEG data with EEGLAB
+title: Example EEG analysis
+summary: Analyzing the Wakeman-Henson dataset with EEGLAB
 parent: Other documents
 ---
 
 ![right\|830px](/assets/images/Rmc_sfn_poster_2018_2print.jpg)
 
-Analyzing EEG data with EEGLAB: The Wakeman-Henson dataset
-----------------------------------------------------------
+# Analyzing EEG-BIDS data with EEGLAB: The Wakeman-Henson dataset
 
-EEGLAB (sccn.ucsd.edu/eeglab) is a rich, easily extensible, and growing
-open source signal processing environment for electrophysiological
-signal processing running on MATLAB (Mathworks, Natick MA). The EEGLAB
-architecture makes it suited to data exploration and visualization as
+The EEGLAB architecture makes it suited to data exploration and visualization as
 well as to applying customized analysis including general linear model
-statistics. EEGLAB evolved from a set of Matlab functions for
-decomposing electroencephalographic (EEG) data using independent
-component analysis (ICA) and performing time/frequency analysis,
-focusing on the dynamics of effective source processes revealed by ICA
-decomposition, both in event-related averages and across sorted
-collections of single trials. EEGLAB (sccn.ucsd.edu/eeglab) features a
-root EEG data structure and a main graphic user interface (GUI) menu
-calling pop_ functions that first prompt users to enter necessary
-arguments, then call relevant signal processing and plotting functions.
-User interface command history allows users to easily replicate or
-enrich a series of actions they performed first using the EEGLAB menu,
-thereby easing the process of learning to code standard or custom
-analysis pipelines. Calling links to EEGLAB plug-in extensions
-downloaded from the EEGLAB Extension Manager appear in the user’s menu.
-More than 75 extensions from many laboratories offer tools to apply a
-wide and growing range of signal processing approaches. Here we
-demonstrate results of some basic EEGLAB methods focusing on ICA
-decompositions of EEG data made available by Wakeman & Henson
-(https://openfmri.org/dataset/ds000117/) and study the dynamics of the
-resulting effective brain sources following face image presentations and
-ensuing motor responses.
+statistics. 
+EEGLAB also has specific functions to import EEG data organized according to the [Brain Imaging Data Structure](https://bids.neuroimaging.io) (BIDS) (see aksi the specific reference for [EEG_BIDS](https://www.nature.com/articles/s41597-019-0104-8))
 
-### The Wakeman-Henson dataset
+ Here we demonstrate how to import EEG-BIDS data into EEGLAB and how to use the [EEGLAB STUDY](https://sccn.github.io/tutorials/10_Group_analysis) tool for group analysis on these data to perform some basic EEGLAB methods focusing on ICA
+decompositions and on the study of the dynamics of the
+resulting effective brain sources.
+
+ The EEG data used in this example comes from [Wakeman and Henson (2015)](https://www.nature.com/articles/sdata20151). In this experiment, MEG-EEG data were collected while subjects  viewed famous, unfamiliar and scrambled faces. Each image was repeated  twice (immediately in 50% of cases and 5–10 stimuli apart for the other  50%) and subjects pressed one of two keys with their left or right index finger indicating how symmetric they regarded each image relative to  the average.
+
+## EEG-BIDS 
+The data are organized according to the [BIDS format](https://bids.neuroimaging.io). You can read more on the specificities of the EEG-BIDS format [here](https://www.nature.com/articles/s41597-019-0104-8). EEGLAB  has dedicated BIDS tools called [bids-matlab-tools](https://github.com/sccn/bids-matlab-tools) to create files, export and import BIDS dataset. This is available  using the EEGLAB plugin manager and must be installed before running the code below. It is worthwhile spending a bit of time looking at how files are organized and named in BIDS, as we will follow this convention throughout.
+To know more about how EEGLAB interacts with BIDS file you can also watch this serie of short YouTube videos below. Click on the icon on the top right corner to access the list of videos in the playlist.
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/playlist?list=PLXc9qfVbMMN3II4EnVQNjOeVl-UprWlnM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+## Download the data
+The data were prepared (i.e. EEG extracted, timing corrected,  electrode position re-oriented, event recorded) by Dung Truong, Ramon  Martinez & Arnaud Delorme and can be downloaded from [OpenNeuro 10.18112/openneuro.ds002718.v1.0.3.](https://openneuro.org/datasets/ds002718/versions/1.0.3) 
+
+### More about the Wakeman-Henson dataset
 
 Human perception of suddenly presented face images produces a large
 negative peak near 170 ms (dubbed ‘the N170’) in averaged event-related
@@ -45,7 +37,9 @@ potentials (ERPs) for posterior scalp channels [Bentin et al.,
 1996](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2927138/). This
 potential has been localized by several methods, including direct
 electrocorticographic (ECoG) recording from the cortical surface, to the
-bilateral fusiform gyrus. Henson and Wakeman (2015) apply joint EEG/MEG
+bilateral fusiform gyrus. 
+
+Henson and Wakeman (2015) apply joint EEG/MEG
 source analysis to the N170 peak scalp maps to estimate the areas of
 inferior temporal cortex that produce the response feature. A BOLD
 signal increase in the same areas is seen in fMRI studies ([Kanwisher et
@@ -57,10 +51,14 @@ indexes face-specific processing ([Kanwisher & Yovel,
 processing supporting more general expert identification of individuals
 or subcategories for any large set of important and long-studied objects
 -- for example, automobile grilles by automobile experts ([Gauthier et
-al., 1999](https://www.ncbi.nlm.nih.gov/pubmed/10448223)). Generally,
+al., 1999](https://www.ncbi.nlm.nih.gov/pubmed/10448223)). 
+
+Generally,
 face presentations produce much larger ‘N170’ potentials (and ensuing
 fusiform BOLD activations) than do presentations of ‘face-like’ images
-of houses, etc. Wakeman and Henson (2015) developed the paradigm used to
+of houses, etc. 
+
+Wakeman and Henson (2015) developed the paradigm used to
 collect the data treated here to determine how repetition (of the same
 face image) in a series of tachistoscopically presented ‘face versus
 house’ images experiment affected EEG and concurrent MEG responses, and
@@ -69,139 +67,118 @@ sequence differed. See details of the paradigm in the figure below.
 
 ![`center|400px`](/assets/images/Wakeman_henson_eegset.jpg)
 
-Data processing
----------------
+## Data pre-processing
+Data pre-processing pipeline
+Once you have downloaded the data you can run the code below. 
 
-### Raw data importation
+Note that this pre-processing step is also available as a Matlab Live Script [PATH TO LIVESCRIPT]
 
-The data was first imported using *FileIO* plugin for EEGLAB. Then, EEG
-and event channel (STI101) were selected. Location of the fiducials were
-added to the channel location and the montage was rotated to match
-EEGLAB format. Events from the STI101 event channel were imported
-events. Then we imported the information about the image presented into
-the event structure as well as button presses. Numerical events were
-renamed to more meaningful text labels. We then corrected event
-latencies which were shitted by 34 ms. Finally, we merged the 6 session
-file for each subject and saved the preprocessed data. This the code for
-this processing can be accessed at
-(https://bitbucket.org/sccn_eeglab/wh_eeglabcodes/src/master/wh_extracteeg.m)
-
-### Downsample the data
-
-The sampling rate of the recording was 1100 Hz per channel. Because
-local field potential signals from cortex have a near-1/f power spectral
-density, most EEG data variance is contained in lower frequencies. To
-reduce data size and processing time, we chose to reduce the data
-sampling rate to 500 Hz per channel. This process applied an
-anti-aliasing filter below the Nyquist frequency (250 Hz) using a cutoff
-frequency 500/2 x 0.9 = 225 Hz (-6dB) with transition bandwidth 500/2 x
-0.2 = 50 Hz (Kaiser window, scalar maximum passband deviation 0.002). As
-a result, the spectrum of the recorded signals could be analyzed to near
-250 Hz. EEGLAB sample code:
+### Start EEGLAB 
 
 ``` matlab
-EEG = pop_resample(EEG, 500);
+clear
+[ALLEEG, EEG, CURRENTSET, ALLCOM] = eeglab;
+eeglabPath = fileparts(which('eeglab'));
 ```
 
-### High-pass filter the data
-
-To remove DC and infra-low frequency drifts, and to center the
-time-series data around zero, a high-pass filter with (-6 dB) cutoff
-frequency 1 Hz was applied (FIR, Hamming windowed; transition bandwidth,
-1 Hz; filter order, 1650). Another important purpose of this high-pass
-filter is to improve ICA results, as our experience and a recent report
-have shown that removing near-DC portions of the EEG data improves ICA
-performance [Winkler et al.,
-2015](https://www.ncbi.nlm.nih.gov/pubmed/26737196). In particular, the
-number of ICs with brain-localizable component scalp maps (e.g.,
-strongly resembling the ‘dipolar’ projection of potential coherent
-across a single, locally coherent cortical patch) is larger when low
-frequencies are omitted from the data to be decomposed. We believe this
-to be in part because large, low-frequency drifts can arise from scalp
-temperature shifts, etc. that are not spatially stationary, in contrast
-to the ICA source model.
+If you saved the data elsewhere than in the EEGLAB "sample_data" subfolder you will have to adjust the filepath variable in the cell below :
 
 ``` matlab
-EEG = pop_eegfiltnew(EEG, 1,   0,   1650, 0, [], 0);  % High pass at 1Hz
+filepath = fullfile(eeglabPath, sample_data, 'WakemanHenson_Faces', filesep, 'eeg');
 ```
 
-### Remove line noise
-
-We first used the EEGLAB plug-in CleanLine to adaptively estimate and
-remove line-frequency artifacts using frequency-domain (multi-taper)
-regression. However, in these data the amplitude of the line artifact
-(at 50 Hz and its harmonics) proved to be so large (approaching 40 dB)
-that went on to apply notch filters at the line frequency and its
-harmonics (e.g., centered at 50 Hz, 100 Hz, 150 Hz, and 200 Hz) to make
-visible the brain source phenomena of interest.
+### Import BIDS data
+The function pop_importbids() imports a BIDS format folder structure into an EEGLAB study. 
+If 'bidsevent' is 'on' then events will be imported from the BIDS .tsv event file and events in the raw binary EEG files will be ignored. Similarly 'bidschanloc', 'on' will import channel locations from BIDS .tsv file and ignore any locations in raw EEG files. The 'studyName' field let you specify the name of the newly created STUDY.
 
 ``` matlab
-EEG = pop_eegfiltnew(EEG, 49,  51,  1650, 1, [], 0);  % Line noise suppression ~50Hz
-EEG = pop_eegfiltnew(EEG, 99,  101, 1650, 1, [], 0);  % Line noise suppression ~100Hz
-EEG = pop_eegfiltnew(EEG, 149, 151, 1650, 1, [], 0);  % Line noise suppression ~150Hz
-EEG = pop_eegfiltnew(EEG, 199, 201, 1650, 1, [], 0);  % Line noise suppression ~200Hz
+[STUDY, ALLEEG] = pop_importbids(filepath, 'bidsevent','on','bidschanloc','on', ...
+    'studyName','Face_detection');
+
+ALLEEG = pop_select( ALLEEG, 'nochannel',{'EEG061','EEG062','EEG063','EEG064'});
+CURRENTSTUDY = 1; EEG = ALLEEG; CURRENTSET = [1:length(EEG)];
 ```
 
-### Detect and reject bad channels
-
-Here, we first performed outlier channel detection and, rejection, and
-interpolation using the clean_rawdata plug-in of Christian Kothe. This
-plug-in calculates each scalp channel signal’s correlation to its random
-sample consensus (RANSAC) estimate computed from nearby scalp channel
-signals in successive 5-s segments. Channel signals exhibiting low
-correlation to signals in neighboring scalp channels in individual
-windows (here, r \< 0.8 at more than 40% of the data points) were
-rejected.
+### Remove bad channels
+Here we are using the pop_clean_rawdata() function to remove flat line channels and channels with abnormal activity.
+The pop_clean_rawdata()  uses the [Artefact Subspace Reconstruction](https://sccn.github.io/tutorials/ConceptsGuide/ASR_background.html) (ASR) module that is integrated into the EEGLAB [clean_rawdata() plugin](https://sccn.github.io/tutorials/ConceptsGuide/ASR_background.html) (already installed by default). 
+In a further step below we will again use ASR but to remove portions of data. 
 
 ``` matlab
-EEG = clean_rawdata(EEG, -1, -1, 0.80, -1, -1, -1);
-```
+EEG = pop_clean_rawdata( EEG,'FlatlineCriterion',5,'ChannelCriterion',0.8,...
+    'LineNoiseCriterion',4,'Highpass',[0.25 0.75] ,...
+    'BurstCriterion','off','WindowCriterion','off','BurstRejection','off',...
+    'Distance','Euclidian','WindowCriterionTolerances','off' );
+``` 
 
-### Re-reference the scalp-channel data to average reference
-
-We performed common average reference (CAR). We first interpolated all
-the rejected channels in the dataset. These channels were obtained by
-comparing the current channels on the current EEG structure with the
-backup of the original channels in the same structure (EEG.urchanlocs).
-Then, CAR was performed and the interpolated channels were removed. This
-processing was all performed with the function *pop_reref.m*.
+### Re-reference using the average reference
 
 ``` matlab
-EEG = pop_reref(EEG,[],'interpchan',[]);
+
+EEG = pop_reref( EEG,[],'interpchan',[]);
 ```
 
-### Extract data epochs
-
-For experimental events of interest in three categories, i.e.,
-presentations of Famous (*famous_new, famous_second_early,
-famous_second_late*), Unfamiliar (*unfamiliar_new,
-unfamiliar_second_early, unfamiliar_second_late*), and Scrambled
-(*scrambled_new, scrambled_second_early, scrambled_second_late*) faces,
-respectively, data epochs extending from -1 s to 2 s relative to these
-event markers were extracted from the data and stored.
+### Run ICA and flag artefactual components using IClabel
+You can find more details on using ICA to remove artefacts embeded in EEG data by reading the [dedicated section](https://github.com/sccn/clean_rawdata) on the EEGLAB tutorial.
+IClabel is an EEGLAB plugin developped by Luca Pion-Tonachini and installed by default with EEGLAB.  IClabel provides an estimation of the type of each of the independent components (brain, eye, muscle, line noise, etc.).
+ICA components that are flagged as artefactual by IClabel are then subtracted (removed) from the data.
+Note that the second argument of the function pop_icflag() 'thresh' is to specify the min and max threshold values used to include for selection of a component as artefact. The thresholds are entered for 6 categories of ICA component that are, in order: Brain, Muscle, Eye, Heart, Line Noise, Channel Noise, Other.
+So here you can see that we only remove ICA components if they are classified in the Eye or Heart category with between 80%-100% confidence. 
 
 ``` matlab
- EEG = pop_epoch( EEG, {'famous_new' 'famous_second_early' 'famous_second_late' ...
-                        'scrambled_new' 'scrambled_second_early' 'scrambled_second_late'...
-                        'unfamiliar_new' 'unfamiliar_second_early' 'unfamiliar_second_late'},...
-                        [-1  2], 'newname', 'Epoched', 'epochinfo', 'yes');;
+for s=1:size(EEG,2)
+    EEG(s) = pop_runica(EEG(s), 'icatype','runica','concatcond','on',...
+                                'options',{'pca',EEG(s).nbchan-1});
+    EEG(s) = pop_iclabel(EEG(s),'default');
+    EEG(s) = pop_icflag(EEG(s),'thresh', [NaN NaN;0.8 1;0.8 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN]);
+    EEG(s) = pop_subcomp(EEG(s), find(EEG(s).reject.gcompreject), 0);
+end
 ```
 
-### Rejecting noisy epochs
-
-We then performed two-stage rejection of noisy event-related data
-epochs. In the first stage, we rejected epochs in which any channel
-value exceeded a two-sided rejection amplitude threshold (±400 uV). Then
-a joint probability test (shown to be more effective than the simple
-thresholding) was performed using ±4-SD single-channel and ±3-SD
-global-channel thresholds ([Delorme et al.,
-2007](https://www.ncbi.nlm.nih.gov/pubmed/17188898)). Data epochs
-containing channel data exceeding either threshold were rejected.
+### Remove portions of data contaminated by artefacts
+Again we are using ASR and pop_clean_rawdata() here but this time to remove portions of data containing artefactual activity (not channels as this was done above).
+First, ASR finds clean portions of data (calibration data) and  calculates the standard deviation of PCA-extracted components (ignoring  physiological EEG alpha and theta waves by filtering them out). Then, it rejects data regions if they exceeds 20 times (by default) the standard deviation of the calibration data. The lower this threshold, the more  aggressive the rejection is.
 
 ``` matlab
-[EEG, rejindx] = pop_eegthresh(EEG, 1, 1:EEG.nbchan, -400, 400, EEG.xmin, EEG.xmax, 0, 1);
-EEG = pop_jointprob(EEG, 1, 1:EEG.nbchan, 4, 3, 1, 1);
+EEG = pop_clean_rawdata( EEG,'FlatlineCriterion','off','ChannelCriterion','off',...
+    'LineNoiseCriterion','off','Highpass','off','BurstCriterion',20,...
+    'WindowCriterion',0.25,'BurstRejection','on','Distance','Euclidian',...
+    'WindowCriterionTolerances',[-Inf 7] );
 ```
+
+You can access the description of each of this function's parameter from within Matalab if you enter:
+``` matlab
+help clean_artifacts
+```
+
+### Extract data epochs 
+Here we convert the continuuous EEG datasets of our STUDY to epoched data by extracting data epochs that are time-locked to the event types specified in 'typerange' when calling pop_epoch(). The 'timelim' input defines the epoch latency limits in seconds relative to the time-locking events, here we defined a window from -0.5s before the event to 1s after the event. 
+Note that we do not remove a baseline here.
+
+``` matlab
+EEG    = pop_epoch( EEG,'typerange', {'famous_new','famous_second_early','famous_second_late',...
+    'scrambled_new','scrambled_second_early','scrambled_second_late','unfamiliar_new',...
+    'unfamiliar_second_early','unfamiliar_second_late'},'timelim', [-0.5 1] ,'epochinfo','yes');
+EEG    = pop_saveset(EEG, 'savemode', 'resave');
+ALLEEG = EEG;
+```
+
+### Create a STUDY design
+STUDY designs let you perform statistical comparisons of a STUDY multiple trial and dataset subsets without having to create and store the STUDY more than once. 
+Here, we create a design that we name 'Faces' that takes all values of events type (ie. scramble, familiar and unfamiliar) as first independent variable. 
+
+``` matlab
+STUDY  = std_checkset(STUDY, ALLEEG);
+STUDY  = std_makedesign(STUDY, EEG, 1, 'name','Faces','delfiles','off',...
+                        'defaultdesign','off','variable1','type','values1',{});
+```
+
+Update the EEGLAB window
+``` matlab
+eeglab redraw
+```
+
+
 
 ### Perform ICA decomposition
 
