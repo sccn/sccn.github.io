@@ -20,6 +20,12 @@ BINICA https://github.com/sccn/binica/wiki
 
 - search for wikilinks
 
+- Correct section 5 to 8 with Grammarly
+
+- Create git-annex repository for test cases
+
+- Add readme to FIRFILT
+
 - Replace
 
 carthesian with cartesian

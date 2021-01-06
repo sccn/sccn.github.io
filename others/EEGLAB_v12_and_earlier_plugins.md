@@ -3,12 +3,22 @@ layout: default
 title: EEGLAB v12 and earlier plugins
 parent: Other documents
 ---
+EEGLAB plugins and extensions
+=====
 
-<font color=red>This page was for downloading plugins for old versions
-of EEGLAB although some of the documentation below might still be
-relevant. The download link refer to old versions of plugins though. The
+This page describe popular EEGLAB plugins. The
 most current plugin/extension page is available
-[here](http://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php).</font>
+[here](http://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php).
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 
 ### Data import extensions for EEGLAB
 
