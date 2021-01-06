@@ -4,7 +4,7 @@ title: Firfilt FAQ
 parent: Other documents
 
 ---
-EEGLAB Filtering FAQ <font color=green> - Done</font>
+EEGLAB Filtering FAQ <span style="color: green"> - Done</span>
 ===
 {: .no_toc }
 
@@ -146,13 +146,13 @@ A. There are a few important things to confirm.
     apparently taking 16 (with LPF) is the right decision here from AIC,
     FPE and HQ results.
 
-![800px](/assets/images/ModelOrderComparison.png)
+![](/assets/images/ModelOrderComparison.png)
 
 Here is another comparison: with and without notch filter at 30Hz
 (cutoff freq 28 and 32Hz, TBW 0.5Hz). Note the suggested order became
 10-12 to 11-15 with the notch filter on.
 
-![800px](/assets/images/NotchFilterDemo.png)
+![](/assets/images/NotchFilterDemo.png)
 
 -   The second problem, which comes from the same reason mentioned
     above, is that empirical estimates of VAR parameters yields unstable

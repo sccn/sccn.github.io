@@ -4,7 +4,7 @@ title: High perf. computing
 summary: EEGLAB and high performance computing
 parent: Other documents
 ---
-EEGLAB and high-performance computing <font color=green>- DONE</font>
+EEGLAB and high-performance computing <span style="color: green">- DONE</span>
 ====
 {: .no_toc }
 

@@ -6,7 +6,7 @@ nav_exclude: true
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Beijing landmark
-bridge]({{ site.baseurl }}/assets/images/Beijing.png)
+bridge](/assets/images/Beijing.png)
 
 Fifteenth EEGLAB Workshop
 =========================
@@ -20,7 +20,7 @@ introduce and demonstrate the use of EEGLAB-linked tools for performing
 advanced analyses of EEG and related data, with detailed method
 expositions and practical exercises.
 
-![center\|600px]({{ site.baseurl }}/assets/images/Group_picture_beijing.png)
+![center\|600px](/assets/images/Group_picture_beijing.png)
 
 Preliminary Workshop Program
 ----------------------------
@@ -102,7 +102,7 @@ Preliminary Workshop Program
 (see also [this note on the importance of knowing skull conductivity](http://sccn.ucsd.edu/wiki/NFT_Appendix_C))
 
 <font color = orange>9:15 – 10:00 -- Using the NFT and Dipfit plug-ins
-(Julie Onton)[Dipfit](https://sccn.ucsd.edu/githubwiki/files/3_dipfit.pdf)[nf)](/media:nft_presentation12.pdf)</font>
+(Julie Onton)[Dipfit](https://sccn.ucsd.edu/githubwiki/files/3_dipfit.pdf)[nf)](/media:nft_presentation12.pdf)</span>
 <!-- -->
 
 

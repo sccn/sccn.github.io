@@ -35,7 +35,7 @@ Switch to the EEGLAB directory (folder)
 You may browse for the directory by clicking on the button marked *"…"* in the upper right of the screen.
 
 
-![800px]({{ site.baseurl }}/assets/images/Matlab_main_screen.png)
+![](/assets/images/Matlab_main_screen.png)
 
 
  This opens the window below. Double-click on a directory to enter it.
@@ -51,13 +51,13 @@ Type *eeglab* at the Matlab command line and hit enter. EEGLAB will
 automatically add itself to the Matlab path.
 
 
-![800px]({{ site.baseurl }}/assets/images/Matlab_Command_Line.png)
+![](/assets/images/Matlab_Command_Line.png)
 
 
  The blue main EEGLAB window below should pop up,  with its seven menu
  headings: <span style= "color:brown">File, Edit, Tools, Plot, Study, Datasets, Help </span> arranged in typical (left-to-right) order of use.
 
-![350px]({{ site.baseurl }}/assets/images/Eeglab20191.png)
+![](/assets/images/Eeglab20191.png)
 
 
 Adding EEGLAB to the Matlab path
@@ -67,11 +67,11 @@ You may want to add the EEGLAB folder to the Matlab search path so the
 next time you start Matlab, you will be able to directly open EEGLAB.
 
 If you started Matlab through its graphical interface, go to the
-<span style="color: brown">file</span> menu item and select <font color=brown>set
-path</font>. This will open the following window.
+<span style="color: brown">file</span> menu item and select <span style="color: brown">set
+path</span>. This will open the following window.
 
 
-![Matlab set path gui]({{ site.baseurl }}/assets/images/Matlab_set_path_gui.png)
+![Matlab set path gui](/assets/images/Matlab_set_path_gui.png)
 
 Or, if you are running Matlab from the command line, type *pathtool*
 and hit return; this will also call up this window.

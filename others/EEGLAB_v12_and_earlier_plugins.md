@@ -6,6 +6,7 @@ parent: Other documents
 EEGLAB plugins and extensions
 =====
 
+<<<<<<< HEAD
 This page describe popular EEGLAB plugins. The
 most current plugin/extension page is available
 [here](http://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php).
@@ -19,6 +20,13 @@ most current plugin/extension page is available
 {:toc}
 </details>
 
+=======
+<span style="color: red">This page was for downloading plugins for old versions
+of EEGLAB although some of the documentation below might still be
+relevant. The download link refer to old versions of plugins though. The
+most current plugin/extension page is available
+[here](http://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php).</span>
+>>>>>>> 3557587c219156c444f46fee93a775a72e4cc603
 
 ### Data import extensions for EEGLAB
 

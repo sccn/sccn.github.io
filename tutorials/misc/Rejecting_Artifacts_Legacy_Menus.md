@@ -9,7 +9,7 @@ Legacy methods for rejecting artifacts in continuous and epoched data
 
 This other [section](/tutorials/RejectArtifacts/) of the tutorial contain methods that are currently recommended for rejecting artifacts.
 
-<span style="color: red>The current section refers to obsolete methods that are no longer recommended for artifact rejections, given new more efficient methods are now available. In EEGLAB 2019.1 and later version, make sure to select the option <i>Show all menus from previous versions of EEGLAB</i> in EEGLAB menu item <font color=brown>File > Preference</font"> to be able to use the tools on this page.</span>
+<span style="color: red>The current section refers to obsolete methods that are no longer recommended for artifact rejections, given new more efficient methods are now available. In EEGLAB 2019.1 and later version, make sure to select the option <i>Show all menus from previous versions of EEGLAB</i> in EEGLAB menu item <span style="color: brown">File > Preference</font"> to be able to use the tools on this page.</span>
 
 Strategy: The approach used in EEGLAB for artifact rejection is to use
 'statistical' thresholding to 'suggest' epochs to reject from analysis.
@@ -50,7 +50,7 @@ trimmed statistics.
 
 
 
-![225px](/assets/images/Pop_signalstat1.jpg)
+![](/assets/images/Pop_signalstat1.jpg)
 
 
 
@@ -58,7 +58,7 @@ Pressing *OK* will open the image below.
 
 
 
-![575px](/assets/images/Ch10_signalstat.jpg)
+![](/assets/images/Ch10_signalstat.jpg)
 
 
 
@@ -111,7 +111,7 @@ details.
 
 
 
-![575px](/assets/images/Ch1_signalstat.jpg)
+![](/assets/images/Ch1_signalstat.jpg)
 
 
 
@@ -149,7 +149,7 @@ the bottom multiple choice button reading <span style="color: brown">Show all tr
 will come back to the default option at the end.
 
 
-![675px](/assets/images/Iii2pop_rejmenu.jpg)
+![](/assets/images/Iii2pop_rejmenu.jpg)
 
 
 
@@ -164,7 +164,7 @@ lines and can be selected/deselected for rejection simply by clinking on
 them. Rejecting parts of an epoch is not possible.
 
 
-![575px](/assets/images/Iii21eegplot.jpg)
+![](/assets/images/Iii21eegplot.jpg)
 
 
 ### Rejecting extreme values
@@ -179,7 +179,7 @@ in any of the 32 channels (*1:32* ) at any time within the epoch
 (''-1000 ''to *2000* ms).
 
 
-![575px](/assets/images/Iii22find_abnormal_val.jpg)
+![](/assets/images/Iii22find_abnormal_val.jpg)
 
 Marked trials are highlighted in the [eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) window
 
@@ -190,7 +190,7 @@ outlier values were found. Press *Update Marks* to confirm the epoch
 markings.
 
 
-![575px](/assets/images/Iii22eegplot.jpg)
+![](/assets/images/Iii22eegplot.jpg)
 
 
 
@@ -200,7 +200,7 @@ have not yet been rejected and are simply marked for rejection. When
 seeing this warning, press *OK* to return to main rejection window.
 
 
-![275px](/assets/images/Iii22warning.jpg)
+![](/assets/images/Iii22warning.jpg)
 
 
 
@@ -211,7 +211,7 @@ above *25* µV or below *-25* µV during the *-500* to ms interval will be
 marked for rejection.
 
 
-![575px](/assets/images/Rawyellowmultiple.gif)
+![](/assets/images/Rawyellowmultiple.gif)
 
 
 ### Rejecting abnormal trends
@@ -229,7 +229,7 @@ this, in the main rejection window enter the following data under *findabnormal 
 press *CALC/PLOT*.
 
 
-![575px](/assets/images/Rawgreen.gif)
+![](/assets/images/Rawgreen.gif)
 
 
 
@@ -241,13 +241,13 @@ click on them. To close the scrolling window, press the *Update marks*
 button.
 
 
-![575px](/assets/images/Iii23eegplot.jpg)
+![](/assets/images/Iii23eegplot.jpg)
 
 
 Note: Calling function [pop_rejtrend.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_rejtrend.m) either directly from
 
-the command line, or by selecting <font color=brown>Tools > Reject data
-epochs > Reject flat line data</font>, allows specifying additional
+the command line, or by selecting <span style="color: brown">Tools > Reject data
+epochs > Reject flat line data</span>, allows specifying additional
 parameters.
 
 ### Rejecting improbable data
@@ -265,7 +265,7 @@ following parameters under *find improbable data* press *Calculate*(which calls 
 *PLOT*.
 
 
-![575px](/assets/images/Iii24find_improbable_data.jpg)
+![](/assets/images/Iii24find_improbable_data.jpg)
 
 
 
@@ -284,7 +284,7 @@ threshold in the window below the edit boxes in the main window will be
 automatically updated (after pressing the *UPDATE* button).
 
 
-![375px](/assets/images/Iii24rejecttrials.jpg)
+![](/assets/images/Iii24rejecttrials.jpg)
 
 
 
@@ -299,7 +299,7 @@ plot is the original probability measure plot for this electrode with
 limits indicated in red).
 
 
-![375px](/assets/images/Iii24elctrode2.jpg)
+![](/assets/images/Iii24elctrode2.jpg)
 
 
 
@@ -312,7 +312,7 @@ adjustments manually, then close the window by pressing *UPDATE
 MARKS*.
 
 
-![625px](/assets/images/Iii24eegplot.jpg)
+![](/assets/images/Iii24eegplot.jpg)
 
 
 ### Rejecting abnormally distributed data
@@ -333,7 +333,7 @@ following parameters under ''find abnormal distribution '' press*Calculate* (whi
 *PLOT*.
 
 
-![575px](/assets/images/Iii25find_abnormal_dist.jpg)
+![](/assets/images/Iii25find_abnormal_dist.jpg)
 
 
 
@@ -345,7 +345,7 @@ can exceed the threshold several times in different channles, and
 therefore there are more lines than marked trials.
 
 
-![500px](/assets/images/Iii25rejecttrials.jpg)
+![](/assets/images/Iii25rejecttrials.jpg)
 
 
 
@@ -369,7 +369,7 @@ following parameters under '' find abnormal spectra'' (which callsfunction [pop_
 
 
 
-![575px](/assets/images/Iii26find_abnormal_spectra.jpg)
+![](/assets/images/Iii26find_abnormal_spectra.jpg)
 
 
 
@@ -388,9 +388,9 @@ updating the list of marked trials, close both windows by pressing
 *UPDATE MARKS* in the bottom window.
 
 
-![575px](/assets/images/Iii26eegplotup.jpg)
+![](/assets/images/Iii26eegplotup.jpg)
 
-![575px](/assets/images/Iii26eegplotdown.jpg)
+![](/assets/images/Iii26eegplotdown.jpg)
 
 
 As with standard rejection of extreme values, several frequency
@@ -401,7 +401,7 @@ and should not deviate by *+25* or *-100* dB in the *20-40* Hz frequency
 window (useful for detecting muscle activity).
 
 
-![575px](/assets/images/Iii26find_abnormal_spectra2.jpg)
+![](/assets/images/Iii26find_abnormal_spectra2.jpg)
 
 
 
@@ -412,13 +412,13 @@ To compare the effects of two different rejection thresholds, the user
 can plot the currently and previously marked data epochs in different
 colors. To do this, change the option in the long rectangular tab under
 *Plotting options* (at the buttom of the figure). Select
-<font color=brown>Show previous and new trials marked for rejection by
-this measure selected above</font>. For instance, using '' abnormal
+<span style="color: brown">Show previous and new trials marked for rejection by
+this measure selected above</span>. For instance, using '' abnormal
 distribution'', enter the following parameters and press *Scroll
 data*.
 
 
-![575px](/assets/images/Iii27find_abnormal_dist.jpg)
+![](/assets/images/Iii27find_abnormal_dist.jpg)
 
 
 
@@ -429,7 +429,7 @@ currently marked as rejected. The light blue indicates that the trial
 was already rejected using the previous rejection threshold.
 
 
-![575px](/assets/images/Iii27eegplot.jpg)
+![](/assets/images/Iii27eegplot.jpg)
 
 
 
@@ -440,8 +440,8 @@ and can not be removed manually in the plot window.
 ### Inspecting results of all rejection measures
 
 To visually inspect data epochs marked for rejection by different
-rejection measures, select <font color=brown>Show all trials marked for
-rejection measures by the measure selected above or checked below</font>
+rejection measures, select <span style="color: brown">Show all trials marked for
+rejection measures by the measure selected above or checked below</span>
 in the long rectangular tab under '' Plotting options''. Then press
 *CALC/PLOT* under *Find abnormal spectra*. Rejected windows are divided
 into several colored patches, each color corresponding to a specific
@@ -449,7 +449,7 @@ rejection measure. Channels colored red are those marked for rejection
 by any method.
 
 
-![575px](/assets/images/Iii28eegplot.jpg)
+![](/assets/images/Iii28eegplot.jpg)
 
 
 
@@ -475,8 +475,8 @@ Notes and strategy
     the original dataset and recall which trials were rejected.
 -   To actually reject the marked trials either use the option *Reject
     marked trials* at the buttom of the main rejection window, or use
-    the main eeglab window options <font color=brown>Tools > Reject
-    data epochs > Reject marked epochs</font>.
+    the main eeglab window options <span style="color: brown">Tools > Reject
+    data epochs > Reject marked epochs</span>.
 -   All these rejection measures are useful, but if one does not know
     how to use them they may be inefficient. Because of this, we have
     not provided standard rejection thresholds for all the measures. In
@@ -516,7 +516,7 @@ Check the checkbox
 to reject marked trials, so that the marked trials will be immediately
 rejected when the scrolling window is closed. Press *OK*.
 
-![275px]({{ site.baseurl }}/assets/images/Inspectionpop.gif)
+![](/assets/images/Inspectionpop.gif)
 
 First, adjust the scale by entering *10* in the scale text edit box
 (lower right). 
@@ -532,7 +532,7 @@ Press the
 same dataset minus the rejected epochs), or press the *Cancel* button to
 cancel the operation.
 
-![575px]({{ site.baseurl }}/assets/images/Inspectionhighlight.gif)
+![](/assets/images/Inspectionhighlight.gif)
 
 At this point, you may spend some time trying out the advanced rejection
 functions we developed to select and mark artifactual epochs based on
@@ -552,8 +552,8 @@ independent components of the data. As independent components tend to
 concentrate artifacts, we have found that bad epochs can be more easily
 detected using independent component activities. The functions described
 above work exactly the same when applied to data components as when they
-are applied to the raw channel data. Select <font color=brown>Tools >
-Reject data using ICA > Reject data (all methods)</font>. We suggest
+are applied to the raw channel data. Select <span style="color: brown">Tools >
+Reject data using ICA > Reject data (all methods)</span>. We suggest
 that the analysis be done iteratively in the following seven steps:
 
 1.  Visually reject unsuitable (e.g. paroxysmal) portions of the

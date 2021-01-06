@@ -17,7 +17,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data.set" which is distributed with
 the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
-![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
+![Image:Pop_loadset.png](/assets/images/Pop_loadset.png)
 
 Removing linear trends
 -------------------
@@ -31,7 +31,7 @@ epoch boundaries.
 Select <span style="color: brown">Tools → Filter the data → Basic FIR filter (new, default)</span>, enter *1* (Hz) as the *Lower edge* frequency,
 and press *OK*.
 
-![400px]({{ site.baseurl }}/assets/images/Pop_eegfiltnew_1hz.jpg)
+![](/assets/images/Pop_eegfiltnew_1hz.jpg)
 
 A window will pop up to ask for the name of
 the new dataset. We choose to modify the dataset name and to overwrite

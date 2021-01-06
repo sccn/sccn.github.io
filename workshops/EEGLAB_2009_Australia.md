@@ -6,8 +6,8 @@ nav_exclude: true
 ---
 
 <font size =4><span style="color: red">9th EEGLAB Workshop</span>
-<font color=blue>Newcastle, Australia
-Nov 25-Nov 27, 2009</font></font>
+<span style="color: blue">Newcastle, Australia
+Nov 25-Nov 27, 2009</span></span>
 (Preceeding the [19th Australasian Psychophysiology Society
 Conference](http://www.newcastle.edu.au/conference/asp2009/))
 

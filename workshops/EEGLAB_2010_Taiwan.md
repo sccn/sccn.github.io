@@ -5,9 +5,9 @@ permalink: workshops/EEGLAB_2010_Taiwan.html
 nav_exclude: true
 ---
 
-<font size =4><font color=red>11th EEGLAB Workshop</font>
-<font color=blue>NCTU, Taiwan
-September 8 – September 10, 2010</font></font>
+<font size =4><span style="color: red">11th EEGLAB Workshop</span>
+<span style="color: blue">NCTU, Taiwan
+September 8 – September 10, 2010</span></span>
 See also the [Chinese workshop
 website](http://esciedu.nctu.edu.tw/eeglab_workshop/)
 
@@ -26,7 +26,7 @@ Maps and Directions
 [Microelectronics and Information Systems Research Center](http://www.eic.nctu.edu.tw/eindex.htm)
 
 Please see
-![800px](/assets/images/Nctu_map.jpg)
+![](/assets/images/Nctu_map.jpg)
 
 Pre-Workshop conferences
 ------------------------

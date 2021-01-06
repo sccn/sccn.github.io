@@ -30,7 +30,7 @@ some events has been rejected from the data, as described in the event scripting
 Importing events
 ------------
 
-Events can be imported into EEGLAB by selecting the <font color=brown>File → Import event info</font> menu item. Different methods to import events are detailed below.
+Events can be imported into EEGLAB by selecting the <span style="color: brown">File → Import event info</span> menu item. Different methods to import events are detailed below.
 
 ### Importing events from a data channel
 
@@ -51,10 +51,10 @@ eegdata(33,\[100:256:256\*100\]+round(rand\*128)) = 2; % simulating reaction tim
 ```
 
 After copying the code above to Matlab and importing the array *eegdata*
-into EEGLAB as a test dataset using the <font color=brown>File → Import data →
-from ASCII/float file or Matlab array</font> menu item, select
-<font color=brown>File → Import event info → from data
-channel</font> menu item to call function [pop_chanevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanevent.m) .
+into EEGLAB as a test dataset using the <span style="color: brown">File → Import data →
+from ASCII/float file or Matlab array</span> menu item, select
+<span style="color: brown">File → Import event info → from data
+channel</span> menu item to call function [pop_chanevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanevent.m) .
 
 ![Image:Ii21pop_chanevent.jpg](/assets/images/Ii21pop_chanevent.jpg)
 
@@ -64,8 +64,8 @@ to see contextual help messages).
 
 Press *OK*. Now, the event information will have been imported into the
 test EEGLAB dataset. At the same time, channel 33 will have been deleted
-from the test data. Select menu item <font color=brown>Edit → Event
-values</font> to inspect the imported event types and latencies.
+from the test data. Select menu item <span style="color: brown">Edit → Event
+values</span> to inspect the imported event types and latencies.
 
 ### Importing events from a Matlab array or text file
 
@@ -119,8 +119,8 @@ the third a parameter describing the event (for example, the stimulus position).
 </tr>
 </table>
 
-Select menu item <font color=brown>File → Import event info → Import
-Matlab array or ASCII file</font>
+Select menu item <span style="color: brown">File → Import event info → Import
+Matlab array or ASCII file</span>
 
 ![Image:Pop_importevent.jpg](/assets/images/Pop_importevent.jpg)
 
@@ -174,10 +174,10 @@ Sample files are available for download here:
 (a Presentation event log file). If you click on the links and a text file appear, right click on the link and use *Save link as* to save the files.
 
 To test the use of these sample files, first import the .SMA data file
-using menu item <font color=brown>File → Import data → From .SMA data
-file</font>. Then select <font color=brown>File → Import event info →
-from Presentation LOG. file</font> to import events from the
-Presentation log file as shown below</font>
+using menu item <span style="color: brown">File → Import data → From .SMA data
+file</span>. Then select <span style="color: brown">File → Import event info →
+from Presentation LOG. file</span> to import events from the
+Presentation log file as shown below</span>
 
 
 
@@ -185,7 +185,7 @@ Presentation log file as shown below</font>
 
 
 
-Then the following window pops-up</font>
+Then the following window pops-up</span>
 
 
 ![Image:Pop_importpres2.jpg](/assets/images/Pop_importpres2.jpg)
@@ -237,8 +237,8 @@ it. Once events are aligned, the function will automatically remove duplicate ev
 ### Importing E-Prime information files
 
 The E-prime format is highly configurable, so you may use the ASCII
-importer to import data files. Use the <font color=brown>File → Import event info →
-from E-Prime ASCII (text) file</font> menu item, which is the same as calling the <font color=brown>Import data → From ASCII/float file or Matlab array</font> menu item. Configure the
+importer to import data files. Use the <span style="color: brown">File → Import event info →
+from E-Prime ASCII (text) file</span> menu item, which is the same as calling the <span style="color: brown">Import data → From ASCII/float file or Matlab array</span> menu item. Configure the
 interface with the name of the E-Prime columns to import the event file. In some cases, it might be necessary to export the E-Prime to a tab-delimited file first (for
 example, in a spreadsheet application) and edit some of the column
 information that might not be read correctly under Matlab. Please send us your
@@ -248,7 +248,7 @@ import menu for E-Prime files.
 ### Importing Neuroscan .DAT information files
 
 A sample .DAT file [TEST.DAT](http://sccn.ucsd.edu/eeglab/download/TEST.DAT) associated with the sample [TEST.CNT](http://sccn.ucsd.edu/eeglab/download/TEST.CNT) continuous file are available for download for testing purposes. Both the .DAT file and the .CNT files must contain the same number of events (in this case 100). After importing the CNT file into EEGLAB, to import the .DAT file, select
-menu item <font color=brown>File → Import epoch info → From Neuroscan .DAT info file</font>. After selecting the file to import, a second window appears:
+menu item <span style="color: brown">File → Import epoch info → From Neuroscan .DAT info file</span>. After selecting the file to import, a second window appears:
 
 ![Image:Pop_loaddat.gif](/assets/images/Pop_loaddat.gif)
 
@@ -272,7 +272,7 @@ EEG data.
 eegdata = rand(32, 256, 10); % 32 channels, 256 time points per epoch, 10 epochs
 ```
 
-Select menu item <font color=brown>File → Import data → From ascii/float data file or Matlab array</font>. Refer to the [previous section](http://localhost:4000/tutorials/Import/Importing_Continuous_and_Epoched_Data.html) of the tutorial. 
+Select menu item <span style="color: brown">File → Import data → From ascii/float data file or Matlab array</span>. Refer to the [previous section](http://localhost:4000/tutorials/Import/Importing_Continuous_and_Epoched_Data.html) of the tutorial. 
 
 The Matlab array, being 3-D, is
 automatically imported as data epochs: the first dimension is
@@ -299,8 +299,8 @@ event file might look something like this:
 
 This file [tutorial_epoch.txt](http://sccn.ucsd.edu/eeglab/download/tutorial_epoch.txt) may
 be downloaded (or copied from the array above in a text file). Then select
-menu item <font color=brown>File → Import epoch info → from Matlab
-array or ascii file</font>, bringing up the following window:
+menu item <span style="color: brown">File → Import epoch info → from Matlab
+array or ascii file</span>, bringing up the following window:
 
 ![Image:Ii33pop_inportepoch.jpg](/assets/images/Ii33pop_inportepoch.jpg)
 
@@ -316,7 +316,7 @@ Finally, the reaction times are recorded in milliseconds, which we
 indicate as *1E-3* (i.e., one-thousandth of a second). Note that the
 last entry, *Remove old epoch ...*, allows the user to import other
 information later if it is unset. Press *OK*, when done.  Now select
-the <font color=brown>Edit → Event values</font> menu item to inspect what
+the <span style="color: brown">Edit → Event values</span> menu item to inspect what
 happened to the reaction time information (use the arrow to move to the
 second event):
 
@@ -350,11 +350,11 @@ between concatenated datasets).  The event *type* field can be used to extract d
 ### Plotting events
 
 First, start EEGLAB, and load dataset *eeglab_data.set* in the
-*sample_data* folder using the <font color=brown>File → Load
-dataset</font> menu item. Then use the <font color=brown>Plot → Channel
-data (scroll)</font> menu item to visualize the data and associated events.
+*sample_data* folder using the <span style="color: brown">File → Load
+dataset</span> menu item. Then use the <span style="color: brown">Plot → Channel
+data (scroll)</span> menu item to visualize the data and associated events.
 
-![575px](/assets/images/Scroll_raw_data.png)
+![](/assets/images/Scroll_raw_data.png)
 
 Events are shown as vertical lines. Different event types are shown in
 different colors. The button *Event types* will show the list of event
@@ -364,10 +364,10 @@ types for this dataset.
 
 The EEG event structure contains records of the experimental events that
 occurred while the data was being recorded. To view the
-information for an event, use the <font color=brown>Edit → Event
-values</font> menu item (see the window below, which shows the tutorial dataset's events imported in the previous step).
+information for an event, use the <span style="color: brown">Edit → Event
+values</span> menu item (see the window below, which shows the tutorial dataset's events imported in the previous step).
 
-![375px](/assets/images/V1pop_editeventvals.png)
+![](/assets/images/V1pop_editeventvals.png)
 
 The *type* and *latency* fields are the most important EEGLAB event
 fields (see below). Some EEGLAB functions recognize and use these two
@@ -420,8 +420,8 @@ resort events by increasing latencies.
 
 ### Adding, and modifying events
 
-To insert new events manually, select the <font color=brown>Edit
-→ Event values</font> menu item. Click on the *Insert event* button to add a new
+To insert new events manually, select the <span style="color: brown">Edit
+→ Event values</span> menu item. Click on the *Insert event* button to add a new
 event before the current event. The *Append event* button adds an event
 *after* the current event. After a new event has been inserted or
 appended, its event-field information can immediately be changed in the
@@ -431,7 +431,7 @@ event *type* edit box, and 500 in the event *latency* edit box.
 Note: If you click on the *cancel* button, none of the new
 information will be saved.
 
-![375px](/assets/images/V121pop_editeventvals_2.png)
+![](/assets/images/V121pop_editeventvals_2.png)
 
 After you press *OK*, the events may be resorted (events must always be
 in order of increasing latencies), and some field contents may be modified
@@ -451,15 +451,15 @@ of interest (such as blinks, for example).
 
 Another way to modify new events is to export them, modify them under Excel, and then import them back into EEGLAB. You may
 import the tutorial data *eeglab_data.set* in the
-*sample_data* under EEGLAB, then call menu item <font color=brown>File → Export → Events to text file</font> and save
+*sample_data* under EEGLAB, then call menu item <span style="color: brown">File → Export → Events to text file</span> and save
 a data file. Using this data file, we show how to rename all events with
 type "rt" to events with type "response" under Excel. The
 figure below shows the exported file (left) and the edited file (right).
 
-![600px](/assets/images/Spreadsheet_event.png)
+![](/assets/images/Spreadsheet_event.png)
 
-Then, using the <font color=brown>File → Import event info → From
-Matlab array of ASCII file</font> menu item, we select the modified file. We enter
+Then, using the <span style="color: brown">File → Import event info → From
+Matlab array of ASCII file</span> menu item, we select the modified file. We enter
 the column names, indicate that there is 1 line of header, and set the
 unit latency to NaN (which indicates that time information conversion is necessary). We
 also uncheck the alignment option (although leaving it checked has no
@@ -467,14 +467,14 @@ effect). Now all the events have been renamed (note that the interface
 to select events presented in the following section also allows to rename
 event type values, so this is only presented as a didactic example).
 
-![600px](/assets/images/Event_reimport.png)
+![](/assets/images/Event_reimport.png)
 
 ### Selecting/removing/renaming events
 
 You may
 import the tutorial data *eeglab_data.set* in the
-*sample_data* under EEGLAB. To select specific events, use the <font color=brown>Edit →
-Select epochs or events</font>menu item. This can be used to remove spurious events or rename events. 
+*sample_data* under EEGLAB. To select specific events, use the <span style="color: brown">Edit →
+Select epochs or events</span>menu item. This can be used to remove spurious events or rename events. 
 
 For example, to only keep type "square" events, you would enter "square" for event type as shown below.
 

@@ -4,7 +4,7 @@ title: EEGLAB and Python
 parent: Other documents
 ---
 
-EEGLAB and Python <font color=green> - Done</font>
+EEGLAB and Python <span style="color: green"> - Done</span>
 ===================
 
 EEGLAB does not work natively in Python because EEGLAB runs on
@@ -59,7 +59,7 @@ The number of citation per year corresponds to the following five papers:
     p.8.
 
 
-![600px](/assets/images/EEGLAB_usage.jpg)
+![](/assets/images/EEGLAB_usage.jpg)
 
 
 Major differences between Matlab and Python

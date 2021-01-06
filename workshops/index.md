@@ -6,7 +6,7 @@ has_toc: false
 ---
 # EEGLAB Workshops
 
-![Mugs from the 17th EEGLAB workshop]({{ site.baseurl }}/assets/images/EEGLAB-mug-shot.png)
+![Mugs from the 17th EEGLAB workshop](/assets/images/EEGLAB-mug-shot.png)
 
 [<b>The Online EEGLAB Workshop</b>](/workshops/Online_EEGLAB_Workshop) - Includes online videos, slides, and tutorial materials!
 

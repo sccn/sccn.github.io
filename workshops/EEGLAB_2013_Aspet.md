@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2013_Aspet.html
 nav_exclude: true
 ---
 
-![700px\|thumb\|center]({{ site.baseurl }}/assets/images/Group_picture_aspet2013.png)
+![700px\|thumb\|center](/assets/images/Group_picture_aspet2013.png)
 
 Sixteenth EEGLAB Workshop
 =========================
@@ -40,7 +40,7 @@ Workshop Program (with corresponding PDFs)
 <font color = green>
 
 
-19:00 -- Dinner (included in registration)</font>
+19:00 -- Dinner (included in registration)</span>
 
 <u><span style="color: blue">Tuesday, June 18th</span></u>
 

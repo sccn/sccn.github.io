@@ -6,13 +6,13 @@ parent: Workshops
 nav_order: 2
 ---
 
-![250px\|thumb\|right\|upright=2.5\|Lublin]({{ site.baseurl }}/assets/images/Lublin.jpg)
+![250px\|thumb\|right\|upright=2.5\|Lublin](/assets/images/Lublin.jpg)
 
 Thirty-first EEGLAB Workshop
 ============================
 
-<font color=blue>Lublin, Poland - HAS BEEN POSTPONED DUE TO COVID-19
-</font>
+<span style="color: blue">Lublin, Poland - HAS BEEN POSTPONED DUE TO COVID-19
+</span>
 <b> We have carefully considered all possible solutions and decided to
 postpone the workshop until 2021. Exact dates for the workshop are being
 identified and we will update information as soon as possible. We are
@@ -56,8 +56,8 @@ Registration cost is 300 Euros for students and post-docs, 350 Euros for
 faculty and other professional. The registration costs includes
 conference space rental, all coffee breaks, and a short excursion.
 
-<b>Registration:</b> <font color="red"> Registration are now closed and
-will be reopened in 2021. </font>
+<b>Registration:</b> <span style="color: "red""> Registration are now closed and
+will be reopened in 2021. </span>
 
 <b>Call for papers:</b> During the EEGLAB Workshop in Lublin a poster
 session will be held. We offer the possibility of publishing abstracts

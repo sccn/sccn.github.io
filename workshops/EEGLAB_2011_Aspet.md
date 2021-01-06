@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2011_Aspet.html
 nav_exclude: true
 ---
 
-![250px\|thumb\|right\|upright=2.5\|Cows breeding in the Pyrenees moutain range]({{ site.baseurl }}/assets/images/Cow-breeds.jpg)
+![250px\|thumb\|right\|upright=2.5\|Cows breeding in the Pyrenees moutain range](/assets/images/Cow-breeds.jpg)
 
 
 Thirteenth EEGLAB Workshop
@@ -70,7 +70,7 @@ Workshop Program (with corresponding PDFs)
 [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_cb_evaluate_ic.pdf)
 
 <font color = purple>14:00 – 15:00 -- Time-Frequency decompositions and
-practicum (Tim Mullen)</font>
+practicum (Tim Mullen)</span>
 [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_time_frequency.pdf)
 <!-- -->
 

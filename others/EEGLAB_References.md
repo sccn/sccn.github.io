@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB References
 parent: Other documents
 ---
-How to cite EEGLAB <font color=green>- DONE</font>
+How to cite EEGLAB <span style="color: green">- DONE</span>
 ====
 
 ## Primary EEGLAB citation

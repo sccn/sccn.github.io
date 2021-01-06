@@ -4,7 +4,7 @@ title: EEGLAB and Fieldtrip
 parent: Other documents
 ---
 
- EEGLAB and Fieldtrip <font color=green>- DONE</font>
+ EEGLAB and Fieldtrip <span style="color: green">- DONE</span>
 =========================
 
 History

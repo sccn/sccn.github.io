@@ -5,10 +5,10 @@ permalink: /workshops/EEGLAB_2017_Aspet.html
 nav_exclude: true
 ---
 
-![700px\|thumb\|center\|upright=2.5]({{ site.baseurl }}/assets/images/Group_aspet2017.jpg)
+![700px\|thumb\|center\|upright=2.5](/assets/images/Group_aspet2017.jpg)
 
 ![250px\|thumb\|right\|upright=2.5\|Scenery of the Pyrenees
-mountains]({{ site.baseurl }}/assets/images/Pyrennees.png)
+mountains](/assets/images/Pyrennees.png)
 
 Twenty-fourth EEGLAB Workshop
 =============================
@@ -42,7 +42,7 @@ Workshop Program (with corresponding PDFs)
 <font color = green>
 
 
-19:45 -- Dinner (included in registration)</font>
+19:45 -- Dinner (included in registration)</span>
 
 20:45 – 21:30 -- Optional beginner Matlab course by Ramon Martinez
 

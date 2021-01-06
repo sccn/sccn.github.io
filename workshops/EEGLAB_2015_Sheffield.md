@@ -5,13 +5,13 @@ permalink: /workshops/EEGLAB_2015_Sheffield.html
 nav_exclude: true
 ---
 
-![center\|upright=3]({{ site.baseurl }}/assets/images/Scheffield.png)
+![center\|upright=3](/assets/images/Scheffield.png)
 
 Twentieth EEGLAB Workshop
 =========================
 
 <span style="color: blue">Sheffield, UK - September 2-5, 2015</span>
-![center\|750px\|upright=3]({{ site.baseurl }}/assets/images/Sheffield_group_pict.jpg)
+![center\|750px\|upright=3](/assets/images/Sheffield_group_pict.jpg)
 
 EEGLAB is an open-source software environment for electrophysiological
 signal processing now widely used around the world, with a growing

@@ -6,13 +6,13 @@ nav_exclude: true
 ---
 
 ![350px\|thumb\|right\|upright=2.5\|The outer gate, well, and tamarisk
-tree at Tel Beersheba]({{ site.baseurl }}/assets/images/Xxx.png)
+tree at Tel Beersheba](/assets/images/Xxx.png)
 
 Twenty-sixth EEGLAB Workshop
 ============================
 
-<font color=blue>Ben-Gurion University/ Beer-Sheva, Israel - October
-15-18, 2017</font>
+<span style="color: blue">Ben-Gurion University/ Beer-Sheva, Israel - October
+15-18, 2017</span>
 The 26th EEGLAB Workshop will take place from Sunday, October 15th
 through Friday, October 18th at Ben-Gurion University/ Beer-Sheva.
 Participants will be expected to bring laptops with Matlab installed so

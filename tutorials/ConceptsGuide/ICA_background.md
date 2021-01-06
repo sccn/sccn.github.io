@@ -54,7 +54,7 @@ shows the diversity of source information typically contained in EEG
 data and the striking ability of ICA to separate out these activities
 from the recorded channel mixtures.
 
-![500px]({{ site.baseurl }}/assets/images/ICAexample.jpg)
+![](/assets/images/ICAexample.jpg)
 
 *Fifteen seconds of
 EEG data at 9 (of 100) scalp channels (top panel) with activities of 9

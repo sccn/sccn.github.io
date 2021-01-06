@@ -15,12 +15,12 @@ Here are the most common steps you might want to take when processing EEG data a
 - a general introduction to EEG signal processing and EEGLAB
 
 
-<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN2NksmDeqizCI1z5DJBlqC6"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/ICAintro2.png"></a>
+<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN2NksmDeqizCI1z5DJBlqC6"><img align="center" width="400" height="400" src= "/assets/images/ICAintro2.png"></a>
 
  
 - an introduction to preprocessing EEG data 
 
-<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/ICApreproc.png"></a>
+<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae"><img align="center" width="400" height="400" src= "/assets/images/ICApreproc.png"></a>
 -->
 
 

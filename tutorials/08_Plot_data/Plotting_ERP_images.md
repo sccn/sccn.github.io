@@ -40,7 +40,7 @@ brings up the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=p
 
 Enter the channel number (27 or click on the "..." button to select channel *POz*), a trial-smoothing value of *1*, and press *OK*.
 
-![500px]({{ site.baseurl }}/assets/images/I82pop_erpimage.jpg)
+![](/assets/images/I82pop_erpimage.jpg)
 
 
 An ERP image is a rectangular colored image in which every horizontal
@@ -59,7 +59,7 @@ be turned off in the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php
 See check-boxes *plot ERP* and *plot scalp map*.
 
 
-![400px]({{ site.baseurl }}/assets/images/1ERPimagesmooth.gif)
+![](/assets/images/1ERPimagesmooth.gif)
 
 
 Since activity in single trials contains many variations, it may be
@@ -80,7 +80,7 @@ problem with this feature, you may type *\>\>eegh(0)* on the Matlab
 command line to clear the history.
 
 
-![475px]({{ site.baseurl }}/assets/images/1ERPimage27.gif)
+![](/assets/images/1ERPimage27.gif)
 
 **ERP image with large numbers of trials**. When plotting a large number of trials, it is not necessary to plot
 each (smoothed) trial as a horizontal line. (The screen and/or printer
@@ -138,7 +138,7 @@ would only have plotted epochs with rt events).
  
  
 
-![575px]({{ site.baseurl }}/assets/images/ERPimagelatency.gif)
+![](/assets/images/ERPimagelatency.gif)
 
 *Note*: In this and some other interactive pop-windows, holding the
 mouse cursor over the label above a text-entry box for a few seconds
@@ -147,7 +147,7 @@ pops up an explanatory comment.
 Now, the [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) figure below appears. The curved black line corresponds to the latency time of the event (rt) we are sorting
 by.
 
-![425px]({{ site.baseurl }}/assets/images/1ERPimagelatency.gif)
+![](/assets/images/1ERPimagelatency.gif)
 
 In general, the user can sort on any event field value.
 
@@ -167,7 +167,7 @@ regions.
 variable explicitly (see [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) help).
 
 
-![425px]({{ site.baseurl }}/assets/images/1ERPimageposition.gif)
+![](/assets/images/1ERPimageposition.gif)
 
 ### Using the *Align* paramater
 
@@ -196,7 +196,7 @@ of the ERP image. The ERP-image function shows these as green (0) and
 returns these values as *NaN*s (Matlab not-a-number).
 
 
-![575px]({{ site.baseurl }}/assets/images/1ERPimageinfedit.gif)
+![](/assets/images/1ERPimageinfedit.gif)
 
 
 The ERP image figure (below) will be created. Here, the straight
@@ -206,7 +206,7 @@ stimulus was presented in each trial. Compare the figure below with
 the previous non-aligned, RT-sorted ERP image.
 
 
-![425px]({{ site.baseurl }}/assets/images/1ERPimageinf.gif)
+![](/assets/images/1ERPimageinf.gif)
 
 
 ### Sorting trials by EEG phase value
@@ -231,13 +231,13 @@ then in in the *Sort trials by phase* section, complete the following fields as 
 - *Sort trials by phase → Frequency*: *10* (Hz) 
 - *Sort trials by phase → Window center*: *0*(ms) 
 
-![575px]({{ site.baseurl }}/assets/images/I84pop_erpimage.jpg)
+![](/assets/images/I84pop_erpimage.jpg)
 
 
 We then obtain the ERP-image figure below.
 
 
-![475px]({{ site.baseurl }}/assets/images/1ERPimage10.gif)
+![](/assets/images/1ERPimage10.gif)
 
 
 Note just before the stimulus onset the red oblique stripe: this is
@@ -275,7 +275,7 @@ P400 ERP appears.
 
 
 
-![475px]({{ site.baseurl }}/assets/images/1ERPimage1050.gif)
+![](/assets/images/1ERPimage1050.gif)
 
 
 Our interpretation (above) of these trials as representing phase
@@ -315,13 +315,13 @@ frequency range instead of one frequency (e.g., *10* as before) tells
 in the input data (here between 9 and 11 Hz).
 
 
-![475px]({{ site.baseurl }}/assets/images/I84pop_erpimage2.jpg)
+![](/assets/images/I84pop_erpimage2.jpg)
 
 
 The following window is created.
 
 
-![375px]({{ site.baseurl }}/assets/images/I84Coher_freq.jpg)
+![](/assets/images/I84Coher_freq.jpg)
 
 
 Two additional plot panels appear below the ERP panel (&micro;V). The middle
@@ -368,10 +368,10 @@ vertical mark at 500 ms (here for illustrative purpose only)
 window
 - enter *-3 3* under *Amplitude limits (dB)*.
 
-![575px]({{ site.baseurl }}/assets/images/I85pop_erpimage.jpg)
+![](/assets/images/I85pop_erpimage.jpg)
 
 The [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) figure below appears.
 
-![425px]({{ site.baseurl }}/assets/images/I85erpimage.jpg)
+![](/assets/images/I85erpimage.jpg)
 
 

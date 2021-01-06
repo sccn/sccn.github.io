@@ -170,7 +170,7 @@ minor changes to run under Octave.
 `                                          `
 
 
-![600px](/assets/images/Octave2.png)
+![](/assets/images/Octave2.png)
 
 
 

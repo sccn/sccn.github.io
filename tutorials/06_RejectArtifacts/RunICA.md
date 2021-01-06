@@ -38,7 +38,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data.set" which is distributed with
 the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
-![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
+![Image:Pop_loadset.png](/assets/images/Pop_loadset.png)
 
 In theory, you should go through rejecting bad channels and bad portions of data before running ICA. However, the tutorial dataset is clean enough for running ICA without prior artifact rejection.
 
@@ -53,7 +53,7 @@ calls the function [pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?fil
 simply press *OK*.
 
 
-![575px]({{ site.baseurl }}/assets/images/Runica.gif)
+![](/assets/images/Runica.gif)
 
 
 
@@ -176,7 +176,7 @@ accounting for characteristic artifacts. For example, in the scrolling
 [eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) below, component 3 appears to account primarily for
 blinks (we will learn how to recognize components in this tutorial).
 
-![px]({{ site.baseurl }}/assets/images/Scrollcomponentact2.png)
+![](/assets/images/Scrollcomponentact2.png)
 
 Plotting 2-D Component Scalp Maps
 ----------------------------------
@@ -191,7 +191,7 @@ functions several times for smaller groups of channels (e.g., *1:30* ,
 *31:60* , etc.). Below we ask for the first 12 components (*1:12*) only,
 and choosing to set 'electrodes', 'off'.
 
-![475px]({{ site.baseurl }}/assets/images/I92pop_topoplot.jpg)
+![](/assets/images/I92pop_topoplot.jpg)
 
 The following [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m) window appears, showing the scalp
 map projection of the selected components. Note that the scale in the
@@ -200,7 +200,7 @@ activity time course also uses arbitrary units. However, the component's
 scalpmap values multiplied by the component activity time course is in
 the same unit as the data. 
 
-![525px]({{ site.baseurl }}/assets/images/92ICA_topo.jpg)
+![](/assets/images/92ICA_topo.jpg)
 
 Studying and flagging artifactual ICA components
 ----------------------------------
@@ -224,7 +224,7 @@ alone (as mentioned earlier, your decomposition and component ordering
 might be slightly different). An expert eye would spot component 3 (below) as an eye
 artifact component. 
 
-![225px]({{ site.baseurl }}/assets/images/92ICA_eyecomp.jpg)
+![](/assets/images/92ICA_eyecomp.jpg)
 
 
 To study component properties and label components for rejection (i.e.
@@ -236,7 +236,7 @@ previous 2-D scalp map plots is that one can here plot the properties of
 each component by clicking on the rectangular button above each
 component scalp map.
 
-![450px]({{ site.baseurl }}/assets/images/94reject_ICAcomp.jpg)
+![](/assets/images/94reject_ICAcomp.jpg)
 
 For example, click on the button labeled *3*. This component can be
 identified as an eye artifact for three reasons:
@@ -263,7 +263,7 @@ inspection of component time course
 (menu <span style="color: brown">Plot → Component activations (scroll)</span> --- not shown here).
 
 
-![325px]({{ site.baseurl }}/assets/images/I94component3_properties.jpg)
+![](/assets/images/I94component3_properties.jpg)
 
 
 
@@ -282,7 +282,7 @@ spatially localized and show high power at high frequencies (20-50 Hz
 and above) as shown below.
 
 
-![325px]({{ site.baseurl }}/assets/images/I94component32_properties.jpg)
+![](/assets/images/I94component32_properties.jpg)
 
 
 Artifactual components often encountered (but not present in this
@@ -292,7 +292,7 @@ The ERP
 image plot below shows that it picked up some noise line at 60 Hz
 especially in trials 65 and on.
 
-![325px]({{ site.baseurl }}/assets/images/I94component24_properties.jpg)
+![](/assets/images/I94component24_properties.jpg)
 
 Many other components appear to be brain-related. A different section of the tutorial deal with using ICA component for brain source localization.
 What if a component looks to be "half artifact, half brain-related"?
@@ -361,7 +361,7 @@ identical with opposite polarities. In this case,
 both components are seen as having a large amount of noise. This is
 illustrated below.
 
-![px]({{ site.baseurl }}/assets/images/Comp_identical1.gif)
+![](/assets/images/Comp_identical1.gif)
 
 This may happen in case of rank deficiency (as explained in the next section). However, this may also happen in full ranked data. The solution to this problem is not obvious. One solution is to use a different
 ICA algorithm. Another solution we have been using is to experiment with
@@ -380,7 +380,7 @@ not run any formal comparison. Our reasoning is that the two component
 above tend to make other components noisy as well so the solution where
 dimensions are reduced by PCA is preferable.
 
-![px]({{ site.baseurl }}/assets/images/Comp_identical2.gif)
+![](/assets/images/Comp_identical2.gif)
 
 This is not to say that using PCA should be done systematically. In
 general, PCA will slightly corrupt the data by adding non linearities so
@@ -443,11 +443,11 @@ of the independent components (brain, eye, muscle, line noise, etc.). The ICLabe
 
 Once you have run ICA, select menu item <span style="color: brown">Tools → Classify components using ICLabel → Label components</span>. Simply select the default and press OK.
 
-![px]({{ site.baseurl }}/assets/images/iclabel1.png)
+![](/assets/images/iclabel1.png)
 
 A second window will pop up and ask to plot components. Simply press *OK*.
 
-![px]({{ site.baseurl }}/assets/images/iclabel2.png)
+![](/assets/images/iclabel2.png)
 
 Clicking on a component will pop up a
 window with an expanded set of component property measures, as well as
@@ -477,7 +477,7 @@ ans =
 
 Then you may select menu item <span style="color: brown">Tools → Classify components using ICLabel → Flag components as artifacts</span>. The default is to label those components which have more than 90% probability of being in the muscle or eye artifacts (eye blinks and eye movements) category. When components are flagged using this function, the button will appear red in the interface for rejecting components manually (<span style="color: brown">Tools → Reject using ICA → Reject components by map</span>), so may edit which components have been flagged as artifacts.
 
-![px]({{ site.baseurl }}/assets/images/iclabel3.png)
+![](/assets/images/iclabel3.png)
 
 Subtracting ICA components from data
 ==========================
@@ -497,20 +497,20 @@ in the previous <span style="color: brown">Tools → Reject using ICA → Reject
 component rejection window (using the *<span style="color: green">Accept</span> or <span style="color: red">Reject</span>*
 buttons). 
 
-![px]({{ site.baseurl }}/assets/images/pop_selectcomp25.png)
+![](/assets/images/pop_selectcomp25.png)
 
 You may press *Yes* or select the *Manual rej* button to manually edit the list of components as shown below.
 
-![px]({{ site.baseurl }}/assets/images/pop_subcomp.png)
+![](/assets/images/pop_subcomp.png)
 
 Enter the component numbers you wish to reject (in this case, we will leave component 3) and press *OK*. Note that component 3 might not be an eye blink artifact in your case. Since your ICA decomposition might be slightly different, you will need to select manually (or using the automated detection of artifactual ICA components) the corresponding component. A window will pop up, asking if you want to compare the data before and after rejecting components, as shown below.
 
-![px]({{ site.baseurl }}/assets/images/pop_selectcomp22.png)
+![](/assets/images/pop_selectcomp22.png)
 
 Click on *Plot single trial* pushbutton. This shows (below) the data before (in black) and after
 (in red) component(s) subtraction. We can clearly see how well ICA has removed the blink artifact.
 
-![px]({{ site.baseurl }}/assets/images/pop_selectcomp23.png)
+![](/assets/images/pop_selectcomp23.png)
 
 In case you are removing ICA component in data epochs, you may click on
 *Plot ERPs* pushbutton -- it is possible
@@ -519,7 +519,7 @@ we cannot plot ERPs. If we had extracted ERPs, we would obtain a plot similar
 to the one below plotting channel ERP before (in blue) and after
 (in red) component(s) subtraction.
 
-![px]({{ site.baseurl }}/assets/images/pop_selectcomp24.png)
+![](/assets/images/pop_selectcomp24.png)
 
 Once you are satisfied with the result press the *Accept* button in the querry window. A last window will pop up asking you if you want to rename
 the new data set. Give it a name and again press *OK*.

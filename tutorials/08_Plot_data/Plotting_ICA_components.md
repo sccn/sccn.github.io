@@ -25,7 +25,7 @@ Component spectra contribution
 
 We use here the tutorial dataset as it was after extracting data epochs. Select menu item <span style="color: brown">File → load existing dataset</span> and select the tutorial file "eeglab_data_epochs_ica.set" located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
-![Image:Pop_loadset2.png]({{ site.baseurl }}/assets/images/Pop_loadset2.png)
+![Image:Pop_loadset2.png](/assets/images/Pop_loadset2.png)
 
 It is of interest to see which components contribute most strongly to
 which frequencies in the data. To do so, select <span style="color: brown">Plot → Component spectra and maps</span>. 
@@ -42,14 +42,14 @@ default in *Components to consider*. Press *OK*.
 
 
 
-![525px]({{ site.baseurl }}/assets/images/Channelspectraedit.gif)
+![](/assets/images/Channelspectraedit.gif)
 
 
 
 The [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) window (below) appears.
 
 
-![425px]({{ site.baseurl }}/assets/images/Spectopocomps.gif)
+![](/assets/images/Spectopocomps.gif)
 
 
 
@@ -79,14 +79,14 @@ will be shown)
 - Press *OK* when done.
 
 
-![525px]({{ site.baseurl }}/assets/images/Channelspectraedit1.gif)
+![](/assets/images/Channelspectraedit1.gif)
 
 
 
 The [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) figure appears (as below).
 
 
-![425px]({{ site.baseurl }}/assets/images/I102spectopo.jpg)
+![](/assets/images/I102spectopo.jpg)
 x
 
 
@@ -131,18 +131,18 @@ A first step is to view the component ERPs. To Plot component ERPs,
 select <span style="color: brown">Plot → Component ERPs → In rectangular array</span>, which calls the [pop_plotdata.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_plotdata.m) function. Then
 press *OK*.
 
-![325px]({{ site.baseurl }}/assets/images/Rectarrayedit.gif)
+![](/assets/images/Rectarrayedit.gif)
 
 The [pop_plotdata.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_plotdata.m) window below pops up, showing the average ERP
 for all 31 components.
 
-![425px]({{ site.baseurl }}/assets/images/I103pop_plotdata.jpg)
+![](/assets/images/I103pop_plotdata.jpg)
 
 Click on the component-1 trace (above) to plot this trace in a new window
 (as below).
 
 
-![425px]({{ site.baseurl }}/assets/images/I103single_plotdata.jpg)
+![](/assets/images/I103single_plotdata.jpg)
 
 To plot the contribution of component ERPs to the data ERP, select
 <span style="color: brown">Plot → Component ERPs → with component maps</span>,
@@ -154,7 +154,7 @@ plot the ERP using the *Indices of components to subtract ...* edit
 box. Press *Ok*.
 
 
-![475]({{ site.baseurl }}/assets/images/Pop_envtopo.gif)
+![475](/assets/images/Pop_envtopo.gif)
 
 
 
@@ -164,7 +164,7 @@ indicates the data envelope (i.e. minimum and maximum of all channel at
 every time point) and the colored show the component ERPs.
 
 
-![375]({{ site.baseurl }}/assets/images/Envtopo.gif)
+![375](/assets/images/Envtopo.gif)
 
 
 
@@ -173,7 +173,7 @@ window and zoom in on time range from *200* ms to *500* ms
 post-stimulus, as indicated below.
 
 
-![475]({{ site.baseurl }}/assets/images/Pop_envtopo2.gif)
+![475](/assets/images/Pop_envtopo2.gif)
 
 
 
@@ -181,7 +181,7 @@ We can see (below) that near 400 ms component 1 contributes most
 strongly to the ERP.
 
 
-![375]({{ site.baseurl }}/assets/images/Envtopo2.gif)
+![375](/assets/images/Envtopo2.gif)
 
 
 
@@ -212,7 +212,7 @@ by phase at 10 Hz and 0 ms, to image reaction time, power and
 Inter-Trial Coherence (see the channel [ERP image tutorial](/tutorials/08_Plot_data/Plotting_ERP_images.html) for more
 information).
 
-![525px]({{ site.baseurl }}/assets/images/Componenterpedit.gif)
+![](/assets/images/Componenterpedit.gif)
 
 
 For component 6 (below) we observe in the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) figure
@@ -227,7 +227,7 @@ does not change across the epoch (middle blue trace) and phase at the
 analysis frequency is not reset by the stimulus (bottom blue trace).
 Here again, the blue-shaded regions indicate non significant regions.
 
-![375px]({{ site.baseurl }}/assets/images/I105erpimage.jpg)
+![](/assets/images/I105erpimage.jpg)
 
 
 Note that the scale and polarity information is distributed in the ICA
@@ -246,7 +246,7 @@ component activation(s) at that channel:
 Note that the ERP is reversed in polarity and that absolute
 unit for power has changed.
 
-![375px]({{ site.baseurl }}/assets/images/I105erpimage2.jpg)
+![](/assets/images/I105erpimage2.jpg)
 
 In the next section, we show how to use EEGLAB to perform and visualize
 time/frequency decompositions of independent
@@ -273,11 +273,11 @@ low as one cycle per window, whereas the wavelet method uses a fixed
 number of cycles (default 3) for each frequency.
 
 
-![px]({{ site.baseurl }}/assets/images/newtimef_comp1.png)
+![](/assets/images/newtimef_comp1.png)
 
 The following [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) window appears. 
 
-![425px]({{ site.baseurl }}/assets/images/newtimef_comp2.png)
+![](/assets/images/newtimef_comp2.png)
 
 The ITC image (*lower
 panel*) shows no significant effect. The ERSP image
@@ -286,16 +286,16 @@ panel*) shows no significant effect. The ERSP image
 
 Component head plots
 ---------------
-When using [ICA to remove/subtract artifacts](/tutorials/06_RejectArtifacts/RunICA.html), we have plotted 2-D component scalp maps with menu item <font color=brown>Plot → Component maps → In 2-D</font>.
+When using [ICA to remove/subtract artifacts](/tutorials/06_RejectArtifacts/RunICA.html), we have plotted 2-D component scalp maps with menu item <span style="color: brown">Plot → Component maps → In 2-D</span>.
 
 Using EEGLAB, you may also plot a 3-D head plot of a component
-topography by selecting <font color=brown>Plot → Component maps → In
-3-D</font>. This calls the [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) function. The function may
+topography by selecting <span style="color: brown">Plot → Component maps → In
+3-D</span>. This calls the [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) function. The function may
 automatically use the spline file you have generated when plotting ERP
 3-D scalp maps. Select components *1, 2, 3, 4, 5* (below), set the *heaplot options* to " 'view', [0 90] " and press *OK*.
 
 
-![575px]({{ site.baseurl }}/assets/images/3Dcomponentedit.gif)
+![](/assets/images/3Dcomponentedit.gif)
 
 
 The [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) window below appears. You may use the
@@ -303,7 +303,7 @@ Matlab rotate 3-D option to rotate these headplots. Else,
 enter a different *view* angle in the window above.
 
 
-![375px]({{ site.baseurl }}/assets/images/93ICA_3D.jpg)
+![](/assets/images/93ICA_3D.jpg)
 
 For more information on this interface and how to perform
 coregistration of electrode and head model, see the [Plotting ERP Data in

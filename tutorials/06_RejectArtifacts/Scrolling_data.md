@@ -17,7 +17,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data.set" which is distributed with
 the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
-![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
+![Image:Pop_loadset.png](/assets/images/Pop_loadset.png)
 
 Scrolling data
 --------------------------
@@ -33,7 +33,7 @@ data epochs (which we will later separate again). This explains some
 sudden jumps you may see in some data channels.
 
 
-![Image:Scrollchannelactivities1.png]({{ site.baseurl }}/assets/images/Scrollchannelactivities1.png)
+![Image:Scrollchannelactivities1.png](/assets/images/Scrollchannelactivities1.png)
 
 
 To the right of the plot window is the vertical scale value (and its
@@ -50,7 +50,7 @@ from the keyboard, and press the *Enter* key to update the scrolling
 window.
 
 
-![Image:Scrollchannelactivities2.png]({{ site.baseurl }}/assets/images/Scrollchannelactivities2.png)
+![Image:Scrollchannelactivities2.png](/assets/images/Scrollchannelactivities2.png)
 
 
 Adjusting the width of the scrolling time window
@@ -61,7 +61,7 @@ item <span style="color: brown">Settings → Time range to display</span>, and
 set the desired window length to "10" seconds as shown below,
 
 
-![Image:I16change_window_length.png]({{ site.baseurl }}/assets/images/I16change_window_length.png)
+![Image:I16change_window_length.png](/assets/images/I16change_window_length.png)
 
 
 
@@ -69,7 +69,7 @@ set the desired window length to "10" seconds as shown below,
 Then press *OK* to make the indicated change take effect.
 
 
-![Image:Scrollchannelactivities3.png]({{ site.baseurl }}/assets/images/Scrollchannelactivities3.png)
+![Image:Scrollchannelactivities3.png](/assets/images/Scrollchannelactivities3.png)
 
 
 
@@ -77,12 +77,12 @@ Number of Channels to Display
 --------------------------
 To adjust the number of channels displayed, select
 [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
-item <font color=brown>Settings → Number of channels to
-display</font> and enter the desired number of channels to display in
+item <span style="color: brown">Settings → Number of channels to
+display</span> and enter the desired number of channels to display in
 the screen (for instance "16").
 
 
-![Image:I16chan_to_display.png]({{ site.baseurl }}/assets/images/I16chan_to_display.png)
+![Image:I16chan_to_display.png](/assets/images/I16chan_to_display.png)
 
 
 Reducing the number of channels shown will return a scrolling
@@ -91,7 +91,7 @@ with a vertical channel-set slider to the left of the plot. Use it to
 scroll the display (vertically) through all the channels.
 
 
-![Image:Scrollchannelactivities4.png]({{ site.baseurl }}/assets/images/Scrollchannelactivities4.png)
+![Image:Scrollchannelactivities4.png](/assets/images/Scrollchannelactivities4.png)
 
 Zoom on data
 --------------------------
@@ -105,7 +105,7 @@ Click the right button on the mouse to zoom out again. Use menu item
 off the zoom option.
 
 
-![Image:I16scroll_zoom.png]({{ site.baseurl }}/assets/images/I16scroll_zoom.png)
+![Image:I16scroll_zoom.png](/assets/images/I16scroll_zoom.png)
 
 Rejecting Data
 --------------------------
@@ -113,14 +113,14 @@ The [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
 window also allows you to reject (erase) arbitrary portions of the
 continuous data. The function
 [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) can be
-called from both menu items <font color=brown>Tools → Inspect/reject data by eye</font> and <font color=brown>Plot → Channel data (scroll)</font>. Depending on which menu item you select, a warning message may appears; click on *Continue*. 
+called from both menu items <span style="color: brown">Tools → Inspect/reject data by eye</span> and <span style="color: brown">Plot → Channel data (scroll)</span>. Depending on which menu item you select, a warning message may appears; click on *Continue*. 
 
 To erase a selected portion of the data, first drag the
 mouse (holding down the left mouse button) horizontally across the
 time region of interest to mark it for rejection. If you like, mark
 multiple regions for rejection in this way.
 
-![800px]({{ site.baseurl }}/assets/images/I16reject_scroll.png)
+![](/assets/images/I16reject_scroll.png)
 
 Note: Zooming must be disabled to select a portion of the data.
 
@@ -135,7 +135,7 @@ This allows re-inspection of the data portions marked for rejection in
 two or more passes, e.g., after the user has developed a more consistent
 rejection strategy or threshold. 
 
-![575px](/assets/images/Iii1eegplot2.jpg)
+![](/assets/images/Iii1eegplot2.jpg)
 
 After marking some portions of the data for
 rejection, press *REJECT* and a new data set will be created with the
@@ -154,7 +154,7 @@ boundary events insure that subsequent epoch selections do not cross
 non-contiguous rejection boundaries. Thus, rejection on continuous data
 must be performed 'before' separating it into data epochs. To plot the data with the *boundary* event use menu item <span style="color: brown">Plot → Channel data (scroll)</span> on the new dataset as shown below (the thick red event mark is a boundary event).
 
-![575px](/assets/images/Iii1eegplot1.jpg)
+![](/assets/images/Iii1eegplot1.jpg)
 
 We only performed this rejection for illustrative purposes.
 You may restart EEGLAB or switch back to the original dataset by selecting main window menu item

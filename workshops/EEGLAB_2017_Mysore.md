@@ -6,7 +6,7 @@ nav_exclude: true
 ---
 
 ![700px\|thumb\|center\|upright=2.5\|[Mysuru Palace, Karnataka,
-India](https://en.wikipedia.org/wiki/Mysore_Palace)]({{ site.baseurl }}/assets/images/Mysore.jpg)
+India](https://en.wikipedia.org/wiki/Mysore_Palace)](/assets/images/Mysore.jpg)
 
 23rd EEGLAB Workshop
 ====================

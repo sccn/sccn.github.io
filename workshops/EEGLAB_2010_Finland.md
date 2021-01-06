@@ -6,8 +6,8 @@ nav_exclude: true
 ---
 
 <font size =4><span style="color: red">10th EEGLAB Workshop</span>
-<font color=blue>Jyväskylä, Finland
-June 14 – June 17, 2010</font></font>
+<span style="color: blue">Jyväskylä, Finland
+June 14 – June 17, 2010</span></span>
 
 
 Pre-Workshop ICA conference

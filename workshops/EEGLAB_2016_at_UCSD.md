@@ -5,7 +5,7 @@ permalink: /workshops/EEGLAB_2016_at_UCSD.html
 nav_exclude: true
 ---
 
-![center\|800px\|upright=0.5]({{ site.baseurl }}/assets/images/Eeglab2016participants.png)
+![center\|800px\|upright=0.5](/assets/images/Eeglab2016participants.png)
 
 See the workshop [Facebook
 group](https://www.facebook.com/groups/363610460662452/) for additional
@@ -14,8 +14,8 @@ pictures.
 The 22nd EEGLAB Workshop
 ========================
 
-<font color=blue>La Jolla, California, USA - November 17-21, 2016
-following the Society for Neuroscience meeting in San Diego</font>
+<span style="color: blue">La Jolla, California, USA - November 17-21, 2016
+following the Society for Neuroscience meeting in San Diego</span>
 The 22nd EEGLAB Workshop will take place from Thursday evening, November
 17th through Monday, November 21st at San Diego Supercomputer Center of
 the University of California San Diego, La Jolla, CA, USA. Participants

@@ -55,11 +55,11 @@ window length ('winlen') at the lowest frequency should be xxx samples
 long (i.e., 1 sec long). If we were using 1 cycles, the lowest frequency
 would be 1 Hz. With 3 cycles, the lowest frequency is 3 Hz.
 
-![px]({{ site.baseurl }}/assets/images/newtimef1.png)
+![](/assets/images/newtimef1.png)
 
 The window below appears:
  
- ![375px]({{ site.baseurl }}/assets/images/newtimefplot1.png)
+ ![](/assets/images/newtimefplot1.png)
 
  - The **top image** shows
 mean event-related changes in spectral power (from pre-stimulus
@@ -96,11 +96,11 @@ enter *14* (Cz) for the *Channel number*. Use *.05* for the *Bootstrap
 significance level*, and check the *FDR correct* checkbox to correct for multiple
 comparisons using the False Discovery Rate method (see statistics [Appendix](/tutorials/ConceptsGuide/statistics_theory.html) for more information). Press *Ok*.
 
-![px]({{ site.baseurl }}/assets/images/newtimef2.png)
+![](/assets/images/newtimef2.png)
 
 The window below appears:
  
- ![375px]({{ site.baseurl }}/assets/images/newtimefplot2.png)
+ ![](/assets/images/newtimefplot2.png)
 
  Note that the
 time/frequency points showing significant ITC and ERSP are not
@@ -119,11 +119,11 @@ enter
 
 Press *Ok*.
 
-![px]({{ site.baseurl }}/assets/images/newtimef3.png)
+![](/assets/images/newtimef3.png)
 
 The window below appears:
  
- ![375px]({{ site.baseurl }}/assets/images/newtimefplot3.png)
+ ![](/assets/images/newtimefplot3.png)
 
  The plot above shows fluctuations in spectral power and ITC through time at the chosen frequencies. This plotting format does not allow masking for significance.
 

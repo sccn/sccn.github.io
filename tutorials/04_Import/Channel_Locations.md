@@ -28,7 +28,7 @@ Load the sample EEGLAB dataset
 Select the <span style="color: brown">File</span> menu item and press the
 <span style="color: brown">Load existing dataset</span> sub-menu item.
 
-![Image:Pop_loadset.png]({{ site.baseurl }}/assets/images/Pop_loadset.png)
+![Image:Pop_loadset.png](/assets/images/Pop_loadset.png)
 
 Select the tutorial file "eeglab_data.set" distributed with
 the toolbox, and located in the "sample_data" folder of EEGLAB. Then press *Open*.
@@ -56,7 +56,7 @@ to use standard channel locations based on the imported electrode
 position labels (for example, 'Fz') from a channel locations file using
 an extended International 10-20 System.
 
-![Image:Editchannelinfo_auto.png]({{ site.baseurl }}/assets/images/Editchannelinfo_auto.png)
+![Image:Editchannelinfo_auto.png](/assets/images/Editchannelinfo_auto.png)
 
 You may choose between several templates. If you intend to perform
 source localization, we strongly suggest that you select the second
@@ -64,7 +64,7 @@ option, "Use MNI coordinates for the BEM Dipfit model" (the first set
 of 'BESA' coordinates was designed for a spherical BESA head model,
 now obsolete). Press *OK*.
 
-![500px]({{ site.baseurl }}/assets/images/Gui_pop_chanedit2.jpg)
+![](/assets/images/Gui_pop_chanedit2.jpg)
 
 ### Command-line channel location look up example
 
@@ -88,7 +88,7 @@ Reopen <span style="color: brown">Edit → Channel locations</span>. In case it 
 (located in the *sample_data* sub-directory of the EEGLAB
 distribution).
 
-![Image:Loadchannellocation.png]({{ site.baseurl }}/assets/images/Loadchannellocation.png)
+![Image:Loadchannellocation.png](/assets/images/Loadchannellocation.png)
 
 If you do not specify
 the file format, the [pop_chanedit.m]() function will attempt
@@ -96,13 +96,13 @@ to use the filename extension to assess its format. Press the button
 *Read locs help* in the main channel graphic interface window to view
 the supported formats. In the next pop-up window, simply press *OK*. 
 
-![250px]({{ site.baseurl }}/assets/images/Chanedit_fileformat_gui.jpg)
+![](/assets/images/Chanedit_fileformat_gui.jpg)
 
 In the window below, you may scroll through the channel field values
 1-by-1 using the *\<* and *→* buttons, or in steps of 10 using *\<\<*
 and *\>\>*.
 
-![500px]({{ site.baseurl }}/assets/images/Gui_pop_chanedit2.jpg)
+![](/assets/images/Gui_pop_chanedit2.jpg)
 
 The *Set channel type* button allows you to enter a *channel type*
 associated with the channel (for example, 'EEG', 'MEG', 'EMG', 'ECG',
@@ -120,14 +120,14 @@ Reopen <span style="color: brown">Edit → Channel locations</span> if you close
 
 To visualize the 2-D locations of the channels, press *Plot
 2-D* above the *Read Locations* button. Else, during an EEGLAB session, you may refer to a plot showing the channel locations
-by selecting <font color=brown>Plot → Channel location → By
-name</font>. 
+by selecting <span style="color: brown">Plot → Channel location → By
+name</span>. 
 Either command pops up a window like that below. We recommend using the default settings.
 
 *Note*: In
 this plot, click on any channel label to see its channel number.
 
-![Image:Channellocationname.png]({{ site.baseurl }}/assets/images/Channellocationname.png)
+![Image:Channellocationname.png](/assets/images/Channellocationname.png)
 
 <span style="color: red">WARNING</span>: Equating 'channel locations' with
 (single) *electrode* locations only makes sense when all channels use
@@ -372,7 +372,7 @@ Adjusting scanned 3-D channel locations
 This section does not use the tutorial dataset. It intents to provide
 guidelines for importing channel locations measured in Cartesian
 coordinates using 3-D tracking devices (such as Polhemus). Use the
-EEGLAB menu <font color=brown>Edit → Channel location</font> or type
+EEGLAB menu <span style="color: brown">Edit → Channel location</span> or type
 the following command on the Matlab command line:
 
 ```matlab

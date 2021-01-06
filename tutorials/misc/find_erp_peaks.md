@@ -14,7 +14,7 @@ peak in any Matlab figure.
 
 For example, in the figure above select the magnifying-glass icon having the **+** sign. Then, zoom in on the main peak of the red curve as shown below (click on the left mouse button to zoom in and on the right button to zoom out). Read the peak latency and amplitude to any desired precision from the axis scale.
 
-![475px](/assets/images/Pop_comperp5.gif)
+![](/assets/images/Pop_comperp5.gif)
 
 EEGLAB extensions
 ---------------

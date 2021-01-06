@@ -8,7 +8,7 @@ nav_order: 1
 
 
 ![thumb\|right\|upright=1.5\|EEGLAB menu (upper left) and data
-windows]({{ site.baseurl }}/assets/images/EEGLAB_small.jpg) 
+windows](/assets/images/EEGLAB_small.jpg) 
 
 This page comprises materials for and videos from different EEGLAB
 Workshops held at the San Diego Supercomputer Center on the campus of
@@ -17,10 +17,10 @@ plus more recently recorded talks and Youtube tutorials. Note that the
 wiki page for each EEGLAB workshop also contain the slides of the
 presentations.
 
-## <font color=darkred> List of Youtube Tutorial Videos </font>
+## <span style="color: darkred"> List of Youtube Tutorial Videos </span>
 
 
-<img align="center" width="200" height="200" src="{{ site.baseurl }}/assets/images/EEGLABWorkshops11.jpg">
+<img align="center" width="200" height="200" src="/assets/images/EEGLABWorkshops11.jpg">
 
 
 
@@ -38,7 +38,7 @@ presentations.
     scripting](https://www.youtube.com/watch?v=kofJh7biGsE)
 
 
-<img class="float-right"  width="250" height="300" src="{{ site.baseurl }}/assets/images/BrainIC.jpg">
+<img class="float-right"  width="250" height="300" src="/assets/images/BrainIC.jpg">
 #### Preprocessing data in EEGLAB (2018, Delorme)
 -   [Part 1: How to import raw
     data](https://www.youtube.com/watch?v=gEk33jWB0MY)
@@ -56,7 +56,7 @@ presentations.
 
 
 
-<img class="float-right" width="200" height="300" src="{{ site.baseurl }}/assets/images/Dipfit.jpg">
+<img class="float-right" width="200" height="300" src="/assets/images/Dipfit.jpg">
 #### Independent component analysis (2020, Delorme)
 -   [Part 1: What is ICA?](https://youtu.be/kWAjhXr7pT4)
 -   [Part 2: How does Infomax ICA work?](https://youtu.be/l7io0u1kFhA)
@@ -92,7 +92,7 @@ presentations.
     files](https://youtu.be/fB6TJjhO674)
 -   [Part 4: Statistical analysis](https://youtu.be/y8jK-bW1U3A)
 
-## <font color=darkred>EEGLAB 2016 workshop at UCSD</font>
+## <span style="color: darkred">EEGLAB 2016 workshop at UCSD</span>
 
 Videos of the workshop talks are available for streaming through the
 links below. The talk videos are more recent than those from the 2010
@@ -126,7 +126,7 @@ worthwhile to compare the 2010 and 2016 versions.
 -   [SIFT Intro: Building and Visualizing Source Connectivity by Tim
     Mullen](https://www.youtube.com/watch?v=6_WW6EMHmWo)
 
-## <font color=darkred>EEGLAB 2010 workshop at UCSD</font>
+## <span style="color: darkred">EEGLAB 2010 workshop at UCSD</span>
 
 Videos of the workshop talks are available for streaming through the
 links below. The video web pages will also contain relevant questions
@@ -167,7 +167,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 -   [Forward and inverse source modeling (Zeynep Akalin
     Acar)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_forward_inverse_source_modeling.html)
 
-<img width="180" height="250" align="right" src="{{ site.baseurl }}/assets/images/MoBIPoster.jpg" >
+<img width="180" height="250" align="right" src="/assets/images/MoBIPoster.jpg" >
 #### Computing across subjects and conditions
 - [Resampling-based statistics and correcting for multiple comparisons (David Groppe)](http://www.cogsci.ucsd.edu/~dgroppe/EEGLAB12_statistics.html)
 - [STUDY ICA component clustering (Arnaud Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)
@@ -187,7 +187,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
     by Christian Kothe.
 -   [Imaging human agency with Mobile brain/body imaging (MoBI) and the Mobilab toolbox (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)
 
-## <font color=darkred>Matlab and matrix operations tutorials</font>
+## <span style="color: darkred">Matlab and matrix operations tutorials</span>
 
 If you are new to Matlab or need a refresher please consult the material on the [Getting started with Matlab page](/workshops/tutorial_matlab)
 
@@ -196,11 +196,11 @@ portions of the workshop are largely dedicated to writing EEGLAB Matlab
 scripts, so if you are not yet able to understand Matlab syntax, you
 will not be able to make good use of these sections.
 
-## <font color=darkred>Relevant publications demonstrating EEGLAB capabilities</font>
+## <span style="color: darkred">Relevant publications demonstrating EEGLAB capabilities</span>
 
 You can consult a list of relevant EEGLAB papers [here](/workshops/reading_material) 
 
-## <font color="darkred">Material to download</font>
+## <span style="color: "darkred"">Material to download</span>
 
 To access the talk slides and videos, use the links in the Program
 listing above. 

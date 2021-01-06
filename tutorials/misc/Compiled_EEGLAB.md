@@ -15,7 +15,7 @@ page](https://sccn.ucsd.edu/eeglab/download.php).
 
 Video tutorial
 ----------------
-<a href="https://www.youtube.com/watch?v=_F-5spN1FL4"><img align="center" width="400" height="400" src= "{{ site.baseurl }}/assets/images/yt_eeglab_compile.png"></a>
+<a href="https://www.youtube.com/watch?v=_F-5spN1FL4"><img align="center" width="400" height="400" src= "/assets/images/yt_eeglab_compile.png"></a>
 
 
 

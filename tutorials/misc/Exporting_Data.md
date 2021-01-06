@@ -86,7 +86,7 @@ Use menu item <span style="color: brown">File → Export→ Weight matrix to tex
 enter a file name in the pop-up window and press *Save*.
 
 
-![325px](/assets/images/Pop_expica.gif)
+![](/assets/images/Pop_expica.gif)
 
 
 The text file on disk then contains the weight matrix. It may be
@@ -98,7 +98,7 @@ tutorial](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink") for more
 details on sphere and weight matrices.
 
 
-![600px](/assets/images/Pop_editset.gif)
+![](/assets/images/Pop_editset.gif)
 
 ### Exporting events
 
@@ -110,12 +110,12 @@ Excel, for example.
 You may import the tutorial data <i>eeglab_data.set</i> in the
 <i>sample_data</i> under EEGLAB.
 To export all events of the currently loaded EEG
-file, select menu item <font color=brown>File → Export → Events to text file</font>. A dialog window pops
+file, select menu item <span style="color: brown">File → Export → Events to text file</span>. A dialog window pops
 up asking for the name and location of the .csv file. The first row of
 the file contains the names of the event fields. Note that there is
 additional column "number", which is not an event field.
 
-![600px](/assets/images/Spreadsheet_event.png)
+![](/assets/images/Spreadsheet_event.png)
 
 If you want more control over export options, you should use the command
 line version of this tool. In the MATLAB command window, enter the
