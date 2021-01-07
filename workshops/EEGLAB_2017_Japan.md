@@ -17,7 +17,7 @@ The 25th EEGLAB Workshop will take place from Tuesday, September 26th
 through Friday, September 29th at Tokyo Satellite of Japan Advanced
 Institute of Science and Technology (JAIST) located in Shinagawa area in
 downtown Tokyo. This is the first EEGLAB Workshop held in Japan.
-Participants will be expected to bring laptops with Matlab installed to
+Participants will be expected to bring laptops with MATLAB installed to
 participate in the practical sessions. The tutorial workshop will
 introduce and demonstrate the use of the EEGLAB software environment and
 EEGLAB-linked tools for performing advanced analysis of EEG and related
@@ -132,7 +132,7 @@ Wearable EEG measurement system demonstration and discussion (Noriaki Kanayama, 
 
 **General Linear Modeling and statistics continued**
 
-<span style="color: orange">14:15 – 14:45 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/limo_japan_2017.pdf)
+<span style="color: orange">14:15 – 14:45 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/limo_japan_2017.pdf)
 
 <span style="color: orange">14:45 – 15:15 -- LIMO and EEGLAB practicum (Arnaud Delorme)</span>
 
@@ -151,7 +151,7 @@ Wearable EEG measurement system demonstration and discussion (Noriaki Kanayama, 
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: orange">11:45 – 12:15 -- Using and building EEGLAB extensions/plug-ins (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_plugin_japan.pdf)
+<span style="color: orange">11:45 – 12:15 -- Using and building EEGLAB extensions/plugins (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_plugin_japan.pdf)
 
 <span style="color: green">12:15-13:30 Lunch --</span>
 

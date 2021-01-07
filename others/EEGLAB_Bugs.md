@@ -25,10 +25,10 @@ interface](https://sccn.ucsd.edu/bugzilla/buglist.cgi?bug_status=UNCONFIRMED&bug
 has been deprecated, although it is still being used to track potential
 improvements.
 
-Since EEGLAB has been developed under Matlab, there are little risks
+Since EEGLAB has been developed under MATLAB, there are little risks
 that using EEGLAB will crash your machine or erase files
-inadvertently, unless Matlab itself crashes. This is one advantage
-of using Matlab.
+inadvertently, unless MATLAB itself crashes. This is one advantage
+of using MATLAB.
 
 About 1000 [test cases](https://sccn.ucsd.edu/wiki/EEGLAB_test_cases) run daily on EEGLAB code to test its integrity
     and that its functions are stable.
@@ -44,7 +44,7 @@ About 1000 [test cases](https://sccn.ucsd.edu/wiki/EEGLAB_test_cases) run daily 
 How do I report a Bug?
 ---
 If you encounter a bug:
--  Please first read the Matlab command-line and any error window text carefully to determine whether you may
+-  Please first read the MATLAB command-line and any error window text carefully to determine whether you may
     be able to avoid the problem directly.
 -  Next, test whether the error
     occurs using the current release of EEGLAB. If so, check the [Github
@@ -100,15 +100,15 @@ Some known EEGLAB bugs and/or missing features:
 -   *Zooming using pop_eegplot.m*: When zooming and selecting
     epochs, only the data (no the background epoch markings) may be zoomed.
 
--   *Spectral analysis (with no Matlab Signal Processing Toolbox):*
+-   *Spectral analysis (with no MATLAB Signal Processing Toolbox):*
     The spec.m function emulates the function psd.m but not the function
     pwelch.m. As a result, the scaling of the spectrum (by the spectopo.m function
     only) may differ. Also, for unknown reasons, the spec.m function
     cannot handle frequencies that have been filtered out and may return
     inaccurately high power at these frequencies.
 
--   *Matlab versions and OS:* Matlab versions have different bugs
+-   *MATLAB versions and OS:* MATLAB versions have different bugs
     under different OS and these bugs - usually graphical bugs - may
-    affect EEGLAB. The latest one we know of is the fact that Matlab
+    affect EEGLAB. The latest one we know of is the fact that MATLAB
     version 2018a (all OS) requires a patch for EEGLAB to work.
 

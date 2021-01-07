@@ -48,15 +48,15 @@ review the code and add it to the repository.
 
 For third-party developers, we welcome collaborations with users and
 open-source developers to expand and improve EEGLAB functions and/or
-independently write and release EEGLAB plug-in/extension applications
-and environments. If you have written plug-ins for use in your
+independently write and release EEGLAB plugin/extension applications
+and environments. If you have written plugins for use in your
 laboratory, please consider releasing them for use by others, as described on this page.
 
 EEGLAB is under active open-source development. Together with user
 developers, we are extending its capabilities to include across-subject
 general linear model statistics. User-contributed features and
 suggestions are welcome, and we encourage and plan to interconnect EEGLAB
-with other Matlab-compatible toolboxes.
+with other MATLAB-compatible toolboxes.
 
 ### Open-source model
 
@@ -64,19 +64,19 @@ EEGLAB is an open-source software environment and is available free of
 charge to any user.
 
 However, EEGLAB requires that you purchase and install the commercial
-[Matlab software environment](http://www.mathworks.com/store/). Matlab
+[MATLAB software environment](http://www.mathworks.com/store/). MATLAB
 version 2008b or later is required; We recommend using the latest
-version of Matlab. Matlab and EEGLAB run under Linux/Unix, Mac OS X, or
-Windows. Purchasing Matlab can be expensive, though the Matlab student
+version of MATLAB. MATLAB and EEGLAB run under Linux/Unix, Mac OS X, or
+Windows. Purchasing MATLAB can be expensive, though the MATLAB student
 version is usually priced near $50 US.
 
-We have attempted to remove all dependencies on add-on Matlab toolboxes.
-Thus, no additional toolboxes are necessary to run the EEGLAB core distribution. However, some advanced plug-in toolboxes may
-use functions from a specific Matlab toolbox: see their documentation
+We have attempted to remove all dependencies on add-on MATLAB toolboxes.
+Thus, no additional toolboxes are necessary to run the EEGLAB core distribution. However, some advanced plugin toolboxes may
+use functions from a specific MATLAB toolbox: see their documentation
 for details.
 
 Note that all EEGLAB processing functions (not its graphic interface) also can be run under the free
-[Octave environment](http://www.gnu.org/software/octave/download.html). EEGLAB also exists as a compiled program that does not require Matlab.
+[Octave environment](http://www.gnu.org/software/octave/download.html). EEGLAB also exists as a compiled program that does not require MATLAB.
 
 ### License and credits
 
@@ -87,7 +87,7 @@ EEGLAB is distributed under the [BSD
 
 Contributors are acknowledged on GitHub, which record commits made to the main source code. 
 
-Consider writing an *extension* or *plug-in* option, as described
+Consider writing an *extension* or *plugin* option, as described
 in the section below. EEGLAB extensions allow authors to flexibly
 incorporate new functions into the EEGLAB menu of every user who has
 downloaded the extension. The authors also retain all commercial rights to the functions they write.
@@ -138,19 +138,19 @@ How to write EEGLAB functions
 
 ### EEGLAB function encapsulation
 
-EEGLAB operates in the rich Matlab environment. The structure of
+EEGLAB operates in the rich MATLAB environment. The structure of
 EEGLAB functions makes it easy to combine them in new ways in original
-Matlab scripts that can also incorporate any of the wide variety of
-processing tools and methods available in Matlab. Thus, the
+MATLAB scripts that can also incorporate any of the wide variety of
+processing tools and methods available in MATLAB. Thus, the
 straightforward way to add to EEGLAB capabilities is to use EEGLAB
-functions and data structures within your Matlab scripts, something
+functions and data structures within your MATLAB scripts, something
 many or most EEGLAB users do routinely.
 
 EEGLAB functions provide a level of encapsulation and isolation that
 minimizes the possibility of interference between variable names within
-and outside of the functions themselves, e.g., in Matlab scripts or
+and outside of the functions themselves, e.g., in MATLAB scripts or
 functions that may call them. EEGLAB is, in essence, a large set of
-Matlab functions. 
+MATLAB functions. 
 
 Adding new functionality to EEGLAB requires a pair of functions, a
 signal processing function (Ex:
@@ -158,7 +158,7 @@ signal processing function (Ex:
 accompanying *pop_* function (Ex:
 [pop_sample.m](http://sccn.ucsd.edu/eeglab/download/pop_sample.m)). The
 *pop_* function pops up a text input window allowing the user to specify
-arguments to the signal processing function. The Matlab help messages
+arguments to the signal processing function. The MATLAB help messages
 for each function should state clearly what input arguments the
 functions require and what they output, using the help message format
 explained below. You should read the [EEGLAB function](/tutorials/ConceptsGuide/EEGLAB_functions.html) section of the tutorial to understand
@@ -183,11 +183,11 @@ function and
     will be applied to ICA component activations or the raw EEG data
     channels.
 2.  Additional parameters should be optional. If they are left blank in
-    a command line or script call to the *pop_* function a Matlab
+    a command line or script call to the *pop_* function a MATLAB
     window should pop-up to ask for their values.
 3.  The *pop_* function must return a 'string' containing the resulting
     call to the signal processing function (or, in some cases, to the
-    *pop_* function). When this string is evaluated using the Matlab
+    *pop_* function). When this string is evaluated using the MATLAB
     function *eval*, the result must be the same as that of the
     *pop_* function itself, e.g., including all the parameters the user may
     have entered into the pop-up interface window. This string will be
@@ -242,7 +242,7 @@ third line contains the "OK" button "{ 'style', 'pushbutton' , 'string',
 
 However, if you press *Ok*, nothing will happen because no action has been
 associated with this button. To associate an action to a UI control,
-simply use the 'callback' command and enter any Matlab command in the
+simply use the 'callback' command and enter any MATLAB command in the
 associated string parameter.
 
 ``` matlab
@@ -420,15 +420,15 @@ input above is detailed in the help section of the [supergui.m](http://sccn.ucsd
 How to write an EEGLAB extension
 ---------------------------------
 
-EEGLAB also has an *extension* (also called *plug-in*) facility that
-automatically searches for functions loaded into a specified *plug-in*
+EEGLAB also has an *extension* (also called *plugin*) facility that
+automatically searches for functions loaded into a specified *plugin*
 directory, causing one or more menu items calling the extension to
 appear in the EEGLAB menu. EEGLAB *extensions* can be offered for
 download and use by anyone, independent of the EEGLAB distribution. They can be included
 in the EEGLAB extension manager.
 
 
-EEGLAB will automatically incorporate any appropriately named plug-in
+EEGLAB will automatically incorporate any appropriately named plugin
 functions that are named *eegplugin_myfunc.m* that EEGLAB
 finds in the same directory as *eeglab.m*. (Here, *myfunc* should be the
 name of the main signal processing function for the extension). Creating
@@ -445,7 +445,7 @@ beginning *eegplugin_* in the main EEGLAB directory).
 
 ### Creating an eegplugin_ function
 
-To create a new EEGLAB extension, simply create a Matlab function file
+To create a new EEGLAB extension, simply create a MATLAB function file
 whose name begins with *eegplugin_* and place it in the
 *plugins* function subdirectory. This
 function must take three arguments, as in the 'test' extension
@@ -487,7 +487,7 @@ If you want your extension to interact with the EEGLAB history
 mechanism, you should take advantage of the second ('try_strings') and
 third ('catch_strings') arguments to your eegplugin_ function call. The
 second argument (see *eegplugin_test()* above) contains commands
-(organized into a Matlab structure) that check the input dataset and
+(organized into a MATLAB structure) that check the input dataset and
 attempt to execute your command. The third argument ('catch_strings')
 includes commands to handle errors and add the contents of the LASTCOM
 (i.e., last command) variable to the EEGLAB history.
@@ -560,7 +560,7 @@ of all the dataset epochs.
 
 We describe another example below. To create an extension named *PCA* that
 would apply PCA to your data and store the PCA weights in place of the
-ICA weights (Note: Not recommended for most purposes!), save the Matlab
+ICA weights (Note: Not recommended for most purposes!), save the MATLAB
 commands below as file *eegplugin_pca.m* into the *plugins* sub-directory
 of EEGLAB and
 restart EEGLAB (click
@@ -568,7 +568,7 @@ restart EEGLAB (click
 download this .m file).
 
 ``` matlab
-% eegplugin_pca() - a pca plug-in
+% eegplugin_pca() - a pca plugin
 function eegplugin_pca( fig, try_strings, catch_strings)
 
 % create menu
@@ -692,5 +692,5 @@ adopting the default behaviors defined in the table above.
 You may then add your extension to the list above so that EEGLAB users can
 download it automatically from the EEGLAB plugin manager. To do this, use [this
 form](http://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php). If
-you want to upload a new version of your plug-in, you can use 
+you want to upload a new version of your plugin, you can use 
 [this simplified form](http://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).

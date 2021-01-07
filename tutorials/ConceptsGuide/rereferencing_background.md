@@ -77,7 +77,7 @@ using nose tip or ear lobe electrodes, you should not include these
 reference electrodes when computing the average reference in (1)
 (below). Thus, in the tutorial example, the dividing factor (in (2)) would
 be 64 instead of 65. Note that in localizing sources using the EEGLAB
-DIPFIT plug-in, 'average reference' will be used internally (without
+DIPFIT plugin, 'average reference' will be used internally (without
 user input).
 
 The choice of data reference does color (literally) the plotted results

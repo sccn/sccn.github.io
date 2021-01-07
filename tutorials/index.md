@@ -55,7 +55,7 @@ Here are the most common steps you might want to take when processing EEG data a
 ### Time-Frequency decomposition
 - [Computing ERSP and ITC for channel and component data](/tutorials/single-subject/time-frequency-decomposition)
 
-Note on Matlab 
+Note on MATLAB 
 ---------------
-If you are new to Matlab or need a refresher please consult the material on the [Getting started with Matlab page](/workshops/tutorial_matlab)
+If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/workshops/tutorial_matlab)
 

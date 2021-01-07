@@ -10,7 +10,7 @@ components of data recorded in a working memory task in our laboratory.
 There were 72 channels, of which 69 were used for dipole fitting. In
 particular, we excluded tow EOG channels and the reference channel. We
 performed ICA on data from three subjects and fit all 69 resulting
-components with single dipoles using BESA (see the BESAFIT plug-in
+components with single dipoles using BESA (see the BESAFIT plugin
 Appendix) and DIPFIT. We then compared only those dipoles whose residual
 variance was less than 15% (see plot below).
 
@@ -30,8 +30,8 @@ solution models used in the two programs are theoretically identical.
 
 The main advantage of using DIPFIT over BESA for localization of
 equivalent dipoles for independent component scalp maps is that it is
-integrated into Matlab and EEGLAB, and can be used in batch processing
-scripts (see [Matlab
+integrated into MATLAB and EEGLAB, and can be used in batch processing
+scripts (see [MATLAB
 code](/#Using_DIPFIT_to_fit_EEG_or_ERP_scalp_maps "wikilink") and
 [structures & functions](/#DIPFIT_structure_and_functions "wikilink")
 above). BESA has additional capabilities not relevant to DIPFIT.

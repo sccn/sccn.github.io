@@ -29,14 +29,14 @@ continuous data minimizes the introduction of filtering artifacts at
 epoch boundaries.
 
 Select <span style="color: brown">Tools → Filter the data → Basic FIR filter (new, default)</span>, enter *1* (Hz) as the *Lower edge* frequency,
-and press *OK*.
+and press *Ok*.
 
 ![](/assets/images/Pop_eegfiltnew_1hz.jpg)
 
 A window will pop up to ask for the name of
 the new dataset. We choose to modify the dataset name and to overwrite
 the parent dataset by checking the *Overwrite parent* checkbox, then
-pressing the *OK* button.
+pressing the *Ok* button.
 
 Note that if high-pass and low-pass cutoff frequencies are BOTH
 selected, the filtering routine may have problems designing a suitable filter, and infinite values might be returned. To avoid this problem,
@@ -61,26 +61,26 @@ to ensure that phase delays introduced by the filter are nullified. When using a
 
 # Filtering without the signal processing toolbox
 
-If the Matlab
-Signal Processing Toolbox is present, EEGLAB uses the Matlab routine
+If the MATLAB
+Signal Processing Toolbox is present, EEGLAB uses the MATLAB routine
 *filtfilt()*. This applies the filter forward and then again backward
 to ensure that phase delays introduced by the filter are nullified. 
 
-If the Matlab Signal Processing toolbox is not present, EEGLAB may use a
+If the MATLAB Signal Processing toolbox is not present, EEGLAB may use a
 simple filtering method involving the inverse Fourrier transform. To do this, call the <span style="color: brown">Tools → Filter the data → Basic FIR filter (legacy)</span> menu item and check the checkbox *Use (sharper) FFT linear filter instead of FIR filtering*.
 
 # Non-linear infinite impulse response filter and other filters
 
-A infinite impulse response (IIR) filter plug-in is also distributed
-as a plug-in to EEGLAB. Once the [iirfilt](https://github.com/sccn/iirfilt) plug-in is installed, it can be
+A infinite impulse response (IIR) filter plugin is also distributed
+as a plugin to EEGLAB. Once the [iirfilt](https://github.com/sccn/iirfilt) plugin is installed, it can be
 accessed from the menu item <span style="color: brown">Tools → Filter the data → Short IIR filter </span>. This functionality uses the same
 graphical interface as the FIR filtering option described above.
 Although IIR filters usually introduce different phase delays at
 different frequencies, this is compensated for by applying
-filtering in reverse using Matlab function *filtfilt()*. In practice,
+filtering in reverse using MATLAB function *filtfilt()*. In practice,
 infinite impulse response filters are shorter than FIR filters when used for high pass filtering (a few samples as compared thousands of them for FIR).
 
-There is much more to be learned about filtering and more filtering options available in Matlab itself. There is also no ideal filter for EEG data. In practice, we suggest you talk to your colleagues about the pros and cons of using different filter solutions. See also our [Q/A filtering page](/others/Firfilt_FAQ.html).
+There is much more to be learned about filtering and more filtering options available in MATLAB itself. There is also no ideal filter for EEG data. In practice, we suggest you talk to your colleagues about the pros and cons of using different filter solutions. See also our [Q/A filtering page](/others/Firfilt_FAQ.html).
 
 # Alternative to filtering for line noise removal
 

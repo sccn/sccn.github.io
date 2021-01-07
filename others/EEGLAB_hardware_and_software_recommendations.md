@@ -25,7 +25,7 @@ functions only:
 
 -   8Gb of RAM (random access memory)
 -   At least 200 Gb of available hard drive space (SSD if possible)
--   Newest version of Matlab -- no additional Matlab toolboxes are
+-   Newest version of MATLAB -- no additional MATLAB toolboxes are
     required (but see below)
 
 **Normal processing requirements (and/or highly desirable features)**
@@ -36,18 +36,18 @@ EEGLAB toolboxes:
 -   16 Gb or more of RAM (random access memory)
 -   At least 1 Tb of SSD (SSD will speed up read/write by a factor of up
     to 5x) or mixed system (SSD 128Gb and large hard drive)
--   Newest version of Matlab and the Matlab signal processing, statistics, and optimization
-    toolboxes, whose functions are used in some advanced EEGLAB plug-ins.
+-   Newest version of MATLAB and the MATLAB signal processing, statistics, and optimization
+    toolboxes, whose functions are used in some advanced EEGLAB plugins.
 
 Notes
 -----
 
--   Although EEGLAB is free, the Matlab software environment that it
-    runs on is a commercial product of The Mathworks. Often, your school might have negotiated access ([check here](https://www.mathworks.com/academia/tah-support-program/eligibility.html)). EEGLAB also works on the free Octave environment (command-line only), and you may also download a compiled version of EEGLAB that does not require a Matlab license. 
+-   Although EEGLAB is free, the MATLAB software environment that it
+    runs on is a commercial product of The Mathworks. Often, your school might have negotiated access ([check here](https://www.mathworks.com/academia/tah-support-program/eligibility.html)). EEGLAB also works on the free Octave environment (command-line only), and you may also download a compiled version of EEGLAB that does not require a MATLAB license. 
     
 -   For Ubuntu linux users: There are often graphics problems when
-    Matlab uses OpenGL graphics under Ubuntu. To avoid them, at the
-    beginning of each Matlab session enter
+    MATLAB uses OpenGL graphics under Ubuntu. To avoid them, at the
+    beginning of each MATLAB session enter
 
     ``` matlab
     >> set(0,'DefaultFigureRenderer','painters');

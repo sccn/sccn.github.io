@@ -26,34 +26,18 @@ BINICA https://github.com/sccn/binica/wiki
 
 - Replace
 
-carthesian with cartesian
-
-plugin by plug-in
-
-*OK* by *Ok*
-
 http with https
 
-ressource with resource
-
-bootstraping with bootstrapping
-
-check-box with checkbox
-
 () to .m
-
-insure to ensure
-
-Matlab to MATLAB
 
 Printing and editing EEGLAB figures
 -----------------------------------
 
-To edit pictures saved from Matlab figures so as to format them for
+To edit pictures saved from MATLAB figures so as to format them for
 publication, we advise the following procedure:
 
--   Export the figure (*myfigure*) from Matlab as a postscript image
-    (the *.epsc* format) by typing on the Matlab command line
+-   Export the figure (*myfigure*) from MATLAB as a postscript image
+    (the *.epsc* format) by typing on the MATLAB command line
 
 ``` matlab
        * >> print -depsc myfigure.eps*
@@ -64,8 +48,8 @@ publication, we advise the following procedure:
 -   Edit the resulting postscript or PDF image file using an editor such
     as Adobe Illustrator.
 -   If your vectorized image appears as an uneditable bitmap in the
-    postscript editor, change the Matlab renderer to *painter* before
-    saving the figure by typing on the Matlab commandline, before saving
+    postscript editor, change the MATLAB renderer to *painter* before
+    saving the figure by typing on the MATLAB commandline, before saving
     the figure,
 
 
@@ -75,11 +59,11 @@ publication, we advise the following procedure:
 ``` 
 
 -   If you have images with transparent regions, export them using the
-    Matlab
+    MATLAB
     [SVG](http://www.mathworks.com/matlabcentral/fileexchange/7401)
     export tool (PDF above will not work).
 -   To ensure that the image you are seeing is the image that is being
-    saved and printed, on the Matlab command line type
+    saved and printed, on the MATLAB command line type
 
 
 ``` matlab
@@ -93,7 +77,7 @@ publication, we advise the following procedure:
 
 ``` 
 
-Unfortunately in some recent versions of Matlab, saving vectorized
+Unfortunately in some recent versions of MATLAB, saving vectorized
 version of figures has become difficult (artefacts in STUDY scalp
 topographies). Let us know if you find better solutions.
 

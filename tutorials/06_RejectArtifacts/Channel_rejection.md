@@ -44,7 +44,7 @@ The following window pops up.
 
 ![Image:plot_spectrum_bad_chan2.png](/assets/images/plot_spectrum_bad_chan2.png)
 
-In this window, it is possible to click on individual channel traces, and the channel index is shown on the Matlab command line. In this case, we see that the bottom four channels are outliers. Clicking on the channel traces reveals that these are channels 3, 73, 74, and 75. There are also two channels with high-frequency noise (the purple and blue trace). These are channels 45 and 55. This confirms bad channels visually identified in the previous section -- although in this case, channel 65 does not appear to be an outlier.
+In this window, it is possible to click on individual channel traces, and the channel index is shown on the MATLAB command line. In this case, we see that the bottom four channels are outliers. Clicking on the channel traces reveals that these are channels 3, 73, 74, and 75. There are also two channels with high-frequency noise (the purple and blue trace). These are channels 45 and 55. This confirms bad channels visually identified in the previous section -- although in this case, channel 65 does not appear to be an outlier.
 
 Reject channels by index or label
 --------------------------
@@ -52,7 +52,7 @@ If you know which channels are bad, you may reject them using the function [pop_
 
 ![Image:pop_select_new.png](/assets/images/pop_select_new.png)
 
-Press *Ok* to remove the channels. Now a [pop_newset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newset.m) window for saving the new dataset pops up. We name this new dataset "Dataset cleaned of bad channels" and press *OK*.
+Press *Ok* to remove the channels. Now a [pop_newset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newset.m) window for saving the new dataset pops up. We name this new dataset "Dataset cleaned of bad channels" and press *Ok*.
 
 ### Channel labels and channel indices
 

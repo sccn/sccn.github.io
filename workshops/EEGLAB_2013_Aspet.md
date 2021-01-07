@@ -14,7 +14,7 @@ Sixteenth EEGLAB Workshop
 The 16th EEGLAB Workshop will take place from Monday, June 17th through
 Friday, June 21st in the village of Aspet in the Pyrenees mountains in
 southwest France. Participants will be expected to bring laptops with
-Matlab installed so as to be able to participate in the practical
+MATLAB installed so as to be able to participate in the practical
 sessions. The following tutorial workshop, from Tuesday, June 18 through
 noon on Friday, June 21, will introduce and demonstrate the use of
 EEGLAB-linked tools for performing advanced analysis of EEG and related
@@ -159,7 +159,7 @@ Workshop Program (with corresponding PDFs)
 **General Linear Modeling**
 
 
-<span style="color: orange">10:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/limo_aspet_2013.pdf)
+<span style="color: orange">10:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/limo_aspet_2013.pdf)
 <!-- -->
 
 
@@ -202,7 +202,7 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics II (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sm_miningii.pdf)
 
-<span style="color: orange">9:30 – 10:00 -- Using and building EEGLAB plug-ins (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_eeglab_plugins.pdf)
+<span style="color: orange">9:30 – 10:00 -- Using and building EEGLAB plugins (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_ad_eeglab_plugins.pdf)
 <!-- -->
 
 

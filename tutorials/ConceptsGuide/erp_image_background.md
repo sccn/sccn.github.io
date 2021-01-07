@@ -90,7 +90,7 @@ phase synchronization of ongoing activity combined with a
 stimulus-related increase (or decrease) in EEG power.
 
 It is important not to overinterpret the results of phase sorting in
-ERP-image plots. For example, the following calls from the Matlab
+ERP-image plots. For example, the following calls from the MATLAB
 command line simulate 256 1-s data epochs using Gaussian white noise,
 low-pass filters this below (simulated) 12 Hz, and draw the following
 10-Hz phase sorted ERP-image plot of the resulting data. The figure

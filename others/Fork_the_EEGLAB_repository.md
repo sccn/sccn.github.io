@@ -8,7 +8,7 @@ Fork EEGLAB <span style="color: green">- DONE</span>
 
 The main EEGLAB repository is not the place to add new functions. If
 you want to add new functionality, write an EEGLAB
-[plug-in](/tutorials/misc/Contributing_to_EEGLAB.html) instead.
+[plugin](/tutorials/misc/Contributing_to_EEGLAB.html) instead.
 
 Why fork the EEGLAB repository?
 ------------------------
@@ -89,7 +89,7 @@ Considerations regarding pull requests
 
 For expedited approval:
 -   If you have added a new feature, make sure it works both from the
-    graphic interface and from the Matlab command line. Please send us a
+    graphic interface and from the MATLAB command line. Please send us a
     simple test script to demonstrate this.
 -   Run the test cases on the modified function. If possible, add the test case to the [EEGLAB test case repository](https://github.com/sccn/eeglab-testcases).
 -   You can never add too much documentation. Make sure you document

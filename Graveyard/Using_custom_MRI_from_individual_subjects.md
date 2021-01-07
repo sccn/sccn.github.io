@@ -17,11 +17,11 @@ quite simple and does not require specialized knowledge about MRI or
 fMRI data. 
 
 First, download the
-[SPM Matlab toolbox](https://www.fil.ion.ucl.ac.uk/spm/software/download/),
-uncompress, add path in Matlab. 
+[SPM MATLAB toolbox](https://www.fil.ion.ucl.ac.uk/spm/software/download/),
+uncompress, add path in MATLAB. 
 
 Start spm by typing *\>\> spm* on the
-Matlab command line.
+MATLAB command line.
 
 
 

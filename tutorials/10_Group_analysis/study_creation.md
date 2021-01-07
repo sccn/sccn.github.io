@@ -58,7 +58,7 @@ After downloading the sample STUDY data, unzip it in a folder of your
 choice (preferably in the 'sample_data' sub-folder of the EEGLAB release
 you are currently using). This will
 create a sub-folder *STUDY5subjects*. Then open
-a Matlab session and run *\>\> eeglab*.
+a MATLAB session and run *\>\> eeglab*.
 
 In other EEGLAB *STUDY* tutorials, we will also use the [STERN task data](http://sccn.ucsd.edu/eeglab/download/STUDYstern_125hz.zip) (0.9Gb) and  the [animal/non-animal categorization task data](https://sccn.ucsd.edu/eeglab/download/animal_study.zip) (0.4Gb).
 
@@ -90,7 +90,7 @@ accessed and modified individually, when desired, through the main
 EEGLAB graphic interface or using EEGLAB functions within
 custom dataset processing scripts. Dataset data arrays are then read from disk whenever
 EEGLAB requires access to the data, but without cluttering memory. This
-will allow Matlab to load and hold a large number of dataset structures (2,300 is the all-time record), forming a large STUDY. 
+will allow MATLAB to load and hold a large number of dataset structures (2,300 is the all-time record), forming a large STUDY. 
 
 Quick STUDY creation
 ---------------------------------------------

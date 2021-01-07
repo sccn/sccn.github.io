@@ -9,7 +9,7 @@ EEGLAB mainling lists <span style="color: green"> - Done</span>
 ## The EEGLAB Discussion List
 
 This moderated mailing list is about the EEGLAB signal processing
-environment for Matlab and signal processing of EEG data. Feel free to post messages to this list. The list moderator
+environment for MATLAB and signal processing of EEG data. Feel free to post messages to this list. The list moderator
 passes on relevant posts to the whole list.
 
 -   To subscribe to the EEGLAB discussion list, send an (empty) email to

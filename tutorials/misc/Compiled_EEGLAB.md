@@ -27,7 +27,7 @@ Installation
 -   If for some reason, the installation process fails (permission issue,
     for example), you may use the files in the folder
     "for_redistribution_files_only." Note that these files require that
-    the Matlab runtime engine be installed on your system - this step
+    the MATLAB runtime engine be installed on your system - this step
     should have been done automatically above but we will assume here
     that this step fails. These are available as separate download
     [here](https://www.mathworks.com/products/compiler/matlab-runtime.html)
@@ -51,24 +51,24 @@ Starting EEGLAB
     the file run_EEGLAB.sh (might require to have its permission changed
     to be executable; otherwise, the content of the script will be shown).
 
-Similarity between the compiled and the Matlab version of EEGLAB
+Similarity between the compiled and the MATLAB version of EEGLAB
 ------------------------------------------------------
 
 -   Both version graphical interface are identical
 -   There is nothing in the EEGLAB graphic interface that you can do under
-    Matlab that is not possible to do in the compiled version of EEGLAB. This
+    MATLAB that is not possible to do in the compiled version of EEGLAB. This
     includes using all the plugins and all the external modules attached
-    to EEGLAB, saving scripts, and running Matlab scripts.
+    to EEGLAB, saving scripts, and running MATLAB scripts.
 
 ### What is not possible to do using the compiled version
 
 -   It is not possible to add new plugins or download and install third-party 
     plugins. To do so, EEGLAB needs to be recompiled with the
     additional plugins.
--   When using scripts, it is not possible to use external custom Matlab
+-   When using scripts, it is not possible to use external custom MATLAB
     functions or to define new functions
--   When using scripts, the range of possible Matlab commands is
-    limited to the Matlab core commands, all EEGLAB commands and a few
+-   When using scripts, the range of possible MATLAB commands is
+    limited to the MATLAB core commands, all EEGLAB commands and a few
     commands from the signal processing, the statistics and the
     optimization toolbox (commands which are included in the compiled
     code).
@@ -78,14 +78,14 @@ Can I compile EEGLAB myself?
 ----------------------------
 
 Compiling EEGLAB usually consists of opening the "eeglab.prj" file (in
-the root EEGLAB folder) using the Matlab Compiler Graphical App, and
+the root EEGLAB folder) using the MATLAB Compiler Graphical App, and
 pressing the *package* button. However, there might be some path issues
 that require fixing on your system. Ask us for detailed instructions.
 
 How to check the integrity of the compiled version
 --------------------------------------------------
 
-Differences between the Matlab and the compiled EEGLAB version mostly
+Differences between the MATLAB and the compiled EEGLAB version mostly
 arise because of the way external data files are handled. This is how we
 check the  compiled version's integrity (since it is not possible to
 automate this process yet). You may run the script
@@ -109,15 +109,15 @@ Unix/MacOS.
 Frequently asked questions
 --------------------------
 
--   Can I run some of my Matlab scripts on the EEGLAB compiled
-    version? Yes, as long as they use standard Matlab functions or EEGLAB
+-   Can I run some of my MATLAB scripts on the EEGLAB compiled
+    version? Yes, as long as they use standard MATLAB functions or EEGLAB
     functions.
 
--   Is the compiled code faster than the non compiled one? No, it is the same speed as the Matlab runtime engine still interprets it.
--   Is it legal since I do not own Matlab? Yes, it is perfectly legal.
-    Although it is illegal to run a pirated version of Matlab, it is
-    perfectly legal to distribute the Matlab Runtime Engine and compiled
-    Matlab code.
+-   Is the compiled code faster than the non compiled one? No, it is the same speed as the MATLAB runtime engine still interprets it.
+-   Is it legal since I do not own MATLAB? Yes, it is perfectly legal.
+    Although it is illegal to run a pirated version of MATLAB, it is
+    perfectly legal to distribute the MATLAB Runtime Engine and compiled
+    MATLAB code.
 -   Can I use this program for commercial applications such as my
     private clinical practice? EEGLAB is a research software package, not a clinical software package. The program is provided as-is with no warranty
     of any kind. Although the EEGLAB core code is released under a BSD

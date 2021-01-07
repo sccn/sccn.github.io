@@ -9,7 +9,7 @@ Using EEGLAB history
 {: .no_toc }
 
 This section is intended for users who have learned at least the basics
-of Matlab scriptwriting and wish to use EEGLAB and its many functions
+of MATLAB scriptwriting and wish to use EEGLAB and its many functions
 to automate and/or customize data analyses.
 
 <details open markdown="block">
@@ -21,11 +21,11 @@ to automate and/or customize data analyses.
 {:toc}
 </details>
 
-Why write EEGLAB Matlab scripts?
+Why write EEGLAB MATLAB scripts?
 --------------------------------
 
-EEGLAB is a collection of Matlab functions, many of which can be called
-from a main graphic interface. Writing EEGLAB Matlab scripts
+EEGLAB is a collection of MATLAB functions, many of which can be called
+from a main graphic interface. Writing EEGLAB MATLAB scripts
 involves calling these functions from a script file or from the command
 line instead of calling them interactively from the EEGLAB GUI. EEGLAB's
 history mechanism keeps track of all operations performed on datasets
@@ -35,14 +35,14 @@ exploratory signal processing on a sample dataset, then use the
 accumulated commands issued from the EEGLAB window in a script file,
 which can then be modified using any text editor.
 
-Writing Matlab scripts to perform EEGLAB analyses allows the user to
+Writing MATLAB scripts to perform EEGLAB analyses allows the user to
 largely automate the processing of one or more datasets. Because
 advanced analyses may involve many parameter choices and require fairly
 lengthy computations, it is often more convenient to write a custom
 script, particularly to process multiple datasets in the same way or to
 process one dataset in several ways.
 
-Note: Writing EEGLAB Matlab scripts requires some understanding of the
+Note: Writing EEGLAB MATLAB scripts requires some understanding of the
 EEGLAB data structure (EEG) and its substructures (principally
 *EEG.data*, *EEG.event*, *EEG.urevent*, *EEG.epoch*, *EEG.chanlocs*, and
 *EEG.history*). We will introduce these data structures as needed for
@@ -82,16 +82,16 @@ scrolling data display below.
 
 ![Image:Scrollchannelactivities1.png](/assets/images/Scrollchannelactivities1.png)
 
-Now use menu item <span style="color: brown">File → History script → Save session history script</span> to save the command history into an ascii-text Matlab
+Now use menu item <span style="color: brown">File → History script → Save session history script</span> to save the command history into an ascii-text MATLAB
 script file. Save the file into the current directory or into a
-directory in the Matlab command path (i.e., in the list returned by
+directory in the MATLAB command path (i.e., in the list returned by
 *\>\> path*). Save the session command
-history into the Matlab script file *doitagain.m* (you can
-choose any name for this file, as long as it ends in the standard Matlab
+history into the MATLAB script file *doitagain.m* (you can
+choose any name for this file, as long as it ends in the standard MATLAB
 script file extension, “.m”).
 
 Now open the script file *doitagain.m* in any text editor so you may
-modify function calls. For example, open the script *doitagain.m* in the Matlab editor using the <span style="color: brown">Open</span> button on the Matlab graphical interface. The script should look like this.
+modify function calls. For example, open the script *doitagain.m* in the MATLAB editor using the <span style="color: brown">Open</span> button on the MATLAB graphical interface. The script should look like this.
 
 ```matlab
 % EEGLAB history file generated on the 20-Dec-2020
@@ -116,7 +116,7 @@ Note: When the file was saved, an extra command, *\>\> eeglab redraw*
 was added at the end to ensure that the main graphic interface would be
 updated after the dataset was processed. 
 
-Now press the <span style="color: brown">Run</span> button in the Matlab editor. The script is being executed, and the data scrolling window pops up. Alternatively, you may use EEGLAB menu item <span style="color: brown">File → History script → Run script</span> to execute the script (this menu item is most relevant for compiled versions of EEGLAB for which the Matlab graphical interface is not accessible). You may also type the script's name on the Matlab command line to execute it (assuming the folder in which you saved it is in your path).
+Now press the <span style="color: brown">Run</span> button in the MATLAB editor. The script is being executed, and the data scrolling window pops up. Alternatively, you may use EEGLAB menu item <span style="color: brown">File → History script → Run script</span> to execute the script (this menu item is most relevant for compiled versions of EEGLAB for which the MATLAB graphical interface is not accessible). You may also type the script's name on the MATLAB command line to execute it (assuming the folder in which you saved it is in your path).
 
 ``` matlab
 doitagain
@@ -124,7 +124,7 @@ doitagain
 
 The script may be modified as needed and executed again. Using EEGLAB graphical interface and saving command history is a simple way to learn to write EEG analysis scripts. Now, to process another dataset
 using the same commands you used for processing the current dataset, try
-closing the current Matlab session. Then restart Matlab, load the script
+closing the current MATLAB session. Then restart MATLAB, load the script
 *doitagain.m*, modify the dataset's name (use one of your own for example)
 and run the script again.
 
@@ -132,9 +132,9 @@ Most of the commands in the history field call EEGLAB *pop_* functions.
 These are functions that take as input the EEG structure. The [EEGLAB functions](/tutorials/ConceptsGuide/EEGLAB_functions.html) documentation discusses how to use these functions in EEGLAB scripts.
 
 For more detailed information, you
-must study the Matlab help messages for these functions via the following EEGLAB menu selections.
+must study the MATLAB help messages for these functions via the following EEGLAB menu selections.
 For [pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m), via <span style="color: brown"> Help → EEGLAB
-functions → Interactive pop_functions</span> or via <span style="color: brown"> Help → EEGLAB menus</span>. For [eeg_store.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_store.m), via <span style="color: brown"> Help → EEGLAB advanced → Admin functions</span>. You may also use the Matlab command line help, as shown below:
+functions → Interactive pop_functions</span> or via <span style="color: brown"> Help → EEGLAB menus</span>. For [eeg_store.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_store.m), via <span style="color: brown"> Help → EEGLAB advanced → Admin functions</span>. You may also use the MATLAB command line help, as shown below:
 
 ``` matlab
 help pop_loadset
@@ -145,8 +145,8 @@ EEGLAB dsataset history
 -----------------------
 
 In EEGLAB, the data structure describing the current dataset can be
-accessed at all times from the Matlab command line by typing *\>\> EEG*.
-The variable *EEG* is a Matlab structure used by EEGLAB to store all the
+accessed at all times from the MATLAB command line by typing *\>\> EEG*.
+The variable *EEG* is a MATLAB structure used by EEGLAB to store all the
 information about a dataset. This includes the dataset name and
 filename, the number of channels and their locations, the data sampling
 rate, the number of trials, information about events in each of the
@@ -154,7 +154,7 @@ trials/epochs, the data itself, and much more. For a complete
 description of the *EEG* fields along with examples on sample data, see
 [EEGLAB Data Structures](/tutorials/ConceptsGuide/Data_Structures.html). The contents of any
 field of the *EEG* structure may be accessed by typing *EEG.fieldname*.
-For instance, typing *\>\> EEG.nbchan* on the Matlab command line
+For instance, typing *\>\> EEG.nbchan* on the MATLAB command line
 returns the number of channels in the current dataset.
 
 EEGLAB commands issued through the EEGLAB menu that have affected the
@@ -237,26 +237,26 @@ example, when you have new dataset you wish to process the same way as a
 previous dataset, just load the old dataset into EEGLAB and type *\>\>
 EEG.history* to see the list of commands to execute on the new dataset.
 A basic method for writing EEGLAB scripts is simply to save or copy and paste these
-history commands into a Matlab script file.
+history commands into a MATLAB script file.
 
 More specifically, to process the first
 dataset, you can use EEGLAB graphic interface. To process subsequent
 similar datasets, you may simply copy or save the history from the first
 dataset into a script file (a text file with the extension "*.m*", for
 example, *doitagain.m*), load a different dataset, and then run the
-script from the Matlab command line. Note that the script file
-*doitagain.m* must be in your current Matlab path, which usually
+script from the MATLAB command line. Note that the script file
+*doitagain.m* must be in your current MATLAB path, which usually
 includes the current working directory. Read the help messages for
-Matlab functions *path()* and *addpath()* to learn more about the Matlab
+MATLAB functions *path()* and *addpath()* to learn more about the MATLAB
 path. Step by step instructions are provided below:
 
 1.  Load all the datasets you wish to process into EEGLAB.
-2.  Perform the processing you wish from the Matlab menu on the first
+2.  Perform the processing you wish from the MATLAB menu on the first
     dataset.
 3.  Ask for the command history (type *\>\> EEG.history*) and copy the
     data processing commands.
 4.  Switch (via the EEGLAB menu) to the second dataset and paste the
-    buffered commands onto the Matlab command line to execute them again
+    buffered commands onto the MATLAB command line to execute them again
     on the new dataset.
 5.  Go on like this till the last dataset is processed.
 
@@ -299,7 +299,7 @@ Then your changes are reflected in the EEGLAB window.
 Manipulating EEGLAB data structures
 -------------------------------------------------------------------
 
-There are two main EEGLAB Matlab data structures, *EEG* and *ALLEEG*.
+There are two main EEGLAB MATLAB data structures, *EEG* and *ALLEEG*.
 The *ALLEEG* array contains all the dataset structures that are currently
 loaded in the EEGLAB session. The *EEG* structure contains all the
 information about the current dataset being processed. See the [EEGLAB Data Structures](/tutorials/ConceptsGuide/Data_Structures.html) for more information.
@@ -312,7 +312,7 @@ datasets simultaneously. To view the session history for the current EEGLAB sess
 eegh
 ```
 
-under Matlab prints the EEGLAB session history in the Matlab command
+under MATLAB prints the EEGLAB session history in the MATLAB command
 line window. For instance, after opening an existing dataset (Call <span style="color: brown">File → Load dataset</span>; Select the tutorial file "eeglab_data.set" in the "sample_data" folder of the EEGLAB distribution; Then press *Open*)
 , typing *eegh* on the
 command line should return the following text:
@@ -325,16 +325,16 @@ EEG = pop_loadset( 'eeglab_data.set', '/matlab/eeglab/sample_data');
 The first command ([eeglab.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab.m)) runs EEGLAB and initializes
 several EEGLAB variables listed in the function output. Except for
 modifying these variables and adding the path to EEGLAB functions (if necessary), the [eeglab.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab.m) call will not modify anything else
-in the Matlab workspace (there is no global variable in EEGLAB). The second command ([pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m)) loads the dataset into the
+in the MATLAB workspace (there is no global variable in EEGLAB). The second command ([pop_loadset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadset.m)) loads the dataset into the
 *EEG* structure, and the last ([eeg_store.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_store.m)) stores the
 dataset in the *ALLEEG* structure. 
 
 The type of scripting illustrated in the previous sections might involve going back and
-forth between EEGLAB graphic interface and the Matlab command line. To
+forth between EEGLAB graphic interface and the MATLAB command line. To
 maintain consistency between the two main EEGLAB structures (*EEG* and
 *ALLEEG*), you need to update the *ALLEEG* every time you modify the
 *EEG* structure. To add or directly modify
-*EEG* structure values from a script or the Matlab command line, one
+*EEG* structure values from a script or the MATLAB command line, one
 must respect some simple rules.
 
 If the EEGLAB option to store more than one dataset may in memory is selected, selected via the <span style="color: brown">File → Preferences</span> menu item (first checkbox), then all current EEGLAB datasets are
@@ -434,7 +434,7 @@ As mentioned at the beginning of this page following are the reserved variable n
 Note that EEGLAB does not use global variables (the variables above are
 accessible from the command line, but they are not used as global
 variables within EEGLAB). The above variables are ordinary variables in
-the global Matlab workspace. All EEGLAB functions except the main interactive window function [eeglab.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab.m) (and a few other
+the global MATLAB workspace. All EEGLAB functions except the main interactive window function [eeglab.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab.m) (and a few other
 display functions) process one or more of these variables explicitly as
 input parameters and do not access or modify any global variable. This
 ensures that they have a minimum chance of producing unwanted 'side
@@ -442,18 +442,18 @@ effects' on the dataset.
 
 Basic scripting example
 ------------------------
-Building and running short or long EEGLAB Matlab scripts saved by EEGLAB
+Building and running short or long EEGLAB MATLAB scripts saved by EEGLAB
 history can be that simple. Simply perform any EEGLAB processing desired
 via the EEGLAB menu, save the EEGLAB command history, and re-run the
-saved script file. Matlab will repeat all the steps you performed
+saved script file. MATLAB will repeat all the steps you performed
 manually.
 
 Below is an example following the first several steps of the main
-tutorial of Matlab script copied from the history. It includes some of the
+tutorial of MATLAB script copied from the history. It includes some of the
 first basic manipulations that must be performed on a dataset. This
 example works with the tutorial dataset *eeglab_data.set* and the
 corresponding channel location file *eeglab_chan32.locs*. We have added a
-few lines of code to locate the data files on your computer and Matlab-style
+few lines of code to locate the data files on your computer and MATLAB-style
 comments, but otherwise, 
 the script is directly copied from the EEGLAB history. The script in this section is available [here](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab_history.m). Typing the command ''\>\> eegh'' would return.
 
@@ -585,13 +585,13 @@ for k = 1:6
     topoplot( mean_data(:,k), EEG.chanlocs, 'maplimits', maplimits, 'electrodes', 'on', 'style', 'both');
     title([ num2str(times(k)) ' ms']);
 end
-cbar; % A more flexible version of Matlab colorbar
+cbar; % A more flexible version of MATLAB colorbar
 ```
 
 The topographic plot is virtually identical to the previous one, except for the scale.
 
 ![](/assets/images/topoplot_history1.png)
 
-The next steps in learning to write EEGLAB Matlab scripts involve
+The next steps in learning to write EEGLAB MATLAB scripts involve
 learning to change EEGLAB function parameters and adding loops to
 perform multiple analyses. We advise you to look at some of the example scripts.

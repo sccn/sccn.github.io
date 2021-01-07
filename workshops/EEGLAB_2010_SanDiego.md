@@ -132,7 +132,7 @@ Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_advanced_s
 
 
 
-<span style="color:purple0">[Building EEGLAB plug-ins (Arnaud
+<span style="color:purple0">[Building EEGLAB plugins (Arnaud
 Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eeglab_plugins.html)</span>
 [Slides](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_ad_nov20_eeglab_plugins.ppt.pdf)
 

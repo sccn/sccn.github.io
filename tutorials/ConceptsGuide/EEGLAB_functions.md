@@ -9,7 +9,7 @@ EEGLAB functions
 {: .no_toc }
 
 This section is intended for users who have learned at least the basics
-of Matlab scriptwriting and wish to use EEGLAB and its many functions
+of MATLAB scriptwriting and wish to use EEGLAB and its many functions
 to automate and/or customize data analyses.
 
 <details open markdown="block">
@@ -21,11 +21,11 @@ to automate and/or customize data analyses.
 {:toc}
 </details>
 
-EEGLAB was designed for use by both novice and expert Matlab users.
-Depending on their level of Matlab expertise, users can either interact
+EEGLAB was designed for use by both novice and expert MATLAB users.
+Depending on their level of MATLAB expertise, users can either interact
 only with the EEGLAB graphic interface (GUI), else they can call EEGLAB
-functions directly from the Matlab command line or write their own
-Matlab scripts using EEGLAB functions and structures.
+functions directly from the MATLAB command line or write their own
+MATLAB scripts using EEGLAB functions and structures.
 
 There are 3 types of EEGLAB functions:
 
@@ -33,17 +33,17 @@ There are 3 types of EEGLAB functions:
     [eeglab.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab.m), [eeg_checkset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkset.m), [eeg_store.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_store.m), [pop_newset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newset.m), [std_checkset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_checkset.m), [eeg_checkchanlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkchanlocs.m), [eeglab_error.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab_error.m), [eeg_retrieve.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_retrieve.m), etc...
 
 
-2.  Pop_functions: Matlab functions with their own graphic interfaces.
+2.  Pop_functions: MATLAB functions with their own graphic interfaces.
     Called with no (or few) arguments (as from the EEGLAB user
     interface), these functions pop up a query window to gather
     additional parameter choices from users. They then generally call
     one or more of the EEGLAB toolbox signal processing functions. The
-    pop_functions can also be called from the Matlab command line or
-    from Matlab scripts. For example
+    pop_functions can also be called from the MATLAB command line or
+    from MATLAB scripts. For example
     [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m), [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m), [pop_topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m), etc...
 
-3.  Signal processing functions: The experienced Matlab user can call
-    the EEGLAB signal processing functions directly from the Matlab command line or
+3.  Signal processing functions: The experienced MATLAB user can call
+    the EEGLAB signal processing functions directly from the MATLAB command line or
     from their own analysis scripts. For example,
     [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m), [newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=newtimef.m), [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m), etc...
 
@@ -54,9 +54,9 @@ EEGLAB pop_ functions
 
 Functions with the prefix *pop_* or *eeg_* are functions that take the
 EEG structure as their first input argument. Functions with the prefix
-*pop_* can be called either from the EEGLAB menu or from the Matlab
+*pop_* can be called either from the EEGLAB menu or from the MATLAB
 command line, while functions with the prefix *eeg_* can only be called
-from the Matlab command line. When you select a menu entry in the EEGLAB
+from the MATLAB command line. When you select a menu entry in the EEGLAB
 main window, EEGLAB calls a *pop_* function, usually providing it with
 one parameter only, the EEG structure containing the current dataset
 (when selecting a menu item, the pop_ function it calls is listed in
@@ -67,12 +67,12 @@ entered the required parameters into the pop_ window, the data
 processing is performed. EEGLAB then adds the complete function call to
 the dataset history, including the parameters you have entered in the
 pop-up window. If you later copy this command from the dataset history
-and paste it onto the Matlab command line, the processing will be
+and paste it onto the MATLAB command line, the processing will be
 performed directly, without popping up an interactive query window.
 However, try removing all the input parameters to the function call
 except the first, naming the EEG structure, and the pop_function will now
 pop up a query window before performing any processing.
-For example, open a new Matlab session and try (you may have to type
+For example, open a new MATLAB session and try (you may have to type
 *\>\> eeglab* to add access paths to the functions below)
 
 ``` matlab
@@ -134,7 +134,7 @@ data matrix or not.
 For instance, [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) calls the data processing and
 plotting function [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m). To review the input parameters
 to these functions, either use the EEGLAB help menu (from the EEGLAB
-window) or the Matlab function help (from the Matlab command line). For
+window) or the MATLAB function help (from the MATLAB command line). For
 example:
 
 ``` matlab
@@ -189,10 +189,10 @@ ones(1, EEG.trials)*EEG.xmax*1000, linspace(EEG.xmin*1000, EEG.xmax*1000, EEG.pn
 new figure is created automatically only when the function is called in
 pop-up window mode. Otherwise, *pop_xxx* plotting commands,
 as well as all non-pop plotting commands, should be
-preceded by a Matlab *figure* command, as in the example above. Note that
+preceded by a MATLAB *figure* command, as in the example above. Note that
 *figure* is added before the command by the EEGLAB history
 mechanism. This feature allows you to create compound figures using
-Matlab *subplot* or the more flexible EEGLAB version [sbplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=sbplot.m).
+MATLAB *subplot* or the more flexible EEGLAB version [sbplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=sbplot.m).
 
 
 Using EEGLAB data processing functions may require understanding some

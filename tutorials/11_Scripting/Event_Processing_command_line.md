@@ -9,7 +9,7 @@ Event processing scripts
 =====
 {: .no_toc }
 
-This section is essential for users who want to write EEGLAB/Matlab
+This section is essential for users who want to write EEGLAB/MATLAB
 scripts that select and/or process data time-locked to given types or
 combinations of events. It is also important for any EEGLAB user who
 wants to know how EEGLAB data and events are actually stored and
@@ -27,11 +27,11 @@ manipulated. First, you might want to read the section of the tutorial describin
 Scripts for creating or modifying events
 ---------------------------
 
-The scripts below are relatively advanced EEGLAB/Matlab scripts. The
+The scripts below are relatively advanced EEGLAB/MATLAB scripts. The
 [EEGLAB script tutorial](/tutorials/11_Scripting/Using_EEGLAB_history.html)
-contains basic details on how to write Matlab scripts using EEGLAB. 
+contains basic details on how to write MATLAB scripts using EEGLAB. 
 First, we will import the continuous tutorial dataset. The code below
-detects the EEGLAB path automatically, so you may copy and paste it to your Matlab
+detects the EEGLAB path automatically, so you may copy and paste it to your MATLAB
 command window.
 
 ``` matlab
@@ -165,6 +165,6 @@ eeglab redraw
 % You should be able to select event field 'rt' for creating designs
 ```
 
-After running the script above, using the menu item <span style="color: brown">Study → Select/Edit STUDY design</span>, press the *New* button under the section *Edit the independent variables for this design*. You should be able to select *rt* to create new statistical designs (since this is a continuous variable, you would need to use the LIMO EEGLAB plugin to regress single-trial EEG activities on reaction times). Note that if you already have a *STUDY*, you will need to reload it from disk to update trial information (or call the function [std_maketrialinfo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_maketrialinfo.m from the Matlab command line)).
+After running the script above, using the menu item <span style="color: brown">Study → Select/Edit STUDY design</span>, press the *New* button under the section *Edit the independent variables for this design*. You should be able to select *rt* to create new statistical designs (since this is a continuous variable, you would need to use the LIMO EEGLAB plugin to regress single-trial EEG activities on reaction times). Note that if you already have a *STUDY*, you will need to reload it from disk to update trial information (or call the function [std_maketrialinfo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_maketrialinfo.m from the MATLAB command line)).
 
 Note that you may be tempted to modify the *STUDY.datasetinfo.trialinfo* field instead of modifying events for each dataset. However, even if you have saved the STUDY, every time you restart EEGLAB and reload the STUDY, your modifications will be erased. This is because EEGLAB keeps consistent the content of the *STUDY.datasetinfo.trialinfo* structures with the events in the individual datasets.

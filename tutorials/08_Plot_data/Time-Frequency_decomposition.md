@@ -30,7 +30,7 @@ To detect transient *event-related spectral perturbation,* or ERSP,
 (event-related shifts in the power spectrum) and inter-trial coherence
 (ITC) (event-related phase-locking) events in epoched EEGLAB datasets,
 select <span style="color: brown">Plot → Channel time-frequency</span> calling the [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) function. Below, we
-enter *14* (Cz) for the *Channel number*. We let the other defaults remain. We press *OK*.
+enter *14* (Cz) for the *Channel number*. We let the other defaults remain. We press *Ok*.
 
 Note the default "Wavelet cycles" entry is *3 0.8*.
 As explained in the help message for the *newtimef()* function, this means
@@ -65,7 +65,7 @@ The window below appears:
 mean event-related changes in spectral power (from pre-stimulus
 baseline) at each time during the epoch and at each frequency (\< 50
 Hz). To inspect these changes more closely, click on the color image.
-A new window will pop up. Enabling Matlab zoom allows zooming in to
+A new window will pop up. Enabling MATLAB zoom allows zooming in to
 any desired time/frequency window. The ERSP image shows a brief decrease in power at about 370 ms at 8 Hz (click on the
 image to zoom in and determine the exact frequency), a power increase
 centered at 13.5 Hz and starting at 300 ms. More spectral changes
@@ -134,7 +134,7 @@ channel in the single epochs (sorted by some relevant
 value) can be imaged using [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) or by selecting menu item <span style="color: brown">Plot → Component → Channel ERP image</span>.
 
 Called from the command line, 
-the [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) and [newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=newtimef.m) routines can return the data for each part of their figures as a Matlab variable. Accumulating the
+the [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) and [newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=newtimef.m) routines can return the data for each part of their figures as a MATLAB variable. Accumulating the
 ERSP and ITC images (plus the ERSP baseline and significance-level
 information) for all channels allows use of
 another toolbox routine, [tftopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=tftopo.m) (currently not available from the EEGLAB menu). See the [EEGLAB script writing](/tutorials/11_Scripting/) tutorial for more information.

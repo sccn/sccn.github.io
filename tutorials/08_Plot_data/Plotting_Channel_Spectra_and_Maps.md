@@ -25,7 +25,7 @@ Plot Channel Spectra and Maps
 
 To plot the channel spectra and associated topographical maps, select
 <span style="color: brown">Plot → Channel spectra and maps</span>. This will pop up the [pop_spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_spectopo.m) window (below). 
-Leave the default settings and press *OK*.
+Leave the default settings and press *Ok*.
 
 ![](/assets/images/spectopo1gui.png)
 
@@ -48,7 +48,7 @@ compute and plot spectra in specific time windows in the data. The
 entering a number close to 0) or to return more definitive measures
 (by entering a number closer to 100).
 
-On the Matlab command line, the parameter for the calculating the spectrum using
+On the MATLAB command line, the parameter for the calculating the spectrum using
 the Welch method are exposed (a window size of 128 sample with no overlap between
 windows). We can change these parameters. Select menu item <span style="color: brown">Plot → Channel spectra and maps</span> and in the *Spectral and scalp map options* edit box, enter
 " *'winsize', 256, 'overlap', 128* ". 
@@ -64,11 +64,10 @@ resolution as shown below.
 Note that functions [pop_spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_spectopo) and [spectopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=spectopo.m) also work with epoched data.
 
 Another menu item, <span style="color: brown">Plot → Channel properties</span>, plots the scalp location of a selected channel, its
-activity spectrum, and an [ERP-image
-plot](/Chapter_08:_Plotting_ERP_images "wikilink") of its activity in
+activity spectrum, and an ERP-image plot of its activity in
 single-epochs.
 
-*Note*: The Matlab Signal Processing Toolbox should to be in your Matlab path to use these functions. EEGLAB has replacement functions in case the signal processing toolbox is not present, but their capabilities are limited. 
+*Note*: The MATLAB Signal Processing Toolbox should to be in your MATLAB path to use these functions. EEGLAB has replacement functions in case the signal processing toolbox is not present, but their capabilities are limited. 
 
 *Note*: It is also possible to plot electrode locations in the spectral
 graph by entering '' 'electrodes', 'on' '' in the lowest text box

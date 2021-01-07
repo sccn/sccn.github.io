@@ -61,7 +61,7 @@ spot*.
 
 Note that the sample errors above are provided as examples. All
 the (nearly 5,000) test cases contained in the repository have been
-verified to work under several versions of Matlab running under
+verified to work under several versions of MATLAB running under
 Windows, Mac OSX, and Linux.
 
 ### EEGLAB test case sub-repositories

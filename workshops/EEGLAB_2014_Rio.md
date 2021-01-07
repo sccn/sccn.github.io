@@ -13,18 +13,18 @@ Eighteenth EEGLAB Workshop
 The 18th EEGLAB Workshop was held from Sunday, September 7th through
 Wednesday, September 10th at the Neurology Institute Deolindo Couto of
 the Federal University of Rio de Janeiro. Participants were expected to
-bring laptops with Matlab installed so as to be able to participate in
+bring laptops with MATLAB installed so as to be able to participate in
 the practical sessions. The workshop introduced and demonstrated the use
-of EEGLAB and EEGLAB plug-in tools for performing analysis of EEG and
+of EEGLAB and EEGLAB plugin tools for performing analysis of EEG and
 related data, with detailed method expositions and practical exercises.
 
 **NOTE: The workshop will be fairly technical, some sessions requiring
-basic Matlab programming skills. Therefore this workshop might not be
+basic MATLAB programming skills. Therefore this workshop might not be
 suited for people who are just beginning EEG research with quite limited
 knowledge of it. Rather, the intended attendees are those performing EEG
 research who want to learn to perform more flexible and in-depth
 analysis methods, or who are advanced experts and want to share their
-analysis methods with the world in the form of plug-in extensions to the
+analysis methods with the world in the form of plugin extensions to the
 EEGLAB environment.**
 
 

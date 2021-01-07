@@ -11,7 +11,7 @@ Importing and managing event and epoch information
 This tutorial describes importing, modifying, selecting, and visualizing EEGLAB events within the EEGLAB graphic interface.
 
 EEGLAB counts records of the time and nature of experimental events to
-analyze the EEG data. This section details how to load in events' information embeded in one of the data channels, stored in a Matlab
+analyze the EEG data. This section details how to load in events' information embeded in one of the data channels, stored in a MATLAB
 array, or separate ASCII file. Once event information is imported, EEGLAB copies the resulting EEG.event structure to a back-up
 (*ur*) copy, EEG.urevent, and creates links from each event to the
 corresponding urevent. This allows the user to select events based on
@@ -39,9 +39,9 @@ the rows (channels) of the EEG data matrix. Once more, we create
 simulated data to illustrate how to import events from a data channel.
 Assuming an EEG dataset with 33 rows (channels), out of which the first
 32 are data channels, and the last (33) is an event channel with values 1
-(stimulus onset), 2 (subject response), and 0 (other). Matlab code for
+(stimulus onset), 2 (subject response), and 0 (other). MATLAB code for
 generating such data follows (to test, copy and paste the code to the
-Matlab command line):
+MATLAB command line):
 
 ```matlab
 matlab
@@ -50,9 +50,9 @@ eegdata(33,\[10:256:256\*100\]) = 1; % simulating a stimulus onset every second
 eegdata(33,\[100:256:256\*100\]+round(rand\*128)) = 2; % simulating reaction times about 500 ms after stimulus onsets
 ```
 
-After copying the code above to Matlab and importing the array *eegdata*
+After copying the code above to MATLAB and importing the array *eegdata*
 into EEGLAB as a test dataset using the <span style="color: brown">File → Import data →
-from ASCII/float file or Matlab array</span> menu item, select
+from ASCII/float file or MATLAB array</span> menu item, select
 <span style="color: brown">File → Import event info → from data
 channel</span> menu item to call function [pop_chanevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanevent.m) .
 
@@ -62,12 +62,12 @@ Enter *33* as the event channel and set the edge-extract type to *up
 (leading)* (Note: place the mouse over the text *Transitions to extract*
 to see contextual help messages).
 
-Press *OK*. Now, the event information will have been imported into the
+Press *Ok*. Now, the event information will have been imported into the
 test EEGLAB dataset. At the same time, channel 33 will have been deleted
 from the test data. Select menu item <span style="color: brown">Edit → Event
 values</span> to inspect the imported event types and latencies.
 
-### Importing events from a Matlab array or text file
+### Importing events from a MATLAB array or text file
 
 Using the random EEG dataset created above, we import event information
 stored in an ASCII text file,
@@ -120,7 +120,7 @@ the third a parameter describing the event (for example, the stimulus position).
 </table>
 
 Select menu item <span style="color: brown">File → Import event info → Import
-Matlab array or ASCII file</span>
+MATLAB array or ASCII file</span>
 
 ![Image:Pop_importevent.jpg](/assets/images/Pop_importevent.jpg)
 
@@ -130,7 +130,7 @@ set the input fields (i.e., the names associated with the columns in the
 array) to *latency type position*. If these field names are quoted or
 separated by commas, these extra characters are ignored. (NOTE: It is
 necessary to use the names *latency* and *type* for two of the fields.
-EEGLAB uses these two field names to extract, sort, and display events. These fields must be lowercase since Matlab is case sensitive.)
+EEGLAB uses these two field names to extract, sort, and display events. These fields must be lowercase since MATLAB is case sensitive.)
 In this interactive window, the input *Event indices* and checkbox
 *Append events?* may be used to insert new events or replace a subset of
 events with new events (for instance, for large EEG files, which may have
@@ -140,7 +140,7 @@ several event files).
 
 An essential input above is *Align event latencies to data events*, which
 aligns the first event latency to the existing event latency and checks
-latency consistency. A value of *NaN* (Matlab for not-a-number)
+latency consistency. A value of *NaN* (MATLAB for not-a-number)
 indicates that this option is ignored (as in the example above).
 However, for most EEG data, the EEG is recorded with basic events stored
 in an event channel (see Import events from a data channel above), for
@@ -192,7 +192,7 @@ Then the following window pops-up</span>
 
 Scroll file fields to select which field (i.e., file column) contains the
 event type and which column contains the event latency. The default value is
-fine for this specific file, so simply press *OK*. Matlab then returns:
+fine for this specific file, so simply press *Ok*. MATLAB then returns:
 
 ```matlab
 Replacing field 'Event Type' by 'type' for EEGLAB compatibility
@@ -238,10 +238,10 @@ it. Once events are aligned, the function will automatically remove duplicate ev
 
 The E-prime format is highly configurable, so you may use the ASCII
 importer to import data files. Use the <span style="color: brown">File → Import event info →
-from E-Prime ASCII (text) file</span> menu item, which is the same as calling the <span style="color: brown">Import data → From ASCII/float file or Matlab array</span> menu item. Configure the
+from E-Prime ASCII (text) file</span> menu item, which is the same as calling the <span style="color: brown">Import data → From ASCII/float file or MATLAB array</span> menu item. Configure the
 interface with the name of the E-Prime columns to import the event file. In some cases, it might be necessary to export the E-Prime to a tab-delimited file first (for
 example, in a spreadsheet application) and edit some of the column
-information that might not be read correctly under Matlab. Please send us your
+information that might not be read correctly under MATLAB. Please send us your
 E-Prime files (at eeglab at sccn.ucsd.edu), so we may tailor the ASCII
 import menu for E-Prime files.
 
@@ -260,10 +260,10 @@ value of *1000* (ms) would indicate that the subject did not respond.
 (If all the epochs of the experiment already have a reaction time, do
 not enter anything here.)
 
-### Importing epoch info (Matlab array or text file) into EEGLAB
+### Importing epoch info (MATLAB array or text file) into EEGLAB
 
 Importing epoch information means that data epochs have already been
-extracted from the continuous EEG data and that the Matlab array or
+extracted from the continuous EEG data and that the MATLAB array or
 text epoch information file has one entry per epoch. To illustrate how
 to import such a file or array, we will once more create some simulated
 EEG data.
@@ -272,9 +272,9 @@ EEG data.
 eegdata = rand(32, 256, 10); % 32 channels, 256 time points per epoch, 10 epochs
 ```
 
-Select menu item <span style="color: brown">File → Import data → From ascii/float data file or Matlab array</span>. Refer to the [previous section](http://localhost:4000/tutorials/Import/Importing_Continuous_and_Epoched_Data.html) of the tutorial. 
+Select menu item <span style="color: brown">File → Import data → From ascii/float data file or MATLAB array</span>. Refer to the [previous section](http://localhost:4000/tutorials/Import/Importing_Continuous_and_Epoched_Data.html) of the tutorial. 
 
-The Matlab array, being 3-D, is
+The MATLAB array, being 3-D, is
 automatically imported as data epochs: the first dimension is
 interpreted as data channels, the second as data points, and the third as
 data epochs or trials (e.g., our sample data matrix above contains 10
@@ -299,7 +299,7 @@ event file might look something like this:
 
 This file [tutorial_epoch.txt](http://sccn.ucsd.edu/eeglab/download/tutorial_epoch.txt) may
 be downloaded (or copied from the array above in a text file). Then select
-menu item <span style="color: brown">File → Import epoch info → from Matlab
+menu item <span style="color: brown">File → Import epoch info → from MATLAB
 array or ascii file</span>, bringing up the following window:
 
 ![Image:Ii33pop_inportepoch.jpg](/assets/images/Ii33pop_inportepoch.jpg)
@@ -315,7 +315,7 @@ need to specify in the *Number of file header lines to ignore* box.
 Finally, the reaction times are recorded in milliseconds, which we
 indicate as *1E-3* (i.e., one-thousandth of a second). Note that the
 last entry, *Remove old epoch ...*, allows the user to import other
-information later if it is unset. Press *OK*, when done.  Now select
+information later if it is unset. Press *Ok*, when done.  Now select
 the <span style="color: brown">Edit → Event values</span> menu item to inspect what
 happened to the reaction time information (use the arrow to move to the
 second event):
@@ -433,7 +433,7 @@ information will be saved.
 
 ![](/assets/images/V121pop_editeventvals_2.png)
 
-After you press *OK*, the events may be resorted (events must always be
+After you press *Ok*, the events may be resorted (events must always be
 in order of increasing latencies), and some field contents may be modified
 to ensure consistency, as indicated at the end of the previous
 section.
@@ -459,7 +459,7 @@ figure below shows the exported file (left) and the edited file (right).
 ![](/assets/images/Spreadsheet_event.png)
 
 Then, using the <span style="color: brown">File → Import event info → From
-Matlab array of ASCII file</span> menu item, we select the modified file. We enter
+MATLAB array of ASCII file</span> menu item, we select the modified file. We enter
 the column names, indicate that there is 1 line of header, and set the
 unit latency to NaN (which indicates that time information conversion is necessary). We
 also uncheck the alignment option (although leaving it checked has no

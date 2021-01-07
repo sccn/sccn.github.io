@@ -22,7 +22,7 @@ Scrolling data
 --------------------------
 To scroll through the channel data of the current dataset, select
 <span style="color: brown">Plot → Channel data (scroll)</span>. This pops up
-the [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
+the [eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
 the scrolling data display window below.
 
 Note that this sample data file contains as-if-continuous EEG data. To
@@ -65,7 +65,7 @@ set the desired window length to "10" seconds as shown below,
 
 
 
-Then press *OK* to make the indicated change take effect.
+Then press *Ok* to make the indicated change take effect.
 
 
 ![Image:Scrollchannelactivities3.png](/assets/images/Scrollchannelactivities3.png)
@@ -75,7 +75,7 @@ Then press *OK* to make the indicated change take effect.
 Number of Channels to Display
 --------------------------
 To adjust the number of channels displayed, select
-[eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
+[eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
 item <span style="color: brown">Settings → Number of channels to
 display</span> and enter the desired number of channels to display on
 the screen (for instance, "16").
@@ -85,7 +85,7 @@ the screen (for instance, "16").
 
 
 Reducing the number of channels shown will return a scrolling
-[eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) window
+[eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) window
 with a vertical channel-set slider to the left of the plot. Use it to
 scroll the display (vertically) through all the channels.
 
@@ -95,7 +95,7 @@ scroll the display (vertically) through all the channels.
 Zoom on data
 --------------------------
 To zoom in on a particular area of a data window, select
-[eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
+[eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) menu
 item <span style="color: brown">Settings → Zoom off/on → Zoom on</span>. Using your mouse, drag a rectangle around an area of the data to zoom
 in on it. The scrolling window may now look similar to the one below.
 Click the right button on the mouse to zoom out again. Use menu item
@@ -107,10 +107,10 @@ off the zoom option.
 
 Rejecting Data
 --------------------------
-The [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
+The [eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m)
 window also allows you to reject (erase) arbitrary portions of the
 continuous data. The function
-[eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) can be
+[eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) can be
 called from both menu items <span style="color: brown">Tools → Inspect/reject data by eye</span> and <span style="color: brown">Plot → Channel data (scroll)</span>. Depending on which menu item you select, a warning message may appear; click on *Continue*. 
 
 To erase a selected portion of the data, first drag the
@@ -140,7 +140,7 @@ rejection, press *REJECT* and a new data set will be created with the
 rejected data omitted. A new dataset will be created with the marked
 regions removed. 
 
-Click *OK* to create the new dataset with the marked data
+Click *Ok* to create the new dataset with the marked data
 portions removed.
 
 EEGLAB adjust the *EEG.event* structure
@@ -160,7 +160,7 @@ You may restart EEGLAB or switch back to the original dataset by selecting the m
 
 ### Strategy for rejecting bad portions of data
 
-One strategy to reject bad portions of data is to stack the data using the *Stack* button of the [eegplot()](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) window (upper right corner) and display about 30 seconds of data (see a previous section for changing the size of the time window). This makes it easy to spot and remove artifacts as shown below. Using a 30-second window also allows for faster data cleaning. Note that the continuous tutorial dataset is already clean. The regions selected below are blinks that may be subtracted from the data using ICA, so they may be left in the data (they are selected for rejection for illustrative purpose).
+One strategy to reject bad portions of data is to stack the data using the *Stack* button of the [eegplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegplot.m) window (upper right corner) and display about 30 seconds of data (see a previous section for changing the size of the time window). This makes it easy to spot and remove artifacts as shown below. Using a 30-second window also allows for faster data cleaning. Note that the continuous tutorial dataset is already clean. The regions selected below are blinks that may be subtracted from the data using ICA, so they may be left in the data (they are selected for rejection for illustrative purpose).
 
 ![Image:eegplot_norm.png](/assets/images/eegplot_norm.png)
 

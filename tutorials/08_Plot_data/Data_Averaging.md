@@ -36,7 +36,7 @@ We use here the tutorial dataset as it was after [extracting data epochs](/tutor
 To plot the average ERP of all dataset epochs, plus ERP scalp maps at
 selected latencies, select <span style="color: brown">Plot → Channel ERPs → With scalp maps</span>. As a simple illustration using the sample
 dataset, we retain the default settings in the resulting [pop_timtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_timtopo.m) window below, and
-pressing *OK*.
+pressing *Ok*.
 
 
 ![Image:Pop_timtopo.png](/assets/images/Pop_timtopo.png)
@@ -64,7 +64,7 @@ function [eegmovie.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eegmovie.m
 
 Here we will plot the ERPs of an epoched dataset as single-channel
 traces in their 2-D topographic arrangement. 
-Select <span style="color: brown">Plot → Channel ERPs → In scalp array/rect. array</span>. Using the default settings and pressing *OK* in the window below.
+Select <span style="color: brown">Plot → Channel ERPs → In scalp array/rect. array</span>. Using the default settings and pressing *Ok* in the window below.
 
 
 ![Image:Pop_plottopo.png](/assets/images/Pop_plottopo.png)
@@ -88,7 +88,7 @@ full-sized view of this trace (as below).
 Many EEGLAB plotting routines use the toolbox function [axcopy.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=axcopy.m) to pop up a sub-axis plotting window whenever the
 users clicks on the main plot window. Sub-axis windows, in turn, do
 not have [axcopy.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=axcopy.m) enabled, allowing the user to use the
-standard Matlab mouse 'Zoom In/Out' feature.
+standard MATLAB mouse 'Zoom In/Out' feature.
 
 
 ### Plotting ERPs in a Column Array
@@ -96,7 +96,7 @@ standard Matlab mouse 'Zoom In/Out' feature.
 
 To plot (one or more) average ERP data traces in two-column array,
 select menu item <span style="color: brown"> Plot → Channel ERPs → In scalp/rect. array</span>. To use the default settings in the resulting window, check the "Plot in rect. array"
-checkbox and press *OK*.
+checkbox and press *Ok*.
 
 
 ![Image:Pop_topoplotrectarray.png](/assets/images/Pop_topoplotrectarray.png)
@@ -120,7 +120,7 @@ the top text box of the resulting [pop_topoplot.m](http://sccn.ucsd.edu/eeglab/l
 (below), type the epoch latencies of the desired ERP scalp maps. 
 
 Note that in this or any other numeric text entry box, you may enter
-any numeric Matlab expression. For example, instead of *0 100 200 300
+any numeric MATLAB expression. For example, instead of *0 100 200 300
 400 500*, try *0:100:500*. Even more complicated expressions, for
 example *-6000+3\*(0:20:120)*, are interpreted correctly.
 
@@ -141,7 +141,7 @@ To plot ERP data as a series of 3-D scalp maps, go to the menu
 <span style="color: brown">Plot → ERP map series → In 3-D</span>. The query
 window (below) will pop up, asking you to create and save a new 3-D
 head map *3-D spline file*. This process must be done only once for
-every montage. Click *OK* to begin this process.
+every montage. Click *Ok* to begin this process.
 
 ![Image:3dscalpmessage.png](/assets/images/3Dscalpmessage.png)
 
@@ -150,7 +150,7 @@ conversion with between channel location and 3-D headplot coordinate (*Talairach
 
 Enter trial latencies to be
 plotted (*0:100:500* below indicating latencies *0, 100, 200, 300, 400,*
-and *500* ms) and press *OK*.
+and *500* ms) and press *Ok*.
 
 ![](/assets/images/pop_headplot1.png)
 
@@ -170,7 +170,7 @@ delete the resulting pop-up window.
 To plot the heads at a specified angle, select again the <span style="color: brown"> Plot → ERP map series → In 3-D</span> menu item. Note that now by
 default the function uses the 3-D spline file you have generated
 above. Enter latencies to be displayed and the [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m)
-'view' option (as in the example below), and press *OK*.
+'view' option (as in the example below), and press *Ok*.
 
 ![](/assets/images/pop_headplot_view.png)
 
@@ -222,7 +222,7 @@ co-registration.
 ![](/assets/images/Coregister.gif)
 
 
-Pressing *OK* will cause the co-registration window below to open.
+Pressing *Ok* will cause the co-registration window below to open.
 
 
 ![](/assets/images/Coregister2.gif)
@@ -236,7 +236,7 @@ head mesh by scanning on the same subject's head (here shown in red).
 For the sample dataset, this alignment has already been performed.
 (Click the *Labels on* push button to display the electrode labels).
 
-When you have finished the co-registration, simply click *OK* and a
+When you have finished the co-registration, simply click *Ok* and a
 vector of 9 new channel alignment values (shift, in 3-D; rotation, in
 3-D; scaling, in 3-D) will be copied back to the *Talairach-model transformation matrix* field of the interactive [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m) window. For more information about channel co-registration, see the [source reconstruction tutorial](/tutorials/09_source/DIPFIT.html).
 

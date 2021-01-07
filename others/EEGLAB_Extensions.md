@@ -3,14 +3,14 @@ layout: default
 title: EEGLAB Extensions
 parent: Other documents
 ---
-EEGLAB extensions and plug-ins <span style="color: green"> - Done</span>
+EEGLAB extensions and plugins <span style="color: green"> - Done</span>
 ====
 {: .no_toc }
 
-EEGLAB extensions or plug-ins allow users to build and publish new data
+EEGLAB extensions or plugins allow users to build and publish new data
 processing and/or visualization functions using EEGLAB data structures
 and conventions. Plug-in functions can be easily used and tested by
-selecting the new menu items they introduce into the EEGLAB menus. EEGLAB can download and install E*plug-ins* directly from the <span style="color: brown">File → Manage EEGLAB extensions</span> menu
+selecting the new menu items they introduce into the EEGLAB menus. EEGLAB can download and install E*plugins* directly from the <span style="color: brown">File → Manage EEGLAB extensions</span> menu
 item.
 
 <details open markdown="block">
@@ -22,77 +22,77 @@ item.
 {:toc}
 </details>
 
-Lists of plug-ins for different EEGLAB versions
+Lists of plugins for different EEGLAB versions
 -----------------------------
-The way plug-ins are handled has changed through EEGLAB history, leading
+The way plugins are handled has changed through EEGLAB history, leading
 to more automation in more recent versions and different systems for
-storing and managing plug-ins (the plug-ins themselves are often the
-same across the different plug-in management systems). The list of
-plug-ins provided below is the same as the list of plug-ins available
-through the EEGLAB plug-in manager of the corresponding EEGLAB version.
+storing and managing plugins (the plugins themselves are often the
+same across the different plugin management systems). The list of
+plugins provided below is the same as the list of plugins available
+through the EEGLAB plugin manager of the corresponding EEGLAB version.
 
--   [See the current list of plug-ins for EEGLAB 2019.1 and later
+-   [See the current list of plugins for EEGLAB 2019.1 and later
     versions](https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php)
--   [See the list of plug-ins for EEGLAB
-    2019.0](https://sccn.ucsd.edu/wiki/Plugin_list_all) (plug-ins on this page are no
+-   [See the list of plugins for EEGLAB
+    2019.0](https://sccn.ucsd.edu/wiki/Plugin_list_all) (plugins on this page are no
     longer updated)
 -   See the [import](https://sccn.ucsd.edu/wiki/Plugin_list_import) and [data processing](https://sccn.ucsd.edu/wiki/Plugin_list_process) extensions for EEGLAB
-    13.x and 14.x (plug-ins and page no longer updated)
+    13.x and 14.x (plugins and page no longer updated)
 
-To install or update a plug-in
+To install or update a plugin
 ------------------------------
 
-Plug-ins may be installed using the EEGLAB plug-in manager, using menu
+Plug-ins may be installed using the EEGLAB plugin manager, using menu
 item <span style="color: brown">File → Manage EEGLAB extensions</span>.
 
-Although no longer recommended, plug-ins can still be installed
-manually. After downloading the zip file for a plug-in, uncompress the
-downloaded plug-in file in the main EEGLAB "plugins"
-sub-directory. Remove the old version of the plug-in if it is
+Although no longer recommended, plugins can still be installed
+manually. After downloading the zip file for a plugin, uncompress the
+downloaded plugin file in the main EEGLAB "plugins"
+sub-directory. Remove the old version of the plugin if it is
 present in the directory. Then restart EEGLAB. During start-up,
-EEGLAB should print the following on the Matlab command line:
+EEGLAB should print the following on the MATLAB command line:
 
 ``` matlab
-> eeglab: adding plug-in "eegplugin_myplugin" % (see >> help eegplugin_myplugin)
+> eeglab: adding plugin "eegplugin_myplugin" % (see >> help eegplugin_myplugin)
 ```
 
-The plug-in will typically have added one or more new items to the
+The plugin will typically have added one or more new items to the
 EEGLAB menus (often under the *Import data* or *Tools* headings).
 
-To uninstall a plug-in
+To uninstall a plugin
 ----------------------
 
 Plug-ins can just as easily be removed from the EEGLAB extension
 manager. Alternatively, you may move or remove its folder from
-the EEGLAB plug-ins folder and restart EEGLAB.
+the EEGLAB plugins folder and restart EEGLAB.
 
-To contribute a new plug-in
+To contribute a new plugin
 --------------------------------------
 
 See the simple instructions under [How to contribute to
-EEGLAB](/A07:_Contributing_to_EEGLAB "wikilink") to create EEGLAB compatible code.
+EEGLAB](/tutorials/misc/Contributing_to_EEGLAB.html) to create EEGLAB compatible code.
 
 Then, you may add your extension to the list above so that EEGLAB users can
 download it automatically from within EEGLAB. To do this, use [this
 form](http://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php). If
-you want to upload a new version of your plug-in, you can use 
+you want to upload a new version of your plugin, you can use 
 [this simplified form](http://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).
 
 Administrators, these are the maintenance pages to accept [Pending
-plug-in
+plugin
 requests](https://sccn.ucsd.edu/eeglab/plugin_uploader/protected/pending_requests.php)
-and [Edit plug-in
+and [Edit plugin
 information](https://sccn.ucsd.edu/eeglab/plugin_uploader/protected/edit_plugin.php).
 
-To access old versions of a plug-in / extension
+To access old versions of a plugin / extension
 ------------------------------------------------------
 
-In case you need them, old versions of plug-ins are available for direct
+In case you need them, old versions of plugins are available for direct
 download at
 [http://sccn.ucsd.edu/eeglab/plugins/](http://sccn.ucsd.edu/eeglab/plugins/).
 These cannot be installed through the EEGLAB extension manager. Simply
 download the zip file and uncompress it in the *eeglab/plugins/* folder
-(and make sure you remove any other version of the plug-in you might
+(and make sure you remove any other version of the plugin you might
 have installed).
 
 Popular EEGLAB plugins
@@ -124,7 +124,7 @@ These plugins are distributed along with the EEGLAB code.
 
 These extensions allow importing various types of data. Although EEGLAB
 contains native functions to import some data formats, the plugins below
-support other formats. There are many data import extension plug-ins.
+support other formats. There are many data import extension plugins.
 We only include the most popular ones below.
 
 - **[bids-matlab-tools](https://github.com/sccn/bids-matlab-tools)**: The bids-matlab-tool repository contains a collection of functions to import and export BIDS (Brain Imaging Data Structure)-formated experiments.
@@ -141,7 +141,7 @@ We only include the most popular ones below.
 
 - **[neuroscanio](https://github.com/sccn/neuroscanio)**: Import/export files from/to the Neuroscan software.
 
-- **[MFFMatlabIO](https://github.com/arnodelorme/MFFMatlabIO)**: Import/export files from/to the EGI company in MFF format.
+- **[MFFMATLABIO](https://github.com/arnodelorme/MFFMATLABIO)**: Import/export files from/to the EGI company in MFF format.
 
 - **[xdfimport](https://github.com/xdf-modules/xdf-EEGLAB)**: Import files in XDF (LSL) format (EEG stream and EEG marker stream only).
 
@@ -158,7 +158,7 @@ We only include the most popular ones below.
 
 -   **[VisEd](https://github.com/BUCANL/Vised-Marks):** The Vised Marks extension for EEGLAB adds editing functions to the native *eegplot* data scrolling figure. Specifically, it allows adding/editing event markers, flagging channels/components, flagging time periods, and displaying the properties of the marks structure.
 
--   **[get_chanlocs](https://github.com/sccn/get_chanlocs/wiki):** The get_chanlocs EEGLAB plug-in locates 3-D electrode positions from a 3-D scanned head image. A tutorial on how to acquire these images with off-the-shelf equipment is included.
+-   **[get_chanlocs](https://github.com/sccn/get_chanlocs/wiki):** The get_chanlocs EEGLAB plugin locates 3-D electrode positions from a 3-D scanned head image. A tutorial on how to acquire these images with off-the-shelf equipment is included.
 
 ### EEG/fMRI artifact removal
 
@@ -184,7 +184,7 @@ We only include the most popular ones below.
 
 -   **[CORRMAP](https://github.com/sccn/corrmap):** Semi-automatic identification of common EEG artifacts
     based on a template. The CORRMAP extension consists of a set of
-    Matlab functions allowing the identification and clustering of
+    MATLAB functions allowing the identification and clustering of
     independent components representing common EEG artifacts.
 
 -   **[CIAC](http://www.debener.de/CIAC_tutorial/ciacplugin.html):** The cochlear implant artifact correction is a semi-automatic
@@ -217,7 +217,7 @@ We only include the most popular ones below.
 
 -   **[ERPLAB](http://www.erpinfo.org/erplab/erplab-home/)**: The ERPLAB
     Toolbox is a set of
-    open-source Matlab routines for analyzing ERP data that operate as a
+    open-source MATLAB routines for analyzing ERP data that operate as a
     set of extensions to EEGLAB.
 
 -   **[EYE-EEG](http://www2.hu-berlin.de/eyelab/)**: The EYE-EEG Toolbox
@@ -232,7 +232,7 @@ We only include the most popular ones below.
 
 -   **[bioelectromag](http://eeg.sourceforge.net/bioelectromagnetism.html)**: The
     bioelectromagnetism
-    Matlab toolbox is interfaced in this extension to plot average ERPs
+    MATLAB toolbox is interfaced in this extension to plot average ERPs
     and to find their minima and maxima (peak finding). Only a few files from this toolbox are included in this extension.
 
 ### Source and connectivity analysis
@@ -247,7 +247,7 @@ We only include the most popular ones below.
     models from subject MR head images and/or from an MNI template brain
     model warps to measured electrode positions.
 
-- **[PACTools](https://github.com/sccn/PACTools)**: The Event-Related PACTools is an EEGLAB plug-in to compute phase-amplitude coupling in single-subject data. In addition to traditional methods to compute PAC, the plugin includes the Instantaneous and Event-Related implementation of the Mutual Information Phase-Amplitude Coupling Method (MIPAC).
+- **[PACTools](https://github.com/sccn/PACTools)**: The Event-Related PACTools is an EEGLAB plugin to compute phase-amplitude coupling in single-subject data. In addition to traditional methods to compute PAC, the plugin includes the Instantaneous and Event-Related implementation of the Mutual Information Phase-Amplitude Coupling Method (MIPAC).
 
 -   **[PACT](http://sccn.ucsd.edu/wiki/PACT):** PACT is an EEGLAB extension for computing cross-frequency
     phase-amplitude coupling.

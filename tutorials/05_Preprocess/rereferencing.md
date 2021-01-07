@@ -33,9 +33,9 @@ first time for a given dataset, the following window pops up.
 The (sample) data above were recorded using a mastoid reference. Since
 we do not wish to include this reference channel (neither in the data
 nor in the average reference), we do not click the *Add current
-reference channel in data* check-box.
+reference channel in data* checkbox.
 
-Press the *OK* button to compute the average reference. This step will
+Press the *Ok* button to compute the average reference. This step will
 then be recorded in the main EEGLAB window (not shown). As in the
 previous step, a dialogue box will appear asking for the new dataset's name.
 
@@ -94,7 +94,7 @@ Press OK. The re-referencing interface should look like the one below.
 
 ![Image:Pop_reref7.png](/assets/images/Pop_reref7.png)
 
-Then press *OK* to actually re-reference your data. Your data is now average referenced and you have added back Cz (the original reference) to the data. The reason for this overly complex procedure is that the reference
+Then press *Ok* to actually re-reference your data. Your data is now average referenced and you have added back Cz (the original reference) to the data. The reason for this overly complex procedure is that the reference
 channel can have a location and that this location needs to be
 declared in the channel editor so it can be plotted along with other
 channels.

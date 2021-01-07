@@ -15,8 +15,8 @@ Institute (La Jolla CA) by Arnaud Delorme and Scott Makeig. EEGLAB was fully rel
 
 In 2003-04, the EEGLAB software architect Arnaud
 Delorme worked with Fieldtrip senior author Robert Oostenveld to provide
-basic source localization to EEGLAB via the EEGLAB DIPFIT plug-in using
-Matlab code Robert had developed for dipole fitting. Together with many
+basic source localization to EEGLAB via the EEGLAB DIPFIT plugin using
+MATLAB code Robert had developed for dipole fitting. Together with many
 other functions written at the Donders Institute for Brain, Cognition,
 and Behavior (Nijmegen, The Netherlands), the source code contributed by
 Robert Oostenveld to DIPFIT served as a basis for Fieldtrip, which was
@@ -27,7 +27,7 @@ Interdependencies
 -------------------
 
 EEGLAB and Fieldtrip are in part interdependent. For basic source
-localization, EEGLAB uses the DIPFIT plug-in, which incorporates a
+localization, EEGLAB uses the DIPFIT plugin, which incorporates a
 Fieldtrip source localization routine. EEGLAB also offers users the
 choice of using some Fieldtrip statistical routines as well as its own.
 The Fieldtrip code also includes some EEGLAB functions such as
@@ -83,7 +83,7 @@ different:
     difficult for external developers to contribute code (the Fieldtrip
     developers are open about this, though). In EEGLAB, all third party
     contributions are made available as EEGLAB extensions (formerly
-    'plug-ins'). To date, there are more than 120 EEGLAB extensions
+    'plugins'). To date, there are more than 120 EEGLAB extensions
     available from many developers, including extensive toolboxes
     ERPLAB, SIFT, LIMO, NFT, MoBILAB, etc. Third-party
     developers maintain full control over their extensions.
@@ -94,7 +94,7 @@ different:
     bugs (this might change in the future). EEGLAB
     remains more of a structured package for which additions to core
     functions are carefully considered and controlled to maximize
-    stability. EEGLAB's third-party extension (plug-in) facility
+    stability. EEGLAB's third-party extension (plugin) facility
     provides a free medium for new tool development and publication by
     many groups and individuals.
 
@@ -121,21 +121,21 @@ considerations:
     to work in future revisions of the software, again EEGLAB might be
     the best option.
 
--   If you want to publish Matlab code for new functions or toolboxes,
+-   If you want to publish MATLAB code for new functions or toolboxes,
     EEGLAB extensions provide a sure way to make your code known and
     available for widespread, easy use and testing -- even directly from
     the EEGLAB GUI of users who download your extensions. The EEGLAB
     Extension Manager will also allow you to help users maintain current
     versions of your extensions.
 
--   Both EEGLAB and Fieldtrip can be added to the Matlab path and run
+-   Both EEGLAB and Fieldtrip can be added to the MATLAB path and run
     together. Some functions are available to convert between data
     structures of both toolboxes, such as the EEGLAB *eeglab2fieldtrip.m*
     and the *fieldtrip2eeglab.m* functions - note that these functions
     focus on converting specific structure of data (Fieldtrip has
     several of them) and are not meant to be all-purpose functions.
     EEGLAB can also import data from FILE-IO, which is compatible with
-    Matlab files saved by Fieldtrip. There is a notable function name
+    MATLAB files saved by Fieldtrip. There is a notable function name
     conflict when using both EEGLAB and Fieldtrip together -- the
     *topoplot.m* function is present in both toolboxes (EEGLAB will handle the conflict for you).
 

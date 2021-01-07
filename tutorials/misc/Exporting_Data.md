@@ -94,7 +94,7 @@ re-imported into another EEGLAB dataset using menu item
 <span style="color: brown">Edit → Dataset info</span>. As shown below, enter the
 filename in the *ICA weight array* edit box. Leave the sphere edit box
 empty, or empty it if it is not empty. See the [ICA decomposition
-tutorial](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink") for more
+tutorial](/tutorials/06_RejectArtifacts/RunICA.html) for more
 details on sphere and weight matrices.
 
 

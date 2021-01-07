@@ -51,7 +51,7 @@ trimmed statistics.
 
 
 
-Pressing *OK* will open the image below.
+Pressing *Ok* will open the image below.
 
 
 
@@ -122,7 +122,7 @@ to find and mark for rejection of those data epochs that appear to contain
 artifacts using their statistical distributions. Since we want to work
 with epoched dataset, you should either load an earlier saved epoched
 dataset or, using the downloaded dataset (better loaded with channel
-locations info), use the following Matlab script code:
+locations info), use the following MATLAB script code:
 
 ``` matlab
 EEG = pop_eegfilt( EEG, 1, 0, [], [0]); % Highpass filter cutoff freq. 1Hz.
@@ -194,7 +194,7 @@ markings.
 
 At this point, a warning will pop up, indicating that the marked epochs
 have not yet been rejected and are simply marked for rejection. When
-seeing this warning, press *OK* to return to the main rejection window.
+seeing this warning, press *Ok* to return to the main rejection window.
 
 
 ![](/assets/images/Iii22warning.jpg)
@@ -364,7 +364,7 @@ following parameters under '' find abnormal spectra'' (which calls the [pop_rejs
 
 Computing the data spectrum for every data epoch and channel may take a
 while. We use a frequency decomposition based on the Slepian multitaper
-(Matlab *pmtm* function) to obtain more accurate spectra than using
+(MATLAB *pmtm* function) to obtain more accurate spectra than using
 standard Fourier transforms. After computing the trial spectra, the
 function removes the average power spectrum from each trial spectrum and
 tests whether the remaining spectral differences exceed the selected
@@ -457,7 +457,7 @@ Notes and strategy
     *semi-automated rejection* coupled with a visual inspection.
 -   All the functions presented here can also be called individually
     through <span style="color: brown">Plot -> Reject data epochs</span> or from
-    the Matlab command line.
+    the MATLAB command line.
 -   After labeling trials for rejection, it is advisable to *save* the
     dataset before actually rejecting the marked trials (marks will be
     saved along with the dataset). This gives one the ability to go back to
@@ -503,7 +503,7 @@ plot previously marked trials won't have any effect.
 
 Check the checkbox
 to reject marked trials, so that the marked trials will be immediately
-rejected when the scrolling window is closed. Press *OK*.
+rejected when the scrolling window is closed. Press *Ok*.
 
 ![](/assets/images/Inspectionpop.gif)
 

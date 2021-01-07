@@ -173,7 +173,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 - [STUDY ICA component clustering (Arnaud Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_study_component_clustering.html)
 
 #### Extending EEGLAB with Plug-ins
--   [Building EEGLAB plug-ins (Arnaud
+-   [Building EEGLAB plugins (Arnaud
     Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_eeglab_plugins.html)
 -   [The SIFT source information-flow toolbox (Tim
     Mullen)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_info_flow.html)
@@ -187,13 +187,13 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
     by Christian Kothe.
 -   [Imaging human agency with Mobile brain/body imaging (MoBI) and the Mobilab toolbox (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)
 
-## <span style="color: darkred">Matlab and matrix operations tutorials</span>
+## <span style="color: darkred">MATLAB and matrix operations tutorials</span>
 
-If you are new to Matlab or need a refresher please consult the material on the [Getting started with Matlab page](/workshops/tutorial_matlab)
+If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/workshops/tutorial_matlab)
 
 **IMPORTANT NOTE:** The practical
-portions of the workshop are largely dedicated to writing EEGLAB Matlab
-scripts, so if you are not yet able to understand Matlab syntax, you
+portions of the workshop are largely dedicated to writing EEGLAB MATLAB
+scripts, so if you are not yet able to understand MATLAB syntax, you
 will not be able to make good use of these sections.
 
 ## <span style="color: darkred">Relevant publications demonstrating EEGLAB capabilities</span>

@@ -14,7 +14,7 @@ Fifteenth EEGLAB Workshop
 <span style="color: blue">Beijing, China - June 16-18, 2012</span>
 The 15th EEGLAB Workshops will take place from Saturday June 16th
 through Monday June 18th at Tsinghua University in Beijing, China.
-Participants will be expected to bring laptops with Matlab installed so
+Participants will be expected to bring laptops with MATLAB installed so
 as to be able to participate in the practical sessions. We will
 introduce and demonstrate the use of EEGLAB-linked tools for performing
 advanced analyses of EEG and related data, with detailed method
@@ -101,7 +101,7 @@ Preliminary Workshop Program
 
 (see also [this note on the importance of knowing skull conductivity](http://sccn.ucsd.edu/wiki/NFT_Appendix_C))
 
-<span style="color: orange">9:15 – 10:00 -- Using the NFT and Dipfit plug-ins
+<span style="color: orange">9:15 – 10:00 -- Using the NFT and Dipfit plugins
 (Julie Onton)[Dipfit](https://sccn.ucsd.edu/githubwiki/files/3_dipfit.pdf)[nf)](/media:nft_presentation12.pdf)</span>
 <!-- -->
 
@@ -167,7 +167,7 @@ Preliminary Workshop Program
 
 <span style="color: purple">9:00 – 9:30 -- The near future of wireless EEG and mobile brain/body imaging (Tzyy Ping Jung)</span>
 
-<span style="color: orange">9:30 – 10:00 -- Building and publishing EEGLAB plug-ins (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_eeglab_plugins.pdf)</span>
+<span style="color: orange">9:30 – 10:00 -- Building and publishing EEGLAB plugins (Arnaud Delorme) [(PDF)](https://sccn.ucsd.edu/githubwiki/files/eeglab2012_ad_eeglab_plugins.pdf)</span>
 <!-- -->
 
 

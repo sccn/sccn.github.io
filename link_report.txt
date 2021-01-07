@@ -6,7 +6,7 @@ index.html
 	-EEGLAB hardware and software recommendations: /EEGLAB_hardware_and_software_recommendations
 	-Download EEGLAB from GIT: /How_to_download_EEGLAB
 	-Download a compiled version of EEGLAB: /A13:_Compiled_EEGLAB
-	-EEGLAB extensions/plug-ins: /EEGLAB_Extensions
+	-EEGLAB extensions/plugins: /EEGLAB_Extensions
 	-EEGLAB revision history: /EEGLAB_revision_history
 	-Bugs and Suggestions: /EEGLAB_Bugs
 	-EEGLAB News and Discussion email lists: /EEGLAB_mailing_lists
@@ -14,7 +14,7 @@ index.html
 	-Using EEGLAB vs. Commercial EEG Software: /EEGLAB_vs._Commercial_EEG_Software
 	-Working with EEGLAB and Fieldtrip: /EEGLAB_and_Fieldtrip
 	-Running EEGLAB on open source Octave: /Running_EEGLAB_on_Octave
-	-EEGLAB on Matlab versus Python: /EEGLAB_and_python
+	-EEGLAB on MATLAB versus Python: /EEGLAB_and_python
 	-NEW Running EEGLAB on high performance computing resources - The Open EEGLAB Portal: /EEGLAB_and_high_performance_computing
 	-NEW Reading 3D electrode locations from an inexpensive 3D photo scan - get_chanlocs: /Get_chanlocs
 	-Using EEGLAB to process MEG data: /EEGLAB_and_MEG_data
@@ -24,7 +24,7 @@ index.html
 	-EEGLAB filtering FAQ: /Firfilt_FAQ
 	-(requires subscription here): /EEGLAB_mailing_lists
 	-Other TIPS and FAQ: /TIPS_and_FAQ
-	-EEGLAB extensions and plug-ins: /EEGLAB_Extensions_and_plug-ins
+	-EEGLAB extensions and plugins: /EEGLAB_Extensions_and_plugins
 	-ERICA - Experimental Real-time Interactive Control and Analysis framework: /ERICA
 	-Channel Location Files download: /Channel_Location_Files
 	-Binary version of the runica() infomax ICA decomposition function: /binica

@@ -14,7 +14,7 @@ Thirteenth EEGLAB Workshop
 <span style="color: blue">Aspet, France - June 20-23, 2011</span>
 The 13th EEGLAB Workshops will take place from Monday June 20th through
 Thursday June 23rd in the village of Aspet in the Pyrenees mountains in
-France. Participants will be expected to bring laptops with Matlab
+France. Participants will be expected to bring laptops with MATLAB
 installed so as to be able to participate in the practical sessions. The
 workshops will consist of two parts: the first part on Monday June 20th
 is an advanced single-trial EEG processing one-day symposium will be

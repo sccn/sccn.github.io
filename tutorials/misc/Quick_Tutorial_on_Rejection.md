@@ -17,9 +17,9 @@ user-friendly manner.
 
 This short tutorial is designed to guide  users who want to try using EEGLAB to remove artifacts from their data.
 
-1. Start Matlab and EEGLAB, then import your data
+1. Start MATLAB and EEGLAB, then import your data
 -----------------------------------------------
-Type \>\> eeglab to start EEGLAB under Matlab. 
+Type \>\> eeglab to start EEGLAB under MATLAB. 
 
 Select menu item
 <span style="color: brown">File → Import data</span> to import your data file
@@ -42,14 +42,14 @@ The program recognizes channel location files in
 most known formats (spherical BESA, polar Neuroscan, 3-D cartesian EGI,
 3-D cartesian Polhemus, ...). P
 
-ress *OK* after selecting the file and
-then press *OK* to have EEGLAB recognize the file format automatically
+ress *Ok* after selecting the file and
+then press *Ok* to have EEGLAB recognize the file format automatically
 from the file extension. 
 
 *Note:* files with extension ".elp" are
 considered Polhemus files by default and not BESA files. 
 
-Press *OK* in
+Press *Ok* in
 the channel edit window to import the channel locations into EEGLAB.
 
 To check that your channel locations have been imported correctly, use
@@ -92,7 +92,7 @@ To reject noisy “data epochs”, select menu item
 <span style="color: brown">Tools → Reject data epochs → Reject by inspection</span>. 
 
 Check the second checkbox to reject data at once
-(instead of simply marking epochs for rejection) and press *OK*. 
+(instead of simply marking epochs for rejection) and press *Ok*. 
 
 Then,
 in the scrolling window, click on data epochs you wish to reject. If you
@@ -107,7 +107,7 @@ for a name for the new dataset.
 EEGLAB also has facilities to automatically suggest data channels,
 portions and/or epochs to reject. See menu item
 <span style="color: brown">Tools → Reject data epochs → Reject data (all methods)</span>. See the [Data
-rejection](/Chapter_01:_Rejecting_Artifacts "wikilink") tutorial for
+rejection](/tutorials/06_RejectArtifacts/) tutorial for
 more details.
 
 4.Run ICA, select and reject artifactual components
@@ -115,18 +115,18 @@ more details.
 Use menu <span style="color: brown">Tools → Run ICA</span> to run the ICA
 algorithm. 
 
-To accept the default options, press *OK*.
+To accept the default options, press *Ok*.
 
 Use menu <span style="color: brown">Tools → Reject data using ICA → reject component by maps</span> to select artifactual components. See the [Data
 analysis (running
-ICA)](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink") tutorial for
+ICA)](/tutorials/06_RejectArtifacts/RunICA.html) tutorial for
 more details.
 
 Select menu item <span style="color: brown">Tools → Remove components</span>
 to actually remove the selected component from the data.
 
 See the [Data analysis (running
-ICA)](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink") tutorial for
+ICA)](/tutorials/06_RejectArtifacts/RunICA.html) tutorial for
 more details and some hints on how to select artifactual components.
 
 5.Further processing of and/or exporting the cleaned data
@@ -135,7 +135,7 @@ Your data has now hopefully been pruned of its major artifactual
 components. You may now proceed with further EEGLAB processing of the
 remaining non-artifactual independent components (see [Data analysis
 (working with ICA
-components))](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink").
+components)](/tutorials/09_source/DIPFIT.html)).
 
 You may also export your data by selecting menu item
 <span style="color: brown"> File → Export → Data and ICA activity to text file </span>(EEGLAB v4.1). (Note: We believe Neuroscan versions 4.1 and

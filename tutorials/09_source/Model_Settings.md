@@ -50,7 +50,7 @@ For this example, select *Boundary element model*.
 Clicking on the model name updates some of the fields below the dropdown menu: 
 - The entry *Head
 model file* contains the head model parameters (surface information,
-conductances, etc...). These are Matlab files and may be edited. See the
+conductances, etc...). These are MATLAB files and may be edited. See the
 FieldTrip documentation for more information on the head model files. 
 - The
 edit box *Matrix to align chan. locs with head model* is automatically updated to align the current electrode coordinates with the current head model. We co-registered the MNI average brain MRI with landmark electrode
@@ -169,7 +169,7 @@ the display to subsets of channels using the *Electrodes* buttons.
 
 ![Image:coregister_new2.png](/assets/images/coregister_new2.png)
 
-If you want to retain your modifications, press *OK* to update the DIPFIT settings
+If you want to retain your modifications, press *Ok* to update the DIPFIT settings
 window. This will display the resulting Talairach transformation matrix in the edit box *Matrix to align chan. locs with head model*. In this specific case, you may press the *Cancel* button in the coregistration interface since no further alignment was necessary (we performed coregistration for illustrative purposes on a dataset that did not require further alignment). Then press *Ok* in the DIPFIT settings
 window and proceed to localization in the next section of the tutorial.
 

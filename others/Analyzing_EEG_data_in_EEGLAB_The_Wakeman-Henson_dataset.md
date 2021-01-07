@@ -71,7 +71,7 @@ sequence differed. See details of the paradigm in the figure below.
 Data pre-processing pipeline
 Once you have downloaded the data you can run the code below. 
 
-Note that this pre-processing step is also available as a Matlab Live Script [PATH TO LIVESCRIPT]
+Note that this pre-processing step is also available as a MATLAB Live Script [PATH TO LIVESCRIPT]
 
 ### Start EEGLAB 
 
@@ -198,7 +198,7 @@ Extended Infomax (Bell & Sejnowksi, 1995; Lee et al., 1997), the default
 ICA decomposition approach (runica) for which very fast GPU-enabled
 versions, beamica (Christian Kothe) and cudaica ([Raimondo et al,.
 2012](https://www.hindawi.com/journals/cin/2012/206972/)), respectively,
-are also available as EEGLAB plug-ins.
+are also available as EEGLAB plugins.
 
 ``` matlab
 EEG = pop_runamica(EEG,'numprocs',4, 'do_reject', 1, 'numrej', 5, 'rejint', 4,'rejsig', 3,'rejstart', 1, 'pcakeep',EEG.nbchan-1); % Computing ICA with AMICA
@@ -696,7 +696,4 @@ visualize their results, and to interact with the user via intuitive
 graphical user interfaces (GUIs). EEGLAB internal data and file
 structures have been modified to improve computation speed while bearing
 the burden of increased data storage required for more complete single
-trial-based data analysis. This wiki will be updated soon to show
-results and demos on this regard. Meanwhile, take a look [at this
-poster](/Media:RMC_postersfn_2016.pdf‎ "wikilink") on the LIMO-EEGLAB
-integration and the application to the Wakeman-Henson set of data.
+trial-based data analysis.

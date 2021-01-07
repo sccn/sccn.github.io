@@ -287,7 +287,7 @@ You may call the [pop_clust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=p
 
 Several algorithms are available: *kmeans*, *neural network*, and *affinity* clustering. 
 
-*Kmeans* requires the Matlab Statistics Toolbox, while *neural network* clustering uses a function from the Matlab Neural Network Toolbox. A version of *kmeans* that does not require the Matlab Statistics Toolbox is also available. *Affinity* clustering does not require any toolbox. We recommend using *affinity* clustering which does not require to specify the number of clusters, then try the *kmeans* algorithm if the results are not satisfactory. 
+*Kmeans* requires the MATLAB Statistics Toolbox, while *neural network* clustering uses a function from the MATLAB Neural Network Toolbox. A version of *kmeans* that does not require the MATLAB Statistics Toolbox is also available. *Affinity* clustering does not require any toolbox. We recommend using *affinity* clustering which does not require to specify the number of clusters, then try the *kmeans* algorithm if the results are not satisfactory. 
 
 For *kmeans*, note that the default number of clusters is set so on average
 there will be one computed per subject per cluster. For example, if

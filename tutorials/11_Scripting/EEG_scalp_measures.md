@@ -8,7 +8,7 @@ Advanced plotting from the command line
 ======
 {: .no_toc }
 
-In this section, you may obtain custom plots from the Matlab command line. It is currently not possible to obtain these plots from the EEGLAB menus.
+In this section, you may obtain custom plots from the MATLAB command line. It is currently not possible to obtain these plots from the EEGLAB menus.
 
 <details open markdown="block">
   <summary>

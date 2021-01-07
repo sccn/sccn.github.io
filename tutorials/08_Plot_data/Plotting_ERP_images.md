@@ -38,7 +38,7 @@ best done when plotting ERPs. In this section of the tutorial, we will use occip
 Select <span style="color: brown"> Plot → Channel ERP image</span>. This
 brings up the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window (below). 
 
-Enter the channel number (27 or click on the "..." button to select channel *POz*), a trial-smoothing value of *1*, and press *OK*.
+Enter the channel number (27 or click on the "..." button to select channel *POz*), a trial-smoothing value of *1*, and press *Ok*.
 
 ![](/assets/images/I82pop_erpimage.jpg)
 
@@ -56,7 +56,7 @@ The head plot (top left) containing
 a red dot indicates the position of the selected channel in the
 montage. Both of these plotting features (as well as several others) can
 be turned off in the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) pop-up window (above).
-See check-boxes *plot ERP* and *plot scalp map*.
+See checkboxes *plot ERP* and *plot scalp map*.
 
 
 ![](/assets/images/1ERPimagesmooth.gif)
@@ -76,7 +76,7 @@ easier to see the dominant alpha-band oscillations in single trials.
 from the last call (if any) are recalled as defaults (though optional
 arguments entered via the text box are not). 
 If you experience a
-problem with this feature, you may type *\>\>eegh(0)* on the Matlab
+problem with this feature, you may type *\>\>eegh(0)* on the MATLAB
 command line to clear the history.
 
 
@@ -154,7 +154,7 @@ In general, the user can sort on any event field value.
 For example, call back the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window, press
 the *Epoch-sorting Field* button, and select *position* instead of
 *latency*. Remove *rt* from the *Event type* box. Finally enter *yes*
-under the *Rescale* box. Press *OK*. 
+under the *Rescale* box. Press *Ok*. 
 
 In the resulting plot, trials are sorted by stimulus position (1
 or 2, automatically normalized values to fit the post-stimulus space
@@ -163,7 +163,7 @@ the single-trial data and to the sorting variable. This explains the
 oblique line connecting the low (1) and high (2) sorting variable
 regions.
 
-*Note*: One can also enter a Matlab expression to normalize the sorting
+*Note*: One can also enter a MATLAB expression to normalize the sorting
 variable explicitly (see [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) help).
 
 
@@ -184,7 +184,7 @@ The latency value given in *Align* will be used for specifying time
 To select the median of the trial-sorting values (here, median
 reaction time) for specifying the new time 0 (which will be at the
 response time minus the median reaction time), our convention is to
-use *Inf* the Matlab symbol for infinity in this box (as below). If
+use *Inf* the MATLAB symbol for infinity in this box (as below). If
 you want to set a different value (for instance, while plotting an
 ERP image for one subject, you might want to use the median reaction
 time you computed for all your subjects), simply enter the value in ms
@@ -193,7 +193,7 @@ in the *Align* input box.
 *Note*: Temporal realignment of data epochs, relative to one another,
 will result in missing data at the lower-left and upper-right corners
 of the ERP image. The ERP-image function shows these as green (0) and
-returns these values as *NaN*s (Matlab not-a-number).
+returns these values as *NaN*s (MATLAB not-a-number).
 
 
 ![](/assets/images/1ERPimageinfedit.gif)
@@ -306,7 +306,7 @@ following parameters in the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatef
 - Enter *0.01* under *Signif. level*. This value is
 *NOT* corrected for multiple comparisons.
 
-and press *OK*.
+and press *Ok*.
 
 Note that these two entries must be equal (the window actually
 prevents the user from entering different values). Entering a

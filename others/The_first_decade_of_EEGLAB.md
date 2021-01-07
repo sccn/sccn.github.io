@@ -14,7 +14,7 @@ A bit of history
 ----------------
 
 In 1997, Scott Makeig, Tzyy Ping Jung, and colleagues released the
-ICA Electrophysiology Toolbox for Matlab from Terrence Sejnowski's CNL
+ICA Electrophysiology Toolbox for MATLAB from Terrence Sejnowski's CNL
 laboratory at The Salk Institute for Biological Studies in La Jolla.
 This toolbox comprised functions to run (extended) infomax ICA on EEG
 data as well as early versions of time/frequency and visualization
@@ -68,7 +68,7 @@ page](/others/EEGLAB_revision_history.html).
 Statistics
 ----------
 The total
-number of lines of code (excluding plug-ins) is currently 145,271
+number of lines of code (excluding plugins) is currently 145,271
 comprising 636 stand-alone functions. Currently, there are 15,265 researchers on
 the EEGLAB news list. EEGLAB has been downloaded about 350,000 times. According to the ISI web of knowledge, the
 original 2004 [EEGLAB
@@ -90,7 +90,7 @@ Please download and uncompress the archives of the EEGLAB, the ICA toolbox, and 
 -   [TESTEEG.eeg](http://sccn.ucsd.edu/eeglab/download/TESTEEG.eeg) (50
     Mb)
 
-Start Matlab, add the path to each of the uncompressed folders, and type *\>\>eeglab* on the command line.
+Start MATLAB, add the path to each of the uncompressed folders, and type *\>\>eeglab* on the command line.
 
 ![EEGLAB v0.9 graphic interface](/assets/images/EEGLAB0_9.png)
 
@@ -99,7 +99,7 @@ have downloaded. Be sure to change the default event type range from *12501:1260
 
 ![left\|150px](/assets/images/Eeglab09_load.png)
 
-EEGLAB loads the dataset and plots an ERP-image figure (it will also generate an error under Matlab 2020a because of axes settings incompatibility - remember this version is 20 years old!). You may use <span style="color: brown">Plot → average</span> to pop up the plot below.
+EEGLAB loads the dataset and plots an ERP-image figure (it will also generate an error under MATLAB 2020a because of axes settings incompatibility - remember this version is 20 years old!). You may use <span style="color: brown">Plot → average</span> to pop up the plot below.
 
 ![left\|150px](/assets/images/eeglab09_plot.png)
 

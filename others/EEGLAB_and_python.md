@@ -8,11 +8,11 @@ EEGLAB and Python <span style="color: green"> - Done</span>
 ===================
 
 EEGLAB does not work natively in Python because EEGLAB runs on
-Matlab (and, to a considerable extent, on the open source Octave
+MATLAB (and, to a considerable extent, on the open source Octave
 platform). Nevertheless, there are possible links with Python, which we
 are detailing here.
 
-Should I use Matlab-based tools or Python-based tools
+Should I use MATLAB-based tools or Python-based tools
 -----------------------------------------------------
 
 One of the most important feature when using a software package is usage and community.
@@ -25,11 +25,11 @@ As of 2020, 56% of the citations of the
 papers below go to EEGLAB, then 25% go to Fieldtrip, and 19% go to
 Brainstorm and various versions of MNE. Note that EEGLAB and Fieldtrip
 are intertwined where Fieldtrip users can write [EEGLAB
-plugins](/EEGLAB_and_Fieldtrip#Wrap_up_your_Fieldtrip_scripts_into_EEGLAB_plugin_menu_items "wikilink")
+plugins](/others/EEGLAB_and_Fieldtrip.html)
 by adding simple wrappers on their Fieldtrip code. So the pair
 EEGLAB+Fieldtrip comprises 81% of the citations, and it is continuing to
-grow, with the Matlab-based tools (which include Brainstorm) gathering
-about 90% of all citations. This is a strong argument for using Matlab
+grow, with the MATLAB-based tools (which include Brainstorm) gathering
+about 90% of all citations. This is a strong argument for using MATLAB
 based tools - and in particular EEGLAB - instead of Python-based tools
 (i.e., MNE).
 
@@ -62,25 +62,25 @@ The number of citation per year corresponds to the following five papers:
 ![](/assets/images/EEGLAB_usage.jpg)
 
 
-Major differences between Matlab and Python
+Major differences between MATLAB and Python
 -------------------------------------------
 
 There is a trend in imaging tool development to migrate brain imaging
 tools to Python. Of course, Python (and the numpy/scipy math packages
 built on Python) would be an interesting (and free) alternative to using
-Matlab. However, irrespective of what Python enthusiasts might claim,
+MATLAB. However, irrespective of what Python enthusiasts might claim,
 Python might not be ideal because it remains a programming language
 designed for programmers. For example,
 
 -   It is hard to understand for novices why an n-size vector should be
-    indexed, beginning at 0 and ending at n-1 (in Matlab and R, vectors
+    indexed, beginning at 0 and ending at n-1 (in MATLAB and R, vectors
     begin at position 1 and end at n).
 -   Code indentation is a nice feature of Python. However, this style
     does not come naturally to the novice programmer. It also makes
     copying and pasting code between file sources and the command line
     interface problematic (since a snippet of code will most likely have
     unwanted indentation when copied to the Python command line).
--   Python is much more object-oriented than Matlab, sometimes requiring
+-   Python is much more object-oriented than MATLAB, sometimes requiring
     users to understand object-oriented concepts when calling functions.
 -   Python usually requires the user to install multiple external
     libraries; this can be tedious and does not come naturally to
@@ -88,14 +88,14 @@ designed for programmers. For example,
     library settings right. There are also other technical problems
     related to the operating system and library compatibility that can take
     hours or days to solve (we speak from experience).
--   Matrix manipulation in Python is not as intuitive as Matlab. For
+-   Matrix manipulation in Python is not as intuitive as MATLAB. For
     example, the already non-intuitive Python code to concatenate arrays
     <i>np.concatenate((np.array(\[\[/1,_2\],_\[5,_6\|1, 2\], \[5,
-    6\]\]), np.array(\[1, 2\])))</i> will fail because, unlike Matlab,
+    6\]\]), np.array(\[1, 2\])))</i> will fail because, unlike MATLAB,
     1-D vectors are not compatible with 2-D matrices by default - and
-    need explicit conversion. Compare to Matlab simpler notation <i>\[
+    need explicit conversion. Compare to MATLAB simpler notation <i>\[
     \[1 2; 5 6\]; \[1 2\] \]</i> or <i>\[ \[1 2; 5 6\] \[1 2\]' \]</i>
-    depending on the dimension to concatenate. The Matlab code is
+    depending on the dimension to concatenate. The MATLAB code is
     readable for someone with math training.
 -   And of course, version problems: Python versions 2 and 3 are not
     fully compatible -- and Python 2.7, although no longer supported
@@ -103,18 +103,18 @@ designed for programmers. For example,
     of Python libraries are not available in Python 3 -- leading to all
     kinds of unexpected problems that can slow down a novice
     programmer.
--   Python is free. Why should I have to pay for Matlab? Good conduct in
+-   Python is free. Why should I have to pay for MATLAB? Good conduct in
     (open) science should transcend discussions on finances. We pay for
     Microsoft or Adobe licenses because the free alternative, even
     if it exists, does not fulfill our needs. The compiled version of
-    EEGLAB does not require users to purchase Matlab, and EEGLAB code
+    EEGLAB does not require users to purchase MATLAB, and EEGLAB code
     also runs on Octave.
--   MEEG software packages on Matlab are mainly EEGLAB, Fieldtrip, and
+-   MEEG software packages on MATLAB are mainly EEGLAB, Fieldtrip, and
     Brainstorm. MEEG software on Python is MNE which is more tailored to MEG users than EEG users.
-    The Matlab suite of available software is currently more mature than
-    the Python one, which is a good reason to stick to Matlab.
+    The MATLAB suite of available software is currently more mature than
+    the Python one, which is a good reason to stick to MATLAB.
 
-- If you wish to use Python, the [Spyder IDE](https://www.spyder-ide.org/) is a good equivalent of the Matlab interface and should feel familiar.
+- If you wish to use Python, the [Spyder IDE](https://www.spyder-ide.org/) is a good equivalent of the MATLAB interface and should feel familiar.
 
 How to call EEGLAB functions from Python
 ----------------------------------------
@@ -122,11 +122,11 @@ How to call EEGLAB functions from Python
 If you want or need to call EEGLAB functions from Python, the best
 solution is to use the Python package Oct2py (pip install Oct2py). You
 will need to install Octave as well. See [this
-page](/Running_EEGLAB_on_Octave "wikilink") for more information on how
+page](/others/Running_EEGLAB_on_Octave.html) for more information on how
 to run EEGLAB on Octave. The way this Python library works is that it
-converts Python data structures to Matlab/Octave data structures and
+converts Python data structures to MATLAB/Octave data structures and
 vice versa. Based on our research, it is the simplest and most stable way
-to run Matlab functions in Python, and most EEGLAB functions may be
+to run MATLAB functions in Python, and most EEGLAB functions may be
 called from within Python using this method.
 
 ``` Python
@@ -162,23 +162,23 @@ EEG = mne.io.read_epochs_eeglab('eeglabfile.set')
 Will EEGLAB ever run natively on Python?
 ----------------------------------------
 
-For the foreseeable future, Matlab will remain the platform on, which
-EEGLAB is developed and supported. Matlab has a breadth of useful tools
+For the foreseeable future, MATLAB will remain the platform on, which
+EEGLAB is developed and supported. MATLAB has a breadth of useful tools
 that are not yet matched by open source environments (e.g., no complex
 system to install libraries, good graphical support for different
 platforms, 3-D interactive graphics with transparency, powerful
 debugging tools, capacity to run native Java code), plus a wealth of
-available Matlab toolboxes are handy, well known and well tested (e.g.,
+available MATLAB toolboxes are handy, well known and well tested (e.g.,
 image processing toolbox, for correcting for multiple comparisons;
 signal processing toolbox, for spectral decompositions; optimization
 toolbox, for optimizing code; bioinformatics toolbox, useful for EEG
 classification; virtual reality toolbox, for the real-time 3-D rendering of
-EEG activity). Finally, the Matlab compiler allows us to create a
-compiled version of EEGLAB that does not require the user to have Matlab
--- Matlab scripts can be run by [compiled
-EEGLAB](/A13:_Compiled_EEGLAB "wikilink"), although interactive sessions
-are not supported. Given that Matlab is accessible to nearly everyone
-working in scientific institutions, our incentive to find a Matlab
+EEG activity). Finally, the MATLAB compiler allows us to create a
+compiled version of EEGLAB that does not require the user to have MATLAB
+-- MATLAB scripts can be run by [compiled
+EEGLAB](/tutorials/misc/Compiled_EEGLAB.html), although interactive sessions
+are not supported. Given that MATLAB is accessible to nearly everyone
+working in scientific institutions, our incentive to find a MATLAB
 alternative remains relatively low.
 
 Rather than re-implementing EEGLAB on Python, we will be more likely to focus on increasing cross-compatibility between EEGLAB and Python, making it easier for users to go back and forth between the two.

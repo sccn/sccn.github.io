@@ -23,9 +23,9 @@ Society for Neuroscience meeting in San Diego</span>
 The 17th EEGLAB Workshop took place from Thursday evening, November 14th
 through Monday, November 18th at San Diego Supercomputer Center of the
 University of California San Diego, La Jolla, CA, USA. Participants will
-be expected to bring laptops with Matlab installed so as to be able to
+be expected to bring laptops with MATLAB installed so as to be able to
 participate in the practical sessions. The workshop will introduce and
-demonstrate the use of EEGLAB and EEGLAB plug-in tools for performing
+demonstrate the use of EEGLAB and EEGLAB plugin tools for performing
 analysis of EEG and related data, with detailed method expositions and
 practical exercises. The program begins with an open house reception and
 poster sharing session the evening (5:00-8:00 pm) of the 14th, a day

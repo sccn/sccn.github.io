@@ -104,9 +104,9 @@ the scalp EEG will be minimal compared to the spatially coherent
 *effective source*.
 
 EEGLAB includes two
-plug-ins for localizing equivalent dipole locations of independent
-component scalp maps: (1) the DIPFIT plug-in described here and (2) the
-[Neuroelectromagnetic Forward modeling Toolbox (NFT)](https://github.com/sccn/nft). The DIPFIT plug-in is the default approach in EEGLAB. The NFT plugin can also perform distributed cortical source imaging and build individual subject
+plugins for localizing equivalent dipole locations of independent
+component scalp maps: (1) the DIPFIT plugin described here and (2) the
+[Neuroelectromagnetic Forward modeling Toolbox (NFT)](https://github.com/sccn/nft). The DIPFIT plugin is the default approach in EEGLAB. The NFT plugin can also perform distributed cortical source imaging and build individual subject
 electrical (forward) head models from an available subjects' MR head image and sufficient EEG.
 
 Dipole fitting with DIPFIT
@@ -182,7 +182,7 @@ threshold, components that do not resemble a dipolar field distribution
 will not be assigned a dipole location. Press *Ok* to continue.
 
 Progress of the coarse grid
-scanning is shown on the Matlab command window. During dipole localization, the electrode positions are
+scanning is shown on the MATLAB command window. During dipole localization, the electrode positions are
 projected to the skin surface of the spherical or BEM head model, though
 the electrode positions of the dataset are *not*
 altered. DIPFIT starts the grid scan by first excluding all 3-D grid
@@ -197,7 +197,7 @@ select the <span style="color: brown">Tools → Locate dipoles using DIPFIT → 
 
 ![400px\|border](/assets/images/dipfitnew4.png)
 
-Simply press *OK* to produce the figure below:
+Simply press *Ok* to produce the figure below:
 
 ![400px\|border](/assets/images/dipfitnew5.png)
 
@@ -446,7 +446,7 @@ Like other EEGLAB functions, DIPFIT functions are standalone and may
 also be called from the command line. Note that whenever you call some of the
 DIPFIT menu items from EEGLAB, a text command is stored in the EEGLAB history
 as for any other EEGLAB menu item. The two DIPFIT menu items that generate an EEGLAB history command that can be re-used in batch
-scripts are <span style="color: brown">Tools → Locate dipoles using DIPFIT → Autofit</span> and <span style="color: brown">Tools → Locate dipoles using DIPFIT → Head model and settings</span>. Type *eegh* on the Matlab command line to
+scripts are <span style="color: brown">Tools → Locate dipoles using DIPFIT → Autofit</span> and <span style="color: brown">Tools → Locate dipoles using DIPFIT → Head model and settings</span>. Type *eegh* on the MATLAB command line to
 view the command history. 
 
 DIPFIT creates a *EEG.dipfit* sub-structure within the main *EEG*
@@ -456,11 +456,11 @@ dataset structure. This structure has several fields:
 > |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 > | EEG.dipfit.chansel         | Array of selected channel indices to fit (for instance, ECG or EYE channels might be excluded).                                                                                                                                                                                                          |
 > | EEG.dipfit.current         | Index of the component currently being fitted.                                                                                                                                                                                                                                                          |
-> | EEG.dipfit.hdmfile         | Model file name. Contains information about the geometry and the conductivity of the head. This is a standard Matlab file and may be edited as such.                                                               |
+> | EEG.dipfit.hdmfile         | Model file name. Contains information about the geometry and the conductivity of the head. This is a standard MATLAB file and may be edited as such.                                                               |
 > | EEG.dipfit.mrifile         | Contains the MRI file used for plotting dipole locations.                                                                                                                                                                                                                                               |
 > | EEG.dipfit.chanfile        | Contains the template channel location file associated with the current head model. This is used for electrode co-registration.                                                                                                                                                                         |
 > | EEG.dipfit.coordformat     | Contains the coordinate format in the model structure. This is "spherical" for the spherical model or "MNI" for the BEM model.                                                                                                                                                                          |
-> | EEG.dipfit.coord_transform | Contains the Talairach transformation matrix to align the user dataset channel location structure (*EEG.chanlocs*) with the selected head model. This is a length-9 vector *\[shiftx shifty shiftz pitch roll yaw scalex scaley scalez\]*. Type *\>\> help traditionaldipfit* in Matlab for more information. |
+> | EEG.dipfit.coord_transform | Contains the Talairach transformation matrix to align the user dataset channel location structure (*EEG.chanlocs*) with the selected head model. This is a length-9 vector *\[shiftx shifty shiftz pitch roll yaw scalex scaley scalez\]*. Type *\>\> help traditionaldipfit* in MATLAB for more information. |
 > | EEG.dipfit.model           | A structure array containing dipole information.                                                                                                                                                                                                                                                        |
 > | EEG.dipfit.model.posxyz    | Contains the 3-D position of the dipole(s). If a two-dipole model is used for a given component, each row of this array contains the location of one dipole.                                                                                                                                            |
 > | EEG.dipfit.model.momxyz    | Contains 3-D moment of the dipole(s). If a two-dipole model is used for a given component, each row of this array contains the moment of one dipole.                                                                                                                                                    |

@@ -10,7 +10,7 @@ EEGLAB Data Structures
 {: .no_toc }
 
 This section is intended for users who wish to [use EEGLAB and its
-functions in Matlab scripts](/tutorials/ConceptsGuide/EEGLAB_functions.html). We have tried
+functions in MATLAB scripts](/tutorials/ConceptsGuide/EEGLAB_functions.html). We have tried
 to make EEG structures as simple and as transparent as possible so that
 advanced users can use them to efficiently process their data. 
 
@@ -26,7 +26,7 @@ advanced users can use them to efficiently process their data.
 Introduction
 ------------
 
-Writing EEGLAB Matlab scripts requires some understanding of the
+Writing EEGLAB MATLAB scripts requires some understanding of the
 EEGLAB data structure (EEG) and its substructures (principally
 *EEG.data*, *EEG.event*, *EEG.urevent*, *EEG.epoch*, *EEG.chanlocs* and
 *EEG.history*). We will introduce EEGLAB data structures below.
@@ -42,15 +42,15 @@ EEGLAB data structure (EEG) and its substructures (principally
 Note that EEGLAB does not use global variables (the variables above are
 accessible from the command line but they are not used as global
 variables within EEGLAB). The above variables are ordinary variables in
-the global Matlab workspace. All EEGLAB functions except the main interactive window function [eeglab.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab.m) (and a few other
+the global MATLAB workspace. All EEGLAB functions except the main interactive window function [eeglab.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab.m) (and a few other
 display functions) process one or more of these variables explicitly as
 input parameters and do not access or modify any global variable. This
-insures that they have a minimum chance of producing unwanted 'side
+ensures that they have a minimum chance of producing unwanted 'side
 effects'.
 
 EEG and ALLEEG
 ---------------
-EEGLAB variable *EEG* is a Matlab structure that contains all the
+EEGLAB variable *EEG* is a MATLAB structure that contains all the
 information about the current EEGLAB dataset. For instance, select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data_epochs_ica.set" located in the "sample_data" folder of EEGLAB. Then press *Open*. Then typing *\>\>EEG* will produce the following command
 line output:
@@ -107,10 +107,10 @@ See the help message
 of the [eeg_checkset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkset.m) function (which checks the consistency
 of EEGLAB datasets) for the meaning of all the fields.
 
-EEGLAB variable *ALLEEG* is a Matlab array that holds all the datasets
-in the current EEGLAB/Matlab workspace. In fact *ALLEEG* is a structure
+EEGLAB variable *ALLEEG* is a MATLAB array that holds all the datasets
+in the current EEGLAB/MATLAB workspace. In fact *ALLEEG* is a structure
 array of *EEG* datasets (described above). If, in the current EEGLAB
-session you have one datasets loaded, *ALLEEG* will be equal to *EEG*. If you have two datasets loaded, typing *\>\> ALLEEG* on the Matlab
+session you have one datasets loaded, *ALLEEG* will be equal to *EEG*. If you have two datasets loaded, typing *\>\> ALLEEG* on the MATLAB
 command line returns:
 
 ``` matlab
@@ -205,7 +205,7 @@ These values store the channel location coordinates and label of the
 first channel ('FPz'). You may use the [pop_chanedit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanedit.m)
 function or menu item <span style="color: brown">Edit → Channel locations</span>
 to edit or recompute the channel location information. The value of any
-EEG structure field may also be modified manually from the Matlab
+EEG structure field may also be modified manually from the MATLAB
 command line. See also the tutorial section on importing [channel locations](/tutorials/04_Import/Channel_Locations.html).
 
 ### EEG.event
@@ -277,7 +277,7 @@ the original third event, and so will be linked to the third
 #### Event types
 
 Event fields of the current data structure can be displayed by typing
-''\>\> EEG.event '' on the Matlab command line. 
+''\>\> EEG.event '' on the MATLAB command line. 
 To display the field values for the first event, type:
 
 ``` matlab
@@ -523,7 +523,7 @@ first event in the next concatenated dataset (which need not have been
 recorded at the same time), the latencies of the neighboring pair of
 urevents cannot be compared directly. Such so-called 'hard' boundary
 events marking the joint between concatenated datasets have the usual
-type 'boundary' but a special 'duration' value, *NaN* (Matlab numeric
+type 'boundary' but a special 'duration' value, *NaN* (MATLAB numeric
 value 'not-a-number'). They are the only 'boundary' events present in
 *EEG.urevent* and are the only type 'boundary' events in *EEG.event*
 with a 'duration' of 'NaN' and an *EEG.event.urevent* pointer to an
@@ -579,7 +579,7 @@ epoch, the epoch table may look more readable. Using the tutorial
 dataset after extracting data epochs, select item <span style="color: brown">Edit → Select epoch/event</span> in the menu, and then enter (in the pop-up
 window below) 'rt' in the *Event type* field, then select *Keep only
 selected events and remove all other events* instead of *Remove epochs
-not referenced by any event*. Press *OK* to create a new data set. Note:
+not referenced by any event*. Press *Ok* to create a new data set. Note:
 This daughter (and its future child datasets, if any) contains no trace
 (except in *EEG.urevent*) of all the events that actually occurred
 during the experiment but were erased by this process.
@@ -612,7 +612,7 @@ original dataset, since its corresponding urevent (stored in
 
 ### Saved .set files
 
-EEGLAB datasets are saved in *.set* files. *.set* files are Matlab files. You may save an EEG structure using the command.
+EEGLAB datasets are saved in *.set* files. *.set* files are MATLAB files. You may save an EEG structure using the command.
 
 ```matlab
 save -mat myfile.set EEG
@@ -624,7 +624,7 @@ This would be a valid dataset file for EEGLAB. Another supported format is to sa
 save -mat myfile.set -struct EEG
 ```
 
-Yet another supported format is to save two files. One file that contains metadata (with extension .set, and is a type of Matlab file), and one file containing raw data (float32 with .fdt extension). The raw data file is organized in samples x channels (so first all the data for one channel, then all the data for a second channel, etc.). In case, there are several trials, the raw data file is organized in samples x trials x channels. This is equivalent to the following Matlab commands.
+Yet another supported format is to save two files. One file that contains metadata (with extension .set, and is a type of MATLAB file), and one file containing raw data (float32 with .fdt extension). The raw data file is organized in samples x channels (so first all the data for one channel, then all the data for a second channel, etc.). In case, there are several trials, the raw data file is organized in samples x trials x channels. This is equivalent to the following MATLAB commands.
 Another format for the raw data file (with extension .dat) was to save the data transposed compared to the .fdt file. This format was discontinued more than a decade ago, but can still be read by EEGLAB.
 
 ```matlab
@@ -643,7 +643,7 @@ EEG = pop_loadset('myfile.set')
 The *STUDY* structure
 ---------
 This section gives details of EEGLAB structures necessary for writing
-custom Matlab scripts, functions, and plug-ins that operate on EEGLAB
+custom MATLAB scripts, functions, and plugins that operate on EEGLAB
 STUDY structures and studysets.
 
 The *STUDY* structure contains information for each of its datasets,
@@ -652,7 +652,7 @@ sequentially. Below is a prototypical *STUDY* structure. In this tutorial, the
 examples shown were collected from analysis of a small sample studyset
 comprising ten datasets, two conditions from each of five subjects, which you may download [here](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip) (1.8
 GB).
-After loading a studyset (see previous sections, or as described below)using the function [pop_loadstudy.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadstudy.m), typing *STUDY* on Matlab
+After loading a studyset (see previous sections, or as described below)using the function [pop_loadstudy.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_loadstudy.m), typing *STUDY* on MATLAB
 command line will produce results like this:
 
 ``` matlab
@@ -949,7 +949,7 @@ equivalent dipole model exhibit a high percent variance from the
 component's scalp map. These components have been excluded from
 clustering (see [component clustering](/tutorial/10_Group_analysis/component_clustering_tools.html)
 tutorial for more information on how to exclude components from clustering).
-Typing *STUDY.cluster* at the Matlab command line returns
+Typing *STUDY.cluster* at the MATLAB command line returns
 
 ``` matlab
 >> STUDY.cluster
@@ -973,7 +973,7 @@ Typing *STUDY.cluster* at the Matlab command line returns
 ```
 
 All this information (including the clustering results) may be accessed
-from the Matlab command line, or by using the interactive function [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.phpfile=pop_clustedit.m).
+from the MATLAB command line, or by using the interactive function [pop_clustedit.m](http://sccn.ucsd.edu/eeglab/locatefile.phpfile=pop_clustedit.m).
 
 EEGLAB version 14 use to contain more information pertaining to each
 cluster (such as the ERP, Spectrum and time-frequency data for a given
@@ -1221,7 +1221,7 @@ description of the additional fields:
     present for ICA components.
 -   *datatype*: This field contains the type of data saved in the file. More
     details are provided below.
--   *parameters*: The parameters used to compute each measure are also stored in the file, for example, the frequency range of the component spectra. Measure files are standard Matlab files that may be read and processed using standard Matlab commands. The variable names they contain should be self-explanatory.
+-   *parameters*: The parameters used to compute each measure are also stored in the file, for example, the frequency range of the component spectra. Measure files are standard MATLAB files that may be read and processed using standard MATLAB commands. The variable names they contain should be self-explanatory.
 -   *datafile*: the list of files used to compute this file.
 -   *trialinfo*: information about each data trial. This is similar
     to the list of information in the field 'trialinfo' of

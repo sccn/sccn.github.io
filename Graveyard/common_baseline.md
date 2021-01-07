@@ -14,7 +14,7 @@ instance, assuming that three sets of data epochs from three
 experimental conditions have been stored for 10 subjects in EEGLAB
 dataset files named *subj\[1:10\]data\[1:3\].set* in directory
 */home/user/eeglab*, and that the three datasets for each subject
-contain the same ICA weights, the following Matlab code would plot the
+contain the same ICA weights, the following MATLAB code would plot the
 ICA component-1 ERSPs for the three conditions using a common spectral
 baseline for each of the 10 subjects:
 
@@ -50,10 +50,10 @@ eeglab redraw  % Update the main EEGLAB window
 Repetitive processes, such as the computation performed above, may be
 time consuming to perform by hand if there are many epochs in each
 dataset and many datasets. Therefore it may be best performed by an
-EEGLAB Matlab script that is left to run until finished in a Matlab
+EEGLAB MATLAB script that is left to run until finished in a MATLAB
 session. Writing scripts using EEGLAB functions makes keeping track of
 data parameters and events relatively easy, while maintaining access to
-the flexibility and power of the Matlab signal processing and graphics
+the flexibility and power of the MATLAB signal processing and graphics
 environment.
 
 <u>Notes: </u>

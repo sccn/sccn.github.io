@@ -38,7 +38,7 @@ more definitive). Since our EEG dataset is fairly small, we choose to
 change this value to *100* (= all of the data). We will then visualize
 which components contribute the most at 10 Hz, entering *10* in the
 *Scalp map frequency* text box. We simply scan all components, the
-default in *Components to consider*. Press *OK*.
+default in *Components to consider*. Press *Ok*.
 
 
 
@@ -76,7 +76,7 @@ will be shown)
 - Set the maximum frequency to be plotted at
 *30* Hz using the *Plotting frequency range* option in the bottom panel
 (below). 
-- Press *OK* when done.
+- Press *Ok* when done.
 
 
 ![](/assets/images/Channelspectraedit1.gif)
@@ -91,7 +91,7 @@ x
 
 
 
-The following text is displayed on the Matlab command line:
+The following text is displayed on the MATLAB command line:
 
 ```matlab
     Component 1 percent variance accounted for: 3.07
@@ -129,7 +129,7 @@ ERP.
  
 A first step is to view the component ERPs. To Plot component ERPs,
 select <span style="color: brown">Plot → Component ERPs → In rectangular array</span>, which calls the [pop_plotdata.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_plotdata.m) function. Then
-press *OK*.
+press *Ok*.
 
 ![](/assets/images/Rectarrayedit.gif)
 
@@ -147,7 +147,7 @@ Click on the component-1 trace (above) to plot this trace in a new window
 To plot the contribution of component ERPs to the data ERP, select
 <span style="color: brown">Plot → Component ERPs → with component maps</span>,
 which calls the [pop_envtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_envtopo.m) function. 
-Simply press *OK* to plot the 7
+Simply press *Ok* to plot the 7
 components that contribute the most to the average ERP of the dataset.
 Note that artifactual components can be subtracted from the data before
 plotting the ERP using the *Indices of components to subtract ...* edit
@@ -265,7 +265,7 @@ To plot a component time-frequency transformwe select <span style="color: brown"
 (calling the [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) function) then:
 - Enter *1* for the *Component number* to plot
 - And *.05* for the *Bootstrap significance level* and check the *FDR correct* checkbox to correction for multiple comparison using the False Discovery Rate method 
-- Again, we press *OK*
+- Again, we press *Ok*
 
 Note: [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) decompositions using FFTs allow
 computation of lower frequencies than wavelets, since they compute as
@@ -292,14 +292,14 @@ Using EEGLAB, you may also plot a 3-D head plot of a component
 topography by selecting <span style="color: brown">Plot → Component maps → In
 3-D</span>. This calls the [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) function. The function may
 automatically use the spline file you have generated when plotting ERP
-3-D scalp maps. Select components *1, 2, 3, 4, 5* (below), set the *heaplot options* to " 'view', [0 90] " and press *OK*.
+3-D scalp maps. Select components *1, 2, 3, 4, 5* (below), set the *heaplot options* to " 'view', [0 90] " and press *Ok*.
 
 
 ![](/assets/images/3Dcomponentedit.gif)
 
 
 The [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) window below appears. You may use the
-Matlab rotate 3-D option to rotate these headplots. Else,
+MATLAB rotate 3-D option to rotate these headplots. Else,
 enter a different *view* angle in the window above.
 
 

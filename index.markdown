@@ -49,7 +49,7 @@ calculations used the DIPFIT plug in.
     [Download EEGLAB from GIT](/How_to_download_EEGLAB "wikilink")
     [Download a compiled version of
     EEGLAB](/A13:_Compiled_EEGLAB "wikilink")
-    [EEGLAB extensions/plug-ins](/EEGLAB_Extensions "wikilink")
+    [EEGLAB extensions/plugins](/EEGLAB_Extensions "wikilink")
     [EEGLAB revision history](/EEGLAB_revision_history "wikilink")
     [Bugs and Suggestions](/EEGLAB_Bugs "wikilink")
 
@@ -69,7 +69,7 @@ Other type of documentation are listed below.
     Fieldtrip](/EEGLAB_and_Fieldtrip "wikilink")
     [Running EEGLAB on open source
     Octave](/Running_EEGLAB_on_Octave "wikilink")
-    [EEGLAB on Matlab versus Python](/EEGLAB_and_python "wikilink")
+    [EEGLAB on MATLAB versus Python](/EEGLAB_and_python "wikilink")
     [NEW Running EEGLAB on high performance computing resources - The
     Open EEGLAB
     Portal](/EEGLAB_and_high_performance_computing "wikilink")
@@ -99,7 +99,7 @@ Other type of documentation are listed below.
 
   -
     [EEGLAB extensions and
-    plug-ins](/EEGLAB_Extensions_and_plug-ins "wikilink")
+    plugins](/EEGLAB_Extensions_and_plugins "wikilink")
     [get_chanlocs - record 3-D electrode positions quickly using a 3-D
     camera](http://sccn.ucsd.edu/wiki/Get_chanlocs)
     [HeadIT - Human Electrophysiology, Anatomic Data & Integrated

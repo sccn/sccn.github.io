@@ -9,14 +9,14 @@ Running EEGLAB on Octave <span style="color: green">- DONE</span>
 Why Octave?
 ---
 
-Matlab, although quite efficient,
+MATLAB, although quite efficient,
 can be expensive. 
 We have attempted to tackle this problem and, as of 2018, we are supporting Octave (command line calls only, no graphic support). In our
-tests, Octave is about 50% slower than Matlab, but this can easily be
+tests, Octave is about 50% slower than MATLAB, but this can easily be
 compensated by increasing the number of processors assigned to a
 specific processing task. Note that EEGLAB functions have not been
 parallelized (except for a few rare exceptions). Therefore, you are required
-to open a Octave/Matlab session on each node and run custom scripts you
+to open a Octave/MATLAB session on each node and run custom scripts you
 write to take advantage of your parallel processing capability.
 
 # Running EEGLAB on Octave
@@ -38,7 +38,7 @@ versions.
 
 Then start Octave. Some Octave modules need to be installed for EEGLAB
 to function properly. Octave needs to be started with the option
-<em>--traditional</em> to ensure maximal compatibility with Matlab. From
+<em>--traditional</em> to ensure maximal compatibility with MATLAB. From
 the command line, start Octave using:
 
 
@@ -76,21 +76,21 @@ Known issues with EEGLAB and Octave graphics compatibility
 
 All EEGLAB signal processing functions should run on Octave. Although
 [Octave](http://www.gnu.org/software/octave/) is relatively compatible
-with Matlab for functions purely performing computations, the Octave
+with MATLAB for functions purely performing computations, the Octave
 graphic rendering engine sometimes cannot render all EEGLAB graphics subtleties. In particular, we have encountered the following
 issues:
 
 
 
 -   EEGLAB interactive pop-up windows and the *eegplot.m* interactive data
-    scrolling function are not functional. Below, an example of head plot in Matlab
+    scrolling function are not functional. Below, an example of head plot in MATLAB
 (left) and Octave (right).
 ![](/assets/images/Octave_headplot.png)
 
 -   Head plots are missing a shadow property (see figure above right -
     facial feature shadowing is absent)
 -   Plug-ins need to be installed manually (downloaded as zip files and
-    uncompressed in the EEGLAB plugins folder). Most plug-ins (including
+    uncompressed in the EEGLAB plugins folder). Most plugins (including
     SIFT and LIMO) have not been tested on Octave and will likely not be
     functional. They could probably be made functional by their
     developers or by motivated users.
@@ -99,17 +99,17 @@ issues:
 
 As long as you are using EEGLAB command-line functions, all EEGLAB
 plotting functions should be functional. This includes all EEGLAB
-scripts that run on Matlab. If you have an EEGLAB script that does not
+scripts that run on MATLAB. If you have an EEGLAB script that does not
 run on Octave, please submit an EEGLAB [bug report](/others/EEGLAB_Bugs.html).
 Even some of the most complex EEGLAB plots can be rendered on Octave -
-for example, below, dipole plots in Matlab (left)
+for example, below, dipole plots in MATLAB (left)
 and Octave (right) match perfectly.
 
 
  ![dipole in matlab and octave](/assets/images/Eeglab_dipoles_matlab_octave.png)
 
 Octave is still actively evolving and might support EEGLAB's complete
-graphical environment in the future. Also, Matlab code can often be modified
+graphical environment in the future. Also, MATLAB code can often be modified
 to be more Octave compatible. 
 
 If you modify an interactive EEGLAB
@@ -122,11 +122,11 @@ information on how to contribute to EEGLAB.
 A simple example of running an EEGLAB script in Octave
 ----------------------------------------------
 
-As mentioned previously, any EEGLAB Matlab script should now run under
+As mentioned previously, any EEGLAB MATLAB script should now run under
 Octave.
 
 Below is a time-frequency decomposition plotted by Octave 4.4 for the
-EEGLAB tutorial dataset by the EEGLAB/Matlab code below. The plot below
+EEGLAB tutorial dataset by the EEGLAB/MATLAB code below. The plot below
 is provided for illustrative purposes only; we had to implement some
 minor changes to make the EEGLAB time-frequency function *newtimef.m*
 compatible with Octave (since the changes were also compatible with
@@ -145,7 +145,7 @@ newtimef(EEG.data(1,:,:), EEG.pnts, [-1000 2000], EEG.srate, [3 0.5]); % compute
 
 ![](/assets/images/Octave2.png)
 
-For comparison, below is the graphic output of *newtimef.m* run in Matlab.
+For comparison, below is the graphic output of *newtimef.m* run in MATLAB.
 
 ![600px\|EEGLAB newtimef output](/assets/images/Eeglab_newtimef2.png)
 

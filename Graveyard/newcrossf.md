@@ -19,7 +19,7 @@ components in your decomposition),
 *0.01*, 
 - set *padratio* to *16*. 
 
-We again press *OK*.
+We again press *Ok*.
 
 
 ![](/assets/images/Component_cross-coherence_gui.jpg)

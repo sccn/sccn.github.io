@@ -24,7 +24,7 @@ the toolbox distribution, the window below will pop up.
 Simply press *Yes*. A copy of *eeg_options.m* will be stored in the
 local directory and modified when you change any of the EEGLAB options.
 (Note: For EEGLAB to use this file, the current directory (.) must
-appear BEFORE the EEGLAB toolbox directory in the Matlab path; see
+appear BEFORE the EEGLAB toolbox directory in the MATLAB path; see
 *path()*). If the original *eeg_option.m* file is writable, EEGLAB will
 modify it instead.
 
@@ -32,9 +32,9 @@ modify it instead.
 If the original distribution copy of the options file is modified, the
 new options will affect all EEGLAB sessions using that file. 
 
-If, however, EEGLAB (or the user from the Matlab or shell commandline)
+If, however, EEGLAB (or the user from the MATLAB or shell commandline)
 copies the options file to the current working directory, then only
-EEGLAB sessions having this directory in their Matlab path (before the
+EEGLAB sessions having this directory in their MATLAB path (before the
 EEGLAB distribution directory) will follow the modified options. 
 
 It is
@@ -70,7 +70,7 @@ from disk. This also allow faster reading of data-set when they are part
 of a STUDY.
 
 
-- The third option [Claire's note: does it indeed still writes in Matlab7.5?]
+- The third option [Claire's note: does it indeed still writes in MATLAB7.5?]
 
 
 If the 3rd option is set, all the ICA activations (time courses of
@@ -91,7 +91,7 @@ However, unlike SPM which is used to process fMRI data, EEGLAB was not
 originally designed with this type of processing in mind. To be able to
 use all of the EEGLAB functions that use passage of parameters by value,
 we had to find a way to pass the data by reference, something that is
-usually not possible in Matlab. This means that we had to implement some
+usually not possible in MATLAB. This means that we had to implement some
 hacks. We have a series of test (about 40) that check that the hack
 functions are doing what they are supposed to do. However, it is hard to
 guarantee that this implementation is bug free especially since it is
@@ -131,12 +131,12 @@ performed in early version of EEGLAB. There is no reason to uncheck that
 option unless you want to preserve backward compatibility with early
 versions of EEGLAB.
 
-### Folder, Matlab toolboxes, and EEG connectivity and support options
+### Folder, MATLAB toolboxes, and EEG connectivity and support options
 
 - The folder option is used to remember folder when reading data-sets. 
 
 - The
-next option about using Matlab toolboxes allow to ignore such toolboxes
+next option about using MATLAB toolboxes allow to ignore such toolboxes
 even if they are present in the path. This may be useful when your
 university has reached its quota in terms of toolbox users. In this
 case, the extra toolbox functions exist in the path but you may not use
@@ -158,9 +158,7 @@ constants used by several functions. In this file, you may:
      TUTORIAL_URL = '<http://sccn.ucsd.edu/wiki/EEGLAB>'; % online version 
 
 -   Reference the fast binary version of the *runica()* ICA function
-    *ica* (see the [Binica  Tutorial](/Chapter_09:_Decomposing_Data_Using_ICA "wikilink")). This
-    requires another (recommended) download from the SCCN
-    [EEGLAB](http://sccn.ucsd.edu/eeglab/binica) site.
+    *ica* (see the [Binica repository](https://github.com/sccn/binica).
 
 > ICABINARY = 'ica_linux2.4'; % \<=INSERT name of ica executable for
 > binica.m

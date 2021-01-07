@@ -28,7 +28,7 @@ First, if you have a raw EEG data file, determine the file format (for files wit
 2. Use menu item <span style="color: brown">File → Using the File-IO interface</span>. EEGLAB might install the File-IO plugin if you do not have it installed already. If the function does not return an error, your file will be imported. File-IO is a Fieldtrip module that imports a variety of data formats. Refer to the [File-IO documentation](https://www.fieldtriptoolbox.org/development/module/fileio/) for more information. 
 
 3. Use menu item <span style="color: brown">File → Using the BIOSIG interface</span>. The Biosig toolbox ([biosig.sf.net](http://biosig.sf.net)) contains
-links to functions to read other EEG data formats in Matlab. EEGLAB might install the BIOSIG plugin if you do not have it installed already. If the function does not return an error, your file will be imported.
+links to functions to read other EEG data formats in MATLAB. EEGLAB might install the BIOSIG plugin if you do not have it installed already. If the function does not return an error, your file will be imported.
 
 4. Use menu item <span style="color: brown">File → Manage EEGLAB extensions</span> and search for plugins (use the magnifier on the top right corner). Use the name of the amplifier you are using, for example. Once the plugin is installed, call the newly created sub-menu item in <span style="color: brown">File → Using EEGLAB functions and plugins</span>.
 
@@ -37,7 +37,7 @@ In 90% of the cases, the solution above will import the EEG data file. If it doe
 Acquiring EEG data from within EEGLAB
 --------------------
 
-EEGLAB and LabStreamingLayer (LSL) are tightly tied as they both originated at the SCCN laboratory at UCSD. By installing the [*lsl_app_MatlabViewer*](https://github.com/labstreaminglayer/App-MATLABViewer/) extension, a menu item <span style="color: brown">File → Matlab LSL Viewer</span>, not only allows visualizing EEG LSL streams available on the network (Mac and Windows) but also to record them as EEGLAB .set data files. Note that this extension only allows recording one stream at a time. To fuse streams, record data as XDF using the LabRecorder python application, and import the XDF file in EEGLAB using the Mobilab plugin.
+EEGLAB and LabStreamingLayer (LSL) are tightly tied as they both originated at the SCCN laboratory at UCSD. By installing the [*lsl_app_MATLABViewer*](https://github.com/labstreaminglayer/App-MATLABViewer/) extension, a menu item <span style="color: brown">File → MATLAB LSL Viewer</span>, not only allows visualizing EEG LSL streams available on the network (Mac and Windows) but also to record them as EEGLAB .set data files. Note that this extension only allows recording one stream at a time. To fuse streams, record data as XDF using the LabRecorder python application, and import the XDF file in EEGLAB using the Mobilab plugin.
 
 List of supported Data Formats
 --------------------
@@ -51,11 +51,11 @@ Data import plugins and custom import
 
 ### Importing data using command line mexSload of BIOSIG
 
-Note that BIOSIG has separate C functions to import data. These functions can be interfaced in Matlab through the *mexSload* function. There is no graphic interface for that function. However, you may use the *mexSload* function to import data on the Matlab command line, and then use the documentation in the next section to import the Matlab array into EEGLAB.
+Note that BIOSIG has separate C functions to import data. These functions can be interfaced in MATLAB through the *mexSload* function. There is no graphic interface for that function. However, you may use the *mexSload* function to import data on the MATLAB command line, and then use the documentation in the next section to import the MATLAB array into EEGLAB.
 
-### Importing a Matlab array
+### Importing a MATLAB array
 
-We first construct a 2-D Matlab array 'eegdata' containing simulated EEG
+We first construct a 2-D MATLAB array 'eegdata' containing simulated EEG
 data in which rows are channels and columns are data points:
 
 ``` matlab
@@ -65,8 +65,8 @@ eegdata = rand(32, 256*100);
 
 
 To import these data, select the menu item <span style="color: brown">File →
-Import data → from ASCII/float file or Matlab array</span>. Click on option Matlab variable from the list and set the
-name to *eegdata*. Set the sampling frequency to 256 Hz, press *OK*. Other
+Import data → from ASCII/float file or MATLAB array</span>. Click on option MATLAB variable from the list and set the
+name to *eegdata*. Set the sampling frequency to 256 Hz, press *Ok*. Other
 dataset parameters will be automatically adjusted.
 
 
@@ -75,26 +75,26 @@ dataset parameters will be automatically adjusted.
 
 
 Note on importing data from other file formats: To import continuous
-data from a Matlab *.mat* file instead of a Matlab array, scroll the
-list of choices in the box above that shows Matlab *.mat* file.
+data from a MATLAB *.mat* file instead of a MATLAB array, scroll the
+list of choices in the box above that shows MATLAB *.mat* file.
 
-Note: When reading a Matlab *.mat* file, EEGLAB assumes it contains only
-one Matlab variable. For reading a (32-bit) binary float-format data
+Note: When reading a MATLAB *.mat* file, EEGLAB assumes it contains only
+one MATLAB variable. For reading a (32-bit) binary float-format data
 file, two choices are available: *float le* (little-endian) and *float
 be* (big-endian) The correct choice here depends on the operating system. In
 case the bit ordering is unknown, try each of them. Note that the
 toolbox command line function [shortread.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=shortread.m) can also be used
-to read data from a (16-bit) short-integer file. The resulting Matlab
+to read data from a (16-bit) short-integer file. The resulting MATLAB
 array may then be imported into EEGLAB, as shown above.
 
 Once the data is imported, refer to the [quickstart guide](/Tutorials/quickstart.html) to scroll the data.
 
-### Importing a file containing a Matlab structure
+### Importing a file containing a MATLAB structure
 
-Matlab files may have many different formats. They are simply containers
+MATLAB files may have many different formats. They are simply containers
 (like Excel files may contain data organized in many different ways in
-different tabs). EEGLAB cannot guess the Matlab file's internal format, so you need to do this step yourself. Matlab files are best
-imported on the Matlab command line
+different tabs). EEGLAB cannot guess the MATLAB file's internal format, so you need to do this step yourself. MATLAB files are best
+imported on the MATLAB command line
 
 ``` matlab
 mydata = load(‘-mat’, ‘your_file.mat’)
@@ -102,16 +102,16 @@ mydata = load(‘-mat’, ‘your_file.mat’)
 
 Then see where the data is in the “mydata” structure, for example 
 *mydata.eeg* might contain an array that contains raw EEG data (channels
-by samples). Put this data in a Matlab variable.
+by samples). Put this data in a MATLAB variable.
 
 ``` matlab
 myeeg = mydata.eeg; % This is an example, the name of the field "eeg" might differ for you
 ```
 
 Then select EEGLAB the <span style="color: brown">File → Import data →
-from ASCII/float file or Matlab array</span> menu item and enter “myeeg” in the
+from ASCII/float file or MATLAB array</span> menu item and enter “myeeg” in the
 first edit box (the previous section has more details on importing
-Matlab arrays).
+MATLAB arrays).
 
 ### Importing sets of data averages
 
@@ -125,14 +125,14 @@ be meaningful). To import grand-average epochs into EEGLAB, stack the different 
 a single array as explained below.
 
 First, the data averages for different conditions must be imported to
-Matlab. For example, one may export these averages in text format and
-then use the standard Matlab function
+MATLAB. For example, one may export these averages in text format and
+then use the standard MATLAB function
 
 ```matlab
 >> load -ascii filename.txt
 ```
 
-Note that to import ASCII files to Matlab, all column names and row
+Note that to import ASCII files to MATLAB, all column names and row
 names must be removed.
 
 Then you will need to concatenate data averages. For example, from a
@@ -142,7 +142,7 @@ stimulus onsets (Note that we always process each subject individually
 and then compare the results across subjects at the end of the
 analysis).
 
-For instance typing *>> whos* under Matlab might return:
+For instance typing *>> whos* under MATLAB might return:
 
 ``` matlab
 Name                       Size               Bytes                 Class
@@ -161,9 +161,9 @@ this example). Then concatenate the arrays.
 >> allcond = [ avgcond1 avgcond2 avgcond3 ];
 ```
 
-Finally, you will need to import concatenated data averages into EEGLAB as Matlab arrays.
+Finally, you will need to import concatenated data averages into EEGLAB as MATLAB arrays.
 Select menu item <span style="color: brown">File → Importing data → From
-ascii/float file or Matlab array</span> as shown in one of the previous sections.
+ascii/float file or MATLAB array</span> as shown in one of the previous sections.
 
 ### Other data formats
 

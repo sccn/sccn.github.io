@@ -33,8 +33,7 @@ Note that the behavior of EEGLAB will differ depending on your optional settings
 <span style="color: brown">File → Save memory</span>. 
 
 If you allow only one
-dataset to be present in memory at a time (see [Memory
-options](/A3:_Maximizing_Memory "wikilink") for more details), existing
+dataset to be present in memory at a time (see [dataset management](/tutorials/03_Dataset_management/datasets.html) for more details), existing
 datasets will be automatically overwritten *on disk*. 
 
 However, if you allow all datasets to be present in memory simultaneously, only the
@@ -68,7 +67,7 @@ item pops up the following interface.
 
 
 
-To resample all datasets at 125 Hz, enter 125 then *OK*. 
+To resample all datasets at 125 Hz, enter 125 then *Ok*. 
 
 If the current
 datasets have to be resaved to disk (because at most one dataset can be
@@ -100,12 +99,12 @@ For example, you may have several datasets time
 locked to different classes of events, constituting several experimental
 conditions per subject, all collected in the same session with the same
 electrode montage. 
-By default (leaving the lowest check-box checked), 
+By default (leaving the lowest checkbox checked), 
 [pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m)  will perform ICA decomposition on the
 concatenated data trials from these datasets, and will then attach the
 same ICA unmixing weights and sphere matrices to each dataset.
 Information about the datasets selected for concatenation will be
-provided on the Matlab command line before beginning the decomposition.
+provided on the MATLAB command line before beginning the decomposition.
 
 
 In some cases, concatenating epoched datasets representing multiple

@@ -24,7 +24,7 @@ We have a funded project to run EEGLAB on the San Diego supercomputer via the Ne
 
 Deep learning and EEGLAB
 ----
-Deep learning is popular and deep learning applied to EEG data is increasing at a rapid pace. We recommend using EEGLAB to prepare data for deep learning and machine learning. EEGLAB data epochs may be concatenated either in Matlab or Python (EEGLAB datasets may be read in Python using the *loadmat* function of the *scipy* librairy) and used as input for deep learning networks. In Matlab, assuming multiple datasets are loaded in EEGLAB with the same number of channels and the same number of samples per epochs, type:
+Deep learning is popular and deep learning applied to EEG data is increasing at a rapid pace. We recommend using EEGLAB to prepare data for deep learning and machine learning. EEGLAB data epochs may be concatenated either in MATLAB or Python (EEGLAB datasets may be read in Python using the *loadmat* function of the *scipy* librairy) and used as input for deep learning networks. In MATLAB, assuming multiple datasets are loaded in EEGLAB with the same number of channels and the same number of samples per epochs, type:
 
 ```matlab
 X = cat(3, ALLEEG.data); % concatenate trials
@@ -42,15 +42,15 @@ Running EEGLAB on GPUs (Graphic Processing Units)
 GPU-based processing is promising in MATLAB.
 The recent enthusiasm for using GPU (Graphical Processing Unit)
 computational capabilities led us to try the freely available GPU
-solution for Matlab. Computing using the GPU usually only involves
-recasting variables and requires minor changes to Matlab scripts or
+solution for MATLAB. Computing using the GPU usually only involves
+recasting variables and requires minor changes to MATLAB scripts or
 functions.
 
 One of our servers is a Quad Core Intel™ Xeon W3550 3.0GHz, 8M L3,
 4.8GT/s, Turbo and has a One nVidia GTX Titan (2688 CUDA cores),
-although it is unclear if Matlab uses all the CUDA cores (based on the
-Matlab message below). All the tests on this page compared the central
-processor with the GPU unit. When typing "gpuDevice" on the Matlab
+although it is unclear if MATLAB uses all the CUDA cores (based on the
+MATLAB message below). All the tests on this page compared the central
+processor with the GPU unit. When typing "gpuDevice" on the MATLAB
 command line, the following message appears
 
 ``` matlab
@@ -107,7 +107,7 @@ increase.
 
 ### Running non-parametric statistics on GPUs speeds up processing 50 times
 
-We modified the repeated-measures ANOVA function to be GPU compatible (all the Matlab GPU functions used here are made available at the bottom
+We modified the repeated-measures ANOVA function to be GPU compatible (all the MATLAB GPU functions used here are made available at the bottom
 of this page).
 
 ``` matlab
@@ -158,15 +158,15 @@ compatible with double-precision numbers, although we have not tested that
 solution.
 
 The EEGLAB-compatible GPU functions we tested are available
-[here](/media:Gpu_funcs2.zip "wikilink"). Note that these functions are
+[here](https://github.com/sccn/eeglab_gpu_func). Note that these functions are
 not fully functional (they only work under a limited set of conditions
 as tested above) and thus are only made available for exploratory
 testing purposes.
 
-What if Matlab is not available for my computing resource
+What if MATLAB is not available for my computing resource
 --------------------------------------------
 
-When it comes to using supercomputers or Singularity, Matlab, although quite efficient,
+When it comes to using supercomputers or Singularity, MATLAB, although quite efficient,
 may not be available (check with your local supercomputer, because it often is). As of 2019 (EEGLAB 2019), we are currently supporting Octave (v4.4.0) for supercomputing
 applications. You may refer to 
 this [page](/others/Running_EEGLAB_on_Octave) for how to use
@@ -196,7 +196,7 @@ in computer science is highly recommended.
     account](http://aws.amazon.com/). Hadoop will need to run in
     streaming mode, where the data is simply streamed to any executable.
     It might also be possible to run Hadoop in native Java mode and
-    compile Matlab code using the Java builder (this is
+    compile MATLAB code using the Java builder (this is
     more complex than using the streaming mode).
 
 -   Transfer your data to Amazon storage cloud (the Amazon storage cloud
@@ -223,10 +223,10 @@ in computer science is highly recommended.
     each of the nodes). The command to automatically install Octave on
     EC2 Amazon nodes is *sudo yum –y install octave --enablerepo=epel*
 
-    Hadoop communicates with workers through STDIN and STDOUT pipes. For your main Matlab script, you might want to add the following
+    Hadoop communicates with workers through STDIN and STDOUT pipes. For your main MATLAB script, you might want to add the following
     at the beginning of the main script. This will make it executable and
     will allow it to process data on STDIN. You may
-    write the output of your data processing using the *printf* or *disp* Matlab
+    write the output of your data processing using the *printf* or *disp* MATLAB
     commands. 
 
     ``` matlab
@@ -234,18 +234,18 @@ in computer science is highly recommended.
     Q = fread(stdin); %Standard Octave / MATLAB code from here on
     ```
 
--   Solution 2, compiling Matlab code. Compiling Matlab code is the most
-    efficient solution as Matlab compiled code is often 2 to 4 times
-    faster than Octave code, and compiled code does not require a Matlab
-    license. If you compile Matlab code on your local Unix workstation,
+-   Solution 2, compiling MATLAB code. Compiling MATLAB code is the most
+    efficient solution as MATLAB compiled code is often 2 to 4 times
+    faster than Octave code, and compiled code does not require a MATLAB
+    license. If you compile MATLAB code on your local Unix workstation,
     you will need to make sure to use an Amazon AMI (virtual machine
     image) with the same set of libraries so that your code can run on
     that machine. You will need to pick an AMI that is compatible with
-    Hadoop as well. Also, Matlab does not have a simple mechanism
+    Hadoop as well. Also, MATLAB does not have a simple mechanism
     allowing it to read from STDIN. The easiest solution is to use third-party compiled Mex files to do so (for example, see
     [popen](http://www.mathworks.com/matlabcentral/fileexchange/13851-popen-read-and-write)).
     Another solution is to have a shell command write STDIN on disk,
-    then call the Matlab executable (although this might impair
+    then call the MATLAB executable (although this might impair
     performance).
 
 -   Reduce step: once all the workers have computed what they had to
@@ -270,7 +270,7 @@ in computer science is highly recommended.
 takes data from STDIN and writes to STDOUT. The reduce step will usually
 not require to run EEGLAB commands. It is simply about pooling data from
 the workers and summarizing it. In this case, we used a Python custom
-program, but it could have also been Octave/Matlab since
+program, but it could have also been Octave/MATLAB since
 Octave is installed on each of the workers. The exact content of your
 code will depend on what task you are interested in doing.
 

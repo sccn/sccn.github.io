@@ -46,7 +46,7 @@ available event types.
 
 
 Here, choose event type *square* (onsets of square target stimuli in
-this experiment), and press *OK*. You may also type in the selected
+this experiment), and press *Ok*. You may also type in the selected
 event type directly in the upper text box of the [pop_epoch.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_epoch.m) window.
 
 
@@ -55,9 +55,9 @@ event type directly in the upper text box of the [pop_epoch.m](http://sccn.ucsd.
 
 Here, retain the default epoch limits (from 1 sec before to 2 sec
 after the time-locking event). If you wish, add a descriptive name for
-the new dataset. Then press *OK*. A new window will pop up offering
+the new dataset. Then press *Ok*. A new window will pop up offering
 another chance to change the dataset name and/or save the dataset to a
-disk file. Accept the defaults and enter *OK*.
+disk file. Accept the defaults and enter *Ok*.
 
 Another window will then pop up to facilitate removal of meaningless
 epoch baseline offsets. This operation is discussed in the next
@@ -102,11 +102,11 @@ specified while editing channel
 information), or manually
 select them. Click on the '...' push buttons to see the list of
 available types/channels for selection.
-Press *OK* to subtract the baseline (or *Cancel* to not remove the
+Press *Ok* to subtract the baseline (or *Cancel* to not remove the
 baseline).
 
 A new window will pop up to change the dataset name and/or save the dataset to a
-disk file. Accept the defaults and enter *OK*.
+disk file. Accept the defaults and enter *Ok*.
 
 Extracting sub-epochs
 ---------
@@ -130,7 +130,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 <span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data_epochs_ica.set" located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
 The simplest way to remove data epochs is by selecting epoch indices. 
-This is done using the function [pop_select.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_select.m) called by selecting <span style="color: brown">Edit → Select data</span>. The example below select epochs 1 to 10  (1:10 is Matlab notation to indicate 1, 2, 3, 4, 5, 6, 7, 8, 9, 10).
+This is done using the function [pop_select.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_select.m) called by selecting <span style="color: brown">Edit → Select data</span>. The example below select epochs 1 to 10  (1:10 is MATLAB notation to indicate 1, 2, 3, 4, 5, 6, 7, 8, 9, 10).
 
 ![Image:pop_select_epochs.png](/assets/images/pop_select_epochs.png)
 
@@ -154,5 +154,5 @@ The confirmation window below appears. Press *Ok*.
 
 ![Image:confirm_epoch.png](/assets/images/confirm_epoch.png)
 
-Now a [pop_newset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newset.m) window for saving the new dataset pops up. We name this new dataset "Square, Position 1" and press *OK*.
+Now a [pop_newset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newset.m) window for saving the new dataset pops up. We name this new dataset "Square, Position 1" and press *Ok*.
 

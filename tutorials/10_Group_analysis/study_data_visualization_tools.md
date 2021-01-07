@@ -29,7 +29,7 @@ did not contain animal images. Subjects responded with a button press
 whenever the picture presented contained an animal (go/no-go paradigm). These data are
 available for download [here](https://sccn.ucsd.edu/eeglab/download/animal_study.zip)
 (443 Mb). A complete description of the task, the raw data (4Gb), and
-some Matlab files to process it are all available on 
+some MATLAB files to process it are all available on 
 [openneuro.org](https://openneuro.org/datasets/ds002680).
 
 Select menu item <span style="color: brown">File</span> and press sub-menu item <span style="color: brown">Load existing study</span>. Select the tutorial file "animal.study" then press *Open*.

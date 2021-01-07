@@ -21,7 +21,7 @@ Overview
 The 14th EEGLAB Workshop took place from Thursday, September 22 through
 Sunday, September 25, 2011 on the Spanish island of Mallorca preceding
 ICON XI. Participants in the first two parts of the Workshop were
-expected to bring laptops with Matlab installed so as to be able to
+expected to bring laptops with MATLAB installed so as to be able to
 participate in the practical sessions. The workshops consisted of three
 parts:
 
@@ -60,7 +60,7 @@ I. Novice EEGLAB Workshop -- Thursday, Sept. 22
 
 This workshop is designed for researchers who would like to learn how to
 process their EEG or related datasets using the ICA, time/frequency, and
-other tools provided in the EEGLAB software environment for Matlab
+other tools provided in the EEGLAB software environment for MATLAB
 (http://sccn.ucsd.edu/eeglab). The workshop instructor will be Julie
 Onton, Ph.D., long-time EEGLAB user and SCCN laboratory member. Scott
 Makeig, Director of the Swartz Center for Computational Neuroscience,
@@ -76,7 +76,7 @@ Novice workshop topics will include:
 
 • Equivalent dipole source localization of independent components
 
-• Introduction to Matlab scripting using EEGLAB structure
+• Introduction to MATLAB scripting using EEGLAB structure
 
 Note: Because of time limitations, the Novice workshop will NOT
 include:
@@ -127,10 +127,10 @@ below).
 <!-- -->
 
 
-<span style="color: red">13:30 -- 14:30 -- EEGLAB 'EEG' structure and basic Matlab scripting [(PDF)](https://sccn.ucsd.edu/githubwiki/files/4_basic_scripting.pdf)</span>
+<span style="color: red">13:30 -- 14:30 -- EEGLAB 'EEG' structure and basic MATLAB scripting [(PDF)](https://sccn.ucsd.edu/githubwiki/files/4_basic_scripting.pdf)</span>
 
 
-<span style="color: darkblue">‘EEG’ structure overview - ‘EEG’ structure overview - Search EEG.event structure - Matlab functions - Converting from ‘pop’ functions to output functions</span>
+<span style="color: darkblue">‘EEG’ structure overview - ‘EEG’ structure overview - Search EEG.event structure - MATLAB functions - Converting from ‘pop’ functions to output functions</span>
 
 <!-- -->
 
@@ -168,14 +168,14 @@ II. Advanced EEGLAB Workshop -- Friday-Sunday, Sept. 23-25
 
 This 2.5-day workshop will focus on emerging computational methods for
 EEG/ECoG analysis that have recently been made available within the
-EEGLAB environment as plug-in toolboxes. The lectures and practica will
+EEGLAB environment as plugin toolboxes. The lectures and practica will
 be more technically advanced than previous EEGLAB workshops.
 Participants will be expected to have at least passing familiarity with
 concepts such as linear regression, matrix inversion and other basic
 linear algebraic operations, Fourier transforms, and basic probability
 theory.
 
-In addition, participants should be comfortable with using Matlab
+In addition, participants should be comfortable with using MATLAB
 including performing the following operations using EEGLAB:
 • Performing ICA decompositions and evaluating ICA component
 
@@ -201,7 +201,7 @@ causality
 
 • Forward and inverse modeling for EEG/ECoG source localization
 
-Participants are expected to bring a laptop with Matlab and EEGLAB
+Participants are expected to bring a laptop with MATLAB and EEGLAB
 installed to work on (detailed instructions will be sent out before the
 workshop). Pairs of participants may also choose to share a laptop.
 

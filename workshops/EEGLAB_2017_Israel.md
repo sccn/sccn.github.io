@@ -15,7 +15,7 @@ Twenty-sixth EEGLAB Workshop
 15-18, 2017</span>
 The 26th EEGLAB Workshop will take place from Sunday, October 15th
 through Friday, October 18th at Ben-Gurion University/ Beer-Sheva.
-Participants will be expected to bring laptops with Matlab installed so
+Participants will be expected to bring laptops with MATLAB installed so
 as to be able to participate in the practical sessions. The tutorial
 workshop will introduce and demonstrate the use of the EEGLAB software
 environment and EEGLAB-linked tools for performing advanced analysis of
@@ -128,7 +128,7 @@ Workshop Program (with corresponding PDFs)
 **General Linear Modeling**
 
 
-<span style="color: orange">10:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/limo_israel_2017.pdf)
+<span style="color: orange">10:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/limo_israel_2017.pdf)
 
 <span style="color: orange">12:00 – 12:30 -- Scripting in EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/israel_scripting.pdf)([Oddball_file.bdf](https://sccn.ucsd.edu/githubwiki/files/oddball_file.zip))
 <!-- -->

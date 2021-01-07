@@ -41,7 +41,7 @@ Select menu item <span style="color: brown">File</span> and press sub-menu item
 
 In theory, you should go through rejecting bad channels and bad portions of data before running ICA. However, the tutorial dataset is clean enough for running ICA without prior artifact rejection.
 
-This dataset already contains channel locations. However, when working with a dataset that does not have channel locations, select the <span style="color: brown">Edit → Channel locations</span> menu item and press *OK* to look up channel locations based on channel labels, then close the channel editor.
+This dataset already contains channel locations. However, when working with a dataset that does not have channel locations, select the <span style="color: brown">Edit → Channel locations</span> menu item and press *Ok* to look up channel locations based on channel labels, then close the channel editor.
 
 ### Run ICA
 
@@ -49,7 +49,7 @@ To compute ICA components of a dataset of EEG epochs (or of a continuous
 EEGLAB dataset), select <span style="color: brown">Tools →  Decompose data by ICA</span>. 
 This
 calls the function [pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m). To run ICA using the default options,
-simply press *OK*.
+simply press *Ok*.
 
 
 ![](/assets/images/Runica.gif)
@@ -61,9 +61,9 @@ We detail each entry of this GUI in detail below.
 ### Which ICA Algorithm?
 
 EEGLAB allows users to try
-different ICA decomposition algorithms.  Infomax ICA using [runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=runica.m), Jader algorithm using [jader.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=jader.m), and the SOBI algorithm using the [sobi.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=sobi.m) are all part of the default EEGLAB distribution. Other options available in the dropdown list of algorithms are a modified version of SOBI for data epochs ([acsobiro.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=acsobiro.m)), and [binica.m](https://github.com/sccn/binica) which is a compiled C-version of Infomax (as opposed to the Matlab [runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=runica.m) version).
+different ICA decomposition algorithms.  Infomax ICA using [runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=runica.m), Jader algorithm using [jader.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=jader.m), and the SOBI algorithm using the [sobi.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=sobi.m) are all part of the default EEGLAB distribution. Other options available in the dropdown list of algorithms are a modified version of SOBI for data epochs ([acsobiro.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=acsobiro.m)), and [binica.m](https://github.com/sccn/binica) which is a compiled C-version of Infomax (as opposed to the MATLAB [runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=runica.m) version).
 
-To use the FastICA algorithm, one must install the [FastICA toolbox](http://www.cis.hut.fi/projects/ica/fastica/) and include it in the Matlab path. You may also install the [ICALAB](http://bsp.teithe.gr/members/downloads/ICALABSignal.html) distribution, which contains other algorithms, or install the [Picard](https://github.com/pierreablin/picard) EEGLAB plugin, a version of Infomax implementing Newton optimization. ICA algorithms installed with these tools will automatically appear in the dropdown list of available ICA algorithms  in the previous section's graphic interface.
+To use the FastICA algorithm, one must install the [FastICA toolbox](http://www.cis.hut.fi/projects/ica/fastica/) and include it in the MATLAB path. You may also install the [ICALAB](http://bsp.teithe.gr/members/downloads/ICALABSignal.html) distribution, which contains other algorithms, or install the [Picard](https://github.com/pierreablin/picard) EEGLAB plugin, a version of Infomax implementing Newton optimization. ICA algorithms installed with these tools will automatically appear in the dropdown list of available ICA algorithms  in the previous section's graphic interface.
 
 You may install the [Amica](https://github.com/japalmer29/amica) and [postAmicaUtility](https://github.com/sccn/postAmicaUtility) plugins to use Amica in EEGLAB. By contrast with other ICA algorithms, Amica does not use the standard ICA interface and creates its own sets of menus.
 
@@ -94,7 +94,7 @@ types.
 
 ### Command-line output
 
-Running *runica.m* produces the following text on the Matlab command line:
+Running *runica.m* produces the following text on the MATLAB command line:
 
         Input data size [32,30720] = 32 channels, 30720 frames.
         Finding 32 ICA components using logistic ICA.
@@ -179,7 +179,7 @@ Plotting 2-D Component Scalp Maps
 ----------------------------------
 
 To plot 2-D scalp component maps, select <span style="color: brown"> Plot → Component maps → In 2-D</span>. The interactive window (below) is then
-produced by function [pop_topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m). Simply press *OK* to plot
+produced by function [pop_topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_topoplot.m). Simply press *Ok* to plot
 all components.
 
 *Note:* This may take several figures, depending on the number of channels and
@@ -268,7 +268,7 @@ toggle it into a red <span style="color: red"> *Reject*</span> button (note: at
 this point, components are only marked for rejection; to subtract marked
 components, see the section of this page on *Subtracting ICA components from data*. 
 Now press
-*OK* to go back to the main component property window.
+*Ok* to go back to the main component property window.
 
 Another artifact example in our decomposition is component 32, which
 appears to be a typical muscle artifact component. This component is
@@ -328,7 +328,7 @@ ICA decompositions are notably higher quality (less ambiguous components) when t
 2.  Filter the data at 1Hz or 2Hz to obtain dataset 2
 3.  Run ICA on dataset 2
 4.  Apply the resulting ICA weights to dataset 1. To copy ICA weights and sphere information from
-    dataset 1 to 2: First, call the <span style="color: brown">Edit → Dataset info</span> menu item for dataset 1. Then enter *ALLEEG(2).icaweights* in the *ICA weight array ...* edit box, *ALLEEG(2).icasphere* in the *ICA sphere array ...* edit box, and press *OK*.
+    dataset 1 to 2: First, call the <span style="color: brown">Edit → Dataset info</span> menu item for dataset 1. Then enter *ALLEEG(2).icaweights* in the *ICA weight array ...* edit box, *ALLEEG(2).icasphere* in the *ICA sphere array ...* edit box, and press *Ok*.
 
 ICA components can be considered as spatial filters, and it is perfectly valid to use these spatial filters on the original unfiltered data. The only limitation is that since strong artifacts affect low-frequency bands filtered out before using ICA, they may not be removed by ICA. In practice, we have never found this to be a problem because artifactual processes that contaminate the data below 2 Hz also tend to contaminate the data above 2 Hz.
 
@@ -341,7 +341,7 @@ With a low-quality ICA decomposition, you can try filtering the data as indicate
 2.  Aggressively clean dataset either manually or using the automated tools provided in EEGLAB to obtain dataset 2
 3.  Run ICA on dataset 2
 4.  Apply the resulting ICA weights to dataset 1. To copy ICA weights and sphere information from
-    dataset 1 to 2: First, call the <span style="color: brown">Edit → Dataset info</span> menu item for dataset 1. Then enter *ALLEEG(2).icaweights* in the *ICA weight array ...* edit box, *ALLEEG(2).icasphere* in the *ICA sphere array ...* edit box, and press *OK*.
+    dataset 1 to 2: First, call the <span style="color: brown">Edit → Dataset info</span> menu item for dataset 1. Then enter *ALLEEG(2).icaweights* in the *ICA weight array ...* edit box, *ALLEEG(2).icasphere* in the *ICA sphere array ...* edit box, and press *Ok*.
 
 As mentioned previously, ICA components can be considered as spatial filters, and it is perfectly valid to use these spatial filters on the original unfiltered data. One limitation of this approach is that the quality of ICA decompositions depends on the quantity of EEG data provided as input. Reducing the amount of data could decrease the overall quality of an ICA decomposition.
 
@@ -391,10 +391,10 @@ If the rank of the data is lower than the number of channels, the EEGLAB
 <em>pop_runica()</em> function should detect it and uses different strategies to do so.
 
 However, rank
-calculations in Matlab are imprecise, especially since raw EEG data is
+calculations in MATLAB are imprecise, especially since raw EEG data is
 stored as a single-precision matrix. Thus, there are some cases in which the rank
 reduction arising from using average reference is not detected. In this
-case, the user should manually reduce the number of components. If the ICA decomposition does not look "right" (with the types of components shown on this page), check on the Matlab command line that EEGLAB reduced the number of dimensions. If this is not the case, you can fix this manually.
+case, the user should manually reduce the number of components. If the ICA decomposition does not look "right" (with the types of components shown on this page), check on the MATLAB command line that EEGLAB reduced the number of dimensions. If this is not the case, you can fix this manually.
 
 For example, when using 64 channels, enter "'pca', 63" in the option
 edit box. If you do not do this, the activity of one of the
@@ -429,23 +429,23 @@ time should not be after the start time of the next epoch.
 Automated detection of artifactual ICA components
 ==========================
 
-The <a href="https://github.com/sccn/ICLabel">ICLabel</a>  plug-in of Luca Pion-Tonachini is an EEGLAB plugin installed by default with EEGLAB, which provides an estimation of the type of each
+The <a href="https://github.com/sccn/ICLabel">ICLabel</a>  plugin of Luca Pion-Tonachini is an EEGLAB plugin installed by default with EEGLAB, which provides an estimation of the type of each
 of the independent components (brain, eye, muscle, line noise, etc.). The ICLabel project's goal was to develop an EEG IC classifier that is reliable and accurate enough to use in large-scale studies. The current classifier implementation is trained on thousands of manually labeled ICs and hundreds of thousands of unlabeled ICs. More information may be found in the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6592775/">ICLabel reference article</a>. The <a href="http://labeling.ucsd.edu/tutorial/about">ICLabel website</a>  also allows you to train to recognize components and compare your performance with experts. Note that ICLabel is one of many such EEGLAB plugins that can automatically find artifactual ICA components. Other plugins or toolboxes worth checking for automatically labeling ICA components are MARA, FASTER, SASICA, ADUST, and IC_MARK. 
 
 Once you have run ICA, select menu item <span style="color: brown">Tools → Classify components using ICLabel → Label components</span>. Simply select the default and press OK.
 
 ![](/assets/images/iclabel1.png)
 
-A second window will pop up and ask to plot components. Simply press *OK*.
+A second window will pop up and ask to plot components. Simply press *Ok*.
 
 ![](/assets/images/iclabel2.png)
 
 Clicking on a component will pop up a
 window with an expanded set of component property measures, as well as
 the estimated probabilities of each component being of each type.
-IC components will be plotted along with the category they most likely belong to and the likelihood of belonging to that category. Press *OK* when done.
+IC components will be plotted along with the category they most likely belong to and the likelihood of belonging to that category. Press *Ok* when done.
 
-Note that the probability that a component belongs to a given categogy is also available on the Matlab command line. There are six categories of components <i>Brain</i>, <i>Muscle</i>, <i>Eye</i>, <i>Heart</i>, <i>Line Noise</i>, <i>Channel Noise</i>, and <i>Other</i>. By typing the following command on the Matlab prompt, you can see the probability for each of the first ten components (rows) to belong to one of the component categories (columns):
+Note that the probability that a component belongs to a given categogy is also available on the MATLAB command line. There are six categories of components <i>Brain</i>, <i>Muscle</i>, <i>Eye</i>, <i>Heart</i>, <i>Line Noise</i>, <i>Channel Noise</i>, and <i>Other</i>. By typing the following command on the MATLAB prompt, you can see the probability for each of the first ten components (rows) to belong to one of the component categories (columns):
 
 ``` matlab
 >>  round(EEG.etc.ic_classification.ICLabel.classifications(1:10,:)*100)
@@ -494,7 +494,7 @@ You may press *Yes* or select the *Manual rej* button to manually edit the list 
 
 ![](/assets/images/pop_subcomp.png)
 
-Enter the component numbers you wish to reject (in this case, we will leave component 3) and press *OK*. Note that component 3 might not be an eye blink artifact in your case. Since your ICA decomposition might be slightly different, you will need to select manually (or using the automated detection of artifactual ICA components) the corresponding component. A window will pop up, asking if you want to compare the data before and after rejecting components, as shown below.
+Enter the component numbers you wish to reject (in this case, we will leave component 3) and press *Ok*. Note that component 3 might not be an eye blink artifact in your case. Since your ICA decomposition might be slightly different, you will need to select manually (or using the automated detection of artifactual ICA components) the corresponding component. A window will pop up, asking if you want to compare the data before and after rejecting components, as shown below.
 
 ![](/assets/images/pop_selectcomp22.png)
 
@@ -513,6 +513,6 @@ to the one below, plotting channel ERP before (in blue) and after
 ![](/assets/images/pop_selectcomp24.png)
 
 Once you are satisfied with the result, press the *Accept* button in the query window. Another window will pop up asking you if you want to rename
-the new data set. Give it a name and again press *OK*.
+the new data set. Give it a name and again press *Ok*.
 
 In the rest of this tutorial, after running ICA, we pursue with retaining all components, so you can appreciate the contribution of artifactual components to ERPs. 

@@ -19,7 +19,7 @@ state of Karnataka, India (about 4 hour train ride from Bangalore
 International Airport). The event is organized by the All India
 Institute of Speech and Hearing under the sponsorships of a public grant
 from the Indo-US Science and Technology Forum. Participants will be
-expected to bring laptops with Matlab installed so as to be able to
+expected to bring laptops with MATLAB installed so as to be able to
 participate in the practical sessions. The tutorial workshop will
 introduce and demonstrate the use of the EEGLAB software environment and
 EEGLAB-linked tools for performing advanced analysis of EEG and related
@@ -152,7 +152,7 @@ Preliminary Workshop Program (PDFs will be updated)
 **General Linear Modeling**
 
 
-<span style="color: orange">11:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_limo_2017.pdf)
+<span style="color: orange">11:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_limo_2017.pdf)
 
 <span style="color: purple">12:00 – 13:00 -- Source information flow and Granger-Causal modeling tools (John Iversen )</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_india_jri_connectivity.pdf)
 <!-- -->

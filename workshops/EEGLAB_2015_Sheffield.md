@@ -29,7 +29,7 @@ present some of their recent EEG work and to receive feedback from their
 colleagues. Registrants will be contacted by the workshop organiser with
 further details of the poster session.
 
-Participants are expected to bring laptops with Matlab installed so as
+Participants are expected to bring laptops with MATLAB installed so as
 to be able to participate in the practical sessions. The workshop will
 introduce and demonstrate the use of EEGLAB and EEGLAB extension tools
 for performing analysis of EEG and related data, with detailed method
@@ -37,10 +37,10 @@ expositions and practical exercises. There will be an opportunity for
 delegates to present some of their EEG work during a poster session.
 
 '''NOTE: The workshop will be fairly technical, some sessions requiring
-basic Matlab programming skills. Therefore this workshop might not be
+basic MATLAB programming skills. Therefore this workshop might not be
 suited for people who are just beginning EEG research with quite limited
 knowledge of it, nor for those arriving with no experience at all with
-Matlab. Rather, the intended attendees are those performing EEG research
+MATLAB. Rather, the intended attendees are those performing EEG research
 who want to learn to perform more flexible and in-depth analysis methods
 using EEGLAB. '''
 
@@ -183,7 +183,7 @@ Workshop Preliminary Program
 
 
 
-<span style="color: orange">14:00 – 15:45 EEGLAB basic and custom scripting (John Iversen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2015_sheffield_jri_basicscripting.pdf), [Code](/https://drive.google.com/file/d/0B2myolm32zgoN1poeFNDUzN4RjA/view?usp=sharing "wikilink")
+<span style="color: orange">14:00 – 15:45 EEGLAB basic and custom scripting (John Iversen)</span>
 
 <!-- -->
 

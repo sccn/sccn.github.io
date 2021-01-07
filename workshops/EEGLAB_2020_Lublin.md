@@ -31,7 +31,7 @@ The 31st EEGLAB Workshop will take place at [the John Paul II Catholic
 University of Lublin](https://www.kul.pl/kul,21.html) in
 [Lublin](https://en.wikipedia.org/wiki/Lublin), Poland, about 3 hour by
 train from Warsaw. Participants will be expected to bring laptops with
-Matlab installed so as to be able to participate in the practical
+MATLAB installed so as to be able to participate in the practical
 sessions. The tutorial workshop will introduce and demonstrate the use
 of the EEGLAB software environment and EEGLAB-linked tools for
 performing advanced analysis of EEG and related data, with detailed
@@ -75,14 +75,14 @@ more](http://eeglab2020lublin.com/publication-opportunities/). For more
 information, contact Dariusz Zapała at d.zapala@gmail.com .
 
 <b>Warning: </b> This workshop is <em>not</em> aimed for real beginners
-in EEG and Matlab - such persons would be wasting much of their time.
+in EEG and MATLAB - such persons would be wasting much of their time.
 Some parts of the workshop are fairly technical. The main topics will be
 advanced methods for analyzing EEG and allied behavioral data, methods
 including spectral decomposition, independent component analysis,
 inverse source analysis, information flow, etc.. Some other parts of the
-workshop will require basic Matlab scripting capabilities. Some basic
-web resources for learning Matlab are discussed below. Beginners may
-also gain experience using Matlab by applying the steps discussed in the
+workshop will require basic MATLAB scripting capabilities. Some basic
+web resources for learning MATLAB are discussed below. Beginners may
+also gain experience using MATLAB by applying the steps discussed in the
 EEGLAB wiki tutorial to the sample dataset which you can freely
 download.
 
@@ -105,10 +105,10 @@ MATLAB tutorial
 ----------------
 
 *IMPORTANT NOTE:* A portion of the workshop will be dedicated to writing EEGLAB scripts -- Not being able
-to understand Matlab syntax will mean you will miss out on a large
+to understand MATLAB syntax will mean you will miss out on a large
 portion of the workshop.
 
-If you are new to Matlab or need a refresher please consult the material on the [Getting started with Matlab page](/workshops/tutorial_matlab)
+If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/workshops/tutorial_matlab)
 
 
 MATLAB support
@@ -131,7 +131,7 @@ Workshop Program (with corresponding PDFs)
 <b>Material for the working (including EEGLAB) will be made available on
 USB keys during the workshop.</b> Presentation slides will be made
 available during the workshop. You only need to bring to the workshop a
-laptop with Matlab installed.
+laptop with MATLAB installed.
 
 
 <span style="color: purple">Purple lettering = lecture</span>
@@ -238,7 +238,7 @@ laptop with Matlab installed.
 
 **General Linear Modeling**
 
-- <span style="color: orange">15:30 – 17:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (TBD)</span>
+- <span style="color: orange">15:30 – 17:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (TBD)</span>
 
 <u><span style="color: blue">Friday, June 19th</span></u>
 

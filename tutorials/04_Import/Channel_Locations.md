@@ -62,14 +62,14 @@ You may choose between several templates. If you intend to perform
 source localization, we strongly suggest that you select the second
 option, "Use MNI coordinates for the BEM Dipfit model" (the first set
 of 'BESA' coordinates was designed for a spherical BESA head model,
-now obsolete). Press *OK*.
+now obsolete). Press *Ok*.
 
 ![](/assets/images/Gui_pop_chanedit2.jpg)
 
 ### Command-line channel location look up example
 
 Below, we will build a channel structure using channel labels only,
-then will call the channel editing window. In the Matlab command window,
+then will call the channel editing window. In the MATLAB command window,
 type:
 
 ```matlab
@@ -94,7 +94,7 @@ If you do not specify
 the file format, the [pop_chanedit.m]() function will attempt
 to use the filename extension to assess its format. Press the button
 *Read locs help* in the main channel graphic interface window to view
-the supported formats. In the next pop-up window, simply press *OK*. 
+the supported formats. In the next pop-up window, simply press *Ok*. 
 
 ![](/assets/images/Chanedit_fileformat_gui.jpg)
 
@@ -108,7 +108,7 @@ The *Set channel type* button allows you to enter a *channel type*
 associated with the channel (for example, 'EEG', 'MEG', 'EMG', 'ECG',
 'Events', etc.). Other EEGLAB functions may use channel types to restrict plotting and computation to a desired subset of channel types, allowing easier analysis of multi-modal datasets. Therefore, it is well
 worth the effort to add channel types to your data. It is essential to
-press *OK* in the channel editing window above to actually import the
+press *Ok* in the channel editing window above to actually import the
 channel locations. Note that in the main EEGLAB window, the *channel location* flag now shows *yes*.
 
 Viewing Channel Locations
@@ -200,11 +200,11 @@ Supported data formats are described in the help message of the [readlocs.m](htt
 
 - '.loc', '.locs', '.eloc' file extensions: EEGLAB polar coordinate files
 - '.ced' extension: EEGLAB files containing polar, cartesian, and spherical coordinates
-- '.sph' extension: Matlab spherical coordinates
+- '.sph' extension: MATLAB spherical coordinates
 - '.elc' extension: Cartesian 3-D electrode coordinates scanned using the EETrak software. 
 - '.elp' extension: Polhemus-.'elp' Cartesian coordinates
 - '.elp' extension: BESA-'.elp' spherical coordinates
-- '.xyz' extension: Matlab/EEGLAB Cartesian coordinates
+- '.xyz' extension: MATLAB/EEGLAB Cartesian coordinates
 - '.asc' and '.dat' extensions: Neuroscan-.'asc' or '.dat' Cartesian polar coordinates text file.
 - '.mat' extension: Brainstrom channel location file.
 - '.sfp' extension: BESA/EGI-xyz Cartesian coordinates
@@ -373,7 +373,7 @@ This section does not use the tutorial dataset. It intents to provide
 guidelines for importing channel locations measured in Cartesian
 coordinates using 3-D tracking devices (such as Polhemus). Use the
 EEGLAB menu <span style="color: brown">Edit → Channel location</span> or type
-the following command on the Matlab command line:
+the following command on the MATLAB command line:
 
 ```matlab
 pop_chanedit([]);
@@ -405,7 +405,7 @@ Possibly, some of the channels should not be included in the head center
 optimization if they are not on the head and/or do not have recorded
 locations. Enter electrodes indices to use (here, 1:3 33 35 64:72) in
 the edit window. You may also press the *Browse* button above to select
-channels that are not on the head. When you press *OK* in the browser
+channels that are not on the head. When you press *Ok* in the browser
 window, the channel indices will be copied, as shown in the window
 above. Then press *Ok*. After the optimization has finished, press the
 *Plot 2-D* button once more.
@@ -419,7 +419,7 @@ will pop up:
 
 ![Image:Forcelocs.gif](/assets/images/Forcelocs.gif)
 
-Simply press *OK* to align channel 'Cz' to the vertex (by default). Then
+Simply press *Ok* to align channel 'Cz' to the vertex (by default). Then
 press the *Plot 2-D* button once more to plot the scalp map again.
 
 ![Image:Scanlocs3.gif](/assets/images/Scanlocs3.gif)

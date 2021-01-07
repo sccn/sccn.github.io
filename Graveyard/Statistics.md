@@ -29,7 +29,7 @@ new TFCE method (see end of this page). So in LIMO, H1 bootstrap is used
 to provide confidence intervals around the effects, mostly for
 illustrations. Beyond controlling the type I error, I think we should
 look at effect sizes more carefully. I've been working on porting some
-of Wilcox's R code to Matlab, with very interesting results - currently
+of Wilcox's R code to MATLAB, with very interesting results - currently
 working on a paper in which I apply non-parametric (robust and
 informative!) measures of effect sizes to face and object ERPs. The new
 tools will be released in LIMO eventually.

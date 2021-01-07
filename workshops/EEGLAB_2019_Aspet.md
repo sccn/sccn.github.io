@@ -16,7 +16,7 @@ Twenty-ninth EEGLAB Workshop
 The 29th EEGLAB Workshop TOOK place from Monday, June 17 through Friday,
 June 21 in the village of Aspet in the Pyrenees foothills in southwest
 France near Toulouse. Participants WERE expected to bring laptops with
-Matlab installed so as to be able to participate in the practical
+MATLAB installed so as to be able to participate in the practical
 sessions. The tutorial workshop will introduce and demonstrate the use
 of the EEGLAB software environment and EEGLAB-linked tools for
 performing advanced analysis of EEG and related data, with detailed
@@ -30,7 +30,7 @@ Workshop Program (with corresponding PDFs)
 <b>Material for the working (including EEGLAB) will be made available on
 USB keys during the workshop.</b> Presentation slides will be made
 available during the workshop. You only need to bring to the workshop a
-laptop with Matlab installed.
+laptop with MATLAB installed.
 
 <span style="color: purple">Purple lettering = lecture</span>
 <span style="color: orange">Orange lettering = tutorial</span>
@@ -71,7 +71,7 @@ settings to organize data - Leila Reidy</span>
 
 19:45 -- Dinner in Aspet (included in registration)</span>
 
-20:45 – 21:30 -- Optional beginner Matlab course by Ramon Martinez
+20:45 – 21:30 -- Optional beginner MATLAB course by Ramon Martinez
 
 <u><span style="color: blue">Tuesday, June 18th</span></u>
 
@@ -173,7 +173,7 @@ settings to organize data - Leila Reidy</span>
 **General Linear Modeling**
 
 
-<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)
+<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)
 <!-- -->
 
 

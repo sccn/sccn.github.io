@@ -15,7 +15,7 @@ Nineteenth EEGLAB Workshop
 The 19th EEGLAB Workshop will take place from Monday, May 25th through
 Friday, May 29th in the village of Aspet in the Pyrenees foothills in
 southwest France near Toulouse. Participants will be expected to bring
-laptops with Matlab installed so as to be able to participate in the
+laptops with MATLAB installed so as to be able to participate in the
 practical sessions. The tutorial workshop will introduce and demonstrate
 the use of the EEGLAB software environment and EEGLAB-linked tools for
 performing advanced analysis of EEG and related data, with detailed
@@ -157,7 +157,7 @@ Workshop Program (with corresponding PDFs)
 **General Linear Modeling**
 
 
-<span style="color: orange">10:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
+<span style="color: orange">10:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Cyril Pernet)</span>
 
 <span style="color: orange">12:00 – 12:30 -- The future of LIMO and EEGLAB (Arnaud Delorme)</span>
 
@@ -215,7 +215,7 @@ Workshop Program (with corresponding PDFs)
 
 <span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics II (Scott Makeig)</span>
 
-<span style="color: orange">9:30 – 10:00 -- Using and building EEGLAB extensions/plug-ins (Arnaud Delorme)</span>
+<span style="color: orange">9:30 – 10:00 -- Using and building EEGLAB extensions/plugins (Arnaud Delorme)</span>
 
 <!-- -->
 

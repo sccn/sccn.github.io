@@ -217,7 +217,7 @@ Workshop Program
 </td>
 <td align="left"><b>Workshop 7：EEGLAB methods V</b><br>
 <ul><li>Julie Onton - STUDY analysis part II <a href="https://sccn.ucsd.edu/githubwiki/files/8_studyanalysisi.pdf" class="internal" title="8 STUDYanalysisI.pdf">(PDF)</a><br>
-</li><li>Arnaud Delorme - Extending EEGLAB with plug-ins <a href="https://sccn.ucsd.edu/githubwiki/files/eeglab_plugins_taiwan.pdf" class="internal" title="EEGLAB plugins taiwan.pdf">(PDF)</a><br>
+</li><li>Arnaud Delorme - Extending EEGLAB with plugins <a href="https://sccn.ucsd.edu/githubwiki/files/eeglab_plugins_taiwan.pdf" class="internal" title="EEGLAB plugins taiwan.pdf">(PDF)</a><br>
 </li></ul>
 </td></tr>
 <tr>
@@ -231,21 +231,21 @@ Workshop Program
 <td>Group research reports and discussion
 </td></tr></tbody></table>
 
-Matlab and matrix introductory reading material
+MATLAB and matrix introductory reading material
 -----------------------------------------------
 
-EEGLAB graphic interface is built on top of the powerful Matlab
+EEGLAB graphic interface is built on top of the powerful MATLAB
 scripting language. Enjoying the full capabilities of EEGLAB for
 building macro commands and performing custom and automated processing
-requires the ability to manipulate EEGLAB data structures in Matlab.
+requires the ability to manipulate EEGLAB data structures in MATLAB.
 Because of time constrains, we will NOT provide an introduction to the
-Matlab language. Instead users need to familiarize themselves with
-Matlab prior to the workshop. Users of Matlab 7: we recommend running
+MATLAB language. Instead users need to familiarize themselves with
+MATLAB prior to the workshop. Users of MATLAB 7: we recommend running
 the following demos and reading the following help sections.
 
-After opening the Matlab desktop, select menu item "Help Demos" and run
+After opening the MATLAB desktop, select menu item "Help Demos" and run
 the following demos. Note that while the demo is running, you can retype
-the text (or copy it) to the main Matlab window:
+the text (or copy it) to the main MATLAB window:
 - Mathematics - Basic Matrix Operations
 - Mathematics - Matrix manipulations
 - Graphics - 2-D Plots
@@ -266,7 +266,7 @@ minutes, for a total here of about 2 hours. We encourage you to watch
 these demos and read these sections over several days.
 
 **IMPORTANT NOTE:** A large portion of the workshop will be dedicated to
-writing EEGLAB scripts, so not being able to understand Matlab syntax
+writing EEGLAB scripts, so not being able to understand MATLAB syntax
 will result in you missing out on a large portion of the workshop.
 
 Relevant publications using ICA/EEGLAB

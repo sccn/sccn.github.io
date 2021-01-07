@@ -9,9 +9,9 @@ Group-level analyses using EEGLAB scripts
 {: .no_toc }
 
 Building a *STUDY* from the graphic interface (as described in previous
-sections) calls eponymous Matlab functions that may also be called
+sections) calls eponymous MATLAB functions that may also be called
 directly by users. Below we briefly describe these functions. See their
-Matlab help messages for more information. Functions whose names begin
+MATLAB help messages for more information. Functions whose names begin
 with *std_* take *STUDY* and/or *EEG* structures as arguments and
 perform signal processing and/or plotting directly on channel or cluster
 activities. Whenever relevant, feel free to look up documentation in the part of the tutorial describing [the STUDY structure](/tutorials/ConceptsGuide/Data_Structures.html#the-study-structure).
@@ -37,7 +37,7 @@ It is often possible to modify the datasets themselves to achieve the
 same goal, and changes will be automatically reported in the STUDY
 structures.
 
-Below is a Matlab script
+Below is a MATLAB script
 calling the GUI-equivalent command line function [std_editset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=std_editset.m) 
 from the "5subjects" folder (you may download tutorial data [here](https://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip)) then change the path to the folder you have uncompressed. The code snippets used on this page are available at [study_script.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=study_script.m)
 
@@ -72,10 +72,10 @@ snippet, your current directory in MATLAB should contain the datasets.
 
 Once you have created a new *STUDY* (or once you have loaded it from disk), both the
 *STUDY* structure and its corresponding *ALLEEG* array of resident *EEG*
-structures will be variables in the Matlab workspace. 
+structures will be variables in the MATLAB workspace. 
 
 Typing *\>\>
-STUDY* on the Matlab command line will list field values:
+STUDY* on the MATLAB command line will list field values:
 
 ``` matlab
 >> STUDY =
@@ -164,7 +164,7 @@ Try some other commands from the channel plotting graphic interface and look at 
 
 All STUDY plotting functions are able to return plotted results. After
 plotting STUDY results, look into the EEGLAB history (<i>eegh</i> from
-the Matlab command line) to see which STUDY function was called, then
+the MATLAB command line) to see which STUDY function was called, then
 look at the help of this function. It is usually possible to add
 additional parameters.
 

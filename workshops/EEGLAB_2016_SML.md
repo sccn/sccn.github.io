@@ -10,7 +10,7 @@ nav_exclude: true
 ![250px\|thumb\|right\|upright=2.5\|Santa Margherita
 Ligure](/assets/images/Ligure.jpg)
 
-<span style="color: red">Participant ressource: </span>[List of restaurant and
+<span style="color: red">Participant resource: </span>[List of restaurant and
 location in Santa
 Marguerita](http://sccn.ucsd.edu/eeglab/workshop16Italy/SantaMargheritaTipsEEGLAB2016.pdf)
 If you have any question about local organization or concern, call or
@@ -23,7 +23,7 @@ text Antonio +44 7481 188079 or Arno +33 6508 01366.
 The 21st EEGLAB Workshop will take place from Monday April 4th through
 Friday April 8th in the village of Santa Margherita Ligure on the
 Mediterranean coast of northern Italy (near Portofino). Participants
-will be expected to bring laptops with Matlab installed so as to be able
+will be expected to bring laptops with MATLAB installed so as to be able
 to participate in the practical sessions. The tutorial workshop will
 introduce and demonstrate the use of the EEGLAB software environment and
 EEGLAB-linked tools for performing advanced analysis of EEG and related
@@ -138,7 +138,7 @@ orientation</span>
 **General Linear Modeling**
 
 
-<span style="color: orange">11:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_limo_2016.pdf)
+<span style="color: orange">11:15 – 12:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_limo_2016.pdf)
 
 <span style="color: green">13:00-14:30 Lunch --</span>
 
@@ -171,7 +171,7 @@ orientation</span>
 
 <span style="color: purple">9:00 – 10:15 -- Mining event-related brain dynamics II (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_sm_miningii.pdf)
 
-<span style="color: orange">10:15 – 10:45 -- Using and building EEGLAB extensions/plug-ins (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_eeglab_plugins.pdf)
+<span style="color: orange">10:15 – 10:45 -- Using and building EEGLAB extensions/plugins (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2016_ad_eeglab_plugins.pdf)
 
 
 <span style="color: green">-- Break--</span>

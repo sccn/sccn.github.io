@@ -16,20 +16,20 @@ second release. There are usually one or two releases per year. Prior major vers
 ## EEGLAB version 2020.0
 
 -   Issue date: July 31st, 2020; GIT tag: 2020.0
--   <b>EEGLAB Plug-in manager</b>: Fixed bugs, made plug-in detection
-    case sensitive, added plug-in search capability.
+-   <b>EEGLAB Plug-in manager</b>: Fixed bugs, made plugin detection
+    case sensitive, added plugin search capability.
 -   <b>EEGLAB auto updater</b>: Allow installation of a new version of
     EEGLAB from within EEGLAB itself.
--   <b>Support for BIDS</b>: Now testing the EEGLAB BIDS-EEG plug-in
+-   <b>Support for BIDS</b>: Now testing the EEGLAB BIDS-EEG plugin
     (the beta version is available at
     <https://github.com/sccn/bids-matlab-tools>).
 -   <b>HED</b> Hierarchical Event Descriptors (HED): Improved tools for
     annotating dataset events at the STUDY level in the HED-2 system,
     and for extracting HED-tagged epochs.
 -   <b>IClabel</b>: Improved support and compatibility for the IClabel
-    plug-in.
+    plugin.
 -   <b>LIMO</b>: Improved support and compatibility for the LIMO
-    plug-in.
+    plugin.
 -   <b>EDF/EDF+</b>: Better conversion of EDF and EDF+ file events.
 -   <b>Scrolling data viewer</b>: Fixed issue that dramatically slowed
     down scrolling EEG viewing when the dataset includes a large number
@@ -63,7 +63,7 @@ second release. There are usually one or two releases per year. Prior major vers
     make them more user friendly, and now allow to plot ERPimage, and
     time-frequency decompositions in scalp arrays (previously this was
     only possible for ERP and spectrum).
--   There is a <b>new plug-in manager</b> (there was a new one in 2019.0
+-   There is a <b>new plugin manager</b> (there was a new one in 2019.0
     but it yet a newer one) which automates plugin release for improved
     stability. This new manager also has a rating and feedback mecanism.
     The old plugin manager will be maintained for backward
@@ -86,16 +86,16 @@ second release. There are usually one or two releases per year. Prior major vers
     testing on an existing STUDY, the STUDY functions will need to
     recompute the pre-computed measure files.
 -   New smart cache mechanism for STUDY processing.
--   <b>Mew plug-in manager</b>
+-   <b>Mew plugin manager</b>
 -   <b>Full Octave compatibility</b> from the command line: The freely
     available open source app will now run EEGLAB command
-    line scripts written in Matlab (note: the EEGLAB graphic interface
+    line scripts written in MATLAB (note: the EEGLAB graphic interface
     and menu are not available in Octave).
 -   <b>New license:</b> The open source license EEGLAB has been updated
     to BSD instead of GNU to allow commercial re-use of EEGLAB
-    code (Note: each EEGLAB plug-in is released under its own license).
+    code (Note: each EEGLAB plugin is released under its own license).
 -   The EEGLAB code repository has migrated to Github from
-    Bitbucket; code for all plug-ins handled by the plug-in manager have
+    Bitbucket; code for all plugins handled by the plugin manager have
     been placed in Github submodules
 -   Support has been added for <b>data resampling and high/lowpass
     filtering at the STUDY level</b>.
@@ -103,7 +103,7 @@ second release. There are usually one or two releases per year. Prior major vers
     filters can now be applied only to selected channel subsets or
     types.
 -   The <b>data import menu</b> has been cleaned up, adding direct links
-    to some popular import plug-ins.
+    to some popular import plugins.
 -   When performing source localization of independent components using
     DIPFIT, the brain area in which the equivalent dipole is located is
     now estimated based on direct look-up in the 40-region

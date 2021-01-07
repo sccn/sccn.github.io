@@ -20,13 +20,13 @@ Equivalent dipole source localization of EEG data
 Using DIPFIT to fit one dipole to EEG or ERP scalp maps
 --------
 
-Though the implementation of the DIPFIT plug-in has not been expressly
+Though the implementation of the DIPFIT plugin has not been expressly
 designed to fit dipoles to raw ERP or EEG scalp maps, EEGLAB provides a
 command-line function allowing DIPFIT to do so. Fitting may only be
 performed at selected time points, not throughout a time window. First,
 you must specify the DIPFIT settings on the selected dataset. Then, to fit a
 time point at 100 ms in an average ERP waveform (for example) from the
-main tutorial data set, use the following Matlab commands.
+main tutorial data set, use the following MATLAB commands.
 
 ``` matlab
 eeglab; close; % add path
@@ -96,7 +96,7 @@ grid (for example, for use with eLoreta).
 
 eeglab                        % start eeglab
 eeglabPath = fileparts(which('eeglab'));                 % save its location
-bemPath = fullfile(eeglabPath, 'plugins', 'dipfit', 'standard_BEM');    % load the dipfit plug-in
+bemPath = fullfile(eeglabPath, 'plugins', 'dipfit', 'standard_BEM');    % load the dipfit plugin
 EEG = pop_loadset(fullfile(eeglabPath, 'sample_data', 'eeglab_data_epochs_ica.set'));   % load the sample eeglab epoched dataset
 EEG = pop_dipfit_settings( EEG, 'hdmfile',fullfile(bemPath, 'standard_vol.mat'), ...
            'coordformat','MNI','mrifile',fullfile(bemPath, 'standard_mri.mat'), ...

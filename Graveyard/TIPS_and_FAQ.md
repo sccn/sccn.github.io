@@ -19,32 +19,32 @@ archive simply use Google, enter relevant keyword and add the
 #### About EEGLAB
 
 
-**Question:** Is EEGLAB of any interest for expert Matlab users?
+**Question:** Is EEGLAB of any interest for expert MATLAB users?
 **Answer:** We believe so. First, EEGLAB implements new algorithms for
-artifact rejection. Second, for the experienced Matlab user EEGLAB is a
+artifact rejection. Second, for the experienced MATLAB user EEGLAB is a
 fast and accurate way to start processing EEG and ERP data and to
 directly manipulate signal arrays. If you intend to use the ICA toolbox
 functions underlying EEGLAB, EEGLAB itself is a good starting point and
 introduction. EEGLAB also provides a full EEG structure to describe your
 data (signal, trials, channel location, reaction time, type of the
 trials, time limits and sampling rate) and allows you use this structure
-either from the Matlab command line or in Matlab scripts.
+either from the MATLAB command line or in MATLAB scripts.
 
 
-**Question:** Is Matlab too slow and does it use too much memory ?
-**Answer:** Yes, to an extent, but... Because Matlab is sometime too
+**Question:** Is MATLAB too slow and does it use too much memory ?
+**Answer:** Yes, to an extent, but... Because MATLAB is sometime too
 slow we implemented the most time consuming algorithms in C (for
 instance the runica() function). We also took great care of inserting
 options in EEGLAB and in several processing functions to handle low
-memory conditions. On the other hand the Matlab environment offers the
+memory conditions. On the other hand the MATLAB environment offers the
 advantage of stability and ease of use. Even the novice user under
-Matlab can scale a data array by multiplying it by a scalar for instance
+MATLAB can scale a data array by multiplying it by a scalar for instance
 (and in our software the data array is directly accessible to the user).
-Matlab also offers the advantage of modularity. All of our function are
+MATLAB also offers the advantage of modularity. All of our function are
 stand-alone functions and most of them can be used independently of each
-other. Besides, Matlab has grown much faster and we hope may become more
+other. Besides, MATLAB has grown much faster and we hope may become more
 memory-efficient in future. For our purposes, this should include a
-32-bit float data processing option (Is Matlab listening?)
+32-bit float data processing option (Is MATLAB listening?)
 
 
 **Question:** Support ?
@@ -53,13 +53,13 @@ this software but we will be glad to help out if someone encountered any
 problem and to correct bugs when reported to us: Write to
 eeglab@sccn.ucsd.edu.
 
-#### What type of Matlab license should I buy to run EEGLAB?
+#### What type of MATLAB license should I buy to run EEGLAB?
 
 
 **Question:** When I ask the Mathworks salesman to sell me "only" a
-Matlab license, he gave me prices for Matlab, Simulink and Symbolic
+MATLAB license, he gave me prices for MATLAB, Simulink and Symbolic
 Math. Do I need all these to run EEGLAB?
-**Answer:** No, you do not need all that, you only need Matlab. If
+**Answer:** No, you do not need all that, you only need MATLAB. If
 possible, ask for an educationnal or even student version, as they are
 cheaper. For some spectral decompositions, you may also need the Data
 Processing toolbox which has to be purchased separately. We are
@@ -77,16 +77,16 @@ gradually attempting remove this dependency.
 ??? Unable to find subsindex function for class char. ''
 
 
-**Answer:** In most cases, this error indicates that Matlab on Unix may
-experience problems. Matlab might return this error when you or EEGLAB
-has defined a variable of the same name as any variable in your Matlab
-workspace or .m file in the Matlab path. To solve the problem, clear the
+**Answer:** In most cases, this error indicates that MATLAB on Unix may
+experience problems. MATLAB might return this error when you or EEGLAB
+has defined a variable of the same name as any variable in your MATLAB
+workspace or .m file in the MATLAB path. To solve the problem, clear the
 variable or rename the function.
 
 #### Memory issue
 
 
-**Question:** Matlab/EEGLAB return an out of memory error
+**Question:** MATLAB/EEGLAB return an out of memory error
 
 
 **Answer:** 3 solutions
@@ -97,13 +97,13 @@ variable or rename the function.
     is still necessary to import the full data file in memory.
 -   Change the [amount of
     memory](http://www.mathworks.com/support/solutions/data/1-18I2C.html)
-    Matlab or the [memory management
+    MATLAB or the [memory management
     scheme](http://www.mathworks.com/support/tech-notes/1100/1106.shtml).
 
 #### 64-bit platforms
 
 
-**Question:** does Matlab/EEGLAB work on 64-bit platforms?
+**Question:** does MATLAB/EEGLAB work on 64-bit platforms?
 
 
 **Answer:** yes and there are 3 choices
@@ -112,14 +112,13 @@ variable or rename the function.
     and ease of use.
 -   Windows 64-bit. Prefered choice for speed of instalation.
 -   Linux 64-bit (Fedora Core or Redhat distribution). Prefered choice
-    for high performance computing and clusters. Matlab instalation may
+    for high performance computing and clusters. MATLAB instalation may
     be harder.
 
 **!!!** However, it must be noted that there issues when using the
 64-bit version of Ubuntu 8. It seems that there are issues with the
-Signal Processing Toolbox in Matlab (required for EEGLAB). Please refer
-to { {bug\|768} } for more information! \[--[Dev
-Sarma](/User:Dev "wikilink") 21:48, 28 October 2009 (UTC)\]
+Signal Processing Toolbox in MATLAB (required for EEGLAB). Please refer
+to bug 768 on Bugzilla for more information! 
 
 #### Multi-core use
 
@@ -128,8 +127,8 @@ Sarma](/User:Dev "wikilink") 21:48, 28 October 2009 (UTC)\]
 
 
 **Answer:** yes, it benefits in two ways. First, you may start in
-parallel several Matlab session. Each of them is assigned one of the
-processor. Second, if you go to the Matlab options, you may have the
+parallel several MATLAB session. Each of them is assigned one of the
+processor. Second, if you go to the MATLAB options, you may have the
 option to enable multi-core computation (General \> Multithreading).
 This option is usually set by default. This is a very efficient option
 that will speed up your code usually linearly with the number of core (2
@@ -143,7 +142,7 @@ Files: Import/Export/Channel
 
 **Question:** is it possible with EEGLAB to save an EEG data sorted in
 10 epochs (for example) in 10 ascii files?
-**Answer:** you have to do this on the Matlab command line:
+**Answer:** you have to do this on the MATLAB command line:
 
 > \>\> epoch1 = EEG.data(:,:,1); \>\> save -ascii epoch1.txt epoch1 \>\>
 > epoch2 = EEG.data(:,:,2); \>\> save -ascii epoch2.txt epoch2 \>\>
@@ -267,7 +266,7 @@ with lowpass and high pass filtering. I think that this phenomenon of
 
 
 **Question:** So I think I can do this filtering with EEGLAB?
-**Answer:** Yes you can but you need the Matlab Signal Processing
+**Answer:** Yes you can but you need the MATLAB Signal Processing
 toolbox. What we usually do is that we run ICA with 'extended' option
 (in the option box for running ICA put "'extended', 1"). Then some
 components capture this noise which is independent of the brain
@@ -280,8 +279,7 @@ in which function?
 
 
 **Question:** Are there advanced filter functions for EEGLAB?
-**Answer:** Check out firfilt plugin at [EEGLAB Plugins\#Other available
-plug-ins:](/EEGLAB_Plugins#Other_available_plug-ins: "wikilink").
+**Answer:** Check out firfilt plugin at [EEGLAB Plugins page](https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php).
 
 Advanced Topics
 ===============
@@ -484,7 +482,7 @@ supergaussian components as observed with an FFT (mutlitaper). In the
 EEGLAB tutorial (1st_readme.txt) I noticed a question mark on whether
 binica for Windows (the old one) was stable. Is it unstable? Should we
 use the extended version? Can we use the old binica() for Windows?
-**Answer:** Matlab seems to have speeded up running runica() tenfold
+**Answer:** MATLAB seems to have speeded up running runica() tenfold
 from 5.3 to 6.x ! So binica() just gives us a 30% improvement in speed
 these days (although also a 2-4-fold decrease in process size, important
 for large datasets under 32-bit memory addressing). In the future, we
@@ -528,7 +526,7 @@ get the following error message...
 **Answer:** Yes, binica() only runs under unix (though there is a C
 executable for windows). I think you have not declared the path that
 contain the ica_linux2.4 in your unix PATH variable (in .cshrc). This is
-the reason why the Matlab function cannot execute the binary file.
+the reason why the MATLAB function cannot execute the binary file.
 
 ### ICA applied to data epochs or continuous data
 
@@ -718,7 +716,7 @@ figure and type
 \>\> set(gca, 'ydir', 'normal');
 
 
-I guess you could edit the timef() and crossf() Matlab functions to
+I guess you could edit the timef() and crossf() MATLAB functions to
 change all the plots to this format. We will introduce this as an option
 in the future.
 
@@ -765,7 +763,7 @@ end;
 
 2\) use the epoch() function instead of the pop_epoch() function. The
 epoch() function processes latencies directly. You will then obtain a
-Matlab array that you may import in EEGLAB.
+MATLAB array that you may import in EEGLAB.
 
 Figures
 -------
@@ -778,7 +776,7 @@ too thick. How can I control their thickness?
 
 
 **Answer:** To change the figure aspect for publication, you can go in
-the figure menu and use the Matlab menu item "Tools \> Edit". Then you
+the figure menu and use the MATLAB menu item "Tools \> Edit". Then you
 can select any object in the figure. Second button will display a
 contextual menu where you will be albe to change line thickness, color,
 font aspects..., or even draw additional lines or add text. We also
@@ -799,7 +797,7 @@ Export".
 
 
 For the scrolling channel data function (eegplot()), first use menu item
-"Figure \> Edit figure" to restore the default Matlab menu. From the
+"Figure \> Edit figure" to restore the default MATLAB menu. From the
 command line, you may also use the command
 
 
@@ -824,12 +822,12 @@ distributions: Warning: Unrecognized OpenGL version, defaulting to
 the MATLAB command line by typing: "feature('UseGenericOpenGL',1)".
 
 
-**Question:** Sometimes Matlab crashes when I try to print a figure. If
+**Question:** Sometimes MATLAB crashes when I try to print a figure. If
 I save the figure on disk, first, some parts are missing. Do you know
 how to fix this problem?
 **Answer:** You may solve the problem by changing the OpenGL version on
 the MATLAB command line by typing: "feature('UseGenericOpenGL',1)" For
-the printing error, we also experience this; it is a Matlab problem
+the printing error, we also experience this; it is a MATLAB problem
 which is not consistent between Windows and Linux. We always print or
 save to files (.jpg or .eps Postcript), then print the files. For
 instance, use the software
@@ -837,8 +835,8 @@ instance, use the software
 the postcript file to the printer under windows. Even with this
 strategy, some parts of complex figures may disapear, but this is rare
 (then we use screen captures, or use a Windows machine, since printing
-seems to be more reliable under Windows OS). We hope Matlab will become
-better at this in the future (Is Matlab listening?).
+seems to be more reliable under Windows OS). We hope MATLAB will become
+better at this in the future (Is MATLAB listening?).
 
 See also
 --------

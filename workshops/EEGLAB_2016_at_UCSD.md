@@ -19,9 +19,9 @@ following the Society for Neuroscience meeting in San Diego</span>
 The 22nd EEGLAB Workshop will take place from Thursday evening, November
 17th through Monday, November 21st at San Diego Supercomputer Center of
 the University of California San Diego, La Jolla, CA, USA. Participants
-will be expected to bring laptops with Matlab installed so as to be able
+will be expected to bring laptops with MATLAB installed so as to be able
 to participate in the practical sessions. The workshop will introduce
-and demonstrate the use of EEGLAB and EEGLAB plug-in tools for
+and demonstrate the use of EEGLAB and EEGLAB plugin tools for
 performing analysis of EEG and related data, with overview talks on
 principles of EEG data analysis, detailed method expositions, and
 practical exercises. The program begins with an open house reception and
