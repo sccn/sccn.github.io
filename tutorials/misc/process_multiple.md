@@ -92,7 +92,7 @@ The statistical tools in EEGLAB for evaluating STUDY condition, session,
 and group measure differences assume that datasets for different
 conditions recorded in the same session share the same ICA
 decomposition, i.e. the same independent component maps. By default, 
-[pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) 
+[pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m) 
  will concatenate STUDY datasets from the same
 subject and session. 
 
@@ -101,7 +101,7 @@ locked to different classes of events, constituting several experimental
 conditions per subject, all collected in the same session with the same
 electrode montage. 
 By default (leaving the lowest check-box checked), 
-[pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m)  will perform ICA decomposition on the
+[pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m)  will perform ICA decomposition on the
 concatenated data trials from these datasets, and will then attach the
 same ICA unmixing weights and sphere matrices to each dataset.
 Information about the datasets selected for concatenation will be
@@ -115,7 +115,7 @@ portions of the data.
 For example, the pre-stimulus baseline portion of
 an epoch time locked to a target stimulus may contain some portion of an
 epoch time locked to a preceding nontarget stimulus event. Infomax ICA
-performed by [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) and [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m)
+performed by [pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m) and [pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m)
 does not consider the time order of the data points, but selects time
 points in random order during training. Thus, replicated data points in
 concatenated datasets will only tend to be used more often during
@@ -124,18 +124,18 @@ components in other than unusual circumstances.
 
 
 Some other blind source decomposition algorithms such as 
-[pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) 
+[pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m) 
  do consider the time order of points in brief
-data windows. The version of the [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) function
+data windows. The version of the [pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m) function
 used in EEGLAB has been customized to avoid selecting data time windows
 that straddle an epoch boundary. 
 
-To apply [pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) to
+To apply [pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m) to
 concatenated datasets, however, the epoch lengths of the datasets are
 assumed to be equal.
 
 If you wish (and have enough computer RAM), you may also ask 
-[pop_headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_headplot.m) 
+[pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m) 
  to load and concatenate all datasets before
 running ICA. This will concatenate all the datasets in you computer main
 memory, so you actually need to have enough memory to contain all

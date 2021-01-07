@@ -69,7 +69,7 @@ Workshop Program (with corresponding PDFs)
 <span style="color: purple">13:00 – 14:00 -- Evaluating ICA components (Claire Braboszcz)</span>
 [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_cb_evaluate_ic.pdf)
 
-<font color = purple>14:00 – 15:00 -- Time-Frequency decompositions and
+<span style="color: purple">14:00 – 15:00 -- Time-Frequency decompositions and
 practicum (Tim Mullen)</span>
 [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2011_tm_time_frequency.pdf)
 <!-- -->

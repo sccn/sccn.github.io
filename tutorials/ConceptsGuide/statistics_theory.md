@@ -27,7 +27,63 @@ Here we describe some essential concepts behind the statistical methods implemen
 {:toc}
 </details>
 
-Parametric and non-parametric statistics
+
+Different types of inferential statistics
+------------------------------
+
+What is the best way of doing statistics on your data?
+Do you have continuous numerical data, categorical/discrete data? For
+discrete data, you may use binomial, chi2, or Cochran's Q test, depending
+on your design. We will assume here that you have continuous numerical EEG data.
+
+### Parametric statistics
+
+If your data is Gaussian, you will want to use t-test (paired or
+unpaired), repeated measure ANOVA if you have more than two conditions or
+n x m design. Note that depending on your design, some complex version
+of ANOVA might be required. For example, if you want to blend ANOVA and
+regression, you will have to use an ANCOVA. Note that even if your data
+is not Gaussian, parametric tests may be used. However, their power may
+be reduced compared to other tests.
+
+Some transformation might be necessary in some cases to make the data more Gaussian. The most common is to
+log-transform spectral EEG power.
+
+### Non-parametric statistics
+
+Equivalent non-parametric tests exist for all the parametric tests.
+These tests assume a Gaussian probability distribution of the rank of
+the sorted data values. (t-test paired -\> Sign test or Wilcoxon test;
+unpaired t-test -\> Mann Whitney U test; ANOVA -\> Krukal Walis and
+Friedman test). These types of inferential statistics are usually not used on EEG data and are not available in EEGLAB.
+
+### Use of surrogate tests for non-Gaussian data
+
+Surrogate tests are ideals for EEG data because they make no assumption on the data
+distribution. Surrogate tests consist of repetitively shuffling values
+between conditions and recompute the measure of interest using the
+shuffled data (for example, the difference between 2 conditions). We then
+obtain a distribution of difference, and we can see if the original
+difference is in the tail of this distribution. Under the null
+hypothesis of no difference between the conditions, the original
+difference should not be in the tail. If it is, we can assess the
+probability of rejecting H0. Permutation and bootstrap test are two
+surrogate tests. Permutation performs drawing of data samples without
+replacement, and bootstrap performs drawing with replacement. In theory,
+bootstrap is more valid since draws are independent of each other. In
+practice, there is little difference between the two tests. The main
+drawback of such approaches is that they can take longer to compute.
+
+The cleaner the data, the easier the statistics. But getting clean data
+is an effort in itself. When outliers are present, surrogate tests are
+the most robust. However, even a surrogate test may fail in these
+conditions. The solution is to trim the distribution of value at each
+iteration of the test.
+
+We recommend using parametric tests for data exploration
+since they are fast to compute. However, for publication, we recommend using surrogate tests.
+
+Statistics implemented in EEGLAB
 -----------------------------------------
 EEGLAB allows performing classical parametric tests (paired t-test,
 unpaired t-test, ANOVA) on ERPs, power spectra, ERSPs, and ITCs. 
@@ -170,10 +226,20 @@ for Fieldtrip and LIMO -- the max, cluster, and TFCE methods. These methods are 
 General Linear Modelling in EEGLAB 
 ----------------------------------
 
-The [LIMO statistics video series](https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU) introduces general linear modeling using EEGLAB and the [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/). General linear models encompass all linear statistics and offer a general framework for performing statistics on EEG data.
+For complex design, you might also want to build a design matrix as this
+is done in the SPM software package for processing fMRI data, for example. Once you have design matrix, you may use a
+general linear model to fit parameters. The [LIMO statistics video series](https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN2Vrzte9ul3nrrG8AgB5OkU) introduces general linear modeling using EEGLAB and the [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/). General linear models encompass all linear statistics and offer a general framework for performing statistics on EEG data.
 
-Additional resources
+Additional tips and resources
 ---------------------
+
+<b>Do not:</b> p-hacking consist in testing all possible combination of
+test and data transformation in the hope that one test will be
+significant (and it usually will!). Obviously this type of practice
+should be discouraged. In practice, we like to check that several
+inference tests and methods for correcting for multiple comparisons and
+report all results in articles.
+
 We suggest consulting a relevant statistics book for more details: An
 introduction to statistics written by Arnaud Delorme is available
 [here](http://sccn.ucsd.edu/~arno/mypapers/statistics.pdf). We also recommend Rand Wilcox's textbook on non-parametric statistics [Introduction to robust estimation and hypothesis testing](https://www.sciencedirect.com/book/9780123869838/introduction-to-robust-estimation-and-hypothesis-testing).

@@ -44,7 +44,7 @@ Workshop Program (with corresponding PDFs)
 train or by car.
 
 
-<font color = purple>19:00 - 19:30 -- Welcome comments and
+<span style="color: purple">19:00 - 19:30 -- Welcome comments and
 orientation</span>
 
 <span style="color: green">19:30 -- Dinner on your own</span>

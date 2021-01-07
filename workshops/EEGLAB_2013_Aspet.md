@@ -37,7 +37,7 @@ Workshop Program (with corresponding PDFs)
 
 17:00 -- Airport shuttle bus pick up
 
-<font color = green>
+<span style="color: green">
 
 
 19:00 -- Dinner (included in registration)</span>

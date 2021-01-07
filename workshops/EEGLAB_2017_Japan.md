@@ -59,7 +59,7 @@ Workshop Program (with corresponding PDFs)
 **Overview and ICA Theory/Practice**
 
 
-<font color = purple>10:00 – 11:00 -- Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_japan_i.pdf)
+<span style="color: purple">10:00 – 11:00 -- Mining event-related brain dynamics I (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_eeglab_japan_i.pdf)
 
 <span style="color: purple">11:00 – 11:30 -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2017_ad_eeglab_overview_japan.pdf)
 

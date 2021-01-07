@@ -160,7 +160,7 @@ the whole brain. The solutions of this grid search are not very accurate
 yet, but they are acceptable as starting locations for the non-linear
 optimization. Starting from these best grid locations will speed up
 finding the final best-fitting solution. To scan dipoles on a coarse grid, select
-the <font color = brown>Tools → Locate dipoles using DIPFIT →
+the <span style="color: brown">Tools → Locate dipoles using DIPFIT →
 Coarse fit (grid scan)</span> menu item. The window
 below will pop up:
 

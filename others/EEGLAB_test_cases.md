@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB test cases
 parent: Other documents
 ---
-EEGLAB test cases <font color=green> - Done</font>
+EEGLAB test cases <span style="color: green">- DONE</span>
 ===
 
 ## What is a unit testing test case?

@@ -38,10 +38,7 @@ After EEGLAB loads the dataset, the main EEGLAB window shows
 relevant information about it -- its number of channels, sampling rate,
 etc.
 
-
-
 ![](/assets/images/Eeglab_window_continuous_data.jpg)
-
 
 Exploring event values
 ----------------------

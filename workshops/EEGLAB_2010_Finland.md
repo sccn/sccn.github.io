@@ -4,10 +4,10 @@ title: EEGLAB 2010 Finland
 permalink: /workshops/EEGLAB_2010_Finland.html
 nav_exclude: true
 ---
-
-<font size =4><span style="color: red">10th EEGLAB Workshop</span>
+<span style="color: red">10th EEGLAB Workshop</span>
+====
 <span style="color: blue">Jyväskylä, Finland
-June 14 – June 17, 2010</span></span>
+June 14 – June 17, 2010</span>
 
 
 Pre-Workshop ICA conference

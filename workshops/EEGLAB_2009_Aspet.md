@@ -27,7 +27,7 @@ Workshop Program (with corresponding PDFs)
 
 16:30 -- shuttle aiport pick up
 
-<font color = green>
+<span style="color: green">
 
 
 19:00 -- diner (included in registration)</span>
@@ -35,7 +35,7 @@ Workshop Program (with corresponding PDFs)
 <u><span style="color: blue">Monday, April 20</span></u>
 
 
-<font color = green>7:00 - 8:00 Breakfast</span>
+<span style="color: green">7:00 - 8:00 Breakfast</span>
 
 <!-- -->
 
@@ -50,17 +50,17 @@ Workshop Program (with corresponding PDFs)
 <span style="color: purple">9:00 – 10:00 -- ICA theory (Arnaud Delorme) </span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_ica.pdf))
 
 
-<font color = green>-- Break--</span>
+<span style="color: green">-- Break--</span>
 <br>
 
-<font color = purple>10:20 – 11:00 -- Time-Frequency decompositions (Arnaud Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_timefreq.pdf))</span>
+<span style="color: purple">10:20 – 11:00 -- Time-Frequency decompositions (Arnaud Delorme) ([PDF](https://sccn.ucsd.edu/githubwiki/files/lecture_timefreq.pdf))</span>
 
-<font color = orange>11:00 – 12:00 -- Time-Frequency practicum (Arnaud Delorme) </span>
+<span style="color: orange">11:00 – 12:00 -- Time-Frequency practicum (Arnaud Delorme) </span>
 
 <!-- -->
 
 
-<font color = green>12:00-13:30 Lunch --</span>
+<span style="color: green">12:00-13:30 Lunch --</span>
 
 <!-- -->
 
@@ -87,12 +87,12 @@ Workshop Program (with corresponding PDFs)
 
 
 
-<font color = green>19:00 -- Dinner</span>
+<span style="color: green">19:00 -- Dinner</span>
 
 <u><span style="color: blue">Tuesday, June 9th</span></u>
 
 
-<font color = green>7:00 - 8:00 Breakfast</span>
+<span style="color: green">7:00 - 8:00 Breakfast</span>
 
 <!-- -->
 
@@ -100,15 +100,15 @@ Workshop Program (with corresponding PDFs)
 **IC Analysis**
 
 
-<font color = purple>8:00 – 9:00 -- Robust statistics (Robert Oostenveld) </span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/robust_statistics_aspet2009.pdf))
+<span style="color: purple">8:00 – 9:00 -- Robust statistics (Robert Oostenveld) </span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/robust_statistics_aspet2009.pdf))
 
 <span style="color: purple">9:00 – 10:00 -- Independent Component Clustering and Study (Scott Makeig) </span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab_aspet_clustering09.pdf))
 
-<font color = green>-- Break--</span>
+<span style="color: green">-- Break--</span>
 
-<font color = purple>10:20 – 11:20 -- Forward and inverse models (Robert Oostenveld) </span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/forward_and_inverse_models_aspet2009.pdf))
+<span style="color: purple">10:20 – 11:20 -- Forward and inverse models (Robert Oostenveld) </span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/forward_and_inverse_models_aspet2009.pdf))
 
-<font color = orange>11:20 – 12:00 -- Basic scripting using EEGLAB “history” (A.Delorme)</span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/practicum_4_basic_scripting.pdf))
+<span style="color: orange">11:20 – 12:00 -- Basic scripting using EEGLAB “history” (A.Delorme)</span> ([PDF](https://sccn.ucsd.edu/githubwiki/files/practicum_4_basic_scripting.pdf))
 <br>
 
 <span style="color: green">12:00-1:00 Lunch --</span>
@@ -118,15 +118,15 @@ Workshop Program (with corresponding PDFs)
 **EEGLAB methods II – Evaluating ICs**
 
 
-<font color = orange>13:00 – 14:00 – Plotting and component clusterint
+<span style="color: orange">13:00 – 14:00 – Plotting and component clusterint
 with studies (Arnaud Delorme)</span>[(PDF)](https://sccn.ucsd.edu/githubwiki/files/practicum_9_studyplotedit2.pdf)
 
-<font color = orange>15:00 – 15:30 – Scripting with studies (Arnaud Delorme) (included in previous PDF)</span>
+<span style="color: orange">15:00 – 15:30 – Scripting with studies (Arnaud Delorme) (included in previous PDF)</span>
 
 <!-- -->
 
 
-<font color = green>15:30-18:00-- Hiking in the pyrennees</span>
+<span style="color: green">15:30-18:00-- Hiking in the pyrennees</span>
 
 <!-- -->
 

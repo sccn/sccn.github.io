@@ -3,7 +3,7 @@ layout: default
 title: Fork EEGLAB
 parent: Other documents
 ---
-Fork EEGLAB <font color=green> - Done</font>
+Fork EEGLAB <span style="color: green">- DONE</span>
 ===
 
 The main EEGLAB repository is not the place to add new functions. If

@@ -1,9 +1,5 @@
 ---
 layout: default
-title: Using custom MRI from individual subjects
-parent: Reference Topics
-grand_parent: Tutorials
-nav_order: 9
 ---
 Using custom MRI from individual subjects
 ==========================================

@@ -101,7 +101,7 @@ Preliminary Workshop Program
 
 (see also [this note on the importance of knowing skull conductivity](http://sccn.ucsd.edu/wiki/NFT_Appendix_C))
 
-<font color = orange>9:15 – 10:00 -- Using the NFT and Dipfit plug-ins
+<span style="color: orange">9:15 – 10:00 -- Using the NFT and Dipfit plug-ins
 (Julie Onton)[Dipfit](https://sccn.ucsd.edu/githubwiki/files/3_dipfit.pdf)[nf)](/media:nft_presentation12.pdf)</span>
 <!-- -->
 

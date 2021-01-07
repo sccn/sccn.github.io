@@ -5,9 +5,10 @@ permalink: /workshops/EEGLAB_2009_Australia.html
 nav_exclude: true
 ---
 
-<font size =4><span style="color: red">9th EEGLAB Workshop</span>
+<span style="color: red">9th EEGLAB Workshop</span>
+===
 <span style="color: blue">Newcastle, Australia
-Nov 25-Nov 27, 2009</span></span>
+Nov 25-Nov 27, 2009</span>
 (Preceeding the [19th Australasian Psychophysiology Society
 Conference](http://www.newcastle.edu.au/conference/asp2009/))
 

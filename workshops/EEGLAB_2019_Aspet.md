@@ -66,7 +66,7 @@ settings to organize data - Leila Reidy</span>
 
 17:00 -- Toulouse airport shuttle bus pick up
 
-<font color = green>
+<span style="color: green">
 
 
 19:45 -- Dinner in Aspet (included in registration)</span>

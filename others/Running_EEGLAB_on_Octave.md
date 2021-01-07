@@ -3,7 +3,7 @@ layout: default
 title: Running EEGLAB on Octave
 parent: Other documents
 ---
-Running EEGLAB on Octave <font color=green> - Done</font>
+Running EEGLAB on Octave <span style="color: green">- DONE</span>
 ====
 
 Why Octave?

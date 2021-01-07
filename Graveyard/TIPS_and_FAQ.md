@@ -1,11 +1,9 @@
 ---
 layout: default
-title: TIPS and FAQ
-parent: Other documents
 ---
+PERAPS to reinstate
 
 # EEGLAB TIPS and FAQ
-
 
 This FAQ page contains questions we receive and answers we give users,
 as well as general tips we think it is important for users to know! Many
@@ -847,16 +845,3 @@ See also
 
 -   [Archive of the eeglablist email discussion
     list](http://knowing.sccn.ucsd.edu/pipermail/eeglablist/)
--   [FAQ collection from the old ICA toolbox
-    release](http://sccn.ucsd.edu/%7Escott/tutorial/icafaq.html)
--   [Search engine on the EEGLAB main
-    page](http://sccn.ucsd.edu/eeglab/index.html)
-
-<div align=right>
-
-Return to [EEGLAB Wiki](/EEGLAB "wikilink")
-Return to [SCCN Wiki Home](/Main_Page "wikilink")
-
-</div>
-
-[Category:EEGLAB](/Category:EEGLAB "wikilink")

@@ -4,10 +4,10 @@ title: Eleventh EEGLAB Workshop Taiwan
 permalink: workshops/EEGLAB_2010_Taiwan.html
 nav_exclude: true
 ---
-
-<font size =4><span style="color: red">11th EEGLAB Workshop</span>
+<span style="color: red">11th EEGLAB Workshop</span>
+===
 <span style="color: blue">NCTU, Taiwan
-September 8 – September 10, 2010</span></span>
+September 8 – September 10, 2010</span>
 See also the [Chinese workshop
 website](http://esciedu.nctu.edu.tw/eeglab_workshop/)
 

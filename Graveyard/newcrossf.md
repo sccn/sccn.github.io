@@ -1,10 +1,8 @@
 ---
 layout: default
-title: sample dataset description
-parent: Reference Topics
-grand_parent: Tutorials
 ---
-### Computing component cross-coherences
+Computing component cross-coherences
+====
 
 To determine the degree of synchronization between the activations of
 two components, we may plot their event-related cross-coherence (a

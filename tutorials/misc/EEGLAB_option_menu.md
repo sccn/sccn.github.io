@@ -3,11 +3,7 @@ layout: default
 title: EEGLAB preferences menu
 parent: Reference Topics
 grand_parent: Tutorials
-nav_order: 6
 ---
-
-
-
 The EEGLAB preferences menu
 ========================
 

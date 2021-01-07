@@ -1,9 +1,5 @@
 ---
 layout: default
-title: BESA (outdated)
-parent: Reference Topics
-grand_parent: Tutorials
-nav_order: 11
 ---
 DIPFIT vs BESA study using the spherical head model
 --------
