@@ -44,6 +44,8 @@ check-box with checkbox
 
 insure to ensure
 
+Matlab to MATLAB
+
 Printing and editing EEGLAB figures
 -----------------------------------
 

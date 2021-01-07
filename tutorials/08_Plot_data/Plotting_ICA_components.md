@@ -108,7 +108,7 @@ The following text is displayed on the Matlab command line:
     ....
 ```
 
-*"Percent variance acounted for"* (pvaf) compares the variance of the data
+*"Percent variance accounted for"* (pvaf) compares the variance of the data
 *minus* the (back-projected) component to the variance of the whole data.
 Thus, if one component accounts for all the data, the data minus the
 component back-projection will be 0, and pvaf will be 100%.
@@ -149,8 +149,8 @@ To plot the contribution of component ERPs to the data ERP, select
 which calls the [pop_envtopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_envtopo.m) function. 
 Simply press *OK* to plot the 7
 components that contribute the most to the average ERP of the dataset.
-Note that artifactual components can be subtracted from the data prior to
-plot the ERP using the *Indices of components to subtract ...* edit
+Note that artifactual components can be subtracted from the data before
+plotting the ERP using the *Indices of components to subtract ...* edit
 box. Press *Ok*.
 
 

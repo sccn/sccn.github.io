@@ -3,8 +3,18 @@ layout: default
 title: EEGLAB Bugs
 parent: Other documents
 ---
-EEGLAB BUGS <span style="color: green">- DONE</span>
+EEGLAB bugs <span style="color: green">- DONE</span>
 ===
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 Dealing with EEGLAB bugs and suggestions
 ---
@@ -45,6 +55,36 @@ If you encounter a bug:
         Once you press the "New issue" button, you will be guided on how
         on the type of information needed to report your bug.
 
+Mex files errors in EEGLAB
+---
+
+EEGLAB itself does not include any
+precompiled functions (also called mex functions). If you get an error "could not locate mex file" or any related mex file
+error, do not blame EEGLAB. However, some
+external modules use mex files for reading binary data files or
+performing source localization. Usually, an error indicates the
+precompiled file is not available for your platform (it would thus need
+to be recompiled, something you can sometimes do yourself - for more
+information, see below). There are mainly four modules in EEGLAB that use mex
+files.
+
+-   Fieldtrip functions: If you get an error that some functions in the
+    Fieldtrip folder cannot be found, refer to the [Fieldtrip
+    documentation](https://www.fieldtriptoolbox.org/faq/matlab_complains_about_a_missing_or_invalid_mex_file_what_should_i_do/)
+    for how to recompile such functions.
+
+-   BIOSIG: Some release of BIOSIG contains some updated mex files so
+    you might want to check if you have the latest version of BIOSIG.
+    Sometimes BIOSIG does not preserve backward compatibility so you may
+    experience problem when reading data after updating BIOSIG.
+
+-   ANT plugin: The ANT plugin was made by the ANT company. Contact
+    [ANT](mailto:info@ant-neuro.com) for an updated version of the
+    compiled binaries.
+
+-   ERPSS plugin: Simply recompile decompresserpss.c (type "mex
+    decompresserpss.c")
+
 Some known EEGLAB bugs and/or missing features:
 ---
 
@@ -62,10 +102,7 @@ Some known EEGLAB bugs and/or missing features:
 
 -   *Spectral analysis (with no Matlab Signal Processing Toolbox):*
     The spec.m function emulates the function psd.m but not the function
-    pwelch.m (psd.m was replaced by pwelch.m, beginning with EEGLAB 4.3,
-    for [technical
-    reasons](http://www.mathworks.com/support/solutions/data/24750.shtml)).
-    As a result, the scaling of the spectrum (by the spectopo.m function
+    pwelch.m. As a result, the scaling of the spectrum (by the spectopo.m function
     only) may differ. Also, for unknown reasons, the spec.m function
     cannot handle frequencies that have been filtered out and may return
     inaccurately high power at these frequencies.
