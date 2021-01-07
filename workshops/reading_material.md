@@ -3,9 +3,10 @@ layout: default
 title: Reading material
 permalink: /workshops/reading_material.html
 parent: Workshops
-
 ---
-
+<script>
+jtd.setTheme('no-text-align');
+</script>
 
 Relevant papers describing EEGLAB processing:
 ----------------------------------------------
