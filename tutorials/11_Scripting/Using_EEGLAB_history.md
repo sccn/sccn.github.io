@@ -247,7 +247,7 @@ example, *doitagain.m*), load a different dataset, and then run the
 script from the MATLAB command line. Note that the script file
 *doitagain.m* must be in your current MATLAB path, which usually
 includes the current working directory. Read the help messages for
-MATLAB functions *path()* and *addpath()* to learn more about the MATLAB
+MATLAB functions *path.m* and *addpath.m* to learn more about the MATLAB
 path. Step by step instructions are provided below:
 
 1.  Load all the datasets you wish to process into EEGLAB.

@@ -296,7 +296,7 @@ variance threshold and the *STUDY* contains 10 subjects, the average
 number of cluster will be set to 20 - so each cluster will contains on
 average 10 components. In this case, we have a reduced number of subject, so enter 11 to increase the number of component per cluster.
  
-An option for the *kmeans()* algorithm can relegate
+An option for the *kmeans.m* algorithm can relegate
 *outlier* components to a separate cluster. Outlier components are
 defined as components further than a specified number of standard
 deviations (3, by default) from any of the cluster centroids. To turn

@@ -8,7 +8,7 @@ Plotting ERP images
 ====================
 
 Data averaging collapses the dynamic information in the data, ignoring
-inter-trial differences which are large and may be crucial for
+inter-trial differences, which are large and may be crucial for
 understanding how the brain operates *in real-time*. Here, we show how to use EEGLAB to make 2-D ERP-image plots of
 collections of single trials, sorted by any of many possibly relevant
 variables. In ERP-image plots, EEG data epochs (trials) are first sorted along some
@@ -29,9 +29,9 @@ rectangular color (or monochrome) image. For more background information on how 
 
 Basic plotting options
 -----------------------
-We use here the tutorial dataset as it was after extracting data epochs. Select menu item <span style="color: brown">File → load existing dataset</span> and select the tutorial file "eeglab_data_epochs_ica.set" located in the "sample_data" folder of EEGLAB. Then press *Open*.
+We use here the tutorial dataset as it was after extracting data epochs. Select the <span style="color: brown">File → load existing dataset</span>  menu item and select the tutorial file "eeglab_data_epochs_ica.set" located in the "sample_data" folder of EEGLAB. Then press *Open*.
 To plot an ERP image, we must first choose a channel to plot. This is
-best done when plotting ERPs. In this section of the tutorial, we will use occipital channel *POz* (index 27).
+best done when plotting ERPs. In this section of the tutorial, we will use the *POz* occipital channel (index 27).
 
 ### Plotting a raw ERP image
 
@@ -91,7 +91,7 @@ decimate some of the (smoothed) ERP-image lines. Entering *4* in the
 decimate (reduce) the number of lines in the ERP image by a factor of
 *4*. If the *Smoothing* width is (in this case) greater than *2\*4 =
 8*, no information will be lost from the smoothed image.
-To image our sample dataset, it is not necessary to decimate,
+To image our sample dataset, it is not necessary to decimate
 since we have relatively few (80) trials.
 
 Sorting trials in ERP images
@@ -103,7 +103,7 @@ sort them in order of any other variable that is coded as an event field
 belonging to each trial in the dataset.
 
 Altogether, there are five trial sorting methods available
-in *erpimage()*. Some methods are only available when calling *erpimage()* from the command line:
+in *erpimage.m*. Some methods are only available when calling *erpimage.m* from the command line:
 - Sort by the sorting variable (*sortvar* command-line option). This sorts input data trials (epochs) by the sorting variable (for example, RT) input for
 each epoch of the input data.
 -   Sort by value (*valsort* command-line option). Here, trials are sorted in order of their
@@ -124,7 +124,7 @@ Below, we demonstrate sorting the same trials in order of response time event la
 ### Sorting trials by reaction time
 
 Use menu item <span style="color: brown"> Plot → Channel ERP image</span> to call the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window again:
-- First press the button *Epoch-sorting field*, and select *Latency*. 
+- First press the button *Epoch-sorting field*, and select *latency*. 
 - Next, press the button *Event type*, and select *rt*. 
 - Enter *Event time
 range* of *-200 800* ms to plot activity immediately following
@@ -153,7 +153,7 @@ In general, the user can sort on any event field value.
 
 For example, call back the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window, press
 the *Epoch-sorting Field* button, and select *position* instead of
-*latency*. Remove *rt* from the *Event type* box. Finally enter *yes*
+*latency*. Remove *rt* from the *Event type* box. Finally, enter *yes*
 under the *Rescale* box. Press *Ok*. 
 
 In the resulting plot, trials are sorted by stimulus position (1
@@ -169,7 +169,7 @@ variable explicitly (see [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php
 
 ![](/assets/images/1ERPimageposition.gif)
 
-### Using the *Align* paramater
+### Using the *Align* parameter
 
 Now, reselect the *latency* of the *rt* events as the trial-sorting
 variable (press the *Epoch-sorting field* button to select *latency*
@@ -184,7 +184,7 @@ The latency value given in *Align* will be used for specifying time
 To select the median of the trial-sorting values (here, median
 reaction time) for specifying the new time 0 (which will be at the
 response time minus the median reaction time), our convention is to
-use *Inf* the MATLAB symbol for infinity in this box (as below). If
+use the MATLAB symbol for infinity (*Inf*) in this box, as shown below. If
 you want to set a different value (for instance, while plotting an
 ERP image for one subject, you might want to use the median reaction
 time you computed for all your subjects), simply enter the value in ms
@@ -200,7 +200,7 @@ returns these values as *NaN*s (MATLAB not-a-number).
 
 
 The ERP image figure (below) will be created. Here, the straight
-vertical line at time about 400 ms indicates the moment of the subject
+vertical line at about 400 ms post-stimulus indicates the moment of the subject
 response, and the curving vertical line, the time at which the
 stimulus was presented in each trial. Compare the figure below with
 the previous non-aligned, RT-sorted ERP image.
@@ -211,10 +211,10 @@ the previous non-aligned, RT-sorted ERP image.
 
 ### Sorting trials by EEG phase value
 In a [2004](http://www.sccn.ucsd.edu/papers/TICS04.html) publication, we have discussed
-ways in which the event-related EEG dynamics occurring in a set of data
+ways how the event-related EEG dynamics occurring in a set of data
 epochs time-locked to some classes of events are not limited to nor
 completely expressed in features of their time-locked trial average or
-Event-Related Potential (ERP). To do this, we used the phase-sorted ERP-image.
+Event-Related Potential (ERP). To do this, we used phase-sorted ERP-images.
 
 Next, we will experiment with sorting trials by their EEG phase value in
 a specified time/frequency window. Though *rt* values can be shown in
@@ -227,7 +227,7 @@ menu:
 stimulus onset
 - Clear the contents of the *Sort/align trials by epoch event values* fields *Epoch-sorting field*, *Event type(s)* and *Align* inputs
 
-then in in the *Sort trials by phase* section, complete the following fields as indicated:
+then in the *Sort trials by phase* section, complete the following fields as indicated:
 - *Sort trials by phase → Frequency*: *10* (Hz) 
 - *Sort trials by phase → Window center*: *0*(ms) 
 
@@ -240,7 +240,7 @@ We then obtain the ERP-image figure below.
 ![](/assets/images/1ERPimage10.gif)
 
 
-Note just before the stimulus onset the red oblique stripe: this is
+Note that the activity before the stimulus onset the oblique red stripe is
 produced by phase sorting: the phase (i.e., the latency of the wave
 peaks) is uniformly distributed across the re-sorted trials.
 
@@ -251,7 +251,7 @@ ms to 150 ms. After the wavelet was applied to each trial, the
 function sorted the trials in order of the phase values (-pi to pi)
 and displayed an ERP image of the trials in this (bottom-to-top)
 order. The dominance of circa 10-Hz activity in the trials, together
-with the 10-trial smoothing we applied makes the phase coherence
+with the 10-trial smoothing we applied, makes the phase coherence
 between adjacent trials obvious in this view.
 
 Phase-sorted ERP images
@@ -264,13 +264,13 @@ phase-locking (or not) to experimental events.
 
 To see the phase sorting more clearly, keep the same settings, but
 this time enter *50* under *percent low-amp. trials to ignore*. Here,
-the 50% of trials with lowest 10-Hz (alpha) power in the selected
+the 50% of trials with the lowest 10-Hz (alpha) power in the selected
 time window will be rejected; only the other 40 trials (larger-alpha 50%)
 will be imaged. Here (below), we can better see how the alpha wave
-seems to resynchronize following the stimulus. Before time 0, alpha
-phase is more or less random (uniformly distributed) and there is
+seems to resynchronize following the stimulus. Before time 0, the alpha
+phase is more or less random (uniformly distributed), and there is
 little activity in the average ERP. At about 200 ms, alpha activity
-seems to (partially) synchronize with the stimulus and an N300 and
+seems to (partially) synchronize with the stimulus, and an N300 and
 P400 ERP appears.
 
 
@@ -280,14 +280,14 @@ P400 ERP appears.
 
 Our interpretation (above) of these trials as representing phase
 synchronization need not be based on visual impression alone. To
-statistically assess whether alpha activity is partially resynchronized
+statistically assess whether the alpha activity is partially resynchronized
 by (i.e., is partly phase-reset by) the stimuli, we need to plot the
 phase coherence (or phase-locking factor) between the stimulus sequence
 and the post-stimulus data. 
 
 This measure, the *Inter-Trial Coherence
 (ITC)* our terminology, takes values between 0 and 1. A value of 1 for
-the time-frequency window of interest indicates that alpha phase (in
+the time-frequency window of interest indicates that the alpha phase (in
 this latency window) is constant in every trial. A value of 0 occurs
 when the phase values in all trials are uniformly distributed around the
 unit circle. In practice, values somewhat larger than 0 are expected for
@@ -300,13 +300,13 @@ Inter-Trial Coherence (ITC) is defined and described in detail in the [time-freq
 
 To plot the ITC in our ERP-image figure, we choose to enter the
 following parameters in the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window:
-- omit the *Percent low-amp. of Trials to ignore* value (or enter 0). 
-- under *Sort trials by phase → Frequency* enter *9 11*
--  also enter *9 11* in the *Inter-TrialCoherence → Frequency* box
+- Omit the *Percent low-amp. of Trials to ignore* value (or enter 0)
+- Under *Sort trials by phase → Frequency* enter *9 11*
+- Also enter *9 11* in the *Inter-TrialCoherence → Frequency* box
 - Enter *0.01* under *Signif. level*. This value is
 *NOT* corrected for multiple comparisons.
 
-and press *Ok*.
+Then, press *Ok*.
 
 Note that these two entries must be equal (the window actually
 prevents the user from entering different values). Entering a
@@ -354,19 +354,19 @@ Plotting spectral amplitude ERP images and additional options
 There are several other [erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=erpimage.m) options that we will
 briefly illustrate in the following example: 
 
-- the *Image amps* entry on the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window allows us to image amplitude of
+- The *Image amps* entry on the [pop_erpimage.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_erpimage.m) window allows us to image amplitude of
 the signal (at the frequency of interest) in the single trials, instead
 of the raw signals themselves. Check this box. 
-- the *Plot spectrum (minHz maxHz)* entry adds a small power spectrum plot to the top right
+- The *Plot spectrum (minHz maxHz)* entry adds a small power spectrum plot to the top right
 of the figure. Enter *2 50* to specify the frequency limits for this
 graph.
-- change the *Epoch-sorting field* box back to *latency* and *Event
+- Change the *Epoch-sorting field* box back to *latency* and *Event
 type* back to *rt*. 
-- enter *500* under *Mark times* to plot a
+- Enter *500* under *Mark times* to plot a
 vertical mark at 500 ms (here for illustrative purpose only)
-- enter *-500 1500* under *Time limits* to zoom in on a specific time
+- Enter *-500 1500* under *Time limits* to zoom in on a specific time
 window
-- enter *-3 3* under *Amplitude limits (dB)*.
+- Enter *-3 3* under *Amplitude limits (dB)*.
 
 ![](/assets/images/I85pop_erpimage.jpg)
 

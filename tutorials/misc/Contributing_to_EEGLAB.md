@@ -486,7 +486,7 @@ menu-item label (typically the name of your extension).
 If you want your extension to interact with the EEGLAB history
 mechanism, you should take advantage of the second ('try_strings') and
 third ('catch_strings') arguments to your eegplugin_ function call. The
-second argument (see *eegplugin_test()* above) contains commands
+second argument (see *eegplugin_test.m* above) contains commands
 (organized into a MATLAB structure) that check the input dataset and
 attempt to execute your command. The third argument ('catch_strings')
 includes commands to handle errors and add the contents of the LASTCOM
@@ -591,7 +591,7 @@ uimenu( submenu, 'label', 'Run PCA', 'callback', finalcmd);
 Note: You may use *eegplugin_* functions to append new extension-related
 menu items under different EEGLAB menu headings. Above, we add an item
 (labeled 'Run PCA') to the <span style="color: brown">Tools</span> menu by
-specifying '' 'tag','tools' '' in the *findobj()* call. If the specified
+specifying '' 'tag','tools' '' in the *findobj.m* call. If the specified
 tag were *import data*, EEGLAB would add the specified menu
 item to the <span style="color: brown">File → Import data</span> sub-menu. Using
 the tag *import epoch* would add the specified menu item to

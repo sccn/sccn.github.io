@@ -83,7 +83,7 @@ Workshop Program
 
 <span style="color: green">**-- Break (2:30-3:00) --** </span>
 
-<span style="color: purple">3:00 - 3:30 am -- Introduction to the STUDY gui (Julie Onton)</span>
+<span style="color: purple">3:00 - 3:30 am -- Introduction to the STUDYGUI(Julie Onton)</span>
 
 <span style="color: orange">3:30 - 5:00 pm -- Plot and edit clusters (Julie Onton)</span>
 

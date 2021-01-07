@@ -125,9 +125,9 @@ EEGLAB menu but only from the command line.
 pop_ function vs signal processing functions
 ----------------------
 
-As mentioned *pop_funcname()* function is
+As mentioned *pop_funcname.m* function is
 a graphic user interface (gui) function that operates on the *EEG* data
-structure using the stand-alone processing function *funcname()*. The
+structure using the stand-alone processing function *funcname.m*. The
 stand-alone processing function, which has no knowledge of the dataset
 structure, can process any suitable data matrix, whether it is an EEGLAB
 data matrix or not.

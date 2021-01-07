@@ -7,16 +7,15 @@ grand_parent: Tutorials
 ---
 Plotting channel spectra and maps
 =====================
-In addition to reading the tutorial sections below, you may want to watch the short video on computing spectra in EEGLAB (hosted on Youtube) below. In particular, we recommend video 1 and 2 describing the Welch method used in this section, and video 5, describing the EEGLAB functions used in this section
+Besides reading the tutorial sections below, you may want to watch the short video on computing spectra in EEGLAB (hosted on Youtube) below. In particular, we recommend video 1 and 2 describing the Welch method used in this section, and video 5, describing the EEGLAB functions used in this section.
 
 <a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN2TAoLHVW5NvNmJtwiHurzw"><img align="center" width="400" src= "/assets/images/yt_spectopo2.png"></a>
 
 Load the sample EEGLAB dataset
 -----------------
 
-Select menu item <span style="color: brown">File</span> and press sub-menu item
-<span style="color: brown">Load existing dataset</span>. Select the tutorial file "eeglab_data.set" which is distributed with
-the toolbox, located in the "sample_data" folder of EEGLAB. Then press *Open*.
+Select the <span style="color: brown">File</span> menu item and press the
+<span style="color: brown">Load existing dataset</span> sub-menu item. Select the tutorial file "eeglab_data.set" located in the "sample_data" folder of EEGLAB. Then press *Open*.
 
 ![Image:Pop_loadset.png](/assets/images/Pop_loadset.png)
 
@@ -48,8 +47,8 @@ compute and plot spectra in specific time windows in the data. The
 entering a number close to 0) or to return more definitive measures
 (by entering a number closer to 100).
 
-On the MATLAB command line, the parameter for the calculating the spectrum using
-the Welch method are exposed (a window size of 128 sample with no overlap between
+On the MATLAB command line, the parameters for calculating the spectrum using
+the Welch method are exposed (window size of 128 samples with no overlap between
 windows). We can change these parameters. Select menu item <span style="color: brown">Plot → Channel spectra and maps</span> and in the *Spectral and scalp map options* edit box, enter
 " *'winsize', 256, 'overlap', 128* ". 
 
@@ -67,7 +66,7 @@ Another menu item, <span style="color: brown">Plot → Channel properties</span>
 activity spectrum, and an ERP-image plot of its activity in
 single-epochs.
 
-*Note*: The MATLAB Signal Processing Toolbox should to be in your MATLAB path to use these functions. EEGLAB has replacement functions in case the signal processing toolbox is not present, but their capabilities are limited. 
+*Note*: The MATLAB Signal Processing Toolbox should be in your MATLAB path to use these functions. EEGLAB has replacement functions in case the signal processing toolbox is not present, but their capabilities are limited. 
 
 *Note*: It is also possible to plot electrode locations in the spectral
 graph by entering '' 'electrodes', 'on' '' in the lowest text box

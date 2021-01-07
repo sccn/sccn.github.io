@@ -23,7 +23,7 @@ Change the sampling rate
 The most common use for <span style="color: brown">Tools → Change sampling
 rate</span> is to reduce the sampling rate to save memory and disk
 storage. A [pop_resample.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_resample.m) window pops up, asking for the new
-sampling rate. The function uses MATLAB *resample()* (in the Signal
+sampling rate. The function uses MATLAB *resample.m* (in the Signal
 Processing toolbox-- if you do not have this toolbox, it will use the
 slow MATLAB function *griddata*).
 

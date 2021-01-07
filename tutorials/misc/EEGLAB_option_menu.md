@@ -4,148 +4,92 @@ title: EEGLAB preferences menu
 parent: Reference Topics
 grand_parent: Tutorials
 ---
-The EEGLAB preferences menu
+The EEGLAB preferences menu <span style="color: green"> - Done</span>
 ========================
 
-This section is intended for users who use large EEGLAB data-sets and
-need to optimize their use of main memory (RAM) and disk space. 
+This section is intended for users who wish to customize their EEGLAB settings. If there is a setting you think should be optional, please let us know. 
+
+Call the EEGLAB preference menu item
+---
+
 To
-modify the relevant EEGLAB options, select <span style="color: brown">File → Preferences </span>. 
+modify the relevant EEGLAB options, select <span style="color: brown">File → Preferences</span>. 
 
-If you cannot modify the file *eeg_options.m* in
-the toolbox distribution, the window below will pop up.
+By default, the EEGLAB option file (*eeg_options.m*) is saved in your home folder. In the rare case where EEGLAB cannot write in your home folder, the following window will pop up.
 
+![](/assets/images/eeglaboptions_warning.png)
 
-
-![Image:Option1.gif ](/assets/images/Option1.gif)
-
-
-
-Simply press *Yes*. A copy of *eeg_options.m* will be stored in the
-local directory and modified when you change any of the EEGLAB options.
-(Note: For EEGLAB to use this file, the current directory (.) must
-appear BEFORE the EEGLAB toolbox directory in the MATLAB path; see
-*path()*). If the original *eeg_option.m* file is writable, EEGLAB will
-modify it instead.
-
-
-If the original distribution copy of the options file is modified, the
-new options will affect all EEGLAB sessions using that file. 
-
-If, however, EEGLAB (or the user from the MATLAB or shell commandline)
-copies the options file to the current working directory, then only
-EEGLAB sessions having this directory in their MATLAB path (before the
-EEGLAB distribution directory) will follow the modified options. 
-
-It is
-advised to have only one such option file to avoid confusion. 
+If this is the case, edit the *icadefs.m* file and specify another directory for the *eeg_options.m* file using the *EEGOPTION_PATH* parameter.
 
 Now the following window will pop up.
 
-
-
-![Image: Memory option gui2.png](/assets/images/Memory_option_gui2.png)
-
-
-### STUDY and file options
-
+![](/assets/images/eeglaboptions.png)
 
 These options are for processing multiple datasets in EEGLAB STUDY.
 
 - When the top option is set, EEGLAB can hold in memory more than one
-data-set at a time. New data-sets are created by most of the operations
-called under the <span style="color: brown">Tools</span> menu. 
+dataset at a time. New datasets are created by most of the operations
+called under the <span style="color: brown">Tools</span> menu. With this option set, users can undo dataset changes immediately by going back to
+working with the parent (previous) dataset (unless they set the
+"overwrite dataset" option when they saved the new dataset).
 
-With this option set, users can undo data-set changes immediately by going back to
-working with the parent (previous) data-set (unless they set the
-"overwrite data-set" option when they saved the new data-set).
-
-Processing multiple data-sets may be necessary when comparing data-sets
-from separate subjects or experimental conditions.
-
-
-- The second option allow to save the raw data in a separate file. This
-will be useful in future versions of EEGLAB to read one channel at a time
-from disk. This also allow faster reading of data-set when they are part
-of a STUDY.
-
-
-- The third option [Claire's note: does it indeed still writes in MATLAB7.5?]
-
-
-If the 3rd option is set, all the ICA activations (time courses of
-activity) will be saved on disk to save computation time.
-
-### Memory options
-The following options maximize memory usage.
-
-
-- The fist option forces EEGLAB to using single precision number. Unless
-you have a good reason to do so, you should leave that checkbox checked.
-
-
-- The second option allow to process EEG dataset directly on disk, as this
-is done for fMRI. This should remove any constraint on file size.
-
-However, unlike SPM which is used to process fMRI data, EEGLAB was not
-originally designed with this type of processing in mind. To be able to
-use all of the EEGLAB functions that use passage of parameters by value,
-we had to find a way to pass the data by reference, something that is
-usually not possible in MATLAB. This means that we had to implement some
-hacks. We have a series of test (about 40) that check that the hack
-functions are doing what they are supposed to do. However, it is hard to
-guarantee that this implementation is bug free especially since it is
-not the default implementation and not heavily used by users which would
-help track potential bugs. Nevertheless this implementation passed the
-about 5000 EEGLAB independent test cases. 
-It is quite unlikely that
-results of computation will be corrupted. Instead you can expect some
-rare functions will return an error while they should not.
-
-
-- The third option allow to use EEG objects instead of EEG structures.
-From the user perspective, it will not change anything. However, it
-allows EEGLAB to process objects that are not native to EEGLAB. For
-example, another software could use EEGLAB function by passing on an
-object as long as this objects behaves a specific way. 
-  
-This option
-should only be used by expert users.
+- The second option allows saving the raw EEG data in a separate file. This option is no longer the default (as of 2021) as there are no advantages to saving two files anymore.
 
 ### ICA options
 
-- The first option allow to pre-computed the ICA component activities.
+- The option in this section allows pre-computing ICA component activities.
 This may nearly double the main memory (RAM) required to work with the
-data-set when you have ICA components. Otherwise, ICA activations will
-be computed by EEGLAB only as needed, e.g. each time EEGLAB calls a
+dataset when you have ICA components. Otherwise, ICA activations will
+be computed by EEGLAB only as needed, e.g., each time EEGLAB calls a
 function that requires one or more activations. In this case, only the
 activations needed will be computed, thus using less main memory.
 
+### Current folder option
 
-- The second option scales ICA component activities to RMS microvolt. 
+- The folder option is used to remember the last folder when reading datasets. This option is set by default but may be bothersome to expert Matlab users who expect GUIs to open files in the current Matlab folder.
+
+### EEG connectivity and support options
+
+- The first option in this list allows settings advanced options (see also below). For this change to take effect, you must close and reopen the current GUI.
+
+- The next three options pertain to EEGLAB connectivity, checking for
+new versions of EEGLAB, and allowing to see menu items from previous EEGLAB versions. 
+  
+- The last option, "size of cache", allows users to specify cache size limit in RAM when working with EEGLAB studies.
+
+### Advanced option interface
+
+If you select the option to show *advanced options*, you will be able to set additional options (not shown). These should be used with care as they could make EEGLAB unstable. Below is the list of additional advanced options.
+
+- Files may be written using Matlab 6.5 file format, which is the most compatible format. Uncheck this option to write in Matlab 7.3 format, which allows saving individual data files larger than 2Gb.
+
+- You may force EEGLAB to use double-precision numbers. Unless
+you have a good reason to do so, you should leave that checkbox checked as EEGLAB will automatically convert the data to double-precision whenever this becomes necessary (filtering, running ICA, etc.).
+
+- You may ask EEGLAB to process EEG datasets directly on disk (memory mapping), as this
+is done for fMRI. This should remove any constraint on file size. This is a beta option that should only be used if you have memory limitations that prevent you from processing your data. Using this option may potentially create problems with EEGLAB plugins.
+
+- You may use EEG objects instead of EEG structures.
+From the user perspective, it will not change anything. However, it
+allows EEGLAB to process objects that are not native to EEGLAB. For
+example, another software could use EEGLAB function by passing on an
+object as long as it behaves in a specific way. This option
+should only be used by expert users, as it could trigger instabilities.
+
+- Another option scales ICA component activities to RMS microvolt. 
   This
 scaling does not change anything in terms of data processing. When
 scaling ICA component activities, ICA scalp topographies are scaled as
-well so the product of the two remains constant. This scaling was not
-performed in early version of EEGLAB. There is no reason to uncheck that
+well, so the product of the two remains constant. This scaling was not
+performed in early versions of EEGLAB. There is no reason to uncheck that
 option unless you want to preserve backward compatibility with early
 versions of EEGLAB.
 
-### Folder, MATLAB toolboxes, and EEG connectivity and support options
-
-- The folder option is used to remember folder when reading data-sets. 
-
-- The
-next option about using MATLAB toolboxes allow to ignore such toolboxes
+- Another option allow ignoring MATLAB toolboxes
 even if they are present in the path. This may be useful when your
 university has reached its quota in terms of toolbox users. In this
-case, the extra toolbox functions exist in the path but you may not use
-them. 
-  
-- The next 3 options pertain to EEGLAB connectivity, checking for
-new version of EEGLAB and allowing to see menu items from previous EEGLAB versions. 
-  
-- The last option "size of cache" allows user to specify cache size limit in RAM when working with STUDY.
+case, the extra toolbox functions exist in the path, but you may not use
+them. Do not check that box unless you have a very good reason to do so, as it could make MATLAB unstable.
 
 The icadefs.m file
 -------------------
@@ -153,21 +97,17 @@ Using a text editor, you should edit file "icadefs.m" in the
 distribution before beginning to use EEGLAB. This file contains EEGLAB
 constants used by several functions. In this file, you may:
 
--   Specify the url of the EEGLAB tutorial:
-    
-     TUTORIAL_URL = '<http://sccn.ucsd.edu/wiki/EEGLAB>'; % online version 
+- Change the default folder for the EEGLAB option file
 
--   Reference the fast binary version of the *runica()* ICA function
-    *ica* (see the [Binica repository](https://github.com/sccn/binica).
+- Change y-axis direction for plotting ERPs
 
-> ICABINARY = 'ica_linux2.4'; % \<=INSERT name of ica executable for
-> binica.m
+- Change font and color settings of the EEGLAB interface
 
-You can also change the colors of the EEGLAB interface using other
-options located in the *icadefs* file.
+-   Reference the binary version of the *runica.m* ICA function
+    *ica* (see the [Binica repository](https://github.com/sccn/binica). For example, *ICABINARY = 'ica_linux2.4'*.
 
 The dipfitdefs.m file
 ----------------------
 The dipfitdefs.m contains other constants pertaining to dipole
-localization, default models, default electrode files.
+localization, default models, and default electrode files.
 

@@ -59,7 +59,7 @@ environment.
 <u>Notes: </u>
 
 -   Normally, the user might want to accumulate and save the ERSPs and
-    other output variables returned by *newtimef()* above to make possible
+    other output variables returned by *newtimef.m* above to make possible
     further quantitative comparisons between subjects.
 
 -   In the current version of EEGLAB, the cross-coherence function {

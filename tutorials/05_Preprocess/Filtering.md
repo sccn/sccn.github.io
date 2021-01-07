@@ -63,7 +63,7 @@ to ensure that phase delays introduced by the filter are nullified. When using a
 
 If the MATLAB
 Signal Processing Toolbox is present, EEGLAB uses the MATLAB routine
-*filtfilt()*. This applies the filter forward and then again backward
+*filtfilt.m*. This applies the filter forward and then again backward
 to ensure that phase delays introduced by the filter are nullified. 
 
 If the MATLAB Signal Processing toolbox is not present, EEGLAB may use a
@@ -77,7 +77,7 @@ accessed from the menu item <span style="color: brown">Tools → Filter the data
 graphical interface as the FIR filtering option described above.
 Although IIR filters usually introduce different phase delays at
 different frequencies, this is compensated for by applying
-filtering in reverse using MATLAB function *filtfilt()*. In practice,
+filtering in reverse using MATLAB function *filtfilt.m*. In practice,
 infinite impulse response filters are shorter than FIR filters when used for high pass filtering (a few samples as compared thousands of them for FIR).
 
 There is much more to be learned about filtering and more filtering options available in MATLAB itself. There is also no ideal filter for EEG data. In practice, we suggest you talk to your colleagues about the pros and cons of using different filter solutions. See also our [Q/A filtering page](/others/Firfilt_FAQ.html).
