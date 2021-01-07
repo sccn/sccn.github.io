@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Download
+title: Tutorial data
 permalink: /workshops/download.html
 parent: Workshops
 
