@@ -8,9 +8,7 @@ parent: Other documents
 
 - Look at all the plugins and update documentation link (in database) pointing to old wiki pages
 
-- Plugin list
-
-BINICA https://github.com/sccn/binica/wiki
+- Add intro to each main section of the tutorial
 
 - Check slow reading of EEGLAB openneuro dataset
 

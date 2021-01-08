@@ -7,12 +7,22 @@ grand_parent: Tutorials
 
 The compiled version of EEGLAB <span style="color: green">- DONE</span>
 =========================
+{: .no_toc }
 
 EEGLAB exists as a compiled binary for Mac, Windows, and Ubuntu and
 may be downloaded on the [EEGLAB download
 page](https://sccn.ucsd.edu/eeglab/download.php). The video below shows how to install the compiled version of EEGLAB.
 
 <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/_F-5spN1FL4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> 
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 Installation
 ------------
@@ -74,13 +84,28 @@ Similarity between the compiled and the MATLAB version of EEGLAB
     code).
 -   It is not possible to modify EEGLAB source code.
 
-Can I compile EEGLAB myself?
-----------------------------
 
-Compiling EEGLAB usually consists of opening the "eeglab.prj" file (in
-the root EEGLAB folder) using the MATLAB Compiler Graphical App, and
-pressing the *package* button. However, there might be some path issues
-that require fixing on your system. Ask us for detailed instructions.
+Frequently asked questions
+--------------------------
+
+-   Can I run some of my MATLAB scripts on the EEGLAB compiled
+    version? Yes, as long as they use standard MATLAB functions or EEGLAB
+    functions.
+
+-   Is the compiled code faster than the non compiled one? No, it is the same speed as the MATLAB runtime engine still interprets it.
+-   Is it legal since I do not own MATLAB? Yes, it is perfectly legal.
+    Although it is illegal to run a pirated version of MATLAB, it is
+    perfectly legal to distribute the MATLAB Runtime Engine and compiled
+    MATLAB code.
+-   Can I use this program for commercial applications such as my
+    private clinical practice? EEGLAB is a research software package, not a clinical software package. The program is provided as-is with no warranty
+    of any kind. Although the EEGLAB core code is released under a BSD
+    2.0 license that allows for commercial use, some of the plugins
+    included in the compiled version are not (this includes plugins
+    handling source reconstruction, for example).
+-   Trouble shooting! Do not hesitate to submit bug reports on the
+    [EEGLAB Gihub issue tracker](https://github.com/sccn/eeglab/issues)
+    if you encounter a problem running a compiled version of EEGLAB.
 
 How to check the integrity of the compiled version
 --------------------------------------------------
@@ -106,25 +131,105 @@ If all of the above checks, then the compiled EEGLAB version is
 considered verified. We check the version separately on Windows and
 Unix/MacOS.
 
-Frequently asked questions
---------------------------
 
--   Can I run some of my MATLAB scripts on the EEGLAB compiled
-    version? Yes, as long as they use standard MATLAB functions or EEGLAB
-    functions.
+Can I compile EEGLAB myself?
+----------------------------
 
--   Is the compiled code faster than the non compiled one? No, it is the same speed as the MATLAB runtime engine still interprets it.
--   Is it legal since I do not own MATLAB? Yes, it is perfectly legal.
-    Although it is illegal to run a pirated version of MATLAB, it is
-    perfectly legal to distribute the MATLAB Runtime Engine and compiled
-    MATLAB code.
--   Can I use this program for commercial applications such as my
-    private clinical practice? EEGLAB is a research software package, not a clinical software package. The program is provided as-is with no warranty
-    of any kind. Although the EEGLAB core code is released under a BSD
-    2.0 license that allows for commercial use, some of the plugins
-    included in the compiled version are not (this includes plugins
-    handling source reconstruction, for example).
--   Trouble shooting! Do not hesitate to submit bug reports on the
-    [EEGLAB Gihub issue tracker](https://github.com/sccn/eeglab/issues)
-    if you encounter a problem running a compiled version of EEGLAB.
+Compiling EEGLAB usually consists of opening the "eeglab.prj" file (in
+the root EEGLAB folder) using the MATLAB Compiler Graphical App, and
+pressing the *package* button. However, there might be some path issues
+that require fixing on your system. See detailed instructions below.
 
+### Manual compilation notes
+
+1. Clone EEGLAB with default plugins
+
+> ``` Matlab 
+> git clone --recurse-submodules https://github.com/sccn/
+> eeglab.git
+> ```
+
+2. Install additional plugins (plugins that are already installed will
+be skipped). Some folders from the plugins clean_rawdata
+and Fieldtrip should
+be removed to avoid compilation issues. Use the
+following script to install plugins and remove these folders:
+
+``` Matlab
+eeglab  % restart the fleshly installed eeglab
+
+% Installing plugins
+plugin_askinstall('ANTeepimport', 'eegplugin_eepimport', true);
+plugin_askinstall('bva-io', 'eegplugin_bva_io', true);
+plugin_askinstall('clean_rawdata', 'eegplugin_clean_rawdata', true);
+plugin_askinstall('dipfit', 'eegplugin_dipfit', true);
+plugin_askinstall('egilegacy', 'eegplugin_egilegacy', true);
+plugin_askinstall('Fieldtrip-lite', 'ft_defaults', true);
+plugin_askinstall('Fileio', 'ft_read_data', true);
+plugin_askinstall('firfilt', 'eegplugin_firfilt', true);
+plugin_askinstall('IClabel', 'eegplugin_iclabel', true);
+plugin_askinstall('Picard', 'picard_standard', true);
+plugin_askinstall('musemonitor', 'eegplugin_musemonitor', true);
+plugin_askinstall('neuroscanio', 'eegplugin_neuroscanio', true);
+plugin_askinstall('xdfimport', 'eegplugin_xdfimport', true);
+plugin_askinstall('iirfilt', 'iirfilt', true);
+plugin_askinstall('vised', 'vised', true);
+
+% Removing clean_rawdata files
+% For clean_rawdata, remove folder manopt/reference/m2html.
+CleanRawData_folder = fileparts(which('clean_rawdata.m'));
+rmdir(fullfile(CleanRawData_folder,'manopt','reference','m2html'), 's');
+
+% Removing FieldTrip files
+% For Fieldtrip remove folders compat, external/afni, external/spm8, external/spm12, external/gifti, external/eeglab, external/bemcp and external/npmk
+FieldTrip_folder = fileparts(which('ft_defaults.m'));
+rmdir(fullfile(FieldTrip_folder,'compat'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','afni'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','spm8'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','spm12'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','gifti'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','eeglab'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','bemcp'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','npmk'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','signal'), 's');
+```
+
+3. Open the Application compiler (Matlab tab "Apps" and button
+"Application compiler")
+
+3. Open the "eeglab.prj" file.
+
+4. Check the path for plugins. If a new version is available, rename the
+version in the eeglab.prj file. DO NOT RESAVE THE PROJECT IN THE APPLICATION COMPILER AS IT TENDS TO MESS UP PATHS FOR CROSS PLATFORM COMPILATION.
+
+4. Press "Package" and wait (usually 30 minutes or so)
+
+4. If successful, 3 folders are created. You may test the compiled
+EEGLAB version by running the program in the "for_testing" folder.
+
+4. Test the compiled version for potential runtime errors (see notes on
+testing
+[here](https://sccn.github.io/tutorials/misc/Compiled_EEGLAB.html#how-to-check-the-integrity-of-the-compiled-version)).
+On Mac and OSX use ./run_eeglab.sh MATLAB_PATH.
+
+> <span style="color: red">Known error: running eLoreta from DIPFIT, cannot find precompute_dpss</span>
+### Plugins selected for future inclusion
+
+Selected for future inclusion but require testing. If you have a plugin
+you want to include, please try compiling with the plugin and testing
+the plugin in the compiled EEGLAB version. If all is functional, email
+us at eeglab_at_sccn.ucsd.edu and your plugin will be included in the
+next release.
+
+Adding new plugins
+
+-   Download or clone plugin
+-   Add to eeglab.m
+-   Compile
+-   Update this page (create a pull request)
+
+| Plugin name       | Comment                                                                                               |
+|-------------------|-------------------------------------------------------------------------------------------------------|
+| Biosig            | Not necessary because included in Fieldtrip?                                                           |
+| MFFMatlabIO       | Issue with finding the JAR file at execution time; more debugging necessary before inclusion possible |
+| bids-matlab-tools | Not tested                                                                                            |
