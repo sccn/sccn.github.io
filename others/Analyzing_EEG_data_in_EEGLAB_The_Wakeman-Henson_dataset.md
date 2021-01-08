@@ -24,7 +24,11 @@ resulting effective brain sources.
 The data are organized according to the [BIDS format](https://bids.neuroimaging.io). You can read more on the specificities of the EEG-BIDS format [here](https://www.nature.com/articles/s41597-019-0104-8). EEGLAB  has dedicated BIDS tools called [bids-matlab-tools](https://github.com/sccn/bids-matlab-tools) to create files, export and import BIDS dataset. This is available  using the EEGLAB plugin manager and must be installed before running the code below. It is worthwhile spending a bit of time looking at how files are organized and named in BIDS, as we will follow this convention throughout.
 To know more about how EEGLAB interacts with BIDS file you can also watch this serie of short YouTube videos below. Click on the icon on the top right corner to access the list of videos in the playlist.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/playlist?list=PLXc9qfVbMMN3II4EnVQNjOeVl-UprWlnM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN3II4EnVQNjOeVl-UprWlnM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
 
 ## Download the data
 The data were prepared (i.e. EEG extracted, timing corrected,  electrode position re-oriented, event recorded) by Dung Truong, Ramon  Martinez & Arnaud Delorme and can be downloaded from [OpenNeuro 10.18112/openneuro.ds002718.v1.0.3.](https://openneuro.org/datasets/ds002718/versions/1.0.3) 
