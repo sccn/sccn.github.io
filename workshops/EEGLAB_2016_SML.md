@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2016 SML
 permalink: /workshops/EEGLAB_2016_SML.html
+parent: Workshops
 nav_exclude: true
 ---
 

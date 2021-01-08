@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2010 Finland
 permalink: /workshops/EEGLAB_2010_Finland.html
+parent: Workshops
 nav_exclude: true
 ---
 <span style="color: red">10th EEGLAB Workshop</span>

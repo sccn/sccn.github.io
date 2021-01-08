@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2009 Bloomington
 permalink: /workshops/EEGLAB_2009_Bloomington.html
+parent: Workshops
 nav_exclude: true
 ---
 

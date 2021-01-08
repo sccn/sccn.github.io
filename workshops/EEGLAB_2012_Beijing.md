@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2012 Beijing
 permalink: /workshops/EEGLAB_2012_Beijing
+parent: Workshops
 nav_exclude: true
 ---
 

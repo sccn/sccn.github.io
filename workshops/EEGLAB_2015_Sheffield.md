@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2015 Sheffield
 permalink: /workshops/EEGLAB_2015_Sheffield.html
+parent: Workshops
 nav_exclude: true
 ---
 

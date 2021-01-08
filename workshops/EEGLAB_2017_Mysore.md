@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2017 Mysore
 permalink: /workshops/EEGLAB_2017_Mysore.html
+parent: Workshops
 nav_exclude: true
 ---
 

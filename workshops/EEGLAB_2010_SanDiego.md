@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2010 San Diego
 permalink: /workshops/EEGLAB_2010_SanDiego.html
+parent: Workshops
 nav_exclude: true
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2013 UCSD
 permalink: /workshops/EEGLAB_2013_UCSD.html
+parent: Workshops
 nav_exclude: true
 ---
 
