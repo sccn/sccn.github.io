@@ -1,53 +1,49 @@
 ---
 layout: default
-title: Quick Tutorial on Rejection
+title: Quick rejection tutorial
 parent: Reference Topics
 grand_parent: Tutorials
 nav_order: 12
 ---
+A quick tutorial on ICA artifact rejection <span style="color: green">- DONE</span>
+====================
+{: .no_toc }
 
-Quick tutorial on rejecting data artifacts with EEGLAB
-========================================================
+EEGLAB is a powerful tool for eliminating
+several important types of non-brain artifacts from EEG data. EEGLAB allows the user to reject many such artifacts in an efficient and
+user-friendly manner. This minimalist guide is for non-EEGLAB users to import their EEG data, reject artifacts, then export the data back to a software package of their choice. For more comprehensive documentation on using EEGLAB, refer to the main sections of the EEGLAB tutorial.
 
-Independent Component Analysis is a powerful tool for eliminating
-several important types of non-brain artifacts from EEG data. 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
-EEGLAB allows the user to reject many such artifacts in an efficient and
-user-friendly manner. 
 
-This short tutorial is designed to guide  users who want to try using EEGLAB to remove artifacts from their data.
-
-1. Start MATLAB and EEGLAB, then import your data
------------------------------------------------
+## 1. Start MATLAB and EEGLAB, then import your data
 Type \>\> eeglab to start EEGLAB under MATLAB. 
 
 Select menu item
 <span style="color: brown">File → Import data</span> to import your data file
-in any of a variety of file formats including EGI and Neuroscan binary.
-See the [Import data](/tutorials/04_Import/Importing_Continuous_and_Epoched_Data) section for
+in any of a variety of file formats. See the [Import data](/tutorials/04_Import/Importing_Continuous_and_Epoched_Data) section for
 more details.
 
 Scroll and check data using menu item <span style="color: brown">Plot → Channel data (scroll)</span>.
 
-2.Import a channel location file
-----------------------------------
+## 2. Import a channel location file
+
 Importing a channel location file is critical for visualizing the
-independent components of your data.
+independent components of your data. Select <span style="color: brown">Edit → Channel locations</span> menu item.
 
-Select menu item <span style="color: brown">Edit → Channel locations</span>
-and press the button *Read locations* in the bottom right corner of the
-channel edit window.
+- Solution 1. If channel labels are present in your dataset, EEGLAB will try to look up channel locations based on their labels. Simply press *Ok* to look up locations.
 
-The program recognizes channel location files in
-most known formats (spherical BESA, polar Neuroscan, 3-D cartesian EGI,
-3-D cartesian Polhemus, ...). P
-
-ress *Ok* after selecting the file and
+- Solution 2. If channel labels are not present, press the button *Read locations* in the bottom right corner of the channel edit window.
+Press *Ok* after selecting the file and
 then press *Ok* to have EEGLAB recognize the file format automatically
 from the file extension. 
-
-*Note:* files with extension ".elp" are
-considered Polhemus files by default and not BESA files. 
 
 Press *Ok* in
 the channel edit window to import the channel locations into EEGLAB.
@@ -55,15 +51,14 @@ the channel edit window to import the channel locations into EEGLAB.
 To check that your channel locations have been imported correctly, use
 menu item <span style="color: brown">Plot → Channel locations → By name</span>
 
-3.Reject artifact-laden data
--------------------------------
+## 3. Reject artifact-laden data
 
 The quality of the data is critical for obtaining a good ICA
 decomposition. ICA can separate out certain types of artifacts -- only
-those associated with fixed scalp-amp projections. 
+those associated with fixed scalp-map projections. 
 
 These include eye
-movements and eye blinks, temporal muscle activity and line noise. ICA
+movements and eye blinks, temporal muscle activity, and line noise. ICA
 may not be used to efficiently reject other types of artifacts -- those
 associated with a series of one-of-a-kind scalp maps.
 
@@ -74,70 +69,52 @@ associated with the channel and wire movements, etc. Therefore, such
 types of "non-stereotyped" or "paroxysmal" noise need to be removed by
 the user before performing ICA decomposition.
 
-To reject “noisy channels“ of either continuous or epoched data, select
-menu item <span style="color: brown">Edit → select data</span>.
+You have two solutions to reject bad data:
 
-To reject noisy portions of “continuous data”, select menu item
-<span style="color: brown">Tools → Reject continuuous data </span>.
- then mark noisy portions of continuous data for
-reject by dragging the mouse horizontally with the left button held
-down.
+- Automated solution: Select menu item <span style="color: brown">Tools → Reject data using Clean Rawdata and ASR</span>. Press the first checkbox to high pass filter the data and press *Ok*. A new window pops up to ask for a name
+for the new dataset. Press *Ok*.
 
-Press *Reject* when done. 
+- Manual solution: 
+> - To reject “noisy channels“ of either continuous or epoched data, select
+menu item <span style="color: brown">Edit → select data</span>. 
 
-A new window pops up to ask for a name
-for the new dataset.
+> - To reject noisy portions of “continuous data”, select menu item
+<span style="color: brown">Tools → Inspect/Reject data by eye</span>.
+ Then mark noisy portions of continuous data for
+rejection by dragging the mouse horizontally with the left button held
+down. Press *Reject* when done. A new window pops up to ask for a name
+for the new dataset. Press *Ok*.
 
-To reject noisy “data epochs”, select menu item
-<span style="color: brown">Tools → Reject data epochs → Reject by inspection</span>. 
+## 4. Run ICA and reject artifactual components
 
-Check the second checkbox to reject data at once
-(instead of simply marking epochs for rejection) and press *Ok*. 
+Although optional, we advise re-referencing the data to average reference using the <span style="color: brown">Tools → Re-reference the data</span> menu item.
 
-Then,
-in the scrolling window, click on data epochs you wish to reject. If you
-change your mind about a data epoch marked for rejection, click it again
-to un-select it. 
+Use menu <span style="color: brown">Tools → Decompose data by ICA</span> to run the ICA
+algorithm. To accept the default options, press *Ok*.
 
-Press *Reject* when done. 
+You then have two solutions to reject bad ICA components:
 
-A new window pops up to ask
-for a name for the new dataset.
+- Automated solution: 
+> - Label components using the <span style="color: brown">Tools → Classify components using IClabel → Label components</span> menu item.
+> - Classify components using the <span style="color: brown">Tools → Classify components using IClabel → Flag components as artifact</span> menu item.
+> - Select menu item <span style="color: brown">Tools → Remove components</span>
+to actually remove the selected component from the data.
 
-EEGLAB also has facilities to automatically suggest data channels,
-portions and/or epochs to reject. See menu item
-<span style="color: brown">Tools → Reject data epochs → Reject data (all methods)</span>. See the [Data
-rejection](/tutorials/06_RejectArtifacts/) tutorial for
-more details.
-
-4.Run ICA, select and reject artifactual components
-------------------------------------------------------
-Use menu <span style="color: brown">Tools → Run ICA</span> to run the ICA
-algorithm. 
-
-To accept the default options, press *Ok*.
-
-Use menu <span style="color: brown">Tools → Reject data using ICA → reject component by maps</span> to select artifactual components. See the [Data
+- Manual solution:
+> - Use menu <span style="color: brown">Tools → Reject data using ICA → reject component by maps</span> to select artifactual components. See the [Data
 analysis (running
 ICA)](/tutorials/06_RejectArtifacts/RunICA.html) tutorial for
 more details.
-
-Select menu item <span style="color: brown">Tools → Remove components</span>
+> - Select menu item <span style="color: brown">Tools → Remove components</span>
 to actually remove the selected component from the data.
 
 See the [Data analysis (running
 ICA)](/tutorials/06_RejectArtifacts/RunICA.html) tutorial for
 more details and some hints on how to select artifactual components.
 
-5.Further processing of and/or exporting the cleaned data
------------------------------------------------------------
-Your data has now hopefully been pruned of its major artifactual
-components. You may now proceed with further EEGLAB processing of the
-remaining non-artifactual independent components (see [Data analysis
-(working with ICA
-components)](/tutorials/09_source/DIPFIT.html)).
+## 5. Further processing of and/or exporting the cleaned data
 
-You may also export your data by selecting menu item
-<span style="color: brown"> File → Export → Data and ICA activity to text file </span>(EEGLAB v4.1). (Note: We believe Neuroscan versions 4.1 and
-higher can import data files in text format.)
+You may also apply a similar procedure to groups of datasets from the EEGLAB GUI, as explained in [this tutorial](/tutorials/10_Group_analysis/multiple_subject_proccessing_overview.html).
+
+Your data has now hopefully been pruned of its major artifacts. You may now proceed with further EEGLAB processing. You may also choose to [export your data](/tutorials/misc/Exporting_Data.html) to the format of your choice.
 

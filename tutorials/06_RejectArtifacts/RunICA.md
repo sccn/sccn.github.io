@@ -417,12 +417,20 @@ Applying ICA to data epochs instead of continuous data
 In general, we recommend using ICA on continuous data, not data for which epochs have been extracted. First, extracting data epochs reduces the number of samples, and ICA component quality is usually higher when more data is present. Second, you are not tempted to remove the epochs' baseline. Removing the epoch baseline can have <a href="https://pubmed.ncbi.nlm.nih.gov/19162199/">dramatic consequences for ICA</a> because it introduces random offsets in each channel, something ICA cannot model or compensate for. Note that it is possible to extract epochs and not remove the epoch baseline. Then after running ICA, the baseline may be removed.
 
 However, applying ICA to data epochs is possible. ICA expects the data to be stationary, i.e., the same statistical model
-is generating all time points. If you have enough data after epoching, then
+is generating all data samples. If you have enough data after epoching, then
 epoched data might be preferable since it will be more stationary.  However, when epoching on different events to produce
 different datasets, we recommend using the same ICA decomposition for all conditions. Practically, this may mean creating a dataset containing all epoch types before running ICA. More data generally gives a better ICA decomposition, assuming all the data
 is similar statistically. Longer epochs are preferable because they yield more data for
-ICA (assuming stationarity holds.) However, if you are epoching before ICA,
-you don’t want to give ICA overlapping epochs since it will then duplicate some data skewing the statistical model. So the epoch start
+ICA (assuming stationarity holds.) 
+
+However, if you are epoching before ICA,you don’t want to give ICA overlapping epochs since it will duplicate some data skewing the statistical model. For example, the pre-stimulus baseline portion of
+an epoch time-locked to a target stimulus may contain some portion of an
+epoch time-locked to a preceding nontarget stimulus event. Infomax ICA
+performed by [pop_runica.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_runica.m)
+does not consider the time order of the data samples but selects time
+samples in random order during training. Thus, replicated data samples in
+concatenated datasets will only tend to be used more often during
+training. So the epoch start
 time should not be before the stop time of the previous epoch, and the stop
 time should not be after the start time of the next epoch.
 

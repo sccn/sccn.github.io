@@ -305,3 +305,13 @@ For more information on this interface and how to perform
 coregistration between electrodes and head models, see the [Plotting ERP Data in
 3-D](/tutorials/08_Plot_data/Data_Averaging.html).
 
+Next steps
+----------------------------------
+
+This tutorial only gives a rough idea of the utility of EEGLAB for processing single-trial and averaged EEG or other electrophysiological data. The analyses of the sample dataset(s) presented here are by no way definitive. One should carefully examine each independent component's activity and scalp map noting its dynamics and its relationship to behavior and other component activities to begin to understand its role and possible biological function.
+
+Further questions may be more important: How are the activations of
+pairs of maximally independent components inter-related? How do their
+relationships evolve across time or change across conditions? Are
+independent components of different subjects related, and if so, how? EEGLAB group analysis tools a suitable environment for exploring these and other questions
+about brain dynamics, both for [single-subject](/tutorials/10_Group_analysis/study_statistics.html#single-subject-statistics) and for [groups of subjects](/tutorials/10_Group_analysis/).

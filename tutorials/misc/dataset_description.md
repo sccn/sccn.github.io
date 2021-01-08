@@ -5,7 +5,7 @@ parent: Reference Topics
 grand_parent: Tutorials
 ---
 Sample experiment description <span style="color: green"> - Done</span>
------------------------------
+===
 
 In this experiment, there were two types of events "square" and "rt";
 "square" events correspond to the appearance of a filled disk in a green

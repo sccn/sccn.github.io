@@ -1,6 +1,6 @@
 ---
 layout: default
-title: f. *STUDY* ICA clusters
+title: f. STUDY ICA clusters
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---
