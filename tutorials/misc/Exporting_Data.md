@@ -3,46 +3,56 @@ layout: default
 title: Exporting Data
 parent: Reference Topics
 grand_parent: Tutorials
-nav_order: 4
 ---
-
-Exporting Data
+Exporting Data <span style="color: green"> - Done</span>
 ================
+{: .no_toc }
+
+This reference guide describes how to export EEGLAB data.
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 Supported Data Formats
 -----------------------
 
--  EEG Data: ASCII Text
+The following export formats are supported:
+
+-  EEG Data: ASCII Text, .txt, .csv
 -  EEG Data: European Data Format (16-bit), .edf 
--  EEG Data: Biosemi .bdf  
+-  EEG Data: Biosemi, .bdf  
 -  EEG Data: BIOSIG, .gdf  
--  EEG Data:  Brain Vision Analyzer, .dat, .vhdr, .vmrk 
--  ICA Activity:  ASCII Text      .txt               
--  Weight Matrix : ASCII Text  .txt               
+-  EEG Data: Brain Vision Analyzer, .dat, .vhdr, .vmrk 
+-  EEG Data: MFF EGI format, .mff
+-  EEG Data: Neuroscan .cnt (beta)
+-  ICA Activity:  ASCII Text, .txt               
+-  Weight Matrix : ASCII Text,  .txt               
 -  Inverse Weight Matrix: ASCII Text, .txt               
--  Binary: Neuroscan .cnt               
 -  Find More information regarding possible supported data formats in
-    the BIOSIG documentation,
-    [here](http://hci.tugraz.at/schloegl/biosig/TESTED).
+    the [BIOSIG documentation](http://biosig.sourceforge.net/).
 
 
 Exporting data and ICA matrices
 -------------------------------
 
-#### Exporting data to an ASCII text file
+### Exporting data to an ASCII text file
 
-EEGLAB datasets can be exported as ASCII files using menu item
-<span style="color: brown>File \> Exports\"> Data and ICA activity to text file</span>. 
+EEGLAB datasets can be exported as ASCII files using the menu item
+<span style="color: brown">File → Exports → Data and ICA activity to text file</span>. 
 Enter a file name (*mydata.txt*, for instance). Check the
 second checkbox to export the average ERP instead of the data epochs. By
-default, the electrode labels are saved for each row (4th check box) and
+default, the electrode labels are saved for each row (4th check box), and
 the time values are saved for each column (5th checkbox). Time units can
 be specified in the edit box closest to the time values checkbox.
 Finally, check the third checkbox to transpose the matrix before saving.
 
-
-
-![Image:Pop_export.gif](/assets/images/Pop_export.gif)
+![Image:Pop_export.gif](/assets/images/pop_export1.png)
 
 The file written to disk may look like this:
 
@@ -80,14 +90,27 @@ FPz             EOG1       F3          Fz    �
 The first column contains the time axis and the other the data for each
 electrode. This file might, for example, be imported into SPSS or BMDP.
 
-#### Exporting ICA weights and inverse weight matrices
+### Exporting EEG data in binary formats
+
+You may use different EEGLAB menu items to exporting to different EEG formats.
+
+-  EEG Data: European Data Format (16-bit) .edf, Biosemi .bdf, and BIOSIG .gdf formats. Use the <span style="color: brown">File → Exports → Data to EDF/BDF/GDF file</span> menu item. This requires BIOSIG to be installed (you will be prompted to install BIOSIG if it is not installed).
+
+-  EEG Data: Brain Vision Analyzer, .dat, .vhdr, .vmrk. Use the <span style="color: brown">File → Exports → Write Brain Vis. Exchange format file</span> menu item. This requires the [bva-io](https://github.com/arnodelorme/bva-io) plugin to be installed.
+
+-  EEG Data: MFF EGI format, .mff. Use the <span style="color: brown">File → Exports → EGI .mff file</span> menu item. This requires the [mffMatlabIO](https://github.com/arnodelorme/mffMatlabIO) plugin to be installed.
+
+-  EEG Data: Neuroscan .cnt (beta). This can be done from the command line using the *writecnt.m* function. This requires the [neuroscanio](https://github.com/sccn/neuroscanio) plugin to be installed.
+
+### Exporting data as BIDS
+
+Refer to the [bids-matlab-io EEGLAB plugin tutorial](https://github.com/sccn/bids-matlab-tools/wiki) for exporting EEGLAB studies as BIDS (Brain Imaging Data Structure) archives.
+
+Exporting ICA weights and inverse weight matrices
+---
 
 Use menu item <span style="color: brown">File → Export→ Weight matrix to text file</span> to export the ICA unmixing matrix (weights\*sphere). Simply
 enter a file name in the pop-up window and press *Save*.
-
-
-![](/assets/images/Pop_expica.gif)
-
 
 The text file on disk then contains the weight matrix. It may be
 re-imported into another EEGLAB dataset using menu item
@@ -97,36 +120,26 @@ empty, or empty it if it is not empty. See the [ICA decomposition
 tutorial](/tutorials/06_RejectArtifacts/RunICA.html) for more
 details on sphere and weight matrices.
 
-
 ![](/assets/images/Pop_editset.gif)
 
-### Exporting events
+Exporting events
+---
 
-Event information can also be exported to a .csv file (a plain text file
-containing comma-separated values; a tab is used as delimiter). This
+Event information can also be exported to a .txt file (a plain text file
+containing tab-separated values). This
 file can be opened with any text editor, OpenOffice Calc, or Microsoft
 Excel, for example. 
 
 You may import the tutorial data <i>eeglab_data.set</i> in the
 <i>sample_data</i> under EEGLAB.
 To export all events of the currently loaded EEG
-file, select menu item <span style="color: brown">File → Export → Events to text file</span>. A dialog window pops
+file, select the menu item <span style="color: brown">File → Export → Events to text file</span>. A dialog window pops
 up asking for the name and location of the .csv file. The first row of
 the file contains the names of the event fields. Note that there is
-additional column "number", which is not an event field.
+an additional column "number", which is not an event field.
 
 ![](/assets/images/Spreadsheet_event.png)
 
-If you want more control over export options, you should use the command
-line version of this tool. In the MATLAB command window, enter the
-following code to achieve the same result as before with the GUI:
+If you want more control over export options, you should use the command-line version of the [pop_expevents.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_expevents.m) function. An alternative 
+function, [eeg_eventtable.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_expevents.m), has additional options for exporting events.
 
-matlab
-events = eeg_eventtable(EEG, 'exportFile', 'test.csv');
-
-
-In addition, a table with all events is displayed in the command window
-by default. The additional (first) index column can be disabled, and the time
-unit of the latency and duration event fields can be set to seconds or
-samples (default). The event structure is stored in a cell array for
-convenient access. See the help of the [eeg_eventtable.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_eventtable.m) function for additional details. 

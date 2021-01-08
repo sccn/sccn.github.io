@@ -12,6 +12,8 @@ parent: Other documents
 
 BINICA https://github.com/sccn/binica/wiki
 
+- Check slow reading of EEGLAB openneuro dataset
+
 - Add google tracking
 
 - Make sure all pages have {: .no_toc }

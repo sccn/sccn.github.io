@@ -31,10 +31,7 @@ solution models used in the two programs are theoretically identical.
 The main advantage of using DIPFIT over BESA for localization of
 equivalent dipoles for independent component scalp maps is that it is
 integrated into MATLAB and EEGLAB, and can be used in batch processing
-scripts (see [MATLAB
-code](/#Using_DIPFIT_to_fit_EEG_or_ERP_scalp_maps "wikilink") and
-[structures & functions](/#DIPFIT_structure_and_functions "wikilink")
-above). BESA has additional capabilities not relevant to DIPFIT.
+scripts. BESA has additional capabilities not relevant to DIPFIT.
 Succeeding versions of BESA did not allow a batch processing option.
 
 ### Spherical model error
