@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2014 Rio
 permalink: /workshops/EEGLAB_2014_Rio
+parent: Workshops
 nav_exclude: true
 ---
 ![1000px\|center\|upright=3](/assets/images/Rio.png)

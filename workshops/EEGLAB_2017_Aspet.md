@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2017 Aspet
 permalink: /workshops/EEGLAB_2017_Aspet.html
+parent: Workshops
 nav_exclude: true
 ---
 

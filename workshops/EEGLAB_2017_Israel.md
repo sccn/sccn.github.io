@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2017 Israel
 permalink: /workshops/EEGLAB_2017_Israel.html
+parent: Workshops
 nav_exclude: true
 ---
 

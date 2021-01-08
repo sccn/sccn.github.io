@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2017 Japan
 permalink: /workshops/EEGLAB_2017_Japan.html
+parent: Workshops
 nav_exclude: true
 ---
 

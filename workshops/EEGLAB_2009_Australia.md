@@ -2,6 +2,7 @@
 layout: default
 title: EEGLAB 2009 Australia
 permalink: /workshops/EEGLAB_2009_Australia.html
+parent: Workshops
 nav_exclude: true
 ---
 
