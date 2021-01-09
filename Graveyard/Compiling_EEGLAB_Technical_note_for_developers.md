@@ -1,7 +1,5 @@
 ---
 layout: default
-title: Compiling EEGLAB Technical note for developers
-parent: Other documents
 ---
 
 In this page, we address how to set up computational resources at SCCN
