@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: redirect
 title: EEGLAB 2021 UCSD
 parent: Workshops
 nav_order: 2
+redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop
 ---
-Go to the [30th EEGLAB Workshop at UCSD](http://eeglab2020.ucsd.edu/).
-<script>
-window.location.href = 'http://eeglab2020.ucsd.edu/';
-</script>
+
