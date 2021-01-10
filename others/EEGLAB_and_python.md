@@ -176,7 +176,7 @@ classification; virtual reality toolbox, for the real-time 3-D rendering of
 EEG activity). Finally, the MATLAB compiler allows us to create a
 compiled version of EEGLAB that does not require the user to have MATLAB
 -- MATLAB scripts can be run by [compiled
-EEGLAB](/tutorials/misc/Compiled_EEGLAB.html), although interactive sessions
+EEGLAB](/others/Compiled_EEGLAB.html), although interactive sessions
 are not supported. Given that MATLAB is accessible to nearly everyone
 working in scientific institutions, our incentive to find a MATLAB
 alternative remains relatively low.

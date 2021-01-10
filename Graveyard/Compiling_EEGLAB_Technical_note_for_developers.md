@@ -363,7 +363,7 @@ APPLICATION COMPILER.
 EEGLAB version by running the program in the "for_testing" folder.
 11. Test the compiled version for potential runtime errors (see notes on
 testing
-[here](https://sccn.github.io/tutorials/misc/Compiled_EEGLAB.html#how-to-check-the-integrity-of-the-compiled-version)).
+[here](https://sccn.github.io/others/Compiled_EEGLAB.html#how-to-check-the-integrity-of-the-compiled-version)).
 On Mac and OSX use ./run_eeglab.sh MATLAB_PATH.
 
 <font color=red>Known error: running eLoreta from DIPFIT, cannot find

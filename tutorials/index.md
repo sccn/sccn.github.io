@@ -9,6 +9,12 @@ has_toc: false
 This tutorial is an introduction to basic EEGLAB functions and processing. 
 You can also refer to the [Online Workshop](/workshops/Online_EEGLAB_Workshop.html) that includes a list of videos presenting EEGLAB.  
 
+The EEGLAB Tutorial is split into four parts, the last of which is the
+Appendices. In the Appendices, the user is introduced to more advanced
+and technical elements of EEGLAB such as input data formats and MATLAB
+data structures. These topics are presented to the user to fully
+describe the architecture, etc. of the EEGLAB system.
+
 Here are the most common steps you might want to take when processing EEG data at the single subject level:
 
 <!--

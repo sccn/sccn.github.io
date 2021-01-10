@@ -32,7 +32,7 @@ To know more about how EEGLAB interacts with BIDS file you can also watch this s
 
 
 ## Download the data
-The data were prepared (i.e. EEG extracted, timing corrected,  electrode position re-oriented, event recorded) by Dung Truong, Ramon  Martinez & Arnaud Delorme and can be downloaded from [OpenNeuro 10.18112/openneuro.ds002718.v1.0.3.](https://openneuro.org/datasets/ds002718/versions/1.0.3) 
+The data were prepared (i.e. EEG extracted, timing corrected,  electrode position re-oriented, event recorded) by Dung Truong, Ramon  Martinez & Arnaud Delorme and can be downloaded from [OpenNeuro 10.18112/openneuro.ds002718.v1.0.2.](https://openneuro.org/datasets/ds002718/versions/1.0.2) 
 
 ### More about the Wakeman-Henson dataset
 

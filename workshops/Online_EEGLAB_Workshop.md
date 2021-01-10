@@ -188,7 +188,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 
 ## <span style="color: darkred">MATLAB and matrix operations tutorials</span>
 
-If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/workshops/tutorial_matlab)
+If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html)
 
 **IMPORTANT NOTE:** The practical
 portions of the workshop are largely dedicated to writing EEGLAB MATLAB
@@ -197,14 +197,14 @@ will not be able to make good use of these sections.
 
 ## <span style="color: darkred">Relevant publications demonstrating EEGLAB capabilities</span>
 
-You can consult a list of relevant EEGLAB papers [here](/workshops/reading_material) 
+You can consult a list of relevant EEGLAB papers [here](/others/EEGLAB_References.html) 
 
-## <span style="color: "darkred"">Material to download</span>
+## <span style="color: darkred">Material to download</span>
 
 To access the talk slides and videos, use the links in the Program
 listing above. 
 You may also download and uncompress the anonymized data
-used in the workshop [here](/workshops/download). These files are valid for both the 2010 and
+used in the workshop [here](/tutorials/tutorial_data.html). These files are valid for both the 2010 and
 2016 workshops.
 
 

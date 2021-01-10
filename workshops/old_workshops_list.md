@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Old workshops
+title: Past workshops
 parent: Workshops
 nav_order: 5
 ---

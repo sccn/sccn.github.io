@@ -1,15 +1,12 @@
 ---
 layout: default
-title: Contributing to EEGLAB
-parent: Reference Topics
-grand_parent: Tutorials
-nav_order: 7
-
+title: Create an EEGLAB plugin
+parent: Contribute
 ---
-Contributing to EEGLAB <span style="color: green"> - Done</span>
+Creating EEGLAB plugins and extension <span style="color: green"> - Done</span>
 ========================
 {: .no_toc }
-
+This section about creating plugins and extension is fairly long. However, creating an EEGLAB plugin is very simple. If you are in a rush, jump to the [example section](/contribute/design_plugin.html#eegplugin_-function-examples) and copy and paste code.
 
 <details open markdown="block">
   <summary>
@@ -19,119 +16,6 @@ Contributing to EEGLAB <span style="color: green"> - Done</span>
 - TOC
 {:toc}
 </details>
-
-EEGLAB development model
--------------------
-
-### EEGLAB history
-
-The chief EEGLAB software architects are Arnaud Delorme and Scott Makeig. The predecessor to EEGLAB, the ICA/EEG Toolbox (1997-2001), comprised
-functions written by Makeig with Tony Bell, Colin Humphries, Sigurd
-Enghoff, Tzyy-Ping Jung, Te-Won Lee, and others, was first released on
-the Web in 1997 by Scott Makeig at the Computational Neurobiology
-Laboratory of Terrence Sejnowski at The Salk Institute, La Jolla. 
-
-The first version of the integrated EEGLAB toolbox was written there by
-Delorme and Makeig with subsequent contributions by many, including
-Marissa Westerfield, Jörn Anemüller, Luca Finelli, Robert Oostenveld,
-Hilit Serby, Toby Fernsler, Nima Shamlo Bigdeley, Jason Palmer, and many
-others. Dedicated beta testers include Andreas Romeyke and his team, who
-developed a test suite for EEGLAB, and other advanced users, including
-Stefan Debener and Andreus Widmar. 
-
-EEGLAB development is now centered at the Swartz Center for Computational Neuroscience (SCCN) of the Institute
-for Neural Computation at the University of California San Diego (UCSD). Core EEGLAB maintenance and development is supported by the US National Institute of Neurological Disorders and Stroke (NINDS). 
-
-The EEGLAB core code cannot be modified by third parties directly. Instead,
-users submits [pull requests](/others/Fork_the_EEGLAB_repository.html). EEGLAB core developers then
-review the code and add it to the repository.
-
-For third-party developers, we welcome collaborations with users and
-open-source developers to expand and improve EEGLAB functions and/or
-independently write and release EEGLAB plugin/extension applications
-and environments. If you have written plugins for use in your
-laboratory, please consider releasing them for use by others, as described on this page.
-
-EEGLAB is under active open-source development. Together with user
-developers, we are extending its capabilities to include across-subject
-general linear model statistics. User-contributed features and
-suggestions are welcome, and we encourage and plan to interconnect EEGLAB
-with other MATLAB-compatible toolboxes.
-
-### Open-source model
-
-EEGLAB is an open-source software environment and is available free of
-charge to any user.
-
-However, EEGLAB requires that you purchase and install the commercial
-[MATLAB software environment](http://www.mathworks.com/store/). MATLAB
-version 2008b or later is required; We recommend using the latest
-version of MATLAB. MATLAB and EEGLAB run under Linux/Unix, Mac OS X, or
-Windows. Purchasing MATLAB can be expensive, though the MATLAB student
-version is usually priced near $50 US.
-
-We have attempted to remove all dependencies on add-on MATLAB toolboxes.
-Thus, no additional toolboxes are necessary to run the EEGLAB core distribution. However, some advanced plugin toolboxes may
-use functions from a specific MATLAB toolbox: see their documentation
-for details.
-
-Note that all EEGLAB processing functions (not its graphic interface) also can be run under the free
-[Octave environment](http://www.gnu.org/software/octave/download.html). EEGLAB also exists as a compiled program that does not require MATLAB.
-
-### License and credits
-
-EEGLAB is distributed under the [BSD
-    license](https://opensource.org/licenses/BSD-2-Clause). Any
-    contributed functions we add to EEGLAB will be made available for
-    free commercial and non-commercial use under this license.
-
-Contributors are acknowledged on GitHub, which record commits made to the main source code. 
-
-Consider writing an *extension* or *plugin* option, as described
-in the section below. EEGLAB extensions allow authors to flexibly
-incorporate new functions into the EEGLAB menu of every user who has
-downloaded the extension. The authors also retain all commercial rights to the functions they write.
-
-### Code of conduct
-
-We strive to follow a code of conduct emphasizing community,
-collaboration, respect, and responsibility first outlined by the [Ubuntu
-community](https://ubuntu.com/community/code-of-conduct).
-
-### Using GIT to contribute code
-
-To contribute code to the EEGLAB core code, fork the code and create a
-pull request as indicated on this
-[page](/others/Fork_the_EEGLAB_repository.html). You will need a Github account
-to perform these operations but do not require any special permission
-from us.
-
-How to help?
-------------------------
-
-We need help to fix important issues for EEGLAB users. Below some possible projects.
-
-### Plugins
-
-An extensive collection of plugins are not maintained anymore by their
-author. Yet, they are still widely used. For example, the
-[FMR-IB](https://github.com/sccn/fMRIb) plugin from Rami Niazi (for
-artifact removal) is not supported anymore. There are several issues listed on Gitbub if you want to take over maintaining this plugin. Also, if there is an EEGLAB plugin you are using routinely, and it is no longer supported, consider becoming the maintainer for that plugin. You will get credited for it.
-
-### Bug reports and improvements
-
-The [Github EEGLAB repository](https://github.com/sccn/eeglab/issues/)
-contains a list of issues. Any contribution to the discussion (or code
-fixes) is welcomed. If you fix a bug, fork the EEGLAB repository and
-issue a pull request. For more information about this process,
-[see this page about forking the EEGLAB
-repository](/others/Fork_the_EEGLAB_repository.html).
-
-A list of improvements is also available on the [Bugzilla legacy web
-site](https://sccn.ucsd.edu/bugzilla/buglist.cgi?bug_severity=development&bug_severity=enhancement&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&f0=OP&f1=OP&f3=CP&f4=CP&list_id=422&query_based_on=Good_improv_P5&query_format=advanced).
-This site contains a list of improvements that we do not have the
-resources to implement but are nevertheless interested in seeing happen.
-As above, fork the EEGLAB repository and issue a pull request.
 
 How to write EEGLAB functions
 --------------------------------
@@ -694,3 +578,10 @@ download it automatically from the EEGLAB plugin manager. To do this, use [this
 form](http://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php). If
 you want to upload a new version of your plugin, you can use 
 [this simplified form](http://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).
+
+Assist with unmaintained plugins
+------------------------
+An extensive collection of plugins are not maintained anymore by their
+author. Yet, they are still widely used. For example, the
+[FMR-IB](https://github.com/sccn/fMRIb) plugin from Rami Niazi (for
+artifact removal) is not supported anymore. There are several issues listed on Gitbub if you want to take over maintaining this plugin. Also, if there is an EEGLAB plugin you are using routinely, and it is no longer supported, consider becoming the maintainer for that plugin. You will get credit for it.

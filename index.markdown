@@ -5,23 +5,62 @@ layout: home
 nav_exclude: true
 has_toc: true
 ---
-# Welcome to EEGLAB Wiki
-[right|400px](/Image:Eeglab_small.jpg "wikilink")
+# Welcome to the EEGLAB Wiki
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
+### Download EEGLAB
 
-The EEGLAB Tutorial is split into four parts, the last of which is the
-Appendices. In the Appendices, the user is introduced to more advanced
-and technical elements of EEGLAB such as input data formats and MATLAB
-data structures. These topics are presented to the user to fully
-describe the architecture, etc. of the EEGLAB system.
+-    [EEGLAB hardware and software
+    recommendations](/others/EEGLAB_hardware_and_software_recommendations.html)
+-   [Download EEGLAB](/others/How_to_download_EEGLAB.html)
+-    [Download EEGLAB from GIT](/How_to_download_EEGLAB "wikilink")
+-    [Download a compiled version of EEGLAB](/others/Compiled_EEGLAB.html)
+-    [EEGLAB extensions/plugins](/others/EEGLAB_Extensions.html)
+-    [EEGLAB revision history](/others/EEGLAB_revision_history.html)
+-    [EEGLAB reference articles - Please cite](/others/EEGLAB_References.html)
+
+#### Useful EEGLAB documentation pages
+
+The EEGLAB tutorial is available in a subsequent section on this page.
+Other type of documentation are listed below.
+
+-    [Using EEGLAB vs. Commercial EEG Software](/others/EEGLAB_vs_Commercial_EEG_Software.html)
+-    [Working with EEGLAB and Fieldtrip](/others/EEGLAB_and_Fieldtrip.html)
+-    [Running EEGLAB on open source Octave](/others/Running_EEGLAB_on_Octave.html)
+-    [Running EEGLAB on high performance computing resources](/others/EEGLAB_and_high_performance_computing.html)
+-    [EEGLAB on MATLAB versus Python](/others/EEGLAB_and_python.html)
+-    [EEGLAB History: The first two decades from 2001-2021](/others/The_first_decade_of_EEGLAB.html)
+
+#### Troubleshooting
+
+-    [Ask eeglablist@sccn.ucsd.edu (requires subscription here)](/others/EEGLAB_mailing_lists.html)
+-    [Use Google - add "eeglablist" or "EEGLAB" to your querry](http://google.com)
+-    [Bugs and Suggestions](/others/EEGLAB_Bugs.html)
+-    [Post a bug issues on Github](https://github.com/sccn/eeglab/issues)
+-    [Other TIPS and FAQ](/TIPS_and_FAQ "wikilink")
+-    [EEGLAB filtering FAQ](/Firfilt_FAQ "wikilink")
+
+#### Other downloads and resources
+
+-  [Publicly available datasets for download](/Tutorials/tutorial_data.html)
+-  [Download EEGLAB test cases](/EEGLAB_test_cases "wikilink")
+-  [Quick ICA Component Rejection Tutorial](/tutorials/misc/Quick_Tutorial_on_Rejection.html)
+
+## The EEGLAB Tutorial Outline
+
+<h1><a href="/tutorials">Tutorials</a></h1>
+{%- assign children_list = site.pages | where: "parent", "Tutorials" -%}
+{% include toc_nav.html nav=children_list %}
+
+### Quick tutorial resources
+
+<h1><a href="/workshops">Workshops</a></h1>
+{%- assign children_list = site.pages | where: "parent", "Workshops" -%}
+{% include toc_nav.html nav=children_list %}
+
+<hr>
+
+This tutorial was written by [Arnaud
+Delorme](mailto:EEGLAB@sccn.ucsd.edu) with feedback and edits from [Scott Makeig](mailto:EEGLAB@sccn.ucsd.edu). Other contributors include Dung Truong, Claire Braboszcz, Makoto Miyakoshi, Ramon Martinez, Devapratim Sarma, Derrick Lock, Hilit Serby, Toby Fernsler.
 
 ## Links and Documentation
 
@@ -44,79 +83,3 @@ calculations used the DIPFIT plug in.
 
 ![Image:channel location.jpg](/assets/images/Channel_location.jpg)
 
-
-#### Download EEGLAB
-
-
--    [EEGLAB hardware and software
-    recommendations](/EEGLAB_hardware_and_software_recommendations "wikilink")
--   [Download EEGLAB as zip
-    file](http://sccn.ucsd.edu/eeglab/download.php)
--    [Download EEGLAB from GIT](/How_to_download_EEGLAB "wikilink")
--    [Download a compiled version of
-    EEGLAB](/A13:_Compiled_EEGLAB "wikilink")
--    [EEGLAB extensions/plugins](/EEGLAB_Extensions "wikilink")
--    [EEGLAB revision history](/EEGLAB_revision_history "wikilink")
--    [Bugs and Suggestions](/EEGLAB_Bugs "wikilink")
-
-#### Useful EEGLAB documentation pages
-
-The EEGLAB tutorial is available in a subsequent section on this page.
-Other type of documentation are listed below.
-
--    [EEGLAB News and Discussion email lists](/EEGLAB_mailing_lists "wikilink")
--    [EEGLAB reference articles - Please cite](/EEGLAB_References "wikilink")
--    [Using EEGLAB vs. Commercial EEG
-    Software](/EEGLAB_vs._Commercial_EEG_Software "wikilink")
--    [Working with EEGLAB and Fieldtrip](/EEGLAB_and_Fieldtrip "wikilink")
--    [Running EEGLAB on open source
-    Octave](/Running_EEGLAB_on_Octave "wikilink")
--    [EEGLAB on MATLAB versus Python](/EEGLAB_and_python "wikilink")
--    [NEW Running EEGLAB on high performance computing resources - The Open EEGLAB Portal](/EEGLAB_and_high_performance_computing "wikilink")
--    [Using EEGLAB to process MEG data](/EEGLAB_and_MEG_data "wikilink")
--    [EEGLAB History: The first decade of
-    2001-2011](/The_first_decade_of_EEGLAB "wikilink")
--    [Run EEGLAB on NSF
-    Supercomputers\!](https://sccn.ucsd.edu/wiki/EEGLAB_on_NSG)
-
-#### Troubleshooting
-
--    [EEGLAB and MEX functions to recompile](/Mex_EEGLAB "wikilink")
--    [EEGLAB filtering FAQ](/Firfilt_FAQ "wikilink")
--    [Use Google - add "eeglablist" or "EEGLAB" to your
-    querry](http://google.com)
--    [Ask eeglablist@sccn.ucsd.edu](mailto:eeglablist@sccn.ucsd.edu)
--    [(requires subscription here)](/EEGLAB_mailing_lists "wikilink")
--    [Post a bug on Bugzilla for EEGLAB](https://sccn.ucsd.edu/bugzilla/)
--    [Other TIPS and FAQ](/TIPS_and_FAQ "wikilink")
-
-#### Other downloads and resources
-
- - [EEGLAB extensions and
-    plugins](/EEGLAB_Extensions_and_plugins "wikilink")
--  [Publicly available datasets for
-    download](http://sccn.ucsd.edu/~arno/fam2data/publicly_available_EEG_data.html)
--    [Channel Location Files
-    download](/Channel_Location_Files "wikilink")
--    [Download EEGLAB test scripts](/EEGLAB_test_cases "wikilink")
-
-## The EEGLAB Tutorial Outline
-
-### Quick tutorial resources
-
-[Online EEGLAB Workshop](/Online_EEGLAB_Workshop "wikilink") - Includes
-online videos, slides, and tutorial materials\!
-
-[Download the 2011 Wiki Tutorial as a
-PDFbook](ftp://sccn.ucsd.edu/pub/PDF_EEGLAB_Wiki_Tutorial.pdf) (later
-versions of the tutorial in PDF format are not available for technical
-reasons)
-
-[Quick ICA Component Rejection
-Tutorial](/Quick_Rejection_Tutorial "wikilink")
-
-<hr>
-
-This tutorial was written by [Arnaud
-Delorme](mailto:EEGLAB@sccn.ucsd.edu) with feedback and edits from [Scott Makeig](mailto:EEGLAB@sccn.ucsd.edu). Other contributors include Dung Truong, Claire Braboszcz, Makoto Miyakoshi, Ramon Martinez, Devapratim Sarma, Derrick Lock,
-Hilit Serby, Toby Fernsler.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Running EEGLAB on Octave
+title: EEGLAB on Octave
 parent: Other documents
 ---
 Running EEGLAB on Octave <span style="color: green">- DONE</span>

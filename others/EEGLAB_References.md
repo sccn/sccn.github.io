@@ -16,7 +16,7 @@ these papers, plus the extensive EEGLAB tutorial and help
 facilities, for instructions and examples of their use.
 </blockquote>
 
-## Basic EEGLAB ICA and time/frequency methods introductions
+## EEGLAB ICA and time/frequency methods introductions
 
 Makeig S, Debener S, Onton J, Delorme A (2004) Mining event-related
 brain dynamics. *Trends in Cognitive Science* 8:204-210. [PDF](http://sccn.ucsd.edu/~scott/pdf/TICS04_Preprint.pdf).
@@ -35,6 +35,16 @@ are compatible with an origin in a small patch of locally synchronous
 cortex.</i>
 </blockquote>
 
+Delorme, A., Sejnowski, T., Makeig, S. Improved rejection of artifacts from EEG data using high-order <br>statistics and independent component analysis. Neuroimage. 2007; 34, 1443-1449. [PDF](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).
+<blockquote>
+<i>This paper demonstrates the superiority of using ICA for rejecting EEG artifacts.</i>
+</blockquote>
+
+Onton J, Delorme, A., Makeig, S. Frontal midline EEG dynamics during working memory. NeuroImage. 2005;27, 341-356. [PDF](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).
+<blockquote>
+<i>An early illustration of the type of processing possible with EEGLAB, including ICA component clustering.</i>
+</blockquote>
+
 ## EEGLAB plugin references
 
 - Delorme A, Mullen T, Kothe C, Akalin Acar Z, Bigdely-Shamlo N, Vankov A,
@@ -44,3 +54,9 @@ advanced EEG processing. [HTML](http://www.hindawi.com/journals/cin/2011/130714/
 - Pernet CR, Chauveauy N, Gaspar C, Rousselet GA (2011) LIMO EEG: A
 toolbox for hierarchical linear modeling of electroencephalographic
 data. [HTML](http://www.hindawi.com/journals/cin/2011/831409/). *Computat Intelligence Neurosci* 2011:831409, doi: 10.1155/2011/831409. 
+
+- Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. ICLabel: An automated electroencephalographic independent component classifier, dataset, and website. NeuroImage 198:181-197, 2019. [PDF](https://pubmed.ncbi.nlm.nih.gov/31103784/).
+
+- Martinez-Cancino, R., Heng, J., Delorme, A., Kreutz-Delgado, K.,
+    Sotero, R.C. Makeig, S. Measuring transient phase-amplitude coupling using local mutual information.
+    NeuroImage, 2018. [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342491/).

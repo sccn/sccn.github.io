@@ -418,9 +418,6 @@ advisable to normalize dipole lengths when plotting MEG equivalent dipoles.
 
 ![](/assets/images/Dipole_plot_meg.gif)
 
-
-
-
 You can also run DIPFIT for MEG data without a subject MR image if you
 have extracted the subject head surface from another source like a head
 model acquired using a Polhemus 3-D location system. However, it would
@@ -438,6 +435,8 @@ executed outside EEGLAB. A test set is available
 [here](http://sccn.ucsd.edu/eeglab/dipfittut/testmeg.zip) (thanks to Nicolas
 Robitaille for providing the test data). Simply load
 the test file and follow the instruction above (note that newer versions of Fieldtrip cannot process this file anymore, so use Fieldtrip versions up to 2016).
+
+This [other section of the tutorial](/tutorials/misc/EEGLAB_and_MEG_data.html) contains more details on using EEGLAB to process MEG data.
 
 DIPFIT structures and functions
 --------

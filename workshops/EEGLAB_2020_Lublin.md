@@ -1,9 +1,9 @@
 ---
 layout: default
-title: EEGLAB 2020 Lublin
+title: EEGLAB 2022 Lublin
 permalink: /workshops/EEGLAB_2020_Lublin.html
 parent: Workshops
-nav_order: 2
+nav_order: 3
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Lublin](/assets/images/Lublin.jpg)
@@ -14,11 +14,11 @@ Thirty-first EEGLAB Workshop
 <span style="color: blue">Lublin, Poland - HAS BEEN POSTPONED DUE TO COVID-19
 </span>
 <b> We have carefully considered all possible solutions and decided to
-postpone the workshop until 2021. Exact dates for the workshop are being
+postpone the workshop until 2022. The exact dates for the workshop are being
 identified and we will update information as soon as possible. We are
 sincerely sorry about the current situation.  
 Thank you for your interest in our initiative and your patience at the registration stage. All
-registered participants have a guaranteed spot at the workshop in 2021.
+registered participants have a guaranteed spot at the workshop in 2022.
 We also give you a chance to update or completely re-do your submission.  
 All received registration fees will be returned to your account within
 two weeks. If you do not receive your payment by that time, please let
@@ -29,7 +29,7 @@ Lublin. </b>
 
 The 31st EEGLAB Workshop will take place at [the John Paul II Catholic
 University of Lublin](https://www.kul.pl/kul,21.html) in
-[Lublin](https://en.wikipedia.org/wiki/Lublin), Poland, about 3 hour by
+[Lublin](https://en.wikipedia.org/wiki/Lublin), Poland, about 3-hour by
 train from Warsaw. Participants will be expected to bring laptops with
 MATLAB installed so as to be able to participate in the practical
 sessions. The tutorial workshop will introduce and demonstrate the use
@@ -57,7 +57,7 @@ faculty and other professional. The registration costs includes
 conference space rental, all coffee breaks, and a short excursion.
 
 <b>Registration:</b> <span style="color: "red""> Registration are now closed and
-will be reopened in 2021. </span>
+will be reopened in 2022. </span>
 
 <b>Call for papers:</b> During the EEGLAB Workshop in Lublin a poster
 session will be held. We offer the possibility of publishing abstracts
@@ -108,7 +108,7 @@ MATLAB tutorial
 to understand MATLAB syntax will mean you will miss out on a large
 portion of the workshop.
 
-If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/workshops/tutorial_matlab)
+If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html)
 
 
 MATLAB support

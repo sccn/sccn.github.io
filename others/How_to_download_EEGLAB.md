@@ -30,7 +30,7 @@ standard git package. When cloning, make sure you use the
 *--recurse-submodule* option. Otherwise, important EEGLAB plugins will not be downloaded and EEGLAB will not be fully functional.
 
 ```
-git clone --recurse-submodules git@github.com:sccn/eeglab.git
+git clone --recurse-submodules https://github.com/sccn/eeglab.git
 ```
 
 ### Accessing branches

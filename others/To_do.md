@@ -22,7 +22,11 @@ parent: Other documents
 
 - Correct section 7 to 8 with Grammarly
 
+- Edit tutorial index page, and other title pages
+
 - Add readme to FIRFILT
+
+- Add more tutorial data and reference openneuro
 
 - Replace
 

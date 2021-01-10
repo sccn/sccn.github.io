@@ -1,7 +1,8 @@
 ---
 layout: default
 title: EEGLAB and MEG data
-parent: Other documents
+parent: Reference Topics
+grand_parent: Tutorials
 ---
 EEGLAB and MEG data <span style="color: green"> - Done</span>
 ====================
