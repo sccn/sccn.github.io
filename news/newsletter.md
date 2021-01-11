@@ -7,8 +7,8 @@ has_toc: false
 ---
 EEGLAB Newsletter
 ===
-<img class="float-right" width="250" height="250" src="/assets/images/newsletter_screenshot2.jpg">
-EEGLAB NewsletterThe quarterly EEGLAB newsletter, The EEGLAB News, includes:
+<img class="float-right" style="margin-left:20px" width="250" height="250" src="/assets/images/newsletter_screenshot2.jpg">
+The quarterly EEGLAB newsletter, the EEGLAB News, includes:
 - Important EEGLAB news and new features
 - Brief descriptions of some new EEGLAB plug-in/extensions
 - Personal profiles of EEGLAB developers or users, including how they use EEGLAB in their research
