@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2015 Sheffield
-permalink: /workshops/EEGLAB_2015_Sheffield.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![center\|upright=3](/assets/images/Scheffield.png)

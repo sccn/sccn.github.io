@@ -1,7 +1,8 @@
 ---
 layout: default
 title: EEGLAB mailing lists
-parent: Other documents
+parent: Troubleshooting
+nav_order: 3
 ---
 EEGLAB mainling lists <span style="color: green"> - Done</span>
 ====

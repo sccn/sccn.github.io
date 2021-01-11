@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2012 Beijing
-permalink: /workshops/EEGLAB_2012_Beijing
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Beijing landmark

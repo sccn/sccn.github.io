@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2015 Aspet
-permalink: /workshops/EEGLAB_2015_Aspet.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Cows enjoying the scenery of the

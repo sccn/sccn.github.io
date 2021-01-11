@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB vs. commercial soft.
 summary: EEGLAB vs. Commercial EEG Software
-parent: Other documents
+parent: Interoperability
 ---
 EEGLAB vs Commercial EEG software packages  <span style="color: green">- DONE</span>
 ====

@@ -5,10 +5,11 @@ permalink: /workshops/Future_workshops.html
 parent: Workshops
 nav_order: 4
 ---
-
+Future EEGLAB workshops
+===
 Below are EEGLAB workshops currently planned
 
-In 2021:
+In 2021/2022:
 
 -   The [30th EEGLAB Workshop at UCSD](http://eeglab2020.ucsd.edu/), San
     Diego, USA (beginning May 29, 2021) will feature an optional
@@ -20,7 +21,7 @@ In 2021:
 
 -   There will be an EEGLAB Workshop in Europe [at the Catholic
     University Lublin in Lublin](/workshops/EEGLAB_2020_Lublin), Poland
-    (15-19 June). <b>Workshop reported to 2021 because of COVID-19.</b>
+    (15-19 June). <b>Workshop reported to 2022 because of COVID-19.</b>
 
 Do not forget to subscribe to the EEGLAB News list to be notified of new
 workshop and registration information (you may register by clicking a

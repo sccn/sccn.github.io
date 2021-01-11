@@ -1,9 +1,9 @@
 ---
 layout: default
 title: EEGLAB 2017 Japan
-permalink: /workshops/EEGLAB_2017_Japan.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
+
 ---
 
 ![350px\|thumb\|right\|upright=2.5\|13th century Buddhist temple near

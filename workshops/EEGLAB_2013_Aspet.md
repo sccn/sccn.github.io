@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2013 Aspet
-permalink: /workshops/EEGLAB_2013_Aspet.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![700px\|thumb\|center](/assets/images/Group_picture_aspet2013.png)

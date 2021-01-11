@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EEGLAB test cases
-parent: Other documents
+parent: Troubleshooting
 ---
 EEGLAB test cases <span style="color: green">- DONE</span>
 ===

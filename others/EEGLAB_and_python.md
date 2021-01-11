@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EEGLAB and Python
-parent: Other documents
+parent: Interoperability
 ---
 
 EEGLAB and Python <span style="color: green"> - Done</span>

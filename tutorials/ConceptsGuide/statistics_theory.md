@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EEGLAB statistics
+title: Statistics
 parent: Concepts guide
 grand_parent: Tutorials
 ---

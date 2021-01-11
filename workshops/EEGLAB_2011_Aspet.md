@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2011 Aspet
-permalink: /workshops/EEGLAB_2011_Aspet.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Cows breeding in the Pyrenees moutain range](/assets/images/Cow-breeds.jpg)

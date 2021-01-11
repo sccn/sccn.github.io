@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EEGLAB Extensions
-parent: Other documents
+parent: Download EEGLAB
 ---
 EEGLAB extensions and plugins <span style="color: green"> - Done</span>
 ====

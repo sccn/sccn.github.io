@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2011 Mallorca
-permalink: /workshops/EEGLAB_2011_Mallorca.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![300px\|thumb\|left\|upright=2](/assets/images/Mallorca2.jpg)

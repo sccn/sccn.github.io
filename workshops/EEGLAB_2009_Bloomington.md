@@ -1,9 +1,8 @@
 ---
 layout: default
-title: EEGLAB 2009 Bloomington
-permalink: /workshops/EEGLAB_2009_Bloomington.html
-parent: Workshops
-nav_exclude: true
+title: EEGLAB 2009 Indiana
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 Seventh EEGLAB Workshop

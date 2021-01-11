@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EEGLAB References
-parent: Other documents
+parent: Download EEGLAB
 ---
 How to cite EEGLAB <span style="color: green">- DONE</span>
 ====

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EEGLAB on Octave
-parent: Other documents
+parent: Interoperability
 ---
 Running EEGLAB on Octave <span style="color: green">- DONE</span>
 ====

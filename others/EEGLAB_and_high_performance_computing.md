@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB and HPC
 summary: EEGLAB and high performance computing
-parent: Other documents
+parent: Interoperability
 ---
 EEGLAB and high-performance computing <span style="color: green">- DONE</span>
 ====

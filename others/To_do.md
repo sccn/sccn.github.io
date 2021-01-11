@@ -1,7 +1,7 @@
 ---
 layout: default
 title: To do before wiki release
-parent: Other documents
+parent: Download EEGLAB
 ---
 
 # To do list
@@ -23,6 +23,8 @@ parent: Other documents
 - Correct section 7 to 8 with Grammarly
 
 - Edit tutorial index page, and other title pages
+
+- Put Makoto ASR page on the clean_rawdata wiki
 
 - Add readme to FIRFILT
 

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Create an EEGLAB plugin
-parent: Contribute
+parent: How to contribute?
+grand_parent: Tutorials
 ---
 Creating EEGLAB plugins and extension <span style="color: green"> - Done</span>
 ========================

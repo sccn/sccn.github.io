@@ -1,8 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2019 Aspet
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Scenery of the Pyrenees

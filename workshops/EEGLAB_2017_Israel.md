@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2017 Israel
-permalink: /workshops/EEGLAB_2017_Israel.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![350px\|thumb\|right\|upright=2.5\|The outer gate, well, and tamarisk

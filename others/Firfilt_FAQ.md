@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Firfilt FAQ
-parent: Other documents
-
+title: Filtering FAQ
+parent: Troubleshooting
+nav_order: 2
 ---
 EEGLAB Filtering FAQ <span style="color: green"> - Done</span>
 ===

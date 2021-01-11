@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Two decades of EEGLAB
-parent: Other documents
+parent: EEGLAB news
 ---
 The first two decades of EEGLAB <span style="color: green">- DONE</span>
 ===

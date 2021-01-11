@@ -1,25 +1,31 @@
 ---
 layout: default
+title: General FAQ
+parent: Troubleshooting
+nav_order: 1
 ---
-PERAPS to reinstate
-
+![test](/assets/images/FAQ.png)
 # EEGLAB TIPS and FAQ
+{: .no_toc }
 
 This FAQ page contains questions we receive and answers we give users,
 as well as general tips we think it is important for users to know! Many
 other tips are available on the eeglablist archive. To search the list
-archive simply use Google, enter relevant keyword and add the
+archive simply use Google, enter relevant keywords and add the
 "eeglablist" keyword.
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## Basic Topics
 
-### Running EEGLAB
---------------
-
-#### About EEGLAB
-
-
-**Question:** Is EEGLAB of any interest for expert MATLAB users?
+###  Is EEGLAB of any interest for expert MATLAB users?
 **Answer:** We believe so. First, EEGLAB implements new algorithms for
 artifact rejection. Second, for the experienced MATLAB user EEGLAB is a
 fast and accurate way to start processing EEG and ERP data and to
@@ -31,10 +37,8 @@ trials, time limits and sampling rate) and allows you use this structure
 either from the MATLAB command line or in MATLAB scripts.
 
 
-**Question:** Is MATLAB too slow and does it use too much memory ?
-**Answer:** Yes, to an extent, but... Because MATLAB is sometime too
-slow we implemented the most time consuming algorithms in C (for
-instance the runica() function). We also took great care of inserting
+###  Is MATLAB too slow and does it use too much memory ?
+**Answer:** Yes, to an extent, but... Because MATLAB sometimes uses large amount of RAM, we also took great care of inserting
 options in EEGLAB and in several processing functions to handle low
 memory conditions. On the other hand the MATLAB environment offers the
 advantage of stability and ease of use. Even the novice user under
@@ -42,35 +46,28 @@ MATLAB can scale a data array by multiplying it by a scalar for instance
 (and in our software the data array is directly accessible to the user).
 MATLAB also offers the advantage of modularity. All of our function are
 stand-alone functions and most of them can be used independently of each
-other. Besides, MATLAB has grown much faster and we hope may become more
-memory-efficient in future. For our purposes, this should include a
-32-bit float data processing option (Is MATLAB listening?)
+other. Besides, MATLAB has grown much faster.
 
 
-**Question:** Support ?
+### What type of support is offered with EEGLAB?
 **Answer:** We cannot guarantee that we will provide full support for
 this software but we will be glad to help out if someone encountered any
 problem and to correct bugs when reported to us: Write to
 eeglab@sccn.ucsd.edu.
 
-#### What type of MATLAB license should I buy to run EEGLAB?
+### What type of MATLAB license should I buy to run EEGLAB?
 
-
-**Question:** When I ask the Mathworks salesman to sell me "only" a
+When I ask the Mathworks salesman to sell me "only" a
 MATLAB license, he gave me prices for MATLAB, Simulink and Symbolic
 Math. Do I need all these to run EEGLAB?
 **Answer:** No, you do not need all that, you only need MATLAB. If
-possible, ask for an educationnal or even student version, as they are
-cheaper. For some spectral decompositions, you may also need the Data
-Processing toolbox which has to be purchased separately. We are
-gradually attempting remove this dependency.
+possible, ask for an educational or even student version, as they are
+cheaper. For some spectral decompositions, you may also need the Signal
+Processing toolbox which has to be purchased separately.
 
-#### Overloaded functions
+### Overloaded functions
 
-
-**Question:** under Unix, I often get the following message
-
-
+under Unix, I often get the following message
 ''Warning: One or more output arguments not assigned during call to
 'XXX'.
 
@@ -83,48 +80,19 @@ has defined a variable of the same name as any variable in your MATLAB
 workspace or .m file in the MATLAB path. To solve the problem, clear the
 variable or rename the function.
 
-#### Memory issue
+###  MATLAB/EEGLAB return an out of memory error
 
-
-**Question:** MATLAB/EEGLAB return an out of memory error
-
-
-**Answer:** 3 solutions
+**Answer:** 2 solutions
 
 -   Buy more memory (RAM) for your computer
 -   Try the memory mapping scheme (in EEGLAB options) which will allow
     to keep the data on disk. Note that expect for Neuroscan files, it
     is still necessary to import the full data file in memory.
--   Change the [amount of
-    memory](http://www.mathworks.com/support/solutions/data/1-18I2C.html)
-    MATLAB or the [memory management
-    scheme](http://www.mathworks.com/support/tech-notes/1100/1106.shtml).
 
-#### 64-bit platforms
+### Multi-core use
 
 
-**Question:** does MATLAB/EEGLAB work on 64-bit platforms?
-
-
-**Answer:** yes and there are 3 choices
-
--   Mac OSX server (up to 32Gb of RAM). Prefered choice for instalation
-    and ease of use.
--   Windows 64-bit. Prefered choice for speed of instalation.
--   Linux 64-bit (Fedora Core or Redhat distribution). Prefered choice
-    for high performance computing and clusters. MATLAB instalation may
-    be harder.
-
-**!!!** However, it must be noted that there issues when using the
-64-bit version of Ubuntu 8. It seems that there are issues with the
-Signal Processing Toolbox in MATLAB (required for EEGLAB). Please refer
-to bug 768 on Bugzilla for more information! 
-
-#### Multi-core use
-
-
-**Question:** does it benefit to have a multi-core machine?
-
+Does it benefit to have a multi-core machine?
 
 **Answer:** yes, it benefits in two ways. First, you may start in
 parallel several MATLAB session. Each of them is assigned one of the
@@ -139,19 +107,20 @@ Files: Import/Export/Channel
 
 ### Saving single epochs in ASCII files
 
-
-**Question:** is it possible with EEGLAB to save an EEG data sorted in
+Is it possible with EEGLAB to save an EEG data sorted in
 10 epochs (for example) in 10 ascii files?
 **Answer:** you have to do this on the MATLAB command line:
 
-> \>\> epoch1 = EEG.data(:,:,1); \>\> save -ascii epoch1.txt epoch1 \>\>
-> epoch2 = EEG.data(:,:,2); \>\> save -ascii epoch2.txt epoch2 \>\>
-> epoch3 = EEG.data(:,:,3); \>\> save -ascii epoch3.txt epoch3
+> \>\> epoch1 = EEG.data(:,:,1); 
+> \>\> save -ascii epoch1.txt epoch1 
+> \>\> epoch2 = EEG.data(:,:,2); 
+> \>\> save -ascii epoch2.txt epoch2 
+> \>\> epoch3 = EEG.data(:,:,3); 
+> \>\> save -ascii epoch3.txt epoch3
 
 ### Channels with no assigned position
 
-
-**Question:** I work with recordings from 30 channels + 2 EOG channels.
+I work with recordings from 30 channels + 2 EOG channels.
 Naturally while exploring the data for artifact components, I want to
 have a look at the EOG too. As soon as I want to plot maps, I liked to
 leave the EOG out. But if I want to load an electrode position file with
@@ -168,10 +137,8 @@ solution to this for other purposes).
 
 ### Importing problem
 
-
-**Question:** EEGLAB does not work when I try select the type of data
-file to import under \>File \> Import data".
-
+EEGLAB does not work when I try select the type of data
+file to import under \>File \> Import data > From ASCII ...".
 
 **Answer:** Next to the importing text box there is a list box to
 indicate which type of data you want to import. Note that, not only you
@@ -183,8 +150,7 @@ Basic Processing
 
 ### Polhemus orientation
 
-
-**Question:** We have been trying to input our polhemus 3-d file into
+We have been trying to input our polhemus 3-d file into
 EEGLAB. Displaying it in 2-d, the main problem is that "0 degrees" is
 towards the right ear in Polhemus and "90 degrees" is toward nasion,
 while in EEGLAB "0 degrees" is toward nasion and "90 degrees" is toward
@@ -216,13 +182,11 @@ the changes or plot to the new dataset being scrolled. For instance, if
 you are scrolling data and select bad epochs, then load another data to
 look at it, then come back to your scrolling window to reject these
 epochs (and actually press the reject button), the epochs will be
-rejected in the **New** recently loaded dataset. We might implement a
-warning to prevent that.
+rejected in the **New** recently loaded dataset.
 
-### EEG and signal processing
+### Epoch time limits
 
-
-**Question:** The maximum time does not correspond to the maximum time I
+The maximum time does not correspond to the maximum time I
 specified. For instance I asked for epochs between 0 and 3 seconds at
 125 Hz and end up with an interval of 0 to 2.992 s. There should be
 something wrong!
@@ -241,7 +205,7 @@ point and 2.996 for the last one or 0.08 to 3...).
 ### Too many events?
 
 
-**Question:** Could you help me to know why :
+Could you help me to know why :
 I have 7 events, 3 being = 2 and 4 being = 1 in a "mother" file
 why, when I extracted epochs on event = 2, I only got 3 epochs (that's
 right) and 6 events (that's wrong, isn't it?)?
@@ -256,30 +220,15 @@ before and after epoching and you will see that it is consistent.
 
 ### Data filtering
 
-
-**Question:** I have a problem to filter data: we see in our EEG data a
+I have a problem to filter data: we see in our EEG data a
 component with the frequency of the electronics here, 50 Hz. I would
 like to remove only this frequency... but I don't really know to do this
 with lowpass and high pass filtering. I think that this phenomenon of
 "pollution" by the electric frequency is something current in EEG?
 **Answer:** Yes, it is very common.
 
-
-**Question:** So I think I can do this filtering with EEGLAB?
-**Answer:** Yes you can but you need the MATLAB Signal Processing
-toolbox. What we usually do is that we run ICA with 'extended' option
-(in the option box for running ICA put "'extended', 1"). Then some
-components capture this noise which is independent of the brain
-activity.
-
-
-**Question:** could you tell me witch other additional toolbox you used
-in which function?
-**Answer:** You only need the Signal processing toolbox.
-
-
-**Question:** Are there advanced filter functions for EEGLAB?
-**Answer:** Check out firfilt plugin at [EEGLAB Plugins page](https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php).
+###  Are there advanced filter functions for EEGLAB?
+**Answer:** Check out firfilt plugin at [EEGLAB Plugins page](/others/EEGLAB_Extensions.html).
 
 Advanced Topics
 ===============
@@ -289,8 +238,7 @@ Functions
 
 ### Missing trials in ERPimage?
 
-
-**Question:** When using channel ERP image ('Plot' -'Channel ERP
+When using channel ERP image ('Plot' -'Channel ERP
 image'), the top part of the output is the window with the sorted
 trials. The number of the trials seems to be off and it appears that not
 all trials are displayed. For instance, using a file with 17 trials the
@@ -307,8 +255,7 @@ window (width 1) and all the trials will be shown.
 
 ### ERP standard deviation
 
-
-**Question:** Is there any way to add lines above and below the average
+Is there any way to add lines above and below the average
 voltage line to indicate +/- 1 or 2 SD to show data dispersion across
 trials?
 
@@ -318,8 +265,7 @@ box of the pop_erpimage() interactive window.
 
 ### Cross-subject analysis of spectral power and coherence?
 
-
-**Question:** Do you have any good way to to across subject/patient
+Do you have any good way to to across subject/patient
 analyses with respect to power and coherence, especially making
 statistical comparisons between subjects/patients? Could we somehow use
 the data output of EEGLAB?
@@ -335,8 +281,7 @@ Artifacts
 
 ### Recognizing artifactual components
 
-
-**Question:** It is not very difficult to find components related to
+It is not very difficult to find components related to
 eyeblinks, etc. In my case, there are phases during the experiment,
 where people speak and/or move there eyes. I find it quite hard to
 determine which components are related to these artifacts and I already
@@ -353,8 +298,7 @@ ICA components to capture the variability of all the artifactual
 contributions in the data. Similar events and artifacts should be
 carefully pruned from the data before ICA decomposition.
 
-
-**Question:** Would muscle components be seen at high frequencies?
+Would muscle components be seen at high frequencies?
 **Answer:** Yes, that is typically what we observe. Muscle artifacts
 have a broadband high spectral amplitude at high frequencies (20-100 Hz
 or more). Also their spectrum does not look like the standard EEG
@@ -362,8 +306,7 @@ or more). Also their spectrum does not look like the standard EEG
 
 ### Rejecting artifacts
 
-
-**Question:** I am currently using ica to correct for artifacts. In the
+I am currently using ica to correct for artifacts. In the
 past I've visually inspected each single-trial epoch seperately,
 indentified those trials with artifact activity, and then trained ICA on
 each trial seperately to identify and remove artifactual components. As,
@@ -405,7 +348,7 @@ ICA
 ### Re-running ICA
 
 
-**Question:** While trying within EEGLAB to remove artifacts using ICA,
+While trying within EEGLAB to remove artifacts using ICA,
 I had trouble in recalculating an ICA decomposition after removing
 components. I tried to follow the guidelines in the tutorial, thinking
 that with fuzzy components it might work better to remove some clear
@@ -433,7 +376,7 @@ data rank (see below).
 ### Baseline removal and preparing data for ICA
 
 
-**Question:** What is the rationale behind baseline zero'ing the data
+What is the rationale behind baseline zero'ing the data
 before running it thru ICA, and is that always recommended?
 
 
@@ -454,7 +397,7 @@ series).
 ### Reducing the number of ICA components
 
 
-**Question:** I don't know how to make the independent component
+I don't know how to make the independent component
 dimension reduced by PCA in EEGlab4.0. For example, I want to obtain 4
 independent components from 32-channel EEG data.
 
@@ -474,7 +417,7 @@ over all the channels).
 ### Running Extended ICA
 
 
-**Question:** you mentioned that we should use the extended ICA
+You mentioned that we should use the extended ICA
 algorithm to extract subgaussian components (i.e., 60-Hz noise). For our
 MEG data (using the old binica() for Windows) we get several subgaussian
 components, but there is still leakage of 60 Hz onto many of the
@@ -490,48 +433,9 @@ will compile the improved version of binica() for Windows. The
 improvements concerned mainly the 'pca' option, which you may not need
 to use.
 
-### Using BINICA
-
-
-**Question:** am I right in assuming that binica() only runs on unix? I
-get the following error message...
-
-> ''
->
->
-> binica: using source file
-> 'C:\\MATLAB6p5\\toolbox\\eeglab4.08\\binica.sc'
->
-> binica: using binary ica file
->
-> 'C:\\MATLAB6p5\\toolbox\\eeglab4.08\\ica_linux2.4'
->
-> Running ica from script file binica4411.sc
->
-> 'ica_linux2.4' is not recognized as an internal or external command,
->
-> operable program or batch file.
->
-> ??? Error using ==\> floatread
->
-> floatread() fopen() error.
->
-> Error in ==\> C:\\MATLAB6p5\\toolbox\\eeglab4.08\\binica.m
->
-> On line 265 ==\> wts = floatread(weightsfile,\[ncomps Inf\]);
->
-> ''
-
-
-**Answer:** Yes, binica() only runs under unix (though there is a C
-executable for windows). I think you have not declared the path that
-contain the ica_linux2.4 in your unix PATH variable (in .cshrc). This is
-the reason why the MATLAB function cannot execute the binary file.
-
 ### ICA applied to data epochs or continuous data
 
-
-**Question:** I have noticed that the runica() does not include a field
+I have noticed that the runica() does not include a field
 for epoch size, so how does ICA recognize the epochs ? Doesn't this make
 a difference to the way ICA is handled ?
 **Answer:** Epochs are concatenated before running ICA. In ICA, all time
@@ -539,7 +443,7 @@ points of all epochs are shuffled so that epoch information is
 irrelevant.
 
 
-**Question:** I have some continuous 32-channel EEG data on which I
+I have some continuous 32-channel EEG data on which I
 would like to apply Infomax ICA. I am primarily interested in the 100
 epochs from the data, which are 3000 frames each. There are only about
 20-40 frames between the end of one epoch and the beginning of the next.
@@ -552,10 +456,9 @@ too, especially if you have few epochs or few data points, since most of
 the same EEG and artifact processes are likely to be active 'between'
 epochs.
 
-### ICA scalp maps
+### ICA scalp map polarity
 
-
-**Question:** For multiple-epoch data, the scalp map obtained for the
+For multiple-epoch data, the scalp map obtained for the
 different epochs is the same for a particular component. Is this normal
 or is there some mistake that's being done in the analysis?
 **Answer:** Because the ICA algorithm is applied in the electrode space
@@ -569,8 +472,7 @@ Time Frequency
 
 ### Timef() spectral decompositions: properties and discrepencies
 
-
-**Question:** Is it not true that the ERP for a condition can be
+Is it not true that the ERP for a condition can be
 completely reconstructed from the timef() results, incuding ITC? One
 could write a function that takes the outputs of timef
 ('times','freqs','ersp','itc') and gives as it's output the ERP. Could
@@ -579,7 +481,6 @@ ERP would have looked without some aspect of the ERSP (like, take away
 the inter-trial coherence in the alpha band and leave all else the
 same). Finally, could one subtract the 'ersp' and 'itc' between two
 conditions and then reconstruct the difference ERP?
-
 
 I've been playing with the parameters of timef() and am surprised by the
 large differences in results dependent on the values for 'cycles',
@@ -630,8 +531,7 @@ within the same t/f transform.
 
 ### Time-frequency decomposition time range problem
 
-
-**Question:** I am afraid that the time scale is slightly off for the
+I am afraid that the time scale is slightly off for the
 time-frequency plots. E.g. a component time-frequency plot from a
 dataset where the epochs are from -2560 ms to +2046 ms and according to
 the plot's time scale it appears that the epoch is from slightly before
@@ -662,8 +562,7 @@ frequency resolution you can achive).
 
 ### Multitaper, FTT, wavelets for time-frequency decomposition?
 
-
-**Question:** I have been using the new EELAB toolbox for the past
+I have been using the new EELAB toolbox for the past
 couple of weeks, especially timef() and crossf(). The multitaper method
 with bootstrap statistics has been giving me very nice stable results.
 Timef() with wavelets gives slightly different results, but also
@@ -703,8 +602,7 @@ in the timef() function.
 
 ### Spectrogram orientation?
 
-
-**Question:** We normally display our chrono-spectrograms with the lower
+We normally display our chrono-spectrograms with the lower
 frequencies at the bottom of the plot, just the opposite how Eagle does
 it. Is there an easy way to change this?
 
@@ -725,8 +623,7 @@ Single Trial
 
 ### Can I sort single-trial ERPs on amplitude?
 
-
-**Question:** How can I sort single trial ERP in erpimage() based on
+How can I sort single trial ERP in erpimage() based on
 their amplitude at a determined latency.
 **Answer:** use the 'ampsort' option of erpimage() (not separately
 queried in GUI, you have to put it into the "More options" text box at
@@ -739,8 +636,7 @@ Miscellaneous
 
 ### Epoching data on custom events
 
-
-**Question:** For reasons too complex to describe, I am trying to epoch
+For reasons too complex to describe, I am trying to epoch
 with respect to various latencies RELATIVE to the events in my dataset.
 For example, epoch onset = event latency + some value, so I can
 calculate the set of latencies and use them in a call to epoch.m (the
@@ -770,8 +666,7 @@ Figures
 
 ### Formatting figures for publication
 
-
-**Question:** The lines in erpimage() (e.g. 'X' axis on the average) are
+The lines in erpimage() (e.g. 'X' axis on the average) are
 too thick. How can I control their thickness?
 
 
@@ -785,8 +680,7 @@ in vector format to fine tune it. See also this web page.
 
 ### Exporting figures
 
-
-**Question:** Could you tell me how to export figures from EEGLAB (to
+Could you tell me how to export figures from EEGLAB (to
 include in a "word.doc" for example, or to export to Excel)? This for
 the scroll channel data eegplot(), and for channel spectra and
 maps...and other plots....
@@ -812,8 +706,7 @@ screen.
 
 ### Figures and printing problems
 
-
-**Question:** When I tried to plot the channel spectrum, the axis labels
+When I tried to plot the channel spectrum, the axis labels
 and tick labels did not appear clearly on the screen and I've got the
 following error messages from the MATLAB command line: "Plotting scalp
 distributions: Warning: Unrecognized OpenGL version, defaulting to
@@ -821,8 +714,7 @@ distributions: Warning: Unrecognized OpenGL version, defaulting to
 **Answer:** You may solve the problem by changing the OpenGL version on
 the MATLAB command line by typing: "feature('UseGenericOpenGL',1)".
 
-
-**Question:** Sometimes MATLAB crashes when I try to print a figure. If
+Sometimes MATLAB crashes when I try to print a figure. If
 I save the figure on disk, first, some parts are missing. Do you know
 how to fix this problem?
 **Answer:** You may solve the problem by changing the OpenGL version on
@@ -837,9 +729,3 @@ strategy, some parts of complex figures may disapear, but this is rare
 (then we use screen captures, or use a Windows machine, since printing
 seems to be more reliable under Windows OS). We hope MATLAB will become
 better at this in the future (Is MATLAB listening?).
-
-See also
---------
-
--   [Archive of the eeglablist email discussion
-    list](http://knowing.sccn.ucsd.edu/pipermail/eeglablist/)

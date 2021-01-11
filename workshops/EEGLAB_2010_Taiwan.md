@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2010 Taiwan
-permalink: workshops/EEGLAB_2010_Taiwan.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 <span style="color: red">11th EEGLAB Workshop</span>
 ===

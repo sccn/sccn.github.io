@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EEGLAB and Fieldtrip
-parent: Other documents
+parent: Interoperability
 ---
 
  EEGLAB and Fieldtrip <span style="color: green">- DONE</span>

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Download EEGLAB
-parent: Other documents
+title: Download EEGLAB MATLAB
+parent: Download EEGLAB
+nav_order: 1
 ---
 Download EEGLAB <span style="color: green">- DONE</span>
 ====

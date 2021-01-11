@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2013 UCSD
-permalink: /workshops/EEGLAB_2013_UCSD.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![697px\|thumb\|center\|upright=3](/assets/images/GroupEEGLAB2013.png)

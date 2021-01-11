@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2018 UCSD
-permalink: /workshops/EEGLAB_2018_at_UCSD.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![](/assets/images/EEGLAB_28th_2018_2.jpg)

@@ -5,16 +5,15 @@ permalink: /workshops/Online_EEGLAB_Workshop.html
 parent: Workshops
 nav_order: 1
 ---
-
-
+The online EEGLAB workshop
+====
 
 This page comprises materials for and videos from different EEGLAB
 Workshops held at the San Diego Supercomputer Center on the campus of
 the University of California San Diego (UCSD), La Jolla, California,
-plus more recently recorded talks and Youtube tutorials. Note that the
-wiki page for each EEGLAB workshop also contain the slides of the
+plus more recently recorded talks and short Youtube tutorial videos. Note that the
+wiki pages for EEGLAB workshops also contain the slides of the
 presentations.
-
 
 ## <span style="color: darkred"> List of Youtube Tutorial Videos </span>
 
@@ -81,6 +80,17 @@ presentations.
 -   [Part 2: EEG spectrum and ERSP](https://youtu.be/BcOuRxeZTtA)
 -   [Part 3: Wavelet transforms](https://youtu.be/eUFf5eFpdLg)
 
+#### Robust statistics applied to EEG data (2020, Delorme)
+-   [Part 1: Basic inferential statistics](https://youtu.be/LoMOT6vzoqc)
+-   [Part 2: Increasing robustness](https://youtu.be/l0hkOSN-fxI)
+-   [Part 3: The bootstrap approach](https://youtu.be/z0l7BstSzm0)
+-   [Part 4: Bootstrap vs. permutation](https://youtu.be/odR8UlsJg0U)
+-   [Part 5: Correction for multiple comparisons](https://youtu.be/DQQAkID0vNQ)
+
+#### General Linear Model of EEG using EEGLAB/LIMO (2020, Delorme)
+-   [Part 1: Basic Theory](https://youtu.be/mZbK6KvMF2I)
+-   [Part 2: Practicum](https://youtu.be/7EWN2w0kSy4)
+
 #### Preprocessing Muse data in EEGLAB (2017, Delorme)
 
 -   [Part 1: Acquiring data](https://youtu.be/omn7y3TIsGc)
@@ -98,30 +108,21 @@ workshop below although their video quality tends to be lower and the
 presentations were given by different researchers. It is therefore
 worthwhile to compare the 2010 and 2016 versions.
 
--   [Mining Event Related Brain-Dynamics I by Scott
-    Makeig](https://www.youtube.com/watch?v=JUkOuFyLFS4)
--   [EEGLAB Overview by Arnaud
-    Delorme](https://www.youtube.com/watch?v=oQ2CHqu4_OU)
--   [Data Import/Preprocessing and Basic Plotting by Julie
-    Onton](https://www.youtube.com/watch?v=cTuXe-rZjvk)
--   [Independent Component Analysis of Electrophysiological Data by
-    Scott Makeig](https://www.youtube.com/watch?v=NIPq16s1G4A)
--   [Performing ICA and ICA Visualization by Julie
-    Onton](https://www.youtube.com/watch?v=H3dK0j6moII)
--   [Evaluating Independent Components by Luca
-    Pion-Tonachini (ICLabel)](https://www.youtube.com/watch?v=e_Ccx_MCOUM)
--   [Time-Frequency Measures by John
-    Iversen](https://www.youtube.com/watch?v=Jj2Ke_e6DR0)
--   [Introduction to hierarchical GLM Statistics and Bootstrap by Cyril
-    Pernet](https://www.youtube.com/watch?v=sbyDqh-Olb4)
--   [Introduction to the EEGLAB STUDY and Study Design by Arnaud
-    Delorme](https://www.youtube.com/watch?v=HAGrNeh-kgA)
--   [Source Localization: The EEG Forward and Inverse Problem by Zeynep
-    Akalin Acar](https://www.youtube.com/watch?v=Rep09kR9o7c)
--   [BCILAB Intro: Building and Testing a Simple BCI Model by Christian
-    Kothe](https://www.youtube.com/watch?v=9ehpRO4QoGw)
--   [SIFT Intro: Building and Visualizing Source Connectivity by Tim
-    Mullen](https://www.youtube.com/watch?v=6_WW6EMHmWo)
+#### Theoretical lectures
+-   [Mining Event-Related Brain-Dynamics by Scott Makeig](https://www.youtube.com/watch?v=JUkOuFyLFS4)
+-   [Independent Component Analysis of Electrophysiological Data by Scott Makeig](https://www.youtube.com/watch?v=NIPq16s1G4A)
+-   [Time-Frequency Measures by John Iversen](https://www.youtube.com/watch?v=Jj2Ke_e6DR0)
+-   [Introduction to hierarchical GLM Statistics and Bootstrap by Cyril Pernet](https://www.youtube.com/watch?v=sbyDqh-Olb4)
+-   [Source Localization: The EEG Forward and Inverse Problem by Zeynep Akalin Acar](https://www.youtube.com/watch?v=Rep09kR9o7c)
+-   [BCILAB Intro: Building and Testing a Simple BCI Model by Christian Kothe](https://www.youtube.com/watch?v=9ehpRO4QoGw)
+-   [SIFT Intro: Building and Visualizing Source Connectivity by Tim Mullen](https://www.youtube.com/watch?v=6_WW6EMHmWo)
+
+#### Practical lectures
+-   [EEGLAB Overview by Arnaud Delorme](https://www.youtube.com/watch?v=oQ2CHqu4_OU)
+-   [Data Import/Preprocessing and Basic Plotting by Julie Onton](https://www.youtube.com/watch?v=cTuXe-rZjvk)
+-   [Performing ICA and ICA Visualization by Julie Onton](https://www.youtube.com/watch?v=H3dK0j6moII)
+-   [Evaluating Independent Components by Luca Pion-Tonachini (ICLabel)](https://www.youtube.com/watch?v=e_Ccx_MCOUM)
+-   [Introduction to the EEGLAB STUDY and Study Design by Arnaud Delorme](https://www.youtube.com/watch?v=HAGrNeh-kgA)
 
 ## <span style="color: darkred">EEGLAB 2010 workshop at UCSD</span>
 
@@ -188,7 +189,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
 
 ## <span style="color: darkred">MATLAB and matrix operations tutorials</span>
 
-If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html)
+If you are new to MATLAB or need a refresher, do not hesitate to consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html).
 
 **IMPORTANT NOTE:** The practical
 portions of the workshop are largely dedicated to writing EEGLAB MATLAB

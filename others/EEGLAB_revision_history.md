@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EEGLAB revision history
-parent: Other documents
+parent: Download EEGLAB
 ---
 EEGLAB revision history <span style="color: green">- DONE</span>
 ===

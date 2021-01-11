@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EEGLAB Bugs
-parent: Other documents
+parent: Troubleshooting
 ---
 EEGLAB bugs <span style="color: green">- DONE</span>
 ===

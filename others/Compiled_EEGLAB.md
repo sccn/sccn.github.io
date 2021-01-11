@@ -1,8 +1,7 @@
 ---
 layout: default
-title: compiled EEGLAB
-parent: Reference Topics
-grand_parent: Tutorials
+title: Download EEGLAB compiled
+parent: Download EEGLAB
 ---
 
 The compiled version of EEGLAB <span style="color: green">- DONE</span>

@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2010 Finland
-permalink: /workshops/EEGLAB_2010_Finland.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 <span style="color: red">10th EEGLAB Workshop</span>
 ====

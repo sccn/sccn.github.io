@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EEGLAB 2016 SML
-permalink: /workshops/EEGLAB_2016_SML.html
-parent: Workshops
-nav_exclude: true
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![700px\|thumb\|center](/assets/images/Group.jpg)

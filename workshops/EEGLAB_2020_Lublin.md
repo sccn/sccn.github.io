@@ -1,7 +1,6 @@
 ---
 layout: default
 title: EEGLAB 2022 Lublin
-permalink: /workshops/EEGLAB_2020_Lublin.html
 parent: Workshops
 nav_order: 3
 ---

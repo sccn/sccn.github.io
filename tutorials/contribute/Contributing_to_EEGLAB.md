@@ -1,7 +1,8 @@
 ---
 layout: default
-title: EEGLAB core code
-parent: Contribute
+title: Modify EEGLAB code
+parent: How to contribute?
+grand_parent: Tutorials
 ---
 Contributing to the EEGLAB core code <span style="color: green"> - Done</span>
 ========================
