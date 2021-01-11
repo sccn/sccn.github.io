@@ -19,8 +19,8 @@ describe the architecture, etc. of the EEGLAB system.
 Here are the most common steps you might want to take when processing EEG data at the single-subject level:
 
 <h3><a href="/tutorials"><span style="color: black;">EEGLAB Tutorial</span></a></h3>
-{%- assign children_list = site.pages | where: "parent", "Tutorials" -%}
-{% include toc_nav.html nav=children_list %}
+{%- assign children_list = site.pages | where: "parent", page.title -%}
+{% include toc_nav_recursive.html nav=children_list %}
 
 <!--
 ### Importing your data and associated events and channel location information:
