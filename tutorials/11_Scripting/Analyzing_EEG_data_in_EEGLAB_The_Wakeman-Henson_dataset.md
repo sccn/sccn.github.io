@@ -1,12 +1,10 @@
 ---
 layout: default
 title: e. BIDS Data script
-summary: Analyzing the Wakeman-Henson dataset with EEGLAB
 parent: 11. Write scripts
 grand_parent: Tutorials 
 ---
 
-![right\|830px](/assets/images/Rmc_sfn_poster_2018_2print.jpg)
 
 # Analyzing EEG-BIDS data with EEGLAB: The Wakeman-Henson dataset
 
@@ -97,7 +95,7 @@ The function pop_importbids() imports a BIDS format folder structure into an EEG
 If 'bidsevent' is 'on' then events will be imported from the BIDS .tsv event file and events in the raw binary EEG files will be ignored. Similarly 'bidschanloc', 'on' will import channel locations from BIDS .tsv file and ignore any locations in raw EEG files. The 'studyName' field let you specify the name of the newly created STUDY.
 
 ``` matlab
-[STUDY, ALLEEG] = pop_importbids(filepath, 'bidsevent','on','bidschanloc','on', ...
+[STUDY, ALLEEG] = pop_importbids(filepath, 'eventtype','trial_type', 'bidsevent','on','bidschanloc','on', ...
     'studyName','Face_detection');
 
 ALLEEG = pop_select( ALLEEG, 'nochannel',{'EEG061','EEG062','EEG063','EEG064'});
@@ -131,13 +129,12 @@ Note that the second argument of the function pop_icflag() 'thresh' is to specif
 So here you can see that we only remove ICA components if they are classified in the Eye or Heart category with between 80%-100% confidence. 
 
 ``` matlab
-for s=1:size(EEG,2)
-    EEG(s) = pop_runica(EEG(s), 'icatype','runica','concatcond','on',...
-                                'options',{'pca',EEG(s).nbchan-1});
-    EEG(s) = pop_iclabel(EEG(s),'default');
-    EEG(s) = pop_icflag(EEG(s),'thresh', [NaN NaN;0.8 1;0.8 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN]);
-    EEG(s) = pop_subcomp(EEG(s), find(EEG(s).reject.gcompreject), 0);
-end
+EEG = pop_runica(EEG, 'icatype','runica','concatcond','on',...
+                                'options',{'pca', -1});
+EEG = pop_iclabel(EEG,'default');
+EEG = pop_icflag(EEG,[NaN NaN;0.8 1;0.8 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN]);
+EEG = pop_subcomp(EEG, find(EEG.reject.gcompreject), 0); %remove bad components
+
 ```
 
 ### Remove portions of data contaminated by artefacts
@@ -161,9 +158,8 @@ Here we convert the continuuous EEG datasets of our STUDY to epoched data by ext
 Note that we do not remove a baseline here.
 
 ``` matlab
-EEG    = pop_epoch( EEG,'typerange', {'famous_new','famous_second_early','famous_second_late',...
-    'scrambled_new','scrambled_second_early','scrambled_second_late','unfamiliar_new',...
-    'unfamiliar_second_early','unfamiliar_second_late'},'timelim', [-0.5 1] ,'epochinfo','yes');
+EEG = pop_epoch( EEG,{'famous_new','famous_second_early','famous_second_late','scrambled_new','scrambled_second_early','scrambled_second_late','unfamiliar_new','unfamiliar_second_early','unfamiliar_second_late'},[-0.5 1] ,'epochinfo','yes');
+
 EEG    = pop_saveset(EEG, 'savemode', 'resave');
 ALLEEG = EEG;
 ```
@@ -174,100 +170,60 @@ Here, we create a design that we name 'Faces' that takes all values of events ty
 
 ``` matlab
 STUDY  = std_checkset(STUDY, ALLEEG);
-STUDY  = std_makedesign(STUDY, EEG, 1, 'name','Faces','delfiles','off',...
-                        'defaultdesign','off','variable1','type','values1',{});
+STUDY = std_makedesign(STUDY, ALLEEG, 1, 'name','Faces','delfiles','off','defaultdesign','off',...
+    'variable1','face_type','values1',{'famous','scrambled','unfamiliar'},...
+    'vartype1','categorical', ...
+    'subjselect',{'sub-002','sub-003','sub-004','sub-005','sub-006','sub-007','sub-008','sub-009',...
+    'sub-010', 'sub-011','sub-012','sub-013','sub-014','sub-015','sub-016','sub-017','sub-018','sub-019'});
 ```
 
 Update the EEGLAB window
 ``` matlab
 eeglab redraw
 ```
+## Plot data
 
-
-
-### Perform ICA decomposition
-
-Next we performed ICA decomposition using adaptive mixture ICA (AMICA)
-(Palmer et al., 2007) of the retained data. During the first 5 training
-iterations, optional further data point rejection (based on data
-(un)likelihood under the evolving AMICA model) was performed using a
-rejection threshold of ±3 SD. This rejected approximately 10% of the
-data points, focusing the ICA unmixing on defining maximally independent
-processes in the clean data. Here we chose to use AMICA
-(https://github.com/japalmer29/amica) for the decomposition as we found
-AMICA to produce the most temporally independent and more
-physiologically plausible components than any of 21 other ICA and
-ICA-like linear data separation approaches (Delorme et al., 2012). In
-that study, the second most effective ICA approach was Infomax and
-Extended Infomax (Bell & Sejnowksi, 1995; Lee et al., 1997), the default
-ICA decomposition approach (runica) for which very fast GPU-enabled
-versions, beamica (Christian Kothe) and cudaica ([Raimondo et al,.
-2012](https://www.hindawi.com/journals/cin/2012/206972/)), respectively,
-are also available as EEGLAB plugins.
+### Compute channels measures
+Note that this can be done before creating a study design.
+Here we compute event related potentials. This is computed over each individual channel.
 
 ``` matlab
-EEG = pop_runamica(EEG,'numprocs',4, 'do_reject', 1, 'numrej', 5, 'rejint', 4,'rejsig', 3,'rejstart', 1, 'pcakeep',EEG.nbchan-1); % Computing ICA with AMICA
+[STUDY, ALLEEG] = std_precomp(STUDY, ALLEEG, {},'savetrials','on','rmicacomps','on','interp','on',...
+    'recompute','on','erp','on','erpparams',{'rmbase',[-200 0] });
 ```
 
-Alternatively, the default ICA decomposition approach (runica) can be
-used as follows:
+### Plot ERP at a single channel
+Now we are going to plot the ERPs for one channel together for each of the conditions:
+- we first specify the parameteres of the plot:
+``` matlab
+STUDY = pop_erpparams(STUDY, 'timerange',[-200 1500], 'plotconditions','together');
+```
+
+- then we plot the figure (here we select channel 65):
+``` matlab
+STUDY = std_erpplot(STUDY,ALLEEG,'channels',{'EEG065'}, 'design', 1);
+```
+
+
+![](/assets/images/erp_wh_bids.jpg)
+
+### Plot the ERP activity as an averaged topographical map
+
+- specify the plot's parameters:
+ ``` matlab 
+STUDY = pop_erpparams(STUDY, 'topotime',[160 180] ,'timerange',[]);
+```
+
+- plot the topography
 
 ``` matlab
-EEG = pop_runica(EEG, 'pca', EEG.nbchan-1); % Computing ICA with Infomax
+STUDY = std_erpplot(STUDY,ALLEEG,'channels',{'EEG001','EEG002','EEG003','EEG004', ...'EEG005','EEG006', 'EEG007','EEG008','EEG009','EEG010','EEG011','EEG012','EEG013', ...'EEG014','EEG015','EEG016','EEG017',
+    'EEG018','EEG019','EEG020','EEG021','EEG022','EEG023','EEG024', ... 'EEG025','EEG026','EEG027','EEG028',
+    'EEG029','EEG030','EEG031','EEG032','EEG033','EEG034','EEG035', ... 'EEG036','EEG037','EEG038','EEG039',
+    'EEG040','EEG041','EEG042','EEG043','EEG044','EEG045','EEG046', ... 'EEG047','EEG048','EEG049','EEG050',
+    'EEG051','EEG052','EEG053','EEG054','EEG055','EEG056','EEG057', ... 'EEG058','EEG059','EEG060','EEG065',
+    'EEG066','EEG067','EEG068','EEG069','EEG070','EEG071', ... 'EEG072','EEG073','EEG074'}, 'design', 1);
+    
 ```
 
-### Select independent components
-
-We selected a subset of the ICs for further processing and analysis as
-not all of them accounted for brain activity relevant to the focus of
-our analysis. IC selection was performed based on characteristic
-features of “brain components” including a dipolar scalp topography and
-existence of one or more peaks in the power spectrum between 5 Hz and 30
-Hz.
-
-### Fit equivalent current dipole models
-
-After co-registering all channel locations to the MNI head model,
-equivalent current dipoles were fit to localize source locations using
-the dipfit extension implemented in EEGLAB. A single dipole was fit
-first using a Boundary Element Model (BEM) template head model (MNI). IC
-candidates for subsequent fitting dual-symmetric equivalent dipoles were
-selected by visual inspection of the IC scalp topographies. The
-dual-symmetric equivalent dipole model constrained the positions (but
-not the orientations) of the two-dipole model to be bilaterally
-symmetric, to account for ICs whose scalp topography learned from the
-data clearly reflects separable dipolar projections to the two
-hemispheres. Dual-symmetric ICs might arise to account for synchronous
-activity that is resonant in two coupled cortical source patches densely
-and bidirectionally connected by the corpus callosum. For candidate ICs
-in which the dual-symmetric equivalent dipole model collapsed to a
-single medial equivalent dipole, the unconstrained single equivalent
-dipole model was used in further analyses.
-
-``` matlab
-dipfitpath = fileparts(which('pop_multifit'));
-electemplatepath = fullfile(dipfitpath,'standard_BEM/elec/standard_1005.elc');
-[~,coord_transform] = coregister(EEG.chaninfo.nodatchans, electemplatepath, 'warp', 'auto', 'manual', 'off');
-EEG = pop_dipfit_settings( EEG, 'hdmfile', fullfile(dipfitpath,'standard_BEM/standard_vol.mat'),...
-                                'coordformat', 'MNI', 'chanfile', electemplatepath,'coord_transform', coord_transform,...
-                                'mrifile', fullfile(dipfitpath,'standard_BEM/standard_mri.mat'));
-EEG = pop_multifit(EEG, 1:EEG.nbchan,'threshold', 100, 'dipplot','off','plotopt',{'normlen' 'on'});
-```
-
-The following sample code referer to computing dual dipoles. For this,
-the indices of the components fitting dual-symmetric equivalent dipoles
-were selected by visual inspection and stored in the variable *matchic*.
-
-``` matlab
-EEG = pop_multifit(EEG, matchic, 'threshold', 100, 'dipoles', 2, 'plotopt', {'normlen' 'on'});
-```
-
-After this, the data can be saved by using the EEGLAB function
-*pop_saveset.m*.
-
-EEGLAB sample code (e.g., for subject 11):
-
-``` matlab
-EEG = pop_saveset( EEG, 'filename', subj11_proc.set', 'filepath', path2save); % path2save is variable with the path to save the data
-```
-
+![](/assets/images/topo_wh_bids.jpg)
