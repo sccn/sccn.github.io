@@ -7,6 +7,15 @@ has_toc: true
 ---
 # Welcome to the EEGLAB Wiki
 
+
+
+
+
+![EEGLAb sum-up picture](/assets/images/tuto_pic.png)
+
+
+
+
 ### Download EEGLAB
 
 -    [EEGLAB hardware and software
