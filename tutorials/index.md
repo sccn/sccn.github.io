@@ -4,6 +4,7 @@ title: Tutorials
 has_children: true
 has_toc: false
 ---
+![Mugs from the 17th EEGLAB workshop](/assets/images/tutorial_image.jpg)
 # Welcome to the EEGLAB tutorial
 
 This tutorial is an introduction to basic EEGLAB functions and processing. 
@@ -15,21 +16,13 @@ and technical elements of EEGLAB such as input data formats and MATLAB
 data structures. These topics are presented to the user to fully
 describe the architecture, etc. of the EEGLAB system.
 
-Here are the most common steps you might want to take when processing EEG data at the single subject level:
+Here are the most common steps you might want to take when processing EEG data at the single-subject level:
+
+<h3><a href="/tutorials"><span style="color: black;">EEGLAB Tutorial</span></a></h3>
+{%- assign children_list = site.pages | where: "parent", "Tutorials" -%}
+{% include toc_nav.html nav=children_list %}
 
 <!--
-- a general introduction to EEG signal processing and EEGLAB
-
-
-<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN2NksmDeqizCI1z5DJBlqC6"><img align="center" width="400" height="400" src= "/assets/images/ICAintro2.png"></a>
-
- 
-- an introduction to preprocessing EEG data 
-
-<a href="https://www.youtube.com/playlist?list=PLXc9qfVbMMN1ZS3sU2xT2hhfB5PAmuNae"><img align="center" width="400" height="400" src= "/assets/images/ICApreproc.png"></a>
--->
-
-
 ### Importing your data and associated events and channel location information:
 - [Load data in EEGLAB](/tutorials/single-subject/loading-data-in-EEGLAB)
 - [Import or check events data]()
@@ -53,15 +46,16 @@ Here are the most common steps you might want to take when processing EEG data a
 - [plot ERPs](/tutorials/single-subject/data-averaging)
 - [plot ERP image](/tutorials/single-subject/plotting-erp-images)
 
-### Working with ICA decompistion
+### Working with ICA decomposition
 - [Running ICA decomposition](/tutorials/single-subject/decomposing-data-using-ICA)
 - [Visually inspecting and removing ICA components](/tutorials/single-subject/inspecting-ica-comp.html)
--[Plotting components contribution to EEG data]( /tutorials/single-subject/working-with-ICA-components)
+- [Plotting components contribution to EEG data](/tutorials/single-subject/working-with-ICA-components)
 
 ### Time-Frequency decomposition
 - [Computing ERSP and ITC for channel and component data](/tutorials/single-subject/time-frequency-decomposition)
+-->
 
 Note on MATLAB 
 ---------------
-If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/workshops/tutorial_matlab)
+If you are new to MATLAB or need a refresher, do not hesitate to consult the material on the [Getting started with MATLAB page](/workshops/tutorial_matlab)
 
