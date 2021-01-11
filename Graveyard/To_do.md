@@ -1,14 +1,8 @@
 ---
 layout: default
-title: To do before wiki release
-parent: Download EEGLAB
 ---
-
-# To do list
-
-- Look at all the plugins and update documentation link (in database) pointing to old wiki pages
-
-- Add intro to each main section of the tutorial
+To do before wiki release
+====
 
 - Check slow reading of EEGLAB openneuro dataset
 
@@ -16,11 +10,9 @@ parent: Download EEGLAB
 
 - Make sure all pages have {: .no_toc }
 
-- Revisit aspect ratio of GUIs on Windows and Mac
+- EEGLAB: Revisit aspect ratio of GUIs on Windows and Mac
 
-- search for wikilinks
-
-- Correct section 7 to 8 with Grammarly
+- Plugins: Update all github repositories
 
 - Edit tutorial index page, and other title pages
 
@@ -28,13 +20,9 @@ parent: Download EEGLAB
 
 - Add readme to FIRFILT
 
-- Add more tutorial data and reference openneuro
+- Move to eeglab.org
 
 - Replace
-
-http with https
-
-() to .m
 
 Printing and editing EEGLAB figures
 -----------------------------------
