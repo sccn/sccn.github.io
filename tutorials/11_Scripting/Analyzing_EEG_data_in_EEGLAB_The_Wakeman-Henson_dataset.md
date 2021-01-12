@@ -75,6 +75,8 @@ Once you have downloaded the data on [OpenNeuro](https://openneuro.org/datasets/
 
 ### Start EEGLAB 
 
+In the scripts below, we use the [git version of EEGLAB](/others/How_to_download_EEGLAB.html) available as of 2021. Scripts may not work with earlier versions of EEGLAB.
+
 ``` matlab
 clear
 [ALLEEG, EEG, CURRENTSET, ALLCOM] = eeglab;
@@ -129,8 +131,9 @@ EEG = pop_reref( EEG,[],'interpchan',[]);
 ```
 
 ### Run ICA and flag artefactual components using IClabel
-You can find more details on using ICA to remove artifacts embedded in EEG data by reading the [dedicated section](/tutorials/06_RejectArtifacts/RunICA.html) on the EEGLAB tutorial.
-IClabel is an EEGLAB plugin installed by default with EEGLAB, which calculates a probability for the type of each independent component (brain, eye, muscle, line noise, etc.).
+Then, we apply ICA to the data. If you have installed the *Picard* plugin for EEGLAB, you may replace 'runica' by 'picard'. As 'runica', *Picard* is an Infomax ICA algorithm but uses the newton optimization method, which is both faster and theoretically more efficient. You can find more details on using ICA to remove artifacts embedded in EEG data by reading the [dedicated section](/tutorials/06_RejectArtifacts/RunICA.html) on the EEGLAB tutorial.
+
+Then we use IClabel to classify components. IClabel is an EEGLAB plugin installed by default with EEGLAB, which calculates a probability for the type of each independent component (brain, eye, muscle, line noise, etc.).
 Note that the second argument of the function *pop_icflag.m* 'thresh' is to specify the minimum and maximum threshold values used for selecting components as artifacts. The thresholds are entered for 6 categories of ICA components that are, in order: *Brain*, *Muscle*, *Eye*, *Heart*, *Line Noise*, *Channel Noise*, *Other*.
 So here, you can see that we only remove ICA components if they are classified in the *Eye* or *Muscle* with at least 80% confidence. ICA components that are flagged as artefactual by IClabel are then subtracted (removed) from the data.
 
@@ -139,7 +142,7 @@ EEG = pop_runica(EEG, 'icatype','runica','concatcond','on',...
                                 'options',{'pca', -1});
 EEG = pop_iclabel(EEG,'default');
 EEG = pop_icflag(EEG,[NaN NaN;0.8 1;0.8 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN]);
-EEG = pop_subcomp(EEG, find(EEG.reject.gcompreject), 0); %remove bad components
+EEG = pop_subcomp(EEG, [], 0, 0); %remove bad components
 
 ```
 
@@ -154,7 +157,7 @@ EEG = pop_clean_rawdata( EEG,'FlatlineCriterion','off','ChannelCriterion','off',
     'WindowCriterionTolerances',[-Inf 7] );
 ```
 
-You can access the description of each of this function's parameter from within MATLAB by typing:
+Note that dataset 15 (EEG(15)) only has 15% data left at the end of this process and that the threshold above are likely too aggressive. You can access the description of each of this function's parameter from within MATLAB by typing:
 ``` matlab
 help pop_clean_rawdata
 ```
@@ -163,18 +166,19 @@ help pop_clean_rawdata
 Below, we convert the continuous EEG datasets to epoched datasets by extracting data epochs that are time-locked to the specified event types. The 'timelim' input defines the epoch latency limits in seconds relative to the time-locking events: here, we define a window from -0.5s before the event to 1s after the event. 
 Note that we do not remove a baseline (high-pass filtering performed above is sufficient at this stage).
 
-``` matlab
+```matlab
 EEG = pop_epoch( EEG,{'famous_new','famous_second_early','famous_second_late','scrambled_new','scrambled_second_early','scrambled_second_late','unfamiliar_new','unfamiliar_second_early','unfamiliar_second_late'},[-0.5 1] ,'epochinfo','yes');
-
-EEG    = pop_saveset(EEG, 'savemode', 'resave');
-ALLEEG = EEG;
 ```
 
-### Create a STUDY design
-STUDY designs allow you to define independent variables and perform statistical comparisons for a given experiment. Here, we create the 'Faces' design where the first (and unique) independent variable is the type of image with all event types' values (i.e., scramble, familiar and unfamiliar).
+## Data plotting
+
+### Creating a STUDY design
+
+The code below will create a STUDY design to compare across conditions. 
 
 ``` matlab
-STUDY  = std_checkset(STUDY, ALLEEG);
+ALLEEG = EEG; % update ALLEEG structure
+STUDY = std_checkset(STUDY, ALLEEG); % update epoch information
 STUDY = std_makedesign(STUDY, ALLEEG, 1, 'name','Faces','delfiles','off','defaultdesign','off',...
     'variable1','face_type','values1',{'famous','scrambled','unfamiliar'},...
     'vartype1','categorical', ...
@@ -182,11 +186,11 @@ STUDY = std_makedesign(STUDY, ALLEEG, 1, 'name','Faces','delfiles','off','defaul
     'sub-010', 'sub-011','sub-012','sub-013','sub-014','sub-015','sub-016','sub-017','sub-018','sub-019'});
 ```
 
-Update the EEGLAB window
+Update the main EEGLAB window.
+
 ``` matlab
 eeglab redraw
 ```
-## Data plotting
 
 ### Compute channels measures
 Note that this can be done before creating a study design.
@@ -209,7 +213,7 @@ Then we plot the figure (here, we select channel 65 as in the original publicati
 STUDY = std_erpplot(STUDY,ALLEEG,'channels',{'EEG065'}, 'design', 1);
 ```
 
-![](/assets/images/erp_wh_bids.jpg)
+![](/assets/images/erp_wh_bids2.png)
 
 More details about plotting STUDY measure is available in the [STUDY visualization tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html).
 
@@ -223,15 +227,16 @@ STUDY = pop_erpparams(STUDY, 'topotime',[160 180] ,'timerange',[]);
 and then, we plot the scalp topography.
 
 ``` matlab
-STUDY = std_erpplot(STUDY,ALLEEG,'channels',{'EEG001','EEG002','EEG003','EEG004', ...'EEG005','EEG006', 'EEG007','EEG008','EEG009','EEG010','EEG011','EEG012','EEG013', ...'EEG014','EEG015','EEG016','EEG017',
-    'EEG018','EEG019','EEG020','EEG021','EEG022','EEG023','EEG024', ... 'EEG025','EEG026','EEG027','EEG028',
-    'EEG029','EEG030','EEG031','EEG032','EEG033','EEG034','EEG035', ... 'EEG036','EEG037','EEG038','EEG039',
-    'EEG040','EEG041','EEG042','EEG043','EEG044','EEG045','EEG046', ... 'EEG047','EEG048','EEG049','EEG050',
-    'EEG051','EEG052','EEG053','EEG054','EEG055','EEG056','EEG057', ... 'EEG058','EEG059','EEG060','EEG065',
-    'EEG066','EEG067','EEG068','EEG069','EEG070','EEG071', ... 'EEG072','EEG073','EEG074'}, 'design', 1);
-    
+STUDY = std_erpplot(STUDY,ALLEEG,'channels',{'EEG001','EEG002','EEG003','EEG004', ...
+'EEG005','EEG006', 'EEG007','EEG008','EEG009','EEG010','EEG011','EEG012','EEG013', ...
+'EEG014','EEG015','EEG016','EEG017','EEG018','EEG019','EEG020','EEG021','EEG022','EEG023','EEG024', ... 
+'EEG025','EEG026','EEG027','EEG028','EEG029','EEG030','EEG031','EEG032','EEG033','EEG034','EEG035', ... 
+'EEG036','EEG037','EEG038','EEG039','EEG040','EEG041','EEG042','EEG043','EEG044','EEG045','EEG046', ... 
+'EEG047','EEG048','EEG049','EEG050','EEG051','EEG052','EEG053','EEG054','EEG055','EEG056','EEG057', ... 
+'EEG058','EEG059','EEG060','EEG065','EEG066','EEG067','EEG068','EEG069','EEG070','EEG071', ... 
+'EEG072','EEG073','EEG074'}, 'design', 1);    
 ```
 
-![](/assets/images/topo_wh_bids.jpg)
+![](/assets/images/topo_wh_bids2.png)
 
 This tutorial was a simple demonstration of how to process BIDS data. At this point, you may refer to the group analysis tutorial to perform [statistics](/tutorials/10_Group_analysis/study_statistics.html) or advanced processing of [brain source activities](/tutorials/10_Group_analysis/component_clustering_tools.html) on this data. You may also look at the [LIMO plugin](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) tutorial, which uses the same BIDS data to perform statistical analyses based on the general linear model.

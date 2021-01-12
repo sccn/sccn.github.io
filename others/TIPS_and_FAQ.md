@@ -34,18 +34,18 @@ directly manipulate signal arrays. If you intend to use the ICA toolbox
 functions underlying EEGLAB, EEGLAB itself is a good starting point and
 introduction. EEGLAB also provides a full EEG structure to describe your
 data (signal, trials, channel location, reaction time, type of the
-trials, time limits and sampling rate) and allows you use this structure
+trials, time limits and sampling rate) and allows you to use this structure
 either from the MATLAB command line or in MATLAB scripts.
 
 
-###  Is MATLAB too slow and does it use too much memory ?
+###  Is MATLAB too slow and does it use too much memory?
 **Answer:** Yes, to an extent, but... Because MATLAB sometimes uses large amount of RAM, we also took great care of inserting
 options in EEGLAB and in several processing functions to handle low
 memory conditions. On the other hand the MATLAB environment offers the
 advantage of stability and ease of use. Even the novice user under
 MATLAB can scale a data array by multiplying it by a scalar for instance
 (and in our software the data array is directly accessible to the user).
-MATLAB also offers the advantage of modularity. All of our function are
+MATLAB also offers the advantage of modularity. All of our functions, are
 stand-alone functions and most of them can be used independently of each
 other. Besides, MATLAB has grown much faster.
 
@@ -68,7 +68,7 @@ Processing toolbox which has to be purchased separately.
 
 ### Overloaded functions
 
-under Unix, I often get the following message
+Under Unix, I often get the following message
 ''Warning: One or more output arguments not assigned during call to
 'XXX'.
 
@@ -87,7 +87,7 @@ variable or rename the function.
 
 -   Buy more memory (RAM) for your computer
 -   Try the memory mapping scheme (in EEGLAB options) which will allow
-    to keep the data on disk. Note that expect for Neuroscan files, it
+    keeping the data on disk. Note that except for Neuroscan files, it
     is still necessary to import the full data file in memory.
 
 ### Multi-core use
@@ -96,8 +96,8 @@ variable or rename the function.
 Does it benefit to have a multi-core machine?
 
 **Answer:** yes, it benefits in two ways. First, you may start in
-parallel several MATLAB session. Each of them is assigned one of the
-processor. Second, if you go to the MATLAB options, you may have the
+parallel several MATLAB sessions. Each of them is assigned one of the
+processors. Second, if you go to the MATLAB options, you may have the
 option to enable multi-core computation (General \> Multithreading).
 This option is usually set by default. This is a very efficient option
 that will speed up your code usually linearly with the number of core (2
@@ -160,9 +160,9 @@ degrees, but Polhemus (Neuroscan) goes counter-clockwise and EEGLAB goes
 clockwise. We are trying to develop some conversion solution for this,
 but if
 
-1.  you already have some experience w/ a situation like this you may
+1.  you already have some experience w/ a situation like this and you may
     have some easy solution;
-2.  you could advice use to get our Polhemus coordinates into EEGLAB
+2.  you could advise us on how to get our Polhemus coordinates into EEGLAB
     some other (easier) way, we would appreciate.
 
 
@@ -192,7 +192,7 @@ specified. For instance I asked for epochs between 0 and 3 seconds at
 125 Hz and end up with an interval of 0 to 2.992 s. There should be
 something wrong!
 **Answer:** Nothing is wrong. In your example, we must draw (125Hz \*
-3seconds = 375 points) and not 376 otherwise we would loose time
+3seconds = 375 points) and not 376 otherwise we would lose time
 linearity i.e. 2 epochs of 3 seconds would be 752, whereas if we draw 6
 seconds of the data we would get 751 points !), but if we assign time 0
 to the first point, then we must assign time 2.992 to the last point.
@@ -239,7 +239,7 @@ Functions
 
 ### Missing trials in ERPimage?
 
-When using channel ERP image ('Plot' -'Channel ERP
+When using the ERP image menu item ('Plot' -'Channel ERP
 image'), the top part of the output is the window with the sorted
 trials. The number of the trials seems to be off and it appears that not
 all trials are displayed. For instance, using a file with 17 trials the
@@ -266,7 +266,7 @@ box of the pop_erpimage() interactive window.
 
 ### Cross-subject analysis of spectral power and coherence?
 
-Do you have any good way to to across subject/patient
+Do you have any good way to across subject/patient
 analyses with respect to power and coherence, especially making
 statistical comparisons between subjects/patients? Could we somehow use
 the data output of EEGLAB?
@@ -284,13 +284,13 @@ Artifacts
 
 It is not very difficult to find components related to
 eyeblinks, etc. In my case, there are phases during the experiment,
-where people speak and/or move there eyes. I find it quite hard to
+where people speak and/or move their eyes. I find it quite hard to
 determine which components are related to these artifacts and I already
 wonder if it is possible et all.
-**Answer:** To determine wich components are related to these artefacts,
+**Answer:** To determine wich components are related to these artifacts,
 one approach is to isolate these trials (selecting them) and then use
 menu item "Plot \> Component ERPs \> With component maps" and select the
-time window where these event appears. This function will plot which
+time window where these event appear. This function will plot which
 components contribute to this type of artifact. However, you are correct
 in thinking that ICA cannot cleanly resolve ALL artifacts into one or a
 few components. For instance, "paroxysmal" artifacts (like the subject
@@ -308,9 +308,9 @@ or more). Also their spectrum does not look like the standard EEG
 ### Rejecting artifacts
 
 I am currently using ica to correct for artifacts. In the
-past I've visually inspected each single-trial epoch seperately,
+past I've visually inspected each single-trial epoch separately,
 indentified those trials with artifact activity, and then trained ICA on
-each trial seperately to identify and remove artifactual components. As,
+each trial separately to identify and remove artifactual components. As,
 you can imagine this process is extremely time consuming. Is it
 effective to train ICA on multiple or all concatenated trials at once,
 remove artifactual components, and then go back to visually inspect the
@@ -377,11 +377,11 @@ data rank (see below).
 ### Baseline removal and preparing data for ICA
 
 
-What is the rationale behind baseline zero'ing the data
+What is the rationale behind baseline zeroing the data
 before running it thru ICA, and is that always recommended?
 
 
-**Answer:** It is recomended because the EEG might have some electrical
+**Answer:** It is recommended because the EEG might have some electrical
 artifacts (slow trends) that you want to remove. If your data is
 perfectly flat (at very low frequencies), then you shouldn't need to do
 that. You should baseline-zero each epoch, else use the continuous data
@@ -391,7 +391,7 @@ associated with a series of 1-of-a-kind, non-stationary maps). The data
 scrolling utility in EEGLAB makes this convenient, and if you perform
 this on the continuous data, records breakpoint events that guide
 subsequent epoching. Else, you can more severely prune the data to train
-the ICA model, then pass more of the data through the model (at a cost
+the ICA model, then pass more of the data through the model (at the cost
 of somewhat higher SNR (signal to noise ratio) in the activation time
 series).
 
@@ -410,7 +410,7 @@ Note we do not recommend using PCA (" 'pca', 4 ") unless you have some
 good reason. Using first PCA components only will truncate the data
 (irrespective of components), and then ICA may not be able to find
 relevant components. The second possibility ("'ncomps', 4") is more
-acceptable theoritically since it is a true ICA decomposition (that uses
+acceptable theoretically since it is a true ICA decomposition (that uses
 a rectangular matrix). In general, we advise finding as many components
 as possible (e.g. if you have enough memory on you computer to run ICA
 over all the channels).
@@ -437,8 +437,8 @@ to use.
 ### ICA applied to data epochs or continuous data
 
 I have noticed that the runica() does not include a field
-for epoch size, so how does ICA recognize the epochs ? Doesn't this make
-a difference to the way ICA is handled ?
+for epoch size, so how does ICA recognize the epochs? Doesn't this make
+a difference to the way ICA is handled?
 **Answer:** Epochs are concatenated before running ICA. In ICA, all time
 points of all epochs are shuffled so that epoch information is
 irrelevant.
@@ -451,7 +451,7 @@ epochs from the data, which are 3000 frames each. There are only about
 Should I apply ICA to the continuous data, then epoch the ICs, or apply
 ICA to the concatenated epochs?
 **Answer:** You can apply ICA to either of them. Usually, we prefer to
-apply ICA to the concatenated epochs so ICA component are more likelly
+apply ICA to the concatenated epochs so ICA component are more likely
 to represent activity related to the task, but continuous data are fine
 too, especially if you have few epochs or few data points, since most of
 the same EEG and artifact processes are likely to be active 'between'
@@ -471,7 +471,7 @@ not expressed in the data at that particular time).
 Time Frequency
 --------------
 
-### Timef() spectral decompositions: properties and discrepencies
+### Timef() spectral decompositions: properties and discrepancies
 
 Is it not true that the ERP for a condition can be
 completely reconstructed from the timef() results, incuding ITC? One
@@ -491,7 +491,7 @@ results ....
 
 **Answer:** Yes, this is possible (with some fuzziness regarding
 overlap-adding the overlapping spectral estimates, undoing the effects
-of tapering (windowing), etc. I havent focused on strictly "invertible"
+of tapering (windowing), etc. I haven't focused on strictly "invertible"
 time/frequency transforms - which tend to be restrictive, since I am
 interested in analysis rather than synthesis.
 
@@ -539,8 +539,7 @@ the plot's time scale it appears that the epoch is from slightly before
 -2000 ms to slightly over +1500 ms. Do you know why?
 **Answer:** It is normal that the time limits are different from the
 original dataset, since the FFT (or wavelet) is applied over time
-windows and we consider the center of these windows. As a result, you
-loose half the window size on each edge of the plot (some hundred
+windows and we consider the center of these windows. As a result, you lose half the window size on each edge of the plot (some hundred
 milliseconds depending on the window size and the sampling rate).
 
 ### Spectrum using FFT, Welch or multitaper
@@ -552,14 +551,14 @@ The Thomson method (usually known as multitaper) is good too. It is
 first projecting the data onto an orthogonal base, then performing FFT.
 
 They should all return similar results (FFT, pwelch, multitaper). I
-guess the Thomson method is the less sensitive to noise but also the
-most complex to use. I guess it would also be possible to use the welch
+guess the Thomson method is less sensitive to noise but also
+more complex to use. I guess it would also be possible to use the welch
 method on top of multitaper. It is all a matter of preference. I would
 advised using the pwelch method which is easy (you just give as an
 option the length of the windows and the overlap). Multitaper would
 require you to select the number of basis vector in your othogonal base
 and this is much less intuitive (and also has consequences on the
-frequency resolution you can achive).
+frequency resolution you can achieve).
 
 ### Multitaper, FTT, wavelets for time-frequency decomposition?
 
@@ -568,12 +567,12 @@ couple of weeks, especially timef() and crossf(). The multitaper method
 with bootstrap statistics has been giving me very nice stable results.
 Timef() with wavelets gives slightly different results, but also
 interesting. I noticed though that all the analysis has been designed to
-study coherenece, phase-coherence, ITC, etc, for data organized as
+study coherence, phase-coherence, ITC, etc, for data organized as
 epochs. (e.g. inter-trial effects).
 
 
 Is there a function for computing time-varying coherence between
-'independent' activation functions for continous spontaneous recordings?
+'independent' activation functions for continuous spontaneous recordings?
 (i.e., spontaneous coherence for brief windows of time, 200-300ms). J.P.
 Lachaux (from Varela's Lab) has several papers investigating this issue.
 
@@ -673,8 +672,8 @@ too thick. How can I control their thickness?
 
 **Answer:** To change the figure aspect for publication, you can go in
 the figure menu and use the MATLAB menu item "Tools \> Edit". Then you
-can select any object in the figure. Second button will display a
-contextual menu where you will be albe to change line thickness, color,
+can select any object in the figure. The second button will display a
+contextual menu where you will be able to change line thickness, color,
 font aspects..., or even draw additional lines or add text. We also
 export figures as Postcript files and open them with Adobe Illustrator
 in vector format to fine tune it. See also this web page.
@@ -687,7 +686,7 @@ the scroll channel data eegplot(), and for channel spectra and
 maps...and other plots....
 
 
-**Answer:** For most EEGLAB figures, sinply use menu item "File \>
+**Answer:** For most EEGLAB figures, simply use menu item "File \>
 Export".
 
 
@@ -722,11 +721,11 @@ how to fix this problem?
 the MATLAB command line by typing: "feature('UseGenericOpenGL',1)" For
 the printing error, we also experience this; it is a MATLAB problem
 which is not consistent between Windows and Linux. We always print or
-save to files (.jpg or .eps Postcript), then print the files. For
+save to files (.jpg or .eps Postscript), then print the files. For
 instance, use the software
 [FreeRawPrint](http://download.com.com/3001-2088-10178995.html) to send
-the postcript file to the printer under windows. Even with this
-strategy, some parts of complex figures may disapear, but this is rare
+the Postscript file to the printer under windows. Even with this
+strategy, some parts of complex figures may disappear, but this is rare
 (then we use screen captures, or use a Windows machine, since printing
 seems to be more reliable under Windows OS). We hope MATLAB will become
 better at this in the future (Is MATLAB listening?).
