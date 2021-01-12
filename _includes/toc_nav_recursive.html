@@ -58,7 +58,7 @@
 
 <ul>
   {% for item in pages_list %}
-    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    <li><a href="{{ item.url }}">{{ item.long_title }}</a></li>
     {%- assign children_list = site.pages | where: "parent", item.title -%}
     {% if children_list %}
       {% include toc_nav_recursive.html nav=children_list %}
