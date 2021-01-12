@@ -114,8 +114,13 @@ designed for programmers. For example,
     Brainstorm. MEEG software on Python is MNE which is more tailored to MEG users than EEG users.
     The MATLAB suite of available software is currently more mature than
     the Python one, which is a good reason to stick to MATLAB.
-
-- If you wish to use Python, the [Spyder IDE](https://www.spyder-ide.org/) is a good equivalent of the MATLAB interface and should feel familiar.
+- The closest alternative to the Matlab interactive interface is the
+Jupyter notebook environment that runs in your browser. However, the
+graphical capabilities of Jupyter notebooks remain limited (it is
+sometimes hard to manipulate figures, impossible to zoom, etc...).
+Most people who are used to Matlab and tried
+Jupyter notebooks dislike Jupyter notebooks - then learn to live with the
+limitations if they need it for their work. By contrast, the less popular [Spyder IDE](https://www.spyder-ide.org/) is a decent equivalent of the MATLAB graphical interface and should feel more familiar. 
 
 How to call EEGLAB functions from Python
 ----------------------------------------
