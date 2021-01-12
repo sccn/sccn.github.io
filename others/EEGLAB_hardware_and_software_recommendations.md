@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hard/software requirements
-summary: EEGLAB hardware and software recommendations
+long_title: EEGLAB hardware and software recommendations
 parent: Download EEGLAB
 ---
 EEGLAB hardware and software requirements <span style="color: green"> - Done</span>

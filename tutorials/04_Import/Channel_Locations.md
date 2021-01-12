@@ -1,6 +1,7 @@
 ---
 layout: default
 title: c. Channel Locations
+long_title: c. Importing channel Locations
 parent: 4. Import data
 grand_parent: Tutorials
 ---

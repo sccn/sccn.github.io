@@ -1,7 +1,8 @@
 ---
 layout: default
 title: General FAQ
-parent: Troubleshooting
+long_title: General frequently asked questions
+parent: Support
 nav_order: 1
 ---
 ![test](/assets/images/FAQ.png)

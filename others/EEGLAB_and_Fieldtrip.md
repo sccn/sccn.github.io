@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EEGLAB and Fieldtrip
+long_title: EEGLAB and Fieldtrip
 parent: Interoperability
 ---
 

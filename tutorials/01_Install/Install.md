@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 1. Installing EEGLAB
+long_title: 1. Installing EEGLAB
 categories: tutorial
 parent: Tutorials
 nav_order: 1

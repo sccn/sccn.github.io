@@ -1,6 +1,7 @@
 ---
 layout: default
 title: a. Continuous data
+long_title: a. Continuous data
 parent: 4. Import data
 grand_parent: Tutorials
 ---

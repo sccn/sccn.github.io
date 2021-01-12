@@ -1,6 +1,7 @@
 ---
 layout: default
 title: a. Remove bad channels
+long_title: a. Remove bad channels
 categories: artifact
 parent: 6. Reject artifacts
 grand_parent: Tutorials

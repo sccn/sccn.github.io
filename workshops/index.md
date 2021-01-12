@@ -3,6 +3,7 @@ layout: default
 title: Workshops
 has_children: true
 has_toc: false
+nav_order: 4
 ---
 ![Mugs from the 17th EEGLAB workshop](/assets/images/EEGLAB-mug-shot.png)
 # EEGLAB Workshops

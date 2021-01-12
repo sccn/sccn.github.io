@@ -1,6 +1,7 @@
 ---
 layout: default
 title: a. Filtering
+long_title: a. Filtering
 categories: preproc
 parent: 5. Preprocess data
 grand_parent: Tutorials

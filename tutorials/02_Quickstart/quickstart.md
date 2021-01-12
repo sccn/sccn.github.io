@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 2. Quickstart
+long_title: 2. Quickstart
 categories: tutorial
 parent: Tutorials
 nav_order: 2

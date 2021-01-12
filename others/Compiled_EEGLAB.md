@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Download EEGLAB compiled
+long_title: Download the compiled of EEGLAB 
 parent: Download EEGLAB
 ---
 

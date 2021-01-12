@@ -3,6 +3,7 @@ layout: default
 title: Tutorials
 has_children: true
 has_toc: false
+nav_order: 3
 ---
 ![Mugs from the 17th EEGLAB workshop](/assets/images/tutorial_image.jpg)
 # Welcome to the EEGLAB tutorial

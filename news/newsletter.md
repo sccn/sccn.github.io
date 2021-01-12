@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EEGLAB newsletter
+long_title: EEGLAB newsletter
 parent: EEGLAB news
 has_children: false
 has_toc: false

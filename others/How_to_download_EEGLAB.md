@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Download EEGLAB MATLAB
+long_title: Download MATLAB version of EEGLAB
 parent: Download EEGLAB
 nav_order: 1
 ---

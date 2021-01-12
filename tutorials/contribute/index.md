@@ -4,6 +4,7 @@ title: How to contribute?
 parent: Tutorials
 has_children: true
 has_toc: true
+nav_order: 3
 ---
 Contribute to EEGLAB
 ===

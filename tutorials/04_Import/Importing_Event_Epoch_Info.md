@@ -1,6 +1,7 @@
 ---
 layout: default
 title: b. Events
+long_title: b. Events
 parent: 4. Import data
 grand_parent: Tutorials
 ---

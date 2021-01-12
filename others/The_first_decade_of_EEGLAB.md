@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Two decades of EEGLAB
+long_title: The first two decades of EEGLAB
 parent: EEGLAB news
 ---
 The first two decades of EEGLAB <span style="color: green">- DONE</span>
