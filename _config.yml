@@ -34,6 +34,8 @@ plugins:
 color_scheme: eeglab
 logo: "/assets/images/SCCNLogo.jpg"
 
+# Google Analytics
+google_analytics: UA—32939956-1
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link

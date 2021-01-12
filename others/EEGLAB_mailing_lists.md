@@ -4,7 +4,7 @@ title: EEGLAB mailing lists
 parent: Support
 nav_order: 3
 ---
-EEGLAB mainling lists <span style="color: green"> - Done</span>
+EEGLAB mainling lists
 ====
 
 ## The EEGLAB Discussion List

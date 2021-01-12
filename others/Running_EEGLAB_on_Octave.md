@@ -4,7 +4,7 @@ title: EEGLAB on Octave
 long_title: EEGLAB on Octave
 parent: Interoperability
 ---
-Running EEGLAB on Octave <span style="color: green">- DONE</span>
+Running EEGLAB on Octave
 ====
 
 Why Octave?

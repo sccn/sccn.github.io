@@ -4,7 +4,7 @@ title: Two decades of EEGLAB
 long_title: The first two decades of EEGLAB
 parent: EEGLAB news
 ---
-The first two decades of EEGLAB <span style="color: green">- DONE</span>
+The first two decades of EEGLAB
 ===
 
 EEGLAB (v0.9) was first released on April 23, 2001 - thus, EEGLAB is now 20 years old!

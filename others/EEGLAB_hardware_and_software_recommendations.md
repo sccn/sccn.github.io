@@ -4,7 +4,7 @@ title: Hard/software requirements
 long_title: EEGLAB hardware and software recommendations
 parent: Download EEGLAB
 ---
-EEGLAB hardware and software requirements <span style="color: green"> - Done</span>
+EEGLAB hardware and software requirements
 ====
 
 Desirable hardware configurations for working with EEGLAB

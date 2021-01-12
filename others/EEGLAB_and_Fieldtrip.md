@@ -5,7 +5,7 @@ long_title: EEGLAB and Fieldtrip
 parent: Interoperability
 ---
 
- EEGLAB and Fieldtrip <span style="color: green">- DONE</span>
+ EEGLAB and Fieldtrip
 =========================
 
 History

@@ -5,7 +5,7 @@ long_title: How to find ERP peaks
 parent: Reference Topics
 grand_parent: Tutorials
 ---
-Finding ERP peak latencies <span style="color: green">- DONE</span>
+Finding ERP peak latencies
 ===
 Peaks of activity in the subject or grand average ERPs may arise from complex processes due to partial phase synchronization. We urge researchers to go beyond this simplified measure. Nevertheless, we include this tutorial section because this approach remains popular in the community.
 

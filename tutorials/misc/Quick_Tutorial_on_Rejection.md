@@ -6,7 +6,7 @@ parent: Reference Topics
 grand_parent: Tutorials
 nav_order: 12
 ---
-A quick tutorial on ICA artifact rejection <span style="color: green">- DONE</span>
+A quick tutorial on ICA artifact rejection
 ====================
 {: .no_toc }
 

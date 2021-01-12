@@ -5,7 +5,7 @@ long_title: The EEGLAB preferences menu
 parent: Reference Topics
 grand_parent: Tutorials
 ---
-The EEGLAB preferences menu <span style="color: green"> - Done</span>
+The EEGLAB preferences menu
 ========================
 
 This section is intended for users who wish to customize their EEGLAB settings. If there is a setting you think should be optional, please let us know. 

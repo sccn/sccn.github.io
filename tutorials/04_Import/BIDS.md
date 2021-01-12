@@ -59,3 +59,5 @@ Then use menu item <span style="color: brown">Study → Plot channel measures</s
 We can clearly see the alpha peak at about 10 Hz for most subjects (with one subject being an outlier, likely due to the presence of artifacts in his/her data). 
 
 You may follow the [batch processing tutorial](/tutorials/10_Group_analysis/multiple_subject_proccessing_overview.html#perform-batch-processing) to pre-process all datasets simultaneously from the EEGLAB GUI, and perform standard [EEGLAB group analyses](/tutorials/10_Group_analysis/).
+
+You may also look at the [BIDS script processing tutorial](/tutorials/11_Scripting/Analyzing_EEG_data_in_EEGLAB_The_Wakeman-Henson_dataset.html), which processes the same dataset from the MATLAB command line.

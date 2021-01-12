@@ -5,7 +5,7 @@ long_title: Download the compiled of EEGLAB
 parent: Download EEGLAB
 ---
 
-The compiled version of EEGLAB <span style="color: green">- DONE</span>
+The compiled version of EEGLAB
 =========================
 {: .no_toc }
 

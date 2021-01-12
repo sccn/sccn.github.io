@@ -5,7 +5,7 @@ long_title: EEGLAB and Python
 parent: Interoperability
 ---
 
-EEGLAB and Python <span style="color: green"> - Done</span>
+EEGLAB and Python
 ===================
 
 EEGLAB does not work natively in Python because EEGLAB runs on

@@ -5,7 +5,7 @@ long_title: How to export data?
 parent: Reference Topics
 grand_parent: Tutorials
 ---
-Exporting Data <span style="color: green"> - Done</span>
+Exporting Data
 ================
 {: .no_toc }
 

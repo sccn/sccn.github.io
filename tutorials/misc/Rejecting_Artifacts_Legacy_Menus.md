@@ -5,7 +5,7 @@ long_title: Legacy artifact rejection methods in EEGLAB
 parent: Reference Topics
 grand_parent: Tutorials
 ---
-Legacy methods for rejecting artifacts in continuous and epoched data <span style="color: green">- DONE</span>
+Legacy methods for rejecting artifacts in continuous and epoched data
 ======================================================================
 
 This other [section](/tutorials/RejectArtifacts/) of the tutorial contains methods that are currently recommended for rejecting artifacts.

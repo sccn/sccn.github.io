@@ -5,7 +5,7 @@ long_title: EEGLAB and MEG data
 parent: Reference Topics
 grand_parent: Tutorials
 ---
-EEGLAB and MEG data <span style="color: green"> - Done</span>
+EEGLAB and MEG data
 ====================
 
 EEGLAB supports reading most MEG data formats through the File-IO

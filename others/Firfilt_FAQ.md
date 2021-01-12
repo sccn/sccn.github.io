@@ -5,7 +5,7 @@ long_title: Filtering frequently asked questions
 parent: Support
 nav_order: 2
 ---
-EEGLAB Filtering FAQ <span style="color: green"> - Done</span>
+EEGLAB Filtering FAQ
 ===
 {: .no_toc }
 

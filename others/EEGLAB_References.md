@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB References
 parent: Download EEGLAB
 ---
-How to cite EEGLAB <span style="color: green">- DONE</span>
+How to cite EEGLAB
 ====
 
 ## Primary EEGLAB citation

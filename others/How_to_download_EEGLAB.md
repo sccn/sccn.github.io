@@ -5,7 +5,7 @@ long_title: Download MATLAB version of EEGLAB
 parent: Download EEGLAB
 nav_order: 1
 ---
-Download EEGLAB <span style="color: green">- DONE</span>
+Download EEGLAB
 ====
 
 Go to the [EEGLAB download

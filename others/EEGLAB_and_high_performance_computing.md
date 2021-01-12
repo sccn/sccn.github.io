@@ -4,7 +4,7 @@ title: EEGLAB and HPC
 long_title: EEGLAB and High Performance Computing
 parent: Interoperability
 ---
-EEGLAB and high-performance computing <span style="color: green">- DONE</span>
+EEGLAB and high-performance computing
 ====
 {: .no_toc }
 

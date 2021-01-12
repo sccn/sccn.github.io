@@ -4,7 +4,7 @@ title: EEGLAB vs. commercial soft.
 summary: EEGLAB vs. Commercial EEG Software
 parent: Interoperability
 ---
-EEGLAB vs Commercial EEG software packages  <span style="color: green">- DONE</span>
+EEGLAB vs Commercial EEG software packages 
 ====
 
 <blockquote>

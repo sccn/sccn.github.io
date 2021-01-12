@@ -3,7 +3,7 @@ layout: default
 title: EEGLAB revision history
 parent: Download EEGLAB
 ---
-EEGLAB revision history <span style="color: green">- DONE</span>
+EEGLAB revision history
 ===
 EEGLAB download in ZIP format is available on [this page](https://sccn.ucsd.edu/eeglab/download.php). This includes the
 latest release as well as old versions of EEGLAB.
