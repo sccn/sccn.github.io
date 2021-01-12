@@ -5,16 +5,8 @@ layout: home
 nav_exclude: true
 has_toc: true
 ---
+![EEGLAb sum-up picture](/assets/images/tutorial_image.png)
 # Welcome to the EEGLAB Wiki
-
-
-
-
-
-![EEGLAb sum-up picture](/assets/images/tuto_pic.png)
-
-
-
 
 ### Download EEGLAB
 
