@@ -1,6 +1,7 @@
 ---
 layout: default
 title: b. STUDY creation
+long_title: b. How to create and EEGLAB STUDY
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---

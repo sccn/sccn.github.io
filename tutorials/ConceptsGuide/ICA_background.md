@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Indep. Comp. Analysis
+long_title: Independent Component Analysis of EEG data
 parent:  Concepts guide
 grand_parent: Tutorials
-categories: concepts
-
 ---
 
 Background on Independent Component Analysis applied to EEG

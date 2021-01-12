@@ -1,7 +1,7 @@
 ---
 layout: default
 title: c. Automated rejection
-categories: artifact
+long_title: c. Automated artifact rejection
 parent: 6. Reject artifacts
 grand_parent: Tutorials
 ---

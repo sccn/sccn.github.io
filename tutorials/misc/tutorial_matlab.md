@@ -1,6 +1,7 @@
 ---
 layout: default
 title: MATLAB tutorial
+long_title: MATLAB tutorial
 parent: Reference Topics
 grand_parent: Tutorials
 ---

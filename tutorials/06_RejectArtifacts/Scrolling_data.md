@@ -1,6 +1,7 @@
 ---
 layout: default
 title: b. Remove bad data
+long_title: b. Remove bad data by visual inspection
 categories: artifact
 parent: 6. Reject artifacts
 grand_parent: Tutorials

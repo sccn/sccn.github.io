@@ -1,6 +1,7 @@
 ---
 layout: default
 title: b. ERP-image
+long_title: b. ERP-image
 parent: 8. Plot data
 grand_parent: Tutorials
 ---

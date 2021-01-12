@@ -1,6 +1,7 @@
 ---
 layout: default
 title: c. Group level
+title: c. Group-level analysis
 parent: 11. Write scripts
 grand_parent: Tutorials 
 ---

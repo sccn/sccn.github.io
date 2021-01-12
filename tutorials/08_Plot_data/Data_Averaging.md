@@ -1,10 +1,11 @@
 ---
 layout: default
 title: a. ERPs
+long_title: a. Event Related Potentials
 parent: 8. Plot data
 grand_parent: Tutorials
 ---
-Plotting averaged data
+Plotting Event Related Potentials
 ==================
 {: .no_toc}
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: a. Head model
+long_title: a. Head model settings
 parent: 9. Source analysis
 grand_parent: Tutorials
 ---

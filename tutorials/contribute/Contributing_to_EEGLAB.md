@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Modify EEGLAB code
+long_title: Modify EEGLAB code
 parent: How to contribute?
 grand_parent: Tutorials
 ---

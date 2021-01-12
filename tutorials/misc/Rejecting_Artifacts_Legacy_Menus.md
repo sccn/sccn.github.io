@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Legacy rejection
+long_title: Legacy artifact rejection methods in EEGLAB
 parent: Reference Topics
 grand_parent: Tutorials
 ---

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Re-referencing
+long_title: Re-referencing EEG data
 parent: Concepts guide
 grand_parent: Tutorials
 categories: concepts

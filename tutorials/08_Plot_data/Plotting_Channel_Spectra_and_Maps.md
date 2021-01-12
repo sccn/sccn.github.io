@@ -1,6 +1,7 @@
 ---
 layout: default
 title: c. Spectra
+long_title: c. Spectra
 longtitle:
 parent: 8. Plot data
 grand_parent: Tutorials

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EEGLAB and MEG data
+long_title: EEGLAB and MEG data
 parent: Reference Topics
 grand_parent: Tutorials
 ---

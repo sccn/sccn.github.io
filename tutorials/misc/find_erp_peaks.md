@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Find ERP peaks
+long_title: How to find ERP peaks
 parent: Reference Topics
 grand_parent: Tutorials
 ---

@@ -1,10 +1,9 @@
 ---
 layout: default
 title: ERP image
+long_title: How to construct ERP images
 parent:  Concepts guide
 grand_parent: Tutorials
-categories: concepts
-
 ---
 
 Background on ERP images

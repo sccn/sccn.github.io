@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EEGLAB data structures
+long_title: EEGLAB data structures
 parent: Concepts guide
 grand_parent: Tutorials
 nav_order: 5

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EEGLAB preferences menu
+long_title: The EEGLAB preferences menu
 parent: Reference Topics
 grand_parent: Tutorials
 ---

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 7. Extract Data Epochs
+long_title: 7. Extract Data Epochs
 parent: Tutorials
 nav_order: 7
 ---

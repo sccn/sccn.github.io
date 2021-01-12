@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EEGLAB functions
+long_title: EEGLAB functions
 parent: Concepts guide
 grand_parent: Tutorials
 ---

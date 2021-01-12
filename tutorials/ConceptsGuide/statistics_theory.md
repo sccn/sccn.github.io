@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Statistics
+long_title: Statistics
 parent: Concepts guide
 grand_parent: Tutorials
 ---

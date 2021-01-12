@@ -1,6 +1,7 @@
 ---
 layout: default
 title: c. EEG sources
+long_title: c. EEG sources
 parent: 9. Source analysis
 grand_parent: Tutorials
 ---

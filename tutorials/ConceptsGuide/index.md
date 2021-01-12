@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Concepts guide
+long_title: Concepts guide
 parent: Tutorials
 has_children: true
 has_toc: true

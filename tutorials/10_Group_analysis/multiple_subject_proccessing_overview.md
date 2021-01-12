@@ -1,6 +1,7 @@
 ---
 layout: default
 title: a. Batch processing
+long_title: a. Batch processing for groups of subjects
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---

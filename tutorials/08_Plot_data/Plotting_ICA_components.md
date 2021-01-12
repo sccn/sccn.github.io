@@ -1,6 +1,7 @@
 ---
 layout: default
 title: e. ICA components
+long_title: e. ICA components
 parent: 8. Plot data
 grand_parent: Tutorials
 ---

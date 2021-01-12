@@ -1,6 +1,7 @@
 ---
 layout: default
-title: e. BIDS Data script
+title: e. BIDS data script
+long_title: e. BIDS data script
 parent: 11. Write scripts
 grand_parent: Tutorials 
 ---

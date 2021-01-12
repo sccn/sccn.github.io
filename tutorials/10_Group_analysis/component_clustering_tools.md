@@ -1,6 +1,7 @@
 ---
 layout: default
 title: f. STUDY ICA clusters
+long_title: f. ICA clusters in EEGLAB studies
 parent: 10. Group analysis
 grand_parent: Tutorials 
 ---

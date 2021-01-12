@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Create an EEGLAB plugin
+long_title: Create an EEGLAB plugin
 parent: How to contribute?
 grand_parent: Tutorials
 ---

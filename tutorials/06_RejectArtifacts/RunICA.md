@@ -1,7 +1,7 @@
 ---
 layout: default
 title: d. Indep. Comp. Analysis
-categories: artifact
+long_title: d. Independent Component Analysis
 parent: 6. Reject artifacts
 grand_parent: Tutorials
 has_toc: false

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: b. Event Processing
+long_title: b. Event Processing
 parent: 11. Write scripts
 grand_parent: Tutorials
 

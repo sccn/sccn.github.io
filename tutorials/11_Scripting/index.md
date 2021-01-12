@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 11. Write scripts
+long_title: 11. Write scripts
 parent: Tutorials
 has_children: true
 has_toc: true

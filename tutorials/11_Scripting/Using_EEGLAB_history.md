@@ -1,6 +1,7 @@
 ---
 layout: default
 title: a. Using EEGLAB history
+long_title: a. Using EEGLAB history
 parent: 11. Write scripts
 grand_parent: Tutorials
 ---
