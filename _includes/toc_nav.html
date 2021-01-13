@@ -58,7 +58,11 @@
 
 <ul>
   {% for item in pages_list %}
-    <li><a href="{{ item.url }}">{{ item.long_title }}</a></li>
+	{% if item.long_title != nil %}
+    	    <li><a href="{{ item.url }}">{{ item.long_title }}</a></li>
+  	{%- else -%}
+    	    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  	{%- endif -%}
   {% endfor %}
 </ul>
   {%- comment -%}
