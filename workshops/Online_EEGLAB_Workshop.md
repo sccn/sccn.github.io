@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Online EEGLAB Workshop
-permalink: /workshops/Online_EEGLAB_Workshop.html
+title: Online EEGLAB workshop
+long_title: Online EEGLAB workshop
 parent: Workshops
 nav_order: 1
 ---

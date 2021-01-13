@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EEGLAB 2022 Lublin
+long_title: EEGLAB 2022 Lublin workshop
 parent: Workshops
 nav_order: 3
 ---

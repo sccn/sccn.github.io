@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Future workshops
-permalink: /workshops/Future_workshops.html
+long_title: Future EEGLAB workshop
 parent: Workshops
 nav_order: 4
 ---

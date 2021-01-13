@@ -55,14 +55,14 @@ extract epochs, plot reaction times, etc.
 </details>
 </blockquote>
 
-- [Sternberg task with 13 subjects (0.9 Gb)](http://sccn.ucsd.edu/eeglab/download/STUDYstern_125hz.zip) in EEGLAB STUDY format. This is a large file. Make
+- [Sternberg task with 13 subjects (0.9 Gb)](https://sccn.ucsd.edu/eeglab/download/STUDYstern_125hz.zip) in EEGLAB STUDY format. This is a large file. Make
 sure you have a fast and reliable Internet connection before attempting
 this download. A PDF contained in the ZIP file contains a description of this experiment.
 
-- [Semantic task with 5 subjects (0.4 Gb)](http://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip) in EEGLAB STUDY format. Optional download for
+- [Semantic task with 5 subjects (0.4 Gb)](https://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip) in EEGLAB STUDY format. Optional download for
 more STUDY exploration. A description of this task is included in [this section](/tutorials/10_Group_analysis/study_creation.html#description-of-the-5-subject-experiment-tutorial-data) of the tutorial.
 
-- [Go-nogo categorization task with 14 subjects (0.4 Gb)](https://sccn.ucsd.edu/eeglab/download/animal_study.zip)in EEGLAB STUDY format. A complete description of the task, the raw data (4Gb), and some MATLAB files to process it are all available on [openneuro.org](https://openneuro.org/datasets/ds002680) in BIDS format.
+- [Go-nogo categorization task with 14 subjects (0.4 Gb)](https://sccn.ucsd.edu/eeglab/download/animal_study.zip) in EEGLAB STUDY format. A complete description of the task, the raw data (4Gb), and some MATLAB files to process it are all available on [openneuro.org](https://openneuro.org/datasets/ds002680) in BIDS format.
 
 - [Face categorization task with 18 subjects](https://openneuro.org/datasets/ds002718/versions/1.0.2) in BIDS format.
 

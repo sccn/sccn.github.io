@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Past workshops
+long_title: Past EEGLAB workshop
 parent: Workshops
 has_children: true
 nav_order: 5
