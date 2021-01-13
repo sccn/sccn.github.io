@@ -58,7 +58,7 @@
 
 <ul>
   {% for item in pages_list %}
-	{% if item.long_title != nil %}
+	{% if item.long_title %}
     	    <li><a href="{{ item.url }}">{{ item.long_title }}</a></li>
   	{%- else -%}
     	    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
