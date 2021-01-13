@@ -49,7 +49,6 @@ Other type of documentation are listed below.
 <h3><a href="/workshops"><span style="color: black;">Workshops</span></a></h3>
 {%- assign children_list = site.pages | where: "parent", "Workshops" -%}
 {% include toc_nav.html nav=children_list %}
-
 <hr>
 
 <i><font size="-1">This tutorial was written by <a href="mailto:EEGLAB@sccn.ucsd.edu">Arnaud
