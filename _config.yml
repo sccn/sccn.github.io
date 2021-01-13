@@ -32,7 +32,7 @@ remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 color_scheme: eeglab
-logo: "/assets/images/SCCNLogo.jpg"
+logo: "/assets/images/SCCNLogo.png"
 
 # Google Analytics
 google_analytics: UA—32939956-1
