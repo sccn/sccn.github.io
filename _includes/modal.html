@@ -1,5 +1,3 @@
-<!-- Trigger/Open The Modal -->
-<a id="myBtn" style="cursor: pointer">Show MATLAB command</a>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -7,20 +5,20 @@
   <!-- Modal content -->
   <div class="modal-body">
     <span class="close" id="modalClose">&times;</span>
-    <p>{{ include.command }}</p>
+    <p>Please copy and paste this command in your Matlab command window</p>
+    <pre class="dialog-command" id="myCommand"></pre>
   </div>
 </div>
 
 <script>
+function showModal(elem) {
 	let modal = document.getElementById("myModal");
-
-	let btn = document.getElementById("myBtn");
-
+	let cmd = document.getElementById("myCommand");
 	let span = document.getElementById("modalClose");
 
-	btn.onclick = function() {
-  		modal.style.display = "block";
-	};
+  	modal.style.display = "block";
+	console.log(elem.dataset.command);
+	cmd.innerHTML = elem.dataset.command;
 
 	span.onclick = function() {
   		modal.style.display = "none";
@@ -31,4 +29,5 @@
     			modal.style.display = "none";
   		}
 	};
+}
 </script>
