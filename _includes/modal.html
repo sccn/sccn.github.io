@@ -1,0 +1,34 @@
+<!-- Trigger/Open The Modal -->
+<a id="myBtn" style="cursor: pointer">Show MATLAB command</a>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-body">
+    <span class="close" id="modalClose">&times;</span>
+    <p>{{ include.command }}</p>
+  </div>
+</div>
+
+<script>
+	let modal = document.getElementById("myModal");
+
+	let btn = document.getElementById("myBtn");
+
+	let span = document.getElementById("modalClose");
+
+	btn.onclick = function() {
+  		modal.style.display = "block";
+	};
+
+	span.onclick = function() {
+  		modal.style.display = "none";
+	};
+
+	window.onclick = function(event) {
+  		if (event.target == modal) {
+    			modal.style.display = "none";
+  		}
+	};
+</script>
