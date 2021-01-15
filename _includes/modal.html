@@ -1,0 +1,33 @@
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-body">
+    <span class="close" id="modalClose">&times;</span>
+    <p>Please copy and paste this command in your Matlab command window</p>
+    <pre class="dialog-command" id="myCommand"></pre>
+  </div>
+</div>
+
+<script>
+function showModal(elem) {
+	let modal = document.getElementById("myModal");
+	let cmd = document.getElementById("myCommand");
+	let span = document.getElementById("modalClose");
+
+  	modal.style.display = "block";
+	console.log(elem.dataset.command);
+	cmd.innerHTML = elem.dataset.command;
+
+	span.onclick = function() {
+  		modal.style.display = "none";
+	};
+
+	window.onclick = function(event) {
+  		if (event.target == modal) {
+    			modal.style.display = "none";
+  		}
+	};
+}
+</script>
