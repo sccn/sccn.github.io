@@ -4,7 +4,7 @@ layout: default
 To do before wiki release
 ====
 
-- Check slow reading of EEGLAB openneuro dataset
+In progress
 
 - Add google tracking
 
@@ -14,13 +14,13 @@ To do before wiki release
 
 - Plugins: Update all github repositories
 
-- Edit tutorial index page, and other title pages
-
 - Put Makoto ASR page on the clean_rawdata wiki
 
 - Add readme to FIRFILT
 
-- Move to eeglab.org
+- Link script to script repo
+
+- Automatically test script and LIMO script as well
 
 - Replace
 

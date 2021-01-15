@@ -68,7 +68,7 @@ sequence differed. See details of the paradigm in the figure below.
 
 ![`center|400px`](/assets/images/Wakeman_henson_eegset.jpg)
 
-The original dataset containing both EEG and MEG is quite large, so the raw data was transformed into a form that could be used for tutorials. The data were prepared (i.e., EEG extracted, timing corrected,  electrode positions re-oriented, events latency corrected and renamed) by Dung Truong, Ramon  Martinez & Arnaud Delorme and can be downloaded from [OpenNeuro](https://openneuro.org/datasets/ds002718/versions/1.0.2).
+The original dataset containing both EEG and MEG is quite large, so the raw data was transformed into a form that could be used for tutorials. The data were prepared (i.e., EEG extracted, timing corrected,  electrode positions re-oriented, events latency corrected and renamed) by Dung Truong, Ramon  Martinez & Arnaud Delorme and can be downloaded from [OpenNeuro](https://openneuro.org/datasets/ds002718).
 
 ## Data pre-processing
 Once you have downloaded the data on [OpenNeuro](https://openneuro.org/datasets/ds002718/versions/1.0.2), you may run the code below (refer to [this page](/tutorials/04_Import/BIDS.html) if you experience problems downloading the data).

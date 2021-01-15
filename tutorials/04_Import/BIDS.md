@@ -22,7 +22,7 @@ The Brain Imaging Data Structure (BIDS) data standards is a community standard f
 Downloading a BIDS dataset
 ----
 
-On [openneuro.org](https://openneuro.org), search for the term "EEG." OpenNeuro will show all the EEG datasets. The quality of these datasets may vary, as shown in this [2021 article](https://sccn.ucsd.edu/eeglab/download/NER21_0057_MS.pdf). We advise you to download this [specific dataset](https://openneuro.org/datasets/ds002718/versions/1.0.2), as shown below.
+On [openneuro.org](https://openneuro.org), search for the term "EEG." OpenNeuro will show all the EEG datasets. The quality of these datasets may vary, as shown in this [2021 article](https://sccn.ucsd.edu/eeglab/download/NER21_0057_MS.pdf). We advise you to download this [specific dataset](https://openneuro.org/datasets/ds002718), as shown below.
 
 ![](/assets/images/openneuro.png)
 

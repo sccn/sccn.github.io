@@ -64,7 +64,7 @@ more STUDY exploration. A description of this task is included in [this section]
 
 - [Go-nogo categorization task with 14 subjects (0.4 Gb)](https://sccn.ucsd.edu/eeglab/download/animal_study.zip) in EEGLAB STUDY format. A complete description of the task, the raw data (4Gb), and some MATLAB files to process it are all available on [openneuro.org](https://openneuro.org/datasets/ds002680) in BIDS format.
 
-- [Face categorization task with 18 subjects](https://openneuro.org/datasets/ds002718/versions/1.0.2) in BIDS format.
+- [Face categorization task with 18 subjects](https://openneuro.org/datasets/ds002718) in BIDS format.
 
 Other EEG data available online
 -----------

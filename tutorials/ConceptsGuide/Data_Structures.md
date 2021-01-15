@@ -661,7 +661,7 @@ command line will produce results like this:
 
 STUDY =
     name:       'N400STUDY'
-    filename:   'OctN400ClustEditHier.study'
+    filename:   'N400.study'
     filepath:   '/eeglab/data/N400/'
     datasetinfo:    [1x10 struct]
     session:    []
