@@ -16,7 +16,7 @@ these papers, plus the extensive EEGLAB tutorial and help
 facilities, for instructions and examples of their use.
 </blockquote>
 
-## EEGLAB ICA and time/frequency methods introductions
+## EEGLAB ICA methods introductions
 
 Makeig S, Debener S, Onton J, Delorme A (2004) Mining event-related
 brain dynamics. *Trends in Cognitive Science* 8:204-210. [PDF](http://sccn.ucsd.edu/~scott/pdf/TICS04_Preprint.pdf).
@@ -42,21 +42,36 @@ Delorme, A., Sejnowski, T., Makeig, S. Improved rejection of artifacts from EEG 
 
 Onton J, Delorme, A., Makeig, S. Frontal midline EEG dynamics during working memory. NeuroImage. 2005;27, 341-356. [PDF](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).
 <blockquote>
-<i>An early illustration of the type of processing possible with EEGLAB, including ICA component clustering.</i>
+<i>An early application of ICA to the study of time/frequency dynamics, showing the value of ICA spatial filtering for resolving brain sources, etc.</i>
 </blockquote>
 
-## EEGLAB plugin references
+S. Makeig, A.J. Bell, T-P. Jung, and T.J. Sejnowski, Independent component analysis of electroencephalographic data, In: D. Touretzky, M. Mozer and M. Hasselmo (Eds). Advances in Neural Information Processing Systems 8:145-151, MIT Press, Cambridge, MA 1996. [PDF](https://sccn.ucsd.edu/~scott/pdf/ICA_NIPS96.pdf).
+<blockquote>
+<i>The first paper demonstrating the benefits of applying ICA decomposition to EEG data.</i>
+</blockquote>
+
+## EEGLAB time/frequency methods introductions
+
+Makeig S, Debener S, Onton J, Delorme A (2004) Mining event-related
+brain dynamics. *Trends in Cognitive Science* 8:204-210. [PDF](http://sccn.ucsd.edu/~scott/pdf/TICS04_Preprint.pdf).
+<blockquote>
+<i>Summarizes benefits and pitfalls of combining ICA, time/frequency analysis, and ERP-image visualization</i>.
+</blockquote>
+
+Makeig, S, Auditory event-related dynamics of the EEG spectrum and effects of exposure to tones," Electroencephalogr clin Neurophysiol, 86:283-293, 1993. [PDF](https://apps.dtic.mil/dtic/tr/fulltext/u2/a272241.pdf).
+<blockquote>
+<i>The first paper demonstrating the event-related spectral perturbation (ERSP) measure.</i>
+</blockquote>
+
+## EEGLAB plug-in references
 
 - Delorme A, Mullen T, Kothe C, Akalin Acar Z, Bigdely-Shamlo N, Vankov A,
-Makeig S. (2011) EEGLAB, SIFT, NFT, BCILAB, and ERICA: New tools for
-advanced EEG processing. [HTML](http://www.hindawi.com/journals/cin/2011/130714/). *Computat Intelligence Neurosci* 2011:130714, doi: 10.1155/2011/130714.
+Makeig S. (2011) EEGLAB, SIFT, NFT, BCILAB, and ERICA: New tools for advanced EEG processing.  *Computat Intelligence Neurosci* 2011:130714, doi: 10.1155/2011/130714. [HTML](http://www.hindawi.com/journals/cin/2011/130714/).
 
-- Pernet CR, Chauveauy N, Gaspar C, Rousselet GA (2011) LIMO EEG: A
-toolbox for hierarchical linear modeling of electroencephalographic
-data. [HTML](http://www.hindawi.com/journals/cin/2011/831409/). *Computat Intelligence Neurosci* 2011:831409, doi: 10.1155/2011/831409. 
+- Pernet CR, Chauveauy N, Gaspar C, Rousselet GA (2011) LIMO EEG: A toolbox for hierarchical linear modeling of electroencephalographic data. [HTML (http://www.hindawi.com/journals/cin/2011/831409/). *Computat Intelligence Neurosci* 2011:831409, doi: 10.1155/2011/831409. 
 
-- Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. ICLabel: An automated electroencephalographic independent component classifier, dataset, and website. NeuroImage 198:181-197, 2019. [PDF](https://pubmed.ncbi.nlm.nih.gov/31103784/).
+- Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. ICLabel: An automated electroencephalographic independent component classifier, dataset, and website. NeuroImage 198:181-197, 2019. [PDF](https://pubmed.ncbi.nlm.nih.gov/31103784/). 
 
-- Martinez-Cancino, R., Heng, J., Delorme, A., Kreutz-Delgado, K.,
-    Sotero, R.C. Makeig, S. Measuring transient phase-amplitude coupling using local mutual information.
-    NeuroImage, 2018. [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342491/).
+Zeynep Akalin Acar & Scott Makeig, Neuroelectromagnetic Forward Head Modeling Toolbox J Neurosci Meth doi:10.1016/jneumeth.2010.04.031 [PDF](https://sccn.ucsd.edu/~scott/pdf/Zeynep_NFT_Toolbox10.pdf).
+
+- Martinez-Cancino, R., Heng, J., Delorme, A., Kreutz-Delgado, K., Sotero, R.C. Makeig, S. Measuring transient phase-amplitude coupling using local mutual information. NeuroImage, 2018. [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342491/).
