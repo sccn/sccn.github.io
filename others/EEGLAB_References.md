@@ -72,6 +72,6 @@ Pernet CR, Chauveauy N, Gaspar C, Rousselet GA (2011) LIMO EEG: A toolbox for hi
 
 Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. ICLabel: An automated electroencephalographic independent component classifier, dataset, and website. NeuroImage 198:181-197, 2019. [PDF](https://pubmed.ncbi.nlm.nih.gov/31103784/). 
 
-Zeynep Akalin Acar & Scott Makeig, Neuroelectromagnetic Forward Head Modeling Toolbox J Neurosci Meth doi:10.1016/jneumeth.2010.04.031 [PDF](https://sccn.ucsd.edu/~scott/pdf/Zeynep_NFT_Toolbox10.pdf).
+Zeynep Akalin Acar & Scott Makeig, Neuroelectromagnetic Forward Head Modeling Toolbox J Neurosci Meth. doi:10.1016/jneumeth.2010.04.031 [PDF](https://sccn.ucsd.edu/~scott/pdf/Zeynep_NFT_Toolbox10.pdf).
 
 Martinez-Cancino, R., Heng, J., Delorme, A., Kreutz-Delgado, K., Sotero, R.C. Makeig, S. Measuring transient phase-amplitude coupling using local mutual information. NeuroImage, 2018. [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342491/).
