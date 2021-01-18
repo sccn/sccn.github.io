@@ -58,7 +58,7 @@ brain dynamics. *Trends in Cognitive Science* 8:204-210. [PDF](http://sccn.ucsd.
 <i>Summarizes benefits and pitfalls of combining ICA, time/frequency analysis, and ERP-image visualization</i>.
 </blockquote>
 
-Makeig, S, Auditory event-related dynamics of the EEG spectrum and effects of exposure to tones," Electroencephalogr clin Neurophysiol, 86:283-293, 1993. [PDF](https://apps.dtic.mil/dtic/tr/fulltext/u2/a272241.pdf).
+Makeig, S, Auditory event-related dynamics of the EEG spectrum and effects of exposure to tones, <i>Electroencephalogr clin Neurophysiol</i>, 86:283-293, 1993. [PDF](https://apps.dtic.mil/dtic/tr/fulltext/u2/a272241.pdf).
 <blockquote>
 <i>The first paper demonstrating the event-related spectral perturbation (ERSP) measure.</i>
 </blockquote>
