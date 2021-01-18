@@ -59,5 +59,5 @@ Here are the most common steps you might want to take when processing EEG data a
 
 Note on MATLAB 
 ---------------
-If you are new to MATLAB or need a refresher, do not hesitate to consult the material on the [Getting started with MATLAB page](/workshops/tutorial_matlab)
+If you are new to MATLAB or need a refresher, do not hesitate to consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html)
 

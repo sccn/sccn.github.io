@@ -22,6 +22,8 @@ to automate and/or customize data analyses.
 {:toc}
 </details>
 
+<button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'eeglab_history.m'));">Show MATLAB command</button>
+
 Why write EEGLAB MATLAB scripts?
 --------------------------------
 

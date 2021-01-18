@@ -25,8 +25,10 @@ manipulated. First, you might want to read the section of the tutorial describin
 {:toc}
 </details>
 
+
 Scripts for creating or modifying events
 ---------------------------
+<button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'event_processing_single_dataset.m'));">Show MATLAB command</button>
 
 The scripts below are relatively advanced EEGLAB/MATLAB scripts. The
 [EEGLAB script tutorial](/tutorials/11_Scripting/Using_EEGLAB_history.html)
@@ -95,6 +97,8 @@ is useful for obtaining the latency of events in the original data.
 
 Adding event information for group analysis
 --------------
+<button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'event_processing_study.m'));">Show MATLAB command</button>
+
 The EEGLAB [data structure](/tutorials/ConceptsGuide/Data_Structures.html) section of the tutorial indicates how events are
 processed for group analysis. Event information is pulled from all datasets
 and stored in the *STUDY.datasetinfo.trialinfo* structure.

@@ -8,19 +8,11 @@ In progress
 
 - Add google tracking
 
-- Make sure all pages have {: .no_toc }
-
 - EEGLAB: Revisit aspect ratio of GUIs on Windows and Mac
 
 - Plugins: Update all github repositories
 
 - Put Makoto ASR page on the clean_rawdata wiki
-
-- Add readme to FIRFILT
-
-- Link script to script repo
-
-- Automatically test script and LIMO script as well
 
 - Replace
 

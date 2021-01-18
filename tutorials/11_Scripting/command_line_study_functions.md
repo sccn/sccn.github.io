@@ -26,6 +26,8 @@ activities. Whenever relevant, feel free to look up documentation in the part of
 {:toc}
 </details>
 
+<button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'study_script.m'));">Show MATLAB command</button>
+
 Creating a STUDY
 -----------------
 

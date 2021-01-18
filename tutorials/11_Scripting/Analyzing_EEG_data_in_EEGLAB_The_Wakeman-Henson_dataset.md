@@ -22,6 +22,7 @@ Here we demonstrate how to import EEG-BIDS data into EEGLAB and use the [EEGLAB 
 {:toc}
 </details>
 
+<button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'bids_process_face_experiment.mlx'));">Show MATLAB command</button>
 
 ## EEG-BIDS 
 

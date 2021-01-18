@@ -22,14 +22,13 @@ In this section, you may obtain custom plots from the MATLAB command line. It is
 
 Time-frequency plot on all electrodes
 -----
+<button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'time_freq_all_elec.mlx'));">Show MATLAB command</button>
 
 This example demonstrates some of the power of low-level
 scripting that goes beyond the scope of functions currently available
 through the graphical interface. Below we run this script on the tutorial epoched dataset.
 The [tftopo.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=tftopo.m) function is a powerful function that
 allows plotting time-frequency decompositions across all channels.
-    
-The script below can be found at [tftopo_example.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=tftopo_example.m)
 
 ``` matlab
 % Compute a time-frequency decomposition for every electrode
@@ -107,17 +106,9 @@ figure; metaplottopo( EEG.data, 'plotfunc', 'erpimage', 'chanlocs', EEG.chanlocs
 
 Creating scalp topography animations
 ------------------
+<button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'make_eeg_movie.m'));">Show MATLAB command</button>
 
 The script used on this page is available at [make_eeg_movie.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=make_eeg_movie.m)
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
 
 ### Using the eegmovie function to make 2-D scalp topography animations
 
