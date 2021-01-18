@@ -68,7 +68,7 @@ Makeig, S, Auditory event-related dynamics of the EEG spectrum and effects of ex
 Delorme A, Mullen T, Kothe C, Akalin Acar Z, Bigdely-Shamlo N, Vankov A,
 Makeig S. (2011) EEGLAB, SIFT, NFT, BCILAB, and ERICA: New tools for advanced EEG processing.  *Computat Intelligence Neurosci* 2011:130714, doi: 10.1155/2011/130714. [HTML](http://www.hindawi.com/journals/cin/2011/130714/).
 
-Pernet CR, Chauveauy N, Gaspar C, Rousselet GA (2011) LIMO EEG: A toolbox for hierarchical linear modeling of electroencephalographic data. [HTML (http://www.hindawi.com/journals/cin/2011/831409/). *Computat Intelligence Neurosci* 2011:831409, doi: 10.1155/2011/831409. 
+Pernet CR, Chauveauy N, Gaspar C, Rousselet GA (2011) LIMO EEG: A toolbox for hierarchical linear modeling of electroencephalographic data. *Computat Intelligence Neurosci* 2011:831409, doi: 10.1155/2011/831409. [HTML](http://www.hindawi.com/journals/cin/2011/831409/).
 
 Pion-Tonachini, L., Kreutz-Delgado, K., Makeig, S. ICLabel: An automated electroencephalographic independent component classifier, dataset, and website. NeuroImage 198:181-197, 2019. [PDF](https://pubmed.ncbi.nlm.nih.gov/31103784/). 
 
