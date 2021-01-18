@@ -63,7 +63,7 @@ Makeig, S, Auditory event-related dynamics of the EEG spectrum and effects of ex
 <i>The first paper demonstrating the event-related spectral perturbation (ERSP) measure.</i>
 </blockquote>
 
-## EEGLAB plug-in references
+## Subset of EEGLAB plug-in references
 
 Delorme A, Mullen T, Kothe C, Akalin Acar Z, Bigdely-Shamlo N, Vankov A,
 Makeig S. (2011) EEGLAB, SIFT, NFT, BCILAB, and ERICA: New tools for advanced EEG processing.  *Computat Intelligence Neurosci* 2011:130714, doi: 10.1155/2011/130714. [HTML](http://www.hindawi.com/journals/cin/2011/130714/).
