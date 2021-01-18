@@ -37,7 +37,7 @@ cortex.</i>
 
 Delorme, A., Sejnowski, T., Makeig, S. Improved rejection of artifacts from EEG data using high-order <br>statistics and independent component analysis. Neuroimage. 2007; 34, 1443-1449. [PDF](https://sccn.ucsd.edu/githubwiki/files/neuroimage2007_reformated.pdf).
 <blockquote>
-<i>This paper demonstrates the superiority of using ICA for rejecting EEG artifacts.</i>
+<i>This paper demonstrates the advantages of using ICA for rejecting EEG artifacts.</i>
 </blockquote>
 
 Onton J, Delorme, A., Makeig, S. Frontal midline EEG dynamics during working memory. NeuroImage. 2005;27, 341-356. [PDF](https://sccn.ucsd.edu/githubwiki/files/onton_fmtheta_published.pdf).
