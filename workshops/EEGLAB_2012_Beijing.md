@@ -99,10 +99,8 @@ Preliminary Workshop Program
 
 <span style="color: purple">8:30 – 9:15 -- Forward and inverse EEG source modeling - (ScottMakeig)</span> [(PDF)](https://sccn.ucsd.edu/githubwiki/files/forwardinverse_beijing12.pdf)
 
-(see also [this note on the importance of knowing skull conductivity](http://sccn.ucsd.edu/wiki/NFT_Appendix_C))
-
 <span style="color: orange">9:15 – 10:00 -- Using the NFT and Dipfit plugins
-(Julie Onton)[Dipfit](https://sccn.ucsd.edu/githubwiki/files/3_dipfit.pdf)[nf)](/media:nft_presentation12.pdf)</span>
+(Julie Onton)</span>
 <!-- -->
 
 

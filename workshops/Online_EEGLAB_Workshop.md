@@ -183,7 +183,7 @@ Online EEGLAB Workshop site (email <eeglab@sccn.ucsd.edu>).
     (Christian
     Kothe)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_bci.html).
     See also [Ten lecture course on contemporary BCI
-    design](http://sccn.ucsd.edu/wiki/Introduction_To_Modern_Brain-Computer_Interface_Design)
+    design](https://sccn.ucsd.edu/wiki/Introduction_To_Modern_Brain-Computer_Interface_Design)
     by Christian Kothe.
 -   [Imaging human agency with Mobile brain/body imaging (MoBI) and the Mobilab toolbox (Scott Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)
 

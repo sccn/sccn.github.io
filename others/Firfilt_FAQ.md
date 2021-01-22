@@ -174,16 +174,13 @@ How can we address these problems?
     recommend you use 'Windowed sinc FIR filter' to design the filter so
     that it has the stopband at DC. (CAUTION: 'Windowed sinc FIR filter'
     uses **cutoff frequency** and not **passband edge** i.e. cutoff
-    frequency of 1 Hz is equivalent to passband edge at 2 Hz; See
-    [Q3](http://sccn.ucsd.edu/wiki/Firfilt_FAQ#Q._What_is_the_difference_between_the_.E2.80.9CBasic_FIR_filter_.28new.29.E2.80.9D_and_the_.E2.80.9CWindowed_sinc_FIR_filter.E2.80.9D.3F))
+    frequency of 1 Hz is equivalent to passband edge at 2 Hz
 -   When treating the line noise, use CleanLine() instead of notch
     filter because the former is phase-invariant.
 -   When downsampling data (which is useful for multivariate Granger
     causality analysis), use mild anti-aliasing filter and do not let
     the stopband below the Nyquist frequency. In practice, use the
-    following example. In this example, you are downsampling your data to 200Hz, with the cutoff
-frequency being 160Hz (i.e. 200Hz\*0.8) and the transient bandwidth 80Hz
-(i.e. 200Hz\*0.4).
+    following example. In this example, you are downsampling your data to 200Hz, with the cutoff frequency being 160Hz (i.e. 200Hz\*0.8) and the transient bandwidth 80Hz (i.e. 200Hz\*0.4).
 
     ```matlab
     EEG = pop_resample(EEG, 200, 0.8, 0.4);

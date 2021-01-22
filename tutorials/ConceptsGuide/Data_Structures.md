@@ -531,7 +531,7 @@ with a 'duration' of 'NaN' and an *EEG.event.urevent* pointer to an
 urevent. Hard 'boundary' events are important for functions such as [eeg_context.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_context.m) that are concerned with temporal relationships
 among events in the original experiment (i.e., among urevents).
 
-### The 'epoch' structure
+### EEG.epoch
 
 The *EEG.epoch* structure is empty in continuous datasets but is
 automatically filled during epoch extraction. It is computed from the *EEG.event* structure by the function [eeg_checkset.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_checkset.m) (with
@@ -641,7 +641,7 @@ There are additional checks performed by the function [pop_loadset.m](http://scc
 EEG = pop_loadset('myfile.set')
 ```
 
-The *STUDY* structure
+The STUDY structure
 ---------
 This section gives details of EEGLAB structures necessary for writing
 custom MATLAB scripts, functions, and plugins that operate on EEGLAB
@@ -948,7 +948,7 @@ when the *STUDY* was created and is not a result of clustering; it is the
 *ParentCluster*. This cluster does not contain those components whose
 equivalent dipole model exhibit a high percent variance from the
 component's scalp map. These components have been excluded from
-clustering (see [component clustering](/tutorial/10_Group_analysis/component_clustering_tools.html)
+clustering (see [component clustering](/tutorials/10_Group_analysis/component_clustering_tools.html)
 tutorial for more information on how to exclude components from clustering).
 Typing *STUDY.cluster* at the MATLAB command line returns
 
@@ -1157,7 +1157,7 @@ decompositions, NaN are inserted for the missing datasets. However, the
 presence of these missing datasets may break some analysis (warning
 messages are displayed when relevant).
 
-### *STUDY* data files
+### STUDY data files
 
 When pre-computing measures for a specific *STUDY* design, some files are
 saved on disk. These files have names such as

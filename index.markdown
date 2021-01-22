@@ -15,7 +15,7 @@ Over the last 17 or more years, EEGLAB ([Delorme & Makeig, 2004](/others/EEGLAB_
 -    [EEGLAB hardware and software
     recommendations](/others/EEGLAB_hardware_and_software_recommendations.html)
 -   [Download EEGLAB as a ZIP file](/others/How_to_download_EEGLAB.html)
--    [Download EEGLAB from GIT](/How_to_download_EEGLAB "wikilink")
+-    [Download EEGLAB from GIT](https://github.com/sccn/eeglab)
 -    [Download the compiled version of EEGLAB](/others/Compiled_EEGLAB.html)
 -    [EEGLAB extensions/plugins](/others/EEGLAB_Extensions.html)
 -    [EEGLAB revision history](/others/EEGLAB_revision_history.html)
@@ -40,9 +40,9 @@ Other type of documentation are listed below.
 -    [Use Google - add "eeglablist" or "EEGLAB" to your querry](http://google.com)
 -    [Bugs and Suggestions](/others/EEGLAB_Bugs.html)
 -    [Post a bug issues on Github](https://github.com/sccn/eeglab/issues)
--    [Download EEGLAB test cases](/EEGLAB_test_cases "wikilink")
--    [Other TIPS and FAQ](/FAQ/TIPS_and_FAQ)
--    [EEGLAB filtering FAQ](/FAQ/Firfilt_FAQ)
+-    [Download EEGLAB test cases](https://github.com/sccn/eeglab-testcases)
+-    [Other TIPS and FAQ](/others/TIPS_and_FAQ)
+-    [EEGLAB filtering FAQ](/others/Firfilt_FAQ)
 
 <h3><a href="/tutorials"><span style="color: black;">EEGLAB Tutorial</span></a></h3>
 {%- assign children_list = site.pages | where: "parent", "Tutorials" -%}

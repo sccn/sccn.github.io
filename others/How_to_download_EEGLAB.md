@@ -49,8 +49,8 @@ select *git pull*.
 ### Contributing code to EEGLAB
 
 To contribute code to EEGLAB, fork the code and create a pull request, as
-indicated on this [page](/others/Fork_the_EEGLAB_repository.html). This other
-[page](/tutorials/misc/Contributing_to_EEGLAB.html) contains other
+indicated on this [page](/tutorials/contribute/Contributing_to_EEGLAB.html#forking-the-eeglab-repository). This other
+[page](/tutorials/contribute) contains additional
 information on how to contribute to EEGLAB.
 
 ### Prior repository systems

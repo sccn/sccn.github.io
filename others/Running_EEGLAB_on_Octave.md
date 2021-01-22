@@ -116,8 +116,8 @@ to be more Octave compatible.
 If you modify an interactive EEGLAB
 function for that purpose and want others to benefit from your changes,
 fork the code and create a pull request as explained on [this
-page](/others/Fork_the_EEGLAB_repository.html). [This other 
-page](/tutorials/misc/Contributing_to_EEGLAB.html) contains other
+page](/tutorials/contribute/Contributing_to_EEGLAB.html#forking-the-eeglab-repository). [This other 
+page](/tutorials/contribute/) contains additional
 information on how to contribute to EEGLAB.
 
 A simple example of running an EEGLAB script in Octave

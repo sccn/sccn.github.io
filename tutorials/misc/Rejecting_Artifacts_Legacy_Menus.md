@@ -8,7 +8,7 @@ grand_parent: Tutorials
 Legacy methods for rejecting artifacts in continuous and epoched data
 ======================================================================
 
-This other [section](/tutorials/RejectArtifacts/) of the tutorial contains methods that are currently recommended for rejecting artifacts.
+This other [section](/tutorials/06_RejectArtifacts/) of the tutorial contains methods that are currently recommended for rejecting artifacts.
 
 <span style="color: red">The current section refers to obsolete methods that are no longer recommended for artifact rejections, given better methods are now available. In EEGLAB 2019.1 and later version, make sure to select the option <i>Show all menus from previous versions of EEGLAB</i> in EEGLAB menu item <span style="color: brown">File > Preference</span> to be able to use the tools on this page.</span>
 

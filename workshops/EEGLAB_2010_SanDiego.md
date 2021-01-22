@@ -29,8 +29,6 @@ Delorme)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.h
 <span style="color:darkred"> \- [Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_overview.html) <span style="color:blue">[Slides](https://sccn.ucsd.edu
 /githubwiki/files/eeglab2010_ad_nov18_eeglab_overview.pdf)
 
-[Browse the EEGLAB wikitutorial](http://sccn.ucsd.edu/wiki/eeglab)<br>
-
 <span style="color:darkred"><b>EEGLAB Methods for EEG-based functional brainimaging</b></span>
 
 <span style="color:purple">[Independent Component Analysis (ICA) theory I (Jason Palmer)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html)</span><span style="color:darkred">[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_ica1.html) <span style="color:blue">[Slides](https://sccn.ucsd.edu/githubwiki/files/ica_concepts.pdf)
@@ -200,47 +198,3 @@ Kothe)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_bci.html)</s
 [Affinity and Measure Projection
 plugins](ftp://sccn.ucsd.edu/pub/affinity_measure_projection.zip)
 [MP Dataset](ftp://sccn.ucsd.edu/pub/5subjects.zip)
-
-<!-- -->
-
-
-
-<span style="color:purple">[HeadIT: A resource for human
-electrophysiological data and tools (Jeff
-Grethe)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_headIT.html)</span>
-[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_headIT.html)
-
-<span style="color:darkred"><b>Mobile brain/body imaging (MoBI)</b></span>
-
-<span style="color:purple">[Imaging human agency with Mobile brain/body
-imaging (MoBI) (Scott
-Makeig)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)</span>
-[Talk](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_MoBI.html)
-[Slides](https://sccn.ucsd.edu/githubwiki/files/makeig_mobi_ucsd10.pdf)
-<!-- -->
-
-
-
-<span style="color:purple">[The ERICA software environment for experimental
-recording, interactive control and analysis (Andrey
-Vankov)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_erica.html)</span>
-[Talk](http://sccn.ucsd.edu/eeglab/EEGLAB12_erica.html)
-[Browse the ERICA DataSuite wiki
-tutorial](http://sccn.ucsd.edu/wiki/DataSuite),
-[Browse the ERICA MatRiver wiki
-tutorial](http://sccn.ucsd.edu/wiki/MatRiver),
-[Browse the ERICA Enactor wiki
-tutorial](http://sccn.ucsd.edu/wiki/Enactor)
-
-<!-- -->
-
-
-
-<span style="color:purple">[Mobile brain monitoring by wearable/wireless EEG
-(Tzyy Ping
-Jung)](http://sccn.ucsd.edu/eeglab/Online_EEGLAB_Workshop/EEGLAB12_wirelessEEG.html)</span>
-[Talk](http://sccn.ucsd.edu/eeglab/EEGLAB12_wirelessEEG.html)
-[Download the slides in PDF format](https://sccn.ucsd.edu/githubwiki/files/eeglab2010_tpj_advances_in_eeg.pdf)
-[Browse the SCCN MoBI lab wiki
-tutorial](http://sccn.ucsd.edu/wiki/MoBI_Lab)
-

@@ -113,14 +113,14 @@ This selection is equivalent to selecting the three conditions in the previous d
 The list of independent variables is automatically generated
 based on the STUDY definition information and also based on events from
 each of the datasets. Every single event field (as visible in the <span style="color: brown">Edit → Event values</span>) is automatically made visible. Note that only information about the time-locking event is shown, and other events within data epochs are ignored. However, EEGLAB populates empty fields within data epochs with information from other events within the same epochs. For example, events might have a field *correct* belonging to *reaction time* events (not the time-locking event) containing true or false. All events have the same fields so other events will also have a *correct* event field, which will be empty since it is not defined for these events. If this is the case, then the value (true or false) is automatically copied to all events within a given epoch, and may be selected as an independent variable in the GUI above. For details on what information is
-being extracted from datasets, refer to the [STUDY design structure](/tutorials/multi-subject/EEGLAB-STUDY-data-structure.html)
+being extracted from datasets, refer to the [STUDY design structure](/tutorials/ConceptsGuide/Data_Structures.html#the-studydesign-sub-structure)
 tutorial. 
 
 You may also read the [event scripting tutorial](/tutorials/11_Scripting/Event_Processing_command_line.html#adding-event-information-for-group-analysis) for defining new independent variables based on event context.
 
 ### Plotting ERPs for two designs
 
-We describe in detail data plotting in the group analysis data [visualisation tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html). However, we will plot and compare the ERPs for these two designs. 
+We describe in detail data plotting in the group analysis data [visualization tutorial](/tutorials/10_Group_analysis/study_data_visualization_tools.html). However, we will plot and compare the ERPs for these two designs. 
 
 First, we need to precompute measures. Select menu item <span style="color: brown">Study → Precompute channel measures</span>, click the *ERP* checkbox, and press *Ok* (interface not shown). Then select menu item <span style="color: brown">Study → Plot channel measures</span>. The following interface pops up. Select electrode *Oz*.
 
@@ -158,7 +158,7 @@ Here we have one panel per memory load. To interpret this plot, we would need to
 
 This simple example shows that the range of possibilities for STUDY
 designs is large. More details about STUDY.design structure is available
-in the [STUDY structure](/tutorials/multi-subject/EEGLAB-STUDY-data-structure.html)
+in the [STUDY structure](/tutorials/ConceptsGuide/Data_Structures.html#the-study-structure)
 part of the tutorial.
 
 For more complex designs, one must use the LIMO EEGLAB plugin. Refer to the [LIMO plugin documentation](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for more information. 

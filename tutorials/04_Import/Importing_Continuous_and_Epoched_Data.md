@@ -9,7 +9,7 @@ Importing continuous and epoched data
 =======
 {: .no_toc }
 
-Refer to the [quickstart guide](/Tutorials/quickstart.html) to load an EEG data file, and scroll data. This section of the tutorial deals with importing raw data files in different formats, some of them only available through EEGLAB plugins. 
+Refer to the [quickstart guide](/tutorials/02_Quickstart/quickstart.html) to load an EEG data file, and scroll data. This section of the tutorial deals with importing raw data files in different formats, some of them only available through EEGLAB plugins. 
 
 <details open markdown="block">
   <summary>
@@ -88,7 +88,7 @@ toolbox command line function [shortread.m](http://sccn.ucsd.edu/eeglab/locatefi
 to read data from a (16-bit) short-integer file. The resulting MATLAB
 array may then be imported into EEGLAB, as shown above.
 
-Once the data is imported, refer to the [quickstart guide](/Tutorials/quickstart.html) to scroll the data.
+Once the data is imported, refer to the [quickstart guide](/tutorials/02_Quickstart/quickstart.html) to scroll the data.
 
 ### Importing a file containing a MATLAB structure
 

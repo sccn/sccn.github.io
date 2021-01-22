@@ -7,7 +7,7 @@ grand_parent: Tutorials
 ---
 Re-referencing the data
 ======
-For detailed background theory on re-referencing EEG data, please refer to the [Appendix](/tutorials/IV.Appendix/rereferencing_background.html). We describe below how to specify the reference electrode(s) in EEGLAB and to (optionally) re-reference the data.
+For detailed background theory on re-referencing EEG data, please refer to the [Appendix](/tutorials/ConceptsGuide/rereferencing_background.html). We describe below how to specify the reference electrode(s) in EEGLAB and to (optionally) re-reference the data.
 
 Load the sample EEGLAB dataset
 -------------------------

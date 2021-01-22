@@ -11,7 +11,7 @@ Independent Component Analysis for artifact removal
 {: .no_toc }
 
 Independent Component Analysis (ICA) may be used to remove/subtract artifacts embedded in the data (muscle, eye blinks, or eye movements) <i>without</i> removing the affected data portions. ICA may also be used to find brain sources, and we will come back to this topic in subsequent sections of the tutorial. For more theory and background 
-information on ICA you can also refer to the [Appendix](/tutorials/IV.Appendix/ICA_background.html).
+information on ICA you can also refer to the [Appendix](/tutorials/ConceptsGuide/ICA_background.html).
 
 <details open markdown="block">
   <summary>
@@ -67,7 +67,7 @@ To use the FastICA algorithm, one must install the [FastICA toolbox](http://www.
 
 You may install the [Amica](https://github.com/japalmer29/amica) and [postAmicaUtility](https://github.com/sccn/postAmicaUtility) plugins to use Amica in EEGLAB. By contrast with other ICA algorithms, Amica does not use the standard ICA interface and creates its own sets of menus.
 
-Refer to the [Appendix](/tutorials/IV.Appendix/ICA_background.html#note-on-ica-algorithms) for further information on 
+Refer to the [ICA concept guide](/tutorials/ConceptsGuide/ICA_background.html#note-on-ica-algorithms) for further information on 
 the different ICA algorithms.
 
 *Important note* 
@@ -80,7 +80,7 @@ then a considerable amount of data may be required to find N components.
 When insufficient data are available, then use the 'pca' option to find fewer than N components may be the only good
 option. In general, it is important to give ICA as
 much data as possible for successful training. 
-Refer to [this Appendix section](/tutorials/IV.Appendix/ICA_background.html#how-many-data-points-do-i-need-to-run-an-ica) for more details.
+Refer to [the ICA concept guide](/tutorials/ConceptsGuide/ICA_background.html#how-many-data-points-do-i-need-to-run-an-ica) for more details.
 
 ### Selecting channel types 
 

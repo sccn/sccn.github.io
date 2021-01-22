@@ -43,7 +43,7 @@ EEGLAB development is now centered at the Swartz Center for Computational Neuros
 for Neural Computation at the University of California San Diego (UCSD). Core EEGLAB maintenance and development is supported by the US National Institute of Neurological Disorders and Stroke (NINDS). 
 
 The EEGLAB core code cannot be modified by third parties directly. Instead,
-users submits [pull requests](/others/Fork_the_EEGLAB_repository.html). EEGLAB core developers then
+users submits [pull requests](/tutorials/contribute/Contributing_to_EEGLAB.html#forking-the-eeglab-repository). EEGLAB core developers then
 review the code and add it to the repository.
 
 For third-party developers, we welcome collaborations with users and
@@ -110,7 +110,7 @@ Forking the EEGLAB repository
 
 The main EEGLAB repository is not the place to add new functions. If
 you want to add new functionality, write an EEGLAB
-[plugin](/tutorials/misc/Contributing_to_EEGLAB.html) instead.
+[plugin](/tutorials/contribute/Contributing_to_EEGLAB.html) instead.
 
 ### Why fork the EEGLAB repository?
 This page assumes that you are somewhat familiar with GitHub, Git, and version control.

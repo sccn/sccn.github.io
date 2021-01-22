@@ -71,7 +71,7 @@ To contribute a new plugin
 --------------------------------------
 
 See the simple instructions under [How to contribute to
-EEGLAB](/tutorials/misc/Contributing_to_EEGLAB.html) to create EEGLAB compatible code.
+EEGLAB](/tutorials/contribute/) to create EEGLAB compatible code.
 
 Then, you may add your extension to the list above so that EEGLAB users can
 download it automatically from within EEGLAB. To do this, use [this
@@ -250,7 +250,7 @@ We only include the most popular ones below.
 
 - **[PACTools](https://github.com/sccn/PACTools)**: The Event-Related PACTools is an EEGLAB plugin to compute phase-amplitude coupling in single-subject data. In addition to traditional methods to compute PAC, the plugin includes the Instantaneous and Event-Related implementation of the Mutual Information Phase-Amplitude Coupling Method (MIPAC).
 
--   **[PACT](http://sccn.ucsd.edu/wiki/PACT):** PACT is an EEGLAB extension for computing cross-frequency
+-   **[PACT](https://github.com/sccn/PACT):** PACT is an EEGLAB extension for computing cross-frequency
     phase-amplitude coupling.
 
 - **[erpsource](https://github.com/sccn/erpsource)**: Source localization of ERPs using eLoreta.
