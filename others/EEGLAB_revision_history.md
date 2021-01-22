@@ -13,6 +13,22 @@ revision number. Minor revision are indicated using a second number
 2019.0 is version 2019 and first release; 2019.1 is version 2019 and
 second release. There are usually one or two releases per year. Prior major versions of EEGLAB (e.g., 13 or 14) did not follow a particular release schedule.
 
+## EEGLAB version 2021.0
+
+- Issue date: TBD (within a week or two); GIT tag: 2020.1
+- **Statistics**: 159 commits, 80 files and 3,247 lines of code modified.
+- **Multiple dataset processing**: Now allowing processing of multiple datasets with most menu items, including ICLabel and clean_rawdata plugins
+- **File format**: Now saving all EEGLAB datasets in a single file instead of two (fully backward compatible)
+- **Version checking**: Now EEGLAB version checking uses the same system as  plugins
+- **Example scripts**: New tutorial scripts made available within EEGLAB
+- **Custom group analysis**: Now allows custom processing of EEGLAB studies
+- **Channel selection**: Now allow selecting channels by labels in all GUIs
+- **Channel location**: Now using the BEM channel locations as default for looking up channel locations by labels (instead of spherical BESA locations)
+- **Plugins support**: Now allowing to place plugins in the *plugins* subfolder of the current Matlab path
+- **Interoperability**: Improved support for Matlab 2020, Octave, Fieldtrip, and LIMO
+- **Menu structure**: Now hiding rarely used menu item for comparing datasets by default
+- Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2020.0..eeglab2020.1) to see all changes compared to the previous EEGLAB version.
+
 ## EEGLAB version 2020.0
 
 -   Issue date: July 31st, 2020; GIT tag: 2020.0

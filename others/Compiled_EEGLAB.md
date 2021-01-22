@@ -155,25 +155,28 @@ and Fieldtrip should
 be removed to avoid compilation issues. Use the
 following script to install plugins and remove these folders:
 
-``` Matlab
+```matlab
 eeglab  % restart the fleshly installed eeglab
 
 % Installing plugins
 plugin_askinstall('ANTeepimport', 'eegplugin_eepimport', true);
+plugin_askinstall('Fieldtrip-lite', 'ft_defaults', true);
+plugin_askinstall('Fileio', 'ft_read_data', true);
+plugin_askinstall('IClabel', 'eegplugin_iclabel', true);
+plugin_askinstall('PICARD', 'picard', true);
+plugin_askinstall('vised', 'vised', true);
+plugin_askinstall('bids-matlab-tools', 'bids_export', true);
+plugin_askinstall('bids-validator', 'pop_validatebids', true);
 plugin_askinstall('bva-io', 'eegplugin_bva_io', true);
 plugin_askinstall('clean_rawdata', 'eegplugin_clean_rawdata', true);
 plugin_askinstall('dipfit', 'eegplugin_dipfit', true);
 plugin_askinstall('egilegacy', 'eegplugin_egilegacy', true);
-plugin_askinstall('Fieldtrip-lite', 'ft_defaults', true);
-plugin_askinstall('Fileio', 'ft_read_data', true);
 plugin_askinstall('firfilt', 'eegplugin_firfilt', true);
-plugin_askinstall('IClabel', 'eegplugin_iclabel', true);
-plugin_askinstall('Picard', 'picard_standard', true);
+plugin_askinstall('irrfilt', 'eegplugin_iirfilt', true);
+plugin_askinstall('musedirect', 'eegplugin_musedirect', true);
 plugin_askinstall('musemonitor', 'eegplugin_musemonitor', true);
 plugin_askinstall('neuroscanio', 'eegplugin_neuroscanio', true);
 plugin_askinstall('xdfimport', 'eegplugin_xdfimport', true);
-plugin_askinstall('iirfilt', 'iirfilt', true);
-plugin_askinstall('vised', 'vised', true);
 
 % Removing clean_rawdata files
 % For clean_rawdata, remove folder manopt/reference/m2html.
@@ -194,13 +197,14 @@ rmdir(fullfile(FieldTrip_folder,'external','npmk'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','signal'), 's');
 ```
 
+3. Optional: Edit the eeglab.m file and add new plugins to the compiled version of EEGLAB (line 900).
+
+3. Open the "eeglab.prj" file in the Matlab editor. Check the path for plugins. If a new version is available, rename the version in the eeglab.prj file.
+
 3. Open the Application compiler (Matlab tab "Apps" and button
-"Application compiler")
+"Application compiler") and open the "eeglab.prj" file. DO NOT RESAVE THE PROJECT IN THE APPLICATION COMPILER AS IT TENDS TO MESS UP PATHS FOR CROSS PLATFORM COMPILATION.
 
-3. Open the "eeglab.prj" file.
-
-4. Check the path for plugins. If a new version is available, rename the
-version in the eeglab.prj file. DO NOT RESAVE THE PROJECT IN THE APPLICATION COMPILER AS IT TENDS TO MESS UP PATHS FOR CROSS PLATFORM COMPILATION.
+4. On the command line, type "setenv('MCC_USE_DEPFUN','1')". There will still be class errors when checking dependencies, but the EEGLAB will compile anyway.
 
 4. Press "Package" and wait (usually 30 minutes or so)
 
@@ -230,6 +234,6 @@ Adding new plugins
 
 | Plugin name       | Comment                                                                                               |
 |-------------------|-------------------------------------------------------------------------------------------------------|
-| Biosig            | Not necessary because included in Fieldtrip?                                                           |
+| Biosig            | Path issue for compiler. Using the version included in Fieldtrip                                                           |
 | MFFMatlabIO       | Issue with finding the JAR file at execution time; more debugging necessary before inclusion possible |
 | bids-matlab-tools | Not tested                                                                                            |
