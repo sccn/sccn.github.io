@@ -5,28 +5,29 @@ parent: Download EEGLAB
 ---
 EEGLAB revision history
 ===
-EEGLAB download in ZIP format is available on [this page](https://sccn.ucsd.edu/eeglab/download.php). This includes the
-latest release as well as old versions of EEGLAB.
+EEGLAB downloads in ZIP format are available [here](https://sccn.ucsd.edu/eeglab/download.php). 
+These include the latest release as well as older versions of EEGLAB.
 
-Starting in 2019, we are using the year of the release as the main
-revision number. Minor revision are indicated using a second number
-2019.0 is version 2019 and first release; 2019.1 is version 2019 and
-second release. There are usually one or two releases per year. Prior major versions of EEGLAB (e.g., 13 or 14) did not follow a particular release schedule.
+As of 2019, we are using the year of the release as the main revision number. 
+Minor revisions are indicated using a second number: thus,
+2019.0 is version 2019, first release; 2019.1 is version 2019, second release, etc..
+There will usually be one or two releases per year. 
+Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
 ## EEGLAB version 2021.0
 
 - Issue date: TBD (within a week or two); GIT tag: 2021.0
 - **Statistics**: 159 commits, 80 files and 3,247 lines of code modified.
-- **Multiple dataset processing**: Now allowing processing of multiple datasets with most menu items, including ICLabel and clean_rawdata plugins
+- **Multiple dataset processing**: Now allowing processing of multiple datasets with most menu items, including ICLabel and clean_rawdata plug-ins
 - **File format**: Now saving all EEGLAB datasets in a single file instead of two (fully backward compatible)
-- **Version checking**: Now EEGLAB version checking uses the same system as  plugins
-- **Example scripts**: New tutorial scripts made available within EEGLAB
-- **Custom group analysis**: Now allows custom processing of EEGLAB studies
-- **Channel selection**: Now allow selecting channels by labels in all GUIs
-- **Channel location**: Now using the BEM channel locations as default for looking up channel locations by labels (instead of spherical BESA locations)
-- **Plugins support**: Now allowing to place plugins in the *plugins* subfolder of the current Matlab path
-- **Interoperability**: Improved support for Matlab 2020, Octave, Fieldtrip, and LIMO
-- **Menu structure**: Now hiding rarely used menu item for comparing datasets by default
+- **Version checking**: Now EEGLAB version checking uses the same system as  for plug-ins
+- **Example scripts**: New tutorial scripts are made available within EEGLAB
+- **Custom group analysis**: Now allows custom processing of EEGLAB Studies.
+- **Channel selection**: Now allows selecting channel subsets by label in all GUIs.
+- **Channel location**: Now using the BEM-model channel scalp locations as the default for looking up channel locations by labels (instead of using the BESA spherical head model)
+- **Plugins support**: Now allowing plug-ins to be placed in the *plugins* subfolder of the current Matlab path
+- **Interoperability**: Improved support for Matlab 2020 versions and for Octave, Fieldtrip, and LIMO
+- **Menu structure**: Now hiding a rarely used menu item to compare datasets by default
 - Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2020.0..eeglab2020.1) to see all changes compared to the previous EEGLAB version.
 
 ## EEGLAB version 2020.0
