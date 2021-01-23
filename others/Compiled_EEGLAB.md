@@ -144,10 +144,9 @@ that require fixing on your system. See detailed instructions below.
 
 1. Clone EEGLAB with default plugins
 
-> ``` Matlab 
-> git clone --recurse-submodules https://github.com/sccn/
-> eeglab.git
-> ```
+``` Matlab 
+git clone --recurse-submodules https://github.com/sccn/eeglab.git
+```
 
 2. Install additional plugins (plugins that are already installed will
 be skipped). Some folders from the plugins clean_rawdata
