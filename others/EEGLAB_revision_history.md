@@ -15,7 +15,7 @@ second release. There are usually one or two releases per year. Prior major vers
 
 ## EEGLAB version 2021.0
 
-- Issue date: TBD (within a week or two); GIT tag: 2020.1
+- Issue date: TBD (within a week or two); GIT tag: 2021.0
 - **Statistics**: 159 commits, 80 files and 3,247 lines of code modified.
 - **Multiple dataset processing**: Now allowing processing of multiple datasets with most menu items, including ICLabel and clean_rawdata plugins
 - **File format**: Now saving all EEGLAB datasets in a single file instead of two (fully backward compatible)
