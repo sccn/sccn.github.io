@@ -12,106 +12,69 @@ Why Octave?
 
 MATLAB, although quite efficient,
 can be expensive. 
-We have attempted to tackle this problem and, as of 2018, we are supporting Octave (command line calls only, no graphic support). In our
-tests, Octave is about 50% slower than MATLAB, but this can easily be
-compensated by increasing the number of processors assigned to a
-specific processing task. Note that EEGLAB functions have not been
-parallelized (except for a few rare exceptions). Therefore, you are required
-to open a Octave/MATLAB session on each node and run custom scripts you
-write to take advantage of your parallel processing capability.
+We have attempted to tackle this problem and, as of 2021, we are supporting Octave (both command line calls and graphic interface).
 
 # Running EEGLAB on Octave
 
+EEGLAB on Octave is not as stable as EEGLAB on Matlab. EEGLAB on Matlab should be your first choice. Your second choice should be the compiled version of EEGLAB, and the third and last choice should be EEGLAB on Octave.
 
-To run EEGLAB on Octave, one must call EEGLAB functions from the Octave
-command line. The EEGLAB graphic user interface (GUI) and functions that
-create interactive pop-up windows might run on Octave, but are not actively supported. However,
-all scripts that call EEGLAB <em>pop_</em> functions should work and
-plot results if their pop-up interactive window function is not engaged.
-
-How to install and open Octave
-------------------------------
+Install Octave and EEGLAB
+-------------------------
 
 Download the latest version of Octave from [this
 page](https://www.gnu.org/software/octave/download.html). EEGLAB has
-been best tested using Octave 4.4, but should also run on later
-versions.
+been best tested using Octave 6.1 on Windows but might also run on later
+versions and other platforms. We recommend the Octave installer for Windows, which has all toolboxes (signal processing, statistics, etc...) pre-installed. 
 
-Then start Octave. Some Octave modules need to be installed for EEGLAB
-to function properly. Octave needs to be started with the option
-<em>--traditional</em> to ensure maximal compatibility with MATLAB. From
-the command line, start Octave using:
+### Optional octave settings
 
+To avoid having Octave show warning messages constantly, change the startup option and add "--traditional --brainless --quiet" (on Windows, select the Octave icon's property, and add the following options to the *Target* field).
 
-``` matlab
-octave --traditional
-```
+### Non-windows Octave releases
 
-
-This option is likely available from the Octave GUI settings (if you are
-using the Octave GUI). Then, you will need to install the Octave signal
-processing package. If the signal processing package is not installed,
-about 5% of EEGLAB functions will not run. On the Octave command line,
-type:
+If you are running Octave on Linux or macOS, in addition to Octave, you will need to install the Octave signal
+processing and statistics package. On the Octave command line, type:
 
 ```
 pkg install -forge control
 pkg install -forge signal
 pkg load signal
-```
-
-Note that you need to run the last command <em>pkg load signal</em>
-every time you start Octave from the command line. (If you are using the
-Octave graphic interface, there might be a way to load it automatically).
-You may also install the statistics toolkit, although this is not
-critical. This toolbox is used for EEGLAB *STUDY* statistics when present.
-
-```
 pkg install -forge io
 pkg install -forge statistics
 pkg load statistics
 ```
 
+Note that you need to run the last command <em>pkg load signal</em> and <em>pkg load statistics</em>
+every time you start Octave.
+
+### Install EEGLAB
+
+EEGLAB for Octave is a work in progress. As of EEGLAB 2021.0, we recommend using the development version of [EEGLAB on GitHub](https://github.com/sccn/eeglab). For later EEGLAB versions, you may use the official EEGLAB releases.
+
+To install the development version of EEGLAB, install [Git for windows](https://git-scm.com/download/win) and clone the repository with submodules. If you encounter problems with Octave, please submit an issue on [GitHub](https://github.com/sccn/eeglab/issues).
+
 Known issues with EEGLAB and Octave graphics compatibility
 ----------------------------------------------------------
 
 All EEGLAB signal processing functions should run on Octave. Although
-[Octave](http://www.gnu.org/software/octave/) is relatively compatible
-with MATLAB for functions purely performing computations, the Octave
+Octave is supposed to be fully compatible
+with MATLAB, the Octave
 graphic rendering engine sometimes cannot render all EEGLAB graphics subtleties. In particular, we have encountered the following
 issues:
 
-
-
--   EEGLAB interactive pop-up windows and the *eegplot.m* interactive data
-    scrolling function are not functional. Below, an example of head plot in MATLAB
-(left) and Octave (right).
-![](/assets/images/Octave_headplot.png)
-
--   Head plots are missing a shadow property (see figure above right -
-    facial feature shadowing is absent)
+-   Graphical figure updating is buggy. Users must move their mouse for multi-panel figures to be updated. Or sometimes, the figure itself must be moved or resized to be shown properly. For example, the *eegplot.m* interactive data
+    scrolling function is not fully functional: selecting data regions in continuous data involves waiting for 10 seconds or so between mouse clicks.
+-   Speed: Processing data is often about twice slower in Octave.
 -   Plug-ins need to be installed manually (downloaded as zip files and
     uncompressed in the EEGLAB plugins folder). Most plugins (including
     SIFT and LIMO) have not been tested on Octave and will likely not be
     functional. They could probably be made functional by their
     developers or by motivated users.
--   Memory mapping functions are not functional (this is a minor
-    limitation as this is beta functionality in EEGLAB)
 
-As long as you are using EEGLAB command-line functions, all EEGLAB
-plotting functions should be functional. This includes all EEGLAB
-scripts that run on MATLAB. If you have an EEGLAB script that does not
-run on Octave, please submit an EEGLAB [bug report](/others/EEGLAB_Bugs.html).
-Even some of the most complex EEGLAB plots can be rendered on Octave -
-for example, below, dipole plots in MATLAB (left)
+Nevertheless, even some of the most complex EEGLAB plots can be rendered on Octave - for example, below, dipole plots in MATLAB (left)
 and Octave (right) match perfectly.
 
-
  ![dipole in matlab and octave](/assets/images/Eeglab_dipoles_matlab_octave.png)
-
-Octave is still actively evolving and might support EEGLAB's complete
-graphical environment in the future. Also, MATLAB code can often be modified
-to be more Octave compatible. 
 
 If you modify an interactive EEGLAB
 function for that purpose and want others to benefit from your changes,
@@ -120,20 +83,10 @@ page](/tutorials/contribute/Contributing_to_EEGLAB.html#forking-the-eeglab-repos
 page](/tutorials/contribute/) contains additional
 information on how to contribute to EEGLAB.
 
-A simple example of running an EEGLAB script in Octave
+Comparing EEGLAB output in Octave and Matlab
 ----------------------------------------------
-
-As mentioned previously, any EEGLAB MATLAB script should now run under
-Octave.
-
 Below is a time-frequency decomposition plotted by Octave 4.4 for the
-EEGLAB tutorial dataset by the EEGLAB/MATLAB code below. The plot below
-is provided for illustrative purposes only; we had to implement some
-minor changes to make the EEGLAB time-frequency function *newtimef.m*
-compatible with Octave (since the changes were also compatible with
-MATLAB itself, we placed them in the main repository). Other EEGLAB
-functions (even signal processing functions) may also require
-minor changes to run under Octave.
+EEGLAB tutorial dataset by the EEGLAB/MATLAB code below.
 
 ``` matlab
 % cd xxxxx/eeglab        % move to the proper directory/folder

@@ -13,6 +13,8 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 Below is the provisional program. The workshop will be held online with social gatherings organized on [GatherTown](https://gather.town/). All hours are shown in Pacific Day Time (PDT), and in parenthesis in Central European Time (CET). Future workshops will try to accomodate time zones in Asia.
 
+**<span style="color: red">REGISTRATION WILL OPEN SOON</span>**. Subscribe to the [eeglabnews mailing list](https://sccn.ucsd.edu/eeglab/download.php) when you download EEGLAB to be notified.
+
 **Monday, June 14th (open to all; free registration required)**
 
 <span style="color: orange">6:00 – 7:45 – The basis of scripting with EEGLAB and Matlab [CET 2:00-3:45 pm]</span>
