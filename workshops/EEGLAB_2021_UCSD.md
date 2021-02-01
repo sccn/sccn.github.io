@@ -9,9 +9,9 @@ nav_order: 2
 layout: redirect
 redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
-# EEGLAB 2021 virtual workshop
+# 2021 Virtual EEGLAB Workshop
 
-Below is the provisional program. The workshop will be held online with social gatherings organized on [GatherTown](https://gather.town/). All hours are shown in Pacific Day Time (PDT), and in parenthesis in Central European Time (CET). Future workshops will try to accomodate time zones in Asia.
+Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions welcome). The workshop will be held online with social contacts available on [GatherTown](https://gather.town/). All hours are shown in Pacific Daylight Savings Time (PDT), and in parenthesis in Central European Time (CET). Future workshops will try to accomodate Asian time zones.
 
 **<span style="color: red">REGISTRATION WILL OPEN SOON</span>**. Subscribe to the [eeglabnews mailing list](https://sccn.ucsd.edu/eeglab/download.php) when you download EEGLAB to be notified.
 
