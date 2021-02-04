@@ -7,7 +7,7 @@ nav_order: 3
 EEGLAB mailing lists
 ====
 
-## The EEGLAB Discussion List
+## The EEGLAB Discussion List (eeglablist)
 
 This moderated mailing list is about the EEGLAB signal processing environment
 for MATLAB signal processing of EEG and related data. Feel free to post messages to this list. 
