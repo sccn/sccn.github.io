@@ -58,7 +58,7 @@ The moderator will withhold from the list posts that:
 
 
 
-## The EEGLAB News List
+## The EEGLAB News List (eeglabnewslist)
 
 The news list is reserved only for infrequent news releases from the
 EEGLAB development team. Do not send messages to this list; they will
