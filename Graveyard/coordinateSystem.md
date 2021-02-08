@@ -2,9 +2,9 @@ EEGLAB supports multiple electrode coordinate systems. Typically, three fiducial
 
 The left and right preauricular (LPA & RPA) points are commonly used as ear anatomical points. PA points are palpable anatomical features, but they are difficult to locate in anatomical MR head images. Furthermore, some experiment protocols call for using other anatomical points on the ears (e.g. ear canal, ear lobes, etc.) while retaining the inaccurate PA label. While consistency is key when gathering data for a study, collaborative or data mining projects are undermined when accurate labels or descriptions are not used. With photogrammetry improving the availability of electrode localization, we strongly recommend the use of the helix-tragus junction (LHJ &  RHJ) as the ear fiducials: these points are identifiable in 3-D head models as well as MR head images. 
 
-If digitized electrodes locations are imported, EEGLAB inherits the coordinate system but will rotate the coordinates in the X-Y plane such that the nose is pointed in the direction of +X. The philosophy is that such differences in electrode coordinates are trivial for visualization and source localization, because of head model co-registration warps and scales the coordinates. 
+If digitized electrodes locations are imported, EEGLAB inherits the coordinate system but will rotate the coordinates in the X-Y plane such that the nose is pointed in the direction of +X. The philosophy is that such differences in electrode coordinates are trivial for visualization and source localization, because head model co-registration warps and scales the coordinates. 
 
-#### EEGLAB-MNI
+#### EEGLAB
 If digitized electrode locations are not imported, we recommend using the Montreal Neurological Institute (MNI) template locations included in EEGLAB. This template is rotated such that the nose is +X, thus:
 - Units in millimeter
 - The origin is the anterior commissure
