@@ -4,14 +4,14 @@ title: EEGLAB mailing lists
 parent: Support
 nav_order: 3
 ---
-EEGLAB mainling lists
+EEGLAB mailing lists
 ====
 
-## The EEGLAB Discussion List
+## The EEGLAB Discussion List (eeglablist)
 
-This moderated mailing list is about the EEGLAB signal processing
-environment for MATLAB and signal processing of EEG data. Feel free to post messages to this list. The list moderator
-passes on relevant posts to the whole list.
+This moderated mailing list is about the EEGLAB signal processing environment
+for MATLAB signal processing of EEG and related data. Feel free to post messages to this list. 
+The list moderator passes on relevant posts to the whole list.
 
 -   To subscribe to the EEGLAB discussion list, send an (empty) email to
     <eeglablist-subscribe@sccn.ucsd.edu>
@@ -58,11 +58,11 @@ The moderator will withhold from the list posts that:
 
 
 
-## The EEGLAB News List
+## The EEGLAB News List (eeglabnewslist)
 
 The news list is reserved only for infrequent news releases from the
 EEGLAB development team. Do not send messages to this list; they will
-be ignored.
+not be read.
 
 -   To subscribe to the news list, send an (empty) email to
     <eeglabnews-subscribe@sccn.ucsd.edu>

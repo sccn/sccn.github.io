@@ -9,7 +9,8 @@ grand_parent: Tutorials
 Filtering the data
 =======
 To remove linear trends, it is often desirable to high-pass filter the
-data. High-pass filtering the data at 1 Hz or 2 Hz is also recommended to obtain good quality ICA decompositions. Low-pass filtering high-frequency noise is also sometimes necessary.
+data. High-pass filtering the data at 1 Hz is also recommended to obtain good quality ICA decompositions ([Klug & Gramann,
+2020](https://onlinelibrary.wiley.com/doi/full/10.1111/ejn.14992)). Low-pass filtering high-frequency noise is also sometimes necessary.
 
 Load the sample EEGLAB dataset
 -------------------
@@ -32,6 +33,8 @@ epoch boundaries.
 Select <span style="color: brown">Tools → Filter the data → Basic FIR filter (new, default)</span>, enter *1* (Hz) as the *Lower edge* frequency,
 and press *Ok*.
 
+Note that the EEGLAB legacy filter is no longer recommended but maintained for backward compatibility purposes only ([Widmann & Schröger, 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3391960/)).
+
 ![](/assets/images/Pop_eegfiltnew_1hz.jpg)
 
 A window will pop up to ask for the name of
@@ -40,7 +43,7 @@ the parent dataset by checking the *Overwrite parent* checkbox, then
 pressing the *Ok* button.
 
 Note that if high-pass and low-pass cutoff frequencies are BOTH
-selected, the filtering routine may have problems designing a suitable filter, and infinite values might be returned. To avoid this problem,
+selected, low-pass and high-pass parts will have the same slopes. Frequently, the low-pass slope is therefore steeper than necessary. To avoid this problem,
 we recommend first applying the low-pass filter and then, in a second
 call, the high-pass filter (or vice versa).
  
@@ -57,18 +60,18 @@ Note that removing data portions containing major artifacts (by visual inspectio
 
 High pass filtering introduces dependencies in neighboring data samples and is often not recommended for connectivity analysis. In this case, it is usually better to apply piecewise detrending to remove data trends. Piecewise detrending is available in the SIFT EEGLAB plugin, for example.
 
-For causal analysis (assessing if one process causes another), call menu item <span style="color: brown">Tools → Filter the data → Basic FIR filter (legacy)</span> and check the checkbox *Use causal filter*. By default, EEGLAB applies the filter forward and then again backward
+For causal analysis (assessing if one process causes another), call menu item <span style="color: brown">Tools → Filter the data → Basic FIR filter (legacy)</span> and check the checkbox *Use causal filter*. By default, the EEGLAB legacy filter applies the filter forward and then again backward
 to ensure that phase delays introduced by the filter are nullified. When using a causal filter, the filter is only applied forward, so phase delays might be introduced and not compensated for. However, causal relationships are preserved. 
 
 # Filtering without the signal processing toolbox
 
 If the MATLAB
-Signal Processing Toolbox is present, EEGLAB uses the MATLAB routine
+Signal Processing Toolbox is present, the EEGLAB legacy filter uses the MATLAB routine
 *filtfilt.m*. This applies the filter forward and then again backward
 to ensure that phase delays introduced by the filter are nullified. 
 
-If the MATLAB Signal Processing toolbox is not present, EEGLAB may use a
-simple filtering method involving the inverse Fourrier transform. To do this, call the <span style="color: brown">Tools → Filter the data → Basic FIR filter (legacy)</span> menu item and check the checkbox *Use (sharper) FFT linear filter instead of FIR filtering*.
+If the MATLAB Signal Processing toolbox is not present, the EEGLAB legacy filter may use a
+simple filtering method involving the inverse Fourier transform. To do this, call the <span style="color: brown">Tools → Filter the data → Basic FIR filter (legacy)</span> menu item and check the checkbox *Use (sharper) FFT linear filter instead of FIR filtering*.
 
 # Non-linear infinite impulse response filter and other filters
 
@@ -78,10 +81,9 @@ accessed from the menu item <span style="color: brown">Tools → Filter the data
 graphical interface as the FIR filtering option described above.
 Although IIR filters usually introduce different phase delays at
 different frequencies, this is compensated for by applying
-filtering in reverse using MATLAB function *filtfilt.m*. In practice,
-infinite impulse response filters are shorter than FIR filters when used for high pass filtering (a few samples as compared thousands of them for FIR).
+filtering in reverse using MATLAB function *filtfilt.m*. Note that the order of infinite impulse response (IIR) filters cannot be directly compared to the order finite impulse response (FIR) filters due to recursive operation.
 
-There is much more to be learned about filtering and more filtering options available in MATLAB itself. There is also no ideal filter for EEG data. In practice, we suggest you talk to your colleagues about the pros and cons of using different filter solutions. See also our [Q/A filtering page](/others/Firfilt_FAQ.html).
+There is much more to be learned about filtering and more filtering options available in MATLAB itself. There is also no ideal filter for EEG data. For example, the impact of high-pass filters on ERP data is currently under discussion. In practice, we suggest you talk to your colleagues about the pros and cons of using different filter solutions. See also our [Q/A filtering page](/others/Firfilt_FAQ.html) including relevant references. For an introduction into definitions and concepts you may also check [Widmann et al., 2015](https://home.uni-leipzig.de/biocog/eprints/widmann_a2015jneuroscimeth250_34.pdf).
 
 # Alternative to filtering for line noise removal
 
