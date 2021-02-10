@@ -12,7 +12,6 @@ Here we demonstrate how to import EEG-BIDS data into EEGLAB and use the [EEGLAB 
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXc9qfVbMMN3II4EnVQNjOeVl-UprWlnM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-
 <details open markdown="block">
   <summary>
     Table of contents
