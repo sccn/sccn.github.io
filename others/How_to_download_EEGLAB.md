@@ -9,7 +9,9 @@ Download EEGLAB
 ====
 
 Go to the [EEGLAB download
-page](https://sccn.ucsd.edu/eeglab/download.php) to download the latest stable version of EEGLAB. The rest of this page describes how to download the development version of EEGLAB, and is recommended for advanced EEGLAB users only.
+page](https://sccn.ucsd.edu/eeglab/download.php) to download the latest stable version of EEGLAB. The rest of this page describes how to download the development version of EEGLAB, and is recommended for advanced EEGLAB users only. In the video, we outline the different options for running EEGLAB.
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/NhKc0arEcbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 Download the EEGLAB ZIP file archive
 ------------

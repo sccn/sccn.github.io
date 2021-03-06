@@ -13,4 +13,5 @@ Live page: https://sccn.github.io
 * Install Jekyll following the instruction: https://jekyllrb.com/docs/installation/. (See [here](https://jekyllrb.com/docs/installation/macos/) for mac)
 * Clone the repository: ``git clone https://github.com/sccn/sccn.github.io.git; cd sccn.github.io``
 * Run ``bundle install`` to download theme and its dependencies
+* Run ``bundle add webrick``
 * Run ``bundle exec jekyll serve`` and the site should be live at http://localhost:4000/

@@ -6,13 +6,11 @@ parent: Interoperability
 ---
 Running EEGLAB on Octave
 ====
+MATLAB, although quite efficient, can be expensive. As of 2021, we are supporting the Octave MATLAB-compatible open-source environment (both command line calls and graphic interface). See the video below for information on running EEGLAB in Octave.
 
-Why Octave?
----
-
-MATLAB, although quite efficient,
-can be expensive. 
-We have attempted to tackle this problem and, as of 2021, we are supporting Octave (both command line calls and graphic interface).
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NhKc0arEcbs?start=206" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 # Running EEGLAB on Octave
 
