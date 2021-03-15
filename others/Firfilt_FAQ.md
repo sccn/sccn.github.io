@@ -186,7 +186,92 @@ How can we address these problems?
     EEG = pop_resample(EEG, 200, 0.8, 0.4);
     ```
 
-This page was created by Makoto Miyakoshi and Andreas Widmann.
+### Q. When should causal filters be used? (3/15/2021)
+
+Causal filters typically should only be used if the application explicitly requires this. For example, if causality matters as in the detection of onset latencies (even if the problem is overestimated as it mainly affects ultra-sharp transients typically not observed in EEG/ERP), the analysis of small fast components before large slow components (e.g. if higher high-pass cutoff frequencies are required), or in the analysis of pre-stimulus activity, that is, your case. The difference between a linear causal and linear non-causal filter is exclusively the time axis. The output of the non-causal filter equals the delay corrected output of the causal filter. It is sufficient to change the EEG.times time axis. That is, if your signal of interest is further away from stimulus onset than the group delay, you can simply use a linear non-causal filter.
+% Example:
+
+sig = [ 0 0 0 0 0 1 0 0 0 0 0 ]; % test signal (impulse)
+b = [ 1 1 1 1 1 ] / 5; % some crude boxcar filter for demonstration purposes only, linear-phase, length = 5, order = 4, group delay = 2
+fsig = filter( b, 1, sig ); % causal filter
+plot( -5:5, [ sig; fsig ]', 'o' ) % the filtered impulse in the output does not start before the impulse in the input
+fsig = filter( b, 1, [ sig 0 0 ] ) % padded causal filter
+fsig = fsig( 3:end ); % delay correction by group delay, this is what makes the filter non-causal and zero-phase
+plot( -5:5, [ sig; fsig ]', 'o' ) % the filtered impulse in the output starts before the impulse in the input BUT everything before x = -2 is unaffected
+
+### Q. Should I use a linear causal FIR filter with delay correction or a non-linear causal filter (e.g. minimum-phase)?
+
+You cannot delay correct a causal filter (linear or non-linear). This would make it automatically non-causal and break causality and there is no way around this. If the (group) delay is too large for your purpose, you must reduce the delay and thus use a non-linear filter (e.g. minimum phase). Non-linear filters delay different frequencies by a different amount (and due to this difference you cannot easily delay correct the output of non-linear filters even if non-causality would be acceptable). Therefore, you must not interpret the shape of the waveform in ERPs as it is distorted to some extent, and also not interpret cross-frequency relationships of amplitude or phase in ERSPs. But on the other hand, you can be certain that your pre-stimulus data are not contaminated by post-stimulus activity.
+Side note: I recommend not to use the legacy filter. It is broken. It would be relatively simple to use the new filter for causal linear filtering on the command line (just take the filter coefficients and use the regular MATLAB filter command; see above).
+
+### Q. Because my analysis is exploratory on a large time window, I cannot know whether the signal of interest is further away from stimulus onset than the group delay. For a filter order of 1650 and a sampling rate of 500 Hz, how do I calculate the group delay to know how much of pre-stimulus period is contaminated by post-stimulus activity (linear non-causal) or shifted in time (linear causal)?
+
+For filter order = 1650 -> N = 1651 samples (N taps = filter length = filter order + 1) -> group delay = (N - 1) / 2 samples and sampling rate fs = 500 samples / second -> group delay = (N - 1) / 2 / fs for seconds (same equation, just written differently). Thus, the delay of the order 1650 filter is 1.65 seconds.
+
+
+### Q. Does the _firfilt_ function automatically delay-correct if I choose to do the non-causal linear filter? 
+
+Yes, firfilt automatically corrects for the group delay, that is, implements a zero-phase FIR filter. But firfilt is a low-level function and you should know what you are doing when using it. If you want to do this on the command line I would rather recommend using fir_filterdcpadded. There is a 'causal‘ flag and you can do causal and non-causal (linear phase only) filtering. fir_filterdcpadded must be used with continuous segments only. firfilt also works with boundaries. firfilt was designed long time ago when memory was a limited resource and is memory optimized but complex. It will be sooner than later be fully replaced by fir_filterdcpadded (as in Fieldtrip) which is simple and fast but memory consuming. 
+Note: fir_filterdcpadded always operates (pads, filters) along first dimension. 
+So, with EEG.data (chans x times) it is necessary to transpose (twice): 
+EEG.data = fir_filterdcpadded(b_low, 1, EEG.data', 1)'; 
+
+### Q. What about IIR filters and causal filtering?
+
+Note that you cannot delay correct an IIR filter (the impulse response is infinite and the phase response non-linear) and order has a very different meaning. Indeed, backward-forward filtering will result in a non-causal zero-phase filter (actually, the order of backward-forward or forward-backward doesn’t matter). As an IIR filter is used there is no temporal limit for non-causal effects (here post-stimulus on pre-stimulus time ranges) as with FIR filters. 
+ 
+### Q. If I use linear (causal or non-causal) filters for both high-pass and low-pass, does the group delay double (i.e. 232 ms?)?
+
+Depends. This is a somewhat more complex issue as this is different for causal vs. non-causal and also different for serial high-pass and low-pass vs. band-pass and finally also how band-pass is implemented.
+
+1. Non-causal/zero-phase:
+  1.a. Serial application: Both filters are delay corrected separately, there is no delay in the final output. The impulse response of the final filter is the convolution of the high-pass and low-pass impulse responses. That is, the time range potentially contaminated by non-causal effects is (Nlow-pass + Nhigh-pass - 2) / 2 (in samples, divide by fs for seconds). This is identical to a band-pass filter implemented by convolution.
+  1.b. You may implement a band-pass filter by clever combinations of spectral inversion and reversal (in a nutshell by adding two low-pass and high-pass kernels). The time range potentially contaminated by non-causal effects can be reduced to (max([Nlow-pass, Nhigh-pass]) - 1) / 2. More details on band-pass by convolution vs. spectral inversion, reversal and adding are explained for example here.
+2.Causal
+  2.a. Serial application: Both delays are added (minus 1; see 1a above)
+  2.b. Single stage bandpass. Again the delay can be reduced to (max([Nlow-pass, Nhigh-pass]) - 1) / 2 with clever implementation.
+
+### Q. Changing the sampling rate would not change anything regarding the delays, right?
+
+ Right.
+ 
+ ### Q. Trying to reduce the delay without compromising filter quality, I still get a delay of 0.958 s ... which corresponds to 64% of my window of interest! Whether I ignore this period with the linear non-causal filter, or lose it through the time shift with the linear causal filter, it's a huge loss. The implementation of a more advanced band-pass method by convolution vs spectral inversion is above my level, and even if I could find a way to implement it, I would still have a delay of 0.826 s, which is still too big. That leaves me the minimum-phase causal filter with a reduced delay but unknown signal/phase distortions which prevents me from doing more complex analyses. I’m wondering if I should not use any filters at all at the cost of lower SNR instead?
+
+For frequency analysis filtering is not necessarily required. Most time frequency analysis methods are actually filters by itself (and most can indeed be implemented by convolution, that is, also here you may have to watch out for non-causal effects in certain scenarios). Typically DC removal (mean subtraction or possibly detrending in problematic cases) may be sufficient.
+
+For ERPs personally I would try non-linear phase filters. I would try to systematically compare non-linear and linear phase filtered data to try to disentangle what are distortions due to non-linearity or what are potentially non-causal effects. Particularly helpful is to systematically evaluate and compare the signal removed by different filters (unfiltered minus filtered data).
+
+### Q. How is ICA affected by causal filtering? Is it affected exactly the same way the data is?
+
+Linear phase filtering shouldn’t change the independent component topographies. As the output of non-causal vs. causal linear phase filters is identical (just delayed) there shouldn’t be a difference with respect to causality. For more detailed considerations on ICA and filtering, see introduction of the following link: https://urldefense.com/v3/__https://onlinelibrary.wiley.com/doi/full/10.1111/ejn.14992__;!!Mih3wA!WlVVw6y6WsMIveCkz6Cx0qfOc0soAbgN7fqqfafhhGpsK1K4v6sywYeJkpnraIjK4rrVrw$ 
+
+
+### Q. How is re-refenrecing affected? 
+
+Sorry, I cannot comment on this. Just a general note: I’m sometimes lazily writing linear/non-linear filtering. In this context (spectral filters) actually I should consistently use the complete and correct terminology: linear/non-linearphase filtering. "Linear/non-linear phase" here describes that the phase response is a straight line or not. The point is that also non-linear phase spectral filtering is a linear operation (in contrast to true non-linear filtering). This is all straight-forward convolution. For linear operations the order doesn’t matter, and therefore, for regular re-referencing (common/averaged/linked reference) the order (filter -re-reference or re-reference -filter) doesn’t matter (except edge effects).
+
+
+### Q. Are there other Matlab/EEGLAB options I could use to design filters from the command line?
+
+Matlab:
+
+  b_high = minphaserceps( firws( 10, 1/5, 'high' ) ); % minimum-phase non-linear high-pass
+  fsig_high = filter( b_high, 1, sig ); % causal filter
+
+EEGLAB:
+
+  [EEG, com, b] = pop_firws(EEG, 'forder', forder, 'fcutoff', fcutoff, 'ftype', 'highpass', 'wtype', 'hamming', 'minphase', 1);
+This is the same BUT: pop_firws is the high level wrapper. Unit for fcutoff is Hz! firws is a low-level function. 
+Unit for f is pi rad / sample (i.e. normalized to Nyquist, this is the MATLAB standard for this kind of functions). 
+0.2 pi rad / sample * fs / 2 with fs = 500 samples / second -> 50 seconds^-1 or Hz.
+
+
+
+This page was created by Makoto Miyakoshi and Andreas Widmann. 
+Edits 3/15/2021 on causal filtering by Cedric Cannard (from discussion with Andreas Widmann). 
+
+
+
 
 ## References and recommended readings
 
