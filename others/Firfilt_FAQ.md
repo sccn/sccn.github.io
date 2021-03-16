@@ -256,7 +256,6 @@ Sorry, I cannot comment on this. Just a general note: I’m sometimes lazily wri
 
 ### Q. Are there other Matlab/EEGLAB options I could use to design filters from the command line?
 
-Matlab:
 ```matlab 
     b_high = minphaserceps( firws( 10, 1/5, 'high' ) ); % minimum-phase non-linear high-pass
     fsig_high = filter( b_high, 1, sig ); % causal filter
