@@ -189,15 +189,17 @@ How can we address these problems?
 ### Q. When should causal filters be used? (3/15/2021)
 
 Causal filters typically should only be used if the application explicitly requires this. For example, if causality matters as in the detection of onset latencies (even if the problem is overestimated as it mainly affects ultra-sharp transients typically not observed in EEG/ERP), the analysis of small fast components before large slow components (e.g. if higher high-pass cutoff frequencies are required), or in the analysis of pre-stimulus activity, that is, your case. The difference between a linear causal and linear non-causal filter is exclusively the time axis. The output of the non-causal filter equals the delay corrected output of the causal filter. It is sufficient to change the EEG.times time axis. That is, if your signal of interest is further away from stimulus onset than the group delay, you can simply use a linear non-causal filter.
-% Example:
 
-sig = [ 0 0 0 0 0 1 0 0 0 0 0 ]; % test signal (impulse)
-b = [ 1 1 1 1 1 ] / 5; % some crude boxcar filter for demonstration purposes only, linear-phase, length = 5, order = 4, group delay = 2
-fsig = filter( b, 1, sig ); % causal filter
-plot( -5:5, [ sig; fsig ]', 'o' ) % the filtered impulse in the output does not start before the impulse in the input
-fsig = filter( b, 1, [ sig 0 0 ] ) % padded causal filter
-fsig = fsig( 3:end ); % delay correction by group delay, this is what makes the filter non-causal and zero-phase
-plot( -5:5, [ sig; fsig ]', 'o' ) % the filtered impulse in the output starts before the impulse in the input BUT everything before x = -2 is unaffected
+% Example:
+```matlab 
+    sig = [ 0 0 0 0 0 1 0 0 0 0 0 ]; % test signal (impulse)
+    b = [ 1 1 1 1 1 ] / 5; % some crude boxcar filter for demonstration purposes only, linear-phase, length = 5, order = 4, group delay = 2
+    fsig = filter( b, 1, sig ); % causal filter
+    plot( -5:5, [ sig; fsig ]', 'o' ) % the filtered impulse in the output does not start before the impulse in the input
+    fsig = filter( b, 1, [ sig 0 0 ] ) % padded causal filter
+    fsig = fsig( 3:end ); % delay correction by group delay, this is what makes the filter non-causal and zero-phase
+    plot( -5:5, [ sig; fsig ]', 'o' ) % the filtered impulse in the output starts before the impulse in the input BUT everything before x = -2 is unaffected
+```
 
 ### Q. Should I use a linear causal FIR filter with delay correction or a non-linear causal filter (e.g. minimum-phase)?
 
@@ -214,8 +216,9 @@ For filter order = 1650 -> N = 1651 samples (N taps = filter length = filter ord
 Yes, firfilt automatically corrects for the group delay, that is, implements a zero-phase FIR filter. But firfilt is a low-level function and you should know what you are doing when using it. If you want to do this on the command line I would rather recommend using fir_filterdcpadded. There is a 'causal‘ flag and you can do causal and non-causal (linear phase only) filtering. fir_filterdcpadded must be used with continuous segments only. firfilt also works with boundaries. firfilt was designed long time ago when memory was a limited resource and is memory optimized but complex. It will be sooner than later be fully replaced by fir_filterdcpadded (as in Fieldtrip) which is simple and fast but memory consuming. 
 Note: fir_filterdcpadded always operates (pads, filters) along first dimension. 
 So, with EEG.data (chans x times) it is necessary to transpose (twice): 
-EEG.data = fir_filterdcpadded(b_low, 1, EEG.data', 1)'; 
-
+```matlab 
+    EEG.data = fir_filterdcpadded(b_low, 1, EEG.data', 1)'; 
+```
 ### Q. What about IIR filters and causal filtering?
 
 Note that you cannot delay correct an IIR filter (the impulse response is infinite and the phase response non-linear) and order has a very different meaning. Indeed, backward-forward filtering will result in a non-causal zero-phase filter (actually, the order of backward-forward or forward-backward doesn’t matter). As an IIR filter is used there is no temporal limit for non-causal effects (here post-stimulus on pre-stimulus time ranges) as with FIR filters. 
@@ -254,13 +257,16 @@ Sorry, I cannot comment on this. Just a general note: I’m sometimes lazily wri
 ### Q. Are there other Matlab/EEGLAB options I could use to design filters from the command line?
 
 Matlab:
+```matlab 
+    b_high = minphaserceps( firws( 10, 1/5, 'high' ) ); % minimum-phase non-linear high-pass
+    fsig_high = filter( b_high, 1, sig ); % causal filter
+```
+Or
 
-  b_high = minphaserceps( firws( 10, 1/5, 'high' ) ); % minimum-phase non-linear high-pass
-  fsig_high = filter( b_high, 1, sig ); % causal filter
+```matlab 
+    [EEG, com, b] = pop_firws(EEG, 'forder', forder, 'fcutoff', fcutoff, 'ftype', 'highpass', 'wtype', 'hamming', 'minphase', 1);
+```
 
-EEGLAB:
-
-  [EEG, com, b] = pop_firws(EEG, 'forder', forder, 'fcutoff', fcutoff, 'ftype', 'highpass', 'wtype', 'hamming', 'minphase', 1);
 This is the same BUT: pop_firws is the high level wrapper. Unit for fcutoff is Hz! firws is a low-level function. 
 Unit for f is pi rad / sample (i.e. normalized to Nyquist, this is the MATLAB standard for this kind of functions). 
 0.2 pi rad / sample * fs / 2 with fs = 500 samples / second -> 50 seconds^-1 or Hz.
