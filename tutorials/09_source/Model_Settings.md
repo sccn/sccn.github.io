@@ -39,9 +39,9 @@ pop up the window below:
 The top edit box, *Model (click to select)*, specifies the type of head
 model -- spherical model, template boundary element model (BEM), or custom model. The spherical
 head model uses four spherical surfaces (skin, skull, CSF, cortex) to
-model the brain. The BEM model is composed of three 3-D surfaces (skin,
+model the head. The BEM model is composed of three 3-D surfaces (skin,
 skull, cortex) extracted from the MNI (Montreal Neurological Institute)
-canonical template brain also used in SPM. The BEM model is more
+canonical template brain also used in Statistical Parametric Mapping (SPM). The BEM model is more
 realistic than the four concentric spheres model and will return more
 accurate results. The spherical head model is kept for backward
 compatibility purposes and should not be used for
