@@ -183,8 +183,4 @@ EEG activity). Finally, the MATLAB compiler allows us to create a
 compiled version of EEGLAB that does not require the user to have MATLAB
 -- MATLAB scripts can be run by [compiled
 EEGLAB](/others/Compiled_EEGLAB.html), although interactive sessions
-are not supported. Given that MATLAB is accessible to nearly everyone
-working in scientific institutions, our incentive to find a MATLAB
-alternative remains relatively low.
-
-Rather than re-implementing EEGLAB on Python, we will be more likely to focus on increasing cross-compatibility between EEGLAB and Python, making it easier for users to go back and forth between the two.
+are not supported. 
