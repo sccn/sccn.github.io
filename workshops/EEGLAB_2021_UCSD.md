@@ -11,29 +11,35 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 # 2021 Virtual EEGLAB Workshop
 
-Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions welcome). The workshop will be held online with social contacts available on [GatherTown](https://gather.town/). All hours are shown in Pacific Daylight Savings Time (PDT), and in parenthesis in Central European Time (CET). Future workshops will try to accomodate Asian time zones.
+From June 14 to June 18, the 30th EEGLAB workshop will be held online inside [GatherTown](https://gather.town/), an online conference platform. The first day will be free for all and will feature lectures and social events. The event will features lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG.
 
-**<span style="color: red">REGISTRATION WILL OPEN SOON</span>**. Subscribe to the [eeglabnews mailing list](https://sccn.ucsd.edu/eeglab/download.php) when you download EEGLAB to be notified.
+**<span style="color: red">REGISTRATION is now OPEN </span>**.
+
+[<b>Register for free for Monday, June 14 here</b>](https://www.eventbrite.com/e/147847663341).
+
+[<b>Register for June 15-18th here</b>](https://na.eventscloud.com/611187). You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.
+
+We are looking forward to seeing you at this online event. 
+
+Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions welcome). The workshop will be held online with social contacts available on [GatherTown](https://gather.town/). All hours are shown in Pacific Daylight Savings Time (PDT), and in parenthesis in Central European Time (CET). The time has been arranged to accommodate American and European time zones. Other events will accommodate Asia time zones in the future. 
 
 **Monday, June 14th (open to all; free registration required)**
 
-<span style="color: orange">6:00 – 7:45 – The basis of scripting with EEGLAB and Matlab [CET 2:00-3:45 pm]</span>
+<span style="color: orange">PDT 6:00 – 7:45 – The basis of scripting with EEGLAB and Matlab [CET 2:00-3:45 pm]</span>
 
 <span style="color: green">– Break–</span>
 
-<span style="color: purple">8:00 – 9:00 – Mining event-related brain dynamics (Scott Makeig) [CET 4:00-5:00 pm]</span>
+<span style="color: purple">PDT 8:00 – 9:00 – Mining event-related brain dynamics (Scott Makeig) [CET 4:00-5:00 pm]</span>
 
-<span style="color: purple">9:15 – 10:00 – What&#39;s new in EEGLAB (Arnaud Delorme) [CET 5:15 - 6:00 pm]?</span>
+<span style="color: purple">PDT 9:15 – 10:00 – What&#39;s new in EEGLAB (Arnaud Delorme) [CET 5:15 - 6:00 pm]?</span>
 
-<span style="color: purple">10:00 - 1:00 - Participant poster session (in [GatherTown](https://gather.town/)) [CET 6:00-9:00 pm]</span>
+<span style="color: purple">PDT 10:00 - 11:00 - Participant poster session (in [GatherTown](https://gather.town/)) [CET 6:00-9:00 pm]. Note that you need to register for the whole workshop to present a poster.</span>
 
-> <span style="color: purple">11:00-11:25 - Short presentation in GatherTown (who?)</span>
+> <span style="color: purple">PDT 11:00-12:00 - Wearable EEG (Tzyy Ping Jung)</span>
 
-> <span style="color: purple">11:30-11:55 - Short presentation in GatherTown (who?)</span>
+> <span style="color: purple">PDT 11:00 - 12:00 - Mobile brain imaging (John Iversen)</span>
 
-> <span style="color: purple">12:00 - 12:25 - Short presentation in GatherTown  (who?)</span>
-
-> <span style="color: purple">12:30-12:55 - Short presentation in GatherTown  (who?)</span>
+> <span style="color: purple">PDT 11:00-12:00 - Statistical EEG analysis (Cyril Pernet)</span>
 
 **Tuesday, June 15th (paid registration required)**
 
