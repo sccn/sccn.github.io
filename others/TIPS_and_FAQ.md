@@ -5,7 +5,6 @@ long_title: General frequently asked questions
 parent: Support
 nav_order: 1
 ---
-![test](/assets/images/FAQ.png)
 # EEGLAB TIPS and FAQ
 {: .no_toc }
 
