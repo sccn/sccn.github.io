@@ -39,3 +39,8 @@ A coordinate system used by [<i>get_chanlocs</i>](https://github.com/sccn/get_ch
 - The X-axis points towards and goes through the nasion
 - The Y-axis points approximately towards the LHJ, orthogonal to the X-axis
 - The Z-axis points from inferior to superior, orthogonal to X and Y
+
+## Create and optimize your own montage
+
+If you wish to create your own montage, see this [project](https://github.com/arnodelorme/optimize_montage). In general, we recommend sparse coverage over one that has dense coverage at the top. The bottom electrodes capture a lot of depth information and are useful for source localization.
+
