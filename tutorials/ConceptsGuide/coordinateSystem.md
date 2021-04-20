@@ -9,7 +9,9 @@ nav_order: 5
 EEGLAB electrode coordinate systems
 =========
 
-EEGLAB supports multiple electrode coordinate systems. Typically, three fiducial or anatomical landmark points are used to define a system. See [this FieldTrip FAQ page](https://www.fieldtriptoolbox.org/faq/how_are_the_different_head_and_mri_coordinate_systems_defined/#details-of-the-mni-coordinate-system) for details on how the origin and the axes are defined in different systems.
+EEGLAB supports electrode coordinate systems with the nose pointing towards the direction +X (the origin - loosely defined - is situated at the center of the head, and the top of the head points towards the direction +Z). Electrode coordinate formats where the nose is pointing in another direction are automatically converted, so the nose points toward +X. In terms of distance units or fiducial definition or position, EEGLAB is quite flexible. Nevertheless, for BIDS compatibility, the EEGLAB coordinate system for scanned electrodes is set to be equivalent to the CTF MEG coordinate system, with the center of the head being situated between the LPA and RPA fiducials (see below).
+
+Typically, three fiducial or anatomical landmark points are used to define a system. See [this FieldTrip FAQ page](https://www.fieldtriptoolbox.org/faq/how_are_the_different_head_and_mri_coordinate_systems_defined/#details-of-the-mni-coordinate-system) for details on how the origin and the axes are defined in different systems.
 
 - If digitized electrode locations are not recorded, we recommend importing the BEM template electrode file (default) to assign electrode locations based on 10-5 channel labels. 
 - If digitized electrode locations are imported in EEGLAB, make sure that the orientation of the coordinate system is correct, with 'LPA' on the left (+Y), 'RPA' on the right (-Y), and the nasion facing forward (+X; up). If necessary, electrodes may be rotated in the horizontal plane using the <i>Rotate Axis</i> push button of the EEGLAB channel editor (menu item <span style="color: brown">Edit → Channel locations</span>).
