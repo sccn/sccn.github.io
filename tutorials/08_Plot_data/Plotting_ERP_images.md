@@ -17,7 +17,7 @@ relevant dimension (for example, subject reaction times, within-trial
 theta power levels, mean voltage in a given latency window, alpha phase
 at stimulus onset, or etc.), then (optionally) smoothed across
 neighboring trials, and finally color-coded and visualized as a 2-D
-rectangular color (or monochrome) image. For more background information on how to build ERP images, please refer to the [Appendix](ConceptsGuide/erp_image_background.html). 
+rectangular color (or monochrome) image. For more background information on how to build ERP images, please refer to the [Concept guide](ConceptsGuide/erp_image_background.html). 
 
 <details open markdown="block">
   <summary>
