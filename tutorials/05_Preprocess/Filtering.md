@@ -54,7 +54,7 @@ data spectra. You might notice that filtered-out frequency regions
 might show 'ripples', unavoidable but hopefully acceptable filtering
 artifacts. 
 
-Note that removing data portions containing major artifacts (by visual inspection), such as large spikes in the data, before filtering can be preferable since filtering can “spread” the artifact out over “good” data, requiring more data to be rejected after filtering. When you remove major artifacts, and “boundary” event replaces the removed data. Filtering is only applied to continuous data segments, not across boundaries.
+Note that removing data portions containing major artifacts (by visual inspection), such as large spikes in the data, before filtering can be preferable since filtering can “spread” the artifact out over “good” data, requiring more data to be rejected after filtering. When you remove major artifacts, a “boundary” event replaces the removed data. Filtering is only applied to continuous data segments, not across boundaries.
 
 # Filtering for connectivity analysis
 
