@@ -26,17 +26,14 @@ The left and right preauricular (LPA & RPA) points are commonly used as ear anat
 
 Note the EEGLAB coordinate system is rotated by 90 degrees in the horizontal plane when compared with MNI.  
 
-<p align = "center"> <img src="https://www.fieldtriptoolbox.org/assets/img/faq/how_are_the_different_head_and_mri_coordinate_systems_defined/coordinatesystem_ctf.png" width="30%" height="30%"> 
-  &nbsp; &nbsp; &nbsp;
-<img src="https://sccn.github.io/assets/images/coordsysXY.png" width="33.5%" height="33.5%">
-</p>
+![Image:preferences.png](/assets/images/coordinatesystem_ctf.png)
+
+![Image:preferences.png](/assets/images/coordsysXY.png)
 
 ## EEGLAB-HJ coordinate system
 PA points are palpable anatomical features, but they are difficult to locate in anatomical MR head images and 3-D head images. Furthermore, some experiment protocols call for using other anatomical points on the ears (e.g.,  ear canal, ear lobes, etc.) while retaining the inaccurate PA label. While consistency is key when gathering data for a study, collaborative or data mining projects are undermined when accurate labels or descriptions are not used. With photogrammetry improving the availability of electrode localization, we strongly recommend the use of the helix-tragus junction (LHJ &  RHJ) as the ear fiducials: these points are identifiable in 3-D head models as well as MR head images. 
 
-<p align="center">
-  <img src="https://sccn.github.io/assets/images/helixTragus.PNG" width="50%" height="50%">
-</p>
+![Image:preferences.png](/assets/images/helixTragus.PNG)
 
 A coordinate system used by [<i>get_chanlocs</i>](https://github.com/sccn/get_chanlocs/wiki), an EEGLAB plug-in for photogrammetric electrode localization using 3-D head models. The default EEGLAB coordinate system, except the aforementioned helix-tragus junction (HJ) points, is used as the ear anatomical landmarks.
 - Units in millimeter
