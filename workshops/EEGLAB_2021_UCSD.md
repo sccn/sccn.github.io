@@ -15,21 +15,21 @@ From June 14 to June 18, the 30th EEGLAB workshop will be held online in a virtu
 
 **<span style="color: red">REGISTRATION is now OPEN </span>**.
 
-[<b>Register for free for the opening day, Monday June 14 here</b>](https://www.eventbrite.com/e/147847663341).
+[<b>Register for the free first day session, Monday June 14 here</b>](https://www.eventbrite.com/e/147847663341).
 
-[<b>Register for the workshop sessions, June 15-18th here</b>](https://na.eventscloud.com/611187). You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.
+[<b>Register for the workshop sessions, Tuesday-Friday June 15-18th here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.
 
-We are looking forward to seeing you online. 
+We are looking forward to meeting you online ... 
 
-Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held online, with social networking possible in the [GatherTown](https://gather.town/) environment. All hours are shown in Pacific Daylight Savings Time (PDT), and, in parentheses, Central European Summer Time (CEST). The time has been arranged to accommodate North and South American as well as Western European and African time zone waking hours. 'Night owl' participants from elsewhere are welcome as well. A later event will be planned to better accommodate Asia time zones. 
+Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held online, with social networking possible in the [GatherTown](https://gather.town/) environment. All hours are shown in Pacific Daylight Savings Time (PDT), and, in parentheses, Central European Summer Time (CEST). The time has been arranged to accommodate North and South American as well as Western European and African time zone waking hours. 'Night owl' participants from elsewhere are welcome as well. A later event will be planned to better accommodate Asian waking time zones. 
 
-**Note:** Gather.town has a free public sample site for learning how to 'get around' ala Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
+**Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
 **Monday, June 14th (open to all; free registration required)**
 
-<span style="color: orange">PDT 6:30 – 7:55 – Registration open; come explore, hang out, and socialize with new and old friends in Gather.Town</span>
+<span style="color: orange">PDT 6:30 – 7:55 – Registration open; come explore, hang out, and socialize with new and old friends in the Gather.Town workshop site. Check out the posters, hang at the beach, talk with sponsors, meet the tutors ... </span>
 
-<span style="color: orange">PDT 7:00 – 7:45 – Some basics of scripting with EEGLAB on MATLAB (for beginners; Clement Lee) [CET 3:00-3:45 pm]</span>
+<span style="color: orange">PDT 7:00 – 7:45 – Basic elements of scripting with EEGLAB on MATLAB (for beginners; Clement Lee) [CET 3:00-3:45 pm]</span>
 
 <span style="color: green">– Break–</span>
 
