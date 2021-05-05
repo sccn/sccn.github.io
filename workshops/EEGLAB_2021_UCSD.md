@@ -37,13 +37,15 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 10:00 - 11:00 - Participant poster session [CET 6:00-9:00 pm]. Note that you need to register for the whole workshop to present a poster.</span>
 
+<span style="color: purple">PDT 11:00 - 12:45 - Advanced Topics organized</span>
+
 > Parallel session 1 - Wearable EEG analysis
 
 >> <span style="color: purple">PDT 11:00-11:30 - Review of wearable EEG devices (Cedric Cannard)</span>
 
 >> <span style="color: purple">PDT 11:30-12:15 - Wearable EEG pracical applications (Tzyy Ping Jung)</span>
 
->> <span style="color: purple">PDT 12:15-12:45 - Mobile brain imaging (Scott Makeig)</span>
+>> <span style="color: purple">PDT 12:15-11:45 - Mobile brain imaging (Scott Makeig)</span>
 
 > Parallel session 2 - HED3 and BIDS
 
@@ -65,15 +67,15 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:15 – 10:00 – ICA theory (Jason Palmer) [CET 5:15 - 6:00 pm]</span>
 
-<span style="color: purple">PDT 10:00 - 1:00 - Advanced Topics organized</span>
+<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics organized</span>
 
-> Parallel session 1 - Time-frequency and connectivity analysis practicum
+> Parallel session 1 - Time-frequency and connectivity analysis
 
 >> <span style="color: orange">PDT 10:00- 10:45 - Time-frequency practicum in EEGLAB (John Iversen)</span>
 
 >> <span style="color: purple">PDT 10:45- 11:00 - PACTools Plug-in: Phase/amp. coherence tools (Ramon Martinez Cancino)</span>
 
->> <span style="color: orange">PDT 10:00- 10:45 - DIPFIT and ROIconnect plugin (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 11:00- 11:45 - PowPowCAT Plug-in (Makoto Myakoshi)</span>
 
 > Parallel session 2 - Lab Streaming Layer
 >> <span style="color: purple">PDT 10:00-10:30 - The basics of collecting data using LSL (Arnaud Delorme)</span>
@@ -96,7 +98,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:00 – 10:00 PDT – EEG connectivity analysis (Tim Mullen)</span>
 
-<span style="color: purple">PDT 10:00 - 1:00 PDT - Advanced Topics</span>
+<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics organized</span>
 
 > Parallel session 1 (NFT/NIST plug-in)
 
@@ -104,11 +106,13 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 10:45-12:45 - NFT/NIST demo and practicum (Zeynep Aakalin Acar)</span>
 
-> Parallel session 2 - Connectivity analysis using SIFT
+> Parallel session 2 - Connectivity analysis practicum
 
->> <span style="color: purple">PDT 10:00-10:45 - Introduction to connectivity analysis (Tim Mullen)</span>
+>> <span style="color: orange">PDT 10:00- 10:45 - DIPFIT and ROIconnect plugin (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 10:45-12:45 - SIFT practicum (Tim Mullen)</span>
+>> <span style="color: purple">PDT 10:45-11:15 - Connectivity analysis in SIFT (Tim Mullen)</span>
+
+>> <span style="color: purple">PDT 11:15-12:45 - SIFT practicum (Tim Mullen)</span>
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
@@ -118,11 +122,11 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: green">– Break–</span>
 
-<span style="color: purple">PDT 8:00 - 9:00 PDT – EEGLAB group analysis (Arnaud Delorme)</span>
+<span style="color: purple">PDT 8:00 - 9:00 – EEGLAB group analysis (Arnaud Delorme)</span>
 
 <span style="color: purple">PDT 9:00 - 10:00 – Overview of bootstrap statistics and correction for multiple comparisons (Cyril Pernet)</span>
 
-<span style="color: purple">PDT 10:00 - 1:00 - Advanced Topics</span>
+<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics organized</span>
 
 > Parallel session 1 - Linear Modeling of EEG data
 
@@ -151,8 +155,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:30 – 10:00 – Deep learning for EEG - HBN benchmark dataset (Arnaud Delorme)</span>
 
-<span style="color: purple">PDT 10:00 - 12:00 - Advanced Topics</span>
-
+<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics organized</span>
 
 > Parallel session 1 - Group analysis, pipelines, and scripting in EEGLAB
 
