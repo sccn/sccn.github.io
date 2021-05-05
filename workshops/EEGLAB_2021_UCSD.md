@@ -11,27 +11,29 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 # 2021 Virtual EEGLAB Workshop
 
-From June 14 to June 18, the 30th EEGLAB workshop will be held online inside [GatherTown](https://gather.town/), an online conference platform. The first day will be free for all and will feature lectures and social events. The event will features lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG.
+From June 14 to June 18, the 30th EEGLAB workshop will be held online in a virtual brain conference site on [GatherTown](https://gather.town/). The first day will be free for all and will feature lectures and social events. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG.
 
 **<span style="color: red">REGISTRATION is now OPEN </span>**.
 
-[<b>Register for free for Monday, June 14 here</b>](https://www.eventbrite.com/e/147847663341).
+[<b>Register for free for the opening day, Monday June 14 here</b>](https://www.eventbrite.com/e/147847663341).
 
-[<b>Register for June 15-18th here</b>](https://na.eventscloud.com/611187). You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.
+[<b>Register for the workshop sessions, June 15-18th here</b>](https://na.eventscloud.com/611187). You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.
 
-We are looking forward to seeing you at this online event. 
+We are looking forward to seeing you online. 
 
-Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions welcome). The workshop will be held online with social contacts available on [GatherTown](https://gather.town/). All hours are shown in Pacific Daylight Savings Time (PDT), and in parenthesis in Central European Time (CET). The time has been arranged to accommodate American and European time zones. Other events will accommodate Asia time zones in the future. 
+Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held online, with social networking possible in the [GatherTown](https://gather.town/) environment. All hours are shown in Pacific Daylight Savings Time (PDT), and, in parentheses, Central European Summer Time (CEST). The time has been arranged to accommodate North and South American as well as Western European and African time zone waking hours. 'Night owl' participants from elsewhere are welcome as well. A later event will be planned to better accommodate Asia time zones. 
+
+**Note:** Gather.town has a free public sample site for learning how to 'get around' ala Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
 **Monday, June 14th (open to all; free registration required)**
 
-<span style="color: orange">PDT 6:30 – 7:00 – Registration open; come hang out in Gather.Town</span>
+<span style="color: orange">PDT 6:30 – 7:55 – Registration open; come explore, hang out, and socialize with new and old friends in Gather.Town</span>
 
-<span style="color: orange">PDT 7:00 – 7:45 – The basis of scripting with EEGLAB and Matlab (for beginners; Clement Lee) [CET 3:00-3:45 pm]</span>
+<span style="color: orange">PDT 7:00 – 7:45 – Some basics of scripting with EEGLAB on MATLAB (for beginners; Clement Lee) [CET 3:00-3:45 pm]</span>
 
 <span style="color: green">– Break–</span>
 
-<span style="color: purple">PDT 8:00 – 9:00 – Mining event-related brain dynamics I (Scott Makeig) [CET 4:00-5:00 pm]</span>
+<span style="color: purple">PDT 8:00 – 9:10 – Mining event-related brain dynamics I (Scott Makeig) [CET 4:00-5:00 pm]</span>
 
 <span style="color: purple">PDT 9:15 – 10:00 – What&#39;s new in EEGLAB? (Arnaud Delorme) [CET 5:15 - 6:00 pm]</span>
 
@@ -45,29 +47,28 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 11:30-12:15 - Wearable EEG pracical applications (Tzyy Ping Jung)</span>
 
->> <span style="color: purple">PDT 12:15-11:45 - Mobile brain imaging (Scott Makeig)</span>
+>> <span style="color: purple">PDT 12:15-11:45 - Mobile brain imaging (John Iversen)</span>
 
 > Parallel session 2 - HED3 and BIDS
 
->> <span style="color: purple">PDT 11:00-11:30 - What is BIDS? (Cyril Pernet)</span>
+>> <span style="color: purple">PDT 11:00-11:30 - What is the Brain Imaging Data Standards (BIDS) movement? (Cyril Pernet)</span>
 
->> <span style="color: purple">PDT 11:30-12:00 - The HED3 format for BIDS (Scott Makeig)</span>
+>> <span style="color: purple">PDT 11:30-12:00 - Using Hierarchical Event Descriptors: Using the new HED3 format with BIDS (Scott Makeig &amp; Kay Robbins)</span>
 
->> <span style="color: purple">PDT 12:00-12:45 - The BIDS EEGLAB plugin (Dung Truong and Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 12:00-12:45 - The EEGLAB BIDS I/O plug-in (Dung Truong &amp; Arnaud Delorme)</span>
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
 **Tuesday, June 15th (paid registration required)**
 
-<span style="color: orange">PDT 7:00 – 7:45 – EEGLAB data import and bad data rejection (Johanna Wagner) [CET 3:00-3:45 pm]</span>
-
+<span style="color: orange">PDT 7:00 – 7:45 – EEGLAB data import and \'bad\'
 <span style="color: green">– Break–</span>
 
 <span style="color: purple">PDT 8:00 – 9:00 – Time-frequency decomposition: Theory (John Iversen) [CET 4:00-5:00 pm]</span>
 
 <span style="color: purple">PDT 9:00 – 10:00 – ICA theory (Jason Palmer) [CET 5:15 - 6:00 pm]</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data</span>
+<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data - tutors available for zoom session Q&A </span>
 
 <span style="color: purple">PDT 10:30 - 12:45 - Advanced Topics</span>
 
@@ -75,14 +76,14 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: orange">PDT 10:30- 11:30 - Time-frequency practicum in EEGLAB (John Iversen)</span>
 
->> <span style="color: purple">PDT 11:30- 12:00 - PACTools Plug-in: Phase/amp. coherence tools (Ramon Martinez Cancino)</span>
+>> <span style="color: purple">PDT 11:30- 12:00 - PACTools Plug-in: Phase/amplitude coherence (PAC) tools (Ramon Martinez Cancino)</span>
 
 >> <span style="color: purple">PDT 12:00- 12:45 - PowPowCAT Plug-in (Makoto Myakoshi)</span>
 
-> Parallel session 2 - Lab Streaming Layer
->> <span style="color: purple">PDT 10:00-10:15 - The basics of collecting data using LSL (Arnaud Delorme)</span>
+> Parallel session 2 - Lab Streaming Layer (LSL) for multimodal data collection
+>> <span style="color: purple">PDT 10:00-10:15 - Basics of collecting data using LSL (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 10:15-11:00 - The time synchronization protocol and XDF format (Christian Kothe)</span>
+>> <span style="color: purple">PDT 10:15-11:00 - The LSL time synchronization protocol and XDF format (Christian Kothe)</span>
 
 >> <span style="color: purple">PDT 11:00-11:45 - Practical applications of LSL (Tim Mullen)</span>
 
@@ -92,9 +93,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Wednesday, June 16th (paid registration required)**
 
-<span style="color: orange">PDT 7:00 – 7:45 – ICA decomposition practicum practicum (Johanna Wagner)</span>
-
-<span style="color: green">– Break–
+<span style="color: orange">PDT 7:00 – 7:45 – ICA decomposition practicum (Johanna Wagner)</span>
 
 <span style="color: purple">PDT 8:00 – 9:00 PDT – Forward and inverse models (Zeynep Aakalin Acar)</span>
 
@@ -104,15 +103,15 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 10:30 - 12:45 - Advanced Topics</span>
 
-> Parallel session 1 (NFT/NIST plug-in)
+> Parallel session 1 (NFT/NIST forward head model & inverse source localization plug-in)
 
->> <span style="color: purple">PDT 10:30-11:00 - Introduction to the NFT/NIST Plug-ins (Zeynep Aakalin Acar)</span>
+>> <span style="color: purple">PDT 10:30-11:00 - Introduction to the NFT/NIST plug-ins (Zeynep Aakalin Acar)</span>
 
 >> <span style="color: purple">PDT 11:00-12:45 - NFT/NIST demo and practicum (Zeynep Aakalin Acar)</span>
 
 > Parallel session 2 - Connectivity analysis
 
->> <span style="color: orange">PDT 10:30- 11:00 - DIPFIT and ROIconnect plugin (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 10:30- 11:00 - DIPFIT and ROIconnect plug-in (Arnaud Delorme)</span>
 
 >> <span style="color: purple">PDT 11:00-11:45 - Connectivity analysis in SIFT (Tim Mullen)</span>
 
@@ -124,23 +123,21 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: orange">PDT 6:00 – 7:45 – ICA clustering practicum practicum (Julie Onton)</span>
 
-<span style="color: green">– Break–</span>
-
 <span style="color: purple">PDT 8:00 - 9:00 – EEGLAB group analysis (Arnaud Delorme)</span>
 
 <span style="color: purple">PDT 9:00 - 10:00 – Overview of bootstrap statistics and correction for multiple comparisons (Cyril Pernet)</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data</span>
+<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data. Tutors available for zoom Q&A.</span>
 
 <span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
 
-> Parallel session 1 - Linear Modeling of EEG data
+> Parallel session 1 - Linear statistical modeling of EEG data
 
 >> <span style="color: purple">PDT 10:30-11:00 - Introduction to linear modeling (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 11:00-11:30 - Statistics using linear modeling (Cyril Pernet)</span>
+>> <span style="color: purple">PDT 11:00-11:30 - Estimating statistics using linear modeling (Cyril Pernet)</span>
 
->> <span style="color: orange">PDT 11:30-12:45 - The LIMO EEGLAB Plug-in practicum (Cyril Pernet and Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 11:30-12:45 - EEGLAB LIMO plug-in practicum (Cyril Pernet &amp; Arnaud Delorme)</span>
 
 > Parallel session 2 - Advanced ICA analysis
 >> <span style="color: purple">PDT 10:30-11:15 - AMICA and AMICA Tools (Scott Makeig &amp; Jason Palmer)</span>
@@ -153,13 +150,11 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Friday, June 18th (paid registration required)**
 
-<span style="color: orange">PDT 7:00 – 7:45 – Process your own data</span>
-
-<span style="color: green">– Break–</span>
+<span style="color: orange">PDT 7:00 – 7:45 – Process your own data. Tutors available for zoom Q&A.</span>
 
 <span style="color: purple">PDT 8:00 – 9:30 – Mining event-related brain dynamics II (Scott Makeig)</span>
 
-<span style="color: purple">PDT 9:30 – 10:00 – Deep learning for EEG - HBN benchmark dataset (Arnaud Delorme)</span>
+<span style="color: purple">PDT 9:30 – 10:00 – Deep learning for EEG - the HBN benchmark dataset (Arnaud Delorme)</span>
 
 <span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data</span>
 
@@ -169,24 +164,24 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: orange">PDT 10:30-11:00 - Creating an EEGLAB STUDY (Arnaud Delorme)</span>
 
->> <span style="color: orange">PDT 11:00-11:45 - Working with STUDY practicum (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 11:00-11:45 - Working with EEGLAB studies practicum (Arnaud Delorme)</span>
 
->> <span style="color: orange">PDT 11:45-12:15 - Scripting with EEGLAB practicum (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 11:45-12:15 - Scripting with EEGLAB studies practicum (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 12:15- 12:45 - The Neuroscience Gateway: High-performance computing portal (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 12:15- 12:45 - Using the Neuroscience Gateway (nsgportal.org) for high-performance computing portal (Arnaud Delorme)</span>
 
 > Parallel session 2 (automated artifact rejection)
 
->> <span style="color: purple">PDT 10:30-11:00 - The clean_rawdata plugin and Artifact Subspace reconstruction (Christian Kothe)</span>
+>> <span style="color: purple">PDT 10:30-11:00 - The clean_rawdata plug-in and Artifact Subspace reconstruction (Christian Kothe)</span>
 
 >> <span style="color: purple">PDT 11:00-11:20 - ASR performance analysis I (Fiorenzo Artoni)</span>
 
 >> <span style="color: purple">PDT 11:20-11:40 - ASR performance analysis II (Tzyy Ping Jung)</span>
 
->> <span style="color: purple">11:40-12:45 - IC Label for labeling artifactual components (Luca Pion Tonachini)</span>
+>> <span style="color: purple">11:40-12:45 - The ICLabel plug-in for labeling artifactual components (Luca Pion Tonachini)</span>
 
 > Parallel session 3 - (reserved for sponsors; TBD)
 
-<span style="color: purple">PDT 13:00 – 13:45 – Participant presentation and general discussion (All)</span>
+<span style="color: purple">PDT 13:00 – 13:45 – Participant presentations and general discussion (All)</span>
 
 <span style="color: purple">PDT 13:45 – 14:00 – Close</span>
