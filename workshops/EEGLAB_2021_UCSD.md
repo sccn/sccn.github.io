@@ -39,9 +39,11 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 1 - Wearable EEG analysis
 
->> <span style="color: purple">PDT 11:00-11:45 - Review of wearable EEG devices (Cedric Cannard)</span>
+>> <span style="color: purple">PDT 11:00-11:30 - Review of wearable EEG devices (Cedric Cannard)</span>
 
->> <span style="color: purple">PDT 11:45-12:45 - Wearable EEG pracical applications (Tzyy Ping Jung)</span>
+>> <span style="color: purple">PDT 11:30-12:15 - Wearable EEG pracical applications (Tzyy Ping Jung)</span>
+
+>> <span style="color: purple">PDT 12:15-12:45 - Mobile brain imaging (Scott Makeig)</span>
 
 > Parallel session 2 - HED3 and BIDS
 
