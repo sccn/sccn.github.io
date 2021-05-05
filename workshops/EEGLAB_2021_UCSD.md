@@ -78,9 +78,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 >> <span style="color: purple">PDT 11:00- 11:45 - PowPowCAT Plug-in (Makoto Myakoshi)</span>
 
 > Parallel session 2 - Lab Streaming Layer
->> <span style="color: purple">PDT 10:00-10:30 - The basics of collecting data using LSL (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 10:00-10:15 - The basics of collecting data using LSL (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 10:30-11:00 - The time synchronization protocol and XDF format (Christian Kothe)</span>
+>> <span style="color: purple">PDT 10:15-11:00 - The time synchronization protocol and XDF format (Christian Kothe)</span>
 
 >> <span style="color: purple">PDT 11:00-11:45 - Practical applications of LSL (Tim Mullen)</span>
 
