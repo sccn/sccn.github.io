@@ -67,15 +67,17 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:00 – 10:00 – ICA theory (Jason Palmer) [CET 5:15 - 6:00 pm]</span>
 
-<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
+<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data</span>
+
+<span style="color: purple">PDT 10:30 - 12:45 - Advanced Topics</span>
 
 > Parallel session 1 - Time-frequency and connectivity analysis
 
->> <span style="color: orange">PDT 10:00- 10:45 - Time-frequency practicum in EEGLAB (John Iversen)</span>
+>> <span style="color: orange">PDT 10:30- 11:30 - Time-frequency practicum in EEGLAB (John Iversen)</span>
 
->> <span style="color: purple">PDT 10:45- 11:00 - PACTools Plug-in: Phase/amp. coherence tools (Ramon Martinez Cancino)</span>
+>> <span style="color: purple">PDT 11:30- 12:00 - PACTools Plug-in: Phase/amp. coherence tools (Ramon Martinez Cancino)</span>
 
->> <span style="color: purple">PDT 11:00- 11:45 - PowPowCAT Plug-in (Makoto Myakoshi)</span>
+>> <span style="color: purple">PDT 12:00- 12:45 - PowPowCAT Plug-in (Makoto Myakoshi)</span>
 
 > Parallel session 2 - Lab Streaming Layer
 >> <span style="color: purple">PDT 10:00-10:15 - The basics of collecting data using LSL (Arnaud Delorme)</span>
@@ -98,21 +100,23 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:00 – 10:00 PDT – EEG connectivity analysis (Tim Mullen)</span>
 
-<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
+<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data</span>
+
+<span style="color: purple">PDT 10:30 - 12:45 - Advanced Topics</span>
 
 > Parallel session 1 (NFT/NIST plug-in)
 
->> <span style="color: purple">PDT 10:00-10:45 - Introduction to the NFT/NIST Plug-ins (Zeynep Aakalin Acar)</span>
+>> <span style="color: purple">PDT 10:30-11:00 - Introduction to the NFT/NIST Plug-ins (Zeynep Aakalin Acar)</span>
 
->> <span style="color: purple">PDT 10:45-12:45 - NFT/NIST demo and practicum (Zeynep Aakalin Acar)</span>
+>> <span style="color: purple">PDT 11:00-12:45 - NFT/NIST demo and practicum (Zeynep Aakalin Acar)</span>
 
 > Parallel session 2 - Connectivity analysis
 
->> <span style="color: orange">PDT 10:00- 10:45 - DIPFIT and ROIconnect plugin (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 10:30- 11:00 - DIPFIT and ROIconnect plugin (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 10:45-11:15 - Connectivity analysis in SIFT (Tim Mullen)</span>
+>> <span style="color: purple">PDT 11:00-11:45 - Connectivity analysis in SIFT (Tim Mullen)</span>
 
->> <span style="color: purple">PDT 11:15-12:45 - SIFT practicum (Tim Mullen)</span>
+>> <span style="color: purple">PDT 11:45-12:45 - SIFT practicum (Tim Mullen)</span>
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
@@ -126,20 +130,22 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:00 - 10:00 – Overview of bootstrap statistics and correction for multiple comparisons (Cyril Pernet)</span>
 
+<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data</span>
+
 <span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
 
 > Parallel session 1 - Linear Modeling of EEG data
 
->> <span style="color: purple">PDT 10:00-10:45 - Introduction to linear modeling (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 10:30-11:00 - Introduction to linear modeling (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 10:45-11:15 - Statistics using linear modeling (Cyril Pernet)</span>
+>> <span style="color: purple">PDT 11:00-11:30 - Statistics using linear modeling (Cyril Pernet)</span>
 
->> <span style="color: orange">PDT 11:15-12:45 - The LIMO EEGLAB Plug-in practicum (Cyril Pernet and Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 11:30-12:45 - The LIMO EEGLAB Plug-in practicum (Cyril Pernet and Arnaud Delorme)</span>
 
 > Parallel session 2 - Advanced ICA analysis
->> <span style="color: purple">PDT 10:00-10:45 - AMICA and AMICA Tools (Scott Makeig &amp; Jason Palmer)</span>
+>> <span style="color: purple">PDT 10:30-11:15 - AMICA and AMICA Tools (Scott Makeig &amp; Jason Palmer)</span>
 
->> <span style="color: purple">PDT 11:00-11:45 - IMAT: Independent Modulator Analysis (Johanna Wagner &amp; Julie Onton)</span>
+>> <span style="color: purple">PDT 11:15-11:45 - IMAT: Independent Modulator Analysis (Johanna Wagner &amp; Julie Onton)</span>
 
 >> <span style="color: purple">PDT 11:45-12:45 - ICA reliability analysis (Fiorenzo Artoni)</span>
 
@@ -155,13 +161,15 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:30 – 10:00 – Deep learning for EEG - HBN benchmark dataset (Arnaud Delorme)</span>
 
-<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
+<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data</span>
+
+<span style="color: purple">PDT 10:30 - 12:45 - Advanced Topics</span>
 
 > Parallel session 1 - Group analysis, pipelines, and scripting in EEGLAB
 
->> <span style="color: orange">PDT 10:00-10:45 - Creating an EEGLAB STUDY (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 10:30-11:00 - Creating an EEGLAB STUDY (Arnaud Delorme)</span>
 
->> <span style="color: orange">PDT 10:45-11:45 - Working with STUDY practicum (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 11:00-11:45 - Working with STUDY practicum (Arnaud Delorme)</span>
 
 >> <span style="color: orange">PDT 11:45-12:15 - Scripting with EEGLAB practicum (Arnaud Delorme)</span>
 
@@ -169,7 +177,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 2 (automated artifact rejection)
 
->> <span style="color: purple">PDT 10:00-11:00 - The clean_rawdata plugin and Artifact Subspace reconstruction (Christian Kothe)</span>
+>> <span style="color: purple">PDT 10:30-11:00 - The clean_rawdata plugin and Artifact Subspace reconstruction (Christian Kothe)</span>
 
 >> <span style="color: purple">PDT 11:00-11:20 - ASR performance analysis I (Fiorenzo Artoni)</span>
 
