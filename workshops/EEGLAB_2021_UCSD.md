@@ -37,7 +37,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 10:00 - 11:00 - Participant poster session [CET 6:00-9:00 pm]. Note that you need to register for the whole workshop to present a poster.</span>
 
-<span style="color: purple">PDT 11:00 - 12:45 - Advanced Topics organized</span>
+<span style="color: purple">PDT 11:00 - 12:45 - Advanced Topics</span>
 
 > Parallel session 1 - Wearable EEG analysis
 
@@ -65,9 +65,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 8:00 – 9:00 – Time-frequency decomposition: Theory (John Iversen) [CET 4:00-5:00 pm]</span>
 
-<span style="color: purple">PDT 9:15 – 10:00 – ICA theory (Jason Palmer) [CET 5:15 - 6:00 pm]</span>
+<span style="color: purple">PDT 9:00 – 10:00 – ICA theory (Jason Palmer) [CET 5:15 - 6:00 pm]</span>
 
-<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics organized</span>
+<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
 
 > Parallel session 1 - Time-frequency and connectivity analysis
 
@@ -98,15 +98,15 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:00 – 10:00 PDT – EEG connectivity analysis (Tim Mullen)</span>
 
-<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics organized</span>
+<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
 
 > Parallel session 1 (NFT/NIST plug-in)
 
->> <span style="color: purple">PDT 10:00-10:45 - Introduction to the NFT/NIST Plug-ins: Head modeling &amp; High Res Source imaging (Zeynep Aakalin Acar)</span>
+>> <span style="color: purple">PDT 10:00-10:45 - Introduction to the NFT/NIST Plug-ins (Zeynep Aakalin Acar)</span>
 
 >> <span style="color: purple">PDT 10:45-12:45 - NFT/NIST demo and practicum (Zeynep Aakalin Acar)</span>
 
-> Parallel session 2 - Connectivity analysis practicum
+> Parallel session 2 - Connectivity analysis
 
 >> <span style="color: orange">PDT 10:00- 10:45 - DIPFIT and ROIconnect plugin (Arnaud Delorme)</span>
 
@@ -126,13 +126,13 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:00 - 10:00 – Overview of bootstrap statistics and correction for multiple comparisons (Cyril Pernet)</span>
 
-<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics organized</span>
+<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
 
 > Parallel session 1 - Linear Modeling of EEG data
 
 >> <span style="color: purple">PDT 10:00-10:45 - Introduction to linear modeling (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 10:45-11:15 - Linear modeling rational (Cyril Pernet)</span>
+>> <span style="color: purple">PDT 10:45-11:15 - Statistics using linear modeling (Cyril Pernet)</span>
 
 >> <span style="color: orange">PDT 11:15-12:45 - The LIMO EEGLAB Plug-in practicum (Cyril Pernet and Arnaud Delorme)</span>
 
@@ -155,7 +155,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:30 – 10:00 – Deep learning for EEG - HBN benchmark dataset (Arnaud Delorme)</span>
 
-<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics organized</span>
+<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
 
 > Parallel session 1 - Group analysis, pipelines, and scripting in EEGLAB
 
