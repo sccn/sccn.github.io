@@ -37,11 +37,11 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:15 – 10:00 – What&#39;s new in EEGLAB? (Arnaud Delorme) [CET 5:15 - 6:00 pm]</span>
 
-<span style="color: purple">PDT 10:00 - 11:00 - Participant poster session [CET 6:00-9:00 pm]. Note that you need to register for the whole workshop to present a poster.</span>
+<span style="color: purple">PDT 10:00 - 11:00 - Parallel participant poster presentations in the Poster Hall [CET 6:00-9:00 pm]. **Note:** You must register for the whole workshop to present a poster.</span>
 
 <span style="color: purple">PDT 11:00 - 12:45 - Advanced Topics</span>
 
-> Parallel session 1 - Wearable EEG analysis
+> Parallel session 1 - Analysis of \'wearable\' acquired EEG data
 
 >> <span style="color: purple">PDT 11:00-11:30 - Review of wearable EEG devices (Cedric Cannard)</span>
 
