@@ -27,9 +27,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Monday, June 14th (open to all; free registration required)**
 
-<span style="color: orange">PDT 6:30am – 7:00 (15:30-16:00) – Registration open; come explore, hang out, and socialize with new and old friends in the Gather.Town workshop site. Check out the posters, hang at the beach, talk with sponsors, meet the tutors ... </span>
+<span style="color: orange">PDT 6:30am – 7:00 (CEST 15:30-16:00) – Registration open; come explore, hang out, and socialize with new and old friends in the Gather.Town workshop site ... </span>
 
-<span style="color: orange">PDT 7:00am – 7:55 (16:00-16:55) – Registration open; come explore, hang out, and socialize with new and old friends in the Gather.Town workshop site. Check out the posters, hang at the beach, talk with sponsors, meet the tutors ... </span>
+<span style="color: orange">PDT 7:00am – 7:55 (16:00-16:55) –  Hang out in the Gather.Town site. Meet the tutors. </span>
 
 <span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – Basic elements of scripting with EEGLAB on MATLAB (for beginners; Clement Lee) [CET 3:00-3:45 pm]</span>
 
