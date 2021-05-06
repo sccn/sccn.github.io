@@ -121,7 +121,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Thursday, June 17th (paid registration required)**
 
-<span style="color: orange">PDT 6:00 – 7:45 – ICA clustering practicum practicum (Julie Onton)</span>
+<span style="color: orange">PDT 7:00 – 7:45 – ICA clustering practicum practicum (Julie Onton)</span>
 
 <span style="color: purple">PDT 8:00 - 9:00 – EEGLAB group analysis (Arnaud Delorme)</span>
 
