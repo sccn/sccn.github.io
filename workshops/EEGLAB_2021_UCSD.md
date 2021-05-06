@@ -62,11 +62,11 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: orange">PDT  7:00am – 7:45 (16:00-16:45) – EEGLAB data import and \'bad\'
 
-<span style="color: purple">PDT  8:00 – 9:00 (17:00-18:00) – Time-frequency decomposition: Theory (John Iversen)</span>
+<span style="color: purple">PDT  8:00am – 9:00 (17:00-18:00) – Time-frequency decomposition: Theory (John Iversen)</span>
 
-<span style="color: purple">PDT  9:00 – 10:00 (18:00-19:00) – ICA theory (Jason Palmer)</span>
+<span style="color: purple">PDT  9:00am – 10:00 (18:00-19:00) – ICA theory (Jason Palmer)</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for Q&amp;A </span>
+<span style="color: orange">PDT 10:00am – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for Q&amp;A </span>
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - Advanced Topics</span>
 
@@ -154,7 +154,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT  9:30am – 10:00 (18:30-19:00) – Deep learning for EEG - the HBN benchmark dataset (Arnaud Delorme)</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for Q&amp;A.</span>
+<span style="color: orange">PDT 10:00am – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for Q&amp;A.</span>
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - Advanced Topics</span>
 
