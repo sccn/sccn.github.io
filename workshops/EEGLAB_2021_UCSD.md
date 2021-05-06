@@ -32,8 +32,6 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – Basic elements of scripting with EEGLAB on MATLAB (for beginners; Clement Lee)</span>
 
-<span style="color: green">– Break–</span>
-
 <span style="color: purple">PDT 8:00am – 9:10 (17:00-18:10) – Mining event-related brain dynamics I (Scott Makeig)</span>
 
 <span style="color: purple">PDT 9:15am – 10:00 (18:15-19:00) – What&#39;s new in EEGLAB? (Arnaud Delorme)</span>
@@ -63,7 +61,6 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 **Tuesday, June 15th (paid registration required)**
 
 <span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – EEGLAB data import and \'bad\'
-<span style="color: green">– Break–</span>
 
 <span style="color: purple">PDT 8:00 – 9:00 (17:00-18:00) – Time-frequency decomposition: Theory (John Iversen)</span>
 
