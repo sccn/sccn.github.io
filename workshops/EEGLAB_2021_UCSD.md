@@ -160,11 +160,11 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 1 - Group analysis, pipelines, and scripting in EEGLAB
 
->> <span style="color: darkorange">PDT 10:30-11:00 (19:30-20:00) - Creating an EEGLAB STUDY (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - Creating an EEGLAB STUDY (Arnaud Delorme)</span>
 
->> <span style="color: darkorange">PDT 11:00-11:45 (20:00-20:45) - Working with EEGLAB studies practicum (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 11:00-11:45 (20:00-20:45) - Working with EEGLAB studies practicum (Arnaud Delorme)</span>
 
->> <span style="color: darkorange">PDT 11:45-12:15 (20:45-21:15) - Scripting with EEGLAB studies practicum (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 11:45-12:15 (20:45-21:15) - Scripting with EEGLAB studies practicum (Arnaud Delorme)</span>
 
 >> <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - Using the Neuroscience Gateway (nsgportal.org) for high-performance computing portal (Arnaud Delorme)</span>
 
