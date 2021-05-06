@@ -27,161 +27,163 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Monday, June 14th (open to all; free registration required)**
 
-<span style="color: orange">PDT 6:30 – 7:55 – Registration open; come explore, hang out, and socialize with new and old friends in the Gather.Town workshop site. Check out the posters, hang at the beach, talk with sponsors, meet the tutors ... </span>
+<span style="color: orange">PDT 6:30am – 7:00 (15:30-16:00) – Registration open; come explore, hang out, and socialize with new and old friends in the Gather.Town workshop site. Check out the posters, hang at the beach, talk with sponsors, meet the tutors ... </span>
 
-<span style="color: orange">PDT 7:00 – 7:45 – Basic elements of scripting with EEGLAB on MATLAB (for beginners; Clement Lee) [CET 3:00-3:45 pm]</span>
+<span style="color: orange">PDT 7:00am – 7:55 (16:00-16:55) – Registration open; come explore, hang out, and socialize with new and old friends in the Gather.Town workshop site. Check out the posters, hang at the beach, talk with sponsors, meet the tutors ... </span>
+
+<span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – Basic elements of scripting with EEGLAB on MATLAB (for beginners; Clement Lee) [CET 3:00-3:45 pm]</span>
 
 <span style="color: green">– Break–</span>
 
-<span style="color: purple">PDT 8:00 – 9:10 – Mining event-related brain dynamics I (Scott Makeig) [CET 4:00-5:00 pm]</span>
+<span style="color: purple">PDT 8:00am – 9:10 (17:00-18:10) – Mining event-related brain dynamics I (Scott Makeig) [CET 4:00-5:00 pm]</span>
 
-<span style="color: purple">PDT 9:15 – 10:00 – What&#39;s new in EEGLAB? (Arnaud Delorme) [CET 5:15 - 6:00 pm]</span>
+<span style="color: purple">PDT 9:15am – 10:00 (18:15-19:00) – What&#39;s new in EEGLAB? (Arnaud Delorme) [CET 5:15 - 6:00 pm]</span>
 
-<span style="color: purple">PDT 10:00 - 11:00 - Parallel participant poster presentations in the Poster Hall [CET 6:00-9:00 pm]. **Note:** You must register for the whole workshop to present a poster.</span>
+<span style="color: purple">PDT 10:00am - 11:00 (19:00-20:00) - Parallel participant poster presentations in the Poster Hall [CET 6:00-9:00 pm]. **Note:** You must register for the whole workshop to present a poster.</span>
 
-<span style="color: purple">PDT 11:00 - 12:45 - Advanced Topics</span>
+<span style="color: purple">PDT 11:00am - 12:45 (20:00-21:45) - Advanced Topics</span>
 
 > Parallel session 1 - Analysis of \'wearable\' acquired EEG data
 
->> <span style="color: purple">PDT 11:00-11:30 - Review of wearable EEG devices (Cedric Cannard)</span>
+>> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - Review of wearable EEG devices (Cedric Cannard)</span>
 
->> <span style="color: purple">PDT 11:30-12:15 - Wearable EEG pracical applications (Tzyy Ping Jung)</span>
+>> <span style="color: purple">PDT 11:30-12:15 (20:30-21:15) - Wearable EEG pracical applications (Tzyy Ping Jung)</span>
 
->> <span style="color: purple">PDT 12:15-11:45 - Mobile brain imaging (John Iversen)</span>
+>> <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - Mobile brain imaging (John Iversen)</span>
 
 > Parallel session 2 - HED3 and BIDS
 
->> <span style="color: purple">PDT 11:00-11:30 - What is the Brain Imaging Data Standards (BIDS) movement? (Cyril Pernet)</span>
+>> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - What is the Brain Imaging Data Standards (BIDS) movement? (Cyril Pernet)</span>
 
->> <span style="color: purple">PDT 11:30-12:00 - Using Hierarchical Event Descriptors: Using the new HED3 format with BIDS (Scott Makeig &amp; Kay Robbins)</span>
+>> <span style="color: purple">PDT 11:30-12:00 (20:30-21:00) - Using Hierarchical Event Descriptors: Using the new HED3 format with BIDS (Scott Makeig &amp; Kay Robbins)</span>
 
->> <span style="color: purple">PDT 12:00-12:45 - The EEGLAB BIDS I/O plug-in (Dung Truong &amp; Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 12:00-12:45 (21:00-21:45) - The EEGLAB BIDS I/O plug-in (Dung Truong &amp; Arnaud Delorme)</span>
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
 **Tuesday, June 15th (paid registration required)**
 
-<span style="color: orange">PDT 7:00 – 7:45 – EEGLAB data import and \'bad\'
+<span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – EEGLAB data import and \'bad\'
 <span style="color: green">– Break–</span>
 
-<span style="color: purple">PDT 8:00 – 9:00 – Time-frequency decomposition: Theory (John Iversen) [CET 4:00-5:00 pm]</span>
+<span style="color: purple">PDT 8:00 – 9:00 (17:00-18:00) – Time-frequency decomposition: Theory (John Iversen) [CET 4:00-5:00 pm]</span>
 
-<span style="color: purple">PDT 9:00 – 10:00 – ICA theory (Jason Palmer) [CET 5:15 - 6:00 pm]</span>
+<span style="color: purple">PDT 9:00 – 10:00 (18:00-19:00) – ICA theory (Jason Palmer) [CET 5:15 - 6:00 pm]</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data - tutors available for zoom session Q&A </span>
+<span style="color: orange">PDT 10:00 – 10:30 (19:00-19:30) – Social time/process your own data - tutors available for zoom session Q&A </span>
 
-<span style="color: purple">PDT 10:30 - 12:45 - Advanced Topics</span>
+<span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - Advanced Topics</span>
 
 > Parallel session 1 - Time-frequency and connectivity analysis
 
->> <span style="color: orange">PDT 10:30- 11:30 - Time-frequency practicum in EEGLAB (John Iversen)</span>
+>> <span style="color: orange">PDT 10:30- 11:30 (19:30-20:30) - Time-frequency practicum in EEGLAB (John Iversen)</span>
 
->> <span style="color: purple">PDT 11:30- 12:00 - PACTools Plug-in: Phase/amplitude coherence (PAC) tools (Ramon Martinez Cancino)</span>
+>> <span style="color: purple">PDT 11:30- 12:00 (20:30-21:00) - PACTools Plug-in: Phase/amplitude coherence (PAC) tools (Ramon Martinez Cancino)</span>
 
->> <span style="color: purple">PDT 12:00- 12:45 - PowPowCAT Plug-in (Makoto Myakoshi)</span>
+>> <span style="color: purple">PDT 12:00- 12:45 (21:00-21:45) - PowPowCAT Plug-in (Makoto Myakoshi)</span>
 
 > Parallel session 2 - Lab Streaming Layer (LSL) for multimodal data collection
->> <span style="color: purple">PDT 10:00-10:15 - Basics of collecting data using LSL (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 10:00-10:15 (19:00-19:15) - Basics of collecting data using LSL (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 10:15-11:00 - The LSL time synchronization protocol and XDF format (Christian Kothe)</span>
+>> <span style="color: purple">PDT 10:15-11:00 (19:15-20:00) - The LSL time synchronization protocol and XDF format (Christian Kothe)</span>
 
->> <span style="color: purple">PDT 11:00-11:45 - Practical applications of LSL (Tim Mullen)</span>
+>> <span style="color: purple">PDT 11:00-11:45 (20:00-20:45) - Practical applications of LSL (Tim Mullen)</span>
 
->> <span style="color: purple">PDT 12:00- 12:45 - Using BCILAB with LSL (Christian Kothe)</span>
+>> <span style="color: purple">PDT 12:00- 12:45 (21:00-21:45) - Using BCILAB with LSL (Christian Kothe)</span>
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
 **Wednesday, June 16th (paid registration required)**
 
-<span style="color: orange">PDT 7:00 – 7:45 – ICA decomposition practicum (Johanna Wagner)</span>
+<span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – ICA decomposition practicum (Johanna Wagner)</span>
 
-<span style="color: purple">PDT 8:00 – 9:00 PDT – Forward and inverse models (Zeynep Aakalin Acar)</span>
+<span style="color: purple">PDT 8:00am – 9:00 PDT (17:00-18:00) – Forward and inverse models (Zeynep Aakalin Acar)</span>
 
-<span style="color: purple">PDT 9:00 – 10:00 PDT – EEG connectivity analysis (Tim Mullen)</span>
+<span style="color: purple">PDT 9:00am – 10:00 PDT (18:00-19:00) – EEG connectivity analysis (Tim Mullen)</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data</span>
+<span style="color: orange">PDT 10:00am – 10:30 (17:00-18:00) – Social time/process your own data. Tutors available for zoom Q&amp;A.</span>
 
-<span style="color: purple">PDT 10:30 - 12:45 - Advanced Topics</span>
+<span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - Advanced Topics</span>
 
 > Parallel session 1 (NFT/NIST forward head model & inverse source localization plug-in)
 
->> <span style="color: purple">PDT 10:30-11:00 - Introduction to the NFT/NIST plug-ins (Zeynep Aakalin Acar)</span>
+>> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - Introduction to the NFT/NIST plug-ins (Zeynep Aakalin Acar)</span>
 
->> <span style="color: purple">PDT 11:00-12:45 - NFT/NIST demo and practicum (Zeynep Aakalin Acar)</span>
+>> <span style="color: purple">PDT 11:00-12:45 (20:00-21:45) - NFT/NIST demo and practicum (Zeynep Aakalin Acar)</span>
 
 > Parallel session 2 - Connectivity analysis
 
->> <span style="color: orange">PDT 10:30- 11:00 - DIPFIT and ROIconnect plug-in (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 10:30- 11:00 (19:30-20:00) - DIPFIT and ROIconnect plug-in (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 11:00-11:45 - Connectivity analysis in SIFT (Tim Mullen)</span>
+>> <span style="color: purple">PDT 11:00-11:45 (20:00-20:45) - Connectivity analysis in SIFT (Tim Mullen)</span>
 
->> <span style="color: purple">PDT 11:45-12:45 - SIFT practicum (Tim Mullen)</span>
+>> <span style="color: purple">PDT 11:45-12:45 (20:45-21:45) - SIFT practicum (Tim Mullen)</span>
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
 **Thursday, June 17th (paid registration required)**
 
-<span style="color: orange">PDT 7:00 – 7:45 – ICA clustering practicum practicum (Julie Onton)</span>
+<span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – ICA clustering practicum practicum (Julie Onton)</span>
 
-<span style="color: purple">PDT 8:00 - 9:00 – EEGLAB group analysis (Arnaud Delorme)</span>
+<span style="color: purple">PDT 8:00am - 9:00 (17:00-18:00) – EEGLAB group analysis (Arnaud Delorme)</span>
 
-<span style="color: purple">PDT 9:00 - 10:00 – Overview of bootstrap statistics and correction for multiple comparisons (Cyril Pernet)</span>
+<span style="color: purple">PDT 9:00am - 10:00 (18:00-19:00) – Overview of bootstrap statistics and correction for multiple comparisons (Cyril Pernet)</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data. Tutors available for zoom Q&A.</span>
+<span style="color: orange">PDT 10:00am – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for zoom Q&amp;A.</span>
 
-<span style="color: purple">PDT 10:00 - 12:45 - Advanced Topics</span>
+<span style="color: purple">PDT 10:30am - 12:45 (19:00-19:30) - Advanced Topics</span>
 
 > Parallel session 1 - Linear statistical modeling of EEG data
 
->> <span style="color: purple">PDT 10:30-11:00 - Introduction to linear modeling (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - Introduction to linear modeling (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 11:00-11:30 - Estimating statistics using linear modeling (Cyril Pernet)</span>
+>> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - Estimating statistics using linear modeling (Cyril Pernet)</span>
 
->> <span style="color: orange">PDT 11:30-12:45 - EEGLAB LIMO plug-in practicum (Cyril Pernet &amp; Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 11:30-12:45 (20:30-21:45) - EEGLAB LIMO plug-in practicum (Cyril Pernet &amp; Arnaud Delorme)</span>
 
 > Parallel session 2 - Advanced ICA analysis
->> <span style="color: purple">PDT 10:30-11:15 - AMICA and AMICA Tools (Scott Makeig &amp; Jason Palmer)</span>
+>> <span style="color: purple">PDT 10:30-11:15 (19:30-20:15) - AMICA and AMICA Tools (Scott Makeig &amp; Jason Palmer)</span>
 
->> <span style="color: purple">PDT 11:15-11:45 - IMAT: Independent Modulator Analysis (Johanna Wagner &amp; Julie Onton)</span>
+>> <span style="color: purple">PDT 11:15-11:45 (20:15-20:45) - IMAT: Independent Modulator Analysis plug-in (Johanna Wagner &amp; Julie Onton)</span>
 
->> <span style="color: purple">PDT 11:45-12:45 - ICA reliability analysis (Fiorenzo Artoni)</span>
+>> <span style="color: purple">PDT 11:45-12:45 (20:45-21:45) - ICA reliability analysis (Fiorenzo Artoni)</span>
 
 > Parallel session 3 - (reserved for sponsors; TBD)
 
 **Friday, June 18th (paid registration required)**
 
-<span style="color: orange">PDT 7:00 – 7:45 – Process your own data. Tutors available for zoom Q&A.</span>
+<span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – Process your own data. Tutors available for zoom Q&amp;A.</span>
 
-<span style="color: purple">PDT 8:00 – 9:30 – Mining event-related brain dynamics II (Scott Makeig)</span>
+<span style="color: purple">PDT 8:00am – 9:30 (17:00-18:30) – Mining event-related brain dynamics II (Scott Makeig)</span>
 
-<span style="color: purple">PDT 9:30 – 10:00 – Deep learning for EEG - the HBN benchmark dataset (Arnaud Delorme)</span>
+<span style="color: purple">PDT 9:30am – 10:00 (18:30-19:00) – Deep learning for EEG - the HBN benchmark dataset (Arnaud Delorme)</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 – Social time/process your own data</span>
+<span style="color: orange">PDT 10:00 – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for zoom Q&amp;A.</span>
 
-<span style="color: purple">PDT 10:30 - 12:45 - Advanced Topics</span>
+<span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - Advanced Topics</span>
 
 > Parallel session 1 - Group analysis, pipelines, and scripting in EEGLAB
 
->> <span style="color: orange">PDT 10:30-11:00 - Creating an EEGLAB STUDY (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 10:30-11:00 (19:30-20:00) - Creating an EEGLAB STUDY (Arnaud Delorme)</span>
 
->> <span style="color: orange">PDT 11:00-11:45 - Working with EEGLAB studies practicum (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 11:00-11:45 (20:00-20:45) - Working with EEGLAB studies practicum (Arnaud Delorme)</span>
 
->> <span style="color: orange">PDT 11:45-12:15 - Scripting with EEGLAB studies practicum (Arnaud Delorme)</span>
+>> <span style="color: orange">PDT 11:45-12:15 (20:45-21:15) - Scripting with EEGLAB studies practicum (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 12:15- 12:45 - Using the Neuroscience Gateway (nsgportal.org) for high-performance computing portal (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - Using the Neuroscience Gateway (nsgportal.org) for high-performance computing portal (Arnaud Delorme)</span>
 
 > Parallel session 2 (automated artifact rejection)
 
->> <span style="color: purple">PDT 10:30-11:00 - The clean_rawdata plug-in and Artifact Subspace reconstruction (Christian Kothe)</span>
+>> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - The clean_rawdata plug-in and Artifact Subspace reconstruction (Christian Kothe)</span>
 
->> <span style="color: purple">PDT 11:00-11:20 - ASR performance analysis I (Fiorenzo Artoni)</span>
+>> <span style="color: purple">PDT 11:00-11:20 (20:00-20:20) - ASR performance analysis I (Fiorenzo Artoni)</span>
 
->> <span style="color: purple">PDT 11:20-11:40 - ASR performance analysis II (Tzyy Ping Jung)</span>
+>> <span style="color: purple">PDT 11:20-11:40 (20:20-20:40) - ASR performance analysis II (Tzyy Ping Jung)</span>
 
->> <span style="color: purple">11:40-12:45 - The ICLabel plug-in for labeling artifactual components (Luca Pion Tonachini)</span>
+>> <span style="color: purple">11:40-12:45 (20:40-21:45) - The ICLabel plug-in for labeling artifactual components (Luca Pion Tonachini)</span>
 
 > Parallel session 3 - (reserved for sponsors; TBD)
 
-<span style="color: purple">PDT 13:00 – 13:45 – Participant presentations and general discussion (All)</span>
+<span style="color: purple">PDT 1:00pm – 1:45 (22:00-22:45) – Participant presentations and general discussion (All)</span>
 
-<span style="color: purple">PDT 13:45 – 14:00 – Close</span>
+<span style="color: purple">PDT 1:45pm – 2:00 (22:45-23:00) – Close</span>
