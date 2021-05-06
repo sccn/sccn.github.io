@@ -31,15 +31,15 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: orange">PDT 7:00am – 7:55 (16:00-16:55) –  Hang out in the Gather.Town site. Meet the tutors. </span>
 
-<span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – Basic elements of scripting with EEGLAB on MATLAB (for beginners; Clement Lee) [CET 3:00-3:45 pm]</span>
+<span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – Basic elements of scripting with EEGLAB on MATLAB (for beginners; Clement Lee)</span>
 
 <span style="color: green">– Break–</span>
 
-<span style="color: purple">PDT 8:00am – 9:10 (17:00-18:10) – Mining event-related brain dynamics I (Scott Makeig) [CET 4:00-5:00 pm]</span>
+<span style="color: purple">PDT 8:00am – 9:10 (17:00-18:10) – Mining event-related brain dynamics I (Scott Makeig)</span>
 
-<span style="color: purple">PDT 9:15am – 10:00 (18:15-19:00) – What&#39;s new in EEGLAB? (Arnaud Delorme) [CET 5:15 - 6:00 pm]</span>
+<span style="color: purple">PDT 9:15am – 10:00 (18:15-19:00) – What&#39;s new in EEGLAB? (Arnaud Delorme)</span>
 
-<span style="color: purple">PDT 10:00am - 11:00 (19:00-20:00) - Parallel participant poster presentations in the Poster Hall [CET 6:00-9:00 pm]. **Note:** You must register for the whole workshop to present a poster.</span>
+<span style="color: purple">PDT 10:00am - 11:00 (19:00-20:00) - Parallel participant poster presentations in the Poster Hall. **Note:** You must register for the whole workshop to present a poster.</span>
 
 <span style="color: purple">PDT 11:00am - 12:45 (20:00-21:45) - Advanced Topics</span>
 
@@ -66,11 +66,11 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 <span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – EEGLAB data import and \'bad\'
 <span style="color: green">– Break–</span>
 
-<span style="color: purple">PDT 8:00 – 9:00 (17:00-18:00) – Time-frequency decomposition: Theory (John Iversen) [CET 4:00-5:00 pm]</span>
+<span style="color: purple">PDT 8:00 – 9:00 (17:00-18:00) – Time-frequency decomposition: Theory (John Iversen)</span>
 
-<span style="color: purple">PDT 9:00 – 10:00 (18:00-19:00) – ICA theory (Jason Palmer) [CET 5:15 - 6:00 pm]</span>
+<span style="color: purple">PDT 9:00 – 10:00 (18:00-19:00) – ICA theory (Jason Palmer)</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 (19:00-19:30) – Social time/process your own data - tutors available for zoom session Q&A </span>
+<span style="color: orange">PDT 10:00 – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for Q&amp;A </span>
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - Advanced Topics</span>
 
@@ -101,7 +101,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:00am – 10:00 PDT (18:00-19:00) – EEG connectivity analysis (Tim Mullen)</span>
 
-<span style="color: orange">PDT 10:00am – 10:30 (17:00-18:00) – Social time/process your own data. Tutors available for zoom Q&amp;A.</span>
+<span style="color: orange">PDT 10:00am – 10:30 (17:00-18:00) – Social time/process your own data. Tutors available for Q&amp;A.</span>
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - Advanced Topics</span>
 
@@ -129,7 +129,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 9:00am - 10:00 (18:00-19:00) – Overview of bootstrap statistics and correction for multiple comparisons (Cyril Pernet)</span>
 
-<span style="color: orange">PDT 10:00am – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for zoom Q&amp;A.</span>
+<span style="color: orange">PDT 10:00am – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for Q&amp;A.</span>
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:00-19:30) - Advanced Topics</span>
 
@@ -152,13 +152,13 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Friday, June 18th (paid registration required)**
 
-<span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – Process your own data. Tutors available for zoom Q&amp;A.</span>
+<span style="color: orange">PDT 7:00am – 7:45 (16:00-16:45) – Process your own data. Tutors available for Q&amp;A.</span>
 
 <span style="color: purple">PDT 8:00am – 9:30 (17:00-18:30) – Mining event-related brain dynamics II (Scott Makeig)</span>
 
 <span style="color: purple">PDT 9:30am – 10:00 (18:30-19:00) – Deep learning for EEG - the HBN benchmark dataset (Arnaud Delorme)</span>
 
-<span style="color: orange">PDT 10:00 – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for zoom Q&amp;A.</span>
+<span style="color: orange">PDT 10:00 – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for Q&amp;A.</span>
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - Advanced Topics</span>
 
