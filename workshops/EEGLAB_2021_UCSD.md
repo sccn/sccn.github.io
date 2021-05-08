@@ -50,7 +50,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 2 - HED3 and BIDS
 
->> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - What are the Brain Imaging Data Standards (BIDS)? (Cyril Pernet)</span>
+>> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - What is the \'Brain Imaging Data Structure\' (BIDS)? (Cyril Pernet)</span>
 
 >> <span style="color: purple">PDT 11:30-12:00 (20:30-21:00) - Using Hierarchical Event Descriptors in the new HED-3 format with BIDS (Scott Makeig &amp; Kay Robbins)</span>
 
