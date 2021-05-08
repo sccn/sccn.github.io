@@ -52,7 +52,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - What is the \'Brain Imaging Data Structure\' (BIDS)? (Cyril Pernet)</span>
 
->> <span style="color: purple">PDT 11:30-12:00 (20:30-21:00) - Using Hierarchical Event Descriptors in the new HED-3 format with BIDS (Scott Makeig &amp; Kay Robbins)</span>
+>> <span style="color: purple">PDT 11:30-12:00 (20:30-21:00) - Using 3rd-gen Hierarchical Event Descriptors with BIDS (Kay Robbins &amp; Scott Makeig)</span>
 
 >> <span style="color: purple">PDT 12:00-12:45 (21:00-21:45) - The EEGLAB BIDS data I/O plug-in (Dung Truong &amp; Arnaud Delorme)</span>
 
@@ -64,7 +64,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT  8:00am – 9:00 (17:00-18:00) – Time-frequency decomposition: Theory (John Iversen)</span>
 
-<span style="color: purple">PDT  9:00am – 10:00 (18:00-19:00) – ICA theory (Jason Palmer)</span>
+<span style="color: purple">PDT  9:00am – 10:00 (18:00-19:00) – ICA theory (Jason Palmer &amp; Scott Makeig)</span>
 
 <span style="color: darkorange">PDT 10:00am – 10:30 (19:00-19:30) – Social time/process your own data. Tutors available for Q&amp;A </span>
 
