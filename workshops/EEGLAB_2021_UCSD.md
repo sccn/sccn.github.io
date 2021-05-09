@@ -76,7 +76,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 11:30- 12:00 (20:30-21:00) - **The PACTools plug-in**: Phase/amplitude coherence (PAC) tools (Ramon Martinez Cancino)</span>
 
->> <span style="color: purple">PDT 12:00- 12:45 (21:00-21:45) - **The PowPowCAT Plug-in** (Makoto Myakoshi)</span>
+>> <span style="color: purple">PDT 12:00- 12:45 (21:00-21:45) - **The PowPowCAT plug-in** (Makoto Myakoshi)</span>
 
 <span style="color: darkred"> > Parallel session 2 - **Lab Streaming Layer (LSL) for multimodal data collection**
 >> <span style="color: purple">PDT 10:00-10:15 (19:00-19:15) - **Collecting data using LSL: the basics** (Arnaud Delorme)</span>
