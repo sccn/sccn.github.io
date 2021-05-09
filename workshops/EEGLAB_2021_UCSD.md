@@ -109,7 +109,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: darkred">    Parallel session 2 - **Connectivity analysis**
 
->> <span style="color: purplee">PDT 10:30- 11:00 (19:30-20:00) - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 10:30- 11:00 (19:30-20:00) - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
 
 >> <span style="color: purple">PDT 11:00-11:45 (20:00-20:45) - **Connectivity analysis using SIFT** (Tim Mullen)</span>
 
