@@ -30,7 +30,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: darkorange">PDT  7:00am – 7:55 (16:00-16:55) –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
 
-<span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
+<span style="color: gray">PDT  7:00am – 7:45 (16:00-16:45) – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
 
 <span style="color: purple">PDT  8:00am – 9:10 (17:00-18:10) – **Mining event-related brain dynamics I** (Scott Makeig)</span>
 
