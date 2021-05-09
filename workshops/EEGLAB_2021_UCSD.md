@@ -60,7 +60,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **TUESDAY, June 15th (paid registration required)** ______________________________________________________
 
-<span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span>
+<span style="color: purple">PDT  7:00am – 7:45 (16:00-16:45) – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span>
 
 <span style="color: purple">PDT  8:00am – 9:00 (17:00-18:00) – **Time-frequency decomposition: Theory** (John Iversen)</span>
 
