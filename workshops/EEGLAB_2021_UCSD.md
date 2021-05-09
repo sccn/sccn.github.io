@@ -93,7 +93,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition practicum** (Johanna Wagner)</span>
 
-<span style="color: purple">PDT  8:00am – 9:00 PDT (17:00-18:00) – **Forward and inverse head models** (Zeynep Aakalin Acar)</span>
+<span style="color: purple">PDT  8:00am – 9:00 PDT (17:00-18:00) – **Forward and inverse head modeling for course localization** (Zeynep Aakalin Acar)</span>
 
 <span style="color: purple">PDT  9:00am – 10:00 PDT (18:00-19:00) – **EEG connectivity analysis** (Tim Mullen)</span>
 
@@ -101,7 +101,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - **Advanced Topics**</span>
 
-> Parallel session 1 **NFT/NIST forward head model & inverse source localization plug-ins**
+> Parallel session 1 **NFT/NIST forward head modeling & high-resolution source imaging plug-ins**
 
 >> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - **High-resolution source imaging: the NFT/NIST plug-ins** (Zeynep Aakalin Acar)</span>
 
@@ -137,7 +137,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: darkorange">PDT 11:30-12:45 (20:30-21:45) - **EEGLAB LIMO plug-in practicum** (Cyril Pernet &amp; Arnaud Delorme)</span>
 
-> Parallel session 2 - Advanced ICA analysis
+> Parallel session 2 - **Advanced ICA analysis**
 >> <span style="color: purple">PDT 10:30-11:15 (19:30-20:15) - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
 
 >> <span style="color: purple">PDT 11:15-11:45 (20:15-20:45) - **IMAT: Independent Modulator Analysis plug-in** (Johanna Wagner &amp; Julie Onton)</span>
