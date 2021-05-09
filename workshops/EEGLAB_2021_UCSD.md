@@ -58,7 +58,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
-**Tuesday, June 15th (paid registration required)**
+**Tuesday, June 15th (paid registration required)** -----------------------------------------------
 
 <span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – **EEGLAB data import and \'bad\'data visualization** (Johanna Wagner)</span>
 
@@ -89,7 +89,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
-**Wednesday, June 16th (paid registration required)**
+**Wednesday, June 16th (paid registration required)** -----------------------------------------------
 
 <span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition practicum** (Johanna Wagner)</span>
 
@@ -117,7 +117,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
-**Thursday, June 17th (paid registration required)**
+**Thursday, June 17th (paid registration required)** -----------------------------------------------
 
 <span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – **ICA clustering practicum practicum** (Julie Onton)</span>
 
@@ -146,7 +146,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 3 - (reserved for sponsors; TBD)
 
-**Friday, June 18th (paid registration required)**
+**Friday, June 18th (paid registration required)** -----------------------------------------------
 
 <span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – Network. **Tutors available** for Q&amp;A.</span>
 
