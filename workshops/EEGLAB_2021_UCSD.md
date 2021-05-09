@@ -72,7 +72,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 1 - **Time-frequency and connectivity analysis**
 
->> <span style="color: darkorange">PDT 10:30- 11:30 (19:30-20:30) - **Time-frequency practicum** in EEGLAB (John Iversen)</span>
+>> <span style="color: purple">PDT 10:30- 11:30 (19:30-20:30) - **Time-frequency practicum** in EEGLAB (John Iversen)</span>
 
 >> <span style="color: purple">PDT 11:30- 12:00 (20:30-21:00) - **The PACTools plug-in**: Phase/amplitude coherence (PAC) tools (Ramon Martinez Cancino)</span>
 
@@ -93,7 +93,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition practicum** (Johanna Wagner)</span>
 
-<span style="color: purple">PDT  8:00am – 9:00 PDT (17:00-18:00) – **Forward and inverse models** (Zeynep Aakalin Acar)</span>
+<span style="color: purple">PDT  8:00am – 9:00 PDT (17:00-18:00) – **Forward and inverse head models** (Zeynep Aakalin Acar)</span>
 
 <span style="color: purple">PDT  9:00am – 10:00 PDT (18:00-19:00) – **EEG connectivity analysis** (Tim Mullen)</span>
 
@@ -103,7 +103,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > Parallel session 1 **NFT/NIST forward head model & inverse source localization plug-ins**
 
->> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - **Introduction to the NFT/NIST plug-ins** (Zeynep Aakalin Acar)</span>
+>> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - **High-resolution source imaging: the NFT/NIST plug-ins** (Zeynep Aakalin Acar)</span>
 
 >> <span style="color: purple">PDT 11:00-12:45 (20:00-21:45) - **NFT/NIST demo and practicum** (Zeynep Aakalin Acar)</span>
 
