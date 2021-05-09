@@ -40,7 +40,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 11:00am - 12:45 (20:00-21:45) - Advanced Topics</span>
 
-<span style="color: darkred"> > Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
+<span style="color: darkred">    Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
 
 >> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **Wearable EEG device** review (Cedric Cannard)</span>
 
@@ -48,7 +48,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
 
-<span style="color: darkred"> > Parallel session 2 - **Neuroinformatics using BIDS and HED**
+<span style="color: darkred">    Parallel session 2 - **Neuroinformatics using BIDS and HED**
 
 >> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
 
@@ -101,13 +101,13 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - **Advanced Topics**</span>
 
-<span style="color: darkred"> > Parallel session 1 **NFT/NIST forward head modeling & high-resolution source imaging plug-ins**
+<span style="color: darkred">    Parallel session 1 **NFT/NIST forward head modeling & high-res. source imaging plug-ins**
 
 >> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - **High-resolution source imaging: the NFT/NIST plug-ins** (Zeynep Aakalin Acar)</span>
 
 >> <span style="color: purple">PDT 11:00-12:45 (20:00-21:45) - **NFT/NIST demo and practicum** (Zeynep Aakalin Acar)</span>
 
-<span style="color: darkred"> > Parallel session 2 - **Connectivity analysis**
+<span style="color: darkred">    Parallel session 2 - **Connectivity analysis**
 
 >> <span style="color: darkorange">PDT 10:30- 11:00 (19:30-20:00) - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
 
@@ -129,7 +129,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:00-19:30) - **Advanced Topics**</span>
 
-<span style="color: darkred"> > Parallel session 1 - **Linear statistical modeling of EEG data**
+<span style="color: darkred">    Parallel session 1 - **Linear statistical modeling of EEG data**
 
 >> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - **Introduction to linear modeling** (Arnaud Delorme)</span>
 
@@ -137,7 +137,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: darkorange">PDT 11:30-12:45 (20:30-21:45) - **EEGLAB LIMO plug-in practicum** (Cyril Pernet &amp; Arnaud Delorme)</span>
 
-<span style="color: darkred"> > Parallel session 2 - **Advanced ICA analysis**
+<span style="color: darkred">    Parallel session 2 - **Advanced ICA analysis**
 >> <span style="color: purple">PDT 10:30-11:15 (19:30-20:15) - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
 
 >> <span style="color: purple">PDT 11:15-11:45 (20:15-20:45) - **IMAT: Independent Modulator Analysis plug-in** (Johanna Wagner &amp; Julie Onton)</span>
@@ -158,7 +158,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: purple">PDT 10:30am - 12:45 (19:30-21:45) - Advanced Topics</span>
 
-<span style="color: darkred"> > Parallel session 1 - **Group analysis, pipelines, and scripting in EEGLAB**
+<span style="color: darkred">    Parallel session 1 - **Group analysis, pipelines, and scripting in EEGLAB**
 
 >> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
 
@@ -168,7 +168,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - **Using the Neuroscience Gateway** (nsgportal.org) for high-performance computing (Arnaud Delorme)</span>
 
-<span style="color: darkred"> > Parallel session 2 **Automated artifact rejection and component classification**
+<span style="color: darkred">    Parallel session 2 **Automated artifact rejection and component classification**
 
 >> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - **The clean_rawdata plug-in and Artifact Subspace reconstruction** (Christian Kothe)</span>
 
