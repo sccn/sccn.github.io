@@ -72,7 +72,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: darkred"> > Parallel session 1 - **Time-frequency and connectivity analysis**
 
->> <span style="color: darkblue">PDT 10:30- 11:30 (19:30-20:30) - **Time-frequency practicum** in EEGLAB (John Iversen)</span>
+>> <span style="color: darkblue">PDT 10:30- 11:30 (19:30-20:30) - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
 
 >> <span style="color: purple">PDT 11:30- 12:00 (20:30-21:00) - **The PACTools plug-in**: Phase/amplitude coherence (PAC) tools (Ramon Martinez Cancino)</span>
 
@@ -91,7 +91,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **WEDNESDAY, June 16th (paid registration required)** ______________________________________________________
 
-<span style="color: blue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
+<span style="color: darkblue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
 <span style="color: purple">PDT  8:00am – 9:00 PDT (17:00-18:00) – **Forward &amp; inverse head modeling for source localization** (Zeynep Aakalin Acar)</span>
 
@@ -105,7 +105,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - **High-resolution source imaging: the NFT/NIST plug-ins** (Zeynep Aakalin Acar)</span>
 
->> <span style="color: darkblue">PDT 11:00-12:45 (20:00-21:45) - **NFT/NIST demo and practicum** (Zeynep Aakalin Acar)</span>
+>> <span style="color: darkblue">PDT 11:00-12:45 (20:00-21:45) - **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
 
 <span style="color: darkred">    Parallel session 2 - **Connectivity analysis**
 
@@ -113,13 +113,13 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 11:00-11:45 (20:00-20:45) - **Connectivity analysis using SIFT** (Tim Mullen)</span>
 
->> <span style="color: darkblue">PDT 11:45-12:45 (20:45-21:45) - **SIFT practicum** (Tim Mullen)</span>
+>> <span style="color: darkblue">PDT 11:45-12:45 (20:45-21:45) - **SIFT PRACTICUM** (Tim Mullen)</span>
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
 **THURSDAY, June 17th (paid registration required)** ______________________________________________________
 
-<span style="color: darkblue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA clustering practicum** (Julie Onton)</span>
+<span style="color: darkblue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA clustering PRACTICUM** (Julie Onton)</span>
 
 <span style="color: purple">PDT  8:00am - 9:00 (17:00-18:00) – **EEGLAB group analysis** (Arnaud Delorme)</span>
 
@@ -135,7 +135,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **Estimating statistics using linear modeling** (Cyril Pernet)</span>
 
->> <span style="color: darkblue">PDT 11:30-12:45 (20:30-21:45) - **EEGLAB LIMO plug-in practicum** (Cyril Pernet &amp; Arnaud Delorme)</span>
+>> <span style="color: darkblue">PDT 11:30-12:45 (20:30-21:45) - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
 
 <span style="color: darkred">    Parallel session 2 - **Advanced ICA analysis**
 >> <span style="color: purple">PDT 10:30-11:15 (19:30-20:15) - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
@@ -162,9 +162,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 10:30-11:00 (19:30-20:00) - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
 
->> <span style="color: darkblue">PDT 11:00-11:45 (20:00-20:45) - **Working with EEGLAB studies, practicum** (Arnaud Delorme)</span>
+>> <span style="color: darkblue">PDT 11:00-11:45 (20:00-20:45) - **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
->> <span style="color: darkblue">PDT 11:45-12:15 (20:45-21:15) - **Scripting with EEGLAB studies, practicum** (Arnaud Delorme)</span>
+>> <span style="color: darkblue">PDT 11:45-12:15 (20:45-21:15) - **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
 >> <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - **Using the Neuroscience Gateway** (nsgportal.org) for high-performance computing (Arnaud Delorme)</span>
 
