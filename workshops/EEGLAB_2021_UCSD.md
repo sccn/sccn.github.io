@@ -91,7 +91,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **WEDNESDAY, June 16th (paid registration required)** ______________________________________________________
 
-<span style="color: darkblue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition practicum** (Johanna Wagner)</span>
+<span style="color: blue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
 <span style="color: purple">PDT  8:00am – 9:00 PDT (17:00-18:00) – **Forward &amp; inverse head modeling for source localization** (Zeynep Aakalin Acar)</span>
 
@@ -109,7 +109,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: darkred">    Parallel session 2 - **Connectivity analysis**
 
->> <span style="color: darkorange">PDT 10:30- 11:00 (19:30-20:00) - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
+>> <span style="color: purplee">PDT 10:30- 11:00 (19:30-20:00) - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
 
 >> <span style="color: purple">PDT 11:00-11:45 (20:00-20:45) - **Connectivity analysis using SIFT** (Tim Mullen)</span>
 
