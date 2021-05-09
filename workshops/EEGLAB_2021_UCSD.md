@@ -93,7 +93,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 <span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition practicum** (Johanna Wagner)</span>
 
-<span style="color: purple">PDT  8:00am – 9:00 PDT (17:00-18:00) – **Forward and inverse head modeling for course localization** (Zeynep Aakalin Acar)</span>
+<span style="color: purple">PDT  8:00am – 9:00 PDT (17:00-18:00) – **Forward &amp; inverse head modeling for source localization** (Zeynep Aakalin Acar)</span>
 
 <span style="color: purple">PDT  9:00am – 10:00 PDT (18:00-19:00) – **EEG connectivity analysis** (Tim Mullen)</span>
 
