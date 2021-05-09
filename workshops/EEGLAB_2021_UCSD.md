@@ -135,7 +135,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **Estimating statistics using linear modeling** (Cyril Pernet)</span>
 
->> <span style="color: darkorange">PDT 11:30-12:45 (20:30-21:45) - **EEGLAB LIMO plug-in practicum** (Cyril Pernet &amp; Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 11:30-12:45 (20:30-21:45) - **EEGLAB LIMO plug-in practicum** (Cyril Pernet &amp; Arnaud Delorme)</span>
 
 <span style="color: darkred">    Parallel session 2 - **Advanced ICA analysis**
 >> <span style="color: purple">PDT 10:30-11:15 (19:30-20:15) - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
