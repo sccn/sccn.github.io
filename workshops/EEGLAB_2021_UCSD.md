@@ -52,7 +52,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> - <span style="color: black">PDT 11:00-11:30 - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
 
->> - <span style="color: black">PDT 11:30-12:10 - **Using 3rd-gen Hierarchical Event Descriptors (HED)** with BIDS (Kay Robbins &amp; Scott Makeig)</span>
+>> - <span style="color: black">PDT 11:30-12:10 - **3rd-gen Hierarchical Event Descriptors (HED)** (Robbins &amp; Makeig)</span>
 
 >> - <span style="color: black">PDT 12:10-12:45 - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
