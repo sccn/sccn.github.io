@@ -100,7 +100,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## WEDNESDAY, June 16th (paid registration required)
 
-- <span style="color: darkblue">7:00am–7:45 – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
+- <span style="color: black">7:00am–7:45 – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
 - <span style="color: black">8:00am–9:00 – **Forward &amp; inverse head modeling** (Zeynep Aakalin Acar)</span>
 
@@ -114,7 +114,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black">10:30-11:00 - **High-resolution source imaging** (Zeynep Aakalin Acar)</span>
 
-> - <span style="color: darkblue">11:00-12:45 - **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
+> - <span style="color: black">11:00-12:45 - **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
 
 > <span style="color: gray">Parallel session 2 - **Connectivity analysis**
 
@@ -122,13 +122,13 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black">11:00-11:45 - **Connectivity analysis using SIFT** (Tim Mullen)</span>
 
-> - <span style="color: darkblue">11:45-12:45 - **SIFT PRACTICUM** (Tim Mullen)</span>
+> - <span style="color: black">11:45-12:45 - **SIFT PRACTICUM** (Tim Mullen)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
 ## THURSDAY, June 17th (paid registration required)
 
-- <span style="color: darkblue">7:00am–7:45 – **ICA clustering PRACTICUM** (Julie Onton)</span>
+- <span style="color: black">7:00am–7:45 – **ICA clustering PRACTICUM** (Julie Onton)</span>
 
 - <span style="color: black">8:00am-9:00 – **EEGLAB group analysis** (Arnaud Delorme)</span>
 
@@ -144,7 +144,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black">11:00-11:30 - **Statistics using linear modeling** (Cyril Pernet)</span>
 
-> - <span style="color: darkblue">11:30-12:45 - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
+> - <span style="color: black">11:30-12:45 - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
 
 > <span style="color: gray">Parallel session 2 - **Advanced ICA analysis**
 
@@ -172,9 +172,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black">10:30-11:00 - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
 
-> - <span style="color: darkblue">11:00-11:45 - **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: black">11:00-11:45 - **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
-> - <span style="color: darkblue">11:45-12:15 - **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: black">11:45-12:15 - **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
 > - <span style="color: black">12:15-12:45 - **EEGLAB and high-performance computing (Arnaud Delorme)</span>
 
