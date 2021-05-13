@@ -24,7 +24,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
-**MONDAY, June 14th (open to all; free registration required)** ______________________________________________________
+= MONDAY, June 14th (open to all; free registration required)
 
 <span style="color: darkorange">PDT  6:30am – 7:00 (CEST 15:30-16:00) – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
 
@@ -79,23 +79,23 @@ Parallel session 3 (reserved for sponsors; TBD)
 >> <span style="color: purple">PDT 12:00- 12:45 (21:00-21:45) - **The PowPowCAT plug-in** (Makoto Myakoshi)</span>
 
 <span style="color: darkred"> > Parallel session 2 - **Lab Streaming Layer (LSL) for multimodal data collection**
->> <span style="color: purple">PDT 10:00-10:45 (19:00-19:45) - **LSL introduction and demonstration (Christian Kothe)</span>
+>> <span style="color: purple">PDT 10:00-10:45 (19:00-19:45) - **LSL introduction and demonstration** (Christian Kothe)</span>
 
->> <span style="color: purple">PDT 10:45-11:00 (19:45-20:00) - **Using the lsl_app_matlabviewer EEGLAB plugin (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 10:45-11:00 (19:45-20:00) - **Using the lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **LSL synchronization and other topics</span>
+>> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **LSL synchronization and other topics**</span>
 
->> <span style="color: purple">PDT 11:30-12:00 (20:30-21:00) - **LSL in virtual reality and intracranial neurophysiology (Chadwick Boulay)</span>
+>> <span style="color: purple">PDT 11:30-12:00 (20:30-21:00) - **LSL in virtual reality and intracranial neurophysiology** (Chadwick Boulay)</span>
 
->> <span style="color: purple">PDT 12:00-12:15 (21:00-21:15) - **LSL potential problems and troubleshooting I (David Medine)</span>
+>> <span style="color: purple">PDT 12:00-12:15 (21:00-21:15) - **LSL potential problems and troubleshooting I** (David Medine)</span>
 
->> <span style="color: purple">PDT 12:15-12:30 (21:15-21:30) - **LSL potential problems and troubleshooting II (Fiorenzo Artoni)</span>
+>> <span style="color: purple">PDT 12:15-12:30 (21:15-21:30) - **LSL potential problems and troubleshooting II** (Fiorenzo Artoni)</span>
 
->> <span style="color: purple">PDT 12:30-12:45 (21:30-21:45) - **LSL wrap up</span>
+>> <span style="color: purple">PDT 12:30-12:45 (21:30-21:45) - **LSL wrap up**</span>
 
 Parallel session 3 (reserved for sponsors; TBD)
 
-**WEDNESDAY, June 16th (paid registration required)** ______________________________________________________
+= WEDNESDAY, June 16th (paid registration required)
 
 <span style="color: darkblue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
@@ -123,7 +123,7 @@ Parallel session 3 (reserved for sponsors; TBD)
 
 Parallel session 3 (reserved for sponsors; TBD)
 
-**THURSDAY, June 17th (paid registration required)** ______________________________________________________
+= THURSDAY, June 17th (paid registration required)
 
 <span style="color: darkblue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA clustering PRACTICUM** (Julie Onton)</span>
 
