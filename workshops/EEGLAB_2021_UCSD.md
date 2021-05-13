@@ -79,13 +79,19 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 >> <span style="color: purple">PDT 12:00- 12:45 (21:00-21:45) - **The PowPowCAT plug-in** (Makoto Myakoshi)</span>
 
 <span style="color: darkred"> > Parallel session 2 - **Lab Streaming Layer (LSL) for multimodal data collection**
->> <span style="color: purple">PDT 10:00-10:15 (19:00-19:15) - **Collecting data using LSL: the basics** (Arnaud Delorme)</span>
+>> <span style="color: purple">PDT 10:00-10:45 (19:00-19:45) - **LSL introduction and demonstration (Christian Kothe)</span>
 
->> <span style="color: purple">PDT 10:15-11:00 (19:15-20:00) - **The LSL time synchronization protocol and XDF data format** (Christian Kothe)</span>
+>> <span style="color: purple">PDT 10:45-11:00 (19:45-20:00) - **Using the lsl_app_matlabviewer EEGLAB plugin (Arnaud Delorme)</span>
 
->> <span style="color: purple">PDT 11:00-11:45 (20:00-20:45) - **LSL: Practical applications** (Tim Mullen)</span>
+>> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **LSL synchronization and other topics</span>
 
->> <span style="color: purple">PDT 12:00- 12:45 (21:00-21:45) - **Using BCILAB with LSL for real-time BCI** (Christian Kothe)</span>
+>> <span style="color: purple">PDT 11:30-12:00 (20:30-21:00) - **LSL in virtual reality and intracranial neurophysiology (Chadwick Boulay)</span>
+
+>> <span style="color: purple">PDT 12:00-12:15 (21:00-21:15) - **LSL potential problems and troubleshooting I (David Medine)</span>
+
+>> <span style="color: purple">PDT 12:15-12:30 (21:15-21:30) - **LSL potential problems and troubleshooting II (Fiorenzo Artoni)</span>
+
+>> <span style="color: purple">PDT 12:30-12:45 (21:30-21:45) - **LSL wrap up</span>
 
 > Parallel session 3 (reserved for sponsors; TBD)
 
