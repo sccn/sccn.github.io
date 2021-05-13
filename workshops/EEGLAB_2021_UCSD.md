@@ -40,7 +40,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: purple">PDT 11:00am - 12:45 (20:00-21:45) - Advanced Topics</span>
 
-- <span style="color: darkred">    Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
+> <span style="color: darkred">    Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
 
 >> - <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **Wearable EEG device** review (Cedric Cannard)</span>
 
@@ -48,15 +48,15 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> - <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
 
-<span style="color: darkred">    Parallel session 2 - **Neuroinformatics using BIDS and HED**
+> <span style="color: darkred">    Parallel session 2 - **Neuroinformatics using BIDS and HED**
 
->> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
+>> - <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
 
->> <span style="color: purple">PDT 11:30-12:10 (20:30-21:00) - **Using 3rd-gen Hierarchical Event Descriptors (HED)** with BIDS (Kay Robbins &amp; Scott Makeig)</span>
+>> - <span style="color: purple">PDT 11:30-12:10 (20:30-21:00) - **Using 3rd-gen Hierarchical Event Descriptors (HED)** with BIDS (Kay Robbins &amp; Scott Makeig)</span>
 
->> <span style="color: purple">PDT 12:10-12:45 (21:00-21:45) - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
+>> - <span style="color: purple">PDT 12:10-12:45 (21:00-21:45) - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
-Parallel session 3 (reserved for sponsors; TBD)
+> Parallel session 3 (reserved for sponsors; TBD)
 
 ## TUESDAY, June 15th (paid registration required)
 
