@@ -72,7 +72,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">10:30am-12:45 - **Advanced Topics**</span>
 
-> <span style="color: gray"> > Parallel session 1 - **Time-frequency and connectivity analysis**
+> <span style="color: gray">Parallel session 1 - **Time-frequency and connectivity analysis**
 
 > - <span style="color: black">10:30- 11:30 - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
 
@@ -110,7 +110,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">10:30am-12:45 - **Advanced Topics**</span>
 
-> <span style="color: gray">Parallel session 1 **NFT/NIST forward head modeling & high-res. source imaging plug-ins**
+> <span style="color: gray">Parallel session 1 **NFT/NIST high-res. source imaging plug-ins**
 
 > - <span style="color: black">10:30-11:00 - **High-resolution source imaging** (Zeynep Aakalin Acar)</span>
 
