@@ -56,7 +56,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 12:10-12:45 (21:00-21:45) - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
-> Parallel session 3 (reserved for sponsors; TBD)
+Parallel session 3 (reserved for sponsors; TBD)
 
 **TUESDAY, June 15th (paid registration required)** ______________________________________________________
 
@@ -93,7 +93,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 12:30-12:45 (21:30-21:45) - **LSL wrap up</span>
 
-> Parallel session 3 (reserved for sponsors; TBD)
+Parallel session 3 (reserved for sponsors; TBD)
 
 **WEDNESDAY, June 16th (paid registration required)** ______________________________________________________
 
@@ -121,7 +121,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: darkblue">PDT 11:45-12:45 (20:45-21:45) - **SIFT PRACTICUM** (Tim Mullen)</span>
 
-> Parallel session 3 (reserved for sponsors; TBD)
+Parallel session 3 (reserved for sponsors; TBD)
 
 **THURSDAY, June 17th (paid registration required)** ______________________________________________________
 
@@ -150,7 +150,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">PDT 11:45-12:45 (20:45-21:45) - **ICA reliability analysis** (Fiorenzo Artoni)</span>
 
-> Parallel session 3 - (reserved for sponsors; TBD)
+Parallel session 3 - (reserved for sponsors; TBD)
 
 **FRIDAY, June 18th (paid registration required)** ______________________________________________________
 
@@ -184,7 +184,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 >> <span style="color: purple">11:40-12:45 (20:40-21:45) - **The ICLabel plug-in for classifying independent components** (Luca Pion Tonachini)</span>
 
-> Parallel session 3 - (reserved for sponsors; TBD)
+Parallel session 3 - (reserved for sponsors; TBD)
 
 <span style="color: purple">PDT  1:00pm – 1:45 (22:00-22:45) – **Participant presentations and general discussion** (All)</span>
 
