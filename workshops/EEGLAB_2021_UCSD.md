@@ -26,37 +26,37 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## MONDAY, June 14th (open to all; free registration required)
 
-- <span style="color: darkorange">PDT  6:30am – 7:00 (CEST 15:30-16:00) – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
+- <span style="color: black">PDT  6:30am – 7:00 (CEST 15:30-16:00) – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
 
-- <span style="color: darkorange">PDT  7:00am – 7:55 (16:00-16:55) –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
+- <span style="color: gray">PDT  7:00am – 7:55 (16:00-16:55) –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
 
-- <span style="color: gray">PDT  7:00am – 7:45 (16:00-16:45) – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
+- <span style="color: black">PDT  7:00am – 7:45 (16:00-16:45) – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
 
-- <span style="color: purple">PDT  8:00am – 9:10 (17:00-18:10) – **Mining event-related brain dynamics I** (Scott Makeig)</span>
+- <span style="color: black">PDT  8:00am – 9:10 (17:00-18:10) – **Mining event-related brain dynamics I** (Scott Makeig)</span>
 
-- <span style="color: purple">PDT  9:15am – 10:00 (18:15-19:00) – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
+- <span style="color: black">PDT  9:15am – 10:00 (18:15-19:00) – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
 
-- <span style="color: purple">PDT 10:00am - 11:00 (19:00-20:00) - Parallel **participant poster presentations** in the Poster Hall. **Note:** You must register for the whole workshop to present a poster.</span>
+- <span style="color: black">PDT 10:00am - 11:00 (19:00-20:00) - Parallel **participant poster presentations** in the Poster Hall. **Note:** You must register for the whole workshop to present a poster.</span>
 
-- <span style="color: purple">PDT 11:00am - 12:45 (20:00-21:45) - Advanced Topics</span>
+- <span style="color: black">PDT 11:00am - 12:45 (20:00-21:45) - Advanced Topics</span>
 
-> <span style="color: darkred">    Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
+> <span style="color: grey">    Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
 
->> - <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **Wearable EEG device** review (Cedric Cannard)</span>
+>> - <span style="color: black">PDT 11:00-11:30 (20:00-20:30) - **Wearable EEG device** review (Cedric Cannard)</span>
 
->> - <span style="color: purple">PDT 11:30-12:15 (20:30-21:15) - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
+>> - <span style="color: black">PDT 11:30-12:15 (20:30-21:15) - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
 
->> - <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
+>> - <span style="color: black">PDT 12:15-12:45 (21:15-21:45) - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
 
-> <span style="color: darkred">    Parallel session 2 - **Neuroinformatics using BIDS and HED**
+> <span style="color: gray">    Parallel session 2 - **Neuroinformatics using BIDS and HED**
 
->> - <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
+>> - <span style="color: black">PDT 11:00-11:30 (20:00-20:30) - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
 
->> - <span style="color: purple">PDT 11:30-12:10 (20:30-21:00) - **Using 3rd-gen Hierarchical Event Descriptors (HED)** with BIDS (Kay Robbins &amp; Scott Makeig)</span>
+>> - <span style="color: black">PDT 11:30-12:10 (20:30-21:00) - **Using 3rd-gen Hierarchical Event Descriptors (HED)** with BIDS (Kay Robbins &amp; Scott Makeig)</span>
 
->> - <span style="color: purple">PDT 12:10-12:45 (21:00-21:45) - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
+>> - <span style="color: black">PDT 12:10-12:45 (21:00-21:45) - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
-> Parallel session 3 (reserved for sponsors; TBD)
+> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
 ## TUESDAY, June 15th (paid registration required)
 
