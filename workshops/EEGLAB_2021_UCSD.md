@@ -24,29 +24,29 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
-# MONDAY, June 14th (open to all; free registration required)
+## MONDAY, June 14th (open to all; free registration required)
 
-<span style="color: darkorange">PDT  6:30am – 7:00 (CEST 15:30-16:00) – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
+- <span style="color: darkorange">PDT  6:30am – 7:00 (CEST 15:30-16:00) – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
 
-<span style="color: darkorange">PDT  7:00am – 7:55 (16:00-16:55) –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
+- <span style="color: darkorange">PDT  7:00am – 7:55 (16:00-16:55) –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
 
-<span style="color: gray">PDT  7:00am – 7:45 (16:00-16:45) – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
+- <span style="color: gray">PDT  7:00am – 7:45 (16:00-16:45) – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
 
-<span style="color: purple">PDT  8:00am – 9:10 (17:00-18:10) – **Mining event-related brain dynamics I** (Scott Makeig)</span>
+- <span style="color: purple">PDT  8:00am – 9:10 (17:00-18:10) – **Mining event-related brain dynamics I** (Scott Makeig)</span>
 
-<span style="color: purple">PDT  9:15am – 10:00 (18:15-19:00) – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
+- <span style="color: purple">PDT  9:15am – 10:00 (18:15-19:00) – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
 
-<span style="color: purple">PDT 10:00am - 11:00 (19:00-20:00) - Parallel **participant poster presentations** in the Poster Hall. **Note:** You must register for the whole workshop to present a poster.</span>
+- <span style="color: purple">PDT 10:00am - 11:00 (19:00-20:00) - Parallel **participant poster presentations** in the Poster Hall. **Note:** You must register for the whole workshop to present a poster.</span>
 
-<span style="color: purple">PDT 11:00am - 12:45 (20:00-21:45) - Advanced Topics</span>
+- <span style="color: purple">PDT 11:00am - 12:45 (20:00-21:45) - Advanced Topics</span>
 
-<span style="color: darkred">    Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
+- <span style="color: darkred">    Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
 
->> <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **Wearable EEG device** review (Cedric Cannard)</span>
+>> - <span style="color: purple">PDT 11:00-11:30 (20:00-20:30) - **Wearable EEG device** review (Cedric Cannard)</span>
 
->> <span style="color: purple">PDT 11:30-12:15 (20:30-21:15) - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
+>> - <span style="color: purple">PDT 11:30-12:15 (20:30-21:15) - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
 
->> <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
+>> - <span style="color: purple">PDT 12:15-12:45 (21:15-21:45) - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
 
 <span style="color: darkred">    Parallel session 2 - **Neuroinformatics using BIDS and HED**
 
@@ -58,7 +58,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 Parallel session 3 (reserved for sponsors; TBD)
 
-# TUESDAY, June 15th (paid registration required)
+## TUESDAY, June 15th (paid registration required)
 
 <span style="color: purple">PDT  7:00am – 7:45 (16:00-16:45) – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span>
 
@@ -95,7 +95,7 @@ Parallel session 3 (reserved for sponsors; TBD)
 
 Parallel session 3 (reserved for sponsors; TBD)
 
-# WEDNESDAY, June 16th (paid registration required)
+## WEDNESDAY, June 16th (paid registration required)
 
 <span style="color: darkblue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
@@ -123,7 +123,7 @@ Parallel session 3 (reserved for sponsors; TBD)
 
 Parallel session 3 (reserved for sponsors; TBD)
 
-# THURSDAY, June 17th (paid registration required)
+## THURSDAY, June 17th (paid registration required)
 
 <span style="color: darkblue">PDT  7:00am – 7:45 (16:00-16:45) – **ICA clustering PRACTICUM** (Julie Onton)</span>
 
@@ -152,7 +152,7 @@ Parallel session 3 (reserved for sponsors; TBD)
 
 Parallel session 3 - (reserved for sponsors; TBD)
 
-# FRIDAY, June 18th (paid registration required)
+## FRIDAY, June 18th (paid registration required)
 
 <span style="color: darkorange">PDT  7:00am – 7:45 (16:00-16:45) – Network. **Tutors available** for Q&amp;A.</span>
 
