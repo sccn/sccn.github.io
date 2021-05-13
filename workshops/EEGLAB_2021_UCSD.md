@@ -26,7 +26,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## MONDAY, June 14th (open to all; free registration required)
 
-- <span style="color: black">PDT  6:30am – 7:00 (CEST 15:30-16:00) – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
+- <span style="color: gray">PDT  6:30am – 7:00 (CEST 15:30-16:00) – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
 
 - <span style="color: gray">PDT  7:00am – 7:55 (16:00-16:55) –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
 
@@ -40,7 +40,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">PDT 11:00am - 12:45 (20:00-21:45) - Advanced Topics</span>
 
-> <span style="color: grey">    Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
+> <span style="color: gray">    Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
 
 >> - <span style="color: black">PDT 11:00-11:30 (20:00-20:30) - **Wearable EEG device** review (Cedric Cannard)</span>
 
