@@ -24,7 +24,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
-**Time zone:** All time below shown as Pacific Day Time. We are working on tools for automated conversion to other time zones.
+**Time zone:** All time below shown as Pacific Day Time. We are working on automated conversion tools to show the schedule in other time zones.
 
 ## MONDAY, June 14th (open to all; free registration required)
 
