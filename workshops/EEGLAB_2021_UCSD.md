@@ -36,7 +36,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">PDT 9:15am–10:00 – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
 
-- <span style="color: black">PDT 10:00am-11:00 - Parallel **participant poster presentations** in the Poster Hall. **Note:** You must register for the whole workshop to present a poster.</span>
+- <span style="color: black">PDT 10:00am-11:00 - Parallel **participant poster presentations** in the Poster Hall. Note that you must register for the whole workshop to present a poster.</span>
 
 - <span style="color: black">PDT 11:00am-12:45 - Advanced Topics</span>
 
