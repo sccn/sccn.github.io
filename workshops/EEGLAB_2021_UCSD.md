@@ -177,9 +177,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:00</span> - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-11:45</span>- **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">11:45</span>- **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timezone="PDT">11:45</span>-12:15</span>- **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:45</span>-<span class="time" data-timezone="PDT">12:15</span>- **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
 > - <span style="color: black"><span class="time" data-timezone="PDT">12:15</span>-<span class="time" data-timezone="PDT">12:45</span> - **EEGLAB and high-performance computing (Arnaud Delorme)</span>
 
