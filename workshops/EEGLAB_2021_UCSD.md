@@ -24,77 +24,81 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
-**Time zone:** All time below shown as Pacific Day Time. We are working on tools for automated conversion to other time zones.
+**Time zone:** All time below shown as Pacific Day Time. You can choose to view in other timezones below.
+<button onclick="changeTimezone('PDT')" style="background-color: #4CAF50; color: white; border: none; padding: 5px 5px; text-align: center;">PDT</button>
+<button onclick="changeTimezone('EDT')" style="background-color: #008CBA; color: white; border: none; padding: 5px 5px; text-align: center;">EDT</button>
+<button onclick="changeTimezone('CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">CEST</button>
 
 ## MONDAY, June 14th (open to all; free registration required)
 
-- <span style="color: black">6:30am – 7:00 (CEST 15:30-16:00) – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
 
-- <span style="color: black">7:00am–7:55 –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
+- <span style="color: black"><span class="time" data-timezone="PDT">06:30am</span>–<span class="time" data-timezone="PDT">7:00</span> (CEST 15:30</span>-16:00) – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
 
-- <span style="color: black">7:00am–7:45 – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">7:00am</span>–<span class="time" data-timezone="PDT">7:55</span> –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
 
-- <span style="color: black">8:00am–9:10 – **Mining event-related brain dynamics I** (Scott Makeig)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">7:00am</span>–<span class="time" data-timezone="PDT">7:45</span> – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
 
-- <span style="color: black">9:15am–10:00 – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">8:00am</span>–<span class="time" data-timezone="PDT">9:10</span>– **Mining event-related brain dynamics I** (Scott Makeig)</span>
 
-- <span style="color: black">10:00am-11:00 - Parallel **participant poster presentations** in the Poster Hall. Note that you must register for the whole workshop to present a poster.</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">9:15am</span>–<span class="time" data-timezone="PDT">10:00</span> – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
 
-- <span style="color: black">11:00am-12:45 - Advanced Topics</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">10:00am</span>-<span class="time" data-timezone="PDT">11:00</span> - Parallel **participant poster presentations** in the Poster Hall. Note that you must register for the whole workshop to present a poster.</span>
+
+- <span style="color: black"><span class="time" data-timezone="PDT">11:00am</span>-<span class="time" data-timezone="PDT">12:45</span> - Advanced Topics</span>
 
 > <span style="color: gray">Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
 
-> - <span style="color: black">11:00-11:30 - **Wearable EEG device** review (Cedric Cannard)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">11:30</span> - **Wearable EEG device** review (Cedric Cannard)</span>
 
-> - <span style="color: black">11:30-12:15 - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:30</span>-<span class="time" data-timezone="PDT">12:15</span> - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
 
-> - <span style="color: black">12:15-12:45 - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">12:15</span>-<span class="time" data-timezone="PDT">12:45</span> - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
 
 > <span style="color: gray">Parallel session 2 - **Neuroinformatics using BIDS and HED**
 
-> - <span style="color: black">11:00-11:30 - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">11:30</span> - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
 
-> - <span style="color: black">11:30-12:10 - **3rd-gen Hierarchical Event Descriptors (HED)** (Robbins &amp; Makeig)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:30</span>-<span class="time" data-timezone="PDT">12:10</span> - **3rd-gen Hierarchical Event Descriptors (HED)** (Robbins &amp; Makeig)</span>
 
-> - <span style="color: black">12:10-12:45 - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">12:10</span>-<span class="time" data-timezone="PDT">12:45</span> - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
 ## TUESDAY, June 15th (paid registration required)
 
-- <span style="color: black">7:00am–7:45 – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">7:00am</span>–<span class="time" data-timezone="PDT">7:45</span> – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span>
 
-- <span style="color: black">8:00am–9:00 – **Time-frequency decomposition: Theory** (John Iversen)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">8:00am</span>–<span class="time" data-timezone="PDT">9:00</span> – **Time-frequency decomposition: Theory** (John Iversen)</span>
 
-- <span style="color: black">9:00am–10:00 – **ICA theory** (Jason Palmer &amp; Scott Makeig)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">9:00am</span>–<span class="time" data-timezone="PDT">10:00</span> – **ICA theory** (Jason Palmer &amp; Scott Makeig)</span>
 
-- <span style="color: black">10:00am–10:30 – Social time. **Tutors available** for Q&amp;A </span>
+- <span style="color: black"><span class="time" data-timezone="PDT">10:00am</span>–<span class="time" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A </span>
 
-- <span style="color: black">10:30am-12:45 - **Advanced Topics**</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">10:30am</span>-<span class="time" data-timezone="PDT">12:45</span> - **Advanced Topics**</span>
 
 > <span style="color: gray"> > Parallel session 1 - **Time-frequency and connectivity analysis**
 
-> - <span style="color: black">10:30- 11:30 - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:30</span> - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
 
-> - <span style="color: black">11:30- 12:00 - **Phase/amplitude coherence (PAC) plugin (Ramon Martinez Cancino)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:30</span>-<span class="time" data-timezone="PDT">12:00</span> - **Phase/amplitude coherence (PAC) plugin (Ramon Martinez Cancino)</span>
 
-> - <span style="color: black">12:00- 12:45 - **The PowPowCAT plug-in** (Makoto Myakoshi)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">12:00</span>-<span class="time" data-timezone="PDT">12:45</span> - **The PowPowCAT plug-in** (Makoto Myakoshi)</span>
 
 > <span style="color: gray">Parallel session 2 - **Lab Streaming Layer (LSL) for multimodal data collection**
 
-> - <span style="color: black">10:00-10:45 - **LSL introduction and demonstration** (Christian Kothe)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">10:00</span>-<span class="time" data-timezone="PDT">10:45</span> - **LSL introduction and demonstration** (Christian Kothe)</span>
 
-> - <span style="color: black">10:45-11:00 - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">10:45</span>-<span class="time" data-timezone="PDT">11:00</span> - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
 
-> - <span style="color: black">11:00-11:30 - **LSL synchronization and other topics**</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">11:30</span> - **LSL synchronization and other topics**</span>
 
-> - <span style="color: black">11:30-12:00 - **LSL in virtual reality and iEEG** (Chadwick Boulay)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:30</span>-<span class="time" data-timezone="PDT">12:00</span> - **LSL in virtual reality and iEEG** (Chadwick Boulay)</span>
 
-> - <span style="color: black">12:00-12:15 - **LSL troubleshooting I** (David Medine)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">12:00</span>-<span class="time" data-timezone="PDT">12:15</span> - **LSL troubleshooting I** (David Medine)</span>
 
-> - <span style="color: black">12:15-12:30 - **LSL troubleshooting II** (Fiorenzo Artoni)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">12:15</span>-<span class="time" data-timezone="PDT">12:30</span> - **LSL troubleshooting II** (Fiorenzo Artoni)</span>
 
-> - <span style="color: black">12:30-12:45 - **LSL wrap up**</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">12:30</span>-<span class="time" data-timezone="PDT">12:45</span> - **LSL wrap up**</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
@@ -102,27 +106,27 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: darkblue">7:00am–7:45 – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
-- <span style="color: black">8:00am–9:00 – **Forward &amp; inverse head modeling** (Zeynep Aakalin Acar)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">8:00am</span>–<span class="time" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Zeynep Aakalin Acar)</span>
 
-- <span style="color: black">9:00am –10:00 – **EEG connectivity analysis** (Tim Mullen)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">9:00am</span>–<span class="time" data-timezone="PDT">10:00</span> – **EEG connectivity analysis** (Tim Mullen)</span>
 
-- <span style="color: black">10:00am–10:30 – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">10:00am</span>–<span class="time" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
 
-- <span style="color: black">10:30am-12:45 - **Advanced Topics**</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">10:30am</span>-<span class="time" data-timezone="PDT">12:45</span> - **Advanced Topics**</span>
 
 > <span style="color: gray">Parallel session 1 **NFT/NIST forward head modeling & high-res. source imaging plug-ins**
 
-> - <span style="color: black">10:30-11:00 - **High-resolution source imaging** (Zeynep Aakalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Aakalin Acar)</span>
 
-> - <span style="color: darkblue">11:00-12:45 - **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
+> - <span style="color: darkblue">11:00</span>-12:45</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
 
 > <span style="color: gray">Parallel session 2 - **Connectivity analysis**
 
-> - <span style="color: black">10:30- 11:00 - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:00</span> - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
 
-> - <span style="color: black">11:00-11:45 - **Connectivity analysis using SIFT** (Tim Mullen)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">11:45</span> - **Connectivity analysis using SIFT** (Tim Mullen)</span>
 
-> - <span style="color: darkblue">11:45-12:45 - **SIFT PRACTICUM** (Tim Mullen)</span>
+> - <span style="color: darkblue">11:45</span>-<span class="time" data-timezone="PDT">12:45</span>- **SIFT PRACTICUM** (Tim Mullen)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
@@ -130,66 +134,66 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: darkblue">7:00am–7:45 – **ICA clustering PRACTICUM** (Julie Onton)</span>
 
-- <span style="color: black">8:00am-9:00 – **EEGLAB group analysis** (Arnaud Delorme)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">8:00am</span>-<span class="time" data-timezone="PDT">9:00</span> – **EEGLAB group analysis** (Arnaud Delorme)</span>
 
-- <span style="color: black">9:00am-10:00 – **Bootstrap statistics** (Cyril Pernet)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">9:00am</span>-<span class="time" data-timezone="PDT">10:00</span> – **Bootstrap statistics** (Cyril Pernet)</span>
 
-- <span style="color: black">10:00am–10:30 – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">10:00am</span>–<span class="time" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
 
-- <span style="color: black">10:30am-12:45 - **Advanced Topics**</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">10:30am</span>-<span class="time" data-timezone="PDT">12:45</span> - **Advanced Topics**</span>
 
 > <span style="color: gray">Parallel session 1 - **Linear statistical modeling of EEG data**
 
-> - <span style="color: black">10:30-11:00 - **Introduction to linear modeling** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:00</span> - **Introduction to linear modeling** (Arnaud Delorme)</span>
 
-> - <span style="color: black">11:00-11:30 - **Statistics using linear modeling** (Cyril Pernet)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">11:30</span> - **Statistics using linear modeling** (Cyril Pernet)</span>
 
-> - <span style="color: darkblue">11:30-12:45 - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
+> - <span style="color: darkblue">11:30</span>-12:45 - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
 
 > <span style="color: gray">Parallel session 2 - **Advanced ICA analysis**
 
-> - <span style="color: black">10:30-11:15 - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:15</span> - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
 
-> - <span style="color: black">11:15-11:45 - **IMAT: Independent Modulator Analysis plug-in** (Wagner &amp; Onton)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:15</span>-<span class="time" data-timezone="PDT">11:45</span> - **IMAT: Independent Modulator Analysis plug-in** (Wagner &amp; Onton)</span>
 
-> - <span style="color: black">11:45-12:45 - **ICA reliability analysis** (Fiorenzo Artoni)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:45</span>-<span class="time" data-timezone="PDT">12:45</span> - **ICA reliability analysis** (Fiorenzo Artoni)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
 ## FRIDAY, June 18th (paid registration required)
 
-- <span style="color: black">7:00am–7:45 – Network. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">7:00am</span>–<span class="time" data-timezone="PDT">7:45</span> – Network. **Tutors available** for Q&amp;A.</span>
 
-- <span style="color: black">8:00am–9:30 – **Mining event-related brain dynamics II** (Scott Makeig)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">8:00am</span>–<span class="time" data-timezone="PDT">9:30</span> – **Mining event-related brain dynamics II** (Scott Makeig)</span>
 
-- <span style="color: black">9:30am–10:00 – **Deep learning for EEG - the HBN benchmark dataset** (Delorme)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">9:30am</span>–<span class="time" data-timezone="PDT">10:00</span> – **Deep learning for EEG - the HBN benchmark dataset** (Delorme)</span>
 
-- <span style="color: black">10:00am–10:30 – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">10:00am</span>–<span class="time" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
 
-- <span style="color: black">10:30am-12:45 - Advanced Topics</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">10:30am</span>-<span class="time" data-timezone="PDT">12:45</span> - Advanced Topics</span>
 
 > <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting in EEGLAB**
 
-> - <span style="color: black">10:30-11:00 - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:00</span> - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
 
-> - <span style="color: darkblue">11:00-11:45 - **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: darkblue"><span class="time" data-timezone="PDT">11:00</span>-11:45</span>- **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
-> - <span style="color: darkblue">11:45-12:15 - **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: darkblue"><span class="time" data-timezone="PDT">11:45</span>-12:15</span>- **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
-> - <span style="color: black">12:15-12:45 - **EEGLAB and high-performance computing (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">12:15</span>-<span class="time" data-timezone="PDT">12:45</span> - **EEGLAB and high-performance computing (Arnaud Delorme)</span>
 
 > <span style="color: gray">Parallel session 2 **Automated artifact rejection and component classification**
 
-> - <span style="color: black">10:30-11:00 - **Artifact Subspace reconstruction** (Christian Kothe)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:00</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
 
-> - <span style="color: black">11:00-11:20 - **ASR performance analysis I** (Fiorenzo Artoni)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">11:20</span> - **ASR performance analysis I** (Fiorenzo Artoni)</span>
 
-> - <span style="color: black">11:20-11:40 - **ASR performance analysis II** (Tzyy Ping Jung)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:20</span>-<span class="time" data-timezone="PDT">11:40</span> - **ASR performance analysis II** (Tzyy Ping Jung)</span>
 
-> - <span style="color: black">11:40-12:45 - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:40</span>-<span class="time" data-timezone="PDT">12:45pm</span> - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
-- <span style="color: black">1:00pm–1:45 – **Participant presentations and general discussion** (All)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">1:00pm</span>–<span class="time" data-timezone="PDT">1:45pm</span>– **Participant presentations and general discussion** (All)</span>
 
-- <span style="color: black">1:45pm–2:00 – Close</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">1:45pm</span>–<span class="time" data-timezone="PDT">2:00pm</span>– Close</span>
