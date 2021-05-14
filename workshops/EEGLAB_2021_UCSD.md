@@ -76,7 +76,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black"><span class="time" data-timezone="PDT">10:30am</span>-<span class="time" data-timezone="PDT">12:45</span> - **Advanced Topics**</span>
 
-> <span style="color: gray"> > Parallel session 1 - **Time-frequency and connectivity analysis**
+> <span style="color: gray">Parallel session 1 - **Time-frequency and connectivity analysis**
 
 > - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:30</span> - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
 
@@ -104,7 +104,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## WEDNESDAY, June 16th (paid registration required)
 
-- <span style="color: darkblue">7:00am–7:45 – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
+- <span style="color: black">7:00am–7:45 – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
 - <span style="color: black"><span class="time" data-timezone="PDT">8:00am</span>–<span class="time" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Zeynep Aakalin Acar)</span>
 
@@ -114,11 +114,11 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black"><span class="time" data-timezone="PDT">10:30am</span>-<span class="time" data-timezone="PDT">12:45</span> - **Advanced Topics**</span>
 
-> <span style="color: gray">Parallel session 1 **NFT/NIST forward head modeling & high-res. source imaging plug-ins**
+> <span style="color: gray">Parallel session 1 **NFT/NIST high-res. source imaging plug-ins**
 
 > - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Aakalin Acar)</span>
 
-> - <span style="color: darkblue">11:00</span>-12:45</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">12:45</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
 
 > <span style="color: gray">Parallel session 2 - **Connectivity analysis**
 
@@ -126,13 +126,13 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">11:45</span> - **Connectivity analysis using SIFT** (Tim Mullen)</span>
 
-> - <span style="color: darkblue">11:45</span>-<span class="time" data-timezone="PDT">12:45</span>- **SIFT PRACTICUM** (Tim Mullen)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:45</span>-<span class="time" data-timezone="PDT">12:45</span>- **SIFT PRACTICUM** (Tim Mullen)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
 ## THURSDAY, June 17th (paid registration required)
 
-- <span style="color: darkblue">7:00am–7:45 – **ICA clustering PRACTICUM** (Julie Onton)</span>
+- <span style="color: black">7:00am–7:45 – **ICA clustering PRACTICUM** (Julie Onton)</span>
 
 - <span style="color: black"><span class="time" data-timezone="PDT">8:00am</span>-<span class="time" data-timezone="PDT">9:00</span> – **EEGLAB group analysis** (Arnaud Delorme)</span>
 
@@ -148,7 +148,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-<span class="time" data-timezone="PDT">11:30</span> - **Statistics using linear modeling** (Cyril Pernet)</span>
 
-> - <span style="color: darkblue">11:30</span>-12:45 - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:30</span>-<span class="time" data-timezone="PDT">12:45</span> - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
 
 > <span style="color: gray">Parallel session 2 - **Advanced ICA analysis**
 
@@ -176,9 +176,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timezone="PDT">10:30</span>-<span class="time" data-timezone="PDT">11:00</span> - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
 
-> - <span style="color: darkblue"><span class="time" data-timezone="PDT">11:00</span>-11:45</span>- **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:00</span>-11:45</span>- **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
-> - <span style="color: darkblue"><span class="time" data-timezone="PDT">11:45</span>-12:15</span>- **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timezone="PDT">11:45</span>-12:15</span>- **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
 > - <span style="color: black"><span class="time" data-timezone="PDT">12:15</span>-<span class="time" data-timezone="PDT">12:45</span> - **EEGLAB and high-performance computing (Arnaud Delorme)</span>
 
