@@ -6,6 +6,12 @@ categories: preproc
 parent: 5. Preprocess data
 grand_parent: Tutorials
 ---
+# Introduction
+Below a graphical explanation of the meaning of cutoff frequencies, pass band, stop band, as well as transition bands.
+![image](https://user-images.githubusercontent.com/10362238/118734865-23797e00-b7f4-11eb-9eec-f52ffcba0585.png)
+
+In the default Windowed Sync filter, we have given some reasonable start values there for the filter order: 2 * cutoff freq for highpass and bandpass (for cutoff < 2Hz). 20 to 40% of cutoff freq for lowpass and 1 to 5 Hz for line noise bandstop. The basic rule is to have the transition band as wide (roll-off soft) as possible to avoid artifacts but separated from the signal of interest.
+
 Filtering the data
 =======
 To remove linear trends, it is often desirable to high-pass filter the
