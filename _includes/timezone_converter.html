@@ -9,19 +9,35 @@
             }
             if (fromTimezone !== toTimezone) {
                 const timeText = elem.innerHTML;
+                let fromDateText = elem.dataset.date;
+                if (!fromDateText)
+                    fromDateText = "2020-04-13";
+                /* conversion */
                 const [validFromTimezone, utcOffset] = getValidTimezone(fromTimezone);
-                const dateTimeString = "2020-04-13T" + reformatTimeString(timeText) + utcOffset;
+                const dateTimeString = reformatTimeString(timeText, fromDateText) + utcOffset;
                 const [validToTimezone,offset] = getValidTimezone(toTimezone);
                 const converted = new Date(dateTimeString).toLocaleString("en-GB", {timeZone: validToTimezone});
+                /* check date of converted time and add (next day) string to result if +1 day */
+                const convertedDateOnly = new Date(dateTimeString).toLocaleString("en-GB", {timeZone: validToTimezone, year:'numeric', month:'2-digit', day:'2-digit'});
+                let toDateText = convertedDateOnly.split('/');
+                toDateText = [toDateText[2], toDateText[1], toDateText[0]].join('-');
                 const newTimeArray = converted.split(" ")[1].split(":");
-                const newTime = newTimeArray[0] + ":" + newTimeArray[1];
+                let newTime = newTimeArray[0] + ":" + newTimeArray[1];
+                if (toDateText > fromDateText)
+                    newTime += " (next day)";
+                /* set new value */
                 elem.innerHTML = newTime;
                 elem.dataset.timezone = toTimezone;
+                elem.dataset.date = toDateText;
             }
         }
     }
-    function reformatTimeString(timeString) {
-        const re = /(\d?\d:\d\d)(am|pm|AM|PM)?/;
+
+    /*
+    Convert date time string into a format accepted by Date object
+     */
+    function reformatTimeString(timeString, dateString) {
+        const re = /(\d?\d:\d\d)(am|pm|AM|PM)?( \(next day\))?/;
         const parsed = timeString.match(re);
         if (parsed) {
             const hourMinArray = parsed[1].split(":");
@@ -33,7 +49,10 @@
                 }
             }
             const hourString = hour.toString().padStart(2, '0');
-            return hourString + ":" + hourMinArray[1];
+            if (dateString)
+                return dateString + "T" + hourString + ":" + hourMinArray[1];
+            else
+                return "2020-04-13T" + hourString + ":" + hourMinArray[1];
         }
         else
             return null
