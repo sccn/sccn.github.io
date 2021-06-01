@@ -29,6 +29,10 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 <button onclick="changeTimezone('PDT')" style="background-color: #4CAF50; color: white; border: none; padding: 5px 5px; text-align: center;">PDT</button>
 <button onclick="changeTimezone('EDT')" style="background-color: #008CBA; color: white; border: none; padding: 5px 5px; text-align: center;">EDT</button>
 <button onclick="changeTimezone('CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">CEST</button>
+<button onclick="changeTimezone('CST')" style="background-color: #ebcf34; color: white; border: none; padding: 5px 5px; text-align: center;">CST</button>
+<button onclick="changeTimezone('MST')" style="background-color:#34bdeb; color: white; border: none; padding: 5px 5px; text-align: center;">MST</button>
+<button onclick="changeTimezone('BST')" style="background-color:Grey; color: white; border: none; padding: 5px 5px; text-align: center;">BST</button>
+<button onclick="changeTimezone('IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">IST</button>
 
 ## MONDAY, June 14th (open to all; free registration required)
 

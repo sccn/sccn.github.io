@@ -54,6 +54,22 @@
                     validTimezone = "Europe/Amsterdam";
                     offset = "+02:00";
                     break;
+                case 'CST':
+                    validTimezone = "Asia/Hong_Kong";
+                    offset = "+08:00";
+                    break;
+                case 'MST':
+                    validTimezone = "America/Denver";
+                    offset = "-06:00";
+                    break;
+                case 'BST':
+                    validTimezone = "Europe/London";
+                    offset = "+01:00";
+                    break;
+                case 'IST':
+                    validTimezone = "Asia/Kolkata";
+                    offset = "+05:30";
+                    break;
             }
             return [validTimezone, offset];
         }
