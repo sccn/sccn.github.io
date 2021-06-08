@@ -144,7 +144,7 @@ help pop_loadset
 help eeg_store
 ```
 
-EEGLAB dsataset history
+EEGLAB dataset history
 -----------------------
 
 In EEGLAB, the data structure describing the current dataset can be
