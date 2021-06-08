@@ -29,6 +29,10 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 <button onclick="changeTimezone('PDT')" style="background-color: #4CAF50; color: white; border: none; padding: 5px 5px; text-align: center;">PDT</button>
 <button onclick="changeTimezone('EDT')" style="background-color: #008CBA; color: white; border: none; padding: 5px 5px; text-align: center;">EDT</button>
 <button onclick="changeTimezone('CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">CEST</button>
+<button onclick="changeTimezone('CST')" style="background-color: #ebcf34; color: white; border: none; padding: 5px 5px; text-align: center;">CST</button>
+<button onclick="changeTimezone('MST')" style="background-color:#34bdeb; color: white; border: none; padding: 5px 5px; text-align: center;">MST</button>
+<button onclick="changeTimezone('BST')" style="background-color:Grey; color: white; border: none; padding: 5px 5px; text-align: center;">BST</button>
+<button onclick="changeTimezone('IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">IST</button>
 
 ## MONDAY, June 14th (open to all; free registration required)
 
@@ -105,7 +109,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## WEDNESDAY, June 16th (paid registration required)
 
-- <span style="color: black">7:00am–7:45 – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">7:00am</span>–<span class="time" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
 - <span style="color: black"><span class="time" data-timezone="PDT">8:00am</span>–<span class="time" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Zeynep Aakalin Acar)</span>
 
@@ -133,7 +137,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## THURSDAY, June 17th (paid registration required)
 
-- <span style="color: black">7:00am–7:45 – **ICA clustering PRACTICUM** (Julie Onton)</span>
+- <span style="color: black"><span class="time" data-timezone="PDT">7:00am</span>–<span class="time" data-timezone="PDT">7:45</span> – **ICA clustering PRACTICUM** (Julie Onton)</span>
 
 - <span style="color: black"><span class="time" data-timezone="PDT">8:00am</span>-<span class="time" data-timezone="PDT">9:00</span> – **EEGLAB group analysis** (Arnaud Delorme)</span>
 

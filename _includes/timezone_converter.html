@@ -1,0 +1,95 @@
+<script>
+    function changeTimezone(toTimezone) {
+        var elems = document.getElementsByClassName("time");
+        for (let i = 0; i < elems.length; i++) {
+            const elem = elems[i];
+            let fromTimezone = elem.dataset.timezone;
+            if (fromTimezone === undefined) {
+                fromTimezone = 'PDT';
+            }
+            if (fromTimezone !== toTimezone) {
+                const timeText = elem.innerHTML;
+                let fromDateText = elem.dataset.date;
+                if (!fromDateText)
+                    fromDateText = "2020-04-13";
+                /* conversion */
+                const [validFromTimezone, utcOffset] = getValidTimezone(fromTimezone);
+                const dateTimeString = reformatTimeString(timeText, fromDateText) + utcOffset;
+                const [validToTimezone,offset] = getValidTimezone(toTimezone);
+                const converted = new Date(dateTimeString).toLocaleString("en-GB", {timeZone: validToTimezone});
+                /* check date of converted time and add (next day) string to result if +1 day */
+                const convertedDateOnly = new Date(dateTimeString).toLocaleString("en-GB", {timeZone: validToTimezone, year:'numeric', month:'2-digit', day:'2-digit'});
+                let toDateText = convertedDateOnly.split('/');
+                toDateText = [toDateText[2], toDateText[1], toDateText[0]].join('-');
+                const newTimeArray = converted.split(" ")[1].split(":");
+                let newTime = newTimeArray[0] + ":" + newTimeArray[1];
+                if (toDateText > fromDateText)
+                    newTime += " (next day)";
+                /* set new value */
+                elem.innerHTML = newTime;
+                elem.dataset.timezone = toTimezone;
+                elem.dataset.date = toDateText;
+            }
+        }
+    }
+
+    /*
+    Convert date time string into a format accepted by Date object
+     */
+    function reformatTimeString(timeString, dateString) {
+        const re = /(\d?\d:\d\d)(am|pm|AM|PM)?( \(next day\))?/;
+        const parsed = timeString.match(re);
+        if (parsed) {
+            const hourMinArray = parsed[1].split(":");
+            let hour = parseInt(hourMinArray[0]);
+            if (parsed[2]) {
+                if (parsed[2].toLowerCase() === "pm") {
+                    if (hour !== 12)
+                        hour += 12;
+                }
+            }
+            const hourString = hour.toString().padStart(2, '0');
+            if (dateString)
+                return dateString + "T" + hourString + ":" + hourMinArray[1];
+            else
+                return "2020-04-13T" + hourString + ":" + hourMinArray[1];
+        }
+        else
+            return null
+    }
+    function getValidTimezone(timezone) {
+        let validTimezone = "";
+        let offset = "";
+        switch (timezone) {
+            case 'PDT':
+                validTimezone = "America/Los_Angeles";
+                offset = "-07:00";
+                break;
+            case 'EDT':
+                validTimezone = "America/New_York";
+                offset = "-04:00";
+                break;
+            case 'CEST':
+                validTimezone = "Europe/Amsterdam";
+                offset = "+02:00";
+                break;
+            case 'CST':
+                validTimezone = "Asia/Hong_Kong";
+                offset = "+08:00";
+                break;
+            case 'MST':
+                validTimezone = "America/Denver";
+                offset = "-06:00";
+                break;
+            case 'BST':
+                validTimezone = "Europe/London";
+                offset = "+01:00";
+                break;
+            case 'IST':
+                validTimezone = "Asia/Kolkata";
+                offset = "+05:30";
+                break;
+        }
+        return [validTimezone, offset];
+    }
+</script>
