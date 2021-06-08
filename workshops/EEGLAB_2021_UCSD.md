@@ -102,7 +102,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:30pm</span> - **LSL troubleshooting I** (David Medine)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **LSL wrap up**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **LSL wrap up** (Tim Mullen)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
