@@ -32,6 +32,55 @@
             }
         }
     }
+    function changeFormat() {
+        const elems = document.getElementsByClassName("time");
+        for (let i = 0; i < elems.length; i++) {
+            const elem = elems[i];
+            const timeText = elem.innerHTML;
+            const [newTime, curFormat] = getNewFormat(timeText, elem.dataset.timeformat);
+            elem.innerHTML = newTime;
+            elem.dataset.timeformat = curFormat;
+        }
+    }
+
+    function getNewFormat(timeString, curFormat) {
+        /*
+        If curFormat is 12hr -> change to 24hr and vice versa
+         */
+        const re = /(\d?\d:\d\d)(am|pm|AM|PM)?( \(next day\))?/;
+        const parsed = timeString.match(re);
+        if (parsed) {
+            const hourMinArray = parsed[1].split(":");
+            let hour = parseInt(hourMinArray[0]);
+            let postfix = "";
+
+            if (parsed[2] || curFormat === "12hr") {
+                if (parsed[2] && parsed[2].toLowerCase() === "pm") {
+                    if (hour !== 12)
+                        hour += 12;
+                }
+                curFormat = "24hr";
+            }
+            else if (curFormat === "24hr") {
+                if (hour === 24) {
+                    hour = 0;
+                    postfix = "am";
+                }
+                else if (hour === 12)
+                    postfix = "pm";
+                else if (hour > 12) {
+                    hour -= 12;
+                    postfix = "pm";
+                }
+                else
+                    postfix = "am";
+                curFormat = "12hr";
+            }
+            const hourString = hour.toString().padStart(2, '0');
+            return [hourString + ":" + hourMinArray[1] + postfix, curFormat];
+        }
+        return [timeString, curFormat];
+    }
 
     /*
     Convert date time string into a format accepted by Date object
