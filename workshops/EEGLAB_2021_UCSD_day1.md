@@ -11,8 +11,6 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 # 2021 Virtual EEGLAB Workshop MONDAY, June 14th 
 
-**Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
-
 **Time zone:** All the times below are shown in California (Pacific Daylight) Time. Click on one of the time zone boxes below to select your time zone (we are in process of adding more zones). 
 
 <button onclick="changeFormat()" style="background-color: Black; color: White; border: none; padding: 5px 5px; text-align: center;">Switch format</button>
@@ -26,7 +24,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">06:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:00</span> – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:55</span> –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:55</span> –  **Gather** in the [Gather.Town workshop site](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021). **Meet the tutors**. </span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
 
