@@ -140,7 +140,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **EEGLAB group analysis** (Arnaud Delorme)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **Bootstrap statistics** (Cyril Pernet)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **Multiple comparisons corrections and the use of bootstrap** (Cyril Pernet)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
 
