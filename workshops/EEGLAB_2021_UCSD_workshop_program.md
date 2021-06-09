@@ -11,19 +11,10 @@ layout: redirect
 redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 # 2021 Virtual EEGLAB Workshop
-From June 14 to June 18, the 30th EEGLAB workshop will be held online in a virtual brain conference site on [GatherTown](https://gather.town/). The first day will be free for all and will feature lectures and social events. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG.
 
-**<span style="color: red">REGISTRATION is now OPEN </span>**.
+This page is only for day 2-5 of the EEGLAB workshop. Refer to the orther email you have received for day 1. If you have not registered for day 1, you may register [here](https://www.eventbrite.com/e/147847663341).
 
-[<b>Register for the free first day session, Monday June 14 here</b>](https://www.eventbrite.com/e/147847663341).
-
-[<b>Register for the workshop sessions, Tuesday-Friday June 15-18th here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.
-
-We are looking forward to meeting you online ... 
-
-Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held online, with social networking possible in the [GatherTown](https://gather.town/) environment. All hours are shown in Pacific Daylight Savings Time (PDT), and, in parentheses, Central European Summer Time (CEST). The time has been arranged to accommodate North and South American as well as Western European and African time zone waking hours. 'Night owl' participants from elsewhere are welcome as well. A later event will be planned to better accommodate Asian time zones. 
-
-**Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
+**Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins. Please see also this [introduction video](https://youtu.be/jNvZs-lNAz8).
 
 **Time zone:** All the times below are shown in California (Pacific Daylight) Time. Click on one of the time zone boxes below to select your time zone (we are in process of adding more zones). 
 
@@ -38,38 +29,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## MONDAY, June 14th (open to all; free registration required)
 
-
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">06:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:00</span> – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
-
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:55</span> –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
-
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
-
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:10</span>– **Mining event-related brain dynamics I** (Scott Makeig)</span>
-
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:15am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
-
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - Parallel **participant poster presentations** in the Poster Hall. Note that you must register for the whole workshop to present a poster.</span>
-
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - Advanced Topics</span>
-
-> <span style="color: gray">Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
-
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Wearable EEG device** review (Cedric Cannard)</span>
-
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
-
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
-
-> <span style="color: gray">Parallel session 2 - **Neuroinformatics using BIDS and HED**
-
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
-
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:10pm</span> - **3rd-gen Hierarchical Event Descriptors (HED)** (Robbins &amp; Makeig)</span>
-
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:10</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
-
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
+Use link from other email you have received to access the program for this day.
 
 ## TUESDAY, June 15th (paid registration required)
 
