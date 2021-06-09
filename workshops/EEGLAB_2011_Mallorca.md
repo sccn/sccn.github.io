@@ -355,9 +355,6 @@ practicum](ftp://sccn.ucsd.edu/pub/julie/extra.zip)
 
 
 
-<span style="color: blue><b>Preliminary Program -- Sunday, Sept. 25</b></span>
-
-
 <b>Session F - Workshop Review, Results, and Discussion</b>
 
 <!-- -->
