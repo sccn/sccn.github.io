@@ -9,7 +9,7 @@ nav_exclude: true
 layout: redirect
 redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
-# 2021 Virtual EEGLAB Workshop (day 1) MONDAY, June 14th 
+# 2021 Virtual EEGLAB Workshop MONDAY, June 14th 
 
 **Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
