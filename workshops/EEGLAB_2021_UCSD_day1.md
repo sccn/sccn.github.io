@@ -32,7 +32,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:15am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - Parallel **participant poster presentations** in the Poster Hall. Note that you must register for the whole workshop to present a poster.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - Parallel **participant poster presentations** in the [Poster Hall in Gather Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021). Note that you must register for the whole workshop to present a poster.</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - Advanced Topics</span>
 
