@@ -31,7 +31,7 @@ This page is only for day 2-5 of the EEGLAB workshop. Refer to the orther email 
 
 ## MONDAY, June 14th (open to all; free registration required)
 
-Use link from other email you have received to access the program for this day.
+Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access the program for this day.
 
 ## TUESDAY, June 15th (paid registration required)
 
@@ -41,7 +41,7 @@ Use link from other email you have received to access the program for this day.
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **ICA theory** (Jason Palmer &amp; Scott Makeig)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in Gather.Town** for Q&amp;A </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://eeglab.org/workshops/deadlink.html)** for Q&amp;A </span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
 
@@ -69,6 +69,8 @@ Use link from other email you have received to access the program for this day.
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290)
 
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span> – Social and tutorial time **in [Gather.Town](https://eeglab.org/workshops/deadlink.html)** for Q&amp;A </span>
+
 ## WEDNESDAY, June 16th (paid registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition practicum** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974)
@@ -77,7 +79,7 @@ Use link from other email you have received to access the program for this day.
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **EEG connectivity analysis** (Tim Mullen)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://eeglab.org/workshops/deadlink.html)** for Q&amp;A </span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
 
@@ -105,7 +107,7 @@ Use link from other email you have received to access the program for this day.
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **[Multiple comparisons corrections and the use of bootstrap](https://eeglab.org/tutorials/misc/2021_MCC_and_boot_EEGLAB_workshop.pdf)** (Cyril Pernet)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://eeglab.org/workshops/deadlink.html)** for Q&amp;A </span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
 
@@ -135,9 +137,9 @@ Use link from other email you have received to access the program for this day.
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **Deep learning for EEG - the HBN benchmark dataset** (Delorme)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://eeglab.org/workshops/deadlink.html)** for Q&amp;A </span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - Advanced Topics</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
 
 > <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting in EEGLAB** [Zoom link](https://ucsd.zoom.us/j/5822114965)
 
