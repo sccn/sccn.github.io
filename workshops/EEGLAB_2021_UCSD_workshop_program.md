@@ -91,7 +91,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **SIFT PRACTICUM** (Tim Mullen)</span>
 
-> <span style="color: gray">Parallel session 2 **NFT/NIST high-res. source imaging plug-ins** [Zoom link](https://ucsd.zoom.us/j/6617129974) or [EEG tech Room](https://eeglab.org/workshops/deadlink.html)
+> <span style="color: gray">Parallel session 2 **NFT/NIST source imaging plug-ins** [Zoom link](https://ucsd.zoom.us/j/6617129974) or [EEG tech Room](https://eeglab.org/workshops/deadlink.html)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Aakalin Acar)</span>
 
@@ -145,7 +145,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
 
-> <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting in EEGLAB** [Zoom link](https://ucsd.zoom.us/j/5822114965) or [Brain Room](https://eeglab.org/workshops/deadlink.html)
+> <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting** [Zoom link](https://ucsd.zoom.us/j/5822114965) or [Brain Room](https://eeglab.org/workshops/deadlink.html)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
 
@@ -165,7 +165,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **ASR performance analysis II** (Tzyy Ping Jung)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICLabel for classifying ICA components** (L. Pion Tonachini)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290) or [Visionary Room](https://eeglab.org/workshops/deadlink.html)
 
