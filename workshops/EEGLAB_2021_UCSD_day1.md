@@ -36,7 +36,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - Advanced Topics</span>
 
-> <span style="color: gray">Parallel session 1 - **Analysis of \'wearably\' acquired EEG data** [Zoom link](https://ucsd.zoom.us/j/5822114965)
+> <span style="color: gray">Parallel session 1 - **Analysis of \'wearably\' acquired EEG data** - [Zoom link](https://ucsd.zoom.us/j/5822114965)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Wearable EEG device** review (Cedric Cannard)</span>
 
