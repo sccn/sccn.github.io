@@ -73,7 +73,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 ## WEDNESDAY, June 16th (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition practicum** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Zeynep Aakalin Acar)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
@@ -103,7 +103,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 ## THURSDAY, June 17th (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA clustering practicum** (Julie Onton)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA clustering PRACTICUM** (Julie Onton)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **EEGLAB group analysis** (Arnaud Delorme)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
