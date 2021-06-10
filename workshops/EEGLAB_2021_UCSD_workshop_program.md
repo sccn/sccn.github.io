@@ -69,7 +69,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) for Q&amp;A </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) for Q&amp;A </span>
 
 ## WEDNESDAY, June 16th (paid registration required)
 
@@ -99,7 +99,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) for Q&amp;A </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) for Q&amp;A </span>
 
 ## THURSDAY, June 17th (paid registration required)
 
@@ -131,7 +131,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) for Q&amp;A </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) for Q&amp;A </span>
 
 ## FRIDAY, June 18th (paid registration required)
 
