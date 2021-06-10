@@ -145,7 +145,7 @@ Use link from other email you have received to access the program for this day.
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span>- **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB and high-performance computing (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB and high-performance computing** (Arnaud Delorme)</span>
 
 > <span style="color: gray">Parallel session 2 **Automated artifact rejection and component classification**
 
