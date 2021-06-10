@@ -24,7 +24,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">06:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:00</span> – Workshop open. Hang out and socialize with new and old friends in the [Gather Town](https://eeglab.org/workshops/deadlink.html)  workshop site.</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **Basic MATLAB scripting for EEGLAB** (for beginners; C. Lee) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html) </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **MATLAB scripting** (for beginners; C. Lee) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html) </span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:10</span>– **Mining event-related brain dynamics I** (Scott Makeig) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html) </span>
 
@@ -42,7 +42,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:10</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
-> <span style="color: gray">Parallel session 1 - **Analysis of \'wearably\' acquired EEG data** - [Zoom link](https://eeglab.org/workshops/deadlink.html) or [EEG tech Room](https://eeglab.org/workshops/deadlink.html)
+> <span style="color: gray">Parallel session 1 - **Wearable EEG data** - [Zoom link](https://eeglab.org/workshops/deadlink.html) or [EEG tech Room](https://eeglab.org/workshops/deadlink.html)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Wearable EEG device** review (Cedric Cannard)</span>
 
