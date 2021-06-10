@@ -22,7 +22,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 <button onclick="changeTimezone('BST')" style="background-color:Grey; color: white; border: none; padding: 5px 5px; text-align: center;">BST</button>
 <button onclick="changeTimezone('IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">IST</button>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">06:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:00</span> – Workshop open. Hang out and socialize with new and old friends in the [Gather Town](https://eeglab.org/workshops/deadlink.html)  workshop site.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">06:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:00</span> – Workshop open. Socialize with new and old friends in [Gather Town](https://eeglab.org/workshops/deadlink.html).</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **MATLAB scripting** (for beginners; C. Lee) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html) </span>
 
@@ -30,8 +30,8 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:15am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **What&#39;s new in EEGLAB?** (Arnaud Delorme) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html) </span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - Parallel **participant poster presentations** in the [Poster Hall in Gather Town](https://eeglab.org/workshops/deadlink.html). Note that you must register for the whole workshop to present a poster.</span>
-
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - Parallel **participant poster presentations** in the [Poster Hall in Gather Town](https://eeglab.org/workshops/deadlink.html).
+  
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
 
 > <span style="color: gray">Parallel session 1 - **Neuroinformatics using BIDS and HED** [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Brain Room](https://eeglab.org/workshops/deadlink.html)
