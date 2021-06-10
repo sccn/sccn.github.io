@@ -107,7 +107,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **EEGLAB group analysis** (Arnaud Delorme)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **[Bootstrap & multiple comparisons corrections](https://eeglab.org/tutorials/misc/2021_MCC_and_boot_EEGLAB_workshop.pdf)** (C. Pernet)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **[EEG statistical analysis](https://eeglab.org/tutorials/misc/2021_MCC_and_boot_EEGLAB_workshop.pdf)** (C. Pernet)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://eeglab.org/workshops/deadlink.html)**</span>
 
