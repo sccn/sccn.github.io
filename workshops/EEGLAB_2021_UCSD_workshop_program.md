@@ -151,7 +151,7 @@ Use link from other email you have received to access the program for this day.
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span> - **The clean_rawdata EEGLAB plugin running ASR ** (TBD)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span> - **The clean_rawdata EEGLAB plugin running ASR** (TBD)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span> - **ASR performance analysis I** (Fiorenzo Artoni)</span>
 
