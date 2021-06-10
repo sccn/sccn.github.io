@@ -35,9 +35,9 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 ## TUESDAY, June 15th (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **EEGLAB data import and cleaning** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Time-frequency decomposition: Theory** (John Iversen)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Time-frequency decomposition: Theory** (J. Iversen)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **ICA theory** (Jason Palmer &amp; Scott Makeig)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
