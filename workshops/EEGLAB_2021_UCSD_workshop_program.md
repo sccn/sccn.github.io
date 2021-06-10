@@ -155,7 +155,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB and high-performance computing** (Arnaud Delorme)</span>
 
-> <span style="color: gray">Parallel session 2 **Automated artifact rejection and component classification** [Zoom link](https://ucsd.zoom.us/j/6617129974) or [EEG tech Room](https://eeglab.org/workshops/deadlink.html)
+> <span style="color: gray">Parallel session 2 **Automated artifact rejection** [Zoom link](https://ucsd.zoom.us/j/6617129974) or [EEG tech Room](https://eeglab.org/workshops/deadlink.html)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
 
