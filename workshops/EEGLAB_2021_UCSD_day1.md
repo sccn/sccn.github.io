@@ -52,4 +52,4 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:10</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
+> <span style="color: gray">Parallel session 3 (reserved for sponsors)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290)
