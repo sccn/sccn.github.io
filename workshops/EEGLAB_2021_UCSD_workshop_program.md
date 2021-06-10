@@ -69,7 +69,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span> – Social and tutorial time **in [Gather.Town](https://eeglab.org/workshops/deadlink.html)** for Q&amp;A </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) for Q&amp;A </span>
 
 ## WEDNESDAY, June 16th (paid registration required)
 
@@ -98,6 +98,8 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290)
+
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) for Q&amp;A </span>
 
 ## THURSDAY, June 17th (paid registration required)
 
@@ -128,6 +130,8 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICA reliability analysis** (Fiorenzo Artoni)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290)
+
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) for Q&amp;A </span>
 
 ## FRIDAY, June 18th (paid registration required)
 
@@ -165,6 +169,8 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>– **Participant presentations and general discussion** (All)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>– **Participant presentations and general discussion** (All)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span>– Close</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span>– Close</span> [Zoom link](https://ucsd.zoom.us/j/6617129974)
+
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:30pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html) (meet at the bar)</span>
