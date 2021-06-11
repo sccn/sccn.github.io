@@ -38,7 +38,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > <span style="color: gray">Parallel session 1 - **Neuroinformatics using BIDS and HED** [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Brain Room](https://eeglab.org/workshops/deadlink.html)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet) </span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[What is the \'Brain Imaging Data Structure\' (BIDS)?](https://sccn.ucsd.edu/githubwiki/files/2021_Pernet_EEGLAB_workshop_BIDS-EEG.pdf)** (Cyril Pernet) </span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:10pm</span> - **3rd-gen Hierarchical Event Descriptors (HED)** (Robbins &amp; Makeig)</span>
 
