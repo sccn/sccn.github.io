@@ -52,7 +52,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
 
-> <span style="color: gray">Parallel session 3 (reserved for sponsors)</span> - [Zoom link](https://ucsd.zoom.us/j/92218133290) or [Visionary Room](https://eeglab.org/workshops/deadlink.html)
+> <span style="color: gray">Parallel session 3: Event sponsor talks and demo videos </span> - [Zoom link](https://ucsd.zoom.us/j/92218133290) or [Visionary Room](https://eeglab.org/workshops/deadlink.html)
   
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span> - **[Brain Products](https://www.brainproducts.com/)**</span>
 
