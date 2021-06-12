@@ -35,6 +35,8 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 ## TUESDAY, June 15th (paid registration required)
 
+<span style="color: gray"> Today's featured sponsor is [Brain Products](https://www.brainproducts.com/). Please visit their booth in GatherTown! </span> [Video link](https://www.gotostage.com/channel/a26a09b972b84c52a391a16dfb4298e9/recording/31ff3d0c087b4d319ce134860be7ed5c/watch)
+> 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **EEGLAB data import and cleaning** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Time-frequency decomposition: Theory** (J. Iversen)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
@@ -67,12 +69,12 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **LSL wrap up** (Tim Mullen)</span>
 
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290) or [Visionary Room](https://eeglab.org/workshops/deadlink.html)
-
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html)</span>
 
 ## WEDNESDAY, June 16th (paid registration required)
-
+  
+<span style="color: gray"> Today's featured sponsor is [Mentalab](https://mentalab.com/). Please visit their booth in GatherTown! </span>
+  
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Z. Aakalin Acar)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
@@ -97,12 +99,12 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
 
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290) or [Visionary Room](https://eeglab.org/workshops/deadlink.html)
-
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html)</span>
 
 ## THURSDAY, June 17th (paid registration required)
-
+  
+<span style="color: gray"> Today's featured sponsor is [mBrainTrain](https://mbraintrain.com/). Please visit their booth in GatherTown! </span> 
+  
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA clustering PRACTICUM** (Julie Onton)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **EEGLAB group analysis** (Arnaud Delorme)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
@@ -129,12 +131,12 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICA reliability analysis** (Fiorenzo Artoni)</span>
 
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span> [Zoom link](https://ucsd.zoom.us/j/92218133290) or [Visionary Room](https://eeglab.org/workshops/deadlink.html)
-
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html)</span>
 
 ## FRIDAY, June 18th (paid registration required)
 
+<span style="color: gray"> Today's featured sponsor is [Intheon](https://intheon.io/). Please visit their booth in GatherTown! </span> 
+  
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – Network. **Tutors available** for Q&amp;A in [Gather.Town](https://eeglab.org/workshops/deadlink.html) tutorial room.</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30</span> – **Mining event-related brain dynamics II** (S. Makeig)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
