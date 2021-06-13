@@ -113,7 +113,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Zeynep Aakalin Acar)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Zeynep Akalin Acar)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **EEG connectivity analysis** (Tim Mullen)</span>
 
@@ -123,9 +123,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > <span style="color: gray">Parallel session 1 **NFT/NIST high-res. source imaging plug-ins**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Aakalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Akalin Acar)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Akalin Acar)</span>
 
 > <span style="color: gray">Parallel session 2 - **Connectivity analysis**
 
