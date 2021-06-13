@@ -77,7 +77,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
   
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Z. Aakalin Acar)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Z. Akalin Acar)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **EEG connectivity analysis** (Tim Mullen)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
@@ -95,9 +95,9 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 2 **NFT/NIST source imaging plug-ins** [Zoom link](https://ucsd.zoom.us/j/6617129974) or [EEG tech Room](https://eeglab.org/workshops/deadlink.html)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Aakalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Akalin Acar)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Aakalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Akalin Acar)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/deadlink.html)</span>
 
