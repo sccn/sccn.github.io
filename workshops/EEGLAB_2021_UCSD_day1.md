@@ -30,7 +30,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:10</span>– **Mining event-related brain dynamics I** (Scott Makeig) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html) </span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:15am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **What&#39;s new in EEGLAB?** (Arnaud Delorme) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html) </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:15am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **EEGLAB overview and new features** (A. Delorme) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html) </span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - Parallel **participant poster presentations** in the [Poster Hall in Gather Town](https://eeglab.org/workshops/deadlink.html).
   
