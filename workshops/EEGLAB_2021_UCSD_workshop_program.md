@@ -73,7 +73,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 ## WEDNESDAY, June 16th (paid registration required)
   
-<span style="color: gray"> Today's featured sponsor is [Mentalab](https://mentalab.com/). Please visit their booth in GatherTown! </span>
+<span style="color: gray"> Today's featured sponsor is [Mentalab](https://mentalab.com/). Please visit their booth in GatherTown and see their [video playlist](https://www.youtube.com/watch?v=S_MS5oSUEto&list=PLa3JycsGtkBgCRsBfikkrRDKijMvW_En6)! </span>
   
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/6617129974) or [Lecture Hall](https://eeglab.org/workshops/deadlink.html)
 
