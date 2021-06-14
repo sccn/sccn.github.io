@@ -6,4 +6,5 @@ parent: Workshops
 nav_exclude: true
 nav_order: 2
 ---
-Temporarily offline. Come back in a few hours.
+This page is offline since it was leaked on the EEGLABLIST, and was only meant for registered participants.
+Look for the new link in your email if you are a registered participants (should arrive within a few hours).
