@@ -14,8 +14,6 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 <font color=red>Note: Refresh this page to make sure you have the latest program and links.</font>
 
-This page is only for day 2-5 of the EEGLAB workshop. Refer to the orther email you have received for day 1. If you have not registered for day 1, you may register [here](https://www.eventbrite.com/e/147847663341).
-
 **Workshop virtual space:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people. We highly recommend that you get acquainted with the virtual workshop space before the workshop starts. See this [introduction video](https://youtu.be/jNvZs-lNAz8), and we Gather.Town [live walkthrough](https://gather.town/).
 
 **Time zone:** All the times below are shown in California (Pacific Daylight) Time. Click on one of the time zone boxes below to select your time zone (we are in process of adding more zones). 
