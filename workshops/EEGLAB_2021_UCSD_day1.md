@@ -42,7 +42,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:10pm</span> - **[3rd-gen Hierarchical Event Descriptors](https://drive.google.com/file/d/13dCPbsL6pO1TU2pUilxUohxJIUXt2og2/view)** (Robbins, Makeig &amp; Truong)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:10</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:10</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - [**The EEGLAB BIDS data I/O plug-in**](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_BIDS1.pdf) (Dung Truong &amp; Arnaud Delorme)</span>
 
 > <span style="color: gray">Parallel session 2 - **Wearable EEG data** - [Zoom link](https://ucsd.zoom.us/j/92391479445) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
