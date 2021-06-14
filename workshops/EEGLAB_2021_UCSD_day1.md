@@ -56,7 +56,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
   
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span> - **[Brain Products](https://www.brainproducts.com/)**: [Solutions for MoBI Research](https://www.youtube.com/watch?v=FyqMBs1h1BI&ab_channel=BrainProductsGmbH)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span> - **[Mentalab](https://mentalab.com/)**: Company and Product Introduction and Demo</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span> - **[Mentalab](https://mentalab.com/)**: [Company and Product Introduction and Demo](https://www.youtube.com/watch?v=S_MS5oSUEto&list=PLa3JycsGtkBgCRsBfikkrRDKijMvW_En6)</span>
   
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span> - **[mBrainTrain](https://mbraintrain.com/)**: Is mobile EEG really necessary?</span>
 
