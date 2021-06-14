@@ -48,7 +48,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Wearable EEG device** review (Cedric Cannard)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - [**Practical applications** of wearable EEG](https://sccn.ucsd.edu/githubwiki/files/PracticalApplicaitonsofEEG.pdf) (Tzyy Ping Jung)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
 
