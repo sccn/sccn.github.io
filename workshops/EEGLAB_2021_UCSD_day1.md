@@ -40,7 +40,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[What is the \'Brain Imaging Data Structure\' (BIDS)?](https://sccn.ucsd.edu/githubwiki/files/2021_Pernet_EEGLAB_workshop_BIDS-EEG.pdf)** (Cyril Pernet) </span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:10pm</span> - **3rd-gen Hierarchical Event Descriptors** (Robbins, Makeig &amp; Truong)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:10pm</span> - **[3rd-gen Hierarchical Event Descriptors](https://drive.google.com/file/d/13dCPbsL6pO1TU2pUilxUohxJIUXt2og2/view)** (Robbins, Makeig &amp; Truong)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:10</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
@@ -54,13 +54,13 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > <span style="color: gray">Parallel session 3: Event sponsor talks and demo videos </span> - [Zoom link](https://ucsd.zoom.us/j/92218133290) or [Visionary Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
   
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span> - **[Brain Products](https://www.brainproducts.com/)**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span> - **[Brain Products](https://www.brainproducts.com/)**: [MoBI Award Symposium 2020](https://www.youtube.com/watch?v=FyqMBs1h1BI&ab_channel=BrainProductsGmbH)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span> - **[Mentalab](https://mentalab.com/)**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span> - **[Mentalab](https://mentalab.com/)**: Company and Product Introduction and Demo</span>
   
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span> - **[mBrainTrain](https://mbraintrain.com/): Is mobile EEG really necessary?**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span> - **[mBrainTrain](https://mbraintrain.com/)**: Is mobile EEG really necessary?</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:20</span> - **[Intheon](https://intheon.io/)**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:20</span> - **[Intheon](https://intheon.io/)**: [Unlocking Scientific Progress in Bio-Signal Analysis with Computational Engines](https://www.youtube.com/watch?v=QM6DZY3UR40&ab_channel=TheTransformativeTechnologyConference)</span>
   
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> - Hang out with Friends in [Gather Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021). Look at posters, meet at the bar.</span>
 
