@@ -54,11 +54,11 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > <span style="color: gray">Parallel session 3: Event sponsor talks and demo videos </span> - [Zoom link](https://ucsd.zoom.us/j/92218133290) or [Visionary Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
   
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span> - **[Brain Products](https://www.brainproducts.com/)**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span> - **[Brain Products](https://www.brainproducts.com/)**: MoBI Award Symposium 2020</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span> - **[Mentalab](https://mentalab.com/)**</span>
   
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span> - **[mBrainTrain](https://mbraintrain.com/)**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span> - **[mBrainTrain](https://mbraintrain.com/): Is mobile EEG really necessary?**</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:20</span> - **[Intheon](https://intheon.io/)**</span>
   
