@@ -6,4 +6,4 @@ parent: Workshops
 nav_exclude: true
 nav_order: 2
 ---
-Temporarily offline.
+Temporarily offline. Come back in a few hours.
