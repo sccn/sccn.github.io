@@ -50,7 +50,7 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - [**Practical applications** of wearable EEG](https://sccn.ucsd.edu/githubwiki/files/PracticalApplicaitonsofEEG.pdf) (Tzyy Ping Jung)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[Mobile Brain/Body Imaging (MoBI)](https://sccn.ucsd.edu/githubwiki/files/MoBIEEGLAB2021.pdf)** (John Iversen)</span>
 
 > <span style="color: gray">Parallel session 3: Event sponsor talks and demo videos </span> - [Zoom link](https://ucsd.zoom.us/j/92218133290) or [Visionary Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
   
