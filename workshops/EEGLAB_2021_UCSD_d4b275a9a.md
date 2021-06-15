@@ -49,7 +49,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 1 - **Time-frequency and connectivity analysis** [Zoom link](https://ucsd.zoom.us/j/98593808650) or [Brain Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Time-frequency PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_UCSD_JRI_TimeFrequencyTheoryPractice_v2.1.pdf)** in EEGLAB (John Iversen)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **Phase/amplitude coherence (PAC) plugin** (Ramon Martinez)</span>
 
