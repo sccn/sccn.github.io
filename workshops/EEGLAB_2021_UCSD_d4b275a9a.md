@@ -69,7 +69,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **LSL wrap up** (Tim Mullen)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Social and tutorial time in [Gather.Town](https://eeglab.org/workshops/https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021.html). [Tutorial Data Files](http://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) & [Tutorial STUDY Files](http://sccn.ucsd.edu/eeglab/download/STUDYstern_measures.zip)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Tutorial in [Gather.Town](https://eeglab.org/workshops/https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021.html). [Tutorial Data Files](http://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) & [STUDY Files](http://sccn.ucsd.edu/eeglab/download/STUDYstern_measures.zip)</span>
 
 ## WEDNESDAY, June 16th (paid registration required)
   
