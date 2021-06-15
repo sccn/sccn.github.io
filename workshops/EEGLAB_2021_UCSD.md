@@ -15,11 +15,11 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 From June 14 to June 18, the 30th EEGLAB workshop will be held online in a virtual brain conference site on [GatherTown](https://gather.town/). The first day will be free for all and will feature lectures and social events. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG.
 
-**<span style="color: red">REGISTRATION is now OPEN </span>**.
+**<span style="color: red">REGISTRATION is now CLOSED </span>**.
 
-[<b>Register for the free first day session, Monday June 14 here</b>](https://www.eventbrite.com/e/147847663341).
+[<!--<b>Register for the free first day session, Monday June 14 here</b>](https://www.eventbrite.com/e/147847663341).
 
-[<b>Register for the workshop sessions, Tuesday-Friday June 15-18th here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.
+[<b>Register for the workshop sessions, Tuesday-Friday June 15-18th here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.-->
 
 We are looking forward to meeting you online ... 
 
