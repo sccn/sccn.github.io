@@ -105,7 +105,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
   
 <span style="color: gray"> Today's featured sponsor is [mBrainTrain](https://mbraintrain.com/). Please visit their booth in GatherTown! </span> 
   
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA clustering PRACTICUM** (Julie Onton)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA clustering PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/Clustering_Intro_SD-2021-Onton.pdf)** (Julie Onton)</span> [Supplemental Slides](https://sccn.ucsd.edu/githubwiki/files/Clustering_Onton_ScriptingSupplement.pdf). [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **EEGLAB group analysis** (Arnaud Delorme)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
@@ -127,7 +127,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **IMAT: Independent Modulator Analysis plug-in** (Wagner &amp; Onton)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[IMAT: Independent Modulator Analysis plug-in](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021.pdf)** (Wagner &amp; Onton)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICA reliability analysis** (Fiorenzo Artoni)</span>
 
