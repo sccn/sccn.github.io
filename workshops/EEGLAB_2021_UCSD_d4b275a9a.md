@@ -77,7 +77,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
   
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Z. Akalin Acar)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **[Forward &amp; inverse head modeling](https://sccn.ucsd.edu/githubwiki/files/eeglab2021_forward_inverse_head_modeling.pdf)** (Z. Akalin Acar)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **EEG connectivity analysis** (Tim Mullen)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
