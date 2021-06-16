@@ -87,7 +87,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 1 - **Connectivity analysis** [Zoom link](https://ucsd.zoom.us/j/98593808650) or [Brain Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[The DIPFIT and ROIconnect plug-ins](https://sccn.ucsd.edu/githubwiki/files/Delorme2021_dipole_connectivity.pdf)** (Arnaud Delorme)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[Connectivity analysis using SIFT](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_2021_Connectivity_SIFT.pdf)** (Tim Mullen)</span>
 
