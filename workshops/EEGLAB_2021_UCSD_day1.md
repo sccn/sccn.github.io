@@ -26,11 +26,11 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">06:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:00</span> – Workshop open. Socialize with new and old friends in [Gather Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021).</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **MATLAB scripting** (for beginners; C. Lee) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021) </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **MATLAB scripting** (for beginners; C. Lee)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:10</span>– **Mining event-related brain dynamics I** (Scott Makeig) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021) </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:10</span>– **Mining event-related brain dynamics I** (Scott Makeig)</span> [Recording](https://youtu.be/RXEECARqUVY) 
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:15am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – [**EEGLAB overview and new features**](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_overview2021.pdf) (A. Delorme) [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021) </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:15am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – [**EEGLAB overview and new features**](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_overview2021.pdf) (A. Delorme)</span> [Recording](https://youtu.be/AME1Ag4PeBk)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - Parallel **participant poster presentations** in the [Poster Hall in Gather Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021).
   
@@ -38,15 +38,16 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
 > <span style="color: gray">Parallel session 1 - **Neuroinformatics using BIDS and HED** [Zoom link](https://ucsd.zoom.us/j/94195650761?pwd=emJoVGpnMktrdXVCQ3lDbkNORy9qZz09) or [Brain Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[What is the \'Brain Imaging Data Structure\' (BIDS)?](https://sccn.ucsd.edu/githubwiki/files/2021_Pernet_EEGLAB_workshop_BIDS-EEG.pdf)** (Cyril Pernet) </span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[What is the \'Brain Imaging Data Structure\' (BIDS)?](https://sccn.ucsd.edu/githubwiki/files/2021_Pernet_EEGLAB_workshop_BIDS-EEG.pdf)** (Cyril Pernet) </span> [Recording](https://youtu.be/A8CwQj7LRks)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:10pm</span> - **[3rd-gen Hierarchical Event Descriptors](https://drive.google.com/file/d/13dCPbsL6pO1TU2pUilxUohxJIUXt2og2/view)** (Robbins, Makeig &amp; Truong)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:10pm</span> - **[3rd-gen Hierarchical Event Descriptors](https://drive.google.com/file/d/13dCPbsL6pO1TU2pUilxUohxJIUXt2og2/view)** (Robbins, Makeig &amp; Truong) </span> [Recording](https://youtu.be/kLJMd3Xc_Uk)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:10</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - [**The EEGLAB BIDS data I/O plug-in**](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_BIDS1.pdf) (Dung Truong &amp; Arnaud Delorme)</span>
+[Recording](https://youtu.be/lSSvtR6ZzHA)
+  
+> <span style="color: gray">Parallel session 2 - **Wearable EEG data** - [Zoom link](https://ucsd.zoom.us/j/92391479445) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021) [Recording](https://youtu.be/qhUD5M9oBOU)
 
-> <span style="color: gray">Parallel session 2 - **Wearable EEG data** - [Zoom link](https://ucsd.zoom.us/j/92391479445) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
-
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Wearable EEG device** review (Cedric Cannard)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Wearable EEG device** review (Cedric Cannard)</span> [Recording](https://youtu.be/ZYW-wWchhAU) 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - [**Practical applications** of wearable EEG](https://sccn.ucsd.edu/githubwiki/files/PracticalApplicaitonsofEEG.pdf) (Tzyy Ping Jung)</span>
 
