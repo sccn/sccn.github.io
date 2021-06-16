@@ -37,35 +37,35 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 <span style="color: gray"> Today's featured sponsor is [Brain Products](https://www.brainproducts.com/). Please visit their booth in GatherTown! </span> [Video link](https://www.gotostage.com/channel/a26a09b972b84c52a391a16dfb4298e9/recording/31ff3d0c087b4d319ce134860be7ed5c/watch)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[EEGLAB data import and cleaning](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_JW_preprocessing.pdf)** (Johanna Wagner)</span> 
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[EEGLAB data import and cleaning](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_JW_preprocessing.pdf)** (Johanna Wagner)</span> [Recording](https://youtu.be/gTzZHTT9e5g)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **[Time-frequency decomposition: Theory](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_UCSD_JRI_TimeFrequencyTheoryPractice.pdf)** (J. Iversen)</span> 
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **[Time-frequency decomposition: Theory](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_UCSD_JRI_TimeFrequencyTheoryPractice.pdf)** (J. Iversen)</span> [Recording](https://youtu.be/rN8H3LQ2Nu0)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **[ICA theory](https://sccn.ucsd.edu/githubwiki/files/ICA_Theory_EEGLAB2021.pdf)** (Jason Palmer &amp; Scott Makeig)</span> 
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **[ICA theory](https://sccn.ucsd.edu/githubwiki/files/ICA_Theory_EEGLAB2021.pdf)** (Jason Palmer &amp; Scott Makeig)</span> [Recording](https://youtu.be/rTVteLZ3lZw)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)** </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)** </span> 
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
 
 > <span style="color: gray">Parallel session 1 - **Time-frequency and connectivity analysis**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Time-frequency PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_UCSD_JRI_TimeFrequencyTheoryPractice_v2.1.pdf)** in EEGLAB (John Iversen)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Time-frequency PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_UCSD_JRI_TimeFrequencyTheoryPractice_v2.1.pdf)** in EEGLAB (John Iversen)</span> [Recording](https://youtu.be/6Uss2utjdXw)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **Phase/amplitude coherence (PAC) plugin** (Ramon Martinez)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **Phase/amplitude coherence (PAC) plugin** (Ramon Martinez)</span> [Recording](https://youtu.be/SgWF2CKv0Hg)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[The PowPowCAT plug-in](https://sccn.ucsd.edu/githubwiki/files/PowPowCAT_30thEEGLABWorkshop.pdf)** (Makoto Miyakoshi)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[The PowPowCAT plug-in](https://sccn.ucsd.edu/githubwiki/files/PowPowCAT_30thEEGLABWorkshop.pdf)** (Makoto Miyakoshi)</span> [Recording](https://youtu.be/nqYlmsCD2WE)
 
 > <span style="color: gray">Parallel session 2 - **LSL for multimodal data collection**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span> - **Lab Streaming Layer introduction** (Christian Kothe)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span> - **Lab Streaming Layer introduction** (Christian Kothe)</span> [Recording](https://youtu.be/n_cpgvHbB0w)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[The lsl_app_matlabviewer EEGLAB plugin](https://www.youtube.com/watch?v=tDDkrmv3ZKE)** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[The lsl_app_matlabviewer EEGLAB plugin](https://www.youtube.com/watch?v=tDDkrmv3ZKE)** (Arnaud Delorme)</span> [Recording](https://youtu.be/GSdwNvYzERU)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **LSL synchronization and other topics**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **LSL synchronization and other topics**</span> [Recording](https://youtu.be/HPzekwyF3Ig)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **[LSL in virtual reality and iEEG](https://sccn.ucsd.edu/githubwiki/files/Boulay-LSL_for_VR_and_Intracranial.pdf)** (Chadwick Boulay)</span>
-
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:30pm</span> - **[LSL troubleshooting I](https://sccn.ucsd.edu/githubwiki/files/20210615-EEGLAB_workshop.pdf)** (David Medine)</span>
+[Recording](https://youtu.be/0-MZfYtOXbs)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:30pm</span> - **[LSL troubleshooting I](https://sccn.ucsd.edu/githubwiki/files/20210615-EEGLAB_workshop.pdf)** (David Medine)</span> [Recording](https://youtu.be/nSc7qW4lGuc)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **LSL wrap up** (Tim Mullen)</span>
 
