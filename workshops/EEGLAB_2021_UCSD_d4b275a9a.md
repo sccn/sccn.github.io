@@ -63,7 +63,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **LSL synchronization and other topics**</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **LSL in virtual reality and iEEG** (Chadwick Boulay)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **[LSL in virtual reality and iEEG](https://sccn.ucsd.edu/githubwiki/files/Boulay-LSL_for_VR_and_Intracranial.pdf)** (Chadwick Boulay)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:30pm</span> - **[LSL troubleshooting I](https://sccn.ucsd.edu/githubwiki/files/20210615-EEGLAB_workshop.pdf)** (David Medine)</span>
 
