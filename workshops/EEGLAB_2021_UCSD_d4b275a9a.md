@@ -95,7 +95,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 2 **NFT/NIST source imaging plug-ins** [Zoom link](https://ucsd.zoom.us/j/97226313682) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Akalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[High-resolution source imaging](https://sccn.ucsd.edu/githubwiki/files/eeglab2021_high_resolution_source_imaging.pdf)** (Zeynep Akalin Acar)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[NFT/NIST demo and PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/NFT_demo2021.pdf)** (Zeynep Akalin Acar) and [Demo data](https://rdl-share.ucsd.edu/message/U7F0uMivgbGZJur64TXDac)</span>
 
