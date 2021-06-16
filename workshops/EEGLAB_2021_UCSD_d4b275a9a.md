@@ -97,7 +97,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Akalin Acar)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Akalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[NFT/NIST demo and PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/NFT_demo2021.pdf)** (Zeynep Akalin Acar) and [Demo data](https://rdl-share.ucsd.edu/message/U7F0uMivgbGZJur64TXDac)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Tutorial in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021). [Tutorial Data Files](https://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) & [STUDY Files](https://sccn.ucsd.edu/eeglab/download/STUDYstern_measures.zip)</span>
 
