@@ -125,7 +125,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 2 - **Advanced ICA analysis** [Zoom link](https://ucsd.zoom.us/j/97226313682) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **[AMICA and AMICA Tools](https://sccn.ucsd.edu/githubwiki/files/Amica_and_Tools_EEGLAB2021.pdf)** (Scott Makeig &amp; Jason Palmer)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **IMAT: Independent Modulator Analysis plug-in** ([Wagner](https://sccn.ucsd.edu/githubwiki/files/WagnerJ_PresentationIMAT.pdf) &amp; [Onton](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021.pdf))</span> with [demo data](https://sccn.ucsd.edu/eeglab/download/IMAT_data.zip)
 
