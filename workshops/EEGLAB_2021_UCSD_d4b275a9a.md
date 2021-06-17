@@ -127,7 +127,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **IMAT: Independent Modulator Analysis plug-in** ([Wagner](https://sccn.ucsd.edu/githubwiki/files/WagnerJ_PresentationIMAT.pdf) &amp; [Onton](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021.pdf))</span>. [Demo data](http://sccn.ucsd.edu/eeglab/download/IMAT_data.zip)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **IMAT: Independent Modulator Analysis plug-in** ([Wagner](https://sccn.ucsd.edu/githubwiki/files/WagnerJ_PresentationIMAT.pdf) &amp; [Onton](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021.pdf))</span> with [demo data](https://sccn.ucsd.edu/eeglab/download/IMAT_data.zip)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[ICA reliability analysis](https://sccn.ucsd.edu/githubwiki/files/RELICA_presentations.pdf)** (Fiorenzo Artoni)</span>
 
