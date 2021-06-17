@@ -117,7 +117,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 1 - **Linear statistical modeling of EEG data** [Zoom link](https://ucsd.zoom.us/j/98593808650) or [Brain Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **Introduction to linear modeling** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[Introduction to linear modeling](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_LIMO_delorme.pdf)** (Arnaud Delorme)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Hierarchical Linear Modelling for EEG](https://sccn.ucsd.edu/githubwiki/files/2021_HLM_EEGLAB_workshop.pdf)** (Cyril Pernet)</span>
 
