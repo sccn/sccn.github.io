@@ -103,7 +103,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 ## THURSDAY, June 17th (paid registration required)
   
-<span style="color: gray"> Today's featured sponsor is [mBrainTrain](https://mbraintrain.com/). Please visit their booth in GatherTown! </span> 
+<span style="color: gray"> Today's featured sponsor is [mBrainTrain](https://mbraintrain.com/). Please visit their booth in GatherTown and check out the [Smarting Pro](https://www.youtube.com/watch?v=j9luE88lTwI)! </span> 
   
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA clustering PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/Clustering_Intro_SD-2021-Onton.pdf)** (Onton)</span> [More Slides](https://sccn.ucsd.edu/githubwiki/files/Clustering_Onton_ScriptingSupplement.pdf). [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
