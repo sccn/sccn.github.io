@@ -121,7 +121,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Hierarchical Linear Modelling for EEG](https://sccn.ucsd.edu/githubwiki/files/2021_HLM_EEGLAB_workshop.pdf)** (Cyril Pernet)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet) **[GET THE DATA](https://drive.google.com/file/d/1XNXObHMJpjadntf-ZBCInhr2Xj-AbEkt/view?usp=sharing)**</span>
 
 > <span style="color: gray">Parallel session 2 - **Advanced ICA analysis** [Zoom link](https://ucsd.zoom.us/j/97226313682) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
