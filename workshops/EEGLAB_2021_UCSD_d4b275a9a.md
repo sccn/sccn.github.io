@@ -75,11 +75,11 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
   
 <span style="color: gray"> Today's featured sponsor is [Mentalab](https://mentalab.com/). Please visit their booth in GatherTown and see their [video playlist](https://www.youtube.com/watch?v=S_MS5oSUEto&list=PLa3JycsGtkBgCRsBfikkrRDKijMvW_En6)! </span>
   
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA decomposition PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_JW_ICA_Practicum.pdf)** (Johanna Wagner)</span>. [Demo Data](http://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) and [Recording](https://youtu.be/Kx3_toIW-18)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA decomposition PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_JW_ICA_Practicum.pdf)** (Johanna Wagner)</span> [Demo Data](http://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) and [Recording](https://youtu.be/Kx3_toIW-18)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **[Forward &amp; inverse head modeling](https://sccn.ucsd.edu/githubwiki/files/eeglab2021_forward_inverse_head_modeling.pdf)** (Z. Akalin Acar)</span>. [Recording](https://youtu.be/7Qxi0FI-WBg)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **[Forward &amp; inverse head modeling](https://sccn.ucsd.edu/githubwiki/files/eeglab2021_forward_inverse_head_modeling.pdf)** (Z. Akalin Acar)</span> [Recording](https://youtu.be/7Qxi0FI-WBg)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **[EEG connectivity analysis](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_2021_Connectivity_SIFT.pdf)** (Tim Mullen)</span>. [Recording](https://youtu.be/2hPamlXnWKs)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **[EEG connectivity analysis](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_2021_Connectivity_SIFT.pdf)** (Tim Mullen)</span> [Recording](https://youtu.be/2hPamlXnWKs)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)**</span>
 
@@ -87,11 +87,11 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 1 - **Connectivity analysis**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[The DIPFIT and ROIconnect plug-ins](https://sccn.ucsd.edu/githubwiki/files/Delorme2021_dipole_connectivity.pdf)** (Arnaud Delorme)</span>. [Recording](https://youtu.be/P1wgACDEFAM)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[The DIPFIT and ROIconnect plug-ins](https://sccn.ucsd.edu/githubwiki/files/Delorme2021_dipole_connectivity.pdf)** (Arnaud Delorme)</span> [Recording](https://youtu.be/P1wgACDEFAM)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[Connectivity analysis using SIFT](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_2021_Connectivity_SIFT.pdf)** (Tim Mullen)</span>. [Recording](https://youtu.be/D4gHkPKKeFo)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[Connectivity analysis using SIFT](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_2021_Connectivity_SIFT.pdf)** (Tim Mullen)</span> [Recording](https://youtu.be/D4gHkPKKeFo)
   
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[SIFT PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/2021SIFT_Practicum.pdf)** (Tim Mullen)</span>. [Recording](https://youtu.be/Wev2hjxL41Q)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[SIFT PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/2021SIFT_Practicum.pdf)** (Tim Mullen)</span> [Recording](https://youtu.be/Wev2hjxL41Q)
 
 > <span style="color: gray">Parallel session 2 **NFT/NIST source imaging plug-ins** [Recording](https://youtu.be/5eBqC2rBA7U)
 
