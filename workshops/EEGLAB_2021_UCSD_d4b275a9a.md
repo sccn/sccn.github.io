@@ -75,7 +75,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
   
 <span style="color: gray"> Today's featured sponsor is [Mentalab](https://mentalab.com/). Please visit their booth in GatherTown and see their [video playlist](https://www.youtube.com/watch?v=S_MS5oSUEto&list=PLa3JycsGtkBgCRsBfikkrRDKijMvW_En6)! </span>
   
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA decomposition PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_JW_ICA_Practicum.pdf)** (Johanna Wagner)</span> [Demo Data](http://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) and [Recording](https://youtu.be/Kx3_toIW-18)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA decomposition PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_JW_ICA_Practicum.pdf)** (Johanna Wagner)</span> [Demo Data](https://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) and [Recording](https://youtu.be/Kx3_toIW-18)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **[Forward &amp; inverse head modeling](https://sccn.ucsd.edu/githubwiki/files/eeglab2021_forward_inverse_head_modeling.pdf)** (Z. Akalin Acar)</span> [Recording](https://youtu.be/7Qxi0FI-WBg)
 
