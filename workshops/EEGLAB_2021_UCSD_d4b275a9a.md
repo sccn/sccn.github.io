@@ -149,13 +149,13 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting** [Zoom link](https://ucsd.zoom.us/j/98593808650) or [Brain Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **Batch processing without scripting** (A. Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[Batch processing without scripting](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_batch_processing_no_scripting.pdf)** (A. Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **Basic scripting in EEGLAB** (A. Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[Basic scripting in EEGLAB](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_basic_scripting_and_plugin.pdf)** (A. Delorme)</span> [stern_125Hz.set](https://sccn.ucsd.edu/githubwiki/files/stern_125Hz.set)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - **Scripting for high-performance computing on NSG** (A. Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - **[Scripting for high-performance computing on NSG](https://sccn.ucsd.edu/githubwiki/files/NSG_general_pipeline_2021.pdf)** (A. Delorme)</span> [generic pipeline](https://sccn.ucsd.edu/githubwiki/files/generic_pipeline.m)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **Advanced scripting with studies** (A. Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[Advanced scripting with studies](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_study_scripting_.pdf)** (A. Delorme)</span> [oddball_file.bdf](https://sccn.ucsd.edu/githubwiki/files/oddball_file.bdf)
 
 > <span style="color: gray">Parallel session 2 **Automated artifact rejection** [Zoom link](https://ucsd.zoom.us/j/97226313682) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
