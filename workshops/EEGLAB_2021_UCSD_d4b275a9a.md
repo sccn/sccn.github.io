@@ -153,7 +153,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **Basic scripting in EEGLAB** (A. Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - **Scriping for high-performance computing on NSG** (A. Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - **Scripting for high-performance computing on NSG** (A. Delorme)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **Advanced scripting with studies** (A. Delorme)</span>
 
