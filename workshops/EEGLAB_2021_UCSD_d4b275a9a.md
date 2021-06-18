@@ -161,11 +161,11 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span> - **The clean_rawdata EEGLAB plugin running ASR** (Makoto Miyakoshi)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span> - **[The clean_rawdata EEGLAB plugin running ASR](https://sccn.ucsd.edu/githubwiki/files/cleanRawData_30thEEGLABWorkshop.pdf)** (Makoto Miyakoshi)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span> - **ASR performance analysis I** (Fiorenzo Artoni)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **ASR performance analysis II** (Tzyy Ping Jung)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[ASR performance analysis II](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_Workshop2021%20ASR%20Performance%20Evaluation%20II.pdf)** (Tzyy Ping Jung)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICLabel for classifying ICA components** (L. Pion Tonachini)</span>
 
