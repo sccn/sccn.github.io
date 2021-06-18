@@ -141,7 +141,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30</span> – **Mining event-related brain dynamics II** (S. Makeig)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – [**Deep learning for EEG**](https://github.com/sccn/sccn.github.io/raw/master/assets/pdfs/DL_EEG-workshop2021.pdf) (Truong & Delorme)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – [**Deep learning for EEG**](https://github.com/sccn/sccn.github.io/raw/master/assets/pdfs/DL_EEG-workshop2021_2.pdf) (Truong & Delorme)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)** </span>
 
