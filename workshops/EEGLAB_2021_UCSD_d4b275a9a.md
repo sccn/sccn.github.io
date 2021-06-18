@@ -57,11 +57,11 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 2 - **LSL for multimodal data collection**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span> - **Lab Streaming Layer introduction** (Christian Kothe)</span> [Recording](https://youtu.be/n_cpgvHbB0w)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span> - **[Lab Streaming Layer introduction](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021-LSL%201-Intro-short.pdf)** (Christian Kothe)</span> [Recording](https://youtu.be/n_cpgvHbB0w)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[The lsl_app_matlabviewer EEGLAB plugin](https://www.youtube.com/watch?v=tDDkrmv3ZKE)** (Arnaud Delorme)</span> [Recording](https://youtu.be/GSdwNvYzERU)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **LSL synchronization and other topics**</span> [Recording](https://youtu.be/HPzekwyF3Ig)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[LSL synchronization and other topics](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021-LSL%202-SyncAndOtherTopics.pdf)**</span> [Recording](https://youtu.be/HPzekwyF3Ig)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **[LSL in virtual reality and iEEG](https://sccn.ucsd.edu/githubwiki/files/Boulay-LSL_for_VR_and_Intracranial.pdf)** (Chadwick Boulay)</span> [Recording](https://youtu.be/0-MZfYtOXbs)
   
@@ -159,7 +159,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 2 **Automated artifact rejection** [Zoom link](https://ucsd.zoom.us/j/97226313682) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span> - **[Artifact Subspace reconstruction](https://sccn.ucsd.edu/githubwiki/files/asr-final-export.pdf)** (Christian Kothe)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span> - **[The clean_rawdata EEGLAB plugin running ASR](https://sccn.ucsd.edu/githubwiki/files/cleanRawData_30thEEGLABWorkshop.pdf)** (Makoto Miyakoshi)</span>
 
