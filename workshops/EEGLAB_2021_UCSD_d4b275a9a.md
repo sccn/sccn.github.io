@@ -167,7 +167,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[ASR performance analysis II](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_Workshop2021%20ASR%20Performance%20Evaluation%20II.pdf)** (Tzyy Ping Jung)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICLabel for classifying ICA components** (L. Pion Tonachini)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[ICLabel for classifying ICA components](https://sccn.ucsd.edu/githubwiki/files/ICLabel%20for%20classifying%20ICA%20components.pdf)** (L. Pion Tonachini)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>– **General discussion** (All)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682)
 
