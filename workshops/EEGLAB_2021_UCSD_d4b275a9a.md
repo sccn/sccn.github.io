@@ -169,7 +169,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICLabel for classifying ICA components** (L. Pion Tonachini)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>– **Participant presentations and general discussion** (All)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>– **General discussion** (All)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span>– Close</span> [Zoom link](https://ucsd.zoom.us/j/97226313682)
 
