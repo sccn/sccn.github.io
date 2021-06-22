@@ -159,18 +159,18 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 2 **Automated artifact rejection**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span> - **[Artifact Subspace reconstruction](https://sccn.ucsd.edu/githubwiki/files/asr-final-export.pdf)** (Christian Kothe)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span> - **[Artifact Subspace reconstruction](https://sccn.ucsd.edu/githubwiki/files/asr-final-export.pdf)** (Christian Kothe)</span> [Recording](https://youtu.be/Jhz2yPGeLdA)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span> - **[The clean_rawdata EEGLAB plugin running ASR](https://sccn.ucsd.edu/githubwiki/files/cleanRawData_30thEEGLABWorkshop.pdf)** (Makoto Miyakoshi)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span> - **[The clean_rawdata EEGLAB plugin running ASR](https://sccn.ucsd.edu/githubwiki/files/cleanRawData_30thEEGLABWorkshop.pdf)** (Makoto Miyakoshi)</span> [Recording](https://youtu.be/2Wfykl6jp28)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span> - **[ASR performance analysis I](https://sccn.ucsd.edu/githubwiki/files/ASRPresentation_Artoni.pdf)** (Fiorenzo Artoni)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span> - **[ASR performance analysis I](https://sccn.ucsd.edu/githubwiki/files/ASRPresentation_Artoni.pdf)** (Fiorenzo Artoni)</span> [Recording](https://youtu.be/qdgHR_fJ2D8)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[ASR performance analysis II](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_Workshop2021%20ASR%20Performance%20Evaluation%20II.pdf)** (Tzyy Ping Jung)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[ASR performance analysis II](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_Workshop2021%20ASR%20Performance%20Evaluation%20II.pdf)** (Tzyy Ping Jung)</span> [Recording](https://youtu.be/erNOyvomMz0)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[ICLabel for classifying ICA components](https://sccn.ucsd.edu/githubwiki/files/ICLabel%20for%20classifying%20ICA%20components.pdf)** (L. Pion Tonachini)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[ICLabel for classifying ICA components](https://sccn.ucsd.edu/githubwiki/files/ICLabel%20for%20classifying%20ICA%20components.pdf)** (L. Pion Tonachini)</span> [Recording](https://youtu.be/hF4OJHlkECI)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>– **General discussion** (All)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>– **General discussion** (All)</span> 
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span>– Close</span> [Zoom link](https://ucsd.zoom.us/j/97226313682)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span>– Close</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:30pm</span> – Social and tutorial time in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021) (meet at the bar). [Tutorial Data Files](https://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) & [STUDY Files](https://sccn.ucsd.edu/eeglab/download/STUDYstern_measures.zip)</span>
