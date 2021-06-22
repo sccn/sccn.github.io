@@ -105,33 +105,33 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
   
 <span style="color: gray"> Today's featured sponsor is [mBrainTrain](https://mbraintrain.com/). Please visit their booth in GatherTown and check out the [Smarting Pro launch](https://www.youtube.com/watch?v=j9luE88lTwI)! </span> 
   
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA clustering PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/Clustering_Intro_SD-2021-Onton.pdf)** (Onton)</span> [More Slides](https://sccn.ucsd.edu/githubwiki/files/Clustering_Onton_ScriptingSupplement.pdf). [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA clustering PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/Clustering_Intro_SD-2021-Onton.pdf)** (Onton)</span> [More Slides](https://sccn.ucsd.edu/githubwiki/files/Clustering_Onton_ScriptingSupplement.pdf). [Recording](https://youtu.be/5s2YMhL8AGI)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **[EEGLAB group analysis](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_AD_STUDY_design_newreduced.pdf)** (Arnaud Delorme)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **[EEGLAB group analysis](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_AD_STUDY_design_newreduced.pdf)** (Arnaud Delorme)</span> [Recording](https://youtu.be/eUC1UWMggZE)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **[Multiple comparisons corrections/Bootstrap](https://sccn.ucsd.edu/githubwiki/files/2021_MCC_and_boot_EEGLAB_workshop.pdf)** (C. Pernet)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **[Multiple comparisons corrections/Bootstrap](https://sccn.ucsd.edu/githubwiki/files/2021_MCC_and_boot_EEGLAB_workshop.pdf)** (C. Pernet)</span> [Recording](https://youtu.be/wlsA2cNF5vY)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)**</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
 
-> <span style="color: gray">Parallel session 1 - **Linear statistical modeling of EEG data** [Zoom link](https://ucsd.zoom.us/j/98593808650) or [Brain Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+> <span style="color: gray">Parallel session 1 - **Linear statistical modeling of EEG data** 
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[Introduction to linear modeling](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_LIMO_delorme.pdf)** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[Introduction to linear modeling](https://sccn.ucsd.edu/githubwiki/files/EEGLAB_LIMO_delorme.pdf)** (Arnaud Delorme)</span> [Recording](https://youtu.be/lpySzlyqz8A)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Hierarchical Linear Modelling for EEG](https://sccn.ucsd.edu/githubwiki/files/2021_HLM_EEGLAB_workshop.pdf)** (Cyril Pernet)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Hierarchical Linear Modelling for EEG](https://sccn.ucsd.edu/githubwiki/files/2021_HLM_EEGLAB_workshop.pdf)** (Cyril Pernet)</span> [Recording](https://youtu.be/USShCaZwe9Y)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet) **[GET THE DATA NOW](https://drive.google.com/file/d/1XNXObHMJpjadntf-ZBCInhr2Xj-AbEkt/view?usp=sharing)**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet) with [demo data.](https://drive.google.com/file/d/1XNXObHMJpjadntf-ZBCInhr2Xj-AbEkt/view?usp=sharing)</span> [Recording](https://youtu.be/eTjavc0bZfs)
 
-> <span style="color: gray">Parallel session 2 - **Advanced ICA analysis** [Zoom link](https://ucsd.zoom.us/j/97226313682) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+> <span style="color: gray">Parallel session 2 - **Advanced ICA analysis**
+  
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **[AMICA and AMICA Tools](https://sccn.ucsd.edu/githubwiki/files/Amica_and_Tools_EEGLAB2021.pdf)** (Scott Makeig &amp; Jason Palmer)</span> [Recording](https://youtu.be/hdKPlZjZyYg)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **[AMICA and AMICA Tools](https://sccn.ucsd.edu/githubwiki/files/Amica_and_Tools_EEGLAB2021.pdf)** (Scott Makeig &amp; Jason Palmer)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[IMAT: Independent Modulator Analysis plug-in](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021_2.pdf)** (Wagner &amp; Onton)</span> with [demo data.](https://sccn.ucsd.edu/eeglab/download/IMAT_data.zip) [Recording](https://youtu.be/a6JH-E4nl-I)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[IMAT: Independent Modulator Analysis plug-in](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021_2.pdf)** (Wagner &amp; Onton)</span> with [demo data](https://sccn.ucsd.edu/eeglab/download/IMAT_data.zip)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[ICA reliability analysis](https://sccn.ucsd.edu/githubwiki/files/RELICA_presentations.pdf)** (Fiorenzo Artoni)</span> [Recording](https://youtu.be/m158S1hy8_c)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[ICA reliability analysis](https://sccn.ucsd.edu/githubwiki/files/RELICA_presentations.pdf)** (Fiorenzo Artoni)</span>
-
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Tutorial in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021). [Tutorial Data Files](https://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) & [STUDY Files](https://sccn.ucsd.edu/eeglab/download/STUDYstern_measures.zip)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Tutorial in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021). [Tutorial Data Files](https://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) & [STUDY Files](https://sccn.ucsd.edu/eeglab/download/STUDYstern_measures.zip)</span> [Recording]()
 
 ## FRIDAY, June 18th (paid registration required)
 
@@ -139,15 +139,15 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
   
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – Network. **Tutors available** for Q&amp;A in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021) tutorial room.</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30</span> – **Mining event-related brain dynamics II** (S. Makeig)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30</span> – **Mining event-related brain dynamics II** (S. Makeig)</span> [Recording](https://youtu.be/1RiipjG4IPw)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – [**Deep learning for EEG**](https://sccn.ucsd.edu/githubwiki/files/DL_EEG-workshop2021_2.pdf) (Truong & Delorme)</span> [Zoom link](https://ucsd.zoom.us/j/97226313682) or [Lecture Hall](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – [**Deep learning for EEG**](https://sccn.ucsd.edu/githubwiki/files/DL_EEG-workshop2021_2.pdf) (Truong & Delorme)</span> [Recording](https://youtu.be/x2dDaHzDhyE)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social and tutorial time. **Tutors available in tutorial room in [Gather.Town](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)** </span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
 
-> <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting** [Zoom link](https://ucsd.zoom.us/j/98593808650) or [Brain Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+> <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting**
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[Batch processing without scripting](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_batch_processing_no_scripting.pdf)** (A. Delorme)</span> [Youtube](https://www.youtube.com/watch?v=-jL3PuHD3aY)
 
@@ -157,7 +157,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[Advanced scripting with studies](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_study_scripting_.pdf)** (A. Delorme)</span> [oddball_file.bdf](https://sccn.ucsd.edu/githubwiki/files/oddball_file.zip)
 
-> <span style="color: gray">Parallel session 2 **Automated artifact rejection** [Zoom link](https://ucsd.zoom.us/j/97226313682) or [EEG tech Room](https://gather.town/app/RdR6An6QJCsL5oJw/eeglab2021)
+> <span style="color: gray">Parallel session 2 **Automated artifact rejection**
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span> - **[Artifact Subspace reconstruction](https://sccn.ucsd.edu/githubwiki/files/asr-final-export.pdf)** (Christian Kothe)</span>
 
