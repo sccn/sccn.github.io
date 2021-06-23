@@ -79,7 +79,7 @@ the third a parameter describing the event (for example, the stimulus position).
 
 <table>
 <tr>
-<td><strong>Latency</strong></td>
+<td><strong>Onset</strong></td>
 <td><strong>Type</strong></td>
 <td><strong>Position</strong></td>
 </tr>
