@@ -51,7 +51,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Time-frequency PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_UCSD_JRI_TimeFrequencyTheoryPractice_v2.1.pdf)** in EEGLAB (John Iversen)</span> [Recording](https://youtu.be/6Uss2utjdXw)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **Phase/amplitude coherence (PAC) plugin** (Ramon Martinez)</span> [Recording](https://youtu.be/SgWF2CKv0Hg)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **Phase/amplitude coherence (PAC) plugin** (R. Martinez)</span> [Recording](https://youtu.be/SgWF2CKv0Hg)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[The PowPowCAT plug-in](https://sccn.ucsd.edu/githubwiki/files/PowPowCAT_30thEEGLABWorkshop.pdf)** (Makoto Miyakoshi)</span> [Recording](https://youtu.be/nqYlmsCD2WE)
 
@@ -97,7 +97,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[High-resolution source imaging](https://sccn.ucsd.edu/githubwiki/files/eeglab2021_high_resolution_source_imaging.pdf)** (Zeynep Akalin Acar)</span> 
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[NFT/NIST demo and PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/NFT_demo2021.pdf)** (Zeynep Akalin Acar) and [Demo data](https://rdl-share.ucsd.edu/message/U7F0uMivgbGZJur64TXDac)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[NFT/NIST PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/NFT_demo2021.pdf)** (Zeynep Akalin Acar) and [Demo data](https://rdl-share.ucsd.edu/message/U7F0uMivgbGZJur64TXDac)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Tutorial in Gather.Town. [Tutorial Data Files](https://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) & [STUDY Files](https://sccn.ucsd.edu/eeglab/download/STUDYstern_measures.zip)</span>
 
@@ -121,13 +121,13 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Hierarchical Linear Modelling for EEG](https://sccn.ucsd.edu/githubwiki/files/2021_HLM_EEGLAB_workshop.pdf)** (Cyril Pernet)</span> [Recording](https://youtu.be/USShCaZwe9Y)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet) with [demo data.](https://drive.google.com/file/d/1XNXObHMJpjadntf-ZBCInhr2Xj-AbEkt/view?usp=sharing)</span> [Recording](https://youtu.be/eTjavc0bZfs)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **LIMO plug-in PRACTICUM** (Cyril Pernet) with [demo data.](https://drive.google.com/file/d/1XNXObHMJpjadntf-ZBCInhr2Xj-AbEkt/view?usp=sharing)</span> [Recording](https://youtu.be/eTjavc0bZfs)
 
 > <span style="color: gray">Parallel session 2 - **Advanced ICA analysis**
   
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **[AMICA and AMICA Tools](https://sccn.ucsd.edu/githubwiki/files/Amica_and_Tools_EEGLAB2021.pdf)** (Scott Makeig &amp; Jason Palmer)</span> [Recording](https://youtu.be/hdKPlZjZyYg)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[IMAT: Independent Modulator Analysis plug-in](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021_2.pdf)** (Wagner &amp; Onton)</span> with [demo data.](https://sccn.ucsd.edu/eeglab/download/IMAT_data.zip) [Recording](https://youtu.be/a6JH-E4nl-I)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[IMAT: Indep. Modulator Analysis](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021_2.pdf)** (Wagner &amp; Onton)</span>  [demo data](https://sccn.ucsd.edu/eeglab/download/IMAT_data.zip) [Recording](https://youtu.be/a6JH-E4nl-I)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[ICA reliability analysis](https://sccn.ucsd.edu/githubwiki/files/RELICA_presentations.pdf)** (Fiorenzo Artoni)</span> [Recording](https://youtu.be/m158S1hy8_c)
 
@@ -149,19 +149,19 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[Batch processing without scripting](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_batch_processing_no_scripting.pdf)** (A. Delorme)</span> [Youtube](https://www.youtube.com/watch?v=-jL3PuHD3aY) and  [Recording](https://youtu.be/wa3Z0JL1jN4)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[Batch processing without scripting](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_batch_processing_no_scripting.pdf)** (A. Delorme)</span> [Recording](https://youtu.be/wa3Z0JL1jN4)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[Basic scripting in EEGLAB](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_basic_scripting_and_plugin.pdf)** (A. Delorme)</span> [stern_125Hz.set](https://sccn.ucsd.edu/githubwiki/files/stern_125Hz.zip) and  [Recording](https://youtu.be/T-IMyvJdB0M)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - **[NSG & generic pipelines](https://sccn.ucsd.edu/githubwiki/files/NSG_general_pipeline_2021.pdf)** (A. Delorme)</span> [generic pipeline](https://sccn.ucsd.edu/githubwiki/files/generic_pipeline.zip) and  [Recording](https://youtu.be/VlWOstHPtUc)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - **[NSG & generic pipelines](https://sccn.ucsd.edu/githubwiki/files/NSG_general_pipeline_2021.pdf)** (A. Delorme)</span> [pipeline](https://sccn.ucsd.edu/githubwiki/files/generic_pipeline.zip) and  [Recording](https://youtu.be/VlWOstHPtUc)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[Advanced scripting with studies](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_study_scripting_.pdf)** (A. Delorme)</span> [oddball_file.bdf](https://sccn.ucsd.edu/githubwiki/files/oddball_file.zip) and  [Recording](https://youtu.be/34IUabcCWR8)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[Advanced study scripting](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_study_scripting_.pdf)** (A. Delorme)</span> [oddball_file.bdf](https://sccn.ucsd.edu/githubwiki/files/oddball_file.zip) and  [Recording](https://youtu.be/34IUabcCWR8)
 
 > <span style="color: gray">Parallel session 2 **Automated artifact rejection**
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span> - **[Artifact Subspace reconstruction](https://sccn.ucsd.edu/githubwiki/files/asr-final-export.pdf)** (Christian Kothe)</span> [Recording](https://youtu.be/Jhz2yPGeLdA)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span> - **[The clean_rawdata EEGLAB plugin running ASR](https://sccn.ucsd.edu/githubwiki/files/cleanRawData_30thEEGLABWorkshop.pdf)** (Makoto Miyakoshi)</span> [Recording](https://youtu.be/2Wfykl6jp28)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:50</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span> - **[The clean_rawdata/ASR EEGLAB plugin](https://sccn.ucsd.edu/githubwiki/files/cleanRawData_30thEEGLABWorkshop.pdf)** (M. Miyakoshi)</span> [Recording](https://youtu.be/2Wfykl6jp28)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:05</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:25</span> - **[ASR performance analysis I](https://sccn.ucsd.edu/githubwiki/files/ASRPresentation_Artoni.pdf)** (Fiorenzo Artoni)</span> [Recording](https://youtu.be/qdgHR_fJ2D8)
 
