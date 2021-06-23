@@ -75,7 +75,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
   
 <span style="color: gray"> Today's featured sponsor is [Mentalab](https://mentalab.com/). Please visit their booth in GatherTown and see their [video playlist](https://www.youtube.com/watch?v=S_MS5oSUEto&list=PLa3JycsGtkBgCRsBfikkrRDKijMvW_En6)! </span>
   
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA decomposition PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_JW_ICA_Practicum.pdf)** (Johanna Wagner)</span> [Demo Data](https://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) and [Recording](https://youtu.be/Kx3_toIW-18)
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **[ICA decomposition PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/EEGLAB2021_JW_ICA_Practicum.pdf)** (Johanna Wagner)</span> [Data](https://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) and [Recording](https://youtu.be/Kx3_toIW-18)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **[Forward &amp; inverse head modeling](https://sccn.ucsd.edu/githubwiki/files/eeglab2021_forward_inverse_head_modeling.pdf)** (Z. Akalin Acar)</span> [Recording](https://youtu.be/7Qxi0FI-WBg)
 
@@ -97,7 +97,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **[High-resolution source imaging](https://sccn.ucsd.edu/githubwiki/files/eeglab2021_high_resolution_source_imaging.pdf)** (Zeynep Akalin Acar)</span> 
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[NFT/NIST PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/NFT_demo2021.pdf)** (Zeynep Akalin Acar) and [Demo data](https://rdl-share.ucsd.edu/message/U7F0uMivgbGZJur64TXDac)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **[NFT/NIST PRACTICUM](https://sccn.ucsd.edu/githubwiki/files/NFT_demo2021.pdf)** (Zeynep Akalin Acar) [Data](https://rdl-share.ucsd.edu/message/U7F0uMivgbGZJur64TXDac)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:30pm</span> – Tutorial in Gather.Town. [Tutorial Data Files](https://sccn.ucsd.edu/eeglab/download/Workshop21_EEGdata.zip) & [STUDY Files](https://sccn.ucsd.edu/eeglab/download/STUDYstern_measures.zip)</span>
 
@@ -127,7 +127,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
   
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **[AMICA and AMICA Tools](https://sccn.ucsd.edu/githubwiki/files/Amica_and_Tools_EEGLAB2021.pdf)** (Scott Makeig &amp; Jason Palmer)</span> [Recording](https://youtu.be/hdKPlZjZyYg)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[IMAT: Indep. Modulator Analysis](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021_2.pdf)** (Wagner &amp; Onton)</span>  [demo data](https://sccn.ucsd.edu/eeglab/download/IMAT_data.zip) [Recording](https://youtu.be/a6JH-E4nl-I)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **[IMAT: Indep. Modulator Analysis](https://sccn.ucsd.edu/githubwiki/files/IM_Tutorial_2021_2.pdf)** (Wagner &amp; Onton)</span>  [Data](https://sccn.ucsd.edu/eeglab/download/IMAT_data.zip) [Recording](https://youtu.be/a6JH-E4nl-I)
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **[ICA reliability analysis](https://sccn.ucsd.edu/githubwiki/files/RELICA_presentations.pdf)** (Fiorenzo Artoni)</span> [Recording](https://youtu.be/m158S1hy8_c)
 
