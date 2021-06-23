@@ -121,7 +121,7 @@ Click [here](https://eeglab.org/workshops/EEGLAB_2021_UCSD_day1.html) to access 
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **[Hierarchical Linear Modelling for EEG](https://sccn.ucsd.edu/githubwiki/files/2021_HLM_EEGLAB_workshop.pdf)** (Cyril Pernet)</span> [Recording](https://youtu.be/USShCaZwe9Y)
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **LIMO plug-in PRACTICUM** (Cyril Pernet) with [demo data.](https://drive.google.com/file/d/1XNXObHMJpjadntf-ZBCInhr2Xj-AbEkt/view?usp=sharing)</span> [Recording](https://youtu.be/eTjavc0bZfs)
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **LIMO plug-in PRACTICUM** (Cyril Pernet) [Data](https://drive.google.com/file/d/1XNXObHMJpjadntf-ZBCInhr2Xj-AbEkt/view?usp=sharing)</span> [Recording](https://youtu.be/eTjavc0bZfs)
 
 > <span style="color: gray">Parallel session 2 - **Advanced ICA analysis**
   
