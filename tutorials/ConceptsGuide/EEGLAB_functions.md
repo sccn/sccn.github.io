@@ -158,6 +158,13 @@ ones(1, EEG.trials)*EEG.xmax*1000, linspace(EEG.xmin*1000, EEG.xmax*1000, EEG.pn
 
 ![](/assets/images/erpimage_same.png)
 
+The list of pop functions called by EEGLAB menu items is contained in the [eeglab.m](https://github.com/sccn/eeglab/blob/develop/eeglab.m) function header. To access it, under the MATLAB command line, type: 
+
+``` matlab
+help eeglab
+```
+
+
 **What do pop_ functions return?**
 
 When called from the EEGLAB interface, pop_ functions do not return

@@ -123,7 +123,7 @@ the third a parameter describing the event (for example, the stimulus position).
 Select menu item <span style="color: brown">File → Import event info → Import
 MATLAB array or ASCII file</span>
 
-![Image:Pop_importevent.jpg](/assets/images/Pop_importevent.jpg)
+![Image:Pop_importevent.jpg](/assets/images/pop_importevent.png)
 
 Browse for the tutorial text file [tutorial_eventtable.txt](http://sccn.ucsd.edu/eeglab/download/tutorial_eventtable.txt), set the number of header lines to 1
 (for the first line of the file, which gives the column field names), and
@@ -131,7 +131,7 @@ set the input fields (i.e., the names associated with the columns in the
 array) to *latency type position*. If these field names are quoted or
 separated by commas, these extra characters are ignored. (NOTE: It is
 necessary to use the names *latency* and *type* for two of the fields.
-EEGLAB uses these two field names to extract, sort, and display events. These fields must be lowercase since MATLAB is case sensitive.)
+EEGLAB uses these two field names to extract, sort, and display events. These fields must be lowercase since MATLAB is case sensitive.) Event latencies may be in second, milliseconds, or samples in the text file, but they will be stored in EEGLAB in samples.
 In this interactive window, the input *Event indices* and checkbox
 *Append events?* may be used to insert new events or replace a subset of
 events with new events (for instance, for large EEG files, which may have
