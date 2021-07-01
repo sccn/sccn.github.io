@@ -57,7 +57,7 @@ from ASCII/float file or MATLAB array</span> menu item, select
 <span style="color: brown">File → Import event info → from data
 channel</span> menu item to call function [pop_chanevent.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_chanevent.m) .
 
-![Image:Ii21pop_chanevent.jpg](/assets/images/Ii21pop_chanevent.jpg)
+![Image:Ii21pop_chanevent.jpg](/assets/images/II21pop_chanevent.jpg)
 
 Enter *33* as the event channel and set the edge-extract type to *up
 (leading)* (Note: place the mouse over the text *Transitions to extract*
@@ -303,7 +303,7 @@ be downloaded (or copied from the array above in a text file). Then select
 menu item <span style="color: brown">File → Import epoch info → from MATLAB
 array or ascii file</span>, bringing up the following window:
 
-![Image:Ii33pop_inportepoch.jpg](/assets/images/Ii33pop_inportepoch.jpg)
+![Image:Ii33pop_inportepoch.jpg](/assets/images/II33pop_inportepoch.jpg)
 
 
 
@@ -321,7 +321,7 @@ the <span style="color: brown">Edit → Event values</span> menu item to inspect
 happened to the reaction time information (use the arrow to move to the
 second event):
 
-![Image:Ii33pop_editeventvals.jpg](/assets/images/Ii33pop_editeventvals.jpg)
+![Image:Ii33pop_editeventvals.jpg](/assets/images/II33pop_editeventvals.jpg)
 
 As shown above, when epoch information was imported, events with the type
 named *rt* were created and assigned a latency. If we had had several
