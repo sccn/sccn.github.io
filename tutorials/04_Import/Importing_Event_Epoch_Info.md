@@ -395,7 +395,7 @@ continuous data).
     in case the time resolution of events exceeds the data resolution.
 -   <u>duration</u> - duration of the event. This information is
     displayed in seconds for continuous data, and in milliseconds for
-    epoched data. Internally, duration is (also) stored in data samples.
+    epoched data. Internally, duration is stored in data samples.
 -   <u>urevent</u> - contains indices of events in the original ('ur' in
     German) event structure. The first time events are imported, they
     are copied into a separate structure called the 'urevent' structure.
