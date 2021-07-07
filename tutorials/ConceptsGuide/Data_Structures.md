@@ -572,7 +572,12 @@ that occurred during this epoch. The fields *EEG.epoch(1).eventtype*,
 *EEG.epoch(1).eventposition*, and *EEG.epoch(1).eventlatency* are cell
 arrays containing the event field values of each of the events in that
 epoch. Note that the latencies in *EEG.epoch(1).eventlatency* are in
-milliseconds with respect to the epoch time-locking event.
+milliseconds with respect to the epoch time-locking event. 
+
+Some datasets contain *EEG.epoch.eventduration*,  the duration of the 
+events in milliseconds. Note that this format is different from 
+*EEG.event.duration*, which is stored as frames (but displayed in
+seconds or milliseconds).
 
 When extracting epochs, it is possible to remove all but a selected set
 of events from the data. For example, if there is only one event in an
