@@ -200,6 +200,8 @@ rmdir(fullfile(FieldTrip_folder,'external','signal'), 's');
 
 3. Open the "eeglab.prj" file in the Matlab editor. Check the path for plugins. If a new version is available, rename the version in the eeglab.prj file.
 
+3. Change the EEGLAB version in the eeg_getversion.m and in the eeglab.prj files.
+
 3. Open the Application compiler (Matlab tab "Apps" and button
 "Application compiler") and open the "eeglab.prj" file. DO NOT RESAVE THE PROJECT IN THE APPLICATION COMPILER AS IT TENDS TO MESS UP PATHS FOR CROSS PLATFORM COMPILATION.
 
