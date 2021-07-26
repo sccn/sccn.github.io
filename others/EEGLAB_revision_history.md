@@ -14,6 +14,20 @@ Minor revisions are indicated using a second number: thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
+## EEGLAB version 2021.1
+
+- Issue date: July 27th 2021; GIT tag: 2021.1
+- **Version statistics**: 151 commits and 70 files changed, 3,592 additions and 1,029 deletions.
+- **STUDY**: Allowing parallel execution of most STUDY functions. Allowing menu batch processing of studies of continuous data including BIDS-imported studies. Fix handling of multiple datasets within the same session. Fix error when computing statistics for averaged channels.
+- **EEG file format**: Fix when reading newer .set files which have been moved or loading them from the command line. Allowing saving in Matlab version 7.0 format.
+- **EEG scrolling**: EEGPLOT function speedup
+- **Octave**: Improved GUI support
+- **LIMO**: Improved LIMO compatibility and possibility to use multiple sessions per subject
+- **Removed channels**: Fix interpolation when considering removed channels. Fix removed channeled list.
+- **BIDS**: Fix issue when dealing with xml files containing unicode characters
+- **DIPFIT**: Now computes Leadfield Matrix
+- Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2021.0..eeglab2021.1) to see all changes compared to the previous EEGLAB version.
+
 ## EEGLAB version 2021.0
 
 - Issue date: February 1st 2021; GIT tag: 2021.0
