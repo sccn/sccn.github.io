@@ -21,6 +21,7 @@ The quarterly EEGLAB newsletter, the EEGLAB News, includes:
 
 Click below to read current & past issues:
 ---
+- [The EEGLAB News - Issue #9 (August 2021)](https://us20.campaign-archive.com/?u=e735222838e1d0c8bbd4862bb&id=58e96bfa84)
 - [The EEGLAB News - Issue #8 (April 2021)](https://us20.campaign-archive.com/?u=e735222838e1d0c8bbd4862bb&id=d8cca33807)
 - [The EEGLAB News - Issue #7 (February 2021)](https://us20.campaign-archive.com/?u=e735222838e1d0c8bbd4862bb&id=20ba22ceb2)
 - [The EEGLAB News - Issue #6 (November 2020)](https://mailchi.mp/89eab733dd3e/the-eeglab-news-issue-6-november-2020?e=48c79081cb)
