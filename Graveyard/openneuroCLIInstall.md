@@ -21,6 +21,6 @@ Follow **Setup** guide [here](https://github.com/OpenNeuroOrg/openneuro/tree/mas
 
 If you encounter "Error: Cannot find module 'react'", manually install react locally where openneuro-cli is located.
 ```sh
-cd /home/<username>/.nvm/versions/node/v14.16.1/lib/node_modules/openneuro-cli
+cd /home/<username>/.nvm/versions/node/<v#>/lib/node_modules/openneuro-cli
 npm install react
 ```
