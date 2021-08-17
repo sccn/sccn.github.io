@@ -1,3 +1,5 @@
+https://github.com/OpenNeuroOrg/openneuro/tree/master/packages/openneuro-cli
+
 Check to make sure bash is used (nemar-dev defaults to tcsh) and change if necessary
 ```sh
 echo $SHELL
@@ -13,9 +15,9 @@ nvm install 14
 ```
 Install openneuro-cli
 ```sh
-npm install -g openneuro-cli
+npm install -g @openneuro/cli
 ```
-Follow **Setup** guide [here](https://www.npmjs.com/package/openneuro-cli) to login, then check **Usage**.
+Follow **Setup** guide [here](https://github.com/OpenNeuroOrg/openneuro/tree/master/packages/openneuro-cli) to login, then check **Usage**.
 
 If you encounter "Error: Cannot find module 'react'", manually install react locally where openneuro-cli is located.
 ```sh
