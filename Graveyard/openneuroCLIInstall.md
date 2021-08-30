@@ -30,5 +30,5 @@ npm install react
 
 * To update the OpenNeuro client:
 ```sh
-npm update openneuro-cli
+npm update -g @openneuro/cli
 ```
