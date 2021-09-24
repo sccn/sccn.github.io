@@ -46,3 +46,7 @@ these sections over several days.
 <!-- If you do not have access to the MATLAB demos, [here](http://sccn.ucsd.edu/eeglab/matlaboverview.html) is a short online introduction to MATLAB (recommended pages, 1 to 12).
 -->
 If you do not use MATLAB regularly, we encourage you to watch these demos, read these sections, and practice using the skills they introduce over several days.
+
+## A Video tutorial for scripting with EEGLAB
+
+This [video tutorial](http://sincxpress.com/neuroscience/) by Mike Cohen uses EEGLAB.
