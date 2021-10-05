@@ -30,8 +30,8 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 <button onclick="changeTimezoneFromBase('PDT','EDT')" style="background-color: #008CBA; color: white; border: none; padding: 5px 5px; text-align: center;">EDT</button>
 <button onclick="changeTimezone('MST')" style="background-color:#34bdeb; color: white; border: none; padding: 5px 5px; text-align: center;">MST</button>
 <button onclick="changeTimezoneFromBase('PDT','IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">India</button>
-<button onclick="changeTimezoneFromBase('PDT','CST')" style="background-color: #00CED1; color: white; border: none; padding: 5px 5px; text-align: center;">China & Australia west</button>
-<button onclick="changeTimezoneFromBase('PDT','AEST')" style="background-color:#CD5C5C; color: white; border: none; padding: 5px 5px; text-align: center;">Australia east</button>
+<button onclick="changeTimezoneFromBase('PDT','CST')" style="background-color: #00CED1; color: white; border: none; padding: 5px 5px; text-align: center;">China & Australia W</button>
+<button onclick="changeTimezoneFromBase('PDT','AEST')" style="background-color:#CD5C5C; color: white; border: none; padding: 5px 5px; text-align: center;">Australia E</button>
 <button onclick="changeTimezoneFromBase('PDT','CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">CEST</button>
 <button onclick="changeTimezoneFromBase('PDT','JST')" style="background-color:#BC8F8F; color: white; border: none; padding: 5px 5px; text-align: center;">Japan & Korea</button>
 ## MONDAY, November 29th (open to all; free registration required)
