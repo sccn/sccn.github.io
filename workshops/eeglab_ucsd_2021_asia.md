@@ -23,7 +23,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 **Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
-**Time zone:** All the times below are shown in California (Pacific Daylight) Time. Click on one of the time zone boxes below to select your time zone (we are in process of adding more zones). 
+**Time zone:** All the times below are shown in California (Pacific Daylight) Time. Click on one of the time zone boxes below to select your time zone. 
 
 <button onclick="changeFormat()" style="background-color: Black; color: White; border: none; padding: 5px 5px; text-align: center;">A/PM<->24hr</button>
 <button onclick="changeTimezone('PDT')" style="background-color: #4CAF50; color: white; border: none; padding: 5px 5px; text-align: center;">PDT</button>
