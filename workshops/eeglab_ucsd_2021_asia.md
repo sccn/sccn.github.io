@@ -32,7 +32,8 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 <button onclick="changeTimezone('IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">India</button>
 <button onclick="changeTimezone('CST')" style="background-color: #ebcf34; color: white; border: none; padding: 5px 5px; text-align: center;">China & Australia west</button>
 <button onclick="changeTimezone('CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">CEST</button>
-
+<button onclick="changeTimezone('JST')" style="background-color:#BDB76B; color: white; border: none; padding: 5px 5px; text-align: center;">Japan & Korea</button>
+<button onclick="changeTimezone('AEST')" style="background-color:#DC143C; color: white; border: none; padding: 5px 5px; text-align: center;">Australia east</button>
 ## MONDAY, November 29th (open to all; free registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">05:30pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span> – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
