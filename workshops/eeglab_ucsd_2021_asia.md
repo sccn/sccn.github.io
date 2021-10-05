@@ -102,31 +102,29 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## WEDNESDAY, December 1st (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Forward &amp; inverse head modeling** (Zeynep Akalin Acar)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span> – **Forward &amp; inverse head modeling** (Zeynep Akalin Acar)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **EEG connectivity analysis** (Tim Mullen)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span> – **EEG connectivity analysis** (Tim Mullen)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span> – Social time. **Tutors available** for Q&amp;A.</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **Advanced Topics**</span>
 
 > <span style="color: gray">Parallel session 1 **NFT/NIST high-res. source imaging plug-ins**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **High-resolution source imaging** (Zeynep Akalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> - **High-resolution source imaging** (Zeynep Akalin Acar)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Akalin Acar)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Akalin Acar)</span>
 
 > <span style="color: gray">Parallel session 2 - **Connectivity analysis**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **Connectivity analysis using SIFT** (Tim Mullen)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:45pm</span> - **Connectivity analysis using SIFT** (Tim Mullen)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span>- **SIFT PRACTICUM** (Tim Mullen)</span>
-
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span>- **SIFT PRACTICUM** (Tim Mullen)</span>
 
 ## THURSDAY, December 2nd (paid registration required)
 
