@@ -102,7 +102,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## WEDNESDAY, December 1st (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span> – **Forward &amp; inverse head modeling** (Zeynep Akalin Acar)</span>
 
@@ -128,68 +128,68 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## THURSDAY, December 2nd (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA clustering PRACTICUM** (Julie Onton)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **ICA clustering PRACTICUM** (Julie Onton)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **EEGLAB group analysis** (Arnaud Delorme)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span> – **EEGLAB group analysis** (Arnaud Delorme)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **Multiple comparisons corrections and the use of bootstrap** (Cyril Pernet)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span> – **Multiple comparisons corrections and the use of bootstrap** (Cyril Pernet)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span> – Social time. **Tutors available** for Q&amp;A.</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **Advanced Topics**</span>
 
 > <span style="color: gray">Parallel session 1 - **Linear statistical modeling of EEG data**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **Introduction to linear modeling** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> - **Introduction to linear modeling** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Statistics using linear modeling** (Cyril Pernet)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span> - **Statistics using linear modeling** (Cyril Pernet)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
 
 > <span style="color: gray">Parallel session 2 - **Advanced ICA analysis**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:15pm</span> - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span> - **IMAT: Independent Modulator Analysis plug-in** (Wagner &amp; Onton)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:15pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:45pm</span> - **IMAT: Independent Modulator Analysis plug-in** (Wagner &amp; Onton)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICA reliability analysis** (Fiorenzo Artoni)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **ICA reliability analysis** (Fiorenzo Artoni)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
 ## FRIDAY, December 3rd (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – Network. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – Network. **Tutors available** for Q&amp;A.</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30</span> – **Mining event-related brain dynamics II** (Scott Makeig)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">8:30pm</span> – **Mining event-related brain dynamics II** (Scott Makeig)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **Deep learning for EEG - the HBN benchmark dataset** (Delorme)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:30pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span> – **Deep learning for EEG - the HBN benchmark dataset** (Delorme)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - Advanced Topics</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - Advanced Topics</span>
 
 > <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting in EEGLAB**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>- **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:45pm</span>- **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:45</span>-<span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span>- **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15pm</span>- **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **EEGLAB and high-performance computing (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **EEGLAB and high-performance computing (Arnaud Delorme)</span>
 
 > <span style="color: gray">Parallel session 2 **Automated artifact rejection and component classification**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span> - **ASR performance analysis I** (Fiorenzo Artoni)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:20pm</span> - **ASR performance analysis I** (Fiorenzo Artoni)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span> - **ASR performance analysis II** (Tzyy Ping Jung)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:40pm</span> - **ASR performance analysis II** (Tzyy Ping Jung)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>– **Participant presentations and general discussion** (All)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45am</span>– **Participant presentations and general discussion** (All)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">1:45pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">2:00pm</span>– Close</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:00am</span>– Close</span>
