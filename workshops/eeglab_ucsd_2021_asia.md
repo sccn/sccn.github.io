@@ -29,7 +29,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 <button onclick="changeTimezone('PDT')" style="background-color: #4CAF50; color: white; border: none; padding: 5px 5px; text-align: center;">PDT</button>
 <button onclick="changeTimezone('EDT')" style="background-color: #008CBA; color: white; border: none; padding: 5px 5px; text-align: center;">EDT</button>
 <button onclick="changeTimezone('MST')" style="background-color:#34bdeb; color: white; border: none; padding: 5px 5px; text-align: center;">MST</button>
-<button onclick="changeTimezone('IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">India</button>
+<button onclick="changeTimezoneFromBase('PDT','IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">India</button>
 <button onclick="changeTimezone('CST')" style="background-color: #ebcf34; color: white; border: none; padding: 5px 5px; text-align: center;">China & Australia west</button>
 <button onclick="changeTimezone('CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">CEST</button>
 <button onclick="changeTimezone('JST')" style="background-color:#BDB76B; color: white; border: none; padding: 5px 5px; text-align: center;">Japan & Korea</button>
