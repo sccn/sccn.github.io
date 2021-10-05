@@ -100,8 +100,6 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **LSL wrap up** (Tim Mullen)</span>
 
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
-
 ## WEDNESDAY, December 1st (paid registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
