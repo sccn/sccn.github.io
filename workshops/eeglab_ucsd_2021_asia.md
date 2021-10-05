@@ -9,21 +9,19 @@ nav_order: 2
 layout: redirect
 redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
-# 2021 Virtual EEGLAB Workshop
+# 2021 Virtual EEGLAB Workshop America/Asia
 
 <h3 style="color:red"><b>Note:</b> If you are an attendee, please refer to the link you have received by email which contains the latest program and links to the online event.</h3>
 
-From June 14 to June 18, the 30th EEGLAB workshop will be held online in a virtual brain conference site on [GatherTown](https://gather.town/). The first day will be free for all and will feature lectures and social events. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG.
+From November 29 to December 3, the 31th EEGLAB workshop will be held online in a virtual brain conference site on [GatherTown](https://gather.town/). The first day will be free for all and will feature lectures and social events. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG.
 
-**<span style="color: red">REGISTRATION is now CLOSED </span>**.
+[<b>Register for the free first day session, Monday November 29th here</b>](https://www.eventbrite.com/e/eeglab-workshop-day-1-free-tickets-182128179287).
 
-<!--[<b>Register for the free first day session, Monday June 14 here</b>](https://www.eventbrite.com/e/147847663341).
-
-[<b>Register for the workshop sessions, Tuesday-Friday June 15-18th here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.-->
+[<b>Register for the workshop sessions, Tuesday-Friday November 30th-December 3rd here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice, once for November 29th and once for November 30th-December 3rd, if you want to attend the whole event.
 
 We are looking forward to meeting you online ... 
 
-Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held online, with social networking possible in the [GatherTown](https://gather.town/) environment. All hours are shown in Pacific Daylight Savings Time (PDT), and, in parentheses, Central European Summer Time (CEST). The time has been arranged to accommodate North and South American as well as Western European and African time zone waking hours. 'Night owl' participants from elsewhere are welcome as well. A later event will be planned to better accommodate Asian time zones. 
+Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held online, with social networking possible in the [GatherTown](https://gather.town/) environment. All hours are shown in Pacific Daylight Savings Time (PDT) but you can click on the relevant time zone. The time has been arranged to accommodate America and Asia time zones waking hours. 'Night owl' participants from elsewhere are welcome as well.
 
 **Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
@@ -32,14 +30,13 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 <button onclick="changeFormat()" style="background-color: Black; color: White; border: none; padding: 5px 5px; text-align: center;">A/PM<->24hr</button>
 <button onclick="changeTimezone('PDT')" style="background-color: #4CAF50; color: white; border: none; padding: 5px 5px; text-align: center;">PDT</button>
 <button onclick="changeTimezone('EDT')" style="background-color: #008CBA; color: white; border: none; padding: 5px 5px; text-align: center;">EDT</button>
-<button onclick="changeTimezone('CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">CEST</button>
 <button onclick="changeTimezone('CST')" style="background-color: #ebcf34; color: white; border: none; padding: 5px 5px; text-align: center;">CST</button>
 <button onclick="changeTimezone('MST')" style="background-color:#34bdeb; color: white; border: none; padding: 5px 5px; text-align: center;">MST</button>
 <button onclick="changeTimezone('BST')" style="background-color:Grey; color: white; border: none; padding: 5px 5px; text-align: center;">BST</button>
 <button onclick="changeTimezone('IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">IST</button>
+<button onclick="changeTimezone('CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">CEST</button>
 
-## MONDAY, June 14th (open to all; free registration required)
-
+## MONDAY, November 29th (open to all; free registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">06:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:00</span> – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
 
@@ -73,7 +70,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
-## TUESDAY, June 15th (paid registration required)
+## TUESDAY, November 30th (paid registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span>
 
@@ -109,7 +106,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
-## WEDNESDAY, June 16th (paid registration required)
+## WEDNESDAY, December 1st (paid registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
 
@@ -137,7 +134,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
-## THURSDAY, June 17th (paid registration required)
+## THURSDAY, December 2nd (paid registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **ICA clustering PRACTICUM** (Julie Onton)</span>
 
@@ -167,7 +164,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
-## FRIDAY, June 18th (paid registration required)
+## FRIDAY, December 3rd (paid registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – Network. **Tutors available** for Q&amp;A.</span>
 
