@@ -60,9 +60,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > <span style="color: gray">Parallel session 2 - **Neuroinformatics using BIDS and HED**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span> - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span> - **What is BIDS \'Brain Imaging Data Structure\'?** (C. Pernet)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:10pm</span> - **3rd-gen Hierarchical Event Descriptors (HED)** (Robbins, Makeig &amp; Dung Truong)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:10pm</span> - **3rd-gen Hierarchical Event Descriptors (HED)** (Robbins, Makeig &amp; Truong)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:10pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
