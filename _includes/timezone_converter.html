@@ -1,4 +1,11 @@
 <script>
+    /* Change to base timezone first before changing to new timezone
+    * to keep the (next day) logic consistent
+    */
+    function changeTimezoneFromBase(baseTimezone, toTimezone) {
+        changeTimezone(baseTimezone);
+        changeTimezone(toTimezone);
+    }
     function changeTimezone(toTimezone) {
         var elems = document.getElementsByClassName("time");
         for (let i = 0; i < elems.length; i++) {
