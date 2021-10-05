@@ -154,8 +154,6 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **ICA reliability analysis** (Fiorenzo Artoni)</span>
 
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
-
 ## FRIDAY, December 3rd (paid registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – Network. **Tutors available** for Q&amp;A.</span>
@@ -164,7 +162,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:30pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span> – **Deep learning for EEG - the HBN benchmark dataset** (Delorme)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span> – Social time. **Tutors available** for Q&amp;A.</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - Advanced Topics</span>
 
@@ -187,8 +185,6 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:40pm</span> - **ASR performance analysis II** (Tzyy Ping Jung)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
-
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45am</span>– **Participant presentations and general discussion** (All)</span>
 
