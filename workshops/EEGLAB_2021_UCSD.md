@@ -89,9 +89,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **Phase/amplitude coherence (PAC) plugin (Ramon Martinez Cancino)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **The PowPowCAT plug-in** (Makoto Miyakoshi)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **The PowPowCAT plug-in** (Makoto Miyakoshi)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Phase/amplitude coherence (PAC) plugin** (Ramon Martinez Cancino)</span>
 
 > <span style="color: gray">Parallel session 2 - **Lab Streaming Layer (LSL) for multimodal data collection**
 
