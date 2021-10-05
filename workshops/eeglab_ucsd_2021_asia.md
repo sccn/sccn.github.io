@@ -72,7 +72,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span> – **Time-frequency decomposition: Theory** (John Iversen)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span> – **ICA theory** (Jason Palmer &amp; Scott Makeig)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span> – **ICA theory** (Scott Makeig)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span> – Social time. **Tutors available** for Q&amp;A </span>
 
