@@ -68,37 +68,37 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## TUESDAY, November 30th (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45</span> – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00</span> – **Time-frequency decomposition: Theory** (John Iversen)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span> – **Time-frequency decomposition: Theory** (John Iversen)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **ICA theory** (Jason Palmer &amp; Scott Makeig)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span> – **ICA theory** (Jason Palmer &amp; Scott Makeig)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span> – Social time. **Tutors available** for Q&amp;A </span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Advanced Topics**</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **Advanced Topics**</span>
 
 > <span style="color: gray">Parallel session 1 - **Time-frequency and connectivity analysis**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span> - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **Phase/amplitude coherence (PAC) plugin (Ramon Martinez Cancino)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00pm</span> - **Phase/amplitude coherence (PAC) plugin (Ramon Martinez Cancino)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **The PowPowCAT plug-in** (Makoto Miyakoshi)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **The PowPowCAT plug-in** (Makoto Miyakoshi)</span>
 
 > <span style="color: gray">Parallel session 2 - **Lab Streaming Layer (LSL) for multimodal data collection**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span> - **LSL introduction and demonstration** (Christian Kothe)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">9:45pm</span> - **LSL introduction and demonstration** (Christian Kothe)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:45pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **LSL synchronization and other topics**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span> - **LSL synchronization and other topics**</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **LSL in virtual reality and iEEG** (Chadwick Boulay)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00pm</span> - **LSL in virtual reality and iEEG** (Chadwick Boulay)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:30pm</span> - **LSL troubleshooting I** (David Medine)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30pm</span> - **LSL troubleshooting I** (David Medine)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **LSL wrap up** (Tim Mullen)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **LSL wrap up** (Tim Mullen)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
