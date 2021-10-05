@@ -38,35 +38,35 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## MONDAY, November 29th (open to all; free registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">06:30pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span> – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">05:30pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span> – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:55pm</span> –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:55pm</span> –  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">7:45pm</span> – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:10pm</span>– **Mining event-related brain dynamics I** (Scott Makeig)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">8:10pm</span>– **Mining event-related brain dynamics I** (Scott Makeig)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:15pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:15pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span> – **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00pm</span> - Parallel **participant poster presentations** in the Poster Hall. Note that you must register for the whole workshop to present a poster.</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> - Parallel **participant poster presentations** in the Poster Hall. Note that you must register for the whole workshop to present a poster.</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - Advanced Topics</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - Advanced Topics</span>
 
 > <span style="color: gray">Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:15pm</span> - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span> - **Practical applications** of wearable EEG (Tzyy Ping Jung)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **EEG and TMS review** (Mateusz Gola)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:15</span> - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:15</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45pm</span> - **Mobile Brain/Body Imaging (MoBI)** (John Iversen)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:15pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **EEG and TMS review** (Mateusz Gola)</span>
 
 > <span style="color: gray">Parallel session 2 - **Neuroinformatics using BIDS and HED**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:10pm</span> - **3rd-gen Hierarchical Event Descriptors (HED)** (Robbins, Makeig &amp; Dung Truong)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:10pm</span> - **3rd-gen Hierarchical Event Descriptors (HED)** (Robbins, Makeig &amp; Dung Truong)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:10am</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45am</span> - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:10pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **The EEGLAB BIDS data I/O plug-in** (Dung Truong &amp; Arnaud Delorme)</span>
 
 ## TUESDAY, November 30th (paid registration required)
 
