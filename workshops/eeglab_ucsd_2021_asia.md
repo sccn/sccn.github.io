@@ -68,7 +68,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## TUESDAY, November 30th (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **EEGLAB data import and \'bad\' data visualization** (Johanna Wagner)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **EEGLAB data import and \'bad\' data visualization** (Julie Onton)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span> – **Time-frequency decomposition: Theory** (John Iversen)</span>
 
@@ -102,7 +102,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 ## WEDNESDAY, December 1st (paid registration required)
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **ICA decomposition PRACTICUM** (Johanna Wagner)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:45pm</span> – **ICA decomposition PRACTICUM** (Julie Onton)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">7:00pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">8:00pm</span> – **Forward &amp; inverse head modeling** (Zeynep Akalin Acar)</span>
 
@@ -182,7 +182,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:20pm</span> - **ASR performance analysis I** (Fiorenzo Artoni)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:40pm</span> - **ASR performance analysis II** (Tzyy Ping Jung)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:40pm</span> - **ASR performance analysis II** (Chiyuan Chang)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
 
