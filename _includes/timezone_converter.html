@@ -84,7 +84,10 @@
                 curFormat = "12hr";
             }
             const hourString = hour.toString().padStart(2, '0');
-            return [hourString + ":" + hourMinArray[1] + postfix, curFormat];
+	    let finalHourString = hourString + ":" + hourMinArray[1] + postfix; 
+	    if (parsed[3])
+		finalHourString += parsed[3];
+            return [finalHourString, curFormat];
         }
         return [timeString, curFormat];
     }
