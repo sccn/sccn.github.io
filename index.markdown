@@ -7,6 +7,9 @@ nav_exclude: true
 has_toc: true
 ---
 ![EEGLAb sum-up picture](/assets/images/tutorial_image.png)
+
+<bold><font color=red>[EEGLAB 2021 virtual workshop registration now open!](/workshops/EEGLAB_2021_UCSD_asia.html)</font><bold>
+
 # Welcome to the EEGLAB Wiki
 
 Over the last 17 or more years, EEGLAB ([Delorme & Makeig, 2004](/others/EEGLAB_References.html)), has become a very widely used environment for human EEG and other related data analysis, with contributions from dozens of programmers, plug-in tool authors, and users. This new (2021), revised version of the EEGLAB documentation is hosted on GitHub.com for ease of use and updating. Please send us any feedback ([eeglab@sccn.ucsd.edu](mailto:eeglab@sccn.ucsd.edu)).
