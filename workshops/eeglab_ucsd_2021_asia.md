@@ -15,7 +15,7 @@ From November 29 to December 3, the 31st EEGLAB workshop will be held online in 
 
 [<b>Register for the free first day session, Monday November 29th here</b>](https://www.eventbrite.com/e/eeglab-workshop-day-1-free-tickets-182128179287).
 
-[<b>Register for the workshop sessions, Tuesday-Friday November 30th-December 3rd here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice (once for November 29th and once for November 30th-December 3rd) if you want to attend the whole event.
+[<b>Register for the workshop sessions, Tuesday-Friday November 30th-December 3rd here</b>](https://na.eventscloud.com/ereg/index.php?eventid=641115&). **Note:** You must register twice (once for November 29th and once for November 30th-December 3rd) if you want to attend the whole event.
 
 We are looking forward to meeting you online...
 
