@@ -30,14 +30,14 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 **Time zone:** All the times below are shown in California (Pacific Daylight) Time. Click on one of the time zone boxes below to select your time zone. 
 
 <button onclick="changeFormat()" style="background-color: Black; color: White; border: none; padding: 5px 5px; text-align: center;">A/PM<->24hr</button>
-<button onclick="changeTimezone('PDT')" style="background-color: #4CAF50; color: white; border: none; padding: 5px 5px; text-align: center;">PDT</button>
-<button onclick="changeTimezoneFromBase('PDT','EDT')" style="background-color: #008CBA; color: white; border: none; padding: 5px 5px; text-align: center;">EDT</button>
-<button onclick="changeTimezone('MST')" style="background-color:#34bdeb; color: white; border: none; padding: 5px 5px; text-align: center;">MST</button>
+<button onclick="changeTimezone('PDT')" style="background-color: #4CAF50; color: white; border: none; padding: 5px 5px; text-align: center;">Pacific US</button>
+<button onclick="changeTimezone('MST')" style="background-color:#34bdeb; color: white; border: none; padding: 5px 5px; text-align: center;">Moutain US</button>
+<button onclick="changeTimezoneFromBase('PDT','EDT')" style="background-color: #008CBA; color: white; border: none; padding: 5px 5px; text-align: center;">Eastern US</button>
 <button onclick="changeTimezoneFromBase('PDT','IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">India</button>
 <button onclick="changeTimezoneFromBase('PDT','CST')" style="background-color: #00CED1; color: white; border: none; padding: 5px 5px; text-align: center;">China & Australia W</button>
 <button onclick="changeTimezoneFromBase('PDT','AEST')" style="background-color:#CD5C5C; color: white; border: none; padding: 5px 5px; text-align: center;">Australia E</button>
-<button onclick="changeTimezoneFromBase('PDT','CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">CEST</button>
 <button onclick="changeTimezoneFromBase('PDT','JST')" style="background-color:#BC8F8F; color: white; border: none; padding: 5px 5px; text-align: center;">Japan & Korea</button>
+<button onclick="changeTimezoneFromBase('PDT','CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">Central Europe</button>
 ## MONDAY, November 29th (open to all; free registration required)
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timeformat="12hr" data-timezone="PDT">05:30pm</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">6:00pm</span> – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
