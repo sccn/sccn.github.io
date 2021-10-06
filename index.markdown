@@ -8,7 +8,7 @@ has_toc: true
 ---
 ![EEGLAb sum-up picture](/assets/images/tutorial_image.png)
 
-[<bold><font color=red>EEGLAB 2021 virtual workshop registration now open!</font><bold>](/workshops/EEGLAB_2021_UCSD_asia.html)
+[EEGLAB 2021 virtual workshop registration now open!](/workshops/EEGLAB_2021_UCSD_asia.html)
 
 # Welcome to the EEGLAB Wiki
 
