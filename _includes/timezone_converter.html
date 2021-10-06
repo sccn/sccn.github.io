@@ -128,6 +128,14 @@
                 validTimezone = "America/New_York";
                 offset = "-04:00";
                 break;
+            case 'PST':
+                validTimezone = "America/Los_Angeles";
+                offset = "-08:00";
+                break;
+            case 'EST':
+                validTimezone = "America/New_York";
+                offset = "-05:00";
+                break;
             case 'CEST':
                 validTimezone = "Europe/Amsterdam";
                 offset = "+02:00";
@@ -159,6 +167,10 @@
             case 'AEST':
                 validTimezone = "Australia/Brisbane";
                 offset = "+10:00";
+                break;    
+            case 'HST':
+                validTimezone = "Pacific/Honolulu";
+                offset = "-10:00";
                 break;    
         }
         return [validTimezone, offset];

@@ -39,6 +39,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
  
 <button onclick="changeTimezoneFromBase('PDT','JST')" style="background-color:#BC8F8F; color: white; border: none; padding: 5px 5px; text-align: center;">Japan & Korea</button>
 <button onclick="changeTimezoneFromBase('PDT','CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">Central Europe</button>
+<button onclick="changeTimezoneFromBase('PDT','HST')" style="background-color:#FFD700; color: white; border: none; padding: 5px 5px; text-align: center;">Hawaii</button>
 
 ## MONDAY, November 29th (open to all; free registration required)
 
