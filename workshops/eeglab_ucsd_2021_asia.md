@@ -15,9 +15,13 @@ From November 29 to December 3, the 31th EEGLAB workshop will be held online in 
 
 [<b>Register for the free first day session, Monday November 29th here</b>](https://www.eventbrite.com/e/eeglab-workshop-day-1-free-tickets-182128179287).
 
-[<b>Register for the workshop sessions, Tuesday-Friday November 30th-December 3rd here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice, once for November 29th and once for November 30th-December 3rd, if you want to attend the whole event.
+[<b>Register for the workshop sessions, Tuesday-Friday November 30th-December 3rd here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice, once for November 29th and once for November 30th-December 3rd if you want to attend the whole event.
 
-We are looking forward to meeting you online ... 
+We are looking forward to meeting you online...
+
+期待在第31届EEGLAB研讨会上见到您 - 鍾子平 （ 聖地牙哥加大 史沃茲電腦運算神經科學中心 副主任 ;  國立陽明交通大學 客座教授 ;  國立清華大學 講座教授 ;  天津大學 合聘教授 )
+
+第31回EEGLABワークショップでお会いしましょう　宮腰誠　(カリフォルニア大学サンディエゴ校 スウォーツ計算神経科学センター プロジェクトサイエンティスト)
 
 Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held online, with social networking possible in the [GatherTown](https://gather.town/) environment. All hours are shown in Pacific Daylight Savings Time (PDT) but you can click on the relevant time zone. The time has been arranged to accommodate America and Asia time zones waking hours. 'Night owl' participants from elsewhere are welcome as well.
 
