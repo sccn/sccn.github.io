@@ -9,7 +9,7 @@ nav_order: 2
 layout: redirect
 redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 
-# 2021 Virtual EEGLAB Workshop America/Asia
+# 2021 Virtual EEGLAB Workshop Pacific/Asia
 
 From November 29 to December 3, the 31th EEGLAB workshop will be held online in a virtual brain conference site on [GatherTown](https://gather.town/). The first day will be free for all and will feature lectures and social events. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG.
 
@@ -178,13 +178,13 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > <span style="color: gray">Parallel session 2 **Automated artifact rejection and component classification**
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:20pm</span> - **ASR performance analysis I** (Fiorenzo Artoni)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:20pm</span> - **ASR performance analysis I** (Fiorenzo Artoni)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:20pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:40pm</span> - **ASR performance analysis II** (Chiyuan Chang)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:20pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">10:40pm</span> - **ASR performance analysis II** (Chiyuan Chang)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:40pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:40pm</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:45pm</span> - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45am</span>– **Participant presentations and general discussion** (All)</span>
 
