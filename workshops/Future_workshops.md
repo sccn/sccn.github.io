@@ -9,9 +9,7 @@ Future EEGLAB workshops
 ===
 Below are EEGLAB workshops currently planned
 
-In 2021/2022:
-
--   The [30th EEGLAB Workshop at UCSD/online](https://eeglab.org/workshops/EEGLAB_2021_UCSD.html).
+In 2022:
 
 -   There will be an EEGLAB Workshop in Europe [at the Catholic
     University Lublin in Lublin](/workshops/EEGLAB_2020_Lublin), Poland. <b>Workshop reported to 2022 because of COVID-19.</b>
