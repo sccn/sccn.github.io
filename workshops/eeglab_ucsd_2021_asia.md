@@ -25,6 +25,8 @@ We are looking forward to meeting you online...
 
 Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held online, with social networking possible in the [GatherTown](https://gather.town/) environment. All hours are shown in Pacific Daylight Savings Time (PDT) but you can click on the relevant time zone. The time has been arranged to accommodate America and Asia time zones waking hours. 'Night owl' participants from elsewhere are welcome as well.
 
+Some presentations might be pre-recorded, but presenters will be present for questions.
+
 **Note:** Gather.town has a free public sample site for learning how to get around, attend events, and meet people in Gather.town - we highly recommend you try out their live walkthrough before the Workshop begins.
 
 **Time zone:** All the times below are shown in California (Pacific Daylight) Time. Click on one of the time zone boxes below to select your time zone. 
