@@ -30,7 +30,7 @@ To detect transient *event-related spectral perturbation,* or ERSP,
 [(Makeig, 1993)](http://sccn.ucsd.edu/~scott/ersp93.html)
 (event-related shifts in the power spectrum) and inter-trial coherence
 (ITC) (event-related phase-locking) events in epoched EEGLAB datasets,
-select <span style="color: brown">Plot → Channel time-frequency</span> calling the [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) function. Below, we
+select <span style="color: brown">Plot → Time-frequency transforms → Channel time-frequency</span> calling the [pop_newtimef.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_newtimef.m) function. Below, we
 enter *14* (Cz) for the *Channel number*. We let the other defaults remain. We press *Ok*.
 
 Note the default "Wavelet cycles" entry is *3 0.8*.
