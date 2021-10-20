@@ -37,8 +37,8 @@ Some presentations might be pre-recorded, but presenters will be present for que
 <button onclick="changeTimezoneFromBase('PDT','EDT')" style="background-color: #008CBA; color: white; border: none; padding: 5px 5px; text-align: center;">Eastern US</button>
 <button onclick="changeTimezoneFromBase('PDT','IST')" style="background-color:Purple; color: white; border: none; padding: 5px 5px; text-align: center;">India</button>
 <button onclick="changeTimezoneFromBase('PDT','CST')" style="background-color: #00CED1; color: white; border: none; padding: 5px 5px; text-align: center;">China, Taiwan & Australia W</button>
-<button onclick="changeTimezoneFromBase('PDT','AEST')" style="background-color:#CD5C5C; color: white; border: none; padding: 5px 5px; text-align: center;">Australia E</button>
  
+<button onclick="changeTimezoneFromBase('PDT','AEST')" style="background-color:#CD5C5C; color: white; border: none; padding: 5px 5px; text-align: center;">Australia E</button>
 <button onclick="changeTimezoneFromBase('PDT','JST')" style="background-color:#BC8F8F; color: white; border: none; padding: 5px 5px; text-align: center;">Japan & Korea</button>
 <button onclick="changeTimezoneFromBase('PDT','CEST')" style="background-color:Orange; color: white; border: none; padding: 5px 5px; text-align: center;">Central Europe</button>
 <button onclick="changeTimezoneFromBase('PDT','HST')" style="background-color:#FFD700; color: white; border: none; padding: 5px 5px; text-align: center;">Hawaii</button>
