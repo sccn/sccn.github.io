@@ -194,6 +194,7 @@ rmdir(fullfile(FieldTrip_folder,'external','eeglab'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','bemcp'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','npmk'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','signal'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','mffmatlabio'), 's');
 ```
 
 3. Optional: Edit the eeglab.m file and add new plugins to the compiled version of EEGLAB (line 900).
