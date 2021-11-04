@@ -12,10 +12,6 @@ redirect_link: https://sites.google.com/ucsd.edu/eeglab2020/eeglab-workshop -->
 # 2021 Virtual EEGLAB Workshop Pacific/Asia
 
 From November 29 to December 3, the 31st EEGLAB workshop will be held online in a virtual brain conference site on [GatherTown](https://gather.town/). The first day will be free for all and will feature lectures and social events. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG.
-
-We garetfully acknowledge the continued support of:
-
-[<img src="/assets/images/mbt_logo.png" width="192" height="108" />](https://mbraintrain.com/)
  
 [<b>Register for the free first day session, Monday November 29th here</b>](https://www.eventbrite.com/e/eeglab-workshop-day-1-free-tickets-182128179287).
 
@@ -202,3 +198,7 @@ Some presentations might be pre-recorded, but presenters will be present for que
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">12:45am</span>– **Participant presentations and general discussion** (All)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:45am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">1:00am</span>– Close</span>
+
+ <b>Sponsored by:</b>
+
+[<img src="/assets/images/mbt_logo.png" width="192" height="108" />](https://mbraintrain.com/)
