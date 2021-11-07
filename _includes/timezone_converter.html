@@ -12,9 +12,9 @@
             const elem = elems[i];
             let fromTimezone = elem.dataset.timezone;
             if (fromTimezone === undefined) {
-                fromTimezone = 'PDT';
+                fromTimezone = 'PST';
             }
-            if (fromTimezone !== toTimezone) {
+            /*if (fromTimezone !== toTimezone) {*/
                 const timeText = elem.innerHTML;
                 let fromDateText = elem.dataset.date;
                 if (!fromDateText)
@@ -36,7 +36,7 @@
                 elem.innerHTML = newTime;
                 elem.dataset.timezone = toTimezone;
                 elem.dataset.date = toDateText;
-            }
+            /*}*/
         }
     }
     function changeFormat() {
@@ -121,55 +121,55 @@
         let offset = "";
         switch (timezone) {
             case 'PDT':
-                validTimezone = "America/Los_Angeles";
+                validTimezone = "Etc/GMT+7";/*"Canada/Mountain";*/
                 offset = "-07:00";
                 break;
             case 'EDT':
-                validTimezone = "America/New_York";
+                validTimezone = "Etc/GMT+4";/* "America/New_York";*/
                 offset = "-04:00";
                 break;
             case 'PST':
-                validTimezone = "America/Los_Angeles";
+                validTimezone = "Etc/GMT+8";/*"Pacific/Pitcairn";*/
                 offset = "-08:00";
                 break;
             case 'EST':
-                validTimezone = "America/New_York";
+                validTimezone = "Etc/GMT+5";/*"America/New_York";*/
                 offset = "-05:00";
                 break;
             case 'CEST':
-                validTimezone = "Europe/Amsterdam";
-                offset = "+02:00";
+                validTimezone = "Etc/GMT-1";/*"Europe/Amsterdam";*/
+                offset = "+01:00";
                 break;
             case 'CST':
-                validTimezone = "Asia/Hong_Kong";
+                validTimezone = "Etc/GMT-8";/*"Asia/Hong_Kong";*/
                 offset = "+08:00";
                 break;
             case 'MST':
-                validTimezone = "America/Denver";
-                offset = "-06:00";
+                validTimezone = "Etc/GMT+7";/*"America/Denver";*/
+                offset = "-07:00";
                 break;
             case 'BST':
-                validTimezone = "Europe/London";
-                offset = "+01:00";
+                validTimezone = "GMT";/*"Europe/London";*/
+                offset = "+00:00";
                 break;
             case 'IST':
                 validTimezone = "Asia/Kolkata";
                 offset = "+05:30";
                 break;
             case 'JST':
-                validTimezone = "Asia/Tokyo";
+                validTimezone = "Etc/GMT-9";/*"Asia/Tokyo";*/
                 offset = "+09:00";
                 break;
             case 'KST':
-                validTimezone = "Asia/Seoul";
+                validTimezone = "Etc/GMT-9";/*"Asia/Seoul";*/
                 offset = "+09:00";
                 break;
             case 'AEST':
-                validTimezone = "Australia/Brisbane";
+                validTimezone = "Etc/GMT-10";/*"Australia/Brisbane";*/
                 offset = "+10:00";
                 break;    
             case 'HST':
-                validTimezone = "Pacific/Honolulu";
+                validTimezone = "Etc/GMT+10";/*"Pacific/Honolulu";*/
                 offset = "-10:00";
                 break;    
         }
