@@ -790,3 +790,5 @@ Some presentations might be pre-recorded, but presenters will be present for que
  <b>Sponsored by:</b>
 
 [<img src="/assets/images/mbt_logo.png" width="192" height="108" />](https://mbraintrain.com/)
+	
+[<img src="https://brainproducts-asia.com/wp-content/uploads/2020/01/cropped-L_BP_Asia_360x70.png" width="360" height="70" />](https://brainproducts-asia.com/)
