@@ -99,9 +99,9 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:45</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span> - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **LSL synchronization and other topics**</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span> - **LSL synchronization and other topics** (Christian Kothe)</span>
 
-> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **LSL in virtual reality and iEEG** (Chadwick Boulay)</span>
+> - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">11:30</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:00pm</span> - **Tiny devices & time synchrinization** (Tristan Stenner)</span>
 
 > - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">12:00</span>-<span class="time" data-timeformat="12hr" data-timezone="PDT">12:30pm</span> - **LSL troubleshooting I** (David Medine)</span>
 
