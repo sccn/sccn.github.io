@@ -318,7 +318,7 @@ Some presentations might be pre-recorded, but presenters will be present for que
 			<span style="color: black">
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> - 
-				<strong>LSL synchronization and other topics</strong>
+				<strong>LSL synchronization and other topics</strong> (Christian Kothe)
 			</span>
 		</li>
 	</ul>
@@ -329,7 +329,7 @@ Some presentations might be pre-recorded, but presenters will be present for que
 			<span style="color: black">
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>-
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span> - 
-				<strong>LSL in virtual reality and iEEG</strong> (Chadwick Boulay)
+				<strong>Tiny devices & time synchronization</strong> (Tristan Stenner)
 			</span>
 		</li>
 	</ul>
