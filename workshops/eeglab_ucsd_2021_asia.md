@@ -164,7 +164,7 @@ Some presentations might be pre-recorded, but presenters will be present for que
 			<span style="color: black">
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span> - 
-				<strong>What is BIDS 'Brain Imaging Data Structure'?</strong> (C. Pernet) 
+				<strong>3rd-gen Hierarchical Event Descriptors (HED)</strong> (Truong)
 			</span>
 		</li>
 	</ul>
@@ -175,7 +175,7 @@ Some presentations might be pre-recorded, but presenters will be present for que
 			<span style="color: black">
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span>- 
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:10pm</span> - 
-				<strong>3rd-gen Hierarchical Event Descriptors (HED)</strong> (Robbins, Makeig &amp; Truong) 
+				<strong>What is BIDS 'Brain Imaging Data Structure'?</strong> (C. Pernet)  
 			</span>
 		</li>
 	</ul>
