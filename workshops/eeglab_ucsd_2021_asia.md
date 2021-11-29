@@ -49,16 +49,16 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">04:30pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:00pm</span> – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends … 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:30pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span> – Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends … 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:55pm</span> – 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:55pm</span> – 
 				<strong>Gather</strong> in the Gather.Town workshop site. 
 				<strong>Meet the tutors</strong>. 
 			</span>
@@ -67,44 +67,44 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:45pm</span> – 
-				<strong>Basic elements</strong> of MATLAB scripting for EEGLAB (for beginners; Clement Lee)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:45pm</span> – 
+				<strong>Basic elements</strong> of MATLAB scripting for EEGLAB (for beginners; Clement Lee) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:10pm</span>– 
-				<strong>Mining event-related brain dynamics I</strong> (Scott Makeig)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:10pm</span>– 
+				 <strong>What's new in EEGLAB?</strong> (Arnaud Delorme)
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:15pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span> – 
-				<strong>What's new in EEGLAB?</strong> (Arnaud Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:15pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> – 
+				<strong>Mining event-related brain dynamics I</strong> (Scott Makeig) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> - Parallel 
-				<strong>participant poster presentations</strong> in the Poster Hall. Note that you must register for the whole workshop to present a poster.
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span> - Parallel 
+				<strong>participant poster presentations</strong> in the Poster Hall. Note that you must register for the whole workshop to present a poster. 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - Advanced Topics
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - Advanced Topics 
 			</span>
 		</p>
 	</li>
@@ -120,9 +120,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> - 
-				<strong>Practical applications</strong> of wearable EEG (Tzyy Ping Jung)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span> - 
+				<strong>Practical applications</strong> of wearable EEG (Tzyy Ping Jung) 
 			</span>
 		</li>
 	</ul>
@@ -131,9 +131,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:15pm</span> - 
-				<strong>Mobile Brain/Body Imaging (MoBI)</strong> (John Iversen)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:15pm</span> - 
+				<strong>Mobile Brain/Body Imaging (MoBI)</strong> (John Iversen) 
 			</span>
 		</li>
 	</ul>
@@ -142,9 +142,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:15pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
-				<strong>EEG and TMS review</strong> (Mateusz Gola)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:15pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
+				<strong>EEG and TMS review</strong> (Mateusz Gola) 
 			</span>
 		</li>
 	</ul>
@@ -160,9 +160,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> - 
-				<strong>What is BIDS 'Brain Imaging Data Structure'?</strong> (C. Pernet)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span> - 
+				<strong>What is BIDS 'Brain Imaging Data Structure'?</strong> (C. Pernet) 
 			</span>
 		</li>
 	</ul>
@@ -171,9 +171,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:10pm</span> - 
-				<strong>3rd-gen Hierarchical Event Descriptors (HED)</strong> (Robbins, Makeig &amp; Truong)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:10pm</span> - 
+				<strong>3rd-gen Hierarchical Event Descriptors (HED)</strong> (Robbins, Makeig &amp; Truong) 
 			</span>
 		</li>
 	</ul>
@@ -182,14 +182,19 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:10pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
-				<strong>The EEGLAB BIDS data I/O plug-in</strong> (Dung Truong &amp; Arnaud Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:10pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
+				<strong>The EEGLAB BIDS data I/O plug-in</strong> (Dung Truong &amp; Arnaud Delorme) 
 			</span>
 		</li>
 	</ul>
 </blockquote>
 <h2 id="tuesday-november-30th-paid-registration-required">
+	<a href="#tuesday-november-30th-paid-registration-required" class="anchor-heading" aria-labelledby="tuesday-november-30th-paid-registration-required">
+		<svg viewBox="0 0 16 16" aria-hidden="true">
+			<use xlink:href="#svg-link"></use>
+		</svg>
+	</a>
 	<a href="#tuesday-november-30th-paid-registration-required" class="anchor-heading" aria-labelledby="tuesday-november-30th-paid-registration-required">
 		<svg viewBox="0 0 16 16" aria-hidden="true">
 			<use xlink:href="#svg-link"></use>
@@ -200,35 +205,35 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:45pm</span> – 
-				<strong>EEGLAB data import and 'bad' data visualization</strong> (Julie Onton)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:45pm</span> – 
+				<strong>EEGLAB data import and 'bad' data visualization</strong> (Julie Onton) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span> – 
-				<strong>Time-frequency decomposition: Theory</strong> (John Iversen)
-			</span>
-		</p>
-	</li>
-	<li>
-		<p>
-			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span>–
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span>– 
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span> – 
-				<strong>ICA theory</strong> (Scott Makeig)
+				<strong>Time-frequency decomposition: Theory</strong> (John Iversen) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span> – Social time. 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> – 
+				<strong>ICA theory</strong> (Scott Makeig) 
+			</span>
+		</p>
+	</li>
+	<li>
+		<p>
+			<span style="color: black">
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> – Social time. 
 				<strong>Tutors available</strong> for Q&amp;A 
 			</span>
 		</p>
@@ -236,8 +241,8 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
 				<strong>Advanced Topics</strong>
 			</span>
 		</p>
@@ -254,9 +259,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> - 
-				<strong>Time-frequency PRACTICUM</strong> in EEGLAB (John Iversen)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span> - 
+				<strong>Time-frequency PRACTICUM</strong> in EEGLAB (John Iversen) 
 			</span>
 		</li>
 	</ul>
@@ -265,9 +270,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span> - 
-				<strong>Phase/amplitude coherence (PAC) plugin</strong> (Ramon Martinez Cancino)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:00pm</span> - 
+				<strong>Phase/amplitude coherence (PAC) plugin</strong> (Ramon Martinez Cancino) 
 			</span>
 		</li>
 	</ul>
@@ -276,9 +281,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
-				<strong>The PowPowCAT plug-in</strong> (Makoto Miyakoshi)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
+				<strong>The PowPowCAT plug-in</strong> (Makoto Miyakoshi) 
 			</span>
 		</li>
 	</ul>
@@ -294,9 +299,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:45pm</span> - 
-				<strong>LSL introduction and demonstration</strong> (Christian Kothe)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:45pm</span> - 
+				<strong>LSL introduction and demonstration</strong> (Christian Kothe) 
 			</span>
 		</li>
 	</ul>
@@ -305,31 +310,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:45pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> - 
-				<strong>The lsl_app_matlabviewer EEGLAB plugin</strong> (Arnaud Delorme)
-			</span>
-		</li>
-	</ul>
-</blockquote>
-<blockquote>
-	<ul>
-		<li>
-			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> - 
-				<strong>LSL synchronization and other topics</strong> (Christian Kothe)
-			</span>
-		</li>
-	</ul>
-</blockquote>
-<blockquote>
-	<ul>
-		<li>
-			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>-
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:45pm</span>- 
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span> - 
-				<strong>Tiny devices & time synchronization</strong> (Tristan Stenner)
+				<strong>The lsl_app_matlabviewer EEGLAB plugin</strong> (Arnaud Delorme) 
 			</span>
 		</li>
 	</ul>
@@ -338,9 +321,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>-
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span> - 
-				<strong>LSL troubleshooting I</strong> (David Medine)
+				<strong>LSL synchronization and other topics</strong> (Christian Kothe) 
 			</span>
 		</li>
 	</ul>
@@ -349,14 +332,41 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
-				<strong>LSL wrap up</strong> (Tim Mullen)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:00pm</span> - 
+				<strong>Tiny devices &amp; time synchronization</strong> (Tristan Stenner) 
+			</span>
+		</li>
+	</ul>
+</blockquote>
+<blockquote>
+	<ul>
+		<li>
+			<span style="color: black">
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:30pm</span> - 
+				<strong>LSL troubleshooting I</strong> (David Medine) 
+			</span>
+		</li>
+	</ul>
+</blockquote>
+<blockquote>
+	<ul>
+		<li>
+			<span style="color: black">
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
+				<strong>LSL wrap up</strong> (Tim Mullen) 
 			</span>
 		</li>
 	</ul>
 </blockquote>
 <h2 id="wednesday-december-1st-paid-registration-required">
+	<a href="#wednesday-december-1st-paid-registration-required" class="anchor-heading" aria-labelledby="wednesday-december-1st-paid-registration-required">
+		<svg viewBox="0 0 16 16" aria-hidden="true">
+			<use xlink:href="#svg-link"></use>
+		</svg>
+	</a>
 	<a href="#wednesday-december-1st-paid-registration-required" class="anchor-heading" aria-labelledby="wednesday-december-1st-paid-registration-required">
 		<svg viewBox="0 0 16 16" aria-hidden="true">
 			<use xlink:href="#svg-link"></use>
@@ -367,44 +377,44 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:45pm</span> – 
-				<strong>ICA decomposition PRACTICUM</strong> (Julie Onton)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:45pm</span> – 
+				<strong>ICA decomposition PRACTICUM</strong> (Julie Onton) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span> – 
-				<strong>Forward &amp; inverse head modeling</strong> (Zeynep Akalin Acar)
-			</span>
-		</p>
-	</li>
-	<li>
-		<p>
-			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span>–
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span>– 
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span> – 
-				<strong>EEG connectivity analysis</strong> (Tim Mullen)
+				<strong>Forward &amp; inverse head modeling</strong> (Zeynep Akalin Acar) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span> – Social time. 
-				<strong>Tutors available</strong> for Q&amp;A.
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> – 
+				<strong>EEG connectivity analysis</strong> (Tim Mullen) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> – Social time. 
+				<strong>Tutors available</strong> for Q&amp;A. 
+			</span>
+		</p>
+	</li>
+	<li>
+		<p>
+			<span style="color: black">
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
 				<strong>Advanced Topics</strong>
 			</span>
 		</p>
@@ -421,9 +431,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> - 
-				<strong>High-resolution source imaging</strong> (Zeynep Akalin Acar)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span> - 
+				<strong>High-resolution source imaging</strong> (Zeynep Akalin Acar) 
 			</span>
 		</li>
 	</ul>
@@ -432,9 +442,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span>- 
-				<strong>NFT/NIST demo and PRACTICUM</strong> (Zeynep Akalin Acar)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span>- 
+				<strong>NFT/NIST demo and PRACTICUM</strong> (Zeynep Akalin Acar) 
 			</span>
 		</li>
 	</ul>
@@ -450,9 +460,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> - 
-				<strong>The DIPFIT and ROIconnect plug-ins</strong> (Arnaud Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span> - 
+				<strong>The DIPFIT and ROIconnect plug-ins</strong> (Arnaud Delorme) 
 			</span>
 		</li>
 	</ul>
@@ -461,9 +471,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:45pm</span> - 
-				<strong>Connectivity analysis using SIFT</strong> (Tim Mullen)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
+				<strong>Connectivity analysis using SIFT</strong> (Tim Mullen) 
 			</span>
 		</li>
 	</ul>
@@ -472,14 +482,19 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:45pm</span>-
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span>- 
-				<strong>SIFT PRACTICUM</strong> (Tim Mullen)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span>- 
+				<strong>SIFT PRACTICUM</strong> (Tim Mullen) 
 			</span>
 		</li>
 	</ul>
 </blockquote>
 <h2 id="thursday-december-2nd-paid-registration-required">
+	<a href="#thursday-december-2nd-paid-registration-required" class="anchor-heading" aria-labelledby="thursday-december-2nd-paid-registration-required">
+		<svg viewBox="0 0 16 16" aria-hidden="true">
+			<use xlink:href="#svg-link"></use>
+		</svg>
+	</a>
 	<a href="#thursday-december-2nd-paid-registration-required" class="anchor-heading" aria-labelledby="thursday-december-2nd-paid-registration-required">
 		<svg viewBox="0 0 16 16" aria-hidden="true">
 			<use xlink:href="#svg-link"></use>
@@ -490,44 +505,44 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:45pm</span> – 
-				<strong>ICA clustering PRACTICUM</strong> (Julie Onton)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:45pm</span> – 
+				<strong>ICA clustering PRACTICUM</strong> (Julie Onton) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span> – 
-				<strong>EEGLAB group analysis</strong> (Arnaud Delorme)
-			</span>
-		</p>
-	</li>
-	<li>
-		<p>
-			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span>-
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span>- 
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span> – 
-				<strong>Multiple comparisons corrections and the use of bootstrap</strong> (Cyril Pernet)
+				<strong>EEGLAB group analysis</strong> (Arnaud Delorme) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span> – Social time. 
-				<strong>Tutors available</strong> for Q&amp;A.
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> – 
+				<strong>Multiple comparisons corrections and the use of bootstrap</strong> (Cyril Pernet) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> – Social time. 
+				<strong>Tutors available</strong> for Q&amp;A. 
+			</span>
+		</p>
+	</li>
+	<li>
+		<p>
+			<span style="color: black">
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
 				<strong>Advanced Topics</strong>
 			</span>
 		</p>
@@ -544,9 +559,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> - 
-				<strong>Introduction to linear modeling</strong> (Arnaud Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span> - 
+				<strong>Introduction to linear modeling</strong> (Arnaud Delorme) 
 			</span>
 		</li>
 	</ul>
@@ -555,9 +570,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> - 
-				<strong>Statistics using linear modeling</strong> (Cyril Pernet)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span> - 
+				<strong>Statistics using linear modeling</strong> (Cyril Pernet) 
 			</span>
 		</li>
 	</ul>
@@ -566,9 +581,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
-				<strong>EEGLAB LIMO plug-in PRACTICUM</strong> (Cyril Pernet &amp; Arnaud Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
+				<strong>EEGLAB LIMO plug-in PRACTICUM</strong> (Cyril Pernet &amp; Arnaud Delorme) 
 			</span>
 		</li>
 	</ul>
@@ -584,9 +599,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:15pm</span> - 
-				<strong>AMICA and AMICA Tools</strong> (Scott Makeig &amp; Jason Palmer)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:15pm</span> - 
+				<strong>AMICA and AMICA Tools</strong> (Scott Makeig &amp; Jason Palmer) 
 			</span>
 		</li>
 	</ul>
@@ -595,25 +610,30 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:15pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:45pm</span> - 
-				<strong>IMAT: Independent Modulator Analysis plug-in</strong> (Wagner &amp; Onton)
-			</span>
-		</li>
-	</ul>
-</blockquote>
-<blockquote>
-	<ul>
-		<li>
-			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:45pm</span>-
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:15pm</span>- 
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
-				<strong>ICA reliability analysis</strong> (Fiorenzo Artoni)
+				<strong>IMAT: Independent Modulator Analysis plug-in</strong> (Wagner &amp; Onton) 
+			</span>
+		</li>
+	</ul>
+</blockquote>
+<blockquote>
+	<ul>
+		<li>
+			<span style="color: black">
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
+				<strong>ICA reliability analysis</strong> (Fiorenzo Artoni) 
 			</span>
 		</li>
 	</ul>
 </blockquote>
 <h2 id="friday-december-3rd-paid-registration-required">
+	<a href="#friday-december-3rd-paid-registration-required" class="anchor-heading" aria-labelledby="friday-december-3rd-paid-registration-required">
+		<svg viewBox="0 0 16 16" aria-hidden="true">
+			<use xlink:href="#svg-link"></use>
+		</svg>
+	</a>
 	<a href="#friday-december-3rd-paid-registration-required" class="anchor-heading" aria-labelledby="friday-december-3rd-paid-registration-required">
 		<svg viewBox="0 0 16 16" aria-hidden="true">
 			<use xlink:href="#svg-link"></use>
@@ -624,44 +644,44 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">05:45pm</span> – Network. 
-				<strong>Tutors available</strong> for Q&amp;A.
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:45pm</span> – Network. 
+				<strong>Tutors available</strong> for Q&amp;A. 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">06:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:30pm</span> – 
-				<strong>Mining event-related brain dynamics II</strong> (Scott Makeig)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span> – 
+				<strong>Mining event-related brain dynamics II</strong> (Scott Makeig) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">07:30pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span> – 
-				<strong>Deep learning for EEG - the HBN benchmark dataset</strong> (Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> – 
+				<strong>Deep learning for EEG - the HBN benchmark dataset</strong> (Delorme) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:00pm</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span> – Social time. 
-				<strong>Tutors available</strong> for Q&amp;A.
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span> – Social time. 
+				<strong>Tutors available</strong> for Q&amp;A. 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - Advanced Topics
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - Advanced Topics 
 			</span>
 		</p>
 	</li>
@@ -677,9 +697,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> - 
-				<strong>Creating an EEGLAB STUDY</strong> (Arnaud Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span> - 
+				<strong>Creating an EEGLAB STUDY</strong> (Arnaud Delorme) 
 			</span>
 		</li>
 	</ul>
@@ -688,9 +708,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:45pm</span>- 
-				<strong>Working with EEGLAB studies, PRACTICUM</strong> (Arnaud Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span>- 
+				<strong>Working with EEGLAB studies, PRACTICUM</strong> (Arnaud Delorme) 
 			</span>
 		</li>
 	</ul>
@@ -699,9 +719,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:45pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:15pm</span>- 
-				<strong>Scripting with EEGLAB studies, PRACTICUM</strong> (Arnaud Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:15pm</span>- 
+				<strong>Scripting with EEGLAB studies, PRACTICUM</strong> (Arnaud Delorme) 
 			</span>
 		</li>
 	</ul>
@@ -710,9 +730,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:15pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
-				<strong>EEGLAB and high-performance computing</strong> (Arnaud Delorme)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:15pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
+				<strong>EEGLAB and high-performance computing</strong> (Arnaud Delorme) 
 			</span>
 		</li>
 	</ul>
@@ -728,9 +748,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">08:30pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span> - 
-				<strong>Artifact Subspace reconstruction</strong> (Christian Kothe)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:30pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span> - 
+				<strong>Artifact Subspace reconstruction</strong> (Christian Kothe) 
 			</span>
 		</li>
 	</ul>
@@ -739,9 +759,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:00pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:20pm</span> - 
-				<strong>ASR performance analysis I</strong> (Fiorenzo Artoni)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:20pm</span> - 
+				<strong>ASR performance analysis I</strong> (Fiorenzo Artoni) 
 			</span>
 		</li>
 	</ul>
@@ -750,9 +770,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:20pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:40pm</span> - 
-				<strong>ASR performance analysis II</strong> (Chiyuan Chang)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:20pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:40pm</span> - 
+				<strong>ASR performance analysis II</strong> (Chiyuan Chang) 
 			</span>
 		</li>
 	</ul>
@@ -761,9 +781,9 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<ul>
 		<li>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">09:40pm</span>-
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:45pm</span> - 
-				<strong>ICLabel for classifying independent components</strong> (Luca Pion Tonachini)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:40pm</span>- 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45pm</span> - 
+				<strong>ICLabel for classifying independent components</strong> (Luca Pion Tonachini) 
 			</span>
 		</li>
 	</ul>
@@ -772,17 +792,17 @@ Some presentations might be pre-recorded, but presenters will be present for que
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:00am</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45am</span>– 
-				<strong>Participant presentations and general discussion</strong> (All)
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">12:00pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">12:45pm</span>– 
+				<strong>Participant presentations and general discussion</strong> (All) 
 			</span>
 		</p>
 	</li>
 	<li>
 		<p>
 			<span style="color: black">
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">11:45am</span>–
-				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">00:00am</span>– Close
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">12:45pm</span>– 
+				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">01:00am</span>– Close 
 			</span>
 		</p>
 	</li>
