@@ -164,7 +164,7 @@ Some presentations might be pre-recorded, but presenters will be present for que
 			<span style="color: black">
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:00pm</span>- 
 				<span class="time" data-timeformat="12hr" data-timezone="PST" data-date="2020-04-13">10:30pm</span> - 
-				<strong>3rd-gen Hierarchical Event Descriptors (HED)</strong> (Truong)
+				<strong>3rd-gen Hierarchical Event Descriptors (HED)</strong> (D. Truong)
 			</span>
 		</li>
 	</ul>
