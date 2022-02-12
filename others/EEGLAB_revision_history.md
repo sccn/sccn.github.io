@@ -24,26 +24,26 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Bug fix**: Fix plotting ERPimage for ICA component clusters
 - **Interoperability**: Improved Fieldtrip bidirectional conversion for data trials
 - **Interoperability**: Improved LIMO compatibility issues when processing a study with multiple sessions
-- **Speed increase**: Speed up IDing user profile and speed up eeg_checkset by 2 order of magnitude
+- **Speed increase**: Speed up IDing user profile and speed up eeg_checkset by 2 orders of magnitude
 - **EDF files**: Exporting EDF files now use a common limit for all channels; fix importing channel labels with EEG prefix in EDF files
 - **MEG**: Allow importing MEG gradiometers from FIF files
-- **Artifact rejection using ASR**: Clean_rawdata plugin now allow processing a subset of channels
-- **Multiple dataset processing**: Now channel editor can process multiple datasets in STUDY
-- Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2021.1..eeglab2022.0) to see all changes compared to the previous EEGLAB version.
+- **Artifact rejection using ASR**: Clean_rawdata plug-in now allows processing a subset of channels
+- **Multiple dataset processing**: Now channel editor can process multiple datasets in a STUDY
+- Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2021.1..eeglab2022.0) to see all changes from the previous EEGLAB version.
 
 ## EEGLAB version 2021.1
 
 - Issue date: July 27th 2021; GIT tag: 2021.1
 - **Version statistics**: 151 commits and 70 files changed, 3,592 additions and 1,029 deletions.
 - **STUDY**: Allowing parallel execution of most STUDY functions. Allowing menu batch processing of studies of continuous data including BIDS-imported studies. Fix handling of multiple datasets within the same session. Fix error when computing statistics for averaged channels.
-- **EEG file format**: Fix when reading newer .set files which have been moved or loading them from the command line. Allowing saving in Matlab version 7.0 format.
-- **EEG scrolling**: EEGPLOT function speedup
+- **EEG file format**: Fix  reading newer .set files that have been moved or loading them from the command line. Allow saving in Matlab version 7.0 format.
+- **EEG scrolling**: EEGPLOT function major speedup
 - **Octave**: Improved GUI support
-- **LIMO**: Improved LIMO compatibility and possibility to use multiple sessions per subject
+- **LIMO**: Improved LIMO compatibility and allowed the possibility to use multiple sessions per subject
 - **Removed channels**: Fix interpolation when considering removed channels. Fix removed channeled list.
 - **BIDS**: Fix issue when dealing with xml files containing unicode characters
 - **DIPFIT**: Now computes Leadfield Matrices
-- Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2021.0..eeglab2021.1) to see all changes compared to the previous EEGLAB version.
+- Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2021.0..eeglab2021.1) to see all changes from the previous EEGLAB version.
 
 ## EEGLAB version 2021.0
 
@@ -56,7 +56,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Custom group analysis**: Now allows custom processing of EEGLAB Studies.
 - **Channel selection**: Now allows selecting channel subsets by label in all GUIs.
 - **Channel location**: Now using the BEM-model channel scalp locations as the default for looking up channel locations by labels (instead of using the BESA spherical head model)
-- **Plugins support**: Now allowing plug-ins to be placed in the *plugins* subfolder of the current Matlab path
+- **Plug-in support**: Now allowing plug-ins to be placed in the *plugins* subfolder of the current Matlab path
 - **Interoperability**: Improved support for Matlab 2020 versions and for Octave, Fieldtrip, and LIMO
 - **Menu structure**: Now hiding a rarely used menu item to compare datasets by default
 - Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2020.0..eeglab2020.1) to see all changes compared to the previous EEGLAB version.
@@ -64,20 +64,20 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 ## EEGLAB version 2020.0
 
 -   Issue date: July 31st, 2020; GIT tag: 2020.0
--   <b>EEGLAB Plug-in manager</b>: Fixed bugs, made plugin detection
-    case sensitive, added plugin search capability.
+-   <b>EEGLAB Plug-in manager</b>: Fixed bugs, made plug-in detection
+    case sensitive, added plug-in search capability.
 -   <b>EEGLAB auto updater</b>: Allow installation of a new version of
     EEGLAB from within EEGLAB itself.
--   <b>Support for BIDS</b>: Now testing the EEGLAB BIDS-EEG plugin
+-   <b>Support for BIDS</b>: Now testing the EEGLAB BIDS-EEG plug-in
     (the beta version is available at
     <https://github.com/sccn/bids-matlab-tools>).
 -   <b>HED</b> Hierarchical Event Descriptors (HED): Improved tools for
     annotating dataset events at the STUDY level in the HED-2 system,
     and for extracting HED-tagged epochs.
 -   <b>IClabel</b>: Improved support and compatibility for the IClabel
-    plugin.
+    plug-in.
 -   <b>LIMO</b>: Improved support and compatibility for the LIMO
-    plugin.
+    plug-in.
 -   <b>EDF/EDF+</b>: Better conversion of EDF and EDF+ file events.
 -   <b>Scrolling data viewer</b>: Fixed issue that dramatically slowed
     down scrolling EEG viewing when the dataset includes a large number
@@ -98,12 +98,12 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
     show all menus as in previous version by changing EEGLAB
     preferences. The standard processing pipeline is now to import data,
     filter, re-reference, apply artifact rejection (default is using the
-    clean\_rawdata plugin), run ICA, detect bad components (default is
+    clean\_rawdata plug-in), run ICA, detect bad components (default is
     using ICLabel)
--   <b>Default plugins</b>. There are now 4 EEGLAB plugin installed with
+-   <b>Default plug-ins</b>. There are now 4 EEGLAB plug-in installed with
     EEGLAB. Dipfit and firfilt - which were already installed by default
     in previous EEGLAB revision - and now clean\_rawdata and ICLabel.
-    Clean\_rawdata is a powerful plugin based on ASR (Artifact Subspace
+    Clean\_rawdata is a powerful plug-in based on ASR (Artifact Subspace
     Reconstruction) to automatically remove or correct artifacts.
     ICLabel is an algorithm to automate ICA component labeling (as brain
     or artifact).
@@ -111,10 +111,10 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
     make them more user friendly, and now allow to plot ERPimage, and
     time-frequency decompositions in scalp arrays (previously this was
     only possible for ERP and spectrum).
--   There is a <b>new plugin manager</b> (there was a new one in 2019.0
-    but it yet a newer one) which automates plugin release for improved
+-   There is a <b>new plug-                                                  in manager</b> (there was a new one in 2019.0
+    but it yet a newer one) which automates plug-in release for improved
     stability. This new manager also has a rating and feedback mecanism.
-    The old plugin manager will be maintained for backward
+    The old plug-in manager will be maintained for backward
     compatibility.
 -   We have improved further the compatibility with the LIMO toolbox.
 -   Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2019..eeglab2019.1) to see all changes compared to the previous EEGLAB version.
@@ -151,7 +151,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
     filters can now be applied only to selected channel subsets or
     types.
 -   The <b>data import menu</b> has been cleaned up, adding direct links
-    to some popular import plugins.
+    to some popular import plug-ins.
 -   When performing source localization of independent components using
     DIPFIT, the brain area in which the equivalent dipole is located is
     now estimated based on direct look-up in the 40-region
