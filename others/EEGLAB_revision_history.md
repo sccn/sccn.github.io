@@ -24,7 +24,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Bug fix**: Fix plotting ERPimage for ICA component clusters
 - **Interoperability**: Improved Fieldtrip bidirectional conversion for data trials
 - **Interoperability**: Improved LIMO compatibility issues when processing a study with multiple sessions
-- **Spped increase**: Speed up IDing user profile and speed up eeg_checkset by 2 order of magnitude
+- **Speed increase**: Speed up IDing user profile and speed up eeg_checkset by 2 order of magnitude
 - **EDF files**: Exporting EDF files now use a common limit for all channels; fix importing channel labels with EEG prefix in EDF files
 - **MEG**: Allow importing MEG gradiometers from FIF files
 - **Artifact rejection using ASR**: Clean_rawdata plugin now allow processing a subset of channels
