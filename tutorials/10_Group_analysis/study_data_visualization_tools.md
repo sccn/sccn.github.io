@@ -29,7 +29,7 @@ Subjects were presented with pictures that either contained or
 did not contain animal images. Subjects responded with a button press
 whenever the picture presented contained an animal (go/no-go paradigm). These data are
 available for download [here](https://sccn.ucsd.edu/eeglab/download/animal_study.zip)
-(443 Mb). A complete description of the task, the raw data (4Gb), and
+(626 Mb). A complete description of the task, the raw data (4Gb), and
 some MATLAB files to process it are all available on 
 [openneuro.org](https://openneuro.org/datasets/ds002680).
 
