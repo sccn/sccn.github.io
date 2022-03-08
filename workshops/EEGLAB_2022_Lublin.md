@@ -177,7 +177,7 @@ laptop with MATLAB installed.
 
 - <span style="color: green">19:45 -- banquet in Hotel Mercure Lublin Centrum (included in registration)</span>
 
-<u><span style="color: blue">Thursday, September 14th</span></u>
+<u><span style="color: blue">Thursday, September 15th</span></u>
 
 **Source Localization**
 
