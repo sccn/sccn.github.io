@@ -15,7 +15,7 @@ Thirty-first EEGLAB Workshop
 </span>
 The 31st EEGLAB Workshop will take place at [the John Paul II Catholic
 University of Lublin](https://www.kul.pl/kul,21.html) in
-[Lublin](https://en.wikipedia.org/wiki/Lublin), Poland, about 3-hour by
+[Lublin](https://en.wikipedia.org/wiki/Lublin), Poland, about 2-hour by
 train from Warsaw. Participants will be expected to bring laptops with
 MATLAB installed so as to be able to participate in the practical
 sessions. The tutorial workshop will introduce and demonstrate the use
@@ -30,7 +30,7 @@ Cognitive Psychology](http://www.ac-psych.org/en/home).
 
 Registration and cost
 ---------------------
-Space at the workshop is limited to about 40 participants. Participants
+Space at the workshop is limited to about 40 to 50 participants. Participants
 will be accepted based on their academic background, motivation and
 submission for the poster session.
 
@@ -41,14 +41,13 @@ Registration cost is 300 Euros for students and post-docs, 350 Euros for
 faculty and other professional. The registration costs includes
 conference space rental, all coffee breaks, and a short excursion.
 
-<b>Registration:</b> <span style="color: "red""> Registration are now closed and
-will be reopened in 2022. </span>
+<b>Registration: Please complete this [form)](https://docs.google.com/forms/d/e/1FAIpQLSdaQ7elxr_1fumn0DCYVI1qDrOeDqaWGNFljtdghokQRVKmfg/viewform) by April 30.
 
 <b>Call for papers:</b> During the EEGLAB Workshop in Lublin a poster
 session will be held. We offer the possibility of publishing abstracts
 of presentations in [Advances in Cognitive
-Psychology](http://www.ac-psych.org/en/home) – a scientific journal (IF
-2018: 1.432) devoted primarily to the study of perception, language
+Psychology](http://www.ac-psych.org/en/home) – a scientific journal (IF-5 years =: 1.262) 
+devoted primarily to the study of perception, language
 processing, attention, memory, and cognition. The journal’s broad focus
 encompasses the behavioral, cognitive, and brain sciences. Additionally,
 selected authors may be invited to contribute to special issue of ACP
@@ -56,8 +55,9 @@ journal. On the basis of the submitted abstracts, the editor will ask to
 prepare manuscripts compliant with the requirements of the journal. If
 the manuscript passes the merit assessment by the reviewers, it will be
 accepted for publication in a special issue [see
-more](http://eeglab2020lublin.com/publication-opportunities/). For more
-information, contact Dariusz Zapała at d.zapala@gmail.com .
+more](https://www.ac-psych.org/en/special). For more
+information, contact Emilia Zabielska-Mendyk at ezabiela@gmail.com
+
 
 <b>Warning: </b> This workshop is <em>not</em> aimed for real beginners
 in EEG and MATLAB - such persons would be wasting much of their time.
@@ -78,8 +78,7 @@ Participants may fly directly to [Lublin
 Airport](https://www.airport.lublin.pl/en/) or may fly to [Warsaw Chopin
 Airport](https://www.lotnisko-chopina.pl/en/index.html) and take the [train](https://www.pkp.pl/en/)
 or [bus](https://global.flixbus.com/) from
-Warsaw to Lublin ([travel
-information](http://eeglab2020lublin.com/venue/)).
+Warsaw to Lublin.
 
 We do not provide accommodation booking services for participants, but
 will offer a discount code for the [Hotel Mercure Lublin
