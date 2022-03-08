@@ -11,22 +11,8 @@ nav_order: 3
 Thirty-first EEGLAB Workshop
 ============================
 
-<span style="color: blue">Lublin, Poland - HAS BEEN POSTPONED DUE TO COVID-19
+<span style="color: blue">Lublin, Poland - 12-16 of September 2022
 </span>
-<b> We have carefully considered all possible solutions and decided to
-postpone the workshop until 2022. The exact dates for the workshop are being
-identified and we will update information as soon as possible. We are
-sincerely sorry about the current situation.  
-Thank you for your interest in our initiative and your patience at the registration stage. All
-registered participants have a guaranteed spot at the workshop in 2022.
-We also give you a chance to update or completely re-do your submission.  
-All received registration fees will be returned to your account within
-two weeks. If you do not receive your payment by that time, please let
-us know. </b> 
-
-<b>We sincerely wish you the best health and hope to meet all of you in
-Lublin. </b>
-
 The 31st EEGLAB Workshop will take place at [the John Paul II Catholic
 University of Lublin](https://www.kul.pl/kul,21.html) in
 [Lublin](https://en.wikipedia.org/wiki/Lublin), Poland, about 3-hour by
@@ -44,7 +30,6 @@ Cognitive Psychology](http://www.ac-psych.org/en/home).
 
 Registration and cost
 ---------------------
-
 Space at the workshop is limited to about 40 participants. Participants
 will be accepted based on their academic background, motivation and
 submission for the poster session.
@@ -100,7 +85,6 @@ We do not provide accommodation booking services for participants, but
 will offer a discount code for the [Hotel Mercure Lublin
 Centrum](https://pl.tripadvisor.com/Hotel_Review-g274818-d279966-Reviews-Hotel_Mercure_Lublin_Centrum-Lublin_Lublin_Province_Eastern_Poland.html)
 
-
 MATLAB tutorial
 ----------------
 
@@ -109,7 +93,6 @@ to understand MATLAB syntax will mean you will miss out on a large
 portion of the workshop.
 
 If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html)
-
 
 MATLAB support
 --------------
@@ -123,8 +106,6 @@ Community Liaison at MathWorks for bringing this support from MathWorks
 to the workshop.
  <span style="color: red">License information coming soon.</span>
 
-
-
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
@@ -133,26 +114,19 @@ USB keys during the workshop.</b> Presentation slides will be made
 available during the workshop. You only need to bring to the workshop a
 laptop with MATLAB installed.
 
-
 <span style="color: purple">Purple lettering = lecture</span>
 <span style="color: orange">Orange lettering = tutorial</span>
 
-<u><span style="color: blue">Monday, June 15th</span></u>
-
-
+<u><span style="color: blue">Monday, September 12th</span></u>
 18:00 – 20:00 -- On site registration
 
-<u><span style="color: blue">Tuesday, June 16th</span></u>
-
+<u><span style="color: blue">Tuesday, September 13th</span></u>
 
 **Overview and ICA Theory/Practice**
 
-
 - <span style="color: purple">9:00 – 10:15 -- Mining event-related brain dynamics I (Scott Makeig)</span>
 
-
 - <span style="color: purple">10:15 – 10:45 -- EEGLAB overview (Arnaud Delorme)</span>
-
 
 - <span style="color: green"> Break </span>
 
@@ -168,23 +142,19 @@ laptop with MATLAB installed.
 
 - <span style="color: orange">15:15 – 15:45 -- Bootstrapping ICA and using PCA before ICA (TBD)</span>
 
-
 - <span style="color: green"> Break </span>
 
 - <span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (TBD)</span>
 
 - <span style="color: purple">17:00 – 17:30 -- Phase amplitude coupling (TBD)</span>
 
-<u><span style="color: blue">Wednesday, June 17th</span></u>
-
+<u><span style="color: blue">Wednesday, September 14th</span></u>
 
 **Group analysis and ICA clustering in EEGLAB**
-
 
 - <span style="color: purple">9:00 - 9:45 -- Why cluster ICA components? (Scott Makeig)</span>
 
 - <span style="color: purple">9:45 - 10:45 -- Bootstrap and correction for multiple comparisons (TBD)</span>
-
 
 - <span style="color: green"> Break </span>
 
@@ -192,56 +162,39 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">11:45 - 13:00 -- ICA component clustering and plotting (Arnaud Delorme)</span>
 
-
-
 - <span style="color: green">13:00-14:15 -- Lunch</span>
-
-
 
 **Source information flow**
 
-
 - <span style="color: purple">14:15 – 15:45 -- Source information flow and Granger-Causal modeling tools (TBD)</span>
-
 
 - <span style="color: green">Break</span>
 
 - <span style="color: orange">16:00 – 17:30 -- SIFT toolbox: practicum (TBD)</span>
 
-
-
 **Participant poster session**
-
 
 - <span style="color: black">17:30 – 19:30 -- Participants bring their poster to discuss </span>
 
-
-
 - <span style="color: green">19:45 -- banquet in Hotel Mercure Lublin Centrum (included in registration)</span>
 
-<u><span style="color: blue">Thursday, June 18th</span></u>
-
+<u><span style="color: blue">Thursday, September 14th</span></u>
 
 **Source Localization**
-
 
 - <span style="color: purple">9:00 – 10:00 -- Forward and inverse models - the Dipfit tools (Scott Makeig)</span>
 
 - <span style="color: purple">10:00 – 10:45 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span>
 
-
 - <span style="color: green"> Break </span>
 
-
 - <span style="color: green">11:00 - 15:30 -- group excursion with lunch in [The Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</span>
-
 
 **General Linear Modeling**
 
 - <span style="color: orange">15:30 – 17:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (TBD)</span>
 
-<u><span style="color: blue">Friday, June 19th</span></u>
-
+<u><span style="color: blue">Friday, September 16th</span></u>
 
 - <span style="color: purple">9:00 – 10:45 -- Mining event-related brain dynamics II (Scott Makeig)</span>
 
