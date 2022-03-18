@@ -455,13 +455,31 @@ download this .m file).
 
 ``` matlab
 % eegplugin_pca() - a pca plugin
+function vers = eegplugin_pca(fig, trystrs, catchstrs) 
+
+vers = 'pca1.00';
+
+% find tools menu
+menu = findobj(fig, 'tag', 'tools');
+
+% PCA command
+cmd = [ '[~, EEG.icawinv] = runpca(EEG.data(:,:));' ]; 
+cmd = [ cmd 'EEG.icaweights = pinv(EEG.icawinv);' ]; 
+cmd = [ cmd 'EEG.icasphere = eye(EEG.nbchan); disp(''Done'');' ];
+
+% create menu
+uimenu( menu, 'Label', 'Run PCA', 'CallBack', cmd, 'separator', 'on');
+```
+
+% eegplugin_pca() - a pca plugin
 function eegplugin_pca( fig, try_strings, catch_strings)
 
 % create menu
 toolsmenu = findobj(fig, 'tag', 'tools');
 submenu = uimenu( toolsmenu, 'label', 'Run PCA');
 
-% build command for menu callback\\ cmd = [ '[tmp1 EEG.icawinv] = runpca(EEG.data(:,:));' ];
+% build command for menu callback
+cmd = [ '[tmp1 EEG.icawinv] = runpca(EEG.data(:,:));' ];
 cmd = [ cmd 'EEG.icaweights = pinv(EEG.icawinv);' ];
 cmd = [ cmd 'EEG.icasphere = eye(EEG.nbchan);' ];
 cmd = [ cmd 'clear tmp1;' ];
