@@ -8,12 +8,12 @@ nav_order: 3
 
 ![250px\|thumb\|right\|upright=2.5\|Lublin](/assets/images/Lublin.jpg)
 
-Thirty-first EEGLAB Workshop
+Thirty-third EEGLAB Workshop
 ============================
 
 <span style="color: blue">Lublin, Poland - 12-16 of September 2022
 </span>
-The 31st EEGLAB Workshop will take place at [the John Paul II Catholic
+The 33rd EEGLAB Workshop will take place at [the John Paul II Catholic
 University of Lublin](https://www.kul.pl/kul,21.html) in
 [Lublin](https://en.wikipedia.org/wiki/Lublin), Poland, about 2-hour by
 train from Warsaw. Participants will be expected to bring laptops with
@@ -80,9 +80,7 @@ Airport](https://www.lotnisko-chopina.pl/en/index.html) and take the [train](htt
 or [bus](https://global.flixbus.com/) from
 Warsaw to Lublin.
 
-We do not provide accommodation booking services for participants, but
-will offer a discount code for the [Hotel Mercure Lublin
-Centrum](https://pl.tripadvisor.com/Hotel_Review-g274818-d279966-Reviews-Hotel_Mercure_Lublin_Centrum-Lublin_Lublin_Province_Eastern_Poland.html)
+We do not provide accommodation booking services for participants, but [here](https://eeglab2022lublin.com/?page_id=18) you can find recommended accommodation options in Lublin.
 
 MATLAB tutorial
 ----------------
