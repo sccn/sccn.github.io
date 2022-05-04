@@ -41,7 +41,7 @@ Registration cost is 300 Euros for students and post-docs, 350 Euros for
 faculty and other professional. The registration costs includes
 conference space rental, all coffee breaks, and a short excursion.
 
-<b>Registration: Please complete this [form)](https://docs.google.com/forms/d/e/1FAIpQLSdaQ7elxr_1fumn0DCYVI1qDrOeDqaWGNFljtdghokQRVKmfg/viewform) by April 30.
+<b>Registration: Please complete this [form)](https://docs.google.com/forms/d/e/1FAIpQLSdaQ7elxr_1fumn0DCYVI1qDrOeDqaWGNFljtdghokQRVKmfg/viewform) by May 31.
 
 <b>Call for papers:</b> During the EEGLAB Workshop in Lublin a poster
 session will be held. We offer the possibility of publishing abstracts
