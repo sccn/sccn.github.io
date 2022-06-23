@@ -3,7 +3,6 @@ layout: default
 title: EEGLAB 2021 UCSD
 long_title: EEGLAB 2021 UCSD workshop
 parent: Past workshops
-nav_order: 2
 ---
 <!-- 
 layout: redirect
