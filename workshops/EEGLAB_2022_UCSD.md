@@ -110,41 +110,43 @@ Hiking excursion (return 6PM)</span>
 
 **Source Localization**
 
-- <span style="color: purple">8:30 – 9:30 -- Forward and inverse models (Zeynep Akalin Acar)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)-->
+- <span style="color: purple">8:30 – 10:00 -- Forward and inverse models (Zeynep Akalin Acar)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)-->
 
-- <span style="color: purple">9:30 – 10:00 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme2019_dipfit.pdf)
+- <span style="color: purple">10:00 – 10:30 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme2019_dipfit.pdf)
 
-<span style="color: green">-- Break--</span>
+<span style="color: green">Coffee break</span>
 
-**General Linear Modeling**
-<!-- -->
+**Deep learning and EEG**
 
+<span style="color: purple">10:45 – 11:30 -- Introduction to Deep Learning and EEG (Dung Truong)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
 
-<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)
-<!-- -->
+<span style="color: purple">11:30 – 12:00 -- Formating of EEG data for DL application (Arnaud Delorme)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
 
+<span style="color: purple">12:00 – 12:30 -- EEG and DL, TBD</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
 
-<span style="color: green">12:30-13:45 Lunch --</span>
-
-<!-- -->
-
+<span style="color: green">Lunch</span>
 
 **Source information flow**
 
+<span style="color: purple">1:45PM – 2:45PM -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
 
-<span style="color: purple">13:45 – 15:30 -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)
+<span style="color: orange">2:45PM – 3:30PM -- SIFT toolbox: practicum (John Iversen)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)-->
 
-<span style="color: orange">15:45 – 17:30 -- SIFT toolbox: practicum (Tim Mullen)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)
+<span style="color: green">Coffee break</span>
 
+**EEGLAB pipelines using BIDS and HED**
 
-<span style="color: green">19:45 -- Dinner </span>
+- <span style="color: black">3:45PM-4:15PM - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
 
-<u><span style="color: blue">Friday, June 21st</span></u>
+- <span style="color: black">4:15PM-4:45PM - **Hierarchical Event Descriptors (HED)** (Robbins, Makeig &amp; Dung Truong)</span>
 
-<span style="color: green">7:30-8:30 -- Breakfast</span>
+- <span style="color: black">4:45PM-5:30PM - **The EEGLAB BIDS data I/O plug-in and BIDS processing** (Delorme)</span>
 
+## MONDAY, June 21th (paid registration required)
 
-<span style="color: purple">8:30 – 10:00 -- Mining event-related brain dynamics II (Scott Makeig)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)
+<span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
+
+<span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics II (Scott Makeig)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
 
 <span style="color: green">-- Break--</span>
 
@@ -184,30 +186,6 @@ projects](https://sccn.ucsd.edu/githubwiki/files/project_list_aspet.pdf)
 
 
 
-
-
-
-
-
-
-
-- <span style="color: black">7:00am-7:45 - **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Dung Truong)</span>
-
-
-
-- <span style="color: black">10:00am</span>-11:00</span> - Parallel **participant poster presentations** in the Poster Hall. Note that you must register for the whole workshop to present a poster.</span>
-
-- <span style="color: black">11:00am</span>-12:45pm</span> - Advanced Topics</span>
-
-> <span style="color: gray">Parallel session 1 - **Analysis of \'wearably\' acquired EEG data**
-
-> <span style="color: gray">Parallel session 2 - **Neuroinformatics using BIDS and HED**
-
-> - <span style="color: black">11:00</span>-11:30</span> - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
-
-> - <span style="color: black">11:30</span>-12:10pm</span> - **Hierarchical Event Descriptors (HED)** (Robbins, Makeig &amp; Dung Truong)</span>
-
-> - <span style="color: black">12:10</span>-12:45pm</span> - **The EEGLAB BIDS data I/O plug-in** (Truong &amp; Delorme)</span>
 
 ## TUESDAY, June 15th (paid registration required)
 
