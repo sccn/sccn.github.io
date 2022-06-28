@@ -30,7 +30,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">3:00PM-3:30PM- **Music and the Brain** (John Iversen)</span>
 
-<span style="color: green">3:30PM-3:45PM- Coffee break</span>
+<span style="color: green">Coffee break</span>
 
 - <span style="color: black">3:45PM-4:15PM- **Real world Neuroimaging** (TP Jung)</span>
 
