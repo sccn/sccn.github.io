@@ -74,52 +74,40 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 ## SATURDAY, June 19th (paid registration required)
 
-<span style="color: green">7:30 - 8:30 Breakfast</span>
+<span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
 
 **Group analysis and ICA clustering in EEGLAB**
 
-<span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_clustering.pdf)-->
+- <span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_clustering.pdf)-->
 
-<span style="color: purple">9:00 - 9:45 -- Bootstrap and correction for multiple comparisons (TBD)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
+- <span style="color: purple">9:00 - 9:45 -- Bootstrap and correction for multiple comparisons (TBD)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
 
-<span style="color: green">-- Break--</span>
+<span style="color: green">Coffee break</span>
 
-<span style="color: purple">10:45 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
+- <span style="color: purple">10:45 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
 
-<span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf)-->
+- <span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf)-->
 
-<span style="color: green">12:45-13:45 Lunch --</span>
+<span style="color: green">Lunch</span>
 
 XXXXXXXXXXX 
  
-<span style="color: green">13:45-18:00-- Hiking excursion</span>
+<span style="color: green">15:45-18:00-- Hiking excursion</span>
 
 ## SUNDAY, June 20th (paid registration required)
  
-<u><span style="color: blue">Thursday, June 20th</span></u>
-
-
-<span style="color: green">7:30 - 8:30 Breakfast</span>
-
-<!-- -->
-
+<span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
 
 **Source Localization**
 
+- <span style="color: purple">8:30 – 9:30 -- Forward and inverse models (Zeynep Akalin Acar)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)-->
 
-<span style="color: purple">8:30 – 9:30 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)
-
-<span style="color: purple">9:30 – 10:00 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme2019_dipfit.pdf)
-<!-- -->
-
-
+- <span style="color: purple">9:30 – 10:00 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme2019_dipfit.pdf)
 
 <span style="color: green">-- Break--</span>
 
-<!-- -->
-
-
 **General Linear Modeling**
+<!-- -->
 
 
 <span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Cyril Pernet)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)
