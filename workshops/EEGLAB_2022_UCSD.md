@@ -40,7 +40,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">5:15PM-5:45PM- **EEG/TMS approaches** (Mateusz Gola)</span>
 
-<span style="color: green">5:45PM-8:00PM- SFN poster in the foyer and SCCN reception</span>
+<span style="color: green">SFN poster in the foyer and SCCN reception until 8PM</span>
 
 ## FRIDAY, June 18th (paid registration required)
 
