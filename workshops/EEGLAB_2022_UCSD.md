@@ -20,17 +20,31 @@ We are looking forward to meeting you in person ...
 
 Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held in person. All hours are shown in Pacific Standard Time (PST). 
 
+- <span style="color: black">7:00am-7:45 - **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Dung Truong)</span>
+
 ## THURSDAY, June 17th (open to all; free registration required)
 
-- <span style="color: black">06:30am-7:00 - Registration open; come explore the workshop Gather.Town site. Hang out and socialize with new and old friends ... </span>
+- <span style="color: black">1:30PM-1:45PM- **A little bit of history** (Terry Sejnowski, Session Chair)</span>
 
-- <span style="color: black">7:00am-7:55 -  **Gather** in the Gather.Town workshop site. **Meet the tutors**. </span>
+- <span style="color: black">1:45PM-2:15PM- **The future of advanced EEG signal processing** (Arnaud Delorme)</span>
 
-- <span style="color: black">7:00am-7:45 - **Basic elements** of MATLAB scripting for EEGLAB (for beginners; Clement Lee)</span>
+- <span style="color: black">2:15PM-3:00PM- **Mining event-related brain dynamics** (Scott Makeig)</span>
 
-- <span style="color: black">8:00am-9:10- **Mining event-related brain dynamics I** (Scott Makeig)</span>
+- <span style="color: black">3:00PM-3:30PM- **Music and the Brain** (John Iversen)</span>
 
-- <span style="color: black">9:15am-10:00 - **What&#39;s new in EEGLAB?** (Arnaud Delorme)</span>
+- <span style="color: green">3:30PM-3:45PM- Coffee break</span>
+
+- <span style="color: black">3:45PM-4:15PM- **Real world Neuroimaging** (TP Jung)</span>
+
+- <span style="color: black">4:15PM-4:45PM- **EEG in the Classroom** (Ying Wu)</span>
+
+- <span style="color: black">4:45PM-5:15PM- **Mobile Brain EEG** (Stefan Debener)</span>
+
+- <span style="color: green">5:15PM-7:30PM- SCCN reception</span>
+
+
+
+
 
 - <span style="color: black">10:00am</span>-11:00</span> - Parallel **participant poster presentations** in the Poster Hall. Note that you must register for the whole workshop to present a poster.</span>
 
