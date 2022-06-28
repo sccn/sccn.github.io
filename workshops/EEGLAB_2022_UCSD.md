@@ -52,13 +52,13 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_eeglab_overview.pdf)-->
 
-<span style="color: green">-- Break--</span>
+<span style="color: green">Coffee break</span>
 
 - <span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)-->
 
 - <span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Julie Onton)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)-->
 
-<span style="color: green">Buffet Lunch --</span>
+<span style="color: green">Buffet Lunch</span>
 
 **ICA and time-frequency**
 
@@ -66,7 +66,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: orange">3:15PM – 3:45PM -- Automated artifact rejection using ICLabel (TBD)</span>
 
-<span style="color: green">-- Break--</span>
+<span style="color: green">Coffee break</span>
 
 - <span style="color: purple">4:00 – 5:30 -- Time-frequency decompositions: Theory and practice (John Iversen)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_time_frequency_analysis2019.pdf)-->
 
