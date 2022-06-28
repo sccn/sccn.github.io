@@ -54,53 +54,63 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 <span style="color: green">Coffee break</span>
 
-- <span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)-->
+- <span style="color: purple">10:30 – 11:30 -- Data import, Preprocessing, Artifact rejection, clean_rawdata (Julie Onton)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)-->
 
-- <span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Julie Onton)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)-->
+- <span style="color: purple">11:30 – 12:30PM -- ICA theory, AMICA and tools (Scott Makeig)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)-->
 
 <span style="color: green">Buffet Lunch</span>
 
-**ICA and time-frequency**
+**ICA, ASR, and time-frequency**
 
-- <span style="color: orange">1:45PM – 3:15PM -- ICA decomposition practicum (Julie Onton)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)-->
+- <span style="color: purple">1:30PM – 2:45PM -- ICA decomposition practicum (Julie Onton)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)-->
 
-- <span style="color: orange">3:15PM – 3:45PM -- Automated artifact rejection using ICLabel (TBD)</span>
+- <span style="color: purple">2:45PM – 3:15PM -- ASR performance analysis (TP student)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)-->
+
+- <span style="color: purple">3:15PM – 3:45PM -- Automated artifact rejection using ICLabel (TBD)</span>
 
 <span style="color: green">Coffee break</span>
 
-- <span style="color: purple">4:00 – 5:30 -- Time-frequency decompositions: Theory and practice (John Iversen)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_time_frequency_analysis2019.pdf)-->
+- <span style="color: purple">4:00PM – 5:15PM -- Time-frequency decompositions: Theory and practice (John Iversen)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_time_frequency_analysis2019.pdf)-->
 
-- <span style="color: purple">5:30 – 6:00 -- Work on projects or excercises, helpers avaialble -->
+- <span style="color: purple">5:15PM-5:40PM</span> - **The PowPowCAT plug-in** (Makoto Miyakoshi)</span>
+
+- <span style="color: purple">5:40PM – 6:00PM -- Work on projects or excercises, helpers avaialble
 
 ## SATURDAY, June 19th (paid registration required)
 
 <span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
 
-**Group analysis and ICA clustering in EEGLAB**
+**Group analysis in EEGLAB**
 
-- <span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_clustering.pdf)-->
+- <span style="color: purple">8:30 - 9:15 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
 
-- <span style="color: purple">9:00 - 9:45 -- Bootstrap and correction for multiple comparisons (TBD)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
+- <span style="color: purple">9:15 - 9:45 -- Running group-level statistics in EEGLAB and LIMO (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
+
+- <span style="color: purple">9:45 - 10:15 -- Basic scripting in EEGLAB (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
 
 <span style="color: green">Coffee break</span>
 
-- <span style="color: purple">10:45 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
+- <span style="color: purple">10:30 - 11:15 -- Advanced scripting in EEGLAB (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
 
-- <span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf)-->
+ **Clustering of ICA components**
+
+- <span style="color: purple">11:15 - 11:45 -- Why cluster ICA components? (Scott Makeig)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_clustering.pdf)-->
+
+- <span style="color: purple">11:45 - 12:30 -- ICA component clustering and plotting; applications (Julie Onton)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf)-->
 
 <span style="color: green">Lunch</span>
 
 **Lab Streaming Layer (LSL) for multimodal data collection**
 
-- <span style="color: black">1:45PM-2:00PM - **LSL introduction and demonstration** (Christian Kothe)</span>
+- <span style="color: purple">1:45PM-2:00PM - **LSL introduction and demonstration** (Christian Kothe)</span>
 
-- <span style="color: black">2:00PM-2:15PM - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
+- <span style="color: purple">2:00PM-2:15PM - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
 
-- <span style="color: black">2:15PM-2:45PM - **LSL synchronization and other topics** (Christian Kothe)</span>
+- <span style="color: purple">2:15PM-2:45PM - **LSL synchronization and other topics** (Christian Kothe)</span>
 
-- <span style="color: black">2:45PM-3:15PM - **LSL for Mobile Brain Imaging** (Stefan Debener)</span>
+- <span style="color: purple">2:45PM-3:15PM - **LSL for Mobile Brain Imaging** (Stefan Debener)</span>
  
-- <span style="color: black">3:15PM-3:30PM - **LSL wrap up** (Tim Mullen)</span>
+- <span style="color: purple">3:15PM-3:30PM - **LSL wrap up** (Tim Mullen)</span>
 
 Hiking excursion (return 6PM)</span>
 
@@ -128,19 +138,23 @@ Hiking excursion (return 6PM)</span>
 
 **Source information flow**
 
-<span style="color: purple">1:45PM – 2:45PM -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
+<span style="color: purple">1:30PM – 2:30PM -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
 
-<span style="color: orange">2:45PM – 3:30PM -- SIFT toolbox: practicum (John Iversen)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)-->
+<span style="color: purple">2:30PM – 2:50PM -- The ROI connect EEGLAB plugin (Arnaud Delorme)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
+
+<span style="color: purple">2:50PM – 3:30PM -- SIFT toolbox: practicum (John Iversen)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)-->
 
 <span style="color: green">Coffee break</span>
 
 **EEGLAB pipelines using BIDS and HED**
 
-- <span style="color: black">3:45PM-4:15PM - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
+- <span style="color: purple">3:45PM-4:10PM - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
 
-- <span style="color: black">4:15PM-4:45PM - **Hierarchical Event Descriptors (HED)** (Robbins, Makeig &amp; Dung Truong)</span>
+- <span style="color: purple">4:10PM-4:45PM - **Hierarchical Event Descriptors (HED)** (Robbins, Makeig &amp; Dung Truong)</span>
 
-- <span style="color: black">4:45PM-5:30PM - **The EEGLAB BIDS data I/O plug-in and BIDS processing** (Delorme)</span>
+- <span style="color: purple">4:45PM-5:30PM - **The EEGLAB BIDS data I/O plug-in and BIDS processing demo** (Delorme)</span>
+
+- <span style="color: purple">5:30PM – 6:00PM -- Work on projects or excercises, helpers avaialble
 
 ## MONDAY, June 21th (paid registration required)
 
@@ -148,16 +162,16 @@ Hiking excursion (return 6PM)</span>
 
 <span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics II (Scott Makeig)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
 
-<span style="color: green">-- Break--</span>
+<span style="color: purple">9:30 – 10:30 -- Practicum mini groups (min groups led by researcher; one group for HED, one group for connectivity analysis)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
 
+<span style="color: green">Coffee break</span>
 
+<span style="color: purple">10:45 – 11:30 -- Practicum, small group projects</span>
 
-
-<span style="color: orange">10:15 – 11:30 -- Practicum, small group projects</span>
-
-<span style="color: orange">11:30 – 12:00 -- Participant project presentations and general discussion</span> [List of
+<span style="color: purple">11:30 – 12:00 -- Participant project presentations and general discussion</span> [List of
 projects](https://sccn.ucsd.edu/githubwiki/files/project_list_aspet.pdf)
 
+<span style="color: green">Close</span>
 
 
 
@@ -170,132 +184,3 @@ projects](https://sccn.ucsd.edu/githubwiki/files/project_list_aspet.pdf)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## TUESDAY, June 15th (paid registration required)
-
-- <span style="color: black">7:00am-7:45 - **EEGLAB data import and \'bad\' data visualization** (Julie Onton)</span>
-
-- <span style="color: black">8:00am-9:00 - **Time-frequency decomposition: Theory** (John Iversen)</span>
-
-- <span style="color: black">9:00am-10:00 - **ICA theory** (Scott Makeig)</span>
-
-> <span style="color: gray">Parallel session 1 - **Time-frequency and connectivity analysis**
-
-> - <span style="color: black">10:30</span>-11:30</span> - **Time-frequency PRACTICUM** in EEGLAB (John Iversen)</span>
-
-> - <span style="color: black">11:30</span>-12:00pm</span> - **The PowPowCAT plug-in** (Makoto Miyakoshi)</span>
-
-
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
-
-## WEDNESDAY, June 16th (paid registration required)
-
-- <span style="color: black">7:00am-7:45 - **ICA decomposition PRACTICUM** (Julie Onton)</span>
-
-- <span style="color: black">8:00am-9:00 - **Forward &amp; inverse head modeling** (Zeynep Akalin Acar)</span>
-
-- <span style="color: black">9:00am-10:00 - **EEG connectivity analysis** (Tim Mullen)</span>
-
-- <span style="color: black">10:00am-10:30 - Social time. **Tutors available** for Q&amp;A.</span>
-
-- <span style="color: black">10:30am</span>-12:45pm</span> - **Advanced Topics**</span>
-
-> <span style="color: gray">Parallel session 1 **NFT/NIST high-res. source imaging plug-ins**
-
-> - <span style="color: black">10:30</span>-11:00</span> - **High-resolution source imaging** (Zeynep Akalin Acar)</span>
-
-> - <span style="color: black">11:00</span>-12:45pm</span>- **NFT/NIST demo and PRACTICUM** (Zeynep Akalin Acar)</span>
-
-> <span style="color: gray">Parallel session 2 - **Connectivity analysis**
-
-> - <span style="color: black">10:30</span>-11:00</span> - **The DIPFIT and ROIconnect plug-ins** (Arnaud Delorme)</span>
-
-> - <span style="color: black">11:00</span>-11:45</span> - **Connectivity analysis using SIFT** (Tim Mullen)</span>
-
-> - <span style="color: black">11:45</span>-12:45pm</span>- **SIFT PRACTICUM** (Tim Mullen)</span>
-
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
-
-## THURSDAY, June 17th (paid registration required)
-
-- <span style="color: black">7:00am-7:45 - **ICA clustering PRACTICUM** (Julie Onton)</span>
-
-- <span style="color: black">8:00am</span>-9:00 - **EEGLAB group analysis** (Arnaud Delorme)</span>
-
-- <span style="color: black">9:00am</span>-10:00 - **Multiple comparisons corrections and the use of bootstrap** (Cyril Pernet)</span>
-
-- <span style="color: black">10:00am-10:30 - Social time. **Tutors available** for Q&amp;A.</span>
-
-- <span style="color: black">10:30am</span>-12:45pm</span> - **Advanced Topics**</span>
-
-> <span style="color: gray">Parallel session 1 - **Linear statistical modeling of EEG data**
-
-> - <span style="color: black">10:30</span>-11:00</span> - **Introduction to linear modeling** (Arnaud Delorme)</span>
-
-> - <span style="color: black">11:00</span>-11:30</span> - **Statistics using linear modeling** (Cyril Pernet)</span>
-
-> - <span style="color: black">11:30</span>-12:45pm</span> - **EEGLAB LIMO plug-in PRACTICUM** (Cyril Pernet &amp; Arnaud Delorme)</span>
-
-> <span style="color: gray">Parallel session 2 - **Advanced ICA analysis**
-
-> - <span style="color: black">10:30</span>-11:15</span> - **AMICA and AMICA Tools** (Scott Makeig &amp; Jason Palmer)</span>
-
-> - <span style="color: black">11:15</span>-11:45</span> - **Independent Modulator Analysis plug-in** (Wagner &amp; Onton)</span>
-
-> - <span style="color: black">11:45</span>-12:45pm</span> - **ICA reliability analysis** (Fiorenzo Artoni)</span>
-
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
-
-## FRIDAY, June 18th (paid registration required)
-
-- <span style="color: black">7:00am-7:45 - Network. **Tutors available** for Q&amp;A.</span>
-
-- <span style="color: black">8:00am-9:30 - **Mining event-related brain dynamics II** (Scott Makeig)</span>
-
-- <span style="color: black">9:30am-10:00 - **Deep learning for EEG - the HBN benchmark dataset** (Delorme)</span>
-
-- <span style="color: black">10:00am-10:30 - Social time. **Tutors available** for Q&amp;A.</span>
-
-- <span style="color: black">10:30am</span>-12:45pm</span> - Advanced Topics</span>
-
-> <span style="color: gray">Parallel session 1 - **Group analysis, pipelines, and scripting in EEGLAB**
-
-> - <span style="color: black">10:30</span>-11:00</span> - **Creating an EEGLAB STUDY** (Arnaud Delorme)</span>
-
-> - <span style="color: black">11:00</span>-<span style="color: black">11:45</span>- **Working with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
-
-> - <span style="color: black">11:45</span>-<span style="color: black">12:15pm</span>- **Scripting with EEGLAB studies, PRACTICUM** (Arnaud Delorme)</span>
-
-> - <span style="color: black">12:15pm</span>-12:45pm</span> - **EEGLAB and high-performance computing (Arnaud Delorme)</span>
-
-> <span style="color: gray">Parallel session 2 **Automated artifact rejection and component classification**
-
-> - <span style="color: black">10:30</span>-11:00</span> - **Artifact Subspace reconstruction** (Christian Kothe)</span>
-
-> - <span style="color: black">11:00</span>-11:20</span> - **ASR performance analysis I** (Fiorenzo Artoni)</span>
-
-> - <span style="color: black">11:20</span>-11:40</span> - **ASR performance analysis II** (Tzyy Ping Jung)</span>
-
-> - <span style="color: black">11:40</span>-12:45pm</span> - **ICLabel for classifying independent components** (Luca Pion Tonachini)</span>
-
-> <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
-
-- <span style="color: black">1:00pm-1:45pm- **Participant presentations and general discussion** (All)</span>
-
-- <span style="color: black">1:45pm-2:00pm- Close</span>
