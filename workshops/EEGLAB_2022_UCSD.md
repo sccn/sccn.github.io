@@ -102,7 +102,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
  
 - <span style="color: black">3:15PM-3:30PM - **LSL wrap up** (Tim Mullen)</span>
 
-<span style="color: green">3:30PM-6:00PM-- Hiking excursion</span>
+Hiking excursion (return 6PM)</span>
 
 ## SUNDAY, June 20th (paid registration required)
  
