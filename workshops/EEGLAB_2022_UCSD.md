@@ -48,31 +48,31 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 **Overview and ICA Theory/Practice**
 
-- <span style="color:purple"> 8:30 – 9:45 -- Mining event-related brain dynamics I (Scott Makeig)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_i.pdf)-->
+- <span style="color:purple"> 8:30 – 9:45 -- **Mining event-related brain dynamics I (Scott Makeig)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_i.pdf)-->
 
-- <span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_eeglab_overview.pdf)-->
+- <span style="color: purple">9:45 – 10:15 -- **EEGLAB overview (Arnaud Delorme)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_eeglab_overview.pdf)-->
 
 <span style="color: green">Coffee break</span>
 
-- <span style="color: purple">10:30 – 11:30 -- Data import, Preprocessing, Artifact rejection, clean_rawdata (Julie Onton)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)-->
+- <span style="color: purple">10:30 – 11:30 -- **Data import, Preprocessing, Artifact rejection (Julie Onton)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)-->
 
-- <span style="color: purple">11:30 – 12:30PM -- ICA theory, AMICA and tools (Scott Makeig)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)-->
+- <span style="color: purple">11:30 – 12:30PM -- **ICA theory, AMICA and tools (Scott Makeig)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)-->
 
 <span style="color: green">Buffet Lunch</span>
 
 **ICA, ASR, and time-frequency**
 
-- <span style="color: purple">1:30PM – 2:45PM -- ICA decomposition practicum (Julie Onton)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)-->
+- <span style="color: purple">1:30PM – 2:45PM -- **ICA decomposition practicum (Julie Onton)**</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)-->
 
-- <span style="color: purple">2:45PM – 3:15PM -- ASR performance analysis (TP student)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)-->
+- <span style="color: purple">2:45PM – 3:15PM -- **ASR performance analysis (TP student)**</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)-->
 
-- <span style="color: purple">3:15PM – 3:45PM -- Automated artifact rejection using ICLabel (TBD)</span>
+- <span style="color: purple">3:15PM – 3:45PM -- **Automated artifact rejection using ICLabel (TBD)**</span>
 
 <span style="color: green">Coffee break</span>
 
-- <span style="color: purple">4:00PM – 5:15PM -- Time-frequency decompositions: Theory and practice (John Iversen)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_time_frequency_analysis2019.pdf)-->
+- <span style="color: purple">4:00PM – 5:15PM -- **Time-frequency decompositions: Theory and practice (John Iversen)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_time_frequency_analysis2019.pdf)-->
 
-- <span style="color: purple">5:15PM-5:40PM</span> - **The PowPowCAT plug-in** (Makoto Miyakoshi)</span>
+- <span style="color: purple">5:15PM-5:40PM</span> - **The PowPowCAT plug-in** (Makoto Miyakoshi)
 
 - <span style="color: purple">5:40PM – 6:00PM -- Work on projects or excercises, helpers avaialble
 
@@ -82,21 +82,21 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 **Group analysis in EEGLAB**
 
-- <span style="color: purple">8:30 - 9:15 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
+- <span style="color: purple">8:30 - 9:15 -- **Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
 
-- <span style="color: purple">9:15 - 9:45 -- Running group-level statistics in EEGLAB and LIMO (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
+- <span style="color: purple">9:15 - 9:45 -- **Running group-level statistics in EEGLAB and LIMO (Arnaud Delorme)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
 
-- <span style="color: purple">9:45 - 10:15 -- Basic scripting in EEGLAB (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
+- <span style="color: purple">9:45 - 10:15 -- **Basic scripting in EEGLAB (Arnaud Delorme)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
 
 <span style="color: green">Coffee break</span>
 
-- <span style="color: purple">10:30 - 11:15 -- Advanced scripting in EEGLAB (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
+- <span style="color: purple">10:30 - 11:15 -- **Advanced scripting in EEGLAB (Arnaud Delorme)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
 
  **Clustering of ICA components**
 
-- <span style="color: purple">11:15 - 11:45 -- Why cluster ICA components? (Scott Makeig)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_clustering.pdf)-->
+- <span style="color: purple">11:15 - 11:45 -- **Why cluster ICA components?** (Scott Makeig)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_clustering.pdf)-->
 
-- <span style="color: purple">11:45 - 12:30 -- ICA component clustering and plotting; applications (Julie Onton)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf)-->
+- <span style="color: purple">11:45 - 12:30 -- **ICA component clustering and plotting; applications** (Julie Onton)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf)-->
 
 <span style="color: green">Lunch</span>
 
@@ -120,29 +120,29 @@ Hiking excursion (return 6PM)</span>
 
 **Source Localization**
 
-- <span style="color: purple">8:30 – 10:00 -- Forward and inverse models (Zeynep Akalin Acar)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)-->
+- <span style="color: purple">8:30 – 10:00 -- **Forward and inverse models (Zeynep Akalin Acar)**</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)-->
 
-- <span style="color: purple">10:00 – 10:30 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> [PDF](https://sccn.ucsd.edu/githubwiki/files/delorme2019_dipfit.pdf)
+- <span style="color: purple">10:00 – 10:30 -- **Using the Dipfit plugin of EEGLAB (Arnaud Delorme)**</span> 
 
 <span style="color: green">Coffee break</span>
 
 **Deep learning and EEG**
 
-<span style="color: purple">10:45 – 11:30 -- Introduction to Deep Learning and EEG (Dung Truong)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
+<span style="color: purple">10:45 – 11:30 -- **Introduction to Deep Learning and EEG (Dung Truong)**</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
 
-<span style="color: purple">11:30 – 12:00 -- Formating of EEG data for DL application (Arnaud Delorme)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
+<span style="color: purple">11:30 – 12:00 -- **Formating of EEG data for DL application (Arnaud Delorme)**</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
 
-<span style="color: purple">12:00 – 12:30 -- EEG and DL, TBD</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
+<span style="color: purple">12:00 – 12:30 -- **EEG and DL, TBD**</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
 
 <span style="color: green">Lunch</span>
 
 **Source information flow**
 
-<span style="color: purple">1:30PM – 2:30PM -- Source information flow and Granger-Causal modeling tools (Tim Mullen)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
+<span style="color: purple">1:30PM – 2:30PM -- **Source information flow and Granger-Causal modeling tools (Tim Mullen)**</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
 
-<span style="color: purple">2:30PM – 2:50PM -- The ROI connect EEGLAB plugin (Arnaud Delorme)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
+<span style="color: purple">2:30PM – 2:50PM -- **The ROI connect EEGLAB plugin (Arnaud Delorme)**</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
 
-<span style="color: purple">2:50PM – 3:30PM -- SIFT toolbox: practicum (John Iversen)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)-->
+<span style="color: purple">2:50PM – 3:30PM -- **SIFT toolbox: practicum (John Iversen)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)-->
 
 <span style="color: green">Coffee break</span>
 
@@ -160,15 +160,15 @@ Hiking excursion (return 6PM)</span>
 
 <span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
 
-<span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics II (Scott Makeig)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
+<span style="color: purple">8:30 – 9:30 -- **Mining event-related brain dynamics II (Scott Makeig)**</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
 
-<span style="color: purple">9:30 – 10:30 -- Practicum mini groups (min groups led by researcher; one group for HED, one group for connectivity analysis)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
+<span style="color: purple">9:30 – 10:30 -- **Practicum mini groups** (min groups led by researcher; one group for HED, one group for connectivity analysis)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
 
 <span style="color: green">Coffee break</span>
 
-<span style="color: purple">10:45 – 11:30 -- Practicum, small group projects</span>
+<span style="color: purple">10:45 – 11:30 -- **Practicum, small group projects**</span>
 
-<span style="color: purple">11:30 – 12:00 -- Participant project presentations and general discussion</span> [List of
+<span style="color: purple">11:30 – 12:00 -- **Participant project presentations and general discussion**</span> [List of
 projects](https://sccn.ucsd.edu/githubwiki/files/project_list_aspet.pdf)
 
 <span style="color: green">Close</span>
