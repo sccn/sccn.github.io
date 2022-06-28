@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EEGLAB 2022 Lublin
+title: EEGLAB 2022 UCSD
 long_title: EEGLAB 2022 UCSD workshop
 parent: Workshops
 nav_order: 3
