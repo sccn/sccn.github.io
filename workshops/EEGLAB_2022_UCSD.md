@@ -90,9 +90,19 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 <span style="color: green">Lunch</span>
 
-XXXXXXXXXXX 
+**Lab Streaming Layer (LSL) for multimodal data collection**
+
+- <span style="color: black">1:45PM-2:00PM - **LSL introduction and demonstration** (Christian Kothe)</span>
+
+- <span style="color: black">2:00PM-2:15PM - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
+
+- <span style="color: black">2:15PM-2:45PM - **LSL synchronization and other topics** (Christian Kothe)</span>
+
+- <span style="color: black">2:45PM-3:15PM - **LSL for Mobile Brain Imaging** (Stefan Debener)</span>
  
-<span style="color: green">15:45-18:00-- Hiking excursion</span>
+- <span style="color: black">3:15PM-3:30PM - **LSL wrap up** (Tim Mullen)</span>
+
+<span style="color: green">3:30PM-6:00PM-- Hiking excursion</span>
 
 ## SUNDAY, June 20th (paid registration required)
  
@@ -213,22 +223,6 @@ projects](https://sccn.ucsd.edu/githubwiki/files/project_list_aspet.pdf)
 
 > - <span style="color: black">11:30</span>-12:00pm</span> - **The PowPowCAT plug-in** (Makoto Miyakoshi)</span>
 
-
-> <span style="color: gray">Parallel session 2 - **Lab Streaming Layer (LSL) for multimodal data collection**
-
-> - <span style="color: black">10:30</span>-10:45</span> - **LSL introduction and demonstration** (Christian Kothe)</span>
-
-> - <span style="color: black">10:45</span>-11:00</span> - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
-
-> - <span style="color: black">11:00</span>-11:30</span> - **LSL synchronization and other topics** (Christian Kothe)</span>
-
-> - <span style="color: black">11:30</span>-12:00pm</span> - **LSL in virtual reality and iEEG** (xxxx)</span>
-
-> - <span style="color: black">12:00</span>-12:30pm</span> - **LSL troubleshooting I** (David Medine)</span>
- 
-> - <span style="color: black">12:00</span>-12:30pm</span> - **LSL troubleshooting I** (David Medine)</span>
-
-> - <span style="color: black">12:30</span>-12:45pm</span> - **LSL wrap up** (Tim Mullen)</span>
 
 > <span style="color: gray">Parallel session 3 (reserved for sponsors; TBD)</span>
 
