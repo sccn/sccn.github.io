@@ -20,7 +20,7 @@ We are looking forward to meeting you in person ...
 
 Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held in person. All hours are shown in Pacific Standard Time (PST). 
 
-## THURSDAY, June 17th (open to all; free registration required)
+## THURSDAY, November 17th (open to all; free registration required)
 
 - <span style="color: black">1:30PM-1:45PM- **A little bit of history** (Terry Sejnowski, Session Chair)</span>
 
@@ -42,7 +42,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 <span style="color: green">SFN poster in the foyer and SCCN reception until 8PM</span>
 
-## FRIDAY, June 18th (paid registration required)
+## FRIDAY, November 18th (paid registration required)
 
 <span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
 
@@ -76,7 +76,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: purple">5:40PM – 6:00PM -- Work on projects or excercises, helpers avaialble
 
-## SATURDAY, June 19th (paid registration required)
+## SATURDAY, November 19th (paid registration required)
 
 <span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
 
@@ -114,7 +114,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 Hiking excursion (return 6PM)</span>
 
-## SUNDAY, June 20th (paid registration required)
+## SUNDAY, November 20th (paid registration required)
  
 <span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
 
@@ -156,7 +156,7 @@ Hiking excursion (return 6PM)</span>
 
 - <span style="color: purple">5:30PM – 6:00PM -- Work on projects or excercises, helpers avaialble
 
-## MONDAY, June 21th (paid registration required)
+## MONDAY, November 21th (paid registration required)
 
 <span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
 
