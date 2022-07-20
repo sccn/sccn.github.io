@@ -115,11 +115,7 @@ However, to find 256 components, it appears that even 30 points per
 weight is not enough data. 
 
 Can you use too much
-data? This would only occur when data from radically different EEG
-states, from different electrode placements, or containing
-non-stereotypic noise were concatenated, increasing the number of scalp
-maps associated with independent time courses and forcing ICA to mix
-together dissimilar activations into the N output components. 
+data? The short answer is no. However, suppose you have two tasks in your experiment and are planning to process them separately (for two papers, for example). In that case, it is probably better to run ICA on them separately because they may contain different ICA brain components. Because the number of components is limited to the number of channels, processing the two tasks together might mean that you might have fewer components specific to each task. Also, if you have different sessions for the same subject (data collected on different days), these should be processed separately because of the slightly different electrode placements. 
 
 ICA weights
 ------------
