@@ -27,7 +27,7 @@ Creating a STUDY or import from BIDS
 
 Download the data from https://openneuro.org/datasets/ds003061/ and go to this folder then run the script in the next section.
 
-Alternatively, use one of the available [EEGLAB studies](tutorials/tutorial_data.html). Note that some of these studies already have their data preprocessed and may not be suitable for automated processing.
+Alternatively, use one of the available [EEGLAB studies](tutorial_data.html). Note that some of these studies already have their data preprocessed and may not be suitable for automated processing.
 
 Running the pipeline
 ----------------
@@ -138,7 +138,7 @@ For *ICLabel*, you may set threshold to detect artifactual components. In the sc
 
 ### More advanced pipelines
 
-* What if I want to plot the spectrum instead of ERPs? The example above was for ERPs. However, it is easy to plot other measures as described in this [page](11_Scripting/command_line_study_functions.html).
+* What if I want to plot the spectrum instead of ERPs? The example above was for ERPs. However, it is easy to plot other measures as described in this [page](command_line_study_functions.html).
 
 Other EEGLAB pipelines
 ----------------------
@@ -148,5 +148,5 @@ Below are other EEGLAB pipelines.
 * [The PREP pipeline](https://vislab.github.io/EEG-Clean-Tools/) is an EEGLAB plugin. It is an outdated pipeline (as of 2022) because automated artifact detection is suboptimal, but it was a relevant pipeline from 2014 to 2020, and there is nothing fundamentally wrong with it.
 * [Makoto's processing pipeline](https://sccn.ucsd.edu/wiki/Makoto's_preprocessing_pipeline) is another relevant reference. It is not recommended for beginners. Nevertheless, it contains important information about EEG processing, and it is a worthwhile read.
 * [Danielle Gruber's pipeline](https://medium.datadriveninvestor.com/streamline-your-eeglab-experience-8803c805c5a7). Danielle Gruber is an EEGLAB user who shared her pipeline. It is long and detailed and also outdated (as of 2022). We did not spot any fundamental errors in the pipeline, though. It is a single-subject pipeline.
-* [The BIDS data script](tutorials/11_Scripting/Analyzing_EEG_BIDS_data_in_EEGLAB.html) is part of this tutorial, and it is a similar pipeline (although more complex) compared to the one presented on this page for processing data.
+* [The BIDS data script](Analyzing_EEG_BIDS_data_in_EEGLAB.html) is part of this tutorial, and it is a similar pipeline (although more complex) compared to the one presented on this page for processing data.
 * [The HAPPE pipeline](https://www.frontiersin.org/articles/10.3389/fnins.2018.00097/full). We have not evaluated this EEGLAB-based pipeline but it is a popular one.
