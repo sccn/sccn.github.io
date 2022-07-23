@@ -25,7 +25,7 @@ You do not need to write a script to process all datasets simultaneously in a ST
 Creating a STUDY or import from BIDS
 ------------------------------------
 
-Download the data from https://openneuro.org/datasets/ds003061/ and go to this folder then run the script in the next section.
+Download the data from https://openneuro.org/datasets/ds003061/ and go to this folder, then run the script in the next section.
 
 Alternatively, use one of the available [EEGLAB studies](tutorial_data.html). Note that some of these studies already have their data preprocessed and may not be suitable for automated processing.
 
@@ -67,7 +67,7 @@ EEG = clean_artifacts( EEG,'FlatlineCriterion',5,'ChannelCriterion',0.8, ...
 % them again after average reference - STUDY functions handle them automatically)
 EEG = pop_reref( EEG,[],'interpchan',[]);
 
-% run ICA reducing the dimention by 1 to account for average reference 
+% run ICA reducing the dimension by 1 to account for average reference 
 EEG = pop_runica(EEG, 'icatype','runica','concatcond','on','options',{'pca',-1});
 
 % run ICLabel and flag artifactual components
@@ -101,7 +101,7 @@ Optimizing the pipeline for your data
 
 ### Filtering
 
-You might want to apply a different filter than the filter applied by the *clean_rawdata* plugin (which is an elipic filter). For example, to apply a standard FIR filter, you would need to replace the call to the *clean_artifacts* function by:
+You might want to apply a different filter than the filter applied by the *clean_rawdata* plugin (which is an elliptic filter). For example, to apply a standard FIR filter, you would need to replace the call to the *clean_artifacts* function by:
 
 ``` matlab
 EEG = pop_eegfiltnew( EEG,'locutoff',0.5);
@@ -113,7 +113,7 @@ EEG = clean_artifacts( EEG,'FlatlineCriterion',5,'ChannelCriterion',0.8, ...
 
 Note that when calling the function to clean artifacts from the *clean_rawdata* plugin, the *highpass* argument is set to *off* to disable filtering.
 
-### Why do we rereference twice?
+### Why do we reference twice?
 
 Artifact cleaning using *clean_rawdata* usually works better on averaged reference data. We have made this observation when processing data, although there is no published article on this topic. After bad channels have been removed, then we need to compute the average reference again. The second average reference computation undoes the first one, as explained on this [page](05_Preprocess/rereferencing.html).
 
