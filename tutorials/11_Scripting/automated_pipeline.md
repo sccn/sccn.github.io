@@ -96,6 +96,50 @@ A figure similar to the one below will be plotted. The figure may differ as some
 Optimizing the pipeline for your data
 -------------------------------------
 
+### Filtering
+
+You might want to apply a different filter than the filter applied by the *clean_rawdata* plugin (which is an elipic filter). For example, to apply a standard FIR filter, you would need to replace the call to the *clean_artifacts* function by:
+
+``` matlab
+EEG = pop_eegfiltnew( EEG,'locutoff',0.5);
+EEG = clean_artifacts( EEG,'FlatlineCriterion',5,'ChannelCriterion',0.8, ...
+    'LineNoiseCriterion',4,'Highpass','off' ,'BurstCriterion',20, ...
+    'WindowCriterion',0.25,'BurstRejection','on','Distance','Euclidian', ...
+    'WindowCriterionTolerances',[-Inf 7] ,'fusechanrej',1);
+```
+
+Note that when calling the function to clean artifacts from the *clean_rawdata* plugin, the *highpass* argument is set to *off* to disable filtering.
+
+### Why do we rereference twice?
+
+Artifact cleaning using *clean_rawdata* usually works better on averaged reference data. We have made this observation when processing data, although there is no published article on this topic. After bad channels have been removed, then we need to compute the average reference again. The second average reference computation undoes the first one, as explained on this [page](05_Preprocess/rereferencing.html).
+
+### Automated cleaning parameter
+
+The call to *clean_artifacts* uses the default EEGLAB parameters. However, these are not always optimal. In particular, *'ChannelCriterion'* may be modified to reject more or fewer channels. *'BurstCriterion'* is another important parameter. Increase it to 40, for example (or some people recommend 100) if you feel too many data regions are rejected. More information is available on the plugin [wiki page](https://github.com/sccn/clean_rawdata).
+
+Finding optimal parameters for cleaning your data is essential to designing your pipeline. It would be best if you experimented with a couple of subjects. Also, once you run your pipeline on all subjects, you should check how much data was removed for each subject. Sometimes, 80% of the data is removed for some subjects, which is not acceptable.
+
+An alternative solution for cleaning data is also to run data cleaning multiple times. Your run artifact rejection once to remove bad channels and large artifacts. Then after running ICA, you can run it again to remove smaller artifacts. The advantage of this approach is that the first data cleaning will not remove eye blinks (which ICA can subtract from your data allowing you to keep these regions of data). An example of this approach is shown in [this section of the tutorial](11_Scripting/Analyzing_EEG_BIDS_data_in_EEGLAB.html).
+
+### Which ICA to use
+
+The script above uses *runica* (Infomax) which is the default in EEGLAB. Other popular choices which require to install the relevant plugins are *Amica*, *Picard*, and *FastICA*. We compared different ICA solutions in this [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030135). In short, there is no ideal algorithm:
+- *Runica* has been used the most. It is robust but slow.
+- *picard* optimizes the same objective function as *runica*. It converges faster and with lower residuals. It was also designed by one of the ICA pioners Jean-Francois Cardoso. Nevertheless, it is still a new algorithm (as of 2022) that has not been thoroughly compared with others on EEG data.
+- *FastICA* is an ICA algorithm widely used on EEG data. The author of the algorithm advise to use the symmetric approach instead of the iterative one (which is the default).
+- *Amica* is the best ICA algorithm based on our [comparison](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030135). Nevertheless it is slow. Also it can only be applied to single EEG datasets.
+
+### What algorithm for automated ICA artifact rejection?
+
+We used *ICLabel* in the script above. They are others. For example *MARA* is another popular one. 
+
+For *ICLabel*, you may set threshold to detect artifactual components. In the script above, we set the threshold to 90% for the likelyhood to be an eye movement artifact (blink or lateral eye movement) and 90% for the likelyhood to be a muscle. This is quite conservative, and will only reject 1 to 5 component per subject. Some researchers are less conservative and would set threshold lower. The [ICLabel](https://github.com/sccn/ICLabel) page contains more information on this subject.
+
+### More advanced pipelines
+
+* What if I want to plot the spectrum instead of ERPs? The example above was for ERPs. However, it is easy to plot other measures as described in this [page](11_Scripting/command_line_study_functions.html).
+
 Other EEGLAB pipelines
 ----------------------
 
