@@ -3,7 +3,7 @@ layout: default
 title: c. Automated pipeline
 parent: 11. Write scripts
 grand_parent: Tutorials 
-position: 4
+position: 6
 ---
 Automated processing pipelines using EEGLAB
 =====
@@ -139,6 +139,8 @@ For *ICLabel*, you may set threshold to detect artifactual components. In the sc
 ### More advanced pipelines
 
 * What if I want to plot the spectrum instead of ERPs? The example above was for ERPs. However, it is easy to plot other measures as described in this [page](command_line_study_functions.html).
+* Can I use LIMO in my pipeline. Yes, of course. See [this paper](https://www.frontiersin.org/articles/10.3389/fnins.2020.610388/full) and the [LIMO wiki](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for reference. 
+* Can I do source localization of ICA components and cluster components. Yes, all 
 
 Other EEGLAB pipelines
 ----------------------
