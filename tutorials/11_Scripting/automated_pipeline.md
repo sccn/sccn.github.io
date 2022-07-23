@@ -27,7 +27,7 @@ Creating a STUDY or import from BIDS
 
 Download the data from https://openneuro.org/datasets/ds003061/ and go to this folder, then run the script in the next section.
 
-Alternatively, use one of the available [EEGLAB studies](tutorial_data.html). Note that some of these studies already have their data preprocessed and may not be suitable for automated processing.
+Alternatively, use one of the available [EEGLAB studies](../tutorial_data.html). Note that some of these studies already have their data preprocessed and may not be suitable for automated processing.
 
 Running the pipeline
 ----------------
@@ -115,7 +115,7 @@ Note that when calling the function to clean artifacts from the *clean_rawdata* 
 
 ### Why do we reference twice?
 
-Artifact cleaning using *clean_rawdata* usually works better on averaged reference data. We have made this observation when processing data, although there is no published article on this topic. After bad channels have been removed, then we need to compute the average reference again. The second average reference computation undoes the first one, as explained on this [page](05_Preprocess/rereferencing.html).
+Artifact cleaning using *clean_rawdata* usually works better on averaged reference data. We have made this observation when processing data, although there is no published article on this topic. After bad channels have been removed, then we need to compute the average reference again. The second average reference computation undoes the first one, as explained on this [page](../05_Preprocess/rereferencing.html).
 
 ### Automated cleaning parameter
 
@@ -163,7 +163,7 @@ For more information, see the [ICA clustering section](../10_Group_analysis/comp
 ### More advanced pipelines
 
 * What if I want to plot the spectrum instead of ERPs? The example above was for ERPs. However, it is easy to plot other measures as described in this [page](command_line_study_functions.html).
-* Can I run statistics in my pipeline? Yes, you may plot ERPs and other measures and compute statistically significant regions as the tutorial explains in [another section](study_statistics.html). You may also write custom code to generate figures for your papers.
+* Can I run statistics in my pipeline? Yes, you may plot ERPs and other measures and compute statistically significant regions as the tutorial explains in [another section](../10_Group_analysis/study_statistics.html). You may also write custom code to generate figures for your papers.
 * Can I use LIMO in my pipeline? Yes, of course. See [this paper](https://www.frontiersin.org/articles/10.3389/fnins.2020.610388/full) and the [LIMO wiki](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for reference. 
 
 Other EEGLAB pipelines
