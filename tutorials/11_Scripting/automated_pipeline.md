@@ -51,6 +51,9 @@ end
 [STUDY, ALLEEG] = pop_importbids(filepath, 'studyName','Oddball');
 EEG = ALLEEG; CURRENTSET = 1:length(EEG); CURRENTSTUDY = 1; eeglab redraw; % redraw EEGLAB interface (optional)
 
+% remove non-EEG channels (it is also possible to process EEG data with non-EEG data
+EEG = pop_select( EEG,'nochannel',{'EXG1','EXG2','EXG3','EXG4','EXG5','EXG8','Resp'});
+
 % compute average reference
 EEG = pop_reref( EEG,[]);
 
@@ -124,23 +127,44 @@ An alternative solution for cleaning data is also to run data cleaning multiple 
 
 ### Which ICA to use
 
-The script above uses *runica* (Infomax) which is the default in EEGLAB. Other popular choices which require to install the relevant plugins are *Amica*, *Picard*, and *FastICA*. We compared different ICA solutions in this [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030135). In short, there is no ideal algorithm:
+The script above uses *runica* (Infomax), which is the default in EEGLAB. Other popular choices which require installing the relevant plugins are *Amica*, *Picard*, and *FastICA*. We compared different ICA solutions in this [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030135). In short, there is no ideal algorithm:
 - *Runica* has been used the most. It is robust but slow.
-- *picard* optimizes the same objective function as *runica*. It converges faster and with lower residuals. It was also designed by one of the ICA pioners Jean-Francois Cardoso. Nevertheless, it is still a new algorithm (as of 2022) that has not been thoroughly compared with others on EEG data.
-- *FastICA* is an ICA algorithm widely used on EEG data. The author of the algorithm advise to use the symmetric approach instead of the iterative one (which is the default).
-- *Amica* is the best ICA algorithm based on our [comparison](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030135). Nevertheless it is slow. Also it can only be applied to single EEG datasets.
+- *picard* optimizes the same objective function as *runica*. It converges faster and with lower residuals. It was also designed by one of the ICA pioneers, Jean-Francois Cardoso. Nevertheless, it is still a new algorithm (as of 2022) that has not been thoroughly compared with others on EEG data.
+- *FastICA* is an ICA algorithm widely used on EEG data. The author of the algorithm advises using the symmetric approach instead of the iterative one (which is the default).
+- *Amica* is the best ICA algorithm based on our [comparison](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030135). Nevertheless, it is slow. Also, it may only be applied to single EEG datasets.
 
 ### What algorithm for automated ICA artifact rejection?
 
-We used *ICLabel* in the script above. They are others. For example *MARA* is another popular one. 
+We used *ICLabel* in the script above. They are others. For example *MARA* is another popular EEGLAB plugin to detect artifactual ICA components. 
 
-For *ICLabel*, you may set threshold to detect artifactual components. In the script above, we set the threshold to 90% for the likelyhood to be an eye movement artifact (blink or lateral eye movement) and 90% for the likelyhood to be a muscle. This is quite conservative, and will only reject 1 to 5 component per subject. Some researchers are less conservative and would set threshold lower. The [ICLabel](https://github.com/sccn/ICLabel) page contains more information on this subject.
+For *ICLabel*, you may set the threshold to detect artifactual components. In the script above, we set the threshold to 90% for the likelihood to be an eye movement artifact (blink or lateral eye movement) and 90% for the likelihood to be a muscle. This is quite conservative and will only reject 1 to 5 components per subject. Some researchers are less conservative and would set the threshold lower. The [ICLabel](https://github.com/sccn/ICLabel) page contains more information on this subject.
+
+### Finding dipoles for ICA component and ICA component clustering
+
+Finding dipoles for ICA component and ICA component clustering may also be done at the STUDY level, for example, using the small snippet of code below.
+
+```matlab
+% find dipoles for all ICA components of all subjects
+dipfitPath = fileparts(which('pop_dipfit_settings.m'));
+EEG = pop_dipfit_settings( EEG,'hdmfile', fullfile(dipfitPath, 'standard_BEM', 'standard_vol.mat'), ...   
+'coordformat','MNI','mrifile',fullfile(dipfitPath, 'standard_BEM', 'standard_mri.mat'), ...
+'chanfile',fullfile(dipfitPath, 'standard_BEM','elec','standard_1005.elc'), ...
+'coord_transform',[-4.8299e-05 1.4553e-05 -0.00010483 2.9747e-06 5.8989e-06 -1.5708 1 1 1] );
+EEG = pop_multifit( EEG,[],'threshold',100,'plotopt',{'normlen','on'});
+
+% cluster dipoles which are close to each other and plot one cluster
+[STUDY ALLEEG] = std_preclust(STUDY, ALLEEG, 1,{'dipoles','weight',1},{'moments','weight',1});
+[STUDY] = pop_clust(STUDY, ALLEEG, 'algorithm','Affinity Propagation');
+STUDY = std_dipplot(STUDY,ALLEEG,'clusters',2, 'design', 1);
+```
+
+For more information, refer to the [ICA clustering section](../10_Group_analysis/component_clustering_tools.html) of the tutorial.
 
 ### More advanced pipelines
 
 * What if I want to plot the spectrum instead of ERPs? The example above was for ERPs. However, it is easy to plot other measures as described in this [page](command_line_study_functions.html).
-* Can I use LIMO in my pipeline. Yes, of course. See [this paper](https://www.frontiersin.org/articles/10.3389/fnins.2020.610388/full) and the [LIMO wiki](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for reference. 
-* Can I do source localization of ICA components and cluster components. Yes, all 
+* Can I run statistics in my pipeline? Yes, you may plot ERPs and other measures and compute statistically significant regions as the tutorial explains in [another section](study_statistics.html). You may also write custom code to generate figures for your papers.
+* Can I use LIMO in my pipeline? Yes, of course. See [this paper](https://www.frontiersin.org/articles/10.3389/fnins.2020.610388/full) and the [LIMO wiki](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki) for reference. 
 
 Other EEGLAB pipelines
 ----------------------
