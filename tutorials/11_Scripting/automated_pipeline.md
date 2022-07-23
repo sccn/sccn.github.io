@@ -153,12 +153,12 @@ EEG = pop_dipfit_settings( EEG,'hdmfile', fullfile(dipfitPath, 'standard_BEM', '
 EEG = pop_multifit( EEG,[],'threshold',100,'plotopt',{'normlen','on'});
 
 % cluster dipoles which are close to each other and plot one cluster
-[STUDY ALLEEG] = std_preclust(STUDY, ALLEEG, 1,{'dipoles','weight',1},{'moments','weight',1});
+[STUDY ALLEEG] = std_preclust(STUDY, ALLEEG, 1,{'dipoles','weight',1});
 [STUDY] = pop_clust(STUDY, ALLEEG, 'algorithm','Affinity Propagation');
 STUDY = std_dipplot(STUDY,ALLEEG,'clusters',2, 'design', 1);
 ```
 
-For more information, refer to the [ICA clustering section](../10_Group_analysis/component_clustering_tools.html) of the tutorial.
+For more information, see the [ICA clustering section](../10_Group_analysis/component_clustering_tools.html) of the tutorial.
 
 ### More advanced pipelines
 
