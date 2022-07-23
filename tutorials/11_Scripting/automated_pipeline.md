@@ -9,7 +9,7 @@ Automated processing pipelines using EEGLAB
 =====
 {: .no_toc }
 
-You do not have to write script to process all datasets at the same in a STUDY. This [video](https://www.youtube.com/watch?v=-jL3PuHD3aY) describe how to do that. In this section, we will do the same with script.
+You do not have to write script to process all datasets at the same in a STUDY. This [video](https://www.youtube.com/watch?v=-jL3PuHD3aY) describe how to perform batch processing from the EEGLAB graphic interface. In this section, we run a similar pipeline using a script.
 
 <details open markdown="block">
   <summary>
