@@ -3,7 +3,7 @@ layout: default
 title: c. Automated pipeline
 parent: 11. Write scripts
 grand_parent: Tutorials 
-position: 6
+nav_order: 5
 ---
 Automated processing pipelines using EEGLAB
 =====
