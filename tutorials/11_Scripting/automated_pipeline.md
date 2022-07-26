@@ -34,7 +34,7 @@ Running the pipeline
 
 The pipeline below takes the raw data from all subjects, clean the data, extracts epochs of interest, and plots the grand average ERP.
 
-First, the data is imported. Then it is cleaned with clean_rawdata (default parameters are used here but may need adjustment based on data quality). ICA is then run on all datasets, and ICLabel is used to flag bad channels. 
+First, the data is imported. Then it is cleaned with clean_rawdata (default parameters are used here but may need adjustment based on data quality). ICA is then run on all datasets, and ICLabel is used to flag bad ICA components. 
 
 Then oddball and standard stimuli epochs are extracted, the baseline is removed (from -1000 to 0 millisecond before the stimulus onset), and ERPs are computed and plotted. If you want to run this pipeline on your own EEGLAB study, then you will need to modify the line for extracting data epochs (as the name of your events will likely differ).
 
