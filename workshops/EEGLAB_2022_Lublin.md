@@ -139,37 +139,43 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">14:30 – 15:30 -- Mining event-related brain dynamics I (Scott Makeig)</span>
 
-- <span style="color: purple">15:30 – 16:30 -- ICA theory (Scott Makeig)</span>
+- <span style="color: purple">15:30 – 16:30 -- ICA theory (John Iversen)</span>
 
 - <span style="color: green"> Break </span>
 
 - <span style="color: orange">16:45 – 18:00 -- ICA decomposition practicum (Johana Wagner)</span>
+ 
+ - <span style="color: orange">18:00 – 18:30 -- Beginner office hour (Ramon Martinez and John Iversen)</span>
 
 <u><span style="color: blue">Wednesday, September 14th</span></u>
 
 **Group analysis and ICA clustering in EEGLAB**
 
-- <span style="color: purple">9:00 - 9:45 -- Why cluster ICA components? (Scott Makeig)</span>
+- <span style="color: purple">9:00 - 9:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Mateusz Gola)</span>
 
-- <span style="color: purple">9:45 - 10:45 -- Bootstrap and correction for multiple comparisons (TBD)</span>
+ - <span style="color: green"> Break </span>
 
-- <span style="color: green"> Break </span>
+- <span style="color: purple">11:15 - 12:15 -- Bootstrap and correction for multiple comparisons - EEGLAB statistics (Arnaud Delorme)</span>
 
-- <span style="color: purple">11:00 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span>
 
-- <span style="color: purple">11:45 - 13:00 -- ICA component clustering and plotting (Arnaud Delorme)</span>
-
-- <span style="color: green">13:00-14:15 -- Lunch</span>
+- <span style="color: green">13:00-14:30 -- Lunch</span>
 
 **Source information flow**
 
-- <span style="color: purple">14:15 – 15:45 -- Source information flow and Granger-Causal modeling tools (TBD)</span>
+- <span style="color: purple">14:30 - 15:00 -- Why cluster ICA components? (Scott Makeig)</span>
+
+ - <span style="color: purple">15:45 - 11:00 -- ICA component clustering and plotting (Ramon Martinez)</span>
+
+- <span style="color: purple">14:30 – 16:00 -- Source information flow and Granger-Causal modeling tools (John Iversen)</span>
 
 - <span style="color: green">Break</span>
 
-- <span style="color: orange">16:00 – 17:30 -- SIFT toolbox: practicum (TBD)</span>
+- <span style="color: orange">16:15 – 17:30 -- SIFT toolbox: practicum (TBD)</span>
 
-**Participant poster session**
+- <span style="color: purple">9:00 - 9:45 -- Why cluster ICA components? (Scott Makeig)</span>
+
+
+ **Participant poster session**
 
 - <span style="color: black">17:30 – 19:30 -- Participants bring their poster to discuss </span>
 
