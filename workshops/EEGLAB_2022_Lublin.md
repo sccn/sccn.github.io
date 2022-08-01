@@ -129,7 +129,7 @@ laptop with MATLAB installed.
 
 - <span style="color: green"> Break </span>
 
-- <span style="color: purple">11:15 – 12:30 -- Time-frequency decompositions: Theory and practice (Mateusz Gola)</span>
+- <span style="color: orange">11:15 – 12:30 -- Time-frequency decompositions: Theory and practice (Mateusz Gola)</span>
 
 - <span style="color: purple">12:30 – 13:00 -- Phase amplitude coupling (Ramon Martinez)</span>
 
@@ -157,9 +157,9 @@ laptop with MATLAB installed.
 
 - <span style="color: green"> Break </span>
 
-- <span style="color: purple">11:00 - 12:00 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Mateusz Gola)</span>
+- <span style="color: orange">11:00 - 12:00 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Mateusz Gola)</span>
  
-- <span style="color: purple">12:00 - 13:00 -- Face processing dataset and some scripting (Ramon Martinez)</span>
+- <span style="color: orange">12:00 - 13:00 -- Face processing dataset and some scripting (Ramon Martinez)</span>
 
 - <span style="color: green">13:00-14:30 -- Lunch</span>
 
@@ -167,7 +167,7 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">14:30 - 15:00 -- Why cluster ICA components? (Scott Makeig)</span>
 
-- <span style="color: purple">15:00 - 15:45 -- ICA component clustering and plotting (Ramon Martinez)</span>
+- <span style="color: orange">15:00 - 15:45 -- ICA component clustering and plotting (Ramon Martinez)</span>
 
 - <span style="color: green">Break</span>
 
@@ -181,21 +181,21 @@ laptop with MATLAB installed.
 
  <u><span style="color: blue">Thursday, September 15th</span></u>
 
-- <span style="color: orange">9:00 – 10:00 -- HED and BIDS (Arnaud Delorme and Dung Truong)</span>
+- <span style="color: purple">9:00 – 10:00 -- HED and BIDS (Arnaud Delorme and Dung Truong)</span>
 
-- <span style="color: orange">10:00 – 11:00 -- Mobile Brain Body Imaging and Applications (John Iversen)</span>
+- <span style="color: purple">10:00 – 11:00 -- Mobile Brain Body Imaging and Applications (John Iversen)</span>
 
 - <span style="color: green">11:00 - 15:30 -- group excursion with lunch in [The Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</span>
 
 - <span style="color: purple">15:30 – 17:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>
 
-- <span style="color: purple">17:00 – 18:00 -- Scripting practicum (Ramon Martinez)</span>
+- <span style="color: orange">17:00 – 18:00 -- Scripting practicum (Ramon Martinez)</span>
  
 <u><span style="color: blue">Friday, September 16th</span></u>
 
-- <span style="color: orange">9:00 – 10:00 -- Deep Learning and EEG (Arnaud Delorme and Dung Truong)</span>
+- <span style="color: purple">9:00 – 10:00 -- Deep Learning and EEG (Arnaud Delorme and Dung Truong)</span>
 
-- <span style="color: black">10:00 – 11:00 -- TMS and EEG (Mateusz Gola)</span>
+- <span style="color: purple">10:00 – 11:00 -- TMS and EEG (Mateusz Gola)</span>
 
 - <span style="color: orange">10:00 – 11:00 -- Practicum, small group projects</span>
 
