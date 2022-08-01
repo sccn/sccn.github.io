@@ -119,31 +119,31 @@ laptop with MATLAB installed.
 
 <u><span style="color: blue">Tuesday, September 13th</span></u>
 
-**Overview and ICA Theory/Practice**
+**Overview and Time/frequency**
 
-- <span style="color: purple">9:00 – 10:15 -- Mining event-related brain dynamics I (Scott Makeig)</span>
+- <span style="color: purple">9:00 – 9:15 -- Introduction (John Iversen)</span>
 
-- <span style="color: purple">10:15 – 10:45 -- EEGLAB overview (Arnaud Delorme)</span>
+- <span style="color: purple">9:15 – 9:45 -- EEGLAB overview (Arnaud Delorme)</span>
 
-- <span style="color: green"> Break </span>
-
-- <span style="color: purple">11:00 – 11:45 -- ICA theory (Scott Makeig)</span>
-
-- <span style="color: orange">11:45 – 13:00 -- Data import, Artifact rejection (TBD)</span>
-
-- <span style="color: green">13:00-14:15 -- Lunch</span>
-
-**ICA and time-frequency**
-
-- <span style="color: orange">14:15 – 15:15 -- ICA decomposition practicum (TBD)</span>
-
-- <span style="color: orange">15:15 – 15:45 -- Bootstrapping ICA and using PCA before ICA (TBD)</span>
+- <span style="color: orange">9:45 – 11:00 -- Data import, Artifact rejection (Johana Wagner)</span>
 
 - <span style="color: green"> Break </span>
 
-- <span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (TBD)</span>
+- <span style="color: purple">11:15 – 12:30 -- Time-frequency decompositions: Theory and practice (Mateusz Gola)</span>
 
-- <span style="color: purple">17:00 – 17:30 -- Phase amplitude coupling (TBD)</span>
+- <span style="color: purple">12:30 – 13:00 -- Phase amplitude coupling (Ramon Martinez)</span>
+
+- <span style="color: green">13:00-14:30 -- Lunch</span>
+
+**ICA**
+
+- <span style="color: purple">14:30 – 15:30 -- Mining event-related brain dynamics I (Scott Makeig)</span>
+
+- <span style="color: purple">15:30 – 16:30 -- ICA theory (Scott Makeig)</span>
+
+- <span style="color: green"> Break </span>
+
+- <span style="color: orange">16:45 – 18:00 -- ICA decomposition practicum (Johana Wagner)</span>
 
 <u><span style="color: blue">Wednesday, September 14th</span></u>
 
