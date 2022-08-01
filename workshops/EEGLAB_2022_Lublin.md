@@ -145,18 +145,21 @@ laptop with MATLAB installed.
 
 - <span style="color: orange">16:45 – 18:00 -- ICA decomposition practicum (Johana Wagner)</span>
  
- - <span style="color: orange">18:00 – 18:30 -- Beginner office hour (Ramon Martinez and John Iversen)</span>
-
-<u><span style="color: blue">Wednesday, September 14th</span></u>
+- <span style="color: orange">18:00 – 18:30 -- Beginner office hour (Ramon Martinez and John Iversen)</span>
+ 
+<u><span style="color: blue">Wednesday, September 14th (bring your poster if you have one)</span></u>
 
 **Group analysis and ICA clustering in EEGLAB**
 
-- <span style="color: purple">9:00 - 9:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Mateusz Gola)</span>
+- <span style="color: purple">9:00 - 10:00 -- Bootstrap and correction for multiple comparisons - EEGLAB statistics (Arnaud Delorme)</span>
 
- - <span style="color: green"> Break </span>
+- <span style="color: purple">10:00 – 10:45 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span>
 
-- <span style="color: purple">11:15 - 12:15 -- Bootstrap and correction for multiple comparisons - EEGLAB statistics (Arnaud Delorme)</span>
+- <span style="color: green"> Break </span>
 
+- <span style="color: purple">11:00 - 12:00 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Mateusz Gola)</span>
+ 
+- <span style="color: purple">12:00 - 13:00 -- Face processing dataset and some scripting (Ramon Martinez)</span>
 
 - <span style="color: green">13:00-14:30 -- Lunch</span>
 
@@ -164,48 +167,43 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">14:30 - 15:00 -- Why cluster ICA components? (Scott Makeig)</span>
 
- - <span style="color: purple">15:45 - 11:00 -- ICA component clustering and plotting (Ramon Martinez)</span>
-
-- <span style="color: purple">14:30 – 16:00 -- Source information flow and Granger-Causal modeling tools (John Iversen)</span>
+- <span style="color: purple">15:00 - 15:45 -- ICA component clustering and plotting (Ramon Martinez)</span>
 
 - <span style="color: green">Break</span>
 
-- <span style="color: orange">16:15 – 17:30 -- SIFT toolbox: practicum (TBD)</span>
+- <span style="color: purple">16:00 – 17:15 -- Source information flow and Granger-Causal modeling tools (John Iversen)</span>
 
-- <span style="color: purple">9:00 - 9:45 -- Why cluster ICA components? (Scott Makeig)</span>
-
-
- **Participant poster session**
+**Participant poster session**
 
 - <span style="color: black">17:30 – 19:30 -- Participants bring their poster to discuss </span>
 
 - <span style="color: green">19:45 -- banquet in Hotel Mercure Lublin Centrum (included in registration)</span>
 
-<u><span style="color: blue">Thursday, September 15th</span></u>
+ <u><span style="color: blue">Thursday, September 15th</span></u>
 
-**Source Localization**
+- <span style="color: orange">9:00 – 10:00 -- HED and BIDS (Arnaud Delorme and Dung Truong)</span>
 
-- <span style="color: purple">9:00 – 10:00 -- Forward and inverse models - the Dipfit tools (Scott Makeig)</span>
-
-- <span style="color: purple">10:00 – 10:45 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span>
-
-- <span style="color: green"> Break </span>
+- <span style="color: orange">10:00 – 11:00 -- Mobile Brain Body Imaging and Applications (John Iversen)</span>
 
 - <span style="color: green">11:00 - 15:30 -- group excursion with lunch in [The Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</span>
 
-**General Linear Modeling**
+- <span style="color: purple">15:30 – 17:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>
 
-- <span style="color: orange">15:30 – 17:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (TBD)</span>
-
+- <span style="color: purple">17:00 – 18:00 -- Scripting practicum (Ramon Martinez)</span>
+ 
 <u><span style="color: blue">Friday, September 16th</span></u>
 
-- <span style="color: purple">9:00 – 10:45 -- Mining event-related brain dynamics II (Scott Makeig)</span>
+- <span style="color: orange">9:00 – 10:00 -- Deep Learning and EEG (Arnaud Delorme and Dung Truong)</span>
+
+- <span style="color: black">10:00 – 11:00 -- TMS and EEG (Mateusz Gola)</span>
+
+- <span style="color: orange">10:00 – 11:00 -- Practicum, small group projects</span>
 
 - <span style="color: green"> Break </span>
 
-- <span style="color: orange">11:00 – 12:30 -- Practicum, small group projects</span>
+- <span style="color: orange">11:00 – 12:00 -- Practicum, small group projects</span>
 
-- <span style="color: orange">12:30 – 13:00 -- Participant project presentations and general discussion</span>
+ - <span style="color: orange">12:00 – 13:00 -- Participant project presentations and general discussion</span>
 
 - <span style="color: green">13:00 - 14:15 -- Lunch</span>
 
