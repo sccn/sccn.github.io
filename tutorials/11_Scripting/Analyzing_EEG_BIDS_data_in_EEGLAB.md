@@ -4,7 +4,6 @@ title: f. BIDS pipeline
 long_title: e. BIDS pipeline
 parent: 11. Write scripts
 grand_parent: Tutorials 
-nav_order: 6
 ---
 # Analyzing EEG-BIDS data with EEGLAB scripts
 {: .no_toc }
