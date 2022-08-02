@@ -181,7 +181,11 @@ plugin_askinstall('xdfimport', 'eegplugin_xdfimport', true);
 % For clean_rawdata, remove folder manopt/reference/m2html.
 CleanRawData_folder = fileparts(which('clean_rawdata.m'));
 rmdir(fullfile(CleanRawData_folder,'manopt','reference','m2html'), 's');
-rmdir(fullfile(CleanRawData_folder,'manopt','tests'), 's');
+% rmdir(fullfile(CleanRawData_folder,'manopt','tests'), 's'); % not there any more?
+
+% Removing ICLabel files
+iclabel_folder = fileparts(which('iclabel.m'));
+% rmdir(fullfile(iclabel_folder,'matconvnet','examples'), 's'); % not there any more?
 
 % Removing FieldTrip files
 % For Fieldtrip remove folders compat, external/afni, external/spm8, external/spm12, external/gifti, external/eeglab, external/bemcp and external/npmk
