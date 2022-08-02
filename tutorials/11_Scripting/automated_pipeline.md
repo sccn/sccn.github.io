@@ -1,6 +1,6 @@
 ---
 layout: default
-title: c. Automated pipeline
+title: e. Automated pipeline
 parent: 11. Write scripts
 grand_parent: Tutorials 
 nav_order: 5
