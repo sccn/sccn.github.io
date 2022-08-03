@@ -14,8 +14,7 @@ Minor revisions are indicated using a second number: thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
-
-## EEGLAB version 2022.0
+## EEGLAB version 2022.1
 
 - Issue date: Aug 2nd 2022; GIT tag: eeglab2022.1
 - **Version statistics**: 104 files changed, 4,411 insertions, 421 deletions.
