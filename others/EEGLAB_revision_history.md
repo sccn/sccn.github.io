@@ -17,7 +17,27 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 ## EEGLAB version 2022.0
 
-- Issue date: Feb 11th 2022; GIT tag: 2022.0
+- Issue date: Aug 2nd 2022; GIT tag: eeglab2022.1
+- **Version statistics**: 104 files changed, 4,411 insertions, 421 deletions.
+- **Minor bug fix**: Fix remembering the data was average referenced
+- **Bug fix**: Fix concatenating datasets of the same size
+- **Bug fix**: Fix editing channel locations in groups of datasets (STUDY) - datasets were not resaved
+- **Bug fix**: Fix separating multiple sessions when precomputing data for STUDY
+- **Major interoperability change**: Allow using event type -99 for discontinuities and improve ERPLAB compatibility (20 functions modified)
+- **Interoperability**: Added 4 new parameters to import data with BIOSIG toolbox, in particular for EDF and BDF files
+- **Interoperability**: Increased compatibility for Fieldtrip dataset conversion back and forth, in particular for electrode coordinates
+- **Interoperability**: Fix processing data from multiple sessions for LIMO
+- **Group analysis**: Allow fusing channel rejection across datasets of the same subject and session
+- **Speed increase**: 
+- **MEG**: Allow importing MEG gradiometers from FIF files
+- **Artifact rejection using ASR**: Clean_rawdata plug-in now allows processing a subset of channels
+- **Plugins**: Minor updates to ICLabel, dipfit, and firfilt default plugins. Major update to clean_rawdata to fuse data channel rejections within subjects for group processing.
+- **Testing**: New testing framework using Github [actions](https://github.com/sccn/eeglab_tests/actions). New binary test files are now included in the sample_data folder for quick testing of compiled EEGLAB versions.
+- Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2022.0..eeglab2022.1)) to see all changes from the previous EEGLAB version.
+
+## EEGLAB version 2022.0
+
+- Issue date: Feb 11th 2022; GIT tag: eeglab2022.0
 - **Version statistics**: 73 commits and 269 files changed, 988 insertions, 781 deletions.
 - **Bug fix**: Fix study issue when parallel toolbox is absent (GCP error)
 - **Bug fix**: Fix rare bug when writing two files for an EEGLAB dataset (old default; the new default since 2021 is to write a single .set file)
