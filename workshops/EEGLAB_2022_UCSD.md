@@ -46,8 +46,6 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 ## FRIDAY, November 18th (paid registration required)
 
-<span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
-
 **Overview and ICA Theory/Practice**
 
 - <span style="color:purple"> 8:30 – 9:45 -- **Mining event-related brain dynamics I (Scott Makeig)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_i.pdf)-->
@@ -60,7 +58,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: purple">11:30 – 12:30PM -- **ICA theory, AMICA and tools (Scott Makeig)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)-->
 
-<span style="color: green">Buffet Lunch</span>
+<span style="color: green">Lunch on your own</span>
 
 **ICA, ASR, and time-frequency**
 
@@ -80,8 +78,6 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 ## SATURDAY, November 19th (paid registration required)
 
-<span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
-
 **Group analysis in EEGLAB**
 
 - <span style="color: orange">8:30 - 9:15 -- **Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
@@ -100,7 +96,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: orange">11:45 - 12:30 -- **ICA component clustering and plotting; applications** (Julie Onton)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_clustering.pdf)-->
 
-<span style="color: green">Lunch</span>
+<span style="color: green">Lunch on your own</span>
 
 **Lab Streaming Layer (LSL) for multimodal data collection**
 
@@ -118,8 +114,6 @@ Hiking excursion (return 6PM)</span>
 
 ## SUNDAY, November 20th (paid registration required)
  
-<span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
-
 **Source Localization**
 
 - <span style="color: purple">8:30 – 10:00 -- **Forward and inverse models (Zeynep Akalin Acar)**</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/dipfit-oostenveld.pdf)-->
@@ -136,7 +130,7 @@ Hiking excursion (return 6PM)</span>
 
 - <span style="color: purple">12:00 – 12:30 -- **EEG and Deep Learning, TBD**</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/2019_aspet_hlm-glm.pdf)-->
 
-<span style="color: green">Lunch</span>
+<span style="color: green">Lunch on your own</span>
 
 **Source information flow**
 
@@ -159,8 +153,6 @@ Hiking excursion (return 6PM)</span>
 - <span style="color: orange">5:30PM – 6:00PM -- Work on projects or excercises, helpers avaialble
 
 ## MONDAY, November 21th (paid registration required)
-
-<span style="color: green">Breakfast buffet (starting at 7:30AM)</span>
 
 - <span style="color: purple">8:30 – 9:30 -- **Mining event-related brain dynamics II (Scott Makeig)**</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
 
