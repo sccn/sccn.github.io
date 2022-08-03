@@ -225,6 +225,7 @@ testing
 On Mac and OSX use ./run_eeglab.sh MATLAB_PATH.
 
 > <span style="color: red">Known error: running eLoreta from DIPFIT, cannot find precompute_dpss</span>
+
 > <span style="color: red">Known error: mex files not included for ANT plugin (ASR test file present)</span>
 
 ### Plugins selected for future inclusion
