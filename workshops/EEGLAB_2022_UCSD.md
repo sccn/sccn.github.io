@@ -10,7 +10,7 @@ nav_order: 3
 
 From November 17 to November 21, the 33nd EEGLAB workshop will be held in person at UCSD. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG. The first afternoon is free for all.
 
-**<span style="color: red">REGISTRATION is not yet open</span>**.
+**<span style="color: red">[REGISTRATION](https://na.eventscloud.com/ereg/index.php?eventid=695311&) is now open</span>**.
 
 <!--[<b>Register for the free first day session, Monday June 14 here</b>](https://www.eventbrite.com/e/147847663341).
 
@@ -138,7 +138,7 @@ Hiking excursion (return 6PM)</span>
 
 - <span style="color: purple">2:30PM – 2:50PM -- **The ROI connect EEGLAB plugin (Arnaud Delorme)**</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
 
-- <span style="orange: orange">2:50PM – 3:30PM -- **SIFT toolbox: practicum (John Iversen)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)-->
+- <span style="color: orange">2:50PM – 3:30PM -- **SIFT toolbox: practicum (John Iversen)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/sift_i_practicum.pdf)-->
 
 <span style="color: green">Coffee break</span>
 
