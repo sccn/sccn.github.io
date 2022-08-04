@@ -64,7 +64,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: purple">2:45PM – 3:15PM -- **ASR performance analysis** (TP student)</span><!--[PDF](https://sccn.ucsd.edu/githubwiki/files/delorme_ica_practicum.pdf)-->
 
-- <span style="color: orange">3:15PM – 3:45PM -- **Automated artifact rejection using ICLabel (TBD)**</span>
+- <span style="color: orange">3:15PM – 3:45PM -- **Automated artifact rejection using ICLabel** (TBD)</span>
 
 <span style="color: green">Coffee break</span>
 
@@ -78,7 +78,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 **Group analysis in EEGLAB**
 
-- <span style="color: orange">8:30 - 9:15 -- **Creating a STUDY and STUDY design for group analysis** (A. Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
+- <span style="color: orange">8:30 - 9:15 -- **Creating a STUDY and STUDY design for group analysis** (Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
 
 - <span style="color: orange">9:15 - 9:45 -- **Running group-level statistics in EEGLAB and LIMO** (Arnaud Delorme)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
 
