@@ -132,7 +132,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 **Source information flow**
 
-- <span style="color: purple">1:30PM – 2:30PM -- **Source information flow and Granger-Causal modeling tools** (Tim Mullen)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
+- <span style="color: purple">1:30PM – 2:30PM -- **EEG connectivity modeling tools** (Tim Mullen)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
 
 - <span style="color: purple">2:30PM – 2:50PM -- **The ROI connect EEGLAB plugin** (Arnaud Delorme)</span> <!--[PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2013_sift_lecture.pdf)-->
 
