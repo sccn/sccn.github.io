@@ -80,7 +80,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 **Group analysis in EEGLAB**
 
-- <span style="color: orange">8:30 - 9:15 -- **Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
+- <span style="color: orange">8:30 - 9:15 -- **Creating a STUDY and STUDY design for group analysis (A. Delorme)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_ad_study_design.pdf)-->
 
 - <span style="color: orange">9:15 - 9:45 -- **Running group-level statistics in EEGLAB and LIMO (Arnaud Delorme)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_2019_bootstrap&eeg-mcc_eegworkshop.pdf)-->
 
@@ -150,7 +150,7 @@ Hiking excursion (return 6PM)</span>
 
 - <span style="color: purple">4:45PM-5:30PM - **The EEGLAB BIDS data I/O plug-in and BIDS processing demo** (Delorme)</span>
 
-- <span style="color: orange">5:30PM – 6:00PM -- Work on projects or excercises, helpers avaialble
+- <span style="color: orange">5:30PM – 6:00PM -- **Work on projects or excercises, helpers available**</span>
 
 ## MONDAY, November 21th (paid registration required)
 
