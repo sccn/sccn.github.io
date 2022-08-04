@@ -8,15 +8,13 @@ nav_order: 3
 
 # 2022 EEGLAB Workshop
 
-From November 17 to November 21, the 33nd EEGLAB workshop will be held in person at UCSD. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG. The first afternoon is free for all.
+From November 17 to November 21, the 34th EEGLAB workshop will be held in person at UCSD. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG. The first afternoon is free for all.
 
 **<span style="color: red">[REGISTRATION](https://na.eventscloud.com/ereg/index.php?eventid=695311&) is now open</span>**.
 
 <!--[<b>Register for the free first day session, Monday June 14 here</b>](https://www.eventbrite.com/e/147847663341).
 
 [<b>Register for the workshop sessions, Tuesday-Friday June 15-18th here</b>](https://na.eventscloud.com/611187). **Note:** You must register twice, once for June 14th and once for June 15-18th, if you want to attend the whole event.-->
-
-We are looking forward to meeting you in person ... 
 
 Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (suggestions/requests welcome). The workshop will be held in person. All hours are shown in Pacific Standard Time (PST). 
 
@@ -34,7 +32,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 <span style="color: green">Coffee break</span>
 
-- <span style="color: black">3:45PM-4:15PM- **Real world Neuroimaging** (TP Jung)</span>
+- <span style="color: black">3:45PM-4:15PM- **Real-world Neuroimaging** (TP Jung)</span>
 
 - <span style="color: black">4:15PM-4:45PM- **EEG in the Classroom** (Ying Wu)</span>
 
@@ -56,7 +54,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: orange">10:30 – 11:30 -- **Data import, Preprocessing, Artifact rejection (Julie Onton)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)-->
 
-- <span style="color: purple">11:30 – 12:30PM -- **ICA theory, AMICA and tools (Scott Makeig)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)-->
+- <span style="color: purple">11:30 – 12:30PM -- **ICA theory, AMICA, and tools (Scott Makeig)**</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)-->
 
 <span style="color: green">Lunch on your own</span>
 
@@ -102,7 +100,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: purple">1:45PM-2:00PM - **LSL introduction and demonstration** (Christian Kothe)</span>
 
-- <span style="color: purple">2:00PM-2:15PM - **The lsl_app_matlabviewer EEGLAB plugin** (Arnaud Delorme)</span>
+- <span style="color: purple">2:00PM-2:15PM - **The lsl_app_matlabviewer EEGLAB plug-in** (Arnaud Delorme)</span>
 
 - <span style="color: purple">2:15PM-2:45PM - **LSL synchronization and other topics** (Christian Kothe)</span>
 
@@ -144,19 +142,19 @@ Hiking excursion (return 6PM)</span>
 
 **EEGLAB pipelines using BIDS and HED**
 
-- <span style="color: purple">3:45PM-4:10PM - **What is the \'Brain Imaging Data Structure\' (BIDS)?** (Cyril Pernet)</span>
+- <span style="color: purple">3:45PM-4:10PM - **What is the Brain Imaging Data Structure (BIDS)?** (Cyril Pernet)</span>
 
 - <span style="color: purple">4:10PM-4:45PM - **Hierarchical Event Descriptors (HED)** (Robbins, Makeig &amp; Dung Truong)</span>
 
 - <span style="color: purple">4:45PM-5:30PM - **The EEGLAB BIDS data I/O plug-in and BIDS processing demo** (Delorme)</span>
 
-- <span style="color: orange">5:30PM – 6:00PM -- **Work on projects or excercises, helpers available**</span>
+- <span style="color: orange">5:30PM – 6:00PM -- **Work on projects or exercises, helpers available**</span>
 
 ## MONDAY, November 21th (paid registration required)
 
 - <span style="color: purple">8:30 – 9:30 -- **Mining event-related brain dynamics II (Scott Makeig)**</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
 
-- <span style="color: orange">9:30 – 10:30 -- **Practicum mini groups** (min groups led by researcher; one group for HED, one group for connectivity analysis)</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
+- <span style="color: orange">9:30 – 10:30 -- **Practicum, small group projects**</span> <!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_mining_ii.pdf)-->
 
 <span style="color: green">Coffee break</span>
 
