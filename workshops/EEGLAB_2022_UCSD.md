@@ -8,6 +8,8 @@ nav_order: 3
 
 # 2022 EEGLAB Workshop
 
+See official (web page)[https://eeglabworkshop.ucsd.edu/] for the workshop. This page will be used for presenter to upload and share their presentation and contains a copy of the program.
+
 From November 17 to November 21, the 34th EEGLAB workshop will be held in person at UCSD. The workshop will feature lectures on how to process data using EEGLAB, including scripting and the use of multiple plug-ins. Parallel sessions will discuss specific topics, particularly wearable EEG, deep learning and EEG, connectivity analysis, and EEG. The first afternoon is free for all.
 
 **<span style="color: red">[REGISTRATION](https://na.eventscloud.com/ereg/index.php?eventid=695311&) is now open</span>**.
