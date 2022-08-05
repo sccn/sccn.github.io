@@ -26,11 +26,11 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">1:30PM-1:45PM- **A little bit of history** (Terry Sejnowski, Session Chair)</span>
 
-- <span style="color: black">1:45PM-2:15PM- **The future of advanced EEG signal processing** (Arnaud Delorme)</span>
+- <span style="color: black">1:45PM-2:15PM- **Mining event-related brain dynamics** (Scott Makeig)</span>
 
-- <span style="color: black">2:15PM-3:00PM- **Mining event-related brain dynamics** (Scott Makeig)</span>
+- <span style="color: black">2:15PM-3:00PM- **Music and the Brain** (John Iversen)</span> 
 
-- <span style="color: black">3:00PM-3:30PM- **Music and the Brain** (John Iversen)</span>
+- <span style="color: black">3:00PM-3:30PM- **EEG/TMS approaches** (Mateusz Gola)</span>
 
 <span style="color: green">Coffee break</span>
 
@@ -40,7 +40,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">4:45PM-5:15PM- **Mobile Brain EEG** (Stefan Debener)</span>
 
-- <span style="color: black">5:15PM-5:45PM- **EEG/TMS approaches** (Mateusz Gola)</span>
+- <span style="color: black">5:15PM-5:45PM- **The future of EEG signal processing** (Arnaud Delorme)</span>
 
 <span style="color: green">SFN poster in the foyer and SCCN reception until 8PM</span>
 
