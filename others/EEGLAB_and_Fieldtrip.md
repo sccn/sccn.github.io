@@ -5,7 +5,7 @@ long_title: EEGLAB and FieldTrip
 parent: Interoperability
 ---
 
- EEGLAB and FieldTrip
+EEGLAB and FieldTrip
 =========================
 
 History
