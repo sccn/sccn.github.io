@@ -104,7 +104,7 @@ Frequently asked questions
     included in the compiled version are not (this includes plugins
     handling source reconstruction, for example).
 -   Trouble shooting! Do not hesitate to submit bug reports on the
-    [EEGLAB Gihub issue tracker](https://github.com/sccn/eeglab/issues)
+    [EEGLAB GitHub issue tracker](https://github.com/sccn/eeglab/issues)
     if you encounter a problem running a compiled version of EEGLAB.
 
 How to check the integrity of the compiled version
