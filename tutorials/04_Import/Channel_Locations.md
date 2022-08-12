@@ -44,7 +44,7 @@ Biosemi channel locations file, channel names are often stored in the
 file header. EEGLAB will automatically read these channel labels. When
 you then call the channel editing window, the function will look up
 10-10 channel locations in a database of 385 defined channel labels, the file
-"Standard-10-5-Cap385.sfp" in the "function/resources" sub-folder of the
+"Standard-10-5-Cap385.sfp" in the "functions/supportfiles" sub-folder of the
 EEGLAB distribution. You may add additional standard channel locations
 to this file if you wish. As of 2021, the default
 channel location file for electrode position is the MNI file, which is best suited for source localization. Before 2021,
