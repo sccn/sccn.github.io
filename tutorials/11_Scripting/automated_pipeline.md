@@ -37,7 +37,7 @@ First, the data is imported. Then it is cleaned with clean_rawdata (default para
 
 Then oddball and standard stimuli epochs are extracted, the baseline is removed (from -1000 to 0 millisecond before the stimulus onset), and ERPs are computed and plotted. If you want to run this pipeline on your own EEGLAB study, then you will need to modify the line for extracting data epochs (as the name of your events will likely differ).
 
-``` matlab
+```matlab
 % check folder
 eeglab;
 if ~exist('task-P300_events.json', 'file')
@@ -107,7 +107,7 @@ Optimizing the pipeline for your data
 
 You might want to apply a different filter than the filter applied by the *clean_rawdata* plugin (which is an elliptic filter). For example, to apply a standard FIR filter, you would need to replace the call to the *clean_artifacts* function by:
 
-``` matlab
+```matlab
 EEG = pop_eegfiltnew( EEG,'locutoff',0.5);
 EEG = clean_artifacts( EEG,'FlatlineCriterion',5,'ChannelCriterion',0.8, ...
     'LineNoiseCriterion',4,'Highpass','off' ,'BurstCriterion',20, ...

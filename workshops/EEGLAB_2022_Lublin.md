@@ -41,7 +41,7 @@ Registration cost is 300 Euros for students and post-docs, 350 Euros for
 faculty and other professional. The registration costs includes
 conference space rental, all coffee breaks, and a short excursion.
 
-<b>Registration: Please complete this [form)](https://docs.google.com/forms/d/e/1FAIpQLSdaQ7elxr_1fumn0DCYVI1qDrOeDqaWGNFljtdghokQRVKmfg/viewform) by May 31.
+<b>Registration: Official registration is now closed. If you still want to participate you can contact the organizers at eeglab2020lublin@gmail.com
 
 <b>Call for papers:</b> During the EEGLAB Workshop in Lublin a poster
 session will be held. We offer the possibility of publishing abstracts
@@ -177,7 +177,7 @@ laptop with MATLAB installed.
 
 - <span style="color: black">17:30 – 19:30 -- Participants bring their poster to discuss </span>
 
-- <span style="color: green">19:45 -- banquet in Hotel Mercure Lublin Centrum (included in registration)</span>
+- <span style="color: green">19:45 -- banquet (included in registration)</span>
 
  <u><span style="color: blue">Thursday, September 15th</span></u>
 

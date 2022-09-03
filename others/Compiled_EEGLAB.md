@@ -104,7 +104,7 @@ Frequently asked questions
     included in the compiled version are not (this includes plugins
     handling source reconstruction, for example).
 -   Trouble shooting! Do not hesitate to submit bug reports on the
-    [EEGLAB Gihub issue tracker](https://github.com/sccn/eeglab/issues)
+    [EEGLAB GitHub issue tracker](https://github.com/sccn/eeglab/issues)
     if you encounter a problem running a compiled version of EEGLAB.
 
 How to check the integrity of the compiled version
@@ -181,7 +181,11 @@ plugin_askinstall('xdfimport', 'eegplugin_xdfimport', true);
 % For clean_rawdata, remove folder manopt/reference/m2html.
 CleanRawData_folder = fileparts(which('clean_rawdata.m'));
 rmdir(fullfile(CleanRawData_folder,'manopt','reference','m2html'), 's');
-rmdir(fullfile(CleanRawData_folder,'manopt','tests'), 's');
+% rmdir(fullfile(CleanRawData_folder,'manopt','tests'), 's'); % not there any more?
+
+% Removing ICLabel files
+iclabel_folder = fileparts(which('iclabel.m'));
+% rmdir(fullfile(iclabel_folder,'matconvnet','examples'), 's'); % not there any more?
 
 % Removing FieldTrip files
 % For Fieldtrip remove folders compat, external/afni, external/spm8, external/spm12, external/gifti, external/eeglab, external/bemcp and external/npmk
@@ -221,6 +225,9 @@ testing
 On Mac and OSX use ./run_eeglab.sh MATLAB_PATH.
 
 > <span style="color: red">Known error: running eLoreta from DIPFIT, cannot find precompute_dpss</span>
+
+> <span style="color: red">Known error: mex files not included for ANT plugin (ASR test file present)</span>
+
 ### Plugins selected for future inclusion
 
 Selected for future inclusion but require testing. If you have a plugin

@@ -5,8 +5,17 @@ long_title: EEGLAB and FieldTrip
 parent: Interoperability
 ---
 
- EEGLAB and FieldTrip
+EEGLAB and FieldTrip
 =========================
+{: .no_toc }
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 History
 --------

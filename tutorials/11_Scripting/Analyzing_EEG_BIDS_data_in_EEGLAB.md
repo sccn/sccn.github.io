@@ -97,7 +97,9 @@ If 'bidsevent' is 'on' then events will be imported from the BIDS .tsv event fil
 [STUDY, ALLEEG] = pop_importbids(filepath, 'eventtype','trial_type', 'bidsevent','on','bidschanloc','on', ...
     'studyName','Face_detection');
 
-ALLEEG = pop_select( ALLEEG, 'nochannel',{'EEG061','EEG062','EEG063','EEG064'});
+ALLEEG = pop_select( ALLEEG, 'nochannel',{'EEG061','EEG062','EEG063','EEG064'}); % remove EKG and EOG
+EEG=pop_chanedit(EEG, 'eval','chans = pop_chancenter( chans, [],[]);'); % center channels
+
 CURRENTSTUDY = 1; EEG = ALLEEG; CURRENTSET = [1:length(EEG)];
 ```
 
