@@ -19,6 +19,16 @@ Leave all defaults and press OK (you may also select the column of interest for 
 menu item <span style="color: brown">File > Import data > Using EEGLAB functions and plugins > Import MEF3 folder</span> to import the <i>mefd</i> 
 folder located in the <i>ds003708/sub-01/ses-ieeg01/ieeg/</i> folder of the BIDS dataset.
 
-When importing with BIDS, the advantage is that you will likely have access the iEEG electrode locations. 
-Below the raw sEEG and the channel location are shown for the dataset above.
+When importing with BIDS, the advantage is that, along with the data, you will likely have access the iEEG electrode locations and relevant events. Below the raw sEEG data for the unique subject in BIDS dataset .
 
+![Screen Shot 2022-09-09 at 3 16 34 PM](https://user-images.githubusercontent.com/1872705/189453192-66169ca9-174b-419c-ba7b-2bada4cbda91.png)
+
+Below the channel locations for the same dataset above are shown.
+
+![Screen Shot 2022-09-09 at 3 16 56 PM](https://user-images.githubusercontent.com/1872705/189453262-e942a285-b19f-455e-aad0-b38bbc62d0dd.png)
+
+Even if you are not planning to use EEGLAB to process the data, importing your iEEG data into EEGLAB and resaving it into an EEGLAB dataset may be useful to process it in other softwares.
+
+Other relevant ressources for processing iEEG data:
+- [Fieldtrip tutorial](https://www.fieldtriptoolbox.org/tutorial/human_ecog/)
+- [MIA](http://www.neurotrack.fr/mia/) also, accessible as a Brainstorm plugin
