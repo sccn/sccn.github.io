@@ -13,7 +13,7 @@ or plugins. The BIDS-matlab-tools EEGLAB plugin
 also support importing BIDS formatted MEG data. You may install plugins from the EEGLAB plugin manager (menu item <span style="color: brown">File > Manage EEGLAB extensions</span>). 
 
 For example, after installing the MEF3 and BIDS-matlab-tools plugins, you may import the 
-[ds003708 BIDS dataset]([https://openneuro.org/datasets/ds003708](https://nemar.org/dataexplorer/detail?dataset_id=ds003708&processed=0)). 
+[ds003708 BIDS dataset](https://nemar.org/dataexplorer/detail?dataset_id=ds003708&processed=0). 
 First, download the data. Second, use menu item <span style="color: brown">File > BIDS Tools > Import BIDS folder to STUDY</span>. 
 Leave all defaults and press OK (you may also select the column of interest for event types). Alternatively, use
 menu item <span style="color: brown">File > Import data > Using EEGLAB functions and plugins > Import MEF3 folder</span> to import the <i>mefd</i> 
