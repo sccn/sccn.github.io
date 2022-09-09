@@ -29,6 +29,6 @@ Below the channel locations for the same dataset above are shown.
 
 Even if you are not planning to use EEGLAB to process iEEG data, importing your iEEG data into EEGLAB and resaving it into an EEGLAB dataset may be useful to process it in other softwares.
 
-Other relevant ressources for processing iEEG data:
+Other relevant resources for processing iEEG data:
 - [Fieldtrip sEEG tutorial](https://www.fieldtriptoolbox.org/tutorial/human_ecog/)
 - [MIA](http://www.neurotrack.fr/mia/) toolbox. Also accessible as a Brainstorm plugin.
