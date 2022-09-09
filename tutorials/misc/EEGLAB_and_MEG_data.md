@@ -12,6 +12,8 @@ EEGLAB supports reading most MEG data formats through the File-IO
 module. Therefore all the major manufacturers may be imported (CTF,
 Neuromag, Neuroimaging 4-D, BTi). There is also the native *ctfimport* EEGLAB plugin to import CTF data.
 
+The BIDS-matlab-tools EEGLAB plugin also support importing BIDS formated MEG data. You may install this plugin from the EEGLAB plugin manager (menu item File > Manage EEGLAB extensions). 
+
 MEG data may be processed as EEG data, although there is added complexity
 for some data formats. For example, EEGLAB does not differentiate
 between gradiometers and magnetometers for Neuromag data. For
