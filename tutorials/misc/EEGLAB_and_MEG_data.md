@@ -15,11 +15,9 @@ Neuromag, Neuroimaging 4-D, BTi). There is also the native *ctfimport* EEGLAB pl
 MEG data may be processed as EEG data, although there is added complexity
 for some data formats. For example, EEGLAB does not differentiate
 between gradiometers and magnetometers for Neuromag data. For
-plotting purposes, you have to tweak the topoplot function to plot
-either one or the other.
+plotting purposes, you should only keep one type of data.
 
-Also, EEGLAB does not support MEG gradient correction, so you need
-to do that outside of EEGLAB before processing the MEG data in EEGLAB.
+Also, EEGLAB does not support MEG gradient correction, which is a required step after importing MEG data, so you need to do that outside of EEGLAB before processing the MEG data in EEGLAB.
 
 For MEG source localization, you can use a custom model in DIPFIT within
 EEGLAB (there is a specific entry for MEG custom leadfield matrix as explained [here](/tutorials/09_source/DIPFIT.html#using-dipfit-to-fit-independent-meg-components)). EEGLAB is still a solution of choice if you are using
@@ -27,8 +25,8 @@ Independent Component Analysis to extract brain sources from MEG data.
 
 However, EEGLAB is not primarily designed to process MEG data and
 perform MEG source localization. For advanced MEG source processing that
-does not involve ICA, a large number of MEG users directly use MEG
-specialized software. For MEG source localization, some of the most
+does not involve ICA, a large number of MEG users directly use specialized MEG
+ software. For MEG source localization, some of the most
 popular tools include Fieldtrip, Brainstorm, MEG-tools, MEGSIM, NUTMEG,
 OpenMEG, MNE suite, or Curry. Some of the links on the popular NITRC
 platform are listed shown
