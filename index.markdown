@@ -8,7 +8,7 @@ has_toc: true
 ---
 ![EEGLAb sum-up picture](/assets/images/tutorial_image.png)
 
-<a href="https://eeglab.org/workshops/eeglab_ucsd_2022.html" style="color:red; font-size:30px">EEGLAB 2022 in person workshop registration now open!</a>
+<a href="https://eeglab.org/workshops/EEGLAB_2022_UCSD.html" style="color:red; font-size:30px">EEGLAB Nov 2022 in person workshop registration now open!</a>
 
 # Welcome to the EEGLAB Wiki
 
