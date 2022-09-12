@@ -121,7 +121,7 @@ laptop with MATLAB installed.
 
 **Overview and Time/frequency**
 
-- <span style="color: purple">9:00 – 9:15 -- Introduction (John Iversen)</span>
+- <span style="color: purple">9:00 – 9:15 -- Introduction (John Iversen)</span> [PDF](/assets/pdfs/EEGLAB2022_Lublin_Iversen_Intro_handout.pdf)
 
 - <span style="color: purple">9:15 – 9:45 -- EEGLAB overview (Arnaud Delorme)</span>
 
