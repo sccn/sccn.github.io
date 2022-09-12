@@ -22,6 +22,8 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 ## THURSDAY, November 17th (open to all; free registration required)
 
+<span style="color: green">12:30PM-1:30PM- Registration open</span>
+
 **Advanced EEG signal processing symposium**
 
 - <span style="color: black">1:30PM-1:45PM- **A little bit of history** (Terry Sejnowski, Session Chair)</span>
@@ -45,6 +47,8 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 <span style="color: green">SFN poster in the foyer and SCCN reception until 8PM</span>
 
 ## FRIDAY, November 18th (paid registration required)
+
+<span style="color: green">7:30AM-8:30AM- Registration open</span>
 
 **Overview and ICA Theory/Practice**
 
