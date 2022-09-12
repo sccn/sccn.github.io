@@ -11,3 +11,5 @@ nav_order: 5
 
 {%- assign children_list = site.pages | where: "parent", "Past workshops" -%}
 {% include toc_nav.html nav=children_list %}
+
+Test [pdf](/assets/pdfs/EEGLAB2022_Lublin_Iversen_Intro_handout.pdf)
