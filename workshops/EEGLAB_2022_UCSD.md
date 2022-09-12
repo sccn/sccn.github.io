@@ -56,7 +56,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: orange">10:30 – 11:30 -- **Data import, Preprocessing, Artifact rejection** (Julie Onton)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/eeglab2019_aspet_artifact_and_ica.pdf)-->
 
-- <span style="color: purple">11:30 – 12:30PM -- **ICA theory, AMICA, and tools** (Scott Makeig)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)-->
+- <span style="color: purple">11:30 – 12:30PM -- **ICA theory, AMICA, and tools** (Scott Makeig)</span><!-- [PDF](https://sccn.ucsd.edu/githubwiki/files/makeig_aspet19_ica.pdf)--> (end on time for lunch crowd)
 
 <span style="color: green">Lunch on your own</span>
 
