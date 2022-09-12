@@ -10,7 +10,7 @@ nav_order: 4
 
 ## Current workshops
 - [<b>The Online EEGLAB Workshop</b>](/workshops/Online_EEGLAB_Workshop) - Includes online videos, slides, and tutorial materials!
-- [EEGLAB 2022 Lublin](/workshops/Future_workshops.html)
+- [EEGLAB 2022 Lublin](/workshops/EEGLAB_2022_Lublin.html)
 - [Future EEGLAB Workshops](/workshops/Future_workshops.html)
 
 <h2>List of past EEGLAB workshops</h2>
