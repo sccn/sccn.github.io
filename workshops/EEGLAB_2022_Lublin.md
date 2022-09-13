@@ -129,7 +129,8 @@ laptop with MATLAB installed.
 
 - <span style="color: green"> Break </span>
 
-- <span style="color: orange">11:15 – 12:30 -- Time-frequency decompositions: Theory and practice (Mateusz Gola)</span>
+- <span style="color: orange">11:15 – 12:30 -- Time-frequency decompositions: Theory and practice (Mateusz Gola)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9558422/EEGLAB2022_Lublin_MG_TimeFrequencyTheoryPractice.pdf)
+
 
 - <span style="color: purple">12:30 – 13:00 -- Phase amplitude coupling (Ramon Martinez)</span>
 
@@ -158,8 +159,9 @@ laptop with MATLAB installed.
 
 - <span style="color: green"> Break </span>
 
-- <span style="color: orange">11:00 - 12:00 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Mateusz Gola)</span>
- 
+- <span style="color: orange">11:00 - 12:00 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Mateusz Gola) </span>
+ [PDF](https://github.com/sccn/sccn.github.io/files/9558424/EEGLAB2022_AD_STUDY_design_newreduced_MG.pdf)
+
 - <span style="color: orange">12:00 - 13:00 -- Face processing dataset and some scripting (Ramon Martinez)</span>
 
 - <span style="color: green">13:00-14:30 -- Lunch</span>
