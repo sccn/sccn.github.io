@@ -11,8 +11,7 @@ Below are EEGLAB workshops currently planned
 
 In 2022:
 
--   There will be an EEGLAB Workshop in Europe [at the Catholic
-    University Lublin in Lublin](/workshops/EEGLAB_2020_Lublin), Poland from September 12 to 16, 2022.
+-   There will be an [EEGLAB Workshop](https://sites.google.com/ucsd.edu/eeglab2022/) in San Diego in November 2022
 
 Do not forget to subscribe to the EEGLAB News list to be notified of new
 workshop and registration information (you may register by clicking a
