@@ -123,7 +123,7 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">9:00 – 9:15 -- Introduction (John Iversen)</span> [PDF](/assets/pdfs/EEGLAB2022_Lublin_Iversen_Intro_handout.pdf)
 
-- <span style="color: purple">9:15 – 9:45 -- EEGLAB overview (Arnaud Delorme)</span>
+- <span style="color: purple">9:15 – 9:45 -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9553418/EEGLAB_overview2022.pdf)
 
 - <span style="color: orange">9:45 – 11:00 -- Data import, Artifact rejection (Johana Wagner)</span>
 
