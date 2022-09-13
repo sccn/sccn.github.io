@@ -139,7 +139,8 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">14:30 – 15:30 -- Mining event-related brain dynamics I (Scott Makeig)</span>
 
-- <span style="color: purple">15:30 – 16:30 -- ICA theory (John Iversen)</span>
+- <span style="color: purple">15:30 – 16:30 -- ICA theory (John Iversen)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9556685/ICA.Theory.2022.Lublin_handout.pdf)
+
 
 - <span style="color: green"> Break </span>
 
