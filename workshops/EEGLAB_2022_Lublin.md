@@ -161,18 +161,22 @@ laptop with MATLAB installed.
 
 - <span style="color: orange">11:00 - 12:00 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Mateusz Gola) </span>
  [PDF](https://github.com/sccn/sccn.github.io/files/9558424/EEGLAB2022_AD_STUDY_design_newreduced_MG.pdf)
+ 
+ **Scripting**
 
-- <span style="color: orange">12:00 - 13:00 -- Face processing dataset and some scripting (Ramon Martinez)</span>
+- <span style="color: orange">12:00 - 13:00 -- Introduction to scripting (Ramon Martinez)</span>
 
 - <span style="color: green">13:00-14:30 -- Lunch</span>
 
-**Source information flow**
+**Group analysis: Clustering**
 
 - <span style="color: purple">14:30 - 15:00 -- Why cluster ICA components? (Scott Makeig)</span>
 
 - <span style="color: orange">15:00 - 15:45 -- ICA component clustering and plotting (Ramon Martinez)</span>
 
 - <span style="color: green">Break</span>
+
+**Connectivity analysis**
 
 - <span style="color: purple">16:00 – 17:15 -- Source information flow and Granger-Causal modeling tools (John Iversen)</span>
 
@@ -183,6 +187,8 @@ laptop with MATLAB installed.
 - <span style="color: green">19:45 -- banquet (included in registration)</span>
 
  <u><span style="color: blue">Thursday, September 15th</span></u>
+ 
+ **Advanced topics 1**
 
 - <span style="color: purple">9:00 – 10:00 -- HED and BIDS (Arnaud Delorme and Dung Truong)</span>
 
@@ -190,15 +196,23 @@ laptop with MATLAB installed.
 
 - <span style="color: green">11:00 - 15:30 -- group excursion with lunch in [The Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</span>
 
+ **Closing Keynote**
+
 - <span style="color: purple">15:30 – 17:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>
+
+ **Scripting**
 
 - <span style="color: orange">17:00 – 18:00 -- Scripting practicum (Ramon Martinez)</span>
  
 <u><span style="color: blue">Friday, September 16th</span></u>
 
+ **Advanced topics 2**
+
 - <span style="color: purple">9:00 – 10:00 -- Deep Learning and EEG (Arnaud Delorme and Dung Truong)</span>
 
 - <span style="color: purple">10:00 – 11:00 -- TMS and EEG (Mateusz Gola)</span>
+
+ **Group Work**
 
 - <span style="color: orange">10:00 – 11:00 -- Practicum, small group projects</span>
 
