@@ -153,7 +153,7 @@ laptop with MATLAB installed.
 
 **Group analysis and ICA clustering in EEGLAB**
 
-- <span style="color: purple">9:00 - 10:00 -- Bootstrap and correction for multiple comparisons - EEGLAB statistics (Arnaud Delorme)</span>
+- <span style="color: purple">9:00 - 10:00 -- Bootstrap and correction for multiple comparisons - EEGLAB statistics (Arnaud Delorme)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9563618/EEGLAB_statistics2022.pdf)
 
 - <span style="color: purple">10:00 – 10:45 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span>
 
