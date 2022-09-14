@@ -178,7 +178,7 @@ laptop with MATLAB installed.
 
 **Connectivity analysis**
 
-- <span style="color: purple">16:00 – 17:15 -- Source information flow and Granger-Causal modeling tools (John Iversen)</span> 
+- <span style="color: purple">16:00 – 17:15 -- Source information flow and Granger-Causal modeling tools (John Iversen)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9564133/EEGLAB2022_Lublin_Connectivity_JRI_handout.pdf)
 
 **Participant poster session**
 
@@ -192,7 +192,7 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">9:00 – 10:00 -- HED and BIDS (Arnaud Delorme and Dung Truong)</span>
 
-- <span style="color: purple">10:00 – 11:00 -- Mobile Brain Body Imaging and Applications (John Iversen)</span>[PDF](https://github.com/sccn/sccn.github.io/files/9564133/EEGLAB2022_Lublin_Connectivity_JRI_handout.pdf)
+- <span style="color: purple">10:00 – 11:00 -- Mobile Brain Body Imaging and Applications (John Iversen)</span>
 
 
 - <span style="color: green">11:00 - 15:30 -- group excursion with lunch in [The Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</span>
