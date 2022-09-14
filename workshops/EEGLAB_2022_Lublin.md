@@ -125,7 +125,8 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">9:15 – 9:45 -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9553418/EEGLAB_overview2022.pdf)
 
-- <span style="color: orange">9:45 – 11:00 -- Data import, Artifact rejection (Johana Wagner)</span>
+- <span style="color: orange">9:45 – 11:00 -- Data import, Artifact rejection (Johana Wagner) </span>[PDF](https://github.com/sccn/sccn.github.io/files/9566896/EEGLAB2022_JW_preprocessing.pdf)
+
 
 - <span style="color: green"> Break </span>
 
@@ -145,7 +146,8 @@ laptop with MATLAB installed.
 
 - <span style="color: green"> Break </span>
 
-- <span style="color: orange">16:45 – 18:00 -- ICA decomposition practicum (Johana Wagner)</span>
+- <span style="color: orange">16:45 – 18:00 -- ICA decomposition practicum (Johana Wagner)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9566907/EEGLAB2022_JW_ICA_Practicum.pdf)
+
  
 - <span style="color: orange">18:00 – 18:30 -- Beginner office hour (Ramon Martinez and John Iversen)</span>
  
