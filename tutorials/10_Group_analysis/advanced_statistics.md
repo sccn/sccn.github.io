@@ -7,6 +7,9 @@ grand_parent: Tutorials
 has_toc: true
 ---
 
+![download (1)](https://user-images.githubusercontent.com/1872705/190215585-a7890ac2-b682-4ef8-8bde-227dce45f02f.jpeg)
+
+
 Study Statistics and Visualization Options
 ============================================
 {: .no_toc }
