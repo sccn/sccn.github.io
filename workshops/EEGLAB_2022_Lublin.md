@@ -201,7 +201,7 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">15:30 – 17:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>
 
- **Scripting**
+ **Advanced Scripting**
 
 - <span style="color: orange">17:00 – 18:00 -- Scripting practicum (Ramon Martinez)</span>
  
