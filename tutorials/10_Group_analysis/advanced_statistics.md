@@ -7,7 +7,7 @@ grand_parent: Tutorials
 has_toc: true
 ---
 
-![construction](https://user-images.githubusercontent.com/1872705/190215827-72c474c3-f8de-4600-9b7f-e0617cb3dd72.png)
+![kids-under-construction-clipart-1050_450-1024x439-1](https://user-images.githubusercontent.com/1872705/190218156-204dee28-4774-4fa6-831b-174d60c93ac5.png)
 
 Study Statistics and Visualization Options
 ============================================
