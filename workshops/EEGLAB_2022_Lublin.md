@@ -167,7 +167,7 @@ laptop with MATLAB installed.
  
  **Scripting**
 
-- <span style="color: orange">12:00 - 13:00 -- Introduction to scripting (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576533/EEGLAB2017_scripts_new.pptx) [Sample_Plugin.zip](https://github.com/sccn/sccn.github.io/files/9576535/Sample_Plugin.zip)
+- <span style="color: orange">12:00 - 13:00 -- Introduction to scripting (Ramon Martinez)</span> [PDF], (https://github.com/sccn/sccn.github.io/files/9576533/EEGLAB2017_scripts_new.pptx) [Sample_Plugin.zip](https://github.com/sccn/sccn.github.io/files/9576535/Sample_Plugin.zip)
 
 
 
@@ -219,7 +219,8 @@ laptop with MATLAB installed.
 
 - <span style="color: purple">9:00 – 10:00 -- Deep Learning and EEG (Arnaud Delorme and Dung Truong)</span>
 
-- <span style="color: purple">10:00 – 11:00 -- TMS and EEG (Mateusz Gola)</span>
+- <span style="color: purple">10:00 – 11:00 -- TMS and EEG (Mateusz Gola)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576564/EEGLab.Workshop.2022.-.EEG.and.TMS.-.Mateusz.Gola.pdf)
+
 
  **Group Work**
 
