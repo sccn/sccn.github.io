@@ -167,7 +167,7 @@ laptop with MATLAB installed.
  
  **Scripting**
 
-- <span style="color: orange">12:00 - 13:00 -- Introduction to scripting (Ramon Martinez)</span> [PDF], (https://github.com/sccn/sccn.github.io/files/9576533/EEGLAB2017_scripts_new.pptx) [Sample_Plugin.zip](https://github.com/sccn/sccn.github.io/files/9576535/Sample_Plugin.zip)
+- <span style="color: orange">12:00 - 13:00 -- Introduction to scripting (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576533/EEGLAB2017_scripts_new.pptx), [Sample_Plugin.zip](https://github.com/sccn/sccn.github.io/files/9576535/Sample_Plugin.zip)
 
 
 
