@@ -133,7 +133,8 @@ laptop with MATLAB installed.
 - <span style="color: orange">11:15 – 12:30 -- Time-frequency decompositions: Theory and practice (Mateusz Gola)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9558422/EEGLAB2022_Lublin_MG_TimeFrequencyTheoryPractice.pdf)
 
 
-- <span style="color: purple">12:30 – 13:00 -- Phase amplitude coupling (Ramon Martinez)</span>
+- <span style="color: purple">12:30 – 13:00 -- Phase amplitude coupling (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576515/RMC_PACTools_EEGLAB_WS_Poland_2022_PDF.pdf)
+
 
 - <span style="color: green">13:00-14:30 -- Lunch</span>
 
@@ -166,13 +167,16 @@ laptop with MATLAB installed.
  
  **Scripting**
 
-- <span style="color: orange">12:00 - 13:00 -- Introduction to scripting (Ramon Martinez)</span>
+- <span style="color: orange">12:00 - 13:00 -- Introduction to scripting (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576533/EEGLAB2017_scripts_new.pptx) [Sample_Plugin.zip](https://github.com/sccn/sccn.github.io/files/9576535/Sample_Plugin.zip)
+
+
 
 - <span style="color: green">13:00-14:30 -- Lunch</span>
 
 **Group analysis: Clustering**
 
-- <span style="color: purple">14:30 - 15:00 -- Why cluster ICA components? (Scott Makeig)</span>
+- <span style="color: purple">14:30 - 15:00 -- Why cluster ICA components? (Scott Makeig)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576508/Makeig_Lublin22_Clustering_forpdf.pdf)
+
 
 - <span style="color: orange">15:00 - 15:45 -- ICA component clustering and plotting (Ramon Martinez)</span>
 
@@ -206,7 +210,8 @@ laptop with MATLAB installed.
 
  **Advanced Scripting**
 
-- <span style="color: orange">17:00 – 18:00 -- Scripting practicum (Ramon Martinez)</span>
+- <span style="color: orange">17:00 – 18:00 -- Advanced scripting practicum (Ramon Martinez)</span> [PPT](https://github.com/sccn/sccn.github.io/files/9576497/EEGLAB2022_Lublin_AdvancedScripting_RMC.pptx)
+
  
 <u><span style="color: blue">Friday, September 16th</span></u>
 
