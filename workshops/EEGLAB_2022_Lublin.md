@@ -197,10 +197,9 @@ laptop with MATLAB installed.
  **Advanced topics 1**
 
 - <span style="color: purple">9:00 – 10:00 -- HED and BIDS (Arnaud Delorme and Dung Truong)</span>
+[PDF](https://github.com/sccn/sccn.github.io/files/9581488/EEGLAB_BIDS1.pdf)
 
 - <span style="color: purple">10:00 – 11:00 -- Mobile Brain Body Imaging and Applications (John Iversen)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9566067/EEGLAB_Lublin_2022_MoBI_JRI_handout.pdf)
-
-
 
 - <span style="color: green">11:00 - 15:30 -- group excursion with lunch in [The Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</span>
 
@@ -218,6 +217,7 @@ laptop with MATLAB installed.
  **Advanced topics 2**
 
 - <span style="color: purple">9:00 – 10:00 -- Deep Learning and EEG (Arnaud Delorme and Dung Truong)</span>
+[PDF](https://github.com/sccn/sccn.github.io/files/9581493/DL_EEG-workshop2022_2.pdf)
 
 - <span style="color: purple">10:00 – 11:00 -- TMS and EEG (Mateusz Gola)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576564/EEGLab.Workshop.2022.-.EEG.and.TMS.-.Mateusz.Gola.pdf)
 
