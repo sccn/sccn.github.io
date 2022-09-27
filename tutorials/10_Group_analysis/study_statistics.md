@@ -124,7 +124,7 @@ Press the *STATS* button and slect both independent variables as shown below. Se
 
 ![image not found](/assets/images/studystats19.png)
 
-Press the *Plot ERPs* button again. The following plot pops up and shows an array of 2 x 5 scalp topographies for the 2 x 5 design (2 conditions *ignore* and *memorize* times 5 memory loads). The scalp topography on the bottom shows the p-value map across conditions (*ignore* vs. *memorize*). The scalp topography on the right shows the p-value map across memory loads. The scalp topography in the bottom right corner shows the p-value for the ANOVA interaction term between conditions and memory loads. We observe a statistical trend for the memory load, meaning that memory load may lead to different scalp topographies in the time range of interest.
+Press the *Plot ERPs* button again. The following plot pops up and shows an array of 2 x 5 scalp topographies for the 2 x 5 design (2 conditions *ignore* and *memorize* times 5 memory loads). The scalp topography on the bottom shows the p-value map across conditions (*ignore* vs. *memorize*). The scalp topography on the right shows the p-value map across memory loads. The scalp topography in the bottom right corner shows the p-value for the ANOVA interaction term between conditions and memory loads. We observe a statistical trend for the memory load, meaning that memory load may lead to different scalp topographies in the time range of interest. Note that we added the green and orange lines with photoshop to help illustrate how the main effect for each variable is calculated. The load variable statistics is an ANOVA across 7 different loads. By contrast, the condition variable compares two conditions.
 
 ![image not found](/assets/images/studystats20.png)
 
