@@ -54,6 +54,5 @@ These questions were compiled by Arnaud Delorme. Most of the answers are from Cy
 3  3
 4  4
 ```
-> The function [limo_split_continuous.m](https://github.com/LIMO-EEG-Toolbox/limo_tools/blob/master/limo_split_continuous.m) may be used to create interaction terms with continuous variables.
 
 * **Question: I have reaction time in a go-nogo task where 50% of the stimuli are target stimuli, and the other 50% are distractors (subjects are not supposed to respond to distractors). I want to analyze correct responses (response on the go target trials and no response on no-go non-target trials). Is there a way to include the reaction time as a covariate even though I do not have reaction time for distractors?** Yes, this is totally possible. This would be a level 1 analysis across trials. For distractors, you would set the reaction time to 0, which means these trials will be ignored for the covariate analysis with reaction time. However, you would not be able to compute the interaction between reaction time and trial type since you do not have reaction time for distractors. At the second level, you can perform a paired t-test on the trial type (target vs. distractor) and a one-sample t-test on the reaction time beta parameter.
