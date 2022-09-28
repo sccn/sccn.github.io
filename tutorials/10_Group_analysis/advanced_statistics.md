@@ -40,3 +40,22 @@ These questions were answered by Cyril Pernet.
 
 * **Question: What do I sometimes get errors when using Weighted Least Square (WLS) optimization at the 1st level?** WLS requires that you have more trials than samples. You can reduce the time window or frequency range to decrease the number of samples. This is not a problem with Ordinary Least Square.
 
+* **Question: What do I sometimes get errors when using Weighted Least Square (WLS) optimization at the 1st level?** WLS requires that you have more trials than samples. You can reduce the time window or frequency range to decrease the number of samples. This is not a problem with Ordinary Least Square.
+
+* **Question: I have 2 sessions per subject and a continuous var (questionnaire) for each session. How do I calculate the interaction between sessions and the continuous var?** You would want to use repeated measure ANOVA with covariate but this is not in LIMO right now (maybe check old_rep_ANOVA.m). An ANCOVA could be used but you would loose the fact that the sessions are paired accross subject. For an ANCOVA, you would want to store a text file that contains an extra column with the product for the interaction. If you have 2 sessions and a continuous variable with x1 to x4, the last column could contain (-x1, -x2, x3, x4). In theory you would have a text file with 2 categorical variables, one continuous variable and 1 interaction. For example if x1=1, x2=2, x3=3 and x4=4, the text file would contain
+```
+1  0  1  -1
+1  0  2  -2
+0  1  3  3
+0  1  4  4
+```
+However, in practice, since it is difficult to know which variables are categorical and which are continuous without asking the user, you will need to select 2 list of betas, one for session 1 and one for session 2, and your covariate file will contain
+```
+1  -1
+2  -2
+3  3
+4  4
+```
+The function [limo_split_continuous.m](https://github.com/LIMO-EEG-Toolbox/limo_tools/blob/master/limo_split_continuous.m) may be used to create interaction terms with continuous variables.
+
+
