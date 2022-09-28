@@ -49,8 +49,7 @@ These questions were answered by Cyril Pernet.
 0  1  3  3
 0  1  4  4
 ```
-<blockquote>
-However, in practice, since it is difficult to know which variables are categorical and which are continuous without asking the user, you will need to select 2 list of betas, one for session 1 and one for session 2, and your covariate file will contain
+> However, in practice, since it is difficult to know which variables are categorical and which are continuous without asking the user, you will need to select 2 list of betas, one for session 1 and one for session 2, and your covariate file will contain
 </blockquote>
 
 ```
@@ -60,8 +59,6 @@ However, in practice, since it is difficult to know which variables are categori
 4  4
 ```
 
-<blockquote>
-The function [limo_split_continuous.m](https://github.com/LIMO-EEG-Toolbox/limo_tools/blob/master/limo_split_continuous.m) may be used to create interaction terms with continuous variables.
-</blockquote>
+> The function [limo_split_continuous.m](https://github.com/LIMO-EEG-Toolbox/limo_tools/blob/master/limo_split_continuous.m) may be used to create interaction terms with continuous variables.
 
 
