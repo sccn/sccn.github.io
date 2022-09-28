@@ -38,9 +38,7 @@ These questions were compiled by Arnaud Delorme. Most of the answers are from Cy
 
 * **Question: What is the limit in terms of number of 1st-level variables?** There is no limits. You can have as many categorical and continuous variables as you want. 
 
-* **Question: What do I sometimes get errors when using Weighted Least Square (WLS) optimization at the 1st level?** WLS requires that you have more trials than samples. You can reduce the time window or frequency range to decrease the number of samples. This is not a problem with Ordinary Least Square.
-
-* **Question: What do I sometimes get errors when using Weighted Least Square (WLS) optimization at the 1st level?** WLS requires that you have more trials than samples. You can reduce the time window or frequency range to decrease the number of samples. This is not a problem with Ordinary Least Square.
+* **Question: What do I sometimes get errors when using Weighted Least Square (WLS) optimization at the 1st level?** WLS requires that you have more trials than samples. You can reduce the time window or frequency range to decrease the number of samples. This is not a problem with Ordinary Least Square. IRLS (Iterated Reweighted Least Square) is the best method, but show likely not be used in practice because it is too slow compared to WLS, and the gain is minimal.
 
 * **Question: I have 2 sessions per subject and a continuous var (questionnaire) for each session. How do I calculate the interaction between sessions and the continuous var?** You would want to use repeated measure ANOVA with covariate but this is not in LIMO right now (maybe check old_rep_ANOVA.m). An ANCOVA could be used but you would loose the fact that the sessions are paired accross subject. For an ANCOVA, you would want to store a text file that contains an extra column with the product for the interaction. If you have 2 sessions and a continuous variable with x1 to x4, the last column could contain (-x1, -x2, x3, x4). In theory you would have a text file with 2 categorical variables, one continuous variable and 1 interaction. For example if x1=1, x2=2, x3=3 and x4=4, the text file would contain
 ```
