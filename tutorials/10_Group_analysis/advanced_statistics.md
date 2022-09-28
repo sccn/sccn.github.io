@@ -49,9 +49,7 @@ These questions were answered by Cyril Pernet.
 0  1  3  3
 0  1  4  4
 ```
-> However, in practice, since it is difficult to know which variables are categorical and which are continuous without asking the user, you will need to select 2 list of betas, one for session 1 and one for session 2, and your covariate file will contain
-</blockquote>
-
+> However, in practice, since it is difficult to know which variables are categorical and which are continuous without asking the user, you will need to provide 2 lists of betas, one for session 1 and one for session 2, and your covariate file will contain:
 ```
 1  -1
 2  -2
