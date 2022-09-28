@@ -61,7 +61,7 @@ However, in practice, since it is difficult to know which variables are categori
 ```
 
 <blockquote>
-The function (limo_split_continuous.m)[https://github.com/LIMO-EEG-Toolbox/limo_tools/blob/master/limo_split_continuous.m] may be used to create interaction terms with continuous variables.
+The function [limo_split_continuous.m](https://github.com/LIMO-EEG-Toolbox/limo_tools/blob/master/limo_split_continuous.m) may be used to create interaction terms with continuous variables.
 </blockquote>
 
 
