@@ -28,19 +28,19 @@ LIMO Faq.
 ------
 These questions were compiled by Arnaud Delorme. Most of the answers are from Cyril Pernet, the main author of LIMO.
 
-* **Question: Are the bootstrap only 2nd level or can you do it 1st level as well when you look at a single subject?** Bootstrap statistics are only at the second level.
+* **Question: Are the bootstrap only 2nd level, or can you do it 1st level as well when you look at a single subject?** Bootstrap statistics are only at the second level.
 
 * **Question: Are contrast only for 2nd level post-hoc on ANOVA analyses?** No, contrast can be calculated at the first level as well.
 
-* **Question: Is there a difference between a paired t-test at the group level between condition 1 and 2, and computing a contrast between condition 1 and 2 at the single subject level, and then computing a one-sample t-test at the group level on that difference?** In theory this is equavalent. However, LIMO uses robust statistics, and uses Yuen t-test at the group level. It is preferable to use the t-test at the group level. 
+* **Question: Is there a difference between a paired t-test at the group level between conditions 1 and 2, computing a contrast between conditions 1 and 2 at the single subject level, and then computing a one-sample t-test at the group level on that difference?** In theory, this is equivalent. However, LIMO uses robust statistics and uses Yuen t-test at the group level. It is preferable to use the t-test at the group level. 
 
-* **Question: Can I process more than 2 groups of subjects in LIMO?** You can, but you cannot do more than 2 nested groups at the time for second-level statistics.
+* **Question: Can I process more than two groups of subjects in LIMO?** You can, but you cannot do more than two nested groups at a time for second-level statistics.
 
-* **Question: What is the limit in terms of number of 1st-level variables?** There is no limits. You can have as many categorical and continuous variables as you want. 
+* **Question: What is the limit in terms of the number of 1st-level variables?** There are no limits. You can have as many categorical and continuous variables as you want. 
 
-* **Question: What do I sometimes get errors when using Weighted Least Square (WLS) optimization at the 1st level?** WLS requires that you have more trials than samples. You can reduce the time window or frequency range to decrease the number of samples. This is not a problem with Ordinary Least Square. IRLS (Iterated Reweighted Least Square) is the best method, but show likely not be used in practice because it is too slow compared to WLS, and the gain is minimal.
+* **Question: What do I sometimes get errors when using Weighted Least Square (WLS) optimization at the 1st level?** WLS requires that you have more trials than samples. You can reduce the time window or frequency range to decrease the number of samples. This is not a problem with Ordinary Least Square. IRLS (Iterated Reweighted Least Square) is the best method but is likely not to be used in practice because it is too slow compared to WLS, and the gain is minimal.
 
-* **Question: I have 2 sessions per subject and a continuous var (questionnaire) for each session. How do I calculate the interaction between sessions and the continuous var?** You would want to use repeated measure ANOVA with covariate but this is not in LIMO right now (maybe check old_rep_ANOVA.m). An ANCOVA could be used but you would loose the fact that the sessions are paired accross subject. For an ANCOVA, you would want to store a text file that contains an extra column with the product for the interaction. If you have 2 sessions and a continuous variable with x1 to x4, the last column could contain (-x1, -x2, x3, x4). In theory you would have a text file with 2 categorical variables, one continuous variable and 1 interaction. For example if x1=1, x2=2, x3=3 and x4=4, the text file would contain
+* **Question: I have two sessions per subject and a continuous var (questionnaire) for each session. How do I calculate the interaction between sessions and the continuous var?** You would want to use repeated measure ANOVA with covariate, but this is not in LIMO right now (maybe check old_rep_ANOVA.m). An ANCOVA could be used, but you would lose the fact that the sessions are paired across subjects. For an ANCOVA, you would want to store a text file that contains an extra column with the product for the interaction. If you have two sessions and a continuous variable with x1 to x4, the last column could contain (-x1, -x2, x3, x4). In theory, you would have a text file with two categorical variables, one continuous variable, and one interaction. For example, if x1=1, x2=2, x3=3, and x4=4, the text file would contain
 ```
 1  0  1  -1
 1  0  2  -2
@@ -54,7 +54,6 @@ These questions were compiled by Arnaud Delorme. Most of the answers are from Cy
 3  3
 4  4
 ```
-
 > The function [limo_split_continuous.m](https://github.com/LIMO-EEG-Toolbox/limo_tools/blob/master/limo_split_continuous.m) may be used to create interaction terms with continuous variables.
 
-
+* **Question: I have reaction time in a go-nogo task where 50% of the stimuli are target stimuli, and the other 50% are distractors (subjects are not supposed to respond. I want to analyze correct responses (response on the go and no response on no-go). Is there a way to include the reaction time as a covariate even though I do not have reaction time for distractors?** Yes, this is totally possible. This would be a level 1 analysis across trials. For distractors, you would set the reaction time to 0, which means these trials will be ignored for the covariate analysis with reaction time. You would not be able to compute the interaction between reaction time and trial type since you do not have reaction time for distractors. At the second level, you can perform a paired t-test on the trial type (target vs. distractor) and a one-sample t-test on the reaction time beta parameter.
