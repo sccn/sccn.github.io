@@ -32,7 +32,7 @@ These questions were compiled by Arnaud Delorme. Most of the answers are from Cy
 
 * **Question: Are contrast only for 2nd level post-hoc on ANOVA analyses?** No, contrast can be calculated at the first level as well.
 
-* **Question: Is there a difference between a paired t-test at the group level between conditions 1 and 2, computing a contrast between conditions 1 and 2 at the single subject level, and then computing a one-sample t-test at the group level on that difference?** In theory, this is equivalent. However, LIMO uses robust statistics and uses Yuen t-test at the group level. It is preferable to use the t-test at the group level. 
+* **Question: Is there a difference between (A) computing a paired t-test at the group (2nd) level between two level 1 beta parameters (conditions 1 and 2), and (B) computing a contrast between conditions 1 and 2 at the 1st level single subject level (difference of the two betas), and then computing a one-sample t-test at the group level on that difference?** In theory, this is equivalent. However, LIMO uses robust statistics and uses Yuen t-test at the group level, so it is preferable to use the t-test at the group level (solution A).
 
 * **Question: Can I process more than two groups of subjects in LIMO?** You can, but you cannot do more than two nested groups at a time for second-level statistics.
 
