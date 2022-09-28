@@ -26,7 +26,7 @@ Difference between optimization methods
  
 LIMO Faq.
 ------
-These questions were answered by Cyril Pernet.
+These questions were compiled by Arnaud Delorme. Most of the answers are from Cyril Pernet, the main author of LIMO.
 
 * **Question: Are the bootstrap only 2nd level or can you do it 1st level as well when you look at a single subject?** Bootstrap statistics are only at the second level.
 
