@@ -224,7 +224,7 @@ testing
 [here](https://sccn.github.io/others/Compiled_EEGLAB.html#how-to-check-the-integrity-of-the-compiled-version)).
 On Mac and OSX use ./run_eeglab.sh MATLAB_PATH.
 
-> <span style="color: red">Known error: running eLoreta from DIPFIT, cannot find precompute_dpss</span>
+> <span style="color: red">Known problem: check documentation in compiled version</span>
 
 > <span style="color: red">Known error: mex files not included for ANT plugin (ASR test file present)</span>
 
