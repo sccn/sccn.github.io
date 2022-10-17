@@ -36,6 +36,9 @@ based tools - and in particular EEGLAB - instead of Python-based tools
 
 Below is an analysis of papers referencing EEGLAB, FieldTrip, MNE,
 MNE-Python, and Brainstorm since 2004. Data were obtained from Google Scholar.
+
+![Screen Shot 2022-10-16 at 9 12 14 PM](https://user-images.githubusercontent.com/1872705/196087854-dac4a7f6-fba0-49ab-b2b8-4ca6fc253bb1.png)
+
 The number of citation per year corresponds to the following five papers:
 
 -   **EEGLAB**: Delorme, A. and Makeig, S., 2004. EEGLAB: an open source
@@ -58,10 +61,6 @@ The number of citation per year corresponds to the following five papers:
     and Leahy, R.M., 2011. Brainstorm: a user-friendly application for
     MEG/EEG analysis. Computational intelligence and neuroscience, 2011,
     p.8.
-
-
-![Screen Shot 2022-10-16 at 9 12 14 PM](https://user-images.githubusercontent.com/1872705/196087854-dac4a7f6-fba0-49ab-b2b8-4ca6fc253bb1.png)
-
 
 Major differences between MATLAB and Python
 -------------------------------------------
