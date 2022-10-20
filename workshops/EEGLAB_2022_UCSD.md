@@ -104,15 +104,17 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 **Lab Streaming Layer (LSL) for multimodal data collection**
 
-- <span style="color: purple">1:45PM-2:00PM - **LSL introduction and demonstration** (Christian Kothe)</span>
+- <span style="color: purple">1:45PM-1:50PM - **Symposium intro** (Tim Mullen)</span>
 
-- <span style="color: purple">2:00PM-2:15PM - **The lsl_app_matlabviewer EEGLAB plug-in** (Arnaud Delorme)</span>
+- <span style="color: purple">1:50PM-2:15PM - **LSL synchronization** (Christian Kothe)</span>
 
-- <span style="color: purple">2:15PM-2:45PM - **LSL synchronization and other topics** (Christian Kothe)</span>
+- <span style="color: purple">2:15PM-2:30PM - **The lsl_app_matlabviewer EEGLAB plug-in** (Arnaud Delorme)</span>
 
-- <span style="color: purple">2:45PM-3:15PM - **LSL for Mobile Brain Imaging** (Stefan Debener)</span>
- 
-- <span style="color: purple">3:15PM-3:30PM - **LSL wrap up** (Tim Mullen)</span>
+- <span style="color: purple">2:30PM-3:00PM - **LSL for Mobile Brain Imaging** (Stefan Debener)</span>
+
+- <span style="color: purple">3:00PM-3:20PM - **The challenges and solutions for 'real-world' EEG** (Daniel Callan)</span>
+
+- <span style="color: purple">3:20PM-3:30PM - **Symposium wrap-up** (Tim Mullen)</span>
 
 <span style="color: green">Hiking excursion (return 6PM)</span>
 
