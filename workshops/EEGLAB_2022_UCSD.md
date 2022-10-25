@@ -25,24 +25,18 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 <span style="color: green">12:30PM-1:30PM- Registration open</span>
 
 **Advanced EEG signal processing symposium**
-
-- <span style="color: black">1:30PM-1:45PM- **A little bit of history** (Terry Sejnowski, Session Chair)</span>
-
-- <span style="color: black">1:45PM-2:15PM- **Mining event-related brain dynamics** (Scott Makeig)</span>
-
-- <span style="color: black">2:15PM-3:00PM- **Music and the Brain** (John Iversen)</span> 
-
-- <span style="color: black">3:00PM-3:30PM- **EEG/TMS approaches** (Mateusz Gola)</span>
-
+- <span style="color: black">12:30PM-12:45PM- **A little bit of history** (Terry Sejnowski, Session Chair)</span>
+- <span style="color: black">12:45PM-1:15PM- **Mining event-related brain dynamics** (Scott Makeig)</span>
+- <span style="color: black">1:15PM-2:00PM- **Music and the Brain** (John Iversen) </span>
+- <span style="color: black">2:00PM-3:30PM- **EEG/TMS approaches** (Mateusz Gola)</span>
 <span style="color: green">Coffee break</span>
-
-- <span style="color: black">3:45PM-4:15PM- **Real-world Neuroimaging** (TP Jung)</span>
-
-- <span style="color: black">4:15PM-4:45PM- **EEG in the Classroom** (Ying Wu)</span>
-
-- <span style="color: black">4:45PM-5:15PM- **Mobile Brain EEG** (Stefan Debener)</span>
-
-- <span style="color: black">5:15PM-5:45PM- **The future of EEG signal processing** (Arnaud Delorme)</span>
+- <span style="color: black">2:45PM-3:15PM- **Real-world Neuroimaging** (TP Jung)</span>
+- <span style="color: black">3:15PM-3:45PM- **EEG in the Classroom** (Ying Wu)</span>
+- <span style="color: black">3:45PM-4:15PM- **Mobile Brain EEG** (Stefan Debener)</span>
+- <span style="color: black">4:15PM-4:45PM- **The future of advanced EEG signal processing** (Arnaud Delorme)</span> 
+<span style="color: green">Coffee break</span>
+**INC Rockwood Memorial Lecture**
+- <span style="color: black">5:00PM-6:00PM- To be determined (Brain Computer Interface) (Jonathan Wolpaw)</span>
 
 <span style="color: green">SFN poster in the foyer and SCCN reception until 8PM</span>
 
