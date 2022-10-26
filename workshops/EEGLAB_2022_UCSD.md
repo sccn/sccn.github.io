@@ -22,7 +22,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 ## THURSDAY, November 17th (open to all; free registration required)
 
-<span style="color: green">12:30PM-1:30PM- Registration open</span>
+<span style="color: green">12:00PM-12:30PM- Registration open</span>
 
 **Advanced EEG signal processing symposium**
 
@@ -32,7 +32,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">1:15PM-2:00PM- **Music and the Brain** (John Iversen) </span>
 
-- <span style="color: black">2:00PM-3:30PM- **EEG/TMS approaches** (Mateusz Gola)</span>
+- <span style="color: black">2:00PM-2:30PM- **EEG/TMS approaches** (Mateusz Gola)</span>
 
 <span style="color: green">Coffee break</span>
 
