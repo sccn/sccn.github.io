@@ -44,7 +44,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black">4:15PM-4:45PM- **The future of advanced EEG signal processing** (Arnaud Delorme)</span> 
 
-<span style="color: green">Coffee break</span>
+<span style="color: green">Break</span>
 
 **INC Rockwood Memorial Lecture**
 
