@@ -26,7 +26,7 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 **Advanced EEG signal processing symposium**
 
-- <span style="color: black">12:30PM-12:45PM- **A little bit of history** (Terry Sejnowski, Session Chair)</span>
+- <span style="color: black">12:30PM-12:45PM- **A little bit of history**</span>
 
 - <span style="color: black">12:45PM-1:15PM- **Mining event-related brain dynamics** (Scott Makeig)</span>
 
@@ -48,9 +48,9 @@ Below is a still-provisional program for the 2022 Virtual EEGLAB Workshop (sugge
 
 **INC Rockwood Memorial Lecture**
 
-- <span style="color: black">5:00PM-6:00PM- To be determined (Brain Computer Interface) (Jonathan Wolpaw)</span>
+- <span style="color: black">5:00PM-6:00PM- **Neuroadaptive Technologies: Past, Present & Future** (Jonathan Wolpaw)</span>
 
-<span style="color: green">SFN poster in the foyer and SCCN reception until 8PM</span>
+<span style="color: green">6:00PM-8:00PM- INC reception & SFN poster show in the foyer</span>
 
 ## FRIDAY, November 18th (paid registration required)
 
