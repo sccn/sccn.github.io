@@ -144,3 +144,7 @@ an additional column "number", which is not an event field.
 If you want more control over export options, you should use the command-line version of the [pop_expevents.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_expevents.m) function. An alternative 
 function, [eeg_eventtable.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_expevents.m), has additional options for exporting events.
 
+Exporting output and STUDY results
+---
+
+The [scripting tutorial section](tutorials/11_Scripting/command_line_study_functions.md) describes solutions for exporting any results to a text or Excel file for subsequent processing in SPSS, Statistica, Stata, R, SAS, and Excell.
