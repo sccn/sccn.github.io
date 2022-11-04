@@ -146,5 +146,4 @@ function, [eeg_eventtable.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop
 
 Exporting output and STUDY results
 ---
-
-The [scripting tutorial section](tutorials/11_Scripting/command_line_study_functions.md) describes solutions for exporting any results to a text or Excel file for subsequent processing in SPSS, Statistica, Stata, R, SAS, and Excell.
+The [scripting tutorial section]([/tutorials/command_line_study_functions.html#saving-results-for-processing-in-other-software-packages)) describes solutions for exporting any results to a text or Excel file for subsequent processing in SPSS, Statistica, Stata, R, SAS, and Excell.
