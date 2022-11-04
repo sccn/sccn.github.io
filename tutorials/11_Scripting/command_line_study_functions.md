@@ -303,7 +303,7 @@ end
 
 Let's look at a more general case of ERSP data. The script below can save ERSP data (ignore vs. memorize condition). The example below shows 12-time steps, 10 frequencies, 71 channels, and 13 subjects. More elegant and faster ways to do this exist.
 
-```
+```matlab
 chanlocs = eeg_mergelocs(ALLEEG.chanlocs);
 [STUDY erspdata ersptimes erspfreqs] = std_erspplot(STUDY,ALLEEG,'channels',{chanlocs.labels}, 'noplot', 'on');
 erspdata =
