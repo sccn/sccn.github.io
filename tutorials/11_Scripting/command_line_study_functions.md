@@ -261,6 +261,75 @@ similar manner (see the function help messages for more details). Note that for 
 input. 
 See the help message of the [statcond.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=statcond.m) function for more help on this subject (see also example at the end of this page).
 
+### Saving results for processing in other software packages
+
+Saving any STUDY result for subsequent processing in SPSS, Statistica, Stata, R, SAS, and Excell can easily be done from the command line. Saving a MATLAB array into a text file is simple in MATLAB. Below are five different options. All options are equivalent. Below we are saving the data for condition 1. Some save files with tab-separated values, while others save files with comma-separated values by default. Most functions below have many options.
+
+``` matlab
+array = erpdata{1}; % or array = rand(100,200); 
+dlmwrite('matlabarray1.txt',array,'delimiter', '\t', 'precision', 10); % tab separated values
+xlswrite('matlabarray2.xls',array);
+csvwrite('matlabarray3.csv',array); % comma separated values
+writematrix(array, 'matlabarray4.csv');
+writetable(table(array), 'matlabarray5.csv')
+```
+
+Imagine you have three conditions for ERP data of size 750 points x 13 subjects (<i>erpdata</i> obtained in the previous section). Imagine you have three conditions in the <i>erpdata</i> array. The short script below will save them in the file 'erpfile.txt' and append the condition in the last column. You may import this file into any statistical software and use the last column as the categorical predictor.
+
+``` matlab
+[STUDY erpdata erptimes] = std_erpplot(STUDY,ALLEEG,'channels',{ 'FP1'}, 'noplot', 'on');
+dlmwrite('erpfile.txt',squeeze([ erptimes' erpdata{1} ones(size(erpdata{1},1),1)*1 ]),'delimiter', '\t', 'precision', 2);
+dlmwrite('erpfile.txt',squeeze([ erptimes' erpdata{2} ones(size(erpdata{2},1),1)*2 ]),'-append', 'delimiter', '\t', 'precision', 2);
+dlmwrite('erpfile.txt',squeeze([ erptimes' erpdata{3} ones(size(erpdata{3},1),1)*3 ]),'-append', 'delimiter', '\t', 'precision', 2);
+```
+
+The same goes if you have a set of n x m conditions. You can then add 2 columns representing 2 categorical variables.
+
+``` matlab
+dlmwrite('erpfile.txt',squeeze([ erpdata{1,1} ones(size(erpdata{1,1},1),1)*[1 1] ]),'delimiter', '\t', 'precision', 2);
+dlmwrite('erpfile.txt',squeeze([ erpdata{1,2} ones(size(erpdata{1,2},1),1)*[1 2] ]),'-append', 'delimiter', '\t', 'precision', 2);
+dlmwrite('erpfile.txt',squeeze([ erpdata{2,1} ones(size(erpdata{2,1},1),1)*[2 1] ]),'-append', 'delimiter', '\t', 'precision', 2);
+dlmwrite('erpfile.txt',squeeze([ erpdata{2,2} ones(size(erpdata{2,2},1),1)*[2 2] ]),'-append', 'delimiter', '\t', 'precision', 2);
+```
+
+Imagine that you want to be able to use subjects as cases. in that case they cannot be defined as columns. Most statitical software will allow you convert between the two formats (they are usually called long and wide forms). In the case above, you would want to convert from wide to long form. Alternatlively, you may also use a MATLAB script. For example, for the <i>erpdata</i> condition 1 containing 750 points and 13 subjects, saving the data in long form would look like this. This file will only contain 2 columns, one for the data and one for the subject index.
+
+``` matlab
+dlmwrite('erpfile.txt',[ erpdata{1}(:,1) ones(size(erpdata{1},1),1)*1],'delimiter', '\t', 'precision', 2);
+for iSubject = 2:size(erpdata{1},2)
+    dlmwrite('erpfile.txt',squeeze([ erpdata{1}(:,iSubject) ones(size(erpdata{1},1),1)*iSubject]),'-append', 'delimiter', '\t', 'precision', 2);
+end
+```
+
+Let's look at a more general case of ERSP data. The script below can save ERSP data (ignore vs. memorize condition). The example below shows 12-time steps, 10 frequencies, 71 channels, and 13 subjects. More elegant and faster ways to do this exist.
+
+```
+chanlocs = eeg_mergelocs(ALLEEG.chanlocs);
+[STUDY erspdata ersptimes erspfreqs] = std_erspplot(STUDY,ALLEEG,'channels',{chanlocs.labels}, 'noplot', 'on');
+erspdata =
+
+  2×1 cell array
+
+    {10×12×71x13 single}
+    {10×12×71x13 single}
+    
+if exist('erpfile.txt'), delete('erpfile.txt'); end
+for iFreq = 1:10
+  for iTime = 1:12
+    for iChan = 1:71
+      for iSubject = 1:13
+          dlmwrite('erspfile.txt',squeeze([ erspdata{1}(iFreq,iTime,iSubject) iFreq iTime iChan iSubject 1]),'-append', 'delimiter', '\t', 'precision', 2);
+          dlmwrite('erspfile.txt',squeeze([ erspdata{2}(iFreq,iTime,iSubject) iFreq iTime iChan iSubject 2]),'-append', 'delimiter', '\t', 'precision', 2);
+      end
+      end
+  end
+end
+```
+
+Below is the beginning of the saved file with the column names added. You may modify the script to add them as well automatically. This is just an example. Actual frequencies and time may be saved as well, replacing <i>iFreq</i> and <i>iTime</i> with <i>erspfreqs(iFreq)</i> and <i>ersptimes(iTime)</i> in the script above. 
+
+![Screen Shot 2022-11-04 at 3 47 27 PM](https://user-images.githubusercontent.com/1872705/200086058-98a10d7a-27f8-4f60-8bd4-e70d6170f6a6.png)
+
 Computing and plotting component measures
 -----------------------------
 
