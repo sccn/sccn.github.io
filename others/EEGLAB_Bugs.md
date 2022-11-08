@@ -40,7 +40,7 @@ About 1000 [test cases](https://sccn.ucsd.edu/wiki/EEGLAB_test_cases) run daily 
     it yourself. Note: If you do this successfully, please consider
     issuing a pull request on Github. See more information on
     [contributing to
-    EEGLAB](https://sccn.ucsd.edu/wiki/A07:_Contributing_to_EEGLAB).
+    EEGLAB](tutorials/contribute/Contributing_to_EEGLAB).
 
 How do I report a Bug?
 ---
