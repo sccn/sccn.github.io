@@ -9,9 +9,9 @@ Future EEGLAB workshops
 ===
 Below are EEGLAB workshops currently planned
 
-In 2022:
+In 2023:
 
--   There will be an [EEGLAB Workshop](https://sites.google.com/ucsd.edu/eeglab2022/) in San Diego in November 2022
+-   There might be a workshop in Aspet, France in May or June 2023
 
 Do not forget to subscribe to the EEGLAB News list to be notified of new
 workshop and registration information (you may register by clicking a
