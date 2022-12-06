@@ -488,7 +488,9 @@ original event information, with no added 'boundary' event.
 
 ![Image:Eventcontinuous.gif](/assets/images/Eventcontinuous.gif)
 
+The latency of a 'boundary' event is usually between two samples. For example, if samples 101 to 200 are removed, then the latency of the 'boundary'  event will be 100.5, indicating with no ambiguity that sample 101 was removed while we kept sample 100. Also,  'boundary' event durations indicate the number of samples removed (in the example above, 100 of them). Storing this information allows determining how much data was removed. When merging datasets, 'boundary' event duration is irrelevant and set to NaN.
 
+Note that boundary events are allowed latencies outside of the data range. If the data has 1000 samples, the sample limit is 1 to 1000 (MATLAB starts at sample 1). Events at latency 0.5 and 1000.5 of type 'boundary' are allowed outside the data limits. These boundary events indicate that data has been removed at the onset or the end of the data, and the duration field indicates how much data was removed.
 
 Boundary events are standard event structures with *event.type* =
 'boundary'. They also have an *event.duration* field that holds the
