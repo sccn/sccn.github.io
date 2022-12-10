@@ -5,6 +5,17 @@ long_title: a. Head model settings
 parent: 9. Source analysis
 grand_parent: Tutorials
 ---
+
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 Back to the basics
 ==================
 
@@ -37,15 +48,6 @@ a distributed model, with one dipole per brain voxel, such as when using Loreta.
 
 This section deals with the first step only of choosing a head model and aligning it with your electrode locations. Other steps are described in
 subsequent sections of the tutorial.
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
 
 Setting up DIPFIT head model
 ----
