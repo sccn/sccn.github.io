@@ -16,7 +16,7 @@ To perform source localization, one needs
 * A **source model** describing the position of the source generating these fields
   * It may be a single dipole. 
   * It may be dipoles distributed in a 3-D grid (volumetric source model for distributed source localization such as in eLoreta)
-  * It may be dipoles distributed on a surface. For example, we may force dipoles to be on the cortical surface
+  * It may be dipoles distributed on a surface. For example, we may force dipoles to be on the cortical surface.
 * The position of the EEG or MEG **sensors** and a way to align them with both the head model and source model
 
 Once we have all of that, we need an algorithm to find where sources are. Unfortunately, there is an infinite number of solution that can generate the observed activity at the surface of the scalp, so we need to impose constraints on the sources. The constraints may be:
