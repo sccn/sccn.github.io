@@ -1,7 +1,7 @@
 ---
 layout: default
-title: c. EEG sources
-long_title: c. EEG sources
+title: c. EEG source model
+long_title: c. EEG source model
 parent: 9. Source analysis
 grand_parent: Tutorials
 ---
