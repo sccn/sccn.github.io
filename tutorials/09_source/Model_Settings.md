@@ -12,7 +12,7 @@ To perform source localization, one needs
 * A **head model** describing how electrical or magnetic fields behave
   * It may be a simple model made of spheres having different conductances
   * It may be a more complex model made of geometrical 3-D mesh describing the cortex surface, skull, skin, as well as change in conductance at the interface of these surfaces.
-  * It may be a volumetric model (Finite Element Model) describing how the current flow in each voxel. These are in theory more precise although they require more computation.
+  * It may be a volumetric model (Finite Element Model) describing how the current flow in each voxel. These are in theory more precise although they take longer to compute.
 * A **source model** describing the position of the source generating these fields
   * It may be a single dipole. 
   * It may be dipoles distributed in a 3-D grid (volumetric source model for distributed source localization such as in eLoreta)
