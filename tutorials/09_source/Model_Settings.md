@@ -19,7 +19,7 @@ To perform source localization, one needs
   * It may be dipoles distributed on a surface. For example, we may force dipoles to be on the cortical surface.
 * The position of the EEG or MEG **sensors** and a way to align them with both the head model and source model
 
-Once we have all of that, we need an algorithm to find where sources are. Unfortunately, there is an infinite number of solution that can generate the observed activity at the surface of the scalp, so we need to impose constraints on the sources. The constraints may be:
+Once we have all of that, we need an algorithm to find the activity of our sources. Unfortunately, there is often an infinite number of solution that can generate the observed activity at the surface of the scalp, so we need to impose constraints on the sources. The constraints may be:
 * Force to model the scalp activity with a single dipole. In this way, there is usually a unique optimal solution.
 * Force sources to be smooth so the activity of the neighboring sources are correlated. This is the eLoreta solution.
 * Force the activity of neighboring sources to be uncorrelated using linearly constrained minimum variance (LCMV) also known as Beamforming.
