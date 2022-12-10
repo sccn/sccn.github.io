@@ -23,6 +23,7 @@ Once we have all of that, we need an algorithm to find the activity of our sourc
 * Force to model the scalp activity with a single dipole. In this way, there is usually a unique optimal solution.
 * Force sources to be smooth so the activity of the neighboring sources are correlated. This is the eLoreta solution.
 * Force the activity of neighboring sources to be uncorrelated using linearly constrained minimum variance (LCMV) also known as Beamforming.
+* Any other constraint on the activity of our sources...
 
 The figure below illustrates the process described above. After aligning electrodes, head model and source model, we feed that information along with some EEG data to the source reconstruction algorithm (single dipole, eLoreta, Beamforming, etc...). Based on the electrode positions, head model and source model, often, a transformation matrix is computed. This matrix indicates how a given source (described in the source model) influence the activity of individual EEG channels. Its size is source x EEG channels, and it is called the Leadfield matrix. Once we have this matrix, we can ignore the electrode position, head model and source model. The same Leadfield matrix may be used for single dipole, eLoreta, and Beamforming source reconstruction.
 
