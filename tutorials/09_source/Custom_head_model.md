@@ -24,4 +24,6 @@ We are actively developping solution to assist in 3-D scanning of electrode posi
 developped in [Fieldtrip](https://www.fieldtriptoolbox.org/tutorial/electrode/). Our goal is to provide
 automated alignment solutions to simplify the identification of electrodes in 3-D scans.
 
+![Screen Shot 2022-12-10 at 12 26 58 PM](https://user-images.githubusercontent.com/1872705/206874056-8a2e646e-aff5-4a8b-b342-292725f6ae88.png)
+
 If you have scanned electrode position and wish to use them for source localization, you may follow the [DIPFIT settings](Model_Settings.md) tutorial.
