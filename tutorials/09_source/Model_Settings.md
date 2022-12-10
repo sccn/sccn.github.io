@@ -15,7 +15,7 @@ To perform source localization, one needs
   * It may be a volumetric model (Finite Element Model) describing how the current flow in each voxel. These are in theory more precise although they take longer to compute.
 * A **source model** describing the position of the source generating these fields
   * It may be a single dipole. 
-  * It may be dipoles distributed in a 3-D grid (volumetric source model for distributed source localization such as in eLoreta)
+  * It may be dipoles distributed in a 3-D grid (volumetric source model for distributed source localization such as in eLoreta).
   * It may be dipoles distributed on a surface. For example, we may force dipoles to be on the cortical surface.
 * The position of the EEG or MEG **sensors** and a way to align them with both the head model and source model
 
