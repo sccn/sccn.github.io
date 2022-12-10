@@ -39,24 +39,20 @@ pop up the window below:
 The top edit box, *Model (click to select)*, specifies the type of head
 model -- spherical model, template boundary element model (BEM), or custom model. 
 
-**The spherical
-head model** uses four spherical surfaces (skin, skull, CSF, cortex) to
+The **template Spherical Four-Shell (BESA)** uses four spherical surfaces (skin, skull, CSF, cortex) to
 model the head. The spherical head model is kept for backward
 compatibility purposes and should not be used for
 publication. The spherical model has been tested against versions of the BESA software and shown to return similar results.
 
-**The boundary element model** is composed of three 3-D surfaces (skin,
+The **template boundary element model** is composed of three 3-D surfaces (skin,
 skull, cortex) extracted from the MNI (Montreal Neurological Institute)
-canonical template brain also used in Statistical Parametric Mapping (SPM). The BEM model is more
+canonical template brain is also used in Statistical Parametric Mapping (SPM). The BEM model is more
 realistic than the four concentric spheres model and will return more
-accurate results. The default of how the BEM model was generated are available [here](https://pubmed.ncbi.nlm.nih.gov/11222970/). Although it is was first made avaialble in DIPFIT, this standard BEM model is the same as the one in Fieldtrip when you type *ft_read_headmodel('standard_bem.mat');*. From the original [paper](https://pubmed.ncbi.nlm.nih.gov/11222970/): "This template consists of a high
-quality anatomical MRI of a single representative subject,
-with a voxel size of 1 x 1 x 1 mm, created by the McCon-
-nell Brain Imaging Centre of the Montre¬al Neurological
+accurate results. The description of how the BEM model was generated is available [here](https://pubmed.ncbi.nlm.nih.gov/11222970/). Although it was first made available in DIPFIT, this standard BEM model is the same as the one in Fieldtrip when you type *ft_read_headmodel('standard_bem.mat');*. From the original [paper](https://pubmed.ncbi.nlm.nih.gov/11222970/): "This template consists of a high-quality anatomical MRI of a single representative subject,
+with a voxel size of 1 x 1 x 1 mm, created by the McConnell Brain Imaging Centre of the Montre¬al Neurological
 Institute. It was created by registering 27 T1-weighted
 scans of the same individual in stereotaxic space, where they
-were subsampled and intensity averaged. After the genera-
-tion of this averaged MRI, an expert guided semi-automatic
+were subsampled, and intensity averaged. After the generation of this averaged MRI, an expert-guided semi-automatic
 segmentation was performed to identify the tissue type of
 each voxel. This segmentation of the averaged brain was
 used for the construction of a noiseless MRI of the brain
@@ -64,9 +60,11 @@ using an MR simulator. This noiseless MRI is used in this
 paper for visualizing the results; the segmentation of the
 original MRI was used to create the realistically shaped
 volume conduction model of the head.
-The motivation for using this speciÆc MRI was that it
+The motivation for using this specific MRI was that it
 forms the template brain of the Statistical Parametric
 Mapping package (SPM, 1999)."
+
+The **custom model and MRI files from Fieldtrip** allow users to take advantage of custom head models designed in Fieldtrip. How to create a boundary head model from a subject MRI is described [here](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/). Once you have created a model, the electrode alignment may be performed in EEGLAB, so the second part of the Fieldtrip tutorial may be skipped.
 
 For this example, select *Boundary element model*.
 Clicking on the model name updates some of the fields below the dropdown menu: 
