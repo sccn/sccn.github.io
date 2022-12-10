@@ -5,9 +5,31 @@ long_title: a. Head model settings
 parent: 9. Source analysis
 grand_parent: Tutorials
 ---
+Back to the basics
+==================
+
+To perform source localization, one needs
+* A head model describing how electrical or magnetic fields behave
+** It may be a simple model made of spheres having different conductances
+** It may be a more complex model made of geometrical 3-D mesh describing the cortex surface, skull, skin, as well as change in conductance at the interface of these surfaces.
+** It may be a volumetric model (Finite Element Model) describing how the current flow in each voxel. These are in theory more precise although they require more computation.
+* A source model describing the position of the source generating these fields
+** It may be a single dipole. 
+** It may be dipoles distributed in a 3-D grid (volumetric source model for distributed source localization such as in eLoreta)
+** It may be dipoles distributed on a surface. For example, we may force dipoles to be on the cortical surface
+* EEG or MEG sensor position and a way to align them with both the head model and source model
+
+Once we have all of that, we need an algorithm to find where sources are. Unfortunately, there is an infinite number of solution that can generate the observed activity at the surface of the scalp, so we need to impose constraints on the sources. The constraints may be:
+* Force to model the scalp activity with a single dipole. In this way, there is usually a unique optimal solution.
+* Force sources to be smooth. This is the eLoreta solution.
+* Model constructive and destructive interference between sources using linearly constrained minimum variance (LCMV) also known as Beamforming.
+
+The figure below illustrates the process described above. After aligning electrodes, head model and source model, we feed that information along with some EEG data to the source reconstruction algorithm (single dipole, eLoreta, Beamforming, etc...). Based on the electrode positions, head model and source model, often, a transformation matrix is computed. This matrix indicates how a given source (described in the source model) influence the activity of individual EEG channels. Its size is source x EEG channels, and it is called the Leadfield matrix. Once we have this matrix, we can ignore the electrode position, head model and source model. The same Leadfield matrix may be used for single dipole, eLoreta, and Beamforming source reconstruction.
+
+![Screen Shot 2022-12-10 at 11 14 18 AM](https://user-images.githubusercontent.com/1872705/206871669-af345cff-e3e8-40d6-a369-1e856ae4019d.png)
+
 Selecting a head model
 =========================
-{: .no_toc }
 
 There are several steps required for source localization. First, choosing a head model, which defines different regions of conductivities. Second, choosing a source model: The source model is the type of source you will use. This may be a single dipole, which position you optimize. This could also be 
 a distributed model, with one dipole per brain voxel, such as when using Loreta. The source model is independent of the head model. Third, you will perform inverse source localization and plot the source results.
