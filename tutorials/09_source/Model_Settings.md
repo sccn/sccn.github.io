@@ -26,7 +26,7 @@ Once we have all of that, we need an algorithm to find where sources are. Unfort
 
 The figure below illustrates the process described above. After aligning electrodes, head model and source model, we feed that information along with some EEG data to the source reconstruction algorithm (single dipole, eLoreta, Beamforming, etc...). Based on the electrode positions, head model and source model, often, a transformation matrix is computed. This matrix indicates how a given source (described in the source model) influence the activity of individual EEG channels. Its size is source x EEG channels, and it is called the Leadfield matrix. Once we have this matrix, we can ignore the electrode position, head model and source model. The same Leadfield matrix may be used for single dipole, eLoreta, and Beamforming source reconstruction.
 
-![Screen Shot 2022-12-10 at 11 23 13 AM](https://user-images.githubusercontent.com/1872705/206871954-fe71f0f8-f691-45a2-bcaf-c6304d6185ff.png)
+![Screen Shot 2022-12-10 at 11 29 37 AM](https://user-images.githubusercontent.com/1872705/206872175-f0224ffc-dc7e-49e6-b74d-e2068a589a29.png)
 
 Selecting a head model
 =========================
