@@ -49,7 +49,7 @@ publication. The spherical model has been tested against versions of the BESA so
 skull, cortex) extracted from the MNI (Montreal Neurological Institute)
 canonical template brain also used in Statistical Parametric Mapping (SPM). The BEM model is more
 realistic than the four concentric spheres model and will return more
-accurate results. The default of how the BEM model was generated are available [here](https://pubmed.ncbi.nlm.nih.gov/11222970/). Although it is was first made avaialble in DIPFIT, this standard BEM model is the same as the one in Fieldtrip when you type *ft_read_headmodel('standard_bem.mat');*. From the original paper: "This template consists of a high
+accurate results. The default of how the BEM model was generated are available [here](https://pubmed.ncbi.nlm.nih.gov/11222970/). Although it is was first made avaialble in DIPFIT, this standard BEM model is the same as the one in Fieldtrip when you type *ft_read_headmodel('standard_bem.mat');*. From the original [paper](https://pubmed.ncbi.nlm.nih.gov/11222970/): "This template consists of a high
 quality anatomical MRI of a single representative subject,
 with a voxel size of 1 x 1 x 1 mm, created by the McCon-
 nell Brain Imaging Centre of the Montre¬al Neurological
