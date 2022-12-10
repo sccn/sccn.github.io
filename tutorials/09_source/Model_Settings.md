@@ -39,7 +39,7 @@ pop up the window below:
 The top edit box, *Model (click to select)*, specifies the type of head
 model -- spherical model, template boundary element model (BEM), or custom model. 
 
-** The spherical
+**The spherical
 head model** uses four spherical surfaces (skin, skull, CSF, cortex) to
 model the head. The spherical head model is kept for backward
 compatibility purposes and should not be used for
@@ -49,7 +49,7 @@ publication. The spherical model has been tested against versions of the BESA so
 skull, cortex) extracted from the MNI (Montreal Neurological Institute)
 canonical template brain also used in Statistical Parametric Mapping (SPM). The BEM model is more
 realistic than the four concentric spheres model and will return more
-accurate results. The default of how the BEM model was generated are available [here](https://pubmed.ncbi.nlm.nih.gov/11222970/). From the original paper: "This template consists of a high
+accurate results. The default of how the BEM model was generated are available [here](https://pubmed.ncbi.nlm.nih.gov/11222970/). Although it is was first made avaialble in DIPFIT, this standard BEM model is the same as the one in Fieldtrip when you type *ft_read_headmodel('standard_bem.mat');*. From the original paper: "This template consists of a high
 quality anatomical MRI of a single representative subject,
 with a voxel size of 1 x 1 x 1 mm, created by the McCon-
 nell Brain Imaging Centre of the Montre¬al Neurological
