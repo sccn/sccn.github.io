@@ -36,7 +36,11 @@ In this tutorial, we will use the popular Henson Wakeman dataset. The dataset is
 
 ## Aligning MRI with fiducials
 
-The fiducials are automatically aligned with the MRI in this example. However, it is always 
+The fiducials are automatically aligned with the MRI in this example. However, it is always good to check the alignment. Call menu item <span style="color: brown">Tools > Source localization using DIPFIT > Create head model from MRI</span>. A windows pop up asking you to choose an MRI, and then the following GUI appears.
+
+![Screen Shot 2022-12-11 at 3 35 19 PM](https://user-images.githubusercontent.com/1872705/206935918-752f894e-fb77-4cc6-b47e-9ce499dbbafa.png)
+
+![Screen Shot 2022-12-11 at 3 37 03 PM](https://user-images.githubusercontent.com/1872705/206935920-b0f5e662-8571-40af-bba3-709eed80e306.png)
 
 ## Scripting it
 
