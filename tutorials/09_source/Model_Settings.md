@@ -67,7 +67,7 @@ model -- spherical model, template boundary element model (BEM), or custom model
 The **template Spherical Four-Shell (BESA)** uses four spherical surfaces (skin, skull, CSF, cortex) to
 model the head. The spherical head model is kept for backward
 compatibility purposes and should not be used for
-publication. The spherical model has been tested against versions of the BESA software and shown to return similar results.
+publication. The spherical model has been tested against versions of the BESA software and shown to return similar results as detailed [here](https://github.com/sccn/sccn.github.io/files/10201215/DIPFIT.vs.BESA.study.using.the.spherical.head.model.pdf).
 
 The **template boundary element model** is composed of three 3-D surfaces (skin,
 skull, cortex) extracted from the MNI (Montreal Neurological Institute)
