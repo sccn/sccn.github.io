@@ -5,7 +5,7 @@ long_title: d. Using a custom head model
 parent: 9. Source analysis
 grand_parent: Tutorials
 ---
-Better electrode location
+Better electrode locations
 ===========================
 The use of a custom head model may improve source localization. It is most important for MEG because 
 MEG can usually not adapt a custom head model to match the individual subject head geometry. By contrast with
@@ -34,8 +34,11 @@ If you have the scanned electrode positions, and also happen to have the subject
 
 In this tutorial, we will use the popular Henson Wakeman dataset. The dataset is available [here](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject which are available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip).
 
+## Aligning MRI with fiducials
 
-## Using a script
+The fiducials are automatically aligned with the MRI in this example. However, it is always 
+
+## Scripting it
 
 <button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'source_reconstruction_custom_mri.m'));">Show MATLAB command</button>
 
@@ -80,6 +83,8 @@ pop_dipplot(EEG, [], 'normlen', 'on');
 The first command creates the head model from the MRI, segmenting it using Fieldtrip functions, which itself uses SPM functions. It is important to note that it is better to use Freesurfer to segment MRI and create mesh, as it is a more precise (albeit more time consuming process). The added advantage is that various Atlases are defined which may be used with the EEGLAB [ROIconnect](https://github.com/arnodelorme/roiconnect) plugin. The [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) uses the 'bemcp' method, which is an external module to Fieldtrip to extract mesh. Again, this might not be the best solution -- the default in Fieldtrip is to the "dipoli" method although it only works on Linux and Windows. You may change these settings while calling the [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) function.
 
 The second command align EEG or MEG electrodes with the head model and MRI. This is based on aligning fiducials which are both defined for the MRI and for the sensors. The alignment is performed automatically above, but it is always a good idea to check that the alignnment is correct. You may use the *plotalignment* option of the [pop_dipfit_settings.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_settings.m) to check the alignemnt.
+
+The hard part has been done of aligning all head model and electrodes. Next, we can perform dipole search as in regular DIPFIT. It is also possible to define a source model to perform eLoreta or LCMV Beamforming as describe [here](https://eeglab.org/tutorials/09_source/EEG_sources.html).
 
 ## Other head models
 
