@@ -35,8 +35,53 @@ If you have the scanned electrode positions, and also happen to have the subject
 In this tutorial, we will use the popular Henson Wakeman dataset. The dataset is available [here](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject which are available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip).
 
 
+## Using a script
 
+<button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'source_reconstruction_custom_mri.m'));">Show MATLAB command</button>
 
+The script in this section assume that you have installed the following plugins from the EEGLAB plugin manager: File-IO, Fieldtrip, Picard, and bids-matlab-tools. We first assume you have defined the following file names for the (1) raw data, (2) associated fiducials, and (3) anatomical MRI.
+
+```matlab
+dataPath = '/System/Volumes/Data/data/practicalMEEG/Data/ds000117_run1/sub-01';
+filenameEEG = fullfile( dataPath, 'ses-meg','meg','sub-01_ses-meg_task-facerecognition_run-01_meg.fif');
+filenameFID = fullfile( dataPath, 'ses-meg','meg','sub-01_ses-meg_coordsystem.json');
+filenameMRI = fullfile( dataPath, 'ses-mri','anat','sub-01_ses-mri_acq-mprage_T1w.nii.gz');
+```
+
+The first step is to import the data. In the script below, we assume that you select EEG channels. However, you may select MEG channels as well as show in the tutorial script. Source localization will work with both EEG and MEG channel, although not simultaneously. The coordinate of the fiducials are stored in the coordsystem JSON file in this case. However, they may be included in your data file if you use another file format. 
+
+```matlab
+EEG = pop_fileio(filenameEEG); % import data
+EEG = pop_select(EEG, 'chantype', 'eeg'); % select EEG channels
+EEG = eeg_importcoordsystemfiles(EEG, filenameFID); % require the bids-matlab-tools plugin
+EEG = pop_chanedit(EEG,'nosedir','+Y'); % the nose is along +Y and needs to be set
+EEG = eeg_checkset(EEG); % check EEG consistency
+```
+
+Then let's preprocess the data to generate some ICA component which may be used for source localization. This involve resampling the data, filtering it, rereferencing it, and running ICA. Note that we have not done proper artifact rejection here. The goal is only to quickly obtain some ICA components for source localization purpose.
+
+```matlab
+% Preprocess and run ICA (so one may be localized)
+EEG = pop_resample(EEG, 100);
+EEG = pop_eegfiltnew(EEG, 1, 0);
+EEG = pop_reref(EEG, []);
+EEG = pop_runica( EEG , 'picard', 'maxiter', 500, 'pca', 20); % PCA not recommended if you have enough data
+```
+
+Finally we import the MIR and the associated file with the coordinates of the fiducials in MRI space (the file is automatically detected. Alternatively [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) will accept fiducials. If you have an MRI and have not selected the fiducials, you may use the Fieldtrip function *ft_volumerealign.m* interactive method to do so, and then provide them as input to the [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) function.
+
+```matlab
+EEG = pop_dipfit_headmodel( EEG, filenameMRI, 'plotmesh', 'scalp');
+EEG = pop_dipfit_settings( EEG, 'coord_transform', 'alignfiducials');
+EEG = pop_multifit(EEG, 1:10,'threshold', 100, 'dipplot','off'); 
+pop_dipplot(EEG, [], 'normlen', 'on');
+```
+
+The first command creates the head model from the MRI, segmenting it using Fieldtrip functions, which itself uses SPM functions. It is important to note that it is better to use Freesurfer to segment MRI and create mesh, as it is a more precise (albeit more time consuming process). The added advantage is that various Atlases are defined which may be used with the EEGLAB [ROIconnect](https://github.com/arnodelorme/roiconnect) plugin. The [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) uses the 'bemcp' method, which is an external module to Fieldtrip to extract mesh. Again, this might not be the best solution -- the default in Fieldtrip is to the "dipoli" method although it only works on Linux and Windows. You may change these settings while calling the [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) function.
+
+The second command align EEG or MEG electrodes with the head model and MRI. This is based on aligning fiducials which are both defined for the MRI and for the sensors. The alignment is performed automatically above, but it is always a good idea to check that the alignnment is correct. You may use the *plotalignment* option of the [pop_dipfit_settings.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_settings.m) to check the alignemnt.
+
+## Other head models
 
 The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and place a file containing the head model, the MRI and the fiducials (associated with the MRI) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinate transformed to match the MRI modified coordinate frame. Any data format for the electrode that may be read by the [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) function is acceptable. The Fieldtrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data.
 
