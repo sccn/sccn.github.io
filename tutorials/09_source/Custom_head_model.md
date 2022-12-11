@@ -34,13 +34,26 @@ If you have the scanned electrode positions, and also happen to have the subject
 
 In this tutorial, we will use the popular Henson Wakeman dataset. The dataset is available [here](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject which are available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip).
 
-The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and place a file containing the head model, the MRI and the fiducials (associated with the MRI) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinate transformed to match the MRI modified coordinate frame. The Fieldtrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data.
+
+
+
+
+The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and place a file containing the head model, the MRI and the fiducials (associated with the MRI) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinate transformed to match the MRI modified coordinate frame. Any data format for the electrode that may be read by the [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) function is acceptable. The Fieldtrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data.
 
 ```matlab
 EEG.dipfit.hdmfile = 'headmodel.mat';
 EEG.dipfit.mrifile = 'mrifile.mat';
 EEG.dipfit.chanfile = 'fiducials.sfp';
 EEG.dipfit.coordformat = 'MNI';
+EEG = pop_dipfit_settings(EEG); % align EEG or MEG electrodes with the newly created model
+```
+
+If you are using the EEGLAB graphic interface, you can update it using the following commands.
+
+```
+EEG.saved = 'no';
+[ALLEEG, EEG, CURRENTSET] = eeg_store(ALLEEG, EEG);
+eeglab redraw;
 ```
 
 
