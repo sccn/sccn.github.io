@@ -6,8 +6,8 @@ layout: home
 nav_exclude: true
 has_toc: true
 ---
-<!-- ![EEGLAb sum-up picture](/assets/images/tutorial_image.png)
-<a href="https://eeglab.org/workshops/EEGLAB_2022_UCSD.html" style="color:red; font-size:30px">EEGLAB San Diego (Nov 2022) workshop registration open!</a>
+![EEGLAb sum-up picture](/assets/images/tutorial_image.png)
+<!-- <a href="https://eeglab.org/workshops/EEGLAB_2022_UCSD.html" style="color:red; font-size:30px">EEGLAB San Diego (Nov 2022) workshop registration open!</a>
 -->
 
 # Welcome to the EEGLAB Wiki
