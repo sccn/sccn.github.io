@@ -32,8 +32,16 @@ Custom head model
 =================
 If you have the scanned electrode positions, and also happen to have the subjects' MRI, then you may build a custom head model. It is important to use the non-defaced MRI. Sometimes, the face of the subject will be removed from the MRI for privacy purposes. Such MRI may not be used to build a head model. The first reason is that it will not be possible to precisely select fiducials in the MRI as the nazion is often missing. The second reason is that you will not be able to extrac the surface for the face of the subject. These surfaces influence volume conduction. 
 
-In this tutorial, we will use the popular Henson Wakeman dataset. The dataset is available [here](https://zenodo.org/record/7410278). It contains a single subject (even though it looks like the file for other subjects are present, they are empty). The head model generation 
+In this tutorial, we will use the popular Henson Wakeman dataset. The dataset is available [here](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject which are available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip).
 
+The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and place a file containing the head model, the MRI and the fiducials (associated with the MRI) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinate transformed to match the MRI modified coordinate frame. The Fieldtrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data.
+
+```matlab
+EEG.dipfit.hdmfile = 'headmodel.mat';
+EEG.dipfit.mrifile = 'mrifile.mat';
+EEG.dipfit.chanfile = 'fiducials.sfp';
+EEG.dipfit.coordformat = 'MNI';
+```
 
 
 The use of a custom head model may improve source localization. It is most important for MEG because 
