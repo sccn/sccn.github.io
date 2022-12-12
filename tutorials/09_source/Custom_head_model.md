@@ -12,7 +12,7 @@ EEG, scanned electrode positions contain information about the subject's head ge
 and may be used to deform/adapt a template head model. This is not as accurate as co-registering
 the measured electrode locations to an individual MR head image - when available - but
 is more accurate than fitting template electrode positions to a template head model (Akalin Acar & Makeig, 2013).
-Building an electrical forward model for each subject based on their individual MR head image also allows inverse more accurate and meaningful source modeling to the individual convoluted cortical surface. This is not possible using a template forward model as each participant's cortical convolutions cannot be well determined by knowing their skull shape (based on measure electrode positions).
+Building an electrical forward model for each subject based on their individual MR head image also allows inverse more accurate and meaningful source modeling to the individual convoluted cortical surface. This is not possible using a template forward model as each participant's cortical convolutions cannot be well determined by knowing their skull shape (e.g., based on measured electrode positions).
 
 Even without having the participant's MR head image, having measured 3D positions of the scalp electrodes
 will significantly improve the accuracy of source localization, because we may deform the template head model to adapt to the subject head geometry.
