@@ -106,7 +106,7 @@ The hard part has been done of aligning all head model and electrodes. Next, we 
 
 ## Other head models
 
-The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and place a file containing the head model, the MRI and the fiducials (associated with the MRI) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinate transformed to match the MRI modified coordinate frame. Any data format for the electrode that may be read by the [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) function is acceptable. The Fieldtrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data.
+The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and place a file containing the head model, the MRI, and the fiducials (associated with the MRI) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinates transformed to match the MRI-modified coordinate frame. Any data format for the electrode that the [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) function may read is acceptable. The Fieldtrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data.
 
 ```matlab
 EEG.dipfit.hdmfile = 'headmodel.mat';
@@ -116,7 +116,7 @@ EEG.dipfit.coordformat = ''; % may be MNI, this field may be left blank as well
 EEG = pop_dipfit_settings(EEG, 'coord_transform', 'alignfiducials'); % align MEEG fiducials with the MRI fiducials. Use EEG = pop_dipfit_settings(EEG) to  perform manual alignment
 ```
 
-If you are using the EEGLAB graphic interface, you can update it using the following commands.
+If you are working with the EEGLAB graphic interface, you can update it using the following commands.
 
 ```
 EEG.saved = 'no';
@@ -124,20 +124,3 @@ EEG.saved = 'no';
 eeglab redraw;
 ```
 
-
-The use of a custom head model may improve source localization. It is most important for MEG because 
-MEG can usually not adapt a custom head model to match the individual subject head geometry. By contrast with
-EEG, if we have scanned electrode position, these contain information about the subject's head geometry
-and may be used to deform/adapt a template head model.
-
-Therefore one should consider first to scan EEG electrode positions. Even without the subject's MRI, this
-will greatly improve the accuracy of source localization because:
-- We may deform the template head model to adapt to the subject head geometry
-- The template electrode location (in the 10-20 system) differ greatly between manufacturers. My Fz may not be your Fz.
-- Scanning electrode position has become easy and innexpensive with modern smartphone that contains 3-D scanners
-(iPhone 13 pro, Samsung Galaxy S20 Ultra, etc...).  
-
-We are actively developping solution to assist in 3-D scanning of electrode position, and improve our 
-[get_chanlocs plugin](https://github.com/sccn/get_chanlocs/wiki), itself based on a solution 
-developped in [Fieldtrip](https://www.fieldtriptoolbox.org/tutorial/electrode/). Our goal is to provide
-automated alignment solutions to simplify the identification of electrodes in 3-D scans.
