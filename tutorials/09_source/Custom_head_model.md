@@ -39,7 +39,7 @@ In this tutorial, we will use the popular [Henson-Wakeman dataset](https://nemar
 
 ## Aligning MRI with fiducials
 
-We first import the data using menu item <span style="color:brown">*File > Import data >* Using the File-IO interface</span>, and select the *sub-01_ses-meg_task-facerecognition_run-01_meg.fif* file in the *ses-meg* folder. The fiducials are stored in the *sub-01_ses-meg_coordsystem.json*. EEGLAB will automatically detect this file and import the fiducials. When using other data formats, fiducials will usually be defined along with electrode locations. You may add the fiducials manually using menu item <span style="color:brown">*Edit > Channel locations*</span>.
+We first import the data using menu item <span style="color:brown">*File > Import data > Using the File-IO interface*</span>, and select the *sub-01_ses-meg_task-facerecognition_run-01_meg.fif* file in the *ses-meg* folder. The fiducials are stored in the *sub-01_ses-meg_coordsystem.json*. EEGLAB will automatically detect this file and import the fiducials. When using other data formats, fiducials will usually be defined along with electrode locations. You may add the fiducials manually using menu item <span style="color:brown">*Edit > Channel locations*</span>.
 
 Then we select EEG channels since this dataset contains both EEG and MEG data. Use menu item <span style="color:brown">*Edit > Select data*</span> and select all the channels whose channel labels begin with 'EEG'. 
 
