@@ -55,7 +55,7 @@ Then the MRI is segmented into the brain, skull, and scalp, and meshes are extra
 
 ![Screen Shot 2022-12-11 at 7 39 20 PM](https://user-images.githubusercontent.com/1872705/206955695-e1522efe-793e-4fcc-a3ed-4b8573db67cf.png)
 
-Once this is done, call menu item <span style="color brown">*Tools > Source localization using DIPFIT > Head model and settings*</span>. We can see that the head model, MRI, and associated coordinate landmarks are blanked out. The graphic interface also shows that we are editing a custom head model in the Fieldtrip format.
+Once this is done, call menu item <span style="color:brown">*Tools > Source localization using DIPFIT > Head model and settings*</span>. We can see that the head model, MRI, and associated coordinate landmarks are blanked out. The graphic interface also shows that we are editing a custom head model in the Fieldtrip format.
 
 ![Screen Shot 2022-12-11 at 7 43 48 PM](https://user-images.githubusercontent.com/1872705/206956553-435a3f9f-48db-4bff-b714-4fddc37aa3f6.png)
 
