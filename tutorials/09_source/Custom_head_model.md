@@ -114,7 +114,7 @@ The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and plac
 EEG.dipfit.hdmfile = 'headmodel.mat';
 EEG.dipfit.mrifile = 'mrifile.mat';
 EEG.dipfit.chanfile = 'fiducials.sfp';
-EEG.dipfit.coordformat = 'MNI';
+EEG.dipfit.coordformat = ''; % may be MNI, this field may be left blank as well
 EEG = pop_dipfit_settings(EEG, 'coord_transform', 'alignfiducials'); % align MEEG fiducials with the MRI fiducials. Use EEG = pop_dipfit_settings(EEG) to  perform manual alignment
 ```
 
