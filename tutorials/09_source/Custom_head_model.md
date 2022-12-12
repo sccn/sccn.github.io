@@ -109,7 +109,7 @@ The hard part has been done of aligning all head model and electrodes. Next, we 
 
 ## Other head models
 
-The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and place a file containing the head model, the MRI, and the fiducials (associated with the MRI) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinates transformed to match the MRI-modified coordinate frame. Any data format for the electrode that the [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) function may read is acceptable. The Fieldtrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data.
+The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and place a file containing the head model, the MRI, and the fiducials (associated with the MRI) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinates transformed to match the MRI-modified coordinate frame. Any data format for the electrode locations that the [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) function can read is acceptable. The Fieldtrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data.
 
 ```matlab
 EEG.dipfit.hdmfile = 'headmodel.mat';
@@ -119,7 +119,7 @@ EEG.dipfit.coordformat = ''; % may be MNI, this field may be left blank as well
 EEG = pop_dipfit_settings(EEG, 'coord_transform', 'alignfiducials'); % align MEEG fiducials with the MRI fiducials. Use EEG = pop_dipfit_settings(EEG) to  perform manual alignment
 ```
 
-If you are working with the EEGLAB graphic interface, you can update it using the following commands.
+To update the EEGLAB graphic user interface (menu), use the following command sequence.
 
 ```
 EEG.saved = 'no';
