@@ -25,7 +25,7 @@ We are further developing the EEGLAB function to assist in recording 3D electrod
 The [get_chanlocs plug-in](https://github.com/sccn/get_chanlocs/wiki),  based on functions
 implemented in [Fieldtrip](https://www.fieldtriptoolbox.org/tutorial/electrode/), assists the data analyst in ascertaining 3D electrode positions from a 3D scanned head image, thus relieving experiment participants of the need to sit through a long period of waiting while technicians use a magnetic or other stylus to record the electrode positions one by one, as was formerly necessary. 
 
-Although later using [get_chanlocs](https://github.com/sccn/get_chanlocs/wiki), to measure the same electrode positions (one by one) in the scanned head image, to begin the data analysis process, requires only a few minutes, and can be further reduced by saving then reusing a montage template, it should be possible to use machine vision methods to further automate this process by releasing an automated alignment function, a feature we hope to introduce during 2023.
+Although later using [get_chanlocs](https://github.com/sccn/get_chanlocs/wiki), to measure the same electrode positions (one by one) in the scanned head image, to begin the data analysis process, requires only a few minutes, and can be further reduced by first saving and thereafter reusing a montage template, it should be possible to use machine vision methods to further automate this process by releasing an automated alignment function, a feature we hope to introduce during 2023.
 
 ![Screen Shot 2022-12-10 at 12 26 58 PM](https://user-images.githubusercontent.com/1872705/206874056-8a2e646e-aff5-4a8b-b342-292725f6ae88.png)
 
