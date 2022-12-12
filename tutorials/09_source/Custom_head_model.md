@@ -11,7 +11,7 @@ The use of a custom head model can improve source localization. For
 EEG, scanned electrode positions contain information about the subject's head geometry
 and may be used to deform/adapt a template head model. This is not as accurate as co-registering
 the measured electrode locations to an individual MR head image - when available - but
-is more accurate than fitting template electrode positions to a template head model (Akalin Acar & Makeig, 2013)[https://pubmed.ncbi.nlm.nih.gov/23355112/].
+is more accurate than fitting template electrode positions to a template head model [Akalin Acar & Makeig, 2013](https://pubmed.ncbi.nlm.nih.gov/23355112/).
 Building an electrical forward model for each subject based on their individual MR head image also allows inverse more accurate and meaningful source modeling to the individual convoluted cortical surface. This is not possible using a template forward model as each participant's cortical convolutions cannot be well determined by knowing their skull shape (e.g., based on measured electrode positions).
 
 Even without having the participant's MR head image, having measured 3D positions of the scalp electrodes
@@ -87,7 +87,7 @@ EEG = pop_select(EEG, 'chantype', 'eeg'); % select EEG channels
 EEG = pop_select(EEG, 'rmchannel', { 'EEG061' 'EEG062' 'EEG063' 'EEG064' }); % remove EOG and EKG channels
 ```
 
-Then we preprocess the data to generate some ICA components which may be used for source localization. This involves resampling the data, filtering it, re-referencing it, and running ICA. Note that we have not performed proper artifact rejection here. Our tutorial goal is only to quickly obtain some ICA components to demonstrate the equivalent dipole source localization process - this subject's EEG data have sufficiently low noise to allow the ICA decomposition to find component scalp maps that truly resemble the projection of a single equivalent dipole (an oriented model dipole whose scalp projection is 'equivalent' to that of synchronous local field activity across a suitably located and oriented cortical patch). Also, to speed the tutorial process we reduce the dimension of the data to only 20 using PCA, a practice we advise against using unless the data rank is less than the number of channels (*EEG.nbchan*) (see Artoni et al., 2018)[https://pubmed.ncbi.nlm.nih.gov/29526744/].
+Then we preprocess the data to generate some ICA components which may be used for source localization. This involves resampling the data, filtering it, re-referencing it, and running ICA. Note that we have not performed proper artifact rejection here. Our tutorial goal is only to quickly obtain some ICA components to demonstrate the equivalent dipole source localization process - this subject's EEG data have sufficiently low noise to allow the ICA decomposition to find component scalp maps that truly resemble the projection of a single equivalent dipole (an oriented model dipole whose scalp projection is 'equivalent' to that of synchronous local field activity across a suitably located and oriented cortical patch). Also, to speed the tutorial process we reduce the dimension of the data to only 20 using PCA, a practice we advise against using unless the data rank is less than the number of channels (*EEG.nbchan*) [see Artoni et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29526744/).
 
 ```matlab
 % Preprocess and run ICA (so one may be localized)
