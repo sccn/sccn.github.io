@@ -44,7 +44,7 @@ The fiducials are automatically aligned with the MRI in this example. However, i
 
 ![Screen Shot 2022-12-11 at 3 35 19 PM](https://user-images.githubusercontent.com/1872705/206955411-513057c1-46e4-4f7c-ab77-c11493feedb0.png)
 
-This will first pop up the fiducials. We can see below that the fiducials are where we would expect them to be.
+This will first pop up the fiducials. We can see below that the fiducials are where we would expect them to be (the thin blue lines indicate their position).
 
 ![Screen Shot 2022-12-11 at 3 37 03 PM](https://user-images.githubusercontent.com/1872705/206935920-b0f5e662-8571-40af-bba3-709eed80e306.png)
 
