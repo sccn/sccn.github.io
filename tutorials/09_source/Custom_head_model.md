@@ -56,8 +56,9 @@ Once, this is done, call menu item <span style="color: brown">Tools > Source loc
 
 ![Screen Shot 2022-12-11 at 7 43 48 PM](https://user-images.githubusercontent.com/1872705/206956553-435a3f9f-48db-4bff-b714-4fddc37aa3f6.png)
 
-Press the Co-register button, and then in the co-registration windown, select *Align fiducials*, and press OK in the window allowing you to select the pairs of channels. Align fiducials apply a rigid transformation, which is what we want because the fiducial in the MRI and the fiducials in channel space should not need to be stretched along any dimension (they are the same). The coregistration window will show a non perfect alignment, which we can then adjust manually. The electrodes should be above the scalp. The misalignemnt are due to uncertainty associated with selecting fiducials. 
+Press the Co-register button, and then in the co-registration windown, select *Align fiducials*, and press OK in the window allowing you to select the pairs of channels. Align fiducials apply a rigid transformation, which is what we want because the fiducial in the MRI and the fiducials in channel space should not need to be stretched along any dimension (they are the same). The coregistration window will show a non perfect alignment (left), which we can then adjust manually (right) by changing scaling and offsets. The electrodes should be above the scalp. The misalignemnt are due to uncertainty associated with [selecting fiducials](https://eeglab.org/tutorials/ConceptsGuide/coordinateSystem.html#eeglab-electrode-coordinate-systems). 
 
+![Screen Shot 2022-12-11 at 11 06 22 PM](https://user-images.githubusercontent.com/1872705/206982193-92e59b82-90b9-43c5-8e7a-d551a90d66d1.png)
 
 Press OK to close the co-registration graphic interface, and then OK to close the dipole settings graphic interface. We are now ready to localize some ICA components.
 
