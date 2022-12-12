@@ -29,7 +29,7 @@ Although later using [get_chanlocs](https://github.com/sccn/get_chanlocs/wiki), 
 
 ![Screen Shot 2022-12-10 at 12 26 58 PM](https://user-images.githubusercontent.com/1872705/206874056-8a2e646e-aff5-4a8b-b342-292725f6ae88.png)
 
-If you have scanned electrode positions and wish to use them for source localization, you may follow the [DIPFIT settings](Model_Settings.md) tutorial. If you also have an MR head image for each participant, you may use EEGLAB's [Neuroelectromagnetic Forward head modeling Toolbox (NFT)](https://github.com/sccn/NFT) to create individual electrical head models that you can either import into DIPFIT or use NFT to fit either equivalent dipole or distributed cortical surface models of effective EEG sources identified in your data by independent component analysis (ICA). 
+If you have scanned electrode positions and wish to use them for source localization, you may follow the [DIPFIT settings](Model_Settings.md) tutorial. If you also have an MR head image for each participant, you may use EEGLAB's [Neuroelectromagnetic Forward head modeling Toolbox (NFT)](https://github.com/sccn/NFT) to create individual electrical head models that you can either import into DIPFIT or use NFT to fit either equivalent dipole or distributed cortical surface models of effective EEG sources identified in your data by independent component analysis (ICA). In this tutorial, however, we will use Freesurfer to build head models from MR head images.
 
 Custom head models
 =================
