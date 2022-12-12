@@ -15,8 +15,8 @@ and may be used to deform/adapt a template head model.
 Therefore one should consider first scanning EEG electrode positions. Even without the subject's MRI, this
 will significantly improve the accuracy of source localization because:
 - We may deform the template head model to adapt to the subject head geometry
-- The template electrode location (in the 10-20 system) differs greatly between manufacturers. My Fz may not be your Fz.
-- Scanning electrode position has become easy and inexpensive with a modern smartphone that contains 3-D scanners
+- The template electrode locations (in the 10-20 system) differs greatly between manufacturers. My Fz may not be your Fz. We cannot trust the template positions.
+- Scanning electrode locations has become easy and inexpensive with a modern smartphone that contains 3-D scanners
 (iPhone 13 pro, Samsung Galaxy S20 Ultra, etc...).  
 
 We are actively developing a solution to assist in 3-D scanning of electrode position and improve our 
