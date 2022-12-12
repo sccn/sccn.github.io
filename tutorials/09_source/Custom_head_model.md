@@ -16,7 +16,7 @@ Building an electrical forward model for each subject based on their individual 
 
 Even without having the participant's MR head image, having measured 3D positions of the scalp electrodes
 will significantly improve the accuracy of source localization, because we may deform the template head model to adapt to the subject head geometry.
-Template electrode locations (even for The 10-20 System) may differ greatly between manufacturers. 
+Template electrode locations (even for montages based on The International 10-20 System) may differ greatly between manufacturers. 
 But scanning the actual 3D positions (relative to head landmarks and one another) has become easy and inexpensive. 
 For this we may use modern smartphones that include 3-D scanners
 (iPhone 13 pro, Samsung Galaxy S20 Ultra, etc...), or relatively cheap 3D-camera attachments (Structure.io) to standard computer tablets.  
