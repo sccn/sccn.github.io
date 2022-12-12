@@ -5,7 +5,7 @@ long_title: d. Using a custom head model
 parent: 9. Source analysis
 grand_parent: Tutorials
 ---
-Better electrode locations
+Use scanned electrode locations
 ===========================
 The use of a custom head model may improve source localization. It is essential for MEG because 
 MEG can usually not adapt a custom head model to match the individual subject head geometry. By contrast with
