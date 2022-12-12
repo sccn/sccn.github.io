@@ -115,7 +115,7 @@ EEG.dipfit.hdmfile = 'headmodel.mat';
 EEG.dipfit.mrifile = 'mrifile.mat';
 EEG.dipfit.chanfile = 'fiducials.sfp';
 EEG.dipfit.coordformat = 'MNI';
-EEG = pop_dipfit_settings(EEG); % align EEG or MEG electrodes with the newly created model
+EEG = pop_dipfit_settings(EEG, 'coord_transform', 'alignfiducials'); % align MEEG fiducials with the MRI fiducials. Use EEG = pop_dipfit_settings(EEG) to  perform manual alignment
 ```
 
 If you are using the EEGLAB graphic interface, you can update it using the following commands.
