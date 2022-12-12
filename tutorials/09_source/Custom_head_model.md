@@ -109,7 +109,11 @@ pop_dipplot(EEG, [], 'normlen', 'on');
 
 The first command creates the head model from the MRI, segmenting it using Fieldtrip functions, which itself uses SPM functions. The second command aligns EEG or MEG electrodes with the head model and MRI. This is based on aligning fiducials which are both defined for the MRI and for the sensors. The alignment is performed automatically above, but it is always a good idea to check that the alignnment is correct. You may use the *plotalignment* option of the [pop_dipfit_settings.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_settings.m) to check the alignemnt.
 
-Now the hard part of aligning all head model and electrodes has been accomplished. Next, we perform dipole search as in regular DIPFIT by calling the [pop_multifit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_multifit.m) and plot them using the [pop_dipplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipplot.m). It is also possible to define a source model to perform eLoreta or LCMV Beamforming, as described [here](https://eeglab.org/tutorials/09_source/EEG_sources.html). A biologically plausible ICA component is shown below.
+Now the hard part of aligning all head model and electrodes has been accomplished. Next, we perform dipole search as in regular DIPFIT by calling the [pop_multifit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_multifit.m) and plot them using the [pop_dipplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipplot.m). The plot below shows one of the component equivalent dipole.
+
+![Screen Shot 2022-12-12 at 3 17 09 PM](https://user-images.githubusercontent.com/1872705/207180247-82dfc1cc-afd3-4e64-a70a-94ff67d51b49.png)
+
+It is also possible to define a source model to perform eLoreta or LCMV Beamforming, as described [here](https://eeglab.org/tutorials/09_source/EEG_sources.html). A biologically plausible ICA component is shown below.
 
 ## Other head models
 
