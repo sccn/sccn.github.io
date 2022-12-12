@@ -60,7 +60,7 @@ Press the Co-register button, and then in the co-registration windown, select *A
 
 ![Screen Shot 2022-12-11 at 11 06 22 PM](https://user-images.githubusercontent.com/1872705/206982193-92e59b82-90b9-43c5-8e7a-d551a90d66d1.png)
 
-Press OK to close the co-registration graphic interface, and then OK to close the dipole settings graphic interface. We are now ready to localize some ICA components.
+Press OK to close the co-registration graphic interface, and then OK to close the dipole settings graphic interface. We are now ready to localize some [ICA components](DIPFIT.md) or other [EEG sources](EEG_sources.md).
 
 ## Scripting it
 
