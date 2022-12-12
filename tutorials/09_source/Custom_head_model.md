@@ -84,18 +84,19 @@ EEG = pop_fileio(filenameEEG); % import data
 EEG = pop_select(EEG, 'chantype', 'eeg'); % select EEG channels
 ```
 
-Then we preprocess the data to generate some ICA components which may be used for source localization. This involves resampling the data, filtering it, re-referencing it, and running ICA. Note that we have not performed proper artifact rejection here. Our tutorial goal is only to quickly obtain some ICA components to demonstrate the equivalent dipole source localization process - this subject's EEG data have sufficiently low noise to allow the ICA decomposition to find component scalp maps that truly resemble the projection of a single equivalent dipole (an oriented model dipole whose scalp projection is 'equivalent' to that of synchronous local field activity across a suitably located and oriented cortical patch).
+Then we preprocess the data to generate some ICA components which may be used for source localization. This involves resampling the data, filtering it, re-referencing it, and running ICA. Note that we have not performed proper artifact rejection here. Our tutorial goal is only to quickly obtain some ICA components to demonstrate the equivalent dipole source localization process - this subject's EEG data have sufficiently low noise to allow the ICA decomposition to find component scalp maps that truly resemble the projection of a single equivalent dipole (an oriented model dipole whose scalp projection is 'equivalent' to that of synchronous local field activity across a suitably located and oriented cortical patch). Also, to speed the tutorial process we reduce the dimension of the data to only 20 using PCA, a practice we strongly advise against using unless the data rank is less than the number of channels (*EEG.nbchan*) (see Artoni and Makeig, 2016).
 
 ```matlab
 % Preprocess and run ICA (so one may be localized)
 EEG = pop_resample(EEG, 100);
 EEG = pop_eegfiltnew(EEG, 1, 0);
 EEG = pop_reref(EEG, []);
-% EEG = [IMPORTNAT: in practice, remove artifcatual data portions here]
-EEG = pop_runica( EEG , 'picard', 'maxiter', 500, 'pca', 20); % PCA not recommended if you have enough data
+% EEG = [IMPORTANT: In actual practice, remove any artifcatual data portions here!]
+EEG = pop_runica( EEG , 'picard', 'maxiter', 500, 'pca', 20); % NOTE: In practice, PCA dimension reduction prior to ICA decomposition 
+                                                              % is NOT recommended unless the data are redundant 
 ```
 
-Finally, we import the MRI and the associated file with the coordinates of the fiducials in MRI space (the file is automatically detected. Alternatively, [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) will accept fiducials. If you have an MRI and have not selected the fiducials, you may use the Fieldtrip function *ft_volumerealign.m* interactive method to do so, and then provide them as input to the [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) function.
+Finally, we import the MRI and the associated file with the coordinates of the fiducials in MRI space (the file is automatically detected. Alternatively, [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) will accept fiducials. If you have the subject's MR head image and have not selected the fiducials, you may use the Fieldtrip function *ft_volumerealign.m* interactive method to provide estaimtes of their positions relative to the head image, and then provide them as input to the [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) function.
 
 ```matlab
 EEG = pop_dipfit_headmodel( EEG, filenameMRI, 'plotmesh', 'scalp');
