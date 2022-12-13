@@ -22,11 +22,18 @@ EEGLAB uses the BESA electrode coordinate system for 2-D representation. This el
 
 ![Screen Shot 2022-12-12 at 6 29 33 PM](https://user-images.githubusercontent.com/1872705/207211594-73987343-0ae8-4fb6-8943-834a680c14ef.png)
 
+This is the reference frame when you use spherical coordinates for your 10-20 channel montage. The 10-10 channel coordinates from the boundary element model template also uses the same reference frame.
+
 ## 2-D representation biases
 
-When plotting 2-D scalp map, with the 
+When plotting 2-D scalp map, Fpz is situated at the outer limit of the head. This might seem biased as FPz is clearly not located in the middle of the forehead. Yet, considering the view below (from [Chatrian et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3250964/)), this keeps Cz at the vertical of the reference frame. 
 
-![Screen Shot 2022-12-12 at 6 29 33 PM](https://user-images.githubusercontent.com/1872705/207211594-73987343-0ae8-4fb6-8943-834a680c14ef.png)
+![Screen Shot 2022-12-12 at 6 35 29 PM](https://user-images.githubusercontent.com/1872705/207212648-682b42f5-04d9-421f-bc2e-a301d476cd0d.png)
+
+If you want to place the fiducials at the outer limit of the head plot. You can transform the coordinate by shifting them down by -42.54 and rotating Cz by 12.97 degrees. You can then check that coordinate X and Z are 0 for LPA and RPA, and coordinates Y and Z are 0 for the nasion. 
+
+![Screen Shot 2022-12-12 at 7 12 34 PM](https://user-images.githubusercontent.com/1872705/207217345-7d4e4656-de27-4c22-8b43-48b75d635397.png)
+
 
 
 # Fiducials
