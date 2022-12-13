@@ -24,22 +24,21 @@ EEGLAB uses the BESA electrode coordinate system for 2-D representation. This el
 
 This is the reference frame when you use spherical coordinates for your 10-20 channel montage. The 10-10 channel coordinates from the boundary element model template also uses the same reference frame.
 
-## EEGLAB other template file
-
-There is a large collection of EEGLAB template files when you look up channel. For example, below we import an EGI 128 channel file and show it is layout. It is perfectly fine to perform source localization with this file.
-
-![Screen Shot 2022-12-13 at 12 07 31 AM](https://user-images.githubusercontent.com/1872705/207260856-073113fb-cf7f-488a-8a5c-d118fccec67b.png)
-
-## 2-D representation biases
+### 2-D representation biases
 
 When plotting 2-D scalp map, Fpz is situated at the outer limit of the head. This might seem biased as FPz is clearly not located in the middle of the forehead. Yet, considering the view below (from [Chatrian et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3250964/)), this keeps Cz at the vertical of the reference frame. 
 
 ![Screen Shot 2022-12-12 at 6 35 29 PM](https://user-images.githubusercontent.com/1872705/207212648-682b42f5-04d9-421f-bc2e-a301d476cd0d.png)
 
-
-If you want to place the fiducials at the outer limit of the head plot. You can transform the coordinate by shifting them down by -42.54 and rotating Cz by 12.97 degrees. You can then check that coordinate X and Z are 0 for LPA and RPA, and coordinates Y and Z are 0 for the nasion. 
+If you want to place the fiducials at the outer limit of the head plot. You can transform the coordinate by shifting them down by -42.54 and rotating Cz by 12.97 degrees. You can then check that coordinate X and Z are 0 for LPA and RPA, and coordinates Y and Z are 0 for the nasion. In general, if you want to perform source localization, we advise that you manipulate the coordinate of the electrode in this file to achieve the desired 2-D effect rather than loading random 3-D channel locations. These files are well validated, and any transformation will not affect the coregistration with the head model (3-D EGI files which are also well validated and may safely be used).
 
 ![Screen Shot 2022-12-12 at 7 12 34 PM](https://user-images.githubusercontent.com/1872705/207217345-7d4e4656-de27-4c22-8b43-48b75d635397.png)
+
+## Other EEGLAB template files
+
+There is a large collection of EEGLAB template files when you look up channel. For example, below we import an EGI 128 channel file and show it is layout. It is perfectly fine to perform source localization with this file.
+
+![Screen Shot 2022-12-13 at 12 07 31 AM](https://user-images.githubusercontent.com/1872705/207260856-073113fb-cf7f-488a-8a5c-d118fccec67b.png)
 
 # Other 2-D layout
 
