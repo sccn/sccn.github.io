@@ -69,17 +69,12 @@ In addition, the EEGLAB default coordinate system for 2-D vizualisation is histo
 
 ![Image:preferences.png](/assets/images/coordsysXY.png)
 
-## EEGLAB-HJ coordinate system
+## Use the helix-tragus junction for fiducials
 PA points are palpable anatomical features, but they are difficult to locate in anatomical MR head images and 3-D head images. Furthermore, some experiment protocols call for using other anatomical points on the ears (e.g.,  ear canal, ear lobes, etc.) while retaining the inaccurate PA label. While consistency is key when gathering data for a study, collaborative or data mining projects are undermined when accurate labels or descriptions are not used. With photogrammetry improving the availability of electrode localization, we strongly recommend the use of the helix-tragus junction (LHJ &  RHJ) as the ear fiducials: these points are identifiable in 3-D head models as well as MR head images. 
 
 ![Image:preferences.png](/assets/images/helixTragus.PNG)
 
-A coordinate system used by [<i>get_chanlocs</i>](https://github.com/sccn/get_chanlocs/wiki), an EEGLAB plug-in for photogrammetric electrode localization using 3-D head models. The default EEGLAB coordinate system, except the aforementioned helix-tragus junction (HJ) points, is used as the ear anatomical landmarks.
-- Units in millimeter
-- The origin is exactly between the left and right ear helix-tragus junction
-- The X-axis points towards and goes through the nasion
-- The Y-axis points approximately towards the LHJ, orthogonal to the X-axis
-- The Z-axis points from inferior to superior, orthogonal to X and Y
+This is the coordinate system we recommend for [<i>get_chanlocs</i>](https://github.com/sccn/get_chanlocs/wiki), an EEGLAB plug-in for photogrammetric electrode localization using 3-D head models. The default EEGLAB coordinate system, except the aforementioned helix-tragus junction (HJ) points, is used as the ear anatomical landmarks.
 
 ## Create and optimize your own montage
 
