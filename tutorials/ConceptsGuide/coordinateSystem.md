@@ -35,9 +35,22 @@ When plotting 2-D scalp maps, Fpz is situated at the outer limit of the head. Th
 
 In general, if you want to perform source localization with 10-20 montage and do not have scanned electrode locations, we advise that you use the electrode of the BEM template EEGLAB location file (the default when you select *Look up locs* in the channel editing window. This file is well-validated.
 
-It does not mean you are stuck with the associated 2-D electrode layout, though. To achieve the desired 2-D effect, you may apply any linear transformation of the 3-D electrode coordinates. These transformations may be compensated for when coregistration them with the head model. For example, if you want to place the fiducials close to the outer limit of the head plot, you can transform the BEM template coordinates by shifting the center of the sphere down by 40 millimeters (*Opt. head center* in the channel editing window). The result is shown below. This is not an ideal layout, as electrodes near the outer head limit are more spaced than electrodes near the center. The figure below shows 81 electrodes in the original BEM coordinate system, the change in the origin of the 3-D coordinate frame, and the resulting 2-D project. 
+It does not mean you are stuck with the associated 2-D electrode layout, though. To achieve the desired 2-D effect, you may apply any linear transformation of the 3-D electrode coordinates. These transformations may be compensated for when coregistration them with the head model. For example, if you want to place the fiducials close to the outer limit of the head plot, you can transform the BEM template coordinates by shifting the center of the sphere down by 40 millimeters (*Opt. head center* in the channel editing window). The result is shown below. The figure below shows 81 electrodes in the original BEM coordinate system, the change in the origin of the 3-D coordinate frame, and the resulting 2-D project. 
 
 ![Screen Shot 2022-12-13 at 2 00 53 PM](https://user-images.githubusercontent.com/1872705/207454927-54e15856-bead-4ff3-948d-639240449b15.png)
+
+This is not an ideal layout, as electrodes near the outer head limit are more spaced than electrodes near the center. A better option is to ask EEGLAB to change the head limit (the default is 0.5). Once you make these changes, it will affect all the 2-D plots for this dataset (EEGLAB 2023.0 and later versions only). On the command line, type
+
+```matlab
+EEG.chaninfo.headrad = 0.68;
+EEG.saved = 'no';
+[ALLEEG, EEG, CURRENTSET] = eeg_store(ALLEEG, EEG);
+eeglab redraw
+```
+
+The screen captures below show a head radius of 0.4 (left), the default 0.5 value (center) and 0.68 (right).
+
+![Screen Shot 2022-12-13 at 3 09 37 PM](https://user-images.githubusercontent.com/1872705/207464956-99339d9d-e163-443d-8720-5f3add67a6c1.png)
 
 ## Other EEGLAB template files
 
