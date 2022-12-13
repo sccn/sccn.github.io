@@ -369,7 +369,7 @@ For other template channel location files, see also the following web sites and 
 
 -   [Easy-cap electrode locations](http://www.easycap.de)
 
--   [BIOSEMI channel location files](http://sccn.ucsd.edu/eeglab/download/BIOSEMI_cap_coords_all.xls)
+-   [BIOSEMI channel location files](https://sccn.ucsd.edu/eeglab/download/BIOSEMI_cap_coords_all.xls)
 
 Adjusting scanned 3-D channel locations
 ------------------------------
