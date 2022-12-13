@@ -54,7 +54,7 @@ The screen captures below show a head radius of 0.4 (left), the default 0.5 valu
 
 ## Other EEGLAB template files
 
-There is an extensive collection of EEGLAB template files when you look up electrode coordinates. For example, below, we import an EGI 128 channel file and show it the layout. It is fine to perform source localization with this file as it is impossible to use the template BEM location file (EGI channels are not defined in the 10-20 system).
+There is an extensive collection of EEGLAB template files when you look up electrode coordinates. For example, below, we import an EGI 128 channel file and show it the layout. It is fine to perform source localization with this file as it is impossible to use the template BEM location file (EGI channels are not defined in the 10-20 system). If Fieldtrip is installed, its available [electrode files](https://www.fieldtriptoolbox.org/template/electrode/) are also shown.
 
 ![Screen Shot 2022-12-13 at 12 07 31 AM](https://user-images.githubusercontent.com/1872705/207260856-073113fb-cf7f-488a-8a5c-d118fccec67b.png)
 
