@@ -66,7 +66,9 @@ Sometimes you might want to create your own montage. For example, you might want
 
 If you are adamant about using a specific electrode layout for 2-D representation, you may use do so. However, you should not use the electrode locations for source localization or 3-D plotting as they are defined for 2-D plotting only (even though EEGLAB will automatically infer 3-D coordinates for them).
 
-EEGLAB allows importing a variety of layouts. For example, below, after the tutorial dataset *eeglab_data.set*, we use the *eeglab_montage11_layout.loc* layout. To do so, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>, then click on the *Look up locs* button. Depending on the layout, you may have to adjust the plotting radius in the channel editor interface, so the entire head is visible. EEGLAB also allows importing Fieldtrip's [layouts](https://www.fieldtriptoolbox.org/template/layout/) if it is installed.
+EEGLAB allows importing a variety of layouts. For example, below, after the tutorial dataset *eeglab_data.set*, we use the *eeglab_montage11_layout.loc* layout. To do so, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>, then click on the *Look up locs* button. Depending on the layout, you may have to adjust the plotting radius in the channel editor interface, so the entire head is visible. EEGLAB also allows importing Fieldtrip's [layouts](https://www.fieldtriptoolbox.org/template/layout/) if it is installed. The figure below shows some of types of 2-D electrode layouts available.
+
+![Screen Shot 2022-12-13 at 3 16 02 PM](https://user-images.githubusercontent.com/1872705/207465671-1327aaf3-be3f-4185-81a2-6cbdef29bfe0.png)
 
 # Considerations about fiducials
 
