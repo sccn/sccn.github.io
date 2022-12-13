@@ -34,7 +34,13 @@ If you want to place the fiducials at the outer limit of the head plot. You can 
 
 ![Screen Shot 2022-12-12 at 7 12 34 PM](https://user-images.githubusercontent.com/1872705/207217345-7d4e4656-de27-4c22-8b43-48b75d635397.png)
 
+# Other 2-D layout
 
+EEGLAB allows importing a variety of layout, including all the [layouts available in Fieldtrip](https://www.fieldtriptoolbox.org/template/layout/). For example below, after the tutorial dataset *eeglab_data.set*, we use the easycapM25 layout, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>
+
+![Screen Shot 2022-12-12 at 10 36 50 PM](https://user-images.githubusercontent.com/1872705/207244616-caeab9a3-e267-4310-93b6-76089e8328a1.png)
+
+![Screen Shot 2022-12-12 at 10 37 46 PM](https://user-images.githubusercontent.com/1872705/207244636-7ab791c5-3d36-49df-b9ee-08868307e908.png)
 
 # Fiducials
 
