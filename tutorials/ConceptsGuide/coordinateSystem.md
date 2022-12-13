@@ -20,7 +20,7 @@ Typically, three fiducial or anatomical landmark points are used to define a sys
 
 EEGLAB uses the BESA electrode coordinate system for 2-D representation. This electrode system is based on a sphere that best matches the geometry of the human head. This coordinate system is shifted up compared to the coordinate system defined as nasion, left and right fiducials (LPA and RPA). It is also tilted forward so Cz is defined as the vertical. The reason for shifting the coordinate system up is that a sphere would not match well the head if it used for center the origin of the nasion, LPA, and RPA coordinate frame.
 
-![Screen Shot 2022-12-13 at 12 39 31 AM](https://user-images.githubusercontent.com/1872705/207267582-d3f2bcc5-36b0-437a-bfa3-851f6acffe3f.png)
+![Screen Shot 2022-12-13 at 12 44 11 AM](https://user-images.githubusercontent.com/1872705/207268589-53f5e8f4-9138-4273-ade5-c8d8ee8729f9.png)
 
 This is the reference frame when you use spherical coordinates for your 10-20 channel montage. The 10-10 channel coordinates from the boundary element model template also uses the same reference frame.
 
