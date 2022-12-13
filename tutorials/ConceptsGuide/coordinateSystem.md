@@ -50,9 +50,13 @@ EEGLAB allows importing a variety of layout. For example below, after the tutori
 ![Screen Shot 2022-12-13 at 12 06 17 AM](https://user-images.githubusercontent.com/1872705/207261211-d4b3408a-ef84-42b9-82b4-22bfc9677b4c.png)
 
 
-# Fiducials
+# Considerations about fiducials
 
-The left and right preauricular (LPA & RPA) points are commonly used as ear anatomical points (also known as fiducials). The default EEGLAB electrode coordinate system for datasets with anatomical landmarks labeled 'LPA' and 'RPA.' For backwards compatibility purposes, this coordinate system is used regardless of whether the points labeled 'LPA' and 'RPA' are marked according to their formal definition (points on the posterior root of the zygomatic arch, see [here](https://www.fieldtriptoolbox.org/faq/how_are_the_lpa_and_rpa_points_defined/) for more details). The exact ear anatomical landmark may be described alongside the dataset (e.g. in the AnatomicalLandmarkCoordinateSystemDescription field of *_coordsystem.json for [BIDS specification](https://bids-specification.readthedocs.io/en/stable/04-modality-specific-files/03-electroencephalography.html#coordinate-system-json-_coordsystemjson)). It is identical to the [CTF coordinate system](https://www.fieldtriptoolbox.org/faq/how_are_the_different_head_and_mri_coordinate_systems_defined/#details-of-the-ctf-coordinate-system) for MEG.
+The left and right preauricular (LPA & RPA) points are commonly used as ear anatomical points (also known as fiducials). Unfortunately they are poorly defined.
+
+The default EEGLAB electrode coordinate system for datasets with anatomical landmarks labeled 'LPA' and 'RPA.' For backwards compatibility purposes, this coordinate system is used regardless of whether the points labeled 'LPA' and 'RPA' are marked according to their formal definition (points on the posterior root of the zygomatic arch, see [here](https://www.fieldtriptoolbox.org/faq/how_are_the_lpa_and_rpa_points_defined/) for more details).
+
+The exact ear anatomical landmark may be described alongside the dataset (e.g. in the AnatomicalLandmarkCoordinateSystemDescription field of *_coordsystem.json for [BIDS specification](https://bids-specification.readthedocs.io/en/stable/04-modality-specific-files/03-electroencephalography.html#coordinate-system-json-_coordsystemjson)). It is identical to the [CTF coordinate system](https://www.fieldtriptoolbox.org/faq/how_are_the_different_head_and_mri_coordinate_systems_defined/#details-of-the-ctf-coordinate-system) for MEG.
 - Units in millimeter
 - The origin is exactly between the points labeled as 'LPA' and 'RPA'
 - The X-axis points towards and goes through the nasion
@@ -60,7 +64,6 @@ The left and right preauricular (LPA & RPA) points are commonly used as ear anat
 - The Z-axis points from inferior to superior, orthogonal to X and Y
 
 In addition, the EEGLAB default coordinate system for 2-D vizualisation is historically based on BESA electrode coordinates. These electrodes lie on a sphere that 
-
 
 ![Image:preferences.png](/assets/images/coordinatesystem_ctf.png)
 
