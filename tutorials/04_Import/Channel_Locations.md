@@ -11,7 +11,7 @@ Importing channel locations
 
 To plot EEG scalp maps in either 2-D or 3-D format, or to estimate
 source locations of data components, an EEGLAB dataset must contain
-information about the scalp locations of the recording electrodes.
+information about the scalp locations of the recording electrodes. You may also refer to the  [EEGLAB coordinate system](../ConceptsGuide/coordinateSystem.md) page for essential definitions and concepts.
 
 <details open markdown="block">
   <summary>
