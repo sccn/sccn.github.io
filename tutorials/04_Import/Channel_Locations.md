@@ -357,6 +357,8 @@ This [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) fu
 
 Note using the *Save (other type)* button of the channel editing window also allows converting between channel location file formats.
 
+### Available channel location files
+
 For other template channel location files, see also the following web sites and FTP repositories (please edit this page to add more):
 
 -   [Sample files sent to us](ftp://sccn.ucsd.edu/pub/locfiles/)
