@@ -35,19 +35,19 @@ When plotting 2-D scalp maps, Fpz is situated at the outer limit of the head. Th
 
 In general, if you want to perform source localization with 10-20 montage and do not have scanned electrode locations, we advise that you use the electrode of the BEM template EEGLAB location file (the default when you select *Look up locs* in the channel editing window. This file is well-validated.
 
-It does not mean you are stuck with the associated 2-D electrode layout, though. To achieve the desired 2-D effect, you may apply any linear transformation of the 3-D electrode coordinates. These transformations may be compensated for when coregistration them with the head model. For example, if you want to place the fiducials close to the outer limit of the head plot, you can transform the BEM template coordinates by shifting the center of the sphere down by 40 millimeters (*Opt. head center* in the channel editing window). The result is shown below. This is not an ideal layout, as electrodes near the outer head limit are more spaced than electrodes near the center.
+It does not mean you are stuck with the associated 2-D electrode layout, though. To achieve the desired 2-D effect, you may apply any linear transformation of the 3-D electrode coordinates. These transformations may be compensated for when coregistration them with the head model. For example, if you want to place the fiducials close to the outer limit of the head plot, you can transform the BEM template coordinates by shifting the center of the sphere down by 40 millimeters (*Opt. head center* in the channel editing window). The result is shown below. This is not an ideal layout, as electrodes near the outer head limit are more spaced than electrodes near the center. The figure below shows 81 electrodes in the original BEM coordinate system, the change in the origin of the 3-D coordinate frame, and the resulting 2-D project. 
 
 ![Screen Shot 2022-12-13 at 2 00 53 PM](https://user-images.githubusercontent.com/1872705/207454927-54e15856-bead-4ff3-948d-639240449b15.png)
 
 ## Other EEGLAB template files
 
-There is a large collection of EEGLAB template files when you look up channel. For example, below we import an EGI 128 channel file and show it is layout. It is perfectly fine to perform source localization with this file.
+There is an extensive collection of EEGLAB template files when you look up electrode coordinates. For example, below, we import an EGI 128 channel file and show it the layout. It is fine to perform source localization with this file as it is impossible to use the template BEM location file (EGI channels are not defined in the 10-20 system).
 
 ![Screen Shot 2022-12-13 at 12 07 31 AM](https://user-images.githubusercontent.com/1872705/207260856-073113fb-cf7f-488a-8a5c-d118fccec67b.png)
 
 # Create and optimize your own montage
 
-Sometimes you might want to create your own montage. For example, you might want to add some electrodes in specific locations, and usually cap manufacturer will acomodate you. You might also want to maximize head coverage including adding electrodes as low as possible  (see this [project](https://github.com/arnodelorme/optimize_montage)). In general, we recommend sparse coverage over one that has dense coverage at the top. The bottom electrodes capture a lot of depth information and are useful for source localization.
+Sometimes you might want to create your own montage. For example, you might want to add some electrodes in specific locations, and usually cap manufacturer will accommodate you. You might also want to maximize head coverage, including adding electrodes as low as possible  (see this [project](https://github.com/arnodelorme/optimize_montage)). We recommend maximum head coverage instead of dense coverage in the upper head region. Because of volume conduction, the bottom electrodes capture a lot of depth information and are useful for source localization.
 
 # Other 2-D layout
 
