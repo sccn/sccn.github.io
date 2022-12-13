@@ -18,7 +18,7 @@ Typically, three fiducial or anatomical landmark points are used to define a sys
 
 ## EEGLAB template files
 
-EEGLAB uses the BESA electrode coordinate system for 2-D representation. This electrode system is based on a sphere that best matches the geometry of the human head. This coordinate system is shifted up compared to the coordinate system defined as nasion, left and right fiducials (LPA and RPA). The reason for shifting the coordinate system up is that a sphere would not match well the head if it used for center the origin of the nasion, LPA, and RPA coordinate frame.
+EEGLAB uses the BESA electrode coordinate system for 2-D representation. This electrode system is based on a sphere that best matches the geometry of the human head. This coordinate system is shifted up compared to the coordinate system defined as nasion, left and right fiducials (LPA and RPA). It is also tilted so Cz is defined as the vertical. The reason for shifting the coordinate system up is that a sphere would not match well the head if it used for center the origin of the nasion, LPA, and RPA coordinate frame.
 
 ![Screen Shot 2022-12-12 at 6 29 33 PM](https://user-images.githubusercontent.com/1872705/207211594-73987343-0ae8-4fb6-8943-834a680c14ef.png)
 
@@ -28,7 +28,8 @@ This is the reference frame when you use spherical coordinates for your 10-20 ch
 
 When plotting 2-D scalp map, Fpz is situated at the outer limit of the head. This might seem biased as FPz is clearly not located in the middle of the forehead. Yet, considering the view below (from [Chatrian et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3250964/)), this keeps Cz at the vertical of the reference frame. 
 
-![Screen Shot 2022-12-12 at 6 35 29 PM](https://user-images.githubusercontent.com/1872705/207212648-682b42f5-04d9-421f-bc2e-a301d476cd0d.png)
+![Screen Shot 2022-12-13 at 12 35 26 AM](https://user-images.githubusercontent.com/1872705/207266236-00997518-dae0-407f-9d06-10b5b4d5e133.png)
+
 
 ### Building your ideal 2-D layout
 
