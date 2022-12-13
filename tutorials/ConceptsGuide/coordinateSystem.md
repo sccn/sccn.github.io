@@ -16,13 +16,19 @@ Typically, three fiducial or anatomical landmark points are used to define a sys
 - If digitized electrode locations are not recorded, we recommend importing the BEM template electrode file (default) to assign electrode locations based on 10-5 channel labels. 
 - If digitized electrode locations are imported in EEGLAB, make sure that the orientation of the coordinate system is correct, with 'LPA' on the left (+Y), 'RPA' on the right (-Y), and the nasion facing forward (+X; up). If necessary, electrodes may be rotated in the horizontal plane using the <i>Rotate Axis</i> push button of the EEGLAB channel editor (menu item <span style="color: brown">Edit → Channel locations</span>).
 
-## EEGLAB coordinate system
+## EEGLAB template files
 
 EEGLAB uses the BESA electrode coordinate system for 2-D representation. This electrode system is based on a sphere that best matches the geometry of the human head. This coordinate system is shifted up compared to the coordinate system defined as nasion, left and right fiducials (LPA and RPA). The reason for shifting the coordinate system up is that a sphere would not match well the head if it used for center the origin of the nasion, LPA, and RPA coordinate frame.
 
 ![Screen Shot 2022-12-12 at 6 29 33 PM](https://user-images.githubusercontent.com/1872705/207211594-73987343-0ae8-4fb6-8943-834a680c14ef.png)
 
 This is the reference frame when you use spherical coordinates for your 10-20 channel montage. The 10-10 channel coordinates from the boundary element model template also uses the same reference frame.
+
+## EEGLAB other template file
+
+There is a large collection of EEGLAB template files when you look up channel. For example, below we import an EGI 128 channel file and show it is layout. It is perfectly fine to perform source localization with this file.
+
+![Screen Shot 2022-12-13 at 12 07 31 AM](https://user-images.githubusercontent.com/1872705/207260856-073113fb-cf7f-488a-8a5c-d118fccec67b.png)
 
 ## 2-D representation biases
 
@@ -37,9 +43,10 @@ If you want to place the fiducials at the outer limit of the head plot. You can 
 
 # Other 2-D layout
 
-EEGLAB allows importing a variety of layout, including all the [layouts available in Fieldtrip](https://www.fieldtriptoolbox.org/template/layout/). For example below, after the tutorial dataset *eeglab_data.set*, we use the easycapM25 layout, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>. Depending on the layout, you may have to adjust the plotting radius in the channel editor interace, so the entire head is visible. These layout should not be used for source localization or 3-D plotting as they are defined for 2-D plotting only (even though EEGLAB will associate 3-D coordinates to them). 
+EEGLAB allows importing a variety of layout. For example below, after the tutorial dataset *eeglab_data.set*, we use the easycapM25 layout, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>. Depending on the layout, you may have to adjust the plotting radius in the channel editor interace, so the entire head is visible. These layout should not be used for source localization or 3-D plotting as they are defined for 2-D plotting only (even though EEGLAB will associate 3-D coordinates to them). EEGLAB also allow importing [Fieldtrip's layouts](https://www.fieldtriptoolbox.org/template/layout/) if Fieldtrip is installed.
 
-![Screen Shot 2022-12-12 at 10 43 14 PM](https://user-images.githubusercontent.com/1872705/207245455-4d3517e6-7d26-4664-ac36-6df676a91efd.png)
+![Screen Shot 2022-12-13 at 12 06 17 AM](https://user-images.githubusercontent.com/1872705/207261211-d4b3408a-ef84-42b9-82b4-22bfc9677b4c.png)
+
 
 # Fiducials
 
