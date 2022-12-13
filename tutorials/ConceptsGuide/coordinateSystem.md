@@ -9,32 +9,35 @@ nav_order: 5
 EEGLAB electrode coordinate systems
 =========
 
-EEGLAB supports electrode coordinate systems with the nose pointing towards the direction +X (the origin - loosely defined - is situated at the center of the head, and the top of the head points towards the direction +Z). Electrode coordinate formats where the nose is pointing in another direction are automatically converted, so the nose points toward +X. In terms of distance units or fiducial definition or position, EEGLAB is quite flexible. Nevertheless, for BIDS compatibility, the EEGLAB coordinate system for scanned electrodes is set to be equivalent to the CTF MEG coordinate system, with the center of the head being situated between the LPA and RPA fiducials (see below).
+EEGLAB supports electrode coordinate systems with the nose pointing towards the direction +X (the origin - loosely defined - is situated at the center of the head, and the top of the head points towards the direction +Z). Electrode coordinate formats where the nose points in another direction are automatically converted, so the nose points toward +X. In terms of distance units or fiducial definition or position, EEGLAB is quite flexible. Nevertheless, for BIDS compatibility, the EEGLAB coordinate system for scanned electrodes is equivalent to the CTF MEG coordinate system, with the center of the head being situated between the LPA and RPA fiducials (see below).
 
-Typically, three fiducial or anatomical landmark points are used to define a system. See [this FieldTrip FAQ page](https://www.fieldtriptoolbox.org/faq/how_are_the_different_head_and_mri_coordinate_systems_defined/#details-of-the-mni-coordinate-system) for details on how the origin and the axes are defined in different systems.
+Three fiducial or anatomical landmark points are typically used to define a system. See this Fieldtrip [FAQ page](https://www.fieldtriptoolbox.org/faq/how_are_the_different_head_and_mri_coordinate_systems_defined/#details-of-the-mni-coordinate-system) for details on how the origin and the axes are defined in different systems.
 
 - If digitized electrode locations are not recorded, we recommend importing the BEM template electrode file (default) to assign electrode locations based on 10-5 channel labels. 
 - If digitized electrode locations are imported in EEGLAB, make sure that the orientation of the coordinate system is correct, with 'LPA' on the left (+Y), 'RPA' on the right (-Y), and the nasion facing forward (+X; up). If necessary, electrodes may be rotated in the horizontal plane using the <i>Rotate Axis</i> push button of the EEGLAB channel editor (menu item <span style="color: brown">Edit → Channel locations</span>).
+- You may use [scanned electrode coordinates](../09_source/Channel_Locations.md) and [MRI](../09_source/Custom_head_model.md) for localizing EEG sources.
 
 ## EEGLAB template files
 
-EEGLAB uses the BESA electrode coordinate system for 2-D representation. This electrode system is based on a sphere that best matches the geometry of the human head. This coordinate system is shifted up compared to the coordinate system defined as nasion, left and right fiducials (LPA and RPA). It is also tilted forward so Cz is defined as the vertical. The reason for shifting the coordinate system up is that a sphere would not match well the head if it used for center the origin of the nasion, LPA, and RPA coordinate frame.
+EEGLAB uses two electrode montage for 2-D representation and source localization: the BESA and standard MNI BEM montages. These electrode systems are based on a sphere that best matches the geometry of the human head. This coordinate system is shifted upward compared to the coordinate system defined as nasion, left, and right fiducials (LPA and RPA). It is also tilted forward, so Cz is defined as vertical. The reason for shifting the coordinate system up is that a sphere would not match the head well -- it would not match the head well if we used a sphere centered at the origin of the nasion, LPA, and RPA coordinate frame.
 
 ![Screen Shot 2022-12-13 at 12 44 11 AM](https://user-images.githubusercontent.com/1872705/207268589-53f5e8f4-9138-4273-ade5-c8d8ee8729f9.png)
 
-This is the reference frame when you use spherical coordinates for your 10-20 channel montage. The 10-10 channel coordinates from the boundary element model template also uses the same reference frame.
+This is the reference frame when you use spherical coordinates for your 10-20 channel montage. The 10-10 channel coordinates from the boundary element model template also use the same reference frame.
 
 ### 2-D representation biases
 
-When plotting 2-D scalp map, Fpz is situated at the outer limit of the head. This might seem biased as FPz is clearly not located in the middle of the forehead. Yet, considering the view below (from [Chatrian et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3250964/)), this keeps Cz at the vertical of the reference frame. 
+When plotting 2-D scalp maps, Fpz is situated at the outer limit of the head. This might seem biased as FPz is clearly not located in the middle of the forehead in actual caps. Yet, considering the view below (from [Chatrian et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3250964/)), this keeps Cz at the vertical of the reference frame. 
 
 ![Screen Shot 2022-12-12 at 6 35 29 PM](https://user-images.githubusercontent.com/1872705/207267890-43c43a92-53c8-483a-95f1-8c9483d57310.png)
 
 ### Building your ideal 2-D layout
 
-In general, if you want to perform source localization, we advise that you manipulate the coordinate of the electrode of the BESA or BEM template EEGLAB location files to achieve the desired 2-D effect rather than loading random 3-D channel locations. These files are well validated, and any transformation will not affect the coregistration with the head model (3-D EGI files which are also well validated and may safely be used). for example, if you want to place the fiducials at the outer limit of the head plot. You can transform the coordinate by shifting them down by -42.54 and rotating Cz by 12.97 degrees. You can then check that coordinate X and Z are 0 for LPA and RPA, and coordinates Y and Z are 0 for the nasion. The result is shown below. You may also contract electrodes using transformation (click the *transform button*) such as *X=0.9*X*. We do not advocate for this layout. It is simply provided as an example. 
+In general, if you want to perform source localization with 10-20 montage and do not have scanned electrode locations, we advise that you use the electrode of the BEM template EEGLAB location file (the default when you select *Look up locs* in the channel editing window. This file is well-validated.
 
-![Screen Shot 2022-12-13 at 12 32 26 AM](https://user-images.githubusercontent.com/1872705/207265613-329d35a4-e540-47c2-b7c5-82063a16722e.png)
+It does not mean you are stuck with the associated 2-D electrode layout, though. To achieve the desired 2-D effect, you may apply any linear transformation of the 3-D electrode coordinates. These transformations may be compensated for when coregistration them with the head model. For example, if you want to place the fiducials close to the outer limit of the head plot, you can transform the BEM template coordinates by shifting the center of the sphere down by 40 millimeters (*Opt. head center* in the channel editing window). The result is shown below. This is not an ideal layout, as electrodes near the outer head limit are more spaced than electrodes near the center.
+
+![Screen Shot 2022-12-13 at 2 00 53 PM](https://user-images.githubusercontent.com/1872705/207454927-54e15856-bead-4ff3-948d-639240449b15.png)
 
 ## Other EEGLAB template files
 
