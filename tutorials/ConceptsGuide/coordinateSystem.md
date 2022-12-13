@@ -28,8 +28,7 @@ This is the reference frame when you use spherical coordinates for your 10-20 ch
 
 When plotting 2-D scalp map, Fpz is situated at the outer limit of the head. This might seem biased as FPz is clearly not located in the middle of the forehead. Yet, considering the view below (from [Chatrian et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3250964/)), this keeps Cz at the vertical of the reference frame. 
 
-![Screen Shot 2022-12-13 at 12 35 26 AM](https://user-images.githubusercontent.com/1872705/207266236-00997518-dae0-407f-9d06-10b5b4d5e133.png)
-
+![Screen Shot 2022-12-12 at 6 35 29 PM](https://user-images.githubusercontent.com/1872705/207267890-43c43a92-53c8-483a-95f1-8c9483d57310.png)
 
 ### Building your ideal 2-D layout
 
