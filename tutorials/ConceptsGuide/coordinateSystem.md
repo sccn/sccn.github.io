@@ -34,8 +34,7 @@ When plotting 2-D scalp map, Fpz is situated at the outer limit of the head. Thi
 
 In general, if you want to perform source localization, we advise that you manipulate the coordinate of the electrode of the BESA or BEM template EEGLAB location files to achieve the desired 2-D effect rather than loading random 3-D channel locations. These files are well validated, and any transformation will not affect the coregistration with the head model (3-D EGI files which are also well validated and may safely be used). for example, if you want to place the fiducials at the outer limit of the head plot. You can transform the coordinate by shifting them down by -42.54 and rotating Cz by 12.97 degrees. You can then check that coordinate X and Z are 0 for LPA and RPA, and coordinates Y and Z are 0 for the nasion. The result is shown below. You may also contract electrode using transformation (click the *transform button*) such as *X=0.9*X*.
 
-![Screen Shot 2022-12-12 at 7 12 34 PM](https://user-images.githubusercontent.com/1872705/207217345-7d4e4656-de27-4c22-8b43-48b75d635397.png)
-![Screen Shot 2022-12-12 at 7 39 34 PM](https://user-images.githubusercontent.com/1872705/207262349-ad894de2-048d-4e2e-9e58-3ea267c9a014.png)
+![Screen Shot 2022-12-13 at 12 32 26 AM](https://user-images.githubusercontent.com/1872705/207265613-329d35a4-e540-47c2-b7c5-82063a16722e.png)
 
 ## Other EEGLAB template files
 
@@ -69,9 +68,7 @@ The exact ear anatomical landmark may be described alongside the dataset (e.g. i
 
 In addition, the EEGLAB default coordinate system for 2-D vizualisation is historically based on BESA electrode coordinates. These electrodes lie on a sphere that 
 
-![Image:preferences.png](/assets/images/coordinatesystem_ctf.png)
-
-![Image:preferences.png](/assets/images/coordsysXY.png)
+![Screen Shot 2022-12-13 at 12 29 36 AM](https://user-images.githubusercontent.com/1872705/207265225-94db3e70-3dab-48db-950d-230d9cc9b93b.png)
 
 ## Use the helix-tragus junction for fiducials
 PA points are palpable anatomical features, but they are difficult to locate in anatomical MR head images and 3-D head images. Furthermore, some experiment protocols call for using other anatomical points on the ears (e.g.,  ear canal, ear lobes, etc.) while retaining the inaccurate PA label. While consistency is key when gathering data for a study, collaborative or data mining projects are undermined when accurate labels or descriptions are not used. With photogrammetry improving the availability of electrode localization, we strongly recommend the use of the helix-tragus junction (LHJ &  RHJ) as the ear fiducials: these points are identifiable in 3-D head models as well as MR head images. 
