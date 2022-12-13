@@ -30,17 +30,16 @@ When plotting 2-D scalp map, Fpz is situated at the outer limit of the head. Thi
 
 ![Screen Shot 2022-12-12 at 6 35 29 PM](https://user-images.githubusercontent.com/1872705/207212648-682b42f5-04d9-421f-bc2e-a301d476cd0d.png)
 
+
 If you want to place the fiducials at the outer limit of the head plot. You can transform the coordinate by shifting them down by -42.54 and rotating Cz by 12.97 degrees. You can then check that coordinate X and Z are 0 for LPA and RPA, and coordinates Y and Z are 0 for the nasion. 
 
 ![Screen Shot 2022-12-12 at 7 12 34 PM](https://user-images.githubusercontent.com/1872705/207217345-7d4e4656-de27-4c22-8b43-48b75d635397.png)
 
 # Other 2-D layout
 
-EEGLAB allows importing a variety of layout, including all the [layouts available in Fieldtrip](https://www.fieldtriptoolbox.org/template/layout/). For example below, after the tutorial dataset *eeglab_data.set*, we use the easycapM25 layout, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>
+EEGLAB allows importing a variety of layout, including all the [layouts available in Fieldtrip](https://www.fieldtriptoolbox.org/template/layout/). For example below, after the tutorial dataset *eeglab_data.set*, we use the easycapM25 layout, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>. Depending on the layout, you may have to adjust the plotting radius in the channel editor interace, so the entire head is visible. These layout should not be used for source localization or 3-D plotting as they are defined for 2-D plotting only (even though EEGLAB will associate 3-D coordinates to them). 
 
-![Screen Shot 2022-12-12 at 10 36 50 PM](https://user-images.githubusercontent.com/1872705/207244616-caeab9a3-e267-4310-93b6-76089e8328a1.png)
-
-![Screen Shot 2022-12-12 at 10 37 46 PM](https://user-images.githubusercontent.com/1872705/207244636-7ab791c5-3d36-49df-b9ee-08868307e908.png)
+![Screen Shot 2022-12-12 at 10 43 14 PM](https://user-images.githubusercontent.com/1872705/207245455-4d3517e6-7d26-4664-ac36-6df676a91efd.png)
 
 # Fiducials
 
