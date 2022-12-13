@@ -43,6 +43,10 @@ There is a large collection of EEGLAB template files when you look up channel. F
 
 ![Screen Shot 2022-12-13 at 12 07 31 AM](https://user-images.githubusercontent.com/1872705/207260856-073113fb-cf7f-488a-8a5c-d118fccec67b.png)
 
+# Create and optimize your own montage
+
+Sometimes you might want to create your own montage. For example, you might want to add some electrodes in specific locations, and usually cap manufacturer will acomodate you. You might also want to maximize head coverage including adding electrodes as low as possible  (see this [project](https://github.com/arnodelorme/optimize_montage)). In general, we recommend sparse coverage over one that has dense coverage at the top. The bottom electrodes capture a lot of depth information and are useful for source localization.
+
 # Other 2-D layout
 
 EEGLAB allows importing a variety of layout. For example below, after the tutorial dataset *eeglab_data.set*, we use the easycapM25 layout, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>. Depending on the layout, you may have to adjust the plotting radius in the channel editor interace, so the entire head is visible. These layout should not be used for source localization or 3-D plotting as they are defined for 2-D plotting only (even though EEGLAB will associate 3-D coordinates to them). EEGLAB also allow importing [Fieldtrip's layouts](https://www.fieldtriptoolbox.org/template/layout/) if Fieldtrip is installed.
@@ -75,8 +79,4 @@ PA points are palpable anatomical features, but they are difficult to locate in 
 ![Image:preferences.png](/assets/images/helixTragus.PNG)
 
 This is the coordinate system we recommend for [<i>get_chanlocs</i>](https://github.com/sccn/get_chanlocs/wiki), an EEGLAB plug-in for photogrammetric electrode localization using 3-D head models. The default EEGLAB coordinate system, except the aforementioned helix-tragus junction (HJ) points, is used as the ear anatomical landmarks.
-
-## Create and optimize your own montage
-
-If you wish to create your own montage, see this [project](https://github.com/arnodelorme/optimize_montage). In general, we recommend sparse coverage over one that has dense coverage at the top. The bottom electrodes capture a lot of depth information and are useful for source localization.
 
