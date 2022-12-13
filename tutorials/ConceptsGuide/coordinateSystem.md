@@ -51,30 +51,31 @@ Sometimes you might want to create your own montage. For example, you might want
 
 # Other 2-D layout
 
-EEGLAB allows importing a variety of layout. For example below, after the tutorial dataset *eeglab_data.set*, we use the easycapM25 layout, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>. Depending on the layout, you may have to adjust the plotting radius in the channel editor interace, so the entire head is visible. These layout should not be used for source localization or 3-D plotting as they are defined for 2-D plotting only (even though EEGLAB will associate 3-D coordinates to them). EEGLAB also allow importing [Fieldtrip's layouts](https://www.fieldtriptoolbox.org/template/layout/) if Fieldtrip is installed.
+If you are adamant about using a specific electrode layout for 2-D representation, you may use do so. However, you should not use the electrode locations for source localization or 3-D plotting as they are defined for 2-D plotting only (even though EEGLAB will automatically infer 3-D coordinates for them).
 
-![Screen Shot 2022-12-13 at 12 06 17 AM](https://user-images.githubusercontent.com/1872705/207261211-d4b3408a-ef84-42b9-82b4-22bfc9677b4c.png)
-
+EEGLAB allows importing a variety of layouts. For example, below, after the tutorial dataset *eeglab_data.set*, we use the *eeglab_montage11_layout.loc* layout. To do so, call the channel editor using menu item <span style="color:brown">*Edit > Channel locations*</span>, then click on the *Look up locs* button. Depending on the layout, you may have to adjust the plotting radius in the channel editor interface, so the entire head is visible. EEGLAB also allows importing Fieldtrip's [layouts](https://www.fieldtriptoolbox.org/template/layout/) if it is installed.
 
 # Considerations about fiducials
 
-The left and right preauricular (LPA & RPA) points are commonly used as ear anatomical points (also known as fiducials). Unfortunately they are poorly defined.
+The left and right preauricular (LPA & RPA) points are commonly used as ear anatomical points (also known as fiducials). Unfortunately, they are poorly defined.
 
-The default EEGLAB electrode coordinate system for datasets with anatomical landmarks labeled 'LPA' and 'RPA.' For backwards compatibility purposes, this coordinate system is used regardless of whether the points labeled 'LPA' and 'RPA' are marked according to their formal definition (points on the posterior root of the zygomatic arch, see [here](https://www.fieldtriptoolbox.org/faq/how_are_the_lpa_and_rpa_points_defined/) for more details).
+The default EEGLAB electrode coordinate system for datasets with anatomical landmarks labeled 'LPA' and 'RPA' as shown in the figure below. For backward compatibility purposes, this coordinate system is used regardless of whether the points labeled 'LPA' and 'RPA' are marked according to their formal definition (points on the posterior root of the zygomatic arch, see [here](https://www.fieldtriptoolbox.org/faq/how_are_the_lpa_and_rpa_points_defined/) for more details).
 
-The exact ear anatomical landmark may be described alongside the dataset (e.g. in the AnatomicalLandmarkCoordinateSystemDescription field of *_coordsystem.json for [BIDS specification](https://bids-specification.readthedocs.io/en/stable/04-modality-specific-files/03-electroencephalography.html#coordinate-system-json-_coordsystemjson)). It is identical to the [CTF coordinate system](https://www.fieldtriptoolbox.org/faq/how_are_the_different_head_and_mri_coordinate_systems_defined/#details-of-the-ctf-coordinate-system) for MEG.
-- Units in millimeter
+The exact ear anatomical landmark may be included with the EEG or MEG data (e.g., in the AnatomicalLandmarkCoordinateSystemDescription field of *_coordsystem.json for [BIDS specification](https://bids-specification.readthedocs.io/en/stable/04-modality-specific-files/03-electroencephalography.html#coordinate-system-json-_coordsystemjson)). It is identical to the [CTF coordinate system](https://www.fieldtriptoolbox.org/faq/how_are_the_different_head_and_mri_coordinate_systems_defined/#details-of-the-ctf-coordinate-system) for MEG.
+- Units in millimeters
 - The origin is exactly between the points labeled as 'LPA' and 'RPA'
 - The X-axis points towards and goes through the nasion
 - The Y-axis points approximately towards the 'LPA,' orthogonal to the X-axis
 - The Z-axis points from inferior to superior, orthogonal to X and Y
 
-In addition, the EEGLAB default coordinate system for 2-D vizualisation is historically based on BESA electrode coordinates. These electrodes lie on a sphere that 
+As shown below, even when properly defined, the 3 points LPA, RPA, and nasion may not represent a perfectly orthogonal reference frame. Only one plane passes through these 3 points. The Z direction is set to be orthogonal to this plane. The center of the reference frame is defined (in this plane) as the intersection of a line passing through the nasion (+X direction) and an orthogonal line whose distance is equal for LPA and RPA (we define the distance as the length of the segment for the orthogonal projection of these points on the line). 
 
 ![Screen Shot 2022-12-13 at 12 29 36 AM](https://user-images.githubusercontent.com/1872705/207265225-94db3e70-3dab-48db-950d-230d9cc9b93b.png)
 
+Eventually, the center of the reference frame defined by the LPA, RPA, and nasion fiducials is not critical. Fiducials must be defined accurately to align head montage with MRI scans, but their relative position matters little. For display purposes, it is important that electrodes be organized similarly to one of the standard 2-D layouts and that we may align them to a 3-D head model for source localization purposes. Both processes do not depend on using the reference frame defined by the LPA, RPA, and nasion fiducials.
+
 ## Use the helix-tragus junction for fiducials
-PA points are palpable anatomical features, but they are difficult to locate in anatomical MR head images and 3-D head images. Furthermore, some experiment protocols call for using other anatomical points on the ears (e.g.,  ear canal, ear lobes, etc.) while retaining the inaccurate PA label. While consistency is key when gathering data for a study, collaborative or data mining projects are undermined when accurate labels or descriptions are not used. With photogrammetry improving the availability of electrode localization, we strongly recommend the use of the helix-tragus junction (LHJ &  RHJ) as the ear fiducials: these points are identifiable in 3-D head models as well as MR head images. 
+PA points are palpable anatomical features but are challenging to locate in anatomical MR head images and 3-D EEG electrode scans. Furthermore, some experiment protocols call for using other anatomical points on the ears (e.g.,  ear canal, ear lobes, etc.) while retaining the inaccurate PA label. While consistency is critical when gathering data for a study, collaborative or data mining projects are undermined when accurate labels or descriptions are not used. With photogrammetry improving the availability of electrode localization, we strongly recommend using the helix-tragus junction (LHJ &  RHJ) as the ear fiducials: these points are identifiable in 3-D head models as well as MR head images. 
 
 ![Image:preferences.png](/assets/images/helixTragus.PNG)
 
