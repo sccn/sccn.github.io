@@ -46,7 +46,19 @@ Let's then remove non-MEG channels. We cannot select channels by type in this da
 
 ![Screen Shot 2022-12-23 at 11 52 43 AM](https://user-images.githubusercontent.com/1872705/209402624-82ab9561-a4a7-4631-8b39-da69bb81d449.png)
 
+Next, we need to assign sensor locations. To do so call menu item <span style="color: brown">Edit > Channel locations</span> then press the *Look up locs* button. Select the file *CTF275_helmet.mat* which is a layout 2-D files (these files must not be used for 3-D plotting or for source localization), and check the checkbox to import the file instead of looking up channnel locations. Looking up channel locations, would be fine except for the name of the channel which has the "-4480" postfix. To look up channel location we would first need to remove the postfix using MATLAB code on the command line, then EEGLAB would be able to recognize the channel in the layout files. But let's simply remove the missing channel from the newly imported layout file. So simply press OK to import the layout file.
 
+![Screen Shot 2022-12-23 at 12 31 38 PM](https://user-images.githubusercontent.com/1872705/209403077-a3abcf6b-104a-43fe-aecc-7b19bf7b237c.png)
+
+For some reason, the current dataset is missing channel MRT27, so we need to remove it from the layout. We also need to remove the last 2 channels, *COMNT* and *SCALE* which are no longer in the dataset. Find channel MRT27 then press the delete button. Then find the last 2 channels and press the delete button. You should be left with 274 channels which is the number of data channels. If you do not have 274 channels, EEGLAB will complain and ignore the channel location you have imported (the number of channel having data must correspond to the number of channel locations).
+
+![Screen Shot 2022-12-23 at 12 40 57 PM](https://user-images.githubusercontent.com/1872705/209403788-6ef250ea-ff64-416f-872c-5648fd6e1bd6.png)
+
+Now use menu item <span style="color: brown">Plot > Channel spectra and maps</span> to plot the spectrum. Change the frequency at which to plot spectral power to 10 Hz. You may also change the option to plot the electrodes. Press OK, and the following spectrum appears.
+
+![Screen Shot 2022-12-23 at 12 05 21 PM](https://user-images.githubusercontent.com/1872705/209403909-5cef619b-86db-481a-baad-f8a750f2bd25.png)
+
+If you want to perform source localization with this data, you would need to obtain the 3-D location from the sensor. These may be obtained from other datasets recorded with the same system (for example the [NIMH Intramural Healthy Volunteer Dataset](https://openneuro.org/datasets/ds004215/versions/1.0.1) has it; The [Mother of unification studies](https://data.donders.ru.nl/collections/di/dccn/DSC_3011020.09_236?0) dataset has them as well). Once you have imported these datasets, you may use menu item <span style="color: brown">Edit > Dataset info</span>, and for the channel locations, use the button *From other datasets*. You need to make sure however that the two datasets have the same number of data channels and the same channel labels.   
 
 For MEG source localization, you can use a custom model in DIPFIT within
 EEGLAB (there is a specific entry for MEG custom leadfield matrix as explained [here](/tutorials/09_source/DIPFIT.html#using-dipfit-to-fit-independent-meg-components)). EEGLAB is still a solution of choice if you are using
