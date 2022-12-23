@@ -42,13 +42,13 @@ It does not mean you are stuck with the associated 2-D electrode layout, though.
 This is not an ideal layout, as electrodes near the outer head limit are more spaced than electrodes near the center. A better option is to ask EEGLAB to change the head limit (the default is 0.5). Once you make these changes, it will affect all the 2-D plots for this dataset (EEGLAB 2023.0 and later versions only). On the command line, type
 
 ```matlab
-EEG.chaninfo.headrad = 0.68;
 EEG.saved = 'no';
+EEG.chaninfo.topoplot = { 'headrad' 0.68 };
 [ALLEEG, EEG, CURRENTSET] = eeg_store(ALLEEG, EEG);
 eeglab redraw
 ```
 
-The screen captures below show a head radius of 0.4 (left), the default 0.5 value (center) and 0.68 (right).
+You may actually add any The screen captures below show a head radius of 0.4 (left), the default 0.5 value (center) and 0.68 (right).
 
 ![Screen Shot 2022-12-13 at 3 09 37 PM](https://user-images.githubusercontent.com/1872705/207464956-99339d9d-e163-443d-8720-5f3add67a6c1.png)
 
