@@ -67,7 +67,8 @@ These commands change the size of the head and use a convex hull to determine th
 
 Source localization using MEG
 -----------------------------
-Unlike EEG, MEG source localization usually uses the subject anatomical MRI, and these are usually available. 
+Unlike EEG, MEG source localization usually uses the subject anatomical MRI, and these are usually available. In this tutorial, we will use the popular [Henson-Wakeman dataset](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject, available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip). The MRI overlay plots shown below are from Fieldtrip. DIPFIT is an extension of EEGLAB that leverages Fieldtrip functions for equivalent dipole source model localization. This tutorial is very similar to [the one using EEG](../Source_09/Custom_head_model.mdCustom_head_model.md) on the same data.
+
 
 
 When the anatomical MRI is not available, not all is lost. For example, this [publically available dataset](https://openneuro.org/datasets/ds004330/versions/1.0.0) does not contain MRI. What is important is to properly align the template head model with the subject head position in the MEG. This may be done with the fiducials but these are usually not sufficient. Using the fiducials, below we show alignment of the MEG sensors to the template head or to the subject's head extracted from the anatomical MRI. We can see a large difference between the two, even though the template head is stretched to match the subject's fiducial (this was not a rigid transformation). In other words, the fiducials capture the head position, but not the head geometry. If they did, we would expect the template head model to be stretched to match the subject's head.
