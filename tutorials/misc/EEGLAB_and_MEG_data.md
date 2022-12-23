@@ -67,7 +67,37 @@ These commands change the size of the head and use a convex hull to determine th
 
 Source localization using MEG
 -----------------------------
-Unlike EEG, MEG source localization usually uses the subject anatomical MRI, and these are usually available. In this tutorial, we will use the popular [Henson-Wakeman dataset](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject, available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip). The MRI overlay plots shown below are from Fieldtrip. DIPFIT is an extension of EEGLAB that leverages Fieldtrip functions for equivalent dipole source model localization. This tutorial is very similar to [the one using EEG](../Source_09/Custom_head_model.mdCustom_head_model.md) on the same data.
+Unlike EEG, MEG source localization usually uses the subject anatomical MRI, and these are usually available. In this tutorial, we will use the popular [Henson-Wakeman dataset](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject, available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip). The MRI overlay plots shown below are from Fieldtrip. DIPFIT is an extension of EEGLAB that leverages Fieldtrip functions for equivalent dipole source model localization. This tutorial is very similar to [the one using EEG](../Source_09/Custom_head_model.md) on the same data.
+
+## Aligning MRI with fiducials
+
+We first import the data using menu item <span style="color:brown">*File > Import data > Using the File-IO interface*</span>, and select the *sub-01_ses-meg_task-facerecognition_run-01_meg.fif* file in the *ses-meg* folder. The fiducials are stored in the *sub-01_ses-meg_coordsystem.json*. EEGLAB will automatically detect this file and import the fiducials. When using other data formats, fiducials will usually be defined along with electrode locations. You may add the fiducials manually using menu item <span style="color:brown">*Edit > Channel locations*</span>.
+
+Then we select MEG channels since this dataset contains both EEG and MEG data. Use menu item <span style="color:brown">Edit > Select data</span> and select all the *megplanar* channel type.
+
+![Screen Shot 2022-12-23 at 3 37 38 PM](https://user-images.githubusercontent.com/1872705/209413866-4c6d647c-26da-465c-8527-db09ffc2e4ea.png)
+
+Then call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Create a head model from an MRI</span>. A window asks you to choose an MR head image, and the following GUI appears.
+
+![Screen Shot 2022-12-11 at 3 35 19 PM](https://user-images.githubusercontent.com/1872705/206955411-513057c1-46e4-4f7c-ab77-c11493feedb0.png)
+
+This will first pop up the fiducials. The fiducials are automatically aligned with the MR head image in this example. However, it is always good to check the alignment. We can see below that the fiducials are where we would expect them to be (the thin blue lines indicate their positions).
+
+![Screen Shot 2022-12-11 at 3 37 03 PM](https://user-images.githubusercontent.com/1872705/206935920-b0f5e662-8571-40af-bba3-709eed80e306.png)
+
+Then the MRI is segmented into the brain, skull, and scalp, and meshes are extracted. It is important to note that it is better to use Freesurfer to segment MRI and create meshes, as it is a more precise (albeit more time-consuming process). The [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) uses the "bemcp" method, a module external to Fieldtrip, to extract meshes. Again, this is the most cross-platform compatible solution but might not be the best one.
+
+![Screen Shot 2022-12-11 at 7 39 20 PM](https://user-images.githubusercontent.com/1872705/206955695-e1522efe-793e-4fcc-a3ed-4b8573db67cf.png)
+
+Once this is done, call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Head model and settings</span>. We can see that the head model, MRI, and associated coordinate landmarks are blanked out. The graphic interface also shows that we are editing a custom head model in the Fieldtrip format.
+
+![Screen Shot 2022-12-11 at 7 43 48 PM](https://user-images.githubusercontent.com/1872705/206956553-435a3f9f-48db-4bff-b714-4fddc37aa3f6.png)
+
+Press the *Co-register* button, and then in the co-registration window, select *Align fiducials*, and press OK in the window, allowing you to select the pairs of channels. *Align fiducials* applies a rigid transformation, which is what we want because the fiducials in the MRI and the fiducials in channel space should not be stretched along any dimension (they are the same). The coregistration window will show a nonperfect alignment (left), which we can then adjust manually (right) by changing scaling and offsets. The electrodes should be above the scalp. The misalignment is due to uncertainty associated with [selecting fiducials](https://eeglab.org/tutorials/ConceptsGuide/coordinateSystem.html#eeglab-electrode-coordinate-systems). 
+
+![Screen Shot 2022-12-11 at 11 06 22 PM](https://user-images.githubusercontent.com/1872705/206982193-92e59b82-90b9-43c5-8e7a-d551a90d66d1.png)
+
+Press 'OK' to close the co-registration graphic interface and then 'OK' again to close the dipole settings graphic interface. We are now ready to localize some [ICA component scalp projection maps](DIPFIT.md) - or any other [EEG source projection maps](EEG_sources.md).
 
 
 
