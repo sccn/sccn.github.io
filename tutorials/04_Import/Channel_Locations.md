@@ -433,3 +433,14 @@ press the *Plot 2-D* button once more to plot the scalp map again.
 
 This section has illustrated operations you may want to perform to adapt
 measured 3-D channel locations for use in EEGLAB. You may now close the channel editing window.
+
+Adjusting plotting options
+--------------------------
+
+There are many plotting options in the [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m)) function. You may add them to the 
+structure <i>EEG.chaninfo.topoplot</i> and apply them to all the topographic plots. For example, to change the head radius, type in on the MATLAB command line (the second line saves the dataset in memory).
+
+```
+EEG.chaninfo.topoplot = { 'headrad' 0.6 };
+[ALLEEG EEG CURRENTSET] = eeg_store(ALLEEG, EEG, CURRENTSET);
+```
