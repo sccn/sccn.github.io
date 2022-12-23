@@ -44,8 +44,7 @@ This is not an ideal layout, as electrodes near the outer head limit are more sp
 ```matlab
 EEG.saved = 'no';
 EEG.chaninfo.topoplot = { 'headrad' 0.68 };
-[ALLEEG, EEG, CURRENTSET] = eeg_store(ALLEEG, EEG);
-eeglab redraw
+[ALLEEG, EEG, CURRENTSET] = eeg_store(ALLEEG, EEG); % save data in ALLEEG
 ```
 
 You may actually add any [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m)) options (for example 'electrodes', 'on' to show electrodes on all the plots). The screen captures below show a head radius of 0.4 (left), the default 0.5 value (center) and 0.68 (right).
