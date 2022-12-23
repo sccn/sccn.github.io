@@ -58,8 +58,10 @@ Now use menu item <span style="color: brown">Plot > Channel spectra and maps</sp
 
 ![Screen Shot 2022-12-23 at 12 05 21 PM](https://user-images.githubusercontent.com/1872705/209403909-5cef619b-86db-481a-baad-f8a750f2bd25.png)
 
-If you want to perform source localization with this data, you would need to obtain the 3-D location from the sensor. These may be obtained from other datasets recorded with the same system (for example the [NIMH Intramural Healthy Volunteer Dataset](https://openneuro.org/datasets/ds004215/versions/1.0.1) has it; The [Mother of unification studies](https://data.donders.ru.nl/collections/di/dccn/DSC_3011020.09_236?0) dataset has them as well). Once you have imported these datasets, you may use menu item <span style="color: brown">Edit > Dataset info</span>, and for the channel locations, use the button *From other datasets*. You need to make sure however that the two datasets have the same number of data channels and the same channel labels.   
+If you want to perform source localization with this data, you would need to obtain the 3-D location from the sensor. These may be obtained from other datasets recorded with the same system (for example the [NIMH Intramural Healthy Volunteer Dataset](https://openneuro.org/datasets/ds004215/versions/1.0.1) has it; The [Mother of unification studies](https://data.donders.ru.nl/collections/di/dccn/DSC_3011020.09_236?0) dataset has them as well). Once you have imported these datasets, you may use menu item <span style="color: brown">Edit > Dataset info</span>, and for the channel locations, use the button *From other datasets*. You need to check that the two datasets have the same number of data channels and the same channel labels.   
 
+Source localization using MEG
+-----------------------------
 For MEG source localization, you can use a custom model in DIPFIT within
 EEGLAB (there is a specific entry for MEG custom leadfield matrix as explained [here](/tutorials/09_source/DIPFIT.html#using-dipfit-to-fit-independent-meg-components)). EEGLAB is still a solution of choice if you are using
 Independent Component Analysis to extract brain sources from MEG data.
