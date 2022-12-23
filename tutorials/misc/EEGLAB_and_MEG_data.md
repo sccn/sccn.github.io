@@ -67,6 +67,18 @@ These commands change the size of the head and use a convex hull to determine th
 
 Source localization using MEG
 -----------------------------
+Unlike EEG, MEG source localization usually uses the subject anatomical MRI, and these are usually available. 
+
+
+When the anatomical MRI is not available, not all is lost. For example, this [publically available dataset](https://openneuro.org/datasets/ds004330/versions/1.0.0) does not contain MRI. What is important is to properly align the template head model with the subject head position in the MEG. This may be done with the fiducials but these are usually not sufficient. Using the fiducials, below we show alignment of the MEG sensors to the template head or to the subject's head extracted from the anatomical MRI. We can see a large difference between the two, even though the template head is stretched to match the subject's fiducial (this was not a rigid transformation). In other words, the fiducials capture the head position, but not the head geometry. If they did, we would expect the template head model to be stretched to match the subject's head.
+
+![Screen Shot 2022-12-23 at 2 26 26 PM](https://user-images.githubusercontent.com/1872705/209410775-d9e51fab-6bff-44fd-a05c-6506e3fcbd18.png)
+
+One way to fix this and use a template head model is to use the location of the EEG channels when they are avaialble. EEG channels are usually scanned in the same coordinate space as the MEG sensors, so aligning and stretching the MEG head model to match the channel coordinates should be able to fix the problem above. A *headshape.pos* file is also sometimes available along with the MEG. It contains data points lying on the head of the subject and may be used to align the MEG sensor space to the anatomical MRI. However, this file may also be used to align and stretch the EEGLAB template MEG boundary element model to match the subject's head. To use this file, create a random data array on the MATLAB command line with the same number of scanned positions *a=rand(150, 1000);* and import it as a MATLAB array. Then, call the channel editor and import the *headshape.pos* file as an *SFP* file. You can then align the scanned position with the BEM head model. Write down the homogenous transformation matrix and reuse it for the MEG model alignment.
+
+
+The main reason is that alignment of the head position with fiducials. 
+
 For MEG source localization, you can use a custom model in DIPFIT within
 EEGLAB (there is a specific entry for MEG custom leadfield matrix as explained [here](/tutorials/09_source/DIPFIT.html#using-dipfit-to-fit-independent-meg-components)). EEGLAB is still a solution of choice if you are using
 Independent Component Analysis to extract brain sources from MEG data.
@@ -78,6 +90,14 @@ does not involve ICA, a large number of MEG users directly use specialized MEG
 popular tools include Fieldtrip, Brainstorm, MEG-tools, MEGSIM, NUTMEG,
 OpenMEG, MNE suite, or Curry. Some of the links on the popular NITRC
 platform are listed shown
+
+MEG pipeline
+------------
+We have demonstrated MEG pipelines for the PracticalMEEG workshop. The code for the pipeline is available [here](https://github.com/sccn/practical_MEEG). In all of the scripts, including source localization, users can toggle between using the EEG and MEG data.
+
+Other MEG ressources
+--------------------
+MEG source localization in EEGLAB leverage Fieldtrip capabilities. Any head model designed in Fieldtrip may be used for source localization in EEGLAB. We invite you to check the other MATLAB-based MEG software tools below, which may be used along with EEGLAB from the MATLAB command line.
 
 -   <http://www.nitrc.org/projects/fieldtrip>
 -   <http://www.nitrc.org/projects/cuda_sphere_fwd>
