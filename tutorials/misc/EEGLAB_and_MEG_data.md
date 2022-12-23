@@ -38,6 +38,10 @@ Let's now plot the data spectrum. Use menu item <span style="color: brown">Plot 
 
 Importing CTF MEG data
 ----------------------
+We will use a dataset which is more challenging than the one above. Some CTF datasets have sensor locations associated with them, but this is not always the case. This is the [tutorial data](https://nemar.org/dataexplorer/detail?dataset_id=ds000246) for Brainstorm. This dataset does not have sensor locations. Let's first import it.
+
+![Screen Shot 2022-12-23 at 11 50 51 AM](https://user-images.githubusercontent.com/1872705/209401820-b78a359b-64e7-42b3-8320-82d400aaa5ef.png)
+
 
 
 
