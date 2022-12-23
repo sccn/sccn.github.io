@@ -441,6 +441,7 @@ There are many plotting options in the [topoplot.m](http://sccn.ucsd.edu/eeglab/
 structure <i>EEG.chaninfo.topoplot</i> and apply them to all the topographic plots. For example, to change the head radius, type in on the MATLAB command line (the second line saves the dataset in memory).
 
 ```
-EEG.chaninfo.topoplot = { 'headrad' 0.6 };
-[ALLEEG EEG CURRENTSET] = eeg_store(ALLEEG, EEG, CURRENTSET);
+EEG.saved = 'no';
+EEG.chaninfo.topoplot = { 'headrad' 0.68 };
+[ALLEEG, EEG, CURRENTSET] = eeg_store(ALLEEG, EEG); % save data in ALLEEG
 ```
