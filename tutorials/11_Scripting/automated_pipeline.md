@@ -24,7 +24,7 @@ You do not need to write a script to process all datasets simultaneously in a ST
 Creating a STUDY or import from BIDS
 ------------------------------------
 
-Download the data from https://openneuro.org/datasets/ds003061/ and go to this folder, then run the script in the next section.
+Download the data from [https://openneuro.org/datasets/ds003061/](https://openneuro.org/datasets/ds003061/) and go to this folder, then run the script in the next section.
 
 Alternatively, use one of the available [EEGLAB studies](../tutorial_data.html). Note that some of these studies already have their data preprocessed and may not be suitable for automated processing.
 
