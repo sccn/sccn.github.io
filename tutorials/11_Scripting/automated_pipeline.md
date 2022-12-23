@@ -181,3 +181,4 @@ Below are other EEGLAB pipelines.
 * [Danielle Gruber's pipeline](https://medium.datadriveninvestor.com/streamline-your-eeglab-experience-8803c805c5a7). Danielle Gruber is an EEGLAB user who shared her pipeline. It is long and detailed and also outdated (as of 2022). We did not spot any fundamental errors in the pipeline, though. It is a single-subject pipeline.
 * [The BIDS data script](Analyzing_EEG_BIDS_data_in_EEGLAB.html) is part of this tutorial, and it is a similar pipeline (although more complex) compared to the one presented on this page.
 * [The HAPPE pipeline](https://www.frontiersin.org/articles/10.3389/fnins.2018.00097/full). We have not evaluated this EEGLAB-based pipeline but it is a popular one.
+* [EPOC](https://osf.io/cw5qv/) This project provides scripts to easily get into a standardized EEG analysis using EEGLAB. It is published in [Frontiers in Neuroscience](https://www.frontiersin.org/articles/10.3389/fnins.2021.660449/full).
