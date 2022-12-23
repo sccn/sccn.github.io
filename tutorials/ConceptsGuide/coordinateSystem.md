@@ -48,7 +48,7 @@ EEG.chaninfo.topoplot = { 'headrad' 0.68 };
 eeglab redraw
 ```
 
-You may actually add any The screen captures below show a head radius of 0.4 (left), the default 0.5 value (center) and 0.68 (right).
+You may actually add any [topoplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=topoplot.m)) options (for example 'electrodes', 'on' to show electrodes on all the plots). The screen captures below show a head radius of 0.4 (left), the default 0.5 value (center) and 0.68 (right).
 
 ![Screen Shot 2022-12-13 at 3 09 37 PM](https://user-images.githubusercontent.com/1872705/207464956-99339d9d-e163-443d-8720-5f3add67a6c1.png)
 
