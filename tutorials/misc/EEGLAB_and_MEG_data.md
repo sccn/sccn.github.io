@@ -42,6 +42,9 @@ We will use a dataset which is more challenging than the one above. Some CTF dat
 
 ![Screen Shot 2022-12-23 at 11 50 51 AM](https://user-images.githubusercontent.com/1872705/209401820-b78a359b-64e7-42b3-8320-82d400aaa5ef.png)
 
+Let's then remove non-MEG channels. We cannot select channels by type in this datasets, so we will instead. Use menu item <span style="color: brown">Edit > Select data</span>. Click the button to browse channels and select select channels *MLC11-4408* to *MZP01-4408*. Press OK and then OK again to select these channels and remove other channels. You should be left with 274 channels.
+
+![Screen Shot 2022-12-23 at 11 52 43 AM](https://user-images.githubusercontent.com/1872705/209402624-82ab9561-a4a7-4631-8b39-da69bb81d449.png)
 
 
 
