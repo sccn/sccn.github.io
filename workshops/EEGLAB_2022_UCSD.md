@@ -2,11 +2,11 @@
 layout: default
 title: EEGLAB 2022 UCSD
 long_title: EEGLAB 2022 UCSD workshop
-parent: Workshops
-nav_order: 3
+parent: Past workshops
+grand_parent: Workshops
 ---
 
-# 2022 EEGLAB Workshop
+# 2022 EEGLAB UCSD Workshop
 
 See official [web page](https://eeglabworkshop.ucsd.edu/) for the workshop. This page will be used for presenter to upload and share their presentation and contains a copy of the program.
 
