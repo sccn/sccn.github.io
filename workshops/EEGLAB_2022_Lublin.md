@@ -2,8 +2,8 @@
 layout: default
 title: EEGLAB 2022 Lublin
 long_title: EEGLAB 2022 Lublin workshop
-parent: Workshops
-nav_order: 3
+parent: Past workshops
+grand_parent: Workshops
 ---
 
 ![250px\|thumb\|right\|upright=2.5\|Lublin](/assets/images/Lublin.jpg)
