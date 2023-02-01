@@ -182,3 +182,4 @@ Below are other EEGLAB pipelines.
 * [The BIDS data script](Analyzing_EEG_BIDS_data_in_EEGLAB.html) is part of this tutorial, and it is a similar pipeline (although more complex) compared to the one presented on this page.
 * [The HAPPE pipeline](https://www.frontiersin.org/articles/10.3389/fnins.2018.00097/full). We have not evaluated this EEGLAB-based pipeline but it is a popular one.
 * [EPOC](https://osf.io/cw5qv/) This project provides scripts to easily get into a standardized EEG analysis using EEGLAB. It is published in [Frontiers in Neuroscience](https://www.frontiersin.org/articles/10.3389/fnins.2021.660449/full).
+* [Apice preprocessing pipeline](https://github.com/neurokidslab/eeg_preprocessing) for infant data.
