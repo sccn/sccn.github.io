@@ -75,10 +75,9 @@ ALLEEG = pop_iclabel(ALLEEG, 'default');
 ALLEEG = pop_icflag( ALLEEG,[NaN NaN;0.9 1;0.9 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN]);
 
 % extract data epochs
-% this is not necessary if you have resting state data or eyes open
-% eyes closed data, you need to define the design in the STUDY
 ALLEEG = pop_epoch( ALLEEG,{'oddball_with_reponse','standard'},[-1 2] ,'epochinfo','yes');
 ALLEEG = eeg_checkset( ALLEEG );
+ALLEEG = pop_rmbase( ALLEEG,[-1000 0] ,[]);
 
 % create STUDY design
 STUDY = std_maketrialinfo(STUDY, ALLEEG);
@@ -87,16 +86,20 @@ STUDY = std_makedesign(STUDY, ALLEEG, 1, 'name','STUDY.design 1','delfiles','off
     'vartype1','categorical','subjselect', STUDY.subject);
 
 % precompute ERPs at the STUDY level
-[STUDY, ALLEEG] = std_precomp(STUDY, ALLEEG, {},'savetrials','on','rmicacomps','on','interp','on','recompute','on','spec','on');
+[STUDY, ALLEEG] = std_precomp(STUDY, ALLEEG, {},'savetrials','on','rmicacomps','on','interp','on','recompute','on','erp','on');
 
 % plot ERPS
 STUDY = pop_erpparams(STUDY, 'topotime',350);
 chanlocs = eeg_mergelocs(ALLEEG.chanlocs); % get all channels from all datasets
-STUDY = std_specplot(STUDY,ALLEEG,'channels', {chanlocs.labels}, 'design', 1);
+STUDY = std_erpplot(STUDY,ALLEEG,'channels', {chanlocs.labels}, 'design', 1);
 
 % revert default option
 pop_editoptions( 'option_storedisk', 0);
 ```
+
+A figure similar to the one below will be plotted. The figure may differ as some of the artifact and rejection steps above involve choosing data randomly. To make the pipeline reproducible, add "rng(1)" at the beginning of the script above. note that the script above only process the first two participants. Update the call to *pop_importbids()* to process all participants.
+
+![](/assets/images/p300_simple_study.png)
 
 Running an spectral pipeline
 ----------------
@@ -141,9 +144,10 @@ ALLEEG = pop_iclabel(ALLEEG, 'default');
 ALLEEG = pop_icflag( ALLEEG,[NaN NaN;0.9 1;0.9 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN]);
 
 % extract data epochs
+% this is not necessary if you have resting state data or eyes open
+% eyes closed data, you need to define the design in the STUDY
 ALLEEG = pop_epoch( ALLEEG,{'oddball_with_reponse','standard'},[-1 2] ,'epochinfo','yes');
 ALLEEG = eeg_checkset( ALLEEG );
-ALLEEG = pop_rmbase( ALLEEG,[-1000 0] ,[]);
 
 % create STUDY design
 STUDY = std_maketrialinfo(STUDY, ALLEEG);
@@ -152,20 +156,16 @@ STUDY = std_makedesign(STUDY, ALLEEG, 1, 'name','STUDY.design 1','delfiles','off
     'vartype1','categorical','subjselect', STUDY.subject);
 
 % precompute ERPs at the STUDY level
-[STUDY, ALLEEG] = std_precomp(STUDY, ALLEEG, {},'savetrials','on','rmicacomps','on','interp','on','recompute','on','erp','on');
+[STUDY, ALLEEG] = std_precomp(STUDY, ALLEEG, {},'savetrials','on','rmicacomps','on','interp','on','recompute','on','spec','on');
 
 % plot ERPS
 STUDY = pop_erpparams(STUDY, 'topotime',350);
 chanlocs = eeg_mergelocs(ALLEEG.chanlocs); % get all channels from all datasets
-STUDY = std_erpplot(STUDY,ALLEEG,'channels', {chanlocs.labels}, 'design', 1);
+STUDY = std_specplot(STUDY,ALLEEG,'channels', {chanlocs.labels}, 'design', 1);
 
 % revert default option
 pop_editoptions( 'option_storedisk', 0);
 ```
-
-A figure similar to the one below will be plotted. The figure may differ as some of the artifact and rejection steps above involve choosing data randomly. To make the pipeline reproducible, add "rng(1)" at the beginning of the script above. note that the script above only process the first two participants. Update the call to *pop_importbids()* to process all participants.
-
-![](/assets/images/p300_simple_study.png)
 
 Optimizing the pipeline for your data
 -------------------------------------
