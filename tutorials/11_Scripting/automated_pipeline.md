@@ -104,7 +104,7 @@ A figure similar to the one below will be plotted. The figure may differ as some
 Running an spectral pipeline
 ----------------
 
-The pipeline below takes the raw data from all subjects, clean the data, extracts epochs of interest, and plots the spectrum to compare conditions. It is very similar to the ERP pipeline above.
+The pipeline below takes the raw data from all subjects, clean the data, extracts epochs of interest, and plots the spectrum to compare conditions. The first part is identical to the ERP script above. The end of the script computes the spectrum. Note that if you have continuous data, you need not extract epochs. We extracted epochs in this case since we wanted to reuse the same dataset as above.
 
 ```matlab
 % check folder
@@ -159,13 +159,18 @@ STUDY = std_makedesign(STUDY, ALLEEG, 1, 'name','STUDY.design 1','delfiles','off
 [STUDY, ALLEEG] = std_precomp(STUDY, ALLEEG, {},'savetrials','on','rmicacomps','on','interp','on','recompute','on','spec','on');
 
 % plot ERPS
-STUDY = pop_erpparams(STUDY, 'topotime',350);
+STUDY = pop_specparams(STUDY, 'topofreq',10);
 chanlocs = eeg_mergelocs(ALLEEG.chanlocs); % get all channels from all datasets
-STUDY = std_specplot(STUDY,ALLEEG,'channels', {chanlocs.labels}, 'design', 1);
+STUDY = std_specplot(STUDY,ALLEEG,'channels', {chanlocs.labels}, 'design', 1, 'ylim', [40 55]););
 
 % revert default option
 pop_editoptions( 'option_storedisk', 0);
 ```
+
+A plot similar to the following one will appear. It might be slightly different as the options to remove the artifacts above have been changed.
+
+![Screen Shot 2023-02-08 at 8 44 04 PM](https://user-images.githubusercontent.com/1872705/217720016-2b5573d5-5a04-46e3-ab42-ac65e37b9f1b.png)
+
 
 Optimizing the pipeline for your data
 -------------------------------------
