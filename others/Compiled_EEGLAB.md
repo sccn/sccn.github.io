@@ -181,7 +181,7 @@ plugin_askinstall('xdfimport', 'eegplugin_xdfimport', true);
 % For clean_rawdata, remove folder manopt/reference/m2html.
 CleanRawData_folder = fileparts(which('clean_rawdata.m'));
 rmdir(fullfile(CleanRawData_folder,'manopt','reference','m2html'), 's');
-% rmdir(fullfile(CleanRawData_folder,'manopt','tests'), 's'); % not there any more?
+rmdir(fullfile(CleanRawData_folder,'manopt','tests'), 's');
 
 % Removing ICLabel files
 iclabel_folder = fileparts(which('iclabel.m'));
