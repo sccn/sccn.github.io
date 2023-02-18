@@ -89,7 +89,7 @@ Troubleshooting the compiled version of EEGLAB
 On MAC OSX, you might get a message that your operating system is too old, so you should try an older version of the compiled EEGLAB version.
 
 Starting EEGLAB usually means opening your *Application* (Mac) or *Program files* folder, opening the EEGLAB folder, and clicking on the EEGLAB application. There are some caveat though:
-- If this does not work, try running the EEGLAB as an administrator
+- If this does not work, try running EEGLAB as an administrator
 - On MAC, if clicking the App does not work, try invoking a terminal, go to the folder containing EEGLAB, and type in
 
 ```
