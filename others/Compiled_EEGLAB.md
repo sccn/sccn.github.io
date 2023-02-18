@@ -84,6 +84,21 @@ Similarity between the compiled and the MATLAB version of EEGLAB
     code).
 -   It is not possible to modify EEGLAB source code.
 
+Trouvleshooting the compiled version of EEGLAB
+-----------------------------------------------
+On MAC OSX, you might get a message that your operating system is too old, so you should try an older version of the compiled EEGLAB version.
+
+Starting EEGLAB usually means opening your *Application* (Mac) or *Program files* folder, opening the EEGLAB folder, and clicking on the EEGLAB application. There are some caveat though:
+- If this does not work, try running the EEGLAB as an administrator
+- On MAC, if clicking the App does not work, try invoking a terminal, go to the folder containing EEGLAB, and type in
+
+```
+./run_EEGLAB.sh /Applications/MATLAB_R2022b.app
+```
+
+If you call *run_EEGLAB.sh* without argument, it will tell you that you need to point to the MATLAB runtime engine. Above, we pointed to */Applications/MATLAB_R2022b.app*, but the folder might be different on your computer. Note that the runtime engine must correspond to the MATLAB version with which EEGLAB was compiled.
+
+- On MAC, the EEGLAB terminal does not show by default. Instead, it would be best if you used the solution above from the terminal. Alternatively, you click on the program named *eeglab_run_this_one_on_osx_or_linux*, which is an executable. This does not always work due to permission problems.
 
 Frequently asked questions
 --------------------------
