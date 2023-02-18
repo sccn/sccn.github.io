@@ -84,7 +84,7 @@ Similarity between the compiled and the MATLAB version of EEGLAB
     code).
 -   It is not possible to modify EEGLAB source code.
 
-Trouvleshooting the compiled version of EEGLAB
+Troubleshooting the compiled version of EEGLAB
 -----------------------------------------------
 On MAC OSX, you might get a message that your operating system is too old, so you should try an older version of the compiled EEGLAB version.
 
