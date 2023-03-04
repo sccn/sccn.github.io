@@ -66,7 +66,7 @@ ALLEEG = pop_clean_rawdata( ALLEEG,'FlatlineCriterion',5,'ChannelCriterion',0.87
 % them again after average reference - STUDY functions handle them automatically)
 ALLEEG = pop_reref( ALLEEG,[],'interpchan',[]);
 
-% run ICA reducing the dimention by 1 to account for average reference 
+% run ICA reducing the dimension by 1 to account for average reference 
 plugin_askinstall('picard', 'picard', 1); % install Picard plugin
 ALLEEG = pop_runica(ALLEEG, 'icatype','picard','concatcond','on','options',{'pca',-1});
 
@@ -135,7 +135,7 @@ ALLEEG = pop_clean_rawdata( ALLEEG,'FlatlineCriterion',5,'ChannelCriterion',0.87
 % them again after average reference - STUDY functions handle them automatically)
 ALLEEG = pop_reref( ALLEEG,[],'interpchan',[]);
 
-% run ICA reducing the dimention by 1 to account for average reference 
+% run ICA reducing the dimension by 1 to account for average reference 
 plugin_askinstall('picard', 'picard', 1); % install Picard plugin
 ALLEEG = pop_runica(ALLEEG, 'icatype','picard','concatcond','on','options',{'pca',-1});
 

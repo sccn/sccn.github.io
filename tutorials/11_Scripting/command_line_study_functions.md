@@ -263,7 +263,7 @@ See the help message of the [statcond.m](http://sccn.ucsd.edu/eeglab/locatefile.
 
 ### Saving results for processing in other software packages
 
-Saving any STUDY result for subsequent processing in SPSS, Statistica, Stata, R, SAS, and Excell can easily be done from the command line. Saving a MATLAB array into a text file is simple in MATLAB. Below are five different options. All options are equivalent. Below we are saving the data for condition 1. Some save files with tab-separated values, while others save files with comma-separated values by default. Most functions below have many options.
+Saving any STUDY result for subsequent processing in SPSS, Statistica, Stata, R, SAS, and Excel can easily be done from the command line. Saving a MATLAB array into a text file is simple in MATLAB. Below are five different options. All options are equivalent. Below we are saving the data for condition 1. Some save files with tab-separated values, while others save files with comma-separated values by default. Most functions below have many options.
 
 ``` matlab
 array = erpdata{1}; % or array = rand(100,200); 
@@ -377,7 +377,7 @@ Below is the code used for generating the measures:
 
 ### Component pre-clustering and clustering
 
-For clustering ICA components, we usualy first compute all available activity measures. 
+For clustering ICA components, we usually first compute all available activity measures. 
 To specify clustering on power spectra in
 the \[3 30\]-Hz frequency range, ERPs in the \[100 600\]-ms time window,
 dipole location information (weighted by 10), and ERSP information with

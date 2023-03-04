@@ -27,7 +27,7 @@ Below the channel locations for the same dataset above are shown.
 
 ![Screen Shot 2022-09-09 at 3 16 56 PM](https://user-images.githubusercontent.com/1872705/189453262-e942a285-b19f-455e-aad0-b38bbc62d0dd.png)
 
-Even if you are not planning to use EEGLAB to process iEEG data, importing your iEEG data into EEGLAB and resaving it into an EEGLAB dataset may be useful to process it in other softwares.
+Even if you are not planning to use EEGLAB to process iEEG data, importing your iEEG data into EEGLAB and resaving it into an EEGLAB dataset may be useful to process it in other software.
 
 Other relevant resources for processing iEEG data:
 - [Fieldtrip sEEG tutorial](https://www.fieldtriptoolbox.org/tutorial/human_ecog/)

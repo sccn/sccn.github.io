@@ -165,9 +165,9 @@ but if
     some other (easier) way, we would appreciate.
 
 
-**Answer:** It actually depends on how you reccorded your Polhemus
+**Answer:** It actually depends on how you recorded your Polhemus
 coordinates. To fix this problem, under EEGLAB, in the channel editing
-window, there is a button "tranform axes". Press this button and enter
+window, there is a button "transform axes". Press this button and enter
 "theta = 90-theta;" and that will do the trick. Note: press the "auto
 shrink" button to visualize all your electrodes. You may also manipulate
 the XYZ coordinates and reconvert them to polar.
@@ -286,7 +286,7 @@ eyeblinks, etc. In my case, there are phases during the experiment,
 where people speak and/or move their eyes. I find it quite hard to
 determine which components are related to these artifacts and I already
 wonder if it is possible et all.
-**Answer:** To determine wich components are related to these artifacts,
+**Answer:** To determine which components are related to these artifacts,
 one approach is to isolate these trials (selecting them) and then use
 menu item "Plot \> Component ERPs \> With component maps" and select the
 time window where these event appear. This function will plot which
@@ -308,7 +308,7 @@ or more). Also their spectrum does not look like the standard EEG
 
 I am currently using ica to correct for artifacts. In the
 past I've visually inspected each single-trial epoch separately,
-indentified those trials with artifact activity, and then trained ICA on
+identified those trials with artifact activity, and then trained ICA on
 each trial separately to identify and remove artifactual components. As,
 you can imagine this process is extremely time consuming. Is it
 effective to train ICA on multiple or all concatenated trials at once,
@@ -473,7 +473,7 @@ Time Frequency
 ### Timef() spectral decompositions: properties and discrepancies
 
 Is it not true that the ERP for a condition can be
-completely reconstructed from the timef() results, incuding ITC? One
+completely reconstructed from the timef() results, including ITC? One
 could write a function that takes the outputs of timef
 ('times','freqs','ersp','itc') and gives as it's output the ERP. Could
 one then usefully manipulate the values in ERSP and ITC and see how the
@@ -576,7 +576,7 @@ Is there a function for computing time-varying coherence between
 Lachaux (from Varela's Lab) has several papers investigating this issue.
 
 
-**Answer:** We also programed multitaper methods for timef(), but
+**Answer:** We also programmed multitaper methods for timef(), but
 removed them from the current more flexible versions (not available yet
 on the Internet (May 23, 2003)). Note that we usually use neither the
 FFT (0) or N-cycle wavelet methods, but a compromise (0.5) setting that

@@ -146,7 +146,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
     only possible for ERP and spectrum).
 -   There is a <b>new plug-                                                  in manager</b> (there was a new one in 2019.0
     but it yet a newer one) which automates plug-in release for improved
-    stability. This new manager also has a rating and feedback mecanism.
+    stability. This new manager also has a rating and feedback mechanism.
     The old plug-in manager will be maintained for backward
     compatibility.
 -   We have improved further the compatibility with the LIMO toolbox.

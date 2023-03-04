@@ -12,7 +12,7 @@ Importing and managing event and epoch information
 This tutorial describes importing, modifying, selecting, and visualizing EEGLAB events within the EEGLAB graphic interface.
 
 EEGLAB counts records of the time and nature of experimental events to
-analyze the EEG data. This section details how to load in events' information embeded in one of the data channels, stored in a MATLAB
+analyze the EEG data. This section details how to load in events' information embedded in one of the data channels, stored in a MATLAB
 array, or separate ASCII file. Once event information is imported, EEGLAB copies the resulting EEG.event structure to a back-up
 (*ur*) copy, EEG.urevent, and creates links from each event to the
 corresponding urevent. This allows the user to select events based on

@@ -205,7 +205,7 @@ Studying and flagging artifactual ICA components
 Learning to recognize types of independent components may require
 experience. A later section on *Automated detection of artifactual ICA components* on this page contains links to an online tutorial for learning to recognize components.
 
-The main criteria to determine if a component is 1) cognitively related 2) a muscle artifac, or 3) some other type of
+The main criteria to determine if a component is 1) cognitively related 2) a muscle artifact, or 3) some other type of
 artifacts are
 - First, the scalp map (as shown above), 
 - Next the component time course, 
@@ -453,7 +453,7 @@ window with an expanded set of component property measures, as well as
 the estimated probabilities of each component being of each type.
 IC components will be plotted along with the category they most likely belong to and the likelihood of belonging to that category. Press *Ok* when done.
 
-Note that the probability that a component belongs to a given categogy is also available on the MATLAB command line. There are six categories of components <i>Brain</i>, <i>Muscle</i>, <i>Eye</i>, <i>Heart</i>, <i>Line Noise</i>, <i>Channel Noise</i>, and <i>Other</i>. By typing the following command on the MATLAB prompt, you can see the probability for each of the first ten components (rows) to belong to one of the component categories (columns):
+Note that the probability that a component belongs to a given category is also available on the MATLAB command line. There are six categories of components <i>Brain</i>, <i>Muscle</i>, <i>Eye</i>, <i>Heart</i>, <i>Line Noise</i>, <i>Channel Noise</i>, and <i>Other</i>. By typing the following command on the MATLAB prompt, you can see the probability for each of the first ten components (rows) to belong to one of the component categories (columns):
 
 ``` matlab
 >>  round(EEG.etc.ic_classification.ICLabel.classifications(1:10,:)*100)

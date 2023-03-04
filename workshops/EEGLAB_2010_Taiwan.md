@@ -281,7 +281,7 @@ Relevant publications using ICA/EEGLAB
     dynamics](https://sccn.ucsd.edu/githubwiki/files/ticsreview_published.pdf). Trends Cogn
     Sci. 2004; May; 8(5):204-10.
 - Jung, TP, Makeig, S, Westerfield, M, Townsend, J, Courchesne, E,
-    Sejnowski, TJ. [Analysis and visualizaion of single-trial
+    Sejnowski, TJ. [Analysis and visualization of single-trial
     event-related potentials](https://sccn.ucsd.edu/githubwiki/files/jung_hbm01.pdf). Human
     Brain Mapping. 2001; 14(3), 166-185.
 - Delorme, A., Sejnowski, T., Makeig, S. [Improved rejection of

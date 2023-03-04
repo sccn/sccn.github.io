@@ -83,7 +83,7 @@ chmod 777 path2pathdef.m
 
 <!-- -->
 
--   Setup a *crontab* job to automatize the daily compilation. For this,
+-   Setup a *crontab* job to automate the daily compilation. For this,
     create a *crontab* job from the terminal, as indicated here;
 
 ``` powershell
@@ -232,7 +232,7 @@ management software.
 -   Download and install git and git manager software. In the current
     setup, [Git for Windows](https://gitforwindows.org/) has been used.
 -   Setup the EEGLAB git repository in the git bash. For this use, the
-    same code used as in the Mac and Ubuntu compliations -- but from the
+    same code used as in the Mac and Ubuntu compilations -- but from the
     Git Bash terminal.
 
 ``` powershell
@@ -245,7 +245,7 @@ git pull --recurse-submodules
 ```
 
 -   Add EEGLAB to the MATLAB path.
--   To automatize the daily compilation, the *Task Scheduler* in Windows
+-   To automate the daily compilation, the *Task Scheduler* in Windows
     is used. Follow the instructions below to create a new task.
 
 * From the *Start Menu*, open the *Task Scheduler*. if the program is

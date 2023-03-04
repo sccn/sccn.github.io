@@ -150,7 +150,7 @@ plt.plot(EEG.data[0][0]);
 plt.show()
 ```
 
-The SCIPY Python library can import EEGLAB files, when the raw data is embeded in the *.set* file.
+The SCIPY Python library can import EEGLAB files, when the raw data is embedded in the *.set* file.
 
 ``` Python
 import scipy.io as sio

@@ -174,7 +174,7 @@ across subjects, sessions, groups, and conditions (Cyril Pernet)
 
 <span style="color: saddlebrown">3:30 - 3:45 PM -- Coffee break</span>
 
-3:45 - 5:00 -- D2.A3: LIMO advanved tool theory and practicum (Cyril Pernet) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_limo_2.pdf)
+3:45 - 5:00 -- D2.A3: LIMO advanced tool theory and practicum (Cyril Pernet) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/pernet_limo_2.pdf)
 
 
 <span style="color: darkred">Track B (Vizlab) - High-resolution forward head modeling and source localization (Zeynep Akalin Acar) [Download PDF](https://sccn.ucsd.edu/githubwiki/files/nft_presentation16.pdf)</span>

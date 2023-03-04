@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tutorial data
-long_title: Tutorial data and publically available EEG data
+long_title: Tutorial data and publicly available EEG data
 parent: Tutorials
 ---
 EEG data available for public download

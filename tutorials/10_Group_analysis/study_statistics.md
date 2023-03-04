@@ -120,7 +120,7 @@ We will study statistics of scalp topographies in the 150 ms to 300 ms range. To
 
 ![image not found](/assets/images/studystats18.png)
 
-Press the *STATS* button and slect both independent variables as shown below. Select permutation statistics with no correction for multiple comparisons. Press *Ok*.
+Press the *STATS* button and select both independent variables as shown below. Select permutation statistics with no correction for multiple comparisons. Press *Ok*.
 
 ![image not found](/assets/images/studystats19.png)
 
