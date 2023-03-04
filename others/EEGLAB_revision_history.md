@@ -29,7 +29,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Bug fix**: Better EEGLAB help menus and GUI formatting.
 - **SIFT plugin**: Fix the issue with Picard ICA (SIFT was overloading the Picard function).
 - **Clean_rawdata plugin**: New option to fuse channels rejected by clean_rawdata on multiple runs of the same subject.
-- **DIPFIT plugin**: MEG source localization and custom MRI source localization (see [tutorial](https://eeglab.org/tutorials/09_source/Custom_head_model.html)
+- **DIPFIT plugin**: MEG source localization and custom MRI source localization (see [tutorial](https://eeglab.org/tutorials/09_source/Custom_head_model.html))
 
 ## EEGLAB version 2022.1
 
