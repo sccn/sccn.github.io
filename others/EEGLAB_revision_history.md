@@ -15,19 +15,20 @@ There will usually be one or two releases per year.
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
 ## EEGLAB version 2023.0
+
 - Issue date: Feb 3rd 2023; GIT tag: eeglab2023.0
 - **Version statistics**: 654 files changed, 230 commits, 11,585 additions and 3,248 deletions.
 - **Major changes**: Update a variety of functions to process MEG datasets, including source localization (see [tutorial](https://eeglab.org/tutorials/misc/EEGLAB_and_MEG_data.html)). 
 - **New feature**: Limit the number of displayed datasets to speed up display when processing more than 200 datasets.
-- **New feature**: Change all function header for better MATLAB interoperability (capitalize all function names, etc...).
+- **New feature**: Change all function headers for better MATLAB interoperability (capitalize all function names, etc...).
 - **Interoperability**: New function brainstorm2eeglab.m to import Brainstorm data epochs.
 - **Interoperability**: Improved function fieldtrip2eeglab.m to convert Fieldtrip data structures. Update to pop_fileio to import MEG metadata.
-- **Interoperability**: More command line options to import files using BIOSIG.
-- **Bug fix**: Better handling of boundary events (especially the one at the beginning and end of the data).
-- **Bug fix**: Better detection of changed dataset in the global workspace.
-- **Bug fix**: Better EEGLAB help menus and GUI formating.
-- **SIFT plugin**: Fix issue with Picard (SIFT was overloading a the Picard function).
-- **Clean_rawdata plugin**:  Fuse channels rejected by clean_rawdata on multiple runs of the same subject.
+- **Interoperability**: More command-line options to import files using BIOSIG.
+- **Bug fix**: Better handling of boundary events (especially the ones at the beginning and end of the data).
+- **Bug fix**: Better detection when a dataset is modified by the user in the global workspace.
+- **Bug fix**: Better EEGLAB help menus and GUI formatting.
+- **SIFT plugin**: Fix the issue with Picard ICA (SIFT was overloading the Picard function).
+- **Clean_rawdata plugin**: New option to fuse channels rejected by clean_rawdata on multiple runs of the same subject.
 - **DIPFIT plugin**: MEG source localization and custom MRI source localization (see [tutorial](https://eeglab.org/tutorials/09_source/Custom_head_model.html)
 
 ## EEGLAB version 2022.1
