@@ -512,7 +512,7 @@ of size (channels, (sample_points\*trials)). This format makes handling
 events from the command-line more convenient.
 
 The purpose of the *EEG.urevent* structure is to retain the full record
-of experimental events from the original continuous data, as shown inthe image below. Function [eeg_context.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_context.m) uses *urevents*
+of experimental events from the original continuous data, as shown in the image below. Function [eeg_context.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_context.m) uses *urevents*
 information to find events defined by their neighboring event context
 in the experiment (and original data).
 
@@ -916,7 +916,7 @@ The *STUDY.changrp* sub-structure is the equivalent of the the
 *STUDY.cluster* structure for data channels. There is usually as many
 element in *STUDY.changrp* as there are data channels. Each element of
 *STUDY.changrp* contains one data channels and regroup information for
-this data channel accross all subjects. For instance, after precomputing
+this data channel across all subjects. For instance, after precomputing
 channel measures, typing *STUDY.changrp(1)* may return
 
 ``` matlab

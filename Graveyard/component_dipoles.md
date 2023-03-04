@@ -13,7 +13,7 @@ The main criteria for recognizing brain-related components
 are that they have:
 
 1.  Dipole-like scalp maps,
-2.  Spectral peaks at typical EEG frequence is (i.e., 'EEG-like'
+2.  Spectral peaks at typical EEG frequency is (i.e., 'EEG-like'
     spectra) and,
 3.  Regular ERP-image plots (meaning that the component does not account
     for activity occurring in only a few trials).

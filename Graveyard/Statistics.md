@@ -130,7 +130,7 @@ also identical.
 
 Taking GLM betas, t-scores or another single subject measure to the 2nd
 level is also fine (but keep in mind that the H0 and H1 pertain to the
-single-subject statistic, so the inference might be slightly diferent).
+single-subject statistic, so the inference might be slightly different).
 So that is why the statement "you must take logs" does not always hold,
 but for testing the difference in mean power it is indeed a good idea.
 
@@ -141,7 +141,7 @@ is does not really matter too much (in general). There might be cases
 where it does, but a monotonous transformation such as the log does not
 change the inference obn the similarity or difference of the underlying
 mean-power values. Or short: if the power is different, then log-power
-is also different. And if teh power is the same, then log-power is also
+is also different. And if the power is the same, then log-power is also
 the same. The probability of making these statements however is
 different (due to the homogeneity and non-normal variance affecting the
 test sensitivity).

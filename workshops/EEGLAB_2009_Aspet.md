@@ -25,7 +25,7 @@ Workshop Program (with corresponding PDFs)
 
 16:00 -- train station shuttle pick up
 
-16:30 -- shuttle aiport pick up
+16:30 -- shuttle airport pick up
 
 <span style="color: green">
 

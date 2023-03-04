@@ -24,7 +24,7 @@ We have a funded project to run EEGLAB on the San Diego supercomputer via the Ne
 
 Deep learning and EEGLAB
 ----
-Deep learning is popular and deep learning applied to EEG data is increasing at a rapid pace. We recommend using EEGLAB to prepare data for deep learning and machine learning. EEGLAB data epochs may be concatenated either in MATLAB or Python (EEGLAB datasets may be read in Python using the *loadmat* function of the *scipy* librairy) and used as input for deep learning networks. In MATLAB, assuming multiple datasets are loaded in EEGLAB with the same number of channels and the same number of samples per epochs, type:
+Deep learning is popular and deep learning applied to EEG data is increasing at a rapid pace. We recommend using EEGLAB to prepare data for deep learning and machine learning. EEGLAB data epochs may be concatenated either in MATLAB or Python (EEGLAB datasets may be read in Python using the *loadmat* function of the *scipy* library) and used as input for deep learning networks. In MATLAB, assuming multiple datasets are loaded in EEGLAB with the same number of channels and the same number of samples per epochs, type:
 
 ```matlab
 X = cat(3, ALLEEG.data); % concatenate trials
@@ -250,7 +250,7 @@ in computer science is highly recommended.
 
 -   Reduce step: once all the workers have computed what they had to
     compute (spectral power for example), the reduce step may write it
-    back on S3 Amazon storage (and also do futher processing if
+    back on S3 Amazon storage (and also do further processing if
     necessary such as grouping back channels belonging to the same
     subject).
 

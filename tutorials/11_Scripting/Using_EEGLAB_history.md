@@ -112,8 +112,8 @@ The first two lines are comments. They are followed by 6 commands:
 - The second command loads the tutorial dataset
 - The third command saves the dataset in EEGLAB memory
 - The fourth command check the dataset consistency
-- The fith command plots the data
-- The seventh command refreshes the EEGLAB graphical interface (in case the current dataset was modified)
+- The fifth command plots the data
+- The sixth command refreshes the EEGLAB graphical interface (in case the current dataset was modified)
 
 Note: When the file was saved, an extra command, *\>\> eeglab redraw*
 was added at the end to ensure that the main graphic interface would be

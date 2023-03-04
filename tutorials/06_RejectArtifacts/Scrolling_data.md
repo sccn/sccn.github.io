@@ -157,7 +157,7 @@ must be performed 'before' separating it into data epochs. To plot the data with
 
 We only performed this rejection for illustrative purposes.
 You may restart EEGLAB or switch back to the original dataset by selecting the main window menu item
-<span style="color: brown">Datasets → Dataset 1: Continous EEG data</span>.
+<span style="color: brown">Datasets → Dataset 1: Continuous EEG data</span>.
 
 ### Strategy for rejecting bad portions of data
 

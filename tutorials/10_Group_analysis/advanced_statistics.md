@@ -13,7 +13,7 @@ Study Statistics and Visualization Options
 ============================================
 {: .no_toc }
 
-Advanced statistics are performed in LIMO (Linear Modeling of EEG data), an EEGLAB plugin, primarily developped by Cyril Pernet in collaboration with Arnaud Delorme. 
+Advanced statistics are performed in LIMO (Linear Modeling of EEG data), an EEGLAB plugin, primarily developed by Cyril Pernet in collaboration with Arnaud Delorme. 
 The [LIMO toolbox](https://limo-eeg-toolbox.github.io/limo_meeg/) allows you to use general linear modeling approaches on an arbitrarilly large 
 number of categorical and continuous variables. The EEGLAB team have recently developed a more user friendly interface for LIMO, that directly interfaces EEGLAB variables.
 The documentation about the old version of LIMO is available [here](https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki). You may also refer to the
@@ -21,8 +21,8 @@ The documentation about the old version of LIMO is available [here](https://gith
 
 Difference between optimization methods 
 - Ordinary Least Square (WLS): This is the simplest and fastest method. Same as using the MATLAB glmfit function.
-- Weighted Least Square (WLS): The default. This method attributes some weight to individual trials based their outlier likelyhood.
-- Iterated Reweighted Least Square (IRLS): The default. This method attributes some weight to individual trials based their outlier likelyhood.
+- Weighted Least Square (WLS): The default. This method attributes some weight to individual trials based their outlier likelihood.
+- Iterated Reweighted Least Square (IRLS): The default. This method attributes some weight to individual trials based their outlier likelihood.
  
 LIMO Faq.
 ------

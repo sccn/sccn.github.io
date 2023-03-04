@@ -15,7 +15,7 @@ Seventh EEGLAB Workshop
 <span style="color: red">7th EEGLAB Workshop</span>
 <span style="color: blue">Bloomington, IN
 Apr 20–22, 2009</span>
-(Preceeding the EPIC conference)
+(Preceding the EPIC conference)
 
 
 Workshop Program (with corresponding PDFs)

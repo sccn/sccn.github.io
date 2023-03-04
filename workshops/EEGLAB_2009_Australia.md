@@ -9,7 +9,7 @@ grand_parent: Workshops
 ===
 <span style="color: blue">Newcastle, Australia
 Nov 25-Nov 27, 2009</span>
-(Preceeding the [19th Australasian Psychophysiology Society
+(Preceding the [19th Australasian Psychophysiology Society
 Conference](http://www.newcastle.edu.au/conference/asp2009/))
 
 

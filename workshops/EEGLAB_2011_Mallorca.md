@@ -35,7 +35,7 @@ related) data.
 
 
 2\. Friday, Sept. 23 through noon on Sunday, Sept. 25, the first
-<b>Advanced EEGLAB Workshop</b> introduced and demonstrate dthe use of
+<b>Advanced EEGLAB Workshop</b> introduced and demonstrated the use of
 EEGLAB-linked tools for performing advanced analyses of EEG and related
 data, with detailed method expositions and practical exercises.
 

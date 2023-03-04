@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Common baseline accross ERSP condition
+Common baseline across ERSP condition
 =========
 
 When computing event-related spectral power (ERSP)

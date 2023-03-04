@@ -7,7 +7,7 @@ grand_parent: Tutorials
 categories: concepts
 
 ---
-Backgound on EEG references
+Background on EEG references
 =====
 
 Refer to the [re-referencing tutorial](/tutorials/05_Preprocess/rereferencing.html) for learning how to reference EEG data in EEGLAB.

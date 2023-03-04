@@ -18,7 +18,7 @@ features in what is currently best in the industry.
 <table>
 <th></th>
 <th>EEGLAB</th>
-<th>Leading EEG commercial softwares</th>
+<th>Leading EEG commercial software</th>
 <tbody>
 <tr>
 	<td>Binary file import</td>
@@ -62,7 +62,7 @@ features in what is currently best in the industry.
 </tr>
 <tr>
 	<td>Preparation of figures for publication</td>
-	<td style="background-color:lightgreen">EEGLAB and MATLAB allow creation of complex figures with panels. Most of EEGLAB functions are compatible with panels so users may use EEGLAB function to generate their own paneled results. Formating details of figures may be edited directly under MATLAB from the command line or from the MATLAB GUI. Even complex figures containing bitmaps may be saved as postscript files for further detailed editing. MATLAB also allow saving figures and movies in about 10 different formats.</td>
+	<td style="background-color:lightgreen">EEGLAB and MATLAB allow creation of complex figures with panels. Most of EEGLAB functions are compatible with panels so users may use EEGLAB function to generate their own paneled results. Formatting details of figures may be edited directly under MATLAB from the command line or from the MATLAB GUI. Even complex figures containing bitmaps may be saved as postscript files for further detailed editing. MATLAB also allow saving figures and movies in about 10 different formats.</td>
 	<td style="background-color:#FFAAAA">Figures may only be saved using a few formats. Capabilities to build complex figures from within the software is absent.</td>
 </tr>
 <tr>

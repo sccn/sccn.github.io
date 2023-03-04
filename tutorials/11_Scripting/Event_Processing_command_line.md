@@ -46,7 +46,7 @@ EEG = pop_loadset( 'eeglab_data.set', fullfile(eeglab_path, 'sample_data')); % l
 ```
 
 A
-simple script below shift event latencies by 10 samples. Such manipulation are sometimes necessary because of delays introducted by the amplifier or computer collecting behavioral events. Alternatively, you may use the [pop_adjustevents.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_adjustevents.m) function. The script 
+simple script below shift event latencies by 10 samples. Such manipulation are sometimes necessary because of delays introduced by the amplifier or computer collecting behavioral events. Alternatively, you may use the [pop_adjustevents.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_adjustevents.m) function. The script 
 from this section is available [here](http://sccn.ucsd.edu/eeglab/locatefile.php?file=event_processing_single_dataset.m).
 
 ``` matlab

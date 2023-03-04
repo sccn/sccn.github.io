@@ -41,7 +41,7 @@ Other type of documentation are listed below.
 ### Troubleshooting
 
 -    [Ask eeglablist@sccn.ucsd.edu (requires subscription here)](/others/EEGLAB_mailing_lists.html)
--    [Use Google - add "eeglablist" or "EEGLAB" to your querry](http://google.com)
+-    [Use Google - add "eeglablist" or "EEGLAB" to your query](http://google.com)
 -    [Bugs and Suggestions](/others/EEGLAB_Bugs.html)
 -    [Post a bug issues on Github](https://github.com/sccn/eeglab/issues)
 -    [Download EEGLAB test cases](https://github.com/sccn/eeglab-testcases)
