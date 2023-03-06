@@ -6,27 +6,21 @@ parent: Past workshops
 grand_parent: Workshops
 ---
 
-![250px\|thumb\|right\|upright=2.5\|Lublin](/assets/images/Aspet.jpg)
+![Screen Shot 2023-03-06 at 7 40 14 AM](https://user-images.githubusercontent.com/1872705/223188423-e296a3e6-dd99-488b-b86d-1a6f8a8520e0.png)
 
 Thirty-third EEGLAB Workshop
 ============================
 
 <span style="color: blue">Lublin, Poland - 12-16 of September 2022
 </span>
-The 33rd EEGLAB Workshop will take place at [the John Paul II Catholic
-University of Lublin](https://www.kul.pl/kul,21.html) in
-[Lublin](https://en.wikipedia.org/wiki/Lublin), Poland, about 2-hour by
-train from Warsaw. Participants will be expected to bring laptops with
+The 33rd EEGLAB Workshop will take place the Bois Perche about 2-hour by
+bus from Toulouse. Participants will be expected to bring laptops with
 MATLAB installed so as to be able to participate in the practical
 sessions. The tutorial workshop will introduce and demonstrate the use
 of the EEGLAB software environment and EEGLAB-linked tools for
 performing advanced analysis of EEG and related data, with detailed
 method expositions and practical exercises. There will be a poster
 session for participants and an excursion.
-
-The workshop has been under the patronage of the [Polish Neuroscience
-Society (PTBUN)](http://www.ptbun.org.pl/?lang=en&a=) and [Advances in
-Cognitive Psychology](http://www.ac-psych.org/en/home).
 
 Registration and cost
 ---------------------
@@ -37,27 +31,9 @@ submission for the poster session.
 To reimburse travel expenses of Workshop faculty and facilities rental,
 costs for the workshop will be as follows:
 
-Registration cost is 300 Euros for students and post-docs, 350 Euros for
+Registration cost is 300 Euros for students and post-docs, 400 Euros for
 faculty and other professional. The registration costs includes
 conference space rental, all coffee breaks, and a short excursion.
-
-<b>Registration: Official registration is now closed.</b> If you still want to participate you can contact the organizers at eeglab2020lublin@gmail.com
-
-<b>Call for papers:</b> During the EEGLAB Workshop in Lublin a poster
-session will be held. We offer the possibility of publishing abstracts
-of presentations in [Advances in Cognitive
-Psychology](http://www.ac-psych.org/en/home) – a scientific journal (IF-5 years =: 1.262) 
-devoted primarily to the study of perception, language
-processing, attention, memory, and cognition. The journal’s broad focus
-encompasses the behavioral, cognitive, and brain sciences. Additionally,
-selected authors may be invited to contribute to special issue of ACP
-journal. On the basis of the submitted abstracts, the editor will ask to
-prepare manuscripts compliant with the requirements of the journal. If
-the manuscript passes the merit assessment by the reviewers, it will be
-accepted for publication in a special issue [see
-more](https://www.ac-psych.org/en/special). For more
-information, contact Emilia Zabielska-Mendyk at ezabiela@gmail.com
-
 
 <b>Warning: </b> This workshop is <em>not</em> aimed for real beginners
 in EEG and MATLAB - such persons would be wasting much of their time.
@@ -70,17 +46,6 @@ web resources for learning MATLAB are discussed below. Beginners may
 also gain experience using MATLAB by applying the steps discussed in the
 EEGLAB wiki tutorial to the sample dataset which you can freely
 download.
-
-Accommodation and travel
-------------------------
-
-Participants may fly directly to [Lublin
-Airport](https://www.airport.lublin.pl/en/) or may fly to [Warsaw Chopin
-Airport](https://www.lotnisko-chopina.pl/en/index.html) and take the [train](https://www.pkp.pl/en/)
-or [bus](https://global.flixbus.com/) from
-Warsaw to Lublin.
-
-We do not provide accommodation booking services for participants, but [here](https://eeglab2022lublin.com/?page_id=18) you can find recommended accommodation options in Lublin.
 
 MATLAB tutorial
 ----------------
@@ -114,10 +79,10 @@ laptop with MATLAB installed.
 <span style="color: purple">Purple lettering = lecture</span>
 <span style="color: orange">Orange lettering = tutorial</span>
 
-<u><span style="color: blue">Monday, September 12th</span></u>
+<u><span style="color: blue">Monday, July 3rd</span></u>
 18:00 – 20:00 -- On site registration
 
-<u><span style="color: blue">Tuesday, September 13th</span></u>
+<u><span style="color: blue">Tuesday, July 4th</span></u>
 
 **Overview and Time/frequency**
 
@@ -152,7 +117,7 @@ laptop with MATLAB installed.
  
 - <span style="color: orange">18:00 – 18:30 -- Beginner office hour (Ramon Martinez and John Iversen)</span>
  
-<u><span style="color: blue">Wednesday, September 14th (bring your poster if you have one)</span></u>
+<u><span style="color: blue">Wednesday, July 5th</span></u>
 
 **Group analysis and ICA clustering in EEGLAB**
 
@@ -192,7 +157,7 @@ laptop with MATLAB installed.
 
 - <span style="color: green">19:45 -- banquet (included in registration)</span>
 
- <u><span style="color: blue">Thursday, September 15th</span></u>
+ <u><span style="color: blue">Thursday, July 6th</span></u>
  
  **Advanced topics 1**
 
@@ -212,7 +177,7 @@ laptop with MATLAB installed.
 - <span style="color: orange">17:00 – 18:00 -- Advanced scripting practicum (Ramon Martinez)</span> [PPT](https://github.com/sccn/sccn.github.io/files/9576497/EEGLAB2022_Lublin_AdvancedScripting_RMC.pptx)
 
  
-<u><span style="color: blue">Friday, September 16th</span></u>
+<u><span style="color: blue">Friday, July 7th</span></u>
 
  **Advanced topics 2**
 
