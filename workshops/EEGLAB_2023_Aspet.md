@@ -1,12 +1,12 @@
 ---
 layout: default
-title: EEGLAB 2022 Lublin
-long_title: EEGLAB 2022 Lublin workshop
+title: EEGLAB 2023 Aspet
+long_title: EEGLAB 2023 Aspet workshop
 parent: Past workshops
 grand_parent: Workshops
 ---
 
-![250px\|thumb\|right\|upright=2.5\|Lublin](/assets/images/Lublin.jpg)
+![250px\|thumb\|right\|upright=2.5\|Lublin](/assets/images/Aspet.jpg)
 
 Thirty-third EEGLAB Workshop
 ============================
