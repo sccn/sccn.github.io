@@ -11,7 +11,7 @@ grand_parent: Workshops
 Thirty-third EEGLAB Workshop
 ============================
 
-<span style="color: blue">Lublin, Poland - 12-16 of September 2022
+<span style="color: blue">Aspet France - 3-7 of July 2023
 </span>
 The 33rd EEGLAB Workshop will take place the Bois Perche about 2-hour by
 bus from Toulouse. Participants will be expected to bring laptops with
