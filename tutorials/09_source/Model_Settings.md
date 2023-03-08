@@ -20,10 +20,10 @@ Back to the basics
 ==================
 
 To perform source localization, one needs
-* A **head model** describing how electrical or magnetic fields behave
+* A **head model**, describing how electrical or magnetic fields behave
   * It may be a simple model made of spheres having different conductances
   * It may be a more complex model made of geometrical 3-D mesh describing the cortex surface, skull, skin, as well as change in conductance at the interface of these surfaces.
-  * It may be a volumetric model (Finite Element Model) describing how the current flow in each voxel. These are in theory more precise although they take longer to compute.
+  * It may be a volumetric model (Finite Element Model) describing how the current flow in each voxel. These are in theory more precise, although they take longer to compute.
 * A **source model** describing the position of the source generating these fields
   * It may be a single dipole. 
   * It may be dipoles distributed in a 3-D grid (volumetric source model for distributed source localization such as in eLoreta).
@@ -59,7 +59,7 @@ EEGLAB menu item <span style="color: brown"> Tools → Locate dipoles using DIPF
 → Head model and settings</span> to modify DIPFIT settings. This will
 pop up the window below:
 
-![](/assets/images/dipfit_settings_besa.png)
+![](../../assets/images/dipfit_settings_besa.png)
 
 The top edit box, *Model (click to select)*, specifies the type of head
 model -- spherical model, template boundary element model (BEM), or custom model. 
@@ -143,13 +143,13 @@ model. Close the current head model settings window and go to the channel editin
 (select menu item <span style="color: brownn">Edit → Channel location</span>).
 The resulting channel editor window is shown below:
 
-![600px\|border](/assets/images/Dipfit_pop_chanedit2.png)
+![600px\|border](../../assets/images/Dipfit_pop_chanedit2.png)
 
 Press the *Look up locs* to look up your channel locations (by matching
 the channel labels) in the template channel location file. Select *Use MNI coordinate file for
 the BEM DIPFIT model*.
 
-![](/assets/images/chanlocs_bem.png)
+![](../../assets/images/chanlocs_bem.png)
 
 Press *Ok* on the window above and the channel editor window. Then go back to the head model settings using the <span style="color: brown"> Tools → Locate dipoles using DIPFIT
 → Head model and settings</span> menu item. The window below will pop up. You can see that
@@ -163,7 +163,7 @@ a vector comprised of nine fields *\[shiftx shifty shiftz pitch roll yaw scalex 
 
 In this case, the only alignment required is a 90-degree rotation between the electrode coordinates and the coordinate system of the head model. In case no co-registration/alignment is required, you may also select the *No coreg* checkbox.
 
-![](/assets/images/dipfit_settings_bem.png)
+![](../../assets/images/dipfit_settings_bem.png)
 
 *Important note:* If you change your channel locations, make sure
 to go back to DIPFIT settings to update the coordinate transformation
@@ -183,7 +183,7 @@ with the head model.
 Again, use the <span style="color: brown"> Tools → Locate dipoles using DIPFIT
 → Head model and settings</span> menu item. Click on *Manual coreg.* in the DIPFIT settings window. A window appears. Change the *resize* values to 1.5 for all axes to see the electrodes (we are undoing the alignment for illustrative purposes).
 
-![](/assets/images/coregister_new1.png)
+![](../../assets/images/coregister_new1.png)
 
 Here, the electrode
 locations are plotted on the head model. Each small red or green sphere indicates an electrode location,
@@ -195,7 +195,7 @@ so that it becomes best aligned with the template electrode locations (brown) as
 
 A channel correspondence window will pop up:
 
-![Image:Pop_chancoresp.gif](/assets/images/Pop_chancoresp.gif)
+![Image:Pop_chancoresp.gif](../../assets/images/Pop_chancoresp.gif)
 
 The channel labels from your dataset electrode structure are shown in
 the right column, while the left column shows channel labels from the
@@ -216,7 +216,7 @@ the display to subsets of channels using the *Electrodes* buttons.
 
 <u>Manual fine-tuning:</u> To finely tune the alignment manually, repeatedly edit the values in the edit boxes, which correspond to the *\[shiftx shifty shiftz pitch roll yaw scalex scaley scalez\]* transformation mentioned previously. The resulting co-registration window should look something like this:
 
-![Image:coregister_new2.png](/assets/images/coregister_new2.png)
+![Image:coregister_new2.png](../../assets/images/coregister_new2.png)
 
 If you want to retain your modifications, press *Ok* to update the DIPFIT settings
 window. This will display the resulting Talairach transformation matrix in the edit box *Matrix to align chan. locs with head model*. In this specific case, you may press the *Cancel* button in the coregistration interface since no further alignment was necessary (we performed coregistration for illustrative purposes on a dataset that did not require further alignment). Then press *Ok* in the DIPFIT settings
@@ -247,7 +247,7 @@ Head model and custom MRI
 
 When plotting dipole sources in the next [section of the tutorial](/tutorials/09_source/DIPFIT.html), you may plot the head model head surface and the MRI. 
 
-![Image:model_align.png](/assets/images/head_mesh.png)
+![Image:model_align.png](../../assets/images/head_mesh.png)
 
 In this case, we are using the tutorial data and the standard BEM model described in the previous sections. The BEM head model mesh was extracted from the average MRI used for plotting, so the alignment is perfect. When using participants' MRI and transformed them to MNI space (for example, using SPM), this allows checking the alignment between the MRI and the head model. 
 
