@@ -177,7 +177,7 @@ How can we address these problems?
     frequency of 1 Hz is equivalent to passband edge at 2 Hz
 -   When treating the line noise, use CleanLine() instead of notch
     filter because the former is phase-invariant.
--   When downsampling data (which is useful for multivariate Granger causality analysis), use mild anti-aliasing filter and do not let the stopband below the Nyquist frequency. In practice, use the following example. In this example, you are downsampling your data to 200Hz (i.e., Nyquist frequency is 100Hz), with the cutoff frequency being 80Hz (i.e. 100Hz*0.8) and the transition bandwidth 40Hz (i.e. 100Hz*0.4). 
+-   When downsampling data (which is useful for multivariate Granger causality analysis), use mild anti-aliasing filter and do not let the stopband below the Nyquist frequency. In practice, use the following example. In this example, you are downsampling your data to 200Hz (i.e., Nyquist frequency is 100Hz), with the cutoff frequency being 80Hz (i.e. 100Hz\*0.8) and the transition bandwidth 40Hz (i.e. 100Hz\*0.4). 
     ```matlab
     EEG = pop_resample(EEG, 200, 0.8, 0.4);
     ```
