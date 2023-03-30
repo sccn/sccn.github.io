@@ -11,7 +11,7 @@ EEGLAB and MEG data
 EEGLAB supports reading most MEG data formats through the File-IO
 extension. Therefore MEG data from all the major manufacturers may be imported (CTF, Neuromag, Neuroimaging 4-D, BTi). There is also a native *ctfimport* EEGLAB plugin to import CTF data, although we recommend using the File-IO extension first.
 
-The [BIDS-matlab-tools](https://github.com/sccn/bids-matlab-tools) EEGLAB plugin also supports importing BIDS-formated MEG data. You may install this plugin from the EEGLAB plugin manager (menu item <span style="color: brown">File > Manage EEGLAB extensions</font>). 
+The [BIDS-matlab-tools](https://github.com/sccn/bids-matlab-tools) EEGLAB plugin also supports importing BIDS-formated MEG data. You may install this plugin from the EEGLAB plugin manager (menu item <span style="color: brown">File > Manage EEGLAB extensions</span>). 
 
 Below, we show how to import and plot Neuromag MEG and CFT MEG data. For further processing, you should use the EEG tutorial. We recommend using the [clean_rawdata](https://github.com/sccn/clean_rawdata) EEGLAB plugin to clean data (find bad channels and bad portions of data). We also recommend using Independent Component Analysis (ICA) to remove artifacts. Unfortunately, artifactual ICA components need to be manually labeled. Automated methods such as [ICLabel](https://github.com/sccn/ICLabel) and [MARA](https://irenne.github.io/artifacts/) that automatically detect ICA artifacts do not apply to MEG data (they were trained with EEG data, and would need to be retrained with MEG data).
 
