@@ -31,9 +31,12 @@ submission for the poster session.
 To reimburse travel expenses of Workshop faculty and facilities rental,
 costs for the workshop will be as follows:
 
-Registration cost is 300 Euros for students and post-docs, 400 Euros for
-faculty and other professional. The registration costs includes
-conference space rental, all coffee breaks, and a short excursion.
+Registration cost is 300 Euros for students and post-docs, 500 Euros for
+faculty and other professionals. The registration costs include
+conference space rental, all coffee breaks, and a short excursion. 
+When registering, participants are also expected to pay for accommodation and all meals to the Bois Perche retreat center (a total of 470 euros). Because of a grant from the CNRS, registration is free for participants from french laboratories (although accommodation is not free), and completely free (including accommodation for CNRS employes).
+
+[REGISTER HERE](https://www.azur-colloque.fr/DR14/inscription/inscription/201)
 
 <b>Warning: </b> This workshop is <em>not</em> aimed for real beginners
 in EEG and MATLAB - such persons would be wasting much of their time.
