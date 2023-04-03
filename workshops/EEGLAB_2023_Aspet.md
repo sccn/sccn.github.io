@@ -80,124 +80,147 @@ laptop with MATLAB installed.
 <span style="color: orange">Orange lettering = tutorial</span>
 
 <u><span style="color: blue">Monday, July 3rd</span></u>
-18:00 – 20:00 -- On site registration
+
+16:30 -- Toulouse train station shuttle bus pick up
+
+17:00 -- Toulouse airport shuttle bus pick up
+
+<span style="color: green">
+
+19:45 -- Dinner in Aspet (included in registration)</span>
+
+20:45 – 21:30 -- Optional beginner MATLAB course by Ramon Martinez
 
 <u><span style="color: blue">Tuesday, July 4th</span></u>
+Overview and ICA Theory/Practice
 
-**Overview and Time/frequency**
-
-- <span style="color: purple">9:00 – 9:15 -- Introduction (John Iversen)</span> [PDF](/assets/pdfs/EEGLAB2022_Lublin_Iversen_Intro_handout.pdf)
-
-- <span style="color: purple">9:15 – 9:45 -- EEGLAB overview (Arnaud Delorme)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9553418/EEGLAB_overview2022.pdf)
-
-- <span style="color: orange">9:45 – 11:00 -- Data import, Artifact rejection (Johana Wagner) </span>[PDF](https://github.com/sccn/sccn.github.io/files/9566896/EEGLAB2022_JW_preprocessing.pdf)
+<span style="color: green">7:00 - 8:30 Breakfast</span>
 
 
-- <span style="color: green"> Break </span>
+**Overview and ICA Theory/Practice**
 
-- <span style="color: orange">11:15 – 12:30 -- Time-frequency decompositions: Theory and practice (Mateusz Gola)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9558422/EEGLAB2022_Lublin_MG_TimeFrequencyTheoryPractice.pdf)
+<span style="color:purple"> 8:30 – 9:45 -- Mining event-related brain dynamics I (Scott Makeig)</span>
+
+<span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span>
+
+<span style="color: green">-- Break--</span>
+
+<span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span>
+
+<span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Johanna Wagner)</span>
+
+<span style="color: green">12:30-13:45 Lunch --</span>
+
+**ICA and time-frequency**
+
+<span style="color: orange">13:45 – 15:45 -- ICA decomposition practicum (Arnaud Delorme)</span>
+
+<span style="color: green">-- Break--</span>
+
+<span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (TBD)</span> 
+
+<span style="color: purple">17:00 – 17:30 -- Phase amplitude coupling (Ramon Martinez)</span> 
+<!-- -->
+
+<span style="color: green">19:45 -- Dinner</span>
 
 
-- <span style="color: purple">12:30 – 13:00 -- Phase amplitude coupling (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576515/RMC_PACTools_EEGLAB_WS_Poland_2022_PDF.pdf)
 
 
-- <span style="color: green">13:00-14:30 -- Lunch</span>
-
-**ICA**
-
-- <span style="color: purple">14:30 – 15:30 -- Mining event-related brain dynamics I (Scott Makeig)</span>
-
-- <span style="color: purple">15:30 – 16:30 -- ICA theory (John Iversen)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9556685/ICA.Theory.2022.Lublin_handout.pdf)
-
-
-- <span style="color: green"> Break </span>
-
-- <span style="color: orange">16:45 – 18:00 -- ICA decomposition practicum (Johana Wagner)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9566907/EEGLAB2022_JW_ICA_Practicum.pdf)
-
- 
-- <span style="color: orange">18:00 – 18:30 -- Beginner office hour (Ramon Martinez and John Iversen)</span>
- 
 <u><span style="color: blue">Wednesday, July 5th</span></u>
 
 **Group analysis and ICA clustering in EEGLAB**
 
-- <span style="color: purple">9:00 - 10:00 -- Bootstrap and correction for multiple comparisons - EEGLAB statistics (Arnaud Delorme)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9563618/EEGLAB_statistics2022.pdf)
 
-- <span style="color: purple">10:00 – 10:45 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9563637/Delorme2021_dipole_connectivity.pdf)
+<span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span>
 
-- <span style="color: green"> Break </span>
+<span style="color: purple">9:00 - 9:45 -- Bootstrap and correction for multiple comparisons (Cyril Pernet)</span> 
 
-- <span style="color: orange">11:00 - 12:00 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Mateusz Gola) </span>
- [PDF](https://github.com/sccn/sccn.github.io/files/9558424/EEGLAB2022_AD_STUDY_design_newreduced_MG.pdf)
- 
- **Scripting**
+<span style="color: green">-- Break--</span>
 
-- <span style="color: orange">12:00 - 13:00 -- Introduction to scripting (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576533/EEGLAB2017_scripts_new.pptx), [Sample_Plugin.zip](https://github.com/sccn/sccn.github.io/files/9576535/Sample_Plugin.zip)
+<span style="color: purple">10:45 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span> 
 
+<span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span>
+<!-- -->
 
 
-- <span style="color: green">13:00-14:30 -- Lunch</span>
+<span style="color: green">12:45-13:45 Lunch --</span>
 
-**Group analysis: Clustering**
-
-- <span style="color: purple">14:30 - 15:00 -- Why cluster ICA components? (Scott Makeig)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576508/Makeig_Lublin22_Clustering_forpdf.pdf)
+<!-- -->
 
 
-- <span style="color: orange">15:00 - 15:45 -- ICA component clustering and plotting (Ramon Martinez)</span>
+<span style="color: green">13:45-18:00-- Hiking excursion</span>
 
-- <span style="color: green">Break</span>
+<!-- -->
 
-**Connectivity analysis**
 
-- <span style="color: purple">16:00 – 17:15 -- Source information flow and Granger-Causal modeling tools (John Iversen)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9564133/EEGLAB2022_Lublin_Connectivity_JRI_handout.pdf)
+<span style="color: green">19:45 -- Dinner</span>
 
-**Participant poster session**
 
-- <span style="color: black">17:30 – 19:30 -- Participants bring their poster to discuss </span>
 
-- <span style="color: green">19:45 -- banquet (included in registration)</span>
+
+
 
  <u><span style="color: blue">Thursday, July 6th</span></u>
  
- **Advanced topics 1**
+<span style="color: green">7:30 - 8:30 Breakfast</span>
 
-- <span style="color: purple">9:00 – 10:00 -- HED and BIDS (Arnaud Delorme and Dung Truong)</span>
-[PDF](https://github.com/sccn/sccn.github.io/files/9581488/EEGLAB_BIDS1.pdf)
 
-- <span style="color: purple">10:00 – 11:00 -- Mobile Brain Body Imaging and Applications (John Iversen)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9566067/EEGLAB_Lublin_2022_MoBI_JRI_handout.pdf)
+**Source Localization**
 
-- <span style="color: green">11:00 - 15:30 -- group excursion with lunch in [The Open Air Village Museum in Lublin](https://skansen.lublin.pl/en/)</span>
 
- **Closing Keynote**
+<span style="color: purple">8:30 – 9:30 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> 
 
-- <span style="color: purple">15:30 – 17:00 -- Mining event-related brain dynamics II (Scott Makeig)</span>
+<span style="color: purple">9:30 – 10:00 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> 
 
- **Advanced Scripting**
 
-- <span style="color: orange">17:00 – 18:00 -- Advanced scripting practicum (Ramon Martinez)</span> [PPT](https://github.com/sccn/sccn.github.io/files/9576497/EEGLAB2022_Lublin_AdvancedScripting_RMC.pptx)
+<span style="color: green">-- Break--</span>
+
+
+**General Linear Modeling**
+
+
+<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Cyril Pernet)</span>
+
+<span style="color: green">12:30-13:45 Lunch --</span>
+
+**Source information flow**
+
+<span style="color: purple">13:45 – 15:30 -- Source information flow and Granger-Causal modeling tools (TBD)</span>
+
+<span style="color: orange">15:45 – 17:30 -- SIFT and ROIconnect toolbox: practicum (TBD)</span>
+
+<span style="color: green">19:45 -- Dinner </span>
+
+
+
 
  
 <u><span style="color: blue">Friday, July 7th</span></u>
 
- **Advanced topics 2**
+<span style="color: green">7:30-8:30 -- Breakfast</span>
 
-- <span style="color: purple">9:00 – 10:00 -- Deep Learning and EEG (Arnaud Delorme and Dung Truong)</span>
-[PDF](https://github.com/sccn/sccn.github.io/files/9581493/DL_EEG-workshop2022_2.pdf)
+<span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics II (Scott Makeig)</span> 
 
-- <span style="color: purple">10:00 – 11:00 -- TMS and EEG (Mateusz Gola)</span> [PDF](https://github.com/sccn/sccn.github.io/files/9576564/EEGLab.Workshop.2022.-.EEG.and.TMS.-.Mateusz.Gola.pdf)
+<span style="color: purple">9:30 – 10:15 -- Deep learning and EEG (Arnaud Delorme)</span> 
+
+<span style="color: green">-- Break--</span>
 
 
- **Group Work**
+<span style="color: orange">10:30 – 11:30 -- Practicum, small group projects</span>
 
-- <span style="color: orange">10:00 – 11:00 -- Practicum, small group projects</span>
+<span style="color: orange">11:30 – 12:00 -- Participant project presentations and general discussion</span>
+<!-- -->
 
-- <span style="color: green"> Break </span>
 
-- <span style="color: orange">11:00 – 12:00 -- Practicum, small group projects</span>
+<span style="color: green">12:15 -- Lunch</span>
 
- - <span style="color: orange">12:00 – 13:00 -- Participant project presentations and general discussion</span>
+<span style="color: black">13:00 -- Airport/train station shuttle bus leaves Bois Perche</span>
 
-- <span style="color: green">13:00 - 14:15 -- Lunch</span>
+<span style="color: black">Between 14:15 and 14:45 -- Toulouse/Blagnac Airport</span>
+
+<span style="color: black">Between 14:30 and 15:15 -- Toulouse Matabiau train station</span>
+
 
 Further reading
 ----------------
