@@ -254,8 +254,9 @@ Below are other EEGLAB pipelines.
 * [The HAPPE pipeline](https://www.frontiersin.org/articles/10.3389/fnins.2018.00097/full). We have not evaluated this EEGLAB-based pipeline but it is a popular one.
 * [EPOC](https://osf.io/cw5qv/) This project provides scripts to easily get into a standardized EEG analysis using EEGLAB. It is published in [Frontiers in Neuroscience](https://www.frontiersin.org/articles/10.3389/fnins.2021.660449/full).
 * [Apice preprocessing pipeline](https://github.com/neurokidslab/eeg_preprocessing) for infant data.
-* [GUI to build EEGLAB-based pipelines(https://github.com/fardinafdideh/EEG-Signal-Cleaning-Pipeline-Management-EEGLAB-based-) EEG Signal Cleaning Pipeline Management.
+* [GUI to build EEGLAB-based pipelines](https://github.com/fardinafdideh/EEG-Signal-Cleaning-Pipeline-Management-EEGLAB-based-) EEG Signal Cleaning Pipeline Management.
+* [RELAX](https://github.com/NeilwBailey/RELAX) a fully automated EEGLAB pre-processing plugin using ICA and ICLabel.
 
-Below is a repository containing optimized EEGLAB, Fieldtrip, Brainstorm, and MNE pipelines. We scanned parameters to find the optimal artifact rejection thresholds for each software package. We will let you guess which pipeline performed best 😊.
+Below is also a repository containing optimized EEGLAB, Fieldtrip, Brainstorm, and MNE pipelines. We scanned parameters to find the optimal artifact rejection thresholds for each software package. We will let you guess which pipeline performed best 😊.
 
 [https://github.com/sccn/eeg_pipelines](https://github.com/sccn/eeg_pipelines)
