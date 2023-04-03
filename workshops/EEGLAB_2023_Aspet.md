@@ -95,7 +95,6 @@ laptop with MATLAB installed.
 20:45 – 21:30 -- Optional beginner MATLAB course by Ramon Martinez
 
 <u><span style="color: blue">Tuesday, July 4th</span></u>
-Overview and ICA Theory/Practice
 
 <span style="color: green">7:00 - 8:30 Breakfast</span>
 
