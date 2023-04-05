@@ -379,6 +379,8 @@ This is not to say that using PCA should be done systematically. In
 general, PCA will slightly corrupt the data by adding nonlinearities, so
 it is better to use the full rank data matrix whenever possible.
 
+A full discussion of corrupted ICA components, also called Ghost ICA components, is available in this [paper](https://www.frontiersin.org/articles/10.3389/frsip.2023.1064138/full).
+
 Issues with data rank deficiencies
 ---------------------------------------
 
@@ -399,7 +401,7 @@ case, the user should manually reduce the number of components. If the ICA decom
 For example, when using 64 channels, enter "'pca', 63" in the option
 edit box. If you do not do this, the activity of one of the
 components that contributes the most to the data might be duplicated (as explained
-in the previous section), and you will not be able to use the ICA decomposition.
+in the previous section), and you will not be able to use the ICA decomposition. <font color=red>Note that because of small numerical innacuracy inherent to digital signal processing, we recommend people compute ICA, then compute average reference (see this [paper](https://www.frontiersin.org/articles/10.3389/frsip.2023.1064138/full).</font>
 
 Issues associated with aggressive automated artifact removal before ICA
 ---------------------------------------
