@@ -401,7 +401,7 @@ case, the user should manually reduce the number of components. If the ICA decom
 For example, when using 64 channels, enter "'pca', 63" in the option
 edit box. If you do not do this, the activity of one of the
 components that contributes the most to the data might be duplicated (as explained
-in the previous section), and you will not be able to use the ICA decomposition. <font color=red>Note that because of small numerical innacuracies inherent to digital signal processing, we recommend people compute ICA, then compute average reference after ICA (see this [paper](https://www.frontiersin.org/articles/10.3389/frsip.2023.1064138/full)).</font>
+in the previous section), and you will not be able to use the ICA decomposition. Note that because of small numerical innacuracies inherent to digital signal processing, <span style="color: red">we recommend people compute ICA, then compute average reference after ICA</span> (see this [paper](https://www.frontiersin.org/articles/10.3389/frsip.2023.1064138/full)).
 
 Issues associated with aggressive automated artifact removal before ICA
 ---------------------------------------
