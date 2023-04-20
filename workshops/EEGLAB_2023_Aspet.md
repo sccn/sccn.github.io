@@ -13,8 +13,8 @@ Thirty-third EEGLAB Workshop
 
 <span style="color: blue">Aspet France - 3-7 of July 2023
 </span>
-The 33rd EEGLAB Workshop will take place the Bois Perche about 2-hour by
-bus from Toulouse. Participants will be expected to bring laptops with
+The 33rd EEGLAB Workshop will take place the Bois Perche about 2 hours by
+chartered bus from Toulouse. Participants will be expected to bring laptops with
 MATLAB installed so as to be able to participate in the practical
 sessions. The tutorial workshop will introduce and demonstrate the use
 of the EEGLAB software environment and EEGLAB-linked tools for
@@ -26,15 +26,15 @@ Registration and cost
 ---------------------
 Space at the workshop is limited to about 40 to 50 participants. Participants
 will be accepted based on their academic background, motivation and
-submission for the poster session.
+submission for the poster session. Recent posters prepared for other conferences are welcome.
 
 To reimburse travel expenses of Workshop faculty and facilities rental,
 costs for the workshop will be as follows:
 
 Registration cost is 300 Euros for students and post-docs, 500 Euros for
-faculty and other professionals. The registration costs include
+faculty and other professionals. These registration costs include
 conference space rental, all coffee breaks, and a short excursion. 
-When registering, participants are also expected to pay for accommodation and all meals to the Bois Perche retreat center (a total of 470 euros). Because of a grant from the CNRS, registration is free for participants from french laboratories (although accommodation is not free), and completely free (including accommodation for CNRS employes).
+When registering, participants are also expected to pay for accommodation and all meals to the Bois Perche retreat center (a total of 470 euros). Because of a grant from the CNRS, registration (although not accommodation) is free for participants from French laboratories, while through a CRNS grant accommodations are also free for CNRS employees.
 
 [REGISTER HERE](https://www.azur-colloque.fr/DR14/inscription/inscription/201)
 
@@ -62,21 +62,18 @@ If you are new to MATLAB or need a refresher please consult the material on the 
 MATLAB support
 --------------
 
-MathWorks is pleased to provide a special license to workshop
-participants to use for the Hands-On Seminar. This is a limited license
-for the duration of the workshop and is intended to be used only for
-course work and not for government, research, commercial, or other
-organization use. The EEGLAB team thanks Vijay Iyer, Neuroscience
-Community Liaison at MathWorks for bringing this support from MathWorks
-to the workshop.
+MathWorks is pleased to provide a special MATLAB license to workshop
+participants for use during the workshop. The EEGLAB team thanks Vijay Iyer, 
+Neuroscience Community Liaison at MathWorks for arranging this support to the workshop from MathWorks
+.
  <span style="color: red">License information coming soon.</span>
 
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
-<b>Material for the working (including EEGLAB) will be made available on
-USB keys during the workshop.</b> Presentation slides will be made
-available during the workshop. You only need to bring to the workshop a
+<b>Material for workshop tutorials (including EEGLAB) will be made available on
+USB keys.</b> Presented slides will be made
+available during the workshop. You only need to bring a
 laptop with MATLAB installed.
 
 <span style="color: purple">Purple lettering = lecture</span>
@@ -84,15 +81,15 @@ laptop with MATLAB installed.
 
 <u><span style="color: blue">Monday, July 3rd</span></u>
 
-16:30 -- Toulouse train station shuttle bus pick up
+16:30 --  Shuttle bus pick up at Toulouse train station
 
-17:00 -- Toulouse airport shuttle bus pick up
+17:00 -- Shuttle bus pick up at Toulouse airport
 
 <span style="color: green">
 
 19:45 -- Dinner in Aspet (included in registration)</span>
 
-20:45 – 21:30 -- Optional beginner MATLAB course by Ramon Martinez
+20:45 – 21:30 -- Optional MATLAB fundamentals session by Ramon Martinez
 
 <u><span style="color: blue">Tuesday, July 4th</span></u>
 
@@ -121,7 +118,7 @@ laptop with MATLAB installed.
 
 <span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (TBD)</span> 
 
-<span style="color: purple">17:00 – 17:30 -- Phase amplitude coupling (Ramon Martinez)</span> 
+<span style="color: purple">17:00 – 17:30 -- Phase-Amplitude Coupling (Ramon Martinez)</span> 
 <!-- -->
 
 <span style="color: green">19:45 -- Dinner</span>
@@ -140,7 +137,7 @@ laptop with MATLAB installed.
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">10:45 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing statistics in channels (Arnaud Delorme)</span> 
+<span style="color: purple">10:45 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing channel statistics (Arnaud Delorme)</span> 
 
 <span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span>
 <!-- -->
@@ -173,7 +170,7 @@ laptop with MATLAB installed.
 
 <span style="color: purple">8:30 – 9:30 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> 
 
-<span style="color: purple">9:30 – 10:00 -- Using the Dipfit plugin of EEGLAB (Arnaud Delorme)</span> 
+<span style="color: purple">9:30 – 10:00 -- Using the EEGLAB Dipfit plug-in (Arnaud Delorme)</span> 
 
 
 <span style="color: green">-- Break--</span>
@@ -182,7 +179,7 @@ laptop with MATLAB installed.
 **General Linear Modeling**
 
 
-<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plugin (Cyril Pernet)</span>
+<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
 
 <span style="color: green">12:30-13:45 Lunch --</span>
 
@@ -219,9 +216,9 @@ laptop with MATLAB installed.
 
 <span style="color: black">13:00 -- Airport/train station shuttle bus leaves Bois Perche</span>
 
-<span style="color: black">Between 14:15 and 14:45 -- Toulouse/Blagnac Airport</span>
+<span style="color: black">Between 14:15 and 14:45 -- drop off at Toulouse/Blagnac Airport</span>
 
-<span style="color: black">Between 14:30 and 15:15 -- Toulouse Matabiau train station</span>
+<span style="color: black">Between 14:30 and 15:15 -- drop off at Toulouse Matabiau train station</span>
 
 
 Further reading
