@@ -142,7 +142,7 @@ an additional column "number", which is not an event field.
 ![](/assets/images/Spreadsheet_event.png)
 
 If you want more control over export options, you should use the command-line version of the [pop_expevents.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_expevents.m) function. An alternative 
-function, [eeg_eventtable.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_expevents.m), has additional options for exporting events.
+function, [eeg_eventtable.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeg_eventtable.m), has additional options for exporting events.
 
 Exporting output and STUDY results
 ---
