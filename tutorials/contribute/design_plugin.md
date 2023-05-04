@@ -357,8 +357,8 @@ menu, simply add a command like this to your *eegplugin_* function:
 
 ```matlab
 uimenu(fig,'label', 'My menu item','callback',...
-  ['EEG=pop_myfunc(EEG); ...
-  [ALLEEG EEG CURRENTSET] = eeg_store(ALLEEG, EEG, CURRENTSET);' ]);
+  ['EEG=pop_myfunc(EEG); ...
+  [ALLEEG EEG CURRENTSET] = eeg_store(ALLEEG, EEG, CURRENTSET);' ]);
 ```
 
 The statement *\[ALLEEG EEG CURRENTSET\] = eeg_store(ALLEEG, EEG,
