@@ -471,27 +471,6 @@ cmd = [ cmd 'EEG.icasphere = eye(EEG.nbchan); disp(''Done'');' ];
 uimenu( menu, 'Label', 'Run PCA', 'CallBack', cmd, 'separator', 'on');
 ```
 
-% eegplugin_pca() - a pca plugin
-function eegplugin_pca( fig, try_strings, catch_strings)
-
-% create menu
-toolsmenu = findobj(fig, 'tag', 'tools');
-submenu = uimenu( toolsmenu, 'label', 'Run PCA');
-
-% build command for menu callback
-cmd = [ '[tmp1 EEG.icawinv] = runpca(EEG.data(:,:));' ];
-cmd = [ cmd 'EEG.icaweights = pinv(EEG.icawinv);' ];
-cmd = [ cmd 'EEG.icasphere = eye(EEG.nbchan);' ];
-cmd = [ cmd 'clear tmp1;' ];
-
-finalcmd = [ try_strings.no_check cmd ];
-finalcmd = [ finalcmd 'LASTCOM = ''' cmd ''';' ];
-finalcmd = [ finalcmd catch_strings.store_and_hist ];
-
-% add new submenu
-uimenu( submenu, 'label', 'Run PCA', 'callback', finalcmd);
-```
-
 Note: You may use *eegplugin_* functions to append new extension-related
 menu items under different EEGLAB menu headings. Above, we add an item
 (labeled 'Run PCA') to the <span style="color: brown">Tools</span> menu by
