@@ -107,20 +107,13 @@ When the anatomical MRI is not available, not all is lost. For example, this [pu
 
 One way to fix this and use a template head model is to use the location of the EEG channels when they are available. EEG channels are usually scanned in the same coordinate space as the MEG sensors, so aligning and stretching the MEG head model to match the channel coordinates should be able to fix the problem above. A *headshape.pos* file is also sometimes available along with the MEG. It contains data points lying on the head of the subject and may be used to align the MEG sensor space to the anatomical MRI. However, this file may also be used to align and stretch the EEGLAB template MEG boundary element model to match the subject's head. To use this file, create a random data array on the MATLAB command line with the same number of scanned positions *a=rand(150, 1000);* and import it as a MATLAB array. Then, call the channel editor and import the *headshape.pos* file as an *SFP* file. You can then align the scanned position with the BEM head model. Write down the homogeneous transformation matrix and reuse it for the MEG model alignment.
 
+Using templace head model for MEG
+---------------------------------
+Although it is preferable to use the subject's MRI, it is possible to use the template MNE head model with MEG data. The alignment between the head model and the sensors may be performed using Fiducials. EEG and MEG will use the same boundary element model. For MEG, only the inner surface of the model is being used. Model fitting is performed using FieldTrip.
 
-The main reason is that alignment of the head position with fiducials. 
-
-For MEG source localization, you can use a custom model in DIPFIT within
-EEGLAB (there is a specific entry for MEG custom leadfield matrix as explained [here](/tutorials/09_source/DIPFIT.html#using-dipfit-to-fit-independent-meg-components)). EEGLAB is still a solution of choice if you are using
-Independent Component Analysis to extract brain sources from MEG data.
-
-However, EEGLAB is not primarily designed to process MEG data and
-perform MEG source localization. For advanced MEG source processing that
-does not involve ICA, a large number of MEG users directly use specialized MEG
- software. For MEG source localization, some of the most
-popular tools include Fieldtrip, Brainstorm, MEG-tools, MEGSIM, NUTMEG,
-OpenMEG, MNE suite, or Curry. Some of the links on the popular NITRC
-platform are listed shown
+Sensor vs model space for sources
+----------------------------------
+Unlike EEG, where source localization is performed in the model space (usually MNI), source localization of MEG is performed in the sensor space. This means that the model is projected to the sensor space. In practice, the EEG.dipfit structure will contain sources in the sensor instead of the model space. The reason for this choice is that it is the way FieldTrip handles MEG data. 
 
 MEG pipeline
 ------------
