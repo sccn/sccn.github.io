@@ -111,7 +111,7 @@ Using templace head model for MEG
 ---------------------------------
 Although it is preferable to use the subject's MRI, it is possible to use the template MNE head model with MEG data. The alignment between the head model and the sensors may be performed using Fiducials. EEG and MEG will use the same boundary element model. For MEG, only the inner surface of the model is being used. Model fitting is performed using FieldTrip.
 
-Sensor vs model space for sources
+Sensor vs model coordinate space for sources
 ----------------------------------
 Unlike EEG, where source localization is performed in the model space (usually MNI), source localization of MEG is performed in the sensor space. This means that the model is projected to the sensor space. In practice, the EEG.dipfit structure will contain sources in the sensor instead of the model space. The reason for this choice is that it is the way FieldTrip handles MEG data. 
 
