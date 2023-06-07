@@ -11,7 +11,7 @@ Below are EEGLAB workshops currently planned
 
 In 2023:
 
--   There might be an in-person workshop in Aspet, France in May or June 2023
+-   There is be an in-person workshop in [Aspet, France in July 2023](https://eeglab.org/workshops/EEGLAB_2023_Aspet.html)
 
 Do not forget to subscribe to the EEGLAB News list to be notified of new
 workshop and registration information (you may register by clicking a
