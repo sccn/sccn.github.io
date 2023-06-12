@@ -91,8 +91,14 @@ presentations.
 -   [Part 1: Basic Theory](https://youtu.be/mZbK6KvMF2I)
 -   [Part 2: Practicum](https://youtu.be/7EWN2w0kSy4)
 
-#### Preprocessing Muse data in EEGLAB (2017, Delorme)
+#### Automated EEG processing (2023, Delorme)
+-   [Part 1: Building an automated preprocessing pipeline in EEGLAB](https://www.youtube.com/watch?v=yaA1wq2nSIc)
+-   [Part 2: The best EEG reference](https://www.youtube.com/watch?v=ioIETUX4G4k)
+-   [Part 3: The best ERP baseline](https://www.youtube.com/watch?v=2wS7-XILNso)
+-   [Part 4: The optimal EEG preprocessing pipeline](https://www.youtube.com/watch?v=mW7u2YEK3ZY)
+-   [Part 5: Use the San Diego supercomputer to process your data](https://www.youtube.com/watch?v=1_h8NFS_ipI)
 
+#### Preprocessing Muse data in EEGLAB (2017, Delorme)
 -   [Part 1: Acquiring data](https://youtu.be/omn7y3TIsGc)
 -   [Part 2: Artifact rejection](https://youtu.be/H6-e3tNT9EQ)
 -   [Part 3: Analysis of multiple data
