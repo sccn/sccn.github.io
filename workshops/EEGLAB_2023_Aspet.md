@@ -110,15 +110,17 @@ laptop with MATLAB installed.
 
 <span style="color: green">12:30-13:45 Lunch --</span>
 
-**ICA and time-frequency**
+**ICA and source analysis**
 
 <span style="color: orange">13:45 – 15:45 -- ICA decomposition practicum (Arnaud Delorme)</span>
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (Scott Makeig)</span> 
 
-<span style="color: purple">17:00 – 17:30 -- Phase-Amplitude Coupling (Ramon Martinez)</span> 
+<span style="color: purple">16:00 – 17:00 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> 
+
+<span style="color: purple">17:00 – 17:30 -- Using the EEGLAB Dipfit plug-in (Arnaud Delorme)</span> 
+
 <!-- -->
 
 <span style="color: green">19:45 -- Dinner</span>
@@ -165,13 +167,11 @@ laptop with MATLAB installed.
 <span style="color: green">7:30 - 8:30 Breakfast</span>
 
 
-**Source Localization**
+**Time-frequency analysis**
 
+<span style="color: purple">8:30 – 9:30 -- Time-frequency decompositions: Theory and practice (Scott Makeig)</span> 
 
-<span style="color: purple">8:30 – 9:30 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> 
-
-<span style="color: purple">9:30 – 10:00 -- Using the EEGLAB Dipfit plug-in (Arnaud Delorme)</span> 
-
+<span style="color: purple">9:30 – 10:00 -- Phase-Amplitude Coupling (Ramon Martinez)</span> 
 
 <span style="color: green">-- Break--</span>
 
