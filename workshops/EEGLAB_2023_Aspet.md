@@ -106,7 +106,7 @@ laptop with MATLAB installed.
 
 <span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span>
 
-<span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Johanna Wagner)</span>
+<span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Ramon Martinez)</span>
 
 <span style="color: green">12:30-13:45 Lunch --</span>
 
@@ -116,7 +116,7 @@ laptop with MATLAB installed.
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (TBD)</span> 
+<span style="color: purple">16:00 – 17:00 -- Time-frequency decompositions: Theory and practice (Scott Makeig)</span> 
 
 <span style="color: purple">17:00 – 17:30 -- Phase-Amplitude Coupling (Ramon Martinez)</span> 
 <!-- -->
