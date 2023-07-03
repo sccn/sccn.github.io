@@ -57,7 +57,7 @@ MATLAB tutorial
 to understand MATLAB syntax will mean you will miss out on a large
 portion of the workshop.
 
-If you are new to MATLAB or need a refresher please consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html)
+If you are new to MATLAB or need a refresher, please consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html)
 
 MATLAB support
 --------------
@@ -87,7 +87,7 @@ laptop with MATLAB installed.
 
 <span style="color: green">
 
-19:45 -- Dinner in Aspet (included in registration)</span>
+19:45 -- Dinner in Aspet (included in registration)
 
 20:45 – 21:30 -- Optional MATLAB fundamentals session by Ramon Martinez
 
