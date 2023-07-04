@@ -107,7 +107,8 @@ laptop with MATLAB installed.
 
 <span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span>
 
-<span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Ramon Martinez)</span>
+<span style="color: orange">11:30 – 12:30 -- Data import, Artifact rejection (Ramon Martinez)[EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)
+</span>
 
 <span style="color: green">12:30-13:45 Lunch --</span>
 
