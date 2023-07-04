@@ -99,6 +99,7 @@ laptop with MATLAB installed.
 **Overview and ICA Theory/Practice**
 
 <span style="color:purple"> 8:30 – 9:45 -- Mining event-related brain dynamics I (Scott Makeig)</span>
+[PDF](https://github.com/sccn/sccn.github.io/files/11948460/Makeig_Aspet23_Mining_I.pdf)
 
 <span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span>
  [PDF](https://github.com/sccn/sccn.github.io/files/11945743/EEGLAB_overview2023.pdf)
@@ -115,6 +116,7 @@ laptop with MATLAB installed.
 **ICA and source analysis**
 
 <span style="color: orange">13:45 – 15:45 -- ICA decomposition practicum (Arnaud Delorme)</span>
+[PDF](https://github.com/sccn/sccn.github.io/files/11948490/Makeig_ICA_Aspet23._pdf.pdf)
 
 <span style="color: green">-- Break--</span>
 
