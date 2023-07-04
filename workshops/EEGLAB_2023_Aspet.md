@@ -116,16 +116,15 @@ laptop with MATLAB installed.
 
 **ICA and source analysis**
 
-<span style="color: orange">14:00 – 15:45 -- ICA decomposition practicum (Arnaud Delorme)</span>
+<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Arnaud Delorme)</span> [PDF]
 (https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)
 
 <span style="color: green">-- Break--</span>
 
-
-<span style="color: purple">16:00 – 17:00 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> 
+<span style="color: purple">16:15 – 17:15 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> 
 [PDF](https://github.com/sccn/sccn.github.io/files/11945798/forward.and.inverse.models.pdf)
 
-<span style="color: purple">17:00 – 17:30 -- Using the EEGLAB Dipfit plug-in (Arnaud Delorme)</span> 
+<span style="color: purple">17:15 – 17:45 -- Using the EEGLAB Dipfit plug-in (Arnaud Delorme)</span> 
 
 <!-- -->
 
