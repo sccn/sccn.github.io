@@ -137,11 +137,13 @@ laptop with MATLAB installed.
 
 <span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span>
 
-<span style="color: purple">9:00 - 9:45 -- Bootstrap and correction for multiple comparisons (Cyril Pernet)</span> 
+<span style="color: purple">9:00 - 9:45 -- Cluster permutation testing (Robert Oostenveld)</span> 
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">10:45 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing channel statistics (Arnaud Delorme)</span> 
+<span style="color: purple">10:45 - 11:05 -- Making data <i>FAIR</i> with BIDS (Robert Oostenveld)</span> 
+
+<span style="color: purple">11:05 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing channel statistics (Arnaud Delorme)</span> 
 
 <span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span>
 <!-- -->
