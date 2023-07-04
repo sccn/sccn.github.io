@@ -101,6 +101,7 @@ laptop with MATLAB installed.
 <span style="color:purple"> 8:30 – 9:45 -- Mining event-related brain dynamics I (Scott Makeig)</span>
 
 <span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span>
+ [PDF](https://github.com/sccn/sccn.github.io/files/11945743/EEGLAB_overview2023.pdf)
 
 <span style="color: green">-- Break--</span>
 
