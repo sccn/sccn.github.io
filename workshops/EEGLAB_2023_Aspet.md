@@ -138,15 +138,15 @@ laptop with MATLAB installed.
 **Group analysis and ICA clustering in EEGLAB**
 
 
-<span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span>
+<span style="color: purple">8:30 - 9:15 -- Why cluster ICA components? (Scott Makeig)</span>
 
-<span style="color: purple">9:00 - 9:45 -- Cluster permutation testing (Robert Oostenveld)</span> 
+<span style="color: purple">9:15 - 10:00 -- Cluster permutation testing (Robert Oostenveld)</span> 
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">10:45 - 11:05 -- Making data <i>FAIR</i> with BIDS (Robert Oostenveld)</span> 
+<span style="color: purple">10:15 - 10:45 -- Making data <i>FAIR</i> with BIDS (Robert Oostenveld)</span> 
 
-<span style="color: purple">11:05 - 11:45 -- Continued processing of HW dataset (ICA) (Ramon Martinez)</span> 
+<span style="color: purple">10:45 - 11:45 -- Continued processing of HW dataset (ICA) (Ramon Martinez)</span> 
 
 <span style="color: purple">11:45 - 12:45 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span>
 <!-- -->
