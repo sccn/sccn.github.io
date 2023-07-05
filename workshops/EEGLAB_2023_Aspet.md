@@ -139,12 +139,14 @@ laptop with MATLAB installed.
 
 
 <span style="color: purple">8:30 - 9:15 -- Why cluster ICA components? (Scott Makeig)</span>
+[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)
 
 <span style="color: purple">9:15 - 10:00 -- Cluster permutation testing (Robert Oostenveld)</span> 
 
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">10:15 - 10:45 -- Making data <i>FAIR</i> with BIDS (Robert Oostenveld)</span> 
+[PDF](https://github.com/sccn/sccn.github.io/files/11954944/fair.and.bids.pdf)
 
 <span style="color: purple">10:45 - 11:45 -- Continued processing of HW dataset (ICA) (Ramon Martinez)</span> 
 
