@@ -146,18 +146,20 @@ laptop with MATLAB installed.
 
 <span style="color: purple">10:45 - 11:05 -- Making data <i>FAIR</i> with BIDS (Robert Oostenveld)</span> 
 
-<span style="color: purple">11:05 - 11:45 -- Creating a STUDY and STUDY design - plotting and computing channel statistics (Arnaud Delorme)</span> 
+<span style="color: purple">11:05 - 11:45 -- Continued processing of HW dataset (ICA) (Ramon Martinez)</span> 
 
-<span style="color: purple">11:45 - 12:45 -- ICA component clustering and plotting (Arnaud Delorme)</span>
+<span style="color: purple">11:45 - 12:45 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span>
 <!-- -->
 
 
-<span style="color: green">12:45-13:45 Lunch --</span>
+<span style="color: green">12:45-14:00 Lunch --</span>
 
 <!-- -->
+<span style="color: orange">14:00 – 16:00 -- Practicum (use your own data)
 
+<span style="color: green">-- Break--</span>
 
-<span style="color: green">13:45-18:00-- Hiking excursion</span>
+<span style="color: green">16:30-18:00-- Hiking excursion</span>
 
 <!-- -->
 
@@ -186,13 +188,13 @@ laptop with MATLAB installed.
 **General Linear Modeling**
 
 
-<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
+<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span>
 
 <span style="color: green">12:30-13:45 Lunch --</span>
 
 **Source information flow**
 
-<span style="color: purple">13:45 – 15:30 -- Source information flow and Granger-Causal modeling tools (TBD)</span>
+<span style="color: purple">13:45 – 15:30 -- Source information flow and Granger-Causal modeling tools (Arnaud Delorme)</span>
 
 <span style="color: orange">15:45 – 17:30 -- SIFT and ROIconnect toolbox: practicum (TBD)</span>
 
