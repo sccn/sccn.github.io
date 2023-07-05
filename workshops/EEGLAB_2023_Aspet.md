@@ -139,9 +139,9 @@ laptop with MATLAB installed.
 
 
 <span style="color: purple">8:30 - 9:15 -- Why cluster ICA components? (Scott Makeig)</span>
-[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)
 
 <span style="color: purple">9:15 - 10:00 -- Cluster permutation testing (Robert Oostenveld)</span> 
+[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)
 
 <span style="color: green">-- Break--</span>
 
