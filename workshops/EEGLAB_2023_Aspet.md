@@ -116,7 +116,8 @@ laptop with MATLAB installed.
 
 **ICA and source analysis**
 
-<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)
+<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11958545/EEGLAB_WS_ASPET_2023_preprocessing_Session1_cont.pdf)
+
 
 <span style="color: green">-- Break--</span>
 
