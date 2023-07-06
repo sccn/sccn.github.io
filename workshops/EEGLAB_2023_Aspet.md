@@ -151,7 +151,7 @@ laptop with MATLAB installed.
 
 <span style="color: purple">10:45 - 11:45 -- Continued processing of HW dataset (ICA) (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf) (same PDF as previous session)
 
-<span style="color: purple">11:45 - 12:45 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span>[PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf)
+<span style="color: purple">11:45 - 12:45 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf)
 
 <!-- -->
 
