@@ -116,7 +116,7 @@ laptop with MATLAB installed.
 
 **ICA and source analysis**
 
-<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11958545/EEGLAB_WS_ASPET_2023_preprocessing_Session1_cont.pdf)
+<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Ramon Martinez)</span> (same PDF as previous data import session)
 
 
 <span style="color: green">-- Break--</span>
@@ -196,6 +196,7 @@ laptop with MATLAB installed.
 <span style="color: orange">10:15 - 11:30 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span>
 
 <span style="color: orange">11:30 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span>
+[PDF](https://github.com/sccn/sccn.github.io/files/11965482/EEGLAB_statistics2022.pdf)
 
 <span style="color: green">12:30-13:45 Lunch --</span>
 
@@ -206,6 +207,7 @@ laptop with MATLAB installed.
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">15:00 – 17:00 -- Source information flow and Granger-Causal modeling tools, SIFT and ROIconnect toolbox (Arnaud Delorme)</span>
+[PDF](https://github.com/sccn/sccn.github.io/files/11965451/Connectivity_lecture2023.pdf)
 
 <span style="color: green">19:45 -- Dinner </span>
  
