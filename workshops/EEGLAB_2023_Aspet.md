@@ -199,7 +199,7 @@ laptop with MATLAB installed.
 
 **Source information flow**
 
-<span style="color: orange">13:45 – 15:00 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span>
+<span style="color: orange">13:45 – 15:00 -- Continued processing of HW dataset (STUDY design and LIMO) (Ramon Martinez and Arnaud Delorme)</span>
 
 <span style="color: green">-- Break--</span>
 
