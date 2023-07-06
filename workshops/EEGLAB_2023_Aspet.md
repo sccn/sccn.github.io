@@ -183,7 +183,8 @@ laptop with MATLAB installed.
 
 <span style="color: purple">8:30 – 9:30 -- Time-frequency decompositions: Theory and practice (Scott Makeig)</span> 
 
-<span style="color: purple">9:30 – 10:00 -- Phase-Amplitude Coupling (Ramon Martinez)</span> 
+<span style="color: purple">9:30 – 10:00 -- Phase-Amplitude Coupling (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11965384/RMC_PACTools_EEGLAB_WS_Aspet_2023_PDF.pdf)
+
 
 <span style="color: green">-- Break--</span>
 
