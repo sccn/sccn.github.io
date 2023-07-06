@@ -191,21 +191,21 @@ laptop with MATLAB installed.
 **General Linear Modeling**
 
 
-<span style="color: orange">10:15 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span>
+<span style="color: orange">10:15 - 11:30 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span>
+
+<span style="color: orange">11:30 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span>
 
 <span style="color: green">12:30-13:45 Lunch --</span>
 
 **Source information flow**
 
-<span style="color: purple">13:45 – 15:30 -- Source information flow and Granger-Causal modeling tools (Arnaud Delorme)</span>
+<span style="color: orange">13:45 – 15:00 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span>
 
-<span style="color: orange">15:45 – 17:30 -- SIFT and ROIconnect toolbox: practicum (TBD)</span>
+<span style="color: green">-- Break--</span>
+
+<span style="color: purple">15:00 – 17:00 -- Source information flow and Granger-Causal modeling tools, SIFT and ROIconnect toolbox (Arnaud Delorme)</span>
 
 <span style="color: green">19:45 -- Dinner </span>
-
-
-
-
  
 <u><span style="color: blue">Friday, July 7th</span></u>
 
@@ -217,10 +217,9 @@ laptop with MATLAB installed.
 
 <span style="color: green">-- Break--</span>
 
-
 <span style="color: orange">10:30 – 11:30 -- Practicum, small group projects</span>
 
-<span style="color: orange">11:30 – 12:00 -- Participant project presentations and general discussion</span>
+<span style="color: orange">11:30 – 12:00 -- General discussion</span>
 <!-- -->
 
 
