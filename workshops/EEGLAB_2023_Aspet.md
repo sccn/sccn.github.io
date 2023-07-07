@@ -215,9 +215,10 @@ laptop with MATLAB installed.
 
 <span style="color: green">7:30-8:30 -- Breakfast</span>
 
-<span style="color: purple">8:30 – 9:30 -- Mining event-related brain dynamics II (Scott Makeig)</span> 
+<span style="color: purple">8:30 – 9:30 -- Deep learning and EEG (Arnaud Delorme)</span> 
+[PDF](https://github.com/sccn/sccn.github.io/files/11975145/ucsd22workshop_DL-EEG.pdf)
 
-<span style="color: purple">9:30 – 10:15 -- Deep learning and EEG (Arnaud Delorme)</span> 
+<span style="color: purple">9:30 – 10:15 -- Mining event-related brain dynamics II (Scott Makeig)</span> 
 
 <span style="color: green">-- Break--</span>
 
