@@ -108,7 +108,7 @@ EEG = pop_dipfit_settings( EEG, 'hdmfile',fullfile(bemPath, 'standard_vol.mat'),
 
 Then calculate a volumetric leadfield matrix using Fieldtrip function
 *ft_prepare_leadfield*. Note that the head model is also used to
-assess whether a given voxel is within or outside the brain. (Note: Please ensure that the Fieldtrip-lite plugin is installed. If not, please go to File → Manage EEGLAB extensions to install the Fieldtrip-lite plugin in EEGLAB.)
+assess whether a given voxel is within or outside the brain.
 
 
 ``` matlab
