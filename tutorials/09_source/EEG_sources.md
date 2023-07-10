@@ -5,7 +5,7 @@ long_title: c. EEG source model
 parent: 9. Source analysis
 grand_parent: Tutorials
 ---
-Equivalent dipole source localization of EEG data
+Equivalent dipole source localization of EEG or ERP data
 ========================================
 {: .no_toc }
 
@@ -21,9 +21,9 @@ Equivalent dipole source localization of EEG data
 Using DIPFIT to fit one dipole to EEG or ERP scalp maps
 --------
 
-Though the implementation of the DIPFIT plugin has not been expressly
-designed to fit dipoles to raw ERP or EEG scalp maps, EEGLAB provides a
-command-line function allowing DIPFIT to do so. Fitting may only be
+EEGLAB provides a command-line implementation of the [DIPFIT plugin](https://github.com/sccn/dipfit) to fit 
+dipoles to raw ERP or EEG scalp maps that has otherwise not been 
+expressly designed anywhere else. Fitting may only be
 performed at selected time points, not throughout a time window. First,
 you must specify the DIPFIT settings on the selected dataset. Then, to fit a
 time point at 100 ms in an average ERP waveform (for example) from the
@@ -67,7 +67,7 @@ Its graphical output is the same as the script shown in the next section.
 Advanced source reconstruction using DIPFIT/Fieldtrip
 --------
 
-DIPFIT relies on Fieldtrip, though in fact, DIPFIT was also an ancestor
+Background: DIPFIT relies on Fieldtrip, though in fact, DIPFIT was also an ancestor
 of Fieldtrip: when Robert Oostenveld, the first Fieldtrip developer,
 decided to release source imaging functions he had developed during his
 dissertation work, he first packaged them in EEGLAB as DIPFIT. A few
@@ -78,7 +78,7 @@ maintained for use in Fieldtrip. Below is a short tutorial on how to
 perform source modeling using Fieldtrip applied to data in an EEGLAB
 dataset.
 
-First, use DIPFIT to align the electrode
+Implementation: First, use DIPFIT to align the electrode
 locations with a head model of choice (menu item <span style="color: brown">Tools → Locate
 dipoles using DIPFIT → Head model and settings</span>). The resulting DIPFIT
 information may then be used to perform source localization in
@@ -109,6 +109,7 @@ EEG = pop_dipfit_settings( EEG, 'hdmfile',fullfile(bemPath, 'standard_vol.mat'),
 Then calculate a volumetric leadfield matrix using Fieldtrip function
 *ft_prepare_leadfield*. Note that the head model is also used to
 assess whether a given voxel is within or outside the brain.
+
 
 ``` matlab
 %% Leadfield Matrix calculation
@@ -308,6 +309,7 @@ Relevant Fieldtrip tutorials
 -   [Minimum norm
     estimates](http://www.fieldtriptoolbox.org/tutorial/minimumnormestimate/)
     for MEG, but can be adapted for EEG
+-  [Previous tutorial version of DIPFIT](https://sccn.ucsd.edu/eeglab/dipfittut/dipfit.htmlold)
 
 This section was written by Arnaud Delorme with contributions and
 feedback from Robert Oostenveld and Scott Makeig.
