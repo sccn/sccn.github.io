@@ -110,6 +110,12 @@ component scalp maps: (1) the DIPFIT plugin described here and (2) the
 [Neuroelectromagnetic Forward modeling Toolbox (NFT)](https://github.com/sccn/nft). The DIPFIT plugin is the default approach in EEGLAB. The NFT plugin can also perform distributed cortical source imaging and build individual subject
 electrical (forward) head models from an available subjects' MR head image and sufficient EEG.
 
+What reference for ICA components?
+--------
+ICA components are reference-free. If you re-reference data after computing ICA components in EEGLAB, the ICA component scalp topography will remain the same. So ICA components, because of the ICA algorithm properties, are computed under the ideal infinity reference irrespective of the original reference of the data. However, this reference can only be approximated by creating a forward solution over the entire scalp. If the ICA topography and the forward solution of the dipole being fitted are not consistent (as they use different approximations of the infinite reference), then the optimal dipole(s) positions(s) are not accurately determined. In other words, we should not use ICA components scalp topography with an infinity reference source localization model. Instead, both the ICA topography and the dipole model should be re-referenced using the same infinite reference approximation.
+
+In practice, before performing source localization in DIPFIT, the scalp topography of ICA components is recomputed using an average reference (the mean of the ICA projection to all channels is removed), as the forward model is also computed with an average reference. During dipole fitting, the model and the averaged reference ICA topography are compared, and dipole parameters are adjusted until the model matches the scalp topography as closely as possible. Thank you to Robert Oostenveld for helping clarify this section.
+
 Dipole fitting with DIPFIT
 --------
 
