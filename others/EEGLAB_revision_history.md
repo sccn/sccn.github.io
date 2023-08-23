@@ -14,6 +14,11 @@ Minor revisions are indicated using a second number: thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
+## EEGLAB version 2023.1
+
+- Issue date: August 23rd 2023; GIT tag: eeglab2023.1
+- **Version statistics**: xxx files changed, xxx commits, xxxxx additions and xxxx deletions.
+
 ## EEGLAB version 2023.0
 
 - Issue date: March 3rd 2023; GIT tag: eeglab2023.0
