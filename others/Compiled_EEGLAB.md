@@ -218,6 +218,8 @@ rmdir(fullfile(FieldTrip_folder,'external','signal'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','mffmatlabio'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','egi_mff_v2'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','sqdproject'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','afni'), 's');
+rmdir(fullfile(FieldTrip_folder,'external','bemcp'), 's');
 ```
 
 3. Optional: Edit the eeglab.m file and add new plugins to the compiled version of EEGLAB (line 900). Change the version of EEGLAB in the prj file.
