@@ -206,6 +206,7 @@ iclabel_folder = fileparts(which('iclabel.m'));
 % For Fieldtrip remove folders compat, external/afni, external/spm8, external/spm12, external/gifti, external/eeglab, external/bemcp and external/npmk
 FieldTrip_folder = fileparts(which('ft_defaults.m'));
 rmdir(fullfile(FieldTrip_folder,'compat'), 's');
+rmdir(fullfile(FieldTrip_folder,'test'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','afni'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','spm8'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','spm12'), 's');
