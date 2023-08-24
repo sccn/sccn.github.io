@@ -88,7 +88,7 @@ Troubleshooting the compiled version of EEGLAB
 -----------------------------------------------
 On MAC OSX, you might get a message that your operating system is too old, so you should try an older version of the compiled EEGLAB version.
 
-Starting EEGLAB usually means opening your *Application* (Mac) or *Program files* folder, opening the EEGLAB folder, and clicking on the EEGLAB application. There are some caveat though:
+Starting EEGLAB usually means opening your *Application* (Mac) or *Program files* folder, opening the EEGLAB folder, and clicking on the EEGLAB application. There are some caveats, though:
 - If this does not work, try running EEGLAB as an administrator
 - On MAC, if clicking the App does not work, try invoking a terminal, go to the folder containing EEGLAB, and type in
 
@@ -96,7 +96,7 @@ Starting EEGLAB usually means opening your *Application* (Mac) or *Program files
 ./run_EEGLAB.sh /Applications/MATLAB_R2022b.app
 ```
 
-If you call *run_EEGLAB.sh* without argument, it will tell you that you need to point to the MATLAB runtime engine. Above, we pointed to */Applications/MATLAB_R2022b.app*, but the folder might be different on your computer. Note that the runtime engine must correspond to the MATLAB version with which EEGLAB was compiled. The runtime engine is installed with EEGLAB, so it should already be on your computer, but you might still need to point to it.
+If you call *run_EEGLAB.sh* without argument, it will tell you that you need to point to the MATLAB runtime engine. Above, we pointed to */Applications/MATLAB_R2022b.app*, but the folder might be different on your computer. Note that the runtime engine must correspond to the MATLAB version with which EEGLAB was compiled. The runtime engine is installed with EEGLAB, so it should already be on your computer. If it is not, you can download it [here](https://www.mathworks.com/products/compiler/matlab-runtime.html). The version to install is 2022b (for EEGLAB 2023.0 and 2023.1).
 
 - On MAC, the EEGLAB terminal does not show by default. Instead, it would be best if you used the solution above from the terminal. Alternatively, you click on the program named *eeglab_run_this_one_on_osx_or_linux*, which is an executable. This does not always work due to permission problems.
 
