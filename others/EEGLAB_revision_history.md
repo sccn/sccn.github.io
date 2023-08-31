@@ -19,12 +19,19 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - Issue date: August 23rd 2023; GIT tag: eeglab2023.1
 - **Version statistics**: 50 files changed, 99 commits, 957 additions, and 395 deletions.
 - **Major changes**: Update a variety of functions to process MEG datasets, including source localization (see [tutorial](https://eeglab.org/tutorials/misc/EEGLAB_and_MEG_data.html)). 
-**New feature**: EEGLAB redraw detects dataset changes. There is no more need to store the current dataset in the ALLEEG structure.
+- **New feature**: EEGLAB redraw detects dataset changes. There is no more need to store the current dataset in the ALLEEG structure.
+- **New feature**: New option "scatter" for control electrode size and color in topoplot.
+- **New feature**: Computing custom features for STUDY and retreiving field content using std_readeegfield.
 - **Interoperability**: Now support ERPLAB new menu status and new variables, and better support for -99 boundary event.
+- **Interoperability**: Now support version of LIMO with updated GUI.
 - **Bug fix**: Fixed MEG Neuromag automated coordinate transformation.
 - **Bug fix**: Parfor option fix when processing multiple datasets from the EEGLAB menu. Fix parallel channel location assignment.
-- 
-
+- **Bug fix**: Fixed issue with detecting removed channels when re-referencing the data.
+- **Bug fix**: Fixed issue with saving large EEG files (>2Gb).
+- **SIFT plugin**: Fixed some minor GUI issues and rewrote the tutorial, including new sections to compute statistics.
+- **Clean_rawdata plugin**: New option to fuse channels rejected by clean_rawdata on multiple runs of the same subject.
+- **DIPFIT plugin**: Fix handling non-EEG channels when computing Loreta 
+- **bids-matlab-io plugin:** better import of MEG data, and many more small bug fixes and improvements.
   
 ## EEGLAB version 2023.0
 
