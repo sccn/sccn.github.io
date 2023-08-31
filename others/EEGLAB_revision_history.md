@@ -9,8 +9,8 @@ EEGLAB downloads in ZIP format are available [here](https://sccn.ucsd.edu/eeglab
 These include the latest release as well as older versions of EEGLAB.
 
 As of 2019, we are using the year of the release as the main revision number. 
-Minor revisions are indicated using a second number: thus,
-2019.0 is version 2019, first release; 2019.1 is version 2019, second release, etc..
+Minor revisions are indicated using a second number; thus,
+2019.0 is version 2019, first release; 2019.1 is version 2019, second release, etc...
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
@@ -18,12 +18,12 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 - Issue date: August 23rd 2023; GIT tag: eeglab2023.1
 - **Version statistics**: 50 files changed, 99 commits, 957 additions, and 395 deletions.
-- **Major changes**: Update a variety of functions to process MEG datasets, including source localization (see [tutorial](https://eeglab.org/tutorials/misc/EEGLAB_and_MEG_data.html)). 
-- **New feature**: EEGLAB redraw detects dataset changes. There is no more need to store the current dataset in the ALLEEG structure.
+- **New feature**: EEGLAB redraw detects dataset changes. There is no more need to store the current dataset in the ALLEEG structure if you modify it on the command line.
 - **New feature**: New option "scatter" for control electrode size and color in topoplot.
 - **New feature**: Computing custom features for STUDY and retrieving field content using std_readeegfield.
 - **Interoperability**: Now support ERPLAB new menu status and new variables, and better support for -99 boundary event.
 - **Interoperability**: Now support version of LIMO with updated GUI.
+- **Bug fix**: Update a variety of functions to process MEG datasets, including source localization (see [tutorial](https://eeglab.org/tutorials/misc/EEGLAB_and_MEG_data.html)). 
 - **Bug fix**: Fixed MEG Neuromag automated coordinate transformation.
 - **Bug fix**: Parfor option fix when processing multiple datasets from the EEGLAB menu. Fix parallel channel location assignment.
 - **Bug fix**: Fixed issue with detecting removed channels when re-referencing the data.
