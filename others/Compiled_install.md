@@ -2,6 +2,8 @@ Installing the compiled version of EEGLAB
 -----------------------------------------------
 Below are the instructions to install the Mac version. The Windows version follows the same procedure. Uncompress the archive and run the installer. The following screen will pop up.
 
+<br/><br/> 
+
 <img width="844" alt="Screen Shot 2023-09-01 at 11 40 52 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/de3a5a88-8c88-4c72-84ca-5d54bab23cb2">
 
 <br/><br/> 
@@ -12,7 +14,11 @@ Simply press next. Press next as well on the next three screens. Do not change t
 
 <img width="839" alt="Screen Shot 2023-09-01 at 11 40 59 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/4b291279-5d08-462a-b89f-6b6283b7e6cb">
 
+<br/><br/> 
+
 <img width="841" alt="Screen Shot 2023-09-01 at 11 41 17 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/1a2b6822-59d6-4e2c-b376-5bdd0d020a0d">
+
+<br/><br/> 
 
 <img width="841" alt="Screen Shot 2023-09-01 at 11 10 54 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/9c197d8b-d664-4787-a770-634cd36a5b44">
 
