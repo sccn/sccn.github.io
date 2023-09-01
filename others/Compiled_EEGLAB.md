@@ -24,12 +24,10 @@ page](https://sccn.ucsd.edu/eeglab/download.php). The video below shows how to i
 {:toc}
 </details>
 
-Refer to this document for step-by-step instructions on installing the [compiled version of EEGLAB](Compiled_install.md).
-
 Installation
 ------------
 
-Below are the instructions to install the Mac version. The Windows version follows the same procedure. Uncompress the archive and run the installer. 
+Below are the instructions to install the MAC version. The Windows version follows the same procedure (although it is somewhat less complex towards the end, which is why we focus on the MAC version). Uncompress the archive and run the installer. 
 
 -   Download the ZIP file for the EEGLAB compiled version on the
     [download page](http://sccn.ucsd.edu/eeglab/download.php) and
