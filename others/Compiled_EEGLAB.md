@@ -26,42 +26,70 @@ page](https://sccn.ucsd.edu/eeglab/download.php). The video below shows how to i
 
 Refer to this document for step-by-step instructions on installing the [compiled version of EEGLAB](Compiled_install.md).
 
-Installation for MATLAB
+Installation
 ------------
+
+Below are the instructions to install the Mac version. The Windows version follows the same procedure. Uncompress the archive and run the installer. 
 
 -   Download the ZIP file for the EEGLAB compiled version on the
     [download page](http://sccn.ucsd.edu/eeglab/download.php) and
     uncompress it
--   Each zip file contains 2 folders "for_redistribution" and
-    "for_redistribution_files_only." Start by starting the installer in
-    "for_redistribution" folder. If all goes well, this is the only
-    thing you have to do to install EEGLAB.
--   If for some reason, the installation process fails (permission issue,
-    for example), you may use the files in the folder
-    "for_redistribution_files_only." Note that these files require that
-    the MATLAB runtime engine be installed on your system - this step
-    should have been done automatically above but we will assume here
-    that this step fails. These are available as separate download
-    [here](https://www.mathworks.com/products/compiler/matlab-runtime.html)
-    (the Runtime version you need should appear when you attempt to start EEGLAB).
--   Notes for MacOS and Linux users: Apparently, the compiled version of
-    EEGLAB needs to be installed using root user credentials. If you
-    experience problems during the installation process on Mac, after
-    downloading the zip file, open a terminal, go to the folder
-    *for_redistribution/MyAppInstaller_web.app/Contents/MacOS* and type
-    in *sudo ./setup*. This will start the installation as root. Once
-    installed, you may use EEGLAB under your user (non-root) account.
+-   Uncompress the zip file and run the installation file.
+-   If, for some reason, the installation process fails, you may need to run it as an administrator
 
-Starting EEGLAB
----------------
+The following screen will pop up.
 
--   Click "EEGLAB" to start EEGLAB (however, see below)
--   Create shortcuts if necessary on the Desktop and in the "Start" menu
--   It is often preferable to have the command line output of EEGLAB as
-    it contains relevant information. On Windows, start EEGLAB using the
-    file "eeglab_run_this_one_on_windows.bat." On OSx and Ubuntu, use
-    the file run_EEGLAB.sh (might require to have its permission changed
-    to be executable; otherwise, the content of the script will be shown).
+<br/><br/> 
+
+<img width="844" alt="Screen Shot 2023-09-01 at 11 40 52 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/de3a5a88-8c88-4c72-84ca-5d54bab23cb2">
+
+<br/><br/> 
+
+Simply press next. Press next as well on the next three screens. Do not change the default paths.
+
+<br/><br/> 
+
+<img width="839" alt="Screen Shot 2023-09-01 at 11 40 59 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/4b291279-5d08-462a-b89f-6b6283b7e6cb">
+
+<br/><br/> 
+
+<img width="841" alt="Screen Shot 2023-09-01 at 11 41 17 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/1a2b6822-59d6-4e2c-b376-5bdd0d020a0d">
+
+<br/><br/> 
+
+<img width="841" alt="Screen Shot 2023-09-01 at 11 10 54 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/9c197d8b-d664-4787-a770-634cd36a5b44">
+
+<br/><br/> 
+
+**MAC only**. When the installation is completed, the following message shows up. **YOU CAN IGNORE THE MESSAGE**
+
+<br/><br/> 
+
+<img width="837" alt="Screen Shot 2023-09-01 at 11 54 52 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/eaee9f29-9875-4b2e-91f6-5e904484278f">
+
+<br/><br/> 
+
+Instead, go to the installed EEGLAB version and select the file **eeglab_run_this_one_on_osx_or_linux** or **eeglab_run_this_one_on_windows** as shown below. Do not click on **EEGLAB** because you will either not have the command prompt (on Windows) or EEGLAB will not start (on MAC) unless you set the path above (the part we mention you should ignore). Setting the path is fine, but it is not straightforward. 
+
+<br/><br/> 
+
+<img width="912" alt="Screen Shot 2023-09-01 at 11 57 00 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/68d6b2d4-1659-46ae-9990-df2d4c3cb6e2">
+
+<br/><br/> 
+
+It should take about 1 minute for EEGLAB to start.
+
+<br/><br/> 
+
+<img width="844" alt="Screen Shot 2023-09-01 at 11 42 30 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/8a08b846-a0cb-45b2-9be8-f8732f5a6ecf">
+
+## Troubleshooting
+
+On both MAC and Windows, you might need to run EEGLAB as an administrator to be able to access some folders.
+
+On MAC OSX, you might get a message that your operating system is too old, so you should try an older version of the compiled EEGLAB version.
+
+Let us know if you encounter problems and how you solved them.
 
 Similarity between the compiled and the MATLAB version of EEGLAB
 ------------------------------------------------------
