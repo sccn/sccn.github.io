@@ -210,12 +210,14 @@ rmdir(fullfile(FieldTrip_folder,'external','sqdproject'), 's');
 
 3. Open the "eeglab.prj" file in the Matlab editor. Check the path for plugins. If a new version is available, rename the version in the eeglab.prj file.
 
-3. Change the EEGLAB version in the eeg_getversion.m and in the eeglab.prj files.
+3. Change the EEGLAB version in the eeg_getversion.m **and** in the eeglab.prj files.
 
 3. Open the Application compiler (Matlab tab "Apps" and button
 "Application compiler") and open the "eeglab.prj" file. DO NOT RESAVE THE PROJECT IN THE APPLICATION COMPILER AS IT TENDS TO MESS UP PATHS FOR CROSS PLATFORM COMPILATION.
 
 4. On the command line, type "setenv('MCC_USE_DEPFUN','1')". There will still be class errors when checking dependencies, but the EEGLAB will compile anyway.
+
+5. If not using 2022b to compile, edit the file run_this_one_on_osx_and_linux and change the version number
 
 4. Press "Package" and wait (usually 30 minutes or so)
 
@@ -233,10 +235,10 @@ On Mac and OSX use ./run_eeglab.sh MATLAB_PATH.
 
 ### Plugins selected for future inclusion
 
-Selected for future inclusion but require testing. If you have a plugin
+Selected for future inclusion but requires testing. If you have a plugin
 you want to include, please try compiling with the plugin and testing
 the plugin in the compiled EEGLAB version. If all is functional, email
-us at eeglab_at_sccn.ucsd.edu and your plugin will be included in the
+us at eeglab_at_sccn.ucsd.edu, and your plugin will be included in the
 next release.
 
 Adding new plugins
