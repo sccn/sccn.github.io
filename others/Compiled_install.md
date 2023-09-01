@@ -12,11 +12,11 @@ Simply press next. Press next as well on the next three screens. Do not change t
 
 <img width="841" alt="Screen Shot 2023-09-01 at 11 10 54 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/9c197d8b-d664-4787-a770-634cd36a5b44">
 
-<br>
-<br>
+
+
 **MAC only**. When the installation is completed, the following message shows up. **YOU CAN IGNORE THE MESSAGE**
-<br>
-<br>
+
+
 
 <img width="837" alt="Screen Shot 2023-09-01 at 11 54 52 AM" src="https://github.com/sccn/sccn.github.io/assets/1872705/eaee9f29-9875-4b2e-91f6-5e904484278f">
 
