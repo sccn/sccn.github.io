@@ -24,7 +24,7 @@ page](https://sccn.ucsd.edu/eeglab/download.php). The video below shows how to i
 {:toc}
 </details>
 
-Refer to this document for installing the compiled version of EEGLAB.
+Refer to this document for step-by-step instructions on installing the [compiled version of EEGLAB](Compiled_install.md).
 
 Installation for MATLAB
 ------------
