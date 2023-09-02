@@ -22,16 +22,15 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **New feature**: New option "scatter" for control electrode size and color in topoplot.
 - **New feature**: Computing custom features for STUDY and retrieving field content using std_readeegfield.
 - **Interoperability**: Now support ERPLAB new menu status and new variables, and better support for -99 boundary event.
-- **Interoperability**: Now support version of LIMO with updated GUI.
-- **Bug fix**: Update a variety of functions to process MEG datasets, including source localization (see [tutorial](https://eeglab.org/tutorials/misc/EEGLAB_and_MEG_data.html)). 
-- **Bug fix**: Fixed MEG Neuromag automated coordinate transformation.
-- **Bug fix**: Parfor option fix when processing multiple datasets from the EEGLAB menu. Fix parallel channel location assignment.
+- **Interoperability**: Now support the version of LIMO with updated GUI (LIMO version 4 not yet released).
+- **Bug fix**: Update a variety of functions to process MEG datasets, including source localization function (see [tutorial](https://eeglab.org/tutorials/misc/EEGLAB_and_MEG_data.html)). 
+- **Bug fix**: Parallel option fixed when processing multiple datasets from the EEGLAB menu.
 - **Bug fix**: Fixed issue with detecting removed channels when re-referencing the data.
 - **Bug fix**: Fixed issue with saving large EEG files when the option is not selected (>2Gb).
-- **SIFT plugin**: Fixed some minor GUI issues and rewrote the tutorial, including new sections to compute statistics.
-- **Clean_rawdata plugin**: New option to fuse channels rejected by clean_rawdata on multiple runs of the same subject.
-- **DIPFIT plugin**: Fix handling non-EEG channels when computing Loreta 
-- **bids-matlab-io plugin:** better import of MEG data, and many more small bug fixes and improvements.
+- **SIFT plugin**: Fixed some minor GUI issues and rewrote the tutorial, including new sections to compute [statistics](https://github.com/sccn/SIFT/wiki/Chapter-7.-Statistics-in-SIFT).
+- **DIPFIT plugin**: Fix handling non-EEG channels when computing Loreta and Leadfield matrix.
+- **bids-matlab-io plugin:** Better import of MEG data, and many more small bug fixes and improvements.
+- **ROIconnect plugin:** Improved compatibility. This plugin is still in beta and will be released soon.
   
 ## EEGLAB version 2023.0
 
