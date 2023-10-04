@@ -1,0 +1,29 @@
+---
+layout: default
+title: Setting up your lab
+long_title: EEGLAB data structures
+parent: Concepts guide
+grand_parent: Tutorials
+nav_order: 5
+---
+EEGLAB Data Structures
+=======================
+{: .no_toc }
+
+This section is intended for users who wish to [use EEGLAB and its
+functions in MATLAB scripts](/tutorials/ConceptsGuide/EEGLAB_functions.html). We have tried
+to make EEG structures as simple and as transparent as possible so that
+advanced users can use them to efficiently process their data. 
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+Introduction
+------------
+
