@@ -7,9 +7,42 @@ grand_parent: Tutorials
 nav_order: 1
 ---
 
+In this section, we describe how to set up your EEG lab, with a strong emphasis on obtaining good EEG data quality. 
 
-EEGLAB Data Structures
+Data quality is crucial for EEG research. Researchers depend on clean and precise data to draw valid conclusions about brain function and behavior.
+If the collected EEG data contains artifacts or noise, it can introduce errors and bias, leading to invalidation of the hypothesis or misleading results. 
+EEG recordings are susceptible to various artifacts, including muscle activity, eye blinks, environmental interference, and electrode impedance problems. These artifacts can introduce confounding factors, masking or distorting the true brain signals of interest. High-quality data minimizes the presence of artifacts, enhancing the accuracy of the observed brain activity and reducing confounds.
+
+Cleaning up bad data or removing artifacts is a time-consuming and complex task. Poor data quality increases the workload on researchers, as they have to spend significant time and effort identifying and removing unwanted signals. Importantly, very often, it is not even possible to remove artifacts from EEG data, and doing so can [decrease statistical power](https://www.nature.com/articles/s41598-023-27528-0). By ensuring high-quality data from the beginning, the analysis process becomes more efficient, saving time and resources. 
+
+STUDY design
+============
+
+
+Pre-registration
 =======================
+Once your study has been funded, you might want to preregister it).
+
+Preregistration in science refers to the practice of specifying the details of a scientific study (e.g., research question, methods, data analysis plan) before the data is collected or analyzed. This approach has several advantages:
+
+1. Reduces biases: Preregistration helps prevent the problem of "HARKing" (Hypothesizing After Results are Known) and other forms of bias. By declaring research plans in advance, researchers reduce the temptation to selectively report or analyze only the results that support their hypotheses, which ensures greater transparency and integrity in scientific research. It does not mean that you cannot conduct exploratory analyses, only that you will need to indicate so in your paper.
+
+2. Reproducibility: Preregistration enhances research reproducibility by providing a clear record of the original study plan. 
+
+3. Eliminates p-hacking and data dredging: Preregistration discourages the practice of p-hacking, which involves selectively analyzing or reporting data until a desired statistically significant result is achieved. It also prevents data dredging or "fishing" for statistically significant patterns by exploring multiple hypotheses or variables without clear a priori reasoning.
+
+4. Methodological transparency: Preregistration promotes transparency by requiring researchers to disclose detailed information about the study design, sample size, data collection procedures, and analysis plans. This transparency allows readers to better evaluate the quality and reliability of the conducted research, reducing the chance of publishing erroneous or misleading findings.
+
+5. Improves study design: The process of preregistration encourages researchers to carefully plan and justify their study aims, methods, and statistical analyses in advance. Often, you will see small things that could be improved in your design as you lay down all the details. This leads to a more thoughtful and robust study design and reduces the likelihood of post hoc changes that might compromise the validity of the results.
+
+6. Reduces publication bias: Preregistration helps combat publication bias, where studies with significant or exciting results tend to be published more often than those with nonsignificant or less interesting findings. By preregistering studies, researchers can diminish this bias, as journals are more open to publishing studies with preregistration records regardless of the obtained results.
+
+Overall, preregistration in science promotes transparency, reduces biases, enhances reproducibility, and improves the overall quality of research, contributing to the advancement of knowledge and scientific progress. There are also now 100 journals that publish study protocol before the manuscript is published (see the bottom of this [page](https://hsls.libguides.com/scholarly-communication/where-should-i-publish) for more information). 
+
+Pulling from Existing Subject Pool (Recruitment of Old Subjects)
+
+
+
 {: .no_toc }
 
 This section is intended for users who wish to [use EEGLAB and its
