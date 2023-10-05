@@ -50,19 +50,33 @@ The added advantage of pre-registration is **decreased stress** for the research
 
 There are several reputable EEG (electroencephalography) research systems available on the market. Most are being made by companies that have been there for decades. 
 
-*. BrainAmp series by Brain Products: Known for its high system, these systems offer various amplifier options and software solutions. Offers a convenient way to check the impedance on the cap with LEDs.
+* Brain Products: The company offers various amplifier options and software solutions. Offers a convenient way to check the impedance on the cap with LEDs.
 
-*. BioSemi ActiveTwo: This active electrode system provides excellent signal quality, low noise, and is known for its ease of use. Because this company only offers one system and provides no analysis software, it is often cheaper than other solutions. This company is known for its CMS/DRL noise reduction (see below) although other companies use it too. It is also known for not directly measuring electrode impedance (instead using a custom offset) and this annoys a lot of researchers.
+* BioSemi: This company offers a single active electrode system that provides excellent signal quality, low noise, and is known for its ease of use. Because this company only offers one system and provides no analysis software, it is often cheaper than other solutions. This company is known for its CMS/DRL noise reduction (see below), although other companies use it too. It is also known for not directly measuring electrode impedance (instead using a custom offset) and this annoys a lot of researchers.
 
-*. Neuroscan by Compumedics: This is the oldest company, comparable to Brainamps, with more focus on clinical research.
+* Neuroscan by Compumedics: This is the oldest company, comparable to Brainamps, with more focus on clinical research.
 
-*. g.Nautilus by g.tec: A wireless and mobile EEG system designed for neurofeedback and brain-computer interface (BCI) applications. 
+* g.tec: g.tek provides wireless and mobile EEG systems designed for neurofeedback and brain-computer interface (BCI) applications. 
 
-*. ANT Neuro: A company created more than two decades ago like BrainAmps. 
+* ANT Neuro: A company created more than two decades ago. 
 
-*. EGI/Magstim (formerly Philips Neuro): Known for its water-based electrode system (as compared to gel-based), this company has changed hands several times. The hardware is solid and their gel caps are considered some of the best in the industry. Innovation at this company has slowed down in the past decade since it changed hands twice. However, BIOSEMI is still using the same amplifiers. EEG does not evolve that fast.
+* EGI/Magstim (formerly Philips Neuro): Known for its water-based electrode system (as compared to gel-based), this company has changed hands several times. The hardware is solid and their gel caps are considered some of the best in the industry. Innovation at this company has slowed down in the past decade since it changed hands twice. However, BIOSEMI is still using the same amplifiers. EEG does not evolve that fast.
 
-We have personally worked with all of these systems. Collecting EEG data is not rocket science, and the quality of the data is likely more linked to the cap than the EEG amplifier which use decade old technology.
+We have personally worked with all of these systems. Amplifying EEG data is not rocket science, and the quality of the data is more linked to the cap than the EEG amplifier, which uses decade-old technology.
+
+What about consumer-grade EEG systems, for example:
+
+* Emotiv: For example, the Epoc+ 16-channel consumer-grade EEG system that offers a more affordable and accessible option. It is suitable for basic brain activity monitoring and is often used in gaming and entertainment applications. This is a water-based system. Although the EEG amplifier is probably OK (although there is one amplifier than scans each channel in sequence, in comparison to the research grade system above which have one amplifier per electrode), the quality of the signal coming from the spongy electrodes is low (still EEG, just bad EEG). We do not recommend this system for research. 
+
+* Muse: Muse offers different headsets, but all of them have a low channel count (less than 5). Even though this is considered a dry system, the company advises wetting electrodes with water to increase signal quality. Like BIOSEMI, this system uses the CMS/DRL correction.
+
+* OpenBCI: Sells an open-sourced design for low budgets. The same remark applies to the Emotiv solution.
+
+The main issue with consumer-grade EEG is the low signal quality when recording on the scalp (when recording directly on the skin (forehead), the signal quality is likely comparable to research-grade systems). The main reason is that the signal quality on the scalp relies on using gel-based electrode systems (which these consumer systems do not want to use).
+
+We are not mentioning here research-level dry electrode systems (some of the companies listed above have a dry electrode system solution), and there are other companies that specialize in that (Cognionics, Quasar, Wearable sensing, etc.). We do not believe the data quality is on par with gel systems (see below). 
+
+There are many more companies. 
 
 # Active vs. passive electrode
 
@@ -147,9 +161,6 @@ Dry electrode versus "wet" cap vs "water-based" cap. Dry electrodes and "wet" ca
 
 In general, because data quality is essential, research should be conducted with a wet gel-based system. Then, in case this is not possible, a water-based system is the second best choice (for example, in clinical applications or applications with kids). Dry electrodes are the last choice, although it makes sense to use them when embedded in an audio headset, a VR system, or an earbud. 
 
-What about consumer-grade EEG systems, for example:
-
-5. Emotiv Epoc+: A 16-channel consumer-grade EEG system that offers a more affordable and accessible option. It is suitable for basic brain activity monitoring and is often used in gaming and entertainment applications.
 
 This is by no means an exhaustive list, and there are many other reputable EEG systems available. The best choice ultimately depends on the specific requirements, budget, research needs, and intended application of the EEG system.
 
