@@ -32,7 +32,7 @@ There are several reputable EEG (electroencephalography) research systems availa
 
 * Brain Products: The company offers various amplifier options and software solutions. Offers a convenient way to check the impedance on the cap with LEDs.
 
-* BioSemi: This company offers a single active electrode system that provides excellent signal quality, low noise, and is known for its ease of use. Because this company only offers one system and provides no analysis software, it is often cheaper than other solutions. This company is known for its CMS/DRL noise reduction (see below), although other companies use it too. It is also known for not directly measuring electrode impedance (instead using a custom offset) and this annoys a lot of researchers.
+* BioSemi: This company offers a single active electrode system that provides excellent signal quality, low noise, and is known for its ease of use. Because this company only offers one system and provides no analysis software, it is often cheaper than other solutions. This company is known for its CMS/DRL noise reduction (see below), although other companies use it too. It is also known for not directly measuring electrode impedance (instead using a custom offset), which annoys some researchers (for good reasons).
 
 * Neuroscan by Compumedics: This is the oldest company, comparable to Brainamps, with more focus on clinical research.
 
@@ -40,13 +40,13 @@ There are several reputable EEG (electroencephalography) research systems availa
 
 * ANT Neuro: A company created more than two decades ago. 
 
-* EGI/Magstim (formerly Philips Neuro): Known for its water-based electrode system (as compared to gel-based), this company has changed hands several times. The hardware is solid and their gel caps are considered some of the best in the industry. Innovation at this company has slowed down in the past decade since it changed hands twice. However, BIOSEMI is still using the same amplifiers. EEG does not evolve that fast.
+* EGI/Magstim (formerly Philips Neuro): Known for its water-based electrode system (as compared to gel-based), this company has changed hands several times. The hardware is solid, and their gel caps are considered some of the best in the industry. Innovation at this company has slowed down in the past decade since it changed hands twice. However, BIOSEMI is still using the same amplifiers. EEG does not evolve that fast.
 
 These are the main companies for EEG research, and we have personally worked with all of these systems. Amplifying EEG data is not rocket science, and the quality of the data is more linked to the cap than the EEG amplifier, which uses decade-old technology.
 
 What about consumer-grade EEG systems, for example:
 
-* Emotiv: For example, the Epoc+ 16-channel consumer-grade EEG system that offers a more affordable and accessible option. It is suitable for basic brain activity monitoring and is often used in gaming and entertainment applications. This is a water-based system. Although the EEG amplifier is probably OK (although there is one amplifier than scans each channel in sequence, in comparison to the research grade system above which have one amplifier per electrode), the quality of the signal coming from the spongy electrodes is low (still EEG, just bad EEG). We do not recommend this system for research. 
+* Emotiv: For example, the Epoc+ 16-channel consumer-grade EEG system offers a more affordable and accessible option. It is suitable for basic brain activity monitoring and is often used in gaming and entertainment applications. This is a water-based system. Although the EEG amplifier is probably OK (although there is one amplifier that scans each channel in sequence, in comparison to the research grade system above, which has one amplifier per electrode), the quality of the signal coming from the spongy electrodes is low (still EEG, just bad EEG). We do not recommend this system for research. 
 
 * Muse: Muse offers different headsets, but all of them have a low channel count (less than 5). Even though this is considered a dry system, the company advises wetting electrodes with water to increase signal quality. Like BIOSEMI, this system uses the CMS/DRL correction.
 
