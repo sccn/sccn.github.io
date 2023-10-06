@@ -52,11 +52,11 @@ What about consumer-grade EEG systems, for example:
 
 * OpenBCI: Sells an open-sourced design for low budgets. The same remark applies to the Emotiv solution.
 
-The main issue with *consumer-grade EEG* is the low signal quality when recording on the scalp (when recording directly on the skin (forehead), the signal quality is likely comparable to research-grade systems). The main reason is that the signal quality on the scalp relies on using gel-based electrode systems (which these consumer systems do not want to use).
+The main issue with **consumer-grade EEG** is the low signal quality when recording on the scalp (when recording directly on the skin (forehead), the signal quality is likely comparable to research-grade systems). The main reason is that the signal quality on the scalp relies on using gel-based electrode systems (which these consumer systems do not want to use).
 
-What about the *clinical EEG systems* (Nihon_Kohden and the like)? These systems offer similar signal quality as the research system, although the technology is often older (they do not use active electrodes, for example). The issue with such systems is that they are limited to low-density recordings (less than 32 channels) and make it difficult to record experimental events synchronized with the EEG.
+What about the **clinical EEG systems** (Nihon_Kohden and the like)? These systems offer similar signal quality as the research system, although the technology is often older (they do not use active electrodes, for example). The issue with such systems is that they are limited to low-density recordings (less than 32 channels) and make it difficult to record experimental events synchronized with the EEG.
 
-We are not mentioning here research-level *dry electrode systems* (some of the companies listed above have a dry electrode system solution), and there are other companies that specialize in that (Cognionics, Quasar, Wearable sensing, etc.). We do not believe the data quality is on par with gel systems (see below). 
+We are not mentioning here research-level **dry electrode systems** (some of the companies listed above have a dry electrode system solution), and there are other companies that specialize in that (Cognionics, Quasar, Wearable sensing, etc.). We do not believe the data quality is on par with gel systems (see below). 
 
 There are many more companies. 
 
@@ -112,15 +112,50 @@ In general, because data quality is essential, research should be conducted with
 
 This is by no means an exhaustive list, and there are many other reputable EEG systems available. The best choice ultimately depends on the specific requirements, budget, research needs, and intended application of the EEG system.
 
-# Maximizing EEG data quality - tips
+# Maximizing EEG data quality - tips and grand-mother recipes
+
+## Environmental noise
+
+Recording EEG data in a Faraday cage will lead to better signal quality and no line noise when done properly. In practice, most EEG experiments (>80%) are conducted outside a Faraday cage. However, when recording outside of a Faraday cage, minimizing environmental noise in the recording chamber is critical (note that this is also critical inside a Faraday cage).
+
+* Some researchers are obsessed with the quality of the ground signal in a building. We know of at least one EEG researcher expert in signal analysis who had an electrician create a second ground just for his EEG experiment. This is especially relevant for EEG systems that do not run on battery and are plugged to the wall. 
+
+* The subject and the experimenter should be isolated in a separate room. If they communicate with an intercom, make sure the intercom is far away from the subject. Do not use an intercom that relies on the electrical circuit to transmit the signal.
+
+* Remove metal objects touching the subject (or very close). For example, the subject should not be sitting on a metal chair. If the subject needs to respond to stimuli, make sure the button press or mouse pap is nonmetallic.
+
+* Remove any non-shielded battery or backup power. Non-shielded batteries can create very large noise artifacts, especially when plugged into the wall. Laptops if held far away from the subject, are probably OK. Laptops should not be plugged into the wall and run on battery if present with the subject in the recording room.
+
+* It is probably a good idea for the subject to remove anything that could be used as an antenna on his body (e.g., metal watch). 
+
+* Compute screens and light are the major sources of 50 Hz noise in the EEG. These should be placed as far as possible from the subject. Reduction of the 50 Hz noise is very important, as in practice, the lower the 50 noise is, the lower the noise is at other frequencies. One technique we have used is to have one electrode on a pole and go around the room to try to detect the source of noise (outlet, screen, etc.). EMF detectors can probably also be used. 
 
 ## Applying gel
 
 Using the syringe filled with gel, pushing down on the electrode well (so the gel doesn’t spread to other parts of the cap), part the participant’s hair with the needle until you reach the skin. Then squeeze a small amount of gel into each well. Press firmly but not so firmly that the subject experiences pain. DO NOT PUT TOO MUCH GEL IN, otherwise, the gel will spread between electrode wells across the scalp, merging multiple distinct EEG signals into one.
 
+Slightly irritating the scalp of the subject by asking them to brush their hair for 5 minutes may decrease electrode impedance and increase signal quality. 
+
 ## Checking impedances
 
 Decreasing electrode impedance and maximizing data quality (even for high-impedance systems using active electrodes) is critical. The extra 10 minutes you will spend making sure each electrode has a good connection is critical. In addition, ensuring that the reference electrode has the best possible is important. If there is noise in this electrode, it will reflect on all others. 
+
+# Scanning electrode position
+
+Scanning electrode position is easy (a smartphone and an app can construct detailed 3-D models) and can improve source location (even in the absence of the subject MRI). It should be done systematically even if you are not sure you are going to use that information (see this [page](https://github.com/sccn/get_chanlocs/wiki) for more information). 
+
+# EEG synchronisation
+
+Synchronizing EEG with experimental events is critical and needs to be performed with millisecond precision (in psychophysics, a 10-millisecond difference in reaction time is considered large). Here are a few tips.
+
+* If you are using visual stimuli, check the screen you are using. You should likely be using a low-latency, high-frequency (200 Hz or so) gaming screen. Standard LCD screens at 60 Hz can have all types of strange behavior: for example, the screen may be divided into 4 in hardware with the 4 sections of the screen shown in sequence -- which is invisible to the eye but not to the retina or visual system). Most psychophysics software allows to check the latency of stimuli presentation. However, researchers should still check with a photodiode that the visual stimulus is synchronized with the experimental event signal (coming out of the experimental computer and entered into the EEG event box).
+
+* Wireless EEG systems are subject to buffering, and this needs to be taken into account. This is partially handled by systems like the lab-streaming layer (LSL, developed in our lab).
+
+* Only rely on experimental event signals directly sent to the EEG system. For example, the LSL event stream will only offer a precision of a few milliseconds, which is considered substandard for EEG (this is OK when the event does not need to be precisely timed). Even if you are using LSL, make sure the subject responses are logged as an additional channel in the EEG (or directly logged along with the EEG depending on the system). For event-related studies, EEG should also always be recorded with at least a 1Khz sampling rate for that reason (otherwise, events will not be recorded with 1kHz precision). 
+
+
+
 
 <!--
 # Pre-registration
