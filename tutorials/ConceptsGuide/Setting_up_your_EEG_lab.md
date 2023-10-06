@@ -77,7 +77,8 @@ Active and passive EEG electrodes are two types of electrodes used in electroenc
 * Scalp Preparation: Active electrodes: Since active electrodes have a higher input impedance, they typically require less scalp preparation, such as cleaning or application of conductive gel, to ensure good electrical contact. Passive electrodes: Due to a potentially higher contact impedance, passive electrodes may require more thorough scalp preparation, including cleaning and gel application, to achieve optimal electrical contact.
 
 In summary, active electrodes have built-in amplification circuitry, provide better noise reduction, higher signal quality, and have higher input impedance compared to passive electrodes. However, they are more complex and expensive. Passive electrodes, on the other hand, lack built-in amplification circuitry and may pick up more noise and interferences, resulting in lower signal quality. They are simpler and cheaper but require more thorough scalp preparation for optimal contact.
-In practice, in the last decade, most of the EEG manufacturers sell active electrode systems, and they should be prefered for most applications.
+
+In practice, in the last decade, most EEG manufacturers have sold active electrode systems, which should be preferred for most applications. However, the difference in signal quality with a passive system is not large  (so you should not stop using your passive system if you have one).
 
 ## What is CMS/DRL correction?
 
