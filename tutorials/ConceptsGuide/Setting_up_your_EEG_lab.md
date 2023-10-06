@@ -56,9 +56,7 @@ The main issue with **consumer-grade EEG** is the low signal quality when record
 
 What about the **clinical EEG systems** (Nihon_Kohden and the like)? These systems offer similar signal quality as the research system, although the technology is often older (they do not use active electrodes, for example). The issue with such systems is that they are limited to low-density recordings (less than 32 channels) and make it difficult to record experimental events synchronized with the EEG.
 
-We are not mentioning here research-level **dry electrode systems** (some of the companies listed above have a dry electrode system solution), and there are other companies that specialize in that (Cognionics, Quasar, Wearable sensing, etc.). We do not believe the data quality is on par with gel systems (see below). 
-
-There are many more companies. 
+We are not mentioning here research-level **dry electrode systems** (some of the companies listed above have a dry electrode system solution), and there are other companies that specialize in that (Cognionics, Quasar, Wearable sensing, etc.). We do not believe the data quality is on par with gel systems (see below) and, therefore, would not recommend such systems.
 
 ## Active vs. passive electrode
 
