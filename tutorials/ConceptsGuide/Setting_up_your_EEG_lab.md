@@ -147,8 +147,7 @@ Synchronizing EEG with experimental events is critical and needs to be performed
 
 * Only rely on experimental event signals directly sent to the EEG system. For example, the LSL event stream will only offer a precision of a few milliseconds, which is considered substandard for EEG (this is OK when the event does not need to be precisely timed). Even if you are using LSL, make sure the subject responses are logged as an additional channel in the EEG (or directly logged along with the EEG depending on the system). For event-related studies, EEG should also always be recorded with at least a 1Khz sampling rate for that reason (otherwise, events will not be recorded with 1kHz precision). 
 
-
-
+*Note: This page only reflects Arnaud Delorme's personal opinion*
 
 <!--
 # Pre-registration
