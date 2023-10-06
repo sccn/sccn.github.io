@@ -62,29 +62,17 @@ There are many more companies.
 
 Active and passive EEG electrodes are two types of electrodes used in electroencephalography (EEG) to measure brain activity. Here are the key differences between active and passive EEG electrodes:
 
-1. Design: 
-   - Active electrodes: These electrodes have built-in amplification circuitry, which amplifies the weak electrical signals received from the brain before transmitting them to the EEG recording system. 
-   - Passive electrodes: These electrodes do not have built-in amplification circuitry and directly transmit the low voltage electrical signals from the brain to the EEG recording system.
+* Design: Active electrodes: These electrodes have built-in amplification circuitry, which amplifies the weak electrical signals received from the brain before transmitting them to the EEG recording system. Passive electrodes: These electrodes do not have built-in amplification circuitry and directly transmit the low-voltage electrical signals from the brain to the EEG recording system.
 
-2. Noise Reduction: 
-   - Active electrodes: Due to their built-in amplification circuitry, active electrodes can amplify the weak brain signals closer to the scalp, minimizing the effect of noise and interferences. 
-   - Passive electrodes: Since they lack amplification circuitry, passive electrodes are vulnerable to picking up more noise and interferences, which can affect the quality of the recorded EEG signals.
+* Noise Reduction: Active electrodes: Due to their built-in amplification circuitry, active electrodes can amplify the weak brain signals closer to the scalp, minimizing the effect of noise and interferences. Passive electrodes: Since they lack amplification circuitry, passive electrodes are vulnerable to picking up more noise and interference, which can affect the quality of the recorded EEG signals.
 
-3. Input Impedance: 
-   - Active electrodes: They typically have a very high input impedance, meaning they draw very little current from the scalp, reducing the contact impedance between the electrode and the scalp. 
-   - Passive electrodes: These electrodes often have higher contact impedance, as they do not have acamplification circuitry. This can result in a higher contact impedance and potentially lead to signal distortions.
+* Input Impedance: Active electrodes: Typically have a very high input impedance, meaning they draw very little current from the scalp, reducing the contact impedance between the electrode and the scalp. Passive electrodes: These electrodes often have higher contact impedance, as they do not have amplification circuitry. This can result in a higher contact impedance and potentially lead to signal distortions.
 
-4. Signal Quality: 
-   - Active electrodes: With their built-in amplification circuitry and low noise characteristics, active electrodes tend to provide higher signal quality and better signal-to-noise ratio compared to passive electrodes. 
-   - Passive electrodes: Due to their susceptibility to noise and interferences, passive electrodes may have lower signal quality and a lower signal-to-noise ratio.
+* Signal Quality: Active electrodes: With their built-in amplification circuitry and low noise characteristics, active electrodes tend to provide higher signal quality and better signal-to-noise ratio compared to passive electrodes. Passive electrodes: Due to their susceptibility to noise and interferences, passive electrodes may have lower signal quality and a lower signal-to-noise ratio.
 
-5. Complexity and Cost: 
-   - Active electrodes: Active electrodes are typically more complex and sophisticated, as they require additional circuitry for signal amplification. This complexity can lead to higher manufacturing costs. 
-   - Passive electrodes: Passive electrodes are simpler in design and do not require additional amplification circuitry, making them less complex and cheaper to manufacture.
+* Complexity and Cost: Active electrodes: Active electrodes are typically more complex and sophisticated, as they require additional circuitry for signal amplification. This complexity can lead to higher manufacturing costs. Passive electrodes: Passive electrodes are simpler in design and do not require additional amplification circuitry, making them less complex and cheaper to manufacture.
 
-6. Scalp Preparation: 
-   - Active electrodes: Since active electrodes have a higher input impedance, they typically require less scalp preparation, such as cleaning or application of conductive gel, to ensure good electrical contact. 
-   - Passive electrodes: Due to a potentially higher contact impedance, passive electrodes may require more thorough scalp preparation, including cleaning and gel application, to achieve optimal electrical contact.
+* Scalp Preparation: Active electrodes: Since active electrodes have a higher input impedance, they typically require less scalp preparation, such as cleaning or application of conductive gel, to ensure good electrical contact. Passive electrodes: Due to a potentially higher contact impedance, passive electrodes may require more thorough scalp preparation, including cleaning and gel application, to achieve optimal electrical contact.
 
 In summary, active electrodes have built-in amplification circuitry, provide better noise reduction, higher signal quality, and have higher input impedance compared to passive electrodes. However, they are more complex and expensive. Passive electrodes, on the other hand, lack built-in amplification circuitry and may pick up more noise and interferences, resulting in lower signal quality. They are simpler and cheaper but require more thorough scalp preparation for optimal contact.
 In practice, in the last decade, most of the EEG manufacturers sell active electrode systems, and they should be prefered for most applications.
@@ -105,42 +93,19 @@ Overall, CMS/DRL correction is a valuable method for enhancing the signal-to-noi
 
 Dry electrode versus "wet" cap vs "water-based" cap. Dry electrodes and "wet" caps are both types of electrodes used in electroencephalography (EEG) to measure brain activity. However, they differ in terms of their contact with the scalp and the use of conductive materials.
 
-*. Dry electrodes: 
-- Dry electrodes do not require the use of conductive gels or creams to establish contact with the scalp.
-- They are typically made of carbon or metal and have a system built within the electrode to improve conductivity.
-- Advantages:
-  - Easy to use and less messy compared to wet electrodes.
-  - Faster setup time as there is no need to apply conductive gels.
-- Disadvantages:
-  - Generally, lower signal quality due to reduced contact with the scalp.
-  - Sometimes rigid so heavier
-  - More susceptible to environmental noise and movement artifacts.
-  - Reduced signal stability over long periods of time.
-  - increased pressure to keep contact that can lead to subject headaches
+*. Dry electrodes: Dry electrodes do not require the use of conductive gels or creams to establish contact with the scalp. They are typically made of carbon or metal and have a system built within the electrode to improve conductivity.
+- Advantages: Easy to use and less messy compared to wet electrodes. Faster setup time as there is no need to apply conductive gels.
+- Disadvantages: Generally, lower signal quality due to reduced contact with the scalp. Sometimes rigid so heavier. More susceptible to environmental noise and movement artifacts. Reduced signal stability over long periods of time. increased pressure to keep contact that can lead to subject headaches
 
-*. "Wet" caps (also known as gel electrodes):
-- "Wet" caps use conductive gels or creams to establish a good electrical connection between the electrode and the scalp.
-- These caps consist of several electrodes embedded in a flexible cap or a headgear.
-- Advantages:
-  - Better contact with the scalp resulting in higher signal quality and reduced noise.
-  - More stable signals
-- Disadvantages:
-  - Takes time to set up (about 30 minute to 1 hour)
-  - Subjects have gel in their hair and often need to wash their hair at the end of the experiment
-  - Require time-consuming cleaning process
+*. "Wet" caps (also known as gel electrodes): "Wet" caps use conductive gels or creams to establish a good electrical connection between the electrode and the scalp. These caps consist of several electrodes embedded in a flexible cap or a headgear.
+- Advantages: Better contact with the scalp resulting in higher signal quality and reduced noise. More stable signals
+- Disadvantages: Takes time to set up (about 30 minute to 1 hour). Subjects have gel in their hair and often need to wash their hair at the end of the experiment. Require time-consuming cleaning process.
 
-*. "Water-based" caps (e.g. EGI company or Emotiv):
-- "water-based" caps use saline water instead of conductive gels or creams to establish an electrical connection between the electrode and the scalp.
-- These caps consist of several electrodes embedded in a flexible cap or a headgear.
-- Advantages:
-  - Quick set up time
-  - Subject may have slightly wet hair at the end of the experiment, but might not need to wash their hair right away
-- Disadvantage:
-  - Water bridges can form (direct connection between two channels) which can create later problems during data analysis. This is especially a problem for high-density systems (128 channels or more).
-  - Electrodes dry up and may need to be re-wet every 20 minutes
+*. "Water-based" caps (e.g. EGI company or Emotiv): "water-based" caps use saline water instead of conductive gels or creams to establish an electrical connection between the electrode and the scalp. These caps consist of several electrodes embedded in a flexible cap or a headgear.
+- Advantages: Quick set up time. Subject may have slightly wet hair at the end of the experiment, but might not need to wash their hair right away.
+- Disadvantage: Water bridges can form (direct connection between two channels) which can create later problems during data analysis. This is especially a problem for high-density systems (128 channels or more). Electrodes dry up and may need to be re-wet every 20 minutes.
 
 In general, because data quality is essential, research should be conducted with a wet gel-based system. Then, in case this is not possible, a water-based system is the second best choice (for example, in clinical applications or applications with kids). Dry electrodes are the last choice, although it makes sense to use them when embedded in an audio headset, a VR system, or an earbud. 
-
 
 This is by no means an exhaustive list, and there are many other reputable EEG systems available. The best choice ultimately depends on the specific requirements, budget, research needs, and intended application of the EEG system.
 
