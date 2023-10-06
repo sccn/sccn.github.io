@@ -26,28 +26,6 @@ Cleaning up bad data or removing artifacts is a time-consuming and complex task.
 {:toc}
 </details>
 
-# Pre-registration
-
-Once your study has been funded, you might want to preregister it).
-
-Preregistration in science refers to the practice of specifying the details of a scientific study (e.g., research question, methods, data analysis plan) before the data is collected or analyzed. This approach has several advantages:
-
-1. Reduces biases: Preregistration helps prevent the problem of "HARKing" (Hypothesizing After Results are Known) and other forms of bias. By declaring research plans in advance, researchers reduce the temptation to selectively report or analyze only the results that support their hypotheses, which ensures greater transparency and integrity in scientific research. It does not mean that you cannot conduct exploratory analyses, only that you will need to indicate so in your paper.
-
-2. Reproducibility: Preregistration enhances research reproducibility by providing a clear record of the original study plan. 
-
-3. Eliminates p-hacking and data dredging: Preregistration discourages the practice of p-hacking, which involves selectively analyzing or reporting data until a desired statistically significant result is achieved. It also prevents data dredging or "fishing" for statistically significant patterns by exploring multiple hypotheses or variables without clear a priori reasoning.
-
-4. Methodological transparency: Preregistration promotes transparency by requiring researchers to disclose detailed information about the study design, sample size, data collection procedures, and analysis plans. This transparency allows readers to better evaluate the quality and reliability of the conducted research, reducing the chance of publishing erroneous or misleading findings.
-
-5. Improves study design: The process of preregistration encourages researchers to carefully plan and justify their study aims, methods, and statistical analyses in advance. Often, you will see small things that could be improved in your design as you lay down all the details. This leads to a more thoughtful and robust study design and reduces the likelihood of post hoc changes that might compromise the validity of the results.
-
-6. Reduces publication bias: Preregistration helps combat publication bias, where studies with significant or exciting results tend to be published more often than those with nonsignificant or less interesting findings. By preregistering studies, researchers can diminish this bias, as journals are more open to publishing studies with preregistration records regardless of the obtained results.
-
-Overall, preregistration in science promotes transparency, reduces biases, enhances reproducibility, and improves the overall quality of research, contributing to the advancement of knowledge and scientific progress. There are also now 100 journals that publish study protocols before the manuscript is published (see the bottom of this [page](https://hsls.libguides.com/scholarly-communication/where-should-i-publish) for more information). 
-
-The added advantage of pre-registration is **decreased stress** for the researcher. You have already planned everything, and most journals (including prestigious ones) will publish negative results (especially if they published your protocol). 
-
 # Which EEG system to use
 
 There are several reputable EEG (electroencephalography) research systems available on the market. Most are being made by companies that have been there for decades. 
@@ -166,19 +144,35 @@ In general, because data quality is essential, research should be conducted with
 
 This is by no means an exhaustive list, and there are many other reputable EEG systems available. The best choice ultimately depends on the specific requirements, budget, research needs, and intended application of the EEG system.
 
-# Maximizing EEG data quality
+# Maximizing EEG data quality - tips
 
+## Applying gel
 
-Most of these items are true for most
+Using the syringe filled with gel, pushing down on the electrode well (so the gel doesn’t spread to other parts of the cap), part the participant’s hair with the needle until you reach the skin. Then squeeze a small amount of gel into each well. Press firmly but not so firmly that the subject experiences pain. DO NOT PUT TOO MUCH GEL IN, otherwise, the gel will spread between electrode wells across the scalp, merging multiple distinct EEG signals into one.
 
-Using the syringe filled with gel, pushing down on the electrode well (so the gel doesn’t spread to other parts of the cap), part the participant’s hair with the needle until you reach the skin. Then squeeze a small amount of gel into each well. Press firmly but not so firmly that the subject experiences pain
-DO NOT PUT TOO MUCH GEL IN, otherwise the gel will spread between electrode wells across the scalp, merging multiple distinct EEG signals into one
-Once all the wells have been filled, take the cable banks and match the number on the cable electrode to the electrode well label; pop them in one by one using one cable per colored section
-The letters on the cable bank do not have to match the letters on the electrode well labels (if bank A is unavailable, bank E can be used in place of bank A)
-Any other cable bank letter can be substituted as long as the numbers match up (cable E1 can go into electrode well A1 on the cap, cable E2 into A2, etc.)
-Checking impedances
-Connect the banks to the top of the amplifier in the order that they are attached on the cap (section A on the cap, then section B, then section C etc.)
-Do not follow the alphabetical order of the cable bank designation because they might not correspond to the letter of the section on the cap
-Connect the other end of the USB cable that’s plugged into the receiver to the far right monitor used for the control computer
-On the Desktop, open ActiView, a BioSemi data viewing and recording software, on the control computer
-Press Start at the top left to view the live streaming EEG data
+## Checking impedances
+
+Decreasing electrode impedance and maximizing data quality (even for high-impedance systems using active electrodes) is critical. The extra 10 minutes you will spend making sure each electrode has a good connection is critical. In addition, ensuring that the reference electrode has the best possible is important. If there is noise in this electrode, it will reflect on all others. 
+
+<!--
+# Pre-registration
+
+Once your study has been funded, you might want to preregister it).
+
+Preregistration in science refers to the practice of specifying the details of a scientific study (e.g., research question, methods, data analysis plan) before the data is collected or analyzed. This approach has several advantages:
+
+1. Reduces biases: Preregistration helps prevent the problem of "HARKing" (Hypothesizing After Results are Known) and other forms of bias. By declaring research plans in advance, researchers reduce the temptation to selectively report or analyze only the results that support their hypotheses, which ensures greater transparency and integrity in scientific research. It does not mean that you cannot conduct exploratory analyses, only that you will need to indicate so in your paper.
+
+2. Reproducibility: Preregistration enhances research reproducibility by providing a clear record of the original study plan. 
+
+3. Eliminates p-hacking and data dredging: Preregistration discourages the practice of p-hacking, which involves selectively analyzing or reporting data until a desired statistically significant result is achieved. It also prevents data dredging or "fishing" for statistically significant patterns by exploring multiple hypotheses or variables without clear a priori reasoning.
+
+4. Methodological transparency: Preregistration promotes transparency by requiring researchers to disclose detailed information about the study design, sample size, data collection procedures, and analysis plans. This transparency allows readers to better evaluate the quality and reliability of the conducted research, reducing the chance of publishing erroneous or misleading findings.
+
+5. Improves study design: The process of preregistration encourages researchers to carefully plan and justify their study aims, methods, and statistical analyses in advance. Often, you will see small things that could be improved in your design as you lay down all the details. This leads to a more thoughtful and robust study design and reduces the likelihood of post hoc changes that might compromise the validity of the results.
+
+6. Reduces publication bias: Preregistration helps combat publication bias, where studies with significant or exciting results tend to be published more often than those with nonsignificant or less interesting findings. By preregistering studies, researchers can diminish this bias, as journals are more open to publishing studies with preregistration records regardless of the obtained results.
+
+Overall, preregistration in science promotes transparency, reduces biases, enhances reproducibility, and improves the overall quality of research, contributing to the advancement of knowledge and scientific progress. There are also now 100 journals that publish study protocols before the manuscript is published (see the bottom of this [page](https://hsls.libguides.com/scholarly-communication/where-should-i-publish) for more information). 
+
+The added advantage of pre-registration is **decreased stress** for the researcher. You have already planned everything, and most journals (including prestigious ones) will publish negative results (especially if they published your protocol). -->
