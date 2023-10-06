@@ -42,7 +42,7 @@ There are several reputable EEG (electroencephalography) research systems availa
 
 * EGI/Magstim (formerly Philips Neuro): Known for its water-based electrode system (as compared to gel-based), this company has changed hands several times. The hardware is solid and their gel caps are considered some of the best in the industry. Innovation at this company has slowed down in the past decade since it changed hands twice. However, BIOSEMI is still using the same amplifiers. EEG does not evolve that fast.
 
-We have personally worked with all of these systems. Amplifying EEG data is not rocket science, and the quality of the data is more linked to the cap than the EEG amplifier, which uses decade-old technology.
+These are the main companies for EEG research, and we have personally worked with all of these systems. Amplifying EEG data is not rocket science, and the quality of the data is more linked to the cap than the EEG amplifier, which uses decade-old technology.
 
 What about consumer-grade EEG systems, for example:
 
@@ -52,9 +52,11 @@ What about consumer-grade EEG systems, for example:
 
 * OpenBCI: Sells an open-sourced design for low budgets. The same remark applies to the Emotiv solution.
 
-The main issue with consumer-grade EEG is the low signal quality when recording on the scalp (when recording directly on the skin (forehead), the signal quality is likely comparable to research-grade systems). The main reason is that the signal quality on the scalp relies on using gel-based electrode systems (which these consumer systems do not want to use).
+The main issue with *consumer-grade EEG* is the low signal quality when recording on the scalp (when recording directly on the skin (forehead), the signal quality is likely comparable to research-grade systems). The main reason is that the signal quality on the scalp relies on using gel-based electrode systems (which these consumer systems do not want to use).
 
-We are not mentioning here research-level dry electrode systems (some of the companies listed above have a dry electrode system solution), and there are other companies that specialize in that (Cognionics, Quasar, Wearable sensing, etc.). We do not believe the data quality is on par with gel systems (see below). 
+What about the *clinical EEG systems* (Nihon_Kohden and the like)? These systems offer similar signal quality as the research system, although the technology is often older (they do not use active electrodes, for example). The issue with such systems is that they are limited to low-density recordings (less than 32 channels) and make it difficult to record experimental events synchronized with the EEG.
+
+We are not mentioning here research-level *dry electrode systems* (some of the companies listed above have a dry electrode system solution), and there are other companies that specialize in that (Cognionics, Quasar, Wearable sensing, etc.). We do not believe the data quality is on par with gel systems (see below). 
 
 There are many more companies. 
 
