@@ -7,7 +7,9 @@ grand_parent: Tutorials
 nav_order: 1
 ---
 
-In this section, we describe how to set up your EEG lab, with a strong emphasis on obtaining good EEG data quality. 
+In this section, we describe how to set up your EEG lab, with a strong emphasis on obtaining good EEG high-density data quality. 
+
+![Screen Shot 2023-10-05 at 5 02 02 PM](https://github.com/sccn/sccn.github.io/assets/1872705/9245aecd-dd9b-4b14-a551-0c4e89051248)
 
 Data quality is crucial for EEG research. Researchers depend on clean and precise data to draw valid conclusions about brain function and behavior.
 If the collected EEG data contains artifacts or noise, it can introduce errors and bias, leading to invalidation of the hypothesis or misleading results. 
