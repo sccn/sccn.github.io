@@ -58,6 +58,8 @@ What about the **clinical EEG systems** (Nihon_Kohden and the like)? These syste
 
 We are not mentioning here research-level **dry electrode systems** (some of the companies listed above have a dry electrode system solution), and there are other companies that specialize in that (Cognionics, Quasar, Wearable sensing, etc.). We do not believe the data quality is on par with gel systems (see below) and, therefore, would not recommend such systems.
 
+This is by no means an exhaustive list, and there are many other reputable EEG systems available.
+
 ## Active vs. passive electrode
 
 Active and passive EEG electrodes are two types of electrodes used in electroencephalography (EEG) to measure brain activity. Here are the key differences between active and passive EEG electrodes:
@@ -108,7 +110,6 @@ Dry electrode versus "wet" cap vs "water-based" cap. Dry electrodes and "wet" ca
 
 In general, because data quality is essential, research should be conducted with a wet gel-based system. Then, in case this is not possible, a water-based system is the second best choice (for example, in clinical applications or applications with kids). Dry electrodes are the last choice, although it makes sense to use them when embedded in an audio headset, a VR system, or an earbud. 
 
-This is by no means an exhaustive list, and there are many other reputable EEG systems available. The best choice ultimately depends on the specific requirements, budget, research needs, and intended application of the EEG system.
 
 # Maximizing EEG data quality - tips and grand-mother recipes
 
