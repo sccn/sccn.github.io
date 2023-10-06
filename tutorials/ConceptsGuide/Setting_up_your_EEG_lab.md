@@ -96,17 +96,17 @@ Overall, CMS/DRL correction is a valuable method for enhancing the signal-to-noi
 
 Dry electrode versus "wet" cap vs "water-based" cap. Dry electrodes and "wet" caps are both types of electrodes used in electroencephalography (EEG) to measure brain activity. However, they differ in terms of their contact with the scalp and the use of conductive materials.
 
-*. Dry electrodes: Dry electrodes do not require the use of conductive gels or creams to establish contact with the scalp. They are typically made of carbon or metal and have a system built within the electrode to improve conductivity.
-- Advantages: Easy to use and less messy compared to wet electrodes. Faster setup time as there is no need to apply conductive gels.
-- Disadvantages: Generally, lower signal quality due to reduced contact with the scalp. Sometimes rigid so heavier. More susceptible to environmental noise and movement artifacts. Reduced signal stability over long periods of time. increased pressure to keep contact that can lead to subject headaches
+* Dry electrodes: Dry electrodes do not require the use of conductive gels or creams to establish contact with the scalp. They are typically made of carbon or metal and have a system built within the electrode to improve conductivity.
+** Advantages: Easy to use and less messy compared to wet electrodes. Faster setup time as there is no need to apply conductive gels.
+** Disadvantages: Generally, lower signal quality due to reduced contact with the scalp. Sometimes rigid so heavier. More susceptible to environmental noise and movement artifacts. Reduced signal stability over long periods of time. increased pressure to keep contact that can lead to subject headaches
 
-*. "Wet" caps (also known as gel electrodes): "Wet" caps use conductive gels or creams to establish a good electrical connection between the electrode and the scalp. These caps consist of several electrodes embedded in a flexible cap or a headgear.
-- Advantages: Better contact with the scalp resulting in higher signal quality and reduced noise. More stable signals
-- Disadvantages: Takes time to set up (about 30 minute to 1 hour). Subjects have gel in their hair and often need to wash their hair at the end of the experiment. Require time-consuming cleaning process.
+* "Wet" caps (also known as gel electrodes): "Wet" caps use conductive gels or creams to establish a good electrical connection between the electrode and the scalp. These caps consist of several electrodes embedded in a flexible cap or a headgear.
+** Advantages: Better contact with the scalp resulting in higher signal quality and reduced noise. More stable signals
+** Disadvantages: Takes time to set up (about 30 minute to 1 hour). Subjects have gel in their hair and often need to wash their hair at the end of the experiment. Require time-consuming cleaning process.
 
-*. "Water-based" caps (e.g. EGI company or Emotiv): "water-based" caps use saline water instead of conductive gels or creams to establish an electrical connection between the electrode and the scalp. These caps consist of several electrodes embedded in a flexible cap or a headgear.
-- Advantages: Quick set up time. Subject may have slightly wet hair at the end of the experiment, but might not need to wash their hair right away.
-- Disadvantage: Water bridges can form (direct connection between two channels) which can create later problems during data analysis. This is especially a problem for high-density systems (128 channels or more). Electrodes dry up and may need to be re-wet every 20 minutes.
+* "Water-based" caps (e.g. EGI company or Emotiv): "water-based" caps use saline water instead of conductive gels or creams to establish an electrical connection between the electrode and the scalp. These caps consist of several electrodes embedded in a flexible cap or a headgear.
+** Advantages: Quick set up time. Subject may have slightly wet hair at the end of the experiment, but might not need to wash their hair right away.
+** Disadvantage: Water bridges can form (direct connection between two channels) which can create later problems during data analysis. This is especially a problem for high-density systems (128 channels or more). Electrodes dry up and may need to be re-wet every 20 minutes.
 
 In general, because data quality is essential, research should be conducted with a wet gel-based system. Then, in case this is not possible, a water-based system is the second best choice (for example, in clinical applications or applications with kids). Dry electrodes are the last choice, although it makes sense to use them when embedded in an audio headset, a VR system, or an earbud. 
 
