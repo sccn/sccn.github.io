@@ -140,11 +140,11 @@ Slightly irritating the scalp of the subject by asking them to brush their hair 
 
 Decreasing electrode impedance and maximizing data quality (even for high-impedance systems using active electrodes) is critical. The extra 10 minutes you will spend making sure each electrode has a good connection is critical. In addition, ensuring that the reference electrode has the best possible is important. If there is noise in this electrode, it will reflect on all others. 
 
-# Scanning electrode position
+## Scanning electrode position
 
 Scanning electrode position is easy (a smartphone and an app can construct detailed 3-D models) and can improve source location (even in the absence of the subject MRI). It should be done systematically even if you are not sure you are going to use that information (see this [page](https://github.com/sccn/get_chanlocs/wiki) for more information). 
 
-# EEG synchronisation
+## EEG synchronisation
 
 Synchronizing EEG with experimental events is critical and needs to be performed with millisecond precision (in psychophysics, a 10-millisecond difference in reaction time is considered large). Here are a few tips.
 
