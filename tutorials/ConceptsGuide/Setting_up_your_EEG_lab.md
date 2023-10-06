@@ -102,7 +102,7 @@ Dry electrode versus "wet" cap vs "water-based" cap. Dry electrodes and "wet" ca
 
 * "Water-based" caps (e.g. EGI company or Emotiv): "water-based" caps use saline water instead of conductive gels or creams to establish an electrical connection between the electrode and the scalp. These caps consist of several electrodes embedded in a flexible cap or a headgear. *Advantages:* Quick set up time. Subjects may have slightly wet hair at the end of the experiment, but might not need to wash their hair right away. *Disadvantage:* Water bridges can form (direct connection between two channels) which can create later problems during data analysis. This is especially a problem for high-density systems (128 channels or more). Electrodes dry up and may need to be re-wet every 20 minutes.
 
-In general, because data quality is essential, research should be conducted with a wet gel-based system. Then, in case this is not possible, a water-based system is the second best choice (for example, in clinical applications or applications with kids). Dry electrodes are the last choice, although it makes sense to use them when embedded in an audio headset, a VR system, or an earbud. 
+In general, because data quality is essential, research should be conducted with a wet gel-based system. Then, in case this is not possible, a water-based system is the second best choice (for example, in clinical applications or applications with kids where it is not possible to spend 30 minutes adjusting a cap). Dry electrodes are the last choice, although it makes sense to use them when embedded in an audio headset, a VR system, or an earbud. 
 
 
 # Maximizing EEG data quality - tips and grand-mother recipes
