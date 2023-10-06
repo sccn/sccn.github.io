@@ -60,7 +60,7 @@ We are not mentioning here research-level **dry electrode systems** (some of the
 
 There are many more companies. 
 
-# Active vs. passive electrode
+## Active vs. passive electrode
 
 Active and passive EEG electrodes are two types of electrodes used in electroencephalography (EEG) to measure brain activity. Here are the key differences between active and passive EEG electrodes:
 
@@ -92,7 +92,7 @@ By utilizing these extra electrodes, the CMS/DRL correction technique effectivel
 
 Overall, CMS/DRL correction is a valuable method for enhancing the signal-to-noise ratio and obtaining more reliable EEG measurements. The Biosemi company is known for this system although it might also be used by other companies (the Muse system also uses it). This type of correction is not needed when the EEG signal is recorded in a faraday cage. 
 
-# Dry vs. wet electrodes
+## Dry vs. wet electrodes
 
 Dry electrode versus "wet" cap vs "water-based" cap. Dry electrodes and "wet" caps are both types of electrodes used in electroencephalography (EEG) to measure brain activity. However, they differ in terms of their contact with the scalp and the use of conductive materials.
 
