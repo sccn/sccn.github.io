@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Setting up your lab
-long_title: EEGLAB data structures
+long_title: Setting up your lab
 parent: Concepts guide
 grand_parent: Tutorials
 nav_order: 1
