@@ -133,7 +133,7 @@ separated by commas, these extra characters are ignored. (NOTE: It is
 necessary to use the names *latency* and *type* for two of the fields.
 EEGLAB uses these two field names to extract, sort, and display events. These fields must be lowercase since MATLAB is case sensitive.) Event latencies may be in seconds, milliseconds, or samples in the text file, although they are always stored in EEGLAB in samples.
 In this interactive window, the input *Event indices* and checkbox
-*Append events?* may be used to insert new events or replace a subset of
+*Append events?* may be used to insert new events instead of replacing, which is the default behavior, a subset of
 events with new events (for instance, for large EEG files, which may have
 several event files).
 
