@@ -12,9 +12,9 @@ EEGLAB vs Commercial EEG software packages
 carried out by proprietary software with non-public source code?</i> <a href="http://www.nature.com/nphys/journal/v12/n7/full/nphys3815.html?WT.feed_name=subjects_physical-sciences">M. Buchanan, Nature Physics, 2016</a>
 </blockquote>
 
-EEGLAB permissive license allows commercial companies to use EEGLAB code (in MATLAB form or compiled form) in their product. This is the case, for example, for the [NeuroField](https://neurofield.org/software) software, which uses a C-Sharp compiled version of EEGLAB as a .NET library (as of late 2023). We urge commercial companies to acknowledge EEGLAB use and also contribute to its development by filing bug reports.
+EEGLAB permissive license allows commercial companies to use EEGLAB code (in MATLAB or compiled form) in their product. This is the case, for example, for the [NeuroField](https://neurofield.org/software) software, which uses a C-Sharp compiled version of EEGLAB as a .NET library (as of late 2023). We urge commercial companies to acknowledge EEGLAB use (which is part of the license terms) and also contribute to its development by filing bug reports.
 
-The table below compares the feature of EEGLAB, some of the most common features in what is currently best in the industry.
+The table below compares the features of EEGLAB, some of the most common features in what is currently best in the industry.
 
 <table>
 <th></th>
