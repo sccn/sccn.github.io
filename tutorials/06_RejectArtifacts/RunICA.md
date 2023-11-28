@@ -379,7 +379,7 @@ This is not to say that using PCA should be done systematically. In
 general, PCA will slightly corrupt the data by adding nonlinearities, so
 it is better to use the full rank data matrix whenever possible.
 
-A full discussion of corrupted ICA components, also called Ghost ICA components, is available in this [paper](https://www.frontiersin.org/articles/10.3389/frsip.2023.1064138/full).
+A full discussion of corrupted ICA components, also called Ghost ICA components, is available in this [paper](https://www.frontiersin.org/articles/10.3389/frsip.2023.1064138/full) and this [one](https://www.frontiersin.org/articles/10.3389/fnimg.2023.1331404/full).
 
 Issues with data rank deficiencies
 ---------------------------------------
