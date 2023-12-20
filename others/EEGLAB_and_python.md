@@ -62,6 +62,8 @@ The number of citation per year corresponds to the following five papers:
     MEG/EEG analysis. Computational intelligence and neuroscience, 2011,
     p.8.
 
+See also this third-party [report](https://doi.org/10.1016/j.neuri.2023.100154) which compares EEGLAB citations with other EEG analysis software packages. 
+
 Major differences between MATLAB and Python
 -------------------------------------------
 
