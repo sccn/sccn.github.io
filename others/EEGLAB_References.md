@@ -16,6 +16,12 @@ these papers, plus the extensive EEGLAB tutorial and help
 facilities, for instructions and examples of their use.
 </blockquote>
 
+## Third-party analysis of EEGLAB popularity
+
+Mohammad Fayaz (2023) The bibliometric analysis of EEGLAB software in the Web of Science indexed articles, Neuroscience Informatics, Volume 4, Issue 1, ISSN 2772-5286, [https://www.sciencedirect.com/science/article/pii/S2772528623000390](https://doi.org/10.1016/j.neuri.2023.100154). This article analyzes usage of EEGLAB compared to other EEG software packages, and shows it is still the most popular EEG software in 2023. 
+
+Hanke, M., & Halchenko, Y. O. (2011). Neuroscience Runs on GNU/Linux. Frontiers in neuroinformatics, 5, 8. [https://doi.org/10.3389/fninf.2011.00008](https://doi.org/10.3389/fninf.2011.00008). This article (footnotes) shows that EEGLAB is the most popular EEG software.
+
 ## EEGLAB ICA methods introductions
 
 Makeig S, Debener S, Onton J, Delorme A (2004) Mining event-related
