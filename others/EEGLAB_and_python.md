@@ -126,6 +126,8 @@ limitations if they need it for their work. By contrast, the less popular [Spyde
 How to call EEGLAB functions from Python
 ----------------------------------------
 
+## Using Oct2Py
+
 If you want or need to call EEGLAB functions from Python, the best
 solution is to use the Python package Oct2py (pip install Oct2py). You
 will need to install Octave as well. See [this
@@ -165,6 +167,10 @@ If the raw data is stored in a separate *.fdt* file, the *read_epochs_eeglab* MN
 import mne
 EEG = mne.io.read_epochs_eeglab('eeglabfile.set')
 ```
+
+## Using MATLAB runtime Engine under Python or MATLAB compiled Python library
+
+We do not advise these solutions as EEGLAB data structures are too complex to be passed on from MATLAB to Python. When executing the Python code, you will get an error "only 1xN and Nx1 char arrays can be returned from MATLAB" (which is not technically correct as many [different data types](https://www.mathworks.com/help/matlab/matlab_external/handle-data-returned-from-matlab-to-python.html) are handled). However, the EEGLAB EEG structure contains arrays of structures for events and channels and is not handled. This has been the case for at least four years as of 2024, with no improved support in sight. Look for unsupported data types on this [page](https://www.mathworks.com/help/matlab/matlab_external/handle-data-returned-from-matlab-to-python.html) (as of 2024, the website lists "structure arrays" and "cell arrays" as unsupported data types). Note that the Oct2Py interface described above handles these data types just fine. 
 
 Will EEGLAB ever run natively on Python?
 ----------------------------------------
