@@ -136,7 +136,7 @@ to run EEGLAB on Octave. The way this Python library works is that it
 converts Python data structures to MATLAB/Octave data structures and
 vice versa. Based on our research, it is the simplest and most stable way
 to run MATLAB functions in Python, and most EEGLAB functions may be
-called from within Python using this method.
+called from within Python using this method (change xxx to the location where EEGLAB is installed on your computer).
 
 ``` Python
 # import dataset from EEGLAB
@@ -146,7 +146,7 @@ octave.addpath('/data/matlab/eeglab/functions/popfunc');
 octave.addpath('/data/matlab/eeglab/functions/adminfunc');
 octave.addpath('/data/matlab/eeglab/functions/sigprocfunc');
 octave.addpath('/data/matlab/eeglab/functions/miscfunc');
-EEG = octave.pop_loadset('/data/matlab/eeglab/sample_data/eeglab_data_epochs_ica.set');
+EEG = octave.pop_loadset('/xxxx/eeglab/sample_data/eeglab_data_epochs_ica.set');
 
 # plot first trial of channel 1
 import matplotlib.pyplot as plt
@@ -158,14 +158,14 @@ The SCIPY Python library can import EEGLAB files, when the raw data is embedded 
 
 ``` Python
 import scipy.io as sio
-EEG = sio.loadmat('eeglabfile.set')
+EEG = sio.loadmat('eeglab_data_epochs_ica.set')
 ```
 
 If the raw data is stored in a separate *.fdt* file, the *read_epochs_eeglab* MNE function can also import EEGLAB data files.
 
 ``` Python
 import mne
-EEG = mne.io.read_epochs_eeglab('eeglabfile.set')
+EEG = mne.io.read_epochs_eeglab('eeglab_data_epochs_ica.set')
 ```
 
 ### Using MATLAB runtime Engine under Python or MATLAB compiled Python library
