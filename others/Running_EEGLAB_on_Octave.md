@@ -22,8 +22,7 @@ Install Octave and EEGLAB
 Download the latest version of Octave from [this
 page](https://www.gnu.org/software/octave/download.html). EEGLAB has
 been best tested using Octave 6.1 on Windows but might also run on later
-versions and other platforms. We recommend the Octave installer for Windows, which has all toolboxes (signal processing, statistics, etc...) pre-installed. For Mac, you might also want to install gnu-tar to be able to uncompress Octave packages (brew install gnu-tar).
-
+versions and other platforms. We recommend the Octave installer for Windows, which has all toolboxes (signal processing, statistics, etc...) pre-installed. 
 ### Optional octave settings
 
 To avoid having Octave show warning messages constantly, change the startup option and add "--traditional --brainless --quiet" (on Windows, select the Octave icon's property, and add the following options to the *Target* field).
@@ -31,7 +30,7 @@ To avoid having Octave show warning messages constantly, change the startup opti
 ### Non-windows Octave releases
 
 If you are running Octave on Linux or macOS, in addition to Octave, you will need to install the Octave signal
-processing and statistics package. On the Octave command line, type:
+processing and statistics package. For Mac, you might also want to install gnu-tar to be able to uncompress Octave packages (brew install gnu-tar). On the Octave command line, type:
 
 ```
 pkg install -forge control
