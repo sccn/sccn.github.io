@@ -140,13 +140,16 @@ called from within Python using this method (change xxx to the location where EE
 
 ``` Python
 # import dataset from EEGLAB
-from oct2py import octave
-octave.addpath('/data/matlab/eeglab/functions/guifunc');
-octave.addpath('/data/matlab/eeglab/functions/popfunc');
-octave.addpath('/data/matlab/eeglab/functions/adminfunc');
-octave.addpath('/data/matlab/eeglab/functions/sigprocfunc');
-octave.addpath('/data/matlab/eeglab/functions/miscfunc');
-EEG = octave.pop_loadset('/xxxx/eeglab/sample_data/eeglab_data_epochs_ica.set');
+from oct2py import octave as eeglab
+path2eeglab = 'xxxxx'
+
+eeglab.addpath(path2eeglab + '/functions/guifunc');
+eeglab.addpath(path2eeglab + '/functions/popfunc');
+eeglab.addpath(path2eeglab + '/functions/adminfunc');
+eeglab.addpath(path2eeglab + '/functions/sigprocfunc');
+eeglab.addpath(path2eeglab + '/functions/miscfunc');
+eeglab.addpath(path2eeglab + '/plugins/dipfit');
+EEG = eeglab.pop_loadset(path2eeglab + '/sample_data/eeglab_data_epochs_ica.set');
 
 # plot first trial of channel 1
 import matplotlib.pyplot as plt
@@ -167,6 +170,10 @@ If the raw data is stored in a separate *.fdt* file, the *read_epochs_eeglab* MN
 import mne
 EEG = mne.io.read_epochs_eeglab('eeglab_data_epochs_ica.set')
 ```
+
+**Stability consideration:** We have found the Oct2py interface very stable. Issues usually arise when an EEGLAB function is not fully compatible with Octave (most functions should be compatible, including ICLabel; However, EEGLAB is optimized for MATLAB, not Octave).
+
+**Speed consideration:** When using EEGLAB with this method, due to automated data conversion delay and lack of optimization in Octave, one should expect a 2x or more slowdown compared to using EEGLAB on MATLAB or native Python libraries.
 
 ### Using MATLAB runtime Engine under Python or MATLAB compiled Python library
 
