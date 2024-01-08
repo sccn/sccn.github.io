@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Create an EEGLAB plugin
-long_title: Create an EEGLAB plugin
+title: EEGLAB dev philosophy
+long_title: EEGLAB dev philosophy
 parent: How to contribute?
 grand_parent: Tutorials
 ---
