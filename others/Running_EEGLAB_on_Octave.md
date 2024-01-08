@@ -67,6 +67,7 @@ issues:
     SIFT and LIMO) have not been tested on Octave and will likely not be
     functional. They could probably be made functional by their
     developers or by motivated users.
+-   We were able to run ICLabel under Octave 8.4 (after modifying some of the ICLabel code - the changes are not saved in ICLabel). However, the code is so slow it is impractical (it takes 15+ hours to execute on Octave compared to 10 seconds on MATLAB). This is because Octave reserves a new memory location when you take an array slice. If you need to run ICLabel, use the compiled version of EEGLAB.
 
 Nevertheless, even some of the most complex EEGLAB plots can be rendered on Octave - for example, below, dipole plots in MATLAB (left)
 and Octave (right) match perfectly.
