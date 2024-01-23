@@ -62,9 +62,11 @@ this download. A PDF contained in the ZIP file contains a description of this ex
 - [Semantic task with 5 subjects (0.4 Gb)](https://sccn.ucsd.edu/eeglab/download/STUDY5subjects.zip) in EEGLAB STUDY format. Optional download for
 more STUDY exploration. A description of this task is included in [this section](/tutorials/10_Group_analysis/study_creation.html#description-of-the-5-subject-experiment-tutorial-data) of the tutorial.
 
-- [Go-nogo categorization task with 14 subjects (0.4 Gb)](https://sccn.ucsd.edu/eeglab/download/animal_study.zip) in EEGLAB STUDY format. A complete description of the task, the raw data (4Gb), and some MATLAB files to process it are all available on [openneuro.org](https://openneuro.org/datasets/ds002680) in BIDS format.
+- [Go-nogo categorization task with 14 subjects (0.4 Gb)](https://sccn.ucsd.edu/eeglab/download/animal_study.zip) in EEGLAB STUDY format. A complete description of the task, the raw data (4Gb), and some MATLAB files to process it are all available on [openneuro.org](https://nemar.org/dataexplorer/detail?dataset_id=ds002680) in BIDS format.
 
-- [Face categorization task with 18 subjects](https://openneuro.org/datasets/ds002718) in BIDS format.
+- [Face categorization task with 18 subjects](https://nemar.org/dataexplorer/detail?dataset_id=ds002718) in BIDS format.
+
+- [Eyes open/closed 26 subjects from HBN ds004186 dataset](https://sccn.ucsd.edu/eeglab/download/ds004186subset.zip) in BIDS format. See the full dataset [here](https://nemar.org/dataexplorer/detail?dataset_id=ds004186)
 
 Other EEG data available online
 -----------
