@@ -74,7 +74,7 @@ There is an increasing amount of EEG data available on the internet. The list be
 
 - A [web page](https://sccn.ucsd.edu/~arno/fam2data/publicly_available_EEG_data.html) started in 2002 that contains a list of EEG datasets available online.
 
-- The [OpenNeuro](https://openneuro.org/) database contains about 40 EEG studies in BIDS format.
+- The [NEMAR](https://nemar.org/) database contains 200+ EEG studies in BIDS format.
 
 - The [ERPcore](https://erpinfo.org/erp-core) resource is a freely available online resource consisting of optimized paradigms, experiment control scripts, example data from 40 participants.
 
