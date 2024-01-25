@@ -66,7 +66,7 @@ more STUDY exploration. A description of this task is included in [this section]
 
 - [Face categorization task with 18 subjects](https://nemar.org/dataexplorer/detail?dataset_id=ds002718) in BIDS format.
 
-- [Eyes open/closed 26 subjects from HBN ds004186 dataset](https://sccn.ucsd.edu/eeglab/download/ds004186subset.zip) in BIDS format (0.5Gb). See the full dataset [here](https://nemar.org/dataexplorer/detail?dataset_id=ds004186)
+- [Eyes open/closed 32 subjects from HBN ds004186 dataset](https://sccn.ucsd.edu/eeglab/download/ds004186subset.zip) in BIDS format (0.5Gb). See the full dataset [here](https://nemar.org/dataexplorer/detail?dataset_id=ds004186)
 
 Other EEG data available online
 -----------
