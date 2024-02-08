@@ -269,7 +269,7 @@ to import such a file or array, we will once more create some simulated
 EEG data.
 
 ```matlab
-eegdata = rand(32, 256, 10); % 32 channels, 256 time points per epoch, 10 epochs
+eegdata = rand(32, 256, 10); % 32 channels, 256 time points per epoch, 10 epochs
 ```
 
 Select menu item <span style="color: brown">File → Import data → From ascii/float data file or MATLAB array</span>. Refer to the [previous section](http://localhost:4000/tutorials/Import/Importing_Continuous_and_Epoched_Data.html) of the tutorial. 
