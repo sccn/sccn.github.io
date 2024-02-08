@@ -12,7 +12,7 @@ has_toc: true
 
 # Welcome to the EEGLAB Wiki
 
-Over the last 17 or more years, EEGLAB ([Delorme & Makeig, 2004](/others/EEGLAB_References.html)), has become a very widely used environment for human EEG and other related data analysis, with contributions from dozens of programmers, plug-in tool authors, and users. This new (2021), revised version of the EEGLAB documentation is hosted on GitHub.com for ease of use and updating. Please send us any feedback ([eeglab@sccn.ucsd.edu](mailto:eeglab@sccn.ucsd.edu)).
+Since 2003, EEGLAB ([Delorme & Makeig, 2004](/others/EEGLAB_References.html)), has become a very widely used environment for human EEG and other related data analysis, with contributions from dozens of programmers, plug-in tool authors, and users. This new (2021-) revised version of the EEGLAB documentation is hosted on GitHub.com for ease of use and updating. Please send us any feedback ([eeglab@sccn.ucsd.edu](mailto:eeglab@sccn.ucsd.edu)).
 
 ### Download EEGLAB
 
