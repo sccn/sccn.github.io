@@ -283,19 +283,43 @@ stimulus/response task, with subject responses being either 'correct' or
 'wrong' and response latencies recorded in milliseconds. Then the epoch
 event file might look something like this:
 
-|:----------------------------:|:------------------------------:|:---------------------------------------:|
-|**Epoch** |**Response** |**Response_latency** |
-|1         |  Correct    |                 502 |
-|2         |  Correct    |                 477 |
-|3         |  Correct    |                 553 |
-|4         |  Correct    |                 612 |
-|5         |   Wrong     |                 430 |
-|6         |  Correct    |                 525 |
-|7         |  Correct    |                 498 |
-|8         |  Correct    |                 601 |
-|9         |  Correct    |                 398 |
-|10        |  Correct    |                 573 |
-
+<table>
+<tr>
+<td><strong>Epoch</strong></td>
+<td><strong>Response</strong></td>
+<td><strong>Response_latency</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Correct</td>
+<td>502</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Correct</td>
+<td>477</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Correct</td>
+<td>553</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Correct</td>
+<td>612</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Wrong</td>
+<td>430</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+</table>
 
 This file [tutorial_epoch.txt](http://sccn.ucsd.edu/eeglab/download/tutorial_epoch.txt) may
 be downloaded (or copied from the array above in a text file). Then select
