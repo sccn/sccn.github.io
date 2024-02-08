@@ -329,7 +329,6 @@ array or ascii file</span>, bringing up the following window:
 ![Image:Ii33pop_inportepoch.jpg](/assets/images/II33pop_inportepoch.jpg)
 
 
-
 Above, browse for the *tutorial_epoch.txt* file, set the input fields to
 *epoch response rt* (where rt is an acronym for 'reaction time'). The
 only one of these fields that contains latency information is *rt*, so
@@ -349,7 +348,9 @@ second event):
 As shown above, when epoch information was imported, events with the type
 named *rt* were created and assigned a latency. If we had had several
 columns containing latency information, the function would have created
-several types.
+several types. If you get an error that the number of trials (10, in this case,
+do not match the number of trials in the EEG dataset), this is because you have
+not imported the "eegdata" variable properly.
 
 Note: For convenience, standard epoch information is
 available from the command line in the variable *EEG.epoch*. Also, event
