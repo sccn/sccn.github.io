@@ -24,7 +24,7 @@ Calculating average reference
 Calculating an average reference is recommended for source localization.
 
 Select <span style="color: brown">Tools → Re-reference the data</span> to
-convert the dataset to average reference by calling the [pop_reref.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_reref.m) function. When you call this menu item for the
+convert the dataset to average reference by calling the [pop_reref.m](https://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_reref.m) function. When you call this menu item for the
 first time for a given dataset, the following window pops up.
 
 
@@ -60,7 +60,7 @@ average reference assumption (the assumption that the average of all
 electrodes is 0). The first step is to compute average reference and
 declare Cz as the reference in the channel editor.
 
-For this example, we will use the [TEST.CNT](http://sccn.ucsd.edu/eeglab/download/TEST.CNT) dataset. Save the file on your hard drive and import it in EEGLAB using menu item <span style="color: brown">File → Import data → Using EEGLAB functions and plugins → From Neuroscan .CNT file</span>.
+For this example, we will use the [TEST.CNT](https://sccn.ucsd.edu/eeglab/download/TEST.CNT) dataset. Save the file on your hard drive and import it in EEGLAB using menu item <span style="color: brown">File → Import data → Using EEGLAB functions and plugins → From Neuroscan .CNT file</span>.
  
 To declare Cz as a reference, call the channel editor window using the <span style="color: brown">Edit → Channel location</span> menu item, go to the last
 channel and press the *Append* button. An empty channel is created.
