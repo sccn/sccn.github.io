@@ -1,7 +1,7 @@
 ---
 layout: default
-title: EEGLAB 2021 UCSD
-long_title: EEGLAB 2021 UCSD workshop
+title: EEGLAB 2021 UCSD Asia
+long_title: EEGLAB 2021 UCSD Asia workshop
 parent: Past workshops
 ---
 <!-- 
