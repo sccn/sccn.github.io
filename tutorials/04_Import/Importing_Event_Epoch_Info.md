@@ -196,20 +196,20 @@ event type and which column contains the event latency. The default value is
 fine for this specific file, so simply press *Ok*. MATLAB then returns:
 
 ```matlab
-Replacing field 'Event Type' by 'type' for EEGLAB compatibility
-Replacing field 'Time' by 'latency' for EEGLAB compatibility
-Renaming second 'Uncertainty' field
-Reading file (lines): 6
-Check alignment between pre-existing (old) and loaded event latencies:
-Old event latencies (10 first): 10789 21315 31375 41902 51962 62489 …
-New event latencies (10 first): 10789 21315 31376 41902 51963 62489 …
-Best sampling rate ratio found is 0.9999895. Below latencies after adjustment
-Old event latencies (10 first): 10789 21315 31376 41902 51963 62488 …
-New event latencies (10 first): 10789 21315 31375 41902 51962 62489 …
-Pop_importevent warning: 0/6 have no latency and were removed
-eeg_checkset: value format of event field 'Duration' made uniform
-eeg_checkset: value format of event field 'Uncertainty2' made uniform
-eeg_checkset note: creating the original event table (EEG.urevent)
+Replacing field 'Event Type' by 'type' for EEGLAB compatibility
+Replacing field 'Time' by 'latency' for EEGLAB compatibility
+Renaming second 'Uncertainty' field
+Reading file (lines): 6
+Check alignment between pre-existing (old) and loaded event latencies:
+Old event latencies (10 first): 10789 21315 31375 41902 51962 62489 …
+New event latencies (10 first): 10789 21315 31376 41902 51963 62489 …
+Best sampling rate ratio found is 0.9999895. Below latencies after adjustment
+Old event latencies (10 first): 10789 21315 31376 41902 51963 62488 …
+New event latencies (10 first): 10789 21315 31375 41902 51962 62489 …
+Pop_importevent warning: 0/6 have no latency and were removed
+eeg_checkset: value format of event field 'Duration' made uniform
+eeg_checkset: value format of event field 'Uncertainty2' made uniform
+eeg_checkset note: creating the original event table (EEG.urevent)
 Done.
 ```
 
