@@ -45,7 +45,7 @@ generating such data follows (to test, copy and paste the code to the
 MATLAB command line):
 
 ```matlab
-matlab
+eeglab
 eegdata = rand(32, 256*100); % 32 channels of random activity (100 s sampled at 256 Hz).
 eegdata(33,[10:256:256*100]) = 1; % simulating a stimulus onset every second
 eegdata(33,[100:256:256*100]+round(rand*128)) = 2; % simulating reaction times about 500 ms after stimulus onsets
