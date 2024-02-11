@@ -67,7 +67,7 @@ Simply press next. Press next as well on the next three screens. Do not change t
 
 <br/><br/> 
 
-Instead, go to the installed EEGLAB version and select the file **eeglab_run_this_one_on_osx_or_linux** or **eeglab_run_this_one_on_windows** as shown below. Do not click on **EEGLAB** because you will either not have the command prompt (on Windows) or EEGLAB will not start (on MAC) unless you set the path above (the part we mention you should ignore). Setting the path is fine, but it is not straightforward. 
+Instead, go to the installed EEGLAB version and select the file **eeglab_run_this_one_on_osx_or_linux** or **eeglab_run_this_one_on_windows** as shown below. Do not click on **EEGLAB** because you will either not have the command prompt (on Windows) or EEGLAB will not start (on MAC) unless you set the path above (the part we mention you should ignore). Setting the path is possible, but it is not straightforward. Alternatively, on MAC, use the command  ./run_EEGLAB.sh /Applications/MATLAB/MATLAB_Runtime/R2022b/ (the MATLAB runtime version must match the one used to compile EEGLAB and should be automatically installed with EEGLAB; if not it can be found [here](https://www.mathworks.com/products/compiler/matlab-runtime.html)).
 
 <br/><br/> 
 
@@ -87,7 +87,7 @@ On both MAC and Windows, you might need to run EEGLAB as an administrator to be 
 
 On MAC OSX, you might get a message that your operating system is too old, so you should try an older version of the compiled EEGLAB version.
 
-Let us know if you encounter problems and how you solved them.
+Let us know if you encounter problems and how you solve them. See also below how 
 
 Similarity between the compiled and the MATLAB version of EEGLAB
 ------------------------------------------------------
