@@ -89,9 +89,13 @@ A. There is no theoretical lower limit, however, the lower the cutoff
 the steeper is the roll-off and the higher is the filter order (length).
 Very low cutoff frequencies as low as 0.01 Hz as sometimes found in the
 literature require extremely long filters (FIR) or are prone to
-instability (IIR). To our experience a lower limit of about 0.1 Hz is
-recommendable for FIR filters. For lower cutoff frequencies consider IIR
-filters combined with a reduced sampling frequency of the signal.
+instability (IIR). The computation time for very long FIR filters becomes
+enormous. You can try the 'usefftfilt' option in "Basic FIR Filter (new,
+default)" (pop_eegfiltnew) or "Windowed sinc FIR Filter" (pop_firws) to speed
+up filtering for FIR filter orders higher than 2000 to 3000. Note that
+lowering the sampling rate also reduces the required filter orders. If you
+are experiencing stability problems with IIR filters with lower cutoff
+frequencies, also consider reducing the sampling frequency of the signal.
 
 ### Q. What is the recommended transition bandwidth (for a windowed sinc FIR high-pass filter)?
 
