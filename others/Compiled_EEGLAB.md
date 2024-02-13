@@ -205,6 +205,7 @@ plugin_askinstall('neuroscanio', 'eegplugin_neuroscanio', true);
 plugin_askinstall('xdfimport', 'eegplugin_xdfimport', true);
 plugin_askinstall('mffmatlabio', 'pop_mffimport', true);
 plugin_askinstall('scd', 'eegplugin_scd', true);
+plugin_askinstall('snapmaster', 'eegplugin_snapmaster', true);
 
 % Removing clean_rawdata files
 % For clean_rawdata, remove folder manopt/reference/m2html.
