@@ -198,7 +198,7 @@ plugin_askinstall('clean_rawdata', 'eegplugin_clean_rawdata', true);
 plugin_askinstall('dipfit', 'eegplugin_dipfit', true);
 plugin_askinstall('egilegacy', 'eegplugin_egilegacy', true);
 plugin_askinstall('firfilt', 'eegplugin_firfilt', true);
-plugin_askinstall('irrfilt', 'eegplugin_iirfilt', true);
+plugin_askinstall('iirfilt', 'eegplugin_iirfilt', true);
 plugin_askinstall('musedirect', 'eegplugin_musedirect', true);
 plugin_askinstall('musemonitor', 'eegplugin_musemonitor', true);
 plugin_askinstall('neuroscanio', 'eegplugin_neuroscanio', true);
