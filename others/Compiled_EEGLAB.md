@@ -203,6 +203,8 @@ plugin_askinstall('musedirect', 'eegplugin_musedirect', true);
 plugin_askinstall('musemonitor', 'eegplugin_musemonitor', true);
 plugin_askinstall('neuroscanio', 'eegplugin_neuroscanio', true);
 plugin_askinstall('xdfimport', 'eegplugin_xdfimport', true);
+plugin_askinstall('mffmatlabio', 'pop_mffimport', true);
+plugin_askinstall('scd', 'eegplugin_scd', true);
 
 % Removing clean_rawdata files
 % For clean_rawdata, remove folder manopt/reference/m2html.
@@ -241,9 +243,13 @@ rmdir(fullfile(FieldTrip_folder,'external','sqdproject'), 's');
 3. Open the Application compiler (Matlab tab "Apps" and button
 "Application compiler") and open the "eeglab.prj" file. DO NOT RESAVE THE PROJECT IN THE APPLICATION COMPILER AS IT TENDS TO MESS UP PATHS FOR CROSS PLATFORM COMPILATION.
 
-4. On the command line, type "setenv('MCC_USE_DEPFUN','1')". There will still be class errors when checking dependencies, but the EEGLAB will compile anyway.
+4. If there are class errors (and there usuly are), use the command below. There will still be class errors when checking dependencies, but the EEGLAB will compile anyway. On the command line, type
 
-5. If not using 2022b to compile, edit the file run_this_one_on_osx_and_linux and change the version number
+```matlab
+setenv('MCC_USE_DEPFUN','1')
+```
+
+7. If not using 2022b to compile, edit the file run_this_one_on_osx_and_linux and change the version number
 
 4. Press "Package" and wait (usually 30 minutes or so)
 
