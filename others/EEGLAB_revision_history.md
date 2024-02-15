@@ -14,9 +14,25 @@ Minor revisions are indicated using a second number; thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
+## EEGLAB version 2024.0
+
+- Issue date: TBD; GIT tag: eeglab2023.1
+- **Version statistics**: 199 files changed, 113 commits, 2,422 additions and 1,448 deletions.
+- **New feature**: New custom measures for STUDY as illustrated [here](https://github.com/sccn/eegstats).
+- **New feature**: Code reformated to be more legible.
+- **New feature**: New channel spherical interpolation method in eeg_interp.
+- **New feature**: Now import Neuralinx data and associated events.
+- **Interoperability**: Now support ERPLAB new menu status and new variables, and better support for -99 boundary event.
+- **Interoperability**: Now support the version of LIMO with updated GUI (LIMO version 4 not yet released).
+- **Bug fix**: Fix looking up channel locations in STUDY.
+- **Bug fix**: Fix importing BIDS coordsystem file for MEG data when using File-IO.
+- **DIPFIT plugin**: STUDY level leadfield matrix computation.
+- **bids-matlab-io plugin:** Version 8 has been released. Now handles behavioral data and many minor improvements.
+- **ROIconnect plugin:** Improved compatibility. This plugin has been released soon, although the documentation is not complete.
+  
 ## EEGLAB version 2023.1
 
-- Issue date: August 23rd 2023; GIT tag: eeglab2023.1
+- Issue date: August 23rd 2023; GIT tag: 2023.1
 - **Version statistics**: 50 files changed, 99 commits, 957 additions, and 395 deletions.
 - **New feature**: EEGLAB redraw detects dataset changes. There is no more need to store the current dataset in the ALLEEG structure if you modify it on the command line.
 - **New feature**: New option "scatter" for control electrode size and color in topoplot.
@@ -31,10 +47,10 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **DIPFIT plugin**: Fix handling non-EEG channels when computing Loreta and Leadfield matrix.
 - **bids-matlab-io plugin:** Better import of MEG data, and many more small bug fixes and improvements.
 - **ROIconnect plugin:** Improved compatibility. This plugin is still in beta and will be released soon.
-  
+
 ## EEGLAB version 2023.0
 
-- Issue date: March 3rd 2023; GIT tag: eeglab2023.0
+- Issue date: March 3rd 2023; GIT tag: 2023.0
 - **Version statistics**: 654 files changed, 230 commits, 11,585 additions and 3,248 deletions.
 - **Major changes**: Update a variety of functions to process MEG datasets, including source localization (see [tutorial](https://eeglab.org/tutorials/misc/EEGLAB_and_MEG_data.html)). 
 - **New feature**: Limit the number of displayed datasets to speed up display when processing more than 200 datasets.
@@ -52,7 +68,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 ## EEGLAB version 2022.1
 
-- Issue date: Aug 2nd 2022; GIT tag: eeglab2022.1
+- Issue date: Aug 2nd 2022; GIT tag: 2022.1
 - **Version statistics**: 104 files changed, 4,411 insertions, 421 deletions.
 - **Major interoperability change**: Allow using event type -99 for discontinuities and improve ERPLAB compatibility (20 functions modified). The default is still to use 'boundary' for event boundary, but the default can be changed in the EEGLAB preferences when processing numerical event types.
 - **Interoperability**: Added 4 new parameters to import data with BIOSIG toolbox, in particular for EDF and BDF files.
@@ -69,7 +85,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 ## EEGLAB version 2022.0
 
-- Issue date: Feb 11th 2022; GIT tag: eeglab2022.0
+- Issue date: Feb 11th 2022; GIT tag: 2022.0
 - **Version statistics**: 73 commits and 269 files changed, 988 insertions, 781 deletions.
 - **Bug fix**: Fix study issue when parallel toolbox is absent (GCP error)
 - **Bug fix**: Fix rare bug when writing two files for an EEGLAB dataset (old default; the new default since 2021 is to write a single .set file)
