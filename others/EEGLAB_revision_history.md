@@ -22,8 +22,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **New feature**: Code reformated to be more legible.
 - **New feature**: New channel spherical interpolation method in eeg_interp.
 - **New feature**: Now import Neuralinx data and associated events.
-- **Interoperability**: Now support ERPLAB new menu status and new variables, and better support for -99 boundary event.
-- **Interoperability**: Now support the version of LIMO with updated GUI (LIMO version 4 not yet released).
+- **Interoperability**: xxxxx
 - **Bug fix**: Fix looking up channel locations in STUDY.
 - **Bug fix**: Fix importing BIDS coordsystem file for MEG data when using File-IO.
 - **DIPFIT plugin**: STUDY level leadfield matrix computation.
