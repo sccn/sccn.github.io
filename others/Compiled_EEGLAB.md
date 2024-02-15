@@ -175,10 +175,10 @@ that require fixing on your system. See detailed instructions below.
 git clone --recurse-submodules https://github.com/sccn/eeglab.git
 ```
 
-2. Install additional plugins (plugins that are already installed will
+2. Install additional plugins (already installed plugins will
 be skipped). Some folders from the plugins clean_rawdata
 and Fieldtrip should
-be removed to avoid compilation issues. Use the
+be removed to avoid compilation issues. **Do not use the GIT version of Fieldtrip.** as it makes the release 1.5Gb instead of 200Mb. Instead get the latest plugin. Use the
 following script to install plugins and remove these folders:
 
 ```matlab
