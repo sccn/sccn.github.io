@@ -28,7 +28,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Bug fix**: Fix looking up channel locations in STUDY.
 - **Bug fix**: Fix importing BIDS coordsystem file for MEG data when using File-IO.
 - **DIPFIT plugin**: STUDY level leadfield matrix computation.
-- **bids-matlab-io plugin:** Version 8 has been released. Now handles behavioral data and many small improvements.
+- **bids-matlab-tools plugin:** Version 8 has been released. Now handles behavioral data and many small improvements.
 - **ROIconnect plugin:** Improved compatibility. This plugin has been released, although the documentation is not complete.
   
 ## EEGLAB version 2023.1
