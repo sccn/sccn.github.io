@@ -23,7 +23,8 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **New feature**: New channel spherical interpolation method in eeg_interp.
 - **New feature**: Now import Neuralinx data and associated events.
 - **New feature**: Infomax Runica always returns the same result (backward compatible).
-- **Interoperability**: xxxxx
+- **New feature**: Now selecting events for a group of datasets in STUDY.
+- **Interoperability**: Improved Octave 8.4 compabitlity.
 - **Bug fix**: Fix looking up channel locations in STUDY.
 - **Bug fix**: Fix importing BIDS coordsystem file for MEG data when using File-IO.
 - **DIPFIT plugin**: STUDY level leadfield matrix computation.
