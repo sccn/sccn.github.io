@@ -18,7 +18,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 - Issue date: TBD; GIT tag: eeglab2023.1
 - **Version statistics**: 199 files changed, 113 commits, 2,422 additions and 1,448 deletions.
-- **New feature**: New custom measures for STUDY as illustrated [here](https://github.com/sccn/eegstats).
+- **New feature**: New custom measures for STUDY as illustrated [here](https://github.com/sccn/eegstats) as well as exporting results in table format.
 - **New feature**: Code reformated to be more legible.
 - **New feature**: New channel spherical interpolation method in eeg_interp.
 - **New feature**: Now import Neuralinx data and associated events.
