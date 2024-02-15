@@ -18,7 +18,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 - Issue date: TBD; GIT tag: eeglab2023.1
 - **Version statistics**: 199 files changed, 113 commits, 2,422 additions and 1,448 deletions.
-- **New feature**: New custom measures for STUDY as illustrated [here](https://github.com/sccn/eegstats) as well as exporting results in table format.
+- **New feature**: New custom measures for STUDY as illustrated [here](https://github.com/sccn/eegstats) and exporting results in table format.
 - **New feature**: Code reformated to be more legible.
 - **New feature**: New channel spherical interpolation method in eeg_interp.
 - **New feature**: Now import Neuralinx data and associated events.
@@ -28,8 +28,8 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Bug fix**: Fix looking up channel locations in STUDY.
 - **Bug fix**: Fix importing BIDS coordsystem file for MEG data when using File-IO.
 - **DIPFIT plugin**: STUDY level leadfield matrix computation.
-- **bids-matlab-io plugin:** Version 8 has been released. Now handles behavioral data and many minor improvements.
-- **ROIconnect plugin:** Improved compatibility. This plugin has been released soon, although the documentation is not complete.
+- **bids-matlab-io plugin:** Version 8 has been released. Now handles behavioral data and many small improvements.
+- **ROIconnect plugin:** Improved compatibility. This plugin has been released, although the documentation is not complete.
   
 ## EEGLAB version 2023.1
 
