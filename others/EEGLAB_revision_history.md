@@ -16,7 +16,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 ## EEGLAB version 2024.0
 
-- Issue date: TBD; GIT tag: eeglab2023.1
+- Issue date: TBD; GIT tag: eeglab2024.0
 - **Version statistics**: 199 files changed, 113 commits, 2,422 additions and 1,448 deletions.
 - **New feature**: New custom measures for STUDY as illustrated [here](https://github.com/sccn/eegstats) and exporting results in table format.
 - **New feature**: Code reformated to be more legible.
