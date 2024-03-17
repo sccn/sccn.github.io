@@ -172,7 +172,7 @@ Below is a still-provisional program for the 2021 Virtual EEGLAB Workshop (sugge
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">8:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">9:30</span> – **Mining event-related brain dynamics II** (Scott Makeig)</span>
 
-- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **Deep learning for EEG - the HBN benchmark dataset** (Delorme)</span>
+- <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">9:30am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:00</span> – **Deep learning for EEG - the HBN benchmark dataset** (Delorme, Truong)</span>
 
 - <span style="color: black"><span class="time" data-timeformat="12hr" data-timezone="PDT">10:00am</span>–<span class="time" data-timeformat="12hr" data-timezone="PDT">10:30</span> – Social time. **Tutors available** for Q&amp;A.</span>
 
