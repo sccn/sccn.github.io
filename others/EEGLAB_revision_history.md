@@ -30,7 +30,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **DIPFIT plugin**: STUDY level leadfield matrix computation.
 - **bids-matlab-tools plugin:** Version 8 has been released. Now handles behavioral data and many small improvements.
 - **ROIconnect plugin:** Improved compatibility. This plugin has been released, although the documentation is not complete.
-- <font color=red>**ICLabel plugin:** The ICLabel version (1.5) released with this version has a bug. Make sure to upgrade to version 1.6 of the plugin</font>
+- <font color=red><b>ICLabel plugin:</b> The ICLabel version (1.5) released with this version has a bug. Make sure to upgrade to version 1.6 of the plugin</font>
   
 ## EEGLAB version 2023.1
 
