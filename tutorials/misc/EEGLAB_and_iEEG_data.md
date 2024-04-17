@@ -37,8 +37,19 @@ EEGLAB allows importing spikes as events when using the NWB (Neurodata Without B
 
 ![Screenshot 2024-04-17 at 10 00 59 AM](https://github.com/sccn/sccn.github.io/assets/1872705/88a21917-0b8e-4f1d-a6fa-cae1297994d2)
 
+Once the file has been imported, use menu item <span style="color: brown">Plot > Channel data (scroll)</span>
 
-Once the file has been imported, use menu item 
+![Screenshot 2024-04-17 at 10 02 28 AM](https://github.com/sccn/sccn.github.io/assets/1872705/d8ddf709-7963-4f05-adef-8bf4049cc484)
+
+We can then extract data epochs and plot ERPs. For example, to extract data epochs based on the spike of unit #1, use menu item <span style="color: brown">Tools > Extract epochs</span> and select events corresponding to the first unit as shown below.
+
+![Screenshot 2024-04-17 at 11 45 31 AM](https://github.com/sccn/sccn.github.io/assets/1872705/c9b4082c-33c3-4f75-8d0a-522e852a7009)
+
+You can then use menu item <span style="color: brown">Plot > Channel ERPs > with scalp maps</span> to plot the ERP of the two channels recorded in this dataset.
+
+![Screenshot 2024-04-17 at 11 48 32 AM](https://github.com/sccn/sccn.github.io/assets/1872705/a863a7d3-cf51-4e38-b615-44ebc575bd50)
+
+## Additional ressources
 
 Other relevant resources for processing iEEG data:
 - [Fieldtrip sEEG tutorial](https://www.fieldtriptoolbox.org/tutorial/human_ecog/)
