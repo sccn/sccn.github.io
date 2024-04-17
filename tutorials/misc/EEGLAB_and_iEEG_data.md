@@ -5,7 +5,7 @@ long_title: EEGLAB and MEG data
 parent: Reference Topics
 grand_parent: Tutorials
 ---
-EEGLAB and iEEG, sEEG or ECoG data
+EEGLAB and iEEG, sEEG, or ECoG data
 ====================
 
 EEGLAB supports reading most iEEG data formats (EDF, MEF3, NWB) through native code 
@@ -33,7 +33,10 @@ Even if you are not planning to use EEGLAB to process iEEG data, importing your 
 
 ## Importing spike information
 
-EEGLAB allows importing spikes as events when using the NWB (Neurodata Without Border). Below, we show an example using the file [sub-01_ses-20140828T132700_ecephys+image.nwb](https://api.dandiarchive.org/api/assets/94ba06fc-c870-4698-9c31-f403ee733887/download/) of this [DandiSet](https://dandiarchive.org/dandiset/000576/). After downloading the file, and after installing the NWB-io EEGLAB plugins (menu item <span style="color: brown">File > EEGLAB extensions</span> then install the NWB-io plugin). After installing the plugin, import the file above in EEGLAB using menu item <span style="color: brown">File > Import data > Using EEGLAB functions and plugins > From NWB file</span>.
+EEGLAB allows importing spikes as events when using the NWB (Neurodata Without Border). Below, we show an example using the file [sub-01_ses-20140828T132700_ecephys+image.nwb](https://api.dandiarchive.org/api/assets/94ba06fc-c870-4698-9c31-f403ee733887/download/) of this [DandiSet](https://dandiarchive.org/dandiset/000576/). After downloading the file, and after installing the NWB-io EEGLAB plugins (menu item <span style="color: brown">File > EEGLAB extensions</span> then install the NWB-io plugin). After installing the plugin, import the file above in EEGLAB using menu item <span style="color: brown">File > Import data > Using EEGLAB functions and plugins > From NWB file</span>. Make sure to check the checkbox to import spike latencies.
+
+![Screenshot 2024-04-17 at 10 00 59 AM](https://github.com/sccn/sccn.github.io/assets/1872705/88a21917-0b8e-4f1d-a6fa-cae1297994d2)
+
 
 Once the file has been imported, use menu item 
 
