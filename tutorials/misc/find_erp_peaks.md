@@ -21,7 +21,7 @@ For example, in the figure above, select the magnifying-glass icon having the **
 
 ![](/assets/images/Pop_comperp5.gif)
 
-EEGLAB extensions
+ERPLAB and EEGLAB bioelectromag plugin
 ---------------
 EEGLAB extensions, including [bioelectromag](https://sccn.ucsd.edu/eeglab/plugins/eeg_toolbox1.01.zip) and [ERPLAB](https://github.com/lucklab/erplab/releases), allow performing more advanced ERP peak detection. These extensions are available from the EEGLAB extension manager, which may be invoked by selecting the <span style="color: brown">File → Manage EEGLAB extensions</span> menu item.
 
