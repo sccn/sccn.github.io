@@ -2,8 +2,9 @@
 layout: default
 title: Create an EEGLAB plugin
 long_title: Create an EEGLAB plugin
-parent: How to contribute?
+parent: Contribute
 grand_parent: Tutorials
+nav_order: 1
 ---
 Creating EEGLAB plugins and extension
 ========================

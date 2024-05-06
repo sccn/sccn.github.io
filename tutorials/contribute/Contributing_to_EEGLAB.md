@@ -2,8 +2,9 @@
 layout: default
 title: Modify EEGLAB code
 long_title: Modify EEGLAB code
-parent: How to contribute?
+parent: Contribute
 grand_parent: Tutorials
+nav_order: 3
 ---
 Contributing to the EEGLAB core code
 ========================

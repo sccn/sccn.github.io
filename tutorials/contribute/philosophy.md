@@ -2,8 +2,9 @@
 layout: default
 title: EEGLAB dev philosophy
 long_title: EEGLAB dev philosophy
-parent: How to contribute?
+parent: Contribute
 grand_parent: Tutorials
+nav_order: 2
 ---
 EEGLAB development philosophy
 ========================
