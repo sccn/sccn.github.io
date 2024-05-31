@@ -16,53 +16,16 @@ are detailing here.
 Should I use MATLAB-based tools or Python-based tools
 -----------------------------------------------------
 
-One of the most important feature when using a software package is usage and community.
+One of the most important features when using a software package is usage and community.
 If the community is large and the software is popular, it is a safer
 choice as this ensures many problems people encounter have
 been solved - it also means that the code is probably more stable and
 has fewer bugs. 
 
-As of 2020, 56% of the citations of the
-papers below go to EEGLAB, then 25% go to Fieldtrip, and 19% go to
-Brainstorm and various versions of MNE. Note that EEGLAB and Fieldtrip
-are intertwined where Fieldtrip users can write [EEGLAB
-plugins](/others/EEGLAB_and_Fieldtrip.html)
-by adding simple wrappers on their Fieldtrip code. So the pair
-EEGLAB+Fieldtrip comprises 81% of the citations, and it is continuing to
-grow, with the MATLAB-based tools (which include Brainstorm) gathering
-about 90% of all citations. This is a strong argument for using MATLAB
-based tools - and in particular EEGLAB - instead of Python-based tools
-(i.e., MNE).
+Below is the figure in an independent [2024 article](https://apertureneuro.org/article/116386-the-art-of-brainwaves-a-survey-on-event-related-potential-visualization-practices) showing the popularity of all software packages.
+![image_eeglab](https://github.com/sccn/sccn.github.io/assets/1872705/4a2de7bc-ee1d-450f-8314-48d3294d54f4)
 
-Below is an analysis of papers referencing EEGLAB, FieldTrip, MNE,
-MNE-Python, and Brainstorm since 2004. Data were obtained from Google Scholar.
-
-![Screen Shot 2022-10-16 at 9 12 14 PM](https://user-images.githubusercontent.com/1872705/196087854-dac4a7f6-fba0-49ab-b2b8-4ca6fc253bb1.png)
-
-The number of citation per year corresponds to the following five papers:
-
--   **EEGLAB**: Delorme, A. and Makeig, S., 2004. EEGLAB: an open source
-    toolbox for analysis of single-trial EEG dynamics including
-    independent component analysis. Journal of neuroscience methods,
-    134(1), pp.9-21
--   **Fieldtrip**: Oostenveld, R., Fries, P., Maris, E., Schoffelen, JM
-    (2011). FieldTrip: Open Source Software for Advanced Analysis of
-    MEG, EEG, and Invasive Electrophysiological Data. Computational
-    Intelligence and Neuroscience, Volume 2011 (2011)
--   **MNE 1**: A. Gramfort, M. Luessi, E. Larson, D. Engemann, D.
-    Strohmeier, C. Brodbeck, L. Parkkonen, M. Hämäläinen, MNE software
-    for processing MEG and EEG data, NeuroImage, Volume 86, 1 February
-    2014, Pages 446-460, ISSN 1053-8119,
--   **MNE Python**: A. Gramfort, M. Luessi, E. Larson, D. Engemann, D.
-    Strohmeier, C. Brodbeck, R. Goj, M. Jas, T. Brooks, L. Parkkonen, M.
-    Hämäläinen, MEG and EEG data analysis with MNE-Python, Frontiers in
-    Neuroscience, Volume 7, 2013, ISSN 1662-453X
--   **Brainstorm**: Tadel, F., Baillet, S., Mosher, J.C., Pantazis, D.
-    and Leahy, R.M., 2011. Brainstorm: a user-friendly application for
-    MEG/EEG analysis. Computational intelligence and neuroscience, 2011,
-    p.8.
-
-See also this third-party [report](https://doi.org/10.1016/j.neuri.2023.100154) which compares EEGLAB citations with other EEG analysis software packages. 
+See also this third-party [2023 report](https://doi.org/10.1016/j.neuri.2023.100154), which compares EEGLAB citations with other EEG analysis software packages. 
 
 Major differences between MATLAB and Python
 -------------------------------------------
