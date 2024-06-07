@@ -37,23 +37,25 @@ MATLAB. However, irrespective of what Python enthusiasts might claim,
 Python might not be ideal because it remains a programming language
 designed for programmers. For example,
 
--   It is hard to understand for novices why an n-size vector should be
-    indexed, beginning at 0 and ending at n-1 (in MATLAB and R, vectors
-    begin at position 1 and end at n).
--   Code indentation is a nice feature of Python. However, this style
+-   **Code indentation.** Code indentation is a nice feature of Python. However, this style
     does not come naturally to the novice programmer. It also makes
     copying and pasting code between file sources and the command line
     interface problematic (since a snippet of code will most likely have
     unwanted indentation when copied to the Python command line).
--   Python is much more object-oriented than MATLAB, sometimes requiring
-    users to understand object-oriented concepts when calling functions.
--   Python usually requires the user to install multiple external
+-   **Object-oriented notation.** Python is much more object-oriented than MATLAB, sometimes requiring
+    users to understand object-oriented concepts when calling functions. MNE, for example, do not
+    let you access EEG data structures. If you want to access some information, such as channel coordinates,
+    you need to dig through the MNE code in the hope of finding the non-documented method that will return
+    this information. 
+-   **Where are my libraries?** Python usually requires the user to install multiple external
     libraries; this can be tedious and does not come naturally to
     novices. Even experienced users sometimes spend hours getting their
     library settings right. There are also other technical problems
     related to the operating system and library compatibility that can take
     hours or days to solve (we speak from experience).
--   Matrix manipulation in Python is not as intuitive as MATLAB. For
+-   **Matrix for dummies!** It is hard to understand for novices why an n-size vector should be
+    indexed, beginning at 0 and ending at n-1 (in MATLAB and R, vectors
+    begin at position 1 and end at n). Matrix manipulation in Python is not as intuitive as MATLAB. For
     example, the already non-intuitive Python code to concatenate arrays
     <i>np.concatenate((np.array(\[\[/1,_2\],_\[5,_6\|1, 2\], \[5,
     6\]\]), np.array(\[1, 2\])))</i> will fail because, unlike MATLAB,
@@ -62,29 +64,36 @@ designed for programmers. For example,
     \[1 2; 5 6\]; \[1 2\] \]</i> or <i>\[ \[1 2; 5 6\] \[1 2\]' \]</i>
     depending on the dimension to concatenate. The MATLAB code is
     readable for someone with math training.
--   And of course, version problems: Python versions 2 and 3 are not
+-   **Which version am I running?** Python versions 2 and 3 are not
     fully compatible -- and Python 2.7, although no longer supported
     since January 1, 2020, is still widely used because a large number
     of Python libraries are not available in Python 3 -- leading to all
     kinds of unexpected problems that can slow down a novice
-    programmer.
--   Python is free. Why should I have to pay for MATLAB? Good conduct in
+    programmer. Python version libraries stability across platforms
+    can also be a headache. 
+-   **But Python is free.** Why should I have to pay for MATLAB? Good conduct in
     (open) science should transcend discussions on finances. We pay for
     Microsoft or Adobe licenses because the free alternative, even
     if it exists, does not fulfill our needs. The compiled version of
     EEGLAB does not require users to purchase MATLAB, and EEGLAB code
     also runs on Octave.
--   MEEG software packages on MATLAB are mainly EEGLAB, Fieldtrip, and
-    Brainstorm. MEEG software on Python is MNE which is more tailored to MEG users than EEG users.
-    The MATLAB suite of available software is currently more mature than
-    the Python one, which is a good reason to stick to MATLAB.
-- The closest alternative to the Matlab interactive interface is the
+- **Jupyter notebooks.** The closest alternative to the Matlab interactive interface is the
 Jupyter notebook environment that runs in your browser. However, the
 graphical capabilities of Jupyter notebooks remain limited (it is
 sometimes hard to manipulate figures, impossible to zoom, etc...).
 Most people who are used to Matlab and tried
 Jupyter notebooks dislike Jupyter notebooks - then learn to live with the
 limitations if they need it for their work. By contrast, the less popular [Spyder IDE](https://www.spyder-ide.org/) is a decent equivalent of the MATLAB graphical interface and should feel more familiar. 
+-   **Lack of features.** MEEG software packages on MATLAB are mainly EEGLAB, Fieldtrip, and
+    Brainstorm. MEEG software on Python is MNE which is more tailored to MEG users than EEG users.
+    The MATLAB suite of available software is currently more mature than
+    the Python one, which is a good reason to stick to MATLAB. EEGLAB has 32 plugins for automated artifact rejections. MNE has one (autoreject).
+-   **Show some respect!** Python numpy has been partially mapped onto MATLAB. In numpy, you can
+    map the names of some of the functions to their MATLAB counterparts (reshape, squeeze, meshgrid, griddata,
+    transpose, dot, linspace, logspace, sum, mean, std, min, max, prod,
+    diff, cumsum, cumprod, zeros, ones, eye, etc...).
+    There is no doubt that Python is great, especially for developers, but please 
+    show some respect to your elders :-).
 
 How to call EEGLAB functions from Python
 ----------------------------------------
