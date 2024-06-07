@@ -78,7 +78,7 @@ designed for programmers. For example,
     EEGLAB does not require users to purchase MATLAB, and EEGLAB code
     also runs on Octave.
 - **Jupyter notebooks.** The closest alternative to the Matlab interactive interface is the
-Jupyter notebook environment that runs in your browser. However, the
+Jupyter Notebook environment that runs in your browser or in Visual Studio code. However, the
 graphical capabilities of Jupyter notebooks remain limited (it is
 sometimes hard to manipulate figures, impossible to zoom, etc...).
 Most people who are used to Matlab and tried
