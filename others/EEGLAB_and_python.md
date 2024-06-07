@@ -57,7 +57,7 @@ designed for programmers. For example,
     indexed, beginning at 0 and ending at n-1 (in MATLAB and R, vectors
     begin at position 1 and end at n). Matrix manipulation in Python is not as intuitive as MATLAB. For
     example, the already non-intuitive Python code to concatenate arrays
-    <i>np.concatenate((np.array(\[\[/1,_2\],_\[5,_6\|1, 2\], \[5,
+    <i>np.concatenate((np.array(\[\[1,_2\],_\[5,_6\|1, 2\], \[5,
     6\]\]), np.array(\[1, 2\])))</i> will fail because, unlike MATLAB,
     1-D vectors are not compatible with 2-D matrices by default - and
     need explicit conversion. Compare to MATLAB simpler notation <i>\[
