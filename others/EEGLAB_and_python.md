@@ -47,12 +47,6 @@ designed for programmers. For example,
     let you access EEG data structures. If you want to access some information, such as channel coordinates,
     you need to dig through the MNE code in the hope of finding the non-documented method that will return
     this information. 
--   **Where are my libraries?** Python usually requires the user to install multiple external
-    libraries; this can be tedious and does not come naturally to
-    novices. Even experienced users sometimes spend hours getting their
-    library settings right. There are also other technical problems
-    related to the operating system and library compatibility that can take
-    hours or days to solve (we speak from experience).
 -   **Matrix for dummies!** It is hard to understand for novices why an n-size vector should be
     indexed, beginning at 0 and ending at n-1 (in MATLAB and R, vectors
     begin at position 1 and end at n). Matrix manipulation in Python is not as intuitive as MATLAB. For
@@ -69,8 +63,14 @@ designed for programmers. For example,
     since January 1, 2020, is still widely used because a large number
     of Python libraries are not available in Python 3 -- leading to all
     kinds of unexpected problems that can slow down a novice
-    programmer. Python version libraries stability across platforms
-    can also be a headache. 
+    programmer. 
+-   **Where are my libraries?** Python usually requires the user to install multiple external
+    libraries; this can be tedious and does not come naturally to
+    novices. Even experienced users sometimes spend hours getting their
+    library settings right. There are also other technical problems
+    related to the operating system and library compatibility that can take
+    hours or days to solve (we speak from experience). Python version libraries' stability across platforms
+    can also be a headache -- sometimes, you even have multiple libraries to do the same thing.
 -   **But Python is free.** Why should I have to pay for MATLAB? Good conduct in
     (open) science should transcend discussions on finances. We pay for
     Microsoft or Adobe licenses because the free alternative, even
