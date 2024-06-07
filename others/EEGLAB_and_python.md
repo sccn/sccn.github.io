@@ -89,9 +89,7 @@ limitations if they need it for their work. By contrast, the less popular [Spyde
     The MATLAB suite of available software is currently more mature than
     the Python one, which is a good reason to stick to MATLAB. EEGLAB has 32 plugins for automated artifact rejections. MNE has one (autoreject).
 -   **Show some respect!** Python numpy has been partially mapped onto MATLAB. In numpy, you can
-    map the names of some of the functions to their MATLAB counterparts (reshape, squeeze, meshgrid, griddata,
-    transpose, dot, linspace, logspace, sum, mean, std, min, max, prod,
-    diff, cumsum, cumprod, zeros, ones, eye, etc...).
+    map the names of some of the functions to their MATLAB counterparts, also taking the same arguments (reshape, squeeze, meshgrid, griddata, transpose, dot, linspace, logspace, sum, mean, std, min, max, prod, diff, cumsum, cumprod, zeros, ones, eye, diag, inv, pinv, svd, eig, norm, trace, det, fft, ifft, cross, unique, sort, etc...).
     There is no doubt that Python is great, especially for developers, but please 
     show some respect to your elders :-).
 
