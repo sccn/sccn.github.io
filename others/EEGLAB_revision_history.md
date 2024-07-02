@@ -14,6 +14,16 @@ Minor revisions are indicated using a second number; thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
+## EEGLAB version 2024.1 (draft)
+
+- Issue date: TBD
+- **Version statistics**: ...
+- **New feature**: EEGLAB colormap changed.
+- **New feature**: EEGLAB compiled version can now execute scripts given on the command line.
+- **bids-matlab-tools plugin:** Renamed EEG-BIDS.
+- **Bug fix**: Fix issue with STUDY [ICA component clustering](https://github.com/sccn/eeglab/issues/767). This is also related the ICLabel bug below.
+- <font color=red><b>ICLabel plugin:</b> The ICLabel version (1.5) released in the previous EEGLAB version had a bug.</font>.
+
 ## EEGLAB version 2024.0
 
 - Issue date: 02/23/2024; GIT tag: 2024.0
