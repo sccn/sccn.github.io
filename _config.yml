@@ -30,7 +30,7 @@ github_username:  jekyll
 # Build settings
 #remote_theme: just-the-docs/just-the-docs
 theme: just-the-docs
-url: https://just-the-docs.github.io
+url: https://eeglab.org
 plugins:
   - jekyll-feed
 color_scheme: eeglab
