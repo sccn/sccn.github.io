@@ -234,7 +234,7 @@ rmdir(fullfile(FieldTrip_folder,'external','mffmatlabio'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','egi_mff_v2'), 's');
 ```
 
-3. Optional: Edit the eeglab.m file and add new plugins to the compiled version of EEGLAB (line 900). Change the version of EEGLAB in the prj file.
+3. Optional: Edit the eeglab.m file and add new plugins to the compiled version of EEGLAB (line 900).
 
 3. Open the "eeglab.prj" file in the Matlab editor. Check the path for plugins. If a new version is available, rename the version in the eeglab.prj file.
 
