@@ -89,6 +89,29 @@ On MAC OSX, you might get a message that your operating system is too old, so yo
 
 Let us know if you encounter problems and how you solve them. See also below how 
 
+## Executing code and scripts with the compiled version
+
+Scripts can be executed from the EEGLAB GUI in the compiled version. Note that functions and subscripts cannot be used, although the script can use all MATLAB and EEGLAB functions. If you have a script that calls another script, you must combine both scripts into a single one. If you are calling a user-defined function, you must convert this function into a script and include the code in your script. The menu below may be used to execute scripts.
+
+![Screenshot 2024-07-10 at 15 44 06](https://github.com/sccn/sccn.github.io/assets/1872705/df73ed94-8be2-4beb-928a-0386383230a5)
+
+Scripts and code snippets may also be executed from the command line. Below is an example from the command line on Windows. The same may be done on MAC using the **EEGLAB_verbose** executable. On Windows, on the DOS command line, go to the folder containing the EEGLAB.exe file and type:
+
+```
+.\EEGLAB.exe "disp('hello world');"
+```
+
+![Screenshot 2024-07-10 at 15 53 41](https://github.com/sccn/sccn.github.io/assets/1872705/d6192ace-79d0-4741-9c5a-7b9415976c9f)
+
+You may also write a script containing MATLAB and EEGLAB code. For example, same the text "disp('hello world');" in the file **script.m** then type:
+
+```
+.\EEGLAB.exe ".\script.m"
+```
+
+![Screenshot 2024-07-10 at 15 59 15](https://github.com/sccn/sccn.github.io/assets/1872705/8cec47dc-e82f-4012-a646-b968760c7358)
+
+
 Similarity between the compiled and the MATLAB version of EEGLAB
 ------------------------------------------------------
 
