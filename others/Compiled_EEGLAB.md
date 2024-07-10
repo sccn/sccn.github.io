@@ -83,7 +83,7 @@ It should take about 1 minute for EEGLAB to start.
 
 ## Troubleshooting
 
-On both MAC and Windows, you might need to run EEGLAB as an administrator to be able to access some folders.
+On both MAC and Windows, you might need to run EEGLAB as an administrator to access some folders.
 
 On MAC OSX, you might get a message that your operating system is too old, so you should try an older version of the compiled EEGLAB version.
 
@@ -93,7 +93,7 @@ Let us know if you encounter problems and how you solve them. See also below how
 
 Scripts can be executed from the EEGLAB GUI in the compiled version. Note that functions and subscripts cannot be used, although the script can use all MATLAB and EEGLAB functions. If you have a script that calls another script, you must combine both scripts into a single one. If you are calling a user-defined function, you must convert this function into a script and include the code in your script. The menu below may be used to execute scripts.
 
-![Screenshot 2024-07-10 at 15 44 06](https://github.com/sccn/sccn.github.io/assets/1872705/df73ed94-8be2-4beb-928a-0386383230a5)
+![Screenshot 2024-07-10 at 16 00 43](https://github.com/sccn/sccn.github.io/assets/1872705/ca99ddff-5ca6-4a48-8867-348e01fbcba5)
 
 Scripts and code snippets may also be executed from the command line. Below is an example from the command line on Windows. The same may be done on MAC using the **EEGLAB_verbose** executable. On Windows, on the DOS command line, go to the folder containing the EEGLAB.exe file and type:
 
