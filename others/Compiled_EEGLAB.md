@@ -249,9 +249,11 @@ rmdir(fullfile(FieldTrip_folder,'external','egi_mff_v2'), 's');
 setenv('MCC_USE_DEPFUN','1')
 ```
 
-7. If not using 2022b to compile, edit the file run_this_one_on_osx_and_linux and change the version number
+7. Make sure the file EEGLAB_verbose has the right version of MATLAB listed and change the version number
 
-4. Press "Package" and wait (usually 30 minutes or so)
+4. **Windows**. Remove Mac files, check the command line option and Press "Package" and wait (usually 10 minutes or so)
+
+4. **MAC**. Remove Windows file (EEGBIDS.bat) and Press "Package" and wait (usually 30 minutes or so)
 
 4. If successful, 3 folders are created. You may test the compiled
 EEGLAB version by running the program in the "for_testing" folder.
@@ -264,6 +266,8 @@ On Mac and OSX use ./run_eeglab.sh MATLAB_PATH.
 > <span style="color: red">Known problem: check documentation in compiled version</span>
 
 > <span style="color: red">Known error: mex files not included for ANT plugin (ASR test file present)</span>
+
+4. Distribute the "for redistribution folder"
 
 ### Plugins selected for future inclusion
 
