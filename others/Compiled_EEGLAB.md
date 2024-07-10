@@ -101,16 +101,21 @@ Scripts and code snippets may also be executed from the command line. Below is a
 .\EEGLAB.exe "disp('hello world');"
 ```
 
+Below is the output.
+
 ![Screenshot 2024-07-10 at 15 53 41](https://github.com/sccn/sccn.github.io/assets/1872705/d6192ace-79d0-4741-9c5a-7b9415976c9f)
 
-You may also write a script containing MATLAB and EEGLAB code. For example, same the text "disp('hello world');" in the file **script.m** then type:
+You may also write a script containing MATLAB and EEGLAB code. For example, save the same text "disp('hello world');" in the file **script.m** then type:
 
 ```
 .\EEGLAB.exe ".\script.m"
 ```
 
+Below is the output.
+
 ![Screenshot 2024-07-10 at 15 59 15](https://github.com/sccn/sccn.github.io/assets/1872705/8cec47dc-e82f-4012-a646-b968760c7358)
 
+Of course, running the "hello world" examples mentioned above is not particularly interesting. Instead, you might want to execute the EEGLAB scripts provided in the tutorial section.
 
 Similarity between the compiled and the MATLAB version of EEGLAB
 ------------------------------------------------------
