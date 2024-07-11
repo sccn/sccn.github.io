@@ -1,0 +1,183 @@
+total 904
+drwxr-xr-x  52 dtyoung  staff   1.6K Jul 11 16:42 ./
+drwxr-xr-x@ 35 dtyoung  staff   1.1K Jul 11 16:41 ../
+-rw-------   1 dtyoung  staff   5.7K Jul 11 12:46 ARfitStudio 2.md
+-rw-r--r--   1 dtyoung  staff   5.7K Jul 11 13:44 ARfitStudio.md
+-rw-------   1 dtyoung  staff   5.9K Jul 11 12:43 EEG-BIDS 2.md
+-rw-r--r--   1 dtyoung  staff   5.9K Jul 11 13:44 EEG-BIDS.md
+-rw-------   1 dtyoung  staff   5.2K Jul 11 12:43 ICLabel 2.md
+-rw-r--r--   1 dtyoung  staff   5.2K Jul 11 13:44 ICLabel.md
+drwxr-xr-x  11 dtyoung  staff   352B Jul 11 13:44 NFT/
+-rw-------   1 dtyoung  staff   3.4K Jul 11 12:46 NIMA 2.md
+-rw-r--r--   1 dtyoung  staff   3.4K Jul 11 13:44 NIMA.md
+drwxr-xr-x   3 dtyoung  staff    96B Jul 11 13:44 PACT/
+-rw-------   1 dtyoung  staff    23K Jul 11 12:44 PACTools 2.md
+-rw-r--r--   1 dtyoung  staff    23K Jul 11 13:44 PACTools.md
+-rw-------   1 dtyoung  staff    11K Jul 11 12:43 PowPowCAT 2.md
+-rw-r--r--   1 dtyoung  staff    11K Jul 11 13:44 PowPowCAT.md
+drwxr-xr-x  34 dtyoung  staff   1.1K Jul 11 13:50 SIFT/
+-rw-------   1 dtyoung  staff   4.0K Jul 11 12:45 amica 2.md
+-rw-r--r--   1 dtyoung  staff   4.0K Jul 11 13:44 amica.md
+drwxr-xr-x   3 dtyoung  staff    96B Jul 11 13:45 clean_rawdata/
+-rw-------   1 dtyoung  staff   2.4K Jul 11 12:43 dipfit 2.md
+-rw-r--r--   1 dtyoung  staff   2.4K Jul 11 13:44 dipfit.md
+-rw-------   1 dtyoung  staff   5.8K Jul 11 12:43 eegstats 2.md
+-rw-r--r--   1 dtyoung  staff   5.8K Jul 11 13:44 eegstats.md
+-rw-------   1 dtyoung  staff   4.5K Jul 11 12:45 fMRIb 2.md
+-rw-r--r--   1 dtyoung  staff   4.5K Jul 11 13:44 fMRIb.md
+-rw-------   1 dtyoung  staff   712B Jul 11 12:46 firfilt 2.md
+-rw-r--r--   1 dtyoung  staff   712B Jul 11 13:44 firfilt.md
+drwxr-xr-x   3 dtyoung  staff    96B Jul 11 13:44 get_chanlocs/
+-rw-------   1 dtyoung  staff    22K Jul 11 12:43 groupSIFT 2.md
+-rw-r--r--   1 dtyoung  staff    22K Jul 11 13:44 groupSIFT.md
+-rw-------   1 dtyoung  staff    32K Jul 11 12:46 imat 2.md
+-rw-r--r--   1 dtyoung  staff    32K Jul 11 13:44 imat.md
+-rw-r--r--   1 dtyoung  staff   200B Jul 11 13:44 index.md
+-rw-r--r--   1 dtyoung  staff     0B Jul 11 16:42 list
+drwxr-xr-x  17 dtyoung  staff   544B Jul 11 13:44 nsgportal/
+-rw-------   1 dtyoung  staff   2.1K Jul 11 13:14 nsgportal 2.md
+-rw-r--r--   1 dtyoung  staff   2.1K Jul 11 13:44 nsgportal.md
+-rw-------   1 dtyoung  staff   2.5K Jul 11 12:43 nwbio 2.md
+-rw-r--r--   1 dtyoung  staff   2.5K Jul 11 13:44 nwbio.md
+-rw-------   1 dtyoung  staff    14K Jul 11 12:46 relica 2.md
+-rw-r--r--   1 dtyoung  staff    14K Jul 11 13:44 relica.md
+-rw-------   1 dtyoung  staff    16K Jul 11 12:43 roiconnect 2.md
+-rw-r--r--   1 dtyoung  staff    16K Jul 11 13:44 roiconnect.md
+-rw-------   1 dtyoung  staff    12K Jul 11 12:46 std_dipoleDensity 2.md
+-rw-r--r--   1 dtyoung  staff    12K Jul 11 13:44 std_dipoleDensity.md
+-rw-------   1 dtyoung  staff   5.4K Jul 11 12:43 trimOutlier 2.md
+-rw-r--r--   1 dtyoung  staff   5.4K Jul 11 13:44 trimOutlier.md
+-rw-------   1 dtyoung  staff   5.3K Jul 11 12:46 viewprops 2.md
+-rw-r--r--   1 dtyoung  staff   5.3K Jul 11 13:44 viewprops.md
+-rw-------   1 dtyoung  staff   1.3K Jul 11 12:44 zapline-plus 2.md
+-rw-r--r--   1 dtyoung  staff   1.3K Jul 11 13:44 zapline-plus.md
+
+./NFT:
+total 176
+drwxr-xr-x  11 dtyoung  staff   352B Jul 11 13:44 ./
+drwxr-xr-x  52 dtyoung  staff   1.6K Jul 11 16:42 ../
+-rw-r--r--   1 dtyoung  staff   4.9K Jul 11 13:46 Chapter_01_Getting_Started_with_NFT.md
+-rw-r--r--   1 dtyoung  staff    15K Jul 11 13:46 Chapter_02_Head_Modeling_from_MR_Images.md
+-rw-r--r--   1 dtyoung  staff   7.0K Jul 11 13:46 Chapter_03_Forward_Model_Generation.md
+-rw-r--r--   1 dtyoung  staff   7.3K Jul 11 13:46 Chapter_04_NFT_Examples.md
+-rw-r--r--   1 dtyoung  staff   7.0K Jul 11 13:46 Chapter_05_NFT_Commands_and_Functions.md
+-rw-r--r--   1 dtyoung  staff   2.7K Jul 11 13:46 NFT_Appendix_A.md
+-rw-r--r--   1 dtyoung  staff    22K Jul 11 13:46 NFT_Appendix_B.md
+-rw-r--r--   1 dtyoung  staff   3.0K Jul 11 13:46 NFT_Appendix_C.md
+-rw-r--r--   1 dtyoung  staff   4.8K Jul 11 13:46 index.md
+
+./PACT:
+total 24
+drwxr-xr-x   3 dtyoung  staff    96B Jul 11 13:44 ./
+drwxr-xr-x  52 dtyoung  staff   1.6K Jul 11 16:42 ../
+-rw-r--r--   1 dtyoung  staff    12K Jul 11 13:46 index.md
+
+./SIFT:
+total 672
+drwxr-xr-x  34 dtyoung  staff   1.1K Jul 11 13:50 ./
+drwxr-xr-x  52 dtyoung  staff   1.6K Jul 11 16:42 ../
+-rw-------   1 dtyoung  staff   3.8K Jul 11 13:37 Chapter-1.-Downloads 2.md
+-rw-r--r--   1 dtyoung  staff   3.8K Jul 11 13:46 Chapter-1.-Downloads.md
+-rw-------   1 dtyoung  staff    11K Jul 11 13:37 Chapter-2.-Introduction 2.md
+-rw-r--r--   1 dtyoung  staff    11K Jul 11 13:46 Chapter-2.-Introduction.md
+-rw-------   1 dtyoung  staff   501B Jul 11 13:37 Chapter-3-and-4-Theory 2.md
+-rw-r--r--   1 dtyoung  staff   501B Jul 11 13:46 Chapter-3-and-4-Theory.md
+-rw-------   1 dtyoung  staff   2.9K Jul 11 13:37 Chapter-5.-Computing-connectivity 2.md
+-rw-r--r--   1 dtyoung  staff   2.9K Jul 11 13:46 Chapter-5.-Computing-connectivity.md
+-rw-------   1 dtyoung  staff   1.8K Jul 11 13:37 Chapter-5.1.-SIFT-install 2.md
+-rw-r--r--   1 dtyoung  staff   1.8K Jul 11 13:46 Chapter-5.1.-SIFT-install.md
+-rw-------   1 dtyoung  staff   3.5K Jul 11 13:37 Chapter-5.2.-Loading-and-preparing-the-data 2.md
+-rw-r--r--   1 dtyoung  staff   3.5K Jul 11 13:46 Chapter-5.2.-Loading-and-preparing-the-data.md
+-rw-------   1 dtyoung  staff    12K Jul 11 13:37 Chapter-5.3.-SIFT-preprocessing 2.md
+-rw-r--r--   1 dtyoung  staff    12K Jul 11 13:46 Chapter-5.3.-SIFT-preprocessing.md
+-rw-------   1 dtyoung  staff    20K Jul 11 13:37 Chapter-5.4.-Model-Fitting-and-Validation 2.md
+-rw-r--r--   1 dtyoung  staff    20K Jul 11 13:46 Chapter-5.4.-Model-Fitting-and-Validation.md
+-rw-------   1 dtyoung  staff   2.9K Jul 11 13:37 Chapter-5.5.-Connectivity-Estimation 2.md
+-rw-r--r--   1 dtyoung  staff   2.9K Jul 11 13:46 Chapter-5.5.-Connectivity-Estimation.md
+-rw-------   1 dtyoung  staff    25K Jul 11 13:37 Chapter-6.-Visualization 2.md
+-rw-r--r--   1 dtyoung  staff    25K Jul 11 13:46 Chapter-6.-Visualization.md
+-rw-------   1 dtyoung  staff    19K Jul 11 13:37 Chapter-7.-Statistics-in-SIFT 2.md
+-rw-r--r--   1 dtyoung  staff    19K Jul 11 13:46 Chapter-7.-Statistics-in-SIFT.md
+-rw-------   1 dtyoung  staff   2.6K Jul 11 13:37 Chapter-8.-Conclusions-and-Acknowledgements 2.md
+-rw-r--r--   1 dtyoung  staff   2.6K Jul 11 13:46 Chapter-8.-Conclusions-and-Acknowledgements.md
+-rw-------   1 dtyoung  staff    19K Jul 11 13:37 Function-Reference 2.md
+-rw-r--r--   1 dtyoung  staff    19K Jul 11 13:46 Function-Reference.md
+-rw-------   1 dtyoung  staff    12K Jul 11 13:37 References 2.md
+-rw-r--r--   1 dtyoung  staff    12K Jul 11 13:46 References.md
+drwxr-xr-x  33 dtyoung  staff   1.0K Jul 11 13:48 images/
+drwx------   2 dtyoung  staff    64B Jul 11 13:50 images 2/
+-rw-------   1 dtyoung  staff   1.5K Jul 11 13:37 index 2.md
+-rw-r--r--   1 dtyoung  staff   1.5K Jul 11 13:46 index.md
+
+./SIFT/images:
+total 13352
+drwxr-xr-x  33 dtyoung  staff   1.0K Jul 11 13:48 ./
+drwxr-xr-x  34 dtyoung  staff   1.1K Jul 11 13:50 ../
+-rw-r--r--   1 dtyoung  staff   2.3K Jul 11 13:44 Dl_ico.png
+-rw-r--r--   1 dtyoung  staff   1.2K Jul 11 13:44 Dlpdf.jpeg
+-rw-r--r--   1 dtyoung  staff    67K Jul 11 13:44 SIFT_splashslide.jpg
+-rw-r--r--   1 dtyoung  staff    65K Jul 11 13:44 SIFTfig1.jpg
+-rw-r--r--   1 dtyoung  staff   101K Jul 11 13:44 SIFTfig10.jpg
+-rw-r--r--   1 dtyoung  staff    57K Jul 11 13:44 SIFTfig11.jpg
+-rw-r--r--   1 dtyoung  staff   330K Jul 11 13:44 SIFTfig12.jpg
+-rw-r--r--   1 dtyoung  staff   135K Jul 11 13:44 SIFTfig13.jpg
+-rw-r--r--   1 dtyoung  staff   248K Jul 11 13:44 SIFTfig14.jpg
+-rw-r--r--   1 dtyoung  staff   185K Jul 11 13:44 SIFTfig15.jpg
+-rw-r--r--   1 dtyoung  staff   147K Jul 11 13:44 SIFTfig16.jpg
+-rw-r--r--   1 dtyoung  staff   178K Jul 11 13:44 SIFTfig17.jpg
+-rw-r--r--   1 dtyoung  staff   239K Jul 11 13:44 SIFTfig18a.jpg
+-rw-r--r--   1 dtyoung  staff   244K Jul 11 13:44 SIFTfig18b.jpg
+-rw-r--r--   1 dtyoung  staff   248K Jul 11 13:44 SIFTfig19.jpg
+-rw-r--r--   1 dtyoung  staff   118K Jul 11 13:44 SIFTfig2.jpg
+-rw-r--r--   1 dtyoung  staff   100K Jul 11 13:44 SIFTfig20.jpg
+-rw-r--r--   1 dtyoung  staff   509K Jul 11 13:44 SIFTfig21.jpg
+-rw-r--r--   1 dtyoung  staff   462K Jul 11 13:44 SIFTfig22.jpg
+-rw-r--r--   1 dtyoung  staff   317K Jul 11 13:44 SIFTfig23.jpg
+-rw-r--r--   1 dtyoung  staff   827K Jul 11 13:44 SIFTfig24.jpg
+-rw-r--r--   1 dtyoung  staff   523K Jul 11 13:44 SIFTfig25.jpg
+-rw-r--r--   1 dtyoung  staff   198K Jul 11 13:44 SIFTfig26.jpg
+-rw-r--r--   1 dtyoung  staff   194K Jul 11 13:44 SIFTfig27.jpg
+-rw-r--r--   1 dtyoung  staff    95K Jul 11 13:44 SIFTfig3.jpg
+-rw-r--r--   1 dtyoung  staff   145K Jul 11 13:44 SIFTfig4.png
+-rw-r--r--   1 dtyoung  staff   125K Jul 11 13:44 SIFTfig5.jpg
+-rw-r--r--   1 dtyoung  staff   127K Jul 11 13:44 SIFTfig6.jpg
+-rw-r--r--   1 dtyoung  staff   240K Jul 11 13:44 SIFTfig7.jpg
+-rw-r--r--   1 dtyoung  staff   167K Jul 11 13:44 SIFTfig8.jpg
+-rw-r--r--   1 dtyoung  staff   223K Jul 11 13:44 SIFTfig9.jpg
+
+./SIFT/images 2:
+total 0
+drwx------   2 dtyoung  staff    64B Jul 11 13:50 ./
+drwxr-xr-x  34 dtyoung  staff   1.1K Jul 11 13:50 ../
+
+./clean_rawdata:
+total 40
+drwxr-xr-x   3 dtyoung  staff    96B Jul 11 13:45 ./
+drwxr-xr-x  52 dtyoung  staff   1.6K Jul 11 16:42 ../
+-rw-r--r--   1 dtyoung  staff    20K Jul 11 13:46 index.md
+
+./get_chanlocs:
+total 24
+drwxr-xr-x   3 dtyoung  staff    96B Jul 11 13:44 ./
+drwxr-xr-x  52 dtyoung  staff   1.6K Jul 11 16:42 ../
+-rw-r--r--   1 dtyoung  staff    12K Jul 11 13:46 index.md
+
+./nsgportal:
+total 192
+drwxr-xr-x  17 dtyoung  staff   544B Jul 11 13:44 ./
+drwxr-xr-x  52 dtyoung  staff   1.6K Jul 11 16:42 ../
+-rw-r--r--   1 dtyoung  staff   8.3K Jul 11 13:46 Creating-and-managing-a-job-from-pop_nsg-GUI.md
+-rw-r--r--   1 dtyoung  staff   5.4K Jul 11 13:46 Creating-and-managing-an-NSG-job-using-pop_nsg-from-the-command-line.md
+-rw-r--r--   1 dtyoung  staff   197B Jul 11 13:46 EEGLAB-command-line-tools-to-RESTful-interface.md
+-rw-r--r--   1 dtyoung  staff   1.2K Jul 11 13:46 EEGLAB-plug-ins-on-NSG.md
+-rw-r--r--   1 dtyoung  staff   860B Jul 11 13:46 Registering-at-NSG.md
+-rw-r--r--   1 dtyoung  staff   594B Jul 11 13:46 Registering-on-NSG-R.md
+-rw-r--r--   1 dtyoung  staff   264B Jul 11 13:46 Running-AMICA-on-NSG.md
+-rw-r--r--   1 dtyoung  staff   967B Jul 11 13:46 Scheme-of-plug-in-functions-call.md
+-rw-r--r--   1 dtyoung  staff   1.4K Jul 11 13:46 Setting-up-the-plug-in.md
+-rw-r--r--   1 dtyoung  staff    18K Jul 11 13:46 Using-pop_nsg-command-line-tools-in-your-EEGLAB-plug-in.md
+-rw-r--r--   1 dtyoung  staff   5.3K Jul 11 13:46 Using-the-Open-EEGLAB-Portal.md
+-rw-r--r--   1 dtyoung  staff   1.1K Jul 11 13:46 _Sidebar.md
+-rw-r--r--   1 dtyoung  staff   2.2K Jul 11 13:46 index.md
+-rw-r--r--   1 dtyoung  staff   4.9K Jul 11 13:46 nsgportal-command-line-tools.md
+-rw-r--r--   1 dtyoung  staff   3.9K Jul 11 13:46 nsgportal-graphical-user-interface:-pop_nsg.md

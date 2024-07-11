@@ -3,3 +3,5 @@ _site/
 _config-claire.yml
 Gemfile.lock
 code/plugins/github/
+.*/.DS_Store
+.DS_Store
