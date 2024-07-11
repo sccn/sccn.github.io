@@ -2,3 +2,4 @@ _site/
 .jekyll-cache/
 _config-claire.yml
 Gemfile.lock
+code/plugins/github/

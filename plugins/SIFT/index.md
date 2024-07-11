@@ -1,15 +1,17 @@
+---
+layout: default
+title: SIFT
+long_title: SIFT
+parent: Plugins
+categories: plugins
+has_children: true
+---
 
 ![700px\|link=](https://github.com/sccn/SIFT/assets/1872705/1abc1d2d-36bb-4cfb-9328-b57a96044f55)
 
 # The Source Information Flow Toolbox tutorial (SIFT)
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>Developed and Maintained by: Tim Mullen and Arnaud Delorme (SCCN, INC, UCSD) 2009-
-</tr>
-</tbody>
-</table>
+Developed and Maintained by: Tim Mullen and Arnaud Delorme (SCCN, INC, UCSD) 2009
 
 SIFT is an EEGLAB-compatible toolbox for the analysis and visualization of
 multivariate causality and information flow between sources of
