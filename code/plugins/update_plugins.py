@@ -8,6 +8,7 @@ def run_command(command):
     return result
 
 def update_repo(repo, script, type='readme'):
+    print(f"Updating {repo}...")
     current_dir = os.getcwd()
     repo_path = os.path.join(current_dir, 'github', repo)
     
@@ -32,5 +33,5 @@ if __name__ == "__main__":
     for plugin in wiki_plugins:
         update_repo(plugin, "Wiki_plugin.py", 'wiki')
     readme_plugins = ['roiconnect', 'EEG-BIDS', 'trimOutlier', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'amica', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline', 'ARfitStudio ', 'NIMA', 'firfilt']
-    # for plugin in readme_plugins:
-    #     update_repo(plugin, "README_plugin.py")
+    for plugin in readme_plugins:
+        update_repo(plugin, "README_plugin.py")

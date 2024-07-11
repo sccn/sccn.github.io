@@ -26,7 +26,7 @@ def reformat_plugin_dir(plugin_input_dir, plugin_name):
         os.makedirs(plugin_output_dir)
     # copy image directory from input to output dir
     if os.path.exists(os.path.join(plugin_input_dir, 'images')):
-        shutil.copytree(os.path.join(plugin_input_dir, 'images'), os.path.join(plugin_output_dir, 'images'))
+        shutil.copytree(os.path.join(plugin_input_dir, 'images'), os.path.join(plugin_output_dir, 'images'), dirs_exist_ok=True)
 
     index_file = os.path.join(plugin_output_dir, 'index.md')
     shutil.copyfile(os.path.join(plugin_input_dir, 'Home.md'), index_file)
