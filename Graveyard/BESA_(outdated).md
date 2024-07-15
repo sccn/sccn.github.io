@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-DIPFIT vs BESA study using the spherical head model
+DIPFIT vs. BESA study using the spherical head model
 --------
+
+[statistics](Statistics.md)
 
 We (AD) checked the results of fitting equivalent dipoles with DIPFIT
 (spherical model) against results of BESA(3.0) for independent
