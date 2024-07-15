@@ -25,8 +25,8 @@ Folder**)
 model-fitting algorithm.  You must manually install
 as follows: Download the free ARfit package from
 <https://climate-dynamics.org/software/#arfit>. After downloading and
-unzipping the ARfit package, place the **`/arfit/`** folder in
-**<SIFT-path>`/external/`** where **<SIFT-path>** is the full path to
+unzipping the ARfit package, place the **/arfit/** folder in
+**SIFT-path/external/** where **SIFT-path** is the full path to
 the SIFT root directory.
 
 6\) Once the EEGLAB main GUI is visible, you are good to go! You will

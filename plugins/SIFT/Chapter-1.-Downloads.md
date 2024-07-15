@@ -9,8 +9,7 @@ grand_parent: Plugins
 
 SIFT releases can be downloaded below
 
-| You can install SIFT using the [EEGLAB Extension Manager](https://eeglab.org/others/EEGLAB_Extensions.html) (see also section 5.1). |                                                                                                                                                                                                                                                                                           
-|------------------------------------------------------------------------------------------------------------------------|
+You can install SIFT using the [EEGLAB Extension Manager](https://eeglab.org/others/EEGLAB_Extensions.html) (see also section 5.1).                                                                                                                                                                                                                                                                                           
 
 <table>
 <tbody>
@@ -20,7 +19,7 @@ SIFT releases can be downloaded below
 </tr>
 <tr class="odd">
 <td><p><img src="images/Dlpdf.jpeg"></p></td>
-<td><p>70-page <a href="https://sccn.ucsd.edu/githubwiki/files/sift_manual_0.1a.pdf" title="wikilink">SIFT manual</a>. It gives both SIFT methods theory and a practical guide to using SIFT using downloadable sample data (some of the content in the PDF document is outdated, and this wiki is more up-to-date).
+<td><p>70-page <a href="https://sccn.ucsd.edu/githubwiki/files/sift_manual_0.1a.pdf" title="wikilink">SIFT manual</a>. It gives both SIFT methods theory and a practical guide to using SIFT using downloadable sample data (some of the content in the PDF document is outdated, and this wiki is more up-to-date).</p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/Dlpdf.jpeg"></p></td>
@@ -29,7 +28,7 @@ SIFT releases can be downloaded below
 <tr class="even">
 <td><p><img src="images/Dlpdf.jpeg"></p></td>
 <td><p>A short video lecture on the (very) basic theory and application of SIFT to modeling distributed brain dynamics in EEG is available
-<a href="https://www.youtube.com/watch?v=6_WW6EMHmWo&list=PLXc9qfVbMMN2xFa3w5ceJB52Dx-3Sgg2Z&index=12l">here</a>. A longer video is available <a href="https://youtu.be/NO3hbYlqNF0">here</a>. </td>
+<a href="https://www.youtube.com/watch?v=6_WW6EMHmWo&list=PLXc9qfVbMMN2xFa3w5ceJB52Dx-3Sgg2Z&index=12l">here</a>. A longer video is available <a href="https://youtu.be/NO3hbYlqNF0">here</a>.</p></td>
 </tr>
 </tbody>
 </table>

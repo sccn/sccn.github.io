@@ -25,7 +25,7 @@ options set. From the EEGLAB menu select **File > Memory and other options**. Ma
 
 Now let’s load our sample datasets in EEGLAB. We will first load the
 *RespWrong.set* file and then *RespCorr.set* located in the
-**<SIFT-path>`/Data/`** folder (click on [Chapter 1. Downloads](Chapter-1.-Downloads) to download the data).
+**SIFT-path/Data/** folder (click on [Chapter 1. Downloads](Chapter-1.-Downloads) to download the data).
 
 ![Image:images/SIFTfig5.jpg](images/SIFTfig5.jpg )
 
