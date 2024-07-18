@@ -3,7 +3,10 @@ layout: default
 title: ICLabel
 long_title: ICLabel
 parent: Plugins
+nav_order: 13
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/ICLabel).
+
 # ICLabel
 An automatic EEG independent component classifer plugin for EEGLAB.
 For more information, see [the ICLabel website tutorial](https://labeling.ucsd.edu/tutorial/about).

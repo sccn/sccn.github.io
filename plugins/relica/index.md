@@ -3,7 +3,10 @@ layout: default
 title: relica
 long_title: relica
 parent: Plugins
+nav_order: 21
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/relica).
+
 # The RELICA EEGLAB plug-in
 
 ## What is RELICA?

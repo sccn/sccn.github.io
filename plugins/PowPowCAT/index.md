@@ -3,7 +3,10 @@ layout: default
 title: PowPowCAT
 long_title: PowPowCAT
 parent: Plugins
+nav_order: 16
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/PowPowCAT).
+
 Presentation slides (Click the cat to download)
 =================================================
 <a href="images/PowPowCAT_31stEEGLABWorkshop.pdf" class="image fit"><img src="images/PowPowCAT_logo.png" alt=""></a>

@@ -14,14 +14,14 @@ To start the tutorial, launch the *pop_nsg* GUI by clicking **Tools > NSG Tools 
 <!-- EEGLAB GUI to launch pop_nsg-->
 
 <center>
-<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/eeglab_nsgtools_menus.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/eeglab_nsgtools_menus.jpg?raw=true" alt="drawing" width="400"/>
 </center>
 
 
 The GUI depicted below will pop up. The GUI can also be invoked from the MATLAB command windows by typing *pop_nsg*.
 
 <center>
-<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/pop_nsgguineu.jpg" alt="drawing" width="600"/>
+<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/pop_nsgguineu.jpg?raw=true" alt="drawing" width="600"/>
 </center>
 
 ## Submitting a job to NSG
@@ -35,7 +35,7 @@ With the exception of the path to the job file, the GUI at this point of the tut
 
  <!-- Defining JOB ID -->
 <center>
-<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/pop_nsg_job2send.jpg" alt="drawing" width="600"/>
+<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/pop_nsg_job2send.jpg?raw=true" alt="drawing" width="600"/>
 </center>
 
 After this, you may click the button **Run job on NSG** to submit the job to NSG. But don't do this yet! You may want to test your job submission before that, right?
@@ -48,7 +48,7 @@ A job can be tested locally on your computer before being submitted to NSG. For 
  
  <!-- Job submited -->
 <center>
-<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/pop_nsg_jobsubmitted.jpg" alt="drawing" width="600"/>
+<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/pop_nsg_jobsubmitted.jpg?raw=true" alt="drawing" width="600"/>
 </center>
 
 ## Checking job status periodically
@@ -84,7 +84,7 @@ EEG files and a wide range of image formats generated as a result of a NSG job c
 
  <!-- Job submited -->
 <center>
-<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/result_explorer1.jpg" alt="drawing" width="700"/>
+<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/result_explorer1.jpg?raw=true" alt="drawing" width="700"/>
 </center>
 
 From this file explorer, navigate (by clicking into) to the folder *TestingEEGLABNSG* to acces the result files.
@@ -92,7 +92,7 @@ Then, select e.g. the file *IC_scalp_maps.jpg* and then click the button **Load/
 
 <!-- topos -->
 <center>
-<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/results_topos.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/results_topos.jpg?raw=true" alt="drawing" width="400"/>
 </center>
 
 In a similar way, a *.set* file can be selected and loaded from this interface.

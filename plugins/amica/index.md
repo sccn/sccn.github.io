@@ -3,7 +3,10 @@ layout: default
 title: amica
 long_title: amica
 parent: Plugins
+nav_order: 19
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/amica).
+
 # Amica
 Code for AMICA: Adaptive Mixture ICA with shared component
 

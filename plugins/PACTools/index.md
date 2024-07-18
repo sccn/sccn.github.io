@@ -3,7 +3,10 @@ layout: default
 title: PACTools
 long_title: PACTools
 parent: Plugins
+nav_order: 17
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/PACTools).
+
 [![GitHub stars](https://img.shields.io/github/stars/sccn/PACTools?color=%235eeb34&logo=GithUb&logoColor=%23fafafa)](https://github.com/sccn/PACTools/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/sccn/PACTools?color=%23b3d9f5&logo=GitHub)](https://github.com/sccn/PACTools/network)
 [![GitHub issues](https://img.shields.io/github/issues/sccn/PACTools?color=%23fa251e&logo=GitHub)](https://github.com/sccn/PACTools/issues)

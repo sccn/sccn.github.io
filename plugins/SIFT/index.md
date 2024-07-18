@@ -5,7 +5,10 @@ long_title: SIFT
 parent: Plugins
 categories: plugins
 has_children: true
+nav_order: 1
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/SIFT).
+
 
 ![700px\|link=](https://github.com/sccn/SIFT/assets/1872705/1abc1d2d-36bb-4cfb-9328-b57a96044f55)
 

@@ -18,5 +18,5 @@ Generally, all plug-ins in EEGLAB, included *nsgportal*, can be installed follow
 Use menu item **Tools > NSG Tools > NSG portal credentials and settings**. Simply enter your NSG user name and user password (see description above on this page). Inputs **NSG key** and **NSG Url** do not need to be modified. The entry **Output folder** is the folder where NSG data will be downloaded.
 
 <center>
-<img src="https://github.com/nucleuscub/pop_nsg_wiki/blob/master/docs/img/500px-Nsgcredentials.png" alt="drawing" width="500"/>
+<img src="https://github.com/nucleuscub/pop_nsg_wiki/blob/master/docs/img/500px-Nsgcredentials.png?raw=true" alt="drawing" width="500"/>
 </center>

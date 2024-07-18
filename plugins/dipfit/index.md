@@ -3,7 +3,10 @@ layout: default
 title: dipfit
 long_title: dipfit
 parent: Plugins
+nav_order: 14
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/dipfit).
+
 Description
 =====
 DIPFIT is an [EEGLAB](http://eeglab.org) plugin to perform inverse source localization.

@@ -3,7 +3,10 @@ layout: default
 title: NIMA
 long_title: NIMA
 parent: Plugins
+nav_order: 26
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/NIMA).
+
 NIMA stands for Nima's Images from Measure-projection Analysis. Measure
 Projection Toolbox (MPT) is a published method (Bigdely-Shamlo et al.,
 2013), and for his wiki page see [this

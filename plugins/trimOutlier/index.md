@@ -3,7 +3,10 @@ layout: default
 title: trimOutlier
 long_title: trimOutlier
 parent: Plugins
+nav_order: 10
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/trimOutlier).
+
 What is *trimOutlier*() for? (05/15/2019 updated)
 -------------------------------------------------
 

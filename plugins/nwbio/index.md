@@ -3,7 +3,10 @@ layout: default
 title: nwbio
 long_title: nwbio
 parent: Plugins
+nav_order: 12
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/nwbio).
+
 ![NWBio](https://github.com/sccn/nwbio/assets/1872705/c7f70411-9d86-4df5-8de4-6e0a69594785)
 
 # NWBio EEGLAB plugin

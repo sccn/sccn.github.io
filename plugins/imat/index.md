@@ -3,7 +3,10 @@ layout: default
 title: imat
 long_title: imat
 parent: Plugins
+nav_order: 23
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/imat).
+
 # IMAT
 Independent Modulator Analysis Toolbox
 

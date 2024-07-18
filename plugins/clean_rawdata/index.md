@@ -5,7 +5,10 @@ long_title: clean_rawdata
 parent: Plugins
 categories: plugins
 has_children: true
+nav_order: 6
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/clean_rawdata).
+
 Historical Background (01/07/2020 updated)
 ------------------------------------------
 

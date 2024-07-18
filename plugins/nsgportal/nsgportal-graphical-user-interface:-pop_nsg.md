@@ -14,7 +14,7 @@ Interaction with key function in EEGLAB is mostly supported through both, comman
 To call the *pop_nsg* GUI, simply type *pop_nsg* from the MATLAB command windows. The GUI depicted below will pop up. the GUI can also be invoked from the EEGLAB main GUI by clicking ***Tools > NSG Tools > Manage NSG jobs***. For this, the plugin *nsgportal*  has to be installed before (see [this](https://github.com/sccn/nsgportal/wiki/Registering-on-NSG-R) section). 
 
 <center>
-<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/pop_nsgguineu.jpg" alt="drawing" width="800"/>
+<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/pop_nsgguineu.jpg?raw=true" alt="drawing" width="800"/>
 </center>
 
 The main functionalities supported from the pop_nsg GUI are listed below:

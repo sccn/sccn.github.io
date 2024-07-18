@@ -3,7 +3,10 @@ layout: default
 title: firfilt
 long_title: firfilt
 parent: Plugins
+nav_order: 27
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/firfilt).
+
 Documentation
 -------------
 See [this page](https://eeglab.org/others/Firfilt_FAQ.html) or the [paper](https://home.uni-leipzig.de/biocog/eprints/widmann_a2015jneuroscimeth250_34.pdf) for documentation.

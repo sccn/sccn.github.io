@@ -5,7 +5,10 @@ long_title: get_chanlocs
 parent: Plugins
 categories: plugins
 has_children: true
+nav_order: 2
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/get_chanlocs).
+
 <h3>
 
 <b>*get_chanlocs*: Compute 3-D electrode positions from a 3-D head image

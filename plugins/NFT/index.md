@@ -5,7 +5,10 @@ long_title: NFT
 parent: Plugins
 categories: plugins
 has_children: true
+nav_order: 3
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/NFT).
+
 ### Open Source Matlab Toolbox for Neuroelectromagnetic Forward Head Modeling
 
 ![right](NFTsmall.jpg "wikilink")

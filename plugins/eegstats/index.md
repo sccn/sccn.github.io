@@ -3,7 +3,10 @@ layout: default
 title: eegstats
 long_title: eegstats
 parent: Plugins
+nav_order: 15
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/eegstats).
+
 # EEGSTATS plugin for EEGLAB
 
 This plugin computes frequency band power, alpha peak frequency, and alpha asymmetry. It uses the [restingIAF](https://github.com/corcorana/restingIAF) MATLAB code for some computation.

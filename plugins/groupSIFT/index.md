@@ -3,7 +3,10 @@ layout: default
 title: groupSIFT
 long_title: groupSIFT
 parent: Plugins
+nav_order: 11
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/groupSIFT).
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/jHngHEIsg7Q/0.jpg)](http://www.youtube.com/watch?v=jHngHEIsg7Q)
 
 Click to play the movie on Youtube. This movie shows the first application of *groupSIFT* in Loo et al. (2019) *NeuroImage: Clinical*

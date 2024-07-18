@@ -3,7 +3,10 @@ layout: default
 title: roiconnect
 long_title: roiconnect
 parent: Plugins
+nav_order: 8
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/roiconnect).
+
 [![GitHub stars](https://img.shields.io/github/stars/arnodelorme/roiconnect?color=green&logo=GitHub)](https://github.com/arnodelorme/roiconnect/issues) [![GitHub issues](https://img.shields.io/github/issues/arnodelorme/roiconnect?color=%23fa251e)](https://github.com/arnodelorme/roiconnect/issues) [![GitHub pulls](https://img.shields.io/github/issues-pr-raw/arnodelorme/roiconnect)](https://github.com/arnodelorme/roiconnect/pulls) [![GitHub forks](https://img.shields.io/github/forks/arnodelorme/roiconnect?style=social)](https://github.com/arnodelorme/roiconnect/forks) [![GitHub contributors](https://img.shields.io/github/contributors/arnodelorme/roiconnect?style=social)](https://github.com/arnodelorme/roiconnect/contributors)
 
 # What is ROIconnect?

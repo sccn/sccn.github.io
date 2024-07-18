@@ -140,7 +140,7 @@ The **EEG.CAT.Stats** structure should store statistics computed by these functi
 
 Another current method to compute statistics is to export the connectivity matrices stored in the CAT substructure of the EEG dataset. On the MATLAB command line type:
 
-```matlab
+```
 >> EEG(1).CAT.Conn
 
 ans = 

@@ -21,7 +21,7 @@ In the plug-in folder you will find two  files, [eegplugin_icansg.m](https://git
 The second function will be the focus of this tutorial. The aim of the plug-in is to perform ICA decomposition via NSG using one of two implemented decomposition approaches, 'runica' or 'jader', that performs Infomax or JADE ICA decomposition, respectively. If called from the EEGLAB menu by manually selecting the EEGLAB GUI menu item specified in the *eegplugin_icansg* function (see figure below), the plug-in will use the current EEG dataset structure loaded into EEGLAB, and will pop up an option entry window asking which ICA method to use. The figure below shows the *eegplugin_icansg* menu item selected and the *pop_icansg* window popped up as a result. 
 
 <center>
-<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/plugin_runicansg.jpg" alt="drawing" width="600"/>
+<img src="https://github.com/sccn/nsgportal/blob/master/docs/img/plugin_runicansg.jpg?raw=true" alt="drawing" width="600"/>
 </center>
 
 The plug-in pop-function (*pop_icansp*)can also be called from the MATLAB command line; in this case, you may pass as input the EEG dataset structure you want to decompose as well as the decomposition method to apply to the data. The sample code below specifies both the EEG dataset structure to operate on and the ICA decomposition type to apply; it thus will perform ICA decomposition via NSG on the currently loaded (EEG structure) dataset (using *'runica'*) *without* popping up a parameter input window:

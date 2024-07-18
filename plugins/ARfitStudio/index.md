@@ -3,7 +3,10 @@ layout: default
 title: ARfitStudio
 long_title: ARfitStudio
 parent: Plugins
+nav_order: 7
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/ARfitStudio).
+
 What is ARfitStudio
 -------------------
 

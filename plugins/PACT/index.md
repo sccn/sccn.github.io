@@ -5,7 +5,10 @@ long_title: PACT
 parent: Plugins
 categories: plugins
 has_children: true
+nav_order: 4
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/PACT).
+
 What is PACT?
 -------------
 

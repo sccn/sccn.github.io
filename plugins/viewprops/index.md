@@ -3,7 +3,10 @@ layout: default
 title: viewprops
 long_title: viewprops
 parent: Plugins
+nav_order: 24
 ---
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/viewprops).
+
 # Viewprops README
 Shows the same information as the original EEGLAB pop_prop() function with the addition of a scrolling IC activity viewer, percent channel variance accounted for (PVAF), dipole plot (if available), and component label (if available).
 ![](Viewprops_eye.png)
