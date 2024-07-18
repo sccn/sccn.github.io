@@ -37,7 +37,7 @@ grand_parent: Plugins
     with open(output_file, 'w') as out:
         out.write(text)
 
-def reformat_plugin_dir(plugin_input_dir, plugin_name, plugin_type='wiki'):
+def reformat_plugin_dir(plugin_input_dir, plugin_name, order, plugin_type='wiki'):
     # plugins_output_dir = '/Users/dtyoung/Documents/EEGLAB/sccn.github.io/plugins'
     plugin_output_dir = os.path.join('/Users/dtyoung/Documents/EEGLAB/sccn.github.io/plugins', plugin_name)
     if not os.path.exists(plugin_output_dir):
@@ -58,8 +58,11 @@ long_title: {plugin_name}
 parent: Plugins
 categories: plugins
 has_children: true
+nav_order: {order}
 ---
-'''.format(plugin_name=plugin_name)
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/{plugin_name}).
+
+'''.format(plugin_name=plugin_name, order=order)
             text = append_text + text
             with open(index_file, 'w') as out:
                 out.write(text)
@@ -77,21 +80,25 @@ layout: default
 title: {plugin_name}
 long_title: {plugin_name}
 parent: Plugins
+nav_order: {order}
 ---
-'''.format(plugin_name=plugin_name)
+To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/{plugin_name}).
+
+'''.format(plugin_name=plugin_name, order=order)
             text = append_text + text
             with open(index_file, 'w') as out:
                 out.write(text)
 
 # main
 def main():
-    if len(sys.argv) != 4:
-        print('Usage: python test.py <plugin_dir_path> <plugin_name> <plugin_type>')
+    if len(sys.argv) != 5:
+        print('Usage: python test.py <plugin_dir_path> <plugin_name> <plugin_type> <nav_order>')
         sys.exit(1)
     dirpath = sys.argv[1]
     plugin_name = sys.argv[2]
     plugin_type = sys.argv[3]
-    reformat_plugin_dir(dirpath, plugin_name, plugin_type)
+    order = sys.argv[4]
+    reformat_plugin_dir(dirpath, plugin_name, order, plugin_type)
 
 if __name__ == "__main__":
     main()

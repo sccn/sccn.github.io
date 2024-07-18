@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 
 def run_command(command):
     result = subprocess.run(command, shell=True, capture_output=False, text=True)
@@ -7,7 +8,7 @@ def run_command(command):
         print(f"Command failed: {command}\nError: {result.stderr}")
     return result
 
-def update_repo(repo, script, plugin_type='readme'):
+def update_repo(repo, order, plugin_type='readme'):
     print(f"Updating {repo}...")
     current_dir = os.getcwd()
     repo_path = os.path.join(current_dir, 'github', repo)
@@ -22,16 +23,28 @@ def update_repo(repo, script, plugin_type='readme'):
             run_command(f'git clone https://github.com/sccn/{repo}.git {repo_path}')
         
     os.chdir(current_dir)
-    run_command(f'python {script} {repo_path} {repo} {plugin_type}')
+    script = 'reformat_plugin.py'
+    command = f'python {script} {repo_path} {repo} {plugin_type} {order}'
+    run_command(command)
 
 if __name__ == "__main__":
     # if 'github' not in current directory, create it
     if not os.path.exists('github'):
         os.makedirs('github')
-
-    # wiki_plugins = ['SIFT', 'get_chanlocs', 'NFT', 'PACT', 'nsgportal', 'clean_rawdata']
-    # for plugin in wiki_plugins:
-    #     update_repo(plugin, "reformat_plugin.py", 'wiki')
-    readme_plugins = ['ARfitStudio'] #, 'roiconnect', 'EEG-BIDS', 'trimOutlier', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'amica', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline','NIMA', 'firfilt']
-    for plugin in readme_plugins:
-        update_repo(plugin, "reformat_plugin.py", "readme")
+    if len(sys.argv) == 0:
+        order = 1
+        wiki_plugins = ['SIFT', 'get_chanlocs', 'NFT', 'PACT', 'nsgportal', 'clean_rawdata']
+        for plugin in wiki_plugins:
+            update_repo(plugin, order, 'wiki')
+            order += 1
+        readme_plugins = ['ARfitStudio', 'roiconnect', 'EEG-BIDS', 'trimOutlier', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'amica', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline','NIMA', 'firfilt']
+        for plugin in readme_plugins:
+            update_repo(plugin, order, "readme")
+            order += 1
+    elif len(sys.argv) == 3:
+        plugin_name = sys.argv[1]
+        plugin_type = sys.argv[2]
+        update_repo(plugin_name, 1, plugin_type)
+    else:
+        print('Usage: python update_plugins.py <plugin_name> <plugin_type>')
+        sys.exit(1)
