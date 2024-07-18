@@ -67,7 +67,7 @@ line output:
                group: ''
            condition: ''
              session: []
-            comments: [9×769 char]
+            comments: [9x769 charater]
               nbchan: 32
               trials: 80
                 pnts: 384
@@ -81,7 +81,7 @@ line output:
            icasphere: [32×32 double]
           icaweights: [32×32 double]
          icachansind: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32]
-            chanlocs: [1×32 struct]
+            chanlocs: [1x32 struct]
           urchanlocs: [1×32 struct]
             chaninfo: [1×1 struct]
                  ref: 'common'

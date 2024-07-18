@@ -11,9 +11,11 @@ pattern2 = { '} }' '}}' };
 allStrs = {};
 count   = 1;
 while ~feof(fid)
-    allStrs{count} = fgetl(fid);
-    
-    replace_txt(allStrs{count}, pattern1, pattern2);
+    strTmp = fgetl(fid);
+    expression1 = '[A-Za-z0-9]+\(\)';
+    expression2 = '[A-Za-z0-9]\(\)';
+
+
     
     if count > 1
         [twoLines,content] = replace_txt([ allStrs{count-1} allStrs{count} ], pattern1, pattern2);

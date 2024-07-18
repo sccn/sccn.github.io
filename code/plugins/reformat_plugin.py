@@ -4,7 +4,7 @@ import shutil
 
 # open a text file ending with .md and append a paragraph to it
 def reformat_plugin(dirpath, plugin_name):
-    plugins_dir = '/Users/dtyoung/Documents/EEGLAB/sccn.github.io/plugins'
+    plugins_dir = '../../plugins'
     index_file = os.path.join(plugins_dir, 'index.md')
     shutil.copyfile(os.path.join(dirpath, 'README.md'), index_file)
     with open(index_file) as f:
@@ -39,7 +39,7 @@ grand_parent: Plugins
 
 def reformat_plugin_dir(plugin_input_dir, plugin_name, order, plugin_type='wiki'):
     # plugins_output_dir = '/Users/dtyoung/Documents/EEGLAB/sccn.github.io/plugins'
-    plugin_output_dir = os.path.join('/Users/dtyoung/Documents/EEGLAB/sccn.github.io/plugins', plugin_name)
+    plugin_output_dir = os.path.join('../../plugins', plugin_name)
     if not os.path.exists(plugin_output_dir):
         os.makedirs(plugin_output_dir)
     # copy image directory from input to output dir
