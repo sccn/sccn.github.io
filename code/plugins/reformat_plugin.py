@@ -27,6 +27,11 @@ def reformat_plugin_dir(plugin_input_dir, plugin_name, order, plugin_type='wiki'
     # copy image directory from input to output dir
     if os.path.exists(os.path.join(plugin_input_dir, 'images')):
         shutil.copytree(os.path.join(plugin_input_dir, 'images'), os.path.join(plugin_output_dir, 'images'), dirs_exist_ok=True)
+    # copy all .jpg and .png files from input to output dir
+    for root, dirs, files in os.walk(plugin_input_dir):
+        for file in files:
+            if file.endswith('.jpg') or file.endswith('.png'):
+                shutil.copyfile(os.path.join(root, file), os.path.join(plugin_output_dir, file))
 
     index_file = os.path.join(plugin_output_dir, 'index.md')
     shutil.copyfile(os.path.join(plugin_input_dir, 'README.md'), index_file)

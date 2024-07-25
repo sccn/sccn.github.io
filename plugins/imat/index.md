@@ -8,8 +8,7 @@ nav_order: 23
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/imat).
 
-# IMAT
-Independent Modulator Analysis Toolbox
+# IMAT - Independent Modulator Analysis Toolbox
 
 ## What is IMA?
 Independent Modulator Analysis (IMA) is a method for decomposing spectral fluctuations of temporally independent EEG sources into ‘spatio-spectrally’ distinct spectral modulator processes. Such processes might might derive from and isolate coordinated multiplicative scaling effects of functionally near-independent modulatory factors, for example the effects of modulations roduced in cortico-subcortical or sensory-cortical loops, or by signalling from brainstem-centered import recognition systems using dopamine, serotonin, noradrenaline, etc. (see schematic figure below from [Onton & Makeig, 2009](https://www.frontiersin.org/articles/10.3389/neuro.09.061.2009/full)). Rather than attempting to decompose the mean power spectrum for a component process to identify narrow-band processes superimposed on a 1/f baseline spectum, IMAT identifies characteristic frequency bands in which spectral power *varies* across time. This allows IMA to find *both* narrow and wide band modes. Also, the identified modes need not be singular. For example, IMA will separate the joint activity of an alpha or mu rhythm and its harmonics from endogenous beta band fluctuations occupying overlapping frequency ranges. IMA is applied to independent component (IC) source processes in the data which can be localized in the brain or to a specific scalp muscle, etc. IMA thereby identifies IC subsets that are co-modulated in a specified IM frequency band; these might be thought of as co-modulation networks with a common influence and susceptibility.
@@ -85,6 +84,7 @@ Alternatively the IMA file can be loaded using
 
 The IMA structure has the following fields:
 
+```matlab
              wts: [21×21 double]
              sph: [21×21 double]
          meanpwr: [14×229 double]
@@ -106,7 +106,7 @@ The IMA structure has the following fields:
        condition: []
     subjfilename: {'RestEC_S03_ContAMICAdip.set'}
     subjfilepath: {'/Volumes/ExtremeSSD/IMAT_project/IM/PreSTUDY/S03'}
-
+```
 
 **Detailed description of IMA outputs:**  
 
