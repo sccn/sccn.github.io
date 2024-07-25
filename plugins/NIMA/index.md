@@ -8,6 +8,11 @@ nav_order: 26
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/NIMA).
 
+![P159_separatealpha.png](images/P159_separatealpha.png)
+
+The NIMA EEGLAB plugin
+-------------------------------------------------------------
+
 NIMA stands for Nima's Images from Measure-projection Analysis. Measure
 Projection Toolbox (MPT) is a published method (Bigdely-Shamlo et al.,
 2013), and for his wiki page see [this
@@ -25,11 +30,8 @@ What you can do with the optional inputs (12/07/2018 updated)
 -   Specifying which MRI image and blob/voxel-cluster projections to
     show.
 
-![P159_separatealpha.png](images/P159_separatealpha.png)
-
 GUI, Blobs, and Voxels
 ----------------------
-
 GUI image can be seen in the screenshot below. This visualization works
 on 3-D Gaussian-blurred dipole locations, called (probabilistic) *dipole
 density*, which requires two parameters to determine the spatial
