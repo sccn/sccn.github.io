@@ -4,11 +4,11 @@ title: ARfitStudio
 long_title: ARfitStudio
 parent: Plugins
 has_children: true
-nav_order: 7
+nav_order: 8
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/ARfitStudio).
 
-What is ARfitStudio
+What is ARfitStudio?
 -------------------
 
 First of all, ARfit is a collection of Matlab modules developed by Tapio
@@ -36,7 +36,7 @@ should compile the mex file.
 <http://www.mathworks.com/matlabcentral/fileexchange/174-arfit>
 <http://www.mathworks.com/matlabcentral/fileexchange/29854-multiple-colon/content/mcolonFolder/mcolon.m>
 
-Why ARfitStudio
+Why ARfitStudio?
 ---------------
 
 If there are spike artifacts with high amplitude, we cannot filter the

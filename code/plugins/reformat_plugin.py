@@ -28,10 +28,9 @@ def reformat_plugin_dir(plugin_input_dir, plugin_name, order, plugin_type='wiki'
     if os.path.exists(os.path.join(plugin_input_dir, 'images')):
         shutil.copytree(os.path.join(plugin_input_dir, 'images'), os.path.join(plugin_output_dir, 'images'), dirs_exist_ok=True)
     # copy all .jpg and .png files from input to output dir
-    for root, dirs, files in os.walk(plugin_input_dir):
-        for file in files:
-            if file.endswith('.jpg') or file.endswith('.png'):
-                shutil.copyfile(os.path.join(root, file), os.path.join(plugin_output_dir, file))
+    for file in os.listdir(plugin_input_dir):
+        if file.endswith('.jpg') or file.endswith('.png'):
+            shutil.copyfile(os.path.join(plugin_input_dir, file), os.path.join(plugin_output_dir, file))
     
     # if plugin is 'imat', copy the Docs directory recursively to the output directory
     if plugin_name == 'imat':
@@ -59,11 +58,14 @@ To view the plugin source code, please visit the plugin's [GitHub repository](ht
     if plugin_type == 'wiki':
         wiki_plugin_input_dir = plugin_input_dir + '.wiki'
 
+        # copy image directory from input to output dir
+        if os.path.exists(os.path.join(wiki_plugin_input_dir, 'images')):
+            shutil.copytree(os.path.join(wiki_plugin_input_dir, 'images'), os.path.join(plugin_output_dir, 'images'), dirs_exist_ok=True)
         # copy all .jpg and .png files from wiki input to output dir
-        for root, dirs, files in os.walk(wiki_plugin_input_dir):
-            for file in files:
-                if file.endswith('.jpg') or file.endswith('.png'):
-                    shutil.copyfile(os.path.join(root, file), os.path.join(plugin_output_dir, file))
+        for file in os.listdir(wiki_plugin_input_dir):
+            if file.endswith('.jpg') or file.endswith('.png'):
+                shutil.copyfile(os.path.join(wiki_plugin_input_dir, file), os.path.join(plugin_output_dir, file))
+
 
         for root, dirs, files in os.walk(wiki_plugin_input_dir):
             for file in files:

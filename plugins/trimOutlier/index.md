@@ -8,7 +8,7 @@ nav_order: 10
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/trimOutlier).
 
-What is *trimOutlier*() for? (05/15/2019 updated)
+What is *trimOutlier*?
 -------------------------------------------------
 
 -   **Powerful data surveyability**: It is probably the only tool, as
@@ -28,7 +28,7 @@ What is *trimOutlier*() for? (05/15/2019 updated)
     intuitive user environment with which one can determine rejection
     criteria based on feedback from cut-and-try processes.
 
-Where is the rejection log stored? (05/15/2019 updated)
+Where is the rejection log stored?
 -------------------------------------------------------
 
 It keeps a log in EEG.etc.trimOutlier.cleanChannelMask \[nbchan x 1
@@ -63,8 +63,8 @@ values. This approach helps distinguish the following two cases:
 (1) High-variance state is stationary (i.e. better to reject the channel;
 in this case, the error bar is short); (2) High-variance state is transiend
 (i.e. better to retain the channel; the error bar is long).
-![400px\|Figure S1. Updated display](images/additional.jpg)
 
+![400px\|Figure S1. Updated display](images/additional.jpg)
 
 Before continuing by clicking “Yes,” be sure to study the graphs to
 estimate threshold values. There is no need to worry about finding the

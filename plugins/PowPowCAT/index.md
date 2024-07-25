@@ -4,19 +4,58 @@ title: PowPowCAT
 long_title: PowPowCAT
 parent: Plugins
 has_children: true
-nav_order: 16
+nav_order: 17
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/PowPowCAT).
 
-Presentation slides (Click the cat to download)
-=================================================
 <a href="images/PowPowCAT_31stEEGLABWorkshop.pdf" class="image fit"><img src="images/PowPowCAT_logo.png" alt=""></a>
-The slides are from the 31st EEGLAB workshop, day two 'Time-frequency and connectivity analysis' (November 30, 2021).
+(Click the cat to download presentation slides). The slides are from the 31st EEGLAB workshop, day two 'Time-frequency and connectivity analysis' (November 30, 2021). Artwork is by Mayumi and Makoto Miyakoshi. All rights reserved!
 
-The artwork is by Mayumi and Makoto Miyakoshi. All rights reserved!
-
-Reference paper and erratum (12/02/2021 added)
+The PowPowCAT plugin for EEGLAB
 ==============================================
+
+What it does:
+
+-   It computes within-IC cross-frequency power-power coupling
+    (covariance) called 'comodugram/comodulogram' (see references below)
+    for a single-subject continuous IC activation.
+-   The preprocessing pipeline is as follows:
+-   Performs Matlab spectrogram() (hence it requires Matlab Signal
+    Processing Toolbox) to compute spectrogram and power spectrum
+    density (PSD) as its temporal average using 1-s window with 50%
+    overlap and with modified () logarithmically-spaced frequency bins.
+
+```
+deviationFromLog = 5;
+freqBins = logspace(log10(1+deviationFromLog), log10([user_input_value]+deviationFromLog), 100)-deviationFromLog;
+```
+
+-   Finds boundary event in EEGLAB and removes the chunks that contain
+    boundaries.
+-   Compute median across all the chunks to compute robust spectra, and
+    compute the variance to discard 20% of chunks for cleaning.
+-   Compute covariance matrices of cross-frequency power spectrum for
+    all the ICs (hence pre-selecting ICs is recommended; see [this
+    page](https://sccn.ucsd.edu/wiki/Std_selectICsByCluster) for how to
+    perform it efficiently.)
+-   Performs permutation statistics by randomizing chunk (i.e.
+    datapoint) indices differently for each frequency bin to build
+    surrogate time-frequency data, apply the same covariance
+    calculation, and repeat these processes for 5,000 times. Finally,
+    the observed (i.e. the real) covariance values are tested against
+    the surrogate distribution using non-parametric method,
+    stat_surrogate_pvals(). For multiple comparison correction, false
+    discovery rate (FDR) is computed across all ICs and all pixels.
+-   By using mouse cursor, one can explore the frequency-frequency plot
+    interactively and intuitively. The combination of frequency ranges
+    as well as the correlation coefficient of the selected combination
+    are shown.
+-   The subsampled time-courses of the two frequencies are shown in the
+    bottom left plot.
+-   The scatter plot of the two time-series data are shown.
+
+Reference paper and erratum
+===========================
 
 [Thammasan N, Miyakoshi M. (2020). Cross-frequency Power-Power Coupling
 Analysis: A Useful Cross-Frequency Measure to Classify ICA-Decomposed
@@ -25,8 +64,8 @@ EEG. *Sensors*. 20:7040 .](https://www.mdpi.com/1424-8220/20/24/7040)
 Here is an erratum: The equation (1) in the above paper misses the normalization term 1/k. Too bad I had not found it before I published it! 
 
 
-How to use it (12/04/2020 added)
-================================
+How to use it
+=============
 
 ![Defaultgui.png](images/Defaultgui.png)
 
@@ -51,14 +90,14 @@ How to use it (12/04/2020 added)
     raw correlation coefficients, those masked by p\<0.05 and by p\<0.01
     after false discovery rate (FDR) correction.
     
-Batch process from command line (12/29/2021 added)
-===================================================
+Batch process from command line
+===============================
 The plugin package contains calc_PowPowCAT() which takes EEG and other 4
 parameters as input and outputs EEG structure which contains
 EEG.etc.PowPowCAT under which precomputed PowPowCAT variables can be found.
 
-Results comparison (12/04/2020 added)
-=====================================
+Results comparison
+==================
 
 These are the selected independent components (ICs) with
 ICLabel-generated probabilistic labels.
@@ -89,45 +128,6 @@ to analyze. Generally, it is recommended that you go back to the
 continuous data and apply the analysis. The results from the
 sliding-window calculation capturing 'boundary' events are excluded to
 avoid the boundary effect.
-
-What it does
-============
-
--   It computes within-IC cross-frequency power-power coupling
-    (covariance) called 'comodugram/comodulogram' (see references below)
-    for a single-subject continuous IC activation.
--   The preprocessing pipeline is as follows:
--   Performs Matlab spectrogram() (hence it requires Matlab Signal
-    Processing Toolbox) to compute spectrogram and power spectrum
-    density (PSD) as its temporal average using 1-s window with 50%
-    overlap and with modified () logarithmically-spaced frequency bins.
-
-`deviationFromLog = 5;`
-`freqBins = logspace(log10(1+deviationFromLog), log10([user_input_value]+deviationFromLog), 100)-deviationFromLog;`
-
--   Finds boundary event in EEGLAB and removes the chunks that contain
-    boundaries.
--   Compute median across all the chunks to compute robust spectra, and
-    compute the variance to discard 20% of chunks for cleaning.
--   Compute covariance matrices of cross-frequency power spectrum for
-    all the ICs (hence pre-selecting ICs is recommended; see [this
-    page](https://sccn.ucsd.edu/wiki/Std_selectICsByCluster) for how to
-    perform it efficiently.)
--   Performs permutation statistics by randomizing chunk (i.e.
-    datapoint) indices differently for each frequency bin to build
-    surrogate time-frequency data, apply the same covariance
-    calculation, and repeat these processes for 5,000 times. Finally,
-    the observed (i.e. the real) covariance values are tested against
-    the surrogate distribution using non-parametric method,
-    stat_surrogate_pvals(). For multiple comparison correction, false
-    discovery rate (FDR) is computed across all ICs and all pixels.
--   By using mouse cursor, one can explore the frequency-frequency plot
-    interactively and intuitively. The combination of frequency ranges
-    as well as the correlation coefficient of the selected combination
-    are shown.
--   The subsampled time-courses of the two frequencies are shown in the
-    bottom left plot.
--   The scatter plot of the two time-series data are shown.
 
 Demonstration
 =============

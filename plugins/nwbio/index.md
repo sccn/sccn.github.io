@@ -4,7 +4,7 @@ title: nwbio
 long_title: nwbio
 parent: Plugins
 has_children: true
-nav_order: 12
+nav_order: 13
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/nwbio).
 

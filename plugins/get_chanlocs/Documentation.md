@@ -5,14 +5,9 @@ long_title: Documentation
 parent: get_chanlocs
 grand_parent: Plugins
 ---
-<h3>
-
-<b>*get_chanlocs*: Compute 3-D electrode positions from a 3-D head image
-==\> <u>[Download the *get_chanlocs* User Guide](https://sccn.ucsd.edu/eeglab/download/Get_chanlocs_userguide.pdf)</u></b>
-
-</h3>
-
 ![](Get_chanlocs.jpg)
+
+[Download the *get_chanlocs* User Guide](https://sccn.ucsd.edu/eeglab/download/Get_chanlocs_userguide.pdf)
 
 ### What is *get_chanlocs*?
 

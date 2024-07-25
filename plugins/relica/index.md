@@ -8,6 +8,8 @@ nav_order: 21
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/relica).
 
+<img src="./images/relica.png" width="600">
+
 # The RELICA EEGLAB plug-in
 
 ## What is RELICA?

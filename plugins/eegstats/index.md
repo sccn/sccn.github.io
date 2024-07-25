@@ -4,7 +4,7 @@ title: eegstats
 long_title: eegstats
 parent: Plugins
 has_children: true
-nav_order: 15
+nav_order: 16
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/eegstats).
 
