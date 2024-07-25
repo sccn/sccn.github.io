@@ -1,13 +1,10 @@
 ---
 layout: default
-title: clean_rawdata
-long_title: clean_rawdata
-parent: Plugins
-has_children: true
-nav_order: 6
+title: README
+long_title: README
+parent: clean_rawdata
+grand_parent: Plugins
 ---
-To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/clean_rawdata).
-
 # Clean_rawdata EEGLAB plug-in
 
 The Clean Rawdata plug-in (version 2.0) interface has been redesigned and will soon become the default EEGLAB method for removing artifacts from EEG and related data. The plug-in detects and can separate low-frequency drifts, flatline and noisy channels from the data. It can also apply ASR (automated subspace removal) to detect and reject or remove high-amplitude non-brain ('artifact') activity (produced by eye blinks, muscle activity, sensor motion, etc.) by comparing its structure to that of known artifact-free reference data, thereby revealing and recovering (possibly smaller) EEG background activity that lies outside the subspace spanned by the artifact processes.

@@ -1,13 +1,10 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
-parent: Plugins
-has_children: true
-nav_order: 1
+title: README
+long_title: README
+parent: SIFT
+grand_parent: Plugins
 ---
-To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/SIFT).
-
 ![263416749-1abc1d2d-36bb-4cfb-9328-b57a96044f55](https://github.com/user-attachments/assets/b45a5caa-6b39-4291-b137-125132e5ade0)
 
 ## The Source Information Flow Toolbox

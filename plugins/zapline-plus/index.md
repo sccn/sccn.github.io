@@ -3,6 +3,7 @@ layout: default
 title: zapline-plus
 long_title: zapline-plus
 parent: Plugins
+has_children: true
 nav_order: 18
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/zapline-plus).

@@ -3,6 +3,7 @@ layout: default
 title: imat
 long_title: imat
 parent: Plugins
+has_children: true
 nav_order: 23
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/imat).

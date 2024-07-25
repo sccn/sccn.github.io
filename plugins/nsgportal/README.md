@@ -1,13 +1,10 @@
 ---
 layout: default
-title: nsgportal
-long_title: nsgportal
-parent: Plugins
-has_children: true
-nav_order: 5
+title: README
+long_title: README
+parent: nsgportal
+grand_parent: Plugins
 ---
-To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/nsgportal).
-
 # EEGLAB on NSG and nsgportal
 An Open EEGLAB Portal to High-Performance Computing: As of late 2018, EEGLAB scripts may now be run on high-performance computing resources via the freely available Neuroscience Gateway Portal to the NSF-sponsored [Comet supercomputer](https://ucsdnews.ucsd.edu/pressrelease/sdsc_to_double_comet_supercomputers_graphic_processor_count/) of the [San Diego Supercomputer Center](https://sdsc.edu/). The home page of the Neuroscience Gateway is shown below. NSG accounts are free and are not limited to US users, but the portal may only be used for non-commercial purposes (see the [NSG Terms of Use](http://www.nsgportal.org/policy.html)).
 

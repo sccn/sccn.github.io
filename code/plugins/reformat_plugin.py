@@ -3,26 +3,7 @@ import sys
 import shutil
 
 # open a text file ending with .md and append a paragraph to it
-def reformat_plugin(dirpath, plugin_name):
-    plugins_dir = '../../plugins'
-    index_file = os.path.join(plugins_dir, 'index.md')
-    shutil.copyfile(os.path.join(dirpath, 'README.md'), index_file)
-    with open(index_file) as f:
-        text = f.read()
-        append_text = '''---
-layout: default
-title: {plugin_name}
-long_title: {plugin_name}
-parent: Plugins
----
-'''.format(plugin_name=plugin_name)
-        text = append_text + text
-        with open(index_file, 'w') as out:
-            out.write(text)
-
-# open a text file ending with .md and append a paragraph to it
-# Usage: python test.py <filename>.md
-def append_to_file(filepath, filename, parent, output_file):
+def reformat_wiki_pages(filepath, filename, parent, output_file):
     with open(filepath) as f:
         text = f.read()
         append_text = '''---
@@ -42,53 +23,36 @@ def reformat_plugin_dir(plugin_input_dir, plugin_name, order, plugin_type='wiki'
     plugin_output_dir = os.path.join('../../plugins', plugin_name)
     if not os.path.exists(plugin_output_dir):
         os.makedirs(plugin_output_dir)
+
     # copy image directory from input to output dir
     if os.path.exists(os.path.join(plugin_input_dir, 'images')):
         shutil.copytree(os.path.join(plugin_input_dir, 'images'), os.path.join(plugin_output_dir, 'images'), dirs_exist_ok=True)
 
     index_file = os.path.join(plugin_output_dir, 'index.md')
-    if plugin_type == 'wiki':
-        shutil.copyfile(os.path.join(plugin_input_dir, 'Home.md'), index_file)
-        with open(index_file) as f:
-            text = f.read()
-            append_text = '''---
+    shutil.copyfile(os.path.join(plugin_input_dir, 'README.md'), index_file)
+    with open(index_file) as f:
+        text = f.read()
+        append_text = '''---
 layout: default
 title: {plugin_name}
 long_title: {plugin_name}
 parent: Plugins
-categories: plugins
 has_children: true
 nav_order: {order}
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/{plugin_name}).
 
 '''.format(plugin_name=plugin_name, order=order)
-            text = append_text + text
-            with open(index_file, 'w') as out:
-                out.write(text)
+        text = append_text + text
+        with open(index_file, 'w') as out:
+            out.write(text)
 
-        for root, dirs, files in os.walk(plugin_input_dir):
+    if plugin_type == 'wiki':
+        wiki_plugin_input_dir = plugin_input_dir + '.wiki'
+        for root, dirs, files in os.walk(wiki_plugin_input_dir):
             for file in files:
                 if file.endswith('.md') and not file.startswith('index') and not file.startswith('Home'):
-                    append_to_file(os.path.join(plugin_input_dir, file), file.strip('.md'), plugin_name, os.path.join(plugin_output_dir, file))
-    else:
-        shutil.copyfile(os.path.join(plugin_input_dir, 'README.md'), index_file)
-        with open(index_file) as f:
-            text = f.read()
-            append_text = '''---
-layout: default
-title: {plugin_name}
-long_title: {plugin_name}
-parent: Plugins
-nav_order: {order}
----
-To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/{plugin_name}).
-
-'''.format(plugin_name=plugin_name, order=order)
-            text = append_text + text
-            with open(index_file, 'w') as out:
-                out.write(text)
-
+                    reformat_wiki_pages(os.path.join(wiki_plugin_input_dir, file), file.strip('.md'), plugin_name, os.path.join(plugin_output_dir, file))
 # main
 def main():
     if len(sys.argv) != 5:

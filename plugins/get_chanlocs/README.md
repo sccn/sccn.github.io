@@ -1,13 +1,10 @@
 ---
 layout: default
-title: get_chanlocs
-long_title: get_chanlocs
-parent: Plugins
-has_children: true
-nav_order: 2
+title: README
+long_title: README
+parent: get_chanlocs
+grand_parent: Plugins
 ---
-To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/get_chanlocs).
-
 # get_chanlocs
 *get_chanlocs* performs electrode localization using 3D head image. It is an EEGLAB plug-in also using some functions from the Fieldtrip toolbox.
 

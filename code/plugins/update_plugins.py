@@ -17,10 +17,15 @@ def update_repo(repo, order, plugin_type='readme'):
         os.chdir(repo_path)
         run_command('git pull')
     else:
-        if plugin_type == "wiki":
-            run_command(f'git clone https://github.com/sccn/{repo}.wiki.git {repo_path}')
+        run_command(f'git clone https://github.com/sccn/{repo}.git {repo_path}')
+
+    if plugin_type == "wiki":
+        wiki_repo_path = f"{repo_path}.wiki"
+        if os.path.exists(wiki_repo_path):
+            os.chdir(wiki_repo_path)
+            run_command('git pull')
         else:
-            run_command(f'git clone https://github.com/sccn/{repo}.git {repo_path}')
+            run_command(f'git clone https://github.com/sccn/{repo}.wiki.git {wiki_repo_path}')
         
     os.chdir(current_dir)
     script = 'reformat_plugin.py'
@@ -31,20 +36,26 @@ if __name__ == "__main__":
     # if 'github' not in current directory, create it
     if not os.path.exists('github'):
         os.makedirs('github')
-    if len(sys.argv) == 0:
+    wiki_plugins = ['SIFT', 'get_chanlocs', 'NFT', 'PACT', 'nsgportal', 'clean_rawdata']
+    readme_plugins = ['ARfitStudio', 'roiconnect', 'EEG-BIDS', 'trimOutlier', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'amica', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline','NIMA', 'firfilt']
+    if len(sys.argv) == 1:
         order = 1
-        wiki_plugins = ['SIFT', 'get_chanlocs', 'NFT', 'PACT', 'nsgportal', 'clean_rawdata']
         for plugin in wiki_plugins:
             update_repo(plugin, order, 'wiki')
             order += 1
-        readme_plugins = ['ARfitStudio', 'roiconnect', 'EEG-BIDS', 'trimOutlier', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'amica', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline','NIMA', 'firfilt']
         for plugin in readme_plugins:
             update_repo(plugin, order, "readme")
             order += 1
-    elif len(sys.argv) == 3:
+    elif len(sys.argv) == 2:
         plugin_name = sys.argv[1]
-        plugin_type = sys.argv[2]
-        update_repo(plugin_name, 1, plugin_type)
+        if plugin_name not in wiki_plugins and plugin_name not in readme_plugins:
+            print(f"Plugin {plugin_name} not found.")
+            sys.exit(1)
+
+        plugin_type = 'wiki' if plugin_name in wiki_plugins else 'readme'
+        plugin_order = wiki_plugins.index(plugin_name) + 1 if plugin_type == 'wiki' else len(wiki_plugins) + readme_plugins.index(plugin_name) + 1
+
+        update_repo(plugin_name, plugin_order, plugin_type)
     else:
-        print('Usage: python update_plugins.py <plugin_name> <plugin_type>')
+        print('Usage: python update_plugins.py <plugin_name>')
         sys.exit(1)

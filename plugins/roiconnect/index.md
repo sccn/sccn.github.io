@@ -3,6 +3,7 @@ layout: default
 title: roiconnect
 long_title: roiconnect
 parent: Plugins
+has_children: true
 nav_order: 8
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/roiconnect).
