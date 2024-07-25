@@ -32,6 +32,7 @@ def reformat_plugin_dir(plugin_input_dir, plugin_name, order, plugin_type='wiki'
         for file in files:
             if file.endswith('.jpg') or file.endswith('.png'):
                 shutil.copyfile(os.path.join(root, file), os.path.join(plugin_output_dir, file))
+    
     # if plugin is 'imat', copy the Docs directory recursively to the output directory
     if plugin_name == 'imat':
         shutil.copytree(os.path.join(plugin_input_dir, 'Docs'), os.path.join(plugin_output_dir, 'Docs'), dirs_exist_ok=True)
@@ -57,6 +58,13 @@ To view the plugin source code, please visit the plugin's [GitHub repository](ht
 
     if plugin_type == 'wiki':
         wiki_plugin_input_dir = plugin_input_dir + '.wiki'
+
+        # copy all .jpg and .png files from wiki input to output dir
+        for root, dirs, files in os.walk(wiki_plugin_input_dir):
+            for file in files:
+                if file.endswith('.jpg') or file.endswith('.png'):
+                    shutil.copyfile(os.path.join(root, file), os.path.join(plugin_output_dir, file))
+
         for root, dirs, files in os.walk(wiki_plugin_input_dir):
             for file in files:
                 if file.endswith('.md') and not file.startswith('index') and not file.startswith('Home'):

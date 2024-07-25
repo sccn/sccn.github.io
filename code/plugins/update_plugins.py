@@ -36,8 +36,8 @@ if __name__ == "__main__":
     # if 'github' not in current directory, create it
     if not os.path.exists('github'):
         os.makedirs('github')
-    wiki_plugins = ['SIFT', 'get_chanlocs', 'NFT', 'PACT', 'nsgportal', 'clean_rawdata']
-    readme_plugins = ['ARfitStudio', 'roiconnect', 'EEG-BIDS', 'trimOutlier', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'amica', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline','NIMA', 'firfilt']
+    wiki_plugins = ['SIFT', 'get_chanlocs', 'NFT', 'PACT', 'nsgportal', 'clean_rawdata', 'amica']
+    readme_plugins = ['ARfitStudio', 'roiconnect', 'EEG-BIDS', 'trimOutlier', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline','NIMA', 'firfilt']
     ordering = ['ICLabel', 'dipfit', 'EEG-BIDS', 'roiconnect', 'amica', 'cleanline', 'clean_rawdata', 'SIFT', 'zapline-plus', 'eegstats', 'trimOutlier', 'fMRIb', 'imat', 'nwbio', 'NIMA', 'PACT', 'NFT', 'PACTools', 'ARfitStudio', 'PowPowCAT', 'relica', 'std_dipoleDensity', 'viewprops', 'firfilt', 'groupSIFT', 'get_chanlocs', 'nsgportal']
     
     if len(sys.argv) == 1:
