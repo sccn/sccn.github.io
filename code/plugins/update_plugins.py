@@ -38,6 +38,8 @@ if __name__ == "__main__":
         os.makedirs('github')
     wiki_plugins = ['SIFT', 'get_chanlocs', 'NFT', 'PACT', 'nsgportal', 'clean_rawdata']
     readme_plugins = ['ARfitStudio', 'roiconnect', 'EEG-BIDS', 'trimOutlier', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'amica', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline','NIMA', 'firfilt']
+    ordering = ['ICLabel', 'dipfit', 'EEG-BIDS', 'roiconnect', 'amica', 'cleanline', 'clean_rawdata', 'SIFT', 'zapline-plus', 'eegstats', 'trimOutlier', 'fMRIb', 'imat', 'nwbio', 'NIMA', 'PACT', 'NFT', 'PACTools', 'ARfitStudio', 'PowPowCAT', 'relica', 'std_dipoleDensity', 'viewprops', 'firfilt', 'groupSIFT', 'get_chanlocs', 'nsgportal']
+    
     if len(sys.argv) == 1:
         order = 1
         for plugin in wiki_plugins:
@@ -53,7 +55,7 @@ if __name__ == "__main__":
             sys.exit(1)
 
         plugin_type = 'wiki' if plugin_name in wiki_plugins else 'readme'
-        plugin_order = wiki_plugins.index(plugin_name) + 1 if plugin_type == 'wiki' else len(wiki_plugins) + readme_plugins.index(plugin_name) + 1
+        plugin_order = ordering.index(plugin_name) + 1
 
         update_repo(plugin_name, plugin_order, plugin_type)
     else:
