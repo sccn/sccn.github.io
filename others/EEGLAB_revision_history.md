@@ -22,7 +22,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **New feature**: EEGLAB compiled version can now execute scripts given on the command line.
 - **bids-matlab-tools plugin:** Renamed EEG-BIDS.
 - **Bug fix**: Fix issue with STUDY [ICA component clustering](https://github.com/sccn/eeglab/issues/767). This is also related the ICLabel bug below.
-- <font color=red><b>ICLabel plugin:</b> The ICLabel version (1.5) released in the previous EEGLAB version had a bug.</font>.
+- <font color=red><b>ICLabel plugin:</b> The ICLabel version (1.5) released in the previous EEGLAB version had a bug.</font>
 
 ## EEGLAB version 2024.0
 
