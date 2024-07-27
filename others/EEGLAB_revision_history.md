@@ -20,8 +20,13 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Version statistics**: ...
 - **New feature**: EEGLAB colormap changed.
 - **New feature**: EEGLAB compiled version can now execute scripts given on the command line.
-- **bids-matlab-tools plugin:** Renamed EEG-BIDS.
-- **Bug fix**: Fix issue with STUDY [ICA component clustering](https://github.com/sccn/eeglab/issues/767). This is also related the ICLabel bug below.
+- **New feature**: Allowing plugins to have critical updates.
+- **New feature**: New option to cluster components (thanks Yahya Shirazi).
+- **New feature**: Allowing NaN for components (so more study designs can be considered when components are missing)
+- **bids-matlab-tools plugin:** Renamed EEG-BIDS. New options to export eye-tracking data.
+- **Bug fix**: Fix the issue with not clearing the STUDY cache when editing STUDY.
+- **Bug fix**: Better detection of a dataset modified by the user.
+- **Bug fix**: Fix issue with STUDY [ICA component clustering](https://github.com/sccn/eeglab/issues/767). This is also related to the ICLabel bug below.
 - <font color=red><b>ICLabel plugin:</b> The ICLabel version (1.5) released in the previous EEGLAB version had a bug.</font>
 
 ## EEGLAB version 2024.0
