@@ -4,6 +4,7 @@ title: Registering-at-NSG
 long_title: Registering-at-NSG
 parent: nsgportal
 grand_parent: Plugins
+nav_order: 1
 ---
 The first step to using the Open EEGLAB Portal is to create an NSG account [HERE](https://www.nsgportal.org/gest/reg.php) (or by clicking on "Register account" on the NSG home page).
 

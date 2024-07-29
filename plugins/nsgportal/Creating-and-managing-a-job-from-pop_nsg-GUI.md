@@ -4,6 +4,7 @@ title: Creating-and-managing-a-job-from-pop_nsg-GUI
 long_title: Creating-and-managing-a-job-from-pop_nsg-GUI
 parent: nsgportal
 grand_parent: Plugins
+nav_order: 8
 ---
 # Creating and managing a job from pop_nsg GUI
 In this tutorial we will address the creation and managing of NSG jobs from EEGLAB by using the plugin *nsgportal*. Specifically, the tutorial will focus on performing these tasks from the pop_nsg GUI.

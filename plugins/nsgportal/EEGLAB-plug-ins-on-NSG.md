@@ -4,6 +4,7 @@ title: EEGLAB-plug-ins-on-NSG
 long_title: EEGLAB-plug-ins-on-NSG
 parent: nsgportal
 grand_parent: Plugins
+nav_order: 3
 ---
 The EEGLAB installation on NSG provides access to most of the EEGLAB plug-ins. See the table below for the list below of plug-in available from EEGLAB at NSG, as well as important links to the use of these plugins
 

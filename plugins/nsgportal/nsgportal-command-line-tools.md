@@ -4,6 +4,7 @@ title: nsgportal-command-line-tools
 long_title: nsgportal-command-line-tools
 parent: nsgportal
 grand_parent: Plugins
+nav_order: 6
 ---
 Just like many other EEGLAB functions, users can interact with *nsgportal* through either the graphic user interface or using command line tools. The command line tools allow users to largely automate their analysis and make the process easy to reproduce. In this section, we introduce the *nsgportal* command line tools to NSG.
 
