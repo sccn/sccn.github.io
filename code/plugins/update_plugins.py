@@ -9,7 +9,7 @@ def run_command(command):
         print(f"Command failed: {command}\nError: {result.stderr}")
     return result
 
-def update_repo(repo, order, plugin_type='readme', plugin_link="https://github.com/sccn"):
+def update_repo(repo, formatted_name, order, plugin_type='readme', plugin_link="https://github.com/sccn"):
     print(f"Updating {repo}...")
     current_dir = os.getcwd()
     repo_path = os.path.join(current_dir, 'github', repo)
@@ -30,7 +30,7 @@ def update_repo(repo, order, plugin_type='readme', plugin_link="https://github.c
         
     os.chdir(current_dir)
     script = 'reformat_plugin.py'
-    command = f'python {script} {repo_path} {repo} {plugin_type} {order}'
+    command = f'python {script} {repo_path} {repo} {formatted_name} {plugin_type} {order} {plugin_link}'
     run_command(command)
 
 if __name__ == "__main__":
@@ -49,14 +49,14 @@ if __name__ == "__main__":
     
     if len(sys.argv) == 1:
         for plugin in plugin_info:
-            update_repo(plugin['plugin'], plugins.index(plugin['plugin']), plugin['type'], plugin['link'])
+            update_repo(plugin['plugin'], plugin['name'], plugins.index(plugin['plugin']), plugin['type'], plugin['link'])
     elif len(sys.argv) == 2:
         plugin_name = sys.argv[1]
         if plugin_name not in plugins:
             print(f"Plugin {plugin_name} not found.")
             sys.exit(1)
         plugin = plugin_info[plugins.index(plugin_name)]
-        update_repo(plugin['plugin'], plugins.index(plugin['plugin']), plugin['type'], plugin['link'])
+        update_repo(plugin['plugin'], plugin['name'], plugins.index(plugin['plugin']), plugin['type'], plugin['link'])
     else:
         print('Usage: python update_plugins.py <plugin_name>')
         sys.exit(1)

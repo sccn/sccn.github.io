@@ -12,7 +12,8 @@ parent: {parent}
 grand_parent: Plugins
 '''.format(filename=filename, parent=parent)
 
-    if parent in ["nsgportal", "LIMO"]:
+    print(f"Reformatting {filename}...")
+    if parent in ["nsgportal", "limo"]:
         pages = []
         # load _Sidebar.md and extract all links from markdown file
         with open(os.path.join(wiki_input_dir, '_Sidebar.md')) as f:
@@ -34,7 +35,7 @@ grand_parent: Plugins
         with open(output_file, 'w') as out:
             out.write(text)
 
-def reformat_plugin_dir(plugin_input_dir, plugin_name, order, plugin_type='wiki'):
+def reformat_plugin_dir(plugin_input_dir, plugin_name, formatted_name, order, link, plugin_type='wiki'):
     # plugins_output_dir = '/Users/dtyoung/Documents/EEGLAB/sccn.github.io/plugins'
     plugin_output_dir = os.path.join('../../plugins', plugin_name)
     if not os.path.exists(plugin_output_dir):
@@ -54,25 +55,16 @@ def reformat_plugin_dir(plugin_input_dir, plugin_name, order, plugin_type='wiki'
 
     index_file = os.path.join(plugin_output_dir, 'index.md')
     shutil.copyfile(os.path.join(plugin_input_dir, 'README.md'), index_file)
-    with open(index_file) as f:
-        text = f.read()
-        append_text = '''---
+    append_text = '''---
 layout: default
 title: {plugin_name}
 long_title: {plugin_name}
-parent: Plugins
-has_children: true
-nav_order: {order}
----
-To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/{plugin_name}).
-
-'''.format(plugin_name=plugin_name, order=order)
-        text = append_text + text
-        with open(index_file, 'w') as out:
-            out.write(text)
+parent: Plugins'''.format(plugin_name=formatted_name)
 
     if plugin_type == 'wiki':
+        append_text += '\nhas_children: true'
         wiki_plugin_input_dir = plugin_input_dir + '.wiki'
+        print(wiki_plugin_input_dir)
 
         # copy image directory from input to output dir
         if os.path.exists(os.path.join(wiki_plugin_input_dir, 'images')):
@@ -86,17 +78,32 @@ To view the plugin source code, please visit the plugin's [GitHub repository](ht
         for root, dirs, files in os.walk(wiki_plugin_input_dir):
             for file in files:
                 if file.endswith('.md') and not file.startswith('index') and not file.startswith('Home'):
-                    reformat_wiki_pages(os.path.join(wiki_plugin_input_dir, file), file.strip('.md'), plugin_name, os.path.join(plugin_output_dir, file), wiki_plugin_input_dir)
+                    reformat_wiki_pages(os.path.join(wiki_plugin_input_dir, file), file.strip('.md'), formatted_name, os.path.join(plugin_output_dir, file), wiki_plugin_input_dir)
+    
+
+    with open(index_file) as f:
+        append_text += '''
+nav_order: {order}
+---
+To view the plugin source code, please visit the plugin's [GitHub repository]({link}).
+
+'''.format(link=link, order=order)
+        text = f.read()
+        text = append_text + text
+        with open(index_file, 'w') as out:
+            out.write(text)
 # main
 def main():
-    if len(sys.argv) != 5:
-        print('Usage: python test.py <plugin_dir_path> <plugin_name> <plugin_type> <nav_order>')
+    if len(sys.argv) != 7:
+        print('Usage: python reformat_plugin.py <plugin_dir_path> <plugin_name> <formatted_name> <plugin_type> <nav_order> link')
         sys.exit(1)
     dirpath = sys.argv[1]
     plugin_name = sys.argv[2]
-    plugin_type = sys.argv[3]
-    order = sys.argv[4]
-    reformat_plugin_dir(dirpath, plugin_name, order, plugin_type)
+    formatted_name = sys.argv[3]
+    plugin_type = sys.argv[4]
+    order = sys.argv[5]
+    link = sys.argv[6]
+    reformat_plugin_dir(dirpath, plugin_name, formatted_name, order, link, plugin_type)
 
 if __name__ == "__main__":
     main()

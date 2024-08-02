@@ -7,7 +7,7 @@
   },
   {
     "plugin": "dipfit",
-    "name": "dipfit",
+    "name": "Dipfit",
     "type": "readme",
     "link": "https://github.com/sccn/dipfit"
   },
@@ -160,5 +160,11 @@
     "name": "nsgportal",
     "type": "wiki",
     "link": "https://github.com/sccn/nsgportal"
+  },
+  {
+    "plugin": "limo",
+    "name": "LIMO",
+    "type": "wiki",
+    "link": "https://github.com/LIMO-EEG-Toolbox/limo_meeg"
   }
 ]
