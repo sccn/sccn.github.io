@@ -4,7 +4,7 @@ title: amica
 long_title: amica
 parent: Plugins
 has_children: true
-nav_order: 7
+nav_order: 4
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/amica).
 

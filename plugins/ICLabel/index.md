@@ -4,7 +4,7 @@ title: ICLabel
 long_title: ICLabel
 parent: Plugins
 has_children: true
-nav_order: 14
+nav_order: 0
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/ICLabel).
 

@@ -4,7 +4,7 @@ title: NFT
 long_title: NFT
 parent: Plugins
 has_children: true
-nav_order: 3
+nav_order: 16
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/NFT).
 

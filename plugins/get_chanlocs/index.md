@@ -4,7 +4,7 @@ title: get_chanlocs
 long_title: get_chanlocs
 parent: Plugins
 has_children: true
-nav_order: 2
+nav_order: 25
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/get_chanlocs).
 

@@ -12,13 +12,13 @@ parent: {parent}
 grand_parent: Plugins
 '''.format(filename=filename, parent=parent)
 
-    if parent == "nsgportal":
+    if parent in ["nsgportal", "LIMO"]:
         pages = []
         # load _Sidebar.md and extract all links from markdown file
         with open(os.path.join(wiki_input_dir, '_Sidebar.md')) as f:
             lines = f.readlines()
             for line in lines:
-                if line.startswith('*'):
+                if '(' in line:
                     # extract text between square brackets
                     page = line[line.find('(')+1:line.find(')')]
                     pages.append(page)

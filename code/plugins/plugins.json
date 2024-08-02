@@ -1,0 +1,164 @@
+[
+  {
+    "plugin": "ICLabel",
+    "name": "ICLabel",
+    "type": "readme",
+    "link": "https://github.com/sccn/ICLabel"
+  },
+  {
+    "plugin": "dipfit",
+    "name": "dipfit",
+    "type": "readme",
+    "link": "https://github.com/sccn/dipfit"
+  },
+  {
+    "plugin": "EEG-BIDS",
+    "name": "EEG-BIDS",
+    "type": "wiki",
+    "link": "https://github.com/sccn/EEG-BIDS"
+  },
+  {
+    "plugin": "roiconnect",
+    "name": "roiconnect",
+    "type": "readme",
+    "link": "https://github.com/sccn/roiconnect"
+  },
+  {
+    "plugin": "amica",
+    "name": "amica",
+    "type": "wiki",
+    "link": "https://github.com/sccn/amica"
+  },
+  {
+    "plugin": "cleanline",
+    "name": "cleanline",
+    "type": "readme",
+    "link": "https://github.com/sccn/cleanline"
+  },
+  {
+    "plugin": "clean_rawdata",
+    "name": "clean_rawdata",
+    "type": "wiki",
+    "link": "https://github.com/sccn/clean_rawdata"
+  },
+  {
+    "plugin": "SIFT",
+    "name": "SIFT",
+    "type": "wiki",
+    "link": "https://github.com/sccn/SIFT"
+  },
+  {
+    "plugin": "zapline-plus",
+    "name": "zapline-plus",
+    "type": "readme",
+    "link": "https://github.com/sccn/zapline-plus"
+  },
+  {
+    "plugin": "eegstats",
+    "name": "eegstats",
+    "type": "readme",
+    "link": "https://github.com/sccn/eegstats"
+  },
+  {
+    "plugin": "trimOutlier",
+    "name": "trimOutlier",
+    "type": "readme",
+    "link": "https://github.com/sccn/trimOutlier"
+  },
+  {
+    "plugin": "fMRIb",
+    "name": "fMRIb",
+    "type": "readme",
+    "link": "https://github.com/sccn/fMRIb"
+  },
+  {
+    "plugin": "imat",
+    "name": "imat",
+    "type": "readme",
+    "link": "https://github.com/sccn/imat"
+  },
+  {
+    "plugin": "nwbio",
+    "name": "nwbio",
+    "type": "readme",
+    "link": "https://github.com/sccn/nwbio"
+  },
+  {
+    "plugin": "NIMA",
+    "name": "NIMA",
+    "type": "readme",
+    "link": "https://github.com/sccn/NIMA"
+  },
+  {
+    "plugin": "PACT",
+    "name": "PACT",
+    "type": "readme",
+    "link": "https://github.com/sccn/PACT"
+  },
+  {
+    "plugin": "NFT",
+    "name": "NFT",
+    "type": "wiki",
+    "link": "https://github.com/sccn/NFT"
+  },
+  {
+    "plugin": "PACTools",
+    "name": "PACTools",
+    "type": "readme",
+    "link": "https://github.com/sccn/PACTools"
+  },
+  {
+    "plugin": "ARfitStudio",
+    "name": "ARfitStudio",
+    "type": "readme",
+    "link": "https://github.com/sccn/ARfitStudio"
+  },
+  {
+    "plugin": "PowPowCAT",
+    "name": "PowPowCAT",
+    "type": "readme",
+    "link": "https://github.com/sccn/PowPowCAT"
+  },
+  {
+    "plugin": "relica",
+    "name": "relica",
+    "type": "readme",
+    "link": "https://github.com/sccn/relica"
+  },
+  {
+    "plugin": "std_dipoleDensity",
+    "name": "std_dipoleDensity",
+    "type": "readme",
+    "link": "https://github.com/sccn/std_dipoleDensity"
+  },
+  {
+    "plugin": "viewprops",
+    "name": "viewprops",
+    "type": "readme",
+    "link": "https://github.com/sccn/viewprops"
+  },
+  {
+    "plugin": "firfilt",
+    "name": "firfilt",
+    "type": "readme",
+    "link": "https://github.com/sccn/firfilt"
+  },
+  {
+    "plugin": "groupSIFT",
+    "name": "groupSIFT",
+    "type": "readme",
+    "link": "https://github.com/sccn/groupSIFT"
+  },
+  {
+    "plugin": "get_chanlocs",
+    "name": "get_chanlocs",
+    "type": "wiki",
+    "link": "https://github.com/sccn/get_chanlocs"
+  },
+  {
+    "plugin": "nsgportal",
+    "name": "nsgportal",
+    "type": "wiki",
+    "link": "https://github.com/sccn/nsgportal"
+  }
+]

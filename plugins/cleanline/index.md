@@ -4,7 +4,7 @@ title: cleanline
 long_title: cleanline
 parent: Plugins
 has_children: true
-nav_order: 25
+nav_order: 5
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/cleanline).
 

@@ -4,7 +4,7 @@ title: fMRIb
 long_title: fMRIb
 parent: Plugins
 has_children: true
-nav_order: 20
+nav_order: 11
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/fMRIb).
 
