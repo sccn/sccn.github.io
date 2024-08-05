@@ -4,195 +4,223 @@
     "name": "ICLabel",
     "type": "readme",
     "link": "https://github.com/sccn/ICLabel",
-    "desc": "Classifies independent components of EEG data"
-  },
-  {
-    "plugin": "dipfit",
-    "name": "DIPFIT",
-    "type": "readme",
-    "link": "https://github.com/sccn/dipfit",
-    "desc": "Localizes independent components of EEG data"
-  },
-  {
-    "plugin": "EEG-BIDS",
-    "name": "EEG-BIDS",
-    "type": "wiki",
-    "link": "https://github.com/sccn/EEG-BIDS",
-    "desc": "Imports and export EEG data to the BIDS format"
-  },
-  {
-    "plugin": "roiconnect",
-    "name": "ROIconnect",
-    "type": "readme",
-    "link": "https://github.com/sccn/roiconnect",
-    "desc": "Computes connectivity analysis between regions of interest"
-  },
-  {
-    "plugin": "amica",
-    "name": "AMICA",
-    "type": "wiki",
-    "link": "https://github.com/sccn/amica",
-    "desc": "Computes Adaptive Mixture Independent Component Analysis"
-  },
-  {
-    "plugin": "cleanline",
-    "name": "CleanLine",
-    "type": "readme",
-    "link": "https://github.com/sccn/cleanline",
-    "desc": "Computes mixture model independent component analysis"
-  },
-  {
-    "plugin": "clean_rawdata",
-    "name": "Clean_rawdata",
-    "type": "wiki",
-    "link": "https://github.com/sccn/clean_rawdata",
-    "desc": "Rejects bad channels and bad portions of data using ASR"
-  },
-  {
-    "plugin": "SIFT",
-    "name": "SIFT",
-    "type": "wiki",
-    "link": "https://github.com/sccn/SIFT",
-    "desc": "Computes connectivity analysis between ICA components"
-  },
-  {
-    "plugin": "groupSIFT",
-    "name": "groupSIFT",
-    "type": "readme",
-    "link": "https://github.com/sccn/groupSIFT",
-    "desc": "Group-level SIFT analysis"
-  },
-  {
-    "plugin": "zapline-plus",
-    "name": "Zapline-Plus",
-    "type": "readme",
-    "link": "https://github.com/sccn/zapline-plus",
-    "desc": "Removes line noise"
-  },
-  {
-    "plugin": "eegstats",
-    "name": "EEGstats",
-    "type": "readme",
-    "link": "https://github.com/sccn/eegstats",
-    "desc": "Compute EEG statistics (power, alpha peak and asymmetry)"
-  },
-  {
-    "plugin": "trimOutlier",
-    "name": "trimOutlier",
-    "type": "readme",
-    "link": "https://github.com/sccn/trimOutlier",
-    "desc": "Removes EEG outliers"
-  },
-  {
-    "plugin": "fMRIb",
-    "name": "fMRIb",
-    "type": "readme",
-    "link": "https://github.com/sccn/fMRIb",
-    "desc": "Removes fMRI artifacts in EEG"
-  },
-  {
-    "plugin": "imat",
-    "name": "IMAT",
-    "type": "readme",
-    "link": "https://github.com/sccn/imat",
-    "desc": "Finds independent modulators of EEG data"
-  },
-  {
-    "plugin": "nwbio",
-    "name": "NWB-io",
-    "type": "readme",
-    "link": "https://github.com/sccn/nwbio",
-    "desc": "Import and export to the NWB format"
-  },
-  {
-    "plugin": "NIMA",
-    "name": "NIMA",
-    "type": "readme",
-    "link": "https://github.com/sccn/NIMA",
-    "desc": "Clustering of ICA components using Measure-projection"
-  },
-  {
-    "plugin": "PACT",
-    "name": "PACT",
-    "type": "readme",
-    "link": "https://github.com/sccn/PACT",
-    "desc": "Computes phase-amplitude coupling for ECoG"
-  },
-  {
-    "plugin": "NFT",
-    "name": "NFT",
-    "type": "wiki",
-    "link": "https://github.com/sccn/NFT",
-    "desc": "Localizes ICs using Neuroelectromagnetic Forward Head Modeling"
-  },
-  {
-    "plugin": "PACTools",
-    "name": "PACTools",
-    "type": "readme",
-    "link": "https://github.com/sccn/PACTools",
-    "desc": "Computes phase-amplitude coupling using different methods"
-  },
-  {
-    "plugin": "ARfitStudio",
-    "name": "ARfitStudio",
-    "type": "readme",
-    "link": "https://github.com/sccn/ARfitStudio",
-    "desc": "Computes multivariate autoregressive models of EEG"
-  },
-  {
-    "plugin": "PowPowCAT",
-    "name": "PowPowCAT",
-    "type": "readme",
-    "link": "https://github.com/sccn/PowPowCAT",
-    "desc": "Computes cross-frequency power-power coupling of ICs"
-  },
-  {
-    "plugin": "relica",
-    "name": "RELICA",
-    "type": "readme",
-    "link": "https://github.com/sccn/relica",
-    "desc": "Computes reliable ICA using Bootstrap"
-  },
-  {
-    "plugin": "std_dipoleDensity",
-    "name": "std_dipoleDensity",
-    "type": "readme",
-    "link": "https://github.com/sccn/std_dipoleDensity",
-    "desc": "Computes ICA component dipole density"
+    "desc": "Classifies independent components of EEG data",
+    "cat": "processing"
   },
   {
     "plugin": "viewprops",
     "name": "Viewprops",
     "type": "readme",
     "link": "https://github.com/sccn/viewprops",
-    "desc": "Advanced ICA component property viewing for IClabel"
+    "desc": "Advanced ICA component property viewing for IClabel",
+    "cat": "processing"
   },
   {
-    "plugin": "firfilt",
-    "name": "FirFilt",
+    "plugin": "dipfit",
+    "name": "DIPFIT",
     "type": "readme",
-    "link": "https://github.com/sccn/firfilt",
-    "desc": "Filtering of EEG data"
+    "link": "https://github.com/sccn/dipfit",
+    "desc": "Localizes independent components of EEG data",
+    "cat": "processing"
   },
   {
-    "plugin": "get_chanlocs",
-    "name": "get_chanlocs",
-    "type": "wiki",
-    "link": "https://github.com/sccn/get_chanlocs",
-    "desc": "Import scanned channel locations"
+    "plugin": "roiconnect",
+    "name": "ROIconnect",
+    "type": "readme",
+    "link": "https://github.com/sccn/roiconnect",
+    "desc": "Computes connectivity analysis between regions of interest",
+    "cat": "processing"
   },
   {
-    "plugin": "nsgportal",
-    "name": "NSGportal",
+    "plugin": "amica",
+    "name": "AMICA",
     "type": "wiki",
-    "link": "https://github.com/sccn/nsgportal",
-    "desc": "Performs computation on the Neuroscience Gateway"
+    "link": "https://github.com/sccn/amica",
+    "desc": "Computes Adaptive Mixture Independent Component Analysis",
+    "cat": "processing"
+  },
+  {
+    "plugin": "clean_rawdata",
+    "name": "Clean_rawdata",
+    "type": "wiki",
+    "link": "https://github.com/sccn/clean_rawdata",
+    "desc": "Rejects bad channels and bad portions of data using ASR",
+    "cat": "processing"
   },
   {
     "plugin": "limo",
     "name": "LIMO",
     "type": "wiki",
     "link": "https://github.com/LIMO-EEG-Toolbox/limo_meeg",
-    "desc": "Linear Modeling of EEG data"
+    "desc": "Linear Modeling of EEG data",
+    "cat": "processing"
+  },
+  {
+    "plugin": "SIFT",
+    "name": "SIFT",
+    "type": "wiki",
+    "link": "https://github.com/sccn/SIFT",
+    "desc": "Computes connectivity analysis between ICA components",
+    "cat": "processing"
+  },
+  {
+    "plugin": "groupSIFT",
+    "name": "groupSIFT",
+    "type": "readme",
+    "link": "https://github.com/sccn/groupSIFT",
+    "desc": "Group-level SIFT analysis",
+    "cat": "processing"
+  },
+  {
+    "plugin": "zapline-plus",
+    "name": "Zapline-Plus",
+    "type": "readme",
+    "link": "https://github.com/sccn/zapline-plus",
+    "desc": "Removes line noise",
+    "cat": "processing"
+  },
+  {
+    "plugin": "cleanline",
+    "name": "CleanLine",
+    "type": "readme",
+    "link": "https://github.com/sccn/cleanline",
+    "desc": "Computes mixture model independent component analysis",
+    "cat": "processing"
+  },
+  {
+    "plugin": "eegstats",
+    "name": "EEGstats",
+    "type": "readme",
+    "link": "https://github.com/sccn/eegstats",
+    "desc": "Compute EEG statistics (power, alpha peak and asymmetry)",
+    "cat": "processing"
+  },
+  {
+    "plugin": "trimOutlier",
+    "name": "trimOutlier",
+    "type": "readme",
+    "link": "https://github.com/sccn/trimOutlier",
+    "desc": "Removes EEG outliers",
+    "cat": "processing"
+  },
+  {
+    "plugin": "fMRIb",
+    "name": "fMRIb",
+    "type": "readme",
+    "link": "https://github.com/sccn/fMRIb",
+    "desc": "Removes fMRI artifacts in EEG",
+    "cat": "processing"
+  },
+  {
+    "plugin": "imat",
+    "name": "IMAT",
+    "type": "readme",
+    "link": "https://github.com/sccn/imat",
+    "desc": "Finds independent modulators of EEG data",
+    "cat": "processing"
+  },
+  {
+    "plugin": "NIMA",
+    "name": "NIMA",
+    "type": "readme",
+    "link": "https://github.com/sccn/NIMA",
+    "desc": "Clustering of ICA components using Measure-projection",
+    "cat": "processing"
+  },
+  {
+    "plugin": "PACT",
+    "name": "PACT",
+    "type": "readme",
+    "link": "https://github.com/sccn/PACT",
+    "desc": "Computes phase-amplitude coupling for ECoG",
+    "cat": "processing"
+  },
+  {
+    "plugin": "NFT",
+    "name": "NFT",
+    "type": "wiki",
+    "link": "https://github.com/sccn/NFT",
+    "desc": "Localizes ICs using Neuroelectromagnetic Forward Head Modeling",
+    "cat": "processing"
+  },
+  {
+    "plugin": "PACTools",
+    "name": "PACTools",
+    "type": "readme",
+    "link": "https://github.com/sccn/PACTools",
+    "desc": "Computes phase-amplitude coupling using different methods",
+    "cat": "processing"
+  },
+  {
+    "plugin": "ARfitStudio",
+    "name": "ARfitStudio",
+    "type": "readme",
+    "link": "https://github.com/sccn/ARfitStudio",
+    "desc": "Computes multivariate autoregressive models of EEG",
+    "cat": "processing"
+  },
+  {
+    "plugin": "PowPowCAT",
+    "name": "PowPowCAT",
+    "type": "readme",
+    "link": "https://github.com/sccn/PowPowCAT",
+    "desc": "Computes cross-frequency power-power coupling of ICs",
+    "cat": "processing"
+  },
+  {
+    "plugin": "relica",
+    "name": "RELICA",
+    "type": "readme",
+    "link": "https://github.com/sccn/relica",
+    "desc": "Computes reliable ICA using Bootstrap",
+    "cat": "processing"
+  },
+  {
+    "plugin": "std_dipoleDensity",
+    "name": "std_dipoleDensity",
+    "type": "readme",
+    "link": "https://github.com/sccn/std_dipoleDensity",
+    "desc": "Computes ICA component dipole density",
+    "cat": "processing"
+  },
+  {
+    "plugin": "firfilt",
+    "name": "FirFilt",
+    "type": "readme",
+    "link": "https://github.com/sccn/firfilt",
+    "desc": "Filtering of EEG data",
+    "cat": "processing"
+  },
+  {
+    "plugin": "nsgportal",
+    "name": "NSGportal",
+    "type": "wiki",
+    "link": "https://github.com/sccn/nsgportal",
+    "desc": "Performs computation on the Neuroscience Gateway",
+    "cat": "processing"
+  },
+  {
+    "plugin": "EEG-BIDS",
+    "name": "EEG-BIDS",
+    "type": "wiki",
+    "link": "https://github.com/sccn/EEG-BIDS",
+    "desc": "Imports and export EEG data to the BIDS format",
+    "cat": "import"
+  },
+  {
+    "plugin": "nwbio",
+    "name": "NWB-io",
+    "type": "readme",
+    "link": "https://github.com/sccn/nwbio",
+    "desc": "Import and export to the NWB format",
+    "cat": "import"
+  },
+  {
+    "plugin": "get_chanlocs",
+    "name": "get_chanlocs",
+    "type": "wiki",
+    "link": "https://github.com/sccn/get_chanlocs",
+    "desc": "Import scanned channel locations",
+    "cat": "import"
   }
 ]
