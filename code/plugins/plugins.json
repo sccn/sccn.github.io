@@ -1,6 +1,5 @@
 [
   {
-    "plugin": "ICLabel",
     "name": "ICLabel",
     "type": "readme",
     "link": "https://github.com/sccn/ICLabel",
@@ -8,7 +7,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "viewprops",
     "name": "Viewprops",
     "type": "readme",
     "link": "https://github.com/sccn/viewprops",
@@ -16,7 +14,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "dipfit",
     "name": "DIPFIT",
     "type": "readme",
     "link": "https://github.com/sccn/dipfit",
@@ -24,7 +21,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "roiconnect",
     "name": "ROIconnect",
     "type": "readme",
     "link": "https://github.com/sccn/roiconnect",
@@ -32,7 +28,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "amica",
     "name": "AMICA",
     "type": "wiki",
     "link": "https://github.com/sccn/amica",
@@ -40,7 +35,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "clean_rawdata",
     "name": "Clean_rawdata",
     "type": "wiki",
     "link": "https://github.com/sccn/clean_rawdata",
@@ -48,7 +42,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "limo",
     "name": "LIMO",
     "type": "wiki",
     "link": "https://github.com/LIMO-EEG-Toolbox/limo_meeg",
@@ -56,7 +49,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "SIFT",
     "name": "SIFT",
     "type": "wiki",
     "link": "https://github.com/sccn/SIFT",
@@ -64,7 +56,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "groupSIFT",
     "name": "groupSIFT",
     "type": "readme",
     "link": "https://github.com/sccn/groupSIFT",
@@ -72,7 +63,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "zapline-plus",
     "name": "Zapline-Plus",
     "type": "readme",
     "link": "https://github.com/sccn/zapline-plus",
@@ -80,7 +70,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "cleanline",
     "name": "CleanLine",
     "type": "readme",
     "link": "https://github.com/sccn/cleanline",
@@ -88,7 +77,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "eegstats",
     "name": "EEGstats",
     "type": "readme",
     "link": "https://github.com/sccn/eegstats",
@@ -96,7 +84,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "trimOutlier",
     "name": "trimOutlier",
     "type": "readme",
     "link": "https://github.com/sccn/trimOutlier",
@@ -104,7 +91,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "fMRIb",
     "name": "fMRIb",
     "type": "readme",
     "link": "https://github.com/sccn/fMRIb",
@@ -112,7 +98,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "imat",
     "name": "IMAT",
     "type": "readme",
     "link": "https://github.com/sccn/imat",
@@ -120,7 +105,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "NIMA",
     "name": "NIMA",
     "type": "readme",
     "link": "https://github.com/sccn/NIMA",
@@ -128,7 +112,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "PACT",
     "name": "PACT",
     "type": "readme",
     "link": "https://github.com/sccn/PACT",
@@ -136,7 +119,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "NFT",
     "name": "NFT",
     "type": "wiki",
     "link": "https://github.com/sccn/NFT",
@@ -144,7 +126,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "PACTools",
     "name": "PACTools",
     "type": "readme",
     "link": "https://github.com/sccn/PACTools",
@@ -152,7 +133,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "ARfitStudio",
     "name": "ARfitStudio",
     "type": "readme",
     "link": "https://github.com/sccn/ARfitStudio",
@@ -160,7 +140,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "PowPowCAT",
     "name": "PowPowCAT",
     "type": "readme",
     "link": "https://github.com/sccn/PowPowCAT",
@@ -168,7 +147,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "relica",
     "name": "RELICA",
     "type": "readme",
     "link": "https://github.com/sccn/relica",
@@ -176,7 +154,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "std_dipoleDensity",
     "name": "std_dipoleDensity",
     "type": "readme",
     "link": "https://github.com/sccn/std_dipoleDensity",
@@ -184,7 +161,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "firfilt",
     "name": "FirFilt",
     "type": "readme",
     "link": "https://github.com/sccn/firfilt",
@@ -192,7 +168,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "nsgportal",
     "name": "NSGportal",
     "type": "wiki",
     "link": "https://github.com/sccn/nsgportal",
@@ -200,7 +175,6 @@
     "cat": "processing"
   },
   {
-    "plugin": "EEG-BIDS",
     "name": "EEG-BIDS",
     "type": "wiki",
     "link": "https://github.com/sccn/EEG-BIDS",
@@ -208,7 +182,6 @@
     "cat": "import"
   },
   {
-    "plugin": "nwbio",
     "name": "NWB-io",
     "type": "readme",
     "link": "https://github.com/sccn/nwbio",
@@ -216,7 +189,13 @@
     "cat": "import"
   },
   {
-    "plugin": "get_chanlocs",
+    "name": "BVA-io",
+    "type": "readme",
+    "link": "https://github.com/sccn/bva-io",
+    "desc": "input/output for Brain Vision Analyzer format",
+    "cat": "import"
+  },  
+  {
     "name": "get_chanlocs",
     "type": "wiki",
     "link": "https://github.com/sccn/get_chanlocs",
