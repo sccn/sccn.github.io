@@ -7,7 +7,7 @@
   },
   {
     "plugin": "dipfit",
-    "name": "Dipfit",
+    "name": "DIPFIT",
     "type": "readme",
     "link": "https://github.com/sccn/dipfit"
   },
@@ -19,25 +19,25 @@
   },
   {
     "plugin": "roiconnect",
-    "name": "roiconnect",
+    "name": "ROIconnect",
     "type": "readme",
     "link": "https://github.com/sccn/roiconnect"
   },
   {
     "plugin": "amica",
-    "name": "amica",
+    "name": "AMICA",
     "type": "wiki",
     "link": "https://github.com/sccn/amica"
   },
   {
     "plugin": "cleanline",
-    "name": "cleanline",
+    "name": "CleanLine",
     "type": "readme",
     "link": "https://github.com/sccn/cleanline"
   },
   {
     "plugin": "clean_rawdata",
-    "name": "clean_rawdata",
+    "name": "Clean_rawdata",
     "type": "wiki",
     "link": "https://github.com/sccn/clean_rawdata"
   },
@@ -49,13 +49,13 @@
   },
   {
     "plugin": "zapline-plus",
-    "name": "zapline-plus",
+    "name": "Zapline-Plus",
     "type": "readme",
     "link": "https://github.com/sccn/zapline-plus"
   },
   {
     "plugin": "eegstats",
-    "name": "eegstats",
+    "name": "EEGstats",
     "type": "readme",
     "link": "https://github.com/sccn/eegstats"
   },
@@ -73,13 +73,13 @@
   },
   {
     "plugin": "imat",
-    "name": "imat",
+    "name": "IMAT",
     "type": "readme",
     "link": "https://github.com/sccn/imat"
   },
   {
     "plugin": "nwbio",
-    "name": "nwbio",
+    "name": "nwb-io",
     "type": "readme",
     "link": "https://github.com/sccn/nwbio"
   },
@@ -121,7 +121,7 @@
   },
   {
     "plugin": "relica",
-    "name": "relica",
+    "name": "RELICA",
     "type": "readme",
     "link": "https://github.com/sccn/relica"
   },
@@ -133,13 +133,13 @@
   },
   {
     "plugin": "viewprops",
-    "name": "viewprops",
+    "name": "Viewprops",
     "type": "readme",
     "link": "https://github.com/sccn/viewprops"
   },
   {
     "plugin": "firfilt",
-    "name": "firfilt",
+    "name": "FirFilt",
     "type": "readme",
     "link": "https://github.com/sccn/firfilt"
   },
@@ -157,7 +157,7 @@
   },
   {
     "plugin": "nsgportal",
-    "name": "nsgportal",
+    "name": "NSGportal",
     "type": "wiki",
     "link": "https://github.com/sccn/nsgportal"
   },
