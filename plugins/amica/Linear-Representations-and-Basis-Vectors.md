@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Linear-Representations-and-Basis-Vectors
-long_title: Linear-Representations-and-Basis-Vectors
+title: amica
+long_title: amica
 parent: amica
 grand_parent: Plugins
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-1.-Downloads
-long_title: Chapter-1.-Downloads
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

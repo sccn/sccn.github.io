@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-5.2.-Loading-and-preparing-the-data
-long_title: Chapter-5.2.-Loading-and-preparing-the-data
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

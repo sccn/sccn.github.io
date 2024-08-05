@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Random-Variables-and-Probability-Density-Functions
-long_title: Random-Variables-and-Probability-Density-Functions
+title: amica
+long_title: amica
 parent: amica
 grand_parent: Plugins
 ---

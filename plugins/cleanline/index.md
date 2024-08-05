@@ -3,10 +3,11 @@ layout: default
 title: cleanline
 long_title: cleanline
 parent: Plugins
-has_children: true
 nav_order: 5
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/cleanline).
+
+![Screenshot 2024-08-02 at 09 14 11](https://github.com/user-attachments/assets/4e5be390-d091-4bdf-9ddc-e6fff8b692bb)
 
 # CleanLine
 
@@ -21,12 +22,6 @@ Toolbox (www.chronux.org).
 
 CleanLine also makes use of the arg() functionality from Christian Kothe's BCILAB toolbox 
 (sccn.ucsd.edu/wiki/BCILAB)
-
-# CleanLine versions
-V1 - Original version by Tim Mullen
-
-V2 - Include a rewrite by Kay Robbins with integration by Arnaud Delorme and 
-testing by Makoto Miyakoshi
 
 # Instalation
 
@@ -277,6 +272,11 @@ amplitude amps{i})
   **g**                     Parameter structure. Function call can be replicated exactly by calling >> cleanline(EEG,g);
 
 
+# CleanLine versions
+V1 - Original version by Tim Mullen
+
+V2 - Include a rewrite by Kay Robbins with integration by Arnaud Delorme and 
+testing by Makoto Miyakoshi
 
 
 

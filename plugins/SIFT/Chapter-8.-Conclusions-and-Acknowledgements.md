@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-8.-Conclusions-and-Acknowledgements
-long_title: Chapter-8.-Conclusions-and-Acknowledgements
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

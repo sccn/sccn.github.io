@@ -1,7 +1,7 @@
 ---
 layout: default
-title: NFT_Appendix_B
-long_title: NFT_Appendix_B
+title: NFT
+long_title: NFT
 parent: NFT
 grand_parent: Plugins
 ---

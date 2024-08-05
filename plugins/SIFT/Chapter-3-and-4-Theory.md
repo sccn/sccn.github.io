@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-3-and-4-Theory
-long_title: Chapter-3-and-4-Theory
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

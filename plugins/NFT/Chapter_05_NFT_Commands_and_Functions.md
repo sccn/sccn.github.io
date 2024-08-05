@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter_05_NFT_Commands_and_Functions
-long_title: Chapter_05_NFT_Commands_and_Functions
+title: NFT
+long_title: NFT
 parent: NFT
 grand_parent: Plugins
 ---

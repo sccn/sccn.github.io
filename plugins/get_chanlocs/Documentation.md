@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Documentation
-long_title: Documentation
+title: get_chanlocs
+long_title: get_chanlocs
 parent: get_chanlocs
 grand_parent: Plugins
 ---

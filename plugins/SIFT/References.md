@@ -1,7 +1,7 @@
 ---
 layout: default
-title: References
-long_title: References
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

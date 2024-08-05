@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-5.1.-SIFT-install
-long_title: Chapter-5.1.-SIFT-install
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

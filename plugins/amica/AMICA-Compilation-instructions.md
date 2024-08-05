@@ -1,7 +1,7 @@
 ---
 layout: default
-title: AMICA-Compilation-instructions
-long_title: AMICA-Compilation-instructions
+title: amica
+long_title: amica
 parent: amica
 grand_parent: Plugins
 ---
@@ -20,7 +20,7 @@ grand_parent: Plugins
 5. The files impi.dll and libfabric.dll should be copied to executable folder when running outside OneAPI command window. Search OneAPI mpi directory for locations.
 
 
-# THow to compile with Intel Fortran on Mac
+# How to compile with Intel Fortran on Mac
 
 0. These are old instructions. Try using Intel OneAPI modifiying the commands similar to the instructions for Windows above.
 1. Install Intel Fortran compiler for Mac/Linux (free demo).

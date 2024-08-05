@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Documentation
-long_title: Documentation
+title: clean_rawdata
+long_title: clean_rawdata
 parent: clean_rawdata
 grand_parent: Plugins
 ---
-Historical Background (01/07/2020 updated)
-------------------------------------------
+Historical Background
+---------------------
 
 ASR was originally developed by [Christian
 Kothe](https://intheon.io/team/#christian-kothe), now Intheon CTO. It
@@ -80,8 +80,8 @@ people need to guarantee the result replicatability (I do), I uploaded
 my final version here. Use 'availableRAM_GB' option as described below.
 [clean_rawdata1.10](files/Mmiyakoshi-clean-rawdata.zip)
 
-Reference (07/09/2020 update)
------------------------------
+References
+------------
 
 -   [Plechawska-Wojcik M, Kaczorowska M, Zapala D. (2019). The artifact
     subspace reconstruction (ASR) for EEG signal correction. A

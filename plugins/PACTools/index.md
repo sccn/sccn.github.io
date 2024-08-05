@@ -3,7 +3,6 @@ layout: default
 title: PACTools
 long_title: PACTools
 parent: Plugins
-has_children: true
 nav_order: 17
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/PACTools).

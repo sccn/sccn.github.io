@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-5.3.-SIFT-preprocessing
-long_title: Chapter-5.3.-SIFT-preprocessing
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-5.4.-Model-Fitting-and-Validation
-long_title: Chapter-5.4.-Model-Fitting-and-Validation
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

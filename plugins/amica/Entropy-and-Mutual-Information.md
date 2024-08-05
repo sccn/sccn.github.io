@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Entropy-and-Mutual-Information
-long_title: Entropy-and-Mutual-Information
+title: amica
+long_title: amica
 parent: amica
 grand_parent: Plugins
 ---

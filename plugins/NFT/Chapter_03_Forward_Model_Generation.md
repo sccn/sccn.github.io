@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter_03_Forward_Model_Generation
-long_title: Chapter_03_Forward_Model_Generation
+title: NFT
+long_title: NFT
 parent: NFT
 grand_parent: Plugins
 ---

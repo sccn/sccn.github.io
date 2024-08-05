@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter_04_NFT_Examples
-long_title: Chapter_04_NFT_Examples
+title: NFT
+long_title: NFT
 parent: NFT
 grand_parent: Plugins
 ---

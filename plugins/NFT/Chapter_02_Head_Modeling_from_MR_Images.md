@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter_02_Head_Modeling_from_MR_Images
-long_title: Chapter_02_Head_Modeling_from_MR_Images
+title: NFT
+long_title: NFT
 parent: NFT
 grand_parent: Plugins
 ---

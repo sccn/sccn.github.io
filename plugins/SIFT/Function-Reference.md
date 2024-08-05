@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Function-Reference
-long_title: Function-Reference
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

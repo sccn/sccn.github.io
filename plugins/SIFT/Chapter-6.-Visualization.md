@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-6.-Visualization
-long_title: Chapter-6.-Visualization
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

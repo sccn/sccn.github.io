@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Generalized-Gaussian-Probability-Density-Function
-long_title: Generalized-Gaussian-Probability-Density-Function
+title: amica
+long_title: amica
 parent: amica
 grand_parent: Plugins
 ---

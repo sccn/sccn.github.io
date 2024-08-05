@@ -1,7 +1,7 @@
 ---
 layout: default
-title: EEG‐BIDS-docs
-long_title: EEG‐BIDS-docs
+title: EEG-BIDS
+long_title: EEG-BIDS
 parent: EEG-BIDS
 grand_parent: Plugins
 ---

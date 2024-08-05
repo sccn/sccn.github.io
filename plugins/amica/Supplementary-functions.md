@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Supplementary-functions
-long_title: Supplementary-functions
+title: amica
+long_title: amica
 parent: amica
 grand_parent: Plugins
 ---

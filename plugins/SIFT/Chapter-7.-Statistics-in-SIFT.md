@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-7.-Statistics-in-SIFT
-long_title: Chapter-7.-Statistics-in-SIFT
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

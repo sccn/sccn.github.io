@@ -1,7 +1,7 @@
 ---
 layout: default
-title: AMICA-Downloa
-long_title: AMICA-Downloa
+title: amica
+long_title: amica
 parent: amica
 grand_parent: Plugins
 ---

@@ -3,7 +3,6 @@ layout: default
 title: groupSIFT
 long_title: groupSIFT
 parent: Plugins
-has_children: true
 nav_order: 24
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/groupSIFT).

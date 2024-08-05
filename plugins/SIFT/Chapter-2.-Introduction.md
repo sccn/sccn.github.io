@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Chapter-2.-Introduction
-long_title: Chapter-2.-Introduction
+title: SIFT
+long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
 ---

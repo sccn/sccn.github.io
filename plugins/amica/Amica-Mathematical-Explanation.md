@@ -1,7 +1,7 @@
 ---
 layout: default
-title: AMICA-Mathematical-Explanation
-long_title: AMICA-Mathematical-Explanation
+title: amica
+long_title: amica
 parent: amica
 grand_parent: Plugins
 ---
