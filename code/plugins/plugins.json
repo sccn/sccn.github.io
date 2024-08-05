@@ -63,6 +63,13 @@
     "cat": "processing"
   },
   {
+    "name": "BrainBeats",
+    "type": "readme",
+    "link": "https://github.com/amisepa/BrainBeats",
+    "desc": "Joint EEG/heart analysis",
+    "cat": "processing"    
+  },
+  {
     "name": "Zapline-Plus",
     "type": "readme",
     "link": "https://github.com/sccn/zapline-plus",
