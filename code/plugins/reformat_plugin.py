@@ -2,6 +2,15 @@ import os
 import sys
 import shutil
 
+def clean_filename(filename):
+    filename = filename.replace(' ', '_')
+    filename = filename.replace('(', '')
+    filename = filename.replace(')', '')
+    filename = filename.replace(',', '')
+    filename = filename.replace(';', '')
+    filename = filename.replace(':', '')
+    filename = filename.replace('/', '')
+    return filename
 # open a text file ending with .md and append a paragraph to it
 def reformat_wiki_pages(filepath, filename, parent, output_file, wiki_input_dir=""):
     append_text = '''---
@@ -11,7 +20,7 @@ grand_parent: Plugins
 '''.format(filename=filename, parent=parent)
 
     print(f"Reformatting {filename} of {parent}...")
-    if parent in ["nsgportal", "limo"]:
+    if parent in ["nsgportal", "LIMO"]:
         pages = []
         titles = []
         # load _Sidebar.md and extract all links from markdown file
@@ -20,11 +29,16 @@ grand_parent: Plugins
             for line in lines:
                 if '(' in line:
                     # extract text between square brackets
+                    # find the first '(' after the square brackets
+                    page = line[line.find('(', line.find(']'))+1:line.rfind(')')]
+                    if parent == "LIMO":
+                        page = page.replace('https://github.com/LIMO-EEG-Toolbox/limo_meeg/wiki/', '')
+                        page = clean_filename(page)
                     title = line[line.find('[')+1:line.find(']')]
-                    page = line[line.find('(')+1:line.find(')')]
                     pages.append(page)
                     titles.append(title)
         pages = list(map(str.lower, pages))
+        filename = clean_filename(filename)
         if filename.lower() in pages:
             order = pages.index(filename.lower())
             title = titles[order]
@@ -45,7 +59,10 @@ long_title: {filename}
     with open(filepath) as f:
         text = f.read()
         text = append_text + text
-        with open(output_file, 'w') as out:
+        outputfilename = clean_filename(os.path.basename(output_file))
+        outputfilepath = os.path.dirname(output_file)
+
+        with open(f"{outputfilepath}/{outputfilename}", 'w') as out:
             out.write(text)
 
 def reformat_plugin_dir(plugin_input_dir, plugin_name, formatted_name, order, link, plugin_type='wiki'):
@@ -77,7 +94,6 @@ parent: Plugins'''.format(plugin_name=formatted_name)
     if plugin_type == 'wiki':
         append_text += '\nhas_children: true'
         wiki_plugin_input_dir = plugin_input_dir + '.wiki'
-        print(wiki_plugin_input_dir)
 
         # copy image directory from input to output dir
         if os.path.exists(os.path.join(wiki_plugin_input_dir, 'images')):
