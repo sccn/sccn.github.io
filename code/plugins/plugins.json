@@ -196,6 +196,20 @@
     "cat": "import"
   },  
   {
+    "name": "MFF-matlab-io",
+    "type": "wiki",
+    "link": "https://github.com/arnodelorme/mffmatlabio",
+    "desc": "input/output for MFF EGI file format",
+    "cat": "import"
+  },  
+  {
+    "name": "Neuroscan-io",
+    "type": "readme",
+    "link": "git@github.com:sccn/neuroscanio.git",
+    "desc": "input/output for Neuroscan file format",
+    "cat": "import"
+  },  
+  {
     "name": "get_chanlocs",
     "type": "wiki",
     "link": "https://github.com/sccn/get_chanlocs",
