@@ -205,7 +205,14 @@
   {
     "name": "Neuroscan-io",
     "type": "readme",
-    "link": "git@github.com:sccn/neuroscanio.git",
+    "link": "https://github.com/sccn/neuroscanio.git",
+    "desc": "input/output for Neuroscan file format",
+    "cat": "import"
+  },  
+  {
+    "name": "CTFimport",
+    "type": "readme",
+    "link": "https://github.com/sccn/ctfimport.git",
     "desc": "input/output for Neuroscan file format",
     "cat": "import"
   },  
