@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Using-pop_nsg-command-line-tools-in-your-EEGLAB-plug-in
-long_title: Using-pop_nsg-command-line-tools-in-your-EEGLAB-plug-in
 parent: nsgportal
 grand_parent: Plugins
+
+title: Tutorial 3-Using in other EEGLAB plug-ins
+long_title: Tutorial 3-Using in other EEGLAB plug-ins
 nav_order: 10
 ---
 # Using pop_nsg command line tools in your EEGLAB plug-in

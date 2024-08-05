@@ -6,26 +6,39 @@ import shutil
 def reformat_wiki_pages(filepath, filename, parent, output_file, wiki_input_dir=""):
     append_text = '''---
 layout: default
-title: {filename}
-long_title: {filename}
 parent: {parent}
 grand_parent: Plugins
 '''.format(filename=filename, parent=parent)
 
-    print(f"Reformatting {filename}...")
+    print(f"Reformatting {filename} of {parent}...")
     if parent in ["nsgportal", "limo"]:
         pages = []
+        titles = []
         # load _Sidebar.md and extract all links from markdown file
         with open(os.path.join(wiki_input_dir, '_Sidebar.md')) as f:
             lines = f.readlines()
             for line in lines:
                 if '(' in line:
                     # extract text between square brackets
+                    title = line[line.find('[')+1:line.find(']')]
                     page = line[line.find('(')+1:line.find(')')]
                     pages.append(page)
-        if filename in pages:
-            order = pages.index(filename)
-            append_text += 'nav_order: {order}\n'.format(order=order)
+                    titles.append(title)
+        pages = list(map(str.lower, pages))
+        if filename.lower() in pages:
+            order = pages.index(filename.lower())
+            title = titles[order]
+            append_text += '''
+title: {title}
+long_title: {title}
+'''.format(title=title)
+
+            append_text += 'nav_order: {order}\n'.format(order=order+1)
+    else:   
+        append_text += '''
+title: {filename}
+long_title: {filename}
+'''.format(filename=filename)
     
     append_text += '---\n'
 

@@ -1,10 +1,7 @@
 ---
 layout: default
-title: nsgportal-graphical-user-interface:-pop_nsg
-long_title: nsgportal-graphical-user-interface:-pop_nsg
 parent: nsgportal
 grand_parent: Plugins
-nav_order: 5
 ---
 
 # *nsgportal* graphical user interface: pop_nsg

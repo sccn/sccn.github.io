@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Using-the-Open-EEGLAB-Portal
-long_title: Using-the-Open-EEGLAB-Portal
 parent: nsgportal
 grand_parent: Plugins
+
+title: Using the Open EEGLAB Portal
+long_title: Using the Open EEGLAB Portal
 nav_order: 2
 ---
 There will be two approaches to using the Open EEGLAB Portal: either, through its NSG web interface (http://www.NSGportal.org), or by making use of the NSG command line RESTful interface (NSG-R). This section describes the use of the web interface.

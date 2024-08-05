@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Creating-and-managing-a-job-from-pop_nsg-GUI
-long_title: Creating-and-managing-a-job-from-pop_nsg-GUI
 parent: nsgportal
 grand_parent: Plugins
+
+title: Tutorial 1-GUI job management
+long_title: Tutorial 1-GUI job management
 nav_order: 8
 ---
 # Creating and managing a job from pop_nsg GUI

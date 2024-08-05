@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Creating-and-managing-an-NSG-job-using-pop_nsg-from-the-command-line
-long_title: Creating-and-managing-an-NSG-job-using-pop_nsg-from-the-command-line
 parent: nsgportal
 grand_parent: Plugins
+
+title: Tutorial 2-Command line management
+long_title: Tutorial 2-Command line management
 nav_order: 9
 ---
 This tutorial describes in details the process of submitting and managing a job using the command line options in _pop_nsg_. 
