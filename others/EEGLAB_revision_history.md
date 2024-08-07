@@ -14,10 +14,10 @@ Minor revisions are indicated using a second number; thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
-## EEGLAB version 2024.1 (draft)
+## EEGLAB version 2024.1 
 
-- Issue date: TBD
-- **Version statistics**: ...
+- Issue date: 08/06/2024; GIT tag: 2024.1
+- **Version statistics**: 70 files changed, 1,480 additions, and 228 deletions.
 - **New feature**: EEGLAB colormap changed.
 - **New feature**: EEGLAB compiled version can now execute scripts given on the command line.
 - **New feature**: Allowing plugins to have critical updates.
@@ -28,6 +28,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Bug fix**: Better detection of a dataset modified by the user.
 - **Bug fix**: Fix issue with STUDY [ICA component clustering](https://github.com/sccn/eeglab/issues/767). This is also related to the ICLabel bug below.
 - <font color=red><b>ICLabel plugin:</b> The ICLabel version (1.5) released in the previous EEGLAB version had a bug.</font>
+- Use this [Github link](https://github.com/sccn/eeglab/compare/2024.0..2024.1) to see all changes compared to the previous EEGLAB version.
 
 ## EEGLAB version 2024.0
 
@@ -46,7 +47,8 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **bids-matlab-tools plugin:** Version 8 has been released. Now handles behavioral data and many small improvements.
 - **ROIconnect plugin:** Improved compatibility. This plugin has been released, although the documentation is not complete.
 - <font color=red><b>ICLabel plugin:</b> The ICLabel version (1.5) released with this version has a bug. Make sure to upgrade to version 1.6 of the plugin</font>
-  
+- Use this [Github link](https://github.com/sccn/eeglab/compare/2023.1..2024.0) to see all changes compared to the previous EEGLAB version.
+
 ## EEGLAB version 2023.1
 
 - Issue date: August 23rd 2023; GIT tag: 2023.1
@@ -64,6 +66,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **DIPFIT plugin**: Fix handling non-EEG channels when computing Loreta and Leadfield matrix.
 - **bids-matlab-io plugin:** Better import of MEG data, and many more small bug fixes and improvements.
 - **ROIconnect plugin:** Improved compatibility. This plugin is still in beta and will be released soon.
+- Use this [Github link](https://github.com/sccn/eeglab/compare/2023.0..2023.1) to see all changes compared to the previous EEGLAB version.
 
 ## EEGLAB version 2023.0
 
@@ -82,6 +85,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Clean_rawdata plugin**: New option to fuse channels rejected by clean_rawdata on multiple runs of the same subject.
 - **DIPFIT plugin**: MEG source localization and custom MRI source localization (see [tutorial](https://eeglab.org/tutorials/09_source/Custom_head_model.html))
 - **bids-matlab-io plugin:** support for behavioral information and motion capture. Better support to import iEEG and MEG data.
+- Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2022.1..2023.0) to see all changes compared to the previous EEGLAB version.
 
 ## EEGLAB version 2022.1
 
