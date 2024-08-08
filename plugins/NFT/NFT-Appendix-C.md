@@ -1,9 +1,11 @@
 ---
 layout: default
-title: NFT
-long_title: NFT
 parent: NFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: NFT-Appendix-C
+long_title: NFT-Appendix-C
 ---
 Effect of brain-to-skull conductivity ratio estimate on EEG source localization
 -------------------------------------------------------------------------------

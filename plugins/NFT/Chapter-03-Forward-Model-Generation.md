@@ -1,9 +1,11 @@
 ---
 layout: default
-title: NFT
-long_title: NFT
 parent: NFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-03-Forward-Model-Generation
+long_title: Chapter-03-Forward-Model-Generation
 ---
 Forward Problem: Boundary Element Method
 ----------------------------------------

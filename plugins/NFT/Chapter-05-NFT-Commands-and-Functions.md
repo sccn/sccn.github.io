@@ -1,9 +1,11 @@
 ---
 layout: default
-title: NFT
-long_title: NFT
 parent: NFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-05-NFT-Commands-and-Functions
+long_title: Chapter-05-NFT-Commands-and-Functions
 ---
 This section summarizes the MATLAB commands and data structures used for
 each stage of head modeling using the NFT toolbox. The function

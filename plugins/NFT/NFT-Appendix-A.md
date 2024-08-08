@@ -1,9 +1,11 @@
 ---
 layout: default
-title: NFT
-long_title: NFT
 parent: NFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: NFT-Appendix-A
+long_title: NFT-Appendix-A
 ---
 BEM Mesh Format
 ---------------

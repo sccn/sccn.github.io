@@ -1,20 +1,18 @@
 ---
 layout: default
-title: NFT
-long_title: NFT
 parent: NFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-02-Head-Modeling-from-MR-Images
+long_title: Chapter-02-Head-Modeling-from-MR-Images
 ---
 The steps of head modeling are segmentation, mesh generation, and
 co-registration of electrode locations with scalp surface. User may also
 generate a source space to be used in the solution of the inverse
 problem. Figure 2 shows the steps of head modeling using MR images.
 
-<center>
-
 ![Figure 2: steps of head modeling using MR images](NFM_Toolboox_UsersManual_html_2aaa1b22.gif)
-
-</center>
 
 Each step in realistic head modeling is implemented as a separate GUI
 module reachable from the main menu. These modules are described in the
@@ -51,12 +49,8 @@ panel allows the user to select which image to display on the image
 panels. The available choices are the MR volume, the filtered volume or
 various stages of segmentation.
 
-<center>
-
 ![](NFT_from_MRI_segmentation.png) .....
 ![Figure 3: Interface for segmentation](NFT_segmentation.png)
-
-</center>
 
 The panel on the right of the segmentation GUI shows the segmentation
 steps that will be performed on the volume in order:
@@ -111,14 +105,10 @@ watershed segmentation algorithm, and the default values work for most
 images. The result of Brain segmentation can be seen by selecting “Brain
 Mask”.
 
-<center>
-
 ![Figure 4: Interface of segmentation during setting lowest point
 for cerebellum.](NFT_cerebellarlowpoint.png "wikilink") ......
 ![Figure 5: Interface of segmentation during a seed point
 selection on WM.](NFT_WMpointselection.png "wikilink")
-
-</center>
 
 ### Outer skull segmentation
 
@@ -130,16 +120,10 @@ click on both eye lobes. Figure 7 shows the matlab figure that pops-up
 to click on eye lobes. Once the eyes are selected the outer skull is
 segmented and can be seen by “Outer skull mask”.
 
-<center>
-
 ![Figure 6: Interface of segmentation to select an axial slice where the eyes are clearly observed.](NFT_eyeselection.png "wikilink")
 
-</center>
-<center>
 
 ![Figure 7: Matlab figure to click on eye lobes.](NFT_eyelobes.png "wikilink")
-
-</center>
 
 ### Inner skull segmentation
 
@@ -188,13 +172,10 @@ mesh file is suitable to be used directly by the BEM solver. The format
 of the mesh file is given in [Appendix A](/NFT_Appendix_A "wikilink").
 The mesh generation process is described below.
 
-<center>
-
 ![](NFT_from_MRI_mesh_gen.png "wikilink") .....
 ![Figure 8: Interface for mesh
 generation.](NFT_meshgeneration_ui.png "wikilink")
 
-</center>
 
 Mesh Generation module creates triangular meshes that fits the
 boundaries of the segmentation. The aim is to approximate the geometry
@@ -246,12 +227,8 @@ A LFM using a regular grid source space can be used in single dipole
 parametric inverse problem solution to find a coarse estimate of the
 dipole position.
 
-<center>
-
 ![](NFT_from_MRI_source_space.png "wikilink") ..... 
 ![Figure 9: Interface for source space generation.](NFT_sourcespacegen.png "wikilink")
-
-</center>
 
 Co-registration of electrode locations
 --------------------------------------
@@ -287,12 +264,9 @@ the electrode positions change. Therefore, the co-registration output is
 specific to a session. The result of electrode co-registration is saved
 as Session_Name_Subject_Name_headsensors.sens in ASCII format.
 
-<center>
-
 ![](NFT_from_MRI_coreg.png "wikilink") .... 
 ![Figure 10: Interface for co-registration.](NFT_coregistration.png "wikilink")
 
-</center>
 
 Head Modeling using Template Warping
 ------------------------------------
@@ -332,12 +306,8 @@ whole head model, and some electrodes may fall out of the template mesh.
 
 In Figure 11 the interface for warping module is shown.
 
-<center>
-
 ![](NFT_from_Warping.png "wikilink") ..... 
 ![Figure 11: Interface warping of a template head model.](NFT_warping_ui.png "wikilink")
-
-</center>
 
 ------------------------------------------------------------------------
 

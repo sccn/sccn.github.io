@@ -3,8 +3,9 @@ layout: default
 title: NFT
 long_title: NFT
 parent: Plugins
+render_with_liquid: false
 has_children: true
-nav_order: 16
+nav_order: 18
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/NFT).
 
@@ -88,35 +89,35 @@ Please visit home-pages of individual programs for more information on usage,
 source-code and license information.
 
 ASC: Adaptive skeleton climbing
-homepage: http://www.cse.cuhk.edu.hk/~ttwong/papers/asc/asc.html
+homepage: [http://www.cse.cuhk.edu.hk/~ttwong/papers/asc/asc.html](http://www.cse.cuhk.edu.hk/~ttwong/papers/asc/asc.html)
 
 QSLIM: Quadric-based surface simplification
-homepage: http://mgarland.org/software/qslim.html
+homepage: [http://mgarland.org/software/qslim.html](http://mgarland.org/software/qslim.html)
 
 BEM_MATRIX: The METU-FP Toolkit
-homepage: http://www.eee.metu.edu.tr/metu-fp/
+homepage: [http://www.eee.metu.edu.tr/metu-fp/](http://www.eee.metu.edu.tr/metu-fp/)
 
 PROCMESH: Mesh correction and processing. No web page yet. Please contact NFT developers for source code.
 
 MATITK: Matlab and ITK
-homepage: http://www.sfu.ca/~vwchu/matitk.html
+homepage: [http://www.sfu.ca/~vwchu/matitk.html](http://www.sfu.ca/~vwchu/matitk.html)
 
 Note: The MATITK shared libraries are installed in the 'mfiles' directory.
 
 # Download
 
-To download the NFT, go to the [NFT download
-page](http://sccn.ucsd.edu/nft/).
+To download the NFT, use the EEGLAB plugin manager.
 
 # NFT User's Manual
 See the tutorial section for more information. [Click here to download the NFT User Manual as a PDF book](https://github.com/user-attachments/files/16383465/NFT_Tutorial.pdf)
 
-Creation and documentation by: Zeynep Akalin Acar, Project Scientist, zeynep@sccn.ucsd.edu
+Creation and documentation by: Zeynep Akalin Acar, zeynep@sccn.ucsd.edu
+
+Support: Limited support is available from Yayha Shirazi, syshirazi@ucsd.edu
 
 # NFT Reference Paper
 
 Zeynep Akalin Acar & Scott Makeig, [Neuroelectromagnetic Forward Head
-Modeling
-Toolbox](http://sccn.ucsd.edu/%7Escott/pdf/Zeynep_NFT_Toolbox10.pdf).
+Modeling Toolbox](http://sccn.ucsd.edu/%7Escott/pdf/Zeynep_NFT_Toolbox10.pdf).
 <em>Journal of Neuroscience Methods</em>, 2010
 

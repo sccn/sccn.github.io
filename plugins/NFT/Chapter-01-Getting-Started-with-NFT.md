@@ -1,9 +1,11 @@
 ---
 layout: default
-title: NFT
-long_title: NFT
 parent: NFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-01-Getting-Started-with-NFT
+long_title: Chapter-01-Getting-Started-with-NFT
 ---
 Introduction
 ------------

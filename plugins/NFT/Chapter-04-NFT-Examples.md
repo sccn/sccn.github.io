@@ -1,9 +1,11 @@
 ---
 layout: default
-title: NFT
-long_title: NFT
 parent: NFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-04-NFT-Examples
+long_title: Chapter-04-NFT-Examples
 ---
 In this section, two head modeling examples are presented. Both of these
 examples use the same subject. The first example generates a realistic
@@ -21,8 +23,6 @@ through segmentation and mesh generation steps. The mesh consists of
 scalp, skull, csf, and brain layers for a total of 16016 nodes and 32024
 elements. The individual layers can be seen in Figure 13.
 
-<center>
-
 (a) 
 ![a](NFM_Toolboox_UsersManual_html_56c540a1.gif "wikilink") ...
 (b)
@@ -32,8 +32,6 @@ elements. The individual layers can be seen in Figure 13.
 (d)
 ![d](NFM_Toolboox_UsersManual_html_m69f7a676.gif "wikilink")
 
-</center>
-
 Figure 13: BEM model of the scalp, skull, csf and the brain obtained
 from an MR image. (a) scalp mesh, (b) skull mesh, (c) CSF mesh, (d)
 brain mesh.
@@ -41,19 +39,13 @@ brain mesh.
 After mesh generation, the electrodes and the realistic mesh is
 co-registered. The result of co-registration can be seed in Figure 14.
 
-<center>
-
 ![Figure 14: Registered electrode locations on the scalp mesh.](NFM_Toolboox_UsersManual_html_7b73089f.gif "wikilink")
-
-</center>
 
 The second example assumes that the only available subject data is the
 141 digitized electrode locations. For warping the template MNI mesh is
 used, which has three layers and 3000 nodes and 5988 elements. This is
 the standard mesh that is also used by other BEM solvers in the
 literature. The results of warping can be seen in Figure 15.
-
-<center>
 
 (a)
 ![a](NFM_Toolboox_UsersManual_html_3bc436a3.gif "wikilink") ...
@@ -63,8 +55,6 @@ literature. The results of warping can be seen in Figure 15.
 ![c](NFM_Toolboox_UsersManual_html_m350221ff.gif "wikilink") ...
 (d) 
 ![d](NFM_Toolboox_UsersManual_html_m788a9795.gif "wikilink")
-
-</center>
 
 Figure 15: BEM model of the scalp, skull, the brain obtained by warping
 a template head model to electrode locations. (a) scalp mesh, (b) skull
