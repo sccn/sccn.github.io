@@ -25,9 +25,9 @@ Here we demonstrate how to import EEG-BIDS data into EEGLAB and use the [EEGLAB 
 
 ## EEG-BIDS 
 
-The data in this tutorial are organized according to the [EEG BIDS format](https://github.com/bids-standard/bids-specification/blob/master/src/04-modality-specific-files/03-electroencephalography.md). You can read more on the specificities of the EEG-BIDS format [here](https://www.nature.com/articles/s41597-019-0104-8). EEGLAB has a dedicated plugin called [bids-matlab-tools](https://github.com/sccn/bids-matlab-tools) to export and import BIDS datasets. This plugin is available  using the EEGLAB plugin manager and must be installed before running the scripts in this tutorial. It is worthwhile spending some time looking at how the files are organized in this BIDS example, as we will follow this convention throughout.
+The data in this tutorial are organized according to the [EEG BIDS format](https://github.com/bids-standard/bids-specification/blob/master/src/04-modality-specific-files/03-electroencephalography.md). You can read more on the specificities of the EEG-BIDS format [here](https://www.nature.com/articles/s41597-019-0104-8). EEGLAB has a dedicated plugin called [EEG-BIDS](https://github.com/sccn/EEG-BIDS) to export and import BIDS datasets. This plugin is available  using the EEGLAB plugin manager and must be installed before running the scripts in this tutorial. It is worthwhile spending some time looking at how the files are organized in this BIDS example, as we will follow this convention throughout.
 
-To know more about the integration of BIDS into EEGLAB, you can also visit the [bids-matlab-io](https://github.com/sccn/bids-matlab-tools/wiki) EEGLAB plugin documentation. 
+To know more about the integration of BIDS into EEGLAB, you can also visit the [bids-matlab-io](https://github.com/sccn/EEG-BIDS/wiki) EEGLAB plugin documentation. 
 
 ## Download the data
 The EEG data used in this example comes from [Wakeman and Henson (2015)](https://www.nature.com/articles/sdata20151). In this experiment, simultaneous MEG-EEG data were collected while subjects  viewed famous, unfamiliar, and scrambled faces. Each image was repeated  three times, and subjects pressed one of two keys with their left or right index finger, indicating how symmetric they regarded each image relative to  the average.
