@@ -42,21 +42,21 @@ if __name__ == "__main__":
         print('Error: plugins.json not found.')
         sys.exit(1)
     plugin_info = json.load(open('plugins.json'))
-    plugins = [plugin['plugin'] for plugin in plugin_info]
+    plugins = [plugin['name'] for plugin in plugin_info]
     # wiki_plugins = ['SIFT', 'get_chanlocs', 'NFT', 'EEG-BIDS', 'nsgportal', 'clean_rawdata', 'amica', 'LIMO']
     # readme_plugins = ['ARfitStudio', 'roiconnect', 'trimOutlier', 'PACT', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline','NIMA', 'firfilt']
     # ordering = ['ICLabel', 'dipfit', 'EEG-BIDS', 'roiconnect', 'amica', 'cleanline', 'clean_rawdata', 'SIFT', 'zapline-plus', 'eegstats', 'trimOutlier', 'fMRIb', 'imat', 'nwbio', 'NIMA', 'PACT', 'NFT', 'PACTools', 'ARfitStudio', 'PowPowCAT', 'relica', 'std_dipoleDensity', 'viewprops', 'firfilt', 'groupSIFT', 'get_chanlocs', 'nsgportal']
     
     if len(sys.argv) == 1:
         for plugin in plugin_info:
-            update_repo(plugin['plugin'], plugin['name'], plugins.index(plugin['plugin']), plugin['type'], plugin['link'])
+            update_repo(plugin['name'], plugin['name'], plugins.index(plugin['name']), plugin['type'], plugin['link'])
     elif len(sys.argv) == 2:
         plugin_name = sys.argv[1]
         if plugin_name not in plugins:
             print(f"Plugin {plugin_name} not found.")
             sys.exit(1)
         plugin = plugin_info[plugins.index(plugin_name)]
-        update_repo(plugin['plugin'], plugin['name'], plugins.index(plugin['plugin']), plugin['type'], plugin['link'])
+        update_repo(plugin['name'], plugin['name'], plugins.index(plugin['name']), plugin['type'], plugin['link'])
     else:
         print('Usage: python update_plugins.py <plugin_name>')
         sys.exit(1)

@@ -45,6 +45,7 @@ grand_parent: Plugins
             append_text += '''
 title: {title}
 long_title: {title}
+render_with_liquid: false
 '''.format(title=title)
 
             append_text += 'nav_order: {order}\n'.format(order=order+1)
@@ -58,12 +59,21 @@ long_title: {filename}
 
     with open(filepath) as f:
         text = f.read()
+        if parent == "LIMO":
+            text = format_text_limo(text)
         text = append_text + text
         outputfilename = clean_filename(os.path.basename(output_file))
         outputfilepath = os.path.dirname(output_file)
 
         with open(f"{outputfilepath}/{outputfilename}", 'w') as out:
             out.write(text)
+
+def format_text_limo(text):
+    # find in the text the line containing ```matlab and append a line before it
+    text = text.replace('https://github.com/', 'https://raw.githubusercontent.com/')
+    text = text.replace('blob/', '')
+
+    return text
 
 def reformat_plugin_dir(plugin_input_dir, plugin_name, formatted_name, order, link, plugin_type='wiki'):
     # plugins_output_dir = '/Users/dtyoung/Documents/EEGLAB/sccn.github.io/plugins'
