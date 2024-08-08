@@ -3,7 +3,8 @@ layout: default
 title: PowPowCAT
 long_title: PowPowCAT
 parent: Plugins
-nav_order: 19
+render_with_liquid: false
+nav_order: 21
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/PowPowCAT).
 

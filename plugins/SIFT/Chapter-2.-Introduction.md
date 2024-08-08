@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-2.-Introduction
+long_title: Chapter-2.-Introduction
 ---
 Mapping the structural and active functional properties of brain
 networks is a key goal of basic and clinical neuroscience and medicine.

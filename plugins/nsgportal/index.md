@@ -1,10 +1,11 @@
 ---
 layout: default
-title: nsgportal
-long_title: nsgportal
+title: NSGportal
+long_title: NSGportal
 parent: Plugins
+render_with_liquid: false
 has_children: true
-nav_order: 26
+nav_order: 25
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/nsgportal).
 

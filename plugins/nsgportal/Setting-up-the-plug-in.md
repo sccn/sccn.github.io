@@ -1,11 +1,11 @@
 ---
 layout: default
-parent: nsgportal
+parent: NSGportal
 grand_parent: Plugins
+render_with_liquid: false
 
-title: Setting up the plug-in
-long_title: Setting up the plug-in
-nav_order: 4
+title: Setting-up-the-plug-in
+long_title: Setting-up-the-plug-in
 ---
 # Setting up the plug-in
 

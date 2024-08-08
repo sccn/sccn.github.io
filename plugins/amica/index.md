@@ -1,8 +1,9 @@
 ---
 layout: default
-title: amica
-long_title: amica
+title: AMICA
+long_title: AMICA
 parent: Plugins
+render_with_liquid: false
 has_children: true
 nav_order: 4
 ---

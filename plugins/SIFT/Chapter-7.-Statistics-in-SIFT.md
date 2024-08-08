@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-7.-Statistics-in-SIFT
+long_title: Chapter-7.-Statistics-in-SIFT
 ---
 When making inferences about information flow or causation in the neural
 systems, it is highly important to also produce confidence intervals and

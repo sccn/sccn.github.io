@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-5.2.-Loading-and-preparing-the-data
+long_title: Chapter-5.2.-Loading-and-preparing-the-data
 ---
 First start up EEGLAB from the MATLAB® command-prompt:
 

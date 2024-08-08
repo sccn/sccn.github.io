@@ -1,9 +1,11 @@
 ---
 layout: default
-title: amica
-long_title: amica
-parent: amica
+parent: AMICA
 grand_parent: Plugins
+render_with_liquid: false
+
+title: AMICA-Download
+long_title: AMICA-Download
 ---
 The information on this page may not be up-to-date, please [visit this
 page](https://github.com/japalmer29/amica/wiki/AMICA#download-amica) for detailed

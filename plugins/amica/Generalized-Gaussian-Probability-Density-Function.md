@@ -1,9 +1,11 @@
 ---
 layout: default
-title: amica
-long_title: amica
-parent: amica
+parent: AMICA
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Generalized-Gaussian-Probability-Density-Function
+long_title: Generalized-Gaussian-Probability-Density-Function
 ---
 <font size=3>
 

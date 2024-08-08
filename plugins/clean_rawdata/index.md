@@ -1,10 +1,11 @@
 ---
 layout: default
-title: clean_rawdata
-long_title: clean_rawdata
+title: Clean_rawdata
+long_title: Clean_rawdata
 parent: Plugins
+render_with_liquid: false
 has_children: true
-nav_order: 6
+nav_order: 5
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/clean_rawdata).
 

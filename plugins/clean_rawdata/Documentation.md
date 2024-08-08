@@ -1,9 +1,11 @@
 ---
 layout: default
-title: clean_rawdata
-long_title: clean_rawdata
-parent: clean_rawdata
+parent: Clean_rawdata
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Documentation
+long_title: Documentation
 ---
 Historical Background
 ---------------------

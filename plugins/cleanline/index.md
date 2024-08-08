@@ -1,9 +1,10 @@
 ---
 layout: default
-title: cleanline
-long_title: cleanline
+title: CleanLine
+long_title: CleanLine
 parent: Plugins
-nav_order: 5
+render_with_liquid: false
+nav_order: 11
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/cleanline).
 

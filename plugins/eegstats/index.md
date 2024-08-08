@@ -1,9 +1,10 @@
 ---
 layout: default
-title: eegstats
-long_title: eegstats
+title: EEGstats
+long_title: EEGstats
 parent: Plugins
-nav_order: 9
+render_with_liquid: false
+nav_order: 12
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/eegstats).
 
@@ -55,10 +56,13 @@ You can also recover these statistics using the command line call (see function 
 
 The **EEG.etc.eegstats** structure contains the saved EEG spectral statistics. Assuming you have created an EEGLAB study (requires EEGLAB 2024.0 or later version), you may compute EEG statistics on all the datasets (the plugin is compatible with processing an entire EEGLAB STUDY). Then, from the EEGLAB command line, you may recover specific fields for all datasets. You can use the ***std_readdata*** function to read the data from all datasets (this uses the default STUDY design in STUDY.currentdesign -- otherwise, you can also specify the design when calling the ***std_readdata*** function by setting the 'design' parameter).
 
+{% raw %}
 ```matlab
 [STUDY,aa,xvals,~,~,~,~,info] = std_readdata(STUDY, ALLEEG, 'customread', 'std_readeegfield', ...
                           'customparams', {{ 'etc', 'eegstats', 'alpha_asymmetry' }}, 'ndim', 1);
 ```
+{% endraw %}
+
 Then you can perform statistics using EEGLAB building functions. 
 
 ```

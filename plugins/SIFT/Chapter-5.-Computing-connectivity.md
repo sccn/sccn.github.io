@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-5.-Computing-connectivity
+long_title: Chapter-5.-Computing-connectivity
 ---
 This section provides a demonstration of the use of SIFT to estimate and
 visualize source-domain information flow dynamics in an EEG dataset. To

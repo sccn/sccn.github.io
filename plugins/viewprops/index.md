@@ -1,9 +1,10 @@
 ---
 layout: default
-title: viewprops
-long_title: viewprops
+title: Viewprops
+long_title: Viewprops
 parent: Plugins
-nav_order: 22
+render_with_liquid: false
+nav_order: 1
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/viewprops).
 

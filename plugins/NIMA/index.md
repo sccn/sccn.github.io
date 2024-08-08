@@ -3,7 +3,8 @@ layout: default
 title: NIMA
 long_title: NIMA
 parent: Plugins
-nav_order: 14
+render_with_liquid: false
+nav_order: 16
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/NIMA).
 

@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-5.4.-Model-Fitting-and-Validation
+long_title: Chapter-5.4.-Model-Fitting-and-Validation
 ---
 Once the data has been pre-processed, we can proceed to **Model Fitting
 and Validation**. SIFT currently supports parametric VAR modeling

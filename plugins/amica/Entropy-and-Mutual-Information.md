@@ -1,9 +1,11 @@
 ---
 layout: default
-title: amica
-long_title: amica
-parent: amica
+parent: AMICA
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Entropy-and-Mutual-Information
+long_title: Entropy-and-Mutual-Information
 ---
 A multivariate pdf is generally a function of a vector space. If the individual variables, or components of the random vector, are independent, then the pdf factorizes into the product of univariate pdfs associated with the components.
 

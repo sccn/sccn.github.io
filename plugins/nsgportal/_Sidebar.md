@@ -1,7 +1,11 @@
 ---
 layout: default
-parent: nsgportal
+parent: NSGportal
 grand_parent: Plugins
+render_with_liquid: false
+
+title: _Sidebar
+long_title: _Sidebar
 ---
 # EEGLAB on NSG
 * [Registering on NSG](Registering-at-NSG)

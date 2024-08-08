@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-5.1.-SIFT-install
+long_title: Chapter-5.1.-SIFT-install
 ---
 It is assumed that you have **Matlab® 2008a** or later, the Signal
 Processing Toolbox, Statistics Toolbox,

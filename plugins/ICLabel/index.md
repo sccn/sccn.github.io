@@ -3,6 +3,7 @@ layout: default
 title: ICLabel
 long_title: ICLabel
 parent: Plugins
+render_with_liquid: false
 nav_order: 0
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/ICLabel).

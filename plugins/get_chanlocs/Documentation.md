@@ -1,9 +1,11 @@
 ---
 layout: default
-title: get_chanlocs
-long_title: get_chanlocs
 parent: get_chanlocs
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Documentation
+long_title: Documentation
 ---
 ![](Get_chanlocs.jpg)
 

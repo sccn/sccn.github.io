@@ -1,9 +1,11 @@
 ---
 layout: default
-title: amica
-long_title: amica
-parent: amica
+parent: AMICA
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Random-Variables-and-Probability-Density-Functions
+long_title: Random-Variables-and-Probability-Density-Functions
 ---
 <font size = 3> This page reviews the concepts of random variables
 (rv's) and probability density functions (pdfs). It describes

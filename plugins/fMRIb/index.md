@@ -3,7 +3,8 @@ layout: default
 title: fMRIb
 long_title: fMRIb
 parent: Plugins
-nav_order: 11
+render_with_liquid: false
+nav_order: 14
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/fMRIb).
 

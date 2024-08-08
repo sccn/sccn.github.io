@@ -1,9 +1,10 @@
 ---
 layout: default
-title: firfilt
-long_title: firfilt
+title: FirFilt
+long_title: FirFilt
 parent: Plugins
-nav_order: 23
+render_with_liquid: false
+nav_order: 24
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/firfilt).
 

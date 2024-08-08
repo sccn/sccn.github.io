@@ -17,6 +17,7 @@ def reformat_wiki_pages(filepath, filename, parent, output_file, wiki_input_dir=
 layout: default
 parent: {parent}
 grand_parent: Plugins
+render_with_liquid: false
 '''.format(filename=filename, parent=parent)
 
     print(f"Reformatting {filename} of {parent}...")
@@ -45,7 +46,6 @@ grand_parent: Plugins
             append_text += '''
 title: {title}
 long_title: {title}
-render_with_liquid: false
 '''.format(title=title)
 
             append_text += 'nav_order: {order}\n'.format(order=order+1)
@@ -86,7 +86,7 @@ def reformat_plugin_dir(plugin_input_dir, plugin_name, formatted_name, order, li
         shutil.copytree(os.path.join(plugin_input_dir, 'images'), os.path.join(plugin_output_dir, 'images'), dirs_exist_ok=True)
     # copy all .jpg and .png files from input to output dir
     for file in os.listdir(plugin_input_dir):
-        if file.endswith('.jpg') or file.endswith('.png'):
+        if file.endswith(('.png', '.jpg', '.gif')):
             shutil.copyfile(os.path.join(plugin_input_dir, file), os.path.join(plugin_output_dir, file))
     
     # if plugin is 'imat', copy the Docs directory recursively to the output directory
@@ -99,7 +99,8 @@ def reformat_plugin_dir(plugin_input_dir, plugin_name, formatted_name, order, li
 layout: default
 title: {plugin_name}
 long_title: {plugin_name}
-parent: Plugins'''.format(plugin_name=formatted_name)
+parent: Plugins
+render_with_liquid: false'''.format(plugin_name=formatted_name)
 
     if plugin_type == 'wiki':
         append_text += '\nhas_children: true'
@@ -110,14 +111,14 @@ parent: Plugins'''.format(plugin_name=formatted_name)
             shutil.copytree(os.path.join(wiki_plugin_input_dir, 'images'), os.path.join(plugin_output_dir, 'images'), dirs_exist_ok=True)
         # copy all .jpg and .png files from wiki input to output dir
         for file in os.listdir(wiki_plugin_input_dir):
-            if file.endswith('.jpg') or file.endswith('.png'):
+            if file.endswith('.jpg') or file.endswith(('.png', '.jpg', '.gif')):
                 shutil.copyfile(os.path.join(wiki_plugin_input_dir, file), os.path.join(plugin_output_dir, file))
 
 
         for root, dirs, files in os.walk(wiki_plugin_input_dir):
             for file in files:
                 if file.endswith('.md') and not file.startswith('index') and not file.startswith('Home'):
-                    reformat_wiki_pages(os.path.join(wiki_plugin_input_dir, file), file.strip('.md'), formatted_name, os.path.join(plugin_output_dir, file), wiki_plugin_input_dir)
+                    reformat_wiki_pages(os.path.join(wiki_plugin_input_dir, file), file.replace('.md', ''), formatted_name, os.path.join(plugin_output_dir, file), wiki_plugin_input_dir)
     
 
     with open(index_file) as f:

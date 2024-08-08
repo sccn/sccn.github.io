@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-1.-Downloads
+long_title: Chapter-1.-Downloads
 ---
 ## SIFT Downloads
 

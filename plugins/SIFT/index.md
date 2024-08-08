@@ -3,6 +3,7 @@ layout: default
 title: SIFT
 long_title: SIFT
 parent: Plugins
+render_with_liquid: false
 has_children: true
 nav_order: 7
 ---

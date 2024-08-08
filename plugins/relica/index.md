@@ -1,9 +1,10 @@
 ---
 layout: default
-title: relica
-long_title: relica
+title: RELICA
+long_title: RELICA
 parent: Plugins
-nav_order: 20
+render_with_liquid: false
+nav_order: 22
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/relica).
 

@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-6.-Visualization
+long_title: Chapter-6.-Visualization
 ---
 Once we’ve computed our connectivity estimates, and potentially computed
 some statistics, we will want to visualize the results. SIFT currently

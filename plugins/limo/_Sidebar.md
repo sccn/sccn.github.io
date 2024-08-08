@@ -2,6 +2,7 @@
 layout: default
 parent: LIMO
 grand_parent: Plugins
+render_with_liquid: false
 ---
 # [Home](https://raw.githubusercontent.com/LIMO-EEG-Toolbox/limo_meeg/wiki)
 

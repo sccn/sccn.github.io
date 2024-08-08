@@ -1,9 +1,10 @@
 ---
 layout: default
-title: zapline-plus
-long_title: zapline-plus
+title: Zapline-Plus
+long_title: Zapline-Plus
 parent: Plugins
-nav_order: 8
+render_with_liquid: false
+nav_order: 10
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/zapline-plus).
 

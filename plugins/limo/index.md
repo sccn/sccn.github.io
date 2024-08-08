@@ -3,6 +3,7 @@ layout: default
 title: LIMO
 long_title: LIMO
 parent: Plugins
+render_with_liquid: false
 has_children: true
 nav_order: 6
 ---

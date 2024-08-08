@@ -1,11 +1,11 @@
 ---
 layout: default
-parent: nsgportal
+parent: NSGportal
 grand_parent: Plugins
+render_with_liquid: false
 
-title: Registering on NSG
-long_title: Registering on NSG
-nav_order: 1
+title: Registering-at-NSG
+long_title: Registering-at-NSG
 ---
 There are two ways to access to NSG: via NSG portal and through the command line interface NSG-R. The latter one uses its core curl commands to communicate with NSG and is the interface used by the nsgportal plug-in. Since both ways are interfaces to NSG, If you have already registered to NSG, you can use the same login and password for NSG-R. For the REST interface, refer to the [NSG REST documentation](https://nsgr.sdsc.edu:8443/restusers/documentation).
 

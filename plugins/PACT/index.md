@@ -3,7 +3,8 @@ layout: default
 title: PACT
 long_title: PACT
 parent: Plugins
-nav_order: 15
+render_with_liquid: false
+nav_order: 17
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/PACT).
 

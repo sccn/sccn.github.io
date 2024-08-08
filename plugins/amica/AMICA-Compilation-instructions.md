@@ -1,9 +1,11 @@
 ---
 layout: default
-title: amica
-long_title: amica
-parent: amica
+parent: AMICA
 grand_parent: Plugins
+render_with_liquid: false
+
+title: AMICA-Compilation-instructions
+long_title: AMICA-Compilation-instructions
 ---
 # How to compile with Intel Fortran on Windows
 

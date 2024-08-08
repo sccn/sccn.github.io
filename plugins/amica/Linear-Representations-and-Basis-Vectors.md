@@ -1,9 +1,11 @@
 ---
 layout: default
-title: amica
-long_title: amica
-parent: amica
+parent: AMICA
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Linear-Representations-and-Basis-Vectors
+long_title: Linear-Representations-and-Basis-Vectors
 ---
 <font size=3> This page describes basic linear algebra concepts related
 to linear representations in vector spaces. </font>

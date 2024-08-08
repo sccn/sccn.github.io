@@ -3,8 +3,9 @@ layout: default
 title: EEG-BIDS
 long_title: EEG-BIDS
 parent: Plugins
+render_with_liquid: false
 has_children: true
-nav_order: 2
+nav_order: 26
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/EEG-BIDS).
 

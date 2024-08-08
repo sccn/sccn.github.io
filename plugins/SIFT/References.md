@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: References
+long_title: References
 ---
 Anderson BDO, Moore JB (1979) Optimal Filtering. Englewood Cliff, NJ:
 Prentice-Hall.

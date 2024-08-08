@@ -1,9 +1,11 @@
 ---
 layout: default
-title: amica
-long_title: amica
-parent: amica
+parent: AMICA
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Supplementary-functions
+long_title: Supplementary-functions
 ---
 The functions below are not included in AMICA but they might still be useful.
 

@@ -1,9 +1,11 @@
 ---
 layout: default
-title: EEG-BIDS
-long_title: EEG-BIDS
 parent: EEG-BIDS
 grand_parent: Plugins
+render_with_liquid: false
+
+title: EEG‐BIDS-docs
+long_title: EEG‐BIDS-docs
 ---
 # Documentation and tutorial videos
 

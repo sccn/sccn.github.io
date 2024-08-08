@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Dipfit
-long_title: Dipfit
+title: DIPFIT
+long_title: DIPFIT
 parent: Plugins
-nav_order: 1
+render_with_liquid: false
+nav_order: 2
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/dipfit).
 

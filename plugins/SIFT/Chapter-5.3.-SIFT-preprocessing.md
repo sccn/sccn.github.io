@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-5.3.-SIFT-preprocessing
+long_title: Chapter-5.3.-SIFT-preprocessing
 ---
 The first step in our pipeline is to pre-process the data. Select **SIFT > Pre-processing** to bring up the Preprocessing GUI. This can also be opened from the command-line using:
 

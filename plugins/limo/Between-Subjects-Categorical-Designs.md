@@ -2,10 +2,10 @@
 layout: default
 parent: LIMO
 grand_parent: Plugins
+render_with_liquid: false
 
 title: Between Subjects Categorical Designs
 long_title: Between Subjects Categorical Designs
-render_with_liquid: false
 nav_order: 12
 ---
 We replicate here the 1-way ANOVA with familiar, unfamiliar and scrambled faces but split the data in two age groups. Of course, we can take the txt files, edit them and save copies for each group – then in LIMO MEEG we simply use these files. Here, instead, we recompute the subjects model adding in the STUDY design our groups, which will consequently save txt files per group (but not change estimates per subjects). Since some subjects have unspecified age – we create three groups based on the median (figure 35).  

@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-5.5.-Connectivity-Estimation
+long_title: Chapter-5.5.-Connectivity-Estimation
 ---
 Now that our model has been fit, we’d like to calculate some
 frequency-domain measures, such as the spectrum, coherence, and

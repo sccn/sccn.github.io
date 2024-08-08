@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Chapter-8.-Conclusions-and-Acknowledgements
+long_title: Chapter-8.-Conclusions-and-Acknowledgements
 ---
 In this tutorial, we have introduced a new, open-source (Matlab-based)
 toolbox for electrophysiological information flow analysis, which

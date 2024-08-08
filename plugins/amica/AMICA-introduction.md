@@ -1,9 +1,11 @@
 ---
 layout: default
-title: amica
-long_title: amica
-parent: amica
+parent: AMICA
 grand_parent: Plugins
+render_with_liquid: false
+
+title: AMICA-Introduction
+long_title: AMICA-Introduction
 ---
 
 ![1000px](Graphic_abstract.png)

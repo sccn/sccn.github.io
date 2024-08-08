@@ -3,7 +3,8 @@ layout: default
 title: std_dipoleDensity
 long_title: std_dipoleDensity
 parent: Plugins
-nav_order: 21
+render_with_liquid: false
+nav_order: 23
 ---
 To view the plugin source code, please visit the plugin's [GitHub repository](https://github.com/sccn/std_dipoleDensity).
 

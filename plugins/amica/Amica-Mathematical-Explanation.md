@@ -1,9 +1,11 @@
 ---
 layout: default
-title: amica
-long_title: amica
-parent: amica
+parent: AMICA
 grand_parent: Plugins
+render_with_liquid: false
+
+title: AMICA-Mathematical-Explanation
+long_title: AMICA-Mathematical-Explanation
 ---
 This page is about the Amica algorithm itself. For installation and
 application of Amica, refer to this [page](AMICA) instead.

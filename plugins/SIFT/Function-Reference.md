@@ -1,9 +1,11 @@
 ---
 layout: default
-title: SIFT
-long_title: SIFT
 parent: SIFT
 grand_parent: Plugins
+render_with_liquid: false
+
+title: Function-Reference
+long_title: Function-Reference
 ---
 The table below is a partial reference for SIFT functions. Not all functions are documented in this list.
 
