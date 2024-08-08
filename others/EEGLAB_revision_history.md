@@ -18,7 +18,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 - Issue date: 08/06/2024; GIT tag: 2024.1
 - **Version statistics**: 70 files changed, 1,480 additions, and 228 deletions.
-- **New feature**: EEGLAB colormap changed.
+- **New feature**: EEGLAB colormap changed. See this [post](https://sccn.ucsd.edu/pipermail/eeglablist/2024/017887.html) for more details.
 - **New feature**: EEGLAB compiled version can now execute scripts given on the command line.
 - **New feature**: Allowing plugins to have critical updates.
 - **New feature**: New option to cluster components (thanks Yahya Shirazi).
