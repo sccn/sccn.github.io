@@ -130,6 +130,11 @@ To view the plugin source code, please visit the plugin's [GitHub repository]({l
 '''.format(link=link, order=order)
         text = f.read()
         text = append_text + text
+
+        if plugin_name == 'LIMO':
+            with open(os.path.join(wiki_plugin_input_dir, 'Home.md')) as f:
+                text += f.read()
+
         with open(index_file, 'w') as out:
             out.write(text)
 # main
