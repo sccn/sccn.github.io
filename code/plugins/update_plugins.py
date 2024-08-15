@@ -41,11 +41,29 @@ if __name__ == "__main__":
     if not os.path.exists('plugins.json'):
         print('Error: plugins.json not found.')
         sys.exit(1)
+    
     plugin_info = json.load(open('plugins.json'))
     plugins = [plugin['name'] for plugin in plugin_info]
-    # wiki_plugins = ['SIFT', 'get_chanlocs', 'NFT', 'EEG-BIDS', 'nsgportal', 'clean_rawdata', 'amica', 'LIMO']
-    # readme_plugins = ['ARfitStudio', 'roiconnect', 'trimOutlier', 'PACT', 'groupSIFT', 'nwbio', 'ICLabel', 'dipfit', 'eegstats', 'PowPowCAT', 'PACTools', 'zapline-plus', 'fMRIb', 'relica', 'std_dipoleDensity', 'imat', 'viewprops', 'cleanline','NIMA', 'firfilt']
-    # ordering = ['ICLabel', 'dipfit', 'EEG-BIDS', 'roiconnect', 'amica', 'cleanline', 'clean_rawdata', 'SIFT', 'zapline-plus', 'eegstats', 'trimOutlier', 'fMRIb', 'imat', 'nwbio', 'NIMA', 'PACT', 'NFT', 'PACTools', 'ARfitStudio', 'PowPowCAT', 'relica', 'std_dipoleDensity', 'viewprops', 'firfilt', 'groupSIFT', 'get_chanlocs', 'nsgportal']
+
+    # write index file
+    with open('../../plugins/index.md', 'w') as index_file:
+        text = '''---
+layout: default
+title: Plugins
+has_children: true
+has_toc: true
+nav_order: 7
+---
+'''
+        for cat in ['import', 'processing']:
+            text += f'## {cat.capitalize()}\n'
+            for plugin in [plugin for plugin in plugin_info if plugin['cat'] == cat]:
+                text += f'* [{plugin["name"]}](/plugins/{plugin["name"]}): {plugin["desc"]}\n'
+            
+            text += '\n'
+        
+        index_file.write(text)
+
     
     if len(sys.argv) == 1:
         for plugin in plugin_info:
