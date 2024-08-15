@@ -3,6 +3,9 @@ layout: default
 parent: LIMO
 grand_parent: Plugins
 render_with_liquid: false
+
+title: _Sidebar
+long_title: _Sidebar
 ---
 # [Home](https://raw.githubusercontent.com/LIMO-EEG-Toolbox/limo_meeg/wiki)
 

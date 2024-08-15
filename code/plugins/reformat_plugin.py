@@ -21,7 +21,7 @@ render_with_liquid: false
 '''.format(filename=filename, parent=parent)
 
     print(f"Reformatting {filename} of {parent}...")
-    if parent in ["nsgportal", "LIMO"]:
+    if parent in ["nsgportal"]:
         pages = []
         titles = []
         # load _Sidebar.md and extract all links from markdown file
