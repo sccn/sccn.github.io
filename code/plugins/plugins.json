@@ -29,7 +29,7 @@
   },
   {
     "name": "AMICA",
-    "type": "wiki",
+    "type": "readme",
     "link": "https://github.com/sccn/amica",
     "desc": "Computes Adaptive Mixture Independent Component Analysis",
     "cat": "processing"
