@@ -22,7 +22,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **New feature**: EEGLAB compiled version can now execute scripts given on the command line.
 - **New feature**: Allowing plugins to have critical updates.
 - **New feature**: New option to cluster components (thanks Yahya Shirazi).
-- **New feature**: Allowing to better process ICA clusters when a subject is split into multiple EEG datasets (so more study designs can be considered when components are missing)
+- **New feature**: Allowing to better process ICA clusters when a subject is split into multiple EEG datasets (so study designs with multiple sessions can be considered)
 - **bids-matlab-tools plugin:** Renamed EEG-BIDS. New options to export eye-tracking data.
 - **Bug fix**: Fix the issue with not clearing the STUDY cache when editing a STUDY.
 - **Bug fix**: Better detection of a dataset modified by users.
