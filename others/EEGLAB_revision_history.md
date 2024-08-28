@@ -14,6 +14,13 @@ Minor revisions are indicated using a second number; thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
+## EEGLAB version 2024.2
+
+- Issue date: 08/28/2024; GIT tag: 2024.2
+- **Version statistics**: 7 files changed, 21 additions and 12 deletions.
+- **Bug fix**: Fix the issue with closing GUI figures.
+- Use this [Github link](https://github.com/sccn/eeglab/compare/2024.1..2024.2) to see all changes compared to the previous EEGLAB version.
+
 ## EEGLAB version 2024.1 
 
 - Issue date: 08/06/2024; GIT tag: 2024.1
@@ -22,7 +29,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **New feature**: EEGLAB compiled version can now execute scripts given on the command line.
 - **New feature**: Allowing plugins to have critical updates.
 - **New feature**: New option to cluster components (thanks Yahya Shirazi).
-- **New feature**: Allowing to better process ICA clusters when a subject is split into multiple EEG datasets (so more study designs can be considered when components are missing)
+- **New feature**: Allowing to better process ICA clusters when a subject is split into multiple EEG datasets (so study designs with multiple sessions can be considered)
 - **bids-matlab-tools plugin:** Renamed EEG-BIDS. New options to export eye-tracking data.
 - **Bug fix**: Fix the issue with not clearing the STUDY cache when editing a STUDY.
 - **Bug fix**: Better detection of a dataset modified by users.
