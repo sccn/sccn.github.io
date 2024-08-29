@@ -71,7 +71,7 @@ Instead, go to the installed EEGLAB version and select the file **EEGLAB_verbose
 
 <br/><br/> 
 
-![Screenshot 2024-07-10 at 15 36 57](https://github.com/sccn/sccn.github.io/assets/1872705/261085fc-6885-4c18-9960-8df3e9bab844)
+![Screenshot 2024-08-29 at 13 20 25](https://github.com/user-attachments/assets/6757f18f-eb1d-4c4c-8b04-6924bba63275)
 
 <br/><br/> 
 
