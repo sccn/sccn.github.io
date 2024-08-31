@@ -18,7 +18,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 - Issue date: 08/28/2024; GIT tag: 2024.2
 - **Version statistics**: 7 files changed, 21 additions and 12 deletions.
-- **Bug fix**: Fix the issue with closing GUI figures.
+- **Bug fix**: Fix the issue with the Edit Event Value menu item (which was not functional).
 - Use this [Github link](https://github.com/sccn/eeglab/compare/2024.1..2024.2) to see all changes compared to the previous EEGLAB version.
 
 ## EEGLAB version 2024.1 
