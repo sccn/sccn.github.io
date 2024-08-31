@@ -286,7 +286,7 @@ You may call the [pop_clust.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=p
 
 ![](/assets/images/studyclust5.png)
 
-Several algorithms are available: *kmeans*, *neural network*, and *affinity* clustering. 
+Several algorithms are available: *kmeans*, *neural network*, *affinity*, and *affinity* clustering.
 
 *Kmeans* requires the MATLAB Statistics Toolbox, while *neural network* clustering uses a function from the MATLAB Neural Network Toolbox. A version of *kmeans* that does not require the MATLAB Statistics Toolbox is also available. *Affinity* clustering does not require any toolbox. We recommend using *affinity* clustering which does not require to specify the number of clusters, then try the *kmeans* algorithm if the results are not satisfactory. 
 
@@ -303,9 +303,19 @@ defined as components further than a specified number of standard
 deviations (3, by default) from any of the cluster centroids. To turn
 on this option, click the upper checkbox on the left. Identified
 outlier components will be placed into a designated *Outliers* cluster
-(Cluster 2). 
+(Cluster 2).
 
 Press *Ok*. The cluster editing interface detailed in one of the following sections will automatically pop up.
+
+Optimal Kmeans clustering
+-----------------
+We have recently added **Optimal Kmeans** algorithm to the `pop_clust` function. This feature allows you to find the optimal number of clusters for your data. To use this feature, you must have the [MATLAB Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html) installed.
+
+To use this feature, select the **Optimal Kmeans** option from the **Clustering algorithm** dropdown menu. Then, you need to input a range of cluster numbers to test (in the screenshot below, the minimum is set to 10, and the maximum is set to 30). The algorithm will then test the clustering for each number of clusters in the range and choose the optimal number of clusters based on the **silhouette** score. The **silhouette** score is a measure of how similar an object is to its own cluster compared to other clusters. The optimal number of clusters is the one that maximizes the **silhouette** score. Read more about the **silhouette** score from the [MATLAB documentation](https://www.mathworks.com/help/stats/clustering.evaluation.silhouetteevaluation.html).
+
+**Recommended number of clusters:** Following the rationale for the estimated number of clusters above, we recommend setting the lower bound of the cluster range to half the average number of components per subject. For example, if there are 20 components per subject, set the lower bound to 10. Similarly, set the upper bound to 1.5 times the average number of components per subject. For example, for 20 components per subject, set the upper bound to 30. If the returned number of clusters is at its lower or upper bound, consider expanding the range. We also strongly recommend using the option to separate outliers.
+
+![](/assets/images/studyclust14.png)
 
 Other clustering methods
 -----------------
