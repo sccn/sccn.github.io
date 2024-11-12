@@ -14,7 +14,15 @@ Minor revisions are indicated using a second number; thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
-## EEGLAB version 2024.2
+## EEGLAB version 2024.2.1
+
+- Issue date: 11/12/2024; GIT tag: 2024.2.1
+- **Version statistics**: 3 files changed with 8 additions and 4 deletions.
+- **Bug fix**: Fix crash when EEGLAB is offline.
+- **Bug fix**: Minor fix crash to channel location field.
+- Use this [Github link](https://github.com/sccn/eeglab/compare/2024.2..2024.2.1) to see all changes compared to the previous EEGLAB version.
+
+## EEGLAB version 2024.2.0
 
 - Issue date: 08/28/2024; GIT tag: 2024.2
 - **Version statistics**: 7 files changed, 21 additions and 12 deletions.
