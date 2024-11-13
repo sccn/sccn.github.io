@@ -18,7 +18,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 - Issue date: 11/12/2024; GIT tag: 2024.2.1
 - **Version statistics**: 3 files changed with 8 additions and 4 deletions.
-- **Bug fix**: Fix crash when EEGLAB is offline.
+- **Bug fix**: Fix crashes when EEGLAB is offline, WIFI is on and Biosig is installed.
 - **Bug fix**: Minor fix crash to channel location field.
 - Use this [Github link](https://github.com/sccn/eeglab/compare/2024.2..2024.2.1) to see all changes compared to the previous EEGLAB version.
 
