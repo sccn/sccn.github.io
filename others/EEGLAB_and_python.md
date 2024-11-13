@@ -25,7 +25,7 @@ has fewer bugs.
 Below is the figure in an independent [2024 article](https://apertureneuro.org/article/116386-the-art-of-brainwaves-a-survey-on-event-related-potential-visualization-practices) showing the popularity of all software packages.
 ![image_eeglab](https://github.com/sccn/sccn.github.io/assets/1872705/4a2de7bc-ee1d-450f-8314-48d3294d54f4)
 
-See also this third-party [2023 report](https://doi.org/10.1016/j.neuri.2023.100154), which compares EEGLAB citations with other EEG analysis software packages. 
+See also this third-party [2023 report](https://doi.org/10.1016/j.neuri.2023.100154) and [2024 report](https://www.preprints.org/manuscript/202411.0750/v1), which compares EEGLAB citations with other EEG analysis software packages. 
 
 Major differences between MATLAB and Python
 -------------------------------------------
