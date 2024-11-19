@@ -475,9 +475,9 @@ I am seing the warning message below. What does it mean?
 ICA activity do not match ICA weights, see ...
 ```
 
-If you re-reference the data after running ICA, or if you remove channels, you might see the warning message above.
-As a rule of thumb, never perform a lossy re-referencing or channel
-removal after running ICA. Instead, remove the channel or re-reference the data, then run ICA again.
+**Answer:** If you re-reference the data after running ICA, or if you remove channels, you might see the warning message above.
+**As a rule of thumb, never perform a lossy re-referencing or channel
+removal after running ICA.** Instead, remove the channel or re-reference the data, then run ICA again.
 When data is referenced or when channels are removed, the ICA scalp topographies are also referenced, while the ICA activity remains unchanged.
 However, this process violates the assumptions of ICA. Specifically, the relationship ICA_activations = ICA_weights * EEG_data no longer holds.
 Despite this, we contend that this altered representation is the closest approximation to the state before re-referencing or the removal of channel(s). The alternative approach of recomputing activities is not ideal, as it does not constitute a standard ICA decomposition.
