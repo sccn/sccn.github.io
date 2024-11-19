@@ -479,9 +479,11 @@ Warning: ICA activities and weights mismatch, click on the link below for more i
 **As a rule of thumb, never perform a lossy re-referencing or channel
 removal after running ICA.** Instead, remove the channel or re-reference the data, then run ICA again.
 When data is referenced or when channels are removed, the ICA scalp topographies are also referenced, while the ICA activity remains unchanged.
-However, this process violates the assumptions of ICA. Specifically, the relationship ICA_activations = ICA_weights * EEG_data no longer holds.
-Despite this, we contend that this altered representation is the closest approximation to the state before re-referencing or the removal of channel(s). The alternative approach of recomputing activities is not ideal, as it does not constitute a standard ICA decomposition.
-It is important to note that if you save and reload the data, ICA activations are not saved by default. As a result, EEGLAB will recompute them using the ICA weights and data when you load the data again, which deviates from the standard ICA decomposition. If it is important for you to retain the ICA activities, we
+However, this process violates the assumptions of ICA. Specifically, the relationship *ICA_activations = ICA_weights * EEG_data* no longer holds.
+Despite this, we contend that this altered representation is the closest approximation to the state before re-referencing or the removal of channel(s). 
+
+The alternative approach of recomputing activities from the modified weight matrix is not ideal, as it does not constitute a standard ICA decomposition.
+It is important to note that if you save and reload the data, ICA activations are not saved by default. As a result, EEGLAB will recompute them using the ICA weights and data when you load the data again, which deviates from the standard ICA decomposition. If it is important for you to retain the ICA activities when saving the data, we
 advise that you save the data from the command line using 
 
 ```
