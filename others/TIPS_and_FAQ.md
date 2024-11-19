@@ -462,10 +462,32 @@ For multiple-epoch data, the scalp map obtained for the
 different epochs is the same for a particular component. Is this normal
 or is there some mistake that's being done in the analysis?
 **Answer:** Because the ICA algorithm is applied in the electrode space
-domain, the same scalp maps are returned for all epochs. However the
+domain, the same scalp maps are returned for all epochs. However, the
 time course of one ICA component is different for each epoch (if its
 activation value is 0 at a given time, it means that this component is
 not expressed in the data at that particular time).
+
+### ICA activity warning
+
+If you re-reference the data after running ICA, or if you remove channels, you might see the warning message:
+
+```
+ICA activity do not match ICA weights, see ...
+```
+As a rule of thumb, never perform a lossy re-referencing or channel
+removal after running ICA. Instead, remove the channel or re-reference the data, then run ICA again.
+
+When the data is referenced or if channels are removed, ICA scalp topographies are also referenced, and ICA activity remains unchanged.
+However, the ICA assumptions are broken. In other words, we no longer have ICA_activations = ICA_weights * EEG_data.
+Nevertheless, we believe this type of broken representation is the closest to the one available before re-referencing or removing 
+channel(s). The alternative, which consists of recomputing activities, is not ideal because it is no longer an ICA decomposition.
+Importantly, if you save and reload the data, ICA activations are not saved by default, so EEGLAB will recompute them using
+ICA weights and data. This is no longer a standard ICA decomposition. If is important for you to retain the ICA activities, we
+advise that you save the data from the command line using 
+
+```
+save('-mat', 'EEG_dataset_with_ica.set', '-struct', 'EEG');
+```
 
 Time Frequency
 --------------
