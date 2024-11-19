@@ -450,7 +450,7 @@ epochs from the data, which are 3000 frames each. There are only about
 Should I apply ICA to the continuous data, then epoch the ICs, or apply
 ICA to the concatenated epochs?
 **Answer:** You can apply ICA to either of them. Usually, we prefer to
-apply ICA to the concatenated epochs so ICA component are more likely
+apply ICA to the concatenated epochs so ICA components are more likely
 to represent activity related to the task, but continuous data are fine
 too, especially if you have few epochs or few data points, since most of
 the same EEG and artifact processes are likely to be active 'between'
@@ -469,7 +469,7 @@ not expressed in the data at that particular time).
 
 ### ICA activity warning
 
-I am seing the warning message below. What does it mean?
+I am seeing the warning message below. What does it mean?
 
 ```
 Warning: ICA activities and weights mismatch, click on the link below for more information 
