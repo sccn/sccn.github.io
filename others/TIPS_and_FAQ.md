@@ -472,7 +472,7 @@ not expressed in the data at that particular time).
 I am seing the warning message below. What does it mean?
 
 ```
-ICA activity do not match ICA weights, see ...
+Warning: ICA activities and weights mismatch, click on the link below for more information 
 ```
 
 **Answer:** If you re-reference the data after running ICA, or if you remove channels, you might see the warning message above.
