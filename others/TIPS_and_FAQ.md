@@ -469,20 +469,19 @@ not expressed in the data at that particular time).
 
 ### ICA activity warning
 
-If you re-reference the data after running ICA, or if you remove channels, you might see the warning message:
+I am seing the warning message below. What does it mean?
 
 ```
 ICA activity do not match ICA weights, see ...
 ```
+
+If you re-reference the data after running ICA, or if you remove channels, you might see the warning message above.
 As a rule of thumb, never perform a lossy re-referencing or channel
 removal after running ICA. Instead, remove the channel or re-reference the data, then run ICA again.
-
-When the data is referenced or if channels are removed, ICA scalp topographies are also referenced, and ICA activity remains unchanged.
-However, the ICA assumptions are broken. In other words, we no longer have ICA_activations = ICA_weights * EEG_data.
-Nevertheless, we believe this type of broken representation is the closest to the one available before re-referencing or removing 
-channel(s). The alternative, which consists of recomputing activities, is not ideal because it is no longer an ICA decomposition.
-Importantly, if you save and reload the data, ICA activations are not saved by default, so EEGLAB will recompute them using
-ICA weights and data. This is no longer a standard ICA decomposition. If is important for you to retain the ICA activities, we
+When data is referenced or when channels are removed, the ICA scalp topographies are also referenced, while the ICA activity remains unchanged.
+However, this process violates the assumptions of ICA. Specifically, the relationship ICA_activations = ICA_weights * EEG_data no longer holds.
+Despite this, we contend that this altered representation is the closest approximation to the state before re-referencing or the removal of channel(s). The alternative approach of recomputing activities is not ideal, as it does not constitute a standard ICA decomposition.
+It is important to note that if you save and reload the data, ICA activations are not saved by default. As a result, EEGLAB will recompute them using the ICA weights and data when you load the data again, which deviates from the standard ICA decomposition. If it is important for you to retain the ICA activities, we
 advise that you save the data from the command line using 
 
 ```
