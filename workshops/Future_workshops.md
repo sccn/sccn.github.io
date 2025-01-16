@@ -9,9 +9,10 @@ Future EEGLAB workshops
 ===
 Below are EEGLAB workshops currently planned
 
-In 2024:
+In 2025:
 
-- The EEGLAB team will have a mini-workshop at the [MOBI conference in Slovenia](https://sites.google.com/view/mobi-2024/home).
+- There will be a workshop in Aspet, France, June 30th to July 4th.
+- There will be a workshop in San Diego, USA (UCSD campus) November 21-25, preceded by the Rockwood lecture on the 20th.
 
 Do not forget to subscribe to the EEGLAB News list to be notified of new
 workshop and registration information (you may register by clicking a
