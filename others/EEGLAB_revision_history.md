@@ -17,6 +17,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 ## EEGLAB version 2025.0.0
 
 - Issue date: 2/17/2025; GIT tag: 2025.0.0
+- **Version statistics**: 45 files changed with 697 additions and 234 deletions.
 - **Minor Code Adjustments:** Several functions have undergone minor tweaks. These include functions related to checking channel locations (eeg_checkchanlocs), dataset integrity (eeg_checkset), retrieving datasets (eeg_retrieve), updating EEGLAB (eeglab_update), adjusting event latencies (pop_adjustevents), editing channel information (pop_chanedit), selecting channels (pop_chansel), file I/O (pop_fileio), re-referencing data (pop_reref), running ICA (pop_runica), plotting data (eegplot), and statistical tests (ttest2_cell). These changes address specific edge cases, improve error handling, and enhance functionality.
 - **UI bug**: input GUI (input UI) was fixed, and all functions that depend on it will now behave properly. This may include coregister.m, pop_editeventvals.m.
 - **Plugin Updates:** Several plugins have been updated, including EEG-BIDS, ICLabel, clean_rawdata, and dipfit. EEG-BIDS is now one of the default plugins included in EEGLAB.
