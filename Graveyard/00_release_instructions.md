@@ -20,9 +20,9 @@ One week later after release candidate.
 2. Change revision 
 3. Accept plugin.
 4. Accept new plugin and check that update is seen.
-5. Download Fieldtrip and Picard and run "test_compiled_version" script
+5. Run "test_compiled_version" script
 6. Final edits in the revision page
-7. Unpate links in /home/arno/www/eeglab/currentversion
+7. Update links in /home/arno/www/eeglab/currentversion
 8. Send email to EEGLABNEWS list
 
 ## Post release
