@@ -11,7 +11,7 @@ To view the plugin source code, please visit the plugin's [GitHub repository](ht
 # IMAT - Independent Modulator Analysis Toolbox
 
 ## What is IMA?
-Independent Modulator Analysis (IMA) is a method for decomposing spectral fluctuations of temporally independent EEG sources into ‘spatio-spectrally’ distinct spectral modulator processes. Such processes might might derive from and isolate coordinated multiplicative scaling effects of functionally near-independent modulatory factors, for example the effects of modulations roduced in cortico-subcortical or sensory-cortical loops, or by signalling from brainstem-centered import recognition systems using dopamine, serotonin, noradrenaline, etc. (see schematic figure below from [Onton & Makeig, 2009](https://www.frontiersin.org/articles/10.3389/neuro.09.061.2009/full)). Rather than attempting to decompose the mean power spectrum for a component process to identify narrow-band processes superimposed on a 1/f baseline spectum, IMAT identifies characteristic frequency bands in which spectral power *varies* across time. This allows IMA to find *both* narrow and wide band modes. Also, the identified modes need not be singular. For example, IMA will separate the joint activity of an alpha or mu rhythm and its harmonics from endogenous beta band fluctuations occupying overlapping frequency ranges. IMA is applied to independent component (IC) source processes in the data which can be localized in the brain or to a specific scalp muscle, etc. IMA thereby identifies IC subsets that are co-modulated in a specified IM frequency band; these might be thought of as co-modulation networks with a common influence and susceptibility.
+Independent Modulator Analysis (IMA) is a method for decomposing spectral fluctuations of temporally independent EEG sources into 'spatio-spectrally' distinct spectral modulator processes. Such processes might might derive from and isolate coordinated multiplicative scaling effects of functionally near-independent modulatory factors, for example the effects of modulations roduced in cortico-subcortical or sensory-cortical loops, or by signalling from brainstem-centered import recognition systems using dopamine, serotonin, noradrenaline, etc. (see schematic figure below from [Onton & Makeig, 2009](https://www.frontiersin.org/articles/10.3389/neuro.09.061.2009/full)). Rather than attempting to decompose the mean power spectrum for a component process to identify narrow-band processes superimposed on a 1/f baseline spectum, IMAT identifies characteristic frequency bands in which spectral power *varies* across time. This allows IMA to find *both* narrow and wide band modes. Also, the identified modes need not be singular. For example, IMA will separate the joint activity of an alpha or mu rhythm and its harmonics from endogenous beta band fluctuations occupying overlapping frequency ranges. IMA is applied to independent component (IC) source processes in the data which can be localized in the brain or to a specific scalp muscle, etc. IMA thereby identifies IC subsets that are co-modulated in a specified IM frequency band; these might be thought of as co-modulation networks with a common influence and susceptibility.
 
 <img src="./Docs/figs/IndependentModulators.png" width="400">  
 
@@ -30,7 +30,7 @@ All plug-ins in EEGLAB, including IMAT, can be installed in two ways. To install
 
 1. **From the EEGLAB Plug-in Manager:** Launch EEGLAB and select menu item **File > Manage EEGLAB Extensions** in the main EEGLAB window. A plug-in manager window will pop up. Look for and select the IMAT plug-in, then press **Install/Update**.
 
-2. **From the web:** Download the IMAT plug-in zip file either from [this](https://github.com/sccn/imat) GitHub page (select ‘Download Zip‘) or from [this EEGLAB wiki plug-ins page](https://sccn.ucsd.edu/wiki/Plugin_list_all) (select **IMAT**). Decompress the zip file in the plug-ins folder in the main EEGLAB folder (*../eeglab/plugins/*).
+2. **From the web:** Download the IMAT plug-in zip file either from [this](https://github.com/sccn/imat) GitHub page (select 'Download Zip') or from [this EEGLAB wiki plug-ins page](https://sccn.ucsd.edu/wiki/Plugin_list_all) (select **IMAT**). Decompress the zip file in the plug-ins folder in the main EEGLAB folder (*../eeglab/plugins/*).
 
 Restart EEGLAB. If the installation is successful, a menu item to call IMAT, **Tools > Decompose IC spectograms by IMAT**, will appear in the EEGLAB menu.
  
@@ -40,7 +40,7 @@ Restart EEGLAB. If the installation is successful, a menu item to call IMAT, **T
 2. For component selection and clustering it is of advantage to also estimate equivalent current dipole models for the brain-based ICs. 
 3. For automatic selection of components you need to install the EEGLAB plug-in [IC Label](https://sccn.ucsd.edu/wiki/ICLabel)  
 4. For plotting dipole density of clusters you need to install the EEGLAB plug-in Fieldtrip lite.   
-5. IMAT can handle either epoched or continuous data. Be aware that for epoched data, the epochs should have length to accomodate at least 3 cycles of the lowest frequency at which IMA is to be computed. 
+5. IMAT can handle either epoched or continuous data. Be aware that for epoched data, the epochs should have length to accommodate at least 3 cycles of the lowest frequency at which IMA is to be computed. 
 
 Please refer to the section above on how to install EEGLAB plug-ins. 
 
@@ -50,7 +50,7 @@ Please refer to the section above on how to install EEGLAB plug-ins.
 ## Running IMAT
 Before running IMAT, start EEGLAB and load an EEG dataset.
 
-To run IMAT on the loaded dataset, launch the Run IMA (*pop\_runIMA*) window, either by typing *pop\_runIMA* on the MATLAB command line or by calling it from the EEGLAB menu by selecting **Tools > Decompose spectograms by IMA > Run IMA**,  as highlighted in the figure below.
+To run IMAT on the loaded dataset, launch the Run IMA (*pop_runIMA*) window, either by typing *pop_runIMA* on the MATLAB command line or by calling it from the EEGLAB menu by selecting **Tools > Decompose spectograms by IMA > Run IMA**,  as highlighted in the figure below.
 
 <img src="./Docs/figs/RunIMA.png" width="1000"> 
 In the resulting window (above right) we can specify:
@@ -59,12 +59,12 @@ In the resulting window (above right) we can specify:
 2. Which frequency range in which to compute IMA  (**Freq. limits (Hz)**) 
 3. The frequency scale (**Freq scale**) linear of log scale 
 4. A factor to regulate dimensionality reduction in the time windows of the spectral data using PCA dimension reduction before ICA decomposition (**pcfac**) - the smaller the *pcfac*, the more dimensions will be retained *ndims = (freqsxICs)/pcfac* where *freqs* is the number of estimated frequencies and *ICs* is the number of ICs (default is 7)
-5. Other IMA options (**pop\_runima options**) – e.g., which ICA algorithm to use   (see *pop_runima* help for more details)
+5. Other IMA options (**pop_runima options**) – e.g., which ICA algorithm to use   (see *pop_runima* help for more details)
 
 
 **Running IMA from the command line**
 
-*[EEG, IMA] = pop\_runIMA(EEG, 'freqscale', 'log', 'frqlim', [6 120], 'pcfac', 7, 'cycles', [6 0.5], 'selectICs', {'brain'}, 'icatype', 'amica');*
+*[EEG, IMA] = pop_runIMA(EEG, 'freqscale', 'log', 'frqlim', [6 120], 'pcfac', 7, 'cycles', [6 0.5], 'selectICs', {'brain'}, 'icatype', 'amica');*
 
 Here we are computing IMA on a single subject's data, selecting ''Brain ICs'' using ICLabel, with parameters for time-frequency decomposition: log frequency scaling, frequency limits: 6 to 120 Hz, wavelet cycles [6 0.5], reducing the dimensions of timewindows
 of the time/frequency decomposition using pfac 7, and using AMICA for ICA decomposition.
@@ -72,7 +72,7 @@ of the time/frequency decomposition using pfac 7, and using AMICA for ICA decomp
 
 ## The IMA structure
   
-*pop\_runIMA* saves the IMA results in an IMA structure, in the same folder as the EEG file it is run on.  
+*pop_runIMA* saves the IMA results in an IMA structure, in the same folder as the EEG file it is run on.  
 
 After running IMA (either from the gui or from the command line) type *IMA* in the Matlab command line to display the IMA structure.  
  
@@ -177,7 +177,7 @@ On the command line enter: *pop_plotspecdecomp(EEG, 'plottype', 'ims', 'comps', 
 <img src="./Docs/figs/SuperimposedIMmodes.png" width="1000"> 
 
 
-**2. Spectral envelope** (*pop\_plotspecenv*)
+**2. Spectral envelope** (*pop_plotspecenv*)
 
 To visualize the contributions of IMs to the mean log spectrum of an IC, launch **Tools > Decompose spectograms by IMA > Plot IMA results > Spectral envelope**
 
@@ -192,7 +192,7 @@ In the resulting window (above right) we can specify:
 3. Indices of the ICs and IMs to plot
 
 On the command line enter:  
-*pop\_plotspecenv(EEG,'comps', [1 2 5], 'factors', [1 2 3 6], 'frqlim', [6 120], 'plotenv', 'full');*
+*pop_plotspecenv(EEG,'comps', [1 2 5], 'factors', [1 2 3 6], 'frqlim', [6 120], 'plotenv', 'full');*
 
 Here is an example of plotting IMs **Full envelope** of inflence on the IC power spectra. The IC mean log power spectrum is shown as a black trace. Outer light grey limits represent the 1st and 99th percentiles of IC spectral variation associated with the IM. Dark grey areas represent the 1st and 99th percentiles of the PCA-reduced spectral data used in the IMA analysis.
 
@@ -250,7 +250,7 @@ Before running IMAT on multiple conditions or for group analysis, you need to bu
 
 Before running IMAT, start EEGLAB and load the STUDY set.
 
-To run IMAT on the loaded STUDY, launch the Run IMA (*pop\_runIMA_study*) window, either by typing *pop\_runIMA_study* on the MATLAB command line or by calling it from the EEGLAB menu by selecting **STUDY > STUDY IMA > Run STUDY IMA**  as highlighted in the figure below. This will run a separate IMA decomposition for each subject in the study. That is, a joint IMA is computed over all the conditions for each single subject in the STUDY.
+To run IMAT on the loaded STUDY, launch the Run IMA (*pop_runIMA_study*) window, either by typing *pop_runIMA_study* on the MATLAB command line or by calling it from the EEGLAB menu by selecting **STUDY > STUDY IMA > Run STUDY IMA**  as highlighted in the figure below. This will run a separate IMA decomposition for each subject in the study. That is, a joint IMA is computed over all the conditions for each single subject in the STUDY.
 
 <img src="./Docs/figs/runSTUDYIMA.png" width="1000"> 
 In the resulting window (above right) we can specify:
@@ -259,12 +259,12 @@ In the resulting window (above right) we can specify:
 2. Which frequency range to compute IMA on (**Freq. limits (Hz)**).
 3. The frequency scaling (**Freq scale**), linear or log. 
 4. A factor to regulate dimensionality reduction on the time windows of the spectral data using PCA before spectrogram ICA decomposition (**pcfac**) - the smaller the pcfac, the more dimensions will be retained *ndims = (freqsxICs)/pcfac* where *freqs* is the number of frequencies estimated and *ICs* is the number of ICs (default is 7)
-5. Other IMA options (**pop\_runima_study options**) – e.g., which ICA algorithm to use (see *pop_runima_study* help for more details)
+5. Other IMA options (**pop_runima_study options**) – e.g., which ICA algorithm to use (see *pop_runima_study* help for more details)
 
 
 **Running IMA from the command line**
 
-*[STUDY] = pop\_runIMA_study(STUDY, ALLEEG, 'freqscale', 'log','frqlim', [6 120],
+*[STUDY] = pop_runIMA_study(STUDY, ALLEEG, 'freqscale', 'log','frqlim', [6 120],
                                           'pcfac', 7,
                                           'cycles', [6 0.5],
                                           'selectICs', {'brain'},
@@ -275,7 +275,7 @@ Here we are computing IMA on the subject data contained in the STUDY set; a sepa
 
 ## The IMA structure in the STUDY environment
   
-*pop\_runIMA_study* saves the IMA results in the IMA structure which is associated with the subject-specific EEG files and saved in the same folder as the EEG files it is run on. 
+*pop_runIMA_study* saves the IMA results in the IMA structure which is associated with the subject-specific EEG files and saved in the same folder as the EEG files it is run on. 
  
 The filenames of the subject-specific IMA files are saved in:
 {% raw %}
@@ -372,7 +372,7 @@ There are three main plotting functions for visualizing IMAT results for single 
 2. Spectral envelope
 3. Time courses
 
-**1. Superimposed Components**  (*pop\_plotspecdecomp_study*)
+**1. Superimposed Components**  (*pop_plotspecdecomp_study*)
 
 To visualize the IM decomposition for single subjects in the study, launch **STUDY > STUDY IMA > Plot IMA results > Superimposed Components**
 
@@ -388,13 +388,13 @@ In the resulting window (above right) we can specify:
 4. Indices of the ICs and IMs to plot
 
 On the command line enter:   
-*pop\_plotspecdecomp_study(STUDY, 'plottype', 'comb', 'subject', '3')*  
-*pop\_plotspecdecomp_study(STUDY, 'plottype', 'ics', 'subject', '3')*  
-*pop\_plotspecdecomp_study(STUDY, 'plottype', 'ims', 'subject', '3')*  
+*pop_plotspecdecomp_study(STUDY, 'plottype', 'comb', 'subject', '3')*  
+*pop_plotspecdecomp_study(STUDY, 'plottype', 'ics', 'subject', '3')*  
+*pop_plotspecdecomp_study(STUDY, 'plottype', 'ims', 'subject', '3')*  
 
 The type of plots are the same as for single subjects visualizations, please refer to the section above for more information. 
 
-**2. Spectral envelope** (*pop\_plotspecenv_study*)
+**2. Spectral envelope** (*pop_plotspecenv_study*)
 
 To visualize the contribution of IMs added to the mean log spectrum of an IC for a single subject launch **STUDY > STUDY IMA > Plot IMA results > Spectral envelope**
 
@@ -412,7 +412,7 @@ In the resulting window (above right) we can specify:
 The function plots separate spectral loadings for each condition. Here is an example plotting the **Full envelope** of IMs for two *Eyes_open* and *Eyes_closed* conditions separately. The IC mean log power spectrum is shown as a black trace. The outer light grey limits represent the 1st and 99th percentiles of variation in the IC log spectrum across time. Dark grey areas represent the 1st and 99th percentiles for the PCA-reduced IC spectral data that has been used in the IMA analysis.
 
 On the command line enter:  
-*pop\_plotspecenv_study(STUDY,'comps', [1 2 5], 'factors', [1 2 3 6], 'frqlim', [6 120],'plotcond', 'on', 'subject', '3');*
+*pop_plotspecenv_study(STUDY,'comps', [1 2 5], 'factors', [1 2 3 6], 'frqlim', [6 120],'plotcond', 'on', 'subject', '3');*
 
 <img src="./Docs/figs/envECSTUDY.png" width="500">
 
@@ -487,7 +487,7 @@ In the resulting window (above right) we can specify:
 3. **Target peak freq** The target peak frequency specifies the target frequency to stretch spectra to when the 'stretch_spectra' flag is 'on', if 'Target peak freq' is empty, uses the center frequency of the 'Freq. range'
 
 On the command line enter: 
-*pop\_collecttemplates(STUDY, 'peakrange', [8 12],
+*pop_collecttemplates(STUDY, 'peakrange', [8 12],
                                     'stretch_spectra', 'on',
                                     'targetpeakfreq', 10,
                                     'plot_templ', 'on');*  

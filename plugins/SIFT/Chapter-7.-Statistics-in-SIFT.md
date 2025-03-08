@@ -43,8 +43,8 @@ suffer from inaccuracies when the number of samples is not very large or
 when assumptions are violated. Nonetheless, these tests can provide a
 useful way to quickly check for statistical significance, possibly
 following up with a more rigorous surrogate statistical test. These
-tests are implemented in SIFT’s **`stat_analyticStats()`** function. To
-our knowledge, SIFT is the only publically available toolbox that
+tests are implemented in SIFT's **`stat_analyticStats()`** function. To
+our knowledge, SIFT is the only publicly available toolbox that
 implements these analytic tests.
 
 ## 7.2. Nonparametric surrogate statistics
@@ -60,7 +60,7 @@ corresponding to the expected distribution of the estimator when a
 particular null hypothesis has been enforced. Two popular surrogate
 methods are **bootstrap resampling and phase
 randomization.** These
-tests are implemented in SIFT’s **`stat_surrogateStats()`** function.
+tests are implemented in SIFT's **`stat_surrogateStats()`** function.
 
 ### 7.2.1. Bootstrap resampling
 
@@ -112,7 +112,7 @@ collection of values (for example, obtaining p-values for a complete
 time-frequency image), we should expect some number of non-significant
 values to exceed the significance threshold. As such, it is important to
 correct for multiple comparisons using tests such as False Discovery
-Rate (FDR) (Benjamini and Hochberg, 1995) using EEGLAB’s **`fdr()`** function. 
+Rate (FDR) (Benjamini and Hochberg, 1995) using EEGLAB's **`fdr()`** function. 
 
 ## 7.3. Practical statistics in SIFT
 
@@ -304,8 +304,8 @@ As mentioned above, users need to export connectivity matrices stored in the **E
 
 This approach adopts a 3-stage process:
 
-**1. Identify K ROI’s (clusters).** You may use affinity clustering of sources
-across subject populations using EEGLAB’s Measure-Product clustering.
+**1. Identify K ROI's (clusters).** You may use affinity clustering of sources
+across subject populations using EEGLAB's Measure-Product clustering.
 
 **2. Compute all incoming and outgoing individually statistically
 significant connections between each pair of ROIs.** To do so, for each connection between 2 clusters, assess if it is significant across subjects, then create a \[ K X K
@@ -320,7 +320,7 @@ high agreement in terms of source locations (missing variable problem).
 A more robust approach (in development with Wes Thompson) uses smoothing splines and Monte-Carlo methods
 for joint estimation of posterior probability (with confidence
 intervals) of cluster centroid location and between-cluster
-connectivity. This method takes into account the “missing variable”
+connectivity. This method takes into account the "missing variable"
 problem inherent to the disjoint clustering approach and provides robust
 group connectivity statistics. A poster was [published](https://sccn.ucsd.edu/~scott/pdf/Thompson_and_Mullen_Poster_ICONXI.pdf) on this topic, but the code is not yet available.
 
