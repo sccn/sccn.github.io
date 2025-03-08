@@ -67,7 +67,7 @@ line output:
                group: ''
            condition: ''
              session: []
-            comments: [9x769 charater]
+            comments: [9x769 character]
               nbchan: 32
               trials: 80
                 pnts: 384
@@ -1116,9 +1116,9 @@ For example:
 ```
 
 The data measures used in the clustering were the component spectra in a
-given frequency range ('' ‘freqrange' \[3 25\]*), the spectra were
-reduced to 10 principal dimensions (* 'npca' \[10\]*), normalized (*
-'norm' \[1\]*), and each given a weight of 1 (* 'weight' \[1\]'). When
+given frequency range ('' 'freqrange' [3 25]*), the spectra were
+reduced to 10 principal dimensions (* 'npca' [10]*), normalized (*
+'norm' [1]*), and each given a weight of 1 (* 'weight' [1]'). When
 more than one method is used for clustering, then *preclustparams* will
 contain several cell arrays.
 The *preclust.preclustdata* field contains the data given to the

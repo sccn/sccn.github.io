@@ -115,17 +115,17 @@ Recording EEG data in a Faraday cage will lead to better signal quality and no l
 
 * The subject and the experimenter should be isolated in a separate room. If they communicate with an intercom, make sure the intercom is far away from the subject. Do not use an intercom that relies on the electrical circuit to transmit the signal.
 
-* Remove metal objects touching the subject (or very close). For example, the subject should not be sitting on a metal chair. If the subject needs to respond to stimuli, make sure the button press or mouse pap is nonmetallic.
+* Remove metal objects touching the subject (or very close). For example, the subject should not be sitting on a metal chair. If the subject needs to respond to stimuli, make sure the button press or mouse pad is nonmetallic.
 
 * Remove any non-shielded battery or backup power. Non-shielded batteries can create very large noise artifacts, especially when plugged into the wall. Laptops, if held far away from the subject, are probably OK. Laptops should not be plugged into the wall and run on battery if present with the subject in the recording room.
 
 * It is probably a good idea for the subject to remove anything that could be used as an antenna on his body (e.g., a metal watch). 
 
-* Compute screens and light are the major sources of 50 Hz noise in the EEG. These should be placed as far as possible from the subject. Reduction of the 50 Hz noise is very important, as in practice, the lower the 50 noise is, the lower the noise is at other frequencies. One technique we have used is to have one electrode on a pole and go around the room to try to detect the source of noise (outlet, screen, etc.). EMF detectors can probably also be used. 
+* Computer screens and light are the major sources of 50 Hz noise in the EEG. These should be placed as far as possible from the subject. Reduction of the 50 Hz noise is very important, as in practice, the lower the 50 Hz noise is, the lower the noise is at other frequencies. One technique we have used is to have one electrode on a pole and go around the room to try to detect the source of noise (outlet, screen, etc.). EMF detectors can probably also be used. 
 
 ## Applying gel
 
-Using the syringe filled with gel, push down on the electrode well (so the gel doesn’t spread to other parts of the cap), and part the participant’s hair with the needle until you reach the skin. Then squeeze a small amount of gel into each well. Press firmly but not so firmly that the subject experiences pain. DO NOT PUT TOO MUCH GEL IN, otherwise, the gel will spread between electrode wells across the scalp, merging multiple distinct EEG signals into one.
+Using the syringe filled with gel, push down on the electrode well (so the gel doesn't spread to other parts of the cap), and part the participant's hair with the needle until you reach the skin. Then squeeze a small amount of gel into each well. Press firmly but not so firmly that the subject experiences pain. DO NOT PUT TOO MUCH GEL IN, otherwise, the gel will spread between electrode wells across the scalp, merging multiple distinct EEG signals into one.
 
 Slightly irritating the scalp of the subject by asking them to brush their hair for 5 minutes may decrease electrode impedance and increase signal quality. 
 
@@ -137,7 +137,7 @@ Decreasing electrode impedance and maximizing data quality (even for high-impeda
 
 Scanning electrode position is easy (a smartphone and an app can construct detailed 3-D models) and can improve source location (even in the absence of the subject MRI). It should be done systematically even if you are not sure you are going to use that information (see this [page](https://github.com/sccn/get_chanlocs/wiki) for more information). 
 
-## EEG synchronisation
+## EEG synchronization
 
 Synchronizing EEG with experimental events is critical and needs to be performed with millisecond precision (in psychophysics, a 10-millisecond difference in reaction time is considered large). Here are a few tips.
 

@@ -163,9 +163,9 @@ The connectivity matrix in the **dDTF08** substructure, for example, is of size 
 
 ### 7.3.2.1. Comparing post-stimulus connectivity to baseline
 
-Bootstraping to compute confidence intervals remains relatively simple. You may randomly select data epochs and rerun the connectivity analysis multiple times.
+Bootstrapping to compute confidence intervals remains relatively simple. You may randomly select data epochs and rerun the connectivity analysis multiple times.
 
-**Important note:** You can look for effect using the simple thresholding method presented in the visualization section. However, computing significance of connectivity measures can take hours. This is also why it is only presented as a script. Be patient.
+**Important note:** You can look for effects using the simple thresholding method presented in the visualization section. However, computing significance of connectivity measures can take hours. This is also why it is only presented as a script. Be patient.
 
 If you have followed the tutorial, you need not prepare the data, but if you have not, the following script will apply the analyses performed in the previous sections of the tutorial (you still need to import the data with EEGLAB and perform EEGLAB-based preprocessing presented in section 5.2).
 
