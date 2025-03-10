@@ -84,7 +84,7 @@ laptop with MATLAB installed.
 
 11:00 -- Adrien Marque and Nathalie Vaysierre -- An example fMRI pipeline in the SIESTA framework
 
-11:40 -- Arnaud Delorme -- The NSG and BrainLife cloud platforms and why homomorphic encryption computing is the future
+11:40 -- Arnaud Delorme -- The NSG and BrainLife cloud computing platforms and why homomorphic encryption is the future
 
 12:20 -- Lunch (included for participants)
 
