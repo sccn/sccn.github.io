@@ -8,7 +8,7 @@ grand_parent: Workshops
 
 ![Screen Shot 2023-03-06 at 7 40 14 AM](https://user-images.githubusercontent.com/1872705/223188423-e296a3e6-dd99-488b-b86d-1a6f8a8520e0.png)
 
-Thirty-third EEGLAB Workshop
+EEGLAB Workshop
 ============================
 
 <span style="color: blue">Aspet France - June 30-July 4th, 2025
@@ -38,7 +38,7 @@ When registering, participants are also expected to pay for accommodation and al
 [REGISTER HERE](https://www.azur-colloque.fr/DR14/inscription/inscription/201)
 
 <b>Warning: </b> This workshop is <em>not</em> aimed for real beginners
-in EEG and MATLAB - such persons would be wasting much of their time.
+in EEG - such persons would be wasting much of their time.
 Some parts of the workshop are fairly technical. The main topics will be
 advanced methods for analyzing EEG and allied behavioral data, methods
 including spectral decomposition, independent component analysis,
@@ -60,15 +60,6 @@ If you are new to MATLAB or need a refresher, please consult the material on the
 
 If you do not have MATLAB, you can obtain a 30-day trial license for free on the [mathworks website](https://www.mathworks.com/campaigns/products/trials.html).
 
-MATLAB support
---------------
-
-MathWorks is pleased to provide a special MATLAB license to workshop
-participants for use during the workshop. The EEGLAB team thanks Vijay Iyer, 
-Neuroscience Community Liaison at MathWorks for arranging this support to the workshop from MathWorks
-.
- <span style="color: red">License information coming soon.</span>
-
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
@@ -80,7 +71,7 @@ laptop with MATLAB installed.
 <span style="color: purple">Purple lettering = lecture</span>
 <span style="color: orange">Orange lettering = tutorial</span>
 
-<u><span style="color: blue">Monday, July 3rd</span></u>
+<u><span style="color: blue">Monday, June 30th</span></u>
 
 16:30 --  Shuttle bus pick up at Toulouse train station
 
@@ -92,7 +83,7 @@ laptop with MATLAB installed.
 
 20:45 – 21:30 -- Optional MATLAB fundamentals session by Ramon Martinez
 
-<u><span style="color: blue">Tuesday, July 4th</span></u>
+<u><span style="color: blue">Tuesday, July 1st</span></u>
 
 <span style="color: green">7:00 - 8:30 Breakfast</span>
 
@@ -135,7 +126,7 @@ laptop with MATLAB installed.
 
 
 
-<u><span style="color: blue">Wednesday, July 5th</span></u>
+<u><span style="color: blue">Wednesday, July 2nd</span></u>
 
 **Group analysis and ICA clustering in EEGLAB**
 
@@ -177,7 +168,7 @@ laptop with MATLAB installed.
 
 
 
- <u><span style="color: blue">Thursday, July 6th</span></u>
+ <u><span style="color: blue">Thursday, July 3rd</span></u>
  
 <span style="color: green">7:30 - 8:30 Breakfast</span>
 
@@ -213,7 +204,7 @@ laptop with MATLAB installed.
 
 <span style="color: green">19:45 -- Dinner </span>
  
-<u><span style="color: blue">Friday, July 7th</span></u>
+<u><span style="color: blue">Friday, July 4th</span></u>
 
 <span style="color: green">7:30-8:30 -- Breakfast</span>
 
