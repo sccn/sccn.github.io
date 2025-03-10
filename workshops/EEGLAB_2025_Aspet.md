@@ -87,9 +87,9 @@ laptop with MATLAB installed.
 
 12:20 -- Lunch (included for participants)
 
-1:20 -- Camille Maumet -- Robust science and tracking methods (to be confirmed)
+1:20 -- Camille Maumet (remotely) -- Robust science and tracking methods (to be confirmed)
 
-1:50 -- Jan-Mathijs Schoffelen and Marcel Zwiers -- SIESTA advanced methods
+1:50 -- Jan-Mathijs Schoffelen and Marcel Zwiers (remotely) -- SIESTA advanced methods
 
 2:20 -- Round table and general discussion led by Robert Oostenveld
 
