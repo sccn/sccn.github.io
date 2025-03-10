@@ -71,7 +71,7 @@ laptop with MATLAB installed.
 <span style="color: purple">Purple lettering = lecture</span>
 <span style="color: orange">Orange lettering = tutorial</span>
 
-<u><span style="color: blue">Monday, June 30th</span></u>
+### Monday, June 30th<
 
 16:30 --  Shuttle bus pick up at Toulouse train station
 
@@ -83,7 +83,7 @@ laptop with MATLAB installed.
 
 20:45 – 21:30 -- Optional MATLAB fundamentals session by Ramon Martinez
 
-<u><span style="color: blue">Tuesday, July 1st</span></u>
+### Tuesday, July 1st
 
 <span style="color: green">7:00 - 8:30 Breakfast</span>
 
@@ -99,7 +99,7 @@ laptop with MATLAB installed.
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span>
-[PDF](https://github.com/sccn/sccn.github.io/files/11948490/Makeig_ICA_Aspet23._pdf.pdf)-->
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11948490/Makeig_ICA_Aspet23._pdf.pdf)-->
 
 <span style="color: orange">11:30 – 13:00 -- Data import, Artifact rejection (Ramon Martinez) <!--[PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)-->
 </span>
@@ -126,7 +126,7 @@ laptop with MATLAB installed.
 
 
 
-<u><span style="color: blue">Wednesday, July 2nd</span></u>
+### Wednesday, July 2nd
 
 **Group analysis and ICA clustering in EEGLAB**
 
@@ -168,7 +168,7 @@ laptop with MATLAB installed.
 
 
 
- <u><span style="color: blue">Thursday, July 3rd</span></u>
+### Thursday, July 3rd
  
 <span style="color: green">7:30 - 8:30 Breakfast</span>
 
@@ -204,7 +204,7 @@ laptop with MATLAB installed.
 
 <span style="color: green">19:45 -- Dinner </span>
  
-<u><span style="color: blue">Friday, July 4th</span></u>
+### Friday, July 4th
 
 <span style="color: green">7:30-8:30 -- Breakfast</span>
 
