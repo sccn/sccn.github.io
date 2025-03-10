@@ -71,7 +71,31 @@ laptop with MATLAB installed.
 <span style="color: purple">Purple lettering = lecture</span>
 <span style="color: orange">Orange lettering = tutorial</span>
 
-### Monday, June 30th<
+### Monday, June 30th
+
+**Cloud EEG/MRI/fMRI automated processing pipelines, the SIESTA project**
+
+10:00 -- Isabelle Berry -- Opening statements
+
+10:05 -- Robert Oostenveld -- Introduction to the SIESTA project
+
+10:20 -- Cyril Pernet -- An example EEG pipeline in the SIESTA framework
+
+11:00 -- Adrien Marque and Nathalie Vaysierre -- An example fMRI pipeline in the SIESTA framework
+
+11:40 -- Arnaud Delorme -- The NSG and BrainLife cloud platforms and why holomorphic computing is the future?
+
+12:20 -- Lunch (included for participants)
+
+1:20 -- Camille Maumet -- Robust science and tracking methods (to be confirmed)
+
+1:50 -- Jan-Mathijs Schoffelen and Marcel Zwiers -- SIESTA advanced methods
+
+2:20 -- Round table and general discussion led by Robert Oostenveld
+
+3:00 -- Close
+
+**Aspet workshop departure**
 
 16:30 --  Shuttle bus pick up at Toulouse train station
 
