@@ -91,33 +91,33 @@ laptop with MATLAB installed.
 **Overview and ICA Theory/Practice**
 
 <span style="color:purple"> 8:30 – 9:45 -- Mining event-related brain dynamics I (Scott Makeig)</span>
-[PDF](https://github.com/sccn/sccn.github.io/files/11948460/Makeig_Aspet23_Mining_I.pdf)
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11948460/Makeig_Aspet23_Mining_I.pdf)-->
 
 <span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span>
- [PDF](https://github.com/sccn/sccn.github.io/files/11945743/EEGLAB_overview2023.pdf)
+ <!--[PDF](https://github.com/sccn/sccn.github.io/files/11945743/EEGLAB_overview2023.pdf)-->
 
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span>
-[PDF](https://github.com/sccn/sccn.github.io/files/11948490/Makeig_ICA_Aspet23._pdf.pdf)
+[PDF](https://github.com/sccn/sccn.github.io/files/11948490/Makeig_ICA_Aspet23._pdf.pdf)-->
 
-<span style="color: orange">11:30 – 13:00 -- Data import, Artifact rejection (Ramon Martinez) [PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)
+<span style="color: orange">11:30 – 13:00 -- Data import, Artifact rejection (Ramon Martinez) <!--[PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)-->
 </span>
 
 <span style="color: green">13:00-14:00 Lunch --</span>
 
 **ICA and source analysis**
 
-<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf) (same PDF as previous session)
+<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Ramon Martinez)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf) (same PDF as previous session)-->
 
 
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">16:15 – 17:15 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> 
-[PDF](https://github.com/sccn/sccn.github.io/files/11945798/forward.and.inverse.models.pdf)
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11945798/forward.and.inverse.models.pdf)-->
 
 <span style="color: purple">17:15 – 17:45 -- Using the EEGLAB Dipfit plug-in (Arnaud Delorme)</span> 
-[PDF](https://github.com/sccn/sccn.github.io/files/11950613/dipfit.pdf)
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11950613/dipfit.pdf)-->
 
 <!-- -->
 
@@ -134,17 +134,17 @@ laptop with MATLAB installed.
 <span style="color: purple">8:30 - 9:15 -- Why cluster ICA components? (Scott Makeig)</span>
 
 <span style="color: purple">9:15 - 10:00 -- Cluster permutation testing (Robert Oostenveld)</span> 
-[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
 
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">10:15 - 10:45 -- Making data <i>FAIR</i> with BIDS (Robert Oostenveld)</span> 
-[PDF](https://github.com/sccn/sccn.github.io/files/11954944/fair.and.bids.pdf)
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11954944/fair.and.bids.pdf)-->
 
-<span style="color: purple">10:45 - 11:45 -- Continued processing of HW dataset (ICA) (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11980297/EEGLAB_WS_ASPET_2023_preprocessing_Session1_cont.pdf)
+<span style="color: purple">10:45 - 11:45 -- Continued processing of HW dataset (ICA) (Ramon Martinez)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11980297/EEGLAB_WS_ASPET_2023_preprocessing_Session1_cont.pdf)-->
 
 
-<span style="color: purple">11:45 - 12:45 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf)
+<span style="color: purple">11:45 - 12:45 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf)-->
 
 <!-- -->
 
@@ -177,7 +177,7 @@ laptop with MATLAB installed.
 
 <span style="color: purple">8:30 – 9:30 -- Time-frequency decompositions: Theory and practice (Scott Makeig)</span> 
 
-<span style="color: purple">9:30 – 10:00 -- Phase-Amplitude Coupling (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11965384/RMC_PACTools_EEGLAB_WS_Aspet_2023_PDF.pdf)
+<span style="color: purple">9:30 – 10:00 -- Phase-Amplitude Coupling (Ramon Martinez)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965384/RMC_PACTools_EEGLAB_WS_Aspet_2023_PDF.pdf)-->
 
 
 <span style="color: green">-- Break--</span>
@@ -186,10 +186,10 @@ laptop with MATLAB installed.
 **General Linear Modeling**
 
 
-<span style="color: orange">10:15 - 11:30 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span> [PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf) (same PDF as previous day)
+<span style="color: orange">10:15 - 11:30 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf) (same PDF as previous day)-->
 
 <span style="color: orange">11:30 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span>
-[PDF](https://github.com/sccn/sccn.github.io/files/11965482/EEGLAB_statistics2022.pdf)
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11965482/EEGLAB_statistics2022.pdf)-->
 
 <span style="color: green">12:30-13:45 Lunch --</span>
 
@@ -200,7 +200,7 @@ laptop with MATLAB installed.
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">15:00 – 17:00 -- Source information flow and Granger-Causal modeling tools, SIFT and ROIconnect toolbox (Arnaud Delorme)</span>
-[PDF](https://github.com/sccn/sccn.github.io/files/11965451/Connectivity_lecture2023.pdf)
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11965451/Connectivity_lecture2023.pdf)-->
 
 <span style="color: green">19:45 -- Dinner </span>
  
@@ -209,7 +209,7 @@ laptop with MATLAB installed.
 <span style="color: green">7:30-8:30 -- Breakfast</span>
 
 <span style="color: purple">8:30 – 9:30 -- Deep learning and EEG (Arnaud Delorme, Dung Truong)</span> 
-[PDF](https://github.com/sccn/sccn.github.io/files/11975145/ucsd22workshop_DL-EEG.pdf)
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11975145/ucsd22workshop_DL-EEG.pdf)-->
 
 <span style="color: purple">9:30 – 10:15 -- Mining event-related brain dynamics II (Scott Makeig)</span> 
 
