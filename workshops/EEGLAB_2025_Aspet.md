@@ -11,22 +11,21 @@ grand_parent: Workshops
 Thirty-third EEGLAB Workshop
 ============================
 
-<span style="color: blue">Aspet France - 3-7 of July 2023
+<span style="color: blue">Aspet France - June 30-July 4th, 2025
 </span>
-The 33rd EEGLAB Workshop will take place the Bois Perche about 2 hours by
+The 34th EEGLAB Workshop will take place at the Bois Perche, about two hours by
 chartered bus from Toulouse. Participants will be expected to bring laptops with
 MATLAB installed so as to be able to participate in the practical
 sessions. The tutorial workshop will introduce and demonstrate the use
 of the EEGLAB software environment and EEGLAB-linked tools for
 performing advanced analysis of EEG and related data, with detailed
-method expositions and practical exercises. There will be a poster
-session for participants and an excursion.
+method expositions and practical exercises. There will be an excursion.
+
+A Free symposium on Cloud EEG data processing will precede the workshop in Toulouse.
 
 Registration and cost
 ---------------------
-Space at the workshop is limited to about 40 to 50 participants. Participants
-will be accepted based on their academic background, motivation and
-submission for the poster session. Recent posters prepared for other conferences are welcome.
+Space at the workshop is limited to about 40 participants.
 
 To reimburse travel expenses of Workshop faculty and facilities rental,
 costs for the workshop will be as follows:
@@ -58,6 +57,8 @@ to understand MATLAB syntax will mean you will miss out on a large
 portion of the workshop.
 
 If you are new to MATLAB or need a refresher, please consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html)
+
+If you do not have MATLAB, you can obtain a 30-day trial license for free on the [mathworks website](https://www.mathworks.com/campaigns/products/trials.html).
 
 MATLAB support
 --------------
