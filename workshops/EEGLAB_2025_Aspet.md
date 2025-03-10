@@ -74,6 +74,7 @@ laptop with MATLAB installed.
 ### Monday, June 30th
 
 **Cloud EEG/MRI/fMRI automated processing pipelines, the SIESTA project**
+(Toulouse CerCo laboratory, [Baudot building, first floor conference room (not ground floor)](https://cerco.cnrs.fr/en/visit-us/))
 
 10:00 -- Isabelle Berry -- Opening statements
 
