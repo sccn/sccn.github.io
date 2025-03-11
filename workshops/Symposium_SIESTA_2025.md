@@ -13,7 +13,7 @@ Join us on June 30th in Toulouse to see how cutting-edge computing can power you
 
 Registration
 ---------------------
-There is no cost. However, if you want to be covered for lunch, please send an email to [Adrien](mailto:adrien.romain.marque@gmail.com). 
+There is no cost. However, if you want lunch, please email [Adrien](mailto:adrien.romain.marque@gmail.com). 
 
 Location
 -------
@@ -31,7 +31,7 @@ Program
 
 11:40 -- Arnaud Delorme -- The NSG and BrainLife cloud computing platforms and why homomorphic encryption is the future
 
-12:20 -- Lunch (included for participants)
+12:20 -- Lunch (included for participants but email [Adrien](mailto:adrien.romain.marque@gmail.com))
 
 1:20 -- Camille Maumet (remotely) -- Robust science and tracking methods (to be confirmed)
 
