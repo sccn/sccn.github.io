@@ -15,9 +15,9 @@ Registration
 ---------------------
 There is no cost. However, if you want lunch, please email [Adrien](mailto:adrien.romain.marque@gmail.com). 
 
-Location
+Location and date
 -------
-Toulouse CerCo laboratory, [Baudot building, first floor conference room (not ground floor)](https://cerco.cnrs.fr/en/visit-us/)
+June 30th, 2025, Toulouse CerCo laboratory, [Baudot building, first floor conference room (not ground floor)](https://cerco.cnrs.fr/en/visit-us/)
 
 Program
 --------
