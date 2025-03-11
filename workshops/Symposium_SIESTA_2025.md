@@ -21,22 +21,22 @@ June 30th, 2025, Toulouse CerCo laboratory, [Baudot building, first floor confer
 
 Program
 --------
-10:00 -- Isabelle Berry -- Opening statements
+10:00 -- **Isabelle Berry** -- Opening statements
 
-10:05 -- Robert Oostenveld -- Introduction to the SIESTA project
+10:05 -- **Robert Oostenveld** -- Introduction to the SIESTA project
 
-10:20 -- Cyril Pernet -- An example EEG pipeline in the SIESTA framework
+10:20 -- **Cyril Pernet** -- An example EEG pipeline in the SIESTA framework
 
-11:00 -- Adrien Marque and Nathalie Vaysierre -- An example fMRI pipeline in the SIESTA framework
+11:00 -- **Adrien Marque** and **Nathalie Vaysierre** -- An example fMRI pipeline in the SIESTA framework
 
-11:40 -- Arnaud Delorme -- The NSG and BrainLife cloud computing platforms and why homomorphic encryption is the future
+11:40 -- **Arnaud Delorme** -- The NSG and BrainLife cloud computing platforms and why homomorphic encryption is the future
 
 12:20 -- Lunch (included for participants but email [Adrien](mailto:adrien.romain.marque@gmail.com))
 
-1:20 -- Camille Maumet (remotely) -- Robust science and tracking methods (to be confirmed)
+1:20 -- **Camille Maumet** (remotely) -- Robust science and tracking methods (to be confirmed)
 
-1:50 -- Jan-Mathijs Schoffelen and Marcel Zwiers (remotely) -- SIESTA advanced methods
+1:50 -- **Jan-Mathijs Schoffelen** and **Marcel Zwiers** (remotely) -- SIESTA advanced methods
 
-2:20 -- Round table and general discussion led by Robert Oostenveld
+2:20 -- Round table and general discussion led by **Robert Oostenveld**
 
 3:00 -- Close
