@@ -75,28 +75,7 @@ laptop with MATLAB installed.
 
 **Free symposium: Cloud EEG/MRI/fMRI automated processing pipelines, the SIESTA project**<br>
 (Toulouse CerCo laboratory, [Baudot building, first floor conference room (not ground floor)](https://cerco.cnrs.fr/en/visit-us/))
-
-10:00 -- Isabelle Berry -- Opening statements
-
-10:05 -- Robert Oostenveld -- Introduction to the SIESTA project
-
-10:20 -- Cyril Pernet -- An example EEG pipeline in the SIESTA framework
-
-11:00 -- Adrien Marque and Nathalie Vaysierre -- An example fMRI pipeline in the SIESTA framework
-
-11:40 -- Arnaud Delorme -- The NSG and BrainLife cloud computing platforms and why homomorphic encryption is the future
-
-12:20 -- Lunch (included for participants)
-
-1:20 -- Camille Maumet (remotely) -- Robust science and tracking methods (to be confirmed)
-
-1:50 -- Jan-Mathijs Schoffelen and Marcel Zwiers (remotely) -- SIESTA advanced methods
-
-2:20 -- Round table and general discussion led by Robert Oostenveld
-
-3:00 -- Close
-
-**Aspet workshop departure**
+See the program [here](Symposium_SIESTA_2025.md).
 
 16:30 --  Shuttle bus pick up at Toulouse train station
 
