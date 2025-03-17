@@ -30,10 +30,10 @@ Space at the workshop is limited to about 40 participants.
 To reimburse travel expenses of Workshop faculty and facilities rental,
 costs for the workshop will be as follows:
 
-Registration cost is 300 Euros for students and post-docs, 500 Euros for
-faculty and other professionals. These registration costs include
+Registration cost is 280 Euros for students (plus 490 euros for accommodation) and post-docs, 380 Euros (plus 490 euros for accommodation) for
+faculty and other professionals. Professionals are 580 Euros (plus 490 euros for accommodation). These registration costs include
 conference space rental, all coffee breaks, and a short excursion. 
-When registering, participants are also expected to pay for accommodation and all meals at the Bois Perche retreat center (a total of 470 euros). Because of a grant from the CNRS, registration (although not accommodation) is free for participants from French laboratories, while through a CRNS grant, accommodations are also free for CNRS employees.
+When registering, participants are also expected to pay for accommodation and all meals at the Bois Perche retreat center (a total of 490 euros). Included accommodation is in a private room at the Bois Perche resort for 4 days. Because of a grant from the CNRS, registration (and accommodation) is free for participants for the first three CNRS employees (including PhD students and post-docs) -- first come, first served.
 
 [REGISTER HERE](https://dr14.azur-colloque.fr/inscription/fr/239/inscription)
 
