@@ -33,9 +33,9 @@ costs for the workshop will be as follows:
 Registration cost is 300 Euros for students and post-docs, 500 Euros for
 faculty and other professionals. These registration costs include
 conference space rental, all coffee breaks, and a short excursion. 
-When registering, participants are also expected to pay for accommodation and all meals to the Bois Perche retreat center (a total of 470 euros). Because of a grant from the CNRS, registration (although not accommodation) is free for participants from French laboratories, while through a CRNS grant accommodations are also free for CNRS employees.
+When registering, participants are also expected to pay for accommodation and all meals at the Bois Perche retreat center (a total of 470 euros). Because of a grant from the CNRS, registration (although not accommodation) is free for participants from French laboratories, while through a CRNS grant, accommodations are also free for CNRS employees.
 
-[REGISTER HERE](https://www.azur-colloque.fr/DR14/inscription/inscription/201)
+[REGISTER HERE](https://dr14.azur-colloque.fr/inscription/fr/239/inscription)
 
 <b>Warning: </b> This workshop is <em>not</em> aimed for real beginners
 in EEG - such persons would be wasting much of their time.
