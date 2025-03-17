@@ -13,7 +13,7 @@ Join us on June 30th in Toulouse to see how cutting-edge computing can power you
 
 Registration
 ---------------------
-There is no cost. However, if you want lunch, please email [Adrien](mailto:adrien.romain.marque@gmail.com). 
+There’s no fee, but if you would like to get a (free) lunch, please email [Adrien](mailto:adrien.romain.marque@gmail.com). 
 
 Location and date
 -------
