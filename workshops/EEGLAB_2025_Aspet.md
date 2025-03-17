@@ -73,7 +73,7 @@ laptop with MATLAB installed.
 
 ### Monday, June 30th
 
-[**Free symposium: Cloud EEG/MRI/fMRI automated processing pipelines, the SIESTA project**](Symposium_SIESTA_2025.md)<br>
+[**Free symposium: Cloud EEG/MRI/fMRI automated processing pipelines, the SIESTA project**](Symposium_SIESTA_2025.html)<br>
 (Toulouse CerCo laboratory)
 
 16:30 --  Shuttle bus pick up at Toulouse train station
