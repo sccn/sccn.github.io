@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2025 Aspet
 long_title: EEGLAB 2025 Aspet workshop
-parent: Past workshops
+parent: Workshops
 grand_parent: Workshops
 ---
 
