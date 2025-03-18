@@ -103,14 +103,14 @@ laptop with MATLAB installed.
 <span style="color: purple">10:30 – 11:30 -- ICA theory (Scott Makeig)</span>
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11948490/Makeig_ICA_Aspet23._pdf.pdf)-->
 
-<span style="color: orange">11:30 – 13:00 -- Data import, Artifact rejection (Ramon Martinez) <!--[PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)-->
+<span style="color: orange">11:30 – 13:00 -- Data import, Artifact rejection (Johanna Wagner) <!--[PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)-->
 </span>
 
 <span style="color: green">13:00-14:00 Lunch --</span>
 
 **ICA and source analysis**
 
-<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Ramon Martinez)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf) (same PDF as previous session)-->
+<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Johanna Wagner)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf) (same PDF as previous session)-->
 
 
 <span style="color: green">-- Break--</span>
@@ -143,7 +143,7 @@ laptop with MATLAB installed.
 <span style="color: purple">10:15 - 10:45 -- Making data <i>FAIR</i> with BIDS (Robert Oostenveld)</span> 
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11954944/fair.and.bids.pdf)-->
 
-<span style="color: purple">10:45 - 11:45 -- Continued processing of HW dataset (ICA) (Ramon Martinez)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11980297/EEGLAB_WS_ASPET_2023_preprocessing_Session1_cont.pdf)-->
+<span style="color: purple">10:45 - 11:45 -- Continued processing of HW dataset (ICA) (Johanna Wagner)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11980297/EEGLAB_WS_ASPET_2023_preprocessing_Session1_cont.pdf)-->
 
 
 <span style="color: purple">11:45 - 12:45 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf)-->
@@ -164,11 +164,6 @@ laptop with MATLAB installed.
 
 
 <span style="color: green">19:45 -- Dinner</span>
-
-
-
-
-
 
 ### Thursday, July 3rd
  
@@ -210,7 +205,7 @@ laptop with MATLAB installed.
 
 <span style="color: green">7:30-8:30 -- Breakfast</span>
 
-<span style="color: purple">8:30 – 9:30 -- Deep learning and EEG (Arnaud Delorme, Dung Truong)</span> 
+<span style="color: purple">8:30 – 9:30 -- Deep learning and EEG (Arnaud Delorme)</span> 
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11975145/ucsd22workshop_DL-EEG.pdf)-->
 
 <span style="color: purple">9:30 – 10:15 -- Mining event-related brain dynamics II (Scott Makeig)</span> 
