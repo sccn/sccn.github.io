@@ -54,7 +54,7 @@ pop_editoptions( 'option_storedisk', 1); % only one dataset in memory at a time
 ALLEEG = pop_select( ALLEEG,'rmchannel',{'EXG1','EXG2','EXG3','EXG4','EXG5','EXG6','EXG7','EXG8', 'GSR1', 'GSR2', 'Erg1', 'Erg2', 'Resp', 'Plet', 'Temp'});
 
 % compute average reference
-ALLEEG = pop_reref( ALLEEG,[]);
+ALLEEG = pop_reref( ALLEEG, []);
 
 % clean data using the clean_rawdata plugin
 ALLEEG = pop_clean_rawdata( ALLEEG,'FlatlineCriterion',5,'ChannelCriterion',0.87, ...
@@ -62,9 +62,8 @@ ALLEEG = pop_clean_rawdata( ALLEEG,'FlatlineCriterion',5,'ChannelCriterion',0.87
     'WindowCriterion',0.25,'BurstRejection','on','Distance','Euclidian', ...
     'WindowCriterionTolerances',[-Inf 7] ,'fusechanrej',1);
 
-% recompute average reference interpolating missing channels (and removing
-% them again after average reference - STUDY functions handle them automatically)
-ALLEEG = pop_reref( ALLEEG,[],'interpchan',[]);
+% recompute average reference
+ALLEEG = pop_reref( ALLEEG,[]);
 
 % run ICA reducing the dimension by 1 to account for average reference 
 plugin_askinstall('picard', 'picard', 1); % install Picard plugin
@@ -73,6 +72,14 @@ ALLEEG = pop_runica(ALLEEG, 'icatype','picard','concatcond','on','options',{'pca
 % run ICLabel and flag artifactual components
 ALLEEG = pop_iclabel(ALLEEG, 'default');
 ALLEEG = pop_icflag( ALLEEG,[NaN NaN;0.9 1;0.9 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN]);
+
+% Optional: remove flagged ICA components (otherwise done at the STUDY level), then recompute the  
+% average reference using the Huber method interpolating missing channels (and removing them again 
+% after average reference). See tutorial section 5.b.
+if 0
+    ALLEEG = pop_subcomp(ALLEEG, []);
+    ALLEEG = pop_reref( ALLEEG,[],'huber', 25, 'interpchan',[]);
+end
 
 % extract data epochs
 ALLEEG = pop_epoch( ALLEEG,{'oddball_with_reponse','standard'},[-1 2] ,'epochinfo','yes');
@@ -123,7 +130,7 @@ pop_editoptions( 'option_storedisk', 1); % only one dataset in memory at a time
 ALLEEG = pop_select( ALLEEG,'rmchannel',{'EXG1','EXG2','EXG3','EXG4','EXG5','EXG6','EXG7','EXG8', 'GSR1', 'GSR2', 'Erg1', 'Erg2', 'Resp', 'Plet', 'Temp'});
 
 % compute average reference
-ALLEEG = pop_reref( ALLEEG,[]);
+ALLEEG = pop_reref( ALLEEG, []);
 
 % clean data using the clean_rawdata plugin
 ALLEEG = pop_clean_rawdata( ALLEEG,'FlatlineCriterion',5,'ChannelCriterion',0.87, ...
@@ -133,7 +140,7 @@ ALLEEG = pop_clean_rawdata( ALLEEG,'FlatlineCriterion',5,'ChannelCriterion',0.87
 
 % recompute average reference interpolating missing channels (and removing
 % them again after average reference - STUDY functions handle them automatically)
-ALLEEG = pop_reref( ALLEEG,[],'interpchan',[]);
+ALLEEG = pop_reref( ALLEEG, []);
 
 % run ICA reducing the dimension by 1 to account for average reference 
 plugin_askinstall('picard', 'picard', 1); % install Picard plugin
@@ -142,6 +149,14 @@ ALLEEG = pop_runica(ALLEEG, 'icatype','picard','concatcond','on','options',{'pca
 % run ICLabel and flag artifactual components
 ALLEEG = pop_iclabel(ALLEEG, 'default');
 ALLEEG = pop_icflag( ALLEEG,[NaN NaN;0.9 1;0.9 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN]);
+
+% Optional: remove flagged ICA components (otherwise done at the STUDY level), then recompute the  
+% average reference using the Huber method interpolating missing channels (and removing them again 
+% after average reference). See tutorial section 5.b.
+if 0
+    ALLEEG = pop_subcomp(ALLEEG, []);
+    ALLEEG = pop_reref( ALLEEG,[],'huber', 25, 'interpchan',[]);
+end
 
 % extract data epochs
 % this is not necessary if you have resting state data or eyes open
