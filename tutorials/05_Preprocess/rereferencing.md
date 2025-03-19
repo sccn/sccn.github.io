@@ -27,9 +27,7 @@ Select <span style="color: brown">Tools → Re-reference the data</span> to
 convert the dataset to average reference by calling the [pop_reref.m](https://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_reref.m) function. When you call this menu item for the
 first time for a given dataset, the following window pops up.
 
-
-![](/assets/images/Figure43_pop_rerefgui.jpg)
-
+![Screenshot 2025-03-19 at 14 32 56](https://github.com/user-attachments/assets/8f1644a9-95a8-46b6-aada-b80698946556)
 
 The (sample) data above were recorded using a mastoid reference. Since
 we do not wish to include this reference channel (neither in the data
