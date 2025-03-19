@@ -108,7 +108,7 @@ A figure similar to the one below will be plotted. The figure may differ as some
 
 ![](/assets/images/p300_simple_study.png)
 
-Running an spectral pipeline
+Running a spectral pipeline
 ----------------
 
 The pipeline below takes the raw data from all subjects, clean the data, extracts epochs of interest, and plots the spectrum to compare conditions. The first part is identical to the ERP script above. The end of the script computes the spectrum. Note that if you have continuous data, you need not extract epochs. We extracted epochs in this case since we wanted to reuse the same dataset as above.
