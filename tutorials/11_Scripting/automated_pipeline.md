@@ -78,7 +78,7 @@ ALLEEG = pop_icflag( ALLEEG,[NaN NaN;0.9 1;0.9 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN
 % after average reference). See tutorial section 5.b.
 if 0
     ALLEEG = pop_subcomp(ALLEEG, []);
-    ALLEEG = pop_reref( ALLEEG,[],'huber', 25, 'interpchan',[]);
+    ALLEEG = pop_reref( ALLEEG, [], 'huber', 25, 'interpchan',[], 'refica', 'remove');
 end
 
 % extract data epochs
@@ -155,7 +155,7 @@ ALLEEG = pop_icflag( ALLEEG,[NaN NaN;0.9 1;0.9 1;NaN NaN;NaN NaN;NaN NaN;NaN NaN
 % after average reference). See tutorial section 5.b.
 if 0
     ALLEEG = pop_subcomp(ALLEEG, []);
-    ALLEEG = pop_reref( ALLEEG,[],'huber', 25, 'interpchan',[]);
+    ALLEEG = pop_reref( ALLEEG, [], 'huber', 25, 'interpchan',[], 'refica', 'remove');
 end
 
 % extract data epochs
