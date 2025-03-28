@@ -26,7 +26,7 @@ Program
 
 10:05 -- **Robert Oostenveld** -- Introduction to the SIESTA project
 
-10:20 -- **Cyril Pernet** -- An example EEG pipeline in the SIESTA framework
+10:20 -- **Cyril Pernet** -- Data privacy in neuroimaging
 
 11:00 -- **Adrien Marque** and **Nathalie Vaysierre** -- An example fMRI pipeline in the SIESTA framework
 
@@ -34,7 +34,7 @@ Program
 
 12:20 -- Lunch (included for participants but email [Adrien](mailto:adrien.romain.marque@gmail.com))
 
-1:20 -- **Camille Maumet** (remotely) -- Robust science and tracking methods (to be confirmed)
+1:20 -- **Camille Maumet** (remotely) -- Reproducible NeuroImaging - a case for automated pipelines (to be confirmed)
 
 1:50 -- **Jan-Mathijs Schoffelen** and **Marcel Zwiers** (remotely) -- SIESTA advanced methods
 
