@@ -6,7 +6,7 @@ parent: Workshops
 ---
 ![toulouse](https://github.com/user-attachments/assets/e4f0aa48-d37a-4c58-913e-e48068f168da)
 
-Cloud EEG/MRI/fMRI automated pipelines, the SIESTA project
+Private NeuroImaging in the Cloud, the SIESTA project
 ============================
 SIESTA explores how cloud computing can revolutionize neuroimaging research. By leveraging scalable infrastructure and standardized workflows, we make complex MRI, EEG, and MEG analysis more accessible, reproducible, and efficient. This session will showcase how automated pipelines, containerized environments, and cloud-based data sharing streamline neuroimaging studies across different platforms and operating systems.
 
