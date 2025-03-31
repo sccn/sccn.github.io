@@ -8,7 +8,7 @@ grand_parent: Tutorials
 Importing BIDS data
 ===========================
 {: .no_toc }
-The Brain Imaging Data Structure (BIDS) data standards is a community standard for organizing, describing, and annotating collections of neuro-imaging datasets. A magnetoencephalography (MEG) data extension has been developed and, in 2019, another [electrophysiology](https://github.com/bids-standard/bids-specification/blob/master/src/04-modality-specific-files/03-electroencephalography.md) data extension for EEG and intracranial EEG (iEEG) data. EEGLAB allows importing and exporting EEG data to the BIDS format using the [bids-matlab-io](https://github.com/sccn/bids-matlab-tools/wiki) EEGLAB plugin.
+The Brain Imaging Data Structure (BIDS) data standards is a community standard for organizing, describing, and annotating collections of neuro-imaging datasets. A magnetoencephalography (MEG) data extension has been developed and, in 2019, another [electrophysiology](https://github.com/bids-standard/bids-specification/blob/master/src/04-modality-specific-files/03-electroencephalography.md) data extension for EEG and intracranial EEG (iEEG) data. EEGLAB allows importing and exporting EEG data to the BIDS format using the [EEG-BIDS](https://github.com/sccn/bids-matlab-tools/wiki) EEGLAB plugin.
 
 <details open markdown="block">
   <summary>
