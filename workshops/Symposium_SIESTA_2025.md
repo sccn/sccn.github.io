@@ -30,7 +30,7 @@ Program
 
 11:00 -- **Adrien Marque** and **Nathalie Vaysierre** -- An example fMRI pipeline in the SIESTA framework
 
-11:40 -- **Arnaud Delorme** -- The NSG and BrainLife cloud computing platforms and why homomorphic encryption is the future
+11:40 -- **Arnaud Delorme** -- The NSG and BrainLife cloud computing platforms
 
 12:20 -- Lunch (included for participants but email [Adrien](mailto:adrien.romain.marque@gmail.com))
 
