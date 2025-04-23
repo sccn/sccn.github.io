@@ -140,7 +140,7 @@ laptop with MATLAB installed.
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">10:15 - 10:45 -- Making data <i>FAIR</i> with BIDS (Robert Oostenveld)</span> 
+<span style="color: purple">10:15 - 10:45 -- Making data <i>FAIR</i> with the EEGLAB BIDS plug-in (Cyril Pernet)</span> 
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11954944/fair.and.bids.pdf)-->
 
 <span style="color: purple">10:45 - 11:45 -- Continued processing of HW dataset (ICA) (Johanna Wagner)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11980297/EEGLAB_WS_ASPET_2023_preprocessing_Session1_cont.pdf)-->
@@ -154,7 +154,7 @@ laptop with MATLAB installed.
 <span style="color: green">12:45-14:00 Lunch --</span>
 
 <!-- -->
-<span style="color: orange">14:00 – 16:00 -- Practicum (use your own data)
+<span style="color: orange">14:00 – 16:00 -- Practicum (use your own data - all teachers)
 
 <span style="color: green">-- Break--</span>
 
@@ -185,7 +185,7 @@ laptop with MATLAB installed.
 
 <span style="color: orange">10:15 - 11:30 -- Continued processing of HW dataset (STUDY design) (Ramon Martinez)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf) (same PDF as previous day)-->
 
-<span style="color: orange">11:30 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Arnaud Delorme)</span>
+<span style="color: orange">11:30 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965482/EEGLAB_statistics2022.pdf)-->
 
 <span style="color: green">12:30-13:45 Lunch --</span>
