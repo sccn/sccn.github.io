@@ -9,7 +9,7 @@ nav_order: 2
 Quickstart guide
 ================
 
-This page lets you import and visualizes an EEG dataset. It is a way  to get started quickly.
+This page lets you import and visualize an EEG dataset. It is a way  to get started quickly.
 
 Load the sample EEGLAB dataset
 ---------------------------
