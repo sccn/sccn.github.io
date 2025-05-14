@@ -135,7 +135,7 @@ laptop with MATLAB installed.
 
 <span style="color: purple">8:30 - 9:15 -- Why cluster ICA components? (Scott Makeig)</span>
 
-<span style="color: purple">9:15 - 10:00 -- Cluster permutation testing (Robert Oostenveld)</span> 
+<span style="color: purple">9:15 - 10:00 -- Statistical approach to EEG data (Cyril Pernet)</span> 
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
 
 <span style="color: green">-- Break--</span>
