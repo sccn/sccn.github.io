@@ -34,7 +34,7 @@ Switch to the EEGLAB directory (folder)
 ------
 
 You may browse for the directory by clicking on the button marked *"…"* in the upper right of the screen.
-
+<!--This is a comment-->
 
 ![](/assets/images/MATLAB_main_screen.png)
 
