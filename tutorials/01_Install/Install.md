@@ -13,7 +13,7 @@ Installing and starting EEGLAB
 First, download [EEGLAB](http://sccn.ucsd.edu/eeglab/install.html),  
 which contains the tutorial dataset in the _sample_data_ subfolder of the EEGLAB distribution.  
 When you decompress EEGLAB, you will obtain a folder named "eeglabxxxx"  
-(note: current version number 'xxxx' will vary).
+(note: the current version number 'xxxx' will vary).
 
 Under Windows, MATLAB usually recommends but does not require that you place toolboxes  
 in the *Application/MATLABRxxxx/toolbox/* folder (note: this name should  
