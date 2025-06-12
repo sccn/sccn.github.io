@@ -62,7 +62,7 @@ next time you start MATLAB, you will be able to directly open EEGLAB.
 If you started MATLAB through its graphical interface, go to the  
 <span style="color: brown">File</span> menu item and select <span style="color: brown">Set Path</span>. This will open the following window.
 
-![MATLAB set path gui](/assets/images/MATLAB_set_path_gui.png)
+![MATLAB set path gui](/assets/images/MATLAB_set_path_gui_2.png)
 
 Or, if you are running MATLAB from the command line, type *pathtool* at the command line  
 and hit Enter; this will also call up this window.
