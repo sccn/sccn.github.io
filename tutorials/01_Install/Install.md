@@ -79,3 +79,4 @@ remove the old version from the MATLAB path (select it, then hit
 is preferable **not** to add the *eeglab* path with its subfolders manually—let  
 EEGLAB manage paths (when you start EEGLAB, it automatically adds  
 the paths it needs).
+# TESTSETSETSETSETSETSETSETESTSETSETSETTSEESESTTSETESTSET
