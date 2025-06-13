@@ -38,7 +38,7 @@ Program
 
 1:20 -- **Camille Maumet** (remotely) -- Reproducible NeuroImaging - a case for automated pipelines (to be confirmed)
 
-1:50 -- **Jan-Mathijs Schoffelen** and **Marcel Zwiers** (remotely) -- SIESTA advanced methods
+1:50 -- **Jan-Mathijs Schoffelen** and **Marcel Zwiers** (remotely) -- SIESTA advanced methods and tips and tricks
 
 2:20 -- Round table and general discussion led by **Robert Oostenveld**
 
