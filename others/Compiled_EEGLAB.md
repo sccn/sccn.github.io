@@ -234,6 +234,7 @@ plugin_askinstall('xdfimport', 'eegplugin_xdfimport', true);
 plugin_askinstall('mffmatlabio', 'pop_mffimport', true);
 plugin_askinstall('scd', 'eegplugin_scd', true);
 plugin_askinstall('snapmaster', 'eegplugin_snapmaster', true);
+plugin_askinstall('biosig', 'sread', true);
 
 % Removing clean_rawdata files
 % For clean_rawdata, remove folder manopt/reference/m2html.
@@ -249,7 +250,6 @@ iclabel_folder = fileparts(which('iclabel.m'));
 % For Fieldtrip remove folders compat, external/afni, external/spm8, external/spm12, external/gifti, external/eeglab, external/bemcp and external/npmk
 FieldTrip_folder = fileparts(which('ft_defaults.m'));
 rmdir(fullfile(FieldTrip_folder,'compat'), 's');
-rmdir(fullfile(FieldTrip_folder,'test'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','afni'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','spm8'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','spm12'), 's');
