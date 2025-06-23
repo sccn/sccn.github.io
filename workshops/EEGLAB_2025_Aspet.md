@@ -34,8 +34,8 @@ faculty and other professionals. Professionals are 580 Euros (plus 490 euros for
 conference space rental, all coffee breaks, and a short excursion. 
 When registering, participants are also expected to pay for accommodation and all meals at the Bois Perche retreat center (a total of 490 euros). Included accommodation is in a private room at the Bois Perche resort for 4 days. Because of a grant from the CNRS, registration (and accommodation) is free for participants for the first three CNRS employees (including PhD students and post-docs) -- first come, first served.
 
-<!-- [REGISTER HERE](https://dr14.azur-colloque.fr/inscription/fr/239/inscription) -->
-<font color=red>Registration is full, but email us at eeglab@sccn.ucsd.edu for last minute cancelations.</font>
+[REGISTER HERE](https://dr14.azur-colloque.fr/inscription/fr/239/inscription)
+<!-- font color=red>Registration is full, but email us at eeglab@sccn.ucsd.edu for last minute cancelations.</font -->
 
 <b>Warning: </b> This workshop is <em>not</em> aimed for real beginners
 in EEG - such persons would be wasting much of their time.
