@@ -28,18 +28,20 @@ Program
 
 10:20 -- **Cyril Pernet** -- Data privacy in neuroimaging
 
-11:00 -- **Adrien Marque** and **Nathalie Vaysierre** -- An example fMRI pipeline in the SIESTA framework
+11:00 -- **Marcel Zwiers** -- BIDScramble to create synthetic and anonymous neuroimaging data
 
-11:40 -- **Arnaud Delorme** -- EEG pipelines and the SIESTA, and BrainLife cloud computing solutions
+11:20 -- **Adrien Marque** and **Nathalie Vaysierre** -- An example fMRI pipeline in the SIESTA framework
 
-12:00 -- **Scott Makeig** -- NEMAR, HED, and NSG cloud computing solutions
+12:00 -- **Arnaud Delorme** -- EEG pipelines with the SIESTA and BrainLife cloud computing solutions
 
 12:20 -- Lunch (included for participants but email [Adrien](mailto:adrien.romain.marque@gmail.com))
 
-1:20 -- **Camille Maumet** (remotely) -- Reproducible NeuroImaging - a case for automated pipelines (to be confirmed)
+1:20 -- **Camille Maumet** (remotely) -- Reproducible NeuroImaging - a case for automated pipelines
 
-1:50 -- **Jan-Mathijs Schoffelen** and **Marcel Zwiers** (remotely) -- SIESTA advanced methods and tips and tricks
+1:50 -- **Scott Makeig** -- NEMAR, HED, and NSG cloud computing solutions
 
-2:20 -- Round table and general discussion led by **Robert Oostenveld**
+2:10 -- **Jan-Mathijs Schoffelen** -- Tips and tricks for implementing reproducible SIESTA pipelines
+
+2:30 -- Round table and general discussion led by **Robert Oostenveld**
 
 3:00 -- Close
