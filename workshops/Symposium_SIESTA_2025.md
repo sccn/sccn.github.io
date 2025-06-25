@@ -26,7 +26,7 @@ Program
 
 10:05 -- **Robert Oostenveld** -- Introduction to the SIESTA project
 
-10:20 -- **Cyril Pernet** -- Data privacy in neuroimaging
+10:20 -- **Cyril Pernet** -- Data privacy & Information privacy in neuroimaging
 
 11:00 -- **Marcel Zwiers** -- BIDScramble to create synthetic and anonymous neuroimaging data
 
