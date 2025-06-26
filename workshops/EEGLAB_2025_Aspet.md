@@ -178,7 +178,7 @@ laptop with MATLAB installed.
 **General Linear Modeling**
 
 
-<span style="color: orange">10:15 - 11:30 -- Continued processing of HW dataset (STUDY design) (Claire Braboszcz or Arnaud Delorme)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf) (same PDF as previous day)-->
+<span style="color: orange">10:15 - 11:30 -- Continued processing of HW dataset (STUDY design) (Arnaud Delorme)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf) (same PDF as previous day)-->
 
 <span style="color: orange">11:30 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965482/EEGLAB_statistics2022.pdf)-->
@@ -187,7 +187,7 @@ laptop with MATLAB installed.
 
 **Source information flow**
 
-<span style="color: orange">13:45 – 15:00 -- Continued processing of HW dataset (STUDY design and LIMO) (Claire Braboszcz or Arnaud Delorme)</span>
+<span style="color: orange">13:45 – 15:00 -- Continued processing of HW dataset (STUDY design and LIMO) (Arnaud Delorme)</span>
 
 <span style="color: green">-- Break--</span>
 
