@@ -32,7 +32,7 @@ Program
 
 11:20 -- **Adrien Marque** and **Nathalie Vaysierre** -- An example fMRI pipeline in the SIESTA framework
 
-12:00 -- **Arnaud Delorme** -- EEG pipelines with the SIESTA and BrainLife cloud computing solutions
+12:00 -- **Arnaud Delorme** -- EEG pipelines for cloud computing solutions
 
 12:20 -- Lunch (included for participants but email [Adrien](mailto:adrien.romain.marque@gmail.com))
 
