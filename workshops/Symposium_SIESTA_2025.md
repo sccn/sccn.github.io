@@ -20,6 +20,10 @@ Location and date
 -------
 June 30th, 2025, Toulouse CerCo laboratory, [Baudot building, first floor conference room (not ground floor)](https://cerco.cnrs.fr/en/visit-us/)
 
+Online. https://univ-tlse3-fr.zoom.us/j/94778485164?pwd=Fs793R6zZWptarumbGhCH4i0r47wdT.1
+Meeting ID: 947 7848 5164
+Code: 585617
+
 Program
 --------
 10:00 -- **Isabelle Berry** -- Opening statements
@@ -30,7 +34,7 @@ Program
 
 11:00 -- **Marcel Zwiers** -- BIDScramble to create synthetic and anonymous neuroimaging data
 
-11:20 -- **Adrien Marque** and **Nathalie Vaysierre** -- An example fMRI pipeline in the SIESTA framework
+11:20 -- **Adrien Marque** -- An example fMRI pipeline in the SIESTA framework
 
 12:00 -- **Arnaud Delorme** -- EEG databases and pipelines for cloud computing solutions
 
