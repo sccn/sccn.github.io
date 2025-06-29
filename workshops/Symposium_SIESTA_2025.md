@@ -34,7 +34,7 @@ Program
 
 12:00 -- **Arnaud Delorme** -- EEG databases and pipelines for cloud computing solutions
 
-12:20 -- Lunch (included for participants but email [Adrien](mailto:adrien.romain.marque@gmail.com))
+12:30 -- Lunch (included for participants but email [Adrien](mailto:adrien.romain.marque@gmail.com))
 
 1:20 -- **Camille Maumet** (remotely) -- Reproducible NeuroImaging - a case for automated pipelines
 
