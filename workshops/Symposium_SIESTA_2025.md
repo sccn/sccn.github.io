@@ -38,7 +38,7 @@ Program
 
 1:20 -- **Camille Maumet** (remotely) -- Reproducible NeuroImaging - a case for automated pipelines
 
-1:50 -- **Scott Makeig** -- NEMAR, HED, and NSG cloud computing solutions
+1:50 -- **Scott Makeig** -- Hierarchical Event Descriptors for cloud computing solutions
 
 2:10 -- **Jan-Mathijs Schoffelen** -- Tips and tricks for implementing reproducible SIESTA pipelines
 
