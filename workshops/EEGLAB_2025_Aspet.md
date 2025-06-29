@@ -58,7 +58,7 @@ portion of the workshop.
 
 If you are new to MATLAB or need a refresher, please consult the material on the [Getting started with MATLAB page](/tutorials/misc/tutorial_matlab.html)
 
-If you do not have MATLAB, you can obtain a 30-day trial license for free on the [mathworks website](https://www.mathworks.com/campaigns/products/trials.html).
+If you do not have MATLAB, you can obtain a 30-day trial license for free on the MathWorks website (https://www.mathworks.com/campaigns/products/trials.html).
 
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
@@ -82,9 +82,7 @@ laptop with MATLAB installed.
 
 <span style="color: green">
 
-19:45 -- Dinner in Aspet (included in registration)
-
-20:45 – 21:30 -- Optional MATLAB fundamentals session by Ramon Martinez
+20:30 -- Dinner in Aspet (included in registration). Note that the optional evening MATLAB session was canceled due to a late dinner and also because the speaker, Ramon, could not make it.
 
 ### Tuesday, July 1st
 
