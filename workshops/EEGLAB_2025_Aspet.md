@@ -128,33 +128,28 @@ laptop with MATLAB installed.
 
 <span style="color: green">19:45 -- Dinner</span>
 
-
-
-
 ### Wednesday, July 2nd
 
 **Group analysis and ICA clustering in EEGLAB**
 
-
 <span style="color: purple">8:30 - 9:15 -- Why cluster ICA components? (Scott Makeig)</span>
 
-<span style="color: purple">9:15 - 10:00 -- Statistical approach to EEG data (Cyril Pernet)</span> 
-<!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
+<span style="color: purple">9:15 - 10:30 -- Creating a STUDY using BIDS and preprocessing data (Arnaud Delorme)</span>
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">10:15 - 11:45 -- Continued processing of HW dataset (ICA) (Claire Braboszcz or Arnaud Delorme)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11980297/EEGLAB_WS_ASPET_2023_preprocessing_Session1_cont.pdf)-->
+<span style="color: purple">10:30 - 11:30 -- Statistical approach to EEG data (Cyril Pernet)</span> 
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
 
-
-<span style="color: purple">11:45 - 12:45 -- Continued processing of HW dataset (STUDY design) (Claire Braboszcz or Arnaud Delorme)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf)-->
-
-<!-- -->
-
+<span style="color: purple">11:30 - 12:45 -- Processing data using LIMO (Cyril Pernet)</span> 
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
 
 <span style="color: green">12:45-14:00 Lunch --</span>
 
 <!-- -->
-<span style="color: orange">14:00 – 16:00 -- Practicum (use your own data - all teachers)
+<span style="color: orange">14:00 – 14:30 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
+<span style="color: orange">14:30 – 15:30 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
+<span style="color: orange">15:30 – 16:00 -- What are microstate? (Fiorenzo Artoni)
 
 <span style="color: green">-- Break--</span>
 
