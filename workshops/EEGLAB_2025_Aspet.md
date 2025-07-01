@@ -132,26 +132,23 @@ laptop with MATLAB installed.
 
 **Group analysis and ICA clustering in EEGLAB**
 
-<span style="color: purple">8:30 - 9:15 -- Why cluster ICA components? (Scott Makeig)</span>
+<span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span>
 
-<span style="color: purple">9:15 - 10:30 -- Creating a STUDY using BIDS and preprocessing data (Arnaud Delorme)</span>
+<span style="color: orange">9:00 – 9:30 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
+
+<span style="color: orange">9:30 – 10:00 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">10:30 - 11:30 -- GLM and (Cyril Pernet)</span> 
-<!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
+<span style="color: purple">10:30 - 11:00 -- The Brain Imaging Data Structure (Robert Oostenveld / Cyril Pernet)</span>
 
-<span style="color: purple">11:30 - 12:45 -- Processing data using LIMO (Cyril Pernet)</span> 
-<!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
+<span style="color: purple">11:00 - 12:30 -- Creating a STUDY using BIDS and preprocessing data (Arnaud Delorme)</span>
 
-<span style="color: green">12:45-14:00 Lunch --</span>
+<span style="color: green">12:30-14:00 Lunch --</span>
 
 <!-- -->
-<span style="color: orange">14:00 – 14:30 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
-
-<span style="color: orange">14:30 – 15:30 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
-
-<span style="color: orange">15:30 – 16:00 -- What are EEG microstates? (Fiorenzo Artoni)
+<span style="color: purple">14:00 - 16:00 -- GLM, LIMO and more (Cyril Pernet)</span> 
+<!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
 
 <span style="color: green">-- Break--</span>
 
@@ -166,18 +163,19 @@ laptop with MATLAB installed.
  
 <span style="color: green">7:30 - 8:30 Breakfast</span>
 
-
-**Time-frequency analysis**
+**Advanced EEG signal processing methods**
 
 <span style="color: purple">8:30 – 9:30 -- Time-frequency decompositions: Theory and practice (Scott Makeig)</span> 
 
-<span style="color: green">-- Break--</span>
+<span style="color: orange">9:30 – 10:00 -- What are EEG microstates? (Fiorenzo Artoni)
 
+<span style="color: green">-- Break--</span>
 
 **General Linear Modeling**
 
+<span style="color: orange">10:20 - 11:30 -- Correcting for multiple comparisons (Cyril Pernet)
 
-<span style="color: orange">10:15 - 11:30 -- Continued processing of HW dataset (STUDY design) (Arnaud Delorme)</span> <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965428/EEGLAB_WS_Aspet_2023_GroupAnalysis.pdf) (same PDF as previous day)-->
+<span style="color: orange">10:20 - 11:30 -- More STUDY designs and GLM (Cyril Pernet and Arnaud Delorme)
 
 <span style="color: orange">11:30 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965482/EEGLAB_statistics2022.pdf)-->
