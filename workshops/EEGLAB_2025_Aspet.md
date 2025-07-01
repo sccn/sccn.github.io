@@ -132,22 +132,24 @@ laptop with MATLAB installed.
 
 **Group analysis and ICA clustering in EEGLAB**
 
-<span style="color: purple">8:30 - 9:00 -- Why cluster ICA components? (Scott Makeig)</span>
+<span style="color: purple">8:30 - 9:15 -- The Brain Imaging Data Structure (Robert Oostenveld\)</span>
 
-<span style="color: orange">9:00 – 9:30 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
-
-<span style="color: orange">9:30 – 10:00 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
+<span style="color: purple">9:15 - 10:30 -- Creating a STUDY using BIDS and preprocessing data (Arnaud Delorme)</span>
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">10:30 - 11:00 -- The Brain Imaging Data Structure (Robert Oostenveld / Cyril Pernet)</span>
+<span style="color: orange">10:50 – 11:20 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
 
-<span style="color: purple">11:00 - 12:30 -- Creating a STUDY using BIDS and preprocessing data (Arnaud Delorme)</span>
+<span style="color: orange">11:20 – 11:50 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
+
+<span style="color: purple">11:50 - 12:30 -- Why cluster ICA components? (Scott Makeig)</span>
 
 <span style="color: green">12:30-14:00 Lunch --</span>
 
 <!-- -->
-<span style="color: purple">14:00 - 16:00 -- GLM, LIMO and more (Cyril Pernet)</span> 
+<span style="color: purple">14:00 - 14:30 -- Practical ICA clustering (Arnaud Delorme)</span>
+
+<span style="color: purple">14:30 - 16:00 -- Statistical analysis: Hierarchical Linear Modelling of EEG data (Cyril Pernet)</span> 
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
 
 <span style="color: green">-- Break--</span>
