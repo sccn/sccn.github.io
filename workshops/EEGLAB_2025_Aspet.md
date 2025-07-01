@@ -68,9 +68,8 @@ Workshop materials are provided on a USB flash drive. Copy the entire contents o
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
-<b>Material for workshop tutorials (including EEGLAB) will be made available on
-USB keys.</b> Presented slides will be made
-available during the workshop. You only need to bring a
+The presented slides will be made
+available on this page. You only need to bring a
 laptop with MATLAB installed.
 
 <span style="color: purple">Purple lettering = lecture</span>
