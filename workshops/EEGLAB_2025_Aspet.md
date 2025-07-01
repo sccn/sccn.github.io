@@ -151,7 +151,7 @@ laptop with MATLAB installed.
 
 <span style="color: orange">14:30 – 15:30 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
 
-<span style="color: orange">15:30 – 16:00 -- What are microstate? (Fiorenzo Artoni)
+<span style="color: orange">15:30 – 16:00 -- What are EEG microstates? (Fiorenzo Artoni)
 
 <span style="color: green">-- Break--</span>
 
