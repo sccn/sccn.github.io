@@ -106,7 +106,7 @@ laptop with MATLAB installed.
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11948490/Makeig_ICA_Aspet23._pdf.pdf)-->
 
 <span style="color: orange">11:30 – 13:00 -- Data import, Artifact rejection (Claire Braboszcz)
-[Preprocessing_braboszcz2025_edit.pdf](https://github.com/user-attachments/files/20995739/Preprocessing_braboszcz2025_edit.pdf)
+[PDF](https://github.com/user-attachments/files/20995739/Preprocessing_braboszcz2025_edit.pdf)
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)-->
 </span>
 
