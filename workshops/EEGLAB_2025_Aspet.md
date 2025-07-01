@@ -120,9 +120,8 @@ laptop with MATLAB installed.
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">16:30 – 17:45 -- EEGLAB Dipfit and source connectivity plugins (Arnaud Delorme)</span> 
-[PDF DIPFIT](https://github.com/user-attachments/files/21000200/Delorme2025_dipole_connectivity.pdf) [PDF connectivity](https://github.com/user-attachments/files/21000181/Connectivity_lecture2025.pdf)
-
+<span style="color: purple">16:30 – 17:45 -- EEGLAB Dipfit plugin (Arnaud Delorme)</span> 
+[PDF DIPFIT](https://github.com/user-attachments/files/21000200/Delorme2025_dipole_connectivity.pdf)
 <!-- -->
 
 <span style="color: green">19:45 -- Dinner</span>
@@ -190,7 +189,7 @@ laptop with MATLAB installed.
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">15:00 – 17:00 -- Source information flow and Granger-Causal modeling tools, SIFT and ROIconnect toolbox (Arnaud Delorme)</span>
-<!--[PDF](https://github.com/sccn/sccn.github.io/files/11965451/Connectivity_lecture2023.pdf)-->
+[PDF connectivity](https://github.com/user-attachments/files/21000181/Connectivity_lecture2025.pdf)
 
 <span style="color: green">19:45 -- Dinner </span>
  
