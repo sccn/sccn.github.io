@@ -60,6 +60,12 @@ If you are new to MATLAB or need a refresher, please consult the material on the
 
 If you do not have MATLAB, you can obtain a 30-day trial license for free on the MathWorks website (https://www.mathworks.com/campaigns/products/trials.html).
 
+Workshop material
+-----------------
+Workshop material is sharebd by USB flash drive. Simply copy the entire content of the key. 
+- If under Windows copy the eeglab.zip and uncompress later on your computer. 
+- If using MAC, make sure you follow these [instructions](https://www.fieldtriptoolbox.org/faq/matlab/mex_osx/).
+
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
 
