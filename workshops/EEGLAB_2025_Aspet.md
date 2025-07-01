@@ -120,8 +120,8 @@ laptop with MATLAB installed.
 <span style="color: purple">16:15 – 17:15 -- Forward and inverse models - the Dipfit tools (Robert Oostenveld)</span> 
 [PDF](https://github.com/user-attachments/files/20999227/forward_and_inverse_models_2025.pdf)
 
-<span style="color: purple">17:15 – 17:45 -- Using the EEGLAB Dipfit plug-in (Arnaud Delorme)</span> 
-<!--[PDF](https://github.com/sccn/sccn.github.io/files/11950613/dipfit.pdf)-->
+<span style="color: purple">17:15 – 17:45 -- EEGLAB Dipfit and source connectivity plugins (Arnaud Delorme)</span> 
+[PDF DIPFIT](https://github.com/user-attachments/files/21000200/Delorme2025_dipole_connectivity.pdf) [PDF connectivity](https://github.com/user-attachments/files/21000181/Connectivity_lecture2025.pdf)
 
 <!-- -->
 
