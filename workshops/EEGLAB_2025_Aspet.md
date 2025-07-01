@@ -62,9 +62,8 @@ If you do not have MATLAB, you can obtain a 30-day trial license for free on the
 
 Workshop material
 -----------------
-Workshop material is sharebd by USB flash drive. Simply copy the entire content of the key. 
-- If under Windows copy the eeglab.zip and uncompress later on your computer. 
-- If using MAC, make sure you follow these [instructions](https://www.fieldtriptoolbox.org/faq/matlab/mex_osx/).
+
+Workshop materials are provided on a USB flash drive. Copy the entire contents of the drive to your computer. Locate the file eeglab.zip, extract it, and follow the setup instructions. If you are using a Mac, make sure to follow these [instructions](https://www.fieldtriptoolbox.org/faq/matlab/mex_osx/) to enable binary files for source localization.
 
 Workshop Program (with corresponding PDFs)
 ------------------------------------------
