@@ -114,7 +114,7 @@ laptop with MATLAB installed.
 
 **ICA and source analysis**
 
-<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Claire Braboszcz)</span> [ICLabel Practice] (https://labeling.ucsd.edu/tutorial/practice)[PDF](https://github.com/user-attachments/files/20999025/ICLabel.pdf)
+<span style="color: orange">14:00 – 16:00 -- ICA decomposition practicum (Claire Braboszcz)</span> [ICLabel Practice](https://labeling.ucsd.edu/tutorial/practice) [PDF](https://github.com/user-attachments/files/20999025/ICLabel.pdf)
 
 <span style="color: green">-- Break--</span>
 
