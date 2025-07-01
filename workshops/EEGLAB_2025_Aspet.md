@@ -88,14 +88,13 @@ laptop with MATLAB installed.
 
 <span style="color: green">7:00 - 8:30 Breakfast</span>
 
-
 **Overview and ICA Theory/Practice**
 
 <span style="color:purple"> 8:30 – 9:45 -- Mining event-related brain dynamics I (Scott Makeig)</span>
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11948460/Makeig_Aspet23_Mining_I.pdf)-->
 
 <span style="color: purple">9:45 – 10:15 -- EEGLAB overview (Arnaud Delorme)</span>
- <!--[PDF](https://github.com/sccn/sccn.github.io/files/11945743/EEGLAB_overview2023.pdf)-->
+[PDF](https://github.com/user-attachments/files/20992965/EEGLAB_overview2025.pdf)
 
 <span style="color: green">-- Break--</span>
 
