@@ -107,7 +107,6 @@ laptop with MATLAB installed.
 
 <span style="color: orange">11:30 – 13:00 -- Data import, Artifact rejection (Claire Braboszcz)
 [PDF](https://github.com/user-attachments/files/20995739/Preprocessing_braboszcz2025_edit.pdf)
-<!--[PDF](https://github.com/sccn/sccn.github.io/files/11947670/EEGLAB_WS_ASPET_2023_preprocessing_Session1.pdf)-->
 </span>
 
 <span style="color: green">13:00-14:00 Lunch --</span>
@@ -150,7 +149,7 @@ laptop with MATLAB installed.
 <span style="color: purple">14:00 - 14:30 -- Practical ICA clustering (Arnaud Delorme)</span>
 
 <span style="color: purple">14:30 - 16:00 -- Statistical analysis: Hierarchical Linear Modelling of EEG data (Cyril Pernet)</span> 
-<!--[PDF](https://github.com/sccn/sccn.github.io/files/11954943/cluster.statistics.pdf)-->
+[PDF LIMO](https://github.com/user-attachments/files/20999644/2025_LIMO_QuickStarter.pdf) [PDF HLM](https://github.com/user-attachments/files/20999647/2025_HLM_LIMO_EEGLAB.pdf)
 
 <span style="color: green">-- Break--</span>
 
@@ -175,7 +174,7 @@ laptop with MATLAB installed.
 
 **General Linear Modeling**
 
-<span style="color: orange">10:20 - 11:30 -- Correcting for multiple comparisons (Cyril Pernet)
+<span style="color: orange">10:20 - 11:30 -- Correcting for multiple comparisons (Cyril Pernet) [PDF](https://github.com/user-attachments/files/20999665/2025_MCC_and_boot_EEGLAB_workshop.pdf)
 
 <span style="color: orange">10:20 - 11:30 -- More STUDY designs and GLM (Cyril Pernet and Arnaud Delorme)
 
