@@ -132,13 +132,13 @@ laptop with MATLAB installed.
 
 <span style="color: purple">8:30 - 9:15 -- The Brain Imaging Data Structure (Robert Oostenveld\)</span>
 
-<span style="color: purple">9:15 - 10:30 -- Creating a STUDY using BIDS and preprocessing data (Arnaud Delorme)</span>
+<span style="color: orange">9:15 - 10:30 -- Creating a STUDY using BIDS and preprocessing data (Arnaud Delorme)</span>
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: orange">10:50 – 11:20 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
+<span style="color: purple">10:50 – 11:20 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
 
-<span style="color: orange">11:20 – 11:50 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
+<span style="color: purple">11:20 – 11:50 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
 
 <span style="color: purple">11:50 - 12:30 -- Why cluster ICA components? (Scott Makeig)</span>
 
