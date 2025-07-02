@@ -139,8 +139,10 @@ laptop with MATLAB installed.
 <span style="color: green">-- Break--</span>
 
 <span style="color: purple">10:50 – 11:20 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
+[PDF](https://github.com/user-attachments/files/21012611/ASRPresentation_2025.pdf)
 
 <span style="color: purple">11:20 – 11:50 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
+[PDF](https://github.com/user-attachments/files/21012617/RELICA_presentation_2025.pdf)
 
 <span style="color: purple">11:50 - 12:30 -- Why cluster ICA components? (Scott Makeig)</span>
 
