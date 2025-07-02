@@ -150,6 +150,7 @@ laptop with MATLAB installed.
 
 <!-- -->
 <span style="color: purple">14:00 - 14:30 -- Practical ICA clustering (Arnaud Delorme)</span>
+[PDF](https://github.com/user-attachments/files/21015560/PracticalMEEG2022_GroupAnalysis.pdf)
 
 <span style="color: purple">14:30 - 16:00 -- Statistical analysis: Hierarchical Linear Modelling of EEG data (Cyril Pernet)</span> 
 [PDF LIMO](https://github.com/user-attachments/files/20999644/2025_LIMO_QuickStarter.pdf) [PDF HLM](https://github.com/user-attachments/files/20999647/2025_HLM_LIMO_EEGLAB.pdf)
