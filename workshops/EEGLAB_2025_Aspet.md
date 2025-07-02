@@ -133,7 +133,8 @@ laptop with MATLAB installed.
 <span style="color: purple">8:30 - 9:15 -- The Brain Imaging Data Structure (Robert Oostenveld\)</span>
 [PDF](https://github.com/user-attachments/files/21012586/fair.and.bids.pdf)
 
-<span style="color: orange">9:15 - 10:30 -- Creating a STUDY using BIDS and preprocessing data (Arnaud Delorme)</span>
+<span style="color: orange">9:15 - 10:30 -- Creating a STUDY and preprocessing data (Arnaud Delorme)</span>
+[PDF](https://github.com/user-attachments/files/21012603/EEGLAB2019_AD_STUDY_design_newreduced.pdf)
 
 <span style="color: green">-- Break--</span>
 
