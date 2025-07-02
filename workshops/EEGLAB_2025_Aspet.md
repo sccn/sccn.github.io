@@ -131,6 +131,7 @@ laptop with MATLAB installed.
 **Group analysis and ICA clustering in EEGLAB**
 
 <span style="color: purple">8:30 - 9:15 -- The Brain Imaging Data Structure (Robert Oostenveld\)</span>
+[PDF](https://github.com/user-attachments/files/21012586/fair.and.bids.pdf)
 
 <span style="color: orange">9:15 - 10:30 -- Creating a STUDY using BIDS and preprocessing data (Arnaud Delorme)</span>
 
