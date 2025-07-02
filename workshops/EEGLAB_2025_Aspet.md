@@ -181,19 +181,19 @@ laptop with MATLAB installed.
 <span style="color: orange">10:50 - 11:30 -- Correcting for multiple comparisons (Cyril Pernet) [PDF](https://github.com/user-attachments/files/20999665/2025_MCC_and_boot_EEGLAB_workshop.pdf)
 
 <span style="color: orange">11:30 - 12:00 -- More STUDY designs and GLM (Cyril Pernet and Arnaud Delorme)
+[PDF LIMO](https://github.com/user-attachments/files/20999644/2025_LIMO_QuickStarter.pdf) [PDF HLM](https://github.com/user-attachments/files/20999647/2025_HLM_LIMO_EEGLAB.pdf)
 
-<span style="color: orange">12:00 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
-<!--[PDF](https://github.com/sccn/sccn.github.io/files/11965482/EEGLAB_statistics2022.pdf)-->
+<span style="color: orange">12:00 – 13:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
 
-<span style="color: green">12:30-13:45 Lunch --</span>
+<span style="color: green">13:00-14:30 Lunch --</span>
 
 **Source information flow**
 
-<span style="color: orange">13:45 – 15:00 -- Continued processing of HW dataset (STUDY design and LIMO) (Arnaud Delorme)</span>
+<span style="color: orange">14:30 – 15:40 -- Continued processing of HW dataset (STUDY design and LIMO) (Cyril Pernet and Arnaud Delorme)</span>
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">15:00 – 17:00 -- Source information flow and Granger-Causal modeling tools, SIFT and ROIconnect toolbox (Arnaud Delorme)</span>
+<span style="color: purple">16:00 – 17:00 -- Source information flow and Granger-Causal modeling tools, SIFT and ROIconnect toolbox (Arnaud Delorme)</span>
 [PDF connectivity](https://github.com/user-attachments/files/21000181/Connectivity_lecture2025.pdf)
 
 <span style="color: green">19:45 -- Dinner </span>
