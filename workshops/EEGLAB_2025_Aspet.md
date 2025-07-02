@@ -142,6 +142,7 @@ laptop with MATLAB installed.
 [PDF](https://github.com/user-attachments/files/21012617/RELICA_presentation_2025.pdf)
 
 <span style="color: purple">11:50 - 12:30 -- Why cluster ICA components? (Scott Makeig)</span>
+[PDF](https://github.com/user-attachments/files/21024507/Makeig_Aspet25_Clustering.pdf)
 
 <span style="color: green">12:30-14:00 Lunch --</span>
 
