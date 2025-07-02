@@ -138,9 +138,6 @@ laptop with MATLAB installed.
 
 <span style="color: green">-- Break--</span>
 
-<span style="color: purple">10:50 – 11:20 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
-[PDF](https://github.com/user-attachments/files/21012611/ASRPresentation_2025.pdf)
-
 <span style="color: purple">11:20 – 11:50 -- PCA vs. ICA and bootstraping ICA using RELICA (Fiorenzo Artoni)
 [PDF](https://github.com/user-attachments/files/21012617/RELICA_presentation_2025.pdf)
 
@@ -172,17 +169,20 @@ laptop with MATLAB installed.
 
 <span style="color: purple">8:30 – 9:30 -- Time-frequency decompositions: Theory and practice (Scott Makeig)</span> 
 
-<span style="color: orange">9:30 – 10:00 -- What are EEG microstates? (Fiorenzo Artoni)
+<span style="color: purple">9:30 – 10🕙0 -- Finding the best parameter for clean_rawdata/ASR (Fiorenzo Artoni)
+[PDF](https://github.com/user-attachments/files/21012611/ASRPresentation_2025.pdf)
+
+<span style="color: orange">10:00 – 10:30 -- What are EEG microstates? (Fiorenzo Artoni)
 
 <span style="color: green">-- Break--</span>
 
 **General Linear Modeling**
 
-<span style="color: orange">10:20 - 11:30 -- Correcting for multiple comparisons (Cyril Pernet) [PDF](https://github.com/user-attachments/files/20999665/2025_MCC_and_boot_EEGLAB_workshop.pdf)
+<span style="color: orange">10:50 - 11:30 -- Correcting for multiple comparisons (Cyril Pernet) [PDF](https://github.com/user-attachments/files/20999665/2025_MCC_and_boot_EEGLAB_workshop.pdf)
 
-<span style="color: orange">10:20 - 11:30 -- More STUDY designs and GLM (Cyril Pernet and Arnaud Delorme)
+<span style="color: orange">11:30 - 12:00 -- More STUDY designs and GLM (Cyril Pernet and Arnaud Delorme)
 
-<span style="color: orange">11:30 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
+<span style="color: orange">12:00 – 12:30 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
 <!--[PDF](https://github.com/sccn/sccn.github.io/files/11965482/EEGLAB_statistics2022.pdf)-->
 
 <span style="color: green">12:30-13:45 Lunch --</span>
