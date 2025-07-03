@@ -578,13 +578,13 @@ more complex to use. I guess it would also be possible to use the welch
 method on top of multitaper. It is all a matter of preference. I would
 advised using the pwelch method which is easy (you just give as an
 option the length of the windows and the overlap). Multitaper would
-require you to select the number of basis vector in your othogonal base
+require you to select the number of basis vector in your orthogonal base
 and this is much less intuitive (and also has consequences on the
 frequency resolution you can achieve).
 
-### Multitaper, FTT, wavelets for time-frequency decomposition?
+### Multitaper, FFT, wavelets for time-frequency decomposition?
 
-I have been using the new EELAB toolbox for the past
+I have been using the new EEGLAB toolbox for the past
 couple of weeks, especially timef() and crossf(). The multitaper method
 with bootstrap statistics has been giving me very nice stable results.
 Timef() with wavelets gives slightly different results, but also
