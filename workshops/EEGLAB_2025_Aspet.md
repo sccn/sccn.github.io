@@ -185,6 +185,7 @@ laptop with MATLAB installed.
 [PDF LIMO](https://github.com/user-attachments/files/20999644/2025_LIMO_QuickStarter.pdf) [PDF HLM](https://github.com/user-attachments/files/20999647/2025_HLM_LIMO_EEGLAB.pdf)
 
 <span style="color: orange">12:00 – 13:00 -- Theory and practice of applying general linear models to EEG data using the LIMO EEGLAB plug-in (Cyril Pernet)</span>
+[PDF](https://github.com/user-attachments/files/21040782/2025_GLM_design.pdf)
 
 <span style="color: green">13:00-14:30 Lunch --</span>
 
