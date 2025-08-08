@@ -5,7 +5,7 @@ long_title: EEGLAB 2025 Aspet workshop
 parent: Workshops
 ---
 
-<--![Screen Shot 2023-03-06 at 7 40 14 AM](https://user-images.githubusercontent.com/1872705/223188423-e296a3e6-dd99-488b-b86d-1a6f8a8520e0.png)-->
+<!--![Screen Shot 2023-03-06 at 7 40 14 AM](https://user-images.githubusercontent.com/1872705/223188423-e296a3e6-dd99-488b-b86d-1a6f8a8520e0.png)-->
 ![PXL_20250702_111152814](https://github.com/user-attachments/assets/52627702-1bc6-4b4b-a04d-3e9a70269055)
 
 
