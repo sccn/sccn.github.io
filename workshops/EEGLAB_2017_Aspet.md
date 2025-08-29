@@ -7,9 +7,6 @@ grand_parent: Workshops
 
 ![700px\|thumb\|center\|upright=2.5](/assets/images/Group_aspet2017.jpg)
 
-![250px\|thumb\|right\|upright=2.5\|Scenery of the Pyrenees
-mountains](/assets/images/Pyrennees.png)
-
 Twenty-fourth EEGLAB Workshop
 =============================
 
