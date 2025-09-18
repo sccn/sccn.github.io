@@ -14,6 +14,24 @@ Minor revisions are indicated using a second number; thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
+## EEGLAB version 2025.1.0
+
+- Issue date: 9/17/2025 (TBD); GIT tag: 2025.1.0
+- **Version statistics**: 39 files changed with 862 additions and 551 deletions.
+- **Summary of changes:** EEGLAB 2025.1.0 introduces broad compatibility updates for MATLAB 2025, including fixes in eegplot rendering, font scaling, pophelp modernization, and automatic renderer adjustments to prevent darkened figures on Windows. It also corrects the representation of two-way ANOVA designs in STUDY functions, fixing factor ordering, labeling, and p-value mapping for more accurate visualization of 2×2 designs.
+**MATLAB compatibility:** MATLAB 2025 visual adjustments in many functions, including eegplot, to decrease font size and ensure visibility.  
+**STUDY and statistics:** std_limo adds a verbose noGUI mode for pipeline use and writes chanlocs under derivatives when appropriate. Contrast construction updated to handle one categorical factor with multiple conditions alongside continuous factors. FieldTrip stats on averaged channels fixed. Same color scale enforcement corrected. Corrects the representation of two-way ANOVA designs in STUDY functions, fixing factor ordering, labeling, and p-value mapping for more accurate visualization of 2×2 designs (labels were misleading).
+**Referencing and ICA:** New Huber average reference added to reref.m and exposed in pop_reref UI. Automatic recomputation of ICA activities now occurs on rereference unless backwardcomp is selected. AMICA path switched to runamica15 with guidance to install and use the AMICA plugin GUI.  
+**Interpolation and channel handling:** eeg_interp accepts bad channel lists as cell arrays and supports sphericalCRD. eeg_checkchanlocs removes stale urchan when urchanlocs is empty and avoids creating a new urchan field spuriously. pop_chanedit avoids showing urchan when urchanlocs are unset. pop_rmbase now operates strictly on the selected channel list.  
+**Event and epoching fixes:** biosig2eeglabevent and pop_biosig improve EDF+ decoding logic, including handling CodeDesc for extended event codes and importing EDF annotations into EEG.event when requested.  
+**Import/export and I/O:** pop_writeeeg now tolerates empty filename while letting users pick format and warns about known BDF header issues.  
+**GUI and UX:** pophelp substantially reworked for MATLAB 2025.  
+**EEGLAB integrity checks:** eeg_checkset large refactor and cleanups across warnings and edge cases.  
+**BIDS and pipeline:** EEG-BIDS submodule updated; lookups now search directly for derivatives folder. pop_exportbids and related scripts refreshed; bids_reexport streamlined. Fix issues with using samples when importing event latencies.  
+**Dipfit:** Update compatibility atlas mapping and LORETA source localization.  
+**Known behavior changes:** Re-referencing now recomputes ICA activities by default in 2025.1.0; use backwardcomp to preserve previous versions’ behavior.  
+- Use this [Github link](https://github.com/sccn/eeglab/compare/2025.0.0..2025.1.0) to see all changes compared to the previous EEGLAB version.
+
 ## EEGLAB version 2025.0.0
 
 - Issue date: 2/17/2025; GIT tag: 2025.0.0
