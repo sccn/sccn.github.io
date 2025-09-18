@@ -5,7 +5,7 @@ parent: Download EEGLAB
 ---
 EEGLAB revision history
 ===
-EEGLAB downloads in ZIP format are available [here](https://sccn.ucsd.edu/eeglab/download.php). 
+EEGLAB downloads in MATLAB and executable formats are available [here](https://sccn.ucsd.edu/eeglab/download.php). 
 These include the latest release as well as older versions of EEGLAB.
 
 As of 2019, we are using the year of the release as the main revision number. 
