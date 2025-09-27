@@ -16,7 +16,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 ## EEGLAB version 2025.1.0
 
-- Issue date: 9/17/2025 (TBD); GIT tag: 2025.1.0
+- Issue date: 9/26/2025; GIT tag: 2025.1.0
 - **Version statistics**: 39 files changed with 862 additions and 551 deletions.
 - **Summary of changes:** EEGLAB 2025.1.0 introduces broad compatibility updates for MATLAB 2025, including fixes in eegplot rendering, font scaling, pophelp modernization, and automatic renderer adjustments to prevent darkened figures on Windows. It also corrects the representation of two-way ANOVA designs in STUDY functions, fixing factor ordering, labeling, and p-value mapping for more accurate visualization of 2×2 designs.
 - **MATLAB compatibility:** MATLAB 2025 visual adjustments in many functions, including eegplot, to decrease font size and ensure visibility.  
