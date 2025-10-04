@@ -11,7 +11,7 @@ Below are EEGLAB workshops currently planned
 
 In 2025:
 - The workshop in San Diego, USA (UCSD campus) in November was canceled.
-- There is a workshop in Marseille, France, in November 2025 as part of the [PracticalMEEG conference](https://cuttingeeg.org/practicalmeeg2025/).
+- There is a workshop in Marseille, France, at the end of October 2025 as part of the [PracticalMEEG conference](https://cuttingeeg.org/practicalmeeg2025/).
 
 Do not forget to subscribe to the EEGLAB News list to be notified of new
 workshop and registration information (you may register by clicking a
