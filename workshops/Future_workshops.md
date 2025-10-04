@@ -10,9 +10,8 @@ Future EEGLAB workshops
 Below are EEGLAB workshops currently planned
 
 In 2025:
-
-- There will be a workshop in Aspet, France, June 30th to July 4th.
-- There will be a workshop in San Diego, USA (UCSD campus) November 21-25, preceded by the Rockwood lecture on the 20th.
+- The workshop in San Diego, USA (UCSD campus) in November was canceled.
+- There is a workshop in Marseille, France, in November 2025 as part of the [PracticalMEEG conference](https://cuttingeeg.org/practicalmeeg2025/).
 
 Do not forget to subscribe to the EEGLAB News list to be notified of new
 workshop and registration information (you may register by clicking a
