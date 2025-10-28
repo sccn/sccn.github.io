@@ -79,7 +79,7 @@ Then we select MEG channels since this dataset contains both EEG and MEG data. U
 
 Then call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Create a head model from an MRI</span>. A window asks you to choose an MR head image, and the following GUI appears. In this example, we use file name "sub-01_ses-mri_acq-mprage_T1w.nii.gz" from the anat folder.
 
-![Screen Shot 2022-12-11 at 3 35 19 PM](https://user-images.githubusercontent.com/1872705/206955411-513057c1-46e4-4f7c-ab77-c11493feedb0.png)
+![Screenshot 2025-10-28 at 13 53 16](https://github.com/user-attachments/assets/95e421ef-18c1-49c1-a3fb-f32beb3e8722)
 
 This will first pop up the fiducials. The fiducials are automatically aligned with the MR head image in this example. However, it is always good to check the alignment. We can see below that the fiducials are where we would expect them to be (the thin blue lines indicate their positions).
 
@@ -87,7 +87,7 @@ This will first pop up the fiducials. The fiducials are automatically aligned wi
 
 Then the MRI is segmented into the brain, skull, and scalp, and meshes are extracted. It is important to note that it is better to use Freesurfer to segment MRI and create meshes, as it is a more precise (albeit more time-consuming process). The [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) uses the "bemcp" method, a module external to Fieldtrip, to extract meshes. Again, this is the most cross-platform compatible solution but might not be the best one.
 
-![Screen Shot 2022-12-11 at 7 39 20 PM](https://user-images.githubusercontent.com/1872705/206955695-e1522efe-793e-4fcc-a3ed-4b8573db67cf.png)
+![Screenshot 2025-10-28 at 13 54 28](https://github.com/user-attachments/assets/149060b8-ec2e-4c98-b8c6-26de5691ddd2)
 
 Once this is done, call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Head model and settings</span>. We can see that the head model, MRI, and associated coordinate landmarks are blanked out. The graphic interface also shows that we are editing a custom head model in the Fieldtrip format.
 
@@ -107,7 +107,7 @@ When the anatomical MRI is not available, not all is lost. For example, this [pu
 
 One way to fix this and use a template head model is to use the location of the EEG channels when they are available. EEG channels are usually scanned in the same coordinate space as the MEG sensors, so aligning and stretching the MEG head model to match the channel coordinates should be able to fix the problem above. A *headshape.pos* file is also sometimes available along with the MEG. It contains data points lying on the head of the subject and may be used to align the MEG sensor space to the anatomical MRI. However, this file may also be used to align and stretch the EEGLAB template MEG boundary element model to match the subject's head. To use this file, create a random data array on the MATLAB command line with the same number of scanned positions *a=rand(150, 1000);* and import it as a MATLAB array. Then, call the channel editor and import the *headshape.pos* file as an *SFP* file. You can then align the scanned position with the BEM head model. Write down the homogeneous transformation matrix and reuse it for the MEG model alignment.
 
-Using templace head model for MEG
+Using template head models for MEG
 ---------------------------------
 Although it is preferable to use the subject's MRI, it is possible to use the template MNE head model with MEG data. The alignment between the head model and the sensors may be performed using Fiducials. EEG and MEG will use the same boundary element model. For MEG, only the inner surface of the model is being used. Model fitting is performed using FieldTrip.
 
