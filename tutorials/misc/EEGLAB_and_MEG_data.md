@@ -77,7 +77,7 @@ Then we select MEG channels since this dataset contains both EEG and MEG data. U
 
 ![Screen Shot 2022-12-23 at 3 37 38 PM](https://user-images.githubusercontent.com/1872705/209413866-4c6d647c-26da-465c-8527-db09ffc2e4ea.png)
 
-Then call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Create a head model from an MRI</span>. A window asks you to choose an MR head image, and the following GUI appears.
+Then call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Create a head model from an MRI</span>. A window asks you to choose an MR head image, and the following GUI appears. In this example, we use file name "sub-01_ses-mri_acq-mprage_T1w.nii.gz" from the anat folder.
 
 ![Screen Shot 2022-12-11 at 3 35 19 PM](https://user-images.githubusercontent.com/1872705/206955411-513057c1-46e4-4f7c-ab77-c11493feedb0.png)
 
