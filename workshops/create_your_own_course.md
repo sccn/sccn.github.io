@@ -5,6 +5,8 @@ long_title: Create your own course
 parent: Workshops
 nav_order: 1
 ---
+<img width="200" align="right"  alt="classroom" src="https://github.com/user-attachments/assets/61801614-5271-494d-a3b8-aaed15f10f57" />
+
 # Create Your Own EEG Course
 
 This [repository](https://github.com/sccn/EEGLAB_course) contains materials for EEGLAB course sessions. This course was originally conducted at the [practical MEEG 2025 workshop](https://cuttingeeg.org/practicalmeeg2025/). Although this course is centered on EEGLAB, 90% of the material is not EEGLAB-specific.
