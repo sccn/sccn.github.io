@@ -5,7 +5,7 @@ long_title: Create your own course
 parent: Workshops
 nav_order: 1
 ---
-<img width="200" align="right" style="float:right; margin:20px;"  alt="classroom" src="https://github.com/user-attachments/assets/7debac9b-c9dc-4d62-a5fe-a78e8e74899d" />
+<img width="296" height="297" align="right"  style="float:right; margin:20px;" alt="Screenshot 2025-11-16 at 16 08 33" src="https://github.com/user-attachments/assets/77258ef7-c340-4660-bb93-a1c7a358088c" />
 
 # Create Your Own EEG Course
 
