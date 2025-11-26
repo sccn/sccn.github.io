@@ -98,7 +98,7 @@ This opens an interactive window where you can:
 - Identify noisy channels or artifacts
 - Adjust the display scale and time window
 
-![Raw EMG Data Viewer](/assets/images/emg_tutorial/eegplot_raw_emg.png)
+![Raw EMG Data Viewer](/assets/images/emg_eegplot_raw.png)
 
 **Note for EMG:** The scrolling viewer works the same as for EEG, but expect:
 - Higher amplitude signals (µV to mV range)
@@ -139,7 +139,7 @@ This displays:
 - Frequency range up to 500 Hz (appropriate for EMG)
 - **Important**: We set `'freq', []` to disable topoplots - they are NOT meaningful for EMG data since electrodes are on forearm muscles, not scalp
 
-![EMG Power Spectrum](/assets/images/emg_tutorial/spectopo_emg.png)
+![EMG Power Spectrum](/assets/images/emg_spectopo.png)
 
 **Expected pattern:** Most EMG power should be concentrated in the 20-250 Hz range, with peaks around 50-150 Hz for muscle activity.
 
@@ -184,7 +184,7 @@ After filtering, you should see:
 - Cleaner baseline
 - Preserved event-related transients
 
-![Preprocessing Comparison](/assets/images/emg_tutorial/figure3_preprocessed_comparison.png)
+![Preprocessing Comparison](/assets/images/emg_preprocessed_comparison.png)
 
 ## Data cleaning with clean_rawdata
 
@@ -369,14 +369,14 @@ EEG.etc.envelope_cutoff = envelope_cutoff;
 
 ### Visualization: Why envelope is necessary
 
-![Envelope Computation](/assets/images/emg_tutorial/figure3c_envelope_computation.png)
+![Envelope Computation](/assets/images/emg_envelope_computation.png)
 
 This figure shows the three stages:
 1. **Filtered EMG** (gray): High-frequency oscillations around zero
 2. **Rectified EMG** (blue): All positive, but still noisy
 3. **Envelope** (red): Smooth curve showing muscle activation
 
-![Why Envelope Needed](/assets/images/emg_tutorial/figure3e_why_envelope_needed.png)
+![Why Envelope Needed](/assets/images/emg_envelope_needed.png)
 
 This comparison demonstrates:
 - **Left**: ERP from raw filtered EMG - noisy and weak
@@ -644,7 +644,7 @@ left_channels = [1 5 9 13];  % Sample across the array
 figure; pop_plotdata(EEG_a, 1, left_channels, 'EMG-ERP: Left Hand Key "a"');
 ```
 
-![EMG-ERP Using EEGLAB](/assets/images/emg_tutorial/pop_plottopo_emg.png)
+![EMG-ERP Lateralization](/assets/images/emg_erp_lateralization.png)
 
 **Important for EMG:**
 - EEGLAB's topoplot (scalp maps) is NOT meaningful for EMG data
