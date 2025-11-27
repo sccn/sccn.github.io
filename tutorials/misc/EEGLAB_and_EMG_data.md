@@ -31,6 +31,8 @@ This dataset is ideal for demonstrating EMG-ERP analysis because:
 
 EEGLAB can import BIDS-formatted EMG data using the [bids-matlab-tools](https://github.com/sccn/bids-matlab-tools) plugin. After starting EEGLAB, use menu item <span style="color: brown">File > Import data > From BIDS folder structure</span>.
 
+![BIDS Import Dialog](/assets/images/emg-bids-dialogbox-shot.png)
+
 Alternatively, you can import programmatically:
 
 ```matlab
@@ -50,6 +52,12 @@ session_id = 'ses-1620588853';
 
 EEG = ALLEEG(1);
 ```
+
+After import, EEGLAB shows the dataset information:
+
+![BIDS Import Result](/assets/images/emg-bidsimport-shot.png)
+
+![EEGLAB Interface](/assets/images/emg-eeglabview-shot.png)
 
 You can also load the BDF files directly:
 
@@ -98,7 +106,7 @@ This opens an interactive window where you can:
 - Identify noisy channels or artifacts
 - Adjust the display scale and time window
 
-![Raw EMG Data Viewer](/assets/images/emg_eegplot_raw.png)
+![Raw EMG Data Viewer](/assets/images/emg-rawdata-shot.png)
 
 **Note for EMG:** The scrolling viewer works the same as for EEG, but expect:
 - Higher amplitude signals (µV to mV range)
@@ -139,7 +147,7 @@ This displays:
 - Frequency range up to 500 Hz (appropriate for EMG)
 - **Important**: We set `'freq', []` to disable topoplots - they are NOT meaningful for EMG data since electrodes are on forearm muscles, not scalp
 
-![EMG Power Spectrum](/assets/images/emg_spectopo.png)
+![EMG Power Spectrum](/assets/images/emg-spectopo-shot.png)
 
 **Expected pattern:** Most EMG power should be concentrated in the 20-250 Hz range, with peaks around 50-150 Hz for muscle activity.
 
