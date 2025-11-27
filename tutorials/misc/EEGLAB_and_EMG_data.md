@@ -31,7 +31,7 @@ This dataset is ideal for demonstrating EMG-ERP analysis because:
 
 EEGLAB can import BIDS-formatted EMG data using the [bids-matlab-tools](https://github.com/sccn/bids-matlab-tools) plugin. After starting EEGLAB, use menu item <span style="color: brown">File > Import data > From BIDS folder structure</span>.
 
-![BIDS Import Dialog](/assets/images/emg-bids-dialogbox-shot.png)
+<img src="/assets/images/emg-bids-dialogbox-shot.png" alt="BIDS Import Dialog" style="width:60%">
 
 Alternatively, you can import programmatically:
 
@@ -57,7 +57,7 @@ After import, EEGLAB shows the dataset information:
 
 ![BIDS Import Result](/assets/images/emg-bidsimport-shot.png)
 
-![EEGLAB Interface](/assets/images/emg-eeglabview-shot.png)
+<img src="/assets/images/emg-eeglabview-shot.png" alt="EEGLAB Interface" style="width:60%">
 
 You can also load the BDF files directly:
 
