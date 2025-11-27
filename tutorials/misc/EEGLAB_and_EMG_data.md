@@ -386,13 +386,6 @@ This figure shows the four processing stages for two representative channels (le
 3. **Rectified** (purple): Absolute value of filtered signal - all values positive
 4. **Low-pass filter / linear envelope** (magenta): Smooth envelope (20 Hz cutoff) capturing muscle activation amplitude
 
-![Why Envelope Needed](/assets/images/emg_envelope_needed.png)
-
-This comparison demonstrates why the envelope is critical:
-- **Top row**: Filtered EMG epochs and resulting ERP - oscillations cancel out during averaging
-- **Middle row**: Envelope epochs and resulting ERP - clear event-related response
-- **Bottom**: Direct comparison showing filtered EMG ERP (blue, noisy) vs envelope ERP (red, clear)
-
 ### Parameters for envelope computation
 
 **Envelope low-pass cutoff frequency:**
