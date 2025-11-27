@@ -11,7 +11,7 @@ EEGLAB and iEEG, sEEG, or ECoG data
 EEGLAB supports reading most iEEG data formats (EDF, MEF3, NWB) through native code 
 or plugins. The BIDS-Matlab-tools EEGLAB plugin
 also supports importing BIDS-formatted MEG data. You may install plugins from the EEGLAB plugin manager (menu item <span style="color: brown">File > Manage EEGLAB extensions</span>). 
-
+Gre
 ## Importing data
 
 For example, after installing the MEF3 and BIDS-Matlab-tools plugins, you may import the 
