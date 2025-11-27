@@ -247,33 +247,7 @@ EEG = eeg_checkset(EEG);
    - Removes time windows where >25% of channels are bad
    - Useful for movement artifacts affecting multiple channels
 
-### Visual inspection after cleaning
-
-Always visualize the data after cleaning:
-
-```matlab
-% Plot scrolling data to inspect cleaning results
-pop_eegplot(EEG, 1, 1, 1);
-
-% Check which channels were removed
-if isfield(EEG.etc, 'clean_channel_mask')
-    removed_chans = find(~EEG.etc.clean_channel_mask);
-    fprintf('Removed %d channels: ', length(removed_chans));
-    for i = 1:length(removed_chans)
-        fprintf('%s ', EEG.chanlocs(removed_chans(i)).labels);
-    end
-    fprintf('\n');
-end
-
-% Check how much data was removed
-if isfield(EEG.etc, 'clean_sample_mask')
-    samples_removed = sum(~EEG.etc.clean_sample_mask);
-    pct_removed = 100 * samples_removed / length(EEG.etc.clean_sample_mask);
-    fprintf('Removed %.1f%% of data samples\n', pct_removed);
-end
-```
-
-### Alternative: Manual bad channel removal
+### Alternative to ASR: Manual bad channel removal
 
 If you prefer manual control:
 
