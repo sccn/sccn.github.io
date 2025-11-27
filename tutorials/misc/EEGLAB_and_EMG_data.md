@@ -357,7 +357,7 @@ EMG is a high-frequency oscillatory signal (20-250 Hz). When you average raw EMG
 The **linear envelope** preserves amplitude information while removing the problematic oscillations:
 
 1. **Rectification**: Take the absolute value (makes all values positive)
-2. **Low-pass filtering**: Smooth the rectified signal (~10 Hz)
+2. **Low-pass filtering**: Smooth the rectified signal (10-20 Hz)
 
 ```matlab
 % Step 1: Rectify the filtered EMG
@@ -379,17 +379,17 @@ EEG.etc.envelope_cutoff = envelope_cutoff;
 
 ![Envelope Computation](/assets/images/emg_envelope_computation.png)
 
-This figure shows the three stages:
-1. **Filtered EMG** (gray): High-frequency oscillations around zero
-2. **Rectified EMG** (blue): All positive, but still noisy
-3. **Envelope** (red): Smooth curve showing muscle activation
+This figure shows the envelope computation stages for several channels:
+- **Gray**: Original filtered EMG with high-frequency oscillations
+- **Blue**: Rectified EMG (absolute value) - all positive but noisy
+- **Red**: Smoothed envelope - captures muscle activation amplitude
 
 ![Why Envelope Needed](/assets/images/emg_envelope_needed.png)
 
-This comparison demonstrates:
-- **Left**: ERP from raw filtered EMG - noisy and weak
-- **Right**: ERP from envelope - clear and interpretable
-- The envelope typically provides **3-10x better signal-to-noise ratio**
+This comparison demonstrates why the envelope is critical:
+- **Top row**: Filtered EMG epochs and resulting ERP - oscillations cancel out during averaging
+- **Middle row**: Envelope epochs and resulting ERP - clear event-related response
+- **Bottom**: Direct comparison showing filtered EMG ERP (blue, noisy) vs envelope ERP (red, clear)
 
 ### Parameters for envelope computation
 
@@ -614,8 +614,8 @@ EEG_k = pop_epoch(EEG, {'keystroke_k'}, [epoch_start epoch_end]);
 EEG_k = pop_rmbase(EEG_k, baseline_window * 1000);
 
 % Compute ERPs from envelope (average across trials)
-ERP_a_left = mean(EEG_a.data(left_channels, :, :), 3);
-ERP_k_right = mean(EEG_k.data(right_channels, :, :), 3);
+ERP_a_left = mean(EEG_a.data(left_wristband, :, :), 3);
+ERP_k_right = mean(EEG_k.data(right_wristband, :, :), 3);
 ```
 
 ### Visualizing EMG-ERPs with EEGLAB
