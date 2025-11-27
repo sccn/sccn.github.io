@@ -615,11 +615,11 @@ figure; pop_plottopo(EEG_a, [1:16], 'EMG-ERP for key "a" (left channels)', ...
     0, 'ydir', 1);
 ```
 
-This figure shows EMG-ERPs for keystroke 'a' (typed with the left pinky finger) across all 16 channels of the left wristband. The envelope data from Step 2b is used, ensuring the averaged signal reflects muscle activation amplitude rather than canceling out.
+This figure shows EMG-ERPs for all burst-initial keystrokes, separated by hand (left vs right) and wristband. All 32 channels are displayed across four panels, using envelope data from Step 2b. Burst-initial keystrokes (preceded by >500ms pause) are used to avoid epoch overlap from rapid typing.
 
 ![Individual Channel ERPs](/assets/images/emg_all_channels.png)
 
-Key 'a' was chosen because it has high trial counts in this typing dataset, providing good signal-to-noise ratio. When comparing keys with different frequencies (e.g., 'a' vs 'k'), balance trial counts using random subsampling as described in the [Balancing trial counts](#balancing-trial-counts-for-fair-comparison) section above.
+Note the **contralateral activation pattern**: left hand keys show stronger activation in the left wristband (top-left), while right hand keys show stronger activation in the right wristband (bottom-right). When comparing conditions with different trial counts, use random subsampling as described in the [Balancing trial counts](#balancing-trial-counts-for-fair-comparison) section above.
 
 **Important for EMG:**
 - EEGLAB's topoplot (scalp maps) is NOT meaningful for EMG data
