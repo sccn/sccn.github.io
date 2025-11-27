@@ -377,6 +377,49 @@ This figure shows the four processing stages for two representative channels (le
 3. **Rectified** (purple): Absolute value of filtered signal - all values positive
 4. **Low-pass filter / linear envelope** (magenta): Smooth envelope (20 Hz cutoff) capturing muscle activation amplitude
 
+Code to generate this visualization:
+
+```matlab
+%% Visualize the envelope computation process
+figure('Position', [100, 100, 1200, 800]);
+
+% Select a time window with keystroke events (6 seconds)
+time_window = [60, 66];
+samples_window = round(time_window * EEG.srate);
+time_vec = (samples_window(1):samples_window(2)-1) / EEG.srate;
+
+% Select two representative channels (one left, one right wristband)
+channels_to_plot = [1, 17];  % EMG0 (left), EMG16 (right)
+channel_names = {'Left Wristband (EMG0)', 'Right Wristband (EMG16)'};
+
+% Colors for each stage
+colors = {[0.2 0.4 0.8], [0.3 0.7 0.3], [0.6 0.3 0.7], [0.8 0.2 0.5]};
+stage_labels = {'raw signal', 'band-pass filter', 'rectified', 'low-pass filter (envelope)'};
+
+for col = 1:length(channels_to_plot)
+    chan_idx = channels_to_plot(col);
+
+    % Get data for each stage (assuming EEG_raw, EEG_filtered, EEG are available)
+    data_raw = EEG_raw.data(chan_idx, samples_window(1)+1:samples_window(2));
+    data_bandpass = EEG_filtered.data(chan_idx, samples_window(1)+1:samples_window(2));
+    data_rectified = abs(data_bandpass);
+    data_envelope = EEG.data(chan_idx, samples_window(1)+1:samples_window(2));
+
+    all_data = {data_raw, data_bandpass, data_rectified, data_envelope};
+
+    for row = 1:4
+        subplot(4, 2, (row-1)*2 + col);
+        plot(time_vec, all_data{row}, 'Color', colors{row}, 'LineWidth', 1);
+
+        if row == 1, title(channel_names{col}); end
+        if row == 4, xlabel('Time (s)'); end
+        if col == 1, ylabel(stage_labels{row}); end
+        grid on;
+    end
+end
+sgtitle('Linear Envelope Computation Process');
+```
+
 ### Parameters for envelope computation
 
 **Envelope low-pass cutoff frequency:**
@@ -422,166 +465,9 @@ baseline_window = [-0.5, -0.1];  % seconds
 EEG = pop_rmbase(EEG, baseline_window * 1000);  % Convert to ms
 ```
 
-## Balancing trial counts for fair comparison
-
-**Important:** When comparing ERPs across conditions, unequal trial counts can bias results due to different signal-to-noise ratios.
-
-### Why trial balancing matters
-
-In typing data, key occurrence varies dramatically:
-- Common keys (e, t, a): 200-500 occurrences
-- Rare keys (z, q, x): 5-20 occurrences
-
-**Problems with unbalanced comparisons:**
-- High-trial-count condition has better SNR (lower noise)
-- Statistical comparisons are biased
-- Visual differences may reflect SNR, not true effects
-
-### Strategy 1: Select keys with similar counts
-
-```matlab
-% Count occurrences for each keystroke type
-keystroke_counts = struct();
-
-for i = 1:length(EEG.event)
-    if contains(EEG.event(i).type, 'keystroke_')
-        key_type = EEG.event(i).type;
-        if ~isfield(keystroke_counts, key_type)
-            keystroke_counts.(key_type) = 0;
-        end
-        keystroke_counts.(key_type) = keystroke_counts.(key_type) + 1;
-    end
-end
-
-% Display sorted by count
-key_names = fieldnames(keystroke_counts);
-key_values = cellfun(@(x) keystroke_counts.(x), key_names);
-[sorted_values, sort_idx] = sort(key_values, 'descend');
-
-fprintf('Keystroke occurrence counts:\n');
-for i = 1:length(key_names)
-    fprintf('  %s: %d\n', key_names{sort_idx(i)}, sorted_values(i));
-end
-
-% Select keys with similar counts for comparison
-% Example: Compare 'a' (left hand) vs 'k' (right hand)
-% Only if they have similar trial counts (within 20%)
-count_a = keystroke_counts.keystroke_a;
-count_k = keystroke_counts.keystroke_k;
-
-if abs(count_a - count_k) / mean([count_a, count_k]) < 0.2
-    fprintf('\nKeys "a" and "k" have similar trial counts - good for comparison\n');
-else
-    fprintf('\nWarning: Keys "a" and "k" have different trial counts\n');
-    fprintf('Consider subsampling the higher-count condition\n');
-end
-```
-
-### Strategy 2: Subsample high-count condition
-
-```matlab
-% Match trial counts by random subsampling
-% Example: Balance key 'e' (high count) with key 'x' (low count)
-
-% Extract epochs
-EEG_e = pop_epoch(EEG, {'keystroke_e'}, [epoch_start epoch_end]);
-EEG_x = pop_epoch(EEG, {'keystroke_x'}, [epoch_start epoch_end]);
-
-fprintf('Before balancing:\n');
-fprintf('  Key "e": %d trials\n', EEG_e.trials);
-fprintf('  Key "x": %d trials\n', EEG_x.trials);
-
-% Determine minimum trial count
-min_trials = min(EEG_e.trials, EEG_x.trials);
-
-% Randomly select trials to match
-if EEG_e.trials > min_trials
-    % Subsample key 'e'
-    rng(42);  % Set seed for reproducibility
-    selected_trials = randperm(EEG_e.trials, min_trials);
-    EEG_e = pop_select(EEG_e, 'trial', selected_trials);
-end
-
-if EEG_x.trials > min_trials
-    % Subsample key 'x'
-    rng(42);
-    selected_trials = randperm(EEG_x.trials, min_trials);
-    EEG_x = pop_select(EEG_x, 'trial', selected_trials);
-end
-
-fprintf('After balancing:\n');
-fprintf('  Key "e": %d trials\n', EEG_e.trials);
-fprintf('  Key "x": %d trials\n', EEG_x.trials);
-
-% Now compute ERPs with equal SNR
-ERP_e = mean(EEG_e.data, 3);
-ERP_x = mean(EEG_x.data, 3);
-```
-
-### Strategy 3: Bootstrap confidence intervals
-
-For unequal trial counts, use bootstrap to estimate uncertainty:
-
-```matlab
-% Compute ERP with confidence intervals using bootstrap
-n_bootstrap = 1000;
-
-% Example: Key 'a' with many trials
-EEG_a = pop_epoch(EEG, {'keystroke_a'}, [epoch_start epoch_end]);
-n_trials = EEG_a.trials;
-n_timepoints = EEG_a.pnts;
-
-% Select channel and initialize
-chan_idx = 1;
-bootstrap_erps = zeros(n_bootstrap, n_timepoints);
-
-% Bootstrap resampling
-rng(42);
-for i = 1:n_bootstrap
-    % Resample trials with replacement
-    trial_indices = randi(n_trials, n_trials, 1);
-    bootstrap_erps(i, :) = mean(squeeze(EEG_a.data(chan_idx, :, trial_indices)), 2);
-end
-
-% Compute mean and confidence intervals
-erp_mean = mean(bootstrap_erps, 1);
-erp_ci_lower = prctile(bootstrap_erps, 2.5, 1);  % 95% CI
-erp_ci_upper = prctile(bootstrap_erps, 97.5, 1);
-
-% Plot with confidence intervals
-time_vec = EEG_a.times / 1000;
-figure;
-fill([time_vec, fliplr(time_vec)], ...
-     [erp_ci_lower, fliplr(erp_ci_upper)], ...
-     'b', 'FaceAlpha', 0.2, 'EdgeColor', 'none');
-hold on;
-plot(time_vec, erp_mean, 'b', 'LineWidth', 2);
-plot([0, 0], ylim, 'r--', 'LineWidth', 1.5);
-xlabel('Time (s)');
-ylabel('Amplitude (\muV)');
-title('ERP with 95% Bootstrap Confidence Intervals');
-grid on;
-```
-
-### Recommendations
-
-For ERP comparisons:
-
-1. **Same-hand comparisons** (e.g., different fingers): Use keys with similar occurrence
-   - Example: 'a', 'e', 't' all have high counts for left hand
-
-2. **Left vs right hand**: Balance trial counts by subsampling
-   - Example: Match 'a' (left) with 'k' (right) by subsampling
-
-3. **Statistical testing**: Always report trial counts
-   - Use bootstrap or permutation tests for significance
-   - Account for unequal variance if trial counts differ
-
-4. **Minimum trial count**: Aim for at least 30 trials per condition
-   - Fewer trials = noisy ERPs
-   - More trials = better SNR but diminishing returns beyond ~100
-
 ## Computing EMG-ERPs
+
+**Note on trial balancing:** When comparing ERPs across conditions with different trial counts (e.g., common keys like 'e' vs rare keys like 'x'), consider randomly subsampling the higher-count condition using `pop_select(EEG, 'trial', randperm(EEG.trials, n))` to match trial counts and ensure equal signal-to-noise ratios.
 
 EMG-ERPs are computed by averaging **envelope data** across trials:
 
@@ -621,51 +507,12 @@ This figure shows EMG-ERPs for all burst-initial keystrokes, separated by hand (
 
 **Trial selection**: Only burst-initial keystrokes (preceded by >500ms pause) are included to avoid epoch overlap from rapid typing. From approximately 4,000 total keystrokes in this recording session, the burst-initial criterion selects ~100-300 epochs per hand—sufficient for reliable EMG-ERPs while ensuring clean baselines. The exact epoch counts are shown in the figure title.
 
-Note the **contralateral activation pattern**: left-hand keys (a, s, d, e, r, ...) show stronger activation in the left wristband (top-left), while right-hand keys (k, l, j, i, o, ...) show stronger activation in the right wristband (bottom-right). When comparing conditions with different trial counts, use random subsampling as described in the [Balancing trial counts](#balancing-trial-counts-for-fair-comparison) section above.
+Note the **contralateral activation pattern**: left-hand keys (a, s, d, e, r, ...) show stronger activation in the left wristband (top-left), while right-hand keys (k, l, j, i, o, ...) show stronger activation in the right wristband (bottom-right).
 
 **Important for EMG:**
 - EEGLAB's topoplot (scalp maps) is NOT meaningful for EMG data
 - Focus on channel ERPs and time-course plots
 - Compare ERPs across channels on the same limb
-
-## Comparing conditions with EEGLAB
-
-### Comparing multiple conditions
-
-To compare ERPs across different conditions (e.g., different keys or hands), use EEGLAB's comparison tools:
-
-**Method 1: Overlay plots for selected channels**
-
-```matlab
-% Compare key 'a' (left hand) vs key 'k' (right hand) for specific channels
-% Use EEGLAB menu: Plot > Channel ERPs > With scalp maps
-% Then select specific channels and conditions
-
-% Or from command line:
-% First, select left-hand channels for key 'a'
-figure; pop_plotdata(EEG_a, 1, [1 5 9], 'Key "a" - Left hand channels');
-
-% Then, select right-hand channels for key 'k'
-figure; pop_plotdata(EEG_k, 1, [17 21 25], 'Key "k" - Right hand channels');
-```
-
-**Method 2: Compare using EEGLAB's STUDY framework**
-
-For systematic comparison across multiple subjects or conditions:
-
-```matlab
-% Create a STUDY structure with multiple datasets
-% Use EEGLAB menu: File > Create study > Browse for datasets
-% Then use: Study > Precompute channel measures
-% Finally: Study > Plot channel measures
-
-% This allows statistical comparison across conditions
-```
-
-**Expected patterns:**
-- **Contralateral dominance**: Stronger activation in the hand performing the keystroke
-- **Timing differences**: Peak latency may differ between hands
-- **Amplitude differences**: May vary based on finger position and force
 
 ## Key differences: EMG vs EEG
 
