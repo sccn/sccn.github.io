@@ -615,11 +615,13 @@ figure; pop_plottopo(EEG_a, [1:16], 'EMG-ERP for key "a" (left channels)', ...
     0, 'ydir', 1);
 ```
 
-This figure shows EMG-ERPs for all burst-initial keystrokes, separated by hand (left vs right) and wristband. All 32 channels are displayed across four panels, using envelope data from Step 2b. Burst-initial keystrokes (preceded by >500ms pause) are used to avoid epoch overlap from rapid typing.
+This figure shows EMG-ERPs for all burst-initial keystrokes, separated by hand (left vs right) and wristband. All 32 channels are displayed across four panels, using envelope data from Step 2b.
 
 ![Individual Channel ERPs](/assets/images/emg_all_channels.png)
 
-Note the **contralateral activation pattern**: left hand keys show stronger activation in the left wristband (top-left), while right hand keys show stronger activation in the right wristband (bottom-right). When comparing conditions with different trial counts, use random subsampling as described in the [Balancing trial counts](#balancing-trial-counts-for-fair-comparison) section above.
+**Trial selection**: Only burst-initial keystrokes (preceded by >500ms pause) are included to avoid epoch overlap from rapid typing. From approximately 4,000 total keystrokes in this recording session, the burst-initial criterion selects ~200-400 epochs per hand—sufficient for reliable EMG-ERPs while ensuring clean baselines. The exact epoch counts are shown in the figure title.
+
+Note the **contralateral activation pattern**: left-hand keys (a, s, d, e, r, ...) show stronger activation in the left wristband (top-left), while right-hand keys (k, l, j, i, o, ...) show stronger activation in the right wristband (bottom-right). When comparing conditions with different trial counts, use random subsampling as described in the [Balancing trial counts](#balancing-trial-counts-for-fair-comparison) section above.
 
 **Important for EMG:**
 - EEGLAB's topoplot (scalp maps) is NOT meaningful for EMG data
