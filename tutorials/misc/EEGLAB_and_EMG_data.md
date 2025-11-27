@@ -619,7 +619,7 @@ This figure shows EMG-ERPs for all burst-initial keystrokes, separated by hand (
 
 ![Individual Channel ERPs](/assets/images/emg_all_channels.png)
 
-**Trial selection**: Only burst-initial keystrokes (preceded by >500ms pause) are included to avoid epoch overlap from rapid typing. From approximately 4,000 total keystrokes in this recording session, the burst-initial criterion selects ~200-400 epochs per hand—sufficient for reliable EMG-ERPs while ensuring clean baselines. The exact epoch counts are shown in the figure title.
+**Trial selection**: Only burst-initial keystrokes (preceded by >500ms pause) are included to avoid epoch overlap from rapid typing. From approximately 4,000 total keystrokes in this recording session, the burst-initial criterion selects ~100-300 epochs per hand—sufficient for reliable EMG-ERPs while ensuring clean baselines. The exact epoch counts are shown in the figure title.
 
 Note the **contralateral activation pattern**: left-hand keys (a, s, d, e, r, ...) show stronger activation in the left wristband (top-left), while right-hand keys (k, l, j, i, o, ...) show stronger activation in the right wristband (bottom-right). When comparing conditions with different trial counts, use random subsampling as described in the [Balancing trial counts](#balancing-trial-counts-for-fair-comparison) section above.
 
