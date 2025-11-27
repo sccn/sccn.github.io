@@ -375,14 +375,16 @@ EEG.etc.is_envelope = true;
 EEG.etc.envelope_cutoff = envelope_cutoff;
 ```
 
-### Visualization: Why envelope is necessary
+### Visualization: Linear envelope computation
 
 ![Envelope Computation](/assets/images/emg_envelope_computation.png)
 
-This figure shows the envelope computation stages for several channels:
-- **Gray**: Original filtered EMG with high-frequency oscillations
-- **Blue**: Rectified EMG (absolute value) - all positive but noisy
-- **Red**: Smoothed envelope - captures muscle activation amplitude
+This figure shows the four processing stages for two representative channels (left and right wristband). The red dashed line marks a keystroke event:
+
+1. **Raw signal** (blue): Unfiltered EMG with baseline noise and drift
+2. **Band-pass filter** (green): 20-250 Hz filtered EMG - removes low-frequency drift and high-frequency noise
+3. **Rectified** (purple): Absolute value of filtered signal - all values positive
+4. **Low-pass filter / linear envelope** (magenta): Smooth envelope (20 Hz cutoff) capturing muscle activation amplitude
 
 ![Why Envelope Needed](/assets/images/emg_envelope_needed.png)
 
