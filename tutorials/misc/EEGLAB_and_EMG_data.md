@@ -646,6 +646,10 @@ figure; pop_plotdata(EEG_a, 1, left_channels, 'EMG-ERP: Left Hand Key "a"');
 
 ![EMG-ERP Lateralization](/assets/images/emg_erp_lateralization.png)
 
+The figure below shows individual channel ERPs, allowing you to see the variability across electrodes on each wristband:
+
+![Individual Channel ERPs](/assets/images/emg_all_channels.png)
+
 **Important for EMG:**
 - EEGLAB's topoplot (scalp maps) is NOT meaningful for EMG data
 - Focus on channel ERPs and time-course plots
