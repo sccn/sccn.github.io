@@ -712,8 +712,6 @@ For systematic comparison across multiple subjects or conditions:
 
 - **Dataset**: [emg2qwerty on NEMAR](https://nemar.org/dataexplorer/detail?dataset_id=nm000104)
 - **Paper**: [emg2qwerty at NeurIPS 2024](https://arxiv.org/abs/2410.20081)
-- **Code repository**: [EMG-2-BIDS on GitHub](https://github.com/sccn/EMG-2-BIDS)
-- **BIDS-EMG specification**: [BIDS EEG/EMG](https://bids-specification.readthedocs.io/en/stable/04-modality-specific-files/03-electroencephalography.html)
 
 ## Related tutorials
 
