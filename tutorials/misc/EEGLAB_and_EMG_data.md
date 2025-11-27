@@ -615,9 +615,11 @@ figure; pop_plottopo(EEG_a, [1:16], 'EMG-ERP for key "a" (left channels)', ...
     0, 'ydir', 1);
 ```
 
-This displays ERPs for all channels, showing the variability across electrodes on each wristband:
+This figure shows EMG-ERPs for keystroke 'a' (typed with the left pinky finger) across all 16 channels of the left wristband. The envelope data from Step 2b is used, ensuring the averaged signal reflects muscle activation amplitude rather than canceling out.
 
 ![Individual Channel ERPs](/assets/images/emg_all_channels.png)
+
+Key 'a' was chosen because it has high trial counts in this typing dataset, providing good signal-to-noise ratio. When comparing keys with different frequencies (e.g., 'a' vs 'k'), balance trial counts using random subsampling as described in the [Balancing trial counts](#balancing-trial-counts-for-fair-comparison) section above.
 
 **Important for EMG:**
 - EEGLAB's topoplot (scalp maps) is NOT meaningful for EMG data
