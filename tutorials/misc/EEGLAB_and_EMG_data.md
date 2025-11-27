@@ -185,15 +185,6 @@ bad_chan_idx = find(channel_vars < mean_var - 3*std_var | ...
                     channel_vars > mean_var + 3*std_var);
 ```
 
-### Comparison: Original vs Filtered
-
-After filtering, you should see:
-- Reduced low-frequency drift
-- Cleaner baseline
-- Preserved event-related transients
-
-![Preprocessing Comparison](/assets/images/emg_preprocessed_comparison.png)
-
 ## Data cleaning with clean_rawdata
 
 **Important:** EMG data can have extremely noisy channels or bad segments. These must be cleaned BEFORE computing the envelope, otherwise artifacts will be preserved in the ERP.
@@ -617,8 +608,6 @@ ERP_k_right = mean(EEG_k.data(right_wristband, :, :), 3);
 
 Use EEGLAB's ERP plotting functions to visualize event-related muscle activation:
 
-**Option 1: Plot ERPs for all channels**
-
 ```matlab
 % Use EEGLAB menu: Plot > Channel ERPs > In rectangular array
 % Or from command line:
@@ -626,37 +615,13 @@ figure; pop_plottopo(EEG_a, [1:16], 'EMG-ERP for key "a" (left channels)', ...
     0, 'ydir', 1);
 ```
 
-This displays ERPs for multiple channels in a grid layout, making it easy to compare activation patterns across the electrode array.
-
-**Option 2: Plot average ERP with scalp maps** (less useful for EMG)
-
-```matlab
-% For EMG, we typically skip topographic maps since they don't represent brain activity
-% Instead, plot channel ERPs directly:
-figure; pop_plotdata(EEG_a, 1, [1:8], 'EMG-ERP: Selected Channels');
-```
-
-**Option 3: Overlay ERPs for specific channels**
-
-```matlab
-% Select representative left-hand channels
-left_channels = [1 5 9 13];  % Sample across the array
-
-% Use EEGLAB menu: Plot > Channel ERPs > With scalp maps
-% Or plot selected channels:
-figure; pop_plotdata(EEG_a, 1, left_channels, 'EMG-ERP: Left Hand Key "a"');
-```
-
-![EMG-ERP Lateralization](/assets/images/emg_erp_lateralization.png)
-
-The figure below shows individual channel ERPs, allowing you to see the variability across electrodes on each wristband:
+This displays ERPs for all channels, showing the variability across electrodes on each wristband:
 
 ![Individual Channel ERPs](/assets/images/emg_all_channels.png)
 
 **Important for EMG:**
 - EEGLAB's topoplot (scalp maps) is NOT meaningful for EMG data
 - Focus on channel ERPs and time-course plots
-- Use `pop_plottopo()` without the topographic map option
 - Compare ERPs across channels on the same limb
 
 ## Comparing conditions with EEGLAB
@@ -697,42 +662,6 @@ For systematic comparison across multiple subjects or conditions:
 - **Contralateral dominance**: Stronger activation in the hand performing the keystroke
 - **Timing differences**: Peak latency may differ between hands
 - **Amplitude differences**: May vary based on finger position and force
-
-## Complete pipeline script
-
-A complete pipeline for EMG-ERP analysis is available in the [EMG-2-BIDS repository](https://github.com/sccn/EMG-2-BIDS). The pipeline includes:
-
-1. **step1_load_bids_data.m** - Import BIDS-formatted EMG data (includes sanity checks: raw data plots, events, PSD)
-2. **step2_preprocess_emg.m** - Bandpass filter (20-250 Hz) and check channel quality
-3. **step2a_clean_data.m** - Clean data with ASR and remove bad channels/segments (optional but recommended)
-4. **step2b_compute_envelope.m** - Compute linear envelope (CRITICAL: rectify + 20 Hz low-pass)
-5. **step3_epoch_and_select.m** - Extract epochs using burst-initial keystrokes (keystrokes after 500ms pause)
-6. **step4_compute_erp.m** - Compute and visualize EMG-ERPs with lateralization analysis
-
-Run the complete pipeline:
-
-```matlab
-% Add EEGLAB to path
-addpath('/path/to/eeglab');
-eeglab nogui;
-
-% Navigate to tutorial scripts
-cd /path/to/EMG-2-BIDS/tutorial_scripts
-
-% Run all steps
-run_all_steps
-```
-
-**Critical steps:**
-- **step2a_clean_data.m**: Remove artifacts and bad segments (highly recommended for noisy sessions)
-- **step2b_compute_envelope.m**: Creates the linear envelope needed for meaningful EMG-ERP analysis
-
-**Recommended workflow:**
-```
-Load → Sanity Checks → Filter (20-250 Hz) → Clean (ASR) → Envelope (20 Hz) → Epoch (burst-initial) → ERP
-```
-
-**Note on epoching**: For rapid typing data (~5 keystrokes/second), standard epochs overlap heavily. Using "burst-initial" keystrokes (those preceded by >500ms pause) provides cleaner baselines and clearer ERPs.
 
 ## Key differences: EMG vs EEG
 
