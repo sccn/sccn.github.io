@@ -79,6 +79,11 @@ layout: table_wrappers
           </div>
           <div id="search-results" class="search-results"></div>
         </div>
+        {% if site.search.button %}
+          <a href="#" id="search-button" class="search-button">
+            <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-search"></use></svg>
+          </a>
+        {% endif %}
       {% endif %}
       {% include header_custom.html %}
       {% if site.aux_links %}
@@ -189,12 +194,6 @@ layout: table_wrappers
     </div>
 
     {% if site.search_enabled != false %}
-      {% if site.search.button %}
-        <a href="#" id="search-button" class="search-button">
-          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-search"></use></svg>
-        </a>
-      {% endif %}
-
       <div class="search-overlay"></div>
     {% endif %}
   </div>
@@ -204,7 +203,15 @@ layout: table_wrappers
 <script src="https://osa-demo.pages.dev/osa-chat-widget.js"></script>
 <script>
   OSAChatWidget.setConfig({
-    communityId: 'eeglab'
+    communityId: 'eeglab',
+    title: 'EEGLAB Assistant',
+    initialMessage: 'Hi, I am the EEGLAB Assistant. I can help you with EEG data analysis, scripting, troubleshooting, and more. What can I help you with?',
+    placeholder: 'Ask about EEGLab...',
+    suggestedQuestions: [
+      'How do I import my EEG data?',
+      'How do I run ICA?',
+      'How do I remove artifacts?'
+    ]
   });
 </script>
 </body>
