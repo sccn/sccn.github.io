@@ -39,7 +39,7 @@ Restart EEGLAB. If the installation is successful, a menu item to call IMAT, **T
 1. Since IMAT is working on brain sources derived using Independent Component Analysis (ICA) you need to decompose the EEG data into Independent Components (ICs) using ICA decomposition before running IMAT. A description on how to preprocess EEG data and run ICA can be found in the [eeglab Wiki](https://eeglab.org/tutorials/06_RejectArtifacts/RunICA.html#run-ica).
 2. For component selection and clustering it is of advantage to also estimate equivalent current dipole models for the brain-based ICs. 
 3. For automatic selection of components you need to install the EEGLAB plug-in [IC Label](https://sccn.ucsd.edu/wiki/ICLabel)  
-4. For plotting dipole density of clusters you need to install the EEGLAB plug-in Fieldtrip lite.   
+4. For plotting dipole density of clusters you need to install the EEGLAB plug-in FieldTrip lite.   
 5. IMAT can handle either epoched or continuous data. Be aware that for epoched data, the epochs should have length to accommodate at least 3 cycles of the lowest frequency at which IMA is to be computed. 
 
 Please refer to the section above on how to install EEGLAB plug-ins. 

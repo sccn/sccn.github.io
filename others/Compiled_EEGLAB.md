@@ -205,8 +205,8 @@ git clone --recurse-submodules https://github.com/sccn/eeglab.git
 
 2. Install additional plugins (already installed plugins will
 be skipped). Some folders from the plugins clean_rawdata
-and Fieldtrip should
-be removed to avoid compilation issues. **Do not use the GIT version of Fieldtrip.** as it makes the release 1.5Gb instead of 200Mb. Instead get the latest plugin. Use the
+and FieldTrip should
+be removed to avoid compilation issues. **Do not use the GIT version of FieldTrip.** as it makes the release 1.5Gb instead of 200Mb. Instead get the latest plugin. Use the
 following script to install plugins and remove these folders:
 
 ```matlab
@@ -214,7 +214,7 @@ eeglab  % restart the fleshly installed eeglab
 
 % Installing plugins
 plugin_askinstall('ANTeepimport', 'eegplugin_eepimport', true);
-plugin_askinstall('Fieldtrip-lite', 'ft_defaults', true);
+plugin_askinstall(' Fieldtrip-lite', 'ft_defaults', true);
 plugin_askinstall('Fileio', 'ft_read_data', true);
 plugin_askinstall('IClabel', 'eegplugin_iclabel', true);
 plugin_askinstall('PICARD', 'picard', true);
@@ -247,7 +247,7 @@ iclabel_folder = fileparts(which('iclabel.m'));
 % rmdir(fullfile(iclabel_folder,'matconvnet','examples'), 's'); % not there any more?
 
 % Removing FieldTrip files
-% For Fieldtrip remove folders compat, external/afni, external/spm8, external/spm12, external/gifti, external/eeglab, external/bemcp and external/npmk
+% For FieldTrip remove folders compat, external/afni, external/spm8, external/spm12, external/gifti, external/eeglab, external/bemcp and external/npmk
 FieldTrip_folder = fileparts(which('ft_defaults.m'));
 rmdir(fullfile(FieldTrip_folder,'compat'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','afni'), 's');
@@ -314,6 +314,6 @@ Adding new plugins
 
 | Plugin name       | Comment                                                                                               |
 |-------------------|-------------------------------------------------------------------------------------------------------|
-| Biosig            | Path issue for compiler. Using the version included in Fieldtrip                                                           |
+| Biosig            | Path issue for compiler. Using the version included in FieldTrip                                                           |
 | MFFMatlabIO       | Issue with finding the JAR file at execution time; more debugging necessary before inclusion possible |
 | bids-matlab-tools | Not tested                                                                                            |

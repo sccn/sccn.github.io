@@ -100,7 +100,7 @@ If it opens without errors, you're all set for the workshop!
 
 This is step is critical or a lot of the excercises will not run. This is the list of plugins to downlaod:
 * File-IO
-* Fieldtrip-lite
+*  Fieldtrip-lite
 * LIMO
 
 It is best to use the EEGLAB plugin manager (EEGLAB menu item **File > Manage extension** and to select the plugins to install).

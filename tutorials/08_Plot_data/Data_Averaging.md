@@ -240,7 +240,7 @@ When you have finished the co-registration, simply click *Ok* and a
 vector of 9 new channel alignment values (shift, in 3-D; rotation, in
 3-D; scaling, in 3-D) will be copied back to the *Talairach-model transformation matrix* field of the interactive [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m) window. For more information about channel co-registration, see the [source reconstruction tutorial](/tutorials/09_source/DIPFIT.html).
 
-Note that it is possible, and relatively easy, to generate custom [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m) head meshes. This may be done using Freesurfer or [Fieldtrip](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/).
+Note that it is possible, and relatively easy, to generate custom [headplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=headplot.m) head meshes. This may be done using Freesurfer or [FieldTrip](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/).
 
 Comparing different conditions and performing statistics
 ---------------------------

@@ -64,25 +64,25 @@ We have written a simple [plugin](https://github.com/sccn/erpsource) for that pu
 This plugin was designed in a minimalist fashion so it could be used as a template for other similar plugins.
 Its graphical output is the same as the script shown in the next section.
 
-Advanced source reconstruction using DIPFIT/Fieldtrip
+Advanced source reconstruction using DIPFIT/FieldTrip
 --------
 
-Background: DIPFIT relies on Fieldtrip, though in fact, DIPFIT was also an ancestor
-of Fieldtrip: when Robert Oostenveld, the first Fieldtrip developer,
+Background: DIPFIT relies on FieldTrip, though in fact, DIPFIT was also an ancestor
+of FieldTrip: when Robert Oostenveld, the first FieldTrip developer,
 decided to release source imaging functions he had developed during his
 dissertation work, he first packaged them in EEGLAB as DIPFIT. A few
-years later, when he and his collaborators released Fieldtrip (also
-running on MATLAB), we reworked DIPFIT so it would use the Fieldtrip
+years later, when he and his collaborators released FieldTrip (also
+running on MATLAB), we reworked DIPFIT so it would use the FieldTrip
 functions that Robert and colleagues planned to and have since
-maintained for use in Fieldtrip. Below is a short tutorial on how to
-perform source modeling using Fieldtrip applied to data in an EEGLAB
+maintained for use in FieldTrip. Below is a short tutorial on how to
+perform source modeling using FieldTrip applied to data in an EEGLAB
 dataset.
 
 Implementation: First, use DIPFIT to align the electrode
 locations with a head model of choice (menu item <span style="color: brown">Tools → Locate
 dipoles using DIPFIT → Head model and settings</span>). The resulting DIPFIT
 information may then be used to perform source localization in
-Fieldtrip.
+FieldTrip.
 
 ### Performing source reconstruction in a volume
 
@@ -106,7 +106,7 @@ EEG = pop_dipfit_settings( EEG, 'hdmfile',fullfile(bemPath, 'standard_vol.mat'),
            'chansel',[1:32] );
 ```
 
-Then calculate a volumetric leadfield matrix using Fieldtrip function
+Then calculate a volumetric leadfield matrix using FieldTrip function
 *ft_prepare_leadfield*. Note that the head model is also used to
 assess whether a given voxel is within or outside the brain.
 
@@ -136,12 +136,12 @@ Then use the now generated leadfield matrix to perform source
 reconstruction. Below, we provide a simple example, to model putative
 sources of ERP features using eLoreta. Here, eLoreta may be replaced by
 other approaches, such as Dynamical Imaging of Coherent Sources 'dics'
-(see the Fieldtrip [tutorial
+(see the FieldTrip [tutorial
 page](http://www.fieldtriptoolbox.org/tutorial/beamformer) from which
 this section is inspired for more information).
 
 ``` matlab
-%% Compute an ERP in Fieldtrip. Note that the covariance matrix needs to be calculated here for use in source estimation.
+%% Compute an ERP in FieldTrip. Note that the covariance matrix needs to be calculated here for use in source estimation.
 cfg                  = [];
 cfg.covariance       = 'yes';
 cfg.covariancewindow = [EEG.xmin 0]; % calculate the average of the covariance matrices
@@ -156,7 +156,7 @@ cfg.headmodel   = vol.vol;
 source          = ft_sourceanalysis(cfg, dataAvg);  % compute the source model
 ```
 
-Then plot the solution using Fieldtrip functions. Note that the
+Then plot the solution using FieldTrip functions. Note that the
 solutions are generated in a low-resolution head volume. It is not
 technically feasible to interpolate this volume onto a high-resolution
 MRI in (near) real-time -- online, it would require too many
@@ -230,7 +230,7 @@ realistic 3-D mesh in MNI space. Note that this requires that you choose
 the MNI BEM head model when selecting the head model in the DIPFIT
 settings menu. Different mesh versions are available using different
 resolutions. Refer to
-[this Fieldtrip
+[this FieldTrip
 tutorial](http://www.fieldtriptoolbox.org/template/sourcemodel/) for
 more information. Note that the code below assumes that you have run
 the code above.
@@ -278,7 +278,7 @@ cfg.opacitylim = [0 200];
 ft_sourceplot(cfg, source);
 ```
 
-![border\|500px](/assets/images/Fieldtrip_surface_solution2.png)
+![border\|500px](/assets/images/FieldTrip_surface_solution2.png)
 
 You may also visually check the alignment of the source model mesh with
 the BEM head model mesh by overlaying the BEM mesh on the image above,
@@ -290,11 +290,11 @@ hold on; ft_plot_mesh(vol.vol.bnd(2), 'facecolor', 'red', 'facealpha', 0.05, 'ed
 hold on; ft_plot_mesh(vol.vol.bnd(1), 'facecolor', 'red', 'facealpha', 0.05, 'edgecolor', 'none');
 ```
 
-![border\|500px](/assets/images/Fieldtrip_surface_solution_with_bem2.png)
+![border\|500px](/assets/images/FieldTrip_surface_solution_with_bem2.png)
 
 Click [here](http://sccn.ucsd.edu/eeglab/locatefile.php?file=eeglab_fieldtrip_script.m) to download the script above.
 
-Relevant Fieldtrip tutorials
+Relevant FieldTrip tutorials
 --------
 -   [How to build a source
     model](http://www.fieldtriptoolbox.org/tutorial/sourcemodel/) and

@@ -76,9 +76,9 @@ Then press the *Plot ERPs* button on the right column. The following plot pops u
 ![image not found](/assets/images/studystats06.png)
 
 Let's try a different method to correct for multiple comparisons. Click on the *STATS* button again:
-- Check the checkbox *Use Fieldtrip statistics*. 
+- Check the checkbox *Use FieldTrip statistics*. 
 - Select *montecarlo/permutation* as the type of statistics.
-- Select *Use cluster correction (CC)* to correct for multiple comparisons. Refer to the Fieldtrip documentation to tune the parameters for the cluster correction (use the defaults for now). 
+- Select *Use cluster correction (CC)* to correct for multiple comparisons. Refer to the FieldTrip documentation to tune the parameters for the cluster correction (use the defaults for now). 
 - Use *0.05* for the statistics threshold. 
 - Press *Ok*.
 
@@ -132,7 +132,7 @@ We now select the *STATS* button again and add check the *FDR* correction for mu
 
 ![image not found](/assets/images/studystats22.png)
 
-Let's try the cluster method to correct for multiple comparisons. Press the *STATS* button again. Check the checkbox to compute statistics only on the first variable (Fieldtrip cannot perform 2-way ANOVAs, only 1-way ANOVAs) and check the checkbox *Use Fieldtrip statistics*. Select *Montecarlo/permutation* as the type of statistics and *Use cluster correction (CC)* method to correct for multiple comparisons. Press *Ok*.
+Let's try the cluster method to correct for multiple comparisons. Press the *STATS* button again. Check the checkbox to compute statistics only on the first variable (FieldTrip cannot perform 2-way ANOVAs, only 1-way ANOVAs) and check the checkbox *Use FieldTrip statistics*. Select *Montecarlo/permutation* as the type of statistics and *Use cluster correction (CC)* method to correct for multiple comparisons. Press *Ok*.
 
 ![image not found](/assets/images/studystats23.png)
 

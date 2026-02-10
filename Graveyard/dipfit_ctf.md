@@ -68,4 +68,4 @@ dipole positions before comparing them. These operations need to be
 executed outside EEGLAB. A test set is available
 [here](http://sccn.ucsd.edu/eeglab/dipfittut/testmeg.zip) (thanks to Nicolas
 Robitaille for providing the test data). Simply load
-the test file and follow the instruction above (note that newer versions of Fieldtrip cannot process this file anymore, so use Fieldtrip versions up to 2016).
+the test file and follow the instruction above (note that newer versions of FieldTrip cannot process this file anymore, so use FieldTrip versions up to 2016).

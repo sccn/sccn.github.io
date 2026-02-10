@@ -81,7 +81,7 @@ Version 3.5
 - Now import subject information into EEGLAB
 
 Version 3.4
-- Fixes issues associated with reading data under Fieldtrip
+- Fixes issues associated with reading data under FieldTrip
 
 Version 3.3
 - Fix reading on Windows

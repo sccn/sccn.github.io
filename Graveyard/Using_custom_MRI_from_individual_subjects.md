@@ -136,7 +136,7 @@ noisy because of the renormalization process used in SPM2.
 
 If you use
 other software to perform the normalization, EEGLAB should be able to
-read the output image using the Fieldtrip function *read_fcdc_mri.m* to
+read the output image using the FieldTrip function *read_fcdc_mri.m* to
 import various MRI data formats.
 
 

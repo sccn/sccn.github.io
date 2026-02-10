@@ -10,7 +10,7 @@ To view the plugin source code, please visit the plugin's [GitHub repository](ht
 
 # What is ROIconnect?
 
-ROIconnect is a freely available open-source plugin to [EEGLAB](https://github.com/sccn/eeglab) for EEG data analysis. It allows you to perform linear and nonlinear functional connectivity analysis between regions of interest (ROIs) on source level.  The results can be visualized in 2-D and 3-D. ROIs are defined based on popular fMRI atlases, and source localization can be performed through LCMV beamforming or eLORETA. Connectivity analysis can be performed between all pairs of brain regions using Coherence-based methods, Granger Causality, Time-reversed Granger Causality, Multivariate Interaction Measure, Maximized Imaginary Coherency, Phase-amplitude coupling, and other methods. This plugin is compatible with Fieldtrip, Brainstorm and NFT head models.
+ROIconnect is a freely available open-source plugin to [EEGLAB](https://github.com/sccn/eeglab) for EEG data analysis. It allows you to perform linear and nonlinear functional connectivity analysis between regions of interest (ROIs) on source level.  The results can be visualized in 2-D and 3-D. ROIs are defined based on popular fMRI atlases, and source localization can be performed through LCMV beamforming or eLORETA. Connectivity analysis can be performed between all pairs of brain regions using Coherence-based methods, Granger Causality, Time-reversed Granger Causality, Multivariate Interaction Measure, Maximized Imaginary Coherency, Phase-amplitude coupling, and other methods. This plugin is compatible with FieldTrip, Brainstorm and NFT head models.
 
 📚 Check out the following papers to learn about recommended methods and pipelines for connectivity experiments:
 > Pellegrini, F., Delorme, A., Nikulin, V., & Haufe, S. (2023). Identifying good practices for detecting inter-regional linear functional connectivity from EEG. NeuroImage, 120218. [doi: 10.1016/j.neuroimage.2023.120218](https://doi.org/10.1016/j.neuroimage.2023.120218)
@@ -22,7 +22,7 @@ ROIconnect is a freely available open-source plugin to [EEGLAB](https://github.c
 You can choose to access the core functions from the EEGLAB GUI. Experienced users can access additional utilities from the command line. If you do decide to run a function from the command line, please refer to the respective documentation provided in the code. 
 
 
-Code developed by Tien Dung Nguyen, Franziska Pellegrini, and Stefan Haufe, with EEGLAB interface, coregistration, 3-D visualization, and Fieldtrip integration performed by Arnaud Delorme.
+Code developed by Tien Dung Nguyen, Franziska Pellegrini, and Stefan Haufe, with EEGLAB interface, coregistration, 3-D visualization, and FieldTrip integration performed by Arnaud Delorme.
 
 # Installation using EEGLAB plugin manager
 

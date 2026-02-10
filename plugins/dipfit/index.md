@@ -37,7 +37,7 @@ v5.1
 
 v5.0
 - Adding MEG support
-- Adding custom Fieldtrip model support
+- Adding custom FieldTrip model support
 - Various optimizations
 
 v4.4
@@ -48,7 +48,7 @@ v4.4
 - Allow processing STUDY with no event
 
 v4.3
-- Fix Leadfield matrix error for file not found and issue with Fieldtrip conversion
+- Fix Leadfield matrix error for file not found and issue with FieldTrip conversion
 
 v4.2
 - Reverting to using old file to avoid MNI coordinate conversion conflict
@@ -84,5 +84,5 @@ v3.0
 - Adding support for eLoreta
 
 v2.0
-- Now uses Fieldtrip instead of its own functions
+- Now uses FieldTrip instead of its own functions
 

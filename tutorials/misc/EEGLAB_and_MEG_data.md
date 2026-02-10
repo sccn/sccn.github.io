@@ -67,7 +67,7 @@ These commands change the size of the head and use a convex hull to determine th
 
 Source localization using MEG
 -----------------------------
-Unlike EEG, MEG source localization usually uses the subject anatomical MRI, and these are usually available. In this tutorial, we will use the popular [Henson-Wakeman dataset](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject, available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip). The MRI overlay plots shown below are from Fieldtrip. DIPFIT is an extension of EEGLAB that leverages Fieldtrip functions for equivalent dipole source model localization. This tutorial is very similar to [the one using EEG](../09_source/Custom_head_model.md) on the same data.
+Unlike EEG, MEG source localization usually uses the subject anatomical MRI, and these are usually available. In this tutorial, we will use the popular [Henson-Wakeman dataset](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject, available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip). The MRI overlay plots shown below are from FieldTrip. DIPFIT is an extension of EEGLAB that leverages FieldTrip functions for equivalent dipole source model localization. This tutorial is very similar to [the one using EEG](../09_source/Custom_head_model.md) on the same data.
 
 ## Aligning MRI with fiducials
 
@@ -85,11 +85,11 @@ This will first pop up the fiducials. The fiducials are automatically aligned wi
 
 ![Screen Shot 2022-12-11 at 3 37 03 PM](https://user-images.githubusercontent.com/1872705/206935920-b0f5e662-8571-40af-bba3-709eed80e306.png)
 
-Then the MRI is segmented into the brain, skull, and scalp, and meshes are extracted. It is important to note that it is better to use Freesurfer to segment MRI and create meshes, as it is a more precise (albeit more time-consuming process). The [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) uses the "bemcp" method, a module external to Fieldtrip, to extract meshes. Again, this is the most cross-platform compatible solution but might not be the best one.
+Then the MRI is segmented into the brain, skull, and scalp, and meshes are extracted. It is important to note that it is better to use Freesurfer to segment MRI and create meshes, as it is a more precise (albeit more time-consuming process). The [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) uses the "bemcp" method, a module external to FieldTrip, to extract meshes. Again, this is the most cross-platform compatible solution but might not be the best one.
 
 ![Screenshot 2025-10-28 at 13 54 28](https://github.com/user-attachments/assets/149060b8-ec2e-4c98-b8c6-26de5691ddd2)
 
-Once this is done, call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Head model and settings</span>. We can see that the head model, MRI, and associated coordinate landmarks are blanked out. The graphic interface also shows that we are editing a custom head model in the Fieldtrip format.
+Once this is done, call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Head model and settings</span>. We can see that the head model, MRI, and associated coordinate landmarks are blanked out. The graphic interface also shows that we are editing a custom head model in the FieldTrip format.
 
 ![Screen Shot 2022-12-11 at 7 43 48 PM](https://user-images.githubusercontent.com/1872705/206956553-435a3f9f-48db-4bff-b714-4fddc37aa3f6.png)
 
@@ -121,7 +121,7 @@ We have demonstrated MEG pipelines for the PracticalMEEG workshop. The code for 
 
 Other MEG resources
 --------------------
-MEG source localization in EEGLAB leverage Fieldtrip capabilities. Any head model designed in Fieldtrip may be used for source localization in EEGLAB. We invite you to check the other MATLAB-based MEG software tools below, which may be used along with EEGLAB from the MATLAB command line.
+MEG source localization in EEGLAB leverage FieldTrip capabilities. Any head model designed in FieldTrip may be used for source localization in EEGLAB. We invite you to check the other MATLAB-based MEG software tools below, which may be used along with EEGLAB from the MATLAB command line.
 
 -   <http://www.nitrc.org/projects/fieldtrip>
 -   <http://www.nitrc.org/projects/cuda_sphere_fwd>

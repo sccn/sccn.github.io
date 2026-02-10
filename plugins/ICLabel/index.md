@@ -53,7 +53,7 @@ You will find the category is "eye."
 ![](Viewprops_eye.png)
 The ICLabel plugin offers no built-in plotting or visualization; therefore, it is highly suggested that you also install the [Viewprops plug-in](https://sccn.ucsd.edu/wiki/Viewprops). It will produce figures like the one shown at the top of this article. See the [Installation](https://sccn.ucsd.edu/wiki/ICLabel#Installation) section for directions on how to acquire the [Viewprops plug-in](https://sccn.ucsd.edu/wiki/Viewprops) and see [its wiki page](https://sccn.ucsd.edu/wiki/Viewprops) for information on how to use it.
 
-### Run ICLabel in Fieldtrip
+### Run ICLabel in FieldTrip
 
 First install EEGLAB (it includes the ICLabel plugin by default). Then use the script below.
 

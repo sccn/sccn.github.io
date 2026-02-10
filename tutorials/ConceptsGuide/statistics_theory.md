@@ -206,7 +206,7 @@ There are several methods for correcting for multiple comparisons.
     corrects for the percentage of false positives (no more than 0.05% false positives with a 0.05 p-value threshold). This is different from Bonferroni and Holm-Bonferroni, which correct for the family-wise error rate (aiming to achieve no more false positives than when performing a single statistical test).  FDR and Holm-Bonferroni use the same procedure to assess significance, except for FDR, the gradient of p-value threshold between the Bonferroni corrected, and uncorrected p-value is linear (while it is inverse for Holm-Bonferroni).
 
 In EEGLAB, other methods are made available using statistics routines written
-for Fieldtrip and LIMO -- the max, cluster, and TFCE methods. These methods are now widely been used, but are only available when using
+for FieldTrip and LIMO -- the max, cluster, and TFCE methods. These methods are now widely been used, but are only available when using
     non-parametric (surrogate data-based statistics).
 
 -   <b>Max method:</b> At each iteration

@@ -212,7 +212,7 @@ We only include the most popular ones below.
 
 ### Statistics and signal processing
 
--   **[Fieldtrip-lite](https://github.com/fieldtrip/fieldtrip):** Fieldtrip is a stand-alone toolbox but may also act as an EEGLAB extension providing source localization methods and additional statistical methods.
+-   **[ Fieldtrip-lite](https://github.com/fieldtrip/fieldtrip):** FieldTrip is a stand-alone toolbox but may also act as an EEGLAB extension providing source localization methods and additional statistical methods.
 
 -   **[LIMO](https://github.com/LIMO-EEG-Toolbox/limo_tools):** The LInear MOdelling of MEEG data (LIMO MEEG) toolbox is an EEGLAB plugin dedicated to the statistical analysis of MEEG data.
 
