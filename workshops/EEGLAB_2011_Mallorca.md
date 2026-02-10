@@ -138,7 +138,7 @@ below).
 <span style="color: red">14:30 -- 15:15 – Equivalent dipole modeling [(PDF)](https://sccn.ucsd.edu/githubwiki/files/5_dipolemodeling.pdf)</span>
 
 
-<span style="color: darkblue">Co-registration of electrodes with head model - Dipole fitting using Fieldtrip's dipfit function - Co-registration for 3D headplots</span>
+<span style="color: darkblue">Co-registration of electrodes with head model - Dipole fitting using FieldTrip's dipfit function - Co-registration for 3D headplots</span>
 
 <!-- -->
 

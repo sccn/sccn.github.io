@@ -272,6 +272,6 @@ Below are other EEGLAB pipelines.
 * [GUI to build EEGLAB-based pipelines](https://github.com/fardinafdideh/EEG-Signal-Cleaning-Pipeline-Management-EEGLAB-based-) EEG Signal Cleaning Pipeline Management.
 * [RELAX](https://github.com/NeilwBailey/RELAX) a fully automated EEGLAB pre-processing plugin using ICA and ICLabel.
 
-Below is also a repository containing optimized EEGLAB, Fieldtrip, Brainstorm, and MNE pipelines. We scanned parameters to find the optimal artifact rejection thresholds for each software package. We will let you guess which pipeline performed best 😊.
+Below is also a repository containing optimized EEGLAB, FieldTrip, Brainstorm, and MNE pipelines. We scanned parameters to find the optimal artifact rejection thresholds for each software package. We will let you guess which pipeline performed best 😊.
 
 [https://github.com/sccn/eeg_pipelines](https://github.com/sccn/eeg_pipelines)

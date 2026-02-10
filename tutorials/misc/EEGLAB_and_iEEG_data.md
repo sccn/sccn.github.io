@@ -52,6 +52,6 @@ You can then use menu item <span style="color: brown">Plot > Channel ERPs > with
 ## Additional ressources
 
 Other relevant resources for processing iEEG data:
-- [Fieldtrip sEEG tutorial](https://www.fieldtriptoolbox.org/tutorial/human_ecog/)
+- [FieldTrip sEEG tutorial](https://www.fieldtriptoolbox.org/tutorial/human_ecog/)
 - [MIA](http://www.neurotrack.fr/mia/) toolbox. Also accessible as a Brainstorm plugin.
 - [RAVE](https://rave.wiki/) toolbox (R language).

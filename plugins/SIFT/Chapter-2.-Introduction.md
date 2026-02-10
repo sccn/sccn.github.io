@@ -122,7 +122,7 @@ Table 1 provides a list of several of these toolboxes, along with the
 website, release version, and license. Although these toolboxes provide
 a number of well-written and useful functions, most lack integration
 within a more comprehensive framework for EEG signal processing (the
-exceptions being Fieldtrip's routines, and TSA, which integrates into
+exceptions being FieldTrip's routines, and TSA, which integrates into
 the Biosig EEG/MEG processing suite). Furthermore, many of these may
 implement only one or two (often bivariate) connectivity measures, lack
 tools for sophisticated visualization, or lack robust statistics or
@@ -147,7 +147,7 @@ connectivity analysis in neural data.
 | Granger Causality Connectivity Analysis (GCCA) Toolbox           | Anil Seth        | <https://www.sussex.ac.uk/research/centres/sussex-centre-for-consciousness-science/resources/connectivity> | GPL 3   |
 | Time-Series Analysis (TSA) Toolbox                               | Alois Schloegl   | <https://sourceforge.net/p/octave/tsa/ci/default/tree/>                 | GPL 2   |
 | E-Connectome                                                     | Bin He           | <https://www.nitrc.org/projects/econnectome>                               | GPL 3   |
-| Fieldtrip                                                        | Robert Oosteveld |  <http://fieldtrip.fcdonders.nl/>                            | GPL 2   |
+| FieldTrip                                                        | Robert Oosteveld |  <http://fieldtrip.fcdonders.nl/>                            | GPL 2   |
 | Brain-System for Multivariate AutoRegressive Timeseries (BSMART) | Jie Cui          |  <http://www.brain-smart.org/>                               | --      |
 
 

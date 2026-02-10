@@ -23,19 +23,19 @@ For this we may use modern smartphones that include 3-D scanners
 
 We are further developing the EEGLAB function to assist in recording 3D electrode positions acquired by a 3D camera. 
 The [get_chanlocs plug-in](https://github.com/sccn/get_chanlocs/wiki),  based on functions
-implemented in [Fieldtrip](https://www.fieldtriptoolbox.org/tutorial/electrode/), assists the data analyst in ascertaining 3D electrode positions from a 3D scanned head image, thus relieving experiment participants of the need to sit through a long period of waiting while technicians use a magnetic or other stylus to record the electrode positions one by one, as was formerly necessary with the Polhemus system for example. 
+implemented in [FieldTrip](https://www.fieldtriptoolbox.org/tutorial/electrode/), assists the data analyst in ascertaining 3D electrode positions from a 3D scanned head image, thus relieving experiment participants of the need to sit through a long period of waiting while technicians use a magnetic or other stylus to record the electrode positions one by one, as was formerly necessary with the Polhemus system for example. 
 
 After 3-D scanning, you may use the [get_chanlocs](https://github.com/sccn/get_chanlocs/wiki) EEGLAB plugin to measure the same electrode positions (one by one) in the scanned head image. This requires a few minutes, and can be further reduced by first saving and thereafter reusing a montage template. It should be possible to use machine vision methods to further automate this process, a feature we hope to introduce during 2023.
 
 ![Screen Shot 2022-12-10 at 12 26 58 PM](https://user-images.githubusercontent.com/1872705/206874056-8a2e646e-aff5-4a8b-b342-292725f6ae88.png)
 
-If you have scanned electrode positions and wish to use them for source localization, you may follow the [DIPFIT settings](Model_Settings.md) tutorial. If you also have an MR head image for each participant, you may use EEGLAB's [Neuroelectromagnetic Forward head modeling Toolbox (NFT)](https://github.com/sccn/NFT) to create individual electrical head models that you can either import into DIPFIT or use NFT to fit either equivalent dipole or distributed cortical surface models of effective EEG sources identified in your data by independent component analysis (ICA). In this tutorial, however, we will use the Fieldtrip-related tools to build head models from MR head images.
+If you have scanned electrode positions and wish to use them for source localization, you may follow the [DIPFIT settings](Model_Settings.md) tutorial. If you also have an MR head image for each participant, you may use EEGLAB's [Neuroelectromagnetic Forward head modeling Toolbox (NFT)](https://github.com/sccn/NFT) to create individual electrical head models that you can either import into DIPFIT or use NFT to fit either equivalent dipole or distributed cortical surface models of effective EEG sources identified in your data by independent component analysis (ICA). In this tutorial, however, we will use the FieldTrip-related tools to build head models from MR head images.
 
 Custom head models
 =================
 If you have the scanned 3D electrode positions and also have subject MR head images, then you may build a custom electrical head model for each subject. This model specifies how potentials generated anywhere in the brain volume (by one or more theoretical 'tiny battery' current dipoles) are propagated by volume conduction to the scalp. Often, researchers remove the face of the subject from shared MR head images for privacy purposes. It is preferable to use the non-defaced MRI for electrical head modeling. First, it may not be possible to precisely measure the skull fiducial points in the MRI, as the nasion is often missing. Even if the position of the nasion is available, the structure of the upper face and facial bones of the subject influences volume conduction to the frontal scalp, so it is important to have it when extracting the scalp and skull surfaces. Nevertheless, we will use a defaced MRI in this tutorial -- here with the positions of the nasion and other fiducials provided separately by the data authors.
 
-In this tutorial, we will use the popular [Henson-Wakeman dataset](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject, available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip). The MRI overlay plots shown below are from Fieldtrip. DIPFIT is an extension of EEGLAB that leverages Fieldtrip functions for equivalent dipole source model localization.
+In this tutorial, we will use the popular [Henson-Wakeman dataset](https://nemar.org/dataexplorer/detail?dataset_id=ds000117). We will only use some files from the first subject, available [here](https://sccn.ucsd.edu/eeglab/download/ds000117_sub-01.zip). The MRI overlay plots shown below are from FieldTrip. DIPFIT is an extension of EEGLAB that leverages FieldTrip functions for equivalent dipole source model localization.
 
 ## Aligning MRI with fiducials
 
@@ -53,11 +53,11 @@ This will first pop up the fiducials. The fiducials are automatically aligned wi
 
 ![Screen Shot 2022-12-11 at 3 37 03 PM](https://user-images.githubusercontent.com/1872705/206935920-b0f5e662-8571-40af-bba3-709eed80e306.png)
 
-Then the MRI is segmented into the brain, skull, and scalp, and meshes are extracted. It is important to note that it is better to use Freesurfer to segment MRI and create meshes, as it is a more precise (albeit more time-consuming process). The other added advantage is that various Atlases are defined, which may be used with the EEGLAB [ROIconnect](https://github.com/arnodelorme/roiconnect) plug-in. The [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) uses the "bemcp" method, a module external to Fieldtrip, to extract meshes. Again, this might not be the best solution -- the default in Fieldtrip is to the "dipoli" method, although currently this only works on Linux and Windows. You may change these settings by changing the parameter of the [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) function when calling it from the command line.
+Then the MRI is segmented into the brain, skull, and scalp, and meshes are extracted. It is important to note that it is better to use Freesurfer to segment MRI and create meshes, as it is a more precise (albeit more time-consuming process). The other added advantage is that various Atlases are defined, which may be used with the EEGLAB [ROIconnect](https://github.com/arnodelorme/roiconnect) plug-in. The [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) uses the "bemcp" method, a module external to FieldTrip, to extract meshes. Again, this might not be the best solution -- the default in FieldTrip is to the "dipoli" method, although currently this only works on Linux and Windows. You may change these settings by changing the parameter of the [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) function when calling it from the command line.
 
 ![Screen Shot 2022-12-11 at 7 39 20 PM](https://user-images.githubusercontent.com/1872705/206955695-e1522efe-793e-4fcc-a3ed-4b8573db67cf.png)
 
-Once this is done, call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Head model and settings</span>. We can see that the head model, MRI, and associated coordinate landmarks are blanked out. The graphic interface also shows that we are editing a custom head model in the Fieldtrip format.
+Once this is done, call menu item <span style="color:brown">Tools > Source localization using DIPFIT > Head model and settings</span>. We can see that the head model, MRI, and associated coordinate landmarks are blanked out. The graphic interface also shows that we are editing a custom head model in the FieldTrip format.
 
 ![Screen Shot 2022-12-11 at 7 43 48 PM](https://user-images.githubusercontent.com/1872705/206956553-435a3f9f-48db-4bff-b714-4fddc37aa3f6.png)
 
@@ -71,7 +71,7 @@ Press 'OK' to close the co-registration graphic interface and then 'OK' again to
 
 <button onclick="showModal(this)" data-command="eeglabp = fileparts(which('eeglab.m')); open(fullfile(eeglabp, 'tutorial_scripts', 'source_reconstruction_custom_mri.m'));">Show MATLAB command</button>
 
-The script in this section assumes that you have installed the following plug-ins from the EEGLAB plug-in manager: *File-IO*, *Fieldtrip*, *Picard*, and *bids-matlab-tools*. We first assume you have defined the following file names for the raw data and anatomical MRI.
+The script in this section assumes that you have installed the following plug-ins from the EEGLAB plug-in manager: *File-IO*, *FieldTrip*, *Picard*, and *bids-matlab-tools*. We first assume you have defined the following file names for the raw data and anatomical MRI.
 
 ```matlab
 dataPath = 'xxx/sub-01';
@@ -98,7 +98,7 @@ EEG = pop_reref(EEG, []);
 EEG = pop_runica( EEG , 'picard', 'maxiter', 500, 'pca', 20); % NOTE: In practice, PCA dimension reduction prior to ICA decomposition is NOT recommended
 ```
 
-Finally, we import the MRI and the associated file with the coordinates of the fiducials in MRI space (the file containing fiducials is automatically detected and imported). Alternatively, [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) will accept fiducials. If you have the subject's MR head image and have not selected the fiducials, you may use the Fieldtrip function *ft_volumerealign.m* interactive method to provide estimates of their positions relative to the head image, and then provide them as input to the [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) function.
+Finally, we import the MRI and the associated file with the coordinates of the fiducials in MRI space (the file containing fiducials is automatically detected and imported). Alternatively, [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) will accept fiducials. If you have the subject's MR head image and have not selected the fiducials, you may use the FieldTrip function *ft_volumerealign.m* interactive method to provide estimates of their positions relative to the head image, and then provide them as input to the [pop_dipfit_headmodel.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_headmodel.m) function.
 
 ```matlab
 EEG = pop_dipfit_headmodel( EEG, filenameMRI, 'plotmesh', 'scalp');
@@ -107,7 +107,7 @@ EEG = pop_multifit(EEG, 1:10,'threshold', 100, 'dipplot','off');
 pop_dipplot(EEG, [], 'normlen', 'on');
 ```
 
-The first command creates the head model from the MRI, segmenting it using Fieldtrip functions, which itself uses SPM functions. The second command aligns EEG or MEG electrodes with the head model and MRI. This is based on aligning fiducials which are both defined for the MRI and for the sensors. The alignment is performed automatically above, but it is always a good idea to check that the alignnment is correct. You may use the *plotalignment* option of the [pop_dipfit_settings.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_settings.m) to check the alignment.
+The first command creates the head model from the MRI, segmenting it using FieldTrip functions, which itself uses SPM functions. The second command aligns EEG or MEG electrodes with the head model and MRI. This is based on aligning fiducials which are both defined for the MRI and for the sensors. The alignment is performed automatically above, but it is always a good idea to check that the alignnment is correct. You may use the *plotalignment* option of the [pop_dipfit_settings.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipfit_settings.m) to check the alignment.
 
 Now the hard part of aligning all head model and electrodes has been accomplished. Next, we perform dipole search as in regular DIPFIT by calling the [pop_multifit.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_multifit.m) and plot them using the [pop_dipplot.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=pop_dipplot.m). The plot below shows one of the component equivalent dipole.
 
@@ -117,7 +117,7 @@ It is also possible to define a source model to perform eLoreta or LCMV Beamform
 
 ## Other head models
 
-The EEGLAB functions interface Fieldtrip, so you may also use Fieldtrip and place a file containing the head model, the MR head image, and the fiducials (associated with the MR image) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinates transformed to match the MRI-modified coordinate frame. Any data format for the electrode locations that the [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) function can read is acceptable. The Fieldtrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data as in this tutorial.
+The EEGLAB functions interface FieldTrip, so you may also use FieldTrip and place a file containing the head model, the MR head image, and the fiducials (associated with the MR image) in the respective DIPFIT structures. Note that the file containing the fiducials must have their coordinates transformed to match the MRI-modified coordinate frame. Any data format for the electrode locations that the [readlocs.m](http://sccn.ucsd.edu/eeglab/locatefile.php?file=readlocs.m) function can read is acceptable. The FieldTrip tutorials used for this section are available here for [EEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_eeg_bem/), here for [MEG](https://www.fieldtriptoolbox.org/tutorial/headmodel_meg/). Another [MEG tutorial](https://www.fieldtriptoolbox.org/workshop/practicalmeeg2022/handson_anatomy/) uses the same data as in this tutorial.
 
 ```matlab
 EEG.dipfit.hdmfile = 'headmodel.mat';

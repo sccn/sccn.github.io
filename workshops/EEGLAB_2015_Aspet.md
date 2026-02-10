@@ -202,7 +202,7 @@ Workshop Program (with corresponding PDFs)
 
 
 
-<span style="color: orange">20:00 - 23:00 -- Fieldtrip hackathon, meet with Robert Oostenveld and his computer at the bar - ask anything you like </span>
+<span style="color: orange">20:00 - 23:00 -- FieldTrip hackathon, meet with Robert Oostenveld and his computer at the bar - ask anything you like </span>
 
 <u><span style="color: blue">Friday, May 29th</span></u>
 

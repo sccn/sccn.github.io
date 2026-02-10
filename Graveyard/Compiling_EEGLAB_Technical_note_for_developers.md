@@ -306,7 +306,7 @@ git clone --recurse-submodules https://github.com/sccn/eeglab.git
 
 2\. Install additional plugins (plugins that are already installed will
 be skipped). Some folders from the plug-ins clean_rawdata
-(**manopt/reference/m2html**) and Fieldtrip (**compat**,
+(**manopt/reference/m2html**) and FieldTrip (**compat**,
 **external/afni**, **external/spm8**, **external/spm12**,
 **external/gifti**, **external/eeglab** and **external/bemcp**) should
 be removed to avoid compilation issues. Do not use the GIT repo to
@@ -322,7 +322,7 @@ plugin_askinstall('bva-io', 'eegplugin_bva_io', true);
 plugin_askinstall('clean_rawdata', 'eegplugin_clean_rawdata', true);
 plugin_askinstall('dipfit', 'eegplugin_dipfit', true);
 plugin_askinstall('egilegacy', 'eegplugin_egilegacy', true);
-plugin_askinstall('Fieldtrip-lite', 'ft_defaults', true);
+plugin_askinstall(' Fieldtrip-lite', 'ft_defaults', true);
 plugin_askinstall('Fileio', 'ft_read_data', true);
 plugin_askinstall('firfilt', 'eegplugin_firfilt', true);
 plugin_askinstall('IClabel', 'eegplugin_iclabel', true);
@@ -339,7 +339,7 @@ CleanRawData_folder = fileparts(which('clean_rawdata.m'));
 rmdir(fullfile(CleanRawData_folder,'manopt','reference','m2html'), 's');
 
 % Removing FieldTrip files
-% For Fieldtrip remove folders compat, external/afni, external/spm8, external/spm12, external/gifti, external/eeglab, external/bemcp and external/npmk
+% For FieldTrip remove folders compat, external/afni, external/spm8, external/spm12, external/gifti, external/eeglab, external/bemcp and external/npmk
 FieldTrip_folder = fileparts(which('ft_defaults.m'));
 rmdir(fullfile(FieldTrip_folder,'compat'), 's');
 rmdir(fullfile(FieldTrip_folder,'external','afni'), 's');
@@ -384,6 +384,6 @@ next release.
 
 | Plugin name       | Comment                                                                                               |
 |-------------------|-------------------------------------------------------------------------------------------------------|
-| Biosig            | Not necessary because included in Fieldtrip                                                           |
+| Biosig            | Not necessary because included in FieldTrip                                                           |
 | MFFMatlabIO       | Issue with finding the JAR file at execution time; more debugging necessary before inclusion possible |
 | bids-matlab-tools | Not tested                                                                                            |

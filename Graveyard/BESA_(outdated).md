@@ -52,7 +52,7 @@ version of BESA we used to compare with Dipfit was BESA 3.0 which was
 likely release before 1998 since it was released before BESA 99 (in
 1999).
 
-Our implementation in Dipfit (and Fieldtrip) was programmed by Robert
+Our implementation in Dipfit (and FieldTrip) was programmed by Robert
 Oostenveld and is based on the Habilschrift (sort of advanced PhD thesis
 that only exists in Germany) from Bernd Lutkenhoner from 1992. That
 habilschrift is not available in pdf or online, but Robert Oostenveld

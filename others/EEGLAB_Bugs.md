@@ -69,8 +69,8 @@ to be recompiled, something you can sometimes do yourself - for more
 information, see below). There are mainly four modules in EEGLAB that use mex
 files.
 
--   Fieldtrip functions: If you get an error that some functions in the
-    Fieldtrip folder cannot be found, refer to the [Fieldtrip
+-   FieldTrip functions: If you get an error that some functions in the
+    FieldTrip folder cannot be found, refer to the [FieldTrip
     documentation](https://www.fieldtriptoolbox.org/faq/matlab_complains_about_a_missing_or_invalid_mex_file_what_should_i_do/)
     for how to recompile such functions.
 

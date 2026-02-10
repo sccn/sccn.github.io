@@ -363,8 +363,8 @@ localization may be performed using the <span style="color: brown">File
 ![](/assets/images/loreta1.png)
 
 Result for this component is shown
-below. Like other DIPFIT functions, eLoreta relies on Fieldtrip functions.
-Refer to the Fieldtrip *ft_sourceanalysis.m* function help message for more information on eLoreta source localization.
+below. Like other DIPFIT functions, eLoreta relies on FieldTrip functions.
+Refer to the FieldTrip *ft_sourceanalysis.m* function help message for more information on eLoreta source localization.
 
 ![](/assets/images/loreta2.png)
 

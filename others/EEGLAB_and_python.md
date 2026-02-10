@@ -84,7 +84,7 @@ sometimes hard to manipulate figures, impossible to zoom, etc...).
 Most people who are used to Matlab and tried
 Jupyter notebooks dislike Jupyter notebooks - then learn to live with the
 limitations if they need it for their work. By contrast, the less popular [Spyder IDE](https://www.spyder-ide.org/) is a decent equivalent of the MATLAB graphical interface and should feel more familiar. 
--   **Lack of features.** MEEG software packages on MATLAB are mainly EEGLAB, Fieldtrip, and
+-   **Lack of features.** MEEG software packages on MATLAB are mainly EEGLAB, FieldTrip, and
     Brainstorm. MEEG software on Python is MNE which is more tailored to MEG users than EEG users.
     The MATLAB suite of available software is currently more mature than
     the Python one, which is a good reason to stick to MATLAB. EEGLAB has 32 plugins for automated artifact rejections. MNE has one (autoreject).

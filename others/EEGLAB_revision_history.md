@@ -118,7 +118,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **New feature**: Limit the number of displayed datasets to speed up display when processing more than 200 datasets.
 - **New feature**: Change all function headers for better MATLAB interoperability (capitalize all function names, etc...).
 - **Interoperability**: New function brainstorm2eeglab.m to import Brainstorm data epochs.
-- **Interoperability**: Improved function fieldtrip2eeglab.m to convert Fieldtrip data structures. Update to pop_fileio to import MEG metadata.
+- **Interoperability**: Improved function fieldtrip2eeglab.m to convert FieldTrip data structures. Update to pop_fileio to import MEG metadata.
 - **Interoperability**: More command-line options to import files using BIOSIG.
 - **Bug fix**: Better handling of boundary events (especially the ones at the beginning and end of the data).
 - **Bug fix**: Better detection when a dataset is modified by the user in the global workspace.
@@ -135,7 +135,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Version statistics**: 104 files changed, 4,411 insertions, 421 deletions.
 - **Major interoperability change**: Allow using event type -99 for discontinuities and improve ERPLAB compatibility (20 functions modified). The default is still to use 'boundary' for event boundary, but the default can be changed in the EEGLAB preferences when processing numerical event types.
 - **Interoperability**: Added 4 new parameters to import data with BIOSIG toolbox, in particular for EDF and BDF files.
-- **Interoperability**: Increased compatibility for Fieldtrip dataset conversion back and forth, in particular for electrode coordinates.
+- **Interoperability**: Increased compatibility for FieldTrip dataset conversion back and forth, in particular for electrode coordinates.
 - **Interoperability**: Fix processing data from multiple sessions for LIMO.
 - **Group analysis**: Allow fusing channel rejection across datasets of the same subject and session.
 - **Bug fix**: Fix concatenating datasets of the same size.
@@ -153,7 +153,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Bug fix**: Fix study issue when parallel toolbox is absent (GCP error)
 - **Bug fix**: Fix rare bug when writing two files for an EEGLAB dataset (old default; the new default since 2021 is to write a single .set file)
 - **Bug fix**: Fix plotting ERPimage for ICA component clusters
-- **Interoperability**: Improved Fieldtrip bidirectional conversion for data trials
+- **Interoperability**: Improved FieldTrip bidirectional conversion for data trials
 - **Interoperability**: Improved LIMO compatibility issues when processing a study with multiple sessions
 - **Speed increase**: Speed up IDing user profile and speed up eeg_checkset by 2 orders of magnitude
 - **EDF files**: Exporting EDF files now use a common limit for all channels; fix importing channel labels with EEG prefix in EDF files
@@ -188,7 +188,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 - **Channel selection**: Now allows selecting channel subsets by label in all GUIs.
 - **Channel location**: Now using the BEM-model channel scalp locations as the default for looking up channel locations by labels (instead of using the BESA spherical head model)
 - **Plug-in support**: Now allowing plug-ins to be placed in the *plugins* subfolder of the current Matlab path
-- **Interoperability**: Improved support for Matlab 2020 versions and for Octave, Fieldtrip, and LIMO
+- **Interoperability**: Improved support for Matlab 2020 versions and for Octave, FieldTrip, and LIMO
 - **Menu structure**: Now hiding a rarely used menu item to compare datasets by default
 - Use this [Github link](https://github.com/sccn/eeglab/compare/eeglab2020.0..eeglab2020.1) to see all changes compared to the previous EEGLAB version.
 

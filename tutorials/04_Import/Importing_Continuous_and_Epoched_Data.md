@@ -26,7 +26,7 @@ Four steps to easily import continuous raw data files
 First, if you have a raw EEG data file, determine the file format (for files with extension .cnt might be Neuroscan or ANT raw files, which are two different formats). Then follow these four steps.
 1. Look if a menu item is available in <span style="color: brown">File → Using EEGLAB functions and plugins</span>. If it does, select the menu and import the file.
 
-2. Use menu item <span style="color: brown">File → Using the File-IO interface</span>. EEGLAB might install the File-IO plugin if you do not have it installed already. If the function does not return an error, your file will be imported. File-IO is a Fieldtrip module that imports a variety of data formats. Refer to the [File-IO documentation](https://www.fieldtriptoolbox.org/development/module/fileio/) for more information. 
+2. Use menu item <span style="color: brown">File → Using the File-IO interface</span>. EEGLAB might install the File-IO plugin if you do not have it installed already. If the function does not return an error, your file will be imported. File-IO is a FieldTrip module that imports a variety of data formats. Refer to the [File-IO documentation](https://www.fieldtriptoolbox.org/development/module/fileio/) for more information. 
 
 3. Use menu item <span style="color: brown">File → Using the BIOSIG interface</span>. The Biosig toolbox ([biosig.sf.net](http://biosig.sf.net)) contains
 links to functions to read other EEG data formats in MATLAB. EEGLAB might install the BIOSIG plugin if you do not have it installed already. If the function does not return an error, your file will be imported.

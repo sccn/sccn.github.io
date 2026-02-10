@@ -540,7 +540,7 @@ ans =
     {820×61 double}
 ```
 
-The code snippet below performs correction for multiple comparisons using the cluster method available in Fieldtrip.
+The code snippet below performs correction for multiple comparisons using the cluster method available in FieldTrip.
 
 ```matlab
 std_stat(erpdata, 'condstats', 'on', 'fieldtripmcorrect', 'cluster', 'fieldtripmethod', 'montecarlo', 'mode', 'fieldtrip')

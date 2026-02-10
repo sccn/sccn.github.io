@@ -32,7 +32,7 @@ Other type of documentation are listed below.
 -    [EEGLAB reference articles - Please cite](/others/EEGLAB_References.html)
 -    [Quick ICA Component Rejection Tutorial](/tutorials/misc/Quick_Tutorial_on_Rejection.html)
 -    [Using EEGLAB vs. Commercial EEG Software](/others/EEGLAB_vs_Commercial_EEG_Software.html)
--    [Working with EEGLAB and Fieldtrip](/others/EEGLAB_and_Fieldtrip.html)
+-    [Working with EEGLAB and FieldTrip](/others/EEGLAB_and_FieldTrip.html)
 -    [Using EEGLAB on open-source Octave](/others/Running_EEGLAB_on_Octave.html)
 -    [Using EEGLAB on high performance computing resources](/others/EEGLAB_and_high_performance_computing.html)
 -    [EEGLAB on MATLAB versus Python](/others/EEGLAB_and_python.html)
