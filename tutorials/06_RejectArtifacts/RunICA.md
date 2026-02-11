@@ -401,7 +401,7 @@ case, the user should manually reduce the number of components. If the ICA decom
 For example, when using 64 channels, enter "'pca', 63" in the option
 edit box. If you do not do this, the activity of one of the
 components that contributes the most to the data might be duplicated (as explained
-in the previous section), and you will not be able to use the ICA decomposition. Note that because of small numerical innacuracies inherent to digital signal processing, <span style="color: red">we recommend people compute ICA, then compute average reference after ICA</span> (see this [paper](https://www.frontiersin.org/articles/10.3389/frsip.2023.1064138/full)).
+in the previous section), and you will not be able to use the ICA decomposition.
 
 Issues associated with aggressive automated artifact removal before ICA
 ---------------------------------------
@@ -435,6 +435,10 @@ concatenated datasets will only tend to be used more often during
 training. So the epoch start
 time should not be before the stop time of the previous epoch, and the stop
 time should not be after the start time of the next epoch.
+
+Re-referencing the data after ICA
+---------------------------------------
+In general, re-referencing is best performed before running ICA and then left unchanged afterward. ICA learns a spatial unmixing model that is specific to the reference used during training. Changing the reference after decomposition applies a linear transform to the channel data that is inconsistent with the learned unmixing matrix. Althought the transformation is also applied to the ICA decomposition, the ICA activations may no longer strictly represent independent sources. In practice, this can degrade component interpretability and may introduce numerical issues, especially when the new reference reduces data rank, as occurs with average reference. For these reasons, EEGLAB will warn you against re-referencing after ICA. If a different reference is required for downstream analysis, the recommended approach is to apply that reference before ICA and recompute the decomposition so that the weights remain valid for the transformed data.
 
 Automated detection of artifactual ICA components
 ==========================
