@@ -34,7 +34,7 @@ have failed will be returned. For example, if bugs have crept into two
 functions 'decompresserpss' and 'pop_epoch', the 'runlocal' output might
 be:
 
-```matlab
+```
 function /Users/arno/eeglab-testcases/trunk/unittesting_binary/pop_read_erpss/test_pop_read_erpss.m
     msg Error using ==> read_erpss at 245
  decompresserpss function error (see message above)
