@@ -17,6 +17,25 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 ## EEGLAB version 2025.1.0
 
 - Issue date: 9/26/2025; GIT tag: 2025.1.0
+- **Version statistics**: 25 files changed with 1102 additions and 62 deletions.
+- **Summary of changes:** This release focuses on improved reproducibility across MATLAB and Python workflows, expanded STUDY level functionality, and robustness fixes across channel handling, visualization, and plugin infrastructure. Key updates include deterministic behavior when using Python random seeds through EEGPREP, new STUDY utilities for run merging, enhanced support for multi dataset operations, and broader compatibility in plotting, channel location import, and BIDS based pipelines including EMG data.
+- **AI guidance:** Added a new CLAUDE.md file to guide AI assisted use of EEGLAB.
+- **Plugin install:** Fixed plugin_askinstall.m to improve plugin installation reliability.
+- **Channel events:** Updated pop_chanevent.m to support event extraction across multiple datasets.
+- **Time frequency:** Added a new button in pop_newtimef.m to compute the number of cycles.
+- **Channel selection:** Updated pop_select.m to ensure selected channels are valid.
+- **Topoplot scaling:** Fixed pop_topoplot.m behavior when head size differs from 85 mm.
+- **Chanloc import:** Improved readeetacklocs.m to robustly read different channel location file formats.
+- **ICA reproducibility:** Updated runica.m to improve compatibility with Python random seed reproducibility when using EEGPREP.
+- **STUDY plotting:** Fixed pop_chanplot.m at the STUDY level to better detect files on disk.
+- **Run merging:** Added std_mergeruns.m to merge runs at the STUDY level.
+- **BIDS support:** Updated the EEG BIDS plugin for EMG compatibility and additional pipeline fixes.
+- **Data cleaning:** Fixed clean_rawdata to ensure Python random seed reproducibility when using EEGPREP.
+- Use this [Github link](https://github.com/sccn/eeglab/compare/2025.1.0..2026.0.0) to see all changes compared to the previous EEGLAB version.
+
+## EEGLAB version 2025.1.0
+
+- Issue date: 9/26/2025; GIT tag: 2025.1.0
 - **Version statistics**: 39 files changed with 862 additions and 551 deletions.
 - **Summary of changes:** EEGLAB 2025.1.0 introduces broad compatibility updates for MATLAB 2025, including fixes in eegplot rendering, font scaling, pophelp modernization, and automatic renderer adjustments to prevent darkened figures on Windows. It also corrects the representation of two-way ANOVA designs in STUDY functions, fixing factor ordering, labeling, and p-value mapping for more accurate visualization of 2×2 designs.
 - **MATLAB compatibility:** MATLAB 2025 visual adjustments in many functions, including eegplot, to decrease font size and ensure visibility.  
