@@ -16,7 +16,7 @@ Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this na
 
 ## EEGLAB version 2026.0.0
 
-- Issue date: TBD; GIT tag: 2026.0.0
+- Issue date: March 2, 2026; GIT tag: 2026.0.0
 - **Version statistics**: 25 files changed with 1102 additions and 62 deletions.
 - **Summary of changes:** This release focuses on improved reproducibility across MATLAB and Python workflows, expanded STUDY level functionality, and robustness fixes across channel handling, visualization, and plugin infrastructure. Key updates include deterministic behavior when using Python random seeds through EEGPREP, new STUDY utilities for run merging, enhanced support for multi dataset operations, and broader compatibility in plotting, channel location import, and BIDS based pipelines including EMG data.
 - **AI guidance:** Added a new CLAUDE.md file to guide AI assisted use of EEGLAB.
