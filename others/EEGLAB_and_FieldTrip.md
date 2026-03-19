@@ -212,7 +212,7 @@ processing. Making your FieldTrip code available as an EEGLAB plugin
 (there are more than 120 plugins to date) will make it visible to the
 EEGLAB community. 
 
-You can submit a plugin on this [web page](https://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php) and,
+You can submit a plugin on this [web page](https://sccn.ucsd.edu/eeglab/plugin_uploader2/upload_form.php) and,
 once approved, it becomes instantaneously visible by all EEGLAB users
 and available directly in the EEGLAB graphic interface (according to our
 statistics on Mixpanel in 2019, 150,000 to 200,000 EEGLAB sessions are

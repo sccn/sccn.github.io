@@ -33,7 +33,7 @@ plugins provided below is the same as the list of plugins available
 through the EEGLAB plugin manager of the corresponding EEGLAB version.
 
 -   [See the current list of plugins for EEGLAB 2019.1 and later
-    versions](https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php)
+    versions](https://sccn.ucsd.edu/eeglab/plugin_uploader2/plugin_list_all.php)
 -   [See the list of plugins for EEGLAB
     2019.0](https://sccn.ucsd.edu/wiki/Plugin_list_all) (plugins on this page are no
     longer updated)
@@ -75,15 +75,15 @@ EEGLAB](/tutorials/contribute/) to create EEGLAB compatible code.
 
 Then, you may add your extension to the list above so that EEGLAB users can
 download it automatically from within EEGLAB. To do this, use [this
-form](http://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php). If
+form](http://sccn.ucsd.edu/eeglab/plugin_uploader2/upload_form.php). If
 you want to upload a new version of your plugin, you can use 
-[this simplified form](http://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).
+[this simplified form](http://sccn.ucsd.edu/eeglab/plugin_uploader2/version_update.php).
 
 Administrators, these are the maintenance pages to accept [Pending
 plugin
-requests](https://sccn.ucsd.edu/eeglab/plugin_uploader/protected/pending_requests.php)
+requests](https://sccn.ucsd.edu/eeglab/plugin_uploader2/protected/pending_requests.php)
 and [Edit plugin
-information](https://sccn.ucsd.edu/eeglab/plugin_uploader/protected/edit_plugin.php).
+information](https://sccn.ucsd.edu/eeglab/plugin_uploader2/protected/edit_plugin.php).
 
 To access old versions of a plugin / extension
 ------------------------------------------------------
