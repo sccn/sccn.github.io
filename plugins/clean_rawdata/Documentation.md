@@ -69,7 +69,7 @@ Download
 ASR is implemented in an EEGLAB plugin clean_rawdata(), which you can
 download and install via EEGLAB plugin manager (from EEGLAB main GUI).
 Alternatively, you can download it manually from [this
-page](http://sccn.ucsd.edu/eeglab/plugin_uploader2/plugin_list_all.php),
+page](http://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php),
 unzip it, and locate the folder under eeglab/plugins.
 
 ### Download ver 1.10 (old)

@@ -213,7 +213,7 @@ Download
 To download *get_chanlocs*, use the extension manager within EEGLAB.
 Alternatively, plug-ins are available for manual download from the
 [EEGLAB plug-in
-list](https://sccn.ucsd.edu/eeglab/plugin_uploader2/plugin_list_all.php).
+list](https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php).
 
 Revision History
 ----------------

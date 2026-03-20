@@ -575,9 +575,9 @@ adopting the default behaviors defined in the table above.
 
 You may then add your extension to the list above so that EEGLAB users can
 download it automatically from the EEGLAB plugin manager. To do this, use [this
-form](http://sccn.ucsd.edu/eeglab/plugin_uploader2/upload_form.php). If
+form](http://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php). If
 you want to upload a new version of your plugin, you can use 
-[this simplified form](http://sccn.ucsd.edu/eeglab/plugin_uploader2/version_update.php).
+[this simplified form](http://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).
 
 Assist with unmaintained plugins
 ------------------------
