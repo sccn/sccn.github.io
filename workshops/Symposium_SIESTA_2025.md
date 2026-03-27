@@ -2,7 +2,7 @@
 layout: default
 title: SIESTA Symposium 2025
 long_title: SIESTA Symposium 2025
-parent: Workshops
+parent: Past workshops
 ---
 ![toulouse](https://github.com/user-attachments/assets/e4f0aa48-d37a-4c58-913e-e48068f168da)
 
