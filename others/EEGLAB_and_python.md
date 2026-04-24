@@ -25,7 +25,7 @@ has fewer bugs.
 Below is the figure in an independent [2024 article](https://apertureneuro.org/article/116386-the-art-of-brainwaves-a-survey-on-event-related-potential-visualization-practices) showing the popularity of all software packages.
 ![image_eeglab](https://github.com/sccn/sccn.github.io/assets/1872705/4a2de7bc-ee1d-450f-8314-48d3294d54f4)
 
-See also this third-party [2023 report](https://doi.org/10.1016/j.neuri.2023.100154) and [2024 report](https://www.preprints.org/manuscript/202411.0750/v1), which compares EEGLAB citations with other EEG analysis software packages. 
+See also this third-party [2023 report](https://doi.org/10.1016/j.neuri.2023.100154), [2024 report](https://www.preprints.org/manuscript/202411.0750/v1), and [2026 report](https://journals.sagepub.com/doi/full/10.1177/15500594261428714) which compares EEGLAB citations with other EEG analysis software packages. 
 
 Major differences between MATLAB and Python
 -------------------------------------------
@@ -146,22 +146,10 @@ EEG = mne.io.read_epochs_eeglab('eeglab_data_epochs_ica.set')
 
 We do not advise these solutions as EEGLAB data structures are too complex to be passed on from MATLAB to Python. When executing the Python code, you will get an error "only 1xN and Nx1 char arrays can be returned from MATLAB" (which is not technically correct as many [different data types](https://www.mathworks.com/help/matlab/matlab_external/handle-data-returned-from-matlab-to-python.html) are handled). However, the EEGLAB EEG structure contains arrays of structures for events and channels and is not handled. This has been the case for at least four years as of 2024, with no improved support in sight. Look for unsupported data types on this [page](https://www.mathworks.com/help/matlab/matlab_external/handle-data-returned-from-matlab-to-python.html) (as of 2024, the website lists "structure arrays" and "cell arrays" as unsupported data types). Note that the Oct2Py interface described above handles these data types just fine. 
 
-Will EEGLAB ever run natively on Python?
-----------------------------------------
+### Can EEGLAB run on Python?
+[EEGPrep](https://eegprep.org/) is an automated Python package designed for the standardized preprocessing of human electroencephalogram data. It reproduces the default EEGLAB preprocessing pipeline (clean_rawdata, ICA, ICLabel) within a Python environment by explicitly converting EEGLAB-compatible data structures into a Python native dictionary. Dictionaries were chosen to facilitate user access and manipulation while enabling a direct mapping to EEGLAB structures. The conversion layer is designed to be lossless and reversible, allowing seamless import from EEGLAB .set files or BIDS datasets and export back into EEGLAB-compatible formats or standardized BIDS derivatives.
 
-For the foreseeable future, MATLAB will remain the platform on, which
-EEGLAB is developed and supported. MATLAB has a breadth of useful tools
-that are not yet matched by open source environments (e.g., no complex
-system to install libraries, good graphical support for different
-platforms, 3-D interactive graphics with transparency, powerful
-debugging tools, capacity to run native Java code), plus a wealth of
-available MATLAB toolboxes are handy, well known and well tested (e.g.,
-image processing toolbox, for correcting for multiple comparisons;
-signal processing toolbox, for spectral decompositions; optimization
-toolbox, for optimizing code; bioinformatics toolbox, useful for EEG
-classification; virtual reality toolbox, for the real-time 3-D rendering of
-EEG activity). Finally, the MATLAB compiler allows us to create a
-compiled version of EEGLAB that does not require the user to have MATLAB
--- MATLAB scripts can be run by [compiled
-EEGLAB](/others/Compiled_EEGLAB.html), although interactive sessions
-are not supported. 
+Crucially, EEGPrep enforces numerical equivalence between the MATLAB based EEGLAB pipeline and its Python implementation by validating each processing step under controlled conditions. Differences arising from floating point behavior, memory layout, and library level implementations are minimized through careful algorithmic alignment, resulting in agreement on the order of 1e−5 μV. This level of precision reflects not only the replication of preprocessing operations but also the strict preservation of data structure integrity throughout the pipeline. As a result, EEGPrep achieves both structural isomorphism and numerical reproducibility, enabling interoperable workflows across Python and MATLAB ecosystems without compromising scientific validity.
+
+In addition, EEGPrep provides a compatibility mode that allows direct invocation of EEGLAB functions from within Python by automatically launching a MATLAB or GNU Octave engine when required. This enables execution of native EEGLAB routines, including signal processing steps and visualization functions such as image and scalp map plotting, without requiring manual context switching. The interface transparently passes converted data structures between Python and the MATLAB or Octave runtime, preserving consistency with EEGLAB’s expected inputs and outputs. Graphical outputs generated by EEGLAB functions are supported in this mode, although the interactive EEGLAB graphical user interface itself is not available within the Python environment.
+
