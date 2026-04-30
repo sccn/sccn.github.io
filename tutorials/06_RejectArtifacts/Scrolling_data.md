@@ -176,25 +176,7 @@ There might be cases where one might want to reject portions of data surrounding
 No function or GUI is available for interpolating a single bad channel. However, you can run the simple script below after adjusting the time range of interest.
 
 ```matlab
-t1 = 12.30;   % seconds
-t2 = 12.85;   % seconds
-badChanLabel = 'Cz';
-
-badChan = find(strcmpi({EEG.chanlocs.labels}, badChanLabel));
-s1 = round(t1 * EEG.srate);
-s2 = round(t2 * EEG.srate);
-
-% Create a temporary copy with the bad channel removed
-EEG_tmp = EEG;
-EEG_tmp.data(badChan,:) = [];
-EEG_tmp.chanlocs(badChan) = [];
-EEG_tmp.nbchan = EEG_tmp.nbchan - 1;
-
-% Interpolate the removed channel over the whole temporary dataset
-EEG_interp = eeg_interp(EEG_tmp, EEG.chanlocs, 'spherical');
-
-% Replace only the bad time window in the original dataset
-EEG.data(badChan, s1:s2) = EEG_interp.data(badChan, s1:s2);
+EEGOUT = eeg_interp(EEG, {'Cz'}, 'spherical', [12.3 12.85]);
 
 % Then store the dataset
 EEG = eeg_checkset(EEG);
