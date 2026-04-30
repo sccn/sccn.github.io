@@ -173,7 +173,7 @@ There might be cases where one might want to reject portions of data surrounding
 
 ### Interpolating a single bad channel
 
-No function or GUI is available for interpolating a single bad channel. However, you can run the simple script below after adjusting the time range of interest.
+No function or GUI is available for interpolating a single bad channel. However, you can run the simple script below after adjusting the electrode(s) and time range of interest.
 
 ```matlab
 EEGOUT = eeg_interp(EEG, {'Cz'}, 'spherical', [12.3 12.85]);
