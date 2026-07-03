@@ -3,6 +3,11 @@
 Server-side file for the EEGLAB download flow. Not part of the Jekyll build
 (excluded in `_config.yml`); copy it manually to the `sccn.ucsd.edu` web root.
 
+```
+cd /home/arno/www/html/eeglab
+curl -O https://github.com/sccn/sccn.github.io/blob/master/copy_to_server/downloadeeglab.ph
+```
+
 ## Flow
 
 1. `https://eeglab.org/others/How_to_download_EEGLAB.html` — download form.
