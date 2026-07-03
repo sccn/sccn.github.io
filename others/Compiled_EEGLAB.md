@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Download EEGLAB compiled
-long_title: Download the compiled of EEGLAB 
+title: EEGLAB compiled version
+long_title: Download the compiled version of EEGLAB 
 parent: Download EEGLAB
 ---
 
