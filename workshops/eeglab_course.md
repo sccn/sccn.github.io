@@ -85,7 +85,7 @@ Instead, use the following command to clone the repository and pull its submodul
 git clone --recurse-submodules https://github.com/sccn/eeglab.git
 ```
 
-Or download from the [EEGLAB website](https://sccn.ucsd.edu/eeglab/download.php).
+Or download from the [EEGLAB website](/others/How_to_download_EEGLAB.html).
 
 ### Step 5 – Check that EEGLAB runs
 

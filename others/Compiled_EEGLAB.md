@@ -11,7 +11,7 @@ The compiled version of EEGLAB
 
 EEGLAB exists as a compiled binary for Mac, Windows, and Ubuntu and
 may be downloaded on the [EEGLAB download
-page](https://sccn.ucsd.edu/eeglab/download.php). The video below shows how to install the compiled version of EEGLAB.
+page](/others/How_to_download_EEGLAB.html). The video below shows how to install the compiled version of EEGLAB.
 
 <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/_F-5spN1FL4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> 
 
@@ -30,7 +30,7 @@ Installation
 Below are the instructions to install the MAC version. The Windows version follows the same procedure (although it is somewhat less complex towards the end, which is why we focus on the MAC version). Uncompress the archive and run the installer. 
 
 -   Download the ZIP file for the EEGLAB compiled version on the
-    [download page](http://sccn.ucsd.edu/eeglab/download.php) and
+    [download page](/others/How_to_download_EEGLAB.html) and
     uncompress it
 -   Uncompress the zip file and run the installation file.
 -   If, for some reason, the installation process fails, you may need to run it as an administrator

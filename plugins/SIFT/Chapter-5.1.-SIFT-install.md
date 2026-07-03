@@ -16,7 +16,7 @@ To **get started**, follow these steps:
 
 1\) Start MATLAB
 
-2\) [Download EEGLAB](https://sccn.ucsd.edu/eeglab/download.php). Add EEGLAB root folder to the path (**File -\> Set Path; Add
+2\) [Download EEGLAB](/others/How_to_download_EEGLAB.html). Add EEGLAB root folder to the path (**File -\> Set Path; Add
 Folder**)
 
 3\) Type `eeglab` at the command prompt

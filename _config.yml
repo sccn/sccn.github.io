@@ -62,6 +62,8 @@ search:
 exclude:
     - Graveyard
     - code
+    - temp
+    - copy_to_server
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

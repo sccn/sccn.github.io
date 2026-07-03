@@ -13,7 +13,7 @@ Download data used in the workshops and in tutorials
 You may download and uncompress the anonymized data
 used in the [online workshop](/workshops/Online_EEGLAB_Workshop) and EEGLAB tutorial below.
 
-- The [EEGLAB distribution](https://sccn.ucsd.edu/eeglab/download.php) contains EEGLAB tutorials datasets "eeglab_data.set" and "eeglab_data_epochs_ica.set". These files may be found in the "sample_data" folder.
+- The [EEGLAB distribution](/others/How_to_download_EEGLAB.html) contains EEGLAB tutorials datasets "eeglab_data.set" and "eeglab_data_epochs_ica.set". These files may be found in the "sample_data" folder.
 <blockquote>
 <details>
   <summary>Sample experiment description</summary>

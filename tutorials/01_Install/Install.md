@@ -10,7 +10,7 @@ nav_order: 1
 Installing and starting EEGLAB
 ==============================
 
-First, download [EEGLAB](https://sccn.ucsd.edu/eeglab/download.php),  
+First, download [EEGLAB](/others/How_to_download_EEGLAB.html),  
 which contains the tutorial dataset in the _sample_data_ subfolder of the EEGLAB distribution.  
 When you decompress EEGLAB, you will obtain a folder named "eeglabxxxx"  
 (note: the current version number 'xxxx' will vary).
