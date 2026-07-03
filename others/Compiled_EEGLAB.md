@@ -3,6 +3,7 @@ layout: default
 title: EEGLAB compiled version
 long_title: Download the compiled version of EEGLAB 
 parent: Download EEGLAB
+nav_order: 3
 ---
 
 The compiled version of EEGLAB

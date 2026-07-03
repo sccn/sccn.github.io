@@ -64,7 +64,8 @@
     	    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
   	{%- endif -%}
     {%- assign children_list = site.pages | where: "parent", item.title -%}
-    {% if children_list %}
+    {%- comment -%}Skip self-referential recursion when a page shares its parent's title{%- endcomment -%}
+    {% if children_list and item.title != item.parent %}
       {% include toc_nav_recursive.html nav=children_list %}
     {% endif %}
   {% endfor %}
