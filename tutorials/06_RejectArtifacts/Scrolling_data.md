@@ -170,3 +170,17 @@ One strategy to reject bad portions of data is to stack the data using the *Stac
 There might be cases where one might want to reject portions of data surrounding events of interest. For example, TMS pulses often saturate EEG amplifiers, and the data needing to be removed around these events. If this is the case, use the <span style="color: brown">Edit → Select data using events</span> menu item. Assuming your data contains events of the "TMS_pulse" *type* the option below will remove 2 seconds of data surrounding these events.
 
 ![Image:rm_event_tms_pulse.png](/assets/images/rm_event_tms_pulse.png)
+
+### Interpolating a single bad channel
+
+No function or GUI is available for interpolating a single bad channel. However, you can run the simple script below after adjusting the electrode(s) and time range of interest.
+
+```matlab
+EEGOUT = eeg_interp(EEG, {'Cz'}, 'spherical', [12.3 12.85]);
+
+% Then store the dataset
+EEG = eeg_checkset(EEG);
+ALLEEG = eeg_store(ALLEEG, EEG, CURRENTSET);
+eeglab redraw
+```
+

@@ -2,7 +2,7 @@
 layout: default
 title: EEGLAB 2025 Aspet
 long_title: EEGLAB 2025 Aspet workshop
-parent: Workshops
+parent: Past workshops
 ---
 
 <!--![Screen Shot 2023-03-06 at 7 40 14 AM](https://user-images.githubusercontent.com/1872705/223188423-e296a3e6-dd99-488b-b86d-1a6f8a8520e0.png)-->
