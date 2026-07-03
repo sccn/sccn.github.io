@@ -1,20 +1,18 @@
 <?php
 /******************************************************************************
-* EEGLAB download form handler (eeglab.org form -> this handler -> success page)
-* Safer PHP 5 compatible rewrite. Copy of eeglab.php with the exit page
-* pointed at the eeglab.org Download_Success page.
+* EEGLAB form handler, safer PHP 5 compatible rewrite
 ******************************************************************************/
 
-/* Production: do not display errors to the client (they are logged instead). */
-ini_set('display_errors', '0');
-ini_set('log_errors', '1');
+/* Temporary debugging. Remove or disable after testing. */
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 /* Configuration */
 $MESSAGE_FILE = '/var/local/eeglab/eeglablog.txt'; /* keep outside web root */
 $DEFAULT_EXIT_PAGE = 'https://eeglab.org/others/Download_Success.html';
-$ERROR_EMAIL = 'arno@sccn.ucsd.edu';
-$REPLY_TO_EMAIL = 'arno@salk.edu';
+$ERROR_EMAIL = 'arno@ucsd.edu';
+$REPLY_TO_EMAIL = 'arno@ucsd.edu';
 
 /* Helpers */
 
@@ -34,7 +32,7 @@ function send_error_email($subject, $details, $fromEmail, $errorEmail, $replyToE
 
 function fail_and_email($publicMessage, $internalMessage, $fromEmail, $errorEmail, $replyToEmail)
 {
-    send_error_email('downloadeeglab.php error', $internalMessage, $fromEmail, $errorEmail, $replyToEmail);
+    send_error_email('eeglab.php error', $internalMessage, $fromEmail, $errorEmail, $replyToEmail);
     header('Content-Type: text/plain; charset=UTF-8');
     echo $publicMessage;
     exit;
@@ -59,7 +57,6 @@ function normalize_post_value($value)
     }
     return trim((string)$value);
 }
-
 /* Only accept POST */
 if (!isset($_SERVER['REQUEST_METHOD']) || $_SERVER['REQUEST_METHOD'] !== 'POST') {
     header('HTTP/1.1 405 Method Not Allowed');
@@ -168,7 +165,7 @@ if ($email !== '') {
     if ($eegnews) {
         if (!@mail('eeglabnews-subscribe@sccn.ucsd.edu', 'Subscribe eeglabnews', '', $headers)) {
             send_error_email(
-                'downloadeeglab.php error',
+                'eeglab.php error',
                 'Failed to send eeglabnews subscription email for: ' . $email,
                 $email,
                 $ERROR_EMAIL,
@@ -180,7 +177,7 @@ if ($email !== '') {
     if ($eeglist) {
         if (!@mail('eeglablist-subscribe@sccn.ucsd.edu', 'Subscribe eeglablist', '', $headers)) {
             send_error_email(
-                'downloadeeglab.php error',
+                'eeglab.php error',
                 'Failed to send eeglablist subscription email for: ' . $email,
                 $email,
                 $ERROR_EMAIL,
@@ -195,3 +192,4 @@ header('Location: ' . $DEFAULT_EXIT_PAGE, true, 303);
 exit;
 
 ?>
+                                                                                                                            192,1         Bot
