@@ -2,7 +2,7 @@
 layout: default
 title: Two decades of EEGLAB
 long_title: The first two decades of EEGLAB
-parent: EEGLAB news
+parent: EEGLAB Newsletter
 ---
 The first two decades of EEGLAB
 ===
