@@ -29,6 +29,30 @@
   {% endif %}
   <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
 
+  <script>
+    // Make certain parent nav items open their main page even when the user clicks the
+    // expander arrow (which normally only toggles the submenu). Keyed by the parent's
+    // nav link path -> the page to open.
+    document.addEventListener('DOMContentLoaded', function () {
+      var MAP = {
+        '/others/newsletter.html': '/others/newsletter.html',   // EEGLAB Newsletter
+        '/others/': '/others/How_to_download_EEGLAB.html'        // Download EEGLAB
+      };
+      document.querySelectorAll('a.nav-list-link').forEach(function (link) {
+        var path;
+        try { path = new URL(link.getAttribute('href'), location.origin).pathname; }
+        catch (e) { return; }
+        var dest = MAP[path];
+        if (!dest) return;
+        var item = link.closest('.nav-list-item');
+        var exp = item && item.querySelector(':scope > .nav-list-expander');
+        if (exp) {
+          exp.addEventListener('click', function () { window.location.href = dest; });
+        }
+      });
+    });
+  </script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {% seo %}

@@ -3,6 +3,7 @@ layout: default
 title: Two decades of EEGLAB
 long_title: The first two decades of EEGLAB
 parent: EEGLAB Newsletter
+nav_order: 2
 ---
 The first two decades of EEGLAB
 ===
