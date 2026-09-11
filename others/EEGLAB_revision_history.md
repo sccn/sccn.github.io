@@ -14,6 +14,26 @@ Minor revisions are indicated using a second number; thus,
 There will usually be one or two releases per year. 
 Previous major EEGLAB versions (e.g., versions 13, 14, etc.) did not use this naming scheme and did observe a regular release schedule.
 
+## EEGLAB version 2026.1.0
+
+- Issue date: September 10, 2026; GIT tag: 2026.1.0
+- **Version statistics**: 31 files changed with 1282 additions and 498 deletions.
+- **Summary of changes:** This is a maintenance release. It improves robustness when batch processing groups of datasets, fixes handling of non integer event latencies, reduces memory usage when loading large datasets, and corrects several display issues in eegplot and pop_topoplot. It also adds GitHub Actions based regression testing and updated guidance for AI coding agents.
+- **Empty dataset handling:** pop_select.m, pop_selectevent.m, pop_rejepoch.m, and pop_eegthresh.m accept a new option to not error when all epochs are removed. This option is enabled automatically when processing multiple datasets, so batch processing no longer stops when one dataset ends up with no epochs.
+- **Event latencies:** Fixed non integer event latencies being coerced to integers in eeg_eegrej.m and epoch.m, which could shift boundary events and epoch extraction by half a sample.
+- **Memory:** eeg_getdatact.m now reads .fdt files directly in single precision when the single precision option is set, halving peak memory and speeding up loading of large datasets.
+- **Data scrolling:** eegplot.m and eegplotlegacy.m now shade event durations for events that started before the displayed window or span the whole window.
+- **Topoplot:** pop_topoplot.m fixes ERP map channel alignment when some channels lack locations (thanks Inna Amogolonova), and fixes component colorbar tick placement and axes targeting.
+- **Channel editing:** pop_chanedit.m no longer errors when looking up channel locations without the DIPFIT plugin, and gives an explicit message when a DIPFIT template file is requested without the plugin.
+- **Re-referencing:** pop_reref.m now stores the removed reference channel in EEG.chaninfo.nodatchans instead of EEG.chaninfo.removedchans, so the reference channel is no longer treated as a removed data channel during channel interpolation.
+- **Component removal:** pop_subcomp.m now records the keepflag argument in the dataset history.
+- **Automatic rejection:** Removed an unreachable branch in pop_autorej.m.
+- **Plugin install:** plugin_install.m creates the plugins folder when it is missing on fresh installs, and eeglab.m no longer errors at startup when the plugin list is empty.
+- **STUDY:** std_substudy.m no longer fails when channel groups have no setinds field.
+- **Development infrastructure:** New AGENTS.md file for AI coding agents (replacing the CLAUDE.md content), agent skills for fixing issues and authoring and reviewing pull requests, GitHub Actions workflows for MATLAB regression tests (tests moved to the eeglab_tests repository) and automated code review, and a new issue template for plugin submissions and updates.
+- **Plugins:** EEG-BIDS ignores hidden files when scanning events.tsv fields. clean_rawdata updates the bundled manopt library (new randomized trust regions solver and bug fixes).
+- Use this [Github link](https://github.com/sccn/eeglab/compare/2026.0.0..2026.1.0) to see all changes compared to the previous EEGLAB version.
+
 ## EEGLAB version 2026.0.0
 
 - Issue date: March 2, 2026; GIT tag: 2026.0.0
