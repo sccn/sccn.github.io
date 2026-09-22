@@ -22,8 +22,11 @@ choice as this ensures many problems people encounter have
 been solved - it also means that the code is probably more stable and
 has fewer bugs. 
 
-Below is the figure in an independent [2024 article](https://apertureneuro.org/article/116386-the-art-of-brainwaves-a-survey-on-event-related-potential-visualization-practices) showing the popularity of all software packages.
-![image_eeglab](https://github.com/sccn/sccn.github.io/assets/1872705/4a2de7bc-ee1d-450f-8314-48d3294d54f4)
+Below is an updated comparison of annual citations to the reference papers for EEGLAB, FieldTrip, Brainstorm, MNE, and ERPLAB from 2004 to 2026, following the comparison in an independent [2024 article](https://apertureneuro.org/article/116386-the-art-of-brainwaves-a-survey-on-event-related-potential-visualization-practices).
+
+![Annual citations to EEG software reference papers from 2004 to 2026, with incomplete 2026 counts marked separately](/assets/images/eeg_software_citations_2004_2026.png)
+
+Counts were retrieved from [OpenAlex](https://openalex.org/) on September 22, 2026. The 2026 counts are incomplete and should not be interpreted as annual declines. The original article used Web of Science, so historical counts differ. Citations to reference papers do not directly measure software usage. [Download the yearly citation data (CSV)](/assets/data/eeg_software_citations_2004_2026.csv).
 
 See also this third-party [2023 report](https://doi.org/10.1016/j.neuri.2023.100154), [2024 report](https://www.preprints.org/manuscript/202411.0750/v1), and [2026 report](https://journals.sagepub.com/doi/full/10.1177/15500594261428714) which compares EEGLAB citations with other EEG analysis software packages. 
 
