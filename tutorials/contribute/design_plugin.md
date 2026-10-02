@@ -573,11 +573,23 @@ adopting the default behaviors defined in the table above.
 
 ### Submitting your plugin
 
-You may then add your extension to the list above so that EEGLAB users can
-download it automatically from the EEGLAB plugin manager. To do this, use [this
-form](http://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php). If
-you want to upload a new version of your plugin, you can use 
-[this simplified form](http://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).
+Use the [new plugin submission form](https://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php)
+to upload your plugin ZIP and provide its description, contact details and
+documentation link. Use this form for new plugins or for a new release that also
+changes these details.
+
+For a new release of a plugin already in the [plugin catalog](https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php),
+use the [quick version update form](https://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).
+Only the existing plugin name, new version and ZIP file are required. The critical
+update checkbox and release notes are optional. The plugin name must match an
+existing catalog entry.
+
+New plugins and version updates require administrator approval before they become
+available through the EEGLAB plugin manager.
+
+To automate a release of an existing plugin, use the
+[version update API and Claude or Codex skill](https://sccn.ucsd.edu/eeglab/plugin_uploader/api/index.html).
+The API and website forms share a limit of one upload per minute across all IP addresses.
 
 Assist with unmaintained plugins
 ------------------------
