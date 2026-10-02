@@ -9,6 +9,12 @@ nav_order: 7
 
 Below is a list of plugins that have documentation copied from GitHub. Please note that this is only a small subset of all EEGLAB plugins, as not all plugin documentation is compatible with visualization and search functionalities on the EEGLAB website. The complete list of plugins can be found [here](https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php).
 
+Plugin authors can [submit a new plugin](https://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php)
+or [upload a new version of an existing plugin](https://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).
+Both require administrator approval. See the
+[submission instructions](/tutorials/contribute/design_plugin.html#submitting-your-plugin)
+for details.
+
 ## Import
 * [EEG-BIDS](/plugins/EEG-BIDS): Imports and export EEG data to the BIDS format
 * [NWB-io](/plugins/NWB-io): Import and export to the NWB format

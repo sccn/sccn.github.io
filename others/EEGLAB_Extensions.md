@@ -73,11 +73,15 @@ To contribute a new plugin
 See the simple instructions under [How to contribute to
 EEGLAB](/tutorials/contribute/) to create EEGLAB compatible code.
 
-Then, you may add your extension to the list above so that EEGLAB users can
-download it automatically from within EEGLAB. To do this, use [this
-form](http://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php). If
-you want to upload a new version of your plugin, you can use 
-[this simplified form](http://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).
+To share your plugin through the EEGLAB plugin manager, use the
+[new plugin submission form](https://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php).
+For a plugin already in the catalog, use the
+[quick version update form](https://sccn.ucsd.edu/eeglab/plugin_uploader/version_update.php).
+The quick form requires only the existing plugin name, new version and ZIP file.
+The critical update checkbox and release notes are optional. Both new plugins and
+version updates require administrator approval. See the
+[submission instructions](/tutorials/contribute/design_plugin.html#submitting-your-plugin)
+for details.
 
 Administrators, these are the maintenance pages to accept [Pending
 plugin

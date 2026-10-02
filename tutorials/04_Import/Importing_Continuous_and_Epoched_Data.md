@@ -173,5 +173,5 @@ importing specific data formats. You may search the list archive (and
 the rest of the EEGLAB web site) archive using Google and adding the keyword *eeglablist*.
 
 We are eager to add
-other data importing functions to EEGLAB, so please write a plugin and submit it on this [page](http://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php). We are also in contact with consultants that can create EEGLAB plugins to import unsupported data format, so feel free to contact us.
+other data importing functions to EEGLAB, so please write a plugin and submit it using the [new plugin submission form](https://sccn.ucsd.edu/eeglab/plugin_uploader/upload_form.php). We are also in contact with consultants that can create EEGLAB plugins to import unsupported data format, so feel free to contact us.
 
