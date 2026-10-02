@@ -587,6 +587,10 @@ existing catalog entry.
 New plugins and version updates require administrator approval before they become
 available through the EEGLAB plugin manager.
 
+To automate a release of an existing plugin, use the
+[version update API and Claude or Codex skill](https://sccn.ucsd.edu/eeglab/plugin_uploader/api/index.html).
+The API and website forms share a limit of one upload per minute across all IP addresses.
+
 Assist with unmaintained plugins
 ------------------------
 An extensive collection of plugins are not maintained anymore by their

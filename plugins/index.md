@@ -15,6 +15,9 @@ Both require administrator approval. See the
 [submission instructions](/tutorials/contribute/design_plugin.html#submitting-your-plugin)
 for details.
 
+For automated releases of existing plugins, see the
+[version update API and Claude or Codex skill](https://sccn.ucsd.edu/eeglab/plugin_uploader/api/index.html).
+
 ## Import
 * [EEG-BIDS](/plugins/EEG-BIDS): Imports and export EEG data to the BIDS format
 * [NWB-io](/plugins/NWB-io): Import and export to the NWB format

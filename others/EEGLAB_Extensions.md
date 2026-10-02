@@ -83,6 +83,9 @@ version updates require administrator approval. See the
 [submission instructions](/tutorials/contribute/design_plugin.html#submitting-your-plugin)
 for details.
 
+For automated releases of existing plugins, see the
+[version update API and Claude or Codex skill](https://sccn.ucsd.edu/eeglab/plugin_uploader/api/index.html).
+
 Administrators, these are the maintenance pages to accept [Pending
 plugin
 requests](https://sccn.ucsd.edu/eeglab/plugin_uploader/protected/pending_requests.php)
