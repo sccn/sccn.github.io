@@ -8,16 +8,6 @@ nav_order: 1
 Download EEGLAB
 ====
 
-<div style="color: #b00020; background-color: #fff3f3; border: 1px solid #b00020; padding: 12px 16px; margin: 20px 0; border-radius: 5px;">
-  <strong>⚠️ Temporary Download Notice</strong>
-  <p style="margin-bottom: 0;">
-    Due to a recently discovered PHP security vulnerability, direct EEGLAB downloads are temporarily unavailable.
-    For now, please install EEGLAB using Git by following the
-    <a href="https://github.com/sccn/eeglab">Git installation instructions</a>.
-    Normal downloads will resume soon. We apologize for the inconvenience.
-  </p>
-</div>
-
 Fill in the form below to download the latest stable version of EEGLAB. The rest of this page describes how to download the development version of EEGLAB, and is recommended for advanced EEGLAB users only. In the video, we outline the different options for running EEGLAB.
 
 <!-- Set the download cookie so the Download_Success page can be accessed after submitting -->
